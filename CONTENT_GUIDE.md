@@ -1,3 +1,5 @@
+> **현재 기준 (DATA-08-2 / Batch A, 2026-10-19): Schema4 / Content15 / minReader7 / UserProgress10.** 신규 初中級301어휘/602문장, 의미318/Note68. 아래 DEV/DATA 버전은 당시 이력이며 최신 추가 계약은 마지막 DATA-08-A 절과 `DATA08_PROGRESS.md`를 따릅니다.
+
 > **현재 기준 (DATA-07, 2026-10-06): schema4 / Content14 / reader7 / UserProgress10.** 아래 DEV/DATA별 과거 버전·당시 수량은 이력이며 현재 수량은 DATA_PROGRESS.md를 따른다. 최신 추가 정책은 문서 마지막 DATA-07 절.
 
 > DEV-14 (2026-10-05): 현재 상태는 PROJECT_STATUS.md 및 Docs/DEV14_REQUIREMENTS_AUDIT.md가 기준입니다. 아래 이전 단계 기록의 완료 표현은 native 출시 검증을 의미하지 않습니다. Content13/Schema4/UserProgress10 유지.
@@ -995,3 +997,22 @@ sh Tools/verify.sh --portable
 ```
 
 위 명령은 DATA-07 재현용입니다. 다음 DATA에서는 이전DB 경로를현재Content14 snapshot으로 바꾸고 새 ContentVersion을 사용합니다. Mac Release/XCTest 절차는 RELEASE_CHECKLIST.md를 따릅니다.
+
+## DATA-08-A — 初中級 Batch A 제작·검수 계약
+
+- Runtime은 `Content/production.json` → 기존 ContentBuilder → `Resources/content.sqlite` 하나다. `data08-a-ids.json`은 발급 UUID/검수 색인이다. 원본 밖의 초안이나 임시 DB를 앱에서 읽지 않는다.
+- Content14 원본 DB를 `Tests/Fixtures/content-v14-production.sqlite`에 보존하고 Content15로 배포했다. 다음 콘텐츠 배포는 실제 직전 Content15를 별도 보존한 후16 이상으로 증가시킨다. 데이터 확장만으로 Schema4/Reader7/UserProgress10을 바꾸지 않는다.
+- Stable ID/created_at/기존 본문/sort_key/learning_order/사용자 membership을 유지한다. 새 편집순서는 `힣:data08:a:NNNN`, priority601이며 빈도 순위가 아니다. 변경 관계의 기존 끝점23개 revision+1 목록은 `Content/data08-a-revised-ids.json`이다.
+- 의미별 예문을 연결한다. 다의어17개는 각2meaning, 모든 신규 어휘는2문장이다. `meanings.usage_ja`의 Collocation과68개 Note는 검수용 본문과 같다. 이미 같은 문장은 기존 ID를 재사용하며 신규량을 관계 수로 계산하지 않는다.
+- 들르다는 none(으 탈락), 서투르다/어지르다는 reu, 너그럽다/얄밉다 등은 b, 하다형은 other다. predicate/expression의 has_batchim은 null이다. 맞추다(合わせる/照合する)와 맞히다(正解する)를 구분한다.
+- 기존 Grammar의6예문 조회 한도를 넘기는 연결은 채택하지 않았다. 신규14연결은 기존 예문 노출을 모두 보존하며 실제 SQL로 조회된다. runtime을 바꾸어 콘텐츠 개수를 맞추지 않는다.
+- 검수는 작성 assistant의 전 항목 재독이며 독립 전문가 승인이 아니다. `Docs/DATA08_A_REVIEW.md`와 전체 카탈로그를 참고한다. 한국어/일본어 품질과 실기기 음성은 자동 Validator가 보증하지 않는다.
+
+현재 배포 재현 명령(프로젝트 루트, 출력은 임시 경로):
+
+```sh
+python3 Tools/ContentBuilder/build_content.py Content/production.json /tmp/data08-a.sqlite --production --previous Tests/Fixtures/content-v14-production.sqlite --report /tmp/data08-a-report.json
+sh Tools/verify.sh --portable
+```
+
+이 명령은 DATA-08-A/Content15 재현용이다. 다음 배포에 v14를 그대로 previous로 쓰지 않는다. Validator0errors/기존10warnings, portable243PASS. native127개·iOS 빌드·실기기는 미실행이며 기존 release gate를 유지한다.

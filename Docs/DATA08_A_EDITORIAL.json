@@ -1,0 +1,5126 @@
+{
+  "batch": "DATA-08-A",
+  "reviewer": "assistant (same author; independent expert review not performed)",
+  "vocabulary_reviewed": 301,
+  "examples_reviewed": 602,
+  "notes_reviewed": 68,
+  "records": [
+    {
+      "id": "50dcdbd2-8bc5-4f74-b758-7603a6f2f2e9",
+      "headword": "교류하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "87982cc3efcd2ba8d2aa5057873db0956707f5289a1d3d9a6ab25f8be122ecc1"
+    },
+    {
+      "id": "0040d1ea-7851-42e9-85d1-15a72f545733",
+      "headword": "존중하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "bac5df9ab165391d5f8d7fe4b8aaa9eacba953acfa9986753e5bd5c02f7b4c95"
+    },
+    {
+      "id": "ccb1c4e4-014f-4687-9c48-74a56cfb08e1",
+      "headword": "신뢰하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "01d692133c198b87acc957e638e2386e88b674f43246da45c92cef95577b57c6"
+    },
+    {
+      "id": "ce7a0d8a-d80c-43a9-bbc2-ff407ba79df2",
+      "headword": "공감하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "f5da669bef3616f4365714f73c17641e6beef92b195f88d88abf4f68eeddde8e"
+    },
+    {
+      "id": "f7e8c9d0-5fa1-4ed6-95c4-41e7e966d10b",
+      "headword": "의심하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "55d16cd5c128fd2af42987ffb0023437e05f40e18af541bc29c5e5872b321250"
+    },
+    {
+      "id": "85bd423e-4236-4cf8-bc3b-6ffbad71e4a4",
+      "headword": "의존하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "5273b19322d9425e362c0d541b4c02bbf0ac53bf1faf528119ff6a6e0831da76"
+    },
+    {
+      "id": "a27c4f2f-b8f7-4542-9052-c988a06c9c49",
+      "headword": "대하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "dbbd89561c16f6a6195bc9940bbdafa804ebdc4154097e16d42955a73d82c6c7"
+    },
+    {
+      "id": "852710a4-3727-4866-bf70-4f60c55b0140",
+      "headword": "다가가다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "bbcb0e60517e06aa247b75c0e1df812ed2ce50bd8e33e4060d059185da041ccb"
+    },
+    {
+      "id": "8a79df8e-e480-4b15-a6e9-99e043a387d3",
+      "headword": "다가오다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "07d7e3886eeb6d6148c8e1b16929b0163a99e289e24358d56766c9dc2defd1d9"
+    },
+    {
+      "id": "33dfef7b-9ec1-4110-8297-b5798a4e4aa4",
+      "headword": "소외되다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "5b4024344029e91699ef419704dcb11bdacc4d7da8abbfef813884eb75b8c643"
+    },
+    {
+      "id": "18714d46-7616-4bdd-89df-84faa88a2bf2",
+      "headword": "어색해지다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "9ac21061f97cc09e8cf89c396b00c24a3621797dfd5295a389e681309ed8b7e5"
+    },
+    {
+      "id": "9a5f48d5-7400-4b50-b08a-9c2808077fa3",
+      "headword": "소통하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "3f80f5849d42f35a7dcd9bd4398c31904e3dc4dcba57afaafb1bfff8a5689e76"
+    },
+    {
+      "id": "668a9a3f-5cd1-4d20-bde8-5ee98953eb2a",
+      "headword": "오가다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "9f2a6e3fbc4bab2ea5ce7d60057a5e11749032a7043baba2763540a8aef8d448"
+    },
+    {
+      "id": "2a6993ac-914a-476c-b9df-4b3f2c3f0981",
+      "headword": "맞이하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "eae4ec5533dff68d1563b91e4eeb01b6d51d7b9c42b3009a645853cc3ffb7fd0"
+    },
+    {
+      "id": "294cc09f-4491-4b7b-b14e-85301de3227c",
+      "headword": "배웅하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "d05a226daabcb092e96c1ac1fe33a32b8f639ec7c92e1944835389b5e6f2c080"
+    },
+    {
+      "id": "89a02308-7f11-447c-81e8-d013efd7c5c7",
+      "headword": "질투하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "34bcbacede92f0ee2680d85d03d4a71627f4841baa3f1dbf4edd8446affd9c6d"
+    },
+    {
+      "id": "39d762f5-fe8d-4669-98b4-1a8b5a473d9a",
+      "headword": "부러워하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "08a0323e4fddf9343d04def7ba5fdca8ed61d5cc40837af3ec343dcb3079b72a"
+    },
+    {
+      "id": "2d63771b-2b10-4415-b0d7-0c0ae3999116",
+      "headword": "귀여워하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "d80808f1d4360010346198d9faeb521ce64a6dae9888360fd4d2d15f1eebdecf"
+    },
+    {
+      "id": "8caf3fd4-a2cb-4879-b82b-53543c4fbcf5",
+      "headword": "반기다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "eb81a75158d0992b055504f3fd982132c749b5c2b12a38f0b79953e999ade3a0"
+    },
+    {
+      "id": "778fa8c7-5706-4260-9d13-fd62d79e31e5",
+      "headword": "보답하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "42357b601784b6b3eb602fc13a0b108ac809f7cf3071fd5c13372fc4d8e40d71"
+    },
+    {
+      "id": "b3ef21d9-7b34-41dc-9de4-3f4d7068cb62",
+      "headword": "반말하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "9f59c8a586557df35828d49f4f3fd9ff3dc94aec52f014a972bddfb5dea09fcf"
+    },
+    {
+      "id": "4ce0834b-9634-475f-ba8c-2af3764ccef3",
+      "headword": "존대하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "fccb67dc9f564188b2ba04a7797cf86937ee930c3be9fdd193b92649a5aea4b0"
+    },
+    {
+      "id": "62e56466-a8f7-4f9c-89e5-6dff189dbb0b",
+      "headword": "듬직하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "65c4bdd226635ea393c0b083a0c0a37abf6b518c1cb81bd2740fc902d5a85cdc"
+    },
+    {
+      "id": "78abcd5e-81ee-4d17-8883-b29d20eb9f5e",
+      "headword": "너그럽다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "731b29b13a0397b307c8941f950f133dde13c86a6a5024e887b0d221920f297e"
+    },
+    {
+      "id": "cd2bafae-d26b-401b-8b2c-9cc1a2d53680",
+      "headword": "냉정하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "41332bcde6c68fd71a288a1603d5768bbb27b3bc14a3ee1a00d46afe8876d1c7"
+    },
+    {
+      "id": "dd8fcd8f-67b6-4431-9777-b8575902cdb4",
+      "headword": "믿음직하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "4509504fa6c019e737984cf3cd86c151d2e33c930040693907931799906dbd6d"
+    },
+    {
+      "id": "01f25fc5-b9cc-426f-b796-b5f2ecaf3f54",
+      "headword": "친밀하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "8b952715d2522f41db1079d39a4040d8eb4f993aef3fe32ddfb0e5619f95dd9f"
+    },
+    {
+      "id": "7b8f2b02-c048-4bc0-8c05-9555e3c61fd0",
+      "headword": "친숙하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "13a2595f4e1f150cd808e7b4ae04ed5176573fdf4855b4f1971f975f8a9d135f"
+    },
+    {
+      "id": "c5e32dfc-9d4a-49a4-a287-5099fb66848d",
+      "headword": "각별하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "27acf630b61b63ed284df6a38934d8032cb8d08baa887a3dcc28421336b9a46e"
+    },
+    {
+      "id": "28775bbf-b5c3-4ea0-b7fc-73d03909aa93",
+      "headword": "공손하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "2af6f9cf2780e20d2d84a59cc742eb798a5aed6b1bb716fba60ac1504173301e"
+    },
+    {
+      "id": "26ec66f1-767d-44c5-8782-c10e94fed6e1",
+      "headword": "호의",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "1551067da86a1e407b317196650e3a2b7466c9cc26a8801384ce468ba6ddb9c9"
+    },
+    {
+      "id": "66882c4c-8f69-47e0-9f43-461ad760b81c",
+      "headword": "성의",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "549daf55cbe2030113be07934f40935f084d549b66e0f1bed5a35e8df6b84ba2"
+    },
+    {
+      "id": "ad72d055-ece9-45ee-a7c8-23f83af1c30a",
+      "headword": "진심",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "961e741729f4c179fcd8d989d806d01278f0f6bbcfce2e71e298c68c58b9a78c"
+    },
+    {
+      "id": "cba8d9c9-001b-41d0-9029-76ddf72914fb",
+      "headword": "본심",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "46b5f244ab83fb09f652c091ba7a235f517e47d6e89567e10eeda167b6719924"
+    },
+    {
+      "id": "6150d70f-e1ee-4a36-bef6-ab2dbd3017b7",
+      "headword": "속마음",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "ebe48a35a69843d742b020160fb3b641785043a4b53cd385daa9928091af581c"
+    },
+    {
+      "id": "87120c79-0dbc-4082-9686-aee012fe283d",
+      "headword": "설레다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "ae25f0189bc0bfdde69f149169a05e69555c5d4753fb67fca6185d4295a02a17"
+    },
+    {
+      "id": "160f7232-c8f2-4733-a8cf-7b9b851c25a1",
+      "headword": "떨리다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "9ad18f44170f3e8767e983d5da18beb3a41f310e375067890bc321551a87a530"
+    },
+    {
+      "id": "6ce6b25b-a004-406f-a62f-4a06c8bb428a",
+      "headword": "울컥하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "1f49b3ecaf7ea72b4e2516486d9d71da243d731407070bf2074ec623c44dc089"
+    },
+    {
+      "id": "966727ad-f3c6-4527-92c7-bb64ebf9129f",
+      "headword": "감동하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "163a9e1ba9e6e5715abdfe004528a969754ff36deb6f9b85c5ddff8b6e07b304"
+    },
+    {
+      "id": "3166fbee-1cfd-4f3e-82b5-451cc84e8377",
+      "headword": "감탄하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "0cc291a0e6b1372892c9a6dd48e7d6be857e89ebddeeaa7d860d35260c41d47a"
+    },
+    {
+      "id": "c26f5036-df05-4e23-bdb2-fc1cefb1b1e8",
+      "headword": "반성하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "37053e625655a5c57ae84ae0e0dc62af639dfadf07b13ad1ab9ced217e882394"
+    },
+    {
+      "id": "8d44eeb0-5a62-4da3-b67a-2f65b1d57b1e",
+      "headword": "안도하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "6de8c36e55ab70d8131abe4cb620716c946c5807713fd94f77954f059c0bc98a"
+    },
+    {
+      "id": "a3a02728-ae38-4f73-98db-39bf2e55fa44",
+      "headword": "불안해하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "3a00142c3a99a4dcf9e8eaecb1832cbad863d6597c3a45a04c47b9a8aefaaf69"
+    },
+    {
+      "id": "b4e0b30e-8a06-4eaf-b7b7-22ad81ee4fff",
+      "headword": "속상해하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "448bfc4f1c259fce6f9d73ec37f587b913cf66bd893b224feae67f2ef1313022"
+    },
+    {
+      "id": "8294a68e-72aa-494f-ae43-bbf41d27fa80",
+      "headword": "서운해하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "74b3c04efab7908f54918385b4d181e325d8ca0f523ef442309f6c5f22a50bba"
+    },
+    {
+      "id": "742ab75b-a6af-4c0e-88a0-7efb101308f6",
+      "headword": "진정하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "b1a3158d1b46dd264fa8c3bc541b62976ffbcc124e61da50b01e72fb701cef03"
+    },
+    {
+      "id": "a2cc7b7f-9a32-4f01-a4f9-2b6daba1e9e7",
+      "headword": "진정되다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "659e61a11e950eac73a7baa7f0d77bd8f6a3224a5ce33eacbcd91938c4c6b985"
+    },
+    {
+      "id": "868231b8-3782-4a46-a9a7-362c479aea5f",
+      "headword": "달래다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "fb0bf323a1c1647de72df578c8acf3a95e5f5cb017ceddbe3d5826ece00ede49"
+    },
+    {
+      "id": "0fa4db1c-ca8a-419d-9267-b9d934f56dac",
+      "headword": "풀리다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "5730e2c2d0f70705a6497f65d2ac7fb4acdbbdc573477b358170c150ebb0f9e5"
+    },
+    {
+      "id": "953e1e21-8d2f-448e-8069-b8f852efb48c",
+      "headword": "지치다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "c1a87f57e4dd339ff746482ed94b22339d9926598ef2f3f6b7dc8961b2675536"
+    },
+    {
+      "id": "def92b1c-5901-46e0-bb9c-e6a8015a6be2",
+      "headword": "그리워하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "cad72ebffcdacd683643d4694277603885adec85f57313472bb78265506a8f76"
+    },
+    {
+      "id": "90e18305-7baa-43d0-930f-278ef77b519a",
+      "headword": "감추다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "b0cdda5dbedb1a59cc0dd2eda8d832947d87f448d0856bb423aba39ebe822893"
+    },
+    {
+      "id": "833bf60f-a07d-4e34-83c2-e00bec13e6ad",
+      "headword": "드러내다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "54d2dcbc5c32ab8978a81ddc2b56390a6ff4470d9eedc6fb9d4ca26517040caf"
+    },
+    {
+      "id": "6595cdb0-1c4e-4055-b01b-9a1499374530",
+      "headword": "드러나다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "295b88fcf8b77ed0354a750e1cfa82595c3e867ade4220cbc4436bbc30b8ace4"
+    },
+    {
+      "id": "2be5d800-745e-401d-b0a1-5790bb900f76",
+      "headword": "쑥스럽다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "6459743af237dfb6aa1f48eb7b6f14c21f15abaa36c8b4c283e76164849b7687"
+    },
+    {
+      "id": "29fb87a0-c443-4c15-b9d8-00f7215c8e5e",
+      "headword": "허전하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "f41e966814aa6feedb0aecfba21f69c7e29fb80aaaeb7400ac5e05e95900d551"
+    },
+    {
+      "id": "8702c421-e279-4438-aa2d-48789364e175",
+      "headword": "막막하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "2edccafed8d3dc79a4021cba8b92cc8c3b36ad207992b71d49d21d2b53d0037a"
+    },
+    {
+      "id": "9970d401-94ad-4493-9f05-dbfa41d75ae6",
+      "headword": "두렵다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "0de19d803f89d241111ea97986ba721a82b2692549c52c44e75f81eddee18ba9"
+    },
+    {
+      "id": "78407f69-16df-4b92-9753-7486b6f05bef",
+      "headword": "초조하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "829a5ddd673c6d6165c06ef6f262ef14f3cfcc6cd48739a361af39534c2c751b"
+    },
+    {
+      "id": "c0b28431-b3f1-4c5c-9092-c32d8a989a34",
+      "headword": "우울하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "0256d2bab41ae9c45399dfdf5a5a992a426dd76be83b6f5578c974a4d4bd6e51"
+    },
+    {
+      "id": "3d4191e9-3738-4115-b4c9-65e02d439b53",
+      "headword": "흐뭇하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "cfb0c457688a001b3856b4eef6f40788036b9be988b0fba48b31b4bea1cf165f"
+    },
+    {
+      "id": "968c2481-2466-4ec4-ae62-60bce764eaa6",
+      "headword": "안쓰럽다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "9105e084de012485d709dceae8c01b7150648f8ecde9ffbf3782877ddefe5df6"
+    },
+    {
+      "id": "ce60ec42-450f-4008-a40d-86c7742b7297",
+      "headword": "불쾌하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "e499fe44b9a8db5e13779a23ff5469d236c69146c52620c9fc222157b4eb3e42"
+    },
+    {
+      "id": "82a8c973-cbab-446b-bda2-f98c107d9673",
+      "headword": "유쾌하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "dd0c39db77b08813b9580e060e5f7e18f34b00daa891ca5790c4b0ac26c5b4cd"
+    },
+    {
+      "id": "487c73c5-d2ee-48ac-a80d-6bffd2ce2891",
+      "headword": "서럽다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "a0a2893cf0c1caa0c7b0be0b5f4f02db72df236a9ca79d955f2987c3bbfc7aa9"
+    },
+    {
+      "id": "6293c329-6c30-4453-92a7-8cbf4ed97c0f",
+      "headword": "괴롭다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "d1601da8256f529b82bc099d687533d51e4e6a6f01cabe26fe03d005e8cbd6ed"
+    },
+    {
+      "id": "d068f8d1-d91d-45ac-991a-ce922728981e",
+      "headword": "담담하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "c4579788f4fc671adc9dcb02cc1e20613d2570de1653cd94b7e3451cfa3b70f7"
+    },
+    {
+      "id": "a1508bda-6082-44c4-ae92-6f9a6d6583d5",
+      "headword": "씁쓸하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "9355d134dd439247be0f9bf9d66a8c1a2ee97b6c3cd2236add03d18840be9fa6"
+    },
+    {
+      "id": "1b6b8430-62bc-4831-b623-a3c477190489",
+      "headword": "홀가분하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "9496528e7dcf524b996601f5125d48343caa71979af25d76e5a2ab8830e1f373"
+    },
+    {
+      "id": "e8e28e9c-2785-4c8e-bd2e-f8640116c1a6",
+      "headword": "설렘",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "db6add76b26147a71ddd3e344508ff2f25f0d75d414f886e7149ffa594a631dc"
+    },
+    {
+      "id": "2b0c0e46-7d8f-48c8-97c2-3a40ea4a99c9",
+      "headword": "보람",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "a6baa5577aa54c85d06057353169747f80a2d294458513140fa8b052d9e395b2"
+    },
+    {
+      "id": "46583d55-58f6-4991-80c1-ae85c3d9d3b9",
+      "headword": "미련",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "1b54103beae5af2a11d8a7ea5c86e3bdf91806c275635a301ecd85ba6c307872"
+    },
+    {
+      "id": "1e0d7f6b-4449-403c-a415-2421fb8cfd7b",
+      "headword": "소속감",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "4bb94e9f9e00a90119e5f7f774e0c966dfaff25186efb9ae3e2a545b4c2272e1"
+    },
+    {
+      "id": "31a8f4ee-6db5-47f4-b86c-2347c60dd089",
+      "headword": "부탁드리다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "795856472b5ca0c698f29251e9721fd7430e07298239cc80e2c7ca1c774eae8c"
+    },
+    {
+      "id": "ab0051e0-9248-4c1b-bc92-3e6afb786aa3",
+      "headword": "양해하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "dafa6768ea9ac0f45a157037468bf9323c8c6dd80e2076c458da9d03906ed5da"
+    },
+    {
+      "id": "eb4251c8-5a0c-4307-8eab-5a4185a2a2de",
+      "headword": "사양하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "43495688054e9e25f4939ba8fc062220d6b6132d187310b0b83bcd56bbb5c1b0"
+    },
+    {
+      "id": "c1dd88ec-a47f-49e7-a20c-f65eebade561",
+      "headword": "권하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "a977557f39361ff39f967b6c597cb7f1922d1ce05ebd93fb5c7b483244254bfe"
+    },
+    {
+      "id": "c3795682-3431-42e9-8607-cb423af00231",
+      "headword": "권유하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "bf28558e8c320f7a1ddd099f4dc2b54e4f42227e45e6f24728cf4519392355be"
+    },
+    {
+      "id": "c1d919bc-075d-41b0-b7aa-6c438e2da09b",
+      "headword": "제안하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "f9a3e36dda386b6e842dcbb184803ea538a6a5601c81cee90137098072cfe503"
+    },
+    {
+      "id": "e3ecb8a1-34f9-49a6-a85c-73207c4c47bc",
+      "headword": "수락하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "76109848ae30aee4c1b9acbdbfef425d83fc5ad7d00abe145bdde1ac26a89bb8"
+    },
+    {
+      "id": "758f16dd-7e53-414e-ad64-a8fc43ac329b",
+      "headword": "허락하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "671b1846cd7d60002284fd4ddf1952e2d332bf319fc203d101756c337799bb61"
+    },
+    {
+      "id": "1813044f-288f-41ef-bf78-c6fe18915b19",
+      "headword": "허락받다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "2745743f7b07ee6573e12eb0bc450fc8c4abc1357bd3e106f454770e3ce7ac08"
+    },
+    {
+      "id": "f2b02aed-c9cd-4c03-9ade-c35b10c33881",
+      "headword": "허락되다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "617e819fb0475a9a3a2b74f4bf6e3e5c6f963572a7ffaacf8d294330e3e00195"
+    },
+    {
+      "id": "6c40557f-62e7-4a63-860e-d8d647650c67",
+      "headword": "재촉하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "b1d0696ac891d3f0a278df6c721d7a101e6bebf47e5d5100c52987c410852d62"
+    },
+    {
+      "id": "416596c5-c418-4497-8d60-30de438ad593",
+      "headword": "강요하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "e05982d3534a183e0b539cc1f8897c9559e41e1ff2de9d0a75baea106b7d163a"
+    },
+    {
+      "id": "24074c9e-ba06-4100-a5c7-2a9ca4d61035",
+      "headword": "떠맡다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "e86b9c5f4e946cbf84143d646f0c3e3e6312621336756d0d427bc209c65636b5"
+    },
+    {
+      "id": "eb352a33-60f8-46e4-b00e-15c5ed5d0a03",
+      "headword": "떠맡기다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "2e8b1396b83621d0a8f39923b64cdc02fc21c75a5037ec7865f4a97c9f1db0a8"
+    },
+    {
+      "id": "fca426db-73aa-4e13-bc5d-08cc12179743",
+      "headword": "대신하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "0e763fc64c945e293c1866b0289557db0f47a638424eb9ff1e76ada4db9a46b1"
+    },
+    {
+      "id": "ffc0a7d1-3637-4015-a660-ce332354c0d9",
+      "headword": "응하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "9ca3dcde1a0a3313655686fbf329c5c5e8c38b8796f738e71703eedd2277ba5d"
+    },
+    {
+      "id": "8e06f7eb-13de-4cd9-81cd-2d9808f3ae90",
+      "headword": "부담되다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "ba225dbcad7a63c0681324c9737b7acc589023a94db4a3e3f94ff2541075d76b"
+    },
+    {
+      "id": "ab73070b-4030-4aa1-895b-48fc32eaa31a",
+      "headword": "정중하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "bbdcaf9a9f6d00eaf9b393e40691a840687c029739a4a0f27c3882dd779659c2"
+    },
+    {
+      "id": "53bca9ab-400e-463d-ae31-c2a7deda2e25",
+      "headword": "단호하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "0ed7c1cc185df528f3a7b79d1d9789dd8ff2b4aae54ac98d89a3a7899c850f15"
+    },
+    {
+      "id": "98c7ec2e-f7f3-43c4-83e6-29ef61b1ca4c",
+      "headword": "간절하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "f0147508c1eaf31406492db38afd4c5787a8077c82dd2bba957c614aaab60e24"
+    },
+    {
+      "id": "e0a82317-6605-468c-a92d-b546c8856819",
+      "headword": "무리하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "6ff4e7318637226e9f259eaa5332e9be2abe67055f6d4f468efda95e46f14d43"
+    },
+    {
+      "id": "6b43a784-6267-4af5-96ce-e43b24a17a4d",
+      "headword": "죄송스럽다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "52723f83452d52f042e9d3a3955717515e74def16227cf41007b4bf66b242c82"
+    },
+    {
+      "id": "c25868ac-c8f6-44b1-b62c-6dce05c98375",
+      "headword": "부당하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "ae36e2228918755bb415098fca28de9e50bf737977982a378b137ac60aa0476f"
+    },
+    {
+      "id": "1e1c0838-cee3-4e51-9bbf-b27a4a250992",
+      "headword": "불가피하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "6749e3b9df22caf2dc4daf75c1add7bf72d84eb0fb0e65d7e7a1804e64f4b6f0"
+    },
+    {
+      "id": "8b1761a9-6519-440a-a618-87ab02d620ad",
+      "headword": "양해",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "f8acfa9b09fdf7491b28725f4c6c97ee5b1899142e7c4a4de9eb9e3ef3d5cf17"
+    },
+    {
+      "id": "2798d06d-6ba6-4ef8-ba0d-c5f5df8381c6",
+      "headword": "사정",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "714d1d2193c2e0694f7ac32bcea6532f01665c8fd77caac61664f45af38d6ed6"
+    },
+    {
+      "id": "31e86e4e-149c-4352-9b67-fc6742751e46",
+      "headword": "형편",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "0ae1482c02628aca8b831a12f15f9bc5627e986428d05bef186021a91c98bd21"
+    },
+    {
+      "id": "1ba017b6-f074-4cbf-88e1-f66b745de09f",
+      "headword": "오해받다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "4917ef695bcf9649c9a36964c60913bb631d0803c67732ccecea74d739243208"
+    },
+    {
+      "id": "368e1682-fb3d-4a32-9666-ef4af8edb71a",
+      "headword": "따지다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "9dae71b3a3bae1af98e18c937a909f6b9bf0b27d15076d916e297daf3c8ea82b"
+    },
+    {
+      "id": "f8d9e63b-0768-4135-bffb-7b3dc605f1dd",
+      "headword": "탓하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "340f46afd390d092c6eb4faa51ed052708c0b84da86e65f44f70f71e624524fc"
+    },
+    {
+      "id": "00311f03-0e02-4b75-a18f-e45b2cb3daec",
+      "headword": "변명하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "d3c1c654476162aea0847c7cd000019abf5743777dc9c9b74282137c90ba56d0"
+    },
+    {
+      "id": "6b2043f5-c6e1-4b2e-81df-4c1ec01bfec2",
+      "headword": "해명하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "4350dd8bede78138cab72c82334b5141e0d6c55c6b46b4f1417768812058c5f8"
+    },
+    {
+      "id": "27ee9cda-f2e6-4c86-abdd-cc6d3443a882",
+      "headword": "항의하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "62aa4f66ddbe77e3679fcc0e3eb21b9fbee28625b914b5a8607ab1bafd59fd2b"
+    },
+    {
+      "id": "099616ba-5052-4e05-a686-29f1e2e49eb7",
+      "headword": "불평하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "ef4e2d9b0bd628089e803eea90247f76c2a13c97a40615c416795b728ffa338a"
+    },
+    {
+      "id": "e3193c58-df0c-40df-9072-630ac09318dd",
+      "headword": "다투다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "28ab3d0ce3472f62c44e68e8c6b3a721fca433818432bf3b256821c0992b4350"
+    },
+    {
+      "id": "3a2ee8d1-9309-4ecd-8f5a-f6d6d5f7e15b",
+      "headword": "말다툼하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "d787d16b2df40d9361cbbe89a9911a258bbb1cdc5d8c0bfce0c434019472c7c5"
+    },
+    {
+      "id": "af0d4050-260e-4e1d-bffa-f529bf675e03",
+      "headword": "비난하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "d221fdce7f9c581ffb7a877b9f2eac6215a7c6e03abf5d0f2d9ea4c34fe24db8"
+    },
+    {
+      "id": "058afcc6-85f1-4db5-ab54-1e849bbd5ef1",
+      "headword": "지적하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "524dac4914341360d4ea9220ca45e36d52f9340584fc170926d3dd309c6e3ae4"
+    },
+    {
+      "id": "b4d2fdd8-d334-4353-9f38-67fef1dfd719",
+      "headword": "시인하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "cc2c9fd0299980f10e8c8ce64ee8e35187071db8a0aeb0fca386c23a5b3c23ca"
+    },
+    {
+      "id": "82c92949-e351-4a97-8361-32939aa75f91",
+      "headword": "부인하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "ecc303ec73632364acc81c170e86358ee47e7724f491178e3a087b58bf235a07"
+    },
+    {
+      "id": "c0b96a36-1bcd-4727-bf0c-c2535a2a6ea5",
+      "headword": "우기다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "f703dffc1d9a68256ce4938d4ddfc0d5c7d08bb5fc249e118e71b09f8df7aeea"
+    },
+    {
+      "id": "060deae7-92c6-40b5-961d-f8ef86b64f88",
+      "headword": "타협하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "3c6ad24baac42d207842d9ba2b337ea5ef6902add585808a508060c01fc7c55f"
+    },
+    {
+      "id": "50a3c5b3-08c6-43fb-841e-defe5168dc2a",
+      "headword": "합의하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "e13eb69a380c54145226a7f8ed34e88f298ea9497fb61c303d9e31311c5a576b"
+    },
+    {
+      "id": "506decbd-6a6f-4f54-b325-7ec04d230ba3",
+      "headword": "중재하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "fb95d7789a0ab82e39601c3f3b1fc0a938f39bba7af480abdac12c0ea3626d90"
+    },
+    {
+      "id": "1be27375-cd03-4393-b395-75fd70f2edb1",
+      "headword": "바로잡다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "cc64aae1b92a40e23ecc95887ee8cc8a5d7e33db78fb6fae198da3cd5b24cf3e"
+    },
+    {
+      "id": "dbe3d472-50ab-491c-8cac-00d48980dd7e",
+      "headword": "잘못되다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "0751c7d78dd9d0d664c6404d7961b240af900cb9c671f79d9c8e9899b1454dc5"
+    },
+    {
+      "id": "7c5a3d3b-5ee0-4c2e-bac2-4fb5794697ac",
+      "headword": "잘못하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "562a4020c6c2662c6b5a496b74e57f46fc19e3978c77259213260e104975bbe2"
+    },
+    {
+      "id": "c101d3ee-2375-417b-a271-d7e35d03eddd",
+      "headword": "착각하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "f24c6679bd6f083608cb829b65857319f43362db15ceed72a466fdf1e1102634"
+    },
+    {
+      "id": "4a017d1e-3430-4746-89d2-392e2df5579d",
+      "headword": "헷갈리다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "501086702b232458f85d28cbf30669bb53de2c39eceeddbbb41fe47f204954fd"
+    },
+    {
+      "id": "31175ace-32cf-4d0b-87de-96d8baa05b45",
+      "headword": "혼동하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "658d910427a02113bd4a58f3b6e4b93d15e2b859c47b090b65abe861aa317866"
+    },
+    {
+      "id": "0562c38d-662f-437f-be55-2bc39284d943",
+      "headword": "와전되다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "ee478b66a79d0e568823ed1369d76decd1686c335edff8de1856dc28635c226f"
+    },
+    {
+      "id": "3dcf5107-f14f-4fc4-811d-53870d7fafe1",
+      "headword": "거슬리다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "b606479cb178a8965b6eada4b7859268e3459e13aec0cfb1aa6f6128f5b4c03e"
+    },
+    {
+      "id": "32062363-7aaf-4475-aca3-bfeb5b0469f5",
+      "headword": "무시하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "55100fe0a475c78a5ad68a9e8c63be8b9371fa3d8247d9b24424c6f417b2e7c7"
+    },
+    {
+      "id": "4ea7c179-e12e-4688-858a-53d5f20ef1dd",
+      "headword": "방해하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "7934c38263d0935d549ca055cc30341e59c00b65e0c16b45afd04183792b473c"
+    },
+    {
+      "id": "b5fbac9b-d7eb-4888-acb5-9d11975eb3b7",
+      "headword": "끼어들다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "ba659d17b7c0464c7780019fac29beca8ea814f4ef4453314bc49ab88cc5e956"
+    },
+    {
+      "id": "6d21c8ac-9edd-4b09-afb3-f9d2866efb65",
+      "headword": "물러서다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "4a983332ab7ebcae1344c0d7327974db9aae03572ada39cd034387d2c3e64888"
+    },
+    {
+      "id": "be32771d-0b2d-4445-974c-f58a36191997",
+      "headword": "외면하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "0376277d747453a487a81eae1041ed4d7ec814b89e123a1877f23fb9a1abb878"
+    },
+    {
+      "id": "1dbb6c3d-097d-4c50-b4ef-72d942afb912",
+      "headword": "불공평하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "0d12c3fd1b92bab079c3df9abb745cfdc99c904ed8b1d33e0d6190d5318f370d"
+    },
+    {
+      "id": "a35f76e9-f2a3-4d51-82bd-2005f877c8be",
+      "headword": "공평하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "278f083c976a6aba72d8fa8497b48c5ebcb5b09d347c95713b88daad5464b413"
+    },
+    {
+      "id": "5aeca4f0-47da-4160-82fa-b33668f2dd63",
+      "headword": "떳떳하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "8dd07ce97c448a8b35898e5c6b2a048f6bd45e75f3f0be24ffec6997f023f6cb"
+    },
+    {
+      "id": "4479f39d-b5bc-44e8-b354-7816665353d3",
+      "headword": "무례하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "504c4d2fea42e1178a8be79b0ab8dc4ecefdaf0fcb2a0a1d4b9adf7fd588a0de"
+    },
+    {
+      "id": "ef61edcf-79f3-451d-b86b-1a79c344c4d4",
+      "headword": "얄밉다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "402cabd3fb62c6662192c62a559e26eaee19830614e07608323d7426b251333a"
+    },
+    {
+      "id": "811b0102-3b65-4cbc-b357-e20b1bb16732",
+      "headword": "애매하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "2674f63868d042b10deaebef0b4d0ffe857e3e1d2b481658f41e0103d1378317"
+    },
+    {
+      "id": "5ffe355f-0ffb-4a8f-9681-fcbd7e6251d6",
+      "headword": "미묘하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "c7c6a4afcf6f493a9f50e9cb1e9b6dd37e2f6f442bc938934ac49f4d202557cd"
+    },
+    {
+      "id": "892b2783-7263-4de8-8ba7-59ed5c141f5e",
+      "headword": "소문",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "c3a214430f40c5e1ecf2491e62aabb69564810085b07a25b6297dc4587089966"
+    },
+    {
+      "id": "08bcfff9-ba07-40e9-89f7-7b0321662145",
+      "headword": "편견",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "3e0c315058af6693143a4b9dd6c430a1cf0e2a204c05df34f1394f2c2f651543"
+    },
+    {
+      "id": "ec417221-5f71-424d-b424-cffd31f063fc",
+      "headword": "선입견",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "9b27300a06174e5226af079dbf989414253437c6d3769213930eb7db01d83f79"
+    },
+    {
+      "id": "cd94b7f4-fcd9-492c-b313-3aa73b1e32e2",
+      "headword": "늦춰지다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "92572116158abc8f1c2ac81acf4ea9ac72200a57c8ff2c0f76ad0ba6a5e03e20"
+    },
+    {
+      "id": "bce1d787-a214-4c6f-9509-d09107cbf9af",
+      "headword": "서성이다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "a3e5751b8a86fb18e64294e7455f66953fe3c84298d68f6a56c8aed689b6d7a4"
+    },
+    {
+      "id": "7e970b5f-c895-455d-9f05-9d2ea153fa62",
+      "headword": "둘러싸다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "27efbdf14b1c749705a63e5e95f9e8179f55c5fcd1234b4392b202a5b3d72887"
+    },
+    {
+      "id": "41d1812d-0217-4f55-bafe-31053172ec56",
+      "headword": "둘러싸이다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "795b3484becfa5481f16249149ac37ae6545d2c9c068bd0bfb036f000f294a6e"
+    },
+    {
+      "id": "bd17f1de-b889-48f8-a3b6-0efbe3a3f758",
+      "headword": "들르다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "6655afa70335ed7f6a6392b22c2f3207e4ec374a7b637fa390be0afe5b991b90"
+    },
+    {
+      "id": "3005e32b-9b18-4637-84e7-1b3a324a96c3",
+      "headword": "비워지다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "e7f096e662cae5892edb91ffc7423cba280c223346dfded649fe98df388caed4"
+    },
+    {
+      "id": "78d31d72-5070-4849-b7be-af601079a94a",
+      "headword": "메우다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "faed6f7c6b9432c1e49925ea5dd3bc41ce4043e1f07309d216ef71a0fe50cc0d"
+    },
+    {
+      "id": "3bd96dc4-a34d-4971-8717-f2762ceedc26",
+      "headword": "흐트러지다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "be65e0f1eb6b530c5d6af8359757b1f93dbcba367d23136702f9476e3abc3189"
+    },
+    {
+      "id": "9b1fdcab-a74d-4dc5-86b2-7001fe1bbca0",
+      "headword": "어지르다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "ff6709fb2be5a494c07b68d7eb40e4adf039d60e3493a89830b74afd2d7d134d"
+    },
+    {
+      "id": "e20ace4b-6843-4364-927d-bbd209713ec4",
+      "headword": "헝클어지다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "60a66acc5688361d2fd28eeb1ed05c7755bf35364ee06d6a719fa9a501c70488"
+    },
+    {
+      "id": "a509c531-f3a2-40a5-b359-e45fd4d31d75",
+      "headword": "덜어내다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "06321416b2ccd200ff08c903e9004d0adbe06a9cb4bb7e2faa0bea78ebb7b480"
+    },
+    {
+      "id": "ea21f393-e9c1-49b4-b0f4-179e71a49b36",
+      "headword": "맞추다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "0888e46cbe29bb5151caafabb772f6a9f5868af1df2c8271a234e2df1f781ad8"
+    },
+    {
+      "id": "51edd1a9-9022-4513-8bd6-baf3ee321969",
+      "headword": "어긋나다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "c305777b331e116ae58029e990b925e35c00e61ee1439e88985cfbbf33623561"
+    },
+    {
+      "id": "246853aa-3ef6-4411-8dc1-79ac631ef18e",
+      "headword": "엇갈리다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "1107fd531b04f27ce1f6d67804175f9c4ac87a30ad2ff872d573bea1947940d0"
+    },
+    {
+      "id": "d96b18ef-3f4d-4bab-9171-0322a963cd08",
+      "headword": "겹치다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "601a0e49bd42431ba6e420174f9858e0e760bd7cc9f2dc6e23b4208f16ef6a84"
+    },
+    {
+      "id": "c707c621-0307-4bbd-a964-4b10aefd7a57",
+      "headword": "건너뛰다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "fccb282f4e383efd5e9000c14e9379d5530acbb2dd925b2ca3297af2cd300e1f"
+    },
+    {
+      "id": "2d4adca8-6fe3-4169-a2dd-21617738bf87",
+      "headword": "되돌리다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "d1691530f5da875c5a580ae61ac12a030f0f4831cc8c40d82d0e7d417ff0bf6d"
+    },
+    {
+      "id": "74240bff-c649-4f62-95d7-bbf17f0aa6e6",
+      "headword": "되돌아오다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "aadbdaa6f13ce0680d599b653d63e389f279cf765fa5605747d3fabe7c6c6232"
+    },
+    {
+      "id": "74266fb7-4975-4a57-b0af-d43a9630daa9",
+      "headword": "되찾다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "e88ce7fef608f31e990596956f3b1aa86d356261f36d001f8bfb2c6a38043f68"
+    },
+    {
+      "id": "e110e340-ffbb-4496-84be-98111edbfcd1",
+      "headword": "준비되다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "b1617251d888c29c128b04487f744978173b132a7601d98c4bbf321bee892206"
+    },
+    {
+      "id": "64a62c22-5bff-4d9e-aa40-fb7450b5df5b",
+      "headword": "마련되다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "4ce4be5fb887d42ce22cb715033ef05f0b2617b6b3625d472bdd6d51cf5b3030"
+    },
+    {
+      "id": "11d2a131-b6b3-41c2-bfba-fad8f0fa9755",
+      "headword": "번거롭다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "2cebaca5c7ff4beacb4b1242e12ddaf47a91f6cdbc6c99097561bda811b55cf7"
+    },
+    {
+      "id": "b85bfc94-0ce1-4804-8842-9c2f7867b767",
+      "headword": "번잡하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "465adcf352587975de42610a9f8b355d2a9768b1a7b2f85f9966f66c557c1de6"
+    },
+    {
+      "id": "fd127308-3963-4318-a1c6-f5d0b50b240b",
+      "headword": "한적하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "c3d320e8ac3d939a4a08e9f610ad3b471660ffa44aa9cbe016fb0cd769f7431b"
+    },
+    {
+      "id": "1d88976d-c60b-4642-b7f4-bd89cddb8599",
+      "headword": "어수선하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "42a8d620b2fb0a0ac291dadd4e3d83dab2fc51227ba2ca9874ceb55c7384e011"
+    },
+    {
+      "id": "d77746de-8144-48b2-8d48-a8d3d5691278",
+      "headword": "지루하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "d2d3ea72de190dc03fca543dbe239aeb0c890e97be7e3aae67f6852e2589b03f"
+    },
+    {
+      "id": "bab77f9d-0768-4fb2-90bb-0490b466a1cd",
+      "headword": "따분하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "63ebfd5e040b96f6dddd6fad908c16933ad4ebfa42849e17e69a3eae54d4464a"
+    },
+    {
+      "id": "0ddefeb6-b6e5-4272-a83c-f0fcc548dcdd",
+      "headword": "고단하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "5547114780511b655f00c0946f16473d473a6d40a678b9ebb90fd00aaac2bf4b"
+    },
+    {
+      "id": "1cc3c215-a1e8-42c0-911a-fcb247e6455c",
+      "headword": "느긋하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "85ac75705fb26fe03444a124556a7a9200c05eac11773e380ef7bdb7ee981688"
+    },
+    {
+      "id": "09673ae6-cd80-42aa-9a0c-4bf7c43530cf",
+      "headword": "빠듯하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "8ecd66b7ed6ee3927abe85860038fb4074b489570e3d92a0337730255f414674"
+    },
+    {
+      "id": "acce3679-cf99-480f-a7a0-419753e3d970",
+      "headword": "촉박하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "a2e40d4a9e77c6cec7546c7e1d6004f8a97f875628cf5ab7cf24ff56ef4f16b9"
+    },
+    {
+      "id": "ac349d26-d77a-412f-8783-dd49cb84fc97",
+      "headword": "허술하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "80594de255dd189812d48c759122542ed040d844ba133d14ea91949c2cfd7224"
+    },
+    {
+      "id": "a70cfbeb-9894-4b45-9aa6-559d73f70753",
+      "headword": "능숙하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "758d2b20a56855242ba065afd843533c6de1defe4a01dcbf266b136b713830ff"
+    },
+    {
+      "id": "689d1684-9f3f-47b1-b2a4-6be4c882b9f7",
+      "headword": "서투르다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "893c8591dc17f852eb4d72ef00b88efa3665c89801b8cccd1615f35d65f5e65b"
+    },
+    {
+      "id": "53b05a70-1f2c-4a5c-98f8-fac24bb91615",
+      "headword": "생소하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "15d5db1ded4cbc4e4b39feb246813a6a9b85fb2a563512fedeb2088fda63bee2"
+    },
+    {
+      "id": "57ee391a-217b-443d-a64f-c39f13fcf795",
+      "headword": "담당하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "76247817b5fa2335081b3a4678da224792345e08507af59ff3710188608f63b6"
+    },
+    {
+      "id": "ee5a50d3-b8b0-42a4-a0b5-c3a9c50afb19",
+      "headword": "배정하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "cb135fa934181544975c3fd9dfc82888ce0e6bf8b7f4f7f80983c82d2d632746"
+    },
+    {
+      "id": "5786b60f-0aff-404f-8a45-cace6adae2b6",
+      "headword": "배정되다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "3d33221121279534813165eb01e01b8956adc83d0b2995a67b693bb270795c3d"
+    },
+    {
+      "id": "2b7993bd-6e33-43c5-a683-d3c5f94fd038",
+      "headword": "분담하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "d79ed7d786d3a428287788e648f7e5068d7135eb5d9c6334717d7c20f2bc9b09"
+    },
+    {
+      "id": "7c045b2d-8454-4ad5-9855-0b0f07966d80",
+      "headword": "협의하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "ea3db772bb9b2a152500854ea6c3c69d91c760cfecae4c10a54d4ce9164865f6"
+    },
+    {
+      "id": "1b5b8e60-495c-43e4-b47d-bb78816ff050",
+      "headword": "논의하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "a8780d85bffbddc97e2aeeabb6ef6a3950a3535df3cf0a9fe0fb69b158a86579"
+    },
+    {
+      "id": "85fb0368-512f-441c-bc35-2f13b49bdd7a",
+      "headword": "보완하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "3246ff0a2c376b666b6ecdb3923e19b5aa9e1564d83c4f26b16dc489d1dc80d9"
+    },
+    {
+      "id": "e3a76f7b-4874-4b8b-9abd-f28802fa723a",
+      "headword": "보충하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "9bf52b168f162ff39573be6046f29156324bd118e017c58800759578f62ce757"
+    },
+    {
+      "id": "527e16e6-dcfa-46a5-a521-eda1aaab752e",
+      "headword": "요약하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "c1923696f609fc1ae7f022fc02316c1cb0d5e6c20f62d17c3a349b31b1c974d2"
+    },
+    {
+      "id": "888bc081-a997-41d3-a18c-0e1ab9114a6f",
+      "headword": "파악하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "8a458f588d6d6d1540c2d49166211414182321c5773ac0d0a41386bb300eb2b2"
+    },
+    {
+      "id": "830b2076-4a71-40f3-8dc4-71e13a469258",
+      "headword": "숙지하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "e9145e5b772fb6ac11b32f9d27998a31bcbb421dae713cea1bbb8c25bb4561b7"
+    },
+    {
+      "id": "1b5da350-92a5-41be-875f-82de73edfc38",
+      "headword": "익히다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "90256a8117d6efb6dda6041c1eac3a3a6f5b64a98f48cd304c0892cdb09537d6"
+    },
+    {
+      "id": "eed806cb-fafa-4764-8a78-7869cef505b5",
+      "headword": "따라잡다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "d258527243f243d24c330baa7c85798b81e68950e011de271458ac4102214ed2"
+    },
+    {
+      "id": "498e6329-6045-4aed-9e1a-c8a84bd2cb51",
+      "headword": "뒤처지다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "d07166a0df3b81d3727d02ebc8ff54c0b54d4c3d576852fa970bad5a9c04eac2"
+    },
+    {
+      "id": "c6b0e526-618b-4b78-b63b-874fbc5c16fd",
+      "headword": "지원하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "0e5cb2a40e746d8cf78980504864ea3d094d39263fdc7936aff4496b4bc34c85"
+    },
+    {
+      "id": "16837e01-3afc-434c-bffc-7b5807545747",
+      "headword": "채용하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "f9e45f3a87db1d7a765f1592b40ffc7c96ac1de72f39e8c7c1a5fde150c315fb"
+    },
+    {
+      "id": "64a6ffec-a0de-484d-befc-3900da56aa29",
+      "headword": "고용하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "6116f246755ec758a494377173294b2fb12931dae1d750a0fa8ae167334a2e7a"
+    },
+    {
+      "id": "996e932d-78ec-4a71-a37b-1182000814b3",
+      "headword": "이직하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "4a376942b1d2247192e4e7a96c4cd54c0c77d8cc006dcdbe8d75c8396c67556f"
+    },
+    {
+      "id": "f6280e85-9542-4012-aa73-0e44ba5526d5",
+      "headword": "출석하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "eafb84ae563f3e186b013524681d44a66dee9218ccc09ab8e4a4d0e60dab080e"
+    },
+    {
+      "id": "8a7fe907-9efc-40bf-b298-ade08a3985ad",
+      "headword": "조퇴하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "e089e1cb7e009e35e029d3fcabc1521edcd192da53ebea101c722830bb0247c1"
+    },
+    {
+      "id": "a5f3b3ff-72f6-42b7-a6cf-c7c60903ac8b",
+      "headword": "휴학하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "00a413ed15d7a2d290d7dec716974551c541728bacb6030b1417261c269ed2f9"
+    },
+    {
+      "id": "4861a3f8-d885-4df3-85b1-8a68a2f3d457",
+      "headword": "복학하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "66c62bc89be5b7d02632e393a9f1b0a31d5253ede5a6752e0ad127acaf5be98a"
+    },
+    {
+      "id": "523dd7d0-e559-446a-9279-5fac308011e0",
+      "headword": "수강하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "72995c2db3c04421cec9a34edf627a8d449a97065eeec72a6d4b8c4dd2275bf6"
+    },
+    {
+      "id": "7a4b4e3c-4717-4577-a571-06f4cd1d934b",
+      "headword": "공지하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "5b0de365b5896cdcacb73901ba4020bf9b04e829e1b063ee9b52a570a0c56d05"
+    },
+    {
+      "id": "1d593d55-281b-4992-af64-d4f5ba5bf4bb",
+      "headword": "공지되다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "ef088feff05772b8089941e55ba3f399d12f432d2691b20d0cd1489476121bf8"
+    },
+    {
+      "id": "c74a14a6-0d0e-43f9-a968-b919dada30af",
+      "headword": "통보하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "497da5a5d131e2bfc93f22ae370cded660c785df4a741bb9d55390b53308f257"
+    },
+    {
+      "id": "1462dc6d-78bf-4e10-b66b-f0c7d084dd82",
+      "headword": "승인하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "d906a467d7ec4458694db87624cb9ce94f8da535096f35810d3acaf54405cc47"
+    },
+    {
+      "id": "f3d21ef6-098b-4442-8c66-650840f25543",
+      "headword": "승인되다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "4079a5d056fb55734694de82f9a3add8ec7b0fa0a7efb41de073986839bb4d6f"
+    },
+    {
+      "id": "c5a0cd73-6ba1-4c5a-a881-5ee0c4c7d040",
+      "headword": "지시하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "0aa666860e2698b58ec1e21dbdf881301132fdb6dcf84257b2460aa8f6256c3e"
+    },
+    {
+      "id": "61b6f88b-cae9-49d9-93de-12d955994a6c",
+      "headword": "수행하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "248b38d109508c862a0a34cb3a67188ba21f71251d8478fc407d33f5e8bbb3f0"
+    },
+    {
+      "id": "134d24bf-fe0f-44e4-a973-424b24fedff4",
+      "headword": "인계하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "1d4bc121a9f444c7e7953b650621857ba5b981958e4921e7e1a18078e226e61e"
+    },
+    {
+      "id": "6b3ee777-8b0e-41c4-8646-c8358c498b17",
+      "headword": "인수하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "9276a7451993baa432cbc51ca781b2bf6e49ed466f0960c10c8796f90bdaa4fb"
+    },
+    {
+      "id": "b94c552f-d1e1-4b4f-ba8e-403080dba473",
+      "headword": "조율하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "d47f3a79d8281e1b72f07dabf288171865a81a992f2fcc7ddc0de2684697f5fd"
+    },
+    {
+      "id": "46ee1b38-72c3-48b0-ba59-5e2e3a971625",
+      "headword": "협조하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "35cc5af05976ed7137bbd1b8eabfd6c20a9496051642ba210e04bf18f8d3a894"
+    },
+    {
+      "id": "3da8eb7b-9a33-4752-8f48-b30e3fd48623",
+      "headword": "달성하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "601f589abd97c461af189abe02db7d3719c012d84fb809641daa15892d80e2ad"
+    },
+    {
+      "id": "7d0e7e28-c2fa-4019-b5cf-088fcb4a1c9d",
+      "headword": "평가하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "feb8ccc60c4c58080e623c323c5ed17cf10a064e16bb6f935745d0663bb35b4a"
+    },
+    {
+      "id": "37d6db88-1b1e-4594-a311-8cb235fa26bd",
+      "headword": "평가받다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "2a0397756a669969f2c54b78e183a16d98e7bc057687a34446046af5d7118cbd"
+    },
+    {
+      "id": "794bec44-f002-40ea-ad01-757617a7d1dc",
+      "headword": "반영하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "f59cb59b333f196970e4d142a46dddd0f2c49ae6a551e28bc2c59811b4060454"
+    },
+    {
+      "id": "d037b949-dbf8-42a9-8251-88fa9f6fc380",
+      "headword": "반영되다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "47263a1675c8f2a548d4c144a3b9e9d47ec3bd262b825643fa4cd1e794d21e03"
+    },
+    {
+      "id": "7d925bb9-6e9b-4652-bbf6-99c25d66b8af",
+      "headword": "누락되다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "0c6ba088021a685972e93472caea8df566ab3cc833803211605835e9febe1266"
+    },
+    {
+      "id": "fbc3642b-84cc-4222-9530-1448857f2d24",
+      "headword": "전공",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "22878c3a6fc1cbf5d576a5b0d9fb0c9e57a4bc50de123c945b346941a2409956"
+    },
+    {
+      "id": "e8637310-386f-4c42-9c3e-b7ca8b7eeaeb",
+      "headword": "학점",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "d68db9d07083d76e56447742a8515c8b74d62d859e2ecb2c868366fa43780628"
+    },
+    {
+      "id": "da8ebbde-dd96-4b8f-b2e4-697b26892bc1",
+      "headword": "진로",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "79ca6f7c3910e208e0f4d76a12b73d233991e4fd646e0e67905a2c55514918ff"
+    },
+    {
+      "id": "b2ae533b-7c60-4f90-b415-bad4d1e71d25",
+      "headword": "인수인계",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "83becca69f989c63c2f843613ed6cfd12bc4a8958bbd971a546f5ee12c5e35c2"
+    },
+    {
+      "id": "62739bf2-b34d-4b0b-b39d-243534f734c4",
+      "headword": "공통점",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "e92d5584a63886412a0fae52e48924cffa883c861dd98608f69b10003f79a9f9"
+    },
+    {
+      "id": "7fd881b6-c648-4a1c-a2be-b5d67b12552f",
+      "headword": "공연히",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "72e1e2a832b45115a997c264fef32c24b6c4015651e0e0ad0f8a2b18bdcaeeed"
+    },
+    {
+      "id": "396ea4bb-11ac-4a9d-bbb2-8463f99dced6",
+      "headword": "슬며시",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "c2c397dd07658b6161d159f4ed46183b7f468a50fc06d11bfc14c263d38fc456"
+    },
+    {
+      "id": "b8204c9a-3b70-470b-b63a-afd5854462c5",
+      "headword": "넌지시",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "3c4ff048f6e8e6983afa46215701d42aa1237a25cc736955d52b9b5c305ef5f5"
+    },
+    {
+      "id": "0e95116a-ae3b-44ea-a7c4-3e456a0fa48d",
+      "headword": "막연히",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "e1537050462d3ae6b648fc2f2478854191d3518b2b93312915ef6a87933e6142"
+    },
+    {
+      "id": "3e184502-a893-4d92-840e-8ceeafb8e7e8",
+      "headword": "유난히",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "07737551a1f4a1e859f08b316c507f66d7394582693e2e6c52b9667131de3173"
+    },
+    {
+      "id": "2f197fd9-e559-49f8-9267-d1be437a5090",
+      "headword": "몹시",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "6e3abf86c1a977056b24d8bbebdfe1fb0323c4d08fda7329367367e0e61a1624"
+    },
+    {
+      "id": "59e9456d-e23b-4859-b0f1-9dcfeb493286",
+      "headword": "무척",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "5e78f9f70eb62fe0b404db1c4ff87c8d9c666cabaa66260baf45171a50fa8938"
+    },
+    {
+      "id": "b4cf1d71-af40-4a5b-89ba-f9a9ef3325d9",
+      "headword": "무심코",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "c3bf9afd71ca2c919c2439888d46d8c3bbd888ef582ebb7cafc0db74deafac81"
+    },
+    {
+      "id": "b00c3830-442e-4558-89c9-78b3a8169f09",
+      "headword": "왠지",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "6edd88f679647f672a12ee7d54f0839def37c5133308fae994d87533cb50decf"
+    },
+    {
+      "id": "7f8fe29b-4253-4864-a745-e7f55095561a",
+      "headword": "어쩌다가",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "32dfa478b00cb76fad5bb8e1b1a46d6d3eaf448889c26cf6cc2e960037b32269"
+    },
+    {
+      "id": "8b0f6bd0-b214-4ce5-a682-521fc8ba0daa",
+      "headword": "하마터면",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "13a6a163687f4b903b2db589202e1b435391d6b47db09d487ba78340c1d38aca"
+    },
+    {
+      "id": "ead93502-f996-400d-99a2-860cecc0658c",
+      "headword": "자칫",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "6fb4f9be778dc318508e054df3691de4d35d7b3d9d4c5d5188c8915cb22bb4c1"
+    },
+    {
+      "id": "62e643cc-217e-4ead-b927-508f0d8f1276",
+      "headword": "기꺼이",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "2b6cbc368330e10c938e99c09b23e7c74fd32fe154580f2907bbc892edb54b40"
+    },
+    {
+      "id": "acb4996a-0593-4b3c-9aee-33d1e20b0941",
+      "headword": "선뜻",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "b4b0ebe7d210916a10830bc4b37d0a1e66697ccdfc4fce26634c1e8d906c1a6f"
+    },
+    {
+      "id": "1102b2f2-d321-4cfd-b9d4-19391f090101",
+      "headword": "거듭",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "103d5325f64050d9da2c9d0c56c1eadf11dea3624560c753fc8e9a64c907d79d"
+    },
+    {
+      "id": "b778a597-a11c-4d7e-97be-c8d2a65d1a20",
+      "headword": "재차",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "af27ea361a46a465c8153e37fd08396b108c2cb2952d29e1d6785ed40ee128cf"
+    },
+    {
+      "id": "85fcb243-e060-4a87-9c94-462095966d1f",
+      "headword": "일일이",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "de3a405dd69d7fbd9df906e1153d05afa767ba1afe03d9cef23be389ea898cac"
+    },
+    {
+      "id": "5e3053a8-0c93-4c84-8630-5cea696fa2a5",
+      "headword": "하나하나",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "e2ba7f5b73c46c62dfd72f52a361edc34f5a3fcf378bb999b05a838af4a671ec"
+    },
+    {
+      "id": "e0dbf612-d691-40a5-9a79-003d0667f85c",
+      "headword": "그나마",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "c29361e27b6cd2bca4f395a74af220ae0ebad0379a3a7a472df34fb3f465a2f4"
+    },
+    {
+      "id": "86140c2c-b130-4faf-8ea0-f39b77d25c2d",
+      "headword": "그럭저럭",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "49864150c353761fe4fddd573a28ae99f064564de55166e6dee58c9d93073068"
+    },
+    {
+      "id": "7bba6aa5-dee3-4838-9071-c836172c2f6c",
+      "headword": "얼추",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "fa8e6d13a72c7d3bbd88b60b7008da1c3d69bb10a44b11dd009ea5b477f3a59d"
+    },
+    {
+      "id": "c2a98bbb-ff65-4f0a-818d-cec7a9066dbc",
+      "headword": "되도록",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "e8f4857ac1e4e76542b5db29a66515a240e18bb786568676eddcfbfbc3b8873d"
+    },
+    {
+      "id": "bd97efbb-5c27-45e1-bf74-38b9cc75e892",
+      "headword": "가급적",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "8ac1757f01feaf471afa0e2c420ee058c7889fb20f5cd25d7ad20fcf9bb1a08f"
+    },
+    {
+      "id": "ff8c6045-ef3f-43b2-9cbd-d94e9c929feb",
+      "headword": "되레",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "d9224d32ad36a1cbefe23d3de6261d6388f203f8ea4f29c0028e046de419fcb8"
+    },
+    {
+      "id": "812a3ebc-5e1b-4eb7-ba1d-53faf5513518",
+      "headword": "오로지",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "64c6789899ab04bc4546f29ff5cd141e1d9c1c8abb0d4519076d50606f3acfc2"
+    },
+    {
+      "id": "bca7f538-2f3e-4f60-95e7-3393fda02605",
+      "headword": "한결",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "7aa403a3da173c5cb5937fbec039880626d937f47dd7d4cb442df6dbd238eca1"
+    },
+    {
+      "id": "17dd598f-7df0-4777-949c-38b73db7277c",
+      "headword": "한층",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "75fc45d1a591817ffdf8d481e8d95128855077f195a76065ecf0f23294b375cf"
+    },
+    {
+      "id": "ecc3dced-7468-44eb-8e6f-59c6afd32e72",
+      "headword": "점차",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "94a4ed977c968835539c540442e5d7b32b32458315bd761f97ed60c562e11b91"
+    },
+    {
+      "id": "24658391-4f15-4c29-aecf-7f32b0a4a55b",
+      "headword": "곧잘",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "52efd83ac1549fc1da5c7171b8099283bbe833ecae92239b2fbf65128e2c6eb5"
+    },
+    {
+      "id": "3f95d420-673e-4a2e-8112-2c2b6dd957c0",
+      "headword": "이따금",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "9be60f29a0d277c2d819620c7b028b15a383dd8012f83ffb6e1911e426cbe02a"
+    },
+    {
+      "id": "08cfcfc4-97e2-4881-ab28-44dde2c70555",
+      "headword": "수시로",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "52713eee511327d44ec18b255712e462cc7596597c331985ea472316386dfbd0"
+    },
+    {
+      "id": "2d441402-3abc-4b9a-be31-5d55d4a839ed",
+      "headword": "틈틈이",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "d61d6d2f9f63d4b93be4372b85c8727bdc27d6e5397f52f2bb84f04ff6739cb8"
+    },
+    {
+      "id": "4fd7e8e2-f0ad-4e34-94e8-ed16125a6f70",
+      "headword": "좀처럼",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "fd4bea5062e5091211940477a6672272bd3b2aa696d2b8a8a51ce8d1f8fa2bdb"
+    },
+    {
+      "id": "f3b00d2b-bf15-41b3-8b80-c4b3dc488822",
+      "headword": "쉽사리",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "e09087033f8928dce5b58dd52439bd1c274627a5a3221a6a855a7a807753d0c9"
+    },
+    {
+      "id": "80811fa5-a914-482d-b24d-62de6baa2c84",
+      "headword": "섣불리",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "5678682babf912c56f64d8cc01af9e255b1ca07b5871c01fa73f7fa7b31e3fb8"
+    },
+    {
+      "id": "d07d1742-7331-429b-8208-413ac7e9d28e",
+      "headword": "저절로",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "b001a28b51b4772d721f10d3f07e93ced2eaf4d92d9adef7cf6c811a4388a1bd"
+    },
+    {
+      "id": "d93efd06-279f-429a-8dcb-26a392352ea7",
+      "headword": "덩달아",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "683d366d75c622c25d55de80d69b7fbf0b5753cfc5b7f89d96b681f43fe7c28b"
+    },
+    {
+      "id": "ec706c1f-49a7-418c-9c4f-f989a7ab2de8",
+      "headword": "문득",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "f7f07be36f1804f9df21db31fa624d2f36e322afac51c924ff50adcc077fd77c"
+    },
+    {
+      "id": "bc97bcec-40ab-4e3f-9fa4-886839d2abb9",
+      "headword": "불쑥",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "d32180dca9815dcbdcea42546e231dd5927126619b231b6708f375ac18e7d5f1"
+    },
+    {
+      "id": "7a792354-8064-4f57-8de0-20904621658b",
+      "headword": "모처럼",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "0f1dfe622b3c3bcb9321483dffd6209d5d39e4d8d89234d7c9cba0111a6ce744"
+    },
+    {
+      "id": "0512f8d0-50d4-4b3d-b464-7785b8a9c479",
+      "headword": "눈치가 빠르다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "0aabe78bd5027b92f45e9e5b54337a3e5e1918123c1023d5469faa4487caf274"
+    },
+    {
+      "id": "5c840fd0-2549-48c4-ac0b-6889fa5d71f3",
+      "headword": "눈치가 없다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "62fcb5059e10a16df0b6f912354f6ab2e1b804dccf69b66eaf93b4096bd99827"
+    },
+    {
+      "id": "2fe412ef-9cae-403e-8a5e-a02f71343f70",
+      "headword": "말을 아끼다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "e7b0132e79ad8a4a25d14b72aba116d8d80504a5d4630dbc8634fbf70e751263"
+    },
+    {
+      "id": "896f8890-b198-4b52-91a2-141ba8842463",
+      "headword": "말을 돌리다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "492e4c4164a4c64ba3a1dd654b8d633b2118cc4de01948402f70903102586f5f"
+    },
+    {
+      "id": "bdfaddfa-9883-4fb6-a676-427e6f466132",
+      "headword": "말을 끊다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "e1c7b3e455b6e186b301fa373e7614238ed78bc492360df6ab8a19c5501604f7"
+    },
+    {
+      "id": "3b3548af-25dc-41e6-b3e0-55e7dbb9fbfd",
+      "headword": "말문이 막히다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "6ad3dc618262b8b7d5baf3de6ec81192420501d10e6454d6b6313b5fa59d251e"
+    },
+    {
+      "id": "35e4460f-c0ef-48e4-8119-2f571b98fdf0",
+      "headword": "마음을 놓다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "becc6fdea592bd6d63e82db3a03747450b3b60562241feb192b24269ea96f2d2"
+    },
+    {
+      "id": "be3f2065-346b-49cf-9246-7680b1b3dc46",
+      "headword": "마음을 열다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "4fabf2b49e44703c0d9db35bd1c07a44dc2cb1091130311d25d394b90bcb10af"
+    },
+    {
+      "id": "c7a67e97-3745-44e5-9745-0c1de3d98691",
+      "headword": "마음에 걸리다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "a62cce2b6cfe2c30290d0ed93d0e8ad2ab901da5f4a0cb55dca3cd5ea74de585"
+    },
+    {
+      "id": "4099d515-0835-4709-9e30-504df87d6e69",
+      "headword": "마음이 무겁다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "1616b84b55880e7741f319a4c6bfae0a2d4df5012996d064e7bca0fed0d1e4c6"
+    },
+    {
+      "id": "f2b380d2-5de4-4eeb-af77-993779ac0342",
+      "headword": "마음이 상하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "4b94b19a23e9760c0f69b61e624203617fc8a132fc13210a99457bfa646ece48"
+    },
+    {
+      "id": "3e35b6a8-48e3-4b36-b2bd-2e5a71a6198d",
+      "headword": "기분이 상하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "a3930d216b5f42a06646130dda7a6d200a6832efdc20e812136dbe2d8bea0fd5"
+    },
+    {
+      "id": "bb9e27d3-7cfa-4191-bcd8-806f5a569099",
+      "headword": "정이 들다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "1f0bca2c6ad1576dd7b8f2199cd6ae8cec7dde0a33ba59b892e212f33f1a8146"
+    },
+    {
+      "id": "2ff4b68a-846f-4f3a-8146-83c8cb1e57c4",
+      "headword": "정이 떨어지다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "c1afcfcf83e7778b69d0cac582198deecd8148fbdee9b9e1f9425e54a2d8aea4"
+    },
+    {
+      "id": "2b7415c2-592c-4f89-a982-c9fd280bda56",
+      "headword": "선을 긋다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "80f89a6d4d359b2ac06a16301ffaec693a46f202c312845811f94279b2dcd38b"
+    },
+    {
+      "id": "aae80042-8e8f-4225-94d6-5d1d3fdad99a",
+      "headword": "손을 내밀다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "b77d277c9471dc6f03a1097d0618a06af6cbc6c3186531e7b68075485c3bdb0d"
+    },
+    {
+      "id": "d552307c-e71f-4142-8cf5-562d7da9756c",
+      "headword": "발목을 잡다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "3c1518b781f35d29093f24bede976611cb30adcf78eec685dc28f7d5ce571ed2"
+    },
+    {
+      "id": "0e35e700-3dfe-4a05-a045-b489ef62bf2f",
+      "headword": "입이 무겁다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "dc1d7a98901fe56a45285cf673877e38cae7caa9f1b7154252fbf00ee0b336fe"
+    },
+    {
+      "id": "0470841f-43b0-4f3b-8b0b-a70820f21e07",
+      "headword": "입이 가볍다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "ec0f137264fd273b995fd781b85967b40762cc178a739156c9b142bc9cd5d0c4"
+    },
+    {
+      "id": "2f45b01d-f494-41fb-95a4-b6ca96fe90d1",
+      "headword": "한숨을 쉬다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "0ede25d2b6ca3681bafd1bb11edcab2c4a2f86e1529aa1ebaab3d84a4abc1da2"
+    },
+    {
+      "id": "58bc8827-4fcd-4a83-a297-059c20116bb9",
+      "headword": "숨을 돌리다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "e0d7053f7e8aa0066e18a0cd9fcca913f08c9bd8eb14ffe7897e13704c5fa83f"
+    },
+    {
+      "id": "0c8de4db-c600-4c8a-9da3-32c68641974f",
+      "headword": "힘을 합치다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "aefb00f334d8b32e32654a7c05b326c92a125e88972c2ee4d24d01888c485d23"
+    },
+    {
+      "id": "a58bc66f-0553-4bb2-8a04-d45ea71711c9",
+      "headword": "힘을 보태다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "76e40ee8fe4dc6c894a1c45c9eabd22c6ffea854c68921e9e4b1caac70a0877a"
+    },
+    {
+      "id": "023adb4c-f88f-42be-991c-04b062a5fe9a",
+      "headword": "힘이 빠지다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "2ac132d02c50fc968d2e55f4c81837480ac7305f614e4770b6daffd21d8678eb"
+    },
+    {
+      "id": "d2f9fd9c-de64-4e06-942a-f52cef713477",
+      "headword": "기운을 내다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "d216ee45d2cdc58b4e70c0723aee6c262b77d9021d75835fe3f03cd03f54c195"
+    },
+    {
+      "id": "8fcfe8d5-a61c-4eee-aff9-cf028f21e22e",
+      "headword": "기운이 나다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "9597a99afd6de6799179ab481816e058f66334ddce393662b4996ef177e41731"
+    },
+    {
+      "id": "46769e13-9781-4d83-8271-d1e2475e54e0",
+      "headword": "신경이 쓰이다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "8269cf72321ccd12bef9cf9ece6c3f45a83fed6456da290fa820364029d57d59"
+    },
+    {
+      "id": "e51d775c-908b-4002-955a-cc5be35e1150",
+      "headword": "고개를 젓다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "b0472b9da0630f238123ec820c243f2a5f623835ef6ca57f07e6041fe33641b8"
+    },
+    {
+      "id": "d4933068-56e4-4ae3-a9bb-432512538023",
+      "headword": "손이 크다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "d70f7e38eb15b0694b8bfcbcd9c42e6f0039f6ea8e887205e319cc15fd759a56"
+    },
+    {
+      "id": "358f56c9-734d-4f31-97b7-fe08c5ca9e21",
+      "headword": "발이 묶이다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "d1b7caf8f3987c1c06405e558a805c1909cfb60fe9850a8dc49d2608cd556e2b"
+    },
+    {
+      "id": "0f63bd21-4c60-4c58-b9d1-5c8a77f5d808",
+      "headword": "책임을 묻다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "fc5703d43ff7648e223d84a6ac6b678daf1b53121dc889e9b0aeb58be218f456"
+    },
+    {
+      "id": "32eb53ba-432e-4a08-9f80-4927659b6760",
+      "headword": "입을 모으다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "e60ec2462bda803d2c4cb5d287ca7e307bfac9874113f2450250784579710553"
+    },
+    {
+      "id": "16f6f4e7-0ce9-4999-8b5a-f5065fb966fc",
+      "headword": "눈에 밟히다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "65ea4f6346e2a55a3972629eb1fc5fc580acaa24a98be6e5054bac02b7cb8b28"
+    },
+    {
+      "id": "55ecef3d-c3f5-49f0-a030-408f63745eff",
+      "headword": "양해를 구하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "05b403d58154ee9a5c7979377ed8816d54f2462176acba6387e61a349bbe343c"
+    },
+    {
+      "id": "8965e7a4-869b-41a5-aadd-c454a38366f5",
+      "headword": "핑계를 대다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "d786c703a2ab90dd597a2f22c158b4ce37bef82afb3b2bdb851dd4e31602fd51"
+    },
+    {
+      "id": "56dabbb4-e76a-42b8-8242-d1c16ca7538f",
+      "headword": "트집을 잡다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "0532931cf2794dae3d877d98159be83abb8f679ef84baac3547bb98473032e5b"
+    },
+    {
+      "id": "1f11072b-205f-4b79-9087-3d0f4cfabfcb",
+      "headword": "편을 들다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "b7745cf34ebd2a0d8f346379af90d29f4f12b8212f32ae465fc1afa09c8047be"
+    },
+    {
+      "id": "72cdd6f2-5656-44f8-85f4-2be592f0df85",
+      "headword": "속을 털어놓다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "448adc5ad600b237980daffb9f34cff320dfc4392f4b07f36200fdaef39ec5c2"
+    },
+    {
+      "id": "15534380-bf2a-46e6-b0aa-7e7fc6246da9",
+      "headword": "속이 상하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "b5099f0f4a3ab6ad408162c68cbb95d11a7ad267a34946a5739ba036584b1f05"
+    },
+    {
+      "id": "9ade4d7e-7ac0-4fdc-beae-6748eb3ea3c3",
+      "headword": "속이 시원하다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "c33594737f91205d968ccf41e4b4e59fe099fa4b060832ac1431501f4d801dd1"
+    },
+    {
+      "id": "dac86cf5-ed9a-4a8f-b913-9eabc6a8627b",
+      "headword": "맞히다",
+      "status": "approved_after_individual_self_review",
+      "reviewed_fields": [
+        "headword",
+        "part_of_speech",
+        "irregular_metadata",
+        "meaning_separation",
+        "collocation_if_present",
+        "both_Korean_examples",
+        "both_Japanese_translations",
+        "note_if_present",
+        "level_and_context"
+      ],
+      "editorial_sha256": "1a547d500ae0f6fad19560a60910849b39b9000d40077b6f7f42ce7e52773469"
+    }
+  ]
+}
