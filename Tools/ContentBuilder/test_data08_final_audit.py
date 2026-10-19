@@ -1,4 +1,4 @@
-"""Final DATA-08 editorial corrections, immutable IDs and real SQL regressions.
+"""Frozen Content18 final editorial corrections, immutable IDs and real SQL regressions.
 
 Language expectations are authored review evidence, not a linguistic oracle.
 These tests never substitute for Swift/Xcode or human language review.
@@ -25,11 +25,13 @@ from validator import Report, row_fields, signatures
 class Data08FinalAuditTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.source = json.loads((ROOT/'Content/production.json').read_text())
+        cls.release = ROOT/'Tests/Fixtures/content-v18-production.sqlite'
+        cls.source_bytes = gzip.decompress((ROOT/'Tests/Fixtures/content-v18-production.json.gz').read_bytes())
+        cls.source = json.loads(cls.source_bytes)
         cls.before_bytes = gzip.decompress((ROOT/'Tests/Fixtures/content-v17-production.json.gz').read_bytes())
         cls.before = json.loads(cls.before_bytes)
         cls.previous = ROOT/'Tests/Fixtures/content-v17-production.sqlite'
-        cls.db = sqlite3.connect((ROOT/'Resources/content.sqlite').as_uri()+'?mode=ro', uri=True)
+        cls.db = sqlite3.connect(cls.release.as_uri()+'?mode=ro', uri=True)
         cls.old = sqlite3.connect(cls.previous.as_uri()+'?mode=ro', uri=True)
         cls.registries = cohorts()
         cls.words = [w for r in cls.registries.values() for w in r['vocabulary']]
@@ -44,7 +46,7 @@ class Data08FinalAuditTests(unittest.TestCase):
         cls.old.close()
 
     def test_full_source_and_bundle_audit_all_cohorts_and_references(self):
-        result = audit(self.source, ROOT/'Resources/content.sqlite')
+        result = audit(self.source, self.release)
         self.assertEqual(result['validation']['error_count'], 0)
         self.assertEqual(result['source_rows_scanned'], 42909)
         self.assertEqual(result['source_tables_scanned'], 25)
@@ -55,7 +57,9 @@ class Data08FinalAuditTests(unittest.TestCase):
     def test_strict_content17_to18_rebuild_has_same_complete_sql_rows(self):
         with tempfile.TemporaryDirectory() as tmp:
             target = Path(tmp)/'rebuilt.sqlite'
-            result = build(ROOT/'Content/production.json', target, self.previous, production=True)
+            source18 = Path(tmp)/'content18.json'
+            source18.write_bytes(self.source_bytes)
+            result = build(source18, target, self.previous, production=True)
             self.assertEqual(result['validation']['error_count'], 0)
             self.assertEqual(result['validation']['warning_count'], 10)
             with sqlite3.connect(target) as rebuilt:
@@ -189,7 +193,7 @@ class Data08FinalAuditTests(unittest.TestCase):
             db.execute("INSERT INTO user_metadata VALUES('settings.v1','{\"shortSession\":5}')")
             db.commit(); db.close()
             original = progress.read_bytes()
-            shutil.copyfile(ROOT/'Resources/content.sqlite',content)
+            shutil.copyfile(self.release,content)
             self.assertEqual(progress.read_bytes(),original)
             with sqlite3.connect(progress) as saved, sqlite3.connect(content) as current:
                 self.assertEqual(saved.execute('PRAGMA user_version').fetchone()[0],10)

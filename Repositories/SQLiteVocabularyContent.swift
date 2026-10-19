@@ -5,6 +5,10 @@ extension SQLiteContentRepository {
         try db.query("SELECT COUNT(*) AS count FROM vocabulary v JOIN content_items i ON i.id=v.id WHERE i.is_active=1 AND i.level=?", [.text(level.rawValue)]).first?.integer("count") ?? 0
     }
     func vocabularyCard(id: ContentID) async throws -> VocabularyCard {
+        try readVocabularyCard(id: id)
+    }
+    // Shared by dictionary/rounds and authored vocabulary lessons. No copied text.
+    func readVocabularyCard(id: ContentID) throws -> VocabularyCard {
         guard let row = try db.query("SELECT v.headword,v.part_of_speech,i.revision FROM vocabulary v JOIN content_items i ON i.id=v.id WHERE v.id=? AND i.is_active=1", [.text(id.rawValue)]).first,
               let pos = PartOfSpeech(rawValue: try row.text("part_of_speech")) else { throw VocabularyStudyError.missingContent }
         let meanings = try db.query("SELECT m.* FROM meanings m JOIN content_items i ON i.id=m.id WHERE m.vocabulary_id=? AND i.is_active=1 ORDER BY m.ordinal,m.id LIMIT 10", [.text(id.rawValue)]).map { meaning -> VocabularyMeaning in

@@ -99,6 +99,20 @@ actor SQLiteContentRepository: ContentRepository {
             case "note":
                 return LessonStep(id: id, revision: revision, kind: .explanation, symbol: "", title: try row.text("title_ja"),
                     category: "", explanation: try row.text("note_explanation"), choices: [], correctChoiceID: nil)
+            case "vocabulary":
+                let card = try readVocabularyCard(id: id)
+                let meanings = card.meanings.map { meaning in
+                    ([meaning.text, meaning.usage, meaning.nuance].compactMap { $0 }
+                        + (meaning.example.map { [$0.korean, $0.japanese] } ?? [])).joined(separator: "\n")
+                }
+                let notes = card.notes.map { $0.title + "\n" + $0.text }
+                var step = LessonStep(id: id, revision: revision, kind: .explanation,
+                    symbol: card.headword, title: card.partOfSpeech, category: "単語・意味と例文",
+                    explanation: (meanings + notes).joined(separator: "\n\n"), choices: [], correctChoiceID: nil)
+                step.audio = card.audio
+                // Reading a lesson is exposure; rounds and SRS keep their own state.
+                step.skill = "vocabulary_preview"
+                return step
             case "pronunciation":
                 guard let pronunciation = try readPronunciation(id) else { throw DatabaseError.invalidData("Missing pronunciation presentation") }
                 var step = LessonStep(id: id, revision: revision, kind: .pronunciation, symbol: pronunciation.spelling,

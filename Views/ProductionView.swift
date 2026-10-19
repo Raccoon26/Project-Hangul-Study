@@ -85,7 +85,7 @@ struct ProductionStudyView: View {
                                 Text(q.explanation)
                                 sound(q.accepted[0])
                             } else {
-                                Text("指定された語と形を使ってください。自由翻訳の自動採点ではありません。").font(.footnote).foregroundStyle(.secondary)
+                                Text("学習した内容と問題の指示に合わせて入力してください。自由翻訳の自動採点ではありません。").font(.footnote).foregroundStyle(.secondary)
                             }
                         }
                     }

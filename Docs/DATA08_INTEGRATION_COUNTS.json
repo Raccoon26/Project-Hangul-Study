@@ -1,0 +1,192 @@
+{
+  "stage": "DATA-08-6",
+  "environment": {
+    "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+    "python": "3.12.14",
+    "sqlite": "3.53.1",
+    "swift": false,
+    "xcode": false
+  },
+  "versions": {
+    "content": 19,
+    "schema": 4,
+    "min_reader": 7,
+    "user_progress": 10
+  },
+  "source_sha256": "f97b3bd70d07a3945770b8d6940c4a53e29a9b70b565caf21fb927230c08b4a8",
+  "bundle_sha256": "57aeaf918d5eaaec3bbfaed02f87c5452cca8264540b923a70448b781adbe9e5",
+  "release18_bundle_sha256": "3235c21699bb297a4447f0ce2068a2e949db136a2c4e08ca70d7a737a07308e3",
+  "release18_source_sha256": "f7af29ac0ed7f8ba195304562e4521477fba6bb076d33dc6bbc1b6c6f58994e3",
+  "source_rows": 63159,
+  "source_tables": 25,
+  "table_counts": {
+    "content_items": 15428,
+    "hangul": 55,
+    "content_links": 6047,
+    "courses": 5,
+    "learner_notes": 531,
+    "questions": 3337,
+    "question_choices": 828,
+    "lessons": 85,
+    "lesson_items": 1137,
+    "sources": 19,
+    "item_sources": 14994,
+    "pronunciation_rules": 36,
+    "pronunciation_presentations": 36,
+    "content_audio": 36,
+    "examples": 4597,
+    "pronunciation_examples": 13,
+    "audio_questions": 3,
+    "tags": 97,
+    "vocabulary": 2287,
+    "item_tags": 4507,
+    "meanings": 2420,
+    "vocabulary_examples": 4514,
+    "grammar": 42,
+    "grammar_examples": 169,
+    "listening_items": 1936
+  },
+  "deltas": {
+    "content_items": 4855,
+    "hangul": 0,
+    "content_links": 4726,
+    "courses": 1,
+    "learner_notes": 0,
+    "questions": 2983,
+    "question_choices": 0,
+    "lessons": 47,
+    "lesson_items": 911,
+    "sources": 1,
+    "item_sources": 4855,
+    "pronunciation_rules": 0,
+    "pronunciation_presentations": 0,
+    "content_audio": 0,
+    "examples": 0,
+    "pronunciation_examples": 0,
+    "audio_questions": 0,
+    "tags": 3,
+    "vocabulary": 0,
+    "item_tags": 47,
+    "meanings": 0,
+    "vocabulary_examples": 0,
+    "grammar": 0,
+    "grammar_examples": 0,
+    "listening_items": 1821
+  },
+  "level_counts": {
+    "vocabulary": {
+      "beginner": 800,
+      "intro": 306,
+      "lower_intermediate": 1181
+    },
+    "example": {
+      "beginner": 1577,
+      "intro": 659,
+      "lower_intermediate": 2361
+    },
+    "grammar": {
+      "beginner": 20,
+      "intro": 22
+    },
+    "listening": {
+      "beginner": 79,
+      "intro": 34,
+      "lower_intermediate": 1823
+    },
+    "question": {
+      "beginner": 134,
+      "hangul": 59,
+      "intro": 156,
+      "lower_intermediate": 2988
+    },
+    "course": {
+      "beginner": 1,
+      "hangul": 1,
+      "intro": 2,
+      "lower_intermediate": 1
+    },
+    "lesson": {
+      "beginner": 6,
+      "hangul": 12,
+      "intro": 20,
+      "lower_intermediate": 47
+    }
+  },
+  "data08": {
+    "vocabulary": 911,
+    "lexical": 807,
+    "phrases": 104,
+    "meanings": 963,
+    "new_unique_examples": 1821,
+    "example_placements": 1822,
+    "notes": 314,
+    "grammar_references": 46
+  },
+  "integration": {
+    "new_course": 1,
+    "unit_tags": 3,
+    "lessons": 47,
+    "lesson_memberships": 911,
+    "listening_dictation": 1821,
+    "conjugatable_predicates": 581,
+    "form_questions": 581,
+    "sentence_questions": 581,
+    "non_conjugatable_items": 330,
+    "new_entities": 4855,
+    "revised_existing_entities": 2733,
+    "deleted_entities": 0
+  },
+  "integrity": [
+    [
+      "ok"
+    ]
+  ],
+  "foreign_key_violations": [],
+  "native_test_definitions": 132,
+  "native_executed": 0,
+  "independent_human_review": false,
+  "preserved_code_sha256": {
+    "Services/LearningPreferences.swift": "a4ed8e2cf72baaae1239978a8cfc0632e250dab15580a0822bc0ac46c90ea623",
+    "Persistence/UserDatabaseMigration.swift": "b940aff5ddf60578f97a3558a43ebd7505dc036ba278490a8a86d07435b279ec",
+    "LearningEngine/VocabularyPassEngine.swift": "f7c1187135819a74e5557de79f6c44f3c82aa0d500a62f0b422788f0169c6302",
+    "LearningEngine/ConjugationEngine.swift": "97ec6a8e909b03f19edab849a89ba5b1d119c1b3d4a735e5b698fd2ed75de036",
+    "LearningEngine/StepReviewScheduler.swift": "bc951c1c6648b5391d2a9ac02b53477a02bf04f5929ecb01dc84fd356e38045d"
+  },
+  "settings_storage": "UserDefaults learning.preferences.v1; source unchanged; native execution not performed. SQL metadata is not an actual preferences test.",
+  "tests": {
+    "portable": {
+      "run": 291,
+      "passed": 291,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "seconds": 289.839,
+      "exit_code": 0
+    },
+    "focused": {
+      "run": 11,
+      "passed": 11,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "seconds": 18.993,
+      "exit_code": 0
+    },
+    "initial_portable": {
+      "run": 291,
+      "passed": 289,
+      "failures": 2,
+      "errors": 0,
+      "seconds": 297.752,
+      "exit_code": 1
+    },
+    "initial_focused": {
+      "run": 11,
+      "passed": 10,
+      "failures": 0,
+      "errors": 1,
+      "seconds": 17.419,
+      "exit_code": 1
+    }
+  }
+}

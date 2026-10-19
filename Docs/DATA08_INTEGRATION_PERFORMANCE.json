@@ -1,0 +1,145 @@
+{
+  "environment": {
+    "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+    "python": "3.12.14",
+    "sqlite": "3.53.1"
+  },
+  "repetitions": 30,
+  "scope": "Warm SQLite connections, actual Swift repository SQL; separate disk progress DB, socket creation forbidden in this Python process. No Swift/iPhone/UI/TTS or actual 3–10 minute timing. Session benchmark measures SQL writes, not engine execution.",
+  "before": {
+    "bundle_bytes": 11685888,
+    "counts": {
+      "vocabulary": 2287,
+      "listening": 115,
+      "questions": 354,
+      "srs_rows": 2287
+    },
+    "queries": {
+      "home_refresh_summary_and_resume_sql": {
+        "median_ms": 3.5459,
+        "p95_ms": 5.1078,
+        "max_ms": 8.131,
+        "result_rows": 9
+      },
+      "home_summary_resume_first_curriculum_pages": {
+        "median_ms": 1.0237,
+        "p95_ms": 1.6443,
+        "max_ms": 2.8283,
+        "result_rows": 203
+      },
+      "ko_search": {
+        "median_ms": 0.7455,
+        "p95_ms": 1.0327,
+        "max_ms": 1.24,
+        "result_rows": 1
+      },
+      "ja_search": {
+        "median_ms": 0.6939,
+        "p95_ms": 0.9101,
+        "max_ms": 0.999,
+        "result_rows": 1
+      },
+      "broad_search": {
+        "median_ms": 5.0104,
+        "p95_ms": 5.1927,
+        "max_ms": 5.2789,
+        "result_rows": 30
+      },
+      "no_match": {
+        "median_ms": 0.9473,
+        "p95_ms": 0.9829,
+        "max_ms": 1.0671,
+        "result_rows": 0
+      },
+      "srs_due20_and_card_headers": {
+        "median_ms": 1.1603,
+        "p95_ms": 1.2257,
+        "max_ms": 1.3858,
+        "result_rows": 20
+      },
+      "vocabulary_first20": {
+        "median_ms": 0.6992,
+        "p95_ms": 0.8629,
+        "max_ms": 1.2833,
+        "result_rows": 20
+      },
+      "set20_membership_and_session_commit_sql": {
+        "median_ms": 0.9974,
+        "p95_ms": 1.3012,
+        "max_ms": 1.3423,
+        "result_rows": 20
+      }
+    }
+  },
+  "after": {
+    "bundle_bytes": 17932288,
+    "counts": {
+      "vocabulary": 2287,
+      "listening": 1936,
+      "questions": 3337,
+      "srs_rows": 2287
+    },
+    "queries": {
+      "home_refresh_summary_and_resume_sql": {
+        "median_ms": 3.6823,
+        "p95_ms": 5.5412,
+        "max_ms": 6.1595,
+        "result_rows": 9
+      },
+      "home_summary_resume_first_curriculum_pages": {
+        "median_ms": 1.0924,
+        "p95_ms": 1.2789,
+        "max_ms": 1.3024,
+        "result_rows": 448
+      },
+      "ko_search": {
+        "median_ms": 0.5841,
+        "p95_ms": 0.8741,
+        "max_ms": 1.0615,
+        "result_rows": 1
+      },
+      "ja_search": {
+        "median_ms": 0.657,
+        "p95_ms": 0.7924,
+        "max_ms": 0.8783,
+        "result_rows": 1
+      },
+      "broad_search": {
+        "median_ms": 5.1439,
+        "p95_ms": 5.3335,
+        "max_ms": 5.3756,
+        "result_rows": 30
+      },
+      "no_match": {
+        "median_ms": 0.9525,
+        "p95_ms": 0.9831,
+        "max_ms": 1.0701,
+        "result_rows": 0
+      },
+      "srs_due20_and_card_headers": {
+        "median_ms": 0.613,
+        "p95_ms": 0.7592,
+        "max_ms": 0.8617,
+        "result_rows": 20
+      },
+      "vocabulary_first20": {
+        "median_ms": 0.6553,
+        "p95_ms": 0.7469,
+        "max_ms": 1.2232,
+        "result_rows": 20
+      },
+      "authored_lesson20_query": {
+        "median_ms": 0.125,
+        "p95_ms": 0.1577,
+        "max_ms": 0.338,
+        "result_rows": 20
+      },
+      "set20_membership_and_session_commit_sql": {
+        "median_ms": 0.9779,
+        "p95_ms": 1.1456,
+        "max_ms": 1.2949,
+        "result_rows": 20
+      }
+    }
+  }
+}

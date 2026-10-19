@@ -1,3 +1,7 @@
+**DATA-08-6: Content19 / Schema4 / minReader7 / UserProgress10.** 911어휘/1,821신규예문 목표 유지. 실제 Course1·Unit tag3·Lesson47에911어휘 배치, 듣기/받아쓰기1,821·활용/문장입력1,162문항 연결. Production Vocabulary2,287 / Example4,597 / Grammar42 / Listening1,936 / Question3,337. strict0errors/기존10warnings·integrity ok/FK0·전63,159행 Source/DB 일치. portable **291 PASS**(289.839초, failures/errors/skipped0, exit0), 전용11 PASS. 사용자 기록/active snapshot/5·10·20 복습 SQL 보존. native 정의132/실행0, 실제 iPhone/offline/TTS/3~10분과 사람 검수 미실행. B—Conditional 유지. 상세 [통합 기록](Docs/DATA08_INTEGRATION.md), [DATA08_PROGRESS.md](DATA08_PROGRESS.md) §14. 아래는 단계별 이력이다.
+
+---
+
 > **DATA-08-5 현재: Content18/schema4/reader7/UserProgress10.** assistant 전911어휘·1,821고유문장 재독·별도 무작위84개 감사,34어휘43필드 교정. portable **280 PASS**(failures/errors/skipped0, exit0). **사람·독립 원어민/교사 검수는 미실행**이며 자동 검사는 언어 품질 보증이 아닙니다. 문형 후보163예문의 선행 학습과 Level/Register의 독립 적합성 확인을 남깁니다. native 정의130개/실행0; Mac에서 전체130개와 새22불규칙+7규칙 혼동어의 현재/조건/미래 기대형,17→18 수정 어휘의 부분 session/SRS/즐겨찾기 보존을 검증해야 합니다. Xcode/SDK/Debug·Release·iPhone3~10분/offline/TTS/중단/VoiceOver/광고·StoreKit/알림 gate와 **B—Conditional**을 유지합니다. 아래 과거 gate/체크박스를 보존합니다. 상세 `DATA08_PROGRESS.md` §13.
 
 ---

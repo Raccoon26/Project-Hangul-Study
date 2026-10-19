@@ -188,4 +188,34 @@ final class ListeningTests: XCTestCase {
         let active = try await cold.activeListening(scope:"practice:beginner:3")
         XCTAssertNil(active)
     }
+    func testDATA08AllLowerIntermediateDictationBatchesAndAnswers() async throws {
+        let content = try SQLiteContentRepository(url:XCTUnwrap(Bundle.main.url(forResource:"content",withExtension:"sqlite")),allowFixture:false)
+        var after = -1
+        var ids = Set<ContentID>()
+        var newCount = 0
+        while true {
+            let batches = try await content.listeningBatches(level:.lowerIntermediate,after:after)
+            if batches.isEmpty { break }
+            for (batch,count) in batches {
+                let batchIDs = try await content.listeningBatchIDs(level:.lowerIntermediate,batch:batch)
+                let questions = try await content.listeningQuestions(level:.lowerIntermediate,ids:batchIDs)
+                XCTAssertEqual(questions.count,count)
+                XCTAssertLessThanOrEqual(count,20)
+                for q in questions {
+                    try q.validate()
+                    XCTAssertTrue(ids.insert(q.itemID).inserted)
+                    if batch >= 11 {
+                        XCTAssertEqual(q.task,.dictation)
+                        XCTAssertEqual(q.judge(q.transcript),.correct)
+                        XCTAssertTrue(AudioPolicy.permitsTTS(q.audio))
+                        newCount += 1
+                    }
+                }
+            }
+            after = try XCTUnwrap(batches.last).0
+        }
+        XCTAssertEqual(ids.count,1823)
+        XCTAssertEqual(newCount,1821)
+    }
+
 }

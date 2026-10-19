@@ -1,3 +1,7 @@
+**DATA-08-6: Content19 / Schema4 / minReader7 / UserProgress10.** 911어휘/1,821신규예문 목표 유지. 실제 Course1·Unit tag3·Lesson47에911어휘 배치, 듣기/받아쓰기1,821·활용/문장입력1,162문항 연결. Production Vocabulary2,287 / Example4,597 / Grammar42 / Listening1,936 / Question3,337. strict0errors/기존10warnings·integrity ok/FK0·전63,159행 Source/DB 일치. portable **291 PASS**(289.839초, failures/errors/skipped0, exit0), 전용11 PASS. 사용자 기록/active snapshot/5·10·20 복습 SQL 보존. native 정의132/실행0, 실제 iPhone/offline/TTS/3~10분과 사람 검수 미실행. B—Conditional 유지. 상세 [통합 기록](Docs/DATA08_INTEGRATION.md), [DATA08_PROGRESS.md](DATA08_PROGRESS.md) §14. 아래는 단계별 이력이다.
+
+---
+
 > **현재 기준 (DATA-08-5 최종 감사): Content18 / Schema4 / minReader7 / UserProgress10.** A~C 전체 assistant 한일 재독·표본84개 감사 후34어휘43필드 교정. 수량911어휘/1,821신규문장 유지. 현재 규칙은 마지막 DATA-08-FINAL 절과 `DATA08_PROGRESS.md` §13. 사람 검수·완전한 선행 Grammar 검증·native 실행은 미완료이며 아래 단계 내용은 당시 이력이다.
 
 ---
@@ -1065,3 +1069,13 @@ sh Tools/verify.sh --portable
 - `sh Tools/verify.sh --portable`:280 PASS. A/B/C 역사 검사는15/16/17 fixture에서 유지하고 새11개 회귀군은 현재18의 전체 변화·실제 카드/검색·부분session/UserProgress 보존을 검사한다. native130개/실제 iPhone은 Mac에서 별도 검증한다. 사람 검수 미실행·B—Conditional 및 기존 gate 유지.
 
 근거: `Docs/DATA08_FINAL_REVIEW.md`, `DATA08_FINAL_EDITORIAL.json`, `DATA08_FINAL_FINDINGS.json`, `DATA08_FINAL_SAMPLES.json`, `DATA08_FINAL_RESCAN.json`, `DATA08_FINAL_DICTIONARY.json`, `DATA08_FINAL_COUNTS.json`, `DATA08_FINAL_TEST_LOG.txt`.
+
+
+## DATA-08-INTEGRATION — Content19 / Schema4 / reader7 (2026-10-19)
+
+- DATA08 lexical payload는 Content18 감사본과 동일하다. 추가된 course/47 lessons/3 unit tags,1,821 listening과2,983 question의 실제 ID는 `Content/data08-integration-ids.json`이 기준이다. Unit은 `curriculum_unit` tag와 제목으로 표현하며 별도 Unit schema를 신설하지 않는다.
+- vocabulary lesson은 공통 card reader → explanation preview(`vocabulary_preview`,viewed) 경로로 실행하며 회독/SRS 완료와 구분한다. 사용자 Set은 기존 allocator에서20개로 할당하고 재정렬/초기화하지 않는다.
+- 듣기는 source_example_id와 related Example ID를 유지한다. 이번 dictation accepted는 기존 Korean 원문, prompt_ko=null이다. 배포된 learning_order는 그대로 두고 신규220~2040을 뒤에 추가했다.
+- 동사/형용사581개만 -고 활용형과 기존 문장 재현에 연결한다. `form`/`sentence` mode·prerequisite를 유지하며 문장을 재편집하면 원 Example/accepted/prompt 번역도 함께 검토해야 한다. 명사·부사·표현을 활용 대상으로 바꾸지 않는다.
+- 이전18 DB/source를 반드시 strict previous로 사용한다. 기존911어휘+1,821예문+-고 Grammar1의 관계 fingerprint 변경만2,733 allowlist에 따른 revision+1이다. 이전 상세본문/ID/순서/기존 membership과 A~C 검수 이력은 변경하지 않는다.
+- 상세 재현·테스트·성능·미실행 gate는 `Docs/DATA08_INTEGRATION.md` / `DATA08_PROGRESS.md` §14. 자동/SQL 통과는 native나 사람 언어 검수 완료가 아니다.

@@ -43,7 +43,8 @@ extension SQLiteContentRepository {
                 }
             }
         }
-        let production = try await productionVocabulary(after:"")
+        // Expanding later levels must not change the difficulty of placement checks.
+        let production = try await curriculumProduction(level:.intro,after:"")
         if let first = production.first {
             let questions = try await productionQuestions(id:first.0)
             if let q = questions.first {
