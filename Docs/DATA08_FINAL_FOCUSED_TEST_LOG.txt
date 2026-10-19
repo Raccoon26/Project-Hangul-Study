@@ -1,0 +1,18 @@
+test_all_911_current_cards_meanings_notes_and_review_hashes (test_data08_final_audit.Data08FinalAuditTests.test_all_911_current_cards_meanings_notes_and_review_hashes) ... ok
+test_all_irregulars_and_regular_confusables_have_reviewed_native_expectations (test_data08_final_audit.Data08FinalAuditTests.test_all_irregulars_and_regular_confusables_have_reviewed_native_expectations) ... ok
+test_core_validator_rejects_hidden_control_text_but_allows_multiline_notes (test_data08_final_audit.Data08FinalAuditTests.test_core_validator_rejects_hidden_control_text_but_allows_multiline_notes) ... ok
+test_corrected_phrase_search_and_same_identity_keep_saved_session_due (test_data08_final_audit.Data08FinalAuditTests.test_corrected_phrase_search_and_same_identity_keep_saved_session_due) ... ok
+test_exact_field_ledger_reverses_to_complete_released_source (test_data08_final_audit.Data08FinalAuditTests.test_exact_field_ledger_reverses_to_complete_released_source) ... ok
+test_full_source_and_bundle_audit_all_cohorts_and_references (test_data08_final_audit.Data08FinalAuditTests.test_full_source_and_bundle_audit_all_cohorts_and_references) ... ok
+test_mutations_missing_field_reference_duplicate_and_pos_are_rejected (test_data08_final_audit.Data08FinalAuditTests.test_mutations_missing_field_reference_duplicate_and_pos_are_rejected) ... ok
+test_no_identity_count_membership_or_order_changes_only_40_revisions (test_data08_final_audit.Data08FinalAuditTests.test_no_identity_count_membership_or_order_changes_only_40_revisions) ... ok
+test_real_language_failures_detected_beyond_old_structural_validator (test_data08_final_audit.Data08FinalAuditTests.test_real_language_failures_detected_beyond_old_structural_validator) ... ok
+test_separate_random_samples_and_actual_grammar_links_keep_limits (test_data08_final_audit.Data08FinalAuditTests.test_separate_random_samples_and_actual_grammar_links_keep_limits) ... ok
+test_strict_content17_to18_rebuild_has_same_complete_sql_rows (test_data08_final_audit.Data08FinalAuditTests.test_strict_content17_to18_rebuild_has_same_complete_sql_rows) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 11.511s
+
+OK
+
+EXIT_STATUS=0

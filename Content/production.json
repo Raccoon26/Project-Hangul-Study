@@ -1,7 +1,7 @@
 {
   "metadata": {
     "schema_version": 4,
-    "content_version": 17,
+    "content_version": 18,
     "min_reader_version": 7,
     "dataset_id": "ko-ja-core",
     "is_fixture": 0,
@@ -63897,11 +63897,11 @@
       {
         "id": "5e37b1f6-ba0e-492b-b39e-99483108c869",
         "kind": "example",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-19T07:15:00Z",
-        "updated_at": "2026-10-19T07:15:00Z"
+        "updated_at": "2026-10-19T13:06:39Z"
       },
       {
         "id": "a554fc45-1bbf-4163-a735-c8be72d5d1bf",
@@ -64662,20 +64662,20 @@
       {
         "id": "e404b112-1b1d-4a35-b904-51c9669d841f",
         "kind": "meaning",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-19T07:15:00Z",
-        "updated_at": "2026-10-19T07:15:00Z"
+        "updated_at": "2026-10-19T13:06:39Z"
       },
       {
         "id": "6bf45b38-ea9e-4a4c-bbb0-fb38473a9be2",
         "kind": "example",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-19T07:15:00Z",
-        "updated_at": "2026-10-19T07:15:00Z"
+        "updated_at": "2026-10-19T13:06:39Z"
       },
       {
         "id": "60f1d1c1-f7a1-45cd-ad03-25c16f304c3d",
@@ -69144,11 +69144,11 @@
       {
         "id": "ac8dbd04-954c-4c44-aea3-c6e44bfe4b04",
         "kind": "example",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-19T07:15:00Z",
-        "updated_at": "2026-10-19T07:15:00Z"
+        "updated_at": "2026-10-19T13:06:39Z"
       },
       {
         "id": "45f8c39b-0ae9-41fe-bfe8-e20a9a3508c2",
@@ -69693,11 +69693,11 @@
       {
         "id": "11ac7736-0b9e-4240-af40-446dc6a80863",
         "kind": "example",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-19T07:15:00Z",
-        "updated_at": "2026-10-19T07:15:00Z"
+        "updated_at": "2026-10-19T13:06:39Z"
       },
       {
         "id": "a0e073dc-b2af-4954-9ce2-c8e2b299c3cb",
@@ -70881,11 +70881,11 @@
       {
         "id": "4c2c035d-bbe1-4632-8ca7-cf32f6c88921",
         "kind": "example",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-19T07:15:00Z",
-        "updated_at": "2026-10-19T07:15:00Z"
+        "updated_at": "2026-10-19T13:06:39Z"
       },
       {
         "id": "0c37c2a8-223e-479e-bd0e-dbaace24e70a",
@@ -71070,11 +71070,11 @@
       {
         "id": "17ae5ef9-55a7-4f3e-ab1a-125ac52dd53f",
         "kind": "example",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-19T07:15:00Z",
-        "updated_at": "2026-10-19T07:15:00Z"
+        "updated_at": "2026-10-19T13:06:39Z"
       },
       {
         "id": "3e184502-a893-4d92-840e-8ceeafb8e7e8",
@@ -71349,11 +71349,11 @@
       {
         "id": "70e02ce1-63db-453c-8881-96d4dec04a11",
         "kind": "note",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-19T07:15:00Z",
-        "updated_at": "2026-10-19T07:15:00Z"
+        "updated_at": "2026-10-19T13:06:39Z"
       },
       {
         "id": "ead93502-f996-400d-99a2-860cecc0658c",
@@ -72582,11 +72582,11 @@
       {
         "id": "4b258af4-3b80-4914-a942-0aeae6105aff",
         "kind": "meaning",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-19T07:15:00Z",
-        "updated_at": "2026-10-19T07:15:00Z"
+        "updated_at": "2026-10-19T13:06:39Z"
       },
       {
         "id": "83f63295-c73e-4551-bef8-a7ca89bdd6d5",
@@ -74463,11 +74463,11 @@
       {
         "id": "fc6810f4-29e9-440d-a625-aabdddefa070",
         "kind": "meaning",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-19T07:56:45Z",
-        "updated_at": "2026-10-19T07:56:45Z"
+        "updated_at": "2026-10-19T13:06:39Z"
       },
       {
         "id": "ebb41187-ae62-49b7-9599-166a7e40d4e5",
@@ -74508,11 +74508,11 @@
       {
         "id": "c6c8cb39-313f-413c-aea3-a0221b597c74",
         "kind": "meaning",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-19T07:56:45Z",
-        "updated_at": "2026-10-19T07:56:45Z"
+        "updated_at": "2026-10-19T13:06:39Z"
       },
       {
         "id": "6cf8842c-43ad-4cc0-9089-aacd6b00d63b",
@@ -79791,11 +79791,11 @@
       {
         "id": "2dd78fc1-8c9e-4884-8842-4f4e906167d6",
         "kind": "meaning",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-19T07:56:45Z",
-        "updated_at": "2026-10-19T07:56:45Z"
+        "updated_at": "2026-10-19T13:06:39Z"
       },
       {
         "id": "c20f64fe-4b06-4de0-807d-317faf1776c8",
@@ -80844,11 +80844,11 @@
       {
         "id": "eb564618-ebf8-4273-a024-349089bdf94f",
         "kind": "meaning",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-19T07:56:45Z",
-        "updated_at": "2026-10-19T07:56:45Z"
+        "updated_at": "2026-10-19T13:06:39Z"
       },
       {
         "id": "2523b45c-ae5b-45a3-9163-698a1e7f32af",
@@ -82086,11 +82086,11 @@
       {
         "id": "7fcf1831-42ce-41ab-873f-3c5e18c2a56d",
         "kind": "meaning",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-19T07:56:45Z",
-        "updated_at": "2026-10-19T07:56:45Z"
+        "updated_at": "2026-10-19T13:06:39Z"
       },
       {
         "id": "8980fc73-bfb1-4e47-8562-b3be74e7bfb2",
@@ -82311,11 +82311,11 @@
       {
         "id": "ac29d9ad-ce20-4982-9dde-fd21c4f7a2a8",
         "kind": "meaning",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-19T07:56:45Z",
-        "updated_at": "2026-10-19T07:56:45Z"
+        "updated_at": "2026-10-19T13:06:39Z"
       },
       {
         "id": "3119d63e-83f3-4950-addf-82ef7e8c6b47",
@@ -83301,11 +83301,11 @@
       {
         "id": "ba9321af-dd8a-402b-99f1-9ef8c5c4e0f0",
         "kind": "example",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-19T07:56:45Z",
-        "updated_at": "2026-10-19T07:56:45Z"
+        "updated_at": "2026-10-19T13:06:39Z"
       },
       {
         "id": "40bda3a1-0a96-4749-afac-5855cf3f3c0d",
@@ -84966,11 +84966,11 @@
       {
         "id": "bf80c64c-ae1e-4560-820e-820c6deb8cd4",
         "kind": "meaning",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-19T07:56:45Z",
-        "updated_at": "2026-10-19T07:56:45Z"
+        "updated_at": "2026-10-19T13:06:39Z"
       },
       {
         "id": "1fc94dcd-5c0c-44d9-bea8-66e266fa0ddc",
@@ -85371,47 +85371,47 @@
       {
         "id": "dc74ca05-85f7-4cc8-b6a8-56f3ef0c6927",
         "kind": "vocabulary",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-19T07:56:45Z",
-        "updated_at": "2026-10-19T07:56:45Z"
+        "updated_at": "2026-10-19T13:06:39Z"
       },
       {
         "id": "28491d29-934d-488c-9547-78c73660dc56",
         "kind": "meaning",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-19T07:56:45Z",
-        "updated_at": "2026-10-19T07:56:45Z"
+        "updated_at": "2026-10-19T13:06:39Z"
       },
       {
         "id": "d38f0789-9846-4aec-8516-e5a0dffd47fa",
         "kind": "example",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-19T07:56:45Z",
-        "updated_at": "2026-10-19T07:56:45Z"
+        "updated_at": "2026-10-19T13:06:39Z"
       },
       {
         "id": "2542d610-8fb6-4f81-b29b-fb48dd3ca65e",
         "kind": "example",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-19T07:56:45Z",
-        "updated_at": "2026-10-19T07:56:45Z"
+        "updated_at": "2026-10-19T13:06:39Z"
       },
       {
         "id": "e0645d0d-3a48-431f-af9f-7a28d146d909",
         "kind": "note",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-19T07:56:45Z",
-        "updated_at": "2026-10-19T07:56:45Z"
+        "updated_at": "2026-10-19T13:06:39Z"
       },
       {
         "id": "c8765399-a14c-48a4-a059-e8e1eea44861",
@@ -86019,11 +86019,11 @@
       {
         "id": "f1362469-5e90-4481-8478-cadbe5cfd7a1",
         "kind": "note",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-19T08:39:13Z",
-        "updated_at": "2026-10-19T08:39:13Z"
+        "updated_at": "2026-10-19T13:06:39Z"
       },
       {
         "id": "ad98f191-fae1-4c08-862e-f9647f7b18d9",
@@ -86514,20 +86514,20 @@
       {
         "id": "e9334c1a-f671-4313-aa25-653721e50c25",
         "kind": "example",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-19T08:39:13Z",
-        "updated_at": "2026-10-19T08:39:13Z"
+        "updated_at": "2026-10-19T13:06:39Z"
       },
       {
         "id": "be5613ef-88c1-423a-93de-a4589f1ec33e",
         "kind": "example",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-19T08:39:13Z",
-        "updated_at": "2026-10-19T08:39:13Z"
+        "updated_at": "2026-10-19T13:06:39Z"
       },
       {
         "id": "45772f74-1811-4966-8880-e86c31bd5d76",
@@ -87405,11 +87405,11 @@
       {
         "id": "39487da6-fcf8-4cd0-a262-59c811cb22cf",
         "kind": "meaning",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-19T08:39:13Z",
-        "updated_at": "2026-10-19T08:39:13Z"
+        "updated_at": "2026-10-19T13:06:39Z"
       },
       {
         "id": "e45dc325-fdc3-4572-97eb-c994ab2dba8a",
@@ -88179,11 +88179,11 @@
       {
         "id": "331a375f-a75f-4eeb-bc05-4a8f268e8c56",
         "kind": "meaning",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-19T08:39:13Z",
-        "updated_at": "2026-10-19T08:39:13Z"
+        "updated_at": "2026-10-19T13:06:39Z"
       },
       {
         "id": "d23e5302-b6cb-4f3f-91d0-46c02722e0c0",
@@ -88224,11 +88224,11 @@
       {
         "id": "2268fa72-3981-4a7e-befd-e2986714058e",
         "kind": "meaning",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-19T08:39:13Z",
-        "updated_at": "2026-10-19T08:39:13Z"
+        "updated_at": "2026-10-19T13:06:39Z"
       },
       {
         "id": "f475df79-563f-47f2-88b0-88d2850be293",
@@ -89016,11 +89016,11 @@
       {
         "id": "91164bb4-60c4-428c-b746-b60b5f2f08c6",
         "kind": "note",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-19T08:39:13Z",
-        "updated_at": "2026-10-19T08:39:13Z"
+        "updated_at": "2026-10-19T13:06:39Z"
       },
       {
         "id": "1e21e1da-c18f-45fe-85e1-69e29d5aa8d1",
@@ -89061,11 +89061,11 @@
       {
         "id": "2bd796f4-9776-4d43-a3f3-27f350d7a096",
         "kind": "note",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-19T08:39:13Z",
-        "updated_at": "2026-10-19T08:39:13Z"
+        "updated_at": "2026-10-19T13:06:39Z"
       },
       {
         "id": "8ddeea05-7042-4406-8b8a-1e32f11cd161",
@@ -90303,11 +90303,11 @@
       {
         "id": "c75a98bf-e4fd-45ce-b850-a178cbb84c8a",
         "kind": "example",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-19T08:39:13Z",
-        "updated_at": "2026-10-19T08:39:13Z"
+        "updated_at": "2026-10-19T13:06:39Z"
       },
       {
         "id": "ac5fb88d-3cfa-49af-bca9-b5cceefa108a",
@@ -91383,11 +91383,11 @@
       {
         "id": "42efc711-f7c8-4a36-80fe-3bf9aa8a63c0",
         "kind": "meaning",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-19T08:39:13Z",
-        "updated_at": "2026-10-19T08:39:13Z"
+        "updated_at": "2026-10-19T13:06:39Z"
       },
       {
         "id": "3b512b87-62e2-421c-bbdd-cf74c6b2c04d",
@@ -92733,11 +92733,11 @@
       {
         "id": "4954f4f5-8f17-47aa-a27c-c9480c21bd93",
         "kind": "meaning",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-19T08:39:13Z",
-        "updated_at": "2026-10-19T08:39:13Z"
+        "updated_at": "2026-10-19T13:06:39Z"
       },
       {
         "id": "db2e5ddf-7172-4d01-ae7c-c141cefffe56",
@@ -93696,11 +93696,11 @@
       {
         "id": "a67747a1-e827-45ed-a437-7d0e43bfafc0",
         "kind": "note",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-19T08:39:13Z",
-        "updated_at": "2026-10-19T08:39:13Z"
+        "updated_at": "2026-10-19T13:06:39Z"
       },
       {
         "id": "8bc88537-03be-4372-b213-62da1ceb204f",
@@ -94497,11 +94497,11 @@
       {
         "id": "7b625f3d-b567-4472-a7e2-12d5f47eae99",
         "kind": "meaning",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-19T08:39:13Z",
-        "updated_at": "2026-10-19T08:39:13Z"
+        "updated_at": "2026-10-19T13:06:39Z"
       },
       {
         "id": "61531aa3-0b48-49cb-b4fd-9f0f17feb18f",
@@ -94866,11 +94866,11 @@
       {
         "id": "3c60578b-7e7a-4095-bc1e-31ca757bda8b",
         "kind": "meaning",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-19T08:39:13Z",
-        "updated_at": "2026-10-19T08:39:13Z"
+        "updated_at": "2026-10-19T13:06:39Z"
       },
       {
         "id": "41709c3f-98b4-412a-a1e0-361a1247ee31",
@@ -94992,11 +94992,11 @@
       {
         "id": "80d1d8fa-5c74-412c-ad3a-e7744ac64fff",
         "kind": "note",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-19T08:39:13Z",
-        "updated_at": "2026-10-19T08:39:13Z"
+        "updated_at": "2026-10-19T13:06:39Z"
       },
       {
         "id": "100d9b14-3fbe-412a-a4b3-64489df4c37e",
@@ -96729,11 +96729,11 @@
       {
         "id": "de06df42-449f-4540-b8b6-697de453a439",
         "kind": "meaning",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-19T08:39:13Z",
-        "updated_at": "2026-10-19T08:39:13Z"
+        "updated_at": "2026-10-19T13:06:39Z"
       },
       {
         "id": "5142cb4d-2ae9-4bab-84f7-2a2d1f3b2e1b",
@@ -97494,11 +97494,11 @@
       {
         "id": "ffba98e5-5f59-4a72-9132-b2a68892335a",
         "kind": "meaning",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-19T08:39:13Z",
-        "updated_at": "2026-10-19T08:39:13Z"
+        "updated_at": "2026-10-19T13:06:39Z"
       },
       {
         "id": "0b3f2d02-ad46-4d41-935a-e64e9e149ec0",
@@ -97863,11 +97863,11 @@
       {
         "id": "f99a5d46-f9a2-4e69-bcea-34ee4676d73b",
         "kind": "note",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-19T08:39:13Z",
-        "updated_at": "2026-10-19T08:39:13Z"
+        "updated_at": "2026-10-19T13:06:39Z"
       },
       {
         "id": "b832506e-9a1e-41b6-bc3e-1e13de717376",
@@ -107268,7 +107268,7 @@
       {
         "id": "70e02ce1-63db-453c-8881-96d4dec04a11",
         "title_ja": "하마터면の使い方",
-        "explanation_ja": "-(으)ㄹ 뻔하다と組み合わせ、危うく起きそうだったが実際には起きなかったことを述べます。今回この形の独立Grammar教材は追加しません。",
+        "explanation_ja": "-(으)ㄹ 뻔하다と組み合わせ、危うく起きそうだったが実際には起きなかったことを述べます。動詞の語幹に、パッチムがあれば-을 뻔하다、なければ-ㄹ 뻔하다を付けます。ㄹで終わる語幹には、そのまま 뻔하다を続けます。",
         "confusion_type": "japanese_learner_usage"
       },
       {
@@ -107945,8 +107945,8 @@
       },
       {
         "id": "e0645d0d-3a48-431f-af9f-7a28d146d909",
-        "title_ja": "실마리가 풀리다の意味と使い方",
-        "explanation_ja": "解決や対話に向けて手掛かりが開ける比喩表現。すべての問題が完全に解決したことまでは表さない。실마리를 찾다 は手掛かりを見つける行動に注目する。",
+        "title_ja": "실마리가 보이다の意味と使い方",
+        "explanation_ja": "解決や対話に向けた手掛かりが見えてくること。「해결의 실마리가 보이다」。問題全体が解決したことまでは表さない。실마리를 찾다 は手掛かりを探す・見つける行動、문제가 풀리다 は問題が解けることを表す。",
         "confusion_type": "japanese_learner_usage"
       },
       {
@@ -107976,7 +107976,7 @@
       {
         "id": "f1362469-5e90-4481-8478-cadbe5cfd7a1",
         "title_ja": "로그인の意味・文体と使い方",
-        "explanation_ja": "デジタル用語の名詞。「로그인하다」「로그인을 하다」として使う。本項目では名詞を基本形とし、動詞形を別の新規語として重複登録しない。ログインは毎回の接続、가입 は会員になること。",
+        "explanation_ja": "デジタル用語の名詞で、「로그인하다」「로그인을 하다」として使う。登録済みのアカウントで本人確認をして、サービスを使える状態にすること。単なるサイトへの接続 접속 と、会員になる 가입 を区別する。",
         "confusion_type": "japanese_learner_usage"
       },
       {
@@ -108174,13 +108174,13 @@
       {
         "id": "91164bb4-60c4-428c-b746-b60b5f2f08c6",
         "title_ja": "개인 정보の意味・文体と使い方",
-        "explanation_ja": "人を識別する情報などを表す複合名詞。教材では分かち書きを「개인 정보」にそろえる。日常の私的な話すべてが、同じ意味の個人データとは限らない。",
+        "explanation_ja": "人を識別する情報などを表す複合名詞。「개인 정보」と分けて書く。日常の私的な話すべてが、同じ意味の個人データとは限らない。",
         "confusion_type": "japanese_learner_usage"
       },
       {
         "id": "2bd796f4-9776-4d43-a3f3-27f350d7a096",
         "title_ja": "이용 약관の意味・文体と使い方",
-        "explanation_ja": "利用時の条件を定めた規約を指す複合名詞。教材では「이용 약관」と分けて書く。「약속」の日常的な約束より、サービスの案内・契約に近い文体。",
+        "explanation_ja": "利用時の条件を定めた規約を指す複合名詞。「이용 약관」と分けて書く。「약속」の日常的な約束より、サービスの案内・契約に近い文体。",
         "confusion_type": "japanese_learner_usage"
       },
       {
@@ -108474,7 +108474,7 @@
       {
         "id": "a67747a1-e827-45ed-a437-7d0e43bfafc0",
         "title_ja": "한숨을 돌리다の意味・文体と使い方",
-        "explanation_ja": "忙しさや緊張が一段落して、一息ついたり安心したりすること。ため息をつく 한숨을 쉬다 とは異なる。文法の型ではなく、意味を持つ慣用表現として登録する。",
+        "explanation_ja": "忙しさや緊張が一段落して、一息ついたり安心したりすること。ため息をつく 한숨을 쉬다 とは異なる。慣用表現として、語のまとまりと意味を一緒に覚える。",
         "confusion_type": "japanese_learner_usage"
       },
       {
@@ -108588,7 +108588,7 @@
       {
         "id": "80d1d8fa-5c74-412c-ad3a-e7744ac64fff",
         "title_ja": "다잡다の意味・文体と使い方",
-        "explanation_ja": "本項目は 마음을 다잡다 のように気持ちを引き締め直す意味。既存の 마음을 잡다 と意味が重なっても、何でも機械的に交換できるとはしない。",
+        "explanation_ja": "마음을 다잡다 のように、揺れた気持ちを引き締め直す意味。마음을 놓다 は安心することで、決意を立て直す意味とは異なる。",
         "confusion_type": "japanese_learner_usage"
       },
       {
@@ -108798,7 +108798,7 @@
       {
         "id": "f99a5d46-f9a2-4e69-bcea-34ee4676d73b",
         "title_ja": "공감の意味・文体と使い方",
-        "explanation_ja": "他人の考えや感情を理解し、気持ちを共有すること。同じ意見だという 동감 と重なるが、意見の一致だけに狭めない。名詞なので 공감하다 の活用形として数えない。",
+        "explanation_ja": "他人の考えや感情を理解し、気持ちを共有すること。同じ意見だという 동감 と重なるが、意見の一致だけに狭めない。名詞の 공감 と動詞の 공감하다 を区別する。",
         "confusion_type": "japanese_learner_usage"
       },
       {
@@ -191010,7 +191010,7 @@
       {
         "id": "5e37b1f6-ba0e-492b-b39e-99483108c869",
         "korean": "첫 출근을 앞두고 마음이 설레요.",
-        "japanese": "初出勤を控えて、胸がわくわくします。",
+        "japanese": "初出勤を控えて、わくわくします。",
         "learning_point_ja": null,
         "audio_asset_id": null
       },
@@ -191290,7 +191290,7 @@
       {
         "id": "6bf45b38-ea9e-4a4c-bbb0-fb38473a9be2",
         "korean": "동료가 떠난 사무실이 허전해요.",
-        "japanese": "同僚が去った事務所は、ぽっかりと寂しいです。",
+        "japanese": "同僚が去った事務所は、がらんとして寂しいです。",
         "learning_point_ja": null,
         "audio_asset_id": null
       },
@@ -192942,7 +192942,7 @@
       {
         "id": "ac8dbd04-954c-4c44-aea3-c6e44bfe4b04",
         "korean": "아직 한국어로 부탁하는 게 서툴러요.",
-        "japanese": "まだ韓国語で頼み事をするのは不慣れです。",
+        "japanese": "まだ韓国語で頼み事をするのに慣れていません。",
         "learning_point_ja": null,
         "audio_asset_id": null
       },
@@ -193138,7 +193138,7 @@
       {
         "id": "11ac7736-0b9e-4240-af40-446dc6a80863",
         "korean": "놓친 수업을 따라잡으려고 복습했어요.",
-        "japanese": "遅れた授業に追いつこうと、復習しました。",
+        "japanese": "受けられなかった授業の内容に追いつこうと、復習しました。",
         "learning_point_ja": null,
         "audio_asset_id": null
       },
@@ -193572,7 +193572,7 @@
       {
         "id": "4c2c035d-bbe1-4632-8ca7-cf32f6c88921",
         "korean": "담당자가 바뀌어서 인수인계가 필요해요.",
-        "japanese": "担当者が替わるので、引き継ぎが必要です。",
+        "japanese": "担当者が替わったので、引き継ぎが必要です。",
         "learning_point_ja": null,
         "audio_asset_id": null
       },
@@ -193649,7 +193649,7 @@
       {
         "id": "17ae5ef9-55a7-4f3e-ab1a-125ac52dd53f",
         "korean": "진로를 막연히 고민하다가 상담을 받았어요.",
-        "japanese": "進路について漠然と悩んでいて、相談を受けました。",
+        "japanese": "進路について漠然と悩んでいて、相談に乗ってもらいました。",
         "learning_point_ja": null,
         "audio_asset_id": null
       },
@@ -198003,7 +198003,7 @@
       {
         "id": "ba9321af-dd8a-402b-99f1-9ef8c5c4e0f0",
         "korean": "저녁이 되니 기온이 빠르게 낮아졌어요.",
-        "japanese": "夕方になると、気温が急に下がりました。",
+        "japanese": "夕方になると、気温が急速に下がりました。",
         "learning_point_ja": null,
         "audio_asset_id": null
       },
@@ -198751,14 +198751,14 @@
       },
       {
         "id": "d38f0789-9846-4aec-8516-e5a0dffd47fa",
-        "korean": "서로의 생각을 듣고 대화의 실마리가 풀렸어요.",
-        "japanese": "互いの考えを聞いて、話を進める糸口が開けました。",
+        "korean": "서로의 생각을 듣고 대화의 실마리가 보였어요.",
+        "japanese": "互いの考えを聞いて、話を進める糸口が見えました。",
         "learning_point_ja": null,
         "audio_asset_id": null
       },
       {
         "id": "2542d610-8fb6-4f81-b29b-fb48dd3ca65e",
-        "korean": "자료를 다시 읽으니 사건의 실마리가 조금씩 풀려요.",
+        "korean": "자료를 다시 읽으니 사건의 실마리가 조금씩 보여요.",
         "japanese": "資料を読み直すと、事件を解く糸口が少しずつ見えてきます。",
         "learning_point_ja": null,
         "audio_asset_id": null
@@ -199130,14 +199130,14 @@
       {
         "id": "e9334c1a-f671-4313-aa25-653721e50c25",
         "korean": "회의 자료는 팀 전체에 공유됐어요.",
-        "japanese": "会議の資料は、チーム全体に共有されました。",
+        "japanese": "会議の資料は、チーム全体で共有されました。",
         "learning_point_ja": null,
         "audio_asset_id": null
       },
       {
         "id": "be5613ef-88c1-423a-93de-a4589f1ec33e",
         "korean": "개인적인 사진까지 다른 사람에게 공유될까 봐 걱정돼요.",
-        "japanese": "個人的な写真まで、ほかの人に共有されないか心配です。",
+        "japanese": "個人的な写真まで、ほかの人と共有されてしまわないか心配です。",
         "learning_point_ja": null,
         "audio_asset_id": null
       },
@@ -200453,7 +200453,7 @@
       {
         "id": "c75a98bf-e4fd-45ce-b850-a178cbb84c8a",
         "korean": "그는 개인 정보를 더 달라는 요구를 거부했어요.",
-        "japanese": "彼は、個人情報をさらに求める要求を拒否しました。",
+        "japanese": "彼は、個人情報をもっと出してほしいという要求を拒否しました。",
         "learning_point_ja": null,
         "audio_asset_id": null
       },
@@ -231330,7 +231330,7 @@
       },
       {
         "id": "dc74ca05-85f7-4cc8-b6a8-56f3ef0c6927",
-        "headword": "실마리가 풀리다",
+        "headword": "실마리가 보이다",
         "reading": null,
         "part_of_speech": "expression",
         "sort_key": "힣:data08:b:0287",
@@ -267341,7 +267341,7 @@
       {
         "id": "e404b112-1b1d-4a35-b904-51c9669d841f",
         "vocabulary_id": "29fb87a0-c443-4c15-b9d8-00f7215c8e5e",
-        "meaning_ja": "ぽっかりと寂しい・物足りない",
+        "meaning_ja": "心に穴が開いたように寂しい・物足りない",
         "part_of_speech": "adjective",
         "nuance_ja": null,
         "usage_ja": null,
@@ -269315,7 +269315,7 @@
         "meaning_ja": "遠回しに言う",
         "part_of_speech": "expression",
         "nuance_ja": null,
-        "usage_ja": "コロケーション：다른 이야기로 말을 돌리다",
+        "usage_ja": "コロケーション：말을 돌려서 하다",
         "ordinal": 1
       },
       {
@@ -269753,7 +269753,7 @@
       {
         "id": "fc6810f4-29e9-440d-a625-aabdddefa070",
         "vocabulary_id": "9455d8ad-3a10-4ac9-9ada-26ed5574d0c1",
-        "meaning_ja": "見渡す",
+        "meaning_ja": "外を見る・見渡す",
         "part_of_speech": "verb",
         "nuance_ja": null,
         "usage_ja": "コロケーション：창밖을 내다보다 / 미래를 내다보다",
@@ -269774,7 +269774,7 @@
         "meaning_ja": "後ろを振り返る",
         "part_of_speech": "verb",
         "nuance_ja": null,
-        "usage_ja": "コロケーション：지난 경험을 되돌아보다",
+        "usage_ja": "コロケーション：뒤를 되돌아보다",
         "ordinal": 0
       },
       {
@@ -271031,7 +271031,7 @@
       {
         "id": "2dd78fc1-8c9e-4884-8842-4f4e906167d6",
         "vocabulary_id": "91ca5131-ba7d-4053-ab0c-8b58b06fe5a1",
-        "meaning_ja": "条件が厳しい・気難しい",
+        "meaning_ja": "条件が厳しい・好みにうるさい",
         "part_of_speech": "adjective",
         "nuance_ja": null,
         "usage_ja": "コロケーション：조건이 까다롭다",
@@ -271274,7 +271274,7 @@
       {
         "id": "eb564618-ebf8-4273-a024-349089bdf94f",
         "vocabulary_id": "750cca3f-71e4-4527-91e9-8e6455ef6b70",
-        "meaning_ja": "その上・〜さえも",
+        "meaning_ja": "〜さえも・〜までも",
         "part_of_speech": "adverb",
         "nuance_ja": null,
         "usage_ja": "コロケーション：심지어 이름도 모르다",
@@ -271583,7 +271583,7 @@
         "meaning_ja": "つながる",
         "part_of_speech": "verb",
         "nuance_ja": null,
-        "usage_ja": "コロケーション：질문이 이어지다",
+        "usage_ja": "コロケーション：골목이 시장으로 이어지다",
         "ordinal": 1
       },
       {
@@ -271637,7 +271637,7 @@
         "meaning_ja": "影響などが及ぶ",
         "part_of_speech": "verb",
         "nuance_ja": null,
-        "usage_ja": "コロケーション：영향을 미치다",
+        "usage_ja": "コロケーション：영향이 다음 세대에 미치다",
         "ordinal": 1
       },
       {
@@ -272249,7 +272249,7 @@
         "meaning_ja": "背景の景色",
         "part_of_speech": "noun",
         "nuance_ja": null,
-        "usage_ja": "コロケーション：배경을 이해하다",
+        "usage_ja": "コロケーション：사진의 배경",
         "ordinal": 0
       },
       {
@@ -272354,10 +272354,10 @@
       {
         "id": "28491d29-934d-488c-9547-78c73660dc56",
         "vocabulary_id": "dc74ca05-85f7-4cc8-b6a8-56f3ef0c6927",
-        "meaning_ja": "解決に向けて糸口が開ける",
+        "meaning_ja": "解決や対話の糸口が見える",
         "part_of_speech": "expression",
         "nuance_ja": null,
-        "usage_ja": "コロケーション：대화의 실마리가 풀리다",
+        "usage_ja": "コロケーション：解決の糸口は 해결의 실마리가 보이다",
         "ordinal": 0
       },
       {
@@ -272816,7 +272816,7 @@
         "meaning_ja": "チャンネル登録する",
         "part_of_speech": "verb",
         "nuance_ja": "文体：標準・日常/説明で使う",
-        "usage_ja": "コロケーション：신문을 구독하다",
+        "usage_ja": "コロケーション：채널을 구독하다",
         "ordinal": 1
       },
       {
@@ -273005,7 +273005,7 @@
         "meaning_ja": "すぐに",
         "part_of_speech": "adverb",
         "nuance_ja": "文体：標準・日常/説明で使う",
-        "usage_ja": "コロケーション：집으로 곧장 가다",
+        "usage_ja": "コロケーション：소식을 듣고 곧장 출발하다",
         "ordinal": 1
       },
       {
@@ -273023,7 +273023,7 @@
         "meaning_ja": "まっすぐに",
         "part_of_speech": "adverb",
         "nuance_ja": "文体：標準・日常/説明で使う",
-        "usage_ja": "コロケーション：곧바로 대답하다",
+        "usage_ja": "コロケーション：곧바로 걷다",
         "ordinal": 1
       },
       {
@@ -273742,7 +273742,7 @@
         "vocabulary_id": "b2f6992d-388a-43be-a171-a20ea97faeb7",
         "meaning_ja": "残業する・夜遅くまで働く",
         "part_of_speech": "verb",
-        "nuance_ja": "文体：標準・日常/説明で使う",
+        "nuance_ja": "文体：標準・仕事の会話で使う。퇴근 시간이 지나 밤늦게까지 일하다 の意味で、夜遅くまでの残業を指す。昼間の残業すべてを 야근 と言うわけではない。",
         "usage_ja": "コロケーション：늦게까지 야근하다",
         "ordinal": 0
       },
@@ -274058,7 +274058,7 @@
         "meaning_ja": "そろって（同じように）",
         "part_of_speech": "adverb",
         "nuance_ja": "文体：標準・日常/説明で使う",
-        "usage_ja": "コロケーション：나란히 앉다",
+        "usage_ja": "コロケーション：두 팀이 나란히 성과를 내다",
         "ordinal": 1
       },
       {
@@ -274490,7 +274490,7 @@
         "meaning_ja": "縛られる",
         "part_of_speech": "verb",
         "nuance_ja": "文体：標準・日常/説明で使う",
-        "usage_ja": "コロケーション：일정에 묶이다",
+        "usage_ja": "コロケーション：끈으로 묶이다",
         "ordinal": 0
       },
       {
@@ -274589,7 +274589,7 @@
         "meaning_ja": "入れられる",
         "part_of_speech": "verb",
         "nuance_ja": "文体：標準・日常/説明で使う",
-        "usage_ja": "コロケーション：뜻이 담기다",
+        "usage_ja": "コロケーション：선물이 상자에 담기다",
         "ordinal": 0
       },
       {
@@ -275048,7 +275048,7 @@
         "meaning_ja": "素朴だ・飾り気がない",
         "part_of_speech": "adjective",
         "nuance_ja": "文体：標準・日常/説明で使う",
-        "usage_ja": "コロケーション：소박한 바람",
+        "usage_ja": "コロケーション：소박한 식사",
         "ordinal": 1
       },
       {
@@ -275228,7 +275228,7 @@
         "meaning_ja": "いきなり（軽率に）",
         "part_of_speech": "adverb",
         "nuance_ja": "文体：会話でよく使う・ややくだけた表現",
-        "usage_ja": "コロケーション：덜컥 겁이 나다",
+        "usage_ja": "コロケーション：덜컥 약속하다",
         "ordinal": 1
       },
       {

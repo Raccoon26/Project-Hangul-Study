@@ -1,3 +1,7 @@
+> **현재 기준 (DATA-08-5 최종 감사): Content18 / Schema4 / minReader7 / UserProgress10.** A~C 전체 assistant 한일 재독·표본84개 감사 후34어휘43필드 교정. 수량911어휘/1,821신규문장 유지. 현재 규칙은 마지막 DATA-08-FINAL 절과 `DATA08_PROGRESS.md` §13. 사람 검수·완전한 선행 Grammar 검증·native 실행은 미완료이며 아래 단계 내용은 당시 이력이다.
+
+---
+
 > **현재 기준 (DATA-08-4 / Batch C): Schema4 / Content17 / minReader7 / UserProgress10.** C 일반어휘280/표현30·신규문장619·재사용1, 의미334/Note146. DATA-08 누적911어휘(일반807/표현104)/신규문장1,821로 전체 목표 달성. 최신 계약은 마지막 DATA-08-C 절과 `DATA08_PROGRESS.md` §12. 아래 A/B·DEV/DATA 내용은 당시 이력이다.
 
 ---
@@ -1047,3 +1051,17 @@ sh Tools/verify.sh --portable
 - `sh Tools/verify.sh --portable`:269 PASS. A/B 정확한 과거 배포 회귀군은 원본 fixture에서 유지하고 C는 현재 Bundle에서 전체 보존/16→17 갱신·부분 session·SRS/UserProgress를 검사한다. native129개는 Mac에서 별도 실행한다. 실제3~10분/offline·음성·중단·접근성·광고/구매 gate는 유지한다.
 
 근거: `Docs/DATA08_C_REVIEW.md`, `DATA08_C_REVIEW_CATALOG.md`, `DATA08_C_EDITORIAL.json`, `DATA08_C_COUNTS.json`, `DATA08_C1~C3_AUDIT.json` / `VALIDATION.json`.
+
+
+## DATA-08-FINAL — 최종 감사와 Content18 교정 계약
+
+- 실제 직전17 DB/source를 `Tests/Fixtures/content-v17-production.sqlite` / `content-v17-production.json.gz`에 보존한다. 현재 runtime은 기존 Source→ContentBuilder→Bundle 구조다. Content18/schema4/reader7/UserProgress10, 신규 행/ID/관계/Level·정렬·사용자DB 변경0.
+- 재현: `python3 Tools/ContentBuilder/build_content.py Content/production.json /tmp/content18.sqlite --production --previous Tests/Fixtures/content-v17-production.sqlite --report /tmp/content18-report.json`.
+- 추가 감사: `python3 Tools/ContentBuilder/audit_data08_final.py Content/production.json --database /tmp/content18.sqlite --report /tmp/content18-audit.json`. 전체 필드/참조/중복과 A~C 특정 계약·관찰된 재발 패턴을 검사한다. 정상 결과는 언어 품질이나 사람 검수를 보장하지 않는다. core Validator는 허용 줄바꿈/탭 외 제어문자도 거부한다.
+- 34어휘43필드(정확한 전후 값=`Docs/DATA08_FINAL_FINDINGS.json`)만 교정했고40엔티티만 `Content/data08-final-revised-ids.json`대로 revision+1/updated_at. `실마리가 보이다`는 기존 해결 단서 표현의 결합 교정이며 ID/의미/품사·사용자 기록을 유지한다. 과거 A/B/C 색인은 당시 배포의 식별/검수 기록이다. 현재 본문과 표제어는 Source/DB 및 FINAL_EDITORIAL을 따른다.
+- 한국어·일본어를 별도 재독하고 다의어52항목의 의미별 예문/Collocation, 조사/활용·Register·번역 방향·혼동어 Note를 재검수한다. 확정 오류와 자연스러움 개선/의심 후보를 구분한다. 같은 유형을 전체 Production에서 다시 검색하며 후보 수를 오류 수로 세지 않는다.
+- 무작위 표본은 정렬된 UUID 모집단·seed·구간/Level·추출 수·선택ID를 보존한다. 이번85추출/고유84개는 Batch/POS/실제 Level을 대상으로 했다. 모집단0인 Level의 표본을 꾸미지 않는다.
+- 선행Grammar 후보163예문은 `Docs/DATA08_FINAL_GRAMMAR.json`의 제한적 inventory다. 예문과 참조의 존재를 전체 선행 학습 경로의 보장으로 표현하지 않는다. Note의 짧은 설명과 실제 등록 Grammar unit을 구분한다. 공식 Level/빈도나 독립 전문가 승인을 추측하지 않는다.
+- `sh Tools/verify.sh --portable`:280 PASS. A/B/C 역사 검사는15/16/17 fixture에서 유지하고 새11개 회귀군은 현재18의 전체 변화·실제 카드/검색·부분session/UserProgress 보존을 검사한다. native130개/실제 iPhone은 Mac에서 별도 검증한다. 사람 검수 미실행·B—Conditional 및 기존 gate 유지.
+
+근거: `Docs/DATA08_FINAL_REVIEW.md`, `DATA08_FINAL_EDITORIAL.json`, `DATA08_FINAL_FINDINGS.json`, `DATA08_FINAL_SAMPLES.json`, `DATA08_FINAL_RESCAN.json`, `DATA08_FINAL_DICTIONARY.json`, `DATA08_FINAL_COUNTS.json`, `DATA08_FINAL_TEST_LOG.txt`.

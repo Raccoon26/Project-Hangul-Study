@@ -1,0 +1,1993 @@
+{
+  "existing_grammar_count": 42,
+  "new_grammar_count": 0,
+  "explicit_cohort_links": 46,
+  "links_reread": true,
+  "linked_examples": 46,
+  "all_cohort_examples": 1821,
+  "scanner_patterns": {
+    "indirect_declarative_or_noun_quote": "다고|라고|다는|라는",
+    "proposal_quote": "자고",
+    "purpose_or_prevention": "도록",
+    "near_miss": "뻔",
+    "observed_sequence": "더니",
+    "worry_about_possibility": "까 봐",
+    "decision_agreement": "기로",
+    "purpose_for": "기 위해|위한",
+    "gradual_experience_condition": "다 보면",
+    "concession_even_if_candidate": "(?:아도|어도|해도|여도|라도)(?! 되| 돼)",
+    "only_after_emphasis": "나서야|뒤에야"
+  },
+  "lexical_exclusion": "Standalone adverb 되도록 is excluded from the -도록 candidate rule.",
+  "candidate_feature_counts": {
+    "concession_even_if_candidate": 43,
+    "indirect_declarative_or_noun_quote": 69,
+    "purpose_or_prevention": 19,
+    "near_miss": 2,
+    "purpose_for": 5,
+    "proposal_quote": 3,
+    "only_after_emphasis": 3,
+    "decision_agreement": 13,
+    "gradual_experience_condition": 1,
+    "observed_sequence": 6,
+    "worry_about_possibility": 1
+  },
+  "candidate_examples": 163,
+  "limitations": "Narrow regex inventory for further curriculum review, not exhaustive parsing. Existing 42 Grammar units do not teach every quoted/purpose/concessive form. Reference existence or beginner unit level does not prove every learner has mastered it. Some candidates have brief learner explanations (e.g. 하마터면); no new Grammar stage was started.",
+  "registered_patterns": [
+    "이에요 / 예요",
+    "은 / 는",
+    "이 / 가",
+    "을 / 를",
+    "에",
+    "에서",
+    "-고 싶다",
+    "-고",
+    "-지만",
+    "-아 / 어서",
+    "-(으)면",
+    "-(으)니까",
+    "-아요 / 어요",
+    "있다 / 없다",
+    "이 / 가 아니다",
+    "-ㅂ니다 / 습니다",
+    "-았 / 었어요",
+    "안 + 動詞・形容詞",
+    "-지 않다",
+    "와 / 과 · 하고",
+    "도",
+    "만",
+    "부터",
+    "까지",
+    "에게 / 한테",
+    "(으)로（手段・道具）",
+    "-(으)세요（依頼・勧め）",
+    "-아 / 어 주세요",
+    "-(으)려고 하다",
+    "-고 있다（進行）",
+    "-아 / 어 보다",
+    "-(으)ㄴ 적이 있다 / 없다",
+    "-(으)ㄹ 수 있다 / 없다",
+    "-아 / 어야 하다",
+    "-아 / 어도 되다",
+    "-(으)면 안 되다",
+    "-(으)ㄹ 거예요（予定）",
+    "-는 / -(으)ㄴ 것 같다（現在の推測）",
+    "보다（比較）",
+    "-기 전에",
+    "-(으)ㄴ 후에",
+    "-지 마세요"
+  ],
+  "links": [
+    {
+      "batch": "A",
+      "grammar_id": "cb33378d-7dda-43f8-9157-e3780201589d",
+      "example_id": "153acb9a-24c0-4bf1-8ac5-2f319b7d492b",
+      "pattern": "-지만"
+    },
+    {
+      "batch": "A",
+      "grammar_id": "701ca81c-0e04-466d-add4-42b94643fd87",
+      "example_id": "6b313706-031b-465f-9155-1afe15d1f07c",
+      "pattern": "-아 / 어서"
+    },
+    {
+      "batch": "A",
+      "grammar_id": "9ab75790-f386-4770-89c4-fd3909f97436",
+      "example_id": "3d1693f0-0bbc-4307-951e-6bdf62c49976",
+      "pattern": "-(으)면"
+    },
+    {
+      "batch": "A",
+      "grammar_id": "b85e6804-85a2-495d-8781-e885ee9468a2",
+      "example_id": "57caf405-f5c8-4fc0-ad10-14550015a5c3",
+      "pattern": "-(으)ㄹ 수 있다 / 없다"
+    },
+    {
+      "batch": "A",
+      "grammar_id": "92cf69c3-2bda-453a-8b5f-47f1e4902f2a",
+      "example_id": "818eae8f-68d4-4abc-a7fb-ad982a643f47",
+      "pattern": "-기 전에"
+    },
+    {
+      "batch": "A",
+      "grammar_id": "377e3a8a-5815-4d20-9418-b909dce54143",
+      "example_id": "9fe1c544-1389-4b74-9cd2-a4e4e4c0aefe",
+      "pattern": "-지 마세요"
+    },
+    {
+      "batch": "A",
+      "grammar_id": "b8314a89-448e-4d2e-8aea-1fb8625311ce",
+      "example_id": "a86d9ab6-7863-421f-995e-3b3dfe071a4f",
+      "pattern": "-지 않다"
+    },
+    {
+      "batch": "A",
+      "grammar_id": "97089b8e-acc1-406d-9fad-5e53189aeeb8",
+      "example_id": "37f4966c-ec9b-4e5d-942d-79131f0007cf",
+      "pattern": "-(으)면 안 되다"
+    },
+    {
+      "batch": "A",
+      "grammar_id": "7779f2ed-308d-46aa-9df6-bd6001fe88fa",
+      "example_id": "e13c8de8-ff01-4b6c-9969-81ae03048426",
+      "pattern": "-(으)려고 하다"
+    },
+    {
+      "batch": "A",
+      "grammar_id": "893f53f1-ebaa-48d0-82ab-aadd66e84d80",
+      "example_id": "a307086e-9591-4daa-a96b-aa2f3bf01ad0",
+      "pattern": "-고 싶다"
+    },
+    {
+      "batch": "A",
+      "grammar_id": "cdae82b2-3b2a-4f9d-a3f6-c72767b97803",
+      "example_id": "cc605e65-b23f-4464-8724-6f3cd357022b",
+      "pattern": "-고 있다（進行）"
+    },
+    {
+      "batch": "A",
+      "grammar_id": "e8ce5b27-35a6-4135-8014-47881cdd7f9a",
+      "example_id": "846786f0-2735-461a-bcae-19e0127eeaca",
+      "pattern": "-아 / 어 보다"
+    },
+    {
+      "batch": "A",
+      "grammar_id": "9aaced5c-d486-4f21-8084-c62276df062c",
+      "example_id": "5edb4c64-4021-4875-ba68-3a5d85aaa0bb",
+      "pattern": "-아 / 어 주세요"
+    },
+    {
+      "batch": "A",
+      "grammar_id": "12b936fe-6229-4b30-b94f-2d47383010f2",
+      "example_id": "c31e1ef8-bf48-4c22-b91d-e3a3b6769e65",
+      "pattern": "-(으)세요（依頼・勧め）"
+    },
+    {
+      "batch": "B",
+      "grammar_id": "9aaced5c-d486-4f21-8084-c62276df062c",
+      "example_id": "f689bfe2-5f3a-431b-85fa-309edaf44f2f",
+      "pattern": "-아 / 어 주세요"
+    },
+    {
+      "batch": "B",
+      "grammar_id": "f331886b-4670-4a73-a700-b0f0f036b1a4",
+      "example_id": "1d6c2673-4edf-4887-a628-167cbf296a58",
+      "pattern": "-았 / 었어요"
+    },
+    {
+      "batch": "B",
+      "grammar_id": "b85e6804-85a2-495d-8781-e885ee9468a2",
+      "example_id": "01833473-053d-4240-bb1a-3c7d838bb8be",
+      "pattern": "-(으)ㄹ 수 있다 / 없다"
+    },
+    {
+      "batch": "B",
+      "grammar_id": "66f56006-dd56-4cc4-bdcb-38f1c17c0036",
+      "example_id": "72e131f5-a584-4561-b500-7ddd412f9561",
+      "pattern": "보다（比較）"
+    },
+    {
+      "batch": "B",
+      "grammar_id": "1734a471-0e5b-4500-956c-dfa22926d2e9",
+      "example_id": "b72ffb27-ae75-41fd-892f-22df096674e7",
+      "pattern": "-(으)ㄹ 거예요（予定）"
+    },
+    {
+      "batch": "B",
+      "grammar_id": "cb33378d-7dda-43f8-9157-e3780201589d",
+      "example_id": "7b4f7117-acc5-4c12-832e-7ead28c85865",
+      "pattern": "-지만"
+    },
+    {
+      "batch": "B",
+      "grammar_id": "701ca81c-0e04-466d-add4-42b94643fd87",
+      "example_id": "c20f64fe-4b06-4de0-807d-317faf1776c8",
+      "pattern": "-아 / 어서"
+    },
+    {
+      "batch": "B",
+      "grammar_id": "502b2304-463f-4c29-9919-96630599383c",
+      "example_id": "ff3b7101-d559-4fa9-b102-76347eade763",
+      "pattern": "-(으)ㄴ 적이 있다 / 없다"
+    },
+    {
+      "batch": "B",
+      "grammar_id": "93796ac0-18d5-4363-a562-26e6fff959b4",
+      "example_id": "8327090b-ef6f-4dfc-a938-7cf274d5f4dc",
+      "pattern": "-(으)ㄴ 후에"
+    },
+    {
+      "batch": "B",
+      "grammar_id": "7779f2ed-308d-46aa-9df6-bd6001fe88fa",
+      "example_id": "b01f96dd-657b-4dd7-a976-515419eec713",
+      "pattern": "-(으)려고 하다"
+    },
+    {
+      "batch": "B",
+      "grammar_id": "92cf69c3-2bda-453a-8b5f-47f1e4902f2a",
+      "example_id": "c3d42b72-ba30-4ee1-b88c-f9ad25b9d7bb",
+      "pattern": "-기 전에"
+    },
+    {
+      "batch": "B",
+      "grammar_id": "919c26fd-b810-4c62-9f0c-2a25f7a30ca7",
+      "example_id": "ab015aa2-eb40-4517-ae98-4fe0aeb00220",
+      "pattern": "-(으)니까"
+    },
+    {
+      "batch": "B",
+      "grammar_id": "97089b8e-acc1-406d-9fad-5e53189aeeb8",
+      "example_id": "779c7737-866e-4f71-97f0-fdc084654599",
+      "pattern": "-(으)면 안 되다"
+    },
+    {
+      "batch": "B",
+      "grammar_id": "cc45a574-10b5-47b3-9302-bdd0468ad221",
+      "example_id": "2d4c142c-069d-4329-bd52-37c2fa0d7435",
+      "pattern": "-고"
+    },
+    {
+      "batch": "B",
+      "grammar_id": "eef9130b-15eb-4138-ab8b-dcda74c864b1",
+      "example_id": "3f880ba2-9bea-4c6d-99b7-0b3bb541a21e",
+      "pattern": "-는 / -(으)ㄴ 것 같다（現在の推測）"
+    },
+    {
+      "batch": "C",
+      "grammar_id": "12b936fe-6229-4b30-b94f-2d47383010f2",
+      "example_id": "bd71e43c-dbcb-4776-968a-bee7f180103e",
+      "pattern": "-(으)세요（依頼・勧め）"
+    },
+    {
+      "batch": "C",
+      "grammar_id": "93796ac0-18d5-4363-a562-26e6fff959b4",
+      "example_id": "9ecf2d0e-2e82-4216-bb97-80e1b4630133",
+      "pattern": "-(으)ㄴ 후에"
+    },
+    {
+      "batch": "C",
+      "grammar_id": "92cf69c3-2bda-453a-8b5f-47f1e4902f2a",
+      "example_id": "9fb52356-665a-4850-b2ad-65bbf35a2eb8",
+      "pattern": "-기 전에"
+    },
+    {
+      "batch": "C",
+      "grammar_id": "89a0c275-28c3-4698-9ec7-69c3fe1fcdf4",
+      "example_id": "569b4033-1e9e-4d72-9b12-52afa4f32ce5",
+      "pattern": "-아 / 어도 되다"
+    },
+    {
+      "batch": "C",
+      "grammar_id": "701ca81c-0e04-466d-add4-42b94643fd87",
+      "example_id": "e48fbead-587e-4dfe-945b-01ff0a7e21dd",
+      "pattern": "-아 / 어서"
+    },
+    {
+      "batch": "C",
+      "grammar_id": "b85e6804-85a2-495d-8781-e885ee9468a2",
+      "example_id": "8b482657-368f-43e5-a94c-c18117cec455",
+      "pattern": "-(으)ㄹ 수 있다 / 없다"
+    },
+    {
+      "batch": "C",
+      "grammar_id": "1734a471-0e5b-4500-956c-dfa22926d2e9",
+      "example_id": "d23e5302-b6cb-4f3f-91d0-46c02722e0c0",
+      "pattern": "-(으)ㄹ 거예요（予定）"
+    },
+    {
+      "batch": "C",
+      "grammar_id": "9aaced5c-d486-4f21-8084-c62276df062c",
+      "example_id": "cf35906c-933d-422d-960b-b40ca4c90a20",
+      "pattern": "-아 / 어 주세요"
+    },
+    {
+      "batch": "C",
+      "grammar_id": "7779f2ed-308d-46aa-9df6-bd6001fe88fa",
+      "example_id": "e2faa5e9-d145-4a55-b685-a31f2a205e5c",
+      "pattern": "-(으)려고 하다"
+    },
+    {
+      "batch": "C",
+      "grammar_id": "b8314a89-448e-4d2e-8aea-1fb8625311ce",
+      "example_id": "281fab2c-033d-48de-9e2e-dd79257fe020",
+      "pattern": "-지 않다"
+    },
+    {
+      "batch": "C",
+      "grammar_id": "0fbf97b3-4b94-463b-85b4-8e6e22defe65",
+      "example_id": "2a54ae9d-7833-4142-89cd-a37681d8fa9e",
+      "pattern": "-ㅂ니다 / 습니다"
+    },
+    {
+      "batch": "C",
+      "grammar_id": "f331886b-4670-4a73-a700-b0f0f036b1a4",
+      "example_id": "12c69aad-ce3f-4f9e-aed1-c2ec900ab93a",
+      "pattern": "-았 / 었어요"
+    },
+    {
+      "batch": "C",
+      "grammar_id": "97089b8e-acc1-406d-9fad-5e53189aeeb8",
+      "example_id": "bd9baf3b-7dde-402b-b5d7-cce5b8c531b9",
+      "pattern": "-(으)면 안 되다"
+    },
+    {
+      "batch": "C",
+      "grammar_id": "377e3a8a-5815-4d20-9418-b909dce54143",
+      "example_id": "33983055-ba18-41e2-b681-69df3140e7fd",
+      "pattern": "-지 마세요"
+    },
+    {
+      "batch": "C",
+      "grammar_id": "919c26fd-b810-4c62-9f0c-2a25f7a30ca7",
+      "example_id": "2e260dbe-1bed-4580-819c-dd71d4da1fc8",
+      "pattern": "-(으)니까"
+    },
+    {
+      "batch": "C",
+      "grammar_id": "cb33378d-7dda-43f8-9157-e3780201589d",
+      "example_id": "75e8a369-fa86-4761-a982-b1f555c5a220",
+      "pattern": "-지만"
+    },
+    {
+      "batch": "C",
+      "grammar_id": "eef9130b-15eb-4138-ab8b-dcda74c864b1",
+      "example_id": "a813ade6-c560-42a5-b320-c27b3b10cd6e",
+      "pattern": "-는 / -(으)ㄴ 것 같다（現在の推測）"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "00af92cf-0d96-4d71-9e69-bf375ca33980",
+      "korean": "멀리 떨어져 있어도 자주 통화해서 그나마 다행이에요.",
+      "japanese": "離れていても、よく電話できるのがせめてもの救いです。",
+      "features": [
+        "concession_even_if_candidate"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "01833473-053d-4240-bb1a-3c7d838bb8be",
+      "korean": "아직 결과가 없어서 실패라고 단정할 수 없어요.",
+      "japanese": "まだ結果が出ていないので、失敗だとは断定できません。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "024f3358-36ac-4459-9a2d-6958344a4c47",
+      "korean": "한 사람이 모든 결정을 주도하지 않도록 해요.",
+      "japanese": "一人がすべての決定を主導しないようにしましょう。",
+      "features": [
+        "purpose_or_prevention"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "03998159-20df-4927-873a-2a87c59bbdda",
+      "korean": "동료는 일이 많다고 불평했어요.",
+      "japanese": "同僚は仕事が多いと不平を言っていました。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "05611109-c05e-4cda-b537-bc701d60071e",
+      "korean": "비슷한 이름 때문에 하마터면 다른 사람에게 보낼 뻔했어요.",
+      "japanese": "名前が似ていて、危うく別の人に送るところでした。",
+      "features": [
+        "near_miss"
+      ],
+      "learning_point_ja": "하마터면 + -(으)ㄹ 뻔하다：実際には起きなかった出来事。",
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "05bf65b8-64dd-4557-b30b-5a7cfb006ee3",
+      "korean": "새 팀에서 소외되지 않도록 서로 챙겨요.",
+      "japanese": "新しいチームで誰も孤立しないよう、お互いに気を配っています。",
+      "features": [
+        "purpose_or_prevention"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "06d37bf4-f131-414b-b101-2e61c57cf437",
+      "korean": "같은 실수를 반복하지 않겠다고 다짐했어요.",
+      "japanese": "同じ失敗を繰り返さないと心に誓いました。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "0b68c5fb-1b72-4a00-93bc-4458c3d51ea5",
+      "korean": "다른 방법도 있다고 넌지시 알려 줬어요.",
+      "japanese": "別の方法もあると、それとなく伝えました。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "0cad3cc8-0c02-4236-8236-69fbcf0e721f",
+      "korean": "한 번 실패했다고 자신을 무능하다고 여기지 마세요.",
+      "japanese": "一度失敗したからといって、自分を無能だと思わないでください。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "0d4d4af7-4c8c-4bdc-8396-98c1b927871b",
+      "korean": "아직 잘 모르겠다는 점에서는 저도 마찬가지예요.",
+      "japanese": "まだよく分からないという点では、私も同じです。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "0d5ea834-3f3f-4285-acfe-81b9d785ee35",
+      "korean": "단지 가격이 싸다는 이유만으로 고르지는 마세요.",
+      "japanese": "単に値段が安いという理由だけで選ばないでください。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "111fa8ab-aaac-436a-885b-cfb1c7e26247",
+      "korean": "선택지는 많아 보여도 사실상 하나뿐이에요.",
+      "japanese": "選択肢は多く見えても、実際には一つしかありません。",
+      "features": [
+        "concession_even_if_candidate"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "1169ec07-c52c-477b-b37a-21e269063d0b",
+      "korean": "조금씩이라도 부지런히 연습할 생각이에요.",
+      "japanese": "少しずつでも、こまめに練習するつもりです。",
+      "features": [
+        "concession_even_if_candidate"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "145726a1-e54a-4088-99a3-64174b3d7875",
+      "korean": "짧은 답장 때문에 화가 났다고 오해받았어요.",
+      "japanese": "短い返事のせいで、怒っていると誤解されました。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "157096b6-50eb-4162-a216-da694949d556",
+      "korean": "같은 실수를 반복하지 않도록 반성했어요.",
+      "japanese": "同じ失敗を繰り返さないよう反省しました。",
+      "features": [
+        "purpose_or_prevention"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "1665a361-77c8-4aaf-8604-233dff8c76ff",
+      "korean": "그때는 제 선택이 옳다고 확신했어요.",
+      "japanese": "あのときは、自分の選択が正しいと確信していました。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "1788aa40-b14b-49e9-9ed1-49a683ecbc91",
+      "korean": "손님을 위한 자리가 마련됐어요.",
+      "japanese": "お客さんのための席が用意されました。",
+      "features": [
+        "purpose_for"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "1b1db0f8-1cf0-4ddb-8c48-8e6606b5fa2a",
+      "korean": "약속한 원칙은 상황이 바뀌어도 지키려고 해요.",
+      "japanese": "決めた原則は、状況が変わっても守るようにしています。",
+      "features": [
+        "concession_even_if_candidate"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "1dbf80aa-4ef2-4e67-9f5a-ccc2253908a3",
+      "korean": "무료로 볼 수 있어도 저작권이 없는 것은 아니에요.",
+      "japanese": "無料で見られても、著作権がないわけではありません。",
+      "features": [
+        "concession_even_if_candidate"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "21fbd184-5853-468a-b106-8e779f3bac87",
+      "korean": "설명이 맞다는 사실이 실험으로 증명됐어요.",
+      "japanese": "説明が正しいことが、実験で証明されました。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "2289959c-023c-481c-a3b3-2ef37c256862",
+      "korean": "결과가 불확실해도 준비는 할 수 있어요.",
+      "japanese": "結果が不確かでも、準備はできます。",
+      "features": [
+        "concession_even_if_candidate"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "23051279-c557-45fe-9e4d-3d8fd5d72a58",
+      "korean": "학생들은 환경을 지키기 위한 활동을 펼쳤어요.",
+      "japanese": "学生たちは、環境を守るための活動を行いました。",
+      "features": [
+        "purpose_for"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "2621cbd0-d19e-4132-8956-9a5a5b90be56",
+      "korean": "나이가 많아도 새로운 일에 도전할 수 있어요.",
+      "japanese": "年齢が高くても、新しいことに挑戦できます。",
+      "features": [
+        "concession_even_if_candidate"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "274998f2-f826-479a-a62d-f97e17d48eab",
+      "korean": "실패를 통해 조금 더 성장했다고 느껴요.",
+      "japanese": "失敗を通して、少し成長したと感じます。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "27e54c68-2e32-4f69-bf98-221c62ad7834",
+      "korean": "문제는 기다린다고 저절로 해결되지 않아요.",
+      "japanese": "問題は、待っていれば自然に解決するわけではありません。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "290d8ed4-e306-4e70-bbfa-d9024363e19b",
+      "korean": "계획은 좋았지만 비용 문제라는 벽에 부딪혔어요.",
+      "japanese": "計画はよかったのですが、費用という壁にぶつかりました。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "2e1e1670-fdba-48cb-9052-e6ab8afb10ef",
+      "korean": "친구들은 모두 좋은 경험이었다고 입을 모았어요.",
+      "japanese": "友達はみんな、よい経験だったと口をそろえました。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "3001ced8-2226-4af5-b68d-c78935499a77",
+      "korean": "어려움에 맞설 때 혼자가 아니라는 게 힘이 됐어요.",
+      "japanese": "困難に立ち向かうとき、一人ではないことが支えになりました。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "316fa145-33a9-438d-8bf4-3e94d577b366",
+      "korean": "저에게는 사소해도 다른 사람에게는 중요할 수 있어요.",
+      "japanese": "私にはささいなことでも、ほかの人には大切かもしれません。",
+      "features": [
+        "concession_even_if_candidate"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "323d87f9-3bf9-4460-a553-382c57d1bb9c",
+      "korean": "일어날 수 있도록 친구에게 손을 내밀었어요.",
+      "japanese": "立てるように、友達に手を差し出しました。",
+      "features": [
+        "purpose_or_prevention"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "328eb81c-5b3a-4ce5-bfb1-878cdea8d099",
+      "korean": "잠을 자고 나니 머리가 헝클어졌어요.",
+      "japanese": "寝て起きると、髪がぼさぼさになっていました。",
+      "features": [
+        "proposal_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "3390dec4-9be0-4046-85a1-018399a58de9",
+      "korean": "자립한다는 것이 모든 도움을 거절한다는 뜻은 아니에요.",
+      "japanese": "自立することは、すべての助けを断るという意味ではありません。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "33983055-ba18-41e2-b681-69df3140e7fd",
+      "korean": "부모님이라도 아이의 모든 선택에 간섭하지 마세요.",
+      "japanese": "親であっても、子供のすべての選択に干渉しないでください。",
+      "features": [
+        "concession_even_if_candidate"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "36e950f3-1e1d-4aa0-9e7f-61e1c433cc33",
+      "korean": "짧은 발표라도 준비가 결코 쉽지 않아요.",
+      "japanese": "短い発表でも、準備は決して簡単ではありません。",
+      "features": [
+        "concession_even_if_candidate"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "3867c99b-9f03-4b73-ba44-d90b9132988d",
+      "korean": "친구에게 충분히 쉬라고 권했어요.",
+      "japanese": "友達に、十分休むよう勧めました。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "3a70de45-23eb-408a-8917-f6beeebf4762",
+      "korean": "수업에 뒤처지지 않도록 꾸준히 공부해요.",
+      "japanese": "授業についていけなくならないよう、こつこつ勉強しています。",
+      "features": [
+        "purpose_or_prevention"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "3b67e8a5-be40-4291-adb1-46099db6d1be",
+      "korean": "이용 약관이 바뀌었다는 안내를 받았어요.",
+      "japanese": "利用規約が変わったという案内を受け取りました。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "3b9a926f-7e99-4aff-bd42-79d8e65c5958",
+      "korean": "음식이 맛있다고 소문이 나서 손님이 늘었어요.",
+      "japanese": "料理がおいしいと評判になり、お客さんが増えました。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "3c63f9df-0819-4a32-ae5b-2102bdc9478e",
+      "korean": "직접 겪은 뒤에야 그 말이 가슴에 와닿았어요.",
+      "japanese": "自分で経験して初めて、その言葉が胸に響きました。",
+      "features": [
+        "only_after_emphasis"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "3f4fc3c2-31a6-4eeb-b5e0-5586e40a08c5",
+      "korean": "조건이 유리하다고 바로 결정하지는 마세요.",
+      "japanese": "条件が有利だからといって、すぐには決めないでください。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "3ffe3dfb-4b4c-4945-b234-a67d42b9d18b",
+      "korean": "올해도 어김없이 봄꽃이 피었어요.",
+      "japanese": "今年も変わらず、春の花が咲きました。",
+      "features": [
+        "concession_even_if_candidate"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "40d689e7-0ebf-4b48-8130-4b2927bac68d",
+      "korean": "확고한 원칙이 있어도 다른 의견은 들어봐요.",
+      "japanese": "確固とした原則があっても、別の意見は聞いてみましょう。",
+      "features": [
+        "concession_even_if_candidate"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "41fdee06-df37-49bf-a5b5-fd6dc2e14789",
+      "korean": "우리는 서로 동의하고 반말하기로 했어요.",
+      "japanese": "私たちはお互いに同意して、ため口で話すことにしました。",
+      "features": [
+        "decision_agreement"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "44ea10ac-4044-428c-8e4b-8133d732ac0a",
+      "korean": "상황이 불리해도 끝까지 해 보겠어요.",
+      "japanese": "状況が不利でも、最後までやってみます。",
+      "features": [
+        "concession_even_if_candidate"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "498d61d1-d209-452f-b604-91c7118e0b49",
+      "korean": "문제를 알렸다는 이유만으로 직원을 해고해서는 안 돼요.",
+      "japanese": "問題を伝えたという理由だけで、職員を解雇してはいけません。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "4b1634f5-2d65-4cd9-b46e-f8c51ff5cc68",
+      "korean": "옳다고 생각한 일을 끝까지 해 봤어요.",
+      "japanese": "正しいと思ったことを、最後までやってみました。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "4c8ee8b4-37b6-4f37-9848-a643848ab3e7",
+      "korean": "귀가 얇다고 느끼면 결정 전에 한번 더 생각해 봐요.",
+      "japanese": "人の話に流されやすいと感じたら、決める前にもう一度考えてみましょう。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "4e45a5a1-d10a-4baa-b8ca-6d416a3be936",
+      "korean": "바쁘다는 이유만 내세우고 약속을 미루고 싶지 않아요.",
+      "japanese": "忙しいという理由ばかり挙げて、約束を先延ばしにしたくありません。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "50b137e6-a460-464f-a08f-99d5b84312dd",
+      "korean": "친구는 자기 말만 맞다고 우겼어요.",
+      "japanese": "友達は、自分の言うことだけが正しいと言い張りました。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "538c86ab-4dc6-4474-8e9f-70d5b165c62a",
+      "korean": "보상보다 배우고 싶다는 마음이 더 큰 동기였어요.",
+      "japanese": "報酬より、学びたい気持ちが大きな動機でした。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "5402d8db-3215-460d-a9af-7b8bc672b671",
+      "korean": "이유를 물어도 그는 끝까지 입을 다물었어요.",
+      "japanese": "理由を尋ねても、彼は最後まで口を閉ざしました。",
+      "features": [
+        "concession_even_if_candidate"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "546d8f87-b3cb-46d5-bf0d-177c8b040dbe",
+      "korean": "방법은 달라도 돕고 싶다는 뜻은 맞아요.",
+      "japanese": "方法は違っても、助けたいという気持ちは一致しています。",
+      "features": [
+        "indirect_declarative_or_noun_quote",
+        "concession_even_if_candidate"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "551d238f-c2e2-4fdb-8935-14e8bc5ca332",
+      "korean": "올해는 가족과 더 자주 만나겠다고 다짐해요.",
+      "japanese": "今年は家族ともっと頻繁に会おうと心に誓います。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "578f1b6f-e421-46fb-bb97-206868c86206",
+      "korean": "화가 났다는 이유로 모든 행동이 정당한 건 아니에요.",
+      "japanese": "腹が立ったからといって、どんな行動も正当になるわけではありません。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "5b758c3e-3151-481b-bc13-61799eb4225d",
+      "korean": "함께 지내다 보면 서로의 습관을 자연히 알게 돼요.",
+      "japanese": "一緒に過ごしていると、おのずとお互いの習慣が分かってきます。",
+      "features": [
+        "gradual_experience_condition"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "5cc49845-dcbe-4a41-959b-f441f249845d",
+      "korean": "비가 온다고 가정하고 계획을 세웠어요.",
+      "japanese": "雨が降ると仮定して、計画を立てました。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "5dc3e8a2-ed19-4486-bb03-f896d34c7b11",
+      "korean": "같은 실수를 하지 않도록 경험을 되새겨요.",
+      "japanese": "同じ失敗をしないよう、経験を心に刻み直します。",
+      "features": [
+        "purpose_or_prevention"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "5f006780-734f-427d-b970-c5daa1e6cb9e",
+      "korean": "설명서에는 인체에 무해한 재료라고 쓰여 있어요.",
+      "japanese": "説明書には、人体に無害な材料だと書いてあります。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "61539795-6460-44be-8f05-ee9e54cbbce5",
+      "korean": "잠깐 쉬고 이야기로 다시 되돌아와요.",
+      "japanese": "少し休んでから、話に戻りましょう。",
+      "features": [
+        "decision_agreement"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "616eaefd-6316-4b71-9772-d33698ab2498",
+      "korean": "의견이 달라도 댓글은 정중하게 써요.",
+      "japanese": "意見が違っても、コメントは丁寧に書きます。",
+      "features": [
+        "concession_even_if_candidate"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "61cb4435-8160-4d50-9de7-8ca393658682",
+      "korean": "시간 안에 끝낼 수 있다고 장담했어요.",
+      "japanese": "時間内に終えられると、自信をもって言いました。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "621ad70c-a493-4f47-bf89-873f62d55673",
+      "korean": "이번 규칙에는 예외를 두지 않기로 했어요.",
+      "japanese": "今回の規則には、例外を設けないことにしました。",
+      "features": [
+        "decision_agreement"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "6270bb13-690c-4763-a821-c2f05c3e290d",
+      "korean": "설명을 들어도 아직 납득되지 않아요.",
+      "japanese": "説明を聞いても、まだ納得がいきません。",
+      "features": [
+        "concession_even_if_candidate"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "62c0e171-d7f4-46a6-aba9-50a49bf62df1",
+      "korean": "몇 번 실패했어도 포기하지 않고 끝내 해냈어요.",
+      "japanese": "何度か失敗しても諦めず、ついにやり遂げました。",
+      "features": [
+        "concession_even_if_candidate"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "632c367a-b7b3-4941-8144-706eb26dd0ed",
+      "korean": "의견이 달라도 다투지 않고 이야기할 수 있어요.",
+      "japanese": "意見が違っても、けんかせずに話せます。",
+      "features": [
+        "concession_even_if_candidate"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "6606bf6d-0db0-42f1-91ac-bb142a443e95",
+      "korean": "사람들 앞에서 말다툼하지 않기로 했어요.",
+      "japanese": "人前で口げんかしないことにしました。",
+      "features": [
+        "decision_agreement"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "681032a9-268c-4da7-a097-20a09579a6f1",
+      "korean": "저는 회의에서 반대한다는 입장을 밝혔어요.",
+      "japanese": "私は会議で、反対する立場を明らかにしました。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "68aa70de-9e0f-4fac-979b-2f2ae3217e6f",
+      "korean": "잠깐 웃더니 이내 진지한 표정으로 돌아왔어요.",
+      "japanese": "少し笑った後、すぐに真剣な表情に戻りました。",
+      "features": [
+        "observed_sequence"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "68f6bc43-8daf-43b9-b217-2bd229624919",
+      "korean": "비용을 반씩 부담하기로 합의했어요.",
+      "japanese": "費用を半分ずつ負担することで合意しました。",
+      "features": [
+        "decision_agreement"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "6bd9295a-4257-4715-bdba-dbb08627a171",
+      "korean": "어린이가 유해한 정보에 노출되지 않도록 주의해요.",
+      "japanese": "子供が有害な情報にさらされないよう、気をつけています。",
+      "features": [
+        "purpose_or_prevention"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "6c71d1a2-d010-41b3-a90f-2e1df4e79a0d",
+      "korean": "생각이 달라도 서로 존중해야 해요.",
+      "japanese": "考えが違っても、お互いを尊重する必要があります。",
+      "features": [
+        "concession_even_if_candidate"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "6cb23565-5862-4713-aa1c-15c43151aaaa",
+      "korean": "한계를 넘고 싶어도 몸에 무리가 되면 쉬어야 해요.",
+      "japanese": "限界を超えたくても、体に負担がかかるなら休む必要があります。",
+      "features": [
+        "concession_even_if_candidate"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "6dc3d223-b9a8-41fe-99c5-a9db77eca5a0",
+      "korean": "공용 컴퓨터에서는 자동으로 로그인하지 않도록 설정했어요.",
+      "japanese": "共用のパソコンでは、自動でログインしないように設定しました。",
+      "features": [
+        "purpose_or_prevention"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "6e0b21f8-08b1-4e5d-8209-67664d05e206",
+      "korean": "무슨 계기로 이 일을 시작하셨나요?",
+      "japanese": "何をきっかけに、この仕事を始められたのですか。",
+      "features": [
+        "decision_agreement"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "6e4aaf26-39ee-49f7-bf64-cfd8f1d09c2c",
+      "korean": "모두 참석한다고 가정하면 의자가 더 필요해요.",
+      "japanese": "全員が参加すると仮定すれば、椅子がもっと必要です。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "6e7db1af-628f-479f-a1e0-3372c0831ac3",
+      "korean": "설명을 들어도 의문이 남아서 찜찜했어요.",
+      "japanese": "説明を聞いても疑問が残り、引っ掛かりを感じました。",
+      "features": [
+        "concession_even_if_candidate"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "71db4fde-b118-4c5b-a2d5-22784a19a0e4",
+      "korean": "작은 도움이라도 보람이 있어요.",
+      "japanese": "小さな手助けでも、やりがいがあります。",
+      "features": [
+        "concession_even_if_candidate"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "763a75f8-2356-437a-99af-48999d3fe232",
+      "korean": "친구와 함께 마라톤에 도전하기로 했어요.",
+      "japanese": "友達と一緒に、マラソンに挑戦することにしました。",
+      "features": [
+        "decision_agreement"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "765bd5fb-88fe-465e-b738-0e2a93279eb5",
+      "korean": "실수했다고 속상한 건 당연하지만 너무 자책하지 마세요.",
+      "japanese": "失敗して落ち込むのは当然ですが、自分を責めすぎないでください。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "76b516af-3b16-4045-8d01-d1e101f6832c",
+      "korean": "선배는 처음부터 무리하지 말라고 조언했어요.",
+      "japanese": "先輩は、初めから無理をしないよう助言しました。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "76c15fc5-8892-41a8-8582-0a7b492d4f51",
+      "korean": "하마터면 약속을 잊을 뻔했어요.",
+      "japanese": "危うく約束を忘れるところでした。",
+      "features": [
+        "near_miss"
+      ],
+      "learning_point_ja": "하마터면 + -(으)ㄹ 뻔하다：実際には起きなかった出来事。",
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "77314712-46fb-44f4-ab90-ab301af3b4f6",
+      "korean": "사고를 막기 위해 안전 교육을 강화했어요.",
+      "japanese": "事故を防ぐため、安全教育を強化しました。",
+      "features": [
+        "purpose_for"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "7b4dd97e-2ddf-476a-ab5b-334e5e8f2e41",
+      "korean": "준비가 미흡해도 고칠 시간이 있으니 괜찮아요.",
+      "japanese": "準備が不十分でも、直す時間があるので大丈夫です。",
+      "features": [
+        "concession_even_if_candidate"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "8141ea0a-b82f-4d32-9059-8c2025d92656",
+      "korean": "며칠 쉬었더니 운동하려는 마음이 약해졌어요.",
+      "japanese": "何日か休んだら、運動しようという気持ちが弱くなりました。",
+      "features": [
+        "observed_sequence"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "83bd63c0-f02f-4682-b4bf-ef6a833008ee",
+      "korean": "한 사람이 모든 부담을 떠안지 않도록 나눠요.",
+      "japanese": "一人がすべての負担を抱えないよう、分けましょう。",
+      "features": [
+        "purpose_or_prevention"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "83ccfa12-e048-4b6a-b056-daffa1a1becb",
+      "korean": "바쁘다는 핑계를 대고 연락을 미뤘어요.",
+      "japanese": "忙しいことを口実に、連絡を後回しにしました。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "83f63295-c73e-4551-bef8-a7ca89bdd6d5",
+      "korean": "대답하기 어려워서 다른 이야기로 말을 돌렸어요.",
+      "japanese": "答えにくくて、別の話題にそらしました。",
+      "features": [
+        "decision_agreement"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "8ce76227-7d8d-41e9-b78d-d79bb0b74fe5",
+      "korean": "잠시 다른 이야기로 화제를 전환해도 될까요?",
+      "japanese": "少し、別の話題に切り替えてもいいですか。",
+      "features": [
+        "decision_agreement",
+        "concession_even_if_candidate"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "8e0c2adb-928f-40e1-bd6b-2155189f3b51",
+      "korean": "날씨를 탓해도 이미 지난 일은 바뀌지 않아요.",
+      "japanese": "天気のせいにしても、過ぎたことは変わりません。",
+      "features": [
+        "concession_even_if_candidate"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "912efa77-e5df-4b6f-929c-96e3edd70f63",
+      "korean": "나이가 많다는 이유로 후보에서 배제하지 마세요.",
+      "japanese": "年齢が高いという理由で、候補から外さないでください。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "91b30253-3950-4ce4-ae8f-d254b3ef97ec",
+      "korean": "수수하지만 오래 보아도 질리지 않는 디자인이에요.",
+      "japanese": "地味ですが、長く見ても飽きのこないデザインです。",
+      "features": [
+        "concession_even_if_candidate"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "921833c5-4b7e-4286-be33-32f80f5be6c0",
+      "korean": "비슷한 두 표현을 혼동하지 않도록 비교해요.",
+      "japanese": "似た二つの表現を混同しないよう、比べます。",
+      "features": [
+        "purpose_or_prevention"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "92585cbe-3e12-4e65-9f14-b8ae44cf2228",
+      "korean": "막상 일을 시작하니 준비가 부족했다는 걸 실감해요.",
+      "japanese": "いざ仕事を始めると、準備が足りなかったことを実感します。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "96d66b97-0c86-42c3-aba8-bdf0efe235f3",
+      "korean": "자신이 맡지 않아도 될 일까지 떠안았어요.",
+      "japanese": "自分が担当しなくてもよい仕事まで、抱え込んでしまいました。",
+      "features": [
+        "concession_even_if_candidate"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "97a97def-1aad-4f2d-ae28-9a4c78be1dd1",
+      "korean": "정답이라는 확신이 없어서 다시 확인했어요.",
+      "japanese": "正解だという確信がなく、もう一度確認しました。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "9f40b580-37aa-4636-a058-624fbaa2f2b5",
+      "korean": "문제를 외면해도 저절로 해결되지는 않아요.",
+      "japanese": "問題から目を背けても、自然には解決しません。",
+      "features": [
+        "concession_even_if_candidate"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "9fd5fae7-6c87-4485-b202-7fa854549b9f",
+      "korean": "오래 고민한 끝에 혼자 여행하기로 결심했어요.",
+      "japanese": "長く悩んだ末に、一人で旅行することを決心しました。",
+      "features": [
+        "decision_agreement"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "a04d2c56-9363-421f-829d-b601cd6b6cf2",
+      "korean": "한 번 실패했다고 꿈을 단념하지는 마세요.",
+      "japanese": "一度失敗したからといって、夢を諦めないでください。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "a1ab2490-38ee-44f7-98da-f6827640b945",
+      "korean": "위험하다는 말을 듣고 즉시 밖으로 나갔어요.",
+      "japanese": "危険だと聞いて、直ちに外へ出ました。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "a6dbcab3-dba4-488d-82a9-269b0a6bede5",
+      "korean": "설명을 거듭 들어도 아직 헷갈려요.",
+      "japanese": "説明を繰り返し聞いても、まだ混乱します。",
+      "features": [
+        "concession_even_if_candidate"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "ac16095a-4ea0-4db8-887c-8cea6a429dfa",
+      "korean": "자기 생각에만 갇히지 않도록 다른 의견도 들어요.",
+      "japanese": "自分の考えだけにとらわれないよう、別の意見も聞きます。",
+      "features": [
+        "purpose_or_prevention"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "b02d8dbd-a04b-48bb-8609-db335164d7e4",
+      "korean": "작은 불편이라도 차분하게 목소리를 내 보세요.",
+      "japanese": "小さな不便でも、落ち着いて意見を伝えてみてください。",
+      "features": [
+        "concession_even_if_candidate"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "b097f117-cd4e-4f80-a1cb-974d5be3284f",
+      "korean": "짧게라도 매일 연습하니 효과를 봤어요.",
+      "japanese": "短くても毎日練習すると、効果が出ました。",
+      "features": [
+        "concession_even_if_candidate"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "b1366a16-bb2a-42b2-bc3d-02a22422a22e",
+      "korean": "주민들이 공원을 청소하기로 뜻을 모았어요.",
+      "japanese": "住民たちは、公園を掃除しようと意見をまとめました。",
+      "features": [
+        "decision_agreement"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "b143f993-b03c-476b-883d-36492178586a",
+      "korean": "평가가 불공정하다고 느껴서 설명을 요청했어요.",
+      "japanese": "評価が不公正だと感じ、説明を求めました。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "b2b5443e-09a0-4491-9541-abccd92409a0",
+      "korean": "그는 소문이 사실이라는 말을 부인했어요.",
+      "japanese": "彼は、そのうわさが事実だという話を否定しました。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "b4dbfe77-c1c1-4a36-bc31-e25cb885d002",
+      "korean": "아직 경험이 부족해도 성실해서 미더운 동료예요.",
+      "japanese": "まだ経験は浅くても、誠実で信頼できる同僚です。",
+      "features": [
+        "concession_even_if_candidate"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "b72cce78-319d-485c-8b8c-4c5b369a67a9",
+      "korean": "제가 늦는다고 대신 말을 전해 주실래요?",
+      "japanese": "私が遅れると、代わりに伝えていただけますか。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "b89df3bf-8ed0-4e5b-811b-747943bd3b2a",
+      "korean": "이번에는 약속을 어기지 않겠다고 다짐했어요.",
+      "japanese": "今度は約束を破らないと、心に誓いました。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "bb866d07-1842-49d2-9b3f-c2c4e59b7b07",
+      "korean": "그는 더 많은 시간이 필요하다고 주장했어요.",
+      "japanese": "彼は、もっと時間が必要だと主張しました。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "be5613ef-88c1-423a-93de-a4589f1ec33e",
+      "korean": "개인적인 사진까지 다른 사람에게 공유될까 봐 걱정돼요.",
+      "japanese": "個人的な写真まで、ほかの人と共有されてしまわないか心配です。",
+      "features": [
+        "worry_about_possibility"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "bf0cbb3e-9512-468b-906f-a5deac21bef9",
+      "korean": "눈길을 끄는 제목이라도 내용을 확인해야 해요.",
+      "japanese": "目を引く見出しでも、内容を確かめる必要があります。",
+      "features": [
+        "concession_even_if_candidate"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "bff33442-6b43-4687-8dbf-83798e6e7888",
+      "korean": "멀리 살아도 영상 통화로 자주 소통해요.",
+      "japanese": "離れて暮らしていても、ビデオ通話でよくやり取りします。",
+      "features": [
+        "concession_even_if_candidate"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "c106101b-698b-473d-8e19-27a9802fd969",
+      "korean": "도움이 필요하다는 신호를 그냥 지나치지 마세요.",
+      "japanese": "助けを求めるサインを、そのまま見過ごさないでください。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "c235d904-d54e-4db2-83c1-f806b6e36ab4",
+      "korean": "참석자들이 시간이 부족했다고 입을 모았어요.",
+      "japanese": "参加者は、時間が足りなかったと口をそろえました。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "c31a9da6-60e9-46c7-a6e5-8d5e13eb5cf8",
+      "korean": "이번에는 누구를 위한 행사를 기획하고 있나요?",
+      "japanese": "今回は、誰のための行事を企画していますか。",
+      "features": [
+        "purpose_for"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "c4001ebf-8cc8-406c-b0dd-16937faa1eec",
+      "korean": "오래 서 있었더니 다리에 힘이 빠졌어요.",
+      "japanese": "長い間立っていたので、脚に力が入らなくなりました。",
+      "features": [
+        "observed_sequence"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "c42ec7be-322f-4d3c-874d-f543b84576fa",
+      "korean": "바쁘다고 제 일을 동료에게 떠넘기고 싶지 않아요.",
+      "japanese": "忙しいからといって、自分の仕事を同僚に押し付けたくありません。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "c69be139-ae8b-4fa2-a45b-58537400de77",
+      "korean": "여러 번 해 보고 나서야 요령을 터득했어요.",
+      "japanese": "何度もやってみて、ようやくこつをつかみました。",
+      "features": [
+        "only_after_emphasis"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "c75a98bf-e4fd-45ce-b850-a178cbb84c8a",
+      "korean": "그는 개인 정보를 더 달라는 요구를 거부했어요.",
+      "japanese": "彼は、個人情報をもっと出してほしいという要求を拒否しました。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "c7917010-6d42-4569-b3d9-d26ed99b216c",
+      "korean": "작은 차이라도 간과하면 결과가 달라질 수 있어요.",
+      "japanese": "小さな違いでも見落とせば、結果が変わることがあります。",
+      "features": [
+        "concession_even_if_candidate"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "ca948222-f5d9-4f39-8437-c76270cd4979",
+      "korean": "다른 사람이 자고 있으니 목소리를 낮춰 주세요.",
+      "japanese": "ほかの人が寝ているので、声を小さくしてください。",
+      "features": [
+        "proposal_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "cb4aabca-b120-4983-a957-ca410956937f",
+      "korean": "오해받지 않도록 이유를 먼저 설명했어요.",
+      "japanese": "誤解されないように、先に理由を説明しました。",
+      "features": [
+        "purpose_or_prevention"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "cb58e710-7d9e-4f89-926a-407bdf5417e9",
+      "korean": "대답을 안 했다고 무례한 건 아니에요.",
+      "japanese": "返事をしなかったからといって、無礼だとは限りません。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "cb73b4f7-ee86-41c8-b4e8-e6a6fcb0c33a",
+      "korean": "실수해도 너무 걱정하지 말고 기운을 내세요.",
+      "japanese": "失敗しても心配しすぎず、元気を出してください。",
+      "features": [
+        "concession_even_if_candidate"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "cbba4966-cb5a-4135-8886-9c5c738801d7",
+      "korean": "도움을 요청하는 것이 무능하다는 뜻은 아니에요.",
+      "japanese": "助けを求めることは、無能だという意味ではありません。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "cc95650e-eddc-44a7-b094-5eb818625017",
+      "korean": "천연 재료라고 반드시 무해한 것은 아니에요.",
+      "japanese": "天然の材料だからといって、必ず無害とは限りません。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "d030d8b1-0a40-4ec2-adce-ef0bcfdbaf03",
+      "korean": "편지를 읽고 나서야 속마음을 알았어요.",
+      "japanese": "手紙を読んで初めて、本音が分かりました。",
+      "features": [
+        "only_after_emphasis"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "d12d1eba-9fd0-4542-b4bf-6006958e3a89",
+      "korean": "회의 시간을 바꾸자고 제안했어요.",
+      "japanese": "会議の時間を変えようと提案しました。",
+      "features": [
+        "proposal_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "d1580697-1d15-4f12-98fa-b4bfadec0a42",
+      "korean": "개인 정보가 유출됐다는 소식을 들었어요.",
+      "japanese": "個人情報が流出したという知らせを聞きました。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "d5edc8b5-749b-4df2-a59f-1a1eaeb6ff18",
+      "korean": "알림이 밤에는 울리지 않도록 설정해 주세요.",
+      "japanese": "夜には通知音が鳴らないよう、設定してください。",
+      "features": [
+        "purpose_or_prevention"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "d686c7a7-34b5-4d69-b146-87f97b1ebd5f",
+      "korean": "당분간은 공부에 전념하기로 했어요.",
+      "japanese": "当分は、勉強に専念することにしました。",
+      "features": [
+        "decision_agreement"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "d6d47e5c-790a-4913-9f8d-05c89f65c53b",
+      "korean": "지금 출발하는 게 낫다고 판단했어요.",
+      "japanese": "今出発したほうがよいと判断しました。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "d847a2f1-0351-488d-80f6-f5dd7dd419e1",
+      "korean": "연락을 못 했더니 친구가 서운해했어요.",
+      "japanese": "連絡できずにいたら、友達が寂しがっていました。",
+      "features": [
+        "observed_sequence"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "d84bfc3e-ab1a-40cd-b3de-1566a2f33b92",
+      "korean": "사소한 실수라도 바로 고치려고 해요.",
+      "japanese": "ささいな失敗でも、すぐに直そうとしています。",
+      "features": [
+        "concession_even_if_candidate"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "d9e5aa6c-5281-4638-aeb6-465e8977acec",
+      "korean": "작은 목표라도 이루면 성취감을 느껴요.",
+      "japanese": "小さな目標でも、達成すると達成感を覚えます。",
+      "features": [
+        "concession_even_if_candidate"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "da119135-5b15-401d-a6c8-cc5d760b3e3f",
+      "korean": "무사히 도착했다는 연락에 안도했어요.",
+      "japanese": "無事に着いたという連絡に、ほっとしました。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "da312b90-abd7-4a90-9e67-7277eedc17fc",
+      "korean": "화려하지 않아도 소박한 식사가 마음에 들었어요.",
+      "japanese": "華やかではなくても、素朴な食事が気に入りました。",
+      "features": [
+        "concession_even_if_candidate"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "dd23ca3e-a553-42ef-9fbf-cb0176d7bb46",
+      "korean": "친구는 기다리라는 말투 때문에 기분이 상했어요.",
+      "japanese": "友達は、待つように言われたときの口調に気を悪くしました。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "dd9b836c-36d8-4142-b900-3610f55a3c96",
+      "korean": "현장에 들어가기 전에 안전 규정을 준수하겠다고 약속했어요.",
+      "japanese": "現場に入る前に、安全規則を守ると約束しました。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "e050a7c3-5d4f-4ceb-af34-d252a2fdbb57",
+      "korean": "잘될 거라고 막연히 생각했어요.",
+      "japanese": "うまくいくだろうと、漠然と考えていました。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "e13a2e04-e3bc-49bb-9536-83b67d77e11c",
+      "korean": "사생활에는 간섭하지 않고 필요한 일만 돕기로 했어요.",
+      "japanese": "私生活には干渉せず、必要なことだけを手伝うことにしました。",
+      "features": [
+        "decision_agreement"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "e14da8b6-c51e-4cbb-80f4-bb0a43134253",
+      "korean": "마감이 다급해도 확인할 시간은 남겨 둬요.",
+      "japanese": "締め切りが迫っても、確認する時間は残しておきます。",
+      "features": [
+        "concession_even_if_candidate"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "e2ab0196-64d5-4899-a773-30eefdcb9cb9",
+      "korean": "회의 내용이 밖으로 유출되지 않도록 조심해요.",
+      "japanese": "会議の内容が外に漏れないよう、気をつけています。",
+      "features": [
+        "purpose_or_prevention"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "e61e414f-b288-49c7-81cb-2fb03c7d253a",
+      "korean": "동료가 선뜻 도움을 주겠다고 했어요.",
+      "japanese": "同僚がためらわずに、手伝うと言ってくれました。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "e924b3eb-e177-4f6a-a3ec-6e21ffc28ee4",
+      "korean": "한 사람에게 과중한 책임을 맡기지 않도록 해요.",
+      "japanese": "一人に重すぎる責任を負わせないようにしましょう。",
+      "features": [
+        "purpose_or_prevention"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "ea25c8f1-bf83-41fa-ada4-73d5a0c4484a",
+      "korean": "몇 달 연습하더니 이제 제법 잘하네요.",
+      "japanese": "何か月か練習して、今ではなかなか上手ですね。",
+      "features": [
+        "observed_sequence"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "ea8d3ba9-5c5d-4f1d-a69d-2b9e4f5e4f0f",
+      "korean": "아침부터 부지런히 움직였더니 준비가 끝났어요.",
+      "japanese": "朝からせっせと動いたら、準備が終わりました。",
+      "features": [
+        "observed_sequence"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "eabf81ea-ad02-4e4d-9cc3-b01876489972",
+      "korean": "눈에 보이는 성과가 없다고 노력이 사라지는 건 아니에요.",
+      "japanese": "目に見える成果がなくても、努力が消えるわけではありません。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "f0695f23-19bd-4005-b961-cef0e8125c75",
+      "korean": "중요한 내용이 누락되지 않도록 확인해요.",
+      "japanese": "大事な内容が抜けないように確認します。",
+      "features": [
+        "purpose_or_prevention"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "f1028ea3-c59c-494d-bc64-8a75e22caf92",
+      "korean": "그는 남의 일을 쉽게 말해서 입이 가볍다는 소리를 들어요.",
+      "japanese": "彼は人のことを気軽に話すので、口が軽いと言われています。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "f1274874-037d-4ebf-bc69-d95b8c536a11",
+      "korean": "첨부된 사진이 흐릿해서 다시 보내 달라고 했어요.",
+      "japanese": "添付の写真がぼやけていたので、再送をお願いしました。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "f29b64aa-5bee-44df-ab5d-84b335a20bdc",
+      "korean": "평가가 실적에만 치우치지 않도록 기준을 바꿨어요.",
+      "japanese": "評価が実績だけに偏らないよう、基準を変えました。",
+      "features": [
+        "purpose_or_prevention"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "fa7c0452-efa1-4441-9c23-c2c6956d512d",
+      "korean": "한 번의 실수로 능력이 없다고 단정하지 마세요.",
+      "japanese": "一度の失敗で、能力がないと決めつけないでください。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "fb1d25e1-1d2d-4371-8573-08a367fc0240",
+      "korean": "도움을 받으면 고맙다고 말하는 건 당연해요.",
+      "japanese": "助けてもらったら、お礼を言うのは当然です。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "fb6cea0a-e8aa-4f49-9eb5-9318a629d14d",
+      "korean": "오해가 없도록 짧은 설명을 덧붙였어요.",
+      "japanese": "誤解がないよう、短い説明を付け加えました。",
+      "features": [
+        "purpose_or_prevention"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "fcf5e9be-9685-4676-ab92-28d63039a0a1",
+      "korean": "의견이 같지 않아도 감정에는 공감을 표현할 수 있어요.",
+      "japanese": "意見が同じでなくても、気持ちに共感を示すことはできます。",
+      "features": [
+        "concession_even_if_candidate"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "fd0edba7-d4cc-47b3-ac22-2f6a012af47b",
+      "korean": "담당자가 오해를 풀기 위해 해명했어요.",
+      "japanese": "担当者が誤解を解くために、事情を説明しました。",
+      "features": [
+        "purpose_for"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "fd6138b4-034a-4670-83e9-640f33514868",
+      "korean": "목적이 좋다고 모든 수단이 괜찮은 건 아니에요.",
+      "japanese": "目的がよいからといって、どんな手段でも許されるわけではありません。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "fd778fdc-4876-4804-b562-5a4e945ad72b",
+      "korean": "이 문서는 담당자만 열람하도록 정했어요.",
+      "japanese": "この文書は、担当者だけが閲覧できるように決めました。",
+      "features": [
+        "purpose_or_prevention"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "fd870e88-9ca9-4643-8804-3fec9549c67d",
+      "korean": "재량이 있어도 정해진 기준은 지켜야 해요.",
+      "japanese": "裁量があっても、決められた基準は守る必要があります。",
+      "features": [
+        "concession_even_if_candidate"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "fe03aad8-87f6-4c49-8195-7676dd2e0f6e",
+      "korean": "결과만 보고 판단이 그르다고 할 수는 없어요.",
+      "japanese": "結果だけを見て、判断が間違っているとは言えません。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    },
+    {
+      "id": "fe783f83-f811-4b6a-888f-b76179dfaeae",
+      "korean": "친하다는 이유만으로 제 편을 들 필요는 없어요.",
+      "japanese": "親しいからというだけで、私の味方をする必要はありません。",
+      "features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "learning_point_ja": null,
+      "status": "prerequisite_coverage_not_proven; assistant judged context readable at editorial lower_intermediate, human calibration pending"
+    }
+  ]
+}

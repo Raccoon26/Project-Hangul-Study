@@ -1,0 +1,135 @@
+{
+  "validation": {
+    "error_count": 10,
+    "warning_count": 5,
+    "errors": [
+      {
+        "code": "clue_and_solution_collocation_mixture",
+        "location": "2542d610-8fb6-4f81-b29b-fb48dd3ca65e",
+        "message": "Observed pattern requires editorial correction"
+      },
+      {
+        "code": "reviewed_japanese_collocation",
+        "location": "5e37b1f6-ba0e-492b-b39e-99483108c869",
+        "message": "Observed pattern requires editorial correction"
+      },
+      {
+        "code": "clue_and_solution_collocation_mixture",
+        "location": "d38f0789-9846-4aec-8516-e5a0dffd47fa",
+        "message": "Observed pattern requires editorial correction"
+      },
+      {
+        "code": "reviewed_japanese_collocation",
+        "location": "ac8dbd04-954c-4c44-aea3-c6e44bfe4b04",
+        "message": "Observed pattern requires editorial correction"
+      },
+      {
+        "code": "reviewed_japanese_collocation",
+        "location": "6bf45b38-ea9e-4a4c-bbb0-fb38473a9be2",
+        "message": "Observed pattern requires editorial correction"
+      },
+      {
+        "code": "counselling_recipient_reversed",
+        "location": "17ae5ef9-55a7-4f3e-ab1a-125ac52dd53f",
+        "message": "Observed pattern requires editorial correction"
+      },
+      {
+        "code": "editorial_delivery_text",
+        "location": "f1362469-5e90-4481-8478-cadbe5cfd7a1",
+        "message": "Production note describes content creation/counting"
+      },
+      {
+        "code": "editorial_delivery_text",
+        "location": "a67747a1-e827-45ed-a437-7d0e43bfafc0",
+        "message": "Production note describes content creation/counting"
+      },
+      {
+        "code": "editorial_delivery_text",
+        "location": "f99a5d46-f9a2-4e69-bcea-34ee4676d73b",
+        "message": "Production note describes content creation/counting"
+      },
+      {
+        "code": "editorial_delivery_text",
+        "location": "70e02ce1-63db-453c-8881-96d4dec04a11",
+        "message": "Production note describes content creation/counting"
+      }
+    ],
+    "warnings": [
+      {
+        "code": "short_sentence",
+        "location": "examples:1",
+        "message": "korean: single-character sentence needs review"
+      },
+      {
+        "code": "short_sentence",
+        "location": "examples:1",
+        "message": "japanese: single-character sentence needs review"
+      },
+      {
+        "code": "short_sentence",
+        "location": "examples:2",
+        "message": "korean: single-character sentence needs review"
+      },
+      {
+        "code": "short_sentence",
+        "location": "examples:2",
+        "message": "japanese: single-character sentence needs review"
+      },
+      {
+        "code": "short_sentence",
+        "location": "examples:3",
+        "message": "korean: single-character sentence needs review"
+      }
+    ],
+    "details_limit": 200
+  },
+  "source_rows_scanned": 42909,
+  "source_tables_scanned": 25,
+  "scope": {
+    "vocabulary": 911,
+    "meanings": 963,
+    "unique_examples": 1821,
+    "example_placements": 1822,
+    "notes": 314,
+    "lexical_relations": 201,
+    "grammar_references": 46
+  },
+  "by_batch": {
+    "A": {
+      "vocabulary": 301,
+      "new_examples": 602,
+      "pos": {
+        "verb": 150,
+        "adjective": 51,
+        "noun": 20,
+        "adverb": 40,
+        "expression": 40
+      }
+    },
+    "B": {
+      "vocabulary": 300,
+      "new_examples": 600,
+      "pos": {
+        "verb": 148,
+        "adjective": 49,
+        "adverb": 36,
+        "noun": 33,
+        "expression": 34
+      }
+    },
+    "C": {
+      "vocabulary": 310,
+      "new_examples": 619,
+      "pos": {
+        "verb": 138,
+        "noun": 53,
+        "adjective": 45,
+        "adverb": 44,
+        "expression": 30
+      }
+    }
+  },
+  "japanese_duplicate_candidates": [],
+  "limitation": "Structural checks and narrow observed-error lints only; no automated claim of Korean/Japanese correctness or human review.",
+  "source_sha256": "7fee2b4591f1ecd732bdf8a88433a86644cbe665a609005556d985c80c3f604b"
+}

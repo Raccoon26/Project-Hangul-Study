@@ -1,0 +1,124 @@
+{
+  "stage": "DATA-08-5",
+  "branch": "data08-5/final-audit",
+  "baseline_commit": "093b215f4d4d788b11e65febc4338b597cc76f0e",
+  "baseline_clean": true,
+  "metadata": {
+    "schema_version": 4,
+    "content_version": 18,
+    "min_reader_version": 7,
+    "dataset_id": "ko-ja-core",
+    "is_fixture": 0,
+    "source_locale": "ja",
+    "target_locale": "ko"
+  },
+  "user_progress_version": 10,
+  "counts": {
+    "vocabulary": 2287,
+    "meanings": 2420,
+    "examples": 4597,
+    "learner_notes": 531,
+    "grammar": 42,
+    "listening_items": 115,
+    "questions": 354,
+    "content_items": 10573,
+    "grammar_examples": 169,
+    "vocabulary_examples": 4514
+  },
+  "new_rows": 0,
+  "deleted_rows": 0,
+  "retired_rows": 0,
+  "new_or_reissued_ids": 0,
+  "changed_fields": 43,
+  "affected_vocabulary": 34,
+  "revised_content_ids": 40,
+  "revised_kinds": {
+    "vocabulary": 1,
+    "meaning": 19,
+    "example": 12,
+    "note": 8
+  },
+  "changed_fields_by_batch": {
+    "A": 9,
+    "B": 16,
+    "C": 18
+  },
+  "data08_cumulative": {
+    "vocabulary_rows": 911,
+    "lexical_vocabulary": 807,
+    "phrases": 104,
+    "new_examples": 1821,
+    "reused_example_placements": 1
+  },
+  "by_level": {
+    "vocabulary": {
+      "beginner": 800,
+      "intro": 306,
+      "lower_intermediate": 1181
+    },
+    "examples": {
+      "beginner": 1577,
+      "intro": 659,
+      "lower_intermediate": 2361
+    },
+    "grammar": {
+      "beginner": 20,
+      "intro": 22
+    },
+    "listening_items": {
+      "beginner": 79,
+      "intro": 34,
+      "lower_intermediate": 2
+    },
+    "questions": {
+      "beginner": 134,
+      "hangul": 59,
+      "intro": 156,
+      "lower_intermediate": 5
+    }
+  },
+  "random_sample_draws": 85,
+  "random_sample_unique": 84,
+  "corrected_sample_items": 6,
+  "grammar_candidate_examples": 163,
+  "native_test_definitions": 130,
+  "native_tests_executed": 0,
+  "human_review_performed": false,
+  "sha256": {
+    "Content/production.json": "f7af29ac0ed7f8ba195304562e4521477fba6bb076d33dc6bbc1b6c6f58994e3",
+    "Resources/content.sqlite": "3235c21699bb297a4447f0ce2068a2e949db136a2c4e08ca70d7a737a07308e3",
+    "Tests/Fixtures/content-v17-production.sqlite": "836dec2fac50508a177010dbf8f83a74a9e4660c8c42c1f08a75bd9207f286c6",
+    "Tests/Fixtures/content-v17-production.json.gz": "3c57b04e4e67877f5ac14dde03e3f39cca7dc05e6d04ebfbff37038ac5a4702c"
+  },
+  "baseline_source_sha256": "7fee2b4591f1ecd732bdf8a88433a86644cbe665a609005556d985c80c3f604b",
+  "remaining": [
+    "independent human language review and level calibration",
+    "grammar prerequisite coverage in DATA08_FINAL_GRAMMAR.json",
+    "native Xcode/SDK/XCTest and iPhone offline/TTS/accessibility/ads/StoreKit gates",
+    "existing retirement active-review P1 and lower_intermediate Grammar0/Listening2/Question5"
+  ],
+  "portable_verification": {
+    "command": "sh Tools/verify.sh --portable",
+    "run": 280,
+    "passed": 280,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "exit_status": 0,
+    "seconds": 186.489,
+    "log": "Docs/DATA08_FINAL_TEST_LOG.txt",
+    "new_tests": 11,
+    "previous_tests_preserved": 269,
+    "initial_full_suite_failures": 0
+  },
+  "focused_verification": {
+    "run": 11,
+    "passed": 11,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "exit_status": 0,
+    "seconds": 11.511,
+    "log": "Docs/DATA08_FINAL_FOCUSED_TEST_LOG.txt"
+  }
+}

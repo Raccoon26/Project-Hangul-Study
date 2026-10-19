@@ -1,3 +1,7 @@
+> **현재 DATA-08-5 최종 감사: Content18 / schema4 / reader7.** A~C911어휘·1,821고유예문을 assistant가 한일 별도 재독, 무작위84개 재감사 후34어휘43필드를 교정했습니다. 전체 목표 수량은 유지합니다. portable280 PASS. **사람 검수·native130개 실행은 미완료**이며 선행Grammar 후보163예문 등 남은 사항은 [DATA08_PROGRESS.md](DATA08_PROGRESS.md) §13과 [감사 기록](Docs/DATA08_FINAL_REVIEW.md)에 있습니다. 아래 단계 내용은 당시 이력입니다.
+
+---
+
 > **현재 DATA-08-4 / Batch C: Content17 / schema4 / reader7. Vocabulary2,287 · Examples4,597(문장4,584) · Grammar42 · Listening115.** C 신규310어휘/619문장, 기존 예문1 재사용. DATA-08 전체 **911어휘(일반807/표현104) / 신규 문장1,821**로 목표800~1,200 / 1,300~2,000 달성. portable269 PASS, native129개·실기기 미실행. 상세 [DATA08_PROGRESS.md](DATA08_PROGRESS.md) §12, 출시 조건은 [PROJECT_STATUS.md](PROJECT_STATUS.md). 아래 내용은 당시 이력입니다.
 
 ---

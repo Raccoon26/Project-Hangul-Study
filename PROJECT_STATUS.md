@@ -1,3 +1,15 @@
+# PROJECT_STATUS — DATA-08-5 / 최종 감사 (현재)
+
+**A~C 최종 감사 수행, Release Readiness B—Conditional 유지. 사람 검수는 미실행.** 아래 단계 기록은 당시 이력이다.
+
+- 전911어휘·963뜻·고유 예문1,821개·Note314개를 assistant가 한국어/일본어 별도 재독하고, 무작위 고유84개를 재감사했다.34어휘/43필드를 교정했다. 자동 Validator는 언어 품질을 보증하지 않는다.
+- Production Content18 / schema4 / reader7 / UserProgress10. Vocabulary2,287 / Examples4,597(문장4,584) / Grammar42 / Listening115 / Question354. 수량 증감0, 기존 ID·관계·정렬·진도 보존,40엔티티 revision+1. 직전17 DB/source와 A/B/C 이력 보존.
+- 전체 목표911어휘(일반807/표현104)/신규 문장1,821 달성 유지. strict 오류0/기존경고10, 전42,909행 Source/DB 일치·integrity ok/FK0. portable **280 PASS**(failures/errors/skipped0, exit0).
+- 등록 문법만으로 선행 학습을 입증하기 어려운 문형 후보163예문, 독립 사람 언어 검수/Level 교정은 남아 있다. native 정의130개/실행0, Xcode·SDK·iPhone gate와 기존 retirement P1·初中級 Grammar0/Listening2/Question5·상위 Level 공백 유지.
+- runtime/학습 엔진/사용자DB/광고·구매 코드 변경0. DATA-08-5 이후 단계 미실행. 상세 [DATA08_PROGRESS.md](DATA08_PROGRESS.md) §13, [최종 감사](Docs/DATA08_FINAL_REVIEW.md).
+
+---
+
 # PROJECT_STATUS — DATA-08-4 / Batch C (현재)
 
 **DATA-08 콘텐츠 수량 목표 달성. Release Readiness B—Conditional 유지.** 아래 Batch A/B·DEV/DATA 기록은 당시 이력이다.

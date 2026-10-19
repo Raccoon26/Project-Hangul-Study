@@ -67,6 +67,8 @@ def row_fields(table,row,columns,location,report):
             limit=2000 if name in ('korean','japanese','headword','reading','meaning_ja','sort_key') else 20000
             if len(value)>limit: report.error('text_too_long',location,f'{name}: max {limit} Unicode characters')
             if '\x00' in value: report.error('nul_character',location,name)
+            if any(unicodedata.category(c)=='Cc' and c not in '\t\n\r\x00' for c in value):
+                report.error('control_character',location,f'{name}: unexpected control character')
             try: value.encode('utf-8')
             except UnicodeEncodeError: report.error('invalid_unicode',location,f'{name}: unpaired surrogate')
             if any((ord(c) & 0xFFFF) in (0xFFFE,0xFFFF) or 0xFDD0<=ord(c)<=0xFDEF for c in value):
