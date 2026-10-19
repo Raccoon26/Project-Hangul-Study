@@ -1,0 +1,75 @@
+{
+  "stage": "DATA-08-8",
+  "evidence_base_commit": "4cf64ca3b1ac496193033ee7a04d63ad1ee46379",
+  "readiness": "B—Conditional; content quantity/integration targets met, native and independent human gates outstanding; DATA09 not started",
+  "content_changes": 0,
+  "versions": {
+    "content": 19,
+    "schema": 4,
+    "min_reader": 7,
+    "user_progress": 10
+  },
+  "portable": {
+    "command": "sh Tools/verify.sh --portable",
+    "status": "PASS",
+    "executed": 301,
+    "passed": 301,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "expected_failures": 0,
+    "seconds": 270.967,
+    "exit_code": 0,
+    "log": "Docs/DATA08_CLOSEOUT_TEST_LOG.txt"
+  },
+  "closeout_checks": {
+    "status": "PASS",
+    "checks": 133,
+    "note": "Separate preservation/structural checks, not extra unittest cases"
+  },
+  "reconstruction": {
+    "status": "PASS",
+    "byte_exact": true,
+    "tables_including_derived": 31,
+    "source_tables": 25,
+    "source_rows": 63159,
+    "preserved_existing_artifacts": 75,
+    "validator_errors": 0,
+    "validator_warnings": 10
+  },
+  "native": {
+    "status": "BLOCKED",
+    "definitions": 137,
+    "executed": 0,
+    "build_executed": 0,
+    "reason": "No Xcode/Swift/iOS SDK; actual command probes exit127"
+  },
+  "independent_human_language_review": {
+    "status": "NOT TESTED",
+    "executed": 0
+  },
+  "original_complete_DEV_DATA_specification_conformance": {
+    "status": "UNVERIFIABLE",
+    "reason": "Original full task specifications absent; archived reports preserved"
+  },
+  "unresolved_reproduced_p0_p1_in_executed_scope": 0,
+  "remaining_p1_verification": "Three DATA08-7 findings fixed in code / SQL or corpus PASS / native BLOCKED; no claim of app-wide P0/P1 absence",
+  "git": {
+    "starting_branch": "main",
+    "starting_tracked_changes": 0,
+    "starting_untracked": 0,
+    "delivery_branch": "data08-8/final-closeout",
+    "force_push": false,
+    "lfs_used": false,
+    "reachable_blobs_over_50_MiB": 0,
+    "reachable_blobs_over_100_MiB": 0,
+    "delivery_status": "Final commit/push/PR/merge state must be verified from Git/PR and final response, not inferred from this pre-commit artifact"
+  },
+  "evidence_sha256": {
+    "Docs/DATA08_CLOSEOUT.json": "a21a7c342358f18be563f0d4134f97139b47fab66d7e39609d2a07a7441db8fb",
+    "Docs/DATA08_CLOSEOUT_BUILD.json": "ee5e0a367030eb5ee03acb7da11f2605f162a9ed4ffa4b8b58f8d4c1e7e5838d",
+    "Docs/DATA08_CLOSEOUT_ENVIRONMENT.json": "8d412517d565312dff26ed3b93af3e325e5544aa92e84acba02aa3ef22b4b4ce",
+    "Docs/DATA08_CLOSEOUT_ROUTING.json": "2117281777927b6ce8e411da55b52a6fa7cb064b85dfb6a82401257f1de74450",
+    "Docs/DATA08_CLOSEOUT_TEST_LOG.txt": "5f4aa5725e076c456383ed083230fd755abc4e21066cc55ed4c50de564376921"
+  }
+}

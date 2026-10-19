@@ -1,0 +1,1519 @@
+{
+  "stage": "DATA-08-8",
+  "status": "PASS",
+  "evidence_base_commit": "4cf64ca3b1ac496193033ee7a04d63ad1ee46379",
+  "metadata": {
+    "schema_version": 4,
+    "content_version": 19,
+    "min_reader_version": 7,
+    "dataset_id": "ko-ja-core",
+    "is_fixture": 0,
+    "source_locale": "ja",
+    "target_locale": "ko"
+  },
+  "source_sha256": "f97b3bd70d07a3945770b8d6940c4a53e29a9b70b565caf21fb927230c08b4a8",
+  "bundle_sha256": "57aeaf918d5eaaec3bbfaed02f87c5452cca8264540b923a70448b781adbe9e5",
+  "rebuilt_sha256": "57aeaf918d5eaaec3bbfaed02f87c5452cca8264540b923a70448b781adbe9e5",
+  "build_validation": {
+    "error_count": 0,
+    "warning_count": 10,
+    "errors": [],
+    "warnings": [
+      {
+        "code": "short_sentence",
+        "location": "production.json:examples[1]",
+        "message": "korean: single-character sentence needs review"
+      },
+      {
+        "code": "short_sentence",
+        "location": "production.json:examples[1]",
+        "message": "japanese: single-character sentence needs review"
+      },
+      {
+        "code": "short_sentence",
+        "location": "production.json:examples[2]",
+        "message": "korean: single-character sentence needs review"
+      },
+      {
+        "code": "short_sentence",
+        "location": "production.json:examples[2]",
+        "message": "japanese: single-character sentence needs review"
+      },
+      {
+        "code": "short_sentence",
+        "location": "production.json:examples[3]",
+        "message": "korean: single-character sentence needs review"
+      },
+      {
+        "code": "duplicate_headword_candidate",
+        "location": "저",
+        "message": "[\"9b45d39c-a966-41da-bc64-973bd8767c94\", \"ea0ec264-a477-4945-9fb2-92629e759e5f\"]"
+      },
+      {
+        "code": "duplicate_headword_candidate",
+        "location": "차",
+        "message": "[\"e80b26ff-6c6f-4004-99a7-d784495483a3\", \"58ee8623-b923-44c3-9ab3-3f12d0c24230\"]"
+      },
+      {
+        "code": "duplicate_headword_candidate",
+        "location": "일",
+        "message": "[\"1b74ab03-9ce3-454b-914b-5f14f32f1395\", \"fef18457-1e05-435b-8939-4ef1a49fa0cd\"]"
+      },
+      {
+        "code": "duplicate_headword_candidate",
+        "location": "쓰다",
+        "message": "[\"d7632872-1ba0-4930-9e6f-ead30910d5a7\", \"707d6ce7-4939-4d70-b143-6458c44d362f\"]"
+      },
+      {
+        "code": "duplicate_headword_candidate",
+        "location": "적다",
+        "message": "[\"7ed9cfb9-b5ef-441d-9607-a4d60f44eb7e\", \"f211c5be-f0e5-48c1-8e43-f3e850327e1b\"]"
+      }
+    ],
+    "details_limit": 200
+  },
+  "build_seconds": 3.2742,
+  "reconstruction_tables": {
+    "audio_questions": {
+      "rows": 3,
+      "equal": true
+    },
+    "conjugations": {
+      "rows": 0,
+      "equal": true
+    },
+    "content_aliases": {
+      "rows": 0,
+      "equal": true
+    },
+    "content_audio": {
+      "rows": 36,
+      "equal": true
+    },
+    "content_items": {
+      "rows": 15428,
+      "equal": true
+    },
+    "content_links": {
+      "rows": 6047,
+      "equal": true
+    },
+    "content_metadata": {
+      "rows": 1,
+      "equal": true
+    },
+    "courses": {
+      "rows": 5,
+      "equal": true
+    },
+    "examples": {
+      "rows": 4597,
+      "equal": true
+    },
+    "grammar": {
+      "rows": 42,
+      "equal": true
+    },
+    "grammar_examples": {
+      "rows": 169,
+      "equal": true
+    },
+    "hangul": {
+      "rows": 55,
+      "equal": true
+    },
+    "item_sources": {
+      "rows": 14994,
+      "equal": true
+    },
+    "item_tags": {
+      "rows": 4507,
+      "equal": true
+    },
+    "learner_notes": {
+      "rows": 531,
+      "equal": true
+    },
+    "lesson_items": {
+      "rows": 1137,
+      "equal": true
+    },
+    "lessons": {
+      "rows": 85,
+      "equal": true
+    },
+    "listening_items": {
+      "rows": 1936,
+      "equal": true
+    },
+    "meanings": {
+      "rows": 2420,
+      "equal": true
+    },
+    "media_assets": {
+      "rows": 0,
+      "equal": true
+    },
+    "pronunciation_examples": {
+      "rows": 13,
+      "equal": true
+    },
+    "pronunciation_presentations": {
+      "rows": 36,
+      "equal": true
+    },
+    "pronunciation_rules": {
+      "rows": 36,
+      "equal": true
+    },
+    "question_choices": {
+      "rows": 828,
+      "equal": true
+    },
+    "questions": {
+      "rows": 3337,
+      "equal": true
+    },
+    "sources": {
+      "rows": 19,
+      "equal": true
+    },
+    "sqlite_stat1": {
+      "rows": 43,
+      "equal": true
+    },
+    "tags": {
+      "rows": 97,
+      "equal": true
+    },
+    "vocabulary": {
+      "rows": 2287,
+      "equal": true
+    },
+    "vocabulary_examples": {
+      "rows": 4514,
+      "equal": true
+    },
+    "vocabulary_search": {
+      "rows": 4707,
+      "equal": true
+    }
+  },
+  "integrity": {
+    "bundle": {
+      "integrity_check": [
+        [
+          "ok"
+        ]
+      ],
+      "foreign_key_violations": []
+    },
+    "rebuilt": {
+      "integrity_check": [
+        [
+          "ok"
+        ]
+      ],
+      "foreign_key_violations": []
+    }
+  },
+  "checks": [
+    {
+      "check": "Rebuilt table inventory including derived tables",
+      "status": "PASS"
+    },
+    {
+      "check": "Rebuilt all rows: audio_questions",
+      "status": "PASS"
+    },
+    {
+      "check": "Rebuilt all rows: conjugations",
+      "status": "PASS"
+    },
+    {
+      "check": "Rebuilt all rows: content_aliases",
+      "status": "PASS"
+    },
+    {
+      "check": "Rebuilt all rows: content_audio",
+      "status": "PASS"
+    },
+    {
+      "check": "Rebuilt all rows: content_items",
+      "status": "PASS"
+    },
+    {
+      "check": "Rebuilt all rows: content_links",
+      "status": "PASS"
+    },
+    {
+      "check": "Rebuilt all rows: content_metadata",
+      "status": "PASS"
+    },
+    {
+      "check": "Rebuilt all rows: courses",
+      "status": "PASS"
+    },
+    {
+      "check": "Rebuilt all rows: examples",
+      "status": "PASS"
+    },
+    {
+      "check": "Rebuilt all rows: grammar",
+      "status": "PASS"
+    },
+    {
+      "check": "Rebuilt all rows: grammar_examples",
+      "status": "PASS"
+    },
+    {
+      "check": "Rebuilt all rows: hangul",
+      "status": "PASS"
+    },
+    {
+      "check": "Rebuilt all rows: item_sources",
+      "status": "PASS"
+    },
+    {
+      "check": "Rebuilt all rows: item_tags",
+      "status": "PASS"
+    },
+    {
+      "check": "Rebuilt all rows: learner_notes",
+      "status": "PASS"
+    },
+    {
+      "check": "Rebuilt all rows: lesson_items",
+      "status": "PASS"
+    },
+    {
+      "check": "Rebuilt all rows: lessons",
+      "status": "PASS"
+    },
+    {
+      "check": "Rebuilt all rows: listening_items",
+      "status": "PASS"
+    },
+    {
+      "check": "Rebuilt all rows: meanings",
+      "status": "PASS"
+    },
+    {
+      "check": "Rebuilt all rows: media_assets",
+      "status": "PASS"
+    },
+    {
+      "check": "Rebuilt all rows: pronunciation_examples",
+      "status": "PASS"
+    },
+    {
+      "check": "Rebuilt all rows: pronunciation_presentations",
+      "status": "PASS"
+    },
+    {
+      "check": "Rebuilt all rows: pronunciation_rules",
+      "status": "PASS"
+    },
+    {
+      "check": "Rebuilt all rows: question_choices",
+      "status": "PASS"
+    },
+    {
+      "check": "Rebuilt all rows: questions",
+      "status": "PASS"
+    },
+    {
+      "check": "Rebuilt all rows: sources",
+      "status": "PASS"
+    },
+    {
+      "check": "Rebuilt all rows: sqlite_stat1",
+      "status": "PASS"
+    },
+    {
+      "check": "Rebuilt all rows: tags",
+      "status": "PASS"
+    },
+    {
+      "check": "Rebuilt all rows: vocabulary",
+      "status": "PASS"
+    },
+    {
+      "check": "Rebuilt all rows: vocabulary_examples",
+      "status": "PASS"
+    },
+    {
+      "check": "Rebuilt all rows: vocabulary_search",
+      "status": "PASS"
+    },
+    {
+      "check": "Rebuilt complete schema/index definitions",
+      "status": "PASS"
+    },
+    {
+      "check": "Rebuilt byte-exact SHA-256",
+      "status": "PASS"
+    },
+    {
+      "check": "Strict Validator has no errors",
+      "status": "PASS"
+    },
+    {
+      "check": "Existing ten warnings retained",
+      "status": "PASS"
+    },
+    {
+      "check": "Source/bundle and route audit has no structural errors",
+      "status": "PASS"
+    },
+    {
+      "check": "No unreachable examples or questions",
+      "status": "PASS"
+    },
+    {
+      "check": "bundle integrity and FK",
+      "status": "PASS"
+    },
+    {
+      "check": "rebuilt integrity and FK",
+      "status": "PASS"
+    },
+    {
+      "check": "a disjoint new IDs",
+      "status": "PASS"
+    },
+    {
+      "check": "b disjoint new IDs",
+      "status": "PASS"
+    },
+    {
+      "check": "c disjoint new IDs",
+      "status": "PASS"
+    },
+    {
+      "check": "Vocabulary delta exactly A+B+C",
+      "status": "PASS"
+    },
+    {
+      "check": "Example delta exactly A+B+C",
+      "status": "PASS"
+    },
+    {
+      "check": "Unreduced DATA-08 targets",
+      "status": "PASS"
+    },
+    {
+      "check": "All baseline Stable IDs/kinds/created_at retained",
+      "status": "PASS"
+    },
+    {
+      "check": "All baseline sort keys retained",
+      "status": "PASS"
+    },
+    {
+      "check": "All baseline lesson memberships retained",
+      "status": "PASS"
+    },
+    {
+      "check": "All baseline listening order retained",
+      "status": "PASS"
+    },
+    {
+      "check": "No retired current content",
+      "status": "PASS"
+    },
+    {
+      "check": "Stage 1 archived counts vs actual v14",
+      "status": "PASS"
+    },
+    {
+      "check": "Stage 2 archived counts vs actual v15",
+      "status": "PASS"
+    },
+    {
+      "check": "Stage 3 archived counts vs actual v16",
+      "status": "PASS"
+    },
+    {
+      "check": "Stage 4 archived counts vs actual v17",
+      "status": "PASS"
+    },
+    {
+      "check": "Stage 5 archived counts vs actual v18",
+      "status": "PASS"
+    },
+    {
+      "check": "Stage 6 archived counts vs actual v19",
+      "status": "PASS"
+    },
+    {
+      "check": "No GitHub 100 MiB blob in reachable history",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Content/ContentPackageValidator.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Content/content-schema-v1.sql",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Content/content-schema-v2.sql",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Content/content-schema-v3.sql",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Content/content-schema-v4.sql",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Content/data01-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Content/data02-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Content/data03-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Content/data04-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Content/data04-revised-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Content/data05-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Content/data05-revised-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Content/data06-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Content/data06-revised-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Content/data07-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Content/data07-revised-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Content/data08-a-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Content/data08-a-revised-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Content/data08-b-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Content/data08-b-revised-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Content/data08-c-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Content/data08-c-revised-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Content/data08-final-revised-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Content/data08-integration-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Content/data08-integration-revised-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Content/dev08-revised-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Content/dev09-revised-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Content/fixture.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Content/grammar-seed-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Content/hangul-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Content/hangul-production.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Content/listening-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Content/production-drill-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Content/production-empty.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Content/production.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Content/pronunciation-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Resources/.content-pcb7fgvn.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Resources/Info.plist",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Resources/PrivacyInfo.xcprivacy",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Resources/content-fixture.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Resources/content.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Resources/ja.lproj/Localizable.strings",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Resources/user-migration-v10.sql",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Resources/user-migration-v2.sql",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Resources/user-migration-v3.sql",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Resources/user-migration-v4.sql",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Resources/user-migration-v5.sql",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Resources/user-migration-v6.sql",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Resources/user-migration-v7.sql",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Resources/user-migration-v8.sql",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Resources/user-migration-v9.sql",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Resources/user-schema-v1.sql",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Tests/Fixtures/content-v1.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Tests/Fixtures/content-v10-production.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Tests/Fixtures/content-v10-repaired-production.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Tests/Fixtures/content-v11-production.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Tests/Fixtures/content-v12-production.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Tests/Fixtures/content-v13-production.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Tests/Fixtures/content-v14-production.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Tests/Fixtures/content-v15-production.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Tests/Fixtures/content-v16-production.json.gz",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Tests/Fixtures/content-v16-production.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Tests/Fixtures/content-v17-production.json.gz",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Tests/Fixtures/content-v17-production.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Tests/Fixtures/content-v18-production.json.gz",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Tests/Fixtures/content-v18-production.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Tests/Fixtures/content-v2-production.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Tests/Fixtures/content-v3-production.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Tests/Fixtures/content-v4-production.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Tests/Fixtures/content-v5-production.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Tests/Fixtures/content-v6-production.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Tests/Fixtures/content-v7-production.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Tests/Fixtures/content-v8-production.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Tests/Fixtures/content-v9-production.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved tracked artifact: Tests/Fixtures/source-v1.json",
+      "status": "PASS"
+    }
+  ],
+  "stages": [
+    {
+      "stage": 1,
+      "content_version": 14,
+      "actual_counts": {
+        "vocabulary": 1376,
+        "meanings": 1457,
+        "examples": 2776,
+        "grammar": 42,
+        "listening_items": 115,
+        "questions": 354
+      },
+      "evidence": "Docs/DATA08_BASELINE.json",
+      "evidence_sha256": "1a2a938b338be912c0938e035f4e79731d1e98a5edd6b4dfa0acc7fefd6e2386"
+    },
+    {
+      "stage": 2,
+      "content_version": 15,
+      "actual_counts": {
+        "vocabulary": 1677,
+        "meanings": 1775,
+        "examples": 3378,
+        "grammar": 42,
+        "listening_items": 115,
+        "questions": 354
+      },
+      "evidence": "Docs/DATA08_A_COUNTS.json",
+      "evidence_sha256": "6c287a7fa8b86efd80627032906b303994499b14d8f6cafe7d59f7f8235d5421"
+    },
+    {
+      "stage": 3,
+      "content_version": 16,
+      "actual_counts": {
+        "vocabulary": 1977,
+        "meanings": 2086,
+        "examples": 3978,
+        "grammar": 42,
+        "listening_items": 115,
+        "questions": 354
+      },
+      "evidence": "Docs/DATA08_B_COUNTS.json",
+      "evidence_sha256": "1507a656669018e8305547c4d8cb43a62f619e6238e2aba78323e8d4eeb9d1c6"
+    },
+    {
+      "stage": 4,
+      "content_version": 17,
+      "actual_counts": {
+        "vocabulary": 2287,
+        "meanings": 2420,
+        "examples": 4597,
+        "grammar": 42,
+        "listening_items": 115,
+        "questions": 354
+      },
+      "evidence": "Docs/DATA08_C_COUNTS.json",
+      "evidence_sha256": "dda63ff71ac9942e3d5651c8798e698931bfc72c4e3836f1f92668687a57cc5c"
+    },
+    {
+      "stage": 5,
+      "content_version": 18,
+      "actual_counts": {
+        "vocabulary": 2287,
+        "meanings": 2420,
+        "examples": 4597,
+        "grammar": 42,
+        "listening_items": 115,
+        "questions": 354
+      },
+      "evidence": "Docs/DATA08_FINAL_COUNTS.json",
+      "evidence_sha256": "6150a7bbb6e8134aa54ae959ec1fae059ba4337f321d782dd08913a36d58e707"
+    },
+    {
+      "stage": 6,
+      "content_version": 19,
+      "actual_counts": {
+        "vocabulary": 2287,
+        "meanings": 2420,
+        "examples": 4597,
+        "grammar": 42,
+        "listening_items": 1936,
+        "questions": 3337
+      },
+      "evidence": "Docs/DATA08_INTEGRATION_COUNTS.json",
+      "evidence_sha256": "03c3b000468f0a43e910d46b1f33c9da0a772b0f0c5b8c28f3534efd53217bfe"
+    },
+    {
+      "stage": 7,
+      "content_version": 19,
+      "actual_counts": {
+        "vocabulary": 2287,
+        "meanings": 2420,
+        "examples": 4597,
+        "grammar": 42,
+        "listening_items": 1936,
+        "questions": 3337
+      },
+      "evidence": "Docs/DATA08_SYSTEM_RESULTS.json",
+      "evidence_sha256": "5bf979ddcaf321de27bb6011b569872935701ee8bb72a807d1b7d589ec41dbb0"
+    }
+  ],
+  "batches": {
+    "A": {
+      "vocabulary": 301,
+      "lexical": 261,
+      "phrases": 40,
+      "new_examples": 602,
+      "pos": {
+        "adjective": 51,
+        "adverb": 40,
+        "verb": 150,
+        "expression": 40,
+        "noun": 20
+      }
+    },
+    "B": {
+      "vocabulary": 300,
+      "lexical": 266,
+      "phrases": 34,
+      "new_examples": 600,
+      "pos": {
+        "verb": 148,
+        "noun": 33,
+        "adverb": 36,
+        "adjective": 49,
+        "expression": 34
+      }
+    },
+    "C": {
+      "vocabulary": 310,
+      "lexical": 280,
+      "phrases": 30,
+      "new_examples": 619,
+      "pos": {
+        "verb": 138,
+        "expression": 30,
+        "noun": 53,
+        "adverb": 44,
+        "adjective": 45
+      }
+    }
+  },
+  "data08": {
+    "vocabulary": 911,
+    "lexical": 807,
+    "phrases": 104,
+    "new_unique_examples": 1821
+  },
+  "production_counts": {
+    "audio_questions": 3,
+    "conjugations": 0,
+    "content_aliases": 0,
+    "content_audio": 36,
+    "content_items": 15428,
+    "content_links": 6047,
+    "content_metadata": 1,
+    "courses": 5,
+    "examples": 4597,
+    "grammar": 42,
+    "grammar_examples": 169,
+    "hangul": 55,
+    "item_sources": 14994,
+    "item_tags": 4507,
+    "learner_notes": 531,
+    "lesson_items": 1137,
+    "lessons": 85,
+    "listening_items": 1936,
+    "meanings": 2420,
+    "media_assets": 0,
+    "pronunciation_examples": 13,
+    "pronunciation_presentations": 36,
+    "pronunciation_rules": 36,
+    "question_choices": 828,
+    "questions": 3337,
+    "sources": 19,
+    "sqlite_stat1": 43,
+    "tags": 97,
+    "vocabulary": 2287,
+    "vocabulary_examples": 4514,
+    "vocabulary_search": 4707
+  },
+  "by_level": {
+    "hangul": {
+      "vocabulary": 0,
+      "meanings": 0,
+      "examples": 0,
+      "grammar": 0,
+      "listening_items": 0,
+      "questions": 59,
+      "courses": 1,
+      "lessons": 12,
+      "sentence_examples": 0
+    },
+    "intro": {
+      "vocabulary": 306,
+      "meanings": 327,
+      "examples": 659,
+      "grammar": 22,
+      "listening_items": 34,
+      "questions": 156,
+      "courses": 2,
+      "lessons": 20,
+      "sentence_examples": 646
+    },
+    "beginner": {
+      "vocabulary": 800,
+      "meanings": 847,
+      "examples": 1577,
+      "grammar": 20,
+      "listening_items": 79,
+      "questions": 134,
+      "courses": 1,
+      "lessons": 6,
+      "sentence_examples": 1577
+    },
+    "lower_intermediate": {
+      "vocabulary": 1181,
+      "meanings": 1246,
+      "examples": 2361,
+      "grammar": 0,
+      "listening_items": 1823,
+      "questions": 2988,
+      "courses": 1,
+      "lessons": 47,
+      "sentence_examples": 2361
+    },
+    "intermediate": {
+      "vocabulary": 0,
+      "meanings": 0,
+      "examples": 0,
+      "grammar": 0,
+      "listening_items": 0,
+      "questions": 0,
+      "courses": 0,
+      "lessons": 0,
+      "sentence_examples": 0
+    },
+    "upper_intermediate": {
+      "vocabulary": 0,
+      "meanings": 0,
+      "examples": 0,
+      "grammar": 0,
+      "listening_items": 0,
+      "questions": 0,
+      "courses": 0,
+      "lessons": 0,
+      "sentence_examples": 0
+    },
+    "advanced": {
+      "vocabulary": 0,
+      "meanings": 0,
+      "examples": 0,
+      "grammar": 0,
+      "listening_items": 0,
+      "questions": 0,
+      "courses": 0,
+      "lessons": 0,
+      "sentence_examples": 0
+    },
+    "master": {
+      "vocabulary": 0,
+      "meanings": 0,
+      "examples": 0,
+      "grammar": 0,
+      "listening_items": 0,
+      "questions": 0,
+      "courses": 0,
+      "lessons": 0,
+      "sentence_examples": 0
+    },
+    "maintenance": {
+      "vocabulary": 0,
+      "meanings": 0,
+      "examples": 0,
+      "grammar": 0,
+      "listening_items": 0,
+      "questions": 0,
+      "courses": 0,
+      "lessons": 0,
+      "sentence_examples": 0
+    }
+  },
+  "git_sizes": {
+    "reachable_blob_count": 588,
+    "over_50_MiB": [],
+    "over_100_MiB": [],
+    "largest": [
+      {
+        "oid": "112e8814b7cecc1720651d6825eac941d1a322a8",
+        "bytes": 17932288,
+        "path": "Resources/content.sqlite"
+      },
+      {
+        "oid": "c21af94202bb7f2b10fbd8939e408f0ed7b1b868",
+        "bytes": 16638955,
+        "path": "Content/production.json"
+      },
+      {
+        "oid": "3230db60176e2f5a67eaf0991ae86eb08d810681",
+        "bytes": 11685888,
+        "path": "Tests/Fixtures/content-v18-production.sqlite"
+      },
+      {
+        "oid": "c1de4dcdbea2b18ef0f4d15350684e47e5b3df9a",
+        "bytes": 11677696,
+        "path": "Tests/Fixtures/content-v17-production.sqlite"
+      },
+      {
+        "oid": "a64daa3cd6c62a066dd002054a6a5debf5968a7a",
+        "bytes": 10405582,
+        "path": "Content/production.json"
+      },
+      {
+        "oid": "7b803debaa2f85082b6c77f8bea9dad131fd1100",
+        "bytes": 10405085,
+        "path": "Content/production.json"
+      },
+      {
+        "oid": "1d546a1ab5a4f8850690e6dd8daf9202274be4bd",
+        "bytes": 10072064,
+        "path": "Tests/Fixtures/content-v16-production.sqlite"
+      },
+      {
+        "oid": "2e589e47985c5de8483c7e648291185179f0770b",
+        "bytes": 9012275,
+        "path": "Content/production.json"
+      },
+      {
+        "oid": "e65eb369ab2b7f1cf290e33841e3d1000e37dc6d",
+        "bytes": 8736768,
+        "path": "Tests/Fixtures/content-v15-production.sqlite"
+      },
+      {
+        "oid": "18b8a55a4efc0bff16b7fe5a48bf66bd93a576e3",
+        "bytes": 7740613,
+        "path": "Content/production.json"
+      },
+      {
+        "oid": "2a5c6ce08dd761a47dc1b317f541b4fcf33de3d2",
+        "bytes": 7426048,
+        "path": "Resources/.content-pcb7fgvn.sqlite"
+      },
+      {
+        "oid": "6a29043fd6be4edf96959da85b86ec544f5e98e5",
+        "bytes": 7426048,
+        "path": "Tests/Fixtures/content-v14-production.sqlite"
+      }
+    ]
+  },
+  "preserved_artifacts": [
+    {
+      "path": "Content/ContentPackageValidator.swift",
+      "bytes": 1240,
+      "sha256": "25feabdeb546adb0c7d10063c3d6800a700a9056f9a864bd4c59c413a030ca0b"
+    },
+    {
+      "path": "Content/content-schema-v1.sql",
+      "bytes": 5581,
+      "sha256": "524f4a72f8039ddcfedee75cae0ed9c92e49620cf8bebe57f909b70a5aecc839"
+    },
+    {
+      "path": "Content/content-schema-v2.sql",
+      "bytes": 8169,
+      "sha256": "91db6a316dc6c67b5f4dd67970184872d5c985dd07dd59ba3cfd17dc90fadcf7"
+    },
+    {
+      "path": "Content/content-schema-v3.sql",
+      "bytes": 9172,
+      "sha256": "0fbc1c202d8b63c2d64932d7c582731896b7a177e908d55ede7b52f2680f9749"
+    },
+    {
+      "path": "Content/content-schema-v4.sql",
+      "bytes": 9803,
+      "sha256": "1baf27e22565000820598a5fa0a594b6631c77a321811284d41bae89d144413a"
+    },
+    {
+      "path": "Content/data01-ids.json",
+      "bytes": 154396,
+      "sha256": "6ad548ced0f314903b31ef2afdef7b6561311b7690930e228e5278ff9c8b1685"
+    },
+    {
+      "path": "Content/data02-ids.json",
+      "bytes": 123864,
+      "sha256": "b04cbddd1c9b58b46edaa8ec3be015f4d45509d759aff9e535a96522796b91f8"
+    },
+    {
+      "path": "Content/data03-ids.json",
+      "bytes": 128873,
+      "sha256": "31e78f406f52dc0a8424e760c62b54af6bed7929ce3ace0eaabe8510a1b9539a"
+    },
+    {
+      "path": "Content/data04-ids.json",
+      "bytes": 15512,
+      "sha256": "642d4868dee9f421c3e56f883d1c3f724d76ed07fdd6b3e1235fb471a24fe6e2"
+    },
+    {
+      "path": "Content/data04-revised-ids.json",
+      "bytes": 549,
+      "sha256": "3fcccb6e94da85dd12c3d79748f3c89eb4f04af645e3dc2562e2499193e097a8"
+    },
+    {
+      "path": "Content/data05-ids.json",
+      "bytes": 91078,
+      "sha256": "fe2156cfb55db3df5c1b95577c196a2eaa77117edb0ccd1d82a89cd4913759e7"
+    },
+    {
+      "path": "Content/data05-revised-ids.json",
+      "bytes": 339,
+      "sha256": "b0922e17d5b84831739e100defbb6da6b132a72af6ea700028bd0672f256c596"
+    },
+    {
+      "path": "Content/data06-ids.json",
+      "bytes": 20579,
+      "sha256": "bacbc2639a90f31ca0e831fd291f8826188fb6de9f18584617b5391fee48a0ab"
+    },
+    {
+      "path": "Content/data06-revised-ids.json",
+      "bytes": 3363,
+      "sha256": "231b4c575915bc82157b438b9cd7fb77a68c7c4c561c2a32e9fe3185194506c7"
+    },
+    {
+      "path": "Content/data07-ids.json",
+      "bytes": 248229,
+      "sha256": "b655e8be09e7319e7a1472f9123efb038ef7a212e31ed4afe5c8ee94c87a18f5"
+    },
+    {
+      "path": "Content/data07-revised-ids.json",
+      "bytes": 1263,
+      "sha256": "ac5d63f3703ff685ad123174c1d3c35bd3f3e8ba8eb454851a25acf8f20d18d0"
+    },
+    {
+      "path": "Content/data08-a-ids.json",
+      "bytes": 175529,
+      "sha256": "15d0f5fb32fb42d76fcf308cc065d6b158ee73bbc2877440c4f73ff461f3e775"
+    },
+    {
+      "path": "Content/data08-a-revised-ids.json",
+      "bytes": 969,
+      "sha256": "0916fc96729b25cea1156dad64721e3b3303dabc82b7e79713687407600104f7"
+    },
+    {
+      "path": "Content/data08-b-ids.json",
+      "bytes": 196760,
+      "sha256": "cae3935d5c3287314d5343a2399a9b34d8ef200e25033a4c3cafc7dc8a9fd566"
+    },
+    {
+      "path": "Content/data08-b-revised-ids.json",
+      "bytes": 1179,
+      "sha256": "77836fb0bbff7e46e39e75d4ef286ff12ba13d36c1e134a96d53029a3b00540c"
+    },
+    {
+      "path": "Content/data08-c-ids.json",
+      "bytes": 241593,
+      "sha256": "26892e43bffa172328ccb5f603a1e4d59820144187b93a8f8085ba912cf396a4"
+    },
+    {
+      "path": "Content/data08-c-revised-ids.json",
+      "bytes": 1935,
+      "sha256": "9287793b45d03fd8b4475a061ea3ec72357e5de5fb3d2c940f0ea3bf7467eed6"
+    },
+    {
+      "path": "Content/data08-final-revised-ids.json",
+      "bytes": 1683,
+      "sha256": "24387ce198033dc6e8587ab3a51edff3bf96c90dd4d512e885ca0c29f8108f2d"
+    },
+    {
+      "path": "Content/data08-integration-ids.json",
+      "bytes": 782159,
+      "sha256": "a50f840478f2a0d82ff5af640aca075ef3240c3dbe85821ff714db9542f85f3a"
+    },
+    {
+      "path": "Content/data08-integration-revised-ids.json",
+      "bytes": 114789,
+      "sha256": "f9a57937b3efe2f0ffb4d313646531e677e83d999dc92f80561bc0cc62c4cbe2"
+    },
+    {
+      "path": "Content/dev08-revised-ids.json",
+      "bytes": 969,
+      "sha256": "342225bd3572c18f4b8197a282ccfa53a5d8dab7a7fed807c889393a8e365ce9"
+    },
+    {
+      "path": "Content/dev09-revised-ids.json",
+      "bytes": 1011,
+      "sha256": "c74a95409f0fbb2c5b1947d74bd0fd15722e7fc6de8ffc1c3db2a6fae80b3750"
+    },
+    {
+      "path": "Content/fixture.json",
+      "bytes": 5441,
+      "sha256": "9a7924a97ebcaf8e2da6137454b11bf6fe4373a5f77afd91393fb1ac87cfa275"
+    },
+    {
+      "path": "Content/grammar-seed-ids.json",
+      "bytes": 4115,
+      "sha256": "9fff248f94b4066f434e509a6f54744334ee9d6350a37517c114f5128db1950d"
+    },
+    {
+      "path": "Content/hangul-ids.json",
+      "bytes": 7793,
+      "sha256": "99f365d2b4d18d5e4af1c08dcd4c6cfa813f513dd8f0629bfa3a7920b3910f8f"
+    },
+    {
+      "path": "Content/hangul-production.json",
+      "bytes": 154931,
+      "sha256": "5775ba1b72c0fb5dc3cecef0040c4b6acd5879a5d65880aa47c6773ef50d09c7"
+    },
+    {
+      "path": "Content/listening-ids.json",
+      "bytes": 1011,
+      "sha256": "7a400aaed71ad995aa0dae171d14b2748d6681cdced05a5896588d83ee3bbf84"
+    },
+    {
+      "path": "Content/production-drill-ids.json",
+      "bytes": 2061,
+      "sha256": "ba02c86fef6a145b549f98e4a9fb08590b687ea5b4040c57dde8063bd43ec900"
+    },
+    {
+      "path": "Content/production-empty.json",
+      "bytes": 226,
+      "sha256": "fdadf8cf0a5c0af3cca4de10ca3d06b05811eac5173142234a9999d9e1768703"
+    },
+    {
+      "path": "Content/production.json",
+      "bytes": 16638955,
+      "sha256": "f97b3bd70d07a3945770b8d6940c4a53e29a9b70b565caf21fb927230c08b4a8"
+    },
+    {
+      "path": "Content/pronunciation-ids.json",
+      "bytes": 5846,
+      "sha256": "2412bab433608c207101e7bd7f69eaa2af138ba1b297283885e98cabee247bf5"
+    },
+    {
+      "path": "Resources/.content-pcb7fgvn.sqlite",
+      "bytes": 7426048,
+      "sha256": "764a6d38259f37fdcb2ee26070fd33a8f005e88eb844dc8eee8e227b16923a6d"
+    },
+    {
+      "path": "Resources/Info.plist",
+      "bytes": 6672,
+      "sha256": "d84af086fe7f0ee19ac91df9bac7656dcd0477f6f3ee273ed8e3976226506ca3"
+    },
+    {
+      "path": "Resources/PrivacyInfo.xcprivacy",
+      "bytes": 816,
+      "sha256": "f953ba99994eddf8fe1c7d1723ca44a2da3df5ac96b05f09f375fa3d76f465cc"
+    },
+    {
+      "path": "Resources/content-fixture.sqlite",
+      "bytes": 290816,
+      "sha256": "c25941cafc110010e93a9bebe471e0f2b5787d902be68368872fc23e88090a0b"
+    },
+    {
+      "path": "Resources/content.sqlite",
+      "bytes": 17932288,
+      "sha256": "57aeaf918d5eaaec3bbfaed02f87c5452cca8264540b923a70448b781adbe9e5"
+    },
+    {
+      "path": "Resources/ja.lproj/Localizable.strings",
+      "bytes": 283,
+      "sha256": "8923a1e2215af51aea4cbf82ca8ed72de2ce6be2be0c01aa64cb5da09b78a167"
+    },
+    {
+      "path": "Resources/user-migration-v10.sql",
+      "bytes": 337,
+      "sha256": "d9b5a4ca24d15953488600704e52da456115a099e2469e689b749ee5df3c492b"
+    },
+    {
+      "path": "Resources/user-migration-v2.sql",
+      "bytes": 386,
+      "sha256": "3f3360c0811d1fc00876f26aa45b52a58626eddbee034f2999c553bc3f3cc10f"
+    },
+    {
+      "path": "Resources/user-migration-v3.sql",
+      "bytes": 1295,
+      "sha256": "1d785636d52c46ce1ce0c35dc8593d83047281e7f5a124954733beca7665e12a"
+    },
+    {
+      "path": "Resources/user-migration-v4.sql",
+      "bytes": 1762,
+      "sha256": "bd84209415ac94cff7f12efc485682b6f9485f5c54dbcc47dd788dd99f435b1c"
+    },
+    {
+      "path": "Resources/user-migration-v5.sql",
+      "bytes": 1592,
+      "sha256": "9321d5f4c83c0955c90539d3e3a468e846b795bf213831cf90a32b58b324f528"
+    },
+    {
+      "path": "Resources/user-migration-v6.sql",
+      "bytes": 944,
+      "sha256": "123bc45faf7a474e1082c612cece86b9de2e1d7723e7566fdc1488ea18e962c2"
+    },
+    {
+      "path": "Resources/user-migration-v7.sql",
+      "bytes": 290,
+      "sha256": "032714a875c128f87657377d845371ae1d1860d6aadfed71ec5220e79d0523e9"
+    },
+    {
+      "path": "Resources/user-migration-v8.sql",
+      "bytes": 1140,
+      "sha256": "97d45df22186192c8e1f42e7e1d4d490ce6736c9f38fbef8b609faa9e942db4e"
+    },
+    {
+      "path": "Resources/user-migration-v9.sql",
+      "bytes": 605,
+      "sha256": "62d8c0062da3161789540612d9bf4655eb3099be350e1849926cd1d41432536a"
+    },
+    {
+      "path": "Resources/user-schema-v1.sql",
+      "bytes": 2634,
+      "sha256": "659998190192d6c4741041eea0e1822bc898d86ff97d6cb80b0ff89874baf7c4"
+    },
+    {
+      "path": "Tests/Fixtures/content-v1.sqlite",
+      "bytes": 237568,
+      "sha256": "c94e449f65101f76356207637a131a4e0f74c78837f40ac2d543be6de893a122"
+    },
+    {
+      "path": "Tests/Fixtures/content-v10-production.sqlite",
+      "bytes": 4366336,
+      "sha256": "9c584bd0f7b4b213a1b8120fed77fe6b1ad0d3a08e5649f07ee067973351d8d0"
+    },
+    {
+      "path": "Tests/Fixtures/content-v10-repaired-production.sqlite",
+      "bytes": 4366336,
+      "sha256": "9723ef633343ec8cc83c68f85deb30dff36b03206b5a4435a3e159dbb9a7a9c6"
+    },
+    {
+      "path": "Tests/Fixtures/content-v11-production.sqlite",
+      "bytes": 4603904,
+      "sha256": "2cc1dcb0cde3f12deabcdc349fc18e0239c90c14405826d054d1f1eecfe47c51"
+    },
+    {
+      "path": "Tests/Fixtures/content-v12-production.sqlite",
+      "bytes": 5332992,
+      "sha256": "061bbf97d84f6c8e53e332b0a3eb3c197784ab38094041c459f2540818017ed2"
+    },
+    {
+      "path": "Tests/Fixtures/content-v13-production.sqlite",
+      "bytes": 5558272,
+      "sha256": "0b36d3da9f39f2784ca5fd54ce0842458323e6bd81ed212b745c3d9e381969f7"
+    },
+    {
+      "path": "Tests/Fixtures/content-v14-production.sqlite",
+      "bytes": 7426048,
+      "sha256": "9293e75ee0161f8fa7688d6ea500f314c8d93fc3f6c9e0284bbf43afec622ac5"
+    },
+    {
+      "path": "Tests/Fixtures/content-v15-production.sqlite",
+      "bytes": 8736768,
+      "sha256": "b4459a400dae7e7b5572688db928a7b550d865f9cf1b3dfd8cd22a86d5d6f75d"
+    },
+    {
+      "path": "Tests/Fixtures/content-v16-production.json.gz",
+      "bytes": 1280583,
+      "sha256": "34a1c7c381f1a21ed929e42fe198cc1f5684ab09381e53d1dfff91a073168636"
+    },
+    {
+      "path": "Tests/Fixtures/content-v16-production.sqlite",
+      "bytes": 10072064,
+      "sha256": "112d3662f79a72ca61ad7140a5d937396c0bc9f71180dd5f35a403a040a91f29"
+    },
+    {
+      "path": "Tests/Fixtures/content-v17-production.json.gz",
+      "bytes": 1490580,
+      "sha256": "3c57b04e4e67877f5ac14dde03e3f39cca7dc05e6d04ebfbff37038ac5a4702c"
+    },
+    {
+      "path": "Tests/Fixtures/content-v17-production.sqlite",
+      "bytes": 11677696,
+      "sha256": "836dec2fac50508a177010dbf8f83a74a9e4660c8c42c1f08a75bd9207f286c6"
+    },
+    {
+      "path": "Tests/Fixtures/content-v18-production.json.gz",
+      "bytes": 1491183,
+      "sha256": "ebb6ada94564ee7dcabce4e1eacb9bb94f6d5f51147f026e9e1b5e0084b41d98"
+    },
+    {
+      "path": "Tests/Fixtures/content-v18-production.sqlite",
+      "bytes": 11685888,
+      "sha256": "3235c21699bb297a4447f0ce2068a2e949db136a2c4e08ca70d7a737a07308e3"
+    },
+    {
+      "path": "Tests/Fixtures/content-v2-production.sqlite",
+      "bytes": 290816,
+      "sha256": "5e8d4e5c57329ce329bb8c5d8da42ffa21c3bd30da297331fb6a73a96d7565a0"
+    },
+    {
+      "path": "Tests/Fixtures/content-v3-production.sqlite",
+      "bytes": 450560,
+      "sha256": "c0396985debf7545e19e5ee0cad942f9649856a7055bcdf9e3d02a2e52cd3f2a"
+    },
+    {
+      "path": "Tests/Fixtures/content-v4-production.sqlite",
+      "bytes": 602112,
+      "sha256": "5ca932b0bc36d9cbafc9bb923fed9d67b0eb39fe80f635fc6632a59d7924a515"
+    },
+    {
+      "path": "Tests/Fixtures/content-v5-production.sqlite",
+      "bytes": 1728512,
+      "sha256": "90b962bde235b0c21fdc4b608d5c0fb3190dae3b6b03deaa6913deae55d54e42"
+    },
+    {
+      "path": "Tests/Fixtures/content-v6-production.sqlite",
+      "bytes": 2965504,
+      "sha256": "8ae761833ebc7b71387795716e11c599ab6b52c1042f4a135ef4129b8126d913"
+    },
+    {
+      "path": "Tests/Fixtures/content-v7-production.sqlite",
+      "bytes": 4141056,
+      "sha256": "01aa1204e42ef8fe145aa7cc2275c07810e4f6587749a2be498a06a2e69fe1b2"
+    },
+    {
+      "path": "Tests/Fixtures/content-v8-production.sqlite",
+      "bytes": 4222976,
+      "sha256": "a08fd61a32540a2e713b59b1a6c40a70668dd7aee47c840658dff36a99ccfee5"
+    },
+    {
+      "path": "Tests/Fixtures/content-v9-production.sqlite",
+      "bytes": 4292608,
+      "sha256": "0254c48c50847445808386e315a5b8ef6ab1049399b1fb125e1192cc62922745"
+    },
+    {
+      "path": "Tests/Fixtures/source-v1.json",
+      "bytes": 5439,
+      "sha256": "f58e81df24b22f52c9ca339e3589d2df11c843fe2404fd7e3eaeefda95be6827"
+    }
+  ],
+  "routing_coverage": {
+    "vocabulary_cards": 2287,
+    "meaning_examples": 2420,
+    "reachable_examples": 4597,
+    "unreachable_examples": 0,
+    "published_production_guard_checked": 1227,
+    "typed_dictionary": 2329,
+    "generic_courses": 3,
+    "generic_lessons": 73,
+    "generic_steps_by_kind": {
+      "note": 3,
+      "question": 90,
+      "hangul": 55,
+      "pronunciation": 36,
+      "vocabulary": 911
+    },
+    "grammar_lessons": 12,
+    "grammar_cards": 42,
+    "production_entries": 612,
+    "production_questions": 1227,
+    "listening_items": 1936,
+    "listening_questions": 1936,
+    "listening_batches": 104,
+    "routed_questions": 3337,
+    "unrouted_questions": 0,
+    "korean_headword_queries": 2287,
+    "japanese_meaning_queries": 72,
+    "data08_current_editorial_payload_hash_matches": 911,
+    "data08_sentence_first_meaning_matches": 581
+  },
+  "native": {
+    "status": "BLOCKED",
+    "definitions": 137,
+    "executed": 0
+  },
+  "independent_human_review": {
+    "status": "NOT TESTED",
+    "executed": 0
+  },
+  "limitation": "Read-only SQL/structural and archive checks; not Swift/iOS execution or linguistic certification."
+}

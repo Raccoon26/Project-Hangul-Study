@@ -1,3 +1,18 @@
+# 현재 Production 재현 — DATA-08-8
+
+Python3.10+ 표준 라이브러리만 사용한다. 현재 원본은 `Content/production.json`, Content19/Schema4/reader7이며 아래 DATA01 계약은 당시 이력이다. 프로젝트 루트에서 candidate를 `/tmp`에 만들고 기존 source/번들/fixture를 덮어쓰지 않는다.
+
+```sh
+python3 Tools/ContentBuilder/build_content.py Content/production.json /tmp/data08-8-rebuilt.sqlite --production --previous Tests/Fixtures/content-v18-production.sqlite --report /tmp/data08-8-build.json
+python3 Tools/ContentBuilder/audit_data08_system.py --report /tmp/data08-8-system-audit.json
+python3 Tools/ContentBuilder/audit_data08_closeout.py --rebuilt /tmp/data08-8-rebuilt.sqlite --build-report /tmp/data08-8-build.json --system-audit /tmp/data08-8-system-audit.json --report /tmp/data08-8-closeout.json
+sh Tools/verify.sh --portable
+```
+
+현재19의 재현은18을 previous로 사용했다. 다음 실제 콘텐츠 변경에는 현재19를 보존한 DB를 previous로 사용한다. canonical JSON/DDL/고정ID와 과거 fixture를 보존하며, 재생성 가능한 번들 DB도 현 Xcode 배포 계약상 추적한다. 현재 최대Git blob17.9MB로 LFS는 필요 없다. 전체 byte/schema/row 일치 근거·native 미실행 상태는 [최종 보고](../../Docs/DATA08_CLOSEOUT.md)에 있다.
+
+---
+
 # Content Builder / Importer — DATA-01
 
 전체 제작 계약은 프로젝트 루트의 **CONTENT_GUIDE.md**를 읽습니다. Python 3.10 이상, 외부 패키지 불필요입니다.

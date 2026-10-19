@@ -10,3 +10,10 @@ TestResults.xcresult/
 benchmark-output/
 synthetic-output/
 *.backup
+
+# Generated staging/build outputs only; keep Production source, bundle and fixtures.
+/Resources/.content-*.sqlite*
+*.sqlite-wal
+*.sqlite-shm
+*.xcresult/
+*.xcarchive/
