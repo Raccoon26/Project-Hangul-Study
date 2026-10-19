@@ -1,0 +1,2 @@
+Swift syntax only: 62 files; errors=[]
+Not a Swift type-check, Xcode build or XCTest run.

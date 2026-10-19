@@ -1,0 +1,6 @@
+Swift grammar: 25 files, zero error nodes (not typechecking)
+Generated project: 23 app Swift files, 2 test files
+PBX project: deterministic, all source/resource references and target phases exist
+Info.plist, shared scheme and workspace XML parse
+Exact Xcode content copy shell phase: Debug and Release both production content v3
+No Swift compiler / Xcode available: compile, link, XCTest and UI run NOT performed

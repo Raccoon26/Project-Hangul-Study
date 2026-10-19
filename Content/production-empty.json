@@ -1,0 +1,12 @@
+{
+  "metadata": {
+    "schema_version": 2,
+    "content_version": 2,
+    "min_reader_version": 2,
+    "dataset_id": "ko-ja-core",
+    "is_fixture": 0,
+    "source_locale": "ja",
+    "target_locale": "ko"
+  },
+  "tables": {}
+}

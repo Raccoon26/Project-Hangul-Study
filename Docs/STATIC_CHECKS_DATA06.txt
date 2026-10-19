@@ -1,0 +1,7 @@
+Swift syntax inspection (tree-sitter), not compiler/type-check
+Files: 62
+Syntax errors: 0
+XCTest methods authored: 84
+XCTest executed: NO
+swift: None
+xcodebuild: None

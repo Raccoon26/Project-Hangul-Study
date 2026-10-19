@@ -1,0 +1,6 @@
+{
+  "tool": "tree-sitter-swift",
+  "files": 89,
+  "syntax_error_files": [],
+  "limitation": "Syntax parsing only. No Swift type checking, iOS SDK linking, XCTest execution or Release build."
+}

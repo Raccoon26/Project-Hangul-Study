@@ -1,0 +1,19 @@
+test_ads_are_after_committed_action_and_have_one_learning_callsite (test_dev13_integration.Dev13IntegrationTests.test_ads_are_after_committed_action_and_have_one_learning_callsite) ... ok
+test_continue_uses_latest_activity_and_2001_json_epoch (test_dev13_integration.Dev13IntegrationTests.test_continue_uses_latest_activity_and_2001_json_epoch) ... ok
+test_info_uses_configuration_and_manifest_bundled (test_dev13_integration.Dev13IntegrationTests.test_info_uses_configuration_and_manifest_bundled) ... ok
+test_legacy_production_resume_uses_events_without_rewriting_progress (test_dev13_integration.Dev13IntegrationTests.test_legacy_production_resume_uses_events_without_rewriting_progress) ... ok
+test_no_learning_paywall_or_sdk_calls_in_learning_repositories (test_dev13_integration.Dev13IntegrationTests.test_no_learning_paywall_or_sdk_calls_in_learning_repositories) ... ok
+test_release_checker_rejects_test_ids_and_missing_required_ids (test_dev13_integration.Dev13IntegrationTests.test_release_checker_rejects_test_ids_and_missing_required_ids) ... ok
+test_release_has_no_ad_ids_and_debug_uses_official_test_ids (test_dev13_integration.Dev13IntegrationTests.test_release_has_no_ad_ids_and_debug_uses_official_test_ids) ... ok
+test_storekit_configuration_matches_nonconsumable_and_opt_in_scheme (test_dev13_integration.Dev13IntegrationTests.test_storekit_configuration_matches_nonconsumable_and_opt_in_scheme) ... ok
+test_all_production_membership_paged_by_level_without_orphans (test_curriculum_sql.CurriculumSQLTests.test_all_production_membership_paged_by_level_without_orphans) ... ok
+test_completion_not_exposure_skip_or_mastery (test_curriculum_sql.CurriculumSQLTests.test_completion_not_exposure_skip_or_mastery) ... ok
+test_continue_routes_cover_modules_and_completed_sessions_drop_out (test_curriculum_sql.CurriculumSQLTests.test_continue_routes_cover_modules_and_completed_sessions_drop_out) ... ok
+test_curriculum_production_filter_uses_real_active_question_targets (test_curriculum_sql.CurriculumSQLTests.test_curriculum_production_filter_uses_real_active_question_targets) ... ok
+test_listening_completion_waits_for_full_session_and_deduplicates_repeats (test_curriculum_sql.CurriculumSQLTests.test_listening_completion_waits_for_full_session_and_deduplicates_repeats) ... ok
+test_profile_skip_replacement_and_diagnostic_never_mutate_learning_tables (test_curriculum_sql.CurriculumSQLTests.test_profile_skip_replacement_and_diagnostic_never_mutate_learning_tables) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.047s
+
+OK

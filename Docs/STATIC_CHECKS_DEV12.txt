@@ -1,0 +1,6 @@
+Swift syntax: 80 files, errors: []
+Xcode source/resource missing paths: []
+Native XCTest methods authored: 104; executed: 0
+Swift compiler available: None
+Xcode available: None
+Info plist parsed successfully.

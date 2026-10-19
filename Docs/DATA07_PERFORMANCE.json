@@ -1,0 +1,309 @@
+{
+  "environment": "Linux sqlite3; warm connection; 30 repetitions; no iOS launch/UI measurement",
+  "before": {
+    "korean_search": {
+      "median_ms": 0.2195,
+      "p95_ms": 0.2592,
+      "rows": 1,
+      "plan": [
+        "CO-ROUTINE matches",
+        "CO-ROUTINE terms",
+        "COMPOUND QUERY",
+        "LEFT-MOST SUBQUERY",
+        "SCAN v",
+        "UNION ALL",
+        "SCAN m",
+        "SEARCH mi USING INDEX sqlite_autoindex_content_items_1 (id=?)",
+        "UNION ALL",
+        "SCAN grammar",
+        "UNION ALL",
+        "SCAN grammar",
+        "UNION ALL",
+        "SCAN grammar",
+        "SCAN t",
+        "SEARCH ci USING INDEX sqlite_autoindex_content_items_1 (id=?)",
+        "USE TEMP B-TREE FOR GROUP BY",
+        "SCAN m",
+        "SEARCH i USING INDEX sqlite_autoindex_content_items_1 (id=?)",
+        "SEARCH v USING INDEX sqlite_autoindex_vocabulary_1 (id=?) LEFT-JOIN",
+        "SEARCH g USING INDEX sqlite_autoindex_grammar_1 (id=?) LEFT-JOIN",
+        "USE TEMP B-TREE FOR ORDER BY"
+      ]
+    },
+    "japanese_search": {
+      "median_ms": 0.2279,
+      "p95_ms": 0.3129,
+      "rows": 2,
+      "plan": [
+        "CO-ROUTINE matches",
+        "CO-ROUTINE terms",
+        "COMPOUND QUERY",
+        "LEFT-MOST SUBQUERY",
+        "SCAN v",
+        "UNION ALL",
+        "SCAN m",
+        "SEARCH mi USING INDEX sqlite_autoindex_content_items_1 (id=?)",
+        "UNION ALL",
+        "SCAN grammar",
+        "UNION ALL",
+        "SCAN grammar",
+        "UNION ALL",
+        "SCAN grammar",
+        "SCAN t",
+        "SEARCH ci USING INDEX sqlite_autoindex_content_items_1 (id=?)",
+        "USE TEMP B-TREE FOR GROUP BY",
+        "SCAN m",
+        "SEARCH i USING INDEX sqlite_autoindex_content_items_1 (id=?)",
+        "SEARCH v USING INDEX sqlite_autoindex_vocabulary_1 (id=?) LEFT-JOIN",
+        "SEARCH g USING INDEX sqlite_autoindex_grammar_1 (id=?) LEFT-JOIN",
+        "USE TEMP B-TREE FOR ORDER BY"
+      ]
+    },
+    "broad_search": {
+      "median_ms": 0.8992,
+      "p95_ms": 1.0551,
+      "rows": 30,
+      "plan": [
+        "CO-ROUTINE matches",
+        "CO-ROUTINE terms",
+        "COMPOUND QUERY",
+        "LEFT-MOST SUBQUERY",
+        "SCAN v",
+        "UNION ALL",
+        "SCAN m",
+        "SEARCH mi USING INDEX sqlite_autoindex_content_items_1 (id=?)",
+        "UNION ALL",
+        "SCAN grammar",
+        "UNION ALL",
+        "SCAN grammar",
+        "UNION ALL",
+        "SCAN grammar",
+        "SCAN t",
+        "SEARCH ci USING INDEX sqlite_autoindex_content_items_1 (id=?)",
+        "USE TEMP B-TREE FOR GROUP BY",
+        "SCAN m",
+        "SEARCH i USING INDEX sqlite_autoindex_content_items_1 (id=?)",
+        "SEARCH v USING INDEX sqlite_autoindex_vocabulary_1 (id=?) LEFT-JOIN",
+        "SEARCH g USING INDEX sqlite_autoindex_grammar_1 (id=?) LEFT-JOIN",
+        "USE TEMP B-TREE FOR ORDER BY"
+      ]
+    },
+    "no_match": {
+      "median_ms": 0.2123,
+      "p95_ms": 0.2928,
+      "rows": 0,
+      "plan": [
+        "CO-ROUTINE matches",
+        "CO-ROUTINE terms",
+        "COMPOUND QUERY",
+        "LEFT-MOST SUBQUERY",
+        "SCAN v",
+        "UNION ALL",
+        "SCAN m",
+        "SEARCH mi USING INDEX sqlite_autoindex_content_items_1 (id=?)",
+        "UNION ALL",
+        "SCAN grammar",
+        "UNION ALL",
+        "SCAN grammar",
+        "UNION ALL",
+        "SCAN grammar",
+        "SCAN t",
+        "SEARCH ci USING INDEX sqlite_autoindex_content_items_1 (id=?)",
+        "USE TEMP B-TREE FOR GROUP BY",
+        "SCAN m",
+        "SEARCH i USING INDEX sqlite_autoindex_content_items_1 (id=?)",
+        "SEARCH v USING INDEX sqlite_autoindex_vocabulary_1 (id=?) LEFT-JOIN",
+        "SEARCH g USING INDEX sqlite_autoindex_grammar_1 (id=?) LEFT-JOIN",
+        "USE TEMP B-TREE FOR ORDER BY"
+      ]
+    },
+    "set_first20": {
+      "median_ms": 0.0805,
+      "p95_ms": 0.2004,
+      "rows": 20,
+      "plan": [
+        "SCAN v USING INDEX idx_vocabulary_sort",
+        "SEARCH i USING INDEX sqlite_autoindex_content_items_1 (id=?)",
+        "CORRELATED SCALAR SUBQUERY 1",
+        "SEARCH m USING INDEX sqlite_autoindex_meanings_2 (vocabulary_id=?)",
+        "SEARCH mi USING INDEX sqlite_autoindex_content_items_1 (id=?)"
+      ]
+    },
+    "card": {
+      "median_ms": 0.0044,
+      "p95_ms": 0.0209,
+      "rows": 1,
+      "plan": [
+        "SEARCH i USING INDEX sqlite_autoindex_content_items_1 (id=?)",
+        "SEARCH v USING INDEX sqlite_autoindex_vocabulary_1 (id=?)"
+      ]
+    },
+    "examples": {
+      "median_ms": 0.0092,
+      "p95_ms": 0.0156,
+      "rows": 2,
+      "plan": [
+        "SEARCH m USING INDEX sqlite_autoindex_meanings_2 (vocabulary_id=?)",
+        "SEARCH mi USING INDEX sqlite_autoindex_content_items_1 (id=?)",
+        "SEARCH ve USING COVERING INDEX sqlite_autoindex_vocabulary_examples_1 (meaning_id=?)",
+        "SEARCH e USING INDEX sqlite_autoindex_examples_1 (id=?)",
+        "SEARCH i USING INDEX sqlite_autoindex_content_items_1 (id=?)",
+        "USE TEMP B-TREE FOR DISTINCT",
+        "USE TEMP B-TREE FOR ORDER BY"
+      ]
+    }
+  },
+  "after": {
+    "korean_search": {
+      "median_ms": 0.314,
+      "p95_ms": 0.5627,
+      "rows": 1,
+      "plan": [
+        "CO-ROUTINE matches",
+        "CO-ROUTINE terms",
+        "COMPOUND QUERY",
+        "LEFT-MOST SUBQUERY",
+        "SCAN v",
+        "UNION ALL",
+        "SCAN m",
+        "SEARCH mi USING INDEX sqlite_autoindex_content_items_1 (id=?)",
+        "UNION ALL",
+        "SCAN grammar",
+        "UNION ALL",
+        "SCAN grammar",
+        "UNION ALL",
+        "SCAN grammar",
+        "SCAN t",
+        "SEARCH ci USING INDEX sqlite_autoindex_content_items_1 (id=?)",
+        "USE TEMP B-TREE FOR GROUP BY",
+        "SCAN m",
+        "SEARCH i USING INDEX sqlite_autoindex_content_items_1 (id=?)",
+        "SEARCH v USING INDEX sqlite_autoindex_vocabulary_1 (id=?) LEFT-JOIN",
+        "SEARCH g USING INDEX sqlite_autoindex_grammar_1 (id=?) LEFT-JOIN",
+        "USE TEMP B-TREE FOR ORDER BY"
+      ]
+    },
+    "japanese_search": {
+      "median_ms": 0.3256,
+      "p95_ms": 0.3597,
+      "rows": 2,
+      "plan": [
+        "CO-ROUTINE matches",
+        "CO-ROUTINE terms",
+        "COMPOUND QUERY",
+        "LEFT-MOST SUBQUERY",
+        "SCAN v",
+        "UNION ALL",
+        "SCAN m",
+        "SEARCH mi USING INDEX sqlite_autoindex_content_items_1 (id=?)",
+        "UNION ALL",
+        "SCAN grammar",
+        "UNION ALL",
+        "SCAN grammar",
+        "UNION ALL",
+        "SCAN grammar",
+        "SCAN t",
+        "SEARCH ci USING INDEX sqlite_autoindex_content_items_1 (id=?)",
+        "USE TEMP B-TREE FOR GROUP BY",
+        "SCAN m",
+        "SEARCH i USING INDEX sqlite_autoindex_content_items_1 (id=?)",
+        "SEARCH v USING INDEX sqlite_autoindex_vocabulary_1 (id=?) LEFT-JOIN",
+        "SEARCH g USING INDEX sqlite_autoindex_grammar_1 (id=?) LEFT-JOIN",
+        "USE TEMP B-TREE FOR ORDER BY"
+      ]
+    },
+    "broad_search": {
+      "median_ms": 1.4095,
+      "p95_ms": 2.505,
+      "rows": 30,
+      "plan": [
+        "CO-ROUTINE matches",
+        "CO-ROUTINE terms",
+        "COMPOUND QUERY",
+        "LEFT-MOST SUBQUERY",
+        "SCAN v",
+        "UNION ALL",
+        "SCAN m",
+        "SEARCH mi USING INDEX sqlite_autoindex_content_items_1 (id=?)",
+        "UNION ALL",
+        "SCAN grammar",
+        "UNION ALL",
+        "SCAN grammar",
+        "UNION ALL",
+        "SCAN grammar",
+        "SCAN t",
+        "SEARCH ci USING INDEX sqlite_autoindex_content_items_1 (id=?)",
+        "USE TEMP B-TREE FOR GROUP BY",
+        "SCAN m",
+        "SEARCH i USING INDEX sqlite_autoindex_content_items_1 (id=?)",
+        "SEARCH v USING INDEX sqlite_autoindex_vocabulary_1 (id=?) LEFT-JOIN",
+        "SEARCH g USING INDEX sqlite_autoindex_grammar_1 (id=?) LEFT-JOIN",
+        "USE TEMP B-TREE FOR ORDER BY"
+      ]
+    },
+    "no_match": {
+      "median_ms": 0.3022,
+      "p95_ms": 0.3246,
+      "rows": 0,
+      "plan": [
+        "CO-ROUTINE matches",
+        "CO-ROUTINE terms",
+        "COMPOUND QUERY",
+        "LEFT-MOST SUBQUERY",
+        "SCAN v",
+        "UNION ALL",
+        "SCAN m",
+        "SEARCH mi USING INDEX sqlite_autoindex_content_items_1 (id=?)",
+        "UNION ALL",
+        "SCAN grammar",
+        "UNION ALL",
+        "SCAN grammar",
+        "UNION ALL",
+        "SCAN grammar",
+        "SCAN t",
+        "SEARCH ci USING INDEX sqlite_autoindex_content_items_1 (id=?)",
+        "USE TEMP B-TREE FOR GROUP BY",
+        "SCAN m",
+        "SEARCH i USING INDEX sqlite_autoindex_content_items_1 (id=?)",
+        "SEARCH v USING INDEX sqlite_autoindex_vocabulary_1 (id=?) LEFT-JOIN",
+        "SEARCH g USING INDEX sqlite_autoindex_grammar_1 (id=?) LEFT-JOIN",
+        "USE TEMP B-TREE FOR ORDER BY"
+      ]
+    },
+    "set_first20": {
+      "median_ms": 0.0732,
+      "p95_ms": 0.1389,
+      "rows": 20,
+      "plan": [
+        "SCAN v USING INDEX idx_vocabulary_sort",
+        "SEARCH i USING INDEX sqlite_autoindex_content_items_1 (id=?)",
+        "CORRELATED SCALAR SUBQUERY 1",
+        "SEARCH m USING INDEX sqlite_autoindex_meanings_2 (vocabulary_id=?)",
+        "SEARCH mi USING INDEX sqlite_autoindex_content_items_1 (id=?)"
+      ]
+    },
+    "card": {
+      "median_ms": 0.0043,
+      "p95_ms": 0.0056,
+      "rows": 1,
+      "plan": [
+        "SEARCH i USING INDEX sqlite_autoindex_content_items_1 (id=?)",
+        "SEARCH v USING INDEX sqlite_autoindex_vocabulary_1 (id=?)"
+      ]
+    },
+    "examples": {
+      "median_ms": 0.0091,
+      "p95_ms": 0.0143,
+      "rows": 2,
+      "plan": [
+        "SEARCH m USING INDEX sqlite_autoindex_meanings_2 (vocabulary_id=?)",
+        "SEARCH mi USING INDEX sqlite_autoindex_content_items_1 (id=?)",
+        "SEARCH ve USING COVERING INDEX sqlite_autoindex_vocabulary_examples_1 (meaning_id=?)",
+        "SEARCH e USING INDEX sqlite_autoindex_examples_1 (id=?)",
+        "SEARCH i USING INDEX sqlite_autoindex_content_items_1 (id=?)",
+        "USE TEMP B-TREE FOR DISTINCT",
+        "USE TEMP B-TREE FOR ORDER BY"
+      ]
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "counts": {
+    "vocabulary": 926,
+    "meanings": 982,
+    "examples": 1876,
+    "grammar": 42,
+    "listening_items": 111,
+    "questions": 342,
+    "content_items": 4663,
+    "learner_notes": 181,
+    "vocabulary_examples": 1792,
+    "grammar_examples": 95
+  },
+  "listening_tasks": {
+    "comprehension": 26,
+    "dictation": 28,
+    "korean": 26,
+    "meaning": 31
+  },
+  "new": {
+    "listening": 80,
+    "questions": 80,
+    "dictation": 20,
+    "comprehension": 20,
+    "existing_examples_reused": 80,
+    "new_examples": 0
+  }
+}

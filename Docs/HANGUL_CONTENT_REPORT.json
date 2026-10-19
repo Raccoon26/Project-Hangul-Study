@@ -1,0 +1,27 @@
+{
+  "path": "/workspace/scratch/5b18e936d3a8/HangulStudy/Resources/content.sqlite",
+  "sha256": "c0396985debf7545e19e5ee0cad942f9649856a7055bcdf9e3d02a2e52cd3f2a",
+  "schema_version": 2,
+  "content_version": 3,
+  "rows": {
+    "content_items": 130,
+    "content_links": 70,
+    "courses": 1,
+    "hangul": 55,
+    "item_sources": 1,
+    "learner_notes": 3,
+    "lesson_items": 117,
+    "lessons": 12,
+    "question_choices": 225,
+    "questions": 59,
+    "sources": 1
+  },
+  "seconds": 0.0622,
+  "validation": {
+    "error_count": 0,
+    "warning_count": 0,
+    "errors": [],
+    "warnings": [],
+    "details_limit": 200
+  }
+}

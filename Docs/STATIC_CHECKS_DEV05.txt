@@ -1,0 +1,21 @@
+DEV-05 final static verification
+Environment: Linux; swift and xcodebuild not available. No native compilation or XCTest execution.
+App Swift files: 34; XCTest Swift files: 4
+Xcode file paths verified: 46
+plist/XML: valid
+Content integrity_check: ok; foreign_key_check: no rows
+Content/production.json and Resources/content.sqlite: byte-identical to DATA-01
+Preserved: Content/production.json
+Preserved: Resources/content.sqlite
+Preserved: Services/KoreanAudioService.swift
+Preserved: Models/AudioModels.swift
+Preserved: Views/LessonSessionView.swift
+Preserved: ViewModels/LessonViewModel.swift
+Preserved: LearningEngine/HangulLearning.swift
+Preserved: Content/ContentPackageValidator.swift
+Preserved: Tools/ContentBuilder/validator.py
+Preserved: Tools/ContentBuilder/build_content.py
+Content DB SHA256: 90b962bde235b0c21fdc4b608d5c0fb3190dae3b6b03deaa6913deae55d54e42
+Removed files: none
+Native build/type-check/UI/TTS: NOT EXECUTED
+Swift tree-sitter syntax parse: 38 files; 0 syntax errors (not type-check/build).

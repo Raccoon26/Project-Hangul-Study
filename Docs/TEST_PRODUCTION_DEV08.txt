@@ -1,0 +1,9 @@
+test_additive_migration_preserves_srs_and_session_disk_snapshot (test_production_content.ProductionTests.test_additive_migration_preserves_srs_and_session_disk_snapshot) ... ok
+test_existing_ids_payloads_and_explicit_relationship_revisions (test_production_content.ProductionTests.test_existing_ids_payloads_and_explicit_relationship_revisions) ... ok
+test_real_production_pool_and_bounded_queries (test_production_content.ProductionTests.test_real_production_pool_and_bounded_queries) ... ok
+test_validator_rejects_invalid_production_contract (test_production_content.ProductionTests.test_validator_rejects_invalid_production_contract) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 2.240s
+
+OK

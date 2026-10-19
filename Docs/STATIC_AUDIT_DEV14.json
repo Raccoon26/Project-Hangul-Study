@@ -1,0 +1,22 @@
+{
+  "swift_files_parsed": 88,
+  "syntax_errors": [],
+  "native_build_executed": false,
+  "native_tests_authored": 123,
+  "content_unchanged_from_DEV13": {
+    "Resources/content.sqlite": true,
+    "Content/production.json": true
+  },
+  "integrity_check": "ok",
+  "foreign_key_violations": [],
+  "counts": {
+    "vocabulary": 926,
+    "meanings": 982,
+    "examples": 1876,
+    "grammar": 42,
+    "listening_items": 111,
+    "questions": 342,
+    "pronunciation_rules": 36,
+    "hangul": 55
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "identifier": "7920E146-1298-479B-BC6D-063B86A772B7",
+  "nonRenewingSubscriptions": [],
+  "products": [
+    {
+      "displayPrice": "800",
+      "familyShareable": false,
+      "internalID": "72651523",
+      "localizations": [
+        {
+          "description": "すべての広告を削除する、一度きりの購入です。学習機能は無料でも利用できます。",
+          "displayName": "広告を削除",
+          "locale": "ja_JP"
+        }
+      ],
+      "productID": "remove_ads",
+      "referenceName": "Remove Ads",
+      "type": "NonConsumable"
+    }
+  ],
+  "settings": {
+    "_applicationInternalID": "",
+    "_developerTeamID": "",
+    "_failTransactionsEnabled": false,
+    "_lastSynchronizedDate": 0,
+    "_locale": "ja_JP",
+    "_storefront": "JPN",
+    "_storeKitErrors": []
+  },
+  "subscriptionGroups": [],
+  "version": {
+    "major": 3,
+    "minor": 0
+  }
+}

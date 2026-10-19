@@ -1,0 +1,4080 @@
+{
+  "batch": "DATA-02",
+  "vocabulary": [
+    {
+      "id": "1cc62a14-1cb0-4aa3-9427-fb744872864c",
+      "headword": "할머니",
+      "part_of_speech": "noun",
+      "level": "intro",
+      "theme": "家族・身近な人",
+      "meaning_ids": [
+        "e08d558c-fce2-452f-9919-7aa41bd2ce9c"
+      ],
+      "example_ids": [
+        "916f703a-f2cc-497b-899c-e3ae5a586d71",
+        "b522fd92-ad29-4abc-8779-2a63c9a834e0"
+      ]
+    },
+    {
+      "id": "2ea7beff-be96-488d-bf6c-b7e3fd922222",
+      "headword": "할아버지",
+      "part_of_speech": "noun",
+      "level": "intro",
+      "theme": "家族・身近な人",
+      "meaning_ids": [
+        "3b39f0c2-80c0-4dfa-82d4-44917b279ba1"
+      ],
+      "example_ids": [
+        "df793d1b-4cb6-4efe-a2a3-9637da6ee63e",
+        "beb7fcd6-e152-4eaa-813a-e6e95c8a4646"
+      ]
+    },
+    {
+      "id": "f54f67ea-6c10-443f-8f03-344df9b7b26f",
+      "headword": "부모님",
+      "part_of_speech": "noun",
+      "level": "intro",
+      "theme": "家族・身近な人",
+      "meaning_ids": [
+        "20fff095-4421-4cd3-a1b4-0eb85903a05a"
+      ],
+      "example_ids": [
+        "579c0a4e-dc9d-4c33-a388-2c944f688eb3",
+        "ac591294-4aa2-49a9-8903-11a9f5f90621"
+      ]
+    },
+    {
+      "id": "54d1e7e4-0026-4b00-8b83-621ae105d7b9",
+      "headword": "남편",
+      "part_of_speech": "noun",
+      "level": "intro",
+      "theme": "家族・身近な人",
+      "meaning_ids": [
+        "ef068d6b-b105-4d3d-9f1b-2e4b0d0a6c68"
+      ],
+      "example_ids": [
+        "c7564f7a-a4d5-4a4c-80b3-cdc33bad3840",
+        "ef80eff2-38a2-4c16-86bb-026db5075394"
+      ]
+    },
+    {
+      "id": "2c66702d-58be-4e0f-98ae-dc26c6b5daae",
+      "headword": "아내",
+      "part_of_speech": "noun",
+      "level": "intro",
+      "theme": "家族・身近な人",
+      "meaning_ids": [
+        "93161d45-49b9-43f8-9ce3-bb545c6750a6"
+      ],
+      "example_ids": [
+        "c15ded0c-901b-4eb2-ae3f-fa94f42fd2df",
+        "9a0a878f-34fe-4d7d-9af4-bbc3e34405b4"
+      ]
+    },
+    {
+      "id": "5e04cb16-eba4-4c66-83b5-beae9e235f83",
+      "headword": "아들",
+      "part_of_speech": "noun",
+      "level": "intro",
+      "theme": "家族・身近な人",
+      "meaning_ids": [
+        "282f6fa6-4aec-4dbe-9703-3cd44f093b39"
+      ],
+      "example_ids": [
+        "e3ea9b6f-03ef-499f-946c-a68aaf3ca9ad",
+        "c8337ea5-424a-439d-ba0c-f68b8bc2c385"
+      ]
+    },
+    {
+      "id": "162fe9f6-cccd-4729-8cee-f819a90e58a6",
+      "headword": "딸",
+      "part_of_speech": "noun",
+      "level": "intro",
+      "theme": "家族・身近な人",
+      "meaning_ids": [
+        "5a74ec3f-a9a1-49b6-b0a2-51b11b5ad4e0"
+      ],
+      "example_ids": [
+        "3883b7a8-bcd9-431b-a149-e6ecc26930ae",
+        "f43afbf0-3c57-418d-8d8c-e09cf7f968f4"
+      ]
+    },
+    {
+      "id": "6c7688bc-0b96-42a7-9097-f1cb909cffd1",
+      "headword": "저희",
+      "part_of_speech": "pronoun",
+      "level": "intro",
+      "theme": "家族・身近な人",
+      "meaning_ids": [
+        "99a03e13-4dcd-4f03-8267-ad3a9207b571"
+      ],
+      "example_ids": [
+        "64c0834d-212f-47f7-9934-ca3f86c34ec0",
+        "3dcaab4a-a8c0-4a83-b70e-3156cf222103"
+      ]
+    },
+    {
+      "id": "0076bd8a-104f-41b6-b209-bbefcccb712e",
+      "headword": "이것",
+      "part_of_speech": "pronoun",
+      "level": "intro",
+      "theme": "家族・身近な人",
+      "meaning_ids": [
+        "a7f7793d-ff33-4973-8593-7b274c85d753"
+      ],
+      "example_ids": [
+        "98826fc1-ccf9-44eb-ac13-f018a8b79b64",
+        "a95fab1e-8ca0-46c1-a188-f04714e39e68"
+      ]
+    },
+    {
+      "id": "840cd060-d0cf-45d3-a2e0-b42364a4b5dc",
+      "headword": "그것",
+      "part_of_speech": "pronoun",
+      "level": "intro",
+      "theme": "家族・身近な人",
+      "meaning_ids": [
+        "99c066f6-8847-4290-b912-95334862c3ea"
+      ],
+      "example_ids": [
+        "b208f951-f3ff-45b3-b136-4d49ba77147d",
+        "69a1244e-f620-49c6-8521-7a5d0b5760ca"
+      ]
+    },
+    {
+      "id": "de6b4eaf-eaff-4f64-91e1-179fbdf0f75e",
+      "headword": "화요일",
+      "part_of_speech": "noun",
+      "level": "intro",
+      "theme": "曜日・季節・時間",
+      "meaning_ids": [
+        "a8042415-3820-4c60-b305-7d19e568507d"
+      ],
+      "example_ids": [
+        "820b4904-c71a-4236-bb3c-94c771d3e4c7",
+        "f6c1c8ea-0f1b-40e9-9cb9-48d474617895"
+      ]
+    },
+    {
+      "id": "207256b7-69df-4822-aad4-6c9502e2e515",
+      "headword": "수요일",
+      "part_of_speech": "noun",
+      "level": "intro",
+      "theme": "曜日・季節・時間",
+      "meaning_ids": [
+        "c8a3b0bd-d3e7-463d-8981-44662d85678b"
+      ],
+      "example_ids": [
+        "70764066-c04a-42d2-9159-a7b7934eb884",
+        "d2e3ec72-7fbd-4df6-a8e0-17c525bbbbde"
+      ]
+    },
+    {
+      "id": "07e25ddd-4e21-4657-97cf-252675a9ecb8",
+      "headword": "목요일",
+      "part_of_speech": "noun",
+      "level": "intro",
+      "theme": "曜日・季節・時間",
+      "meaning_ids": [
+        "f7c4cbed-4a1d-4ebf-a94b-b7d87623f728"
+      ],
+      "example_ids": [
+        "b9d38acd-aa76-403e-b1bb-633a840a584f",
+        "79e3db94-f9b6-4a93-8b7d-8150391edb55"
+      ]
+    },
+    {
+      "id": "fd463440-f466-4edd-a320-379340d44e6b",
+      "headword": "금요일",
+      "part_of_speech": "noun",
+      "level": "intro",
+      "theme": "曜日・季節・時間",
+      "meaning_ids": [
+        "97f26f30-2ec3-47bc-bcbb-93e7bfc63dd8"
+      ],
+      "example_ids": [
+        "7dc672c0-e341-47a3-9e55-8b0be4940547",
+        "ee7fe3f1-725a-4c1f-9f10-392926a09ffb"
+      ]
+    },
+    {
+      "id": "29953787-9faf-4b8d-96cb-7a24ceabe369",
+      "headword": "토요일",
+      "part_of_speech": "noun",
+      "level": "intro",
+      "theme": "曜日・季節・時間",
+      "meaning_ids": [
+        "a5d275c6-2d01-4735-b87d-4a822a153550"
+      ],
+      "example_ids": [
+        "7eb6ebda-7925-4552-8912-a38f6ba40b5b",
+        "d8ac9e3f-3c5b-4a4f-a5d9-6db75b4134a7"
+      ]
+    },
+    {
+      "id": "c77de157-6894-4ae1-86d4-cc28b5228f1a",
+      "headword": "일요일",
+      "part_of_speech": "noun",
+      "level": "intro",
+      "theme": "曜日・季節・時間",
+      "meaning_ids": [
+        "db636f6d-ef0c-47cb-8be0-6d9bea40aabb"
+      ],
+      "example_ids": [
+        "4a3642af-9fb2-4305-adc9-ffc7a733817b",
+        "3e367dbe-d3f0-4e90-9e08-689874e08355"
+      ]
+    },
+    {
+      "id": "4be264b8-139f-438b-8d79-762b8b47ed48",
+      "headword": "여름",
+      "part_of_speech": "noun",
+      "level": "intro",
+      "theme": "曜日・季節・時間",
+      "meaning_ids": [
+        "c9369d74-91d7-4fa4-a83e-d373d1ad54cc"
+      ],
+      "example_ids": [
+        "c4638aa3-241b-4283-b0b6-929a9a5a72c1",
+        "c7dbbd0b-67db-4394-bb40-2de0b39d9681"
+      ]
+    },
+    {
+      "id": "153a0046-01ae-4211-a60f-63992939d695",
+      "headword": "가을",
+      "part_of_speech": "noun",
+      "level": "intro",
+      "theme": "曜日・季節・時間",
+      "meaning_ids": [
+        "5f4c6b9f-65d0-4121-a733-344e7431176e"
+      ],
+      "example_ids": [
+        "c02f23f2-d007-4df0-a1cc-10a3df21d77a",
+        "fca1b33c-e73f-4b18-b8ec-4b1e59120ae6"
+      ]
+    },
+    {
+      "id": "62b09369-d99f-4ed0-ada6-721d3515c188",
+      "headword": "오전",
+      "part_of_speech": "noun",
+      "level": "intro",
+      "theme": "曜日・季節・時間",
+      "meaning_ids": [
+        "52c9b807-860f-4d6d-a7cc-e6de02c27ee3"
+      ],
+      "example_ids": [
+        "9ccc25e6-6080-4b41-bd4f-b73f525f9a42",
+        "47355538-fa0a-426f-b972-3c2d0471df34"
+      ]
+    },
+    {
+      "id": "9ad113a6-33b0-40f1-9cb7-40d119434e0d",
+      "headword": "오후",
+      "part_of_speech": "noun",
+      "level": "intro",
+      "theme": "曜日・季節・時間",
+      "meaning_ids": [
+        "825efe2b-f42f-4508-bb9f-a30b091a038f"
+      ],
+      "example_ids": [
+        "08b07f35-00fe-4cb8-9c9e-ef52b99f6c1d",
+        "e337cbfb-ac07-4866-a5c0-e9d937118dc1"
+      ]
+    },
+    {
+      "id": "ac546dcf-1f66-42e1-8c1e-2585f4f72ee7",
+      "headword": "날씨",
+      "part_of_speech": "noun",
+      "level": "intro",
+      "theme": "天気・位置",
+      "meaning_ids": [
+        "a6b61616-79cf-48d7-b5e0-0bf920484aaa"
+      ],
+      "example_ids": [
+        "4e28b014-1e8d-4834-b6b6-4ffaab180dd9",
+        "abeba6fb-c889-493e-8eee-fd6512d94787"
+      ]
+    },
+    {
+      "id": "cd76d341-545e-48d1-8d43-be872a606f5a",
+      "headword": "비",
+      "part_of_speech": "noun",
+      "level": "intro",
+      "theme": "天気・位置",
+      "meaning_ids": [
+        "c4371156-9210-4c3a-ad2a-4c359e39e3eb"
+      ],
+      "example_ids": [
+        "68ba7e47-adfe-47f5-930b-1b3b4b78d84c",
+        "73486c87-733c-4218-9302-7517fa24321d"
+      ]
+    },
+    {
+      "id": "3c378a9b-ca95-4c12-af9e-1562f3e432cd",
+      "headword": "바람",
+      "part_of_speech": "noun",
+      "level": "intro",
+      "theme": "天気・位置",
+      "meaning_ids": [
+        "5f4a48ef-d587-49f5-ae03-59929620fa08"
+      ],
+      "example_ids": [
+        "0fdb1a6d-5916-4520-8781-62bbfcae3226",
+        "9481ed5b-a9df-42a7-ae59-c5de8b278621"
+      ]
+    },
+    {
+      "id": "c60c96d1-1cde-4d5c-a803-7f6cc7092f17",
+      "headword": "하늘",
+      "part_of_speech": "noun",
+      "level": "intro",
+      "theme": "天気・位置",
+      "meaning_ids": [
+        "7de8cc01-a6b4-4a67-abb1-f49f51862e24"
+      ],
+      "example_ids": [
+        "29d6cda2-6ee6-4163-bd4f-6d38762d6e4d",
+        "91cf3af5-ba19-425c-91f5-2a0d2f9fb1e7"
+      ]
+    },
+    {
+      "id": "4d368ce9-2066-4751-b6b8-c6f89e2e1450",
+      "headword": "밖",
+      "part_of_speech": "noun",
+      "level": "intro",
+      "theme": "天気・位置",
+      "meaning_ids": [
+        "1a7c62c8-6eb9-44cf-b781-d0d10bef42d1"
+      ],
+      "example_ids": [
+        "cf6dac0c-a2a4-433c-96d1-fd6c2301ed13",
+        "cdef179d-9d96-48b9-9922-1affb7a6a653"
+      ]
+    },
+    {
+      "id": "7423369b-a82b-48f4-b9f4-e58e2321b830",
+      "headword": "옆",
+      "part_of_speech": "noun",
+      "level": "intro",
+      "theme": "天気・位置",
+      "meaning_ids": [
+        "df4ceafc-c862-4f9d-9ef3-45a9024afa88"
+      ],
+      "example_ids": [
+        "296e1856-0cf0-4083-9dc1-0d1043a27bcf",
+        "068f0908-09a8-4357-9ce9-cb4196a6e063"
+      ]
+    },
+    {
+      "id": "ce7cf0e9-a9fc-4a01-b5e4-66b947bce621",
+      "headword": "위",
+      "part_of_speech": "noun",
+      "level": "intro",
+      "theme": "天気・位置",
+      "meaning_ids": [
+        "f5770e82-2f7d-43d3-8fb6-fe44d9eb2a44"
+      ],
+      "example_ids": [
+        "fc78e6db-82d8-4fc7-8089-0312c2b22b8b",
+        "c2718f19-8e20-423f-9be6-7e0c19069718"
+      ]
+    },
+    {
+      "id": "fa92473e-e2a4-4315-8537-91d9487c7ed6",
+      "headword": "아래",
+      "part_of_speech": "noun",
+      "level": "intro",
+      "theme": "天気・位置",
+      "meaning_ids": [
+        "59b01284-f7ed-4d11-b3a1-4dbefad5c7a7"
+      ],
+      "example_ids": [
+        "91a78b16-3c9e-49b4-ad58-092a06635d28",
+        "6ff2ee2c-0250-4ac0-a5ca-d8bdf88b7187"
+      ]
+    },
+    {
+      "id": "ba879893-7a7a-4a83-a2ac-aea89e659640",
+      "headword": "근처",
+      "part_of_speech": "noun",
+      "level": "intro",
+      "theme": "天気・位置",
+      "meaning_ids": [
+        "88928c34-dc5a-40de-9529-75e719c41e2a"
+      ],
+      "example_ids": [
+        "c0c59e6c-31d3-45b3-b3a6-a60e2a033fa8",
+        "7d379d87-7a41-4e1f-87c5-e6efc128849e"
+      ]
+    },
+    {
+      "id": "0ab1dbb5-2be0-4526-8ce8-f63d69f52f7d",
+      "headword": "가운데",
+      "part_of_speech": "noun",
+      "level": "intro",
+      "theme": "天気・位置",
+      "meaning_ids": [
+        "1eb35d37-b431-466f-b7f0-010b119f7dea"
+      ],
+      "example_ids": [
+        "e26b02ce-fa18-4c28-9d66-7ece1003fc20",
+        "1d2a2754-d1b2-475f-8933-60c95b48b8d3"
+      ]
+    },
+    {
+      "id": "29d7bb54-bd21-4da3-87d2-894a7e2fd508",
+      "headword": "다섯",
+      "part_of_speech": "numeral",
+      "level": "intro",
+      "theme": "数・日付",
+      "meaning_ids": [
+        "76580d90-08e1-41f2-8e17-9fc571cd6bd2"
+      ],
+      "example_ids": [
+        "da7228a9-3e9e-423e-a789-9c8d43906f15",
+        "d6dae7ba-5dae-4d34-b558-4d30bfdfb2f2"
+      ]
+    },
+    {
+      "id": "216f2bf7-ca03-4f0e-b96b-b90d4b48135b",
+      "headword": "여섯",
+      "part_of_speech": "numeral",
+      "level": "intro",
+      "theme": "数・日付",
+      "meaning_ids": [
+        "c2f78120-640f-494c-a269-92f563758248"
+      ],
+      "example_ids": [
+        "2f7481ae-b4bc-4faf-8493-1279e720d704",
+        "7f574f5a-b03c-448a-883f-8e7108aa3dfc"
+      ]
+    },
+    {
+      "id": "a2a36efe-3587-43c1-97f1-4476220a93c8",
+      "headword": "일곱",
+      "part_of_speech": "numeral",
+      "level": "intro",
+      "theme": "数・日付",
+      "meaning_ids": [
+        "46caa71a-9edf-4985-9885-1adcd17b6dc9"
+      ],
+      "example_ids": [
+        "61d3006b-7626-4046-a8d2-a4ecf2caa26f",
+        "e19cbd66-6c57-4d78-a9c3-4874f5922952"
+      ]
+    },
+    {
+      "id": "be26e58f-6bce-438a-b297-ddd5da2ea3c8",
+      "headword": "여덟",
+      "part_of_speech": "numeral",
+      "level": "intro",
+      "theme": "数・日付",
+      "meaning_ids": [
+        "f7f689f0-fbcc-4b91-97dd-24dfaf9d6f51"
+      ],
+      "example_ids": [
+        "697b96a0-0c16-43e0-a466-e8de37e645c6",
+        "efac0ceb-647a-4145-91a7-10d18443e89e"
+      ]
+    },
+    {
+      "id": "f629b548-e4ae-41bd-a986-b1e2dc098856",
+      "headword": "아홉",
+      "part_of_speech": "numeral",
+      "level": "intro",
+      "theme": "数・日付",
+      "meaning_ids": [
+        "e4016830-73b5-42ab-b833-70d93bfb9030"
+      ],
+      "example_ids": [
+        "8ce5c9ee-138e-4249-93d6-37fe4f0cb68a",
+        "2b2a805e-e165-4e59-a7da-428b7d613c90"
+      ]
+    },
+    {
+      "id": "97907389-8e11-488a-ad78-d6df320ad859",
+      "headword": "열",
+      "part_of_speech": "numeral",
+      "level": "intro",
+      "theme": "数・日付",
+      "meaning_ids": [
+        "4da63e9c-badf-43e7-911d-a1058710f701"
+      ],
+      "example_ids": [
+        "58a2bd5d-9dbc-4059-8bc1-427559f66263",
+        "2aa1f2c0-b9ea-4ae6-a21c-29f21273f945"
+      ]
+    },
+    {
+      "id": "e681aab3-9957-4697-99e7-4749fa85f818",
+      "headword": "하루",
+      "part_of_speech": "noun",
+      "level": "intro",
+      "theme": "数・日付",
+      "meaning_ids": [
+        "23a1c44a-21b0-47a4-be08-5f06154d240c"
+      ],
+      "example_ids": [
+        "0cb17c2b-83df-42ec-8462-ce5ffd4ab1ad",
+        "010d8663-f6b8-48b4-8ab7-8466edc20ef8"
+      ]
+    },
+    {
+      "id": "bc240d44-79fc-4f8e-9dad-e2ffd3d76973",
+      "headword": "주",
+      "part_of_speech": "bound_noun",
+      "level": "intro",
+      "theme": "数・日付",
+      "meaning_ids": [
+        "e467ccc0-0b09-4a29-bae3-dab0d4a55b46"
+      ],
+      "example_ids": [
+        "eddf929d-ca9b-41ba-bed7-6d07ed18cfb9",
+        "cf3c57d7-7491-4606-82d8-f3f386594a15"
+      ]
+    },
+    {
+      "id": "041d1574-2000-4260-bd8c-99867528fcd6",
+      "headword": "번",
+      "part_of_speech": "bound_noun",
+      "level": "intro",
+      "theme": "数・日付",
+      "meaning_ids": [
+        "6bb0c6aa-8fa5-466f-9fcb-a3c90e0a09e9",
+        "6f3fa03f-3a7f-4d21-9227-92eff915be48"
+      ],
+      "example_ids": [
+        "810694b2-d308-4469-a50c-b760ed7209b1",
+        "77dca806-ab55-429b-84ad-381cf82c08fe"
+      ]
+    },
+    {
+      "id": "64cf792d-05af-47de-8b3f-0ac52e0434f9",
+      "headword": "날짜",
+      "part_of_speech": "noun",
+      "level": "intro",
+      "theme": "数・日付",
+      "meaning_ids": [
+        "1a63e1a2-d3b2-4a22-b717-f2d070f7af7a"
+      ],
+      "example_ids": [
+        "f7cf6227-244b-4b35-ac82-83cee1ac9ca4",
+        "98033acc-c124-4cbc-885c-e6e2765fb513"
+      ]
+    },
+    {
+      "id": "aa23dfee-c6dc-4d97-820e-2fe2164da927",
+      "headword": "아침밥",
+      "part_of_speech": "noun",
+      "level": "intro",
+      "theme": "食事・買い物",
+      "meaning_ids": [
+        "dd5ecc9c-46e7-42dc-a2a1-c471a6c5c543"
+      ],
+      "example_ids": [
+        "a4074fa9-3fc6-4c5c-a6de-58574bb2bb2e",
+        "17c8ab86-b8ac-4123-a15b-5368b2865b34"
+      ]
+    },
+    {
+      "id": "11daa901-088a-4bb6-abc7-deec09070fc8",
+      "headword": "소금",
+      "part_of_speech": "noun",
+      "level": "intro",
+      "theme": "食事・買い物",
+      "meaning_ids": [
+        "0a58fb0d-32e1-46cb-ade0-b314c6353fcb"
+      ],
+      "example_ids": [
+        "7900a1cb-31ee-4f10-8b88-76a076292956",
+        "12552bc6-e02e-4011-9a63-545c46d5022b"
+      ]
+    },
+    {
+      "id": "a05f64a3-749b-4412-910c-79ce3939b6a9",
+      "headword": "설탕",
+      "part_of_speech": "noun",
+      "level": "intro",
+      "theme": "食事・買い物",
+      "meaning_ids": [
+        "04ef1381-6aa0-4422-b645-abf92bb5144f"
+      ],
+      "example_ids": [
+        "f6d56d9f-a2df-405c-bb2c-319fa8470178",
+        "b742629b-5d7c-40bb-aa8f-841abdb1d9d7"
+      ]
+    },
+    {
+      "id": "8e8c01ba-3615-419c-a393-90bba7db9bff",
+      "headword": "숟가락",
+      "part_of_speech": "noun",
+      "level": "intro",
+      "theme": "食事・買い物",
+      "meaning_ids": [
+        "dd1d2bcb-4fbd-404f-bc3d-a0e66ad339e0"
+      ],
+      "example_ids": [
+        "375a7058-ae77-4379-a721-0741d5b238dc",
+        "0c9f1217-84db-4487-babc-e6fbfeafcf17"
+      ]
+    },
+    {
+      "id": "ae13bdb7-3d91-41a2-be9b-588ceac62265",
+      "headword": "접시",
+      "part_of_speech": "noun",
+      "level": "intro",
+      "theme": "食事・買い物",
+      "meaning_ids": [
+        "c9037e6e-0b3f-4998-b548-34278291d9c3"
+      ],
+      "example_ids": [
+        "ffc2f8e8-3719-489e-a5a6-11f8c25b4458",
+        "1f5bad8b-2a6e-42e9-817d-a1909f8d2162"
+      ]
+    },
+    {
+      "id": "6a72d828-58b2-46ae-ab52-f318a63e8303",
+      "headword": "가격",
+      "part_of_speech": "noun",
+      "level": "intro",
+      "theme": "食事・買い物",
+      "meaning_ids": [
+        "5ddc2745-4d57-4002-9db0-3feaa09aa29d"
+      ],
+      "example_ids": [
+        "9c1ef811-45e3-407b-854e-7fa34bbc5b65",
+        "9eb7b262-9891-45e0-b63b-7cfc13339355"
+      ]
+    },
+    {
+      "id": "0f45e390-4ae4-4b13-8b05-f2e69d6e55ae",
+      "headword": "가깝다",
+      "part_of_speech": "adjective",
+      "level": "intro",
+      "theme": "食事・買い物",
+      "meaning_ids": [
+        "562d34cb-174f-42da-8810-25768ee2a500"
+      ],
+      "example_ids": [
+        "7b74563e-db1f-4c76-b767-4138ef384ebf",
+        "81b4c2fa-7daf-4d1f-a773-5ad5c337af2b"
+      ]
+    },
+    {
+      "id": "c58635eb-661b-44d0-92ec-6e1d36bb74f7",
+      "headword": "멀다",
+      "part_of_speech": "adjective",
+      "level": "intro",
+      "theme": "食事・買い物",
+      "meaning_ids": [
+        "bb9bd77a-6ba8-4797-9785-7aa53998855d"
+      ],
+      "example_ids": [
+        "d4a6ba33-e9f7-4022-a59a-748d8704c317",
+        "918bd681-ae90-4845-93fd-56a4295d94a5"
+      ]
+    },
+    {
+      "id": "8e908d0e-e1ee-4a5f-8c57-ed2aa6da3365",
+      "headword": "배고프다",
+      "part_of_speech": "adjective",
+      "level": "intro",
+      "theme": "食事・買い物",
+      "meaning_ids": [
+        "9470f472-4497-4b83-bdbc-46d929168624"
+      ],
+      "example_ids": [
+        "8dcb298a-749c-4395-b0f6-b709b709f843",
+        "15880e10-badc-4e86-bb37-a340e4584908"
+      ]
+    },
+    {
+      "id": "c8e81756-f439-4bb6-81df-b2bd2681af1b",
+      "headword": "괜찮다",
+      "part_of_speech": "adjective",
+      "level": "intro",
+      "theme": "食事・買い物",
+      "meaning_ids": [
+        "5a7e86ba-d879-449e-b6a8-6f92020d2b0f"
+      ],
+      "example_ids": [
+        "e7ba1f52-7bf4-4064-8121-7ae2be085e75",
+        "80af93a3-09c9-4453-a78b-fcba304e978c"
+      ]
+    },
+    {
+      "id": "2445db0d-b26e-43dc-9295-909da2ea1822",
+      "headword": "그냥",
+      "part_of_speech": "adverb",
+      "level": "intro",
+      "theme": "基本の副詞・行動",
+      "meaning_ids": [
+        "7c7e2fb9-aad5-48d3-8be3-8d3e63603214"
+      ],
+      "example_ids": [
+        "deea24ac-77a5-4cbf-855a-e518b39b9640",
+        "74483f4d-f503-4130-8dd7-2761a8eb701a"
+      ]
+    },
+    {
+      "id": "34288037-3ac9-45db-937a-42854d9ef131",
+      "headword": "아직",
+      "part_of_speech": "adverb",
+      "level": "intro",
+      "theme": "基本の副詞・行動",
+      "meaning_ids": [
+        "37af1f85-9f10-431b-b4cd-6a144509c5e6"
+      ],
+      "example_ids": [
+        "6ae9b67f-67fa-46d6-8f53-e58cfbe1f77c",
+        "bf5e4027-82d5-4aae-87d2-82a60037a5be"
+      ]
+    },
+    {
+      "id": "3f476a3d-10d4-41e1-8277-65e58b904319",
+      "headword": "벌써",
+      "part_of_speech": "adverb",
+      "level": "intro",
+      "theme": "基本の副詞・行動",
+      "meaning_ids": [
+        "94ce7726-8f09-408a-803f-162ae39f548c"
+      ],
+      "example_ids": [
+        "d438635e-ba82-4d30-a50d-6c7f34c1d959",
+        "93666a98-66dc-44ea-a239-b75ead8b9f94"
+      ]
+    },
+    {
+      "id": "686383a7-9181-47e4-9253-12e4d3f3ec13",
+      "headword": "먼저",
+      "part_of_speech": "adverb",
+      "level": "intro",
+      "theme": "基本の副詞・行動",
+      "meaning_ids": [
+        "32c4e968-2952-4463-acc0-56d97b360c56"
+      ],
+      "example_ids": [
+        "3c301f28-1cd2-4974-be4f-318ab78ce04e",
+        "b45d6e5b-4c23-4ad0-802a-36c19a61ad58"
+      ]
+    },
+    {
+      "id": "4d331614-f4c8-4708-9473-abb8e985e628",
+      "headword": "바로",
+      "part_of_speech": "adverb",
+      "level": "intro",
+      "theme": "基本の副詞・行動",
+      "meaning_ids": [
+        "78c33567-49bf-4e48-bd53-4eb758e155c5",
+        "2ce47024-9314-4928-bba3-8d764efe14e3"
+      ],
+      "example_ids": [
+        "9c80d6df-c31d-4c38-97d1-4f36ecd05788",
+        "08fc4575-3510-4e4c-9beb-5ffe3004159e"
+      ]
+    },
+    {
+      "id": "be0d83bf-a03a-4625-813f-928941c1ebd6",
+      "headword": "함께",
+      "part_of_speech": "adverb",
+      "level": "intro",
+      "theme": "基本の副詞・行動",
+      "meaning_ids": [
+        "15041aa7-f11e-4e3f-aa68-e6dbf80b956d"
+      ],
+      "example_ids": [
+        "c782c476-cf7d-4f92-b9a9-93406037a019",
+        "21d6e7fa-c99d-4bb4-abdb-1e0701a79a51"
+      ]
+    },
+    {
+      "id": "89493a6f-ed7a-4db8-bd84-337c8a7c2c16",
+      "headword": "쉬다",
+      "part_of_speech": "verb",
+      "level": "intro",
+      "theme": "基本の副詞・行動",
+      "meaning_ids": [
+        "eb228dd6-3f82-44c4-903a-03e1ff81ee0a"
+      ],
+      "example_ids": [
+        "8202b50a-da7e-483b-96cf-77902271858f",
+        "8ce07df9-35c6-40ba-80e8-dad79213b7b8"
+      ]
+    },
+    {
+      "id": "6da9dc20-6f05-41a0-a22f-474da6c6f42a",
+      "headword": "살다",
+      "part_of_speech": "verb",
+      "level": "intro",
+      "theme": "基本の副詞・行動",
+      "meaning_ids": [
+        "0f938db8-42df-43bb-87f7-2febf9cade05",
+        "e0429839-5f6c-4c6a-b344-4017038ae0bc"
+      ],
+      "example_ids": [
+        "5746f42b-dbdb-4c66-8e7e-140dad6b6989",
+        "0d9264cc-195d-4403-81d3-6f6a240a44b4"
+      ]
+    },
+    {
+      "id": "01a50846-29d1-4b1c-9dde-00d53e37040a",
+      "headword": "나가다",
+      "part_of_speech": "verb",
+      "level": "intro",
+      "theme": "基本の副詞・行動",
+      "meaning_ids": [
+        "bfd44c29-4eae-428f-8709-744f3d87707e"
+      ],
+      "example_ids": [
+        "bee1fdf1-381c-4e5b-bb14-c68fd5fd74c2",
+        "e5e5e8bc-61e0-4d57-a793-384faeb0a070"
+      ]
+    },
+    {
+      "id": "87540ca1-66d4-4fb7-8af7-4d7c62fa4dc7",
+      "headword": "들어가다",
+      "part_of_speech": "verb",
+      "level": "intro",
+      "theme": "基本の副詞・行動",
+      "meaning_ids": [
+        "8e92c80e-4a8d-431c-b1df-c7b352fbed51"
+      ],
+      "example_ids": [
+        "5a9cf017-03c3-4a87-aff2-72ce738c8c94",
+        "2d152d4e-4d38-4d2e-bcc1-9b72877a2a14"
+      ]
+    },
+    {
+      "id": "14410401-21f1-4e2d-b6f7-3320fcd0f8a7",
+      "headword": "청소하다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "家事・生活",
+      "meaning_ids": [
+        "46d4fc8e-746e-4df6-b2ea-98b7b7742f60"
+      ],
+      "example_ids": [
+        "d63c8210-1c59-48ce-aad7-fd86c0d0b763",
+        "23c98f8d-bcf3-479d-8fb9-26703d7d8a69"
+      ]
+    },
+    {
+      "id": "b756a247-b64d-4eda-b090-e34b09997e37",
+      "headword": "빨래하다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "家事・生活",
+      "meaning_ids": [
+        "9cbde43c-e8f1-41de-b84c-11f7aa463d6b"
+      ],
+      "example_ids": [
+        "5a59ce20-7648-4a80-8378-de406acb5805",
+        "b00de581-8cd9-4e0e-a0da-0d509a3d0268"
+      ]
+    },
+    {
+      "id": "307554c6-08ab-48fc-a4ce-159fe77116af",
+      "headword": "요리하다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "家事・生活",
+      "meaning_ids": [
+        "11f797b4-92ab-4338-822e-e53d2383f6ec"
+      ],
+      "example_ids": [
+        "2ca130cf-b504-4899-b701-954321ff1845",
+        "d44e6cb9-348e-43fd-85a2-cde2cdc581f2"
+      ]
+    },
+    {
+      "id": "74e087ed-1b65-41c7-9725-08dc914c7ec9",
+      "headword": "준비하다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "家事・生活",
+      "meaning_ids": [
+        "b1c218c3-3fcf-4cad-aa98-d5673646cc4d"
+      ],
+      "example_ids": [
+        "922c04a5-33bd-456d-b5a4-b3f63c2a2a3d",
+        "ca4faa35-e004-483f-b521-f68881202806"
+      ]
+    },
+    {
+      "id": "99852c81-a477-4581-a542-93e06de17269",
+      "headword": "정리하다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "家事・生活",
+      "meaning_ids": [
+        "8c0ee82c-b226-478b-a401-848fef31cad9"
+      ],
+      "example_ids": [
+        "72f89331-42e3-4a9d-9d72-96a1da87c501",
+        "5d6314fc-56e1-481a-917f-4b267b38c526"
+      ]
+    },
+    {
+      "id": "b9b50597-c53a-4dde-b7ed-f6b2a21584df",
+      "headword": "버리다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "家事・生活",
+      "meaning_ids": [
+        "3a3070cb-4146-42c2-bb21-e2a5211775c9"
+      ],
+      "example_ids": [
+        "25db99b7-75ae-462c-8f80-6f3280fc3fdd",
+        "aa0c288d-af47-4857-95fc-a7b71a1b04e1"
+      ]
+    },
+    {
+      "id": "daf1bb5f-1fb8-49b8-8074-528b40d0f173",
+      "headword": "치우다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "家事・生活",
+      "meaning_ids": [
+        "da142dd3-bb48-4180-a1d3-4f97a6bf562b"
+      ],
+      "example_ids": [
+        "d86d0fb1-33a6-4964-8284-b5fa0f1c9271",
+        "9da93880-b2bd-40eb-9176-9478f0f5bfe7"
+      ]
+    },
+    {
+      "id": "1f01293c-d4cf-441a-8200-9cee927c92eb",
+      "headword": "닦다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "家事・生活",
+      "meaning_ids": [
+        "54a740f0-bd03-4103-b61e-f731e59a28fb",
+        "35e87799-f0f1-4b7a-848b-f568a0bca437"
+      ],
+      "example_ids": [
+        "78528b4b-a5b0-458b-943d-b6be8d3cd1ea",
+        "86c5f879-286e-44e7-a1c1-f4ac624fe22a"
+      ]
+    },
+    {
+      "id": "f4146b56-f3cd-44db-918e-9eafcb79e339",
+      "headword": "말리다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "家事・生活",
+      "meaning_ids": [
+        "9aba4af9-5b11-4f09-929f-47158b165d67"
+      ],
+      "example_ids": [
+        "13791156-28e0-4141-bac9-7d5ccc9b1603",
+        "fdefa633-8b14-45bf-b3c1-64529e2409f1"
+      ]
+    },
+    {
+      "id": "4b4fad5d-8811-4309-8742-6f64573d3b04",
+      "headword": "넣다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "家事・生活",
+      "meaning_ids": [
+        "b77fb27f-ce93-4e31-93fc-4386151cb8d0"
+      ],
+      "example_ids": [
+        "9f78f6d0-fab4-41f0-ba52-d8bee9a5fc01",
+        "8f96638d-a6e9-44aa-bbda-ded8942fad7f"
+      ]
+    },
+    {
+      "id": "de577be2-723d-4c0b-aa0e-5906d8e8f304",
+      "headword": "쓰레기",
+      "part_of_speech": "noun",
+      "level": "beginner",
+      "theme": "家の中",
+      "meaning_ids": [
+        "dba96ea2-237d-4ad8-bd50-d349c9e45d86"
+      ],
+      "example_ids": [
+        "ff684897-2428-49dd-9fd4-5fff3cbd66e0",
+        "97bc3add-749e-458a-824f-3a8328044f8d"
+      ]
+    },
+    {
+      "id": "adc07ed8-6bc0-4625-af34-38c0554b3f92",
+      "headword": "세탁기",
+      "part_of_speech": "noun",
+      "level": "beginner",
+      "theme": "家の中",
+      "meaning_ids": [
+        "ad15715f-1b45-4cf6-a81d-0b2783d31fcf"
+      ],
+      "example_ids": [
+        "170d370e-f679-4d1e-9db7-17ecb30153e5",
+        "819d86f1-de13-4b1e-ad4e-cb0757c03136"
+      ]
+    },
+    {
+      "id": "e2897d38-a6dd-45e0-b9b6-649fe93a22cc",
+      "headword": "냉장고",
+      "part_of_speech": "noun",
+      "level": "beginner",
+      "theme": "家の中",
+      "meaning_ids": [
+        "118570b2-7ebc-4e76-9c4b-19c2309f8828"
+      ],
+      "example_ids": [
+        "d3e49cba-bd69-4f72-8ea3-eff5a6c1b6f3",
+        "d396985c-ba9b-4187-8723-33a78065fca8"
+      ]
+    },
+    {
+      "id": "e00403b1-76ed-4bd7-be09-d262743a3f6d",
+      "headword": "부엌",
+      "part_of_speech": "noun",
+      "level": "beginner",
+      "theme": "家の中",
+      "meaning_ids": [
+        "85921be1-3813-4dd7-990b-a32cd338b0a3"
+      ],
+      "example_ids": [
+        "b0acdb51-7da6-47fc-9653-dd662461c534",
+        "09eeb38a-e16b-49ac-a10e-028369634560"
+      ]
+    },
+    {
+      "id": "3f228efb-7e62-4eaa-bcad-2d41de36909d",
+      "headword": "거실",
+      "part_of_speech": "noun",
+      "level": "beginner",
+      "theme": "家の中",
+      "meaning_ids": [
+        "4ac20012-1667-4539-bdee-b32e8ab69988"
+      ],
+      "example_ids": [
+        "40cdf892-961d-4dfb-bfb4-8a4bf3462dd2",
+        "fc240ff1-05a5-4d4d-9780-5437f8fdf6c5"
+      ]
+    },
+    {
+      "id": "41028712-90a1-4e5a-a230-5171810ee2ec",
+      "headword": "욕실",
+      "part_of_speech": "noun",
+      "level": "beginner",
+      "theme": "家の中",
+      "meaning_ids": [
+        "5e7d066e-12ef-4dc4-ab3d-2be104eeb1de"
+      ],
+      "example_ids": [
+        "909f28af-bf6d-4780-b0dd-d35a0d50ca50",
+        "6a3e185b-066f-4738-b06a-99dda1aa717e"
+      ]
+    },
+    {
+      "id": "1673ab68-07b5-492c-9d4f-ab63a48a8e7f",
+      "headword": "수건",
+      "part_of_speech": "noun",
+      "level": "beginner",
+      "theme": "家の中",
+      "meaning_ids": [
+        "f8868556-c22d-43ad-b9f5-c68eb451e8bd"
+      ],
+      "example_ids": [
+        "9d1c9930-c5ca-42dc-ba12-b6f50007b3a6",
+        "b4ee2285-0016-493c-97e3-5c94abf96bb7"
+      ]
+    },
+    {
+      "id": "5bf0176c-0dd9-4569-a9e9-dec1d0f0d6fb",
+      "headword": "비누",
+      "part_of_speech": "noun",
+      "level": "beginner",
+      "theme": "家の中",
+      "meaning_ids": [
+        "aea906a7-175c-4c76-a0aa-e38c0f19aba1"
+      ],
+      "example_ids": [
+        "72a7a88e-8180-4015-bd43-9206676b3052",
+        "4e9c23ff-6f67-49ec-a032-0ea77fe3ddfb"
+      ]
+    },
+    {
+      "id": "a3d284fe-cd57-4a23-be8a-ccd28c2de6af",
+      "headword": "거울",
+      "part_of_speech": "noun",
+      "level": "beginner",
+      "theme": "家の中",
+      "meaning_ids": [
+        "47f30dcb-b703-4f8c-8aef-5d47fd85b0a7"
+      ],
+      "example_ids": [
+        "a0715631-5728-4ad1-b3ae-e00f28d77e37",
+        "2b997581-ebfd-4f27-8893-050bd330c152"
+      ]
+    },
+    {
+      "id": "70316911-1bbc-4d1e-b888-50f1920bd8db",
+      "headword": "바닥",
+      "part_of_speech": "noun",
+      "level": "beginner",
+      "theme": "家の中",
+      "meaning_ids": [
+        "6fe0b42e-cdde-401e-9266-9eb30282cd7f"
+      ],
+      "example_ids": [
+        "e2d328fa-e318-4965-a4df-9b77cfeca7dc",
+        "81280ead-7605-4eb1-b597-8e3ae3ef3cee"
+      ]
+    },
+    {
+      "id": "42e88264-f1e8-442c-9b30-e5c6818988c9",
+      "headword": "꺼내다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "日常の動作",
+      "meaning_ids": [
+        "3047aaae-2771-40e3-8753-6fb6232dbd9c"
+      ],
+      "example_ids": [
+        "aefde064-698c-4c62-bec3-6695cb9865a2",
+        "73b96c39-88c0-4bfb-8b29-436d9f790987"
+      ]
+    },
+    {
+      "id": "a2b7735a-dcd1-49b6-b058-2b444b95fa77",
+      "headword": "놓다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "日常の動作",
+      "meaning_ids": [
+        "e1e769ce-808d-459e-b081-dabd8f829a18"
+      ],
+      "example_ids": [
+        "b39bd60c-f359-4ed6-bb8d-99d466f8da28",
+        "563dc507-8e40-4ba7-b515-28419ac441e1"
+      ]
+    },
+    {
+      "id": "d99b374d-cb7a-4f02-9591-b03808fc8695",
+      "headword": "켜다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "日常の動作",
+      "meaning_ids": [
+        "21da0670-2ad3-4cdc-974f-42803372f684"
+      ],
+      "example_ids": [
+        "208508b9-b0df-4e4d-8b91-fc8f9621dfa7",
+        "0f2f7ec9-5d2b-46f8-af06-4d684d16878e"
+      ]
+    },
+    {
+      "id": "e01d9379-8582-4f15-a033-5f730a60d527",
+      "headword": "끄다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "日常の動作",
+      "meaning_ids": [
+        "43aa10a0-f332-4426-8acd-a62db2ab422b"
+      ],
+      "example_ids": [
+        "ad6b5ff2-3100-4b8b-a35d-6d64ccbf33f0",
+        "f5a4e158-c776-44ee-a8bf-aa03e3b3c864"
+      ]
+    },
+    {
+      "id": "7fe0045a-d57e-4080-bef4-a574237a7a66",
+      "headword": "바꾸다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "日常の動作",
+      "meaning_ids": [
+        "0aca0bec-34a7-4e8e-80cc-705be8bce0f1",
+        "ed660f10-9e1f-4eed-b024-1a6249264bf7"
+      ],
+      "example_ids": [
+        "15c053c0-4003-4d5d-9b53-8d8e7f0c3b3b",
+        "a6293ad7-216b-44fd-b17d-83dc18390fca"
+      ]
+    },
+    {
+      "id": "fe4da615-4564-4327-ab42-eab7d9ec5e1f",
+      "headword": "빌리다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "日常の動作",
+      "meaning_ids": [
+        "b8c0ccdc-2550-4e7d-b68b-01bd6d85aeac"
+      ],
+      "example_ids": [
+        "cb212b01-06d5-4db7-a2ad-81f7cf37bf84",
+        "e78a2af2-cc5c-4da0-b8c8-56ca7a67dacd"
+      ]
+    },
+    {
+      "id": "ba67d141-5b06-4c94-ae6b-a60ca3b71b88",
+      "headword": "빌려주다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "日常の動作",
+      "meaning_ids": [
+        "a2848f12-594b-4721-ad2f-49e886e64e2b"
+      ],
+      "example_ids": [
+        "3db7f8aa-285a-4b22-a196-1fce49b1b6a4",
+        "f5623ee2-ed69-4ded-94dc-0254ab2cebfc"
+      ]
+    },
+    {
+      "id": "a31de0d9-0262-46b5-a702-26eb768a1475",
+      "headword": "돌려주다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "日常の動作",
+      "meaning_ids": [
+        "630d2ec8-312c-466c-b878-7aa0e0215886"
+      ],
+      "example_ids": [
+        "6a0b06d3-258b-4e02-b9b7-eef3af407248",
+        "277e1ae9-ba92-434a-abd9-1c04760c6c3e"
+      ]
+    },
+    {
+      "id": "7d51fcbe-9456-4d3d-ac77-54ac574d61b6",
+      "headword": "보내다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "日常の動作",
+      "meaning_ids": [
+        "aebc0e92-6f7d-45a1-aff2-4a85e9464156",
+        "05e5922f-b1b8-473a-8af4-e3b344c6d7b1"
+      ],
+      "example_ids": [
+        "4f2a9c7c-ee54-40d3-b59b-fd8994b3ff2e",
+        "9052962b-6335-4c00-855e-41926f140f2c"
+      ]
+    },
+    {
+      "id": "873298fb-88be-407e-9ef6-84d78ff69d36",
+      "headword": "도와주다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "日常の動作",
+      "meaning_ids": [
+        "853c55fd-4971-4c29-b3a8-93bc8dc0d1c7"
+      ],
+      "example_ids": [
+        "5aa05bfa-ea65-457c-85b6-f5e6a4616bdd",
+        "df36c1d3-1759-427a-ba5d-eb6912bb4716"
+      ]
+    },
+    {
+      "id": "1fbc8309-e3b4-4e2b-a802-79164e26743e",
+      "headword": "연락",
+      "part_of_speech": "noun",
+      "level": "beginner",
+      "theme": "人との交流",
+      "meaning_ids": [
+        "d20eee88-7582-497f-8b58-a3c5ac16bea4"
+      ],
+      "example_ids": [
+        "78727a08-7f18-4f1b-931e-05e17770c183",
+        "b6e82793-baa3-434f-94e9-f74331b979ee"
+      ]
+    },
+    {
+      "id": "a01be543-2220-4967-a6ad-d733c20ca028",
+      "headword": "연락하다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "人との交流",
+      "meaning_ids": [
+        "e3396a65-6d11-44d3-ad7f-248c554c7b9f"
+      ],
+      "example_ids": [
+        "676f5291-31ba-4e36-898e-918bee29d4d4",
+        "76a782ed-b8e9-43f0-90a1-6009a59bc5ba"
+      ]
+    },
+    {
+      "id": "a6e58cab-97fe-4e42-8868-2a857440efa9",
+      "headword": "초대하다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "人との交流",
+      "meaning_ids": [
+        "2d779706-445a-49d9-a64c-f967646a292c"
+      ],
+      "example_ids": [
+        "9b8ca0e5-0740-4b45-ad98-90bcefbacb78",
+        "15f0f50a-0356-4c0c-9ac5-663f968012eb"
+      ]
+    },
+    {
+      "id": "7b696c25-a296-4493-89c3-11c2d1a15100",
+      "headword": "약속하다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "人との交流",
+      "meaning_ids": [
+        "92713518-9bfe-43f6-8ffd-e7a1a32cd9df"
+      ],
+      "example_ids": [
+        "34919dc1-9ecb-4e61-a406-6154c4419d84",
+        "b1cb2208-750f-4d67-a84c-9c7038acd465"
+      ]
+    },
+    {
+      "id": "d0194da2-65bc-497f-877d-82ae0744ce75",
+      "headword": "전화하다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "人との交流",
+      "meaning_ids": [
+        "e4b7a319-1054-4c78-9a91-ac2e255a70a0"
+      ],
+      "example_ids": [
+        "53bf118d-004d-4d45-88c1-529e34ecfa04",
+        "dcfcee69-2c8d-4e14-927f-94485dd9b0c7"
+      ]
+    },
+    {
+      "id": "58b7c4aa-bdc6-489c-93e2-f51e6c48a233",
+      "headword": "이야기하다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "人との交流",
+      "meaning_ids": [
+        "a8bb2062-3b15-4340-bb56-0ffc073a1ade"
+      ],
+      "example_ids": [
+        "6866a75f-ffcb-42d8-8583-7e095207748d",
+        "e7c66a51-9816-4368-80b4-ce799d61e1f7"
+      ]
+    },
+    {
+      "id": "288b2557-2c9e-46f7-b807-9ae408e65c67",
+      "headword": "대답하다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "人との交流",
+      "meaning_ids": [
+        "def7c35a-ffa4-4074-aa58-1b95e9bf5e62"
+      ],
+      "example_ids": [
+        "c730cd00-a90b-45f1-8bc0-d4f56db885de",
+        "b97207a4-8af2-4d23-84c0-5711b42e4f8d"
+      ]
+    },
+    {
+      "id": "3ded0e77-8bff-46e9-b323-83621a11c321",
+      "headword": "물어보다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "人との交流",
+      "meaning_ids": [
+        "ac6e94b8-f124-40b8-b16a-2a959e3ed2eb"
+      ],
+      "example_ids": [
+        "84cbfb37-5873-4939-ae14-7f4dfe97ef9a",
+        "c3bd74ff-6991-4ff4-8640-d32308e8b906"
+      ]
+    },
+    {
+      "id": "ae521c8e-5667-4cd4-9852-55251c327a77",
+      "headword": "소개하다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "人との交流",
+      "meaning_ids": [
+        "03c03b0b-0060-4e31-9b69-341c67d0f524"
+      ],
+      "example_ids": [
+        "e2a6c7d8-d403-4350-9751-24ec05f3f80c",
+        "a54756e2-6ad6-44f0-a70b-bbfd3ff066c6"
+      ]
+    },
+    {
+      "id": "fa3847cc-a6e7-4d02-9b0b-7547da14119a",
+      "headword": "인사하다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "人との交流",
+      "meaning_ids": [
+        "3e9fba52-9b2f-4a82-8089-52b43336ab4a"
+      ],
+      "example_ids": [
+        "c1801691-59d7-42ba-96bb-53d4907295f6",
+        "8193a1e9-1e42-421a-a444-4e6546b40289"
+      ]
+    },
+    {
+      "id": "bc0164b7-99b6-41a6-bfb6-1c8641711d52",
+      "headword": "이웃",
+      "part_of_speech": "noun",
+      "level": "beginner",
+      "theme": "関係・会話",
+      "meaning_ids": [
+        "c3fe7168-6e0e-435c-9154-9263f8a4aaf2"
+      ],
+      "example_ids": [
+        "a0c3e704-c933-47da-852c-63af74492337",
+        "85266d48-95dd-42d2-ae74-921585a9a490"
+      ]
+    },
+    {
+      "id": "6dc94aa6-cd4b-4f79-8dec-9b0436e8a583",
+      "headword": "동료",
+      "part_of_speech": "noun",
+      "level": "beginner",
+      "theme": "関係・会話",
+      "meaning_ids": [
+        "cbf0792e-fc6c-41e5-a09e-49d48166fa7e"
+      ],
+      "example_ids": [
+        "0dc6e5f0-5434-4586-a176-4f82b0ba7aac",
+        "d668fe1e-fdd8-4265-9b76-e64ccc6d7166"
+      ]
+    },
+    {
+      "id": "4380b037-f06a-4820-97c7-3c9767b2b50e",
+      "headword": "손님",
+      "part_of_speech": "noun",
+      "level": "beginner",
+      "theme": "関係・会話",
+      "meaning_ids": [
+        "6ee4a5a8-ad72-4bc1-869e-bcb1db6d38d2"
+      ],
+      "example_ids": [
+        "f85195b1-84bf-42a2-903b-600112380c78",
+        "fa49f39b-a891-45db-a127-79d2f471de5c"
+      ]
+    },
+    {
+      "id": "7a277ca9-cddc-4f6e-9353-9befc3d650cf",
+      "headword": "성격",
+      "part_of_speech": "noun",
+      "level": "beginner",
+      "theme": "関係・会話",
+      "meaning_ids": [
+        "dee2bf2e-60b9-460e-a472-0635dce02776"
+      ],
+      "example_ids": [
+        "2be61d1c-94b8-43ca-adca-f8a1370a39f9",
+        "7b96fd7e-44ef-4781-8b0d-64c6e0c25b05"
+      ]
+    },
+    {
+      "id": "6e7c3176-59a8-4cc5-9a7a-de26c2cf84ad",
+      "headword": "이야기",
+      "part_of_speech": "noun",
+      "level": "beginner",
+      "theme": "関係・会話",
+      "meaning_ids": [
+        "8c09f96b-5ddc-4864-81ca-017d0c6fb7c5"
+      ],
+      "example_ids": [
+        "0bdd1614-9e84-429b-aff3-31b1bea74d5d",
+        "f918346a-7085-4444-8ce7-de68edca8bfe"
+      ]
+    },
+    {
+      "id": "643bbeeb-8ade-4996-aa04-868486acae98",
+      "headword": "질문",
+      "part_of_speech": "noun",
+      "level": "beginner",
+      "theme": "関係・会話",
+      "meaning_ids": [
+        "5829d846-1156-4c0c-8fb7-1f2d7d6ebf4f"
+      ],
+      "example_ids": [
+        "e5b7f42b-2cdc-4913-82bd-016a0852364b",
+        "597700d7-03de-4587-82f5-64471162ceea"
+      ]
+    },
+    {
+      "id": "a82bb9b3-e8bd-4c5e-a8c4-3176c41407bc",
+      "headword": "대답",
+      "part_of_speech": "noun",
+      "level": "beginner",
+      "theme": "関係・会話",
+      "meaning_ids": [
+        "f33aceed-3e97-4f0c-ba42-1cebcd6dd4f0"
+      ],
+      "example_ids": [
+        "b0c0ee6e-782e-426c-bde0-9bc6f1de93b6",
+        "6694dfe2-b8e5-463e-89e1-a1bd0440ab8a"
+      ]
+    },
+    {
+      "id": "939a0a97-4495-4021-9dd9-6654cf0cac22",
+      "headword": "소식",
+      "part_of_speech": "noun",
+      "level": "beginner",
+      "theme": "関係・会話",
+      "meaning_ids": [
+        "64a9dce3-0942-4228-bac1-019749dfa374"
+      ],
+      "example_ids": [
+        "70904600-576f-4b1b-a173-7836e1bd05d8",
+        "e9402a62-52c7-4e06-af65-5ba82cf15302"
+      ]
+    },
+    {
+      "id": "6c2008a4-e4d3-4fd6-ba23-caecf62d7d80",
+      "headword": "기분",
+      "part_of_speech": "noun",
+      "level": "beginner",
+      "theme": "関係・会話",
+      "meaning_ids": [
+        "6d9ccc2b-fa71-49f1-898f-5e42fb55aa80"
+      ],
+      "example_ids": [
+        "adaa4756-7dea-49d1-83c1-6d2fbdf56756",
+        "f6b128ae-0307-43fb-9233-6cde627802fa"
+      ]
+    },
+    {
+      "id": "0a13c54a-154c-4c6b-993b-45872d82d594",
+      "headword": "걱정",
+      "part_of_speech": "noun",
+      "level": "beginner",
+      "theme": "関係・会話",
+      "meaning_ids": [
+        "4d97e53d-46fd-471f-a0e0-ffd3a394a785"
+      ],
+      "example_ids": [
+        "5f485126-542a-43fa-afc5-f62b2a59c7ff",
+        "386f0aa4-6966-4248-a5d9-c31021b7f5ce"
+      ]
+    },
+    {
+      "id": "b0570f1f-a9d9-401b-8983-b7adb10f607a",
+      "headword": "시험",
+      "part_of_speech": "noun",
+      "level": "beginner",
+      "theme": "学校・職場",
+      "meaning_ids": [
+        "2669f36a-03a7-44a4-882d-9b1b94790352"
+      ],
+      "example_ids": [
+        "eb00d76c-aba4-4572-8994-4e5019180768",
+        "c79c9b43-e53f-4fc2-b2a0-3a6f0c4134b7"
+      ]
+    },
+    {
+      "id": "fdcf5110-45c5-45f4-bf97-a0c5bccf3f5f",
+      "headword": "숙제",
+      "part_of_speech": "noun",
+      "level": "beginner",
+      "theme": "学校・職場",
+      "meaning_ids": [
+        "f1fc8e3e-1728-4b29-86e3-01e1ce67c290"
+      ],
+      "example_ids": [
+        "57e2887e-885c-4bc2-ad66-60fe2ad0d9ab",
+        "cd3e56eb-cb71-42e2-bac4-87fa5ed9f729"
+      ]
+    },
+    {
+      "id": "a55c0227-183c-4904-95a3-ad6f7f27ca0c",
+      "headword": "과제",
+      "part_of_speech": "noun",
+      "level": "beginner",
+      "theme": "学校・職場",
+      "meaning_ids": [
+        "12ddb001-9883-44f7-b743-da92339d0926"
+      ],
+      "example_ids": [
+        "0f99bd3f-1556-4c8e-8b46-c5bd1ff4075a",
+        "53b81646-7657-49ad-98a5-837c19f59572"
+      ]
+    },
+    {
+      "id": "ca71597b-99bf-4f2a-80ab-7c32ba8d4038",
+      "headword": "회의",
+      "part_of_speech": "noun",
+      "level": "beginner",
+      "theme": "学校・職場",
+      "meaning_ids": [
+        "5b6dca45-7087-4d05-98d3-b5a4aed39dd8"
+      ],
+      "example_ids": [
+        "fd56f01c-f15d-4dc3-889f-1006c872c9d9",
+        "1d9f654a-cfef-4809-ba9c-82a697f406d5"
+      ]
+    },
+    {
+      "id": "e307f57e-328e-41ff-ad88-73f55528011e",
+      "headword": "업무",
+      "part_of_speech": "noun",
+      "level": "beginner",
+      "theme": "学校・職場",
+      "meaning_ids": [
+        "84cf07de-d86e-4571-84bd-c9d96a20c2ff"
+      ],
+      "example_ids": [
+        "46ea0d01-36ca-42d6-ae94-2ebe7e98e690",
+        "76d9d641-5a2e-438e-997f-e09716e5d38e"
+      ]
+    },
+    {
+      "id": "5f6691e2-5750-4ce9-935f-1b68aef5b8d4",
+      "headword": "교실",
+      "part_of_speech": "noun",
+      "level": "beginner",
+      "theme": "学校・職場",
+      "meaning_ids": [
+        "0732214c-21a3-4ea8-be09-eaac98fe2b37"
+      ],
+      "example_ids": [
+        "f2f20fdf-05f5-49bd-bb6d-a0330e50d732",
+        "f6fe6f8c-8e97-41d1-a6f4-4588af16344a"
+      ]
+    },
+    {
+      "id": "6c37b533-d31f-4df1-a3d1-e2792fc9be0f",
+      "headword": "사무실",
+      "part_of_speech": "noun",
+      "level": "beginner",
+      "theme": "学校・職場",
+      "meaning_ids": [
+        "ae6a9795-3861-4b5c-a4ae-5332a4a0e961"
+      ],
+      "example_ids": [
+        "da4dd11d-c9b2-40b8-afb0-7ec1b280c6e7",
+        "f0dd6ceb-0a18-4e16-9370-1a7b5bba90a7"
+      ]
+    },
+    {
+      "id": "b53f9650-b333-404e-bccb-713356e3b395",
+      "headword": "출근하다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "学校・職場",
+      "meaning_ids": [
+        "4531ee8c-7e91-49c5-98ba-fb6b9b0b19a3"
+      ],
+      "example_ids": [
+        "16561e7a-115f-4351-b1d7-a6a635ff800b",
+        "5ec732a3-063f-4538-8422-9277fa91234c"
+      ]
+    },
+    {
+      "id": "dae69581-4a7d-437e-9207-48cc1673f89f",
+      "headword": "퇴근하다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "学校・職場",
+      "meaning_ids": [
+        "2a350fed-03f5-47ca-8cdb-a66ee002ebeb"
+      ],
+      "example_ids": [
+        "0309e1bd-8367-430d-b350-aa03a1c217e3",
+        "a4f351b3-6f41-4cac-961e-8e1f1c8a799b"
+      ]
+    },
+    {
+      "id": "445e65ae-eaf5-412e-a952-3a1d89a455fe",
+      "headword": "복습하다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "学校・職場",
+      "meaning_ids": [
+        "eeafa74f-ba0e-4617-b44a-14670d00afc6"
+      ],
+      "example_ids": [
+        "baf00a3c-c31b-474a-9383-b829ac150e3a",
+        "56692673-18d0-4c0a-9a47-58a25ca30d09"
+      ]
+    },
+    {
+      "id": "fbc5963c-a2c2-4bee-9c0e-91608990fe4c",
+      "headword": "예약",
+      "part_of_speech": "noun",
+      "level": "beginner",
+      "theme": "移動・旅行",
+      "meaning_ids": [
+        "8993ec35-b728-4bff-ab8c-c5769bd841af"
+      ],
+      "example_ids": [
+        "0a0b0971-89b3-4930-97fe-53f61c56bf28",
+        "972bbee0-777e-4b40-8963-b8b8fc919ea0"
+      ]
+    },
+    {
+      "id": "b1e66e8a-c0b3-45d8-971a-f5c23bdcdcb6",
+      "headword": "예약하다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "移動・旅行",
+      "meaning_ids": [
+        "9f8879a5-8598-4a1b-a859-494773c30ead"
+      ],
+      "example_ids": [
+        "02fe5cfb-60a2-45e0-826c-d8634d0f577d",
+        "f101898e-7b0a-4867-b5c4-304f8b09ce4b"
+      ]
+    },
+    {
+      "id": "37ee2f93-f619-4754-b381-b9b9fa40e1a4",
+      "headword": "숙소",
+      "part_of_speech": "noun",
+      "level": "beginner",
+      "theme": "移動・旅行",
+      "meaning_ids": [
+        "fd16271a-0a0a-462a-ae0c-da8b89b2399b"
+      ],
+      "example_ids": [
+        "d409e088-a3af-4fbd-b9da-cae7c295482c",
+        "8199d86a-4a8d-4361-b2c0-394089b8125c"
+      ]
+    },
+    {
+      "id": "9f98506f-27e9-429c-aa10-659ef4197a36",
+      "headword": "출발하다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "移動・旅行",
+      "meaning_ids": [
+        "04426832-f31e-4b7c-b471-242f7d5d23ac"
+      ],
+      "example_ids": [
+        "02ee7836-3b53-4f57-abea-02dcadd4632b",
+        "12b028fb-3310-4592-b597-ce6597840528"
+      ]
+    },
+    {
+      "id": "ff994d37-629a-4a49-821a-c3f581cdc02f",
+      "headword": "도착하다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "移動・旅行",
+      "meaning_ids": [
+        "f390fdec-60d5-4a1e-b780-829903f1d03d"
+      ],
+      "example_ids": [
+        "aa7609ba-6b07-4e9f-938a-514e53dbc8a6",
+        "6bdc9414-89cf-4e35-bd03-ef584dea4bb0"
+      ]
+    },
+    {
+      "id": "16f97974-aebf-4ebd-83a9-870c4af224c0",
+      "headword": "갈아타다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "移動・旅行",
+      "meaning_ids": [
+        "8022ad10-80cc-4966-bf8d-4401dfcd7c74"
+      ],
+      "example_ids": [
+        "ea7b00f1-19a6-4eff-91df-4ff3501cba61",
+        "bc9e5fd5-2f1c-4c4b-a424-de7738252c6e"
+      ]
+    },
+    {
+      "id": "544acc68-6471-4c0e-8d0c-2d10d8f1473e",
+      "headword": "정류장",
+      "part_of_speech": "noun",
+      "level": "beginner",
+      "theme": "移動・旅行",
+      "meaning_ids": [
+        "520a9f3f-51a2-429f-b07c-9ce9c4ee8225"
+      ],
+      "example_ids": [
+        "37460b16-2c70-4231-8a61-4fb2a0506770",
+        "f556ef2d-b5c7-4ac0-b379-571bfe04bd27"
+      ]
+    },
+    {
+      "id": "9402b352-2085-4b83-be6d-56c4fbb9d21a",
+      "headword": "짐",
+      "part_of_speech": "noun",
+      "level": "beginner",
+      "theme": "移動・旅行",
+      "meaning_ids": [
+        "29748d17-94b5-4c83-99d8-a5d4b8e418c4"
+      ],
+      "example_ids": [
+        "aaac103b-e9f7-4aec-baa6-e36890585936",
+        "9cb6cd1d-1360-4085-8598-a12eb812b7a3"
+      ]
+    },
+    {
+      "id": "d8a4484f-a7d9-45e6-a4ac-d41e6c349b58",
+      "headword": "여권",
+      "part_of_speech": "noun",
+      "level": "beginner",
+      "theme": "移動・旅行",
+      "meaning_ids": [
+        "485a52ca-3421-467d-8962-91758fbd1384"
+      ],
+      "example_ids": [
+        "a1ff1182-3d6c-4291-983d-c2dc3b5fb930",
+        "3962f80d-faf4-416e-9265-b888f062fbc2"
+      ]
+    },
+    {
+      "id": "a87ed67b-5cc6-4834-aff2-0ef6a072a980",
+      "headword": "입구",
+      "part_of_speech": "noun",
+      "level": "beginner",
+      "theme": "移動・旅行",
+      "meaning_ids": [
+        "66e8ee4a-0bfe-4b37-a03c-d7b75a708fa9"
+      ],
+      "example_ids": [
+        "a2a5b9fb-97f3-416d-81a9-db95b5f4e1a0",
+        "ca2e6636-e0b5-409d-a638-949321cf369b"
+      ]
+    },
+    {
+      "id": "1543d210-2b89-41ab-a4e2-81b5cfc8ceb8",
+      "headword": "출구",
+      "part_of_speech": "noun",
+      "level": "beginner",
+      "theme": "店・サービス",
+      "meaning_ids": [
+        "26815806-d0de-41fd-8824-f6df87387820"
+      ],
+      "example_ids": [
+        "7e993702-7cb0-46a0-97d2-518c19b1b52d",
+        "b47c86f5-ac38-4f05-88cd-d6efaaa1a020"
+      ]
+    },
+    {
+      "id": "bdbd4fab-3cb4-4955-9c73-0d39277bcf57",
+      "headword": "계산하다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "店・サービス",
+      "meaning_ids": [
+        "eff8a23a-d8f5-4b29-abea-9fa21df1c566",
+        "3b01f3fe-dd7f-4233-878d-ca3220b232d5"
+      ],
+      "example_ids": [
+        "5da55c49-e4d6-4399-b6b3-a168e7a001f9",
+        "7a3f351d-37a6-4081-a93f-98bcc73459a2"
+      ]
+    },
+    {
+      "id": "939b3e9c-cb00-4c24-98be-2fc78a902dae",
+      "headword": "주문하다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "店・サービス",
+      "meaning_ids": [
+        "6460c41c-d37c-4014-a01d-72df361e03f1"
+      ],
+      "example_ids": [
+        "e271c4c4-6cd0-404b-bde7-65b2fd731287",
+        "dfbd6252-8a0b-4581-b077-646c4b92bc6f"
+      ]
+    },
+    {
+      "id": "ca5102c1-c5a7-4be6-ab6a-9da672f7891b",
+      "headword": "교환하다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "店・サービス",
+      "meaning_ids": [
+        "b89fc57d-95c9-46f4-b264-8831c0b23304"
+      ],
+      "example_ids": [
+        "de1f7cf0-f11b-46c9-b4cd-df235d89cf79",
+        "a1862187-a61a-4711-9ab8-0f423958784a"
+      ]
+    },
+    {
+      "id": "d28057d7-ce65-40f0-8b01-5b18458ebcd1",
+      "headword": "문의하다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "店・サービス",
+      "meaning_ids": [
+        "822d84c6-3cb2-4cca-aba8-058dc4d8abe2"
+      ],
+      "example_ids": [
+        "788e2ffa-4160-49e2-b8d6-10db82d0799f",
+        "32ed14b1-b169-4679-ab1c-51a18a13a3b3"
+      ]
+    },
+    {
+      "id": "93a7aa2a-8816-451c-91a2-7bd04b83d22e",
+      "headword": "영수증",
+      "part_of_speech": "noun",
+      "level": "beginner",
+      "theme": "店・サービス",
+      "meaning_ids": [
+        "c6f9f409-c79c-4776-88d7-89cf056586e8"
+      ],
+      "example_ids": [
+        "129f61a0-9dea-4cb1-a54a-1490b06efc2b",
+        "a29ce230-20ca-44cd-b5b6-327f12610795"
+      ]
+    },
+    {
+      "id": "9b423e50-6859-4395-aa29-013acc11d117",
+      "headword": "현금",
+      "part_of_speech": "noun",
+      "level": "beginner",
+      "theme": "店・サービス",
+      "meaning_ids": [
+        "221abbe3-be10-46ea-b32c-993690fc0e87"
+      ],
+      "example_ids": [
+        "2c1a25bc-cca6-4d95-becf-c2832ee1d280",
+        "b04b9cc1-0980-49b7-bfee-6db88ddb0a90"
+      ]
+    },
+    {
+      "id": "0b6cc418-6938-4e0d-abaf-62c452b6e6e0",
+      "headword": "카드",
+      "part_of_speech": "noun",
+      "level": "beginner",
+      "theme": "店・サービス",
+      "meaning_ids": [
+        "5c461af4-a5e5-432f-b946-dd63b50115e8"
+      ],
+      "example_ids": [
+        "932461a3-4877-48f0-8db3-921fa5d6e67d",
+        "e342662c-59b6-4cdd-ac1c-26b941279257"
+      ]
+    },
+    {
+      "id": "47ac03cd-6201-4047-902b-07cad91e1c26",
+      "headword": "할인",
+      "part_of_speech": "noun",
+      "level": "beginner",
+      "theme": "店・サービス",
+      "meaning_ids": [
+        "cbc5817b-c2ca-48d0-8a6f-9468b103494d"
+      ],
+      "example_ids": [
+        "dd361402-5fae-41a9-aee5-8313ac9b89d4",
+        "745157c9-ff39-45d1-81a0-f7c7fe4e12ce"
+      ]
+    },
+    {
+      "id": "868250a3-81e7-468a-9e98-ff831a218818",
+      "headword": "사이즈",
+      "part_of_speech": "noun",
+      "level": "beginner",
+      "theme": "店・サービス",
+      "meaning_ids": [
+        "1e4b92f1-8aa3-481c-9a19-d5b49cc5c33d"
+      ],
+      "example_ids": [
+        "f56f6e39-9713-4b25-8b7c-747047ee4b50",
+        "c02fb946-9fe8-4304-9f94-6c74aee32f22"
+      ]
+    },
+    {
+      "id": "afde5c69-eaf6-4b6a-9f18-ef53de69057f",
+      "headword": "머리",
+      "part_of_speech": "noun",
+      "level": "beginner",
+      "theme": "体・健康",
+      "meaning_ids": [
+        "59f6000b-b371-46b0-97b8-24cc879bcd88",
+        "0c5d5875-2191-4512-ae24-bd059e3a53b5"
+      ],
+      "example_ids": [
+        "1286171b-5f69-47d2-af9e-c90be9ba976a",
+        "96860067-0687-4740-be4f-7ce1be3aa75b"
+      ]
+    },
+    {
+      "id": "d5ebf1fa-746c-48f3-8502-58bd81ab4e5b",
+      "headword": "손",
+      "part_of_speech": "noun",
+      "level": "beginner",
+      "theme": "体・健康",
+      "meaning_ids": [
+        "6097ee0a-d0c4-4fd0-8aca-f6ed09efa2d8"
+      ],
+      "example_ids": [
+        "583e1f05-025c-4472-b8b3-d4ce7cc22040",
+        "8337d04e-d8e5-44b9-a153-3d8fe4bed4d7"
+      ]
+    },
+    {
+      "id": "1b48e38b-59fc-42d9-920b-958408dabc93",
+      "headword": "발",
+      "part_of_speech": "noun",
+      "level": "beginner",
+      "theme": "体・健康",
+      "meaning_ids": [
+        "36e1b2be-3d60-4743-83ad-a3b2a5f6281f"
+      ],
+      "example_ids": [
+        "c0a78969-5cce-4e5e-9ec2-c90a86d05980",
+        "9dfe46ed-76f0-4bce-8278-0efe1440d3f2"
+      ]
+    },
+    {
+      "id": "904540ed-bd3e-4297-9b9d-874308aa5213",
+      "headword": "몸",
+      "part_of_speech": "noun",
+      "level": "beginner",
+      "theme": "体・健康",
+      "meaning_ids": [
+        "e52df021-d9df-46a1-a2dc-c8a02e47b478"
+      ],
+      "example_ids": [
+        "810b4eb8-51fd-474b-8e29-13c648607f4d",
+        "3cda46b7-9ef6-41d6-8f80-96fce26c3c39"
+      ]
+    },
+    {
+      "id": "5bf2d3be-10b6-4e05-9cbb-409f0d143ed6",
+      "headword": "감기",
+      "part_of_speech": "noun",
+      "level": "beginner",
+      "theme": "体・健康",
+      "meaning_ids": [
+        "9dbfa5f5-5ab5-4037-a1f5-ffea2adf6f4c"
+      ],
+      "example_ids": [
+        "b999433a-7f3a-4aaf-bb3f-7aacd7fdbc31",
+        "248bad5f-ae80-4d90-8c03-4af524ac5d3e"
+      ]
+    },
+    {
+      "id": "18387517-7c41-4038-832f-6b83c1354c73",
+      "headword": "기침",
+      "part_of_speech": "noun",
+      "level": "beginner",
+      "theme": "体・健康",
+      "meaning_ids": [
+        "8284493d-ca19-4287-b910-b23feff8a7c7"
+      ],
+      "example_ids": [
+        "778dc6b2-1381-483e-8c0b-372c5ad846d7",
+        "d1fc0056-3032-442f-a715-a546ef79098b"
+      ]
+    },
+    {
+      "id": "a3982f29-aba0-4d98-b69f-05855f7170e0",
+      "headword": "건강하다",
+      "part_of_speech": "adjective",
+      "level": "beginner",
+      "theme": "体・健康",
+      "meaning_ids": [
+        "39496bba-4a03-4bf5-ae6c-4142fa5e68f2"
+      ],
+      "example_ids": [
+        "a36d9503-18ee-427f-ad3a-312e571aa838",
+        "8932811b-c096-42ea-b2f6-65b173e02444"
+      ]
+    },
+    {
+      "id": "ae76108c-2015-47ba-a6a2-ac73d38dcc9c",
+      "headword": "낫다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "体・健康",
+      "meaning_ids": [
+        "2efc8b67-1fe8-4bcd-aea4-160b0217035d"
+      ],
+      "example_ids": [
+        "f1002b11-a4ee-45bc-a0e8-c1d0dd61955d",
+        "3557cba4-8ec1-4860-9077-7891948dcfc0"
+      ]
+    },
+    {
+      "id": "cf3341f9-6339-44e9-93ff-316b0eea0c27",
+      "headword": "다치다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "体・健康",
+      "meaning_ids": [
+        "27632e3b-cf87-4a28-aefa-a72ac1fd2129"
+      ],
+      "example_ids": [
+        "9740a1b7-efe3-4a1a-8944-2fc5192c5132",
+        "f3b29af2-405a-47d6-a8cd-e4bd0ac70de3"
+      ]
+    },
+    {
+      "id": "fc9e0318-937b-4fb1-ae0d-c9707bf44108",
+      "headword": "운동하다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "体・健康",
+      "meaning_ids": [
+        "0749c05b-7854-4e06-b5e4-52fb82715a0d"
+      ],
+      "example_ids": [
+        "39339348-c22f-4977-8486-037ecf8f4623",
+        "037caa36-0bf9-4d0d-b9f0-cead30a7ffc8"
+      ]
+    },
+    {
+      "id": "bb1057ce-6f1e-423f-872a-eff99d6d9c1d",
+      "headword": "깨끗하다",
+      "part_of_speech": "adjective",
+      "level": "beginner",
+      "theme": "性質・感情",
+      "meaning_ids": [
+        "a2297ab0-4d70-407a-956e-6df54bc4e95e"
+      ],
+      "example_ids": [
+        "9574f04f-c122-436b-b474-a38297706898",
+        "707376c0-693f-4919-b4dc-40deaa19f6b5"
+      ]
+    },
+    {
+      "id": "4e0abd17-6a91-406d-be12-55a3f00c5c0e",
+      "headword": "더럽다",
+      "part_of_speech": "adjective",
+      "level": "beginner",
+      "theme": "性質・感情",
+      "meaning_ids": [
+        "9b163173-a5fa-4401-b9aa-0b0348797b78"
+      ],
+      "example_ids": [
+        "059f4e6b-9176-48a4-a66e-56c0128296a4",
+        "9ccb2297-d23e-4511-a8b7-b426e3cbbe98"
+      ]
+    },
+    {
+      "id": "e681790d-5ded-4623-8218-695cad6a6948",
+      "headword": "조용하다",
+      "part_of_speech": "adjective",
+      "level": "beginner",
+      "theme": "性質・感情",
+      "meaning_ids": [
+        "d6085474-3bd0-4c40-8f4f-e8341b31bdcf"
+      ],
+      "example_ids": [
+        "b45561c2-347d-4aca-9372-ed6414385f2d",
+        "e28d8afd-0ca3-4a27-82fb-6052412c24c7"
+      ]
+    },
+    {
+      "id": "bbe99044-6116-4156-820f-ac07505a65de",
+      "headword": "시끄럽다",
+      "part_of_speech": "adjective",
+      "level": "beginner",
+      "theme": "性質・感情",
+      "meaning_ids": [
+        "78742286-ff8c-4346-8a65-658f0a2facf0"
+      ],
+      "example_ids": [
+        "7eb2349d-2188-4349-b1e7-dfa0fc962c2b",
+        "b5130f56-c51b-4ff0-8003-79043f0847af"
+      ]
+    },
+    {
+      "id": "da08f85f-0917-44ba-a3ba-87a91b9b92d4",
+      "headword": "친절하다",
+      "part_of_speech": "adjective",
+      "level": "beginner",
+      "theme": "性質・感情",
+      "meaning_ids": [
+        "28b17173-1508-4a02-b7f6-4e1019f81f9a"
+      ],
+      "example_ids": [
+        "2d4baa6d-7528-4a04-a615-71290837731e",
+        "e1ca939a-e0eb-4b85-9028-e95bc4e94394"
+      ]
+    },
+    {
+      "id": "5ef58152-f7b9-4ec7-bd57-a05cc7f403a7",
+      "headword": "친하다",
+      "part_of_speech": "adjective",
+      "level": "beginner",
+      "theme": "性質・感情",
+      "meaning_ids": [
+        "122c3bbb-f711-4489-88eb-90e0515f74f1"
+      ],
+      "example_ids": [
+        "9fd62e74-43ab-4701-a6e2-ca22661a3005",
+        "beb09eab-5e77-4063-aad8-bfa0cee1b0b0"
+      ]
+    },
+    {
+      "id": "aeabb47d-fa7f-4100-9265-e004d189a1dc",
+      "headword": "재미있다",
+      "part_of_speech": "adjective",
+      "level": "beginner",
+      "theme": "性質・感情",
+      "meaning_ids": [
+        "0112aee2-5390-4a4a-bacd-77c0e368f3fd"
+      ],
+      "example_ids": [
+        "42722e24-fd64-41e3-baf5-17c0f8f9b0cd",
+        "f8c22b55-dcb6-495d-b7c1-657622b9fd09"
+      ]
+    },
+    {
+      "id": "a222ca16-3140-4e20-8773-8ae39daae9e5",
+      "headword": "재미없다",
+      "part_of_speech": "adjective",
+      "level": "beginner",
+      "theme": "性質・感情",
+      "meaning_ids": [
+        "c2e57e83-7433-461a-9503-c9b800ccb078"
+      ],
+      "example_ids": [
+        "8c317d5e-5ee6-486d-8662-ff3d4ea51c01",
+        "9b3728d6-6cb2-4557-8d4e-44b52482f776"
+      ]
+    },
+    {
+      "id": "0485bc5f-6abb-4846-a203-86ad5c1eb175",
+      "headword": "외롭다",
+      "part_of_speech": "adjective",
+      "level": "beginner",
+      "theme": "性質・感情",
+      "meaning_ids": [
+        "26da7356-1a7e-4fde-9b91-d5c1931f65a4"
+      ],
+      "example_ids": [
+        "30a9f2b6-75ab-4095-a917-48376b22ec3c",
+        "f391d8e5-9806-4218-81e3-c633a6e3b42f"
+      ]
+    },
+    {
+      "id": "10983a2d-4a2b-499a-970b-597408097902",
+      "headword": "부끄럽다",
+      "part_of_speech": "adjective",
+      "level": "beginner",
+      "theme": "性質・感情",
+      "meaning_ids": [
+        "d4822ca2-0055-474f-b508-2c1cb4bb1753"
+      ],
+      "example_ids": [
+        "e3567d57-c794-44cb-a8c1-ef6a04cc0e50",
+        "22bd9b05-0e7b-403f-8ab0-4798445e96bb"
+      ]
+    },
+    {
+      "id": "32dc9f8e-b4e2-407e-bbcd-174d2265eca5",
+      "headword": "무겁다",
+      "part_of_speech": "adjective",
+      "level": "beginner",
+      "theme": "状態・変化",
+      "meaning_ids": [
+        "9d5daa85-f5f8-4572-afe3-3027763ab986"
+      ],
+      "example_ids": [
+        "3da5bf7f-3ba8-495d-b3a1-24075e751fff",
+        "ab9d3d38-831c-4aec-a183-0f08145a4544"
+      ]
+    },
+    {
+      "id": "a4369811-e09a-46c2-8e32-c442d42333a3",
+      "headword": "가볍다",
+      "part_of_speech": "adjective",
+      "level": "beginner",
+      "theme": "状態・変化",
+      "meaning_ids": [
+        "489a3c01-1883-468d-b09c-0f71d4a27008"
+      ],
+      "example_ids": [
+        "cdce2bf5-75d3-40bd-ae8e-d1f6d433e9c0",
+        "40c06870-3687-4dbe-8a30-4d04572d2c06"
+      ]
+    },
+    {
+      "id": "4aafcc31-ed11-4899-aaab-1df8291e03d0",
+      "headword": "넓다",
+      "part_of_speech": "adjective",
+      "level": "beginner",
+      "theme": "状態・変化",
+      "meaning_ids": [
+        "803f853d-a677-4a1c-b32b-6fabfc226c4a"
+      ],
+      "example_ids": [
+        "0fdbd13e-1d30-4485-a2f5-755a38b32b87",
+        "dae4f0d9-4695-4bd2-9278-7de29cfec389"
+      ]
+    },
+    {
+      "id": "0d98c37e-f704-42b5-ba7d-2ecc2879559e",
+      "headword": "좁다",
+      "part_of_speech": "adjective",
+      "level": "beginner",
+      "theme": "状態・変化",
+      "meaning_ids": [
+        "7759afbd-92f3-4163-af0b-e7b0a70ad2fa"
+      ],
+      "example_ids": [
+        "934be271-9141-4717-8140-d114410da9b8",
+        "d8ee15fd-a5df-4eeb-9fb2-6daad03516be"
+      ]
+    },
+    {
+      "id": "f49756ed-cf72-45be-9f7b-b1b6c03ec007",
+      "headword": "따뜻하다",
+      "part_of_speech": "adjective",
+      "level": "beginner",
+      "theme": "状態・変化",
+      "meaning_ids": [
+        "6940477c-47a7-47ef-9284-0a09b3ae0981"
+      ],
+      "example_ids": [
+        "2d231642-4f5a-41b2-9104-e836b5654b59",
+        "90e60365-1119-491a-ae35-49b17ebd64f4"
+      ]
+    },
+    {
+      "id": "6b8aa70d-c1bc-4ae3-9154-89d21624aac2",
+      "headword": "시원하다",
+      "part_of_speech": "adjective",
+      "level": "beginner",
+      "theme": "状態・変化",
+      "meaning_ids": [
+        "be88b35c-7ed6-4953-8098-6be3d156d88e",
+        "1ea1674b-b83a-412c-9df9-ae153ac9f30c"
+      ],
+      "example_ids": [
+        "098f7003-0017-4fde-a004-41bbabe56b70",
+        "6bd113a9-91de-42ec-bd0b-05348880274c"
+      ]
+    },
+    {
+      "id": "eb8344a6-0526-44ac-996a-4fab50b8505c",
+      "headword": "다르다",
+      "part_of_speech": "adjective",
+      "level": "beginner",
+      "theme": "状態・変化",
+      "meaning_ids": [
+        "53b8582b-9e1c-41ae-bbf8-fa964af2358f"
+      ],
+      "example_ids": [
+        "0c1b5527-f5ae-43e3-bfd0-7fc1333347f9",
+        "3a72d7c8-9a25-484d-afdc-98dabe4bf74c"
+      ]
+    },
+    {
+      "id": "89b5dab4-ec06-48a2-83b3-ac0c22b86044",
+      "headword": "편하다",
+      "part_of_speech": "adjective",
+      "level": "beginner",
+      "theme": "状態・変化",
+      "meaning_ids": [
+        "e3e9f564-481d-4ef7-a2b0-1cba096c6204"
+      ],
+      "example_ids": [
+        "03b46ad5-a1ea-4c0d-bf97-6b0459484784",
+        "eb903ee4-cecb-4047-91f5-716b3df5eb05"
+      ]
+    },
+    {
+      "id": "917c98d7-5a65-413a-8dfd-40d25609342f",
+      "headword": "불편하다",
+      "part_of_speech": "adjective",
+      "level": "beginner",
+      "theme": "状態・変化",
+      "meaning_ids": [
+        "ee13f3e9-f6e5-4350-83c3-5dd6a453d4f2"
+      ],
+      "example_ids": [
+        "69783d67-55a0-4fbd-b71d-98b20c557059",
+        "b144c3c3-bf56-4507-a304-0dc90f2b257e"
+      ]
+    },
+    {
+      "id": "18396e15-163c-4a82-bf27-9fb0b7e19b94",
+      "headword": "필요하다",
+      "part_of_speech": "adjective",
+      "level": "beginner",
+      "theme": "状態・変化",
+      "meaning_ids": [
+        "5ea76f02-f77f-413e-849a-7a7db765dcd9"
+      ],
+      "example_ids": [
+        "c2d5840b-d236-498c-8c99-82e983ee3099",
+        "98c1e42c-cb39-451b-9cfd-2b0eb37c42ee"
+      ]
+    },
+    {
+      "id": "d2e08e5f-7876-4d73-90bb-4044a6b1f854",
+      "headword": "가끔",
+      "part_of_speech": "adverb",
+      "level": "beginner",
+      "theme": "よく使う副詞",
+      "meaning_ids": [
+        "779b6947-cf75-4335-a14d-415638211c00"
+      ],
+      "example_ids": [
+        "c4ab9f84-b13a-46eb-9424-72afddfa2684",
+        "2bff7948-c342-4c46-b761-ed5c694f5d1f"
+      ]
+    },
+    {
+      "id": "4f300c89-407f-4316-8009-419e2174eaf2",
+      "headword": "보통",
+      "part_of_speech": "adverb",
+      "level": "beginner",
+      "theme": "よく使う副詞",
+      "meaning_ids": [
+        "926ade70-0cf6-4886-bba1-584ffdc0f2c8"
+      ],
+      "example_ids": [
+        "7f864b01-4f81-4da0-9b78-30d1dc4d0855",
+        "8f30a819-b101-4a77-9d33-7cc60fa3fc38"
+      ]
+    },
+    {
+      "id": "4716daee-16b9-48c5-9ba9-d9776a645773",
+      "headword": "특히",
+      "part_of_speech": "adverb",
+      "level": "beginner",
+      "theme": "よく使う副詞",
+      "meaning_ids": [
+        "773ad07b-d084-42e9-8382-7b5c74fad2f0"
+      ],
+      "example_ids": [
+        "997c00d7-fc4d-473a-9097-0b65c456c2e8",
+        "0c3014bf-d5b2-4f61-8051-6066cdbbca0e"
+      ]
+    },
+    {
+      "id": "c08d31a0-4ad7-4420-8501-ea4330f3aaca",
+      "headword": "꼭",
+      "part_of_speech": "adverb",
+      "level": "beginner",
+      "theme": "よく使う副詞",
+      "meaning_ids": [
+        "53b63920-9100-4b19-a671-b916719502df"
+      ],
+      "example_ids": [
+        "65a28d6f-2aaa-49e7-925e-aa34c871b153",
+        "9289101e-db7c-4981-b3b5-65d867370b99"
+      ]
+    },
+    {
+      "id": "634a4043-c9bd-405b-b292-56513de545c2",
+      "headword": "아마",
+      "part_of_speech": "adverb",
+      "level": "beginner",
+      "theme": "よく使う副詞",
+      "meaning_ids": [
+        "f6898ef2-f832-4d3b-9683-70904b6526bb"
+      ],
+      "example_ids": [
+        "cbca9acf-8e41-4144-af6f-5e20aad67ca4",
+        "056ef613-4d7a-454c-89e6-68bb6409bbca"
+      ]
+    },
+    {
+      "id": "7ed3a12f-5996-436c-bd33-d9cb8ed2fbbe",
+      "headword": "계속",
+      "part_of_speech": "adverb",
+      "level": "beginner",
+      "theme": "よく使う副詞",
+      "meaning_ids": [
+        "0b321145-613f-4f4f-8a71-45f139e6ce80"
+      ],
+      "example_ids": [
+        "3b89fd53-b391-47bd-addb-2ebd7c39a88f",
+        "6187d431-5f4a-41c0-8853-c2f8dbedc11d"
+      ]
+    },
+    {
+      "id": "b5e0316c-5ce5-4266-99b3-d50ed403dadf",
+      "headword": "함부로",
+      "part_of_speech": "adverb",
+      "level": "beginner",
+      "theme": "よく使う副詞",
+      "meaning_ids": [
+        "9b63dd1b-e519-4998-b46d-b2bae3c057c4"
+      ],
+      "example_ids": [
+        "5f4a7b01-4dce-4452-8f9c-11830b2c4860",
+        "15e477cf-7f21-4c17-9568-3f2887b7df84"
+      ]
+    },
+    {
+      "id": "50a1af08-a2b6-4045-aa16-98f0a05dbb37",
+      "headword": "미리",
+      "part_of_speech": "adverb",
+      "level": "beginner",
+      "theme": "よく使う副詞",
+      "meaning_ids": [
+        "5c25bfc1-072b-4759-a7c5-eb83e0f8a783"
+      ],
+      "example_ids": [
+        "b6ebb2f7-874c-416e-8c4c-5792c651e1a3",
+        "f499dc1e-a6ae-40f5-a963-76438bdcd940"
+      ]
+    },
+    {
+      "id": "317e44d0-ae08-4d2b-bc91-a68cfd76631b",
+      "headword": "따로",
+      "part_of_speech": "adverb",
+      "level": "beginner",
+      "theme": "よく使う副詞",
+      "meaning_ids": [
+        "20b7ba2f-59cc-401d-991a-7777983c5ec7"
+      ],
+      "example_ids": [
+        "6da6acdb-c85c-4d74-b77d-4d439647570c",
+        "9229803f-4eaa-47cb-b6a2-600eaa57fdcf"
+      ]
+    },
+    {
+      "id": "ef7d70d1-04f8-4712-820b-cdea6fc04416",
+      "headword": "서로",
+      "part_of_speech": "adverb",
+      "level": "beginner",
+      "theme": "よく使う副詞",
+      "meaning_ids": [
+        "91243a25-a3e8-4d86-9b90-38efa80bb28f"
+      ],
+      "example_ids": [
+        "77d6fef5-b235-408f-956f-dcdac857ad97",
+        "631ec73a-e0ad-48a7-a403-915dccf782f5"
+      ]
+    },
+    {
+      "id": "7edda9ca-9455-40a4-be09-aa4bc434e5ab",
+      "headword": "시작하다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "動作を広げる",
+      "meaning_ids": [
+        "32d9a952-588f-462d-bba9-658062bf43a5"
+      ],
+      "example_ids": [
+        "55f35bab-f707-441e-81fc-489bcef2ae4d",
+        "eafdeaad-74c9-42cf-80aa-cfddc3cb9b45"
+      ]
+    },
+    {
+      "id": "e288c7ed-03ea-4f74-9c19-d66fcb1dfc00",
+      "headword": "끝나다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "動作を広げる",
+      "meaning_ids": [
+        "78d09c79-42c5-420c-a505-abb1103e4961"
+      ],
+      "example_ids": [
+        "9e132be6-5859-401e-9796-bef1f9b778a9",
+        "30a3bf48-f288-4d3d-a0a9-5596e0600fa1"
+      ]
+    },
+    {
+      "id": "02ba0cfc-f8ee-4a97-85f0-40528d047dd2",
+      "headword": "끝내다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "動作を広げる",
+      "meaning_ids": [
+        "940e3765-f13a-437c-bbcb-e8afadd88288"
+      ],
+      "example_ids": [
+        "e29c3519-18d0-4b09-80bf-2ae039c8f491",
+        "7b5ccc9a-7868-4d4d-a6de-59d94803d4ee"
+      ]
+    },
+    {
+      "id": "f78c72e8-a9a4-4c3a-8f3d-115a38d7f4d4",
+      "headword": "고르다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "動作を広げる",
+      "meaning_ids": [
+        "a876edcf-aeaa-4e37-8ee7-045cd71d2771"
+      ],
+      "example_ids": [
+        "af5675e4-0668-4dfb-b86b-8dfe92896b4f",
+        "ce178acb-19a5-46f0-9aa5-cda5af24231c"
+      ]
+    },
+    {
+      "id": "a5c62d7d-bcb2-4a6f-ba3a-40e7fd8428d1",
+      "headword": "자르다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "動作を広げる",
+      "meaning_ids": [
+        "691da0c9-0f4b-442c-820a-b44279f3d1c4"
+      ],
+      "example_ids": [
+        "6a683b06-5d12-4b33-9910-8abd09296038",
+        "3dbbcbbd-9dce-40a1-9918-2cf1bd8190c9"
+      ]
+    },
+    {
+      "id": "0a355e61-6dd6-4385-bab9-74a27b58a3bf",
+      "headword": "잃어버리다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "動作を広げる",
+      "meaning_ids": [
+        "252430df-f1fd-4752-9669-3b9b2eb2fcd2"
+      ],
+      "example_ids": [
+        "4f24b5ad-3b61-47d1-81a6-2c9b575359de",
+        "d1989496-201a-463d-9934-18c0046dc3db"
+      ]
+    },
+    {
+      "id": "d5a3a8ad-78ff-42bf-9f12-0f6cad167b8c",
+      "headword": "잊다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "動作を広げる",
+      "meaning_ids": [
+        "574e1ed3-61e6-4fce-bc8e-d5b921b8adaa"
+      ],
+      "example_ids": [
+        "580a95ac-f1d0-4020-8104-4f451f89e263",
+        "a4c64797-eb6e-46c2-8f3a-2509224468a3"
+      ]
+    },
+    {
+      "id": "372a1d89-ea73-4485-8d08-90cde060e382",
+      "headword": "기억하다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "動作を広げる",
+      "meaning_ids": [
+        "9f77e776-b9a7-451a-b0e8-d5aa1af8432a"
+      ],
+      "example_ids": [
+        "71825e8c-7675-4009-a0a0-f21dc072e314",
+        "3c3a1436-4c38-451e-8eff-38eb72e39ec8"
+      ]
+    },
+    {
+      "id": "91b7faa0-1493-40ee-b435-540d5896da67",
+      "headword": "알려주다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "動作を広げる",
+      "meaning_ids": [
+        "b40ddc8a-6d29-4c7e-8e7a-dd9296ba4082"
+      ],
+      "example_ids": [
+        "afdff558-754e-4195-85c7-c0b80540be54",
+        "7c3d6dcd-e29e-4b52-94c4-afeb03b1e665"
+      ]
+    },
+    {
+      "id": "01eede48-ef7f-4c8b-a436-df6dba0b5922",
+      "headword": "가르치다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "動作を広げる",
+      "meaning_ids": [
+        "f6e87874-8147-4e5d-b732-606d52e6f8cb"
+      ],
+      "example_ids": [
+        "3e4b87ab-ba04-476c-b24d-d9ae9fca5fa4",
+        "7ddd552e-94de-46c1-8034-91c493bfb9f0"
+      ]
+    },
+    {
+      "id": "9a27c378-2719-4c98-93c7-7d84a7c1d1fe",
+      "headword": "저것",
+      "part_of_speech": "pronoun",
+      "level": "intro",
+      "theme": "指す言葉・基本表現",
+      "meaning_ids": [
+        "1b1b4b39-f0ce-4a2e-a39e-7490c4198184"
+      ],
+      "example_ids": [
+        "5ed9a83e-c92e-4475-bd00-bc80b5385c31",
+        "a718ec23-2ec2-4400-b25d-018ef1f0456b"
+      ]
+    },
+    {
+      "id": "eb1bebab-033f-47d4-b7b9-39a7ea69c552",
+      "headword": "어느",
+      "part_of_speech": "determiner",
+      "level": "intro",
+      "theme": "指す言葉・基本表現",
+      "meaning_ids": [
+        "1e55074e-46d9-4c02-9cf0-6775090c9767"
+      ],
+      "example_ids": [
+        "ea06e38d-072a-4eca-acb3-64eecce34564",
+        "9d2dcc39-1321-4956-bbd2-7b980054c2a9"
+      ]
+    },
+    {
+      "id": "d5f6e3b9-7521-4206-8435-b55f2fb6bada",
+      "headword": "무슨",
+      "part_of_speech": "determiner",
+      "level": "intro",
+      "theme": "指す言葉・基本表現",
+      "meaning_ids": [
+        "f48c2365-8d37-4008-9cca-4bd0b75303cc"
+      ],
+      "example_ids": [
+        "79f1bc37-6fd8-4461-affd-6a3ecca2f8e8",
+        "effbe916-f231-49cd-afc2-aa5f06673217"
+      ]
+    },
+    {
+      "id": "0514447c-dc4b-4157-83d9-ad0ce08b7e51",
+      "headword": "이",
+      "part_of_speech": "determiner",
+      "level": "intro",
+      "theme": "指す言葉・基本表現",
+      "meaning_ids": [
+        "05d6b767-a83e-4cf1-9a00-63fdaab09d9b"
+      ],
+      "example_ids": [
+        "d8ceb15f-bf6c-46f2-b97b-0ff71b8c4a2c",
+        "4b75349d-6846-43c6-8f8f-aadf983ac918"
+      ]
+    },
+    {
+      "id": "453b13f7-3857-4ca9-8360-fc7e2304f542",
+      "headword": "그",
+      "part_of_speech": "determiner",
+      "level": "intro",
+      "theme": "指す言葉・基本表現",
+      "meaning_ids": [
+        "67bab68c-f5e2-4d70-8586-3136186018e4"
+      ],
+      "example_ids": [
+        "4db7c05c-f234-4fc8-8a41-4024fb66f536",
+        "1067c1c4-66a9-45b2-9f56-e9ec817d700b"
+      ]
+    },
+    {
+      "id": "ea0ec264-a477-4945-9fb2-92629e759e5f",
+      "headword": "저",
+      "part_of_speech": "determiner",
+      "level": "intro",
+      "theme": "指す言葉・基本表現",
+      "meaning_ids": [
+        "6d12cd84-7ace-4853-b2cc-f1653661976c"
+      ],
+      "example_ids": [
+        "478acc84-7855-455a-bbb9-5fafb28baaa6",
+        "780e7443-26d4-4296-a84b-70d399c373af"
+      ]
+    },
+    {
+      "id": "c754e80e-e5c2-4572-9139-e9f3396fab84",
+      "headword": "매일",
+      "part_of_speech": "adverb",
+      "level": "intro",
+      "theme": "指す言葉・基本表現",
+      "meaning_ids": [
+        "a816c3d7-079f-497c-bf0d-a1f17466c97a"
+      ],
+      "example_ids": [
+        "b1c01f0b-738c-43ba-8bf6-11a783aff9fa",
+        "d4b7c5d2-bbc0-4fea-840b-4fccf023354a"
+      ]
+    },
+    {
+      "id": "2045a50b-f094-4286-85a2-2eb33e61ea30",
+      "headword": "일찍",
+      "part_of_speech": "adverb",
+      "level": "intro",
+      "theme": "指す言葉・基本表現",
+      "meaning_ids": [
+        "1db93eea-899c-4f02-ad00-8207d9d42ae9"
+      ],
+      "example_ids": [
+        "2086b04a-5bd8-4777-ab04-549465c458da",
+        "bc97f2ba-dccd-4064-bdcd-e69488b71db3"
+      ]
+    },
+    {
+      "id": "afec327e-b979-4f6e-b226-d726b6ee5d6a",
+      "headword": "더",
+      "part_of_speech": "adverb",
+      "level": "intro",
+      "theme": "指す言葉・基本表現",
+      "meaning_ids": [
+        "c512da1a-9346-4513-ab20-3251651b3675"
+      ],
+      "example_ids": [
+        "f83c28b7-8b80-4a41-9917-764c0b912f51",
+        "fdf9a21f-8f75-4e8e-88ea-b48b3fbe07f4"
+      ]
+    },
+    {
+      "id": "41f6b2ab-70e3-488c-b019-2cab52d64fc4",
+      "headword": "덜",
+      "part_of_speech": "adverb",
+      "level": "intro",
+      "theme": "指す言葉・基本表現",
+      "meaning_ids": [
+        "4b786fd9-54e7-411a-accd-1f985c144b5f"
+      ],
+      "example_ids": [
+        "74d3db54-4058-4d02-9830-fc36f7391609",
+        "7d203a3c-58ca-4bcb-8c2a-a29a63d45ce6"
+      ]
+    },
+    {
+      "id": "d81e86ce-89d1-4907-acd3-db1f15de71bc",
+      "headword": "끓이다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "料理・食事",
+      "meaning_ids": [
+        "0ad6b848-7d07-4c4a-8cf8-1582ba25a1a8"
+      ],
+      "example_ids": [
+        "4ab40682-8313-4b2a-b5a7-688e9aef4e8a",
+        "a9fca6c5-6186-4e7d-b8d5-52c6e70ff96f"
+      ]
+    },
+    {
+      "id": "fdf13fae-c3a0-4519-8650-65bd93940503",
+      "headword": "굽다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "料理・食事",
+      "meaning_ids": [
+        "9e209fe3-310f-4b01-a5b1-fe6c726d5986"
+      ],
+      "example_ids": [
+        "eafa606f-e4c9-43ac-aa00-41d664ca9820",
+        "1309e426-8029-4652-bd52-8cff6a883401"
+      ]
+    },
+    {
+      "id": "1d15b681-a08b-4f2d-893f-9cff2bc1be45",
+      "headword": "볶다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "料理・食事",
+      "meaning_ids": [
+        "8c09bf46-e31a-4471-8849-30e27d3c4b47"
+      ],
+      "example_ids": [
+        "f61930d7-f846-4cf8-b40e-d333abb0ec90",
+        "d4fc1aca-3791-417c-b88b-7eeb73ec43f0"
+      ]
+    },
+    {
+      "id": "68d07997-d7f9-400b-b2ab-3fa3fdfc1897",
+      "headword": "섞다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "料理・食事",
+      "meaning_ids": [
+        "54750fda-c5e6-48f8-9966-0261bd331c13"
+      ],
+      "example_ids": [
+        "9fef34bb-d59e-4fab-bc13-983b19a39641",
+        "eb093c38-de4c-4b56-969b-4a3d1ea06931"
+      ]
+    },
+    {
+      "id": "1c857528-caaf-4f63-9605-1905d8a08c4d",
+      "headword": "익다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "料理・食事",
+      "meaning_ids": [
+        "5b0c6814-aeaa-4c3f-bca0-ee0578004704",
+        "37902a19-94a0-452b-b728-0adb31a1072a"
+      ],
+      "example_ids": [
+        "a7e3e615-ee3d-480c-9ebf-93f7e35f2d3c",
+        "6348017f-b217-4ea7-a53a-052105d1de27"
+      ]
+    },
+    {
+      "id": "07e9fb84-64f3-4653-9bd7-9458b2a45b6e",
+      "headword": "맵다",
+      "part_of_speech": "adjective",
+      "level": "beginner",
+      "theme": "料理・食事",
+      "meaning_ids": [
+        "093b6543-5eec-4b01-ab07-7af2f81b4b0b"
+      ],
+      "example_ids": [
+        "65da48f5-7044-4a6d-8e7c-ca6ead583a6f",
+        "77d657c5-7085-41c6-8dcb-74985124e183"
+      ]
+    },
+    {
+      "id": "d5777c4f-698c-4d19-95c6-884461d1a06a",
+      "headword": "짜다",
+      "part_of_speech": "adjective",
+      "level": "beginner",
+      "theme": "料理・食事",
+      "meaning_ids": [
+        "47992a2a-205c-4f96-a065-d45861f41726"
+      ],
+      "example_ids": [
+        "132a98d8-a427-4ec5-942b-5d7f510ee9a5",
+        "9eded6a3-dbe1-4f84-90ab-edf935d53ff8"
+      ]
+    },
+    {
+      "id": "446971c0-151f-48f2-9016-eb2a3adf5808",
+      "headword": "달다",
+      "part_of_speech": "adjective",
+      "level": "beginner",
+      "theme": "料理・食事",
+      "meaning_ids": [
+        "72d50892-0260-4dce-afb9-1e18fc5ec1f3"
+      ],
+      "example_ids": [
+        "166a1d24-867b-4fa6-9948-a0f062c82f30",
+        "f1a7caa0-3ebe-4d8a-a11e-e0d9bafe1cf8"
+      ]
+    },
+    {
+      "id": "51347bd2-1d48-4e2d-99f4-2ea71073231d",
+      "headword": "싱겁다",
+      "part_of_speech": "adjective",
+      "level": "beginner",
+      "theme": "料理・食事",
+      "meaning_ids": [
+        "97cca2e3-ef48-4d87-80d0-d2da15bf271f"
+      ],
+      "example_ids": [
+        "0ae1f9c4-938c-4f30-b0a7-3316b16895b0",
+        "29e19e76-7e6a-4fc0-8e2e-791a32caa67b"
+      ]
+    },
+    {
+      "id": "91f3bccc-6355-4d39-b330-03bd4f2d7bbc",
+      "headword": "배부르다",
+      "part_of_speech": "adjective",
+      "level": "beginner",
+      "theme": "料理・食事",
+      "meaning_ids": [
+        "19848d97-1ab0-4298-bf55-4751c2b49929"
+      ],
+      "example_ids": [
+        "441ffbca-11ee-463f-a20b-b786d6524ba0",
+        "c416e72c-3b91-47cd-815c-2cd1e5d863e5"
+      ]
+    },
+    {
+      "id": "1075ba85-01c6-48f1-936c-b03289e10472",
+      "headword": "웃다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "気持ち・行動",
+      "meaning_ids": [
+        "dc3de943-e287-40b4-adf0-297513bf7ca4"
+      ],
+      "example_ids": [
+        "ee89910a-0f3a-4912-b320-f0e0e3d3354c",
+        "6fe32f4b-d9bf-499a-be54-3cbe77560565"
+      ]
+    },
+    {
+      "id": "ec30770c-3b82-4a4e-bb26-27f13a2fce8e",
+      "headword": "울다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "気持ち・行動",
+      "meaning_ids": [
+        "b62adaf5-bdc2-453c-8a75-c4b55d0b3474"
+      ],
+      "example_ids": [
+        "d9c961cc-3b3d-4e9b-aa91-b91cdab549ff",
+        "fbe5948d-263d-4104-b869-541c84f97d98"
+      ]
+    },
+    {
+      "id": "8d7de529-3f49-4c8d-946f-91c397b17e17",
+      "headword": "놀다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "気持ち・行動",
+      "meaning_ids": [
+        "eca1fc72-10c6-4275-85d7-5703ef6b8c8e"
+      ],
+      "example_ids": [
+        "56105761-b606-4e82-9396-d80bbc941be3",
+        "19830845-2712-4469-bd9d-00f18e070b3e"
+      ]
+    },
+    {
+      "id": "c0c91178-197f-46a7-a821-3255337ea2d7",
+      "headword": "놀라다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "気持ち・行動",
+      "meaning_ids": [
+        "b230974b-ea6e-42c5-a0be-339ae7d2c881"
+      ],
+      "example_ids": [
+        "e32f1033-c376-4aeb-9d2f-7f341e21d860",
+        "72784ef9-00c7-47c6-b1a1-c8111f4ec497"
+      ]
+    },
+    {
+      "id": "a1189637-cb95-4146-bc32-12d9c5548611",
+      "headword": "걱정하다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "気持ち・行動",
+      "meaning_ids": [
+        "e2889539-90f8-499e-9061-d504ff78b6e7"
+      ],
+      "example_ids": [
+        "b9211238-21cf-4ff5-9c13-67ad5bb4474a",
+        "0e3562c9-cf04-4768-a73b-4acd55e3dd9c"
+      ]
+    },
+    {
+      "id": "ab8b803c-6cfc-41fc-9703-7b470b453bf3",
+      "headword": "지키다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "気持ち・行動",
+      "meaning_ids": [
+        "d70f0209-8a12-4ddf-886d-d6409fed232e"
+      ],
+      "example_ids": [
+        "78dda4b3-4ec1-4b4f-88f6-0b8c23b40d66",
+        "b3c1346e-707d-4982-b9a7-5dec9961f359"
+      ]
+    },
+    {
+      "id": "4cd93b98-ae03-4ab3-a96c-c71701a2cfb0",
+      "headword": "원하다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "気持ち・行動",
+      "meaning_ids": [
+        "1e6fcca3-7fe4-4498-b843-ecd35f2052e1"
+      ],
+      "example_ids": [
+        "d6d0ecaa-812f-4733-9f32-e6e4acab2110",
+        "e3c98f46-2b81-4072-be65-2dbaf098923e"
+      ]
+    },
+    {
+      "id": "790f7efb-5d64-48fd-bd36-315a0034efaf",
+      "headword": "생각하다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "気持ち・行動",
+      "meaning_ids": [
+        "71dcfc48-4075-4321-81f2-81e9ffc038d4"
+      ],
+      "example_ids": [
+        "967e714a-fa96-41f6-bc20-6bcd5516d2e8",
+        "49c5a99b-9ce8-4b1c-977f-2ab9a6544842"
+      ]
+    },
+    {
+      "id": "8cee8dfd-d1df-4c90-bd93-2ff16d1c2c13",
+      "headword": "결정하다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "気持ち・行動",
+      "meaning_ids": [
+        "0d6c02ba-0b0d-4461-89b1-29a565647f52"
+      ],
+      "example_ids": [
+        "6bfa78a9-776b-45b0-a4dc-176e9870bafb",
+        "f99d6d84-c3a3-46a3-a381-0547281a8dc0"
+      ]
+    },
+    {
+      "id": "df8049d4-b62c-4d91-9b19-e72c40ed7a42",
+      "headword": "노력하다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "気持ち・行動",
+      "meaning_ids": [
+        "10c127ab-15d5-45f8-bf23-636edcd183c9"
+      ],
+      "example_ids": [
+        "19e51c17-8c94-4bc1-a104-a2553b8286e9",
+        "d67d7a24-dd65-4b52-9de9-e0bab3c12f16"
+      ]
+    },
+    {
+      "id": "1b7f773c-0b33-4c78-a8ca-c736bce02e71",
+      "headword": "건물",
+      "part_of_speech": "noun",
+      "level": "beginner",
+      "theme": "町・外出",
+      "meaning_ids": [
+        "64c3c8c8-a71f-4f00-9cc8-4c19a74e895f"
+      ],
+      "example_ids": [
+        "62fef7d3-4dd2-478b-b31e-08b18e3ab9e8",
+        "c9102c2b-2d87-4222-9e6a-aab59ea237ca"
+      ]
+    },
+    {
+      "id": "e84c6283-ea6b-4080-adab-5f59b3b4b276",
+      "headword": "미용실",
+      "part_of_speech": "noun",
+      "level": "beginner",
+      "theme": "町・外出",
+      "meaning_ids": [
+        "b798a0f7-12eb-4219-9400-58f5b7ef0bc6"
+      ],
+      "example_ids": [
+        "4b2f0ba2-1283-4bea-ab0e-dff53f4302ec",
+        "ddcea803-5d42-4bed-bcbb-729e5f49a804"
+      ]
+    },
+    {
+      "id": "92f941b9-c377-4f57-af5d-3136f396fd78",
+      "headword": "우편",
+      "part_of_speech": "noun",
+      "level": "beginner",
+      "theme": "町・外出",
+      "meaning_ids": [
+        "f907f56c-9061-4d5d-a5d9-066ef1be4957"
+      ],
+      "example_ids": [
+        "0366577e-fff5-42b2-b446-eb55b5981c45",
+        "c8738535-b4d9-4ed0-beae-722fd7ffc2e1"
+      ]
+    },
+    {
+      "id": "aeeea568-9814-4cb3-b549-dfe302d9d3ba",
+      "headword": "주소",
+      "part_of_speech": "noun",
+      "level": "beginner",
+      "theme": "町・外出",
+      "meaning_ids": [
+        "ac48aaa8-ca37-452c-b2c7-5673367b9859"
+      ],
+      "example_ids": [
+        "16119401-68ba-4acb-8d16-871c28ab1d06",
+        "fcbddc91-e976-457b-a088-ad89624915c8"
+      ]
+    },
+    {
+      "id": "3f77ccf3-6472-471c-ac6c-830b091f4a82",
+      "headword": "연락처",
+      "part_of_speech": "noun",
+      "level": "beginner",
+      "theme": "町・外出",
+      "meaning_ids": [
+        "e9d0d3fe-3bf3-4aea-a211-ea20aeb08606"
+      ],
+      "example_ids": [
+        "7a261a4d-81f3-429c-ad2b-d9ffe710ce36",
+        "bbde30e1-e9ad-4cb0-8a0c-b0cf5ca876c0"
+      ]
+    },
+    {
+      "id": "b8716586-bed8-4739-95ff-db4911291cbe",
+      "headword": "계단",
+      "part_of_speech": "noun",
+      "level": "beginner",
+      "theme": "町・外出",
+      "meaning_ids": [
+        "17977e5e-183f-45d4-b9f5-15ca7bbc7685"
+      ],
+      "example_ids": [
+        "5728ccb1-c364-4037-95ed-2242f58979a9",
+        "8ebe9bd1-f1e2-432b-825f-e55af75ecc7b"
+      ]
+    },
+    {
+      "id": "071d5103-a3c9-422e-adc2-02065f107236",
+      "headword": "엘리베이터",
+      "part_of_speech": "noun",
+      "level": "beginner",
+      "theme": "町・外出",
+      "meaning_ids": [
+        "7c2e0616-bede-4948-9b42-a93ba57f0303"
+      ],
+      "example_ids": [
+        "0c346451-2e9a-4d75-80cd-60898e59902b",
+        "f0f4a18b-5cfa-41c3-86d3-34f2205f5769"
+      ]
+    },
+    {
+      "id": "f4032eec-a7e7-40b1-957a-e62291ce9b26",
+      "headword": "신호등",
+      "part_of_speech": "noun",
+      "level": "beginner",
+      "theme": "町・外出",
+      "meaning_ids": [
+        "7d974c3e-9caf-4b44-808e-9045f4376356"
+      ],
+      "example_ids": [
+        "229a5b43-8c0e-47e6-95d6-d598fe595c74",
+        "b4480719-0f8a-4cbf-8868-e6286175c914"
+      ]
+    },
+    {
+      "id": "1770c4e4-f1c2-471e-aca7-6f2c2ec7d8e5",
+      "headword": "횡단보도",
+      "part_of_speech": "noun",
+      "level": "beginner",
+      "theme": "町・外出",
+      "meaning_ids": [
+        "dc3dc18c-7c38-41c6-a5c7-35d243b55ca5"
+      ],
+      "example_ids": [
+        "5e78a176-9572-4b51-b910-d73f8557e484",
+        "b5492365-8fdf-4f0b-99b4-1c1e5f4f0b26"
+      ]
+    },
+    {
+      "id": "624a2723-dbff-4088-83e6-2b94e7afc99b",
+      "headword": "건너다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "町・外出",
+      "meaning_ids": [
+        "9228e018-004f-4fae-8720-c7035bb00584"
+      ],
+      "example_ids": [
+        "31b4eeff-ba72-42fa-ae8f-58de54851b48",
+        "f5b98d90-59ff-4544-896c-683b837f448a"
+      ]
+    },
+    {
+      "id": "85963d06-989c-4f0d-837c-3c6e51d06114",
+      "headword": "일정",
+      "part_of_speech": "noun",
+      "level": "beginner",
+      "theme": "時間・予定",
+      "meaning_ids": [
+        "f12575c5-bad9-4659-8d87-9911e1492c94"
+      ],
+      "example_ids": [
+        "2531cfff-0b57-472c-bee0-f9fb8de00ddb",
+        "d47b9368-5fbe-4eab-b380-2a85f55698d8"
+      ]
+    },
+    {
+      "id": "e68abe39-1871-4d92-964f-eb11d6620e9f",
+      "headword": "휴일",
+      "part_of_speech": "noun",
+      "level": "beginner",
+      "theme": "時間・予定",
+      "meaning_ids": [
+        "674fabb4-4851-4276-a154-c94db353ba69"
+      ],
+      "example_ids": [
+        "60341d2d-285b-4dd3-8043-de477170d42b",
+        "7da3850b-4701-4816-abd0-dafc7f2eaeb5"
+      ]
+    },
+    {
+      "id": "73b81579-f9f1-42a0-a946-1ff0e0860e3b",
+      "headword": "방학",
+      "part_of_speech": "noun",
+      "level": "beginner",
+      "theme": "時間・予定",
+      "meaning_ids": [
+        "7f68b67b-0473-483e-8dc4-a7f4681f2d5d"
+      ],
+      "example_ids": [
+        "c49f4a7f-1d42-42a6-9fdf-ab3cfecc781f",
+        "120fdd3a-e175-44a9-b10a-02cd5a4f66af"
+      ]
+    },
+    {
+      "id": "59be5c35-6244-4d58-849f-9279f6a5b24e",
+      "headword": "휴가",
+      "part_of_speech": "noun",
+      "level": "beginner",
+      "theme": "時間・予定",
+      "meaning_ids": [
+        "57524bfd-5e50-4bdf-bb40-7fc597bda827"
+      ],
+      "example_ids": [
+        "eff48613-9b5e-4528-88c0-86ebff254dbe",
+        "477b7876-1dc4-4669-a478-d096ae40fca1"
+      ]
+    },
+    {
+      "id": "a4f84ed4-5e00-426b-a6a4-68dd227c1baa",
+      "headword": "다음",
+      "part_of_speech": "noun",
+      "level": "beginner",
+      "theme": "時間・予定",
+      "meaning_ids": [
+        "c1591075-3347-49b5-b365-3879f19aa2d1"
+      ],
+      "example_ids": [
+        "e8a2eb20-8f9e-440c-a001-adeafe763500",
+        "ffe6977a-166b-4623-bced-41624959eb56"
+      ]
+    },
+    {
+      "id": "9fbc9062-f048-4dae-98d9-f0271c3b7e49",
+      "headword": "처음",
+      "part_of_speech": "noun",
+      "level": "beginner",
+      "theme": "時間・予定",
+      "meaning_ids": [
+        "c7aad013-9887-4ff2-a21b-ed3014b0ce4f"
+      ],
+      "example_ids": [
+        "207235de-8504-44e1-ac67-aef5100b810b",
+        "89f3efcd-8c07-4975-8b3e-d30ae00b161f"
+      ]
+    },
+    {
+      "id": "a9d43694-148c-427d-8666-008211228c95",
+      "headword": "나중",
+      "part_of_speech": "noun",
+      "level": "beginner",
+      "theme": "時間・予定",
+      "meaning_ids": [
+        "151c4147-e1a2-4fc1-8588-71398c937301"
+      ],
+      "example_ids": [
+        "5d27fc86-7a0b-47d5-8bb2-c676e4511b3f",
+        "efcdbd38-796f-4951-8c79-be9124ac9a31"
+      ]
+    },
+    {
+      "id": "61108b42-e7aa-4c6d-8729-ae7729a35cb3",
+      "headword": "동안",
+      "part_of_speech": "noun",
+      "level": "beginner",
+      "theme": "時間・予定",
+      "meaning_ids": [
+        "da8c64e3-c74d-417a-8876-bafb6c545b5a"
+      ],
+      "example_ids": [
+        "654ed1cd-1ba4-45d3-80c7-79a1e5fa4102",
+        "01e78a03-5427-4a38-93a2-fd1a4e2c365a"
+      ]
+    },
+    {
+      "id": "af71ed7b-3392-4f9a-8325-486d051cff9c",
+      "headword": "잠깐",
+      "part_of_speech": "adverb",
+      "level": "beginner",
+      "theme": "時間・予定",
+      "meaning_ids": [
+        "ef00f390-8776-4535-a1f8-2dbf207e8b67"
+      ],
+      "example_ids": [
+        "bf9cfbe5-962f-48ad-8725-7c055797c58c",
+        "f5da88a0-d3b4-4b05-bd4a-b79ac8b26ea8"
+      ]
+    },
+    {
+      "id": "d2251478-f975-4660-8e79-2b2c221e8285",
+      "headword": "금방",
+      "part_of_speech": "adverb",
+      "level": "beginner",
+      "theme": "時間・予定",
+      "meaning_ids": [
+        "193996d5-70b5-4ba1-bd94-df95485ec241"
+      ],
+      "example_ids": [
+        "91a4b933-3107-4dd7-be6b-463731dfc169",
+        "94a21562-3bea-4ecf-a2fe-f8f132a968f6"
+      ]
+    },
+    {
+      "id": "9c07e8e9-3d28-4908-9dc4-104e78e7b6d9",
+      "headword": "올라가다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "移動と確認",
+      "meaning_ids": [
+        "4edbb98b-b760-4df1-b43f-7d1b012e9e68"
+      ],
+      "example_ids": [
+        "89cb01fe-f94e-4790-9fd1-c33cc56e3ca0",
+        "22305251-4fd1-4c6d-8284-a620e941379f"
+      ]
+    },
+    {
+      "id": "088d6796-851c-487f-80bb-3ad65ac418a2",
+      "headword": "내려가다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "移動と確認",
+      "meaning_ids": [
+        "5521851f-70d8-4e9c-a561-29df27b365f5"
+      ],
+      "example_ids": [
+        "3bf1a1c3-e679-4770-b8f6-eb1171f9241b",
+        "1196a4d1-4501-4c9c-af99-529d72d8d24b"
+      ]
+    },
+    {
+      "id": "93ff12a7-1905-4306-ab1c-84420f8b52bb",
+      "headword": "돌아가다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "移動と確認",
+      "meaning_ids": [
+        "b2e1de98-685f-486b-a2d6-276bec85ac7f"
+      ],
+      "example_ids": [
+        "d98fe1c8-e2f2-4aa0-a74c-21d08398ad65",
+        "518cc60d-cfce-469e-a4fb-d9bef773fa32"
+      ]
+    },
+    {
+      "id": "46809049-544b-446a-8898-f79f0a205d9a",
+      "headword": "돌아오다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "移動と確認",
+      "meaning_ids": [
+        "a8c551df-ca00-4494-90a2-adc870d65456"
+      ],
+      "example_ids": [
+        "98f32bf0-0579-423a-9c34-01907b846e05",
+        "a3b3c14e-5d81-452e-9496-dc6c8795b9a4"
+      ]
+    },
+    {
+      "id": "daf94795-a67c-4047-9ad7-5ce0f60962d4",
+      "headword": "가져가다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "移動と確認",
+      "meaning_ids": [
+        "28cde90a-b000-41dc-8493-ae62d04c6115"
+      ],
+      "example_ids": [
+        "3a615613-092e-4987-ad10-9601987d2036",
+        "47376905-33ab-4209-af86-66ff50e3ae16"
+      ]
+    },
+    {
+      "id": "1972a399-320c-4bd5-b53c-60914b1a12a1",
+      "headword": "가져오다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "移動と確認",
+      "meaning_ids": [
+        "40bd916a-a64a-436a-90ad-6f6344763966"
+      ],
+      "example_ids": [
+        "e29b111a-846f-4a67-a3eb-7550b6471bc7",
+        "73b222a3-8bd9-430e-802f-96bfed2823f3"
+      ]
+    },
+    {
+      "id": "3fba2e1f-868a-49ef-bb3b-261ffd92748b",
+      "headword": "확인하다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "移動と確認",
+      "meaning_ids": [
+        "e99db7fb-62c0-4071-a1dd-239a58f8975d"
+      ],
+      "example_ids": [
+        "26f22462-96ae-451f-9ea3-70d9a7039c6f",
+        "6254c999-17f4-4cf3-ba1f-c56a185956af"
+      ]
+    },
+    {
+      "id": "9e580ca6-2bb5-4e19-96f7-3f1f1ada4719",
+      "headword": "조심하다",
+      "part_of_speech": "verb",
+      "level": "beginner",
+      "theme": "移動と確認",
+      "meaning_ids": [
+        "0b7ae290-3b5b-45da-9622-162e506c360a"
+      ],
+      "example_ids": [
+        "692ea081-e001-4f23-b70b-be1c2e169e2d",
+        "1f5ac6db-54b9-4d16-b921-74df8c045091"
+      ]
+    },
+    {
+      "id": "89cbe675-3502-45c9-856b-fa1f853f26f6",
+      "headword": "늦다",
+      "part_of_speech": "adjective",
+      "level": "beginner",
+      "theme": "移動と確認",
+      "meaning_ids": [
+        "2dea1397-4b60-4a64-befe-5ab514625c4b"
+      ],
+      "example_ids": [
+        "7e9abc7b-4edb-4b83-b207-6a0bb9c6810d",
+        "10ffcb09-3bda-47dd-bbe8-4346fa315b73"
+      ]
+    },
+    {
+      "id": "69b72866-e438-44dd-aba1-7bd9e0608eb4",
+      "headword": "충분하다",
+      "part_of_speech": "adjective",
+      "level": "beginner",
+      "theme": "移動と確認",
+      "meaning_ids": [
+        "3477500c-0916-40d3-84e3-3d688ced8166"
+      ],
+      "example_ids": [
+        "afdd5ec6-3981-402d-93b2-9011fa7b3b06",
+        "8311d462-f61a-456c-8356-c95bb664200e"
+      ]
+    }
+  ],
+  "examples": [
+    "916f703a-f2cc-497b-899c-e3ae5a586d71",
+    "b522fd92-ad29-4abc-8779-2a63c9a834e0",
+    "df793d1b-4cb6-4efe-a2a3-9637da6ee63e",
+    "beb7fcd6-e152-4eaa-813a-e6e95c8a4646",
+    "579c0a4e-dc9d-4c33-a388-2c944f688eb3",
+    "ac591294-4aa2-49a9-8903-11a9f5f90621",
+    "c7564f7a-a4d5-4a4c-80b3-cdc33bad3840",
+    "ef80eff2-38a2-4c16-86bb-026db5075394",
+    "c15ded0c-901b-4eb2-ae3f-fa94f42fd2df",
+    "9a0a878f-34fe-4d7d-9af4-bbc3e34405b4",
+    "e3ea9b6f-03ef-499f-946c-a68aaf3ca9ad",
+    "c8337ea5-424a-439d-ba0c-f68b8bc2c385",
+    "3883b7a8-bcd9-431b-a149-e6ecc26930ae",
+    "f43afbf0-3c57-418d-8d8c-e09cf7f968f4",
+    "64c0834d-212f-47f7-9934-ca3f86c34ec0",
+    "3dcaab4a-a8c0-4a83-b70e-3156cf222103",
+    "98826fc1-ccf9-44eb-ac13-f018a8b79b64",
+    "a95fab1e-8ca0-46c1-a188-f04714e39e68",
+    "b208f951-f3ff-45b3-b136-4d49ba77147d",
+    "69a1244e-f620-49c6-8521-7a5d0b5760ca",
+    "820b4904-c71a-4236-bb3c-94c771d3e4c7",
+    "f6c1c8ea-0f1b-40e9-9cb9-48d474617895",
+    "70764066-c04a-42d2-9159-a7b7934eb884",
+    "d2e3ec72-7fbd-4df6-a8e0-17c525bbbbde",
+    "b9d38acd-aa76-403e-b1bb-633a840a584f",
+    "79e3db94-f9b6-4a93-8b7d-8150391edb55",
+    "7dc672c0-e341-47a3-9e55-8b0be4940547",
+    "ee7fe3f1-725a-4c1f-9f10-392926a09ffb",
+    "7eb6ebda-7925-4552-8912-a38f6ba40b5b",
+    "d8ac9e3f-3c5b-4a4f-a5d9-6db75b4134a7",
+    "4a3642af-9fb2-4305-adc9-ffc7a733817b",
+    "3e367dbe-d3f0-4e90-9e08-689874e08355",
+    "c4638aa3-241b-4283-b0b6-929a9a5a72c1",
+    "c7dbbd0b-67db-4394-bb40-2de0b39d9681",
+    "c02f23f2-d007-4df0-a1cc-10a3df21d77a",
+    "fca1b33c-e73f-4b18-b8ec-4b1e59120ae6",
+    "9ccc25e6-6080-4b41-bd4f-b73f525f9a42",
+    "47355538-fa0a-426f-b972-3c2d0471df34",
+    "08b07f35-00fe-4cb8-9c9e-ef52b99f6c1d",
+    "e337cbfb-ac07-4866-a5c0-e9d937118dc1",
+    "4e28b014-1e8d-4834-b6b6-4ffaab180dd9",
+    "abeba6fb-c889-493e-8eee-fd6512d94787",
+    "68ba7e47-adfe-47f5-930b-1b3b4b78d84c",
+    "73486c87-733c-4218-9302-7517fa24321d",
+    "0fdb1a6d-5916-4520-8781-62bbfcae3226",
+    "9481ed5b-a9df-42a7-ae59-c5de8b278621",
+    "29d6cda2-6ee6-4163-bd4f-6d38762d6e4d",
+    "91cf3af5-ba19-425c-91f5-2a0d2f9fb1e7",
+    "cf6dac0c-a2a4-433c-96d1-fd6c2301ed13",
+    "cdef179d-9d96-48b9-9922-1affb7a6a653",
+    "296e1856-0cf0-4083-9dc1-0d1043a27bcf",
+    "068f0908-09a8-4357-9ce9-cb4196a6e063",
+    "fc78e6db-82d8-4fc7-8089-0312c2b22b8b",
+    "c2718f19-8e20-423f-9be6-7e0c19069718",
+    "91a78b16-3c9e-49b4-ad58-092a06635d28",
+    "6ff2ee2c-0250-4ac0-a5ca-d8bdf88b7187",
+    "c0c59e6c-31d3-45b3-b3a6-a60e2a033fa8",
+    "7d379d87-7a41-4e1f-87c5-e6efc128849e",
+    "e26b02ce-fa18-4c28-9d66-7ece1003fc20",
+    "1d2a2754-d1b2-475f-8933-60c95b48b8d3",
+    "da7228a9-3e9e-423e-a789-9c8d43906f15",
+    "d6dae7ba-5dae-4d34-b558-4d30bfdfb2f2",
+    "2f7481ae-b4bc-4faf-8493-1279e720d704",
+    "7f574f5a-b03c-448a-883f-8e7108aa3dfc",
+    "61d3006b-7626-4046-a8d2-a4ecf2caa26f",
+    "e19cbd66-6c57-4d78-a9c3-4874f5922952",
+    "697b96a0-0c16-43e0-a466-e8de37e645c6",
+    "efac0ceb-647a-4145-91a7-10d18443e89e",
+    "8ce5c9ee-138e-4249-93d6-37fe4f0cb68a",
+    "2b2a805e-e165-4e59-a7da-428b7d613c90",
+    "58a2bd5d-9dbc-4059-8bc1-427559f66263",
+    "2aa1f2c0-b9ea-4ae6-a21c-29f21273f945",
+    "0cb17c2b-83df-42ec-8462-ce5ffd4ab1ad",
+    "010d8663-f6b8-48b4-8ab7-8466edc20ef8",
+    "eddf929d-ca9b-41ba-bed7-6d07ed18cfb9",
+    "cf3c57d7-7491-4606-82d8-f3f386594a15",
+    "810694b2-d308-4469-a50c-b760ed7209b1",
+    "77dca806-ab55-429b-84ad-381cf82c08fe",
+    "f7cf6227-244b-4b35-ac82-83cee1ac9ca4",
+    "98033acc-c124-4cbc-885c-e6e2765fb513",
+    "a4074fa9-3fc6-4c5c-a6de-58574bb2bb2e",
+    "17c8ab86-b8ac-4123-a15b-5368b2865b34",
+    "7900a1cb-31ee-4f10-8b88-76a076292956",
+    "12552bc6-e02e-4011-9a63-545c46d5022b",
+    "f6d56d9f-a2df-405c-bb2c-319fa8470178",
+    "b742629b-5d7c-40bb-aa8f-841abdb1d9d7",
+    "375a7058-ae77-4379-a721-0741d5b238dc",
+    "0c9f1217-84db-4487-babc-e6fbfeafcf17",
+    "ffc2f8e8-3719-489e-a5a6-11f8c25b4458",
+    "1f5bad8b-2a6e-42e9-817d-a1909f8d2162",
+    "9c1ef811-45e3-407b-854e-7fa34bbc5b65",
+    "9eb7b262-9891-45e0-b63b-7cfc13339355",
+    "7b74563e-db1f-4c76-b767-4138ef384ebf",
+    "81b4c2fa-7daf-4d1f-a773-5ad5c337af2b",
+    "d4a6ba33-e9f7-4022-a59a-748d8704c317",
+    "918bd681-ae90-4845-93fd-56a4295d94a5",
+    "8dcb298a-749c-4395-b0f6-b709b709f843",
+    "15880e10-badc-4e86-bb37-a340e4584908",
+    "e7ba1f52-7bf4-4064-8121-7ae2be085e75",
+    "80af93a3-09c9-4453-a78b-fcba304e978c",
+    "deea24ac-77a5-4cbf-855a-e518b39b9640",
+    "74483f4d-f503-4130-8dd7-2761a8eb701a",
+    "6ae9b67f-67fa-46d6-8f53-e58cfbe1f77c",
+    "bf5e4027-82d5-4aae-87d2-82a60037a5be",
+    "d438635e-ba82-4d30-a50d-6c7f34c1d959",
+    "93666a98-66dc-44ea-a239-b75ead8b9f94",
+    "3c301f28-1cd2-4974-be4f-318ab78ce04e",
+    "b45d6e5b-4c23-4ad0-802a-36c19a61ad58",
+    "9c80d6df-c31d-4c38-97d1-4f36ecd05788",
+    "08fc4575-3510-4e4c-9beb-5ffe3004159e",
+    "c782c476-cf7d-4f92-b9a9-93406037a019",
+    "21d6e7fa-c99d-4bb4-abdb-1e0701a79a51",
+    "8202b50a-da7e-483b-96cf-77902271858f",
+    "8ce07df9-35c6-40ba-80e8-dad79213b7b8",
+    "5746f42b-dbdb-4c66-8e7e-140dad6b6989",
+    "0d9264cc-195d-4403-81d3-6f6a240a44b4",
+    "bee1fdf1-381c-4e5b-bb14-c68fd5fd74c2",
+    "e5e5e8bc-61e0-4d57-a793-384faeb0a070",
+    "5a9cf017-03c3-4a87-aff2-72ce738c8c94",
+    "2d152d4e-4d38-4d2e-bcc1-9b72877a2a14",
+    "d63c8210-1c59-48ce-aad7-fd86c0d0b763",
+    "23c98f8d-bcf3-479d-8fb9-26703d7d8a69",
+    "5a59ce20-7648-4a80-8378-de406acb5805",
+    "b00de581-8cd9-4e0e-a0da-0d509a3d0268",
+    "2ca130cf-b504-4899-b701-954321ff1845",
+    "d44e6cb9-348e-43fd-85a2-cde2cdc581f2",
+    "922c04a5-33bd-456d-b5a4-b3f63c2a2a3d",
+    "ca4faa35-e004-483f-b521-f68881202806",
+    "72f89331-42e3-4a9d-9d72-96a1da87c501",
+    "5d6314fc-56e1-481a-917f-4b267b38c526",
+    "25db99b7-75ae-462c-8f80-6f3280fc3fdd",
+    "aa0c288d-af47-4857-95fc-a7b71a1b04e1",
+    "d86d0fb1-33a6-4964-8284-b5fa0f1c9271",
+    "9da93880-b2bd-40eb-9176-9478f0f5bfe7",
+    "78528b4b-a5b0-458b-943d-b6be8d3cd1ea",
+    "86c5f879-286e-44e7-a1c1-f4ac624fe22a",
+    "13791156-28e0-4141-bac9-7d5ccc9b1603",
+    "fdefa633-8b14-45bf-b3c1-64529e2409f1",
+    "9f78f6d0-fab4-41f0-ba52-d8bee9a5fc01",
+    "8f96638d-a6e9-44aa-bbda-ded8942fad7f",
+    "ff684897-2428-49dd-9fd4-5fff3cbd66e0",
+    "97bc3add-749e-458a-824f-3a8328044f8d",
+    "170d370e-f679-4d1e-9db7-17ecb30153e5",
+    "819d86f1-de13-4b1e-ad4e-cb0757c03136",
+    "d3e49cba-bd69-4f72-8ea3-eff5a6c1b6f3",
+    "d396985c-ba9b-4187-8723-33a78065fca8",
+    "b0acdb51-7da6-47fc-9653-dd662461c534",
+    "09eeb38a-e16b-49ac-a10e-028369634560",
+    "40cdf892-961d-4dfb-bfb4-8a4bf3462dd2",
+    "fc240ff1-05a5-4d4d-9780-5437f8fdf6c5",
+    "909f28af-bf6d-4780-b0dd-d35a0d50ca50",
+    "6a3e185b-066f-4738-b06a-99dda1aa717e",
+    "9d1c9930-c5ca-42dc-ba12-b6f50007b3a6",
+    "b4ee2285-0016-493c-97e3-5c94abf96bb7",
+    "72a7a88e-8180-4015-bd43-9206676b3052",
+    "4e9c23ff-6f67-49ec-a032-0ea77fe3ddfb",
+    "a0715631-5728-4ad1-b3ae-e00f28d77e37",
+    "2b997581-ebfd-4f27-8893-050bd330c152",
+    "e2d328fa-e318-4965-a4df-9b77cfeca7dc",
+    "81280ead-7605-4eb1-b597-8e3ae3ef3cee",
+    "aefde064-698c-4c62-bec3-6695cb9865a2",
+    "73b96c39-88c0-4bfb-8b29-436d9f790987",
+    "b39bd60c-f359-4ed6-bb8d-99d466f8da28",
+    "563dc507-8e40-4ba7-b515-28419ac441e1",
+    "208508b9-b0df-4e4d-8b91-fc8f9621dfa7",
+    "0f2f7ec9-5d2b-46f8-af06-4d684d16878e",
+    "ad6b5ff2-3100-4b8b-a35d-6d64ccbf33f0",
+    "f5a4e158-c776-44ee-a8bf-aa03e3b3c864",
+    "15c053c0-4003-4d5d-9b53-8d8e7f0c3b3b",
+    "a6293ad7-216b-44fd-b17d-83dc18390fca",
+    "cb212b01-06d5-4db7-a2ad-81f7cf37bf84",
+    "e78a2af2-cc5c-4da0-b8c8-56ca7a67dacd",
+    "3db7f8aa-285a-4b22-a196-1fce49b1b6a4",
+    "f5623ee2-ed69-4ded-94dc-0254ab2cebfc",
+    "6a0b06d3-258b-4e02-b9b7-eef3af407248",
+    "277e1ae9-ba92-434a-abd9-1c04760c6c3e",
+    "4f2a9c7c-ee54-40d3-b59b-fd8994b3ff2e",
+    "9052962b-6335-4c00-855e-41926f140f2c",
+    "5aa05bfa-ea65-457c-85b6-f5e6a4616bdd",
+    "df36c1d3-1759-427a-ba5d-eb6912bb4716",
+    "78727a08-7f18-4f1b-931e-05e17770c183",
+    "b6e82793-baa3-434f-94e9-f74331b979ee",
+    "676f5291-31ba-4e36-898e-918bee29d4d4",
+    "76a782ed-b8e9-43f0-90a1-6009a59bc5ba",
+    "9b8ca0e5-0740-4b45-ad98-90bcefbacb78",
+    "15f0f50a-0356-4c0c-9ac5-663f968012eb",
+    "34919dc1-9ecb-4e61-a406-6154c4419d84",
+    "b1cb2208-750f-4d67-a84c-9c7038acd465",
+    "53bf118d-004d-4d45-88c1-529e34ecfa04",
+    "dcfcee69-2c8d-4e14-927f-94485dd9b0c7",
+    "6866a75f-ffcb-42d8-8583-7e095207748d",
+    "e7c66a51-9816-4368-80b4-ce799d61e1f7",
+    "c730cd00-a90b-45f1-8bc0-d4f56db885de",
+    "b97207a4-8af2-4d23-84c0-5711b42e4f8d",
+    "84cbfb37-5873-4939-ae14-7f4dfe97ef9a",
+    "c3bd74ff-6991-4ff4-8640-d32308e8b906",
+    "e2a6c7d8-d403-4350-9751-24ec05f3f80c",
+    "a54756e2-6ad6-44f0-a70b-bbfd3ff066c6",
+    "c1801691-59d7-42ba-96bb-53d4907295f6",
+    "8193a1e9-1e42-421a-a444-4e6546b40289",
+    "a0c3e704-c933-47da-852c-63af74492337",
+    "85266d48-95dd-42d2-ae74-921585a9a490",
+    "0dc6e5f0-5434-4586-a176-4f82b0ba7aac",
+    "d668fe1e-fdd8-4265-9b76-e64ccc6d7166",
+    "f85195b1-84bf-42a2-903b-600112380c78",
+    "fa49f39b-a891-45db-a127-79d2f471de5c",
+    "2be61d1c-94b8-43ca-adca-f8a1370a39f9",
+    "7b96fd7e-44ef-4781-8b0d-64c6e0c25b05",
+    "0bdd1614-9e84-429b-aff3-31b1bea74d5d",
+    "f918346a-7085-4444-8ce7-de68edca8bfe",
+    "e5b7f42b-2cdc-4913-82bd-016a0852364b",
+    "597700d7-03de-4587-82f5-64471162ceea",
+    "b0c0ee6e-782e-426c-bde0-9bc6f1de93b6",
+    "6694dfe2-b8e5-463e-89e1-a1bd0440ab8a",
+    "70904600-576f-4b1b-a173-7836e1bd05d8",
+    "e9402a62-52c7-4e06-af65-5ba82cf15302",
+    "adaa4756-7dea-49d1-83c1-6d2fbdf56756",
+    "f6b128ae-0307-43fb-9233-6cde627802fa",
+    "5f485126-542a-43fa-afc5-f62b2a59c7ff",
+    "386f0aa4-6966-4248-a5d9-c31021b7f5ce",
+    "eb00d76c-aba4-4572-8994-4e5019180768",
+    "c79c9b43-e53f-4fc2-b2a0-3a6f0c4134b7",
+    "57e2887e-885c-4bc2-ad66-60fe2ad0d9ab",
+    "cd3e56eb-cb71-42e2-bac4-87fa5ed9f729",
+    "0f99bd3f-1556-4c8e-8b46-c5bd1ff4075a",
+    "53b81646-7657-49ad-98a5-837c19f59572",
+    "fd56f01c-f15d-4dc3-889f-1006c872c9d9",
+    "1d9f654a-cfef-4809-ba9c-82a697f406d5",
+    "46ea0d01-36ca-42d6-ae94-2ebe7e98e690",
+    "76d9d641-5a2e-438e-997f-e09716e5d38e",
+    "f2f20fdf-05f5-49bd-bb6d-a0330e50d732",
+    "f6fe6f8c-8e97-41d1-a6f4-4588af16344a",
+    "da4dd11d-c9b2-40b8-afb0-7ec1b280c6e7",
+    "f0dd6ceb-0a18-4e16-9370-1a7b5bba90a7",
+    "16561e7a-115f-4351-b1d7-a6a635ff800b",
+    "5ec732a3-063f-4538-8422-9277fa91234c",
+    "0309e1bd-8367-430d-b350-aa03a1c217e3",
+    "a4f351b3-6f41-4cac-961e-8e1f1c8a799b",
+    "baf00a3c-c31b-474a-9383-b829ac150e3a",
+    "56692673-18d0-4c0a-9a47-58a25ca30d09",
+    "0a0b0971-89b3-4930-97fe-53f61c56bf28",
+    "972bbee0-777e-4b40-8963-b8b8fc919ea0",
+    "02fe5cfb-60a2-45e0-826c-d8634d0f577d",
+    "f101898e-7b0a-4867-b5c4-304f8b09ce4b",
+    "d409e088-a3af-4fbd-b9da-cae7c295482c",
+    "8199d86a-4a8d-4361-b2c0-394089b8125c",
+    "02ee7836-3b53-4f57-abea-02dcadd4632b",
+    "12b028fb-3310-4592-b597-ce6597840528",
+    "aa7609ba-6b07-4e9f-938a-514e53dbc8a6",
+    "6bdc9414-89cf-4e35-bd03-ef584dea4bb0",
+    "ea7b00f1-19a6-4eff-91df-4ff3501cba61",
+    "bc9e5fd5-2f1c-4c4b-a424-de7738252c6e",
+    "37460b16-2c70-4231-8a61-4fb2a0506770",
+    "f556ef2d-b5c7-4ac0-b379-571bfe04bd27",
+    "aaac103b-e9f7-4aec-baa6-e36890585936",
+    "9cb6cd1d-1360-4085-8598-a12eb812b7a3",
+    "a1ff1182-3d6c-4291-983d-c2dc3b5fb930",
+    "3962f80d-faf4-416e-9265-b888f062fbc2",
+    "a2a5b9fb-97f3-416d-81a9-db95b5f4e1a0",
+    "ca2e6636-e0b5-409d-a638-949321cf369b",
+    "7e993702-7cb0-46a0-97d2-518c19b1b52d",
+    "b47c86f5-ac38-4f05-88cd-d6efaaa1a020",
+    "5da55c49-e4d6-4399-b6b3-a168e7a001f9",
+    "7a3f351d-37a6-4081-a93f-98bcc73459a2",
+    "e271c4c4-6cd0-404b-bde7-65b2fd731287",
+    "dfbd6252-8a0b-4581-b077-646c4b92bc6f",
+    "de1f7cf0-f11b-46c9-b4cd-df235d89cf79",
+    "a1862187-a61a-4711-9ab8-0f423958784a",
+    "788e2ffa-4160-49e2-b8d6-10db82d0799f",
+    "32ed14b1-b169-4679-ab1c-51a18a13a3b3",
+    "129f61a0-9dea-4cb1-a54a-1490b06efc2b",
+    "a29ce230-20ca-44cd-b5b6-327f12610795",
+    "2c1a25bc-cca6-4d95-becf-c2832ee1d280",
+    "b04b9cc1-0980-49b7-bfee-6db88ddb0a90",
+    "932461a3-4877-48f0-8db3-921fa5d6e67d",
+    "e342662c-59b6-4cdd-ac1c-26b941279257",
+    "dd361402-5fae-41a9-aee5-8313ac9b89d4",
+    "745157c9-ff39-45d1-81a0-f7c7fe4e12ce",
+    "f56f6e39-9713-4b25-8b7c-747047ee4b50",
+    "c02fb946-9fe8-4304-9f94-6c74aee32f22",
+    "1286171b-5f69-47d2-af9e-c90be9ba976a",
+    "96860067-0687-4740-be4f-7ce1be3aa75b",
+    "583e1f05-025c-4472-b8b3-d4ce7cc22040",
+    "8337d04e-d8e5-44b9-a153-3d8fe4bed4d7",
+    "c0a78969-5cce-4e5e-9ec2-c90a86d05980",
+    "9dfe46ed-76f0-4bce-8278-0efe1440d3f2",
+    "810b4eb8-51fd-474b-8e29-13c648607f4d",
+    "3cda46b7-9ef6-41d6-8f80-96fce26c3c39",
+    "b999433a-7f3a-4aaf-bb3f-7aacd7fdbc31",
+    "248bad5f-ae80-4d90-8c03-4af524ac5d3e",
+    "778dc6b2-1381-483e-8c0b-372c5ad846d7",
+    "d1fc0056-3032-442f-a715-a546ef79098b",
+    "a36d9503-18ee-427f-ad3a-312e571aa838",
+    "8932811b-c096-42ea-b2f6-65b173e02444",
+    "f1002b11-a4ee-45bc-a0e8-c1d0dd61955d",
+    "3557cba4-8ec1-4860-9077-7891948dcfc0",
+    "9740a1b7-efe3-4a1a-8944-2fc5192c5132",
+    "f3b29af2-405a-47d6-a8cd-e4bd0ac70de3",
+    "39339348-c22f-4977-8486-037ecf8f4623",
+    "037caa36-0bf9-4d0d-b9f0-cead30a7ffc8",
+    "9574f04f-c122-436b-b474-a38297706898",
+    "707376c0-693f-4919-b4dc-40deaa19f6b5",
+    "059f4e6b-9176-48a4-a66e-56c0128296a4",
+    "9ccb2297-d23e-4511-a8b7-b426e3cbbe98",
+    "b45561c2-347d-4aca-9372-ed6414385f2d",
+    "e28d8afd-0ca3-4a27-82fb-6052412c24c7",
+    "7eb2349d-2188-4349-b1e7-dfa0fc962c2b",
+    "b5130f56-c51b-4ff0-8003-79043f0847af",
+    "2d4baa6d-7528-4a04-a615-71290837731e",
+    "e1ca939a-e0eb-4b85-9028-e95bc4e94394",
+    "9fd62e74-43ab-4701-a6e2-ca22661a3005",
+    "beb09eab-5e77-4063-aad8-bfa0cee1b0b0",
+    "42722e24-fd64-41e3-baf5-17c0f8f9b0cd",
+    "f8c22b55-dcb6-495d-b7c1-657622b9fd09",
+    "8c317d5e-5ee6-486d-8662-ff3d4ea51c01",
+    "9b3728d6-6cb2-4557-8d4e-44b52482f776",
+    "30a9f2b6-75ab-4095-a917-48376b22ec3c",
+    "f391d8e5-9806-4218-81e3-c633a6e3b42f",
+    "e3567d57-c794-44cb-a8c1-ef6a04cc0e50",
+    "22bd9b05-0e7b-403f-8ab0-4798445e96bb",
+    "3da5bf7f-3ba8-495d-b3a1-24075e751fff",
+    "ab9d3d38-831c-4aec-a183-0f08145a4544",
+    "cdce2bf5-75d3-40bd-ae8e-d1f6d433e9c0",
+    "40c06870-3687-4dbe-8a30-4d04572d2c06",
+    "0fdbd13e-1d30-4485-a2f5-755a38b32b87",
+    "dae4f0d9-4695-4bd2-9278-7de29cfec389",
+    "934be271-9141-4717-8140-d114410da9b8",
+    "d8ee15fd-a5df-4eeb-9fb2-6daad03516be",
+    "2d231642-4f5a-41b2-9104-e836b5654b59",
+    "90e60365-1119-491a-ae35-49b17ebd64f4",
+    "098f7003-0017-4fde-a004-41bbabe56b70",
+    "6bd113a9-91de-42ec-bd0b-05348880274c",
+    "0c1b5527-f5ae-43e3-bfd0-7fc1333347f9",
+    "3a72d7c8-9a25-484d-afdc-98dabe4bf74c",
+    "03b46ad5-a1ea-4c0d-bf97-6b0459484784",
+    "eb903ee4-cecb-4047-91f5-716b3df5eb05",
+    "69783d67-55a0-4fbd-b71d-98b20c557059",
+    "b144c3c3-bf56-4507-a304-0dc90f2b257e",
+    "c2d5840b-d236-498c-8c99-82e983ee3099",
+    "98c1e42c-cb39-451b-9cfd-2b0eb37c42ee",
+    "c4ab9f84-b13a-46eb-9424-72afddfa2684",
+    "2bff7948-c342-4c46-b761-ed5c694f5d1f",
+    "7f864b01-4f81-4da0-9b78-30d1dc4d0855",
+    "8f30a819-b101-4a77-9d33-7cc60fa3fc38",
+    "997c00d7-fc4d-473a-9097-0b65c456c2e8",
+    "0c3014bf-d5b2-4f61-8051-6066cdbbca0e",
+    "65a28d6f-2aaa-49e7-925e-aa34c871b153",
+    "9289101e-db7c-4981-b3b5-65d867370b99",
+    "cbca9acf-8e41-4144-af6f-5e20aad67ca4",
+    "056ef613-4d7a-454c-89e6-68bb6409bbca",
+    "3b89fd53-b391-47bd-addb-2ebd7c39a88f",
+    "6187d431-5f4a-41c0-8853-c2f8dbedc11d",
+    "5f4a7b01-4dce-4452-8f9c-11830b2c4860",
+    "15e477cf-7f21-4c17-9568-3f2887b7df84",
+    "b6ebb2f7-874c-416e-8c4c-5792c651e1a3",
+    "f499dc1e-a6ae-40f5-a963-76438bdcd940",
+    "6da6acdb-c85c-4d74-b77d-4d439647570c",
+    "9229803f-4eaa-47cb-b6a2-600eaa57fdcf",
+    "77d6fef5-b235-408f-956f-dcdac857ad97",
+    "631ec73a-e0ad-48a7-a403-915dccf782f5",
+    "55f35bab-f707-441e-81fc-489bcef2ae4d",
+    "eafdeaad-74c9-42cf-80aa-cfddc3cb9b45",
+    "9e132be6-5859-401e-9796-bef1f9b778a9",
+    "30a3bf48-f288-4d3d-a0a9-5596e0600fa1",
+    "e29c3519-18d0-4b09-80bf-2ae039c8f491",
+    "7b5ccc9a-7868-4d4d-a6de-59d94803d4ee",
+    "af5675e4-0668-4dfb-b86b-8dfe92896b4f",
+    "ce178acb-19a5-46f0-9aa5-cda5af24231c",
+    "6a683b06-5d12-4b33-9910-8abd09296038",
+    "3dbbcbbd-9dce-40a1-9918-2cf1bd8190c9",
+    "4f24b5ad-3b61-47d1-81a6-2c9b575359de",
+    "d1989496-201a-463d-9934-18c0046dc3db",
+    "580a95ac-f1d0-4020-8104-4f451f89e263",
+    "a4c64797-eb6e-46c2-8f3a-2509224468a3",
+    "71825e8c-7675-4009-a0a0-f21dc072e314",
+    "3c3a1436-4c38-451e-8eff-38eb72e39ec8",
+    "afdff558-754e-4195-85c7-c0b80540be54",
+    "7c3d6dcd-e29e-4b52-94c4-afeb03b1e665",
+    "3e4b87ab-ba04-476c-b24d-d9ae9fca5fa4",
+    "7ddd552e-94de-46c1-8034-91c493bfb9f0",
+    "5ed9a83e-c92e-4475-bd00-bc80b5385c31",
+    "a718ec23-2ec2-4400-b25d-018ef1f0456b",
+    "ea06e38d-072a-4eca-acb3-64eecce34564",
+    "9d2dcc39-1321-4956-bbd2-7b980054c2a9",
+    "79f1bc37-6fd8-4461-affd-6a3ecca2f8e8",
+    "effbe916-f231-49cd-afc2-aa5f06673217",
+    "d8ceb15f-bf6c-46f2-b97b-0ff71b8c4a2c",
+    "4b75349d-6846-43c6-8f8f-aadf983ac918",
+    "4db7c05c-f234-4fc8-8a41-4024fb66f536",
+    "1067c1c4-66a9-45b2-9f56-e9ec817d700b",
+    "478acc84-7855-455a-bbb9-5fafb28baaa6",
+    "780e7443-26d4-4296-a84b-70d399c373af",
+    "b1c01f0b-738c-43ba-8bf6-11a783aff9fa",
+    "d4b7c5d2-bbc0-4fea-840b-4fccf023354a",
+    "2086b04a-5bd8-4777-ab04-549465c458da",
+    "bc97f2ba-dccd-4064-bdcd-e69488b71db3",
+    "f83c28b7-8b80-4a41-9917-764c0b912f51",
+    "fdf9a21f-8f75-4e8e-88ea-b48b3fbe07f4",
+    "74d3db54-4058-4d02-9830-fc36f7391609",
+    "7d203a3c-58ca-4bcb-8c2a-a29a63d45ce6",
+    "4ab40682-8313-4b2a-b5a7-688e9aef4e8a",
+    "a9fca6c5-6186-4e7d-b8d5-52c6e70ff96f",
+    "eafa606f-e4c9-43ac-aa00-41d664ca9820",
+    "1309e426-8029-4652-bd52-8cff6a883401",
+    "f61930d7-f846-4cf8-b40e-d333abb0ec90",
+    "d4fc1aca-3791-417c-b88b-7eeb73ec43f0",
+    "9fef34bb-d59e-4fab-bc13-983b19a39641",
+    "eb093c38-de4c-4b56-969b-4a3d1ea06931",
+    "a7e3e615-ee3d-480c-9ebf-93f7e35f2d3c",
+    "6348017f-b217-4ea7-a53a-052105d1de27",
+    "65da48f5-7044-4a6d-8e7c-ca6ead583a6f",
+    "77d657c5-7085-41c6-8dcb-74985124e183",
+    "132a98d8-a427-4ec5-942b-5d7f510ee9a5",
+    "9eded6a3-dbe1-4f84-90ab-edf935d53ff8",
+    "166a1d24-867b-4fa6-9948-a0f062c82f30",
+    "f1a7caa0-3ebe-4d8a-a11e-e0d9bafe1cf8",
+    "0ae1f9c4-938c-4f30-b0a7-3316b16895b0",
+    "29e19e76-7e6a-4fc0-8e2e-791a32caa67b",
+    "441ffbca-11ee-463f-a20b-b786d6524ba0",
+    "c416e72c-3b91-47cd-815c-2cd1e5d863e5",
+    "ee89910a-0f3a-4912-b320-f0e0e3d3354c",
+    "6fe32f4b-d9bf-499a-be54-3cbe77560565",
+    "d9c961cc-3b3d-4e9b-aa91-b91cdab549ff",
+    "fbe5948d-263d-4104-b869-541c84f97d98",
+    "56105761-b606-4e82-9396-d80bbc941be3",
+    "19830845-2712-4469-bd9d-00f18e070b3e",
+    "e32f1033-c376-4aeb-9d2f-7f341e21d860",
+    "72784ef9-00c7-47c6-b1a1-c8111f4ec497",
+    "b9211238-21cf-4ff5-9c13-67ad5bb4474a",
+    "0e3562c9-cf04-4768-a73b-4acd55e3dd9c",
+    "78dda4b3-4ec1-4b4f-88f6-0b8c23b40d66",
+    "b3c1346e-707d-4982-b9a7-5dec9961f359",
+    "d6d0ecaa-812f-4733-9f32-e6e4acab2110",
+    "e3c98f46-2b81-4072-be65-2dbaf098923e",
+    "967e714a-fa96-41f6-bc20-6bcd5516d2e8",
+    "49c5a99b-9ce8-4b1c-977f-2ab9a6544842",
+    "6bfa78a9-776b-45b0-a4dc-176e9870bafb",
+    "f99d6d84-c3a3-46a3-a381-0547281a8dc0",
+    "19e51c17-8c94-4bc1-a104-a2553b8286e9",
+    "d67d7a24-dd65-4b52-9de9-e0bab3c12f16",
+    "62fef7d3-4dd2-478b-b31e-08b18e3ab9e8",
+    "c9102c2b-2d87-4222-9e6a-aab59ea237ca",
+    "4b2f0ba2-1283-4bea-ab0e-dff53f4302ec",
+    "ddcea803-5d42-4bed-bcbb-729e5f49a804",
+    "0366577e-fff5-42b2-b446-eb55b5981c45",
+    "c8738535-b4d9-4ed0-beae-722fd7ffc2e1",
+    "16119401-68ba-4acb-8d16-871c28ab1d06",
+    "fcbddc91-e976-457b-a088-ad89624915c8",
+    "7a261a4d-81f3-429c-ad2b-d9ffe710ce36",
+    "bbde30e1-e9ad-4cb0-8a0c-b0cf5ca876c0",
+    "5728ccb1-c364-4037-95ed-2242f58979a9",
+    "8ebe9bd1-f1e2-432b-825f-e55af75ecc7b",
+    "0c346451-2e9a-4d75-80cd-60898e59902b",
+    "f0f4a18b-5cfa-41c3-86d3-34f2205f5769",
+    "229a5b43-8c0e-47e6-95d6-d598fe595c74",
+    "b4480719-0f8a-4cbf-8868-e6286175c914",
+    "5e78a176-9572-4b51-b910-d73f8557e484",
+    "b5492365-8fdf-4f0b-99b4-1c1e5f4f0b26",
+    "31b4eeff-ba72-42fa-ae8f-58de54851b48",
+    "f5b98d90-59ff-4544-896c-683b837f448a",
+    "2531cfff-0b57-472c-bee0-f9fb8de00ddb",
+    "d47b9368-5fbe-4eab-b380-2a85f55698d8",
+    "60341d2d-285b-4dd3-8043-de477170d42b",
+    "7da3850b-4701-4816-abd0-dafc7f2eaeb5",
+    "c49f4a7f-1d42-42a6-9fdf-ab3cfecc781f",
+    "120fdd3a-e175-44a9-b10a-02cd5a4f66af",
+    "eff48613-9b5e-4528-88c0-86ebff254dbe",
+    "477b7876-1dc4-4669-a478-d096ae40fca1",
+    "e8a2eb20-8f9e-440c-a001-adeafe763500",
+    "ffe6977a-166b-4623-bced-41624959eb56",
+    "207235de-8504-44e1-ac67-aef5100b810b",
+    "89f3efcd-8c07-4975-8b3e-d30ae00b161f",
+    "5d27fc86-7a0b-47d5-8bb2-c676e4511b3f",
+    "efcdbd38-796f-4951-8c79-be9124ac9a31",
+    "654ed1cd-1ba4-45d3-80c7-79a1e5fa4102",
+    "01e78a03-5427-4a38-93a2-fd1a4e2c365a",
+    "bf9cfbe5-962f-48ad-8725-7c055797c58c",
+    "f5da88a0-d3b4-4b05-bd4a-b79ac8b26ea8",
+    "91a4b933-3107-4dd7-be6b-463731dfc169",
+    "94a21562-3bea-4ecf-a2fe-f8f132a968f6",
+    "89cb01fe-f94e-4790-9fd1-c33cc56e3ca0",
+    "22305251-4fd1-4c6d-8284-a620e941379f",
+    "3bf1a1c3-e679-4770-b8f6-eb1171f9241b",
+    "1196a4d1-4501-4c9c-af99-529d72d8d24b",
+    "d98fe1c8-e2f2-4aa0-a74c-21d08398ad65",
+    "518cc60d-cfce-469e-a4fb-d9bef773fa32",
+    "98f32bf0-0579-423a-9c34-01907b846e05",
+    "a3b3c14e-5d81-452e-9496-dc6c8795b9a4",
+    "3a615613-092e-4987-ad10-9601987d2036",
+    "47376905-33ab-4209-af86-66ff50e3ae16",
+    "e29b111a-846f-4a67-a3eb-7550b6471bc7",
+    "73b222a3-8bd9-430e-802f-96bfed2823f3",
+    "26f22462-96ae-451f-9ea3-70d9a7039c6f",
+    "6254c999-17f4-4cf3-ba1f-c56a185956af",
+    "692ea081-e001-4f23-b70b-be1c2e169e2d",
+    "1f5ac6db-54b9-4d16-b921-74df8c045091",
+    "7e9abc7b-4edb-4b83-b207-6a0bb9c6810d",
+    "10ffcb09-3bda-47dd-bbe8-4346fa315b73",
+    "afdd5ec6-3981-402d-93b2-9011fa7b3b06",
+    "8311d462-f61a-456c-8356-c95bb664200e"
+  ],
+  "tags": [
+    "3cf769b0-1455-4d4f-9ee5-d4862626273a",
+    "6af84a7b-3688-4721-9480-c729053f2557",
+    "7539ff2c-aa0b-4c14-9c6f-d3a84c023817",
+    "d709f135-31e9-473a-9e3e-c9fcd8481ac2",
+    "e2d9da51-0124-4c33-8551-9ad9de23c850",
+    "0f6040d5-31bb-4548-ab12-2e074cc90d76",
+    "a49db1f7-ed29-40ae-8dbf-e9133fd75017",
+    "63feb532-5eae-46a9-9d81-2d6d1fc63372",
+    "d989cd4f-c4fe-4c1a-b982-88abfebd7766",
+    "3b83098a-615b-44e3-9e62-8f347af8ebe5",
+    "735e3729-0087-4ce4-8626-7c3a47f1a0a2",
+    "0505cd42-53be-4d81-969d-b76efcdbb143",
+    "4c1ade6a-557a-4733-9f76-b262637a41f4",
+    "fd8e2704-d74a-4b34-83ec-1e93ab58250d",
+    "e0a05077-c8d4-4fcb-9237-db069c63f7fc",
+    "e0f0a509-d6a2-4475-87f1-46c78c0d4138",
+    "ed057773-cca7-453c-b078-acf594ca0b62",
+    "071cb5a4-e5ba-4e4b-95c7-47b946fc7610",
+    "23666012-7899-484a-9eab-75b5d864a77c",
+    "f112e1bd-cb35-4056-acb1-d6acaa3fa701",
+    "24870e5c-b749-4774-8783-4a8698d938a5",
+    "afe3591e-863d-4a0c-8e94-778b55445669",
+    "204296d7-6f0d-4a81-a414-61cd3873d65a",
+    "2693c70c-d71a-4120-948f-f87b0674a5fc",
+    "53eefa07-c87e-4899-a67d-2e5665ab7b75",
+    "fd2d9d07-b24c-46e0-92e3-eede99ed44b5"
+  ],
+  "notes": [
+    "df56d8fd-5541-43a3-99c0-e01ded9b3db3",
+    "f5308745-4b5d-4924-a42b-1a9ed60f8b44",
+    "7a55586e-b270-4de1-b553-ba0c13c86860",
+    "5fda8162-364b-4efa-b94f-15ebf3ec7fff",
+    "7c3e32d6-2de9-4f2c-9996-2e35298ca5cc",
+    "3919758b-c9fc-488f-a83c-989aaeb94876",
+    "96457cd1-0568-46b9-b2e6-6aee2ea257c1",
+    "7aeac150-536d-4dc4-bffa-cad1e0aadc53",
+    "72a5513c-5c5f-4b29-befb-6c0e1260a8f0",
+    "ea9be61b-d0c4-404a-a821-04e9584489c8",
+    "66cd5b35-3ef0-4318-95b6-f1ad84cedc21",
+    "35be6ffb-0bc6-4d6e-ae74-8d241d2f1092",
+    "f5c7964a-b98a-42a1-9228-3e43d4756974",
+    "7fd0f12a-17a6-4c30-9173-7e061be0aea9",
+    "6676daf3-28c5-461d-b866-648505cf4685",
+    "5faf10f2-f1db-444b-966b-0f113fd1a030",
+    "a078b0b6-7a2d-48a0-b16e-9cf2731477f2",
+    "e3303954-6946-443b-831c-b03e75d25672",
+    "c59f1f68-4095-4d9b-90dc-d96d49789692",
+    "c9a7f8d4-f580-4ec1-901d-209373b2c33c",
+    "afb53a4d-ab7a-4e39-b2e5-f448b0eb6b3f",
+    "07f0023b-a5b6-41d6-a699-970280cbab3c",
+    "a26fe9fd-900e-4902-ba2c-4d951b521115",
+    "9261d893-dcef-4900-83b5-fd82a91ca59d",
+    "edc9b350-e4cf-4066-9e99-0931cbae552e",
+    "6e6802f2-f07a-4f5e-a86d-57279989e2c7",
+    "3bc156a5-f3e8-4253-9626-064a828f56d4",
+    "670cec97-39c2-40a6-ac25-f8f306b41727",
+    "a2961c72-c5b6-4ecb-af57-5c3711239fcc",
+    "67c99cef-ed2a-46b9-b09f-805e7794ad02",
+    "ef3aa9e0-ec1d-472a-9f7a-67083c5f2ff1",
+    "0eda052e-b3be-4419-ba7f-1180d7605ce0"
+  ],
+  "batch_tag_id": "3cf769b0-1455-4d4f-9ee5-d4862626273a"
+}

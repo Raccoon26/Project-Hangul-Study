@@ -1,0 +1,13 @@
+{
+  "swift_files": 86,
+  "syntax_errors": [],
+  "missing_project_sources": [],
+  "xctest_authored": 117,
+  "native_tests_executed": 0,
+  "native_builds_executed": 0,
+  "content_unchanged_from_dev12": {
+    "Content/production.json": true,
+    "Resources/content.sqlite": true
+  },
+  "limits": "tree-sitter syntax only; no Swift type-check or SDK resolution"
+}

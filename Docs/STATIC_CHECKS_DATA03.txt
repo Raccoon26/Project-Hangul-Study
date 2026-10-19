@@ -1,0 +1,11 @@
+DATA-03 static verification (Linux)
+Swift tree-sitter syntax: 45 files, 0 errors. NOT Swift type-check/build.
+plist / Xcode scheme and workspace XML: valid.
+Xcode SOURCE_ROOT paths: 52 checked; all Swift files referenced.
+Content SQLite integrity_check: ok; foreign_key_check: no rows.
+All 40 application Swift files byte-identical to DATA-02: UI/navigation/models/learning/repository/audio unchanged.
+Content schema / Importer / Validator / source reader byte-identical to DATA-02.
+Removed project files: none. v6 snapshot byte-identical to DATA-02 bundled DB.
+Native XCTest: 60 authored; NOT EXECUTED.
+Swift compiler: None; Xcode: None. Native UI/audio/type-check/build NOT EXECUTED.
+Content DB SHA256: 01aa1204e42ef8fe145aa7cc2275c07810e4f6587749a2be498a06a2e69fe1b2

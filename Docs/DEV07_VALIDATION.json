@@ -1,0 +1,18 @@
+{
+  "content_sha256": "a08fd61a32540a2e713b59b1a6c40a70668dd7aee47c840658dff36a99ccfee5",
+  "content_version": 8,
+  "schema_version": 3,
+  "reader_version": 5,
+  "user_schema_version": 6,
+  "python_tests_passed": 138,
+  "swift_syntax_files": 53,
+  "native_tests_authored_not_run": 66,
+  "native_build_run": false,
+  "sqlite_integrity": "ok",
+  "foreign_key_errors": 0,
+  "previous_content_ids_preserved": 3380,
+  "new_grammar": 12,
+  "new_examples": 24,
+  "new_questions": 24,
+  "notes": "Python results and syntax log are from 2026-10-01 UTC. Packaging resumed 2026-10-02 UTC; no new feature added."
+}

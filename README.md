@@ -1,2 +1,128 @@
-# Project-Hangul-Study
-Project Hangul Study
+> **DATA-07 (2026-10-06): Content14 · Vocabulary1,376 · Examples2,776 · Grammar42 · Listening115.** 신규어휘450/예문900. 현재검증/남은Release gate는 PROJECT_STATUS.md, 실제누적수는 DATA_PROGRESS.md. 아래 DEV별 설명의 당시 수량은 이력입니다.
+
+## DEV-14 검증 실행
+
+프로젝트 루트에서 `sh Tools/verify.sh --portable`은 Python/SQLite만 실행합니다. Mac에서는 설치된 iOS17+ Simulator의 `TEST_DESTINATION`을 지정해 `sh Tools/verify.sh`를 실행합니다. 기본 모드는 Xcode 또는 destination이 없을 때 실패하며 native test를 생략하지 않습니다. 현재 출시 판정과 미실행 gate는 PROJECT_STATUS.md / RELEASE_CHECKLIST.md를 읽으세요.
+
+> DEV-14 (2026-10-05): 현재 상태는 PROJECT_STATUS.md 및 Docs/DEV14_REQUIREMENTS_AUDIT.md가 기준입니다. 아래 이전 단계 기록의 완료 표현은 native 출시 검증을 의미하지 않습니다. Content13/Schema4/UserProgress10 유지.
+
+# HangulStudy — DEV-12
+
+일본어 사용자를 위한 Swift + SwiftUI 한국어 학습 앱입니다. iOS 16 이상을 대상으로 합니다. 기존 **ハングル入門** 12레슨에 **発音・パッチム** 14레슨을 추가했습니다. 사용자 진도 SQLite와 읽기 전용 콘텐츠 SQLite를 분리합니다.
+
+## 현재 상태 / 실행
+
+Mac Xcode에서 `HangulStudy.xcodeproj` → HangulStudy scheme을 실행하세요. iOS16+, 실기기는 Signing Team 지정이 필요합니다. `Tools/verify.sh`로 Debug/Release build와 Python tests, `TEST_DESTINATION` 지정 시 XCTest를 실행할 수 있습니다.
+
+현재4탭은 学ぶ / 調べる / 記録 / 設定입니다. 学ぶ에서 시작위치·코스·이어하기·今日の復習, due 단어가 있으면 短く復習로 바로 시작합니다. 記録은 실제 통계와 유지학습, 設定은 짧은 복습량/로컬 알림을 제공합니다. 한글/발음/단어/문법/활용/듣기는 기존 production DB와 저장 엔진을 재사용합니다.
+
+**Linux 검증: Python/SQLite203 PASS, Swift80파일 구문오류0. Native XCTest104개는 작성했으나 Xcode build/type-check/기기 UI·TTS·알림 검증은 미실행입니다.** 이 ZIP을 검증 완료된 App Store 배포본으로 간주하지 마세요.
+
+Content schema4/content13/reader7, UserProgress10. Production 어휘926/예문1876/문법42/듣기111. 상급 단계 실제 콘텐츠, 검증된 개별 발음 녹음, 혼합Unit/심화진단은 아직 부족합니다. 전체 현황과 Critical/Major/Minor 감사는 `PROJECT_STATUS.md`, `Docs/DEV12_REQUIREMENTS_AUDIT.md`, 실제 수량은 `DATA_PROGRESS.md`에 있습니다.
+
+## 아래 문서의 DEV/DATA별 이력
+
+이하의 당시 수량·버전·검증 결과는 역사적 기록입니다. 현재 기준은 위 DEV-12 절과 최신 PROJECT_STATUS/DATA_PROGRESS입니다.
+
+## DATA-01 입문 어휘
+
+실제 입문 어휘 **226개**, 일본어 의미 **244개**, 예문 **447개**를 production DB에 추가했습니다. 기존 `単語` 탭에서 50개씩 조회하고 상세에서 대표 의미·품사·예문을 볼 수 있는 구조입니다. DEV-05의 회독 화면에서는 대표 의미와 연결 예문, 일본인용 학습 노트를 표시하고 추가 의미도 펼쳐 볼 수 있습니다.
+
+누적 수는 `DATA_PROGRESS.md`, 전체 검수 목록은 `Docs/DATA01_REVIEW_CATALOG.md`를 확인하세요.
+
+## DEV-05 회독 학습
+
+`学ぶ → 入門単語 → 新しいセットを始める / 続きから`에서 실제 DB의 어휘를 약 20개씩 학습합니다.
+
+- 한국어를 보고 의미를 떠올린 뒤 `意味を見る`를 누릅니다.
+- `覚えてる`는 이번 시도에서 통과, `覚える`는 다음 회독으로 남깁니다.
+- 한 회독이 끝나면 남은 단어만 순서를 바꿔 다시 확인하고, 모두 통과하면 세트를 완료합니다.
+- 현재 카드·회독·뜻 공개 상태를 매 동작마다 로컬 SQLite에 저장합니다. 콘텐츠 순서나 버전이 바뀌어도 저장된 영구 ID 목록으로 재개합니다.
+- normal/slow/stop 음성은 기존 KoreanAudioService를 재사용합니다.
+- 완료는 영구 습득이 아닙니다. 다시 보기와 미래 SRS 복습을 막지 않습니다.
+
+Content schema 3 / version 5는 유지하며 UserProgress만 비파괴 migration으로 schema 4가 됩니다. 기존 한글/발음 기록은 보존합니다. Native XCTest 42개(신규 회독 13개)는 작성했으며 **이 Linux 환경에서는 실행하지 못했습니다**. 수동 확인 목록은 `Docs/VALIDATION_DEV05.md`입니다.
+
+## DEV-06 장기복습
+
+회독을 완료한 단어는 다음 날부터 홈의 `今日の復習`에 나타납니다. 기본 20개씩 실제 단어를 보고 뜻을 공개한 뒤 `難しい / もう少し / 覚えた`로 판정합니다.
+
+- 1/3/7/14/30/60/120일 단계형 정책이며 최고 단계에서도 계속 복습합니다.
+- 처음부터 알고 있던 단어도 등록하고, 같은 세트를 다시 완료해도 기존 SRS를 초기화하지 않습니다.
+- 회독 남은 목록과 장기복습 단계는 독립적으로 저장합니다. 복습의 단어 순서/공개 상태/판정 결과는 재실행 후 이어집니다.
+- 밀린 복습의 전체 수를 보이며 20개만 시작합니다. 미진행 단어는 남고, 새 학습도 자유롭게 선택할 수 있습니다.
+- 기존 UserProgress를 schema 5로 migration하며 DEV-05의 과거 완료 세트도 등록합니다. Content DB는 schema 3/content 5 그대로입니다.
+- 현재 SRS는 calendar_steps v1입니다. 자세한 날짜/시간대 정책과 제한은 PROJECT_STATUS.md에 기록했습니다.
+
+**DEV-06의 정책과 이전 검증 이력은 해당 문서에 보존되어 있습니다. 현재 DEV-07 결과는 아래를 확인하세요.** Mac build/실기기 검증은 `Docs/VALIDATION_DEV06.md`를 따라 확인하세요.
+
+## DATA-02 입문 보강·초급
+
+신규 어휘 **250개**, 의미 **260개**, 예문 **500개**, 일본인용 note **32개**를 추가했습니다. DATA-02 당시 누적 어휘 **476개**와 문장 **947개**였습니다. `学ぶ → 初級単語`에서도 기존과 같은 20단어 회독과 SRS를 사용합니다. 기존 세트/기록/ID는 유지합니다. 전체 검수 목록은 `Docs/DATA02_REVIEW_CATALOG.md`입니다.
+
+## DATA-03 초급·일상 표현 강화
+
+신규 어휘 **250개**(입문 10/초급 240), 의미 **268개**, 예문 **500개**, note **48개**를 추가했습니다. 현재 누적 어휘 **726개**, 문장 **1,447개**입니다. 실제 DB의 기존 入門/初級 회독·SRS를 그대로 사용하며 UI나 학습 엔진은 변경하지 않았습니다.
+
+동사·형용사·부사 190개를 중심으로 다의어 18개와 자동사/타동사·혼동어 관계를 보강했습니다. Content version 7, schema 3 유지. Validator 오류 0/검토 경고 10, Python/SQLite 129개 통과입니다. native XCTest 60개는 미실행입니다. 전체 검수 목록은 `Docs/DATA03_REVIEW_CATALOG.md`, 진행 현황과 제한은 `PROJECT_STATUS.md`, `DATA_PROGRESS.md`를 확인하세요.
+
+## DEV-07 문법 학습·회독·복습
+
+`学ぶ → 文法 → 入門/初級`에서 production 문법 **12개**, 예문 **24개**, 문제 **24개**를 4개 작은 레슨으로 학습합니다. 의미→형태→예문/비교→문제→자기판정으로 진행하고 모르는 항목만 다음 회독에 남깁니다. 완료하면 기존 SRS의 grammar 대상으로 등록하며 홈 今日の復習에서 실제 문제를 풀고 다음 날짜를 조정합니다. 진행 단계/현재 문제/선택 피드백은 로컬 SQLite에 저장합니다.
+
+Content schema **3**, content **8**, reader **5**, UserProgress **6**. 누적 vocabulary **726**, 예문 문장 **1,471**(발음 단어 예시 13개 별도), grammar **12**. **Python/SQLite 138개 통과 / Swift 53파일 구문 검사 / Native XCTest 66개 작성·미실행**. Xcode 빌드와 실제 기기 검증은 미수행입니다. `Docs/VALIDATION_DEV07.md`를 따라 Mac에서 확인하세요.
+
+## 콘텐츠 제작·검증
+
+현재 source는 `Content/production.json`이며 schema 4 / content 11 / min_reader 7입니다. DEV-03 source와 ID는 회귀 자료로 보존했습니다.
+
+```sh
+python3 Tools/ContentBuilder/build_content.py Content/production.json candidate.sqlite --production --previous Tests/Fixtures/content-v10-repaired-production.sqlite --report validation.json
+python3 -m unittest discover -s Tools/ContentBuilder -v
+python3 Tools/generate_project.py
+```
+
+위 명령은 DATA-04 재현용입니다. DEV-09 DB의 잘못된 SQLite 헤더를 별도 스냅샷에서 정정했으며 원본도 보존했습니다. 다음 배포는 **현재 배포한 DB**를 --previous로 지정하고 revision/content_version을 올립니다. ID를 다시 생성하지 마세요. 검수한 candidate만 Resources/content.sqlite로 교체합니다. 현재 입문 306개·초급 420개를 수록했고 15,000개 전체 구축은 후속 DATA에서 계속합니다.
+
+Mac 검증:
+
+```sh
+sh Tools/verify.sh
+TEST_DESTINATION='platform=iOS Simulator,id=YOUR_SIMULATOR_ID' sh Tools/verify.sh
+```
+
+검증 스크립트는 Python 테스트와 Debug/Release 시뮬레이터 빌드, 지정한 경우 XCTest를 실행합니다. 이 명령은 다음 환경에서 수행할 절차입니다.
+
+## 인계 문서
+
+- `PROJECT_STATUS.md`: DATA-04 결과·제한·다음 단계
+- `CONTENT_GUIDE.md`: 데이터·영구 ID·발음·음원 작성 계약
+- `Docs/ARCHITECTURE.md`: 데이터/진도/음성 구조
+- `Docs/VALIDATION_DATA04.md`: 최신 수행·미수행 검증과 Mac 점검 목록
+- `Docs/DATA04_CONTENT_REPORT.json`: 현재 production Importer 보고서
+- `Docs/DEV-01_STATUS.md`~`DEV-04_STATUS.md`: 이전 단계 기록
+
+## DEV-08 활용·직접입력
+
+`学ぶ → 活用 · 自分で入力する`에서 기존 production 동사/형용사 16개로 현재/과거/미래·부정·희망·연결·이유·조건을 연습합니다. 직접입력 49문제에는 기존 예문 빈칸과 조건부 일본어→한국어 문장이 포함됩니다. 같은 UserProgress에 답안·판정·오답 queue를 저장하고 기존 vocabulary SRS로 연결합니다. 관련 문법은 기존 설명 UI로 확인합니다.
+
+현재 Content 9 / reader 6 / schema 3 / UserProgress 7. Python/SQLite **142개 통과**, Swift **58파일 구문 검사**, Native XCTest **71개 작성·미실행**입니다. Xcode 빌드·키보드·실제 TTS 확인은 미수행입니다. 지원 범위/예외/생산 전용 SRS 미구현 등 제한은 PROJECT_STATUS.md, Mac 체크리스트는 Docs/VALIDATION_DEV08.md를 확인하세요.
+
+## DEV-09 듣기·받아쓰기
+
+`学ぶ → リスニング → 入門 / 初級 → 練習 1`에서 기존 production 예문24개를 듣고 의미/한국어/문장 이해를 선택하거나 받아쓰기를 합니다. 끝까지 재생해야 제출할 수 있고, 제출 후 원문·일본어·답안을 확인합니다. 오답은 한 번 재확인하며 상태를 같은 UserProgress에 저장합니다. 예정일에는 홈 今日の復習에서 실제 듣기 SRS를 진행합니다.
+
+현재 Content schema4 / content10 / reader7 / UserProgress8. Python/SQLite149개 통과, Swift62파일 구문 확인. **Native XCTest78개·Xcode 빌드·실기기 음성/VoiceOver/키보드 검증은 미수행**입니다. PROJECT_STATUS.md 및 Docs/VALIDATION_DEV09.md를 확인하세요. 앞 단계 설명/버전은 당시 이력입니다.
+
+## DATA-04 문법 확장
+
+신규 문법 **30개**(누적42), 신규 예문 **53개**와 기존 예문7개 재사용, 문법 문제60개와 듣기3개를 반영했습니다. `学ぶ → 文法 → 入門 / 初級`의 기존 코스에 새 레슨8개를 추가했습니다. 문법 회독·SRS·예문 음성은 기존 시스템 그대로입니다. 직접입력5문항은 새 문법 설명에 연결됩니다.
+
+Content11 / schema4 / reader7. DATA-04에서 DEV-09의 SQLite user_version 오기를3→4로 정정했습니다. UI/학습 엔진/사용자 진도 구조는 변경하지 않았습니다. Xcode build와 실기기 검증은 아직 필요합니다. 이전 DEV 절의 버전과 통계는 당시 이력입니다.
+
+
+## DATA-05 현재 배포
+
+初級 어휘200개·문장339개 추가. 총 어휘926 / 예문1876(문장1863) / 문법42 / 듣기31 / 문제262. schema4 / content12 / reader7 / UserProgress8.
+
+ㄷ 불규칙 조건·미래형, 비활성 어휘의 활용 노출, 활용 화면 background audio, 비동기 문법 오류 경합을 수정했다. 168개 Python/SQLite 테스트 통과. 62개 Swift파일 구문 검사. **Xcode build·XCTest82개·실제 UI/음성은 미실행**. `PROJECT_STATUS.md`, `DATA_PROGRESS.md`, `Docs/DATA05_INTEGRATION_AUDIT.md`를 최신 기준으로 읽는다.

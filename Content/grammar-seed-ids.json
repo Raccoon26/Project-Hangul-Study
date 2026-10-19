@@ -1,0 +1,158 @@
+[
+  {
+    "id": "e281dc9e-7570-4912-82f6-d9d143093d52",
+    "pattern": "이에요 / 예요",
+    "level": "intro",
+    "examples": [
+      "5e3174d5-557c-47e6-ac34-c62967275b4d",
+      "27b9bba6-a3da-42e2-b5ce-43d88565cd5f"
+    ],
+    "questions": [
+      "fef1ad43-d912-4a45-890f-e0e9f105c8df",
+      "fa79d627-afc3-4033-83af-70e9381391b9"
+    ]
+  },
+  {
+    "id": "f1ae0963-9dee-4b62-b90c-6cddc086d260",
+    "pattern": "은 / 는",
+    "level": "intro",
+    "examples": [
+      "3b9b7e49-0b2d-4cb2-9127-99040da00a1c",
+      "30e585f9-5c8f-4490-8883-c5a08338e3f5"
+    ],
+    "questions": [
+      "e38ecc3c-af7e-4f30-a579-00408d06fe07",
+      "d15c74d0-b486-43f5-b65e-6691673cf4df"
+    ]
+  },
+  {
+    "id": "46818737-ba48-4849-8ea7-7e100908e40f",
+    "pattern": "이 / 가",
+    "level": "intro",
+    "examples": [
+      "0f626c96-cd96-45e7-8a30-acd7576cc6aa",
+      "a888d74f-b79d-4bc2-afea-389b48725635"
+    ],
+    "questions": [
+      "331fa84f-3953-4dc7-bc06-560c6a17e165",
+      "0c1907b5-e301-43e5-baea-2eda78114861"
+    ]
+  },
+  {
+    "id": "dadb8c80-e4ad-4c89-b80d-e1d088906423",
+    "pattern": "을 / 를",
+    "level": "intro",
+    "examples": [
+      "d9313e4d-a185-4d53-816d-5c042b815dea",
+      "6a1b850e-59d9-4247-9817-b580a81f8fd9"
+    ],
+    "questions": [
+      "6fe6823f-705a-467b-a763-4786eb4c3333",
+      "7c2eaa2b-7c6c-42cf-a0b3-3de395f2ea78"
+    ]
+  },
+  {
+    "id": "a0e62e8b-5b4e-4842-af13-e967b6fc23ae",
+    "pattern": "에",
+    "level": "intro",
+    "examples": [
+      "0173f884-e19c-41b1-afaa-015a628e98ec",
+      "3ba1f941-3979-4fce-aa3e-5044b1d63ac5"
+    ],
+    "questions": [
+      "8bfec331-2027-426a-b277-cbdb72f32e03",
+      "1d90d156-ad9f-4a46-a177-4574bd04e4bf"
+    ]
+  },
+  {
+    "id": "42d9e329-cb92-44f3-a7ff-8e1ffabba3ee",
+    "pattern": "에서",
+    "level": "intro",
+    "examples": [
+      "13af8b5b-c5eb-4040-8957-c2e7be681d0a",
+      "ad3553b3-4767-43f9-baa0-8c529e29d723"
+    ],
+    "questions": [
+      "e6ea2ec4-0fd4-4bc6-9876-ac06bc82bb1a",
+      "3dd39223-0a18-4e0d-9d56-6fd7b00fb331"
+    ]
+  },
+  {
+    "id": "893f53f1-ebaa-48d0-82ab-aadd66e84d80",
+    "pattern": "-고 싶다",
+    "level": "beginner",
+    "examples": [
+      "6e53fa65-ece8-4c08-a174-e9b89eb518f7",
+      "fd001e1e-3c5e-47bc-a64b-8cb20cb130de"
+    ],
+    "questions": [
+      "b2d96c63-713a-4725-b684-33be7bee2669",
+      "34e97b26-6dc2-45d4-b7aa-004669437c1b"
+    ]
+  },
+  {
+    "id": "cc45a574-10b5-47b3-9302-bdd0468ad221",
+    "pattern": "-고",
+    "level": "beginner",
+    "examples": [
+      "23695873-a554-44c4-89c7-8c5c865fb65c",
+      "6c0d2f78-f718-4d95-94f9-7b76237457ec"
+    ],
+    "questions": [
+      "354c5fd2-8098-49b5-acec-148d2a88f306",
+      "25d2089c-90af-477d-a0bc-1afe2654176e"
+    ]
+  },
+  {
+    "id": "cb33378d-7dda-43f8-9157-e3780201589d",
+    "pattern": "-지만",
+    "level": "beginner",
+    "examples": [
+      "281b294a-2eec-4daf-97a5-b90c631d6717",
+      "3f74e65a-db7e-4c9f-85fc-778032af096b"
+    ],
+    "questions": [
+      "5e62ec2d-f14b-47a7-94b3-98af232b0769",
+      "4d46fafb-e7b2-4ae8-b47a-e84cbdd648f5"
+    ]
+  },
+  {
+    "id": "701ca81c-0e04-466d-add4-42b94643fd87",
+    "pattern": "-아 / 어서",
+    "level": "beginner",
+    "examples": [
+      "d42393f3-f4ca-410a-8749-c5ece8823992",
+      "94262810-d32a-4e1f-a01b-64abd1ddbebf"
+    ],
+    "questions": [
+      "146020bc-e479-4612-82a4-d34ae3e7eaaa",
+      "77a54cc4-62f6-4177-a59f-58b3fb7c5129"
+    ]
+  },
+  {
+    "id": "9ab75790-f386-4770-89c4-fd3909f97436",
+    "pattern": "-(으)면",
+    "level": "beginner",
+    "examples": [
+      "d6ca05d4-bf5a-4f46-9b60-b0224889458b",
+      "be51ff5d-9f09-48ee-b928-b9335718940f"
+    ],
+    "questions": [
+      "0ae3a30a-aeac-42f6-97fa-f14894399868",
+      "2a833ff2-e008-46be-aadf-a7276de76cbf"
+    ]
+  },
+  {
+    "id": "919c26fd-b810-4c62-9f0c-2a25f7a30ca7",
+    "pattern": "-(으)니까",
+    "level": "beginner",
+    "examples": [
+      "711097ba-c5f1-4369-a094-51bb44717267",
+      "8942279a-6b37-406c-84fd-4ff77ba16736"
+    ],
+    "questions": [
+      "ac5c30df-83a2-4670-8526-0bccee904157",
+      "e70d0540-228d-438a-bea0-5bd27752cdbd"
+    ]
+  }
+]

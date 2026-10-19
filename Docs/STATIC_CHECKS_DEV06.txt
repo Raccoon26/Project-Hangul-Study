@@ -1,0 +1,22 @@
+DEV-06 static verification (Linux)
+Swift tree-sitter syntax: 45 files, 0 errors; NOT a type-check/build.
+Xcode project file paths: 54 verified; v5 migration resource present.
+plist/XML: valid.
+Content SQLite integrity_check: ok; foreign_key_check: no rows.
+Shared vocabulary meaning/audio helpers: identical to DEV-05.
+Byte-preserved: Content/production.json
+Byte-preserved: Resources/content.sqlite
+Byte-preserved: Services/KoreanAudioService.swift
+Byte-preserved: Models/AudioModels.swift
+Byte-preserved: Views/LessonSessionView.swift
+Byte-preserved: ViewModels/LessonViewModel.swift
+Byte-preserved: LearningEngine/HangulLearning.swift
+Byte-preserved: LearningEngine/VocabularyPassEngine.swift
+Byte-preserved: Content/ContentPackageValidator.swift
+Byte-preserved: Tools/ContentBuilder/validator.py
+Byte-preserved: Tools/ContentBuilder/build_content.py
+Removed files: none.
+Python/SQLite suite: 116 passed; see TEST_RESULTS_DEV06.txt.
+Native XCTest: 58 authored, NOT EXECUTED.
+Swift compiler/Xcode/simulator unavailable; native build, type-check, UI, actual audio NOT EXECUTED.
+Content DB SHA256: 90b962bde235b0c21fdc4b608d5c0fb3190dae3b6b03deaa6913deae55d54e42

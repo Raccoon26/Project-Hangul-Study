@@ -1,0 +1,6 @@
+Swift syntax: 29 files, no grammar error nodes (NOT typechecking)
+Generated project: 26 app Swift files, 3 test files
+Project parser, deterministic generator, all source/resource references: pass
+Exact content copy build phase in Debug + Release: production schema 3 / content 4
+Info.plist + shared scheme + workspace XML: pass
+No Xcode/Swift compiler: build, link, XCTest, UI and audible output NOT executed

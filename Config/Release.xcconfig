@@ -1,0 +1,5 @@
+// Owner-provided production values only. Empty means ads are disabled safely.
+// Enter App ID (with ~) and interstitial ad unit ID (with /) before release.
+// No credentials, bank details or Google account secrets belong here.
+ADMOB_APP_ID =
+ADMOB_INTERSTITIAL_ID =

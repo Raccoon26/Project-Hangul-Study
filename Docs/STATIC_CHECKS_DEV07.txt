@@ -1,0 +1,9 @@
+DEV-07 static verification (Linux)
+Swift tree-sitter syntax: 53 files, 0 errors. NOT type-check/build.
+plist/XML and 61 Xcode file references valid; all Swift files + migration v6 included.
+Content SQLite integrity_check ok; foreign_key_check empty.
+13 critical legacy audio/scheduler/vocabulary/lesson/schema/importer files byte-preserved. No file removed.
+Previous release v7 snapshot byte-identical to DATA-03 bundle.
+Native XCTest: 66 authored, NOT EXECUTED.
+Swift compiler: None; Xcode: None. Native type-check/build/UI/audio NOT EXECUTED.
+Content DB SHA256: a08fd61a32540a2e713b59b1a6c40a70668dd7aee47c840658dff36a99ccfee5

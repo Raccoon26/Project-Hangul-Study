@@ -1,0 +1,13 @@
+{
+  "content_sha256": "9293e75ee0161f8fa7688d6ea500f314c8d93fc3f6c9e0284bbf43afec622ac5",
+  "source_sha256": "dcc936ba8f31aba0f6bfd0f47e4199568bd27e71a9c23f0a22731fe7175cf065",
+  "production_source": "Content/production.json",
+  "content_schema": 4,
+  "content_version": 14,
+  "portable_tests": 232,
+  "portable_passed": true,
+  "native_tests_authored": 126,
+  "native_executed": false,
+  "release_build_executed": false,
+  "staging_excluded": true
+}
