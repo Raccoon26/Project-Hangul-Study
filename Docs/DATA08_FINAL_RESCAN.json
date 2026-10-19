@@ -1,0 +1,1868 @@
+[
+  {
+    "type": "participant_direction",
+    "pattern": "상담|相談|인계|인수|引き継|해고|解雇",
+    "scope": "all production vocabulary/meanings/examples/notes, including pre-DATA08; matching contextual rows reread",
+    "before_field_matches": 53,
+    "after_field_matches": 53,
+    "reviewer": "assistant",
+    "interpretation": "Matches are candidates, not an error count. Corrected fields are explicitly listed in DATA08_FINAL_FINDINGS.json. Other matches retain valid senses, examples or quoted common misspellings.",
+    "before": [
+      {
+        "table": "vocabulary",
+        "id": "134d24bf-fe0f-44e4-a973-424b24fedff4",
+        "field": "headword",
+        "text": "인계하다"
+      },
+      {
+        "table": "vocabulary",
+        "id": "6b3ee777-8b0e-41c4-8646-c8358c498b17",
+        "field": "headword",
+        "text": "인수하다"
+      },
+      {
+        "table": "vocabulary",
+        "id": "b2ae533b-7c60-4f90-b415-bad4d1e71d25",
+        "field": "headword",
+        "text": "인수인계"
+      },
+      {
+        "table": "vocabulary",
+        "id": "9972f5dd-7d37-498f-84d8-e26c92b40583",
+        "field": "headword",
+        "text": "상담하다"
+      },
+      {
+        "table": "vocabulary",
+        "id": "d9daa0ea-ee6e-4d1e-8665-95b0daab7845",
+        "field": "headword",
+        "text": "해고하다"
+      },
+      {
+        "table": "meanings",
+        "id": "0be1a0e3-8f0e-40e0-aea2-b5c9f63a2efd",
+        "field": "meaning_ja",
+        "text": "相談する・話し合う"
+      },
+      {
+        "table": "meanings",
+        "id": "b1f59628-0af2-42ee-91da-2014a53c1ec7",
+        "field": "meaning_ja",
+        "text": "引き継ぐ・引き渡す"
+      },
+      {
+        "table": "meanings",
+        "id": "b1f59628-0af2-42ee-91da-2014a53c1ec7",
+        "field": "usage_ja",
+        "text": "コロケーション：담당자에게 업무를 인계하다"
+      },
+      {
+        "table": "meanings",
+        "id": "45afc24d-01bf-4a33-8536-2add3609fa7b",
+        "field": "meaning_ja",
+        "text": "引き継いで受け取る"
+      },
+      {
+        "table": "meanings",
+        "id": "45afc24d-01bf-4a33-8536-2add3609fa7b",
+        "field": "usage_ja",
+        "text": "コロケーション：업무를 인수하다 / 물건을 인수하다"
+      },
+      {
+        "table": "meanings",
+        "id": "5ec8b1f7-e5c5-4c5a-830c-33aaab8cee7d",
+        "field": "meaning_ja",
+        "text": "業務などの引き継ぎ"
+      },
+      {
+        "table": "meanings",
+        "id": "00d7838a-78ad-4f4d-91cb-02c75693fe48",
+        "field": "meaning_ja",
+        "text": "相談する"
+      },
+      {
+        "table": "meanings",
+        "id": "00d7838a-78ad-4f4d-91cb-02c75693fe48",
+        "field": "usage_ja",
+        "text": "コロケーション：문제를 상담하다"
+      },
+      {
+        "table": "meanings",
+        "id": "f7bec451-5ed8-4952-8231-dc1011f8a5b7",
+        "field": "meaning_ja",
+        "text": "相談し合う"
+      },
+      {
+        "table": "meanings",
+        "id": "6a143fec-6d3b-4000-b11d-0dfebd5d861c",
+        "field": "meaning_ja",
+        "text": "解雇する"
+      },
+      {
+        "table": "meanings",
+        "id": "6a143fec-6d3b-4000-b11d-0dfebd5d861c",
+        "field": "usage_ja",
+        "text": "コロケーション：직원을 해고하다"
+      },
+      {
+        "table": "examples",
+        "id": "4abb31a2-3222-47d4-bf17-db111c891ca5",
+        "field": "japanese",
+        "text": "行事の日程を先生と相談しました。"
+      },
+      {
+        "table": "examples",
+        "id": "b2e2bf5b-e05b-4ecc-a938-4109c61ec678",
+        "field": "korean",
+        "text": "퇴근 전에 다음 담당자에게 일을 인계해요."
+      },
+      {
+        "table": "examples",
+        "id": "b2e2bf5b-e05b-4ecc-a938-4109c61ec678",
+        "field": "japanese",
+        "text": "退勤前に、次の担当者に仕事を引き継ぎます。"
+      },
+      {
+        "table": "examples",
+        "id": "6a1bd8b3-e61c-475d-8451-0517d660a843",
+        "field": "korean",
+        "text": "인계할 내용은 빠짐없이 메모했어요."
+      },
+      {
+        "table": "examples",
+        "id": "6a1bd8b3-e61c-475d-8451-0517d660a843",
+        "field": "japanese",
+        "text": "引き継ぐ内容は、漏れなくメモしました。"
+      },
+      {
+        "table": "examples",
+        "id": "e101c40a-a0f4-4651-adfe-88aa48637262",
+        "field": "korean",
+        "text": "새 담당자가 업무를 인수했어요."
+      },
+      {
+        "table": "examples",
+        "id": "e101c40a-a0f4-4651-adfe-88aa48637262",
+        "field": "japanese",
+        "text": "新しい担当者が業務を引き継ぎました。"
+      },
+      {
+        "table": "examples",
+        "id": "3f4252ce-baf7-49d5-b6d8-5f7c0ca55e8b",
+        "field": "korean",
+        "text": "물건을 인수하기 전에 상태를 확인해요."
+      },
+      {
+        "table": "examples",
+        "id": "4c2c035d-bbe1-4632-8ca7-cf32f6c88921",
+        "field": "korean",
+        "text": "담당자가 바뀌어서 인수인계가 필요해요."
+      },
+      {
+        "table": "examples",
+        "id": "4c2c035d-bbe1-4632-8ca7-cf32f6c88921",
+        "field": "japanese",
+        "text": "担当者が替わるので、引き継ぎが必要です。"
+      },
+      {
+        "table": "examples",
+        "id": "0c37c2a8-223e-479e-bd0e-dbaace24e70a",
+        "field": "korean",
+        "text": "인수인계 자료를 읽고 질문을 정리했어요."
+      },
+      {
+        "table": "examples",
+        "id": "0c37c2a8-223e-479e-bd0e-dbaace24e70a",
+        "field": "japanese",
+        "text": "引き継ぎ資料を読んで、質問をまとめました。"
+      },
+      {
+        "table": "examples",
+        "id": "17ae5ef9-55a7-4f3e-ab1a-125ac52dd53f",
+        "field": "korean",
+        "text": "진로를 막연히 고민하다가 상담을 받았어요."
+      },
+      {
+        "table": "examples",
+        "id": "17ae5ef9-55a7-4f3e-ab1a-125ac52dd53f",
+        "field": "japanese",
+        "text": "進路について漠然と悩んでいて、相談を受けました。"
+      },
+      {
+        "table": "examples",
+        "id": "3b7e24a2-d941-4d51-94fe-5c8eba6b3220",
+        "field": "korean",
+        "text": "진로 문제를 선생님과 상담했어요."
+      },
+      {
+        "table": "examples",
+        "id": "3b7e24a2-d941-4d51-94fe-5c8eba6b3220",
+        "field": "japanese",
+        "text": "進路の問題を、先生に相談しました。"
+      },
+      {
+        "table": "examples",
+        "id": "1d116698-3bf2-4363-9b18-03af77756fc4",
+        "field": "korean",
+        "text": "혼자 고민하지 말고 믿을 만한 사람과 상담해 보세요."
+      },
+      {
+        "table": "examples",
+        "id": "1d116698-3bf2-4363-9b18-03af77756fc4",
+        "field": "japanese",
+        "text": "一人で悩まず、信頼できる人に相談してみてください。"
+      },
+      {
+        "table": "examples",
+        "id": "e2faa5e9-d145-4a55-b685-a31f2a205e5c",
+        "field": "japanese",
+        "text": "計画を変える前に、家族と相談しようと思っています。"
+      },
+      {
+        "table": "examples",
+        "id": "e07ba909-4d71-4994-b77d-ee8b3e63505d",
+        "field": "japanese",
+        "text": "一人で決めず、同僚たちと相談しました。"
+      },
+      {
+        "table": "examples",
+        "id": "cf56e1fb-9530-4b94-bab1-05f75eb1d926",
+        "field": "korean",
+        "text": "회사는 직원을 해고한 이유를 설명했어요."
+      },
+      {
+        "table": "examples",
+        "id": "cf56e1fb-9530-4b94-bab1-05f75eb1d926",
+        "field": "japanese",
+        "text": "会社は、職員を解雇した理由を説明しました。"
+      },
+      {
+        "table": "examples",
+        "id": "498d61d1-d209-452f-b604-91c7118e0b49",
+        "field": "korean",
+        "text": "문제를 알렸다는 이유만으로 직원을 해고해서는 안 돼요."
+      },
+      {
+        "table": "examples",
+        "id": "498d61d1-d209-452f-b604-91c7118e0b49",
+        "field": "japanese",
+        "text": "問題を伝えたという理由だけで、職員を解雇してはいけません。"
+      },
+      {
+        "table": "examples",
+        "id": "2bfe0a30-80b8-4e4b-9310-92e8e3679452",
+        "field": "japanese",
+        "text": "状況に合う指針がなく、担当者と相談しました。"
+      },
+      {
+        "table": "examples",
+        "id": "d170fd33-745c-4fd0-92df-9dda81a45554",
+        "field": "korean",
+        "text": "한 시간 기다렸는데 상담은 고작 오 분이었어요."
+      },
+      {
+        "table": "examples",
+        "id": "d170fd33-745c-4fd0-92df-9dda81a45554",
+        "field": "japanese",
+        "text": "一時間待ったのに、相談はたった五分でした。"
+      },
+      {
+        "table": "learner_notes",
+        "id": "a423922d-5822-472c-b0ee-cba2a2420c28",
+        "field": "title_ja",
+        "text": "인계하다の使い方"
+      },
+      {
+        "table": "learner_notes",
+        "id": "a423922d-5822-472c-b0ee-cba2a2420c28",
+        "field": "explanation_ja",
+        "text": "引き継いで渡す側です。인수하다は受け取る側です。日本語では両方「引き継ぐ」になり得るので主語を確認します。"
+      },
+      {
+        "table": "learner_notes",
+        "id": "a959ff4a-14c0-4257-929c-31e5d366cd58",
+        "field": "title_ja",
+        "text": "인수하다の使い方"
+      },
+      {
+        "table": "learner_notes",
+        "id": "a959ff4a-14c0-4257-929c-31e5d366cd58",
+        "field": "explanation_ja",
+        "text": "引き継いで受け取る側です。인계하다と受け渡しの方向が逆になります。"
+      },
+      {
+        "table": "learner_notes",
+        "id": "4d57f2d0-471c-46de-b796-41407bd28cd8",
+        "field": "explanation_ja",
+        "text": "条件をすり合わせる交渉。「거래처와 날짜를 협상하다」。相談して意見を交わす 상의하다 と違い、条件の合意を目指す。相手には 와/과、交渉内容には 을/를。"
+      },
+      {
+        "table": "learner_notes",
+        "id": "0d375d31-9c21-4026-8a68-1ddb94429e09",
+        "field": "title_ja",
+        "text": "상담하다の意味・文体と使い方"
+      },
+      {
+        "table": "learner_notes",
+        "id": "0d375d31-9c21-4026-8a68-1ddb94429e09",
+        "field": "explanation_ja",
+        "text": "問題や進路などを相談すること。専門家や窓口との相談にもよく使う。상의하다 は家族・同僚などと意見を交わして相談する場面に合う。両方使える文脈もある。"
+      },
+      {
+        "table": "learner_notes",
+        "id": "bc019805-8537-4b19-b8ea-84974bed84fd",
+        "field": "explanation_ja",
+        "text": "職を自分の意思で辞すること。퇴사하다 は会社を離れること、해고하다 は雇う側が職員を辞めさせること。日本語の「辞める／辞めさせる」の主語の違いに注意する。"
+      },
+      {
+        "table": "learner_notes",
+        "id": "d061362e-7549-4a23-a129-935d6ec5b706",
+        "field": "title_ja",
+        "text": "해고하다の意味・文体と使い方"
+      },
+      {
+        "table": "learner_notes",
+        "id": "d061362e-7549-4a23-a129-935d6ec5b706",
+        "field": "explanation_ja",
+        "text": "雇い主側が職員を辞めさせること。「회사가 직원을 해고하다」。退職する本人を主語にして 해고하다 と言わない。日本語の「解雇される」なら 해고되다／해고당하다。"
+      }
+    ],
+    "after": [
+      {
+        "table": "vocabulary",
+        "id": "134d24bf-fe0f-44e4-a973-424b24fedff4",
+        "field": "headword",
+        "text": "인계하다"
+      },
+      {
+        "table": "vocabulary",
+        "id": "6b3ee777-8b0e-41c4-8646-c8358c498b17",
+        "field": "headword",
+        "text": "인수하다"
+      },
+      {
+        "table": "vocabulary",
+        "id": "b2ae533b-7c60-4f90-b415-bad4d1e71d25",
+        "field": "headword",
+        "text": "인수인계"
+      },
+      {
+        "table": "vocabulary",
+        "id": "9972f5dd-7d37-498f-84d8-e26c92b40583",
+        "field": "headword",
+        "text": "상담하다"
+      },
+      {
+        "table": "vocabulary",
+        "id": "d9daa0ea-ee6e-4d1e-8665-95b0daab7845",
+        "field": "headword",
+        "text": "해고하다"
+      },
+      {
+        "table": "meanings",
+        "id": "0be1a0e3-8f0e-40e0-aea2-b5c9f63a2efd",
+        "field": "meaning_ja",
+        "text": "相談する・話し合う"
+      },
+      {
+        "table": "meanings",
+        "id": "b1f59628-0af2-42ee-91da-2014a53c1ec7",
+        "field": "meaning_ja",
+        "text": "引き継ぐ・引き渡す"
+      },
+      {
+        "table": "meanings",
+        "id": "b1f59628-0af2-42ee-91da-2014a53c1ec7",
+        "field": "usage_ja",
+        "text": "コロケーション：담당자에게 업무를 인계하다"
+      },
+      {
+        "table": "meanings",
+        "id": "45afc24d-01bf-4a33-8536-2add3609fa7b",
+        "field": "meaning_ja",
+        "text": "引き継いで受け取る"
+      },
+      {
+        "table": "meanings",
+        "id": "45afc24d-01bf-4a33-8536-2add3609fa7b",
+        "field": "usage_ja",
+        "text": "コロケーション：업무를 인수하다 / 물건을 인수하다"
+      },
+      {
+        "table": "meanings",
+        "id": "5ec8b1f7-e5c5-4c5a-830c-33aaab8cee7d",
+        "field": "meaning_ja",
+        "text": "業務などの引き継ぎ"
+      },
+      {
+        "table": "meanings",
+        "id": "00d7838a-78ad-4f4d-91cb-02c75693fe48",
+        "field": "meaning_ja",
+        "text": "相談する"
+      },
+      {
+        "table": "meanings",
+        "id": "00d7838a-78ad-4f4d-91cb-02c75693fe48",
+        "field": "usage_ja",
+        "text": "コロケーション：문제를 상담하다"
+      },
+      {
+        "table": "meanings",
+        "id": "f7bec451-5ed8-4952-8231-dc1011f8a5b7",
+        "field": "meaning_ja",
+        "text": "相談し合う"
+      },
+      {
+        "table": "meanings",
+        "id": "6a143fec-6d3b-4000-b11d-0dfebd5d861c",
+        "field": "meaning_ja",
+        "text": "解雇する"
+      },
+      {
+        "table": "meanings",
+        "id": "6a143fec-6d3b-4000-b11d-0dfebd5d861c",
+        "field": "usage_ja",
+        "text": "コロケーション：직원을 해고하다"
+      },
+      {
+        "table": "examples",
+        "id": "4abb31a2-3222-47d4-bf17-db111c891ca5",
+        "field": "japanese",
+        "text": "行事の日程を先生と相談しました。"
+      },
+      {
+        "table": "examples",
+        "id": "b2e2bf5b-e05b-4ecc-a938-4109c61ec678",
+        "field": "korean",
+        "text": "퇴근 전에 다음 담당자에게 일을 인계해요."
+      },
+      {
+        "table": "examples",
+        "id": "b2e2bf5b-e05b-4ecc-a938-4109c61ec678",
+        "field": "japanese",
+        "text": "退勤前に、次の担当者に仕事を引き継ぎます。"
+      },
+      {
+        "table": "examples",
+        "id": "6a1bd8b3-e61c-475d-8451-0517d660a843",
+        "field": "korean",
+        "text": "인계할 내용은 빠짐없이 메모했어요."
+      },
+      {
+        "table": "examples",
+        "id": "6a1bd8b3-e61c-475d-8451-0517d660a843",
+        "field": "japanese",
+        "text": "引き継ぐ内容は、漏れなくメモしました。"
+      },
+      {
+        "table": "examples",
+        "id": "e101c40a-a0f4-4651-adfe-88aa48637262",
+        "field": "korean",
+        "text": "새 담당자가 업무를 인수했어요."
+      },
+      {
+        "table": "examples",
+        "id": "e101c40a-a0f4-4651-adfe-88aa48637262",
+        "field": "japanese",
+        "text": "新しい担当者が業務を引き継ぎました。"
+      },
+      {
+        "table": "examples",
+        "id": "3f4252ce-baf7-49d5-b6d8-5f7c0ca55e8b",
+        "field": "korean",
+        "text": "물건을 인수하기 전에 상태를 확인해요."
+      },
+      {
+        "table": "examples",
+        "id": "4c2c035d-bbe1-4632-8ca7-cf32f6c88921",
+        "field": "korean",
+        "text": "담당자가 바뀌어서 인수인계가 필요해요."
+      },
+      {
+        "table": "examples",
+        "id": "4c2c035d-bbe1-4632-8ca7-cf32f6c88921",
+        "field": "japanese",
+        "text": "担当者が替わったので、引き継ぎが必要です。"
+      },
+      {
+        "table": "examples",
+        "id": "0c37c2a8-223e-479e-bd0e-dbaace24e70a",
+        "field": "korean",
+        "text": "인수인계 자료를 읽고 질문을 정리했어요."
+      },
+      {
+        "table": "examples",
+        "id": "0c37c2a8-223e-479e-bd0e-dbaace24e70a",
+        "field": "japanese",
+        "text": "引き継ぎ資料を読んで、質問をまとめました。"
+      },
+      {
+        "table": "examples",
+        "id": "17ae5ef9-55a7-4f3e-ab1a-125ac52dd53f",
+        "field": "korean",
+        "text": "진로를 막연히 고민하다가 상담을 받았어요."
+      },
+      {
+        "table": "examples",
+        "id": "17ae5ef9-55a7-4f3e-ab1a-125ac52dd53f",
+        "field": "japanese",
+        "text": "進路について漠然と悩んでいて、相談に乗ってもらいました。"
+      },
+      {
+        "table": "examples",
+        "id": "3b7e24a2-d941-4d51-94fe-5c8eba6b3220",
+        "field": "korean",
+        "text": "진로 문제를 선생님과 상담했어요."
+      },
+      {
+        "table": "examples",
+        "id": "3b7e24a2-d941-4d51-94fe-5c8eba6b3220",
+        "field": "japanese",
+        "text": "進路の問題を、先生に相談しました。"
+      },
+      {
+        "table": "examples",
+        "id": "1d116698-3bf2-4363-9b18-03af77756fc4",
+        "field": "korean",
+        "text": "혼자 고민하지 말고 믿을 만한 사람과 상담해 보세요."
+      },
+      {
+        "table": "examples",
+        "id": "1d116698-3bf2-4363-9b18-03af77756fc4",
+        "field": "japanese",
+        "text": "一人で悩まず、信頼できる人に相談してみてください。"
+      },
+      {
+        "table": "examples",
+        "id": "e2faa5e9-d145-4a55-b685-a31f2a205e5c",
+        "field": "japanese",
+        "text": "計画を変える前に、家族と相談しようと思っています。"
+      },
+      {
+        "table": "examples",
+        "id": "e07ba909-4d71-4994-b77d-ee8b3e63505d",
+        "field": "japanese",
+        "text": "一人で決めず、同僚たちと相談しました。"
+      },
+      {
+        "table": "examples",
+        "id": "cf56e1fb-9530-4b94-bab1-05f75eb1d926",
+        "field": "korean",
+        "text": "회사는 직원을 해고한 이유를 설명했어요."
+      },
+      {
+        "table": "examples",
+        "id": "cf56e1fb-9530-4b94-bab1-05f75eb1d926",
+        "field": "japanese",
+        "text": "会社は、職員を解雇した理由を説明しました。"
+      },
+      {
+        "table": "examples",
+        "id": "498d61d1-d209-452f-b604-91c7118e0b49",
+        "field": "korean",
+        "text": "문제를 알렸다는 이유만으로 직원을 해고해서는 안 돼요."
+      },
+      {
+        "table": "examples",
+        "id": "498d61d1-d209-452f-b604-91c7118e0b49",
+        "field": "japanese",
+        "text": "問題を伝えたという理由だけで、職員を解雇してはいけません。"
+      },
+      {
+        "table": "examples",
+        "id": "2bfe0a30-80b8-4e4b-9310-92e8e3679452",
+        "field": "japanese",
+        "text": "状況に合う指針がなく、担当者と相談しました。"
+      },
+      {
+        "table": "examples",
+        "id": "d170fd33-745c-4fd0-92df-9dda81a45554",
+        "field": "korean",
+        "text": "한 시간 기다렸는데 상담은 고작 오 분이었어요."
+      },
+      {
+        "table": "examples",
+        "id": "d170fd33-745c-4fd0-92df-9dda81a45554",
+        "field": "japanese",
+        "text": "一時間待ったのに、相談はたった五分でした。"
+      },
+      {
+        "table": "learner_notes",
+        "id": "a423922d-5822-472c-b0ee-cba2a2420c28",
+        "field": "title_ja",
+        "text": "인계하다の使い方"
+      },
+      {
+        "table": "learner_notes",
+        "id": "a423922d-5822-472c-b0ee-cba2a2420c28",
+        "field": "explanation_ja",
+        "text": "引き継いで渡す側です。인수하다は受け取る側です。日本語では両方「引き継ぐ」になり得るので主語を確認します。"
+      },
+      {
+        "table": "learner_notes",
+        "id": "a959ff4a-14c0-4257-929c-31e5d366cd58",
+        "field": "title_ja",
+        "text": "인수하다の使い方"
+      },
+      {
+        "table": "learner_notes",
+        "id": "a959ff4a-14c0-4257-929c-31e5d366cd58",
+        "field": "explanation_ja",
+        "text": "引き継いで受け取る側です。인계하다と受け渡しの方向が逆になります。"
+      },
+      {
+        "table": "learner_notes",
+        "id": "4d57f2d0-471c-46de-b796-41407bd28cd8",
+        "field": "explanation_ja",
+        "text": "条件をすり合わせる交渉。「거래처와 날짜를 협상하다」。相談して意見を交わす 상의하다 と違い、条件の合意を目指す。相手には 와/과、交渉内容には 을/를。"
+      },
+      {
+        "table": "learner_notes",
+        "id": "0d375d31-9c21-4026-8a68-1ddb94429e09",
+        "field": "title_ja",
+        "text": "상담하다の意味・文体と使い方"
+      },
+      {
+        "table": "learner_notes",
+        "id": "0d375d31-9c21-4026-8a68-1ddb94429e09",
+        "field": "explanation_ja",
+        "text": "問題や進路などを相談すること。専門家や窓口との相談にもよく使う。상의하다 は家族・同僚などと意見を交わして相談する場面に合う。両方使える文脈もある。"
+      },
+      {
+        "table": "learner_notes",
+        "id": "bc019805-8537-4b19-b8ea-84974bed84fd",
+        "field": "explanation_ja",
+        "text": "職を自分の意思で辞すること。퇴사하다 は会社を離れること、해고하다 は雇う側が職員を辞めさせること。日本語の「辞める／辞めさせる」の主語の違いに注意する。"
+      },
+      {
+        "table": "learner_notes",
+        "id": "d061362e-7549-4a23-a129-935d6ec5b706",
+        "field": "title_ja",
+        "text": "해고하다の意味・文体と使い方"
+      },
+      {
+        "table": "learner_notes",
+        "id": "d061362e-7549-4a23-a129-935d6ec5b706",
+        "field": "explanation_ja",
+        "text": "雇い主側が職員を辞めさせること。「회사가 직원을 해고하다」。退職する本人を主語にして 해고하다 と言わない。日本語の「解雇される」なら 해고되다／해고당하다。"
+      }
+    ]
+  },
+  {
+    "type": "editorial_leakage",
+    "pattern": "新規語|重複登録|追加し|既存|schema|SQL|今回.*登録|教材では|登録する|として扱|として数",
+    "scope": "all production vocabulary/meanings/examples/notes, including pre-DATA08; matching contextual rows reread",
+    "before_field_matches": 14,
+    "after_field_matches": 7,
+    "reviewer": "assistant",
+    "interpretation": "Matches are candidates, not an error count. Corrected fields are explicitly listed in DATA08_FINAL_FINDINGS.json. Other matches retain valid senses, examples or quoted common misspellings.",
+    "before": [
+      {
+        "table": "meanings",
+        "id": "167d9151-bd4a-404b-9e05-b9a4c56bdc54",
+        "field": "meaning_ja",
+        "text": "登録する"
+      },
+      {
+        "table": "meanings",
+        "id": "deeda7de-455c-42fa-a100-fea9b1b66ba6",
+        "field": "meaning_ja",
+        "text": "加入する・会員登録する"
+      },
+      {
+        "table": "meanings",
+        "id": "39487da6-fcf8-4cd0-a262-59c811cb22cf",
+        "field": "meaning_ja",
+        "text": "チャンネル登録する"
+      },
+      {
+        "table": "learner_notes",
+        "id": "70e02ce1-63db-453c-8881-96d4dec04a11",
+        "field": "explanation_ja",
+        "text": "-(으)ㄹ 뻔하다と組み合わせ、危うく起きそうだったが実際には起きなかったことを述べます。今回この形の独立Grammar教材は追加しません。"
+      },
+      {
+        "table": "learner_notes",
+        "id": "90a9a726-27f4-44e5-bbc6-671e541a54df",
+        "field": "explanation_ja",
+        "text": "時間・量などが必要な分に足りないこと。「시간이 모자라다」。動詞として扱い、모자라요／모자라는。르で終わるが 모잘라요 とはしない。人を主語にすると侮辱的に響くことがある。"
+      },
+      {
+        "table": "learner_notes",
+        "id": "f1362469-5e90-4481-8478-cadbe5cfd7a1",
+        "field": "explanation_ja",
+        "text": "デジタル用語の名詞。「로그인하다」「로그인을 하다」として使う。本項目では名詞を基本形とし、動詞形を別の新規語として重複登録しない。ログインは毎回の接続、가입 は会員になること。"
+      },
+      {
+        "table": "learner_notes",
+        "id": "83b661ed-6d0d-472d-a603-f4978f91dfa2",
+        "field": "explanation_ja",
+        "text": "報道機関が出来事を知らせる語。個人的な伝言には 말을 전하다 が自然で、보도하다 と同じではない。名詞 언론 もこの教材では報道機関・活動の意味に限定する。"
+      },
+      {
+        "table": "learner_notes",
+        "id": "91164bb4-60c4-428c-b746-b60b5f2f08c6",
+        "field": "explanation_ja",
+        "text": "人を識別する情報などを表す複合名詞。教材では分かち書きを「개인 정보」にそろえる。日常の私的な話すべてが、同じ意味の個人データとは限らない。"
+      },
+      {
+        "table": "learner_notes",
+        "id": "2bd796f4-9776-4d43-a3f3-27f350d7a096",
+        "field": "explanation_ja",
+        "text": "利用時の条件を定めた規約を指す複合名詞。教材では「이용 약관」と分けて書く。「약속」の日常的な約束より、サービスの案内・契約に近い文体。"
+      },
+      {
+        "table": "learner_notes",
+        "id": "7f68ff67-82d5-40b7-bab9-b2b9553d61e9",
+        "field": "explanation_ja",
+        "text": "沈黙や話し出しにくい状態の後に話し始めること。「말문이 막히다」は言葉に詰まることで、方向が異なる。文法パターンではなく慣用的な語のまとまりとして扱う。"
+      },
+      {
+        "table": "learner_notes",
+        "id": "a67747a1-e827-45ed-a437-7d0e43bfafc0",
+        "field": "explanation_ja",
+        "text": "忙しさや緊張が一段落して、一息ついたり安心したりすること。ため息をつく 한숨을 쉬다 とは異なる。文法の型ではなく、意味を持つ慣用表現として登録する。"
+      },
+      {
+        "table": "learner_notes",
+        "id": "80d1d8fa-5c74-412c-ad3a-e7744ac64fff",
+        "field": "explanation_ja",
+        "text": "本項目は 마음을 다잡다 のように気持ちを引き締め直す意味。既存の 마음을 잡다 と意味が重なっても、何でも機械的に交換できるとはしない。"
+      },
+      {
+        "table": "learner_notes",
+        "id": "f99a5d46-f9a2-4e69-bcea-34ee4676d73b",
+        "field": "explanation_ja",
+        "text": "他人の考えや感情を理解し、気持ちを共有すること。同じ意見だという 동감 と重なるが、意見の一致だけに狭めない。名詞なので 공감하다 の活用形として数えない。"
+      },
+      {
+        "table": "learner_notes",
+        "id": "ee67d13b-2cdc-4cdb-8c0b-d56e0bb5dffc",
+        "field": "explanation_ja",
+        "text": "黙る・話さないことを表すが、相手に 입 다물어 と言うと非常に強い言い方。例文では本人が黙って聞く／答えない状況として扱う。"
+      }
+    ],
+    "after": [
+      {
+        "table": "meanings",
+        "id": "167d9151-bd4a-404b-9e05-b9a4c56bdc54",
+        "field": "meaning_ja",
+        "text": "登録する"
+      },
+      {
+        "table": "meanings",
+        "id": "deeda7de-455c-42fa-a100-fea9b1b66ba6",
+        "field": "meaning_ja",
+        "text": "加入する・会員登録する"
+      },
+      {
+        "table": "meanings",
+        "id": "39487da6-fcf8-4cd0-a262-59c811cb22cf",
+        "field": "meaning_ja",
+        "text": "チャンネル登録する"
+      },
+      {
+        "table": "learner_notes",
+        "id": "90a9a726-27f4-44e5-bbc6-671e541a54df",
+        "field": "explanation_ja",
+        "text": "時間・量などが必要な分に足りないこと。「시간이 모자라다」。動詞として扱い、모자라요／모자라는。르で終わるが 모잘라요 とはしない。人を主語にすると侮辱的に響くことがある。"
+      },
+      {
+        "table": "learner_notes",
+        "id": "83b661ed-6d0d-472d-a603-f4978f91dfa2",
+        "field": "explanation_ja",
+        "text": "報道機関が出来事を知らせる語。個人的な伝言には 말을 전하다 が自然で、보도하다 と同じではない。名詞 언론 もこの教材では報道機関・活動の意味に限定する。"
+      },
+      {
+        "table": "learner_notes",
+        "id": "7f68ff67-82d5-40b7-bab9-b2b9553d61e9",
+        "field": "explanation_ja",
+        "text": "沈黙や話し出しにくい状態の後に話し始めること。「말문이 막히다」は言葉に詰まることで、方向が異なる。文法パターンではなく慣用的な語のまとまりとして扱う。"
+      },
+      {
+        "table": "learner_notes",
+        "id": "ee67d13b-2cdc-4cdb-8c0b-d56e0bb5dffc",
+        "field": "explanation_ja",
+        "text": "黙る・話さないことを表すが、相手に 입 다물어 と言うと非常に強い言い方。例文では本人が黙って聞く／答えない状況として扱う。"
+      }
+    ]
+  },
+  {
+    "type": "speed_vs_onset",
+    "pattern": "빠르게|急に|급격히|급속히",
+    "scope": "all production vocabulary/meanings/examples/notes, including pre-DATA08; matching contextual rows reread",
+    "before_field_matches": 42,
+    "after_field_matches": 41,
+    "reviewer": "assistant",
+    "interpretation": "Matches are candidates, not an error count. Corrected fields are explicitly listed in DATA08_FINAL_FINDINGS.json. Other matches retain valid senses, examples or quoted common misspellings.",
+    "before": [
+      {
+        "table": "vocabulary",
+        "id": "3b53ccb8-1704-44ce-bdea-90533705a5b6",
+        "field": "headword",
+        "text": "급격히"
+      },
+      {
+        "table": "vocabulary",
+        "id": "1029f348-5747-42c4-9915-9215c3bf9403",
+        "field": "headword",
+        "text": "급속히"
+      },
+      {
+        "table": "meanings",
+        "id": "2a83c4b4-b7b0-4b58-a453-dd1527ea136a",
+        "field": "meaning_ja",
+        "text": "急に、突然"
+      },
+      {
+        "table": "meanings",
+        "id": "3834163c-f392-41f0-92fc-6dbab68de8f9",
+        "field": "meaning_ja",
+        "text": "感情が急にこみ上げる"
+      },
+      {
+        "table": "meanings",
+        "id": "09e1edff-b3f4-4fb5-823d-db9159e473c2",
+        "field": "meaning_ja",
+        "text": "早急に行う必要がある"
+      },
+      {
+        "table": "meanings",
+        "id": "64901863-cd7b-45ac-832e-969842438d28",
+        "field": "usage_ja",
+        "text": "コロケーション：급격히 변하다"
+      },
+      {
+        "table": "meanings",
+        "id": "3d6f0de2-e037-46b3-8715-af0e7acc25ae",
+        "field": "usage_ja",
+        "text": "コロケーション：급속히 발전하다"
+      },
+      {
+        "table": "meanings",
+        "id": "9fea1101-760d-45cc-a78b-e5626fdc211f",
+        "field": "meaning_ja",
+        "text": "急に目立って・ぐっと"
+      },
+      {
+        "table": "examples",
+        "id": "72784ef9-00c7-47c6-b1a1-c8111f4ec497",
+        "field": "japanese",
+        "text": "急に来たので驚きました。"
+      },
+      {
+        "table": "examples",
+        "id": "24ae8d95-7d12-4cf4-bdee-769cfdf98539",
+        "field": "japanese",
+        "text": "天気が急に変わりました。"
+      },
+      {
+        "table": "examples",
+        "id": "33a871f8-bd22-48cb-8a8c-1f44596d38bd",
+        "field": "japanese",
+        "text": "バスが急に止まりました。"
+      },
+      {
+        "table": "examples",
+        "id": "61a0bb13-3f4e-425d-89a6-bdc6e5454f64",
+        "field": "japanese",
+        "text": "急に立ち上がってくらくらします。"
+      },
+      {
+        "table": "examples",
+        "id": "a4763b30-c573-4dc9-b783-ea6f999482a7",
+        "field": "japanese",
+        "text": "急に雨が降りました。"
+      },
+      {
+        "table": "examples",
+        "id": "c2ca6689-a004-41cf-8adb-ffda3e5fcac6",
+        "field": "japanese",
+        "text": "インターネット接続が急に切れました。"
+      },
+      {
+        "table": "examples",
+        "id": "bf0ce8e3-f62a-4bc7-8343-5ecc05e6818b",
+        "field": "japanese",
+        "text": "急に雨が激しく降りました。"
+      },
+      {
+        "table": "examples",
+        "id": "afa81f1d-af01-4c14-a20d-ed7a17189c13",
+        "field": "japanese",
+        "text": "急に予定を変えられると困ります。"
+      },
+      {
+        "table": "examples",
+        "id": "32de268b-f6c2-4b09-bded-af0bb47ea1ed",
+        "field": "korean",
+        "text": "몸이 둔해서 빠르게 움직이기 어려워요."
+      },
+      {
+        "table": "examples",
+        "id": "57caf405-f5c8-4fc0-ad10-14550015a5c3",
+        "field": "japanese",
+        "text": "急に黙ると、もっと気まずくなることがあります。"
+      },
+      {
+        "table": "examples",
+        "id": "fafdf7ea-2840-4bc1-bd0a-e2dea54f4959",
+        "field": "japanese",
+        "text": "予定が急に変わり、どうすればよいか分かりませんでした。"
+      },
+      {
+        "table": "examples",
+        "id": "8eb0c0fb-8fea-4f3d-82a5-4d9695b43391",
+        "field": "japanese",
+        "text": "会議が急に中止になり、落ち着かない雰囲気でした。"
+      },
+      {
+        "table": "examples",
+        "id": "24c158fc-63b4-406e-9264-f59fc0f103dc",
+        "field": "japanese",
+        "text": "急に寒くなることもあるので、寒さに備えてください。"
+      },
+      {
+        "table": "examples",
+        "id": "e01e0d0c-e625-4234-aad6-6a54de8b653e",
+        "field": "japanese",
+        "text": "仕事が急に増えたので、助けが必要です。"
+      },
+      {
+        "table": "examples",
+        "id": "ba9321af-dd8a-402b-99f1-9ef8c5c4e0f0",
+        "field": "korean",
+        "text": "저녁이 되니 기온이 빠르게 낮아졌어요."
+      },
+      {
+        "table": "examples",
+        "id": "ba9321af-dd8a-402b-99f1-9ef8c5c4e0f0",
+        "field": "japanese",
+        "text": "夕方になると、気温が急に下がりました。"
+      },
+      {
+        "table": "examples",
+        "id": "15923f52-afb6-442d-9f17-520af1879ec3",
+        "field": "korean",
+        "text": "회사는 손님의 불만에 빠르게 대응했어요."
+      },
+      {
+        "table": "examples",
+        "id": "c933a4fb-ee07-4cc0-92a4-9390d6d88e11",
+        "field": "japanese",
+        "text": "急に問題が起きても、落ち着いて対処してください。"
+      },
+      {
+        "table": "examples",
+        "id": "56da23f9-48c3-485c-98cb-48d5f4801879",
+        "field": "japanese",
+        "text": "早急に解決すべき問題から、順番に話し合いましょう。"
+      },
+      {
+        "table": "examples",
+        "id": "dcd5f2fb-fc36-4481-9f85-fa2cfc941085",
+        "field": "korean",
+        "text": "해가 지자 기온이 급격히 떨어졌어요."
+      },
+      {
+        "table": "examples",
+        "id": "8b4491a2-b500-473e-9b2b-df5ffe1d1667",
+        "field": "korean",
+        "text": "가격이 급격히 올라서 계획을 바꿨어요."
+      },
+      {
+        "table": "examples",
+        "id": "8b4491a2-b500-473e-9b2b-df5ffe1d1667",
+        "field": "japanese",
+        "text": "値段が急に上がったので、計画を変えました。"
+      },
+      {
+        "table": "examples",
+        "id": "2d0552a3-e828-410c-8567-e9c037fffd59",
+        "field": "korean",
+        "text": "새로운 도로가 생기면서 도시가 급속히 성장했어요."
+      },
+      {
+        "table": "examples",
+        "id": "e4f6aa94-2a10-40b0-a077-6965d8edbe6f",
+        "field": "korean",
+        "text": "새 소식이 마을 전체로 급속히 퍼졌어요."
+      },
+      {
+        "table": "examples",
+        "id": "d51ea7f0-c17c-4bbc-89ff-a0b7adc44911",
+        "field": "korean",
+        "text": "그 소식은 인터넷을 통해 빠르게 확산됐어요."
+      },
+      {
+        "table": "examples",
+        "id": "0b3f2d02-ad46-4d41-935a-e64e9e149ec0",
+        "field": "japanese",
+        "text": "知らない番号から電話が来て、急に怖くなりました。"
+      },
+      {
+        "table": "examples",
+        "id": "6e57c9af-528a-489a-b7bb-c4cdc6ee4e5a",
+        "field": "japanese",
+        "text": "急に雨が降り出し、やむなく室内にとどまりました。"
+      },
+      {
+        "table": "examples",
+        "id": "14eaf39b-0c7c-476b-9ff2-f1628d1e96de",
+        "field": "japanese",
+        "text": "最近、子供が急に大きくなった気がします。"
+      },
+      {
+        "table": "examples",
+        "id": "e0c3a7f9-2bbc-4249-9bd3-351be95f9483",
+        "field": "japanese",
+        "text": "一度約束した仕事から、急に手を引くのは難しいです。"
+      },
+      {
+        "table": "learner_notes",
+        "id": "e6564ec5-a0b2-4f3e-9676-71627f32538b",
+        "field": "explanation_ja",
+        "text": "急に起こり、すぐ対応する必要がある状態。시급하다 は処理を急ぐ必要があることを強く表す。緊急事態には 긴급한 상황、解決を急ぐ課題には 해결이 시급하다 がよく合う。"
+      },
+      {
+        "table": "learner_notes",
+        "id": "f509c279-85a1-4213-8da9-eed0745b7ecf",
+        "field": "title_ja",
+        "text": "급격히の意味と使い方"
+      },
+      {
+        "table": "learner_notes",
+        "id": "f509c279-85a1-4213-8da9-eed0745b7ecf",
+        "field": "explanation_ja",
+        "text": "変化の幅が大きく急であること。급속히 は進行する速さに注目する。「기온이 급격히 떨어지다」「소식이 급속히 퍼지다」。意味が重なる場合もあるが、常に交換できるわけではない。"
+      },
+      {
+        "table": "learner_notes",
+        "id": "66f176c5-4878-47b6-9a85-43dd74d575fa",
+        "field": "explanation_ja",
+        "text": "本項目は急に怖くなる様子と、よく考えず突然行動する様子を分ける。「덜컥 겁이 나다」「덜컥 약속하다」。物ががたんと鳴る音の意味は扱わない。"
+      },
+      {
+        "table": "learner_notes",
+        "id": "e788b1b6-0bf2-4a9a-ae90-cdbf2d52e983",
+        "field": "explanation_ja",
+        "text": "量・程度・様子が急に目立って変化すること。「걱정이 부쩍 늘다」「아이가 부쩍 자라다」。単に突然起きる 갑자기 と完全に同じではない。"
+      }
+    ],
+    "after": [
+      {
+        "table": "vocabulary",
+        "id": "3b53ccb8-1704-44ce-bdea-90533705a5b6",
+        "field": "headword",
+        "text": "급격히"
+      },
+      {
+        "table": "vocabulary",
+        "id": "1029f348-5747-42c4-9915-9215c3bf9403",
+        "field": "headword",
+        "text": "급속히"
+      },
+      {
+        "table": "meanings",
+        "id": "2a83c4b4-b7b0-4b58-a453-dd1527ea136a",
+        "field": "meaning_ja",
+        "text": "急に、突然"
+      },
+      {
+        "table": "meanings",
+        "id": "3834163c-f392-41f0-92fc-6dbab68de8f9",
+        "field": "meaning_ja",
+        "text": "感情が急にこみ上げる"
+      },
+      {
+        "table": "meanings",
+        "id": "09e1edff-b3f4-4fb5-823d-db9159e473c2",
+        "field": "meaning_ja",
+        "text": "早急に行う必要がある"
+      },
+      {
+        "table": "meanings",
+        "id": "64901863-cd7b-45ac-832e-969842438d28",
+        "field": "usage_ja",
+        "text": "コロケーション：급격히 변하다"
+      },
+      {
+        "table": "meanings",
+        "id": "3d6f0de2-e037-46b3-8715-af0e7acc25ae",
+        "field": "usage_ja",
+        "text": "コロケーション：급속히 발전하다"
+      },
+      {
+        "table": "meanings",
+        "id": "9fea1101-760d-45cc-a78b-e5626fdc211f",
+        "field": "meaning_ja",
+        "text": "急に目立って・ぐっと"
+      },
+      {
+        "table": "examples",
+        "id": "72784ef9-00c7-47c6-b1a1-c8111f4ec497",
+        "field": "japanese",
+        "text": "急に来たので驚きました。"
+      },
+      {
+        "table": "examples",
+        "id": "24ae8d95-7d12-4cf4-bdee-769cfdf98539",
+        "field": "japanese",
+        "text": "天気が急に変わりました。"
+      },
+      {
+        "table": "examples",
+        "id": "33a871f8-bd22-48cb-8a8c-1f44596d38bd",
+        "field": "japanese",
+        "text": "バスが急に止まりました。"
+      },
+      {
+        "table": "examples",
+        "id": "61a0bb13-3f4e-425d-89a6-bdc6e5454f64",
+        "field": "japanese",
+        "text": "急に立ち上がってくらくらします。"
+      },
+      {
+        "table": "examples",
+        "id": "a4763b30-c573-4dc9-b783-ea6f999482a7",
+        "field": "japanese",
+        "text": "急に雨が降りました。"
+      },
+      {
+        "table": "examples",
+        "id": "c2ca6689-a004-41cf-8adb-ffda3e5fcac6",
+        "field": "japanese",
+        "text": "インターネット接続が急に切れました。"
+      },
+      {
+        "table": "examples",
+        "id": "bf0ce8e3-f62a-4bc7-8343-5ecc05e6818b",
+        "field": "japanese",
+        "text": "急に雨が激しく降りました。"
+      },
+      {
+        "table": "examples",
+        "id": "afa81f1d-af01-4c14-a20d-ed7a17189c13",
+        "field": "japanese",
+        "text": "急に予定を変えられると困ります。"
+      },
+      {
+        "table": "examples",
+        "id": "32de268b-f6c2-4b09-bded-af0bb47ea1ed",
+        "field": "korean",
+        "text": "몸이 둔해서 빠르게 움직이기 어려워요."
+      },
+      {
+        "table": "examples",
+        "id": "57caf405-f5c8-4fc0-ad10-14550015a5c3",
+        "field": "japanese",
+        "text": "急に黙ると、もっと気まずくなることがあります。"
+      },
+      {
+        "table": "examples",
+        "id": "fafdf7ea-2840-4bc1-bd0a-e2dea54f4959",
+        "field": "japanese",
+        "text": "予定が急に変わり、どうすればよいか分かりませんでした。"
+      },
+      {
+        "table": "examples",
+        "id": "8eb0c0fb-8fea-4f3d-82a5-4d9695b43391",
+        "field": "japanese",
+        "text": "会議が急に中止になり、落ち着かない雰囲気でした。"
+      },
+      {
+        "table": "examples",
+        "id": "24c158fc-63b4-406e-9264-f59fc0f103dc",
+        "field": "japanese",
+        "text": "急に寒くなることもあるので、寒さに備えてください。"
+      },
+      {
+        "table": "examples",
+        "id": "e01e0d0c-e625-4234-aad6-6a54de8b653e",
+        "field": "japanese",
+        "text": "仕事が急に増えたので、助けが必要です。"
+      },
+      {
+        "table": "examples",
+        "id": "ba9321af-dd8a-402b-99f1-9ef8c5c4e0f0",
+        "field": "korean",
+        "text": "저녁이 되니 기온이 빠르게 낮아졌어요."
+      },
+      {
+        "table": "examples",
+        "id": "15923f52-afb6-442d-9f17-520af1879ec3",
+        "field": "korean",
+        "text": "회사는 손님의 불만에 빠르게 대응했어요."
+      },
+      {
+        "table": "examples",
+        "id": "c933a4fb-ee07-4cc0-92a4-9390d6d88e11",
+        "field": "japanese",
+        "text": "急に問題が起きても、落ち着いて対処してください。"
+      },
+      {
+        "table": "examples",
+        "id": "56da23f9-48c3-485c-98cb-48d5f4801879",
+        "field": "japanese",
+        "text": "早急に解決すべき問題から、順番に話し合いましょう。"
+      },
+      {
+        "table": "examples",
+        "id": "dcd5f2fb-fc36-4481-9f85-fa2cfc941085",
+        "field": "korean",
+        "text": "해가 지자 기온이 급격히 떨어졌어요."
+      },
+      {
+        "table": "examples",
+        "id": "8b4491a2-b500-473e-9b2b-df5ffe1d1667",
+        "field": "korean",
+        "text": "가격이 급격히 올라서 계획을 바꿨어요."
+      },
+      {
+        "table": "examples",
+        "id": "8b4491a2-b500-473e-9b2b-df5ffe1d1667",
+        "field": "japanese",
+        "text": "値段が急に上がったので、計画を変えました。"
+      },
+      {
+        "table": "examples",
+        "id": "2d0552a3-e828-410c-8567-e9c037fffd59",
+        "field": "korean",
+        "text": "새로운 도로가 생기면서 도시가 급속히 성장했어요."
+      },
+      {
+        "table": "examples",
+        "id": "e4f6aa94-2a10-40b0-a077-6965d8edbe6f",
+        "field": "korean",
+        "text": "새 소식이 마을 전체로 급속히 퍼졌어요."
+      },
+      {
+        "table": "examples",
+        "id": "d51ea7f0-c17c-4bbc-89ff-a0b7adc44911",
+        "field": "korean",
+        "text": "그 소식은 인터넷을 통해 빠르게 확산됐어요."
+      },
+      {
+        "table": "examples",
+        "id": "0b3f2d02-ad46-4d41-935a-e64e9e149ec0",
+        "field": "japanese",
+        "text": "知らない番号から電話が来て、急に怖くなりました。"
+      },
+      {
+        "table": "examples",
+        "id": "6e57c9af-528a-489a-b7bb-c4cdc6ee4e5a",
+        "field": "japanese",
+        "text": "急に雨が降り出し、やむなく室内にとどまりました。"
+      },
+      {
+        "table": "examples",
+        "id": "14eaf39b-0c7c-476b-9ff2-f1628d1e96de",
+        "field": "japanese",
+        "text": "最近、子供が急に大きくなった気がします。"
+      },
+      {
+        "table": "examples",
+        "id": "e0c3a7f9-2bbc-4249-9bd3-351be95f9483",
+        "field": "japanese",
+        "text": "一度約束した仕事から、急に手を引くのは難しいです。"
+      },
+      {
+        "table": "learner_notes",
+        "id": "e6564ec5-a0b2-4f3e-9676-71627f32538b",
+        "field": "explanation_ja",
+        "text": "急に起こり、すぐ対応する必要がある状態。시급하다 は処理を急ぐ必要があることを強く表す。緊急事態には 긴급한 상황、解決を急ぐ課題には 해결이 시급하다 がよく合う。"
+      },
+      {
+        "table": "learner_notes",
+        "id": "f509c279-85a1-4213-8da9-eed0745b7ecf",
+        "field": "title_ja",
+        "text": "급격히の意味と使い方"
+      },
+      {
+        "table": "learner_notes",
+        "id": "f509c279-85a1-4213-8da9-eed0745b7ecf",
+        "field": "explanation_ja",
+        "text": "変化の幅が大きく急であること。급속히 は進行する速さに注目する。「기온이 급격히 떨어지다」「소식이 급속히 퍼지다」。意味が重なる場合もあるが、常に交換できるわけではない。"
+      },
+      {
+        "table": "learner_notes",
+        "id": "66f176c5-4878-47b6-9a85-43dd74d575fa",
+        "field": "explanation_ja",
+        "text": "本項目は急に怖くなる様子と、よく考えず突然行動する様子を分ける。「덜컥 겁이 나다」「덜컥 약속하다」。物ががたんと鳴る音の意味は扱わない。"
+      },
+      {
+        "table": "learner_notes",
+        "id": "e788b1b6-0bf2-4a9a-ae90-cdbf2d52e983",
+        "field": "explanation_ja",
+        "text": "量・程度・様子が急に目立って変化すること。「걱정이 부쩍 늘다」「아이가 부쩍 자라다」。単に突然起きる 갑자기 と完全に同じではない。"
+      }
+    ]
+  },
+  {
+    "type": "idiom_mixture",
+    "pattern": "실마리|糸口",
+    "scope": "all production vocabulary/meanings/examples/notes, including pre-DATA08; matching contextual rows reread",
+    "before_field_matches": 23,
+    "after_field_matches": 23,
+    "reviewer": "assistant",
+    "interpretation": "Matches are candidates, not an error count. Corrected fields are explicitly listed in DATA08_FINAL_FINDINGS.json. Other matches retain valid senses, examples or quoted common misspellings.",
+    "before": [
+      {
+        "table": "vocabulary",
+        "id": "9148f6a1-ef8a-4e7e-8a83-9794c41606a4",
+        "field": "headword",
+        "text": "실마리"
+      },
+      {
+        "table": "vocabulary",
+        "id": "9d29f4a3-982a-44bd-872c-890473001aba",
+        "field": "headword",
+        "text": "실마리를 찾다"
+      },
+      {
+        "table": "vocabulary",
+        "id": "dc74ca05-85f7-4cc8-b6a8-56f3ef0c6927",
+        "field": "headword",
+        "text": "실마리가 풀리다"
+      },
+      {
+        "table": "meanings",
+        "id": "50f23dc1-cc4d-4d61-ab23-d7cdbb3a5a33",
+        "field": "meaning_ja",
+        "text": "手掛かり・糸口"
+      },
+      {
+        "table": "meanings",
+        "id": "50f23dc1-cc4d-4d61-ab23-d7cdbb3a5a33",
+        "field": "usage_ja",
+        "text": "コロケーション：실마리를 얻다"
+      },
+      {
+        "table": "meanings",
+        "id": "8a92db23-3483-4d73-afb3-876cd5fbceef",
+        "field": "meaning_ja",
+        "text": "糸口を見つける"
+      },
+      {
+        "table": "meanings",
+        "id": "8a92db23-3483-4d73-afb3-876cd5fbceef",
+        "field": "usage_ja",
+        "text": "コロケーション：해결의 실마리를 찾다"
+      },
+      {
+        "table": "meanings",
+        "id": "28491d29-934d-488c-9547-78c73660dc56",
+        "field": "meaning_ja",
+        "text": "解決に向けて糸口が開ける"
+      },
+      {
+        "table": "meanings",
+        "id": "28491d29-934d-488c-9547-78c73660dc56",
+        "field": "usage_ja",
+        "text": "コロケーション：대화의 실마리가 풀리다"
+      },
+      {
+        "table": "examples",
+        "id": "09366eb1-4623-4535-ac50-80e0198014a8",
+        "field": "korean",
+        "text": "친구의 말에서 문제를 풀 실마리를 얻었어요."
+      },
+      {
+        "table": "examples",
+        "id": "09366eb1-4623-4535-ac50-80e0198014a8",
+        "field": "japanese",
+        "text": "友達の言葉から、問題を解く糸口を得ました。"
+      },
+      {
+        "table": "examples",
+        "id": "ef5004db-8226-459e-8fdc-2d6dd3852c08",
+        "field": "korean",
+        "text": "작은 실마리 하나도 놓치지 말고 살펴봐요."
+      },
+      {
+        "table": "examples",
+        "id": "be8c7cff-8c20-4422-95d5-049a190328bc",
+        "field": "korean",
+        "text": "여러 사람과 이야기하며 해결의 실마리를 찾았어요."
+      },
+      {
+        "table": "examples",
+        "id": "be8c7cff-8c20-4422-95d5-049a190328bc",
+        "field": "japanese",
+        "text": "いろいろな人と話し、解決の糸口を見つけました。"
+      },
+      {
+        "table": "examples",
+        "id": "d53be6bf-bd98-4861-be26-005d83a663b3",
+        "field": "korean",
+        "text": "아직 실마리를 찾지 못했지만 포기하지 않을 거예요."
+      },
+      {
+        "table": "examples",
+        "id": "d53be6bf-bd98-4861-be26-005d83a663b3",
+        "field": "japanese",
+        "text": "まだ糸口が見つかりませんが、諦めません。"
+      },
+      {
+        "table": "examples",
+        "id": "d38f0789-9846-4aec-8516-e5a0dffd47fa",
+        "field": "korean",
+        "text": "서로의 생각을 듣고 대화의 실마리가 풀렸어요."
+      },
+      {
+        "table": "examples",
+        "id": "d38f0789-9846-4aec-8516-e5a0dffd47fa",
+        "field": "japanese",
+        "text": "互いの考えを聞いて、話を進める糸口が開けました。"
+      },
+      {
+        "table": "examples",
+        "id": "2542d610-8fb6-4f81-b29b-fb48dd3ca65e",
+        "field": "korean",
+        "text": "자료를 다시 읽으니 사건의 실마리가 조금씩 풀려요."
+      },
+      {
+        "table": "examples",
+        "id": "2542d610-8fb6-4f81-b29b-fb48dd3ca65e",
+        "field": "japanese",
+        "text": "資料を読み直すと、事件を解く糸口が少しずつ見えてきます。"
+      },
+      {
+        "table": "learner_notes",
+        "id": "e0645d0d-3a48-431f-af9f-7a28d146d909",
+        "field": "title_ja",
+        "text": "실마리가 풀리다の意味と使い方"
+      },
+      {
+        "table": "learner_notes",
+        "id": "e0645d0d-3a48-431f-af9f-7a28d146d909",
+        "field": "explanation_ja",
+        "text": "解決や対話に向けて手掛かりが開ける比喩表現。すべての問題が完全に解決したことまでは表さない。실마리를 찾다 は手掛かりを見つける行動に注目する。"
+      },
+      {
+        "table": "learner_notes",
+        "id": "9c1df77a-67d7-460c-ad41-81b6e03a1205",
+        "field": "explanation_ja",
+        "text": "水の通り道を開けることから、ここでは対話・交流などを始めるきっかけを作る比喩。綴りは 트다、過去形 텄다。会話の糸口なら 대화의 물꼬를 트다 と言う。"
+      }
+    ],
+    "after": [
+      {
+        "table": "vocabulary",
+        "id": "9148f6a1-ef8a-4e7e-8a83-9794c41606a4",
+        "field": "headword",
+        "text": "실마리"
+      },
+      {
+        "table": "vocabulary",
+        "id": "9d29f4a3-982a-44bd-872c-890473001aba",
+        "field": "headword",
+        "text": "실마리를 찾다"
+      },
+      {
+        "table": "vocabulary",
+        "id": "dc74ca05-85f7-4cc8-b6a8-56f3ef0c6927",
+        "field": "headword",
+        "text": "실마리가 보이다"
+      },
+      {
+        "table": "meanings",
+        "id": "50f23dc1-cc4d-4d61-ab23-d7cdbb3a5a33",
+        "field": "meaning_ja",
+        "text": "手掛かり・糸口"
+      },
+      {
+        "table": "meanings",
+        "id": "50f23dc1-cc4d-4d61-ab23-d7cdbb3a5a33",
+        "field": "usage_ja",
+        "text": "コロケーション：실마리를 얻다"
+      },
+      {
+        "table": "meanings",
+        "id": "8a92db23-3483-4d73-afb3-876cd5fbceef",
+        "field": "meaning_ja",
+        "text": "糸口を見つける"
+      },
+      {
+        "table": "meanings",
+        "id": "8a92db23-3483-4d73-afb3-876cd5fbceef",
+        "field": "usage_ja",
+        "text": "コロケーション：해결의 실마리를 찾다"
+      },
+      {
+        "table": "meanings",
+        "id": "28491d29-934d-488c-9547-78c73660dc56",
+        "field": "meaning_ja",
+        "text": "解決や対話の糸口が見える"
+      },
+      {
+        "table": "meanings",
+        "id": "28491d29-934d-488c-9547-78c73660dc56",
+        "field": "usage_ja",
+        "text": "コロケーション：解決の糸口は 해결의 실마리가 보이다"
+      },
+      {
+        "table": "examples",
+        "id": "09366eb1-4623-4535-ac50-80e0198014a8",
+        "field": "korean",
+        "text": "친구의 말에서 문제를 풀 실마리를 얻었어요."
+      },
+      {
+        "table": "examples",
+        "id": "09366eb1-4623-4535-ac50-80e0198014a8",
+        "field": "japanese",
+        "text": "友達の言葉から、問題を解く糸口を得ました。"
+      },
+      {
+        "table": "examples",
+        "id": "ef5004db-8226-459e-8fdc-2d6dd3852c08",
+        "field": "korean",
+        "text": "작은 실마리 하나도 놓치지 말고 살펴봐요."
+      },
+      {
+        "table": "examples",
+        "id": "be8c7cff-8c20-4422-95d5-049a190328bc",
+        "field": "korean",
+        "text": "여러 사람과 이야기하며 해결의 실마리를 찾았어요."
+      },
+      {
+        "table": "examples",
+        "id": "be8c7cff-8c20-4422-95d5-049a190328bc",
+        "field": "japanese",
+        "text": "いろいろな人と話し、解決の糸口を見つけました。"
+      },
+      {
+        "table": "examples",
+        "id": "d53be6bf-bd98-4861-be26-005d83a663b3",
+        "field": "korean",
+        "text": "아직 실마리를 찾지 못했지만 포기하지 않을 거예요."
+      },
+      {
+        "table": "examples",
+        "id": "d53be6bf-bd98-4861-be26-005d83a663b3",
+        "field": "japanese",
+        "text": "まだ糸口が見つかりませんが、諦めません。"
+      },
+      {
+        "table": "examples",
+        "id": "d38f0789-9846-4aec-8516-e5a0dffd47fa",
+        "field": "korean",
+        "text": "서로의 생각을 듣고 대화의 실마리가 보였어요."
+      },
+      {
+        "table": "examples",
+        "id": "d38f0789-9846-4aec-8516-e5a0dffd47fa",
+        "field": "japanese",
+        "text": "互いの考えを聞いて、話を進める糸口が見えました。"
+      },
+      {
+        "table": "examples",
+        "id": "2542d610-8fb6-4f81-b29b-fb48dd3ca65e",
+        "field": "korean",
+        "text": "자료를 다시 읽으니 사건의 실마리가 조금씩 보여요."
+      },
+      {
+        "table": "examples",
+        "id": "2542d610-8fb6-4f81-b29b-fb48dd3ca65e",
+        "field": "japanese",
+        "text": "資料を読み直すと、事件を解く糸口が少しずつ見えてきます。"
+      },
+      {
+        "table": "learner_notes",
+        "id": "e0645d0d-3a48-431f-af9f-7a28d146d909",
+        "field": "title_ja",
+        "text": "실마리가 보이다の意味と使い方"
+      },
+      {
+        "table": "learner_notes",
+        "id": "e0645d0d-3a48-431f-af9f-7a28d146d909",
+        "field": "explanation_ja",
+        "text": "解決や対話に向けた手掛かりが見えてくること。「해결의 실마리가 보이다」。問題全体が解決したことまでは表さない。실마리를 찾다 は手掛かりを探す・見つける行動、문제가 풀리다 は問題が解けることを表す。"
+      },
+      {
+        "table": "learner_notes",
+        "id": "9c1df77a-67d7-460c-ad41-81b6e03a1205",
+        "field": "explanation_ja",
+        "text": "水の通り道を開けることから、ここでは対話・交流などを始めるきっかけを作る比喩。綴りは 트다、過去形 텄다。会話の糸口なら 대화의 물꼬를 트다 と言う。"
+      }
+    ]
+  },
+  {
+    "type": "ja_collocation",
+    "pattern": "わくわく|ぽっかり|不慣れ|共有され",
+    "scope": "all production vocabulary/meanings/examples/notes, including pre-DATA08; matching contextual rows reread",
+    "before_field_matches": 12,
+    "after_field_matches": 9,
+    "reviewer": "assistant",
+    "interpretation": "Matches are candidates, not an error count. Corrected fields are explicitly listed in DATA08_FINAL_FINDINGS.json. Other matches retain valid senses, examples or quoted common misspellings.",
+    "before": [
+      {
+        "table": "meanings",
+        "id": "f08f6abf-3e88-49e6-8215-4be06ad98681",
+        "field": "meaning_ja",
+        "text": "わくわくする・胸がときめく"
+      },
+      {
+        "table": "meanings",
+        "id": "e404b112-1b1d-4a35-b904-51c9669d841f",
+        "field": "meaning_ja",
+        "text": "ぽっかりと寂しい・物足りない"
+      },
+      {
+        "table": "meanings",
+        "id": "4a9c9754-d5ce-4368-b7bb-aa80e139acc6",
+        "field": "meaning_ja",
+        "text": "ときめき・わくわくする気持ち"
+      },
+      {
+        "table": "meanings",
+        "id": "15e88265-aed4-49eb-9290-7256b42489ae",
+        "field": "meaning_ja",
+        "text": "不慣れだ・下手だ"
+      },
+      {
+        "table": "meanings",
+        "id": "744acc70-192a-4a17-9b7c-93f7f21d802c",
+        "field": "meaning_ja",
+        "text": "共有される"
+      },
+      {
+        "table": "examples",
+        "id": "5e37b1f6-ba0e-492b-b39e-99483108c869",
+        "field": "japanese",
+        "text": "初出勤を控えて、胸がわくわくします。"
+      },
+      {
+        "table": "examples",
+        "id": "6bf45b38-ea9e-4a4c-bbb0-fb38473a9be2",
+        "field": "japanese",
+        "text": "同僚が去った事務所は、ぽっかりと寂しいです。"
+      },
+      {
+        "table": "examples",
+        "id": "cf8b6c66-ab2b-45db-a3a5-bb3e79944820",
+        "field": "japanese",
+        "text": "初めての旅行のわくわくした気持ちを、今も覚えています。"
+      },
+      {
+        "table": "examples",
+        "id": "ac8dbd04-954c-4c44-aea3-c6e44bfe4b04",
+        "field": "japanese",
+        "text": "まだ韓国語で頼み事をするのは不慣れです。"
+      },
+      {
+        "table": "examples",
+        "id": "e9334c1a-f671-4313-aa25-653721e50c25",
+        "field": "japanese",
+        "text": "会議の資料は、チーム全体に共有されました。"
+      },
+      {
+        "table": "examples",
+        "id": "be5613ef-88c1-423a-93de-a4589f1ec33e",
+        "field": "japanese",
+        "text": "個人的な写真まで、ほかの人に共有されないか心配です。"
+      },
+      {
+        "table": "examples",
+        "id": "75e8a369-fa86-4761-a982-b1f555c5a220",
+        "field": "japanese",
+        "text": "まだ不慣れですが、自分でやってみたいです。"
+      }
+    ],
+    "after": [
+      {
+        "table": "meanings",
+        "id": "f08f6abf-3e88-49e6-8215-4be06ad98681",
+        "field": "meaning_ja",
+        "text": "わくわくする・胸がときめく"
+      },
+      {
+        "table": "meanings",
+        "id": "4a9c9754-d5ce-4368-b7bb-aa80e139acc6",
+        "field": "meaning_ja",
+        "text": "ときめき・わくわくする気持ち"
+      },
+      {
+        "table": "meanings",
+        "id": "15e88265-aed4-49eb-9290-7256b42489ae",
+        "field": "meaning_ja",
+        "text": "不慣れだ・下手だ"
+      },
+      {
+        "table": "meanings",
+        "id": "744acc70-192a-4a17-9b7c-93f7f21d802c",
+        "field": "meaning_ja",
+        "text": "共有される"
+      },
+      {
+        "table": "examples",
+        "id": "5e37b1f6-ba0e-492b-b39e-99483108c869",
+        "field": "japanese",
+        "text": "初出勤を控えて、わくわくします。"
+      },
+      {
+        "table": "examples",
+        "id": "cf8b6c66-ab2b-45db-a3a5-bb3e79944820",
+        "field": "japanese",
+        "text": "初めての旅行のわくわくした気持ちを、今も覚えています。"
+      },
+      {
+        "table": "examples",
+        "id": "e9334c1a-f671-4313-aa25-653721e50c25",
+        "field": "japanese",
+        "text": "会議の資料は、チーム全体で共有されました。"
+      },
+      {
+        "table": "examples",
+        "id": "be5613ef-88c1-423a-93de-a4589f1ec33e",
+        "field": "japanese",
+        "text": "個人的な写真まで、ほかの人と共有されてしまわないか心配です。"
+      },
+      {
+        "table": "examples",
+        "id": "75e8a369-fa86-4761-a982-b1f555c5a220",
+        "field": "japanese",
+        "text": "まだ不慣れですが、自分でやってみたいです。"
+      }
+    ]
+  },
+  {
+    "type": "irregular_typos",
+    "pattern": "삼가해|모잘라|서투러|너그러워|웬지|번번히|곰곰히|달가워|미더워|껄끄러워",
+    "scope": "all production vocabulary/meanings/examples/notes, including pre-DATA08; matching contextual rows reread",
+    "before_field_matches": 10,
+    "after_field_matches": 10,
+    "reviewer": "assistant",
+    "interpretation": "Matches are candidates, not an error count. Corrected fields are explicitly listed in DATA08_FINAL_FINDINGS.json. Other matches retain valid senses, examples or quoted common misspellings.",
+    "before": [
+      {
+        "table": "examples",
+        "id": "4f7a4d80-fa9c-4791-896c-cedff6a08b2e",
+        "field": "korean",
+        "text": "서로에게 조금 더 너그러워지면 좋겠어요."
+      },
+      {
+        "table": "examples",
+        "id": "70f3afe7-a9c0-476d-b1ba-f83920c0353c",
+        "field": "korean",
+        "text": "의견이 부딪힌 뒤로 그 사람과의 관계가 껄끄러워요."
+      },
+      {
+        "table": "examples",
+        "id": "253ae1d5-1d6b-4913-a04d-7aa1ce670a8a",
+        "field": "korean",
+        "text": "약속을 지키는 모습이 미더워요."
+      },
+      {
+        "table": "learner_notes",
+        "id": "d7b28537-7570-4e3f-a5f2-8d7cb680af6e",
+        "field": "explanation_ja",
+        "text": "ㅂ不規則です。너그러워요、너그러우세요の形を確認します。「親切」全般より、失敗などを寛大に受け入れる意味です。"
+      },
+      {
+        "table": "learner_notes",
+        "id": "391aae81-91cf-412e-9821-d38dc449ace8",
+        "field": "explanation_ja",
+        "text": "왜인지が縮まった形で、標準表記は왠지です。「何となく」に웬지と書かないようにします。"
+      },
+      {
+        "table": "learner_notes",
+        "id": "90a9a726-27f4-44e5-bbc6-671e541a54df",
+        "field": "explanation_ja",
+        "text": "時間・量などが必要な分に足りないこと。「시간이 모자라다」。動詞として扱い、모자라요／모자라는。르で終わるが 모잘라요 とはしない。人を主語にすると侮辱的に響くことがある。"
+      },
+      {
+        "table": "learner_notes",
+        "id": "fb2212bf-9c59-4eed-9a87-47f22868a88a",
+        "field": "explanation_ja",
+        "text": "基本形は 삼가다、丁寧形 삼가요。삼가하다／삼가해요 と混同しない。「통화를 삼가 주시기 바랍니다」は改まった案内でよく使う。日常の強い命令と文体を区別する。"
+      },
+      {
+        "table": "learner_notes",
+        "id": "3216c2f2-a65a-47a6-a6c9-fbee176ba0bf",
+        "field": "explanation_ja",
+        "text": "本項目は人間関係・話題などが気まずい意味。ㅂ不規則で 껄끄러워요／껄끄러운。肌触りがざらつく別用法は扱わない。"
+      },
+      {
+        "table": "learner_notes",
+        "id": "5653ae12-89aa-4191-bc9f-c3bd249f512a",
+        "field": "explanation_ja",
+        "text": "うれしい・好ましいという意味だが、달갑지 않다 の否定で使うことが多い。ㅂ不規則で 달가워요／달가운。直接相手に 달갑지 않다 と言うと拒絶が強く響く。"
+      },
+      {
+        "table": "learner_notes",
+        "id": "85547c75-7b1d-4f7b-9090-d0e51f0f5c60",
+        "field": "explanation_ja",
+        "text": "信頼できる・頼もしいこと。ㅂ不規則で 미더워요／미더운。綴りは 미덥다 で、믿다 に直接 어요 を付けた活用形ではない。"
+      }
+    ],
+    "after": [
+      {
+        "table": "examples",
+        "id": "4f7a4d80-fa9c-4791-896c-cedff6a08b2e",
+        "field": "korean",
+        "text": "서로에게 조금 더 너그러워지면 좋겠어요."
+      },
+      {
+        "table": "examples",
+        "id": "70f3afe7-a9c0-476d-b1ba-f83920c0353c",
+        "field": "korean",
+        "text": "의견이 부딪힌 뒤로 그 사람과의 관계가 껄끄러워요."
+      },
+      {
+        "table": "examples",
+        "id": "253ae1d5-1d6b-4913-a04d-7aa1ce670a8a",
+        "field": "korean",
+        "text": "약속을 지키는 모습이 미더워요."
+      },
+      {
+        "table": "learner_notes",
+        "id": "d7b28537-7570-4e3f-a5f2-8d7cb680af6e",
+        "field": "explanation_ja",
+        "text": "ㅂ不規則です。너그러워요、너그러우세요の形を確認します。「親切」全般より、失敗などを寛大に受け入れる意味です。"
+      },
+      {
+        "table": "learner_notes",
+        "id": "391aae81-91cf-412e-9821-d38dc449ace8",
+        "field": "explanation_ja",
+        "text": "왜인지が縮まった形で、標準表記は왠지です。「何となく」に웬지と書かないようにします。"
+      },
+      {
+        "table": "learner_notes",
+        "id": "90a9a726-27f4-44e5-bbc6-671e541a54df",
+        "field": "explanation_ja",
+        "text": "時間・量などが必要な分に足りないこと。「시간이 모자라다」。動詞として扱い、모자라요／모자라는。르で終わるが 모잘라요 とはしない。人を主語にすると侮辱的に響くことがある。"
+      },
+      {
+        "table": "learner_notes",
+        "id": "fb2212bf-9c59-4eed-9a87-47f22868a88a",
+        "field": "explanation_ja",
+        "text": "基本形は 삼가다、丁寧形 삼가요。삼가하다／삼가해요 と混同しない。「통화를 삼가 주시기 바랍니다」は改まった案内でよく使う。日常の強い命令と文体を区別する。"
+      },
+      {
+        "table": "learner_notes",
+        "id": "3216c2f2-a65a-47a6-a6c9-fbee176ba0bf",
+        "field": "explanation_ja",
+        "text": "本項目は人間関係・話題などが気まずい意味。ㅂ不規則で 껄끄러워요／껄끄러운。肌触りがざらつく別用法は扱わない。"
+      },
+      {
+        "table": "learner_notes",
+        "id": "5653ae12-89aa-4191-bc9f-c3bd249f512a",
+        "field": "explanation_ja",
+        "text": "うれしい・好ましいという意味だが、달갑지 않다 の否定で使うことが多い。ㅂ不規則で 달가워요／달가운。直接相手に 달갑지 않다 と言うと拒絶が強く響く。"
+      },
+      {
+        "table": "learner_notes",
+        "id": "85547c75-7b1d-4f7b-9090-d0e51f0f5c60",
+        "field": "explanation_ja",
+        "text": "信頼できる・頼もしいこと。ㅂ不規則で 미더워요／미더운。綴りは 미덥다 で、믿다 に直接 어요 を付けた活用形ではない。"
+      }
+    ]
+  },
+  {
+    "type": "sense_collocation_alignment",
+    "scope": "all 52 multi-sense DATA08 entries / 104 meaning rows",
+    "corrected_meaning_rows": 13,
+    "interpretation": "Repeated usage text is not automatically wrong. Only wrong-sense-only illustrations were replaced; mixed lists that correctly illustrate both senses were retained. All 963 meanings were reread."
+  }
+]

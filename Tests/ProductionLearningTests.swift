@@ -77,6 +77,49 @@ final class ProductionLearningTests: XCTestCase {
             XCTAssertFalse(card.meanings.isEmpty)
         }
     }
+    func testDATA08FinalAuditRiskFormsAcrossBatches() async throws {
+        let content = try SQLiteContentRepository(url:XCTUnwrap(Bundle.main.url(forResource:"content",withExtension:"sqlite")),allowFixture:false)
+        let cases: [(String, String, String, String, String)] = [
+            ("너그럽다", "adjective", "너그러워요", "너그러우면", "너그러울 거예요"),
+            ("쑥스럽다", "adjective", "쑥스러워요", "쑥스러우면", "쑥스러울 거예요"),
+            ("두렵다", "adjective", "두려워요", "두려우면", "두려울 거예요"),
+            ("안쓰럽다", "adjective", "안쓰러워요", "안쓰러우면", "안쓰러울 거예요"),
+            ("서럽다", "adjective", "서러워요", "서러우면", "서러울 거예요"),
+            ("괴롭다", "adjective", "괴로워요", "괴로우면", "괴로울 거예요"),
+            ("죄송스럽다", "adjective", "죄송스러워요", "죄송스러우면", "죄송스러울 거예요"),
+            ("얄밉다", "adjective", "얄미워요", "얄미우면", "얄미울 거예요"),
+            ("어지르다", "verb", "어질러요", "어지르면", "어지를 거예요"),
+            ("번거롭다", "adjective", "번거로워요", "번거로우면", "번거로울 거예요"),
+            ("서투르다", "adjective", "서툴러요", "서투르면", "서투를 거예요"),
+            ("그르다", "adjective", "글러요", "그르면", "그를 거예요"),
+            ("거르다", "verb", "걸러요", "거르면", "거를 거예요"),
+            ("까다롭다", "adjective", "까다로워요", "까다로우면", "까다로울 거예요"),
+            ("별다르다", "adjective", "별달라요", "별다르면", "별다를 거예요"),
+            ("색다르다", "adjective", "색달라요", "색다르면", "색다를 거예요"),
+            ("해롭다", "adjective", "해로워요", "해로우면", "해로울 거예요"),
+            ("이롭다", "adjective", "이로워요", "이로우면", "이로울 거예요"),
+            ("순조롭다", "adjective", "순조로워요", "순조로우면", "순조로울 거예요"),
+            ("껄끄럽다", "adjective", "껄끄러워요", "껄끄러우면", "껄끄러울 거예요"),
+            ("달갑다", "adjective", "달가워요", "달가우면", "달가울 거예요"),
+            ("미덥다", "adjective", "미더워요", "미더우면", "미더울 거예요"),
+            ("들르다", "verb", "들러요", "들르면", "들를 거예요"),
+            ("모자라다", "verb", "모자라요", "모자라면", "모자랄 거예요"),
+            ("들뜨다", "verb", "들떠요", "들뜨면", "들뜰 거예요"),
+            ("어설프다", "adjective", "어설퍼요", "어설프면", "어설플 거예요"),
+            ("가꾸다", "verb", "가꿔요", "가꾸면", "가꿀 거예요"),
+            ("삼가다", "verb", "삼가요", "삼가면", "삼갈 거예요"),
+            ("옳다", "adjective", "옳아요", "옳으면", "옳을 거예요")
+        ]
+        for (lemma, pos, present, condition, future) in cases {
+            let found = try await content.vocabulary(matching:VocabularyQuery(level:.lowerIntermediate,prefix:lemma),after:nil,limit:10)
+            let word = try XCTUnwrap(found.first(where: { $0.headword == lemma }))
+            XCTAssertEqual(word.partOfSpeech,try XCTUnwrap(PartOfSpeech(rawValue:pos)).japaneseName)
+            for (form, expected) in [(ConjugationForm.present, present), (.condition, condition), (.future, future)] {
+                let generated = try ConjugationEngine.generate(lemma:word.headword,partOfSpeech:pos,irregular:word.irregularType,form:form)
+                XCTAssertEqual(generated.form,expected,lemma + " / " + form.rawValue)
+            }
+        }
+    }
     func testInputNormalizationAndSpacing() {
         XCTAssertEqual(ProductionAnswer.judge("  먹어요\n",accepted:["먹어요"],spacingWarning:true),.correct)
         XCTAssertEqual(ProductionAnswer.judge("먹을   거예요",accepted:["먹을 거예요"],spacingWarning:true),.correct)

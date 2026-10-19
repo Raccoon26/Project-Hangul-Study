@@ -1,3 +1,7 @@
+> **DATA-08-5 현재: Content18/schema4/reader7/UserProgress10.** assistant 전911어휘·1,821고유문장 재독·별도 무작위84개 감사,34어휘43필드 교정. portable **280 PASS**(failures/errors/skipped0, exit0). **사람·독립 원어민/교사 검수는 미실행**이며 자동 검사는 언어 품질 보증이 아닙니다. 문형 후보163예문의 선행 학습과 Level/Register의 독립 적합성 확인을 남깁니다. native 정의130개/실행0; Mac에서 전체130개와 새22불규칙+7규칙 혼동어의 현재/조건/미래 기대형,17→18 수정 어휘의 부분 session/SRS/즐겨찾기 보존을 검증해야 합니다. Xcode/SDK/Debug·Release·iPhone3~10분/offline/TTS/중단/VoiceOver/광고·StoreKit/알림 gate와 **B—Conditional**을 유지합니다. 아래 과거 gate/체크박스를 보존합니다. 상세 `DATA08_PROGRESS.md` §13.
+
+---
+
 > **DATA-08-4 / Batch C 현재: Content17/schema4/reader7/UserProgress10.** 신규310어휘/619문장·기존 예문1 재사용, 전체 DATA-08 911어휘/1,821신규문장 목표 달성. portable **269 PASS (failures/errors/skipped0, exit0)**. native 정의129개/실행0. Xcode/SDK link/Debug·Release/XCTest·iPhone QA 미실행, **B—Conditional 유지**. 아래 기존 gate/체크박스를 보존한다. Mac에서129개 전체와 삼가요·달가워요·미더워요·껄끄러워요·어설퍼요·가라앉아요·가라앉혀요·비춰요·비쳐요·가꿔요·들떠요, Content16→17의 A/B 사용자 기록 보존을 실행해야 한다. 실제3~10분·offline/TTS·중단·접근성·광고/StoreKit 검증은 별도다. 상세 `DATA08_PROGRESS.md` §12.
 
 ---

@@ -1,3 +1,21 @@
+# DATA_PROGRESS — DATA-08-5 / 최종 감사 (현재)
+
+**Content18 / Schema4 / Reader7 / UserProgress10.** 이번 신규/삭제 행0,34어휘43필드 교정·40엔티티 revision+1. 이하 A/B/C와 DEV/DATA 기록은 당시 이력이다.
+
+| 항목 | 현재 Production | 이번 증감 | Level/구분 |
+| --- | ---: | ---: | --- |
+| Vocabulary | 2,287 | 0 | 入門306 / 初級800 / 初中級1,181 |
+| Meaning | 2,420 | 0 | A~C 검수963뜻 |
+| 문장 Example | 4,584 | 0 | 入門646 / 初級1,577 / 初中級2,361 |
+| 전체 Example | 4,597 | 0 | 기존 발음13 포함 |
+| Learner Note | 531 | 0 | A~C 검수314개 |
+| Grammar / Listening / Question | 42 / 115 / 354 | 0 | 初中級 전용0 / 2 / 5 |
+| Vocabulary / Grammar 예문 참조 | 4,514 / 169 | 0 | ID와 관계 보존 |
+
+DATA-08 누적911어휘(일반807/표현104)/신규예문1,821, 전체 목표 달성·부족0/0 유지. 全911어휘·963뜻·1,821고유예문·314 Note의 assistant 별도 한일 재독, 무작위84개 재감사 완료. 사람 검수0. 전Production42,909행 구조/DB 대조·strict 오류0/기존경고10, portable280 PASS. 선행Grammar 후보163예문 및 native130개 미실행은 남은 확인 사항이다. [DATA08_PROGRESS.md](DATA08_PROGRESS.md) §13, [수량·해시](Docs/DATA08_FINAL_COUNTS.json). 다음 단계 미실행.
+
+---
+
 # DATA_PROGRESS — DATA-08-4 / Batch C (현재)
 
 실제 Production 집계. **Schema4 / Content17 / Reader7 / UserProgress10**. 아래 A/B와 DEV/DATA 내용은 당시 이력이다.

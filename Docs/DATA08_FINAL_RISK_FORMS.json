@@ -1,0 +1,240 @@
+{
+  "reviewer": "assistant; linguistic reference expectations, not executed Swift results or human review",
+  "irregular_coverage": 22,
+  "regular_confusable_coverage": 7,
+  "native_execution": 0,
+  "records": [
+    {
+      "headword": "너그럽다",
+      "part_of_speech": "adjective",
+      "irregular_type": "b",
+      "present": "너그러워요",
+      "condition": "너그러우면",
+      "future": "너그러울 거예요"
+    },
+    {
+      "headword": "쑥스럽다",
+      "part_of_speech": "adjective",
+      "irregular_type": "b",
+      "present": "쑥스러워요",
+      "condition": "쑥스러우면",
+      "future": "쑥스러울 거예요"
+    },
+    {
+      "headword": "두렵다",
+      "part_of_speech": "adjective",
+      "irregular_type": "b",
+      "present": "두려워요",
+      "condition": "두려우면",
+      "future": "두려울 거예요"
+    },
+    {
+      "headword": "안쓰럽다",
+      "part_of_speech": "adjective",
+      "irregular_type": "b",
+      "present": "안쓰러워요",
+      "condition": "안쓰러우면",
+      "future": "안쓰러울 거예요"
+    },
+    {
+      "headword": "서럽다",
+      "part_of_speech": "adjective",
+      "irregular_type": "b",
+      "present": "서러워요",
+      "condition": "서러우면",
+      "future": "서러울 거예요"
+    },
+    {
+      "headword": "괴롭다",
+      "part_of_speech": "adjective",
+      "irregular_type": "b",
+      "present": "괴로워요",
+      "condition": "괴로우면",
+      "future": "괴로울 거예요"
+    },
+    {
+      "headword": "죄송스럽다",
+      "part_of_speech": "adjective",
+      "irregular_type": "b",
+      "present": "죄송스러워요",
+      "condition": "죄송스러우면",
+      "future": "죄송스러울 거예요"
+    },
+    {
+      "headword": "얄밉다",
+      "part_of_speech": "adjective",
+      "irregular_type": "b",
+      "present": "얄미워요",
+      "condition": "얄미우면",
+      "future": "얄미울 거예요"
+    },
+    {
+      "headword": "어지르다",
+      "part_of_speech": "verb",
+      "irregular_type": "reu",
+      "present": "어질러요",
+      "condition": "어지르면",
+      "future": "어지를 거예요"
+    },
+    {
+      "headword": "번거롭다",
+      "part_of_speech": "adjective",
+      "irregular_type": "b",
+      "present": "번거로워요",
+      "condition": "번거로우면",
+      "future": "번거로울 거예요"
+    },
+    {
+      "headword": "서투르다",
+      "part_of_speech": "adjective",
+      "irregular_type": "reu",
+      "present": "서툴러요",
+      "condition": "서투르면",
+      "future": "서투를 거예요"
+    },
+    {
+      "headword": "그르다",
+      "part_of_speech": "adjective",
+      "irregular_type": "reu",
+      "present": "글러요",
+      "condition": "그르면",
+      "future": "그를 거예요"
+    },
+    {
+      "headword": "거르다",
+      "part_of_speech": "verb",
+      "irregular_type": "reu",
+      "present": "걸러요",
+      "condition": "거르면",
+      "future": "거를 거예요"
+    },
+    {
+      "headword": "까다롭다",
+      "part_of_speech": "adjective",
+      "irregular_type": "b",
+      "present": "까다로워요",
+      "condition": "까다로우면",
+      "future": "까다로울 거예요"
+    },
+    {
+      "headword": "별다르다",
+      "part_of_speech": "adjective",
+      "irregular_type": "reu",
+      "present": "별달라요",
+      "condition": "별다르면",
+      "future": "별다를 거예요"
+    },
+    {
+      "headword": "색다르다",
+      "part_of_speech": "adjective",
+      "irregular_type": "reu",
+      "present": "색달라요",
+      "condition": "색다르면",
+      "future": "색다를 거예요"
+    },
+    {
+      "headword": "해롭다",
+      "part_of_speech": "adjective",
+      "irregular_type": "b",
+      "present": "해로워요",
+      "condition": "해로우면",
+      "future": "해로울 거예요"
+    },
+    {
+      "headword": "이롭다",
+      "part_of_speech": "adjective",
+      "irregular_type": "b",
+      "present": "이로워요",
+      "condition": "이로우면",
+      "future": "이로울 거예요"
+    },
+    {
+      "headword": "순조롭다",
+      "part_of_speech": "adjective",
+      "irregular_type": "b",
+      "present": "순조로워요",
+      "condition": "순조로우면",
+      "future": "순조로울 거예요"
+    },
+    {
+      "headword": "껄끄럽다",
+      "part_of_speech": "adjective",
+      "irregular_type": "b",
+      "present": "껄끄러워요",
+      "condition": "껄끄러우면",
+      "future": "껄끄러울 거예요"
+    },
+    {
+      "headword": "달갑다",
+      "part_of_speech": "adjective",
+      "irregular_type": "b",
+      "present": "달가워요",
+      "condition": "달가우면",
+      "future": "달가울 거예요"
+    },
+    {
+      "headword": "미덥다",
+      "part_of_speech": "adjective",
+      "irregular_type": "b",
+      "present": "미더워요",
+      "condition": "미더우면",
+      "future": "미더울 거예요"
+    },
+    {
+      "headword": "들르다",
+      "part_of_speech": "verb",
+      "irregular_type": "none",
+      "present": "들러요",
+      "condition": "들르면",
+      "future": "들를 거예요"
+    },
+    {
+      "headword": "모자라다",
+      "part_of_speech": "verb",
+      "irregular_type": "none",
+      "present": "모자라요",
+      "condition": "모자라면",
+      "future": "모자랄 거예요"
+    },
+    {
+      "headword": "들뜨다",
+      "part_of_speech": "verb",
+      "irregular_type": "none",
+      "present": "들떠요",
+      "condition": "들뜨면",
+      "future": "들뜰 거예요"
+    },
+    {
+      "headword": "어설프다",
+      "part_of_speech": "adjective",
+      "irregular_type": "none",
+      "present": "어설퍼요",
+      "condition": "어설프면",
+      "future": "어설플 거예요"
+    },
+    {
+      "headword": "가꾸다",
+      "part_of_speech": "verb",
+      "irregular_type": "none",
+      "present": "가꿔요",
+      "condition": "가꾸면",
+      "future": "가꿀 거예요"
+    },
+    {
+      "headword": "삼가다",
+      "part_of_speech": "verb",
+      "irregular_type": "none",
+      "present": "삼가요",
+      "condition": "삼가면",
+      "future": "삼갈 거예요"
+    },
+    {
+      "headword": "옳다",
+      "part_of_speech": "adjective",
+      "irregular_type": "none",
+      "present": "옳아요",
+      "condition": "옳으면",
+      "future": "옳을 거예요"
+    }
+  ]
+}

@@ -37,7 +37,7 @@ class Data02ContentTests(unittest.TestCase):
             for table in ['vocabulary','meanings','examples']:
                 for row in old.execute('SELECT * FROM '+table):
                     self.assertEqual(self.db.execute('SELECT * FROM '+table+' WHERE id=?', [row[0]]).fetchone(), row)
-        self.assertEqual(self.db.execute('SELECT schema_version,content_version,min_reader_version FROM content_metadata').fetchone(), (4,17,7))
+        self.assertEqual(self.db.execute('SELECT schema_version,content_version,min_reader_version FROM content_metadata').fetchone(), (4,18,7))
         self.assertEqual(self.report['validation']['error_count'], 0)
     def test_all_new_ids_meanings_examples_notes_are_real_bundle_content(self):
         self.assertEqual(len(self.registry['vocabulary']),250)
