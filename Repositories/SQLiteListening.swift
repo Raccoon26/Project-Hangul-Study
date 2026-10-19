@@ -44,6 +44,14 @@ extension SQLiteContentRepository {
     }
 }
 extension SQLiteProgressRepository {
+    func deferUnavailableListening(ids: [ContentID], contentVersion: Int) async throws {
+        guard contentVersion > 0, !ids.isEmpty, ids.count <= 20, Set(ids).count == ids.count else { throw ReviewError.invalidState }
+        try db.transaction {
+            for id in ids {
+                try db.execute("INSERT INTO user_metadata(key,value) VALUES(?,?) ON CONFLICT(key) DO UPDATE SET value=excluded.value", [.text("review.unavailable.v1.listening." + id.rawValue), .text(String(contentVersion))])
+            }
+        }
+    }
     func activeListening(scope: String) async throws -> ListeningSession? { try readActiveListening(scope:scope) }
     private func readActiveListening(scope: String) throws -> ListeningSession? {
         guard let row = try db.query("SELECT state_json FROM listening_sessions WHERE scope=? AND completed=0",[.text(scope)]).first else { return nil }
@@ -51,8 +59,8 @@ extension SQLiteProgressRepository {
     }
     func listeningDue(now: Date) async throws -> (Int,[ContentID]) {
         guard now.timeIntervalSince1970.isFinite else { throw ReviewError.invalidState }
-        let count = try db.query("SELECT COUNT(*) AS n FROM srs_state WHERE skill='listening' AND algorithm=? AND algorithm_version=? AND due_at<=?",[.text(StepReviewScheduler.algorithm),.integer(Int64(StepReviewScheduler.version)),.real(now.timeIntervalSince1970)]).first?.integer("n") ?? 0
-        let ids = try db.query("SELECT content_id FROM srs_state WHERE skill='listening' AND algorithm=? AND algorithm_version=? AND due_at<=? ORDER BY due_at,content_id LIMIT 20",[.text(StepReviewScheduler.algorithm),.integer(Int64(StepReviewScheduler.version)),.real(now.timeIntervalSince1970)]).map { ContentID(rawValue:try $0.text("content_id")) }
+        let count = try db.query("SELECT COUNT(*) AS n FROM srs_state WHERE skill='listening' AND algorithm=? AND algorithm_version=? AND due_at<=? AND NOT EXISTS(SELECT 1 FROM user_metadata unavailable WHERE unavailable.key='review.unavailable.v1.listening.'||srs_state.content_id AND unavailable.value=COALESCE((SELECT value FROM user_metadata WHERE key='review.content-version.v1'),'0'))",[.text(StepReviewScheduler.algorithm),.integer(Int64(StepReviewScheduler.version)),.real(now.timeIntervalSince1970)]).first?.integer("n") ?? 0
+        let ids = try db.query("SELECT content_id FROM srs_state WHERE skill='listening' AND algorithm=? AND algorithm_version=? AND due_at<=? AND NOT EXISTS(SELECT 1 FROM user_metadata unavailable WHERE unavailable.key='review.unavailable.v1.listening.'||srs_state.content_id AND unavailable.value=COALESCE((SELECT value FROM user_metadata WHERE key='review.content-version.v1'),'0')) ORDER BY due_at,content_id LIMIT 20",[.text(StepReviewScheduler.algorithm),.integer(Int64(StepReviewScheduler.version)),.real(now.timeIntervalSince1970)]).map { ContentID(rawValue:try $0.text("content_id")) }
         return (count,ids)
     }
     func beginListening(scope: String, questions: [ListeningQuestion], version: Int, review: Bool) async throws -> ListeningSession {

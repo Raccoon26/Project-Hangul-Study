@@ -13,16 +13,20 @@ struct GrammarReviewView: View {
                 Button { audio.stop(); dismiss() } label: { Image(systemName:"xmark").frame(width:44,height:44) }.accessibilityLabel("文法の復習を閉じる")
                 Text(model.practiceID == nil ? "今日の復習・文法" : "選んだ文法の練習").font(.subheadline)
                 Spacer()
-                if let s = model.session { Text("\(min(s.completedCount+1,s.ids.count))/\(s.ids.count)").font(.caption).monospacedDigit() }
+                if let s = model.session { Text("\(min(s.processedCount+1,s.ids.count))/\(s.ids.count)").font(.caption).monospacedDigit() }
             }.padding(.horizontal,12)
-            if let s = model.session { ProgressView(value:Double(s.completedCount),total:Double(s.ids.count)).padding(.horizontal,24) }
+            if let s = model.session { ProgressView(value:Double(s.processedCount),total:Double(s.ids.count)).padding(.horizontal,24) }
             ScrollViewReader { proxy in
                 ScrollView {
                     VStack(alignment:.leading,spacing:24) {
                         if model.empty { Text("今の復習はありません").font(.title2) }
                         else if model.session?.completed == true {
                             Text("復習完了").font(.largeTitle)
-                            Text(model.practiceID == nil ? "次の復習予定を保存しました。" : "練習結果を保存しました。復習予定は変更していません。")
+                            if let s = model.session, s.deferredCount > 0 {
+                                Text("\(s.completedCount)項目を確認し、利用できない\(s.deferredCount)項目を保留しました。記録と復習予定は残し、教材更新後に再確認します。")
+                            } else {
+                                Text(model.practiceID == nil ? "次の復習予定を保存しました。" : "練習結果を保存しました。復習予定は変更していません。")
+                            }
                             if model.due > 0 { Text("残り\(model.due)項目。続けても、あとで再開しても大丈夫です。").foregroundStyle(.secondary) }
                         } else if let q = model.question {
                             GrammarQuestionView(question:q.question,selected:q.selected,seed:stableSeed) { choice in Task { await model.answer(choice,expectedQuestionID:q.question.id) } }
@@ -38,7 +42,13 @@ struct GrammarReviewView: View {
                             }
                         }
                         if model.busy { ProgressView() }
-                        if let error = model.error { Text(error); Button("記録を読み直す") { Task { await model.open() } } }
+                        if let error = model.error {
+                            Text(error); Button("記録を読み直す") { Task { await model.open() } }
+                            if let id = model.unavailableID {
+                                Button("この教材を保留して続ける") { audio.stop(); Task { await model.deferUnavailable(expectedID:id) } }
+                                Text("学習済みにはせず、記録と復習予定を残します。").font(.footnote)
+                            }
+                        }
                     }.frame(maxWidth:600,alignment:.leading).padding(24).frame(maxWidth:.infinity).id("top")
                 }.onChange(of:model.session?.currentID) { _ in proxy.scrollTo("top",anchor:.top) }
             }

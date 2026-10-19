@@ -27,6 +27,7 @@ struct AppContainer: Sendable {
                                                 attributes: [.protectionKey: FileProtectionType.completeUntilFirstUserAuthentication])
         let progress = try SQLiteProgressRepository(url: directory.appendingPathComponent(progressName),
                                                     schema: String(contentsOf: schemaURL, encoding: .utf8), datasetID: metadata.datasetID)
+        try await progress.configureReviewContentVersion(metadata.contentVersion)
         try await progress.backfillVocabularyReviews(timeZoneID: TimeZone.current.identifier)
         return AppContainer(content: content, progress: progress, metadata: metadata)
     }

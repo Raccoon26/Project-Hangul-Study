@@ -15,11 +15,11 @@ struct ReviewSessionView: View {
                 Text(model.practiceID == nil ? "今日の復習" : "選んだ単語の練習").font(.subheadline.weight(.medium))
                 Spacer(minLength: 0)
                 if let session = model.session {
-                    Text("\(min(session.completedCount + 1, session.ids.count)) / \(session.ids.count)").font(.caption).monospacedDigit()
+                    Text("\(min(session.processedCount + 1, session.ids.count)) / \(session.ids.count)").font(.caption).monospacedDigit()
                 }
             }.padding(.horizontal, 12).padding(.vertical, 8)
             if let session = model.session, !session.completed {
-                ProgressView(value: Double(session.completedCount), total: Double(session.ids.count))
+                ProgressView(value: Double(session.processedCount), total: Double(session.ids.count))
                     .padding(.horizontal, 24).accessibilityLabel("この復習の進み具合")
             }
             ScrollViewReader { proxy in
@@ -30,8 +30,12 @@ struct ReviewSessionView: View {
                             Text("予定日になった単語は、ここに表示されます。").foregroundStyle(.secondary)
                         } else if let session = model.session, session.completed {
                             Text("復習完了").font(.largeTitle.weight(.semibold)).accessibilityAddTraits(.isHeader)
-                            Text("\(session.ids.count)語を確認しました").font(.title2)
-                            Text(model.practiceID == nil ? "次の復習予定を保存しました。" : "練習結果を保存しました。復習予定は変更していません。").foregroundStyle(.secondary)
+                            Text("\(session.completedCount)語を確認しました").font(.title2)
+                            if session.deferredCount > 0 {
+                                Text("利用できない\(session.deferredCount)項目を保留しました。記録と復習予定は残し、教材更新後に再確認します。").foregroundStyle(.secondary)
+                            } else {
+                                Text(model.practiceID == nil ? "次の復習予定を保存しました。" : "練習結果を保存しました。復習予定は変更していません。").foregroundStyle(.secondary)
+                            }
                             if model.remainingDue > 0 { Text("残り\(model.remainingDue)語。続けても、あとで再開しても大丈夫です。").foregroundStyle(.secondary) }
                         } else if let card = model.card, let session = model.session {
                             VocabularyCardContentView(card: card, revealed: session.revealed).id(card.id)
@@ -40,6 +44,11 @@ struct ReviewSessionView: View {
                             Text(error).foregroundStyle(.secondary)
                             Button("記録を読み直す") { Task { await model.reload() } }
                                 .buttonStyle(.bordered).controlSize(.large).disabled(model.busy)
+                            if let id = model.unavailableID {
+                                Button("この教材を保留して続ける") { audio.stop(); Task { await model.deferUnavailable(expectedID:id) } }
+                                    .buttonStyle(.bordered).controlSize(.large).disabled(model.busy)
+                                Text("学習済みにはせず、記録と復習予定を残します。").font(.footnote)
+                            }
                         }
                     }.frame(maxWidth: 600, alignment: .leading).padding(24).frame(maxWidth: .infinity).id("review-top")
                 }.onChange(of: model.session?.currentID) { _ in proxy.scrollTo("review-top", anchor: .top) }

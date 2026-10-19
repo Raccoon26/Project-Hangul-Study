@@ -1,0 +1,124 @@
+{
+  "baseline_commit": "42441768ea3ce39490350ed217021cfad58eae71",
+  "branch": "data08-7/requirements-audit",
+  "versions": {
+    "content": 19,
+    "schema": 4,
+    "min_reader": 7,
+    "user_progress": 10
+  },
+  "source_sha256": "f97b3bd70d07a3945770b8d6940c4a53e29a9b70b565caf21fb927230c08b4a8",
+  "bundle_sha256": "57aeaf918d5eaaec3bbfaed02f87c5452cca8264540b923a70448b781adbe9e5",
+  "content_delta": {
+    "vocabulary": 0,
+    "meaning": 0,
+    "example": 0,
+    "grammar": 0,
+    "listening": 0,
+    "question": 0,
+    "deleted": 0,
+    "retired": 0,
+    "id_reissued": 0
+  },
+  "findings": [
+    {
+      "id": "D08-7-P1-01",
+      "severity": "P1",
+      "problem": "Unavailable vocabulary/grammar in an active review or saved practice blocks all later items; the only action reloads the same ID.",
+      "reproduction": "Copy real bundle, mark one referenced ID inactive, execute real card SQL; active review retains its immutable ID list. Prior ViewModels have no recovery action.",
+      "fix": "Explicit defer action; versioned UserProgress metadata preserves snapshot membership, SRS, events and previous answers. Current-release quarantine excludes future queues and counts; new Content Version retries the original ID. Deferred items are not rated or learned.",
+      "tests": [
+        "test_defer_keeps_srs_events_membership_and_cold_cursor_for_both_skills_and_practice",
+        "test_all_deferred_completes_without_counting_learning_or_deleting_any_row",
+        "test_release_scoped_quarantine_cannot_starve_later_due_and_retries_next_version",
+        "test_defer_rolls_back_metadata_if_session_save_fails"
+      ],
+      "status": "FIXED IN CODE / SQL PASS / native BLOCKED"
+    },
+    {
+      "id": "D08-7-P1-02",
+      "severity": "P1",
+      "problem": "Dictation UI says terminal punctuation is optional, but omitting it yields incorrect for all 1,821 new DATA08 questions.",
+      "reproduction": "Real DB has 1850 dictations; 1821 lack a punctuation-free accepted answer. Existing normalize handles only whitespace.",
+      "fix": "Dictation-only terminal .!? removal on both input/accepted before the existing correct/spacing/incorrect judge. Interior punctuation, spelling, spacing feedback and ordinary ProductionAnswer remain distinct.",
+      "tests": [
+        "test_production_dictation_period_omission_bug_and_narrow_new_policy",
+        "testDATA08AllDictationsAllowTerminalPunctuationOmissionOnly"
+      ],
+      "status": "FIXED IN CODE / corpus-contract PASS / native BLOCKED"
+    },
+    {
+      "id": "D08-7-P1-03",
+      "severity": "P1",
+      "problem": "An inactive prefix of 20 listening due IDs hides later active items indefinitely.",
+      "reproduction": "Temporary real-bundle copy: first25 of45 due listening IDs inactive; old LIMIT20 returns only missing items. New query/resolution reaches15 active IDs on page2.",
+      "fix": "Before a new snapshot, resolve bounded20-ID pages, quarantine confirmed missing IDs for this Content Version, yield/check cancellation, continue past empty retired pages. Existing listening snapshots and SRS state are not rewritten.",
+      "tests": [
+        "test_listening_inactive_prefix_no_longer_starves_later_active_items",
+        "testDATA08UnavailableListeningDueIsReleaseScopedAndPreservesSnapshots"
+      ],
+      "status": "FIXED IN CODE / SQL PASS / native BLOCKED"
+    }
+  ],
+  "tests": {
+    "portable": {
+      "status": "PASS",
+      "executed": 301,
+      "passed": 301,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "seconds": 296.353,
+      "exit_code": 0
+    },
+    "focused": {
+      "status": "PASS",
+      "executed": 10,
+      "passed": 10,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "seconds": 0.085,
+      "exit_code": 0
+    },
+    "interim": {
+      "status": "PASS",
+      "executed": 300,
+      "seconds": 292.344,
+      "exit_code": 0
+    },
+    "initial_focused": {
+      "status": "FAIL",
+      "executed": 9,
+      "errors": 4,
+      "failed_subtest_cases": 4,
+      "reason": "Harness rating seed omitted required CHECK fields; corrected to real repository update SQL.",
+      "exit_code": 1
+    },
+    "native": {
+      "status": "BLOCKED",
+      "definitions": 137,
+      "executed": 0,
+      "reason": "xcodebuild not found; Swift/iOS SDK unavailable",
+      "probe_exit_code": 127
+    },
+    "ui_audio_storekit_admob_keychain": {
+      "status": "BLOCKED",
+      "executed": 0
+    },
+    "independent_human_language_review": {
+      "status": "NOT TESTED",
+      "executed": 0
+    },
+    "original_task_specification_conformance": {
+      "status": "UNVERIFIABLE",
+      "reason": "Complete original DEV01–14/DATA01–07 task specifications not located. Archived reports are not the original requests."
+    }
+  },
+  "unchanged_monetization_and_settings_sha256": {
+    "Services/PurchaseService.swift": "bbf3106b12ff90142ba487b0d6f45006c0f02ee1cb05e19be19f9fdb52f1b757",
+    "Services/AdService.swift": "c7e64d0b8c93cb3de9a54342d4e9543ddc3071c29b2dc7510df4f6d029a4be6a",
+    "Models/MonetizationPolicy.swift": "341b40e673d064756c934d6fc853ed2453f9ef9c22503bb63a9e441ac3f304e0",
+    "Services/LearningPreferences.swift": "a4ed8e2cf72baaae1239978a8cfc0632e250dab15580a0822bc0ac46c90ea623"
+  }
+}

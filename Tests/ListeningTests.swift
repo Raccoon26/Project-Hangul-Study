@@ -218,4 +218,64 @@ final class ListeningTests: XCTestCase {
         XCTAssertEqual(newCount,1821)
     }
 
+    func testDATA08AllDictationsAllowTerminalPunctuationOmissionOnly() async throws {
+        XCTAssertEqual(ProductionAnswer.judgeDictation("물을 마셔요",accepted:["물을 마셔요."]),.correct)
+        XCTAssertEqual(ProductionAnswer.judgeDictation("물을마셔요",accepted:["물을 마셔요."]),.spacing)
+        XCTAssertEqual(ProductionAnswer.judgeDictation("물을 마셔오",accepted:["물을 마셔요."]),.incorrect)
+        XCTAssertEqual(ProductionAnswer.judgeDictation(".물을 마셔요",accepted:["물을 마셔요."]),.incorrect)
+        XCTAssertEqual(ProductionAnswer.judgeDictation("물을, 마셔요",accepted:["물을 마셔요."]),.incorrect)
+        XCTAssertEqual(ProductionAnswer.judge("물을 마셔요",accepted:["물을 마셔요."],spacingWarning:true),.incorrect)
+        let content = try SQLiteContentRepository(url:XCTUnwrap(Bundle.main.url(forResource:"content",withExtension:"sqlite")),allowFixture:false)
+        var checked = 0
+        for level in [LearningLevel.intro,.beginner,.lowerIntermediate] {
+            var after = -1
+            while true {
+                let batches = try await content.listeningBatches(level:level,after:after)
+                if batches.isEmpty { break }
+                for (batch,_) in batches {
+                    let ids = try await content.listeningBatchIDs(level:level,batch:batch)
+                    let questions = try await content.listeningQuestions(level:level,ids:ids)
+                    for q in questions where q.task == .dictation {
+                        var answer = q.transcript
+                        while let last = answer.last, ".!?".contains(last) { answer.removeLast() }
+                        XCTAssertEqual(q.judge(answer),.correct)
+                        checked += 1
+                    }
+                }
+                after = try XCTUnwrap(batches.last).0
+            }
+        }
+        XCTAssertEqual(checked,1850)
+    }
+
+    func testDATA08UnavailableListeningDueIsReleaseScopedAndPreservesSnapshots() async throws {
+        let contentURL = try XCTUnwrap(Bundle.main.url(forResource:"content",withExtension:"sqlite"))
+        let contentDB = try SQLiteConnection(url:contentURL,readOnly:true)
+        let ids = try contentDB.query("SELECT id FROM listening_items ORDER BY id LIMIT 45").map { ContentID(rawValue:try $0.text("id")) }
+        let folder = FileManager.default.temporaryDirectory.appendingPathComponent(UUID().uuidString)
+        try FileManager.default.createDirectory(at:folder,withIntermediateDirectories:true)
+        defer { try? FileManager.default.removeItem(at:folder) }
+        let schema = try String(contentsOf:XCTUnwrap(Bundle.main.url(forResource:"user-schema-v1",withExtension:"sql")),encoding:.utf8)
+        let repo = try SQLiteProgressRepository(url:folder.appendingPathComponent("user.sqlite"),schema:schema,datasetID:"ko-ja-core")
+        let db = try SQLiteConnection(url:folder.appendingPathComponent("user.sqlite"),readOnly:false)
+        let now = Date(), state = try StepReviewScheduler.initial(at:Date().addingTimeInterval(-86400*3),neededRepetition:false,timeZoneID:"Asia/Tokyo")
+        let json = String(decoding:try JSONEncoder().encode(state),as:UTF8.self)
+        for id in ids { try db.execute("INSERT INTO srs_state VALUES(?,'listening','calendar_steps',1,?,?,NULL,1)",[.text(id.rawValue),.text(json),.real(state.nextReviewAt.timeIntervalSince1970)]) }
+        try await repo.configureReviewContentVersion(19)
+        try await repo.deferUnavailableListening(ids:Array(ids.prefix(20)),contentVersion:19)
+        try await repo.deferUnavailableListening(ids:Array(ids[20..<25]),contentVersion:19)
+        let due = try await repo.listeningDue(now:now)
+        XCTAssertEqual(due.0,20); XCTAssertEqual(due.1,Array(ids.suffix(20)))
+        let content = try SQLiteContentRepository(url:contentURL,allowFixture:false)
+        let questions = try await content.listeningQuestions(level:nil,ids:due.1)
+        let session = try await repo.beginListening(scope:"review",questions:questions,version:19,review:true)
+        try await repo.configureReviewContentVersion(20)
+        let after = try await repo.listeningDue(now:now)
+        XCTAssertEqual(after.0,45)
+        let saved = try await repo.activeListening(scope:"review")
+        XCTAssertEqual(saved?.questions.map(\.id),session.questions.map(\.id))
+        XCTAssertEqual(saved?.contentVersion,19)
+        XCTAssertEqual(try db.query("SELECT COUNT(*) AS n FROM srs_state WHERE state_json=?",[.text(json)]).first?.integer("n"),45)
+    }
+
 }

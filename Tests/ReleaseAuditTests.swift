@@ -73,4 +73,63 @@ final class ReleaseAuditTests: XCTestCase {
         let state = try await cold.reviewState(for:entry.0,skill:"vocabulary")
         XCTAssertEqual(state?.reviewCount,0)
     }
+    @MainActor
+    private func checkUnavailableReviewRecovery(kind: String) async throws {
+        let folder = FileManager.default.temporaryDirectory.appendingPathComponent(UUID().uuidString)
+        try FileManager.default.createDirectory(at:folder,withIntermediateDirectories:true)
+        defer { try? FileManager.default.removeItem(at:folder) }
+        let contentURL = folder.appendingPathComponent("content.sqlite")
+        try FileManager.default.copyItem(at:XCTUnwrap(Bundle.main.url(forResource:"content",withExtension:"sqlite")),to:contentURL)
+        let contentDB = try SQLiteConnection(url:contentURL,readOnly:false)
+        let ids = try contentDB.query("SELECT id FROM content_items WHERE kind=? AND is_active=1 ORDER BY id LIMIT 2",[.text(kind)]).map { ContentID(rawValue:try $0.text("id")) }
+        XCTAssertEqual(ids.count,2)
+        try contentDB.execute("UPDATE content_items SET is_active=0 WHERE id=?",[.text(ids[0].rawValue)])
+        let content = try SQLiteContentRepository(url:contentURL,allowFixture:false)
+        let userURL = folder.appendingPathComponent("user.sqlite")
+        let schema = try String(contentsOf:XCTUnwrap(Bundle.main.url(forResource:"user-schema-v1",withExtension:"sql")),encoding:.utf8)
+        let repo = try SQLiteProgressRepository(url:userURL,schema:schema,datasetID:"ko-ja-core")
+        let db = try SQLiteConnection(url:userURL,readOnly:false), now = Date()
+        let previous = try StepReviewScheduler.initial(at:now.addingTimeInterval(-86400*3),neededRepetition:false,timeZoneID:"Asia/Tokyo")
+        let json = String(decoding:try JSONEncoder().encode(previous),as:UTF8.self)
+        for id in ids {
+            try db.execute("INSERT INTO srs_state VALUES(?,?,'calendar_steps',1,?,?,NULL,1)",[.text(id.rawValue),.text(kind),.text(json),.real(previous.nextReviewAt.timeIntervalSince1970)])
+        }
+        try await repo.setFavorite(LookupReference(contentID:ids[0],kind:kind == "vocabulary" ? .vocabulary : .grammar),enabled:true)
+        let services = AppContainer(content:content,progress:repo,metadata:try await content.metadata())
+        let result: ReviewSession
+        if kind == "vocabulary" {
+            let model = ReviewViewModel(services:services)
+            await model.open(); XCTAssertEqual(model.unavailableID,ids[0])
+            await model.deferUnavailable(expectedID:ids[0])
+            XCTAssertEqual(model.card?.id,ids[1])
+            await model.reveal(expectedID:ids[1]); await model.rate(.remembered,expectedID:ids[1])
+            result = try XCTUnwrap(model.session)
+        } else {
+            let model = GrammarReviewViewModel(services:services)
+            await model.open(); XCTAssertEqual(model.unavailableID,ids[0])
+            await model.deferUnavailable(expectedID:ids[0])
+            let question = try XCTUnwrap(model.question?.question)
+            await model.answer(question.correctID,expectedQuestionID:question.id)
+            await model.rate(.remembered,expectedQuestionID:question.id)
+            result = try XCTUnwrap(model.session)
+        }
+        XCTAssertTrue(result.completed); XCTAssertEqual(result.completedCount,1); XCTAssertEqual(result.deferredCount,1)
+        XCTAssertEqual(result.ids,ids)
+        let saved = try await repo.reviewState(for:ids[0],skill:kind)
+        XCTAssertEqual(saved,previous)
+        let favorites = try await repo.favoriteIDs(); XCTAssertTrue(favorites.contains(ids[0]))
+        XCTAssertEqual(try db.query("SELECT COUNT(*) AS n FROM study_events WHERE content_id=?",[.text(ids[0].rawValue)]).first?.integer("n"),0)
+        let cold = try SQLiteProgressRepository(url:userURL,schema:schema,datasetID:"ko-ja-core")
+        let restored = try await cold.reviewSession(result.id)
+        XCTAssertEqual(restored.deferredCount,1); XCTAssertTrue(restored.completed)
+    }
+    @MainActor
+    func testDATA08UnavailableVocabularyReviewContinuesWithoutLosingProgress() async throws {
+        try await checkUnavailableReviewRecovery(kind:"vocabulary")
+    }
+    @MainActor
+    func testDATA08UnavailableGrammarReviewContinuesWithoutLosingProgress() async throws {
+        try await checkUnavailableReviewRecovery(kind:"grammar")
+    }
+
 }

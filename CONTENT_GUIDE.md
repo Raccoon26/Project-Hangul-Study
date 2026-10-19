@@ -1,3 +1,7 @@
+**DATA-08-7 감사: Content19 / Schema4 / reader7 / UserProgress10 유지, Source/DB 변경0.** P1 세 건(비활성 복습 복구·받아쓰기 문장부호·듣기 due 퇴역 prefix) 코드 수정. 전체 Python/SQL **301 PASS**, native137개/실행0·iOS Build **BLOCKED**. 원래 DEV01~14/DATA01~07 작업 명세 원문은 찾지 못해 전체 원문 준수는 확인 불가. 기존 목표911어휘/1,821예문 유지, B—Conditional. [감사·부분 구현·상태표](Docs/DATA08_SYSTEM_REVIEW.md), [DATA08_PROGRESS.md](DATA08_PROGRESS.md) §15. 아래는 단계별 이력이다.
+
+---
+
 **DATA-08-6: Content19 / Schema4 / minReader7 / UserProgress10.** 911어휘/1,821신규예문 목표 유지. 실제 Course1·Unit tag3·Lesson47에911어휘 배치, 듣기/받아쓰기1,821·활용/문장입력1,162문항 연결. Production Vocabulary2,287 / Example4,597 / Grammar42 / Listening1,936 / Question3,337. strict0errors/기존10warnings·integrity ok/FK0·전63,159행 Source/DB 일치. portable **291 PASS**(289.839초, failures/errors/skipped0, exit0), 전용11 PASS. 사용자 기록/active snapshot/5·10·20 복습 SQL 보존. native 정의132/실행0, 실제 iPhone/offline/TTS/3~10분과 사람 검수 미실행. B—Conditional 유지. 상세 [통합 기록](Docs/DATA08_INTEGRATION.md), [DATA08_PROGRESS.md](DATA08_PROGRESS.md) §14. 아래는 단계별 이력이다.
 
 ---
@@ -1079,3 +1083,12 @@ sh Tools/verify.sh --portable
 - 동사/형용사581개만 -고 활용형과 기존 문장 재현에 연결한다. `form`/`sentence` mode·prerequisite를 유지하며 문장을 재편집하면 원 Example/accepted/prompt 번역도 함께 검토해야 한다. 명사·부사·표현을 활용 대상으로 바꾸지 않는다.
 - 이전18 DB/source를 반드시 strict previous로 사용한다. 기존911어휘+1,821예문+-고 Grammar1의 관계 fingerprint 변경만2,733 allowlist에 따른 revision+1이다. 이전 상세본문/ID/순서/기존 membership과 A~C 검수 이력은 변경하지 않는다.
 - 상세 재현·테스트·성능·미실행 gate는 `Docs/DATA08_INTEGRATION.md` / `DATA08_PROGRESS.md` §14. 자동/SQL 통과는 native나 사람 언어 검수 완료가 아니다.
+
+
+## DATA-08-SYSTEM — 복습 가용성/받아쓰기 계약 (Content19 유지)
+
+- DATA08-7은 runtime 감사/수정이며 Production source/DB/content/schema/minReader/UserProgress version을 바꾸지 않는다.
+- unavailable review는 현재 카드 확인 후 명시적으로 보류한다. 원래 review_items ID/순서/판정과 SRS schedule은 남기고 completedCount와 deferredCount를 구분한다. 이번 Content Version의 quarantine metadata만 새 due query/숫자에서 제외한다. 새 Content Version을 configure하면 원래 due로 재시도한다.
+- 듣기 due는 새 snapshot 전에20개씩 Content 가용성을 확인한다. 정상 조회에서 누락된 ID만 버전별로 보류하며 DB/decoding 오류를 ‘퇴역’으로 추정하지 않는다. 기존 active listening snapshot은 재조회/재작성하지 않는다.
+- dictation은 끝 .!? 생략을 허용하되 내부 부호·어휘·철자 차이를 정답으로 합치지 않는다. 띄어쓰기 피드백을 유지한다. 일반 ProductionAnswer의 exact/spacing 규칙은 변하지 않는다.
+- 자동 alias 병합/기존 고정 회독 ID 대체·자동 완료·SRS 초기화를 허용하지 않는다. 원래 명세 미확보/Native137개 BLOCKED/사람 검수 NOT TESTED와 B—Conditional을 보존한다. 상세 DATA08_PROGRESS §15.

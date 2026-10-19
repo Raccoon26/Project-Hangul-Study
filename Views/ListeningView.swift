@@ -127,7 +127,10 @@ struct ListeningStudyView: View {
                             Text(q.explanation).foregroundStyle(.secondary)
                         }
                     }
-                } else if empty { Text("今のところ、出題できる項目はありません。記録はそのまま保存されています。") }
+                } else if empty {
+                    Text("今のところ、出題できる項目はありません。記録はそのまま保存されています。")
+                    if level == nil { Text("利用できない教材は保留し、復習予定を残しています。教材更新後に再確認します。").font(.footnote) }
+                }
                 if busy { ProgressView() }
                 if let error = error { Text(error); Button("記録を読み直す") { Task { await open() } }.frame(minHeight:44) }
             }.frame(maxWidth:600,alignment:.leading).padding(24).frame(maxWidth:.infinity)
@@ -188,11 +191,30 @@ struct ListeningStudyView: View {
         guard !busy else { return }; busy = true; error = nil; empty = false
         defer { busy = false }
         do {
+            try await services.progress.configureReviewContentVersion(services.metadata.contentVersion)
             let saved = try await services.progress.activeListening(scope:scope)
             if let saved = saved { session = saved } else {
-                let ids: [ContentID]?
-                if let level = level { ids = try await services.content.listeningBatchIDs(level:level,batch:batch) } else { ids = try await services.progress.listeningDue(now:Date()).1 }
-                let questions = try await services.content.listeningQuestions(level:level,ids:ids)
+                var questions: [ListeningQuestion] = []
+                if let level = level {
+                    let ids = try await services.content.listeningBatchIDs(level:level,batch:batch)
+                    questions = try await services.content.listeningQuestions(level:level,ids:ids)
+                } else {
+                    // Content and progress are separate DBs. Resolve bounded due pages
+                    // before snapshot creation; retired IDs must not starve later items.
+                    while true {
+                        try Task.checkCancellation()
+                        let ids = try await services.progress.listeningDue(now:Date()).1
+                        if ids.isEmpty { break }
+                        questions = try await services.content.listeningQuestions(level:nil,ids:ids)
+                        let available = Set(questions.map(\.itemID))
+                        let missing = ids.filter { !available.contains($0) }
+                        if !missing.isEmpty {
+                            try await services.progress.deferUnavailableListening(ids:missing,contentVersion:services.metadata.contentVersion)
+                        }
+                        if !questions.isEmpty || missing.isEmpty { break }
+                        await Task.yield()
+                    }
+                }
                 if questions.isEmpty { session = nil; empty = true; return }
                 session = try await services.progress.beginListening(scope:scope,questions:questions,version:services.metadata.contentVersion,review:level == nil)
             }

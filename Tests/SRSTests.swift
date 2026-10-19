@@ -206,4 +206,51 @@ final class SRSTests: XCTestCase {
         let saved = try await repo.reviewState(for: pass.vocabularyIDs[0], skill: "vocabulary")
         XCTAssertEqual(saved?.firstLearnedAt, pass.completedAt)
     }
+    func testDATA08DeferredReviewsPreserveSchedulesAndRetryAfterContentUpdate() async throws {
+        let schema = try String(contentsOf:XCTUnwrap(Bundle.main.url(forResource:"user-schema-v1",withExtension:"sql")),encoding:.utf8)
+        for storedSkill in ["vocabulary","grammar","vocabulary_practice","grammar_practice"] {
+            let folder = FileManager.default.temporaryDirectory.appendingPathComponent(UUID().uuidString)
+            try FileManager.default.createDirectory(at:folder,withIntermediateDirectories:true)
+            defer { try? FileManager.default.removeItem(at:folder) }
+            let url = folder.appendingPathComponent("user.sqlite")
+            let repo = try SQLiteProgressRepository(url:url,schema:schema,datasetID:"ko-ja-core")
+            let db = try SQLiteConnection(url:url,readOnly:false)
+            let kind = storedSkill.replacingOccurrences(of:"_practice",with:"")
+            let ids = [ContentID(rawValue:UUID().uuidString),ContentID(rawValue:UUID().uuidString)]
+            let id = UUID(), now = Date()
+            let state = try StepReviewScheduler.initial(at:now.addingTimeInterval(-86400*3),neededRepetition:false,timeZoneID:zone)
+            let json = String(decoding:try JSONEncoder().encode(state),as:UTF8.self)
+            try db.execute("INSERT INTO review_sessions VALUES(?,?,'active',1,1,NULL)",[.text(id.uuidString),.text(storedSkill)])
+            for (n,word) in ids.enumerated() {
+                try db.execute("INSERT INTO review_items(session_id,content_id,ordinal) VALUES(?,?,?)",[.text(id.uuidString),.text(word.rawValue),.integer(Int64(n))])
+                try db.execute("INSERT INTO srs_state VALUES(?,?,'calendar_steps',1,?,?,NULL,1)",[.text(word.rawValue),.text(kind),.text(json),.real(state.nextReviewAt.timeIntervalSince1970)])
+            }
+            try await repo.configureReviewContentVersion(19)
+            var session = try await repo.deferUnavailableReview(sessionID:id,contentID:ids[0],contentVersion:19,now:now)
+            XCTAssertEqual(session.ids,ids); XCTAssertEqual(session.currentID,ids[1])
+            let duplicate = try await repo.deferUnavailableReview(sessionID:id,contentID:ids[0],contentVersion:19,now:now)
+            XCTAssertEqual(duplicate.deferredCount,1); XCTAssertEqual(duplicate.currentID,ids[1])
+            session = try await repo.deferUnavailableReview(sessionID:id,contentID:ids[1],contentVersion:19,now:now)
+            XCTAssertTrue(session.completed); XCTAssertEqual(session.completedCount,0); XCTAssertEqual(session.deferredCount,2)
+            let cold = try SQLiteProgressRepository(url:url,schema:schema,datasetID:"ko-ja-core")
+            let restored = try await cold.reviewSession(id)
+            XCTAssertEqual(restored.ids,ids); XCTAssertTrue(restored.completed); XCTAssertEqual(restored.deferredCount,2)
+            for word in ids {
+                let saved = try await cold.reviewState(for:word,skill:kind)
+                XCTAssertEqual(saved,state)
+            }
+            let before: ReviewSummary
+            if kind == "vocabulary" { before = try await cold.reviewSummary(now:now,timeZoneID:zone) }
+            else { before = try await cold.grammarReviewSummary(now:now) }
+            XCTAssertEqual(before.due,0)
+            try await cold.configureReviewContentVersion(20)
+            let after: ReviewSummary
+            if kind == "vocabulary" { after = try await cold.reviewSummary(now:now,timeZoneID:zone) }
+            else { after = try await cold.grammarReviewSummary(now:now) }
+            XCTAssertEqual(after.due,2)
+            XCTAssertEqual(try db.query("SELECT COUNT(*) AS n FROM study_events").first?.integer("n"),0)
+            XCTAssertEqual(try db.query("SELECT COUNT(result) AS n FROM review_items").first?.integer("n"),0)
+        }
+    }
+
 }
