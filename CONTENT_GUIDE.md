@@ -1,3 +1,5 @@
+> **현재 기준 (DATA-08-3 / Batch B): Schema4 / Content16 / minReader7 / UserProgress10.** 初中級300어휘/600문장·311의미·100 Note 추가, 전항목 Collocation. 최신 계약은 마지막 DATA-08-B 절과 `DATA08_PROGRESS.md` §11. 이하 Batch A/DEV/DATA 내용은 당시 이력이다.
+
 > **현재 기준 (DATA-08-2 / Batch A, 2026-10-19): Schema4 / Content15 / minReader7 / UserProgress10.** 신규 初中級301어휘/602문장, 의미318/Note68. 아래 DEV/DATA 버전은 당시 이력이며 최신 추가 계약은 마지막 DATA-08-A 절과 `DATA08_PROGRESS.md`를 따릅니다.
 
 > **현재 기준 (DATA-07, 2026-10-06): schema4 / Content14 / reader7 / UserProgress10.** 아래 DEV/DATA별 과거 버전·당시 수량은 이력이며 현재 수량은 DATA_PROGRESS.md를 따른다. 최신 추가 정책은 문서 마지막 DATA-07 절.
@@ -1016,3 +1018,15 @@ sh Tools/verify.sh --portable
 ```
 
 이 명령은 DATA-08-A/Content15 재현용이다. 다음 배포에 v14를 그대로 previous로 쓰지 않는다. Validator0errors/기존10warnings, portable243PASS. native127개·iOS 빌드·실기기는 미실행이며 기존 release gate를 유지한다.
+
+## DATA-08-B 제작·검수 계약 (Content16)
+
+- 직전 실제 Content15는 `Tests/Fixtures/content-v15-production.sqlite`에 byte 그대로 보존한다. 빌드: `python3 Tools/ContentBuilder/build_content.py Content/production.json /tmp/content16.sqlite --production --previous Tests/Fixtures/content-v15-production.sqlite --report /tmp/content16-report.json`.
+- 전체 DATA-08 목표800~1,200어휘/1,300~2,000문장을 유지한다. A+B 누적601/1,202, 잔여199~599/98~798. 이번 B는300/600 승인, 다음 Batch 미실행.
+- 세 묶음 각100어휘/200문장에 개별 한일 재독·Duplicate Audit·UUID/이전 payload·strict Validator를 적용했다. `DATA08_B1~B3_AUDIT.json`/`VALIDATION.json`에 실제 누적값을 보존한다. 자동 검사와 assistant 자기검수를 독립 전문가 승인으로 표시하지 않는다.
+- 전300항목의 Collocation은 meaning의 `usage_ja`, 100 Note는 기존 learner_note 관계를 이용한다. 미치다/대비하다 등의 의미 범위·조사/동사 방향·유의어 차이를 설명한다. 부사처럼 쓰이는 조사 결합은 기본형을 확인한다(애초/반대/마찬가지).
+- `Content/data08-b-ids.json`은 검수 색인이다. 새 UUID4는 한 번 발급해 유지한다. 기존 모든 ID/상세본문/정렬/membership 보존, 관계 끝점28개만 승인 목록대로 revision+1/updated_at. 기존 경고10·제약·validator 유지.
+- Grammar 참조15개는 기존 예문과 함께 실제LIMIT6에서 보인다. 의미별 Example ID는 기존 Listening/Sentence Production에서 재사용할 수 있으나 새 듣기/문항 수는0이다. schema4/reader7/UserProgress10 및 실제 활용 엔진·has_batchim/irregular 계약은 유지한다.
+- 회귀검사: `sh Tools/verify.sh --portable`. A의 정확한 cohort는 v15 fixture에서, B의15→16과 A 포함 기존 payload/진도 보존은 현재 Bundle에서 확인한다. native128개와 실제3~10분/offline·중단·음성·접근성·광고/IAP gate는 Mac/iPhone에서 별도로 실행한다.
+
+상세·교정·원본/번역 카탈로그·검수 hash: `Docs/DATA08_B_REVIEW.md`, `DATA08_B_REVIEW_CATALOG.md`, `DATA08_B_EDITORIAL.json`, `DATA08_B_COUNTS.json`.

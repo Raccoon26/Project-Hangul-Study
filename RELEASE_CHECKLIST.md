@@ -1,3 +1,5 @@
+> **DATA-08-3 / Batch B 현재: Content16/schema4/reader7, UserProgress10.** 初中級300어휘/600문장 추가, 최종 portable **255개 PASS (failures/errors/skip0, exit0)**. native 정의128개/실행0. Xcode/SDK link/Debug·Release build/iPhone QA 미실행, B Conditional 유지. 아래 과거 체크박스와 gate는 보존한다. Mac에서 기존 전체128개와 새 글러요·걸러요·별달라요·색달라요·모자라요·넘쳐요·까다로워요·해로워요·이로워요·순조로워요, Content15→16 시 Batch A 포함 기존 사용자 기록 보존을 실제 검증해야 한다. 상세 `DATA08_PROGRESS.md` §11.
+
 > **DATA-08-2 / Batch A 업데이트 (2026-10-19): 현재 Content15/schema4/reader7, UserProgress10.** 初中級301어휘/602문장 추가. portable243 tests PASS. native 테스트 정의127개이며 이번 native 실행/Debug·Release build/SDK link/실기기 검증은0입니다. 아래 과거123개 표기와 체크박스는 이력/미완료 gate로 보존합니다. Mac에서는 현재127개 전체와 DATA-08의 들러요·서툴러요·어질러요·너그러워요·맞춰요·맞혀요, Content14→15의 기존기록 보존을 실제로 실행해야 합니다. 현재도 B Conditional이며 제출 승인 아님.
 
 > **DATA-07更新 / 2026-10-06:** Current bundle=Content14/schema4/reader7、UserProgress10。Portable232 tests PASS、Swift89ファイル構文確認のみ。Xcode build・XCTest・iPhone検証は未実施。DEV14のConditional判定と以下release gateは継続。新規初中級・追加直接入力/聴解・Content13からの保存状態をMacで必ず再検証してください。

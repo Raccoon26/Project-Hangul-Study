@@ -53,6 +53,18 @@ final class ProductionLearningTests: XCTestCase {
             XCTAssertFalse(card.meanings.isEmpty)
         }
     }
+    func testDATA08BatchBReviewedMetadataAndConjugations() async throws {
+        let content = try SQLiteContentRepository(url:XCTUnwrap(Bundle.main.url(forResource:"content",withExtension:"sqlite")),allowFixture:false)
+        for (lemma,pos,expected) in [("그르다","adjective","글러요"),("거르다","verb","걸러요"),("별다르다","adjective","별달라요"),("색다르다","adjective","색달라요"),("모자라다","verb","모자라요"),("넘치다","verb","넘쳐요"),("까다롭다","adjective","까다로워요"),("해롭다","adjective","해로워요"),("이롭다","adjective","이로워요"),("순조롭다","adjective","순조로워요")] {
+            let found = try await content.vocabulary(matching:VocabularyQuery(level:.lowerIntermediate,prefix:lemma),after:nil,limit:10)
+            let word = try XCTUnwrap(found.first(where: { $0.headword == lemma }))
+            XCTAssertEqual(word.partOfSpeech,try XCTUnwrap(PartOfSpeech(rawValue:pos)).japaneseName)
+            let generated = try ConjugationEngine.generate(lemma:word.headword,partOfSpeech:pos,irregular:word.irregularType,form:.present)
+            XCTAssertEqual(generated.form,expected)
+            let card = try await content.vocabularyCard(id:word.id)
+            XCTAssertFalse(card.meanings.isEmpty)
+        }
+    }
     func testInputNormalizationAndSpacing() {
         XCTAssertEqual(ProductionAnswer.judge("  먹어요\n",accepted:["먹어요"],spacingWarning:true),.correct)
         XCTAssertEqual(ProductionAnswer.judge("먹을   거예요",accepted:["먹을 거예요"],spacingWarning:true),.correct)

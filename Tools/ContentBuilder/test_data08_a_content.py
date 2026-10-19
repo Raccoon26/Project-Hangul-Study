@@ -1,5 +1,7 @@
 """DATA-08-A bundle, release preservation and actual repository SQL contracts.
 
+These tests freeze the exact Content15 cohort in its released fixture.
+Current-bundle preservation and Content15→16 are covered by Batch B.
 These tests exercise SQLite, not the Swift engine or iOS lifecycle.
 """
 import collections
@@ -23,7 +25,8 @@ from test_lookup_sql import user
 class Data08BatchATests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.db = sqlite3.connect((ROOT/'Resources/content.sqlite').as_uri()+'?mode=ro', uri=True)
+        cls.release = ROOT/'Tests/Fixtures/content-v15-production.sqlite'
+        cls.db = sqlite3.connect(cls.release.as_uri()+'?mode=ro', uri=True)
         cls.previous = ROOT/'Tests/Fixtures/content-v14-production.sqlite'
         cls.old = sqlite3.connect(cls.previous.as_uri()+'?mode=ro', uri=True)
         cls.registry = json.loads((ROOT/'Content/data08-a-ids.json').read_text())
@@ -42,7 +45,8 @@ class Data08BatchATests(unittest.TestCase):
             self.assertEqual(result['validation']['error_count'], 0)
             self.assertEqual(result['validation']['warning_count'], 10)
             with sqlite3.connect(output) as rebuilt:
-                self.assertEqual(signatures(rebuilt), signatures(self.db))
+                with sqlite3.connect(ROOT/'Resources/content.sqlite') as current:
+                    self.assertEqual(signatures(rebuilt), signatures(current))
         deltas = dict(vocabulary=301, meanings=318, examples=602, learner_notes=68,
                       grammar=0, grammar_examples=14, questions=0, listening_items=0,
                       content_items=1295, vocabulary_examples=602)
@@ -220,7 +224,7 @@ class Data08BatchATests(unittest.TestCase):
             db.commit()
             db.close()
             before = progress.read_bytes()
-            shutil.copyfile(ROOT/'Resources/content.sqlite', content)
+            shutil.copyfile(self.release, content)
             self.assertEqual(progress.read_bytes(), before)
             with sqlite3.connect(progress) as cold, sqlite3.connect(content) as current:
                 self.assertEqual(cold.execute('SELECT state_json,status FROM vocabulary_sessions').fetchone(), (payload, 'active'))

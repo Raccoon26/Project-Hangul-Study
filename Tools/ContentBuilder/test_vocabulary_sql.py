@@ -65,7 +65,7 @@ class VocabularySQLTests(unittest.TestCase):
                 example = self.content.execute(self.sql('SELECT e.id', True), [meaning[0]]).fetchone()
                 self.assertTrue(example[1]); self.assertTrue(example[2])
             notes += len(self.content.execute(self.sql('SELECT n.id', True), [content_id]).fetchall())
-        self.assertEqual(notes, 282)
+        self.assertEqual(notes, 382)
 
     def test_set_membership_is_ordered_stable_and_allocation_race_rolls_back(self):
         self.create_set()
