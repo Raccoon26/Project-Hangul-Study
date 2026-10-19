@@ -1,0 +1,6109 @@
+{
+  "batch": "DATA-08-B",
+  "stage": "DATA-08-3",
+  "content_version": 16,
+  "schema_version": 4,
+  "previous_content_version": 15,
+  "created_at": "2026-10-19T07:56:45Z",
+  "subgroups_approved_through": "B3",
+  "vocabulary": [
+    {
+      "id": "41eb0b81-2767-44c3-97db-deb0134486ec",
+      "headword": "판단하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "13cc4e51-1b4b-4678-a1e0-0d5d502f0fe7"
+      ],
+      "example_ids": [
+        "f689bfe2-5f3a-431b-85fa-309edaf44f2f",
+        "d6d47e5c-790a-4913-9f8d-05c89f65c53b"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "ec0b75da-4526-4c4e-b7cc-ef7558e85d1b",
+      "headword": "짐작하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "aa01a6ac-0ad4-478d-8d8c-7e9b0becda6a"
+      ],
+      "example_ids": [
+        "1d6c2673-4edf-4887-a628-167cbf296a58",
+        "188c7341-2db0-43e2-bce9-b18ebc46156d"
+      ],
+      "note_id": "0ca71b01-adff-4169-9f8b-8cb8d2f42dc6"
+    },
+    {
+      "id": "3b9ad923-36a4-467e-87ad-e174b8a90fcb",
+      "headword": "추측하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "d3889bab-fe5f-4320-9dc5-13b7ca83c6a5"
+      ],
+      "example_ids": [
+        "a350cda5-7c40-4eca-a244-7724fe55e482",
+        "e2b72808-b426-473b-9c5f-907bf80ac6fd"
+      ],
+      "note_id": "bd123031-e0fa-436d-9075-03e8d707e0b9"
+    },
+    {
+      "id": "a1a7e0a9-670a-46df-a8ce-474227d1dac6",
+      "headword": "추정하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "20adc573-a13e-49c7-92aa-7e8e398b413f"
+      ],
+      "example_ids": [
+        "7cb8bad9-b587-458d-8da2-c18c1a18ca93",
+        "ee81111c-3c00-42e9-b1c8-3baf87f98717"
+      ],
+      "note_id": "6de60199-a6fe-4c2f-af5a-27e4c08c7a17"
+    },
+    {
+      "id": "ef076dcc-0fea-4d47-981a-a6637b4a5eb1",
+      "headword": "단정하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "87ad52fa-f121-49d5-9d37-26dadfc33180"
+      ],
+      "example_ids": [
+        "fa7c0452-efa1-4441-9c23-c2c6956d512d",
+        "01833473-053d-4240-bb1a-3c7d838bb8be"
+      ],
+      "note_id": "7af7932a-c212-4628-955a-f3e7fcc07ee6"
+    },
+    {
+      "id": "aa58b90d-b480-4a9b-862b-5bcbced5300c",
+      "headword": "장담하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "c078293b-1f69-4b5f-8823-869b42606609"
+      ],
+      "example_ids": [
+        "6cbc441c-ceaa-469b-9e6a-1f0c68a2a5d2",
+        "61cb4435-8160-4d50-9de7-8ca393658682"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "1339de8d-4cef-4f76-8c0d-41b2e678e549",
+      "headword": "확신하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "e4371de9-bc92-4d2e-8f7d-7955430ff6c9"
+      ],
+      "example_ids": [
+        "1665a361-77c8-4aaf-8604-233dff8c76ff",
+        "b72ffb27-ae75-41fd-892f-22df096674e7"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "c873decc-e5d6-4674-9fcc-07e5223c7a27",
+      "headword": "예측하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "5c648e14-5929-491d-966f-93feee4ab4d7"
+      ],
+      "example_ids": [
+        "2922a698-7a1f-44f0-9b73-63d256cbfc79",
+        "b986b9fe-3bfa-4413-b415-8a3997a630a4"
+      ],
+      "note_id": "331af6a3-b249-4105-a06d-c30cbd386659"
+    },
+    {
+      "id": "6f08ab98-0d53-4d4f-a87d-4ea667703aa8",
+      "headword": "예상하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "395c9088-4116-4240-b989-7375639e5ad2"
+      ],
+      "example_ids": [
+        "daf18d2e-56c8-4899-a4f7-ef04f9e3441f",
+        "72e131f5-a584-4561-b500-7ddd412f9561"
+      ],
+      "note_id": "5d8a9bac-a75d-4740-9bff-0b486ff92c4a"
+    },
+    {
+      "id": "9455d8ad-3a10-4ac9-9ada-26ed5574d0c1",
+      "headword": "내다보다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "fc6810f4-29e9-440d-a625-aabdddefa070",
+        "ebb41187-ae62-49b7-9599-166a7e40d4e5"
+      ],
+      "example_ids": [
+        "4b21bdc9-2755-42e1-be21-01a8f5d3d759",
+        "9ab5fc85-51df-406b-bd25-120be75531f3"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "c73d434f-9072-4726-94c3-c912e0481584",
+      "headword": "되돌아보다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "c6c8cb39-313f-413c-aea3-a0221b597c74",
+        "6cf8842c-43ad-4cc0-9089-aacd6b00d63b"
+      ],
+      "example_ids": [
+        "16b43452-e0bf-4335-8838-06f365a36f8d",
+        "a8c40f3b-d90a-4403-9429-d60034902106"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "3d7cbec5-c9aa-4b62-805c-00d4c15db94b",
+      "headword": "되새기다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "e71a3a02-c8ee-4696-86c9-f6e127e2f09d"
+      ],
+      "example_ids": [
+        "8ca53dd1-3bae-4ee6-a4cc-9018e959a0c5",
+        "5dc3e8a2-ed19-4486-bb03-f896d34c7b11"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "3e157341-cc0d-4ebf-b068-2e6a67aaaa2c",
+      "headword": "상상하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "b3ce6cd0-ff8b-49d0-9b09-e68dfcbc9326"
+      ],
+      "example_ids": [
+        "fc846c3f-5849-4136-9c48-d5d01b264b82",
+        "044c9046-86f4-4c37-85ce-574a24a58368"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "dd74abf6-2d57-49fc-aed2-9de7a09a5803",
+      "headword": "가정하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "b0d851be-1562-4708-9c63-97a35f02cdf0"
+      ],
+      "example_ids": [
+        "5cc49845-dcbe-4a41-959b-f441f249845d",
+        "6e4aaf26-39ee-49f7-bf64-cfd8f1d09c2c"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "b35775f5-69fb-4e04-b8a8-6677c59d7581",
+      "headword": "수긍하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "eabf206e-ee3a-4aa2-af4b-954d8b0bf4dd"
+      ],
+      "example_ids": [
+        "4fe5314c-3c95-4bd3-9591-992957047827",
+        "38b649ce-e33e-4788-9c8a-7068486ae49d"
+      ],
+      "note_id": "7ffe9e1c-8db7-49fe-a473-fee8d89b6875"
+    },
+    {
+      "id": "4eaa5dad-c922-4e37-ba4d-e6571d1a55ca",
+      "headword": "납득하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "09179219-63d7-4ab0-a25d-79b865cb6667"
+      ],
+      "example_ids": [
+        "3d65005c-633c-49b2-94a9-733a9ff45a81",
+        "2e47b757-c16a-44ae-8628-e46d5e88a736"
+      ],
+      "note_id": "13a961e7-fd5f-45be-a970-08064477940e"
+    },
+    {
+      "id": "32d12234-5612-4bc6-95fc-c750f8edbb98",
+      "headword": "납득되다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "248f2680-0668-4f1e-87ee-e3446d3ac957"
+      ],
+      "example_ids": [
+        "6270bb13-690c-4763-a821-c2f05c3e290d",
+        "565e2084-1069-4382-b207-f0db930ba18f"
+      ],
+      "note_id": "f3d01fe7-ce04-470f-a201-81b8927828bf"
+    },
+    {
+      "id": "85be4977-e6b0-45c8-93e2-731d04f43937",
+      "headword": "이해되다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "f2087356-c47e-4a6f-b572-086ec1441a4d"
+      ],
+      "example_ids": [
+        "d3479279-93b8-4de6-940d-3f0cec4c0cb7",
+        "701bdc21-0ad8-4e3e-8bec-72ee26c26f24"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "556b9369-ccc8-4aea-a27b-7add0d29cb97",
+      "headword": "이해시키다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "51957d9e-cdfb-43c1-9c5f-22616f1ac4f7"
+      ],
+      "example_ids": [
+        "0831d0ff-7dbc-44a3-8ff8-7ad4229806a4",
+        "4fd794f6-bc8f-479a-9154-3c151af2c2b5"
+      ],
+      "note_id": "4db3b0f5-6440-40b9-bf1f-ce4f7962496c"
+    },
+    {
+      "id": "7b4c2153-9e25-44ff-b3cb-df66d9a73391",
+      "headword": "설득되다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "f7aac0df-6163-4dd5-91c1-4fdea2f30888"
+      ],
+      "example_ids": [
+        "9169620c-f29c-41e4-9e27-6b5c3e4a2124",
+        "11ed5c4c-f7e2-4d74-82a2-dc69a627246f"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "bba8b2bb-06b4-4f51-9c93-8dd5e139d71c",
+      "headword": "주장하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "1104fa50-b0a8-42dd-97b4-e2dc24f348c8"
+      ],
+      "example_ids": [
+        "bb866d07-1842-49d2-9b3f-c2c4e59b7b07",
+        "41964f40-dd14-4eb4-8cae-4f8c4f989344"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "6cbf76c5-9ec2-4972-a184-a46b0ddbf4c2",
+      "headword": "강조하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "a9659887-cba6-49d2-8978-b5ca5c1a90c4"
+      ],
+      "example_ids": [
+        "1fb6661e-0c5d-45a6-9aca-ffd4c986ca3a",
+        "f1e97640-a8f8-449c-b079-d4924d24e9ff"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "8e4db725-d152-4c53-b1a7-1d95ce121702",
+      "headword": "덧붙이다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "c560d0a1-e88b-4d05-8e69-61187e79be99"
+      ],
+      "example_ids": [
+        "fb6cea0a-e8aa-4f49-9eb5-9318a629d14d",
+        "42de2712-1542-4c71-8567-73e5f710219b"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "6b4e5354-d5e6-41c2-8182-d85349f80b6e",
+      "headword": "언급하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "d38753d9-3590-4b5f-ad3d-929914c29aa5"
+      ],
+      "example_ids": [
+        "6d5a07ab-ffc1-4fd6-bd6e-77bc22dd8e20",
+        "248c5e18-772a-4857-8f30-bee318f3505a"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "8de31f3c-a733-4588-b0c9-23ea9857a001",
+      "headword": "암시하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "f0e91fba-12fa-4c58-8acd-689e411bed53"
+      ],
+      "example_ids": [
+        "893e94e2-ed2d-4444-8dd3-1c4fa6a46bf6",
+        "479c1573-dc81-4ea2-bf39-c2a7d48eae4a"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "6b217bf3-9d55-4d57-a410-a2316bee935b",
+      "headword": "의미하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "afd3e92e-225d-45c6-84ef-677f970cc837"
+      ],
+      "example_ids": [
+        "d916327a-8c6a-4a77-a7d0-8b8a909303bc",
+        "b1e55bd5-9f0e-4467-afed-f55bf5738d28"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "cb88a3a9-0bc7-4bae-b3b9-d49715c04991",
+      "headword": "뜻하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "993d07a6-575f-49a6-9a34-b032eac2d3b1"
+      ],
+      "example_ids": [
+        "784697ba-8a83-4f0d-80ee-910794ea7479",
+        "022aab75-8c6d-4187-a468-72a308338572"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "8f1a792d-a2d6-48f3-8078-420622ec0c56",
+      "headword": "가리키다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "9a8c0a32-634f-4329-8e54-85aa63280619"
+      ],
+      "example_ids": [
+        "8093e492-714f-4b70-a32d-21575218b1d9",
+        "80bad380-d03b-453b-81b6-dbc505d1dceb"
+      ],
+      "note_id": "93038615-08bc-49fe-9c16-275031c1328a"
+    },
+    {
+      "id": "df934bdc-f8bd-4de3-8a28-9535571a3867",
+      "headword": "표현되다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "47a8808e-9824-454a-82e8-be51c96fa1dd"
+      ],
+      "example_ids": [
+        "86759a2c-40c0-44c9-8f5d-d6d981801c2b",
+        "8443185a-7462-402f-87cb-d5e76439ba2b"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "de4d296e-7f21-47bd-a615-e39c22e6e9e6",
+      "headword": "증명하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "3134800f-9b18-4257-ba90-979f449ba7d3"
+      ],
+      "example_ids": [
+        "a72e7f6c-394e-4bd0-8db8-5d5b5c898f39",
+        "47b30dfd-2da2-431a-a1cd-b8ddcb3d2ad8"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "3ea7bb7d-a19c-4a2e-a98c-ec9109d89967",
+      "headword": "증명되다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "03562fc3-b6ac-44f9-aeb2-664632cefa42"
+      ],
+      "example_ids": [
+        "3882ebb9-5061-4773-ab38-6f6d0a93b498",
+        "21fbd184-5853-468a-b106-8e779f3bac87"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "bda63962-dba3-4f2c-8085-e42def611054",
+      "headword": "검증하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "b38c2da6-53cb-4b51-bf3c-a698886ed0f3"
+      ],
+      "example_ids": [
+        "19befce9-0e62-4d6d-be63-4481249004f9",
+        "30607a01-903b-4ffc-aa81-d4fda10f5eb5"
+      ],
+      "note_id": "d83231f4-465a-426e-9305-f2bb89d2c561"
+    },
+    {
+      "id": "fe2c01ce-e86d-4100-8d24-e0830f9d419a",
+      "headword": "반박하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "979f5a8f-1e32-4184-9f47-49cd85353a06"
+      ],
+      "example_ids": [
+        "70e24bf9-1233-455f-8d85-6b0c110868e6",
+        "1abeaaf0-de05-492b-bf59-9f5295ff92a1"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "2b6edf40-b5a2-45b5-a51c-095bf9a7e400",
+      "headword": "뒷받침하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "83cf7813-5e9d-4c96-87ce-c9dc7789024e"
+      ],
+      "example_ids": [
+        "3358af05-1946-4884-abf7-1a55434d13ab",
+        "e908e7c9-922b-4917-9931-a5426a9b9fda"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "bd068390-29bd-4218-b13e-f2b5e0d97c0d",
+      "headword": "근거하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "ec225855-bf2e-4764-b1eb-0d2ff445be42"
+      ],
+      "example_ids": [
+        "b31b8d28-74ef-4949-8731-8f6c0eb1d586",
+        "57a7e19f-b308-4811-8a3c-269ad9dd4db3"
+      ],
+      "note_id": "2cd505c8-5419-4559-abf5-4460dbfe18f6"
+    },
+    {
+      "id": "9d987aa2-e261-42b4-a42a-f96717f2324d",
+      "headword": "참고하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "a1aa0439-c884-446d-9c70-1567c5c0798f"
+      ],
+      "example_ids": [
+        "63d0fd52-d086-4d20-a3cb-875219b47c21",
+        "c2e10a93-8f24-4c08-a9ab-cea2c97aaee6"
+      ],
+      "note_id": "3660bc64-a03e-4b50-bd21-a180aa3994c7"
+    },
+    {
+      "id": "aed8d44a-846b-460f-83c5-c9673216a016",
+      "headword": "참조하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "67971fa5-97c4-4350-9660-304dcbbcdab5"
+      ],
+      "example_ids": [
+        "ea5180e1-3fd7-43df-ab89-549c055a701e",
+        "15231e51-a346-454e-b445-b0ad8e6f03a2"
+      ],
+      "note_id": "f740ad54-e93a-46e2-a10f-9bb8da9cc05c"
+    },
+    {
+      "id": "5a289e89-26be-4619-b53c-098c04024c1c",
+      "headword": "여기다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "663e782e-f735-4ba2-a8b8-fd969e20e093"
+      ],
+      "example_ids": [
+        "67ed3264-57ee-4411-82bc-d08fca81d78b",
+        "289ee462-c2c5-426e-8a0e-28d89ae195fb"
+      ],
+      "note_id": "0836fd05-504b-4596-80f4-9d64b25dcac7"
+    },
+    {
+      "id": "e8240f03-b192-4150-b2ff-a392ec43ac6d",
+      "headword": "여겨지다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "67332521-b5d5-4c86-b56d-f99312388a9f"
+      ],
+      "example_ids": [
+        "3590340c-ded5-4d26-af5a-6cf12f064f30",
+        "4d8d832c-c0ea-4892-b622-9402ae4f83f3"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "d3bafe2c-faa1-4397-b0ca-957021355263",
+      "headword": "해석하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "41cd8a82-d1bc-4ad9-ae5b-d79c65ceebc5"
+      ],
+      "example_ids": [
+        "02a006e4-6a48-4863-b599-c2bd0cc6a8b9",
+        "cc1f35f0-85c6-48be-894e-48e8704f8c93"
+      ],
+      "note_id": "1a5c75f6-ee19-4115-94e8-37a147279a27"
+    },
+    {
+      "id": "81ed4c65-35f2-4f91-b6d3-186323de90d9",
+      "headword": "해석되다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "dd646627-fd73-4173-86f5-607fd0ae9422"
+      ],
+      "example_ids": [
+        "bd72f798-327a-4eba-b986-22b6f2740010",
+        "7acbf48f-8705-4e2f-9211-6b9c34f93e01"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "966eb926-c97d-46d4-b7e1-b22720a9bc3c",
+      "headword": "간과하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "fd756b7a-5097-4f4e-af80-7d4534913287"
+      ],
+      "example_ids": [
+        "2a98d099-e067-4230-bf2c-24f54b33775d",
+        "c7917010-6d42-4569-b3d9-d26ed99b216c"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "77c46780-6d1a-4127-b003-be3b2356667b",
+      "headword": "유의하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "92469bfb-9642-449c-9289-a7b8adfc5b44"
+      ],
+      "example_ids": [
+        "c7679e98-58c1-4c67-a437-e9b44c6d0818",
+        "80bc3ead-9bb8-420f-a881-11257108981e"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "d3a09083-f042-4831-a91e-83413136caaa",
+      "headword": "주목하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "1fec4774-d644-42a9-8382-398b567ef24c"
+      ],
+      "example_ids": [
+        "0de2cd4e-e034-431e-bae9-3becc29a2a27",
+        "897b342b-1c51-4f34-a089-c8257d6adf0e"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "b55ddf42-d4ad-4755-a99d-f74705a2306d",
+      "headword": "헤아리다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "877d3346-4795-4cd4-8113-56dada8e8ccb",
+        "ef34766b-ba46-47a6-862d-a62747c368a3"
+      ],
+      "example_ids": [
+        "cf3628b5-a064-44eb-b36b-c0481ebbc74b",
+        "c77250ff-15ff-48ff-a9a6-11f8e84ecaa6"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "fa6d9afe-19c5-4f94-8c41-1627f3daa742",
+      "headword": "가늠하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "553c03d3-c986-46d9-9f90-8c1f1f556351"
+      ],
+      "example_ids": [
+        "ae2443af-67ac-4265-aa27-592404f4fcb2",
+        "e6f5cc78-6a06-45e6-b0d0-16c033e0c4c7"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "9c1d44d9-d0ea-4e8a-8026-44d8a8067f3e",
+      "headword": "분명하다",
+      "part_of_speech": "adjective",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "e3d15dd6-8bb6-4704-afad-9ad318b4fcf4"
+      ],
+      "example_ids": [
+        "3f46d6a3-27f8-4fca-9472-221300c6d583",
+        "dfd59f33-4dbc-425a-9495-14aa32fd6c59"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "21044c70-e4d5-4153-ba7b-2a791b957cee",
+      "headword": "명백하다",
+      "part_of_speech": "adjective",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "a9d871c7-e31c-412e-9376-bb911a7dba29"
+      ],
+      "example_ids": [
+        "33dc138b-2394-4207-a199-ab7b87c7ea51",
+        "c5690d85-3f26-479d-93b8-4ee5b960d838"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "589491b1-550a-4fd7-a9d0-18dbecbf7763",
+      "headword": "불확실하다",
+      "part_of_speech": "adjective",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "b0ca9495-e30a-4f7c-8ac6-3a69229ee04d"
+      ],
+      "example_ids": [
+        "2289959c-023c-481c-a3b3-2ef37c256862",
+        "b8efb8da-7189-4197-a608-2bcaf275cbda"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "0cbb1c81-1046-44ba-b27a-3a44d482050a",
+      "headword": "모호하다",
+      "part_of_speech": "adjective",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "9ffa7b11-ad02-4214-bd06-076e6b67fe52"
+      ],
+      "example_ids": [
+        "228f177c-0d31-4c82-b909-7fec3cb09a80",
+        "74f9c8db-9b64-484e-bf9e-c2c4dbe8769b"
+      ],
+      "note_id": "5f1504f1-84bf-4dd3-89b2-ac7c29ba180c"
+    },
+    {
+      "id": "edaa932d-0720-411c-949d-d11ba1951710",
+      "headword": "뚜렷하다",
+      "part_of_speech": "adjective",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "a02ed0cb-44d1-4ec5-928e-742b9f95e743"
+      ],
+      "example_ids": [
+        "bf27fc61-9cd5-4637-bf13-1f05fa77b0b3",
+        "4132aee5-22f1-48dd-bfa4-c3fda63bf103"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "c76f8e2e-0aa0-4a0f-84c6-f15eaa66ef13",
+      "headword": "희미하다",
+      "part_of_speech": "adjective",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "accff3ed-bbaa-4f47-9557-24661cb58826"
+      ],
+      "example_ids": [
+        "32e01a04-bcc9-4344-9af1-0a825937d262",
+        "9ff63132-0950-45a3-aaf6-685bc0d2e88d"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "97aa9e80-dec7-4ec1-8629-6491a90f033c",
+      "headword": "확고하다",
+      "part_of_speech": "adjective",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "0b55f480-2c33-4ca8-8c02-7b9f629e33dd"
+      ],
+      "example_ids": [
+        "54bf3074-e6d0-4339-b792-a4f1782807b1",
+        "40d689e7-0ebf-4b48-8130-4b2927bac68d"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "d07d1160-40b6-49f4-9d54-51b08b628ace",
+      "headword": "명확하다",
+      "part_of_speech": "adjective",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "3834bef3-a390-4fde-a831-f41cab345f93"
+      ],
+      "example_ids": [
+        "65069233-8cac-4273-bf71-7cfee906ed22",
+        "6269a27c-ec6e-486c-a173-90fbd184a858"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "d79f0b83-63f4-42ac-aa53-773181f92919",
+      "headword": "부정확하다",
+      "part_of_speech": "adjective",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "a9be6a37-dd80-4b38-b552-0be3d3b20952"
+      ],
+      "example_ids": [
+        "b06527b5-4466-4c7d-b46b-6f33b0c2abef",
+        "93d7e17c-1895-46d0-b736-3462f9353f57"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "9c35d1a5-e2f7-43cc-a3b0-5e32f59cbb16",
+      "headword": "타당하다",
+      "part_of_speech": "adjective",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "9315cd35-ff02-40bc-88ec-78dfea201fe1"
+      ],
+      "example_ids": [
+        "f94e6b0f-b50c-40eb-972f-dbdb20233048",
+        "dfa44794-a30f-46d1-9e6e-a33c12b66e70"
+      ],
+      "note_id": "9382caa1-9cba-49b4-88bb-6b10bb3183e8"
+    },
+    {
+      "id": "79cb3f18-d5e1-44f6-ab02-b8b637f24a1b",
+      "headword": "적절하다",
+      "part_of_speech": "adjective",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "2def8aaf-c5ae-4f18-a78f-541a58cb6e38"
+      ],
+      "example_ids": [
+        "26b3d30f-7db5-48fd-b4c5-d16c13e571d6",
+        "40e4a477-595f-405a-b8be-5aca8b8ecc21"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "4f37e18a-1524-4ec1-9314-c90afe73a929",
+      "headword": "부적절하다",
+      "part_of_speech": "adjective",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "482dfbe4-5840-43e8-ab9a-53a5133fa720"
+      ],
+      "example_ids": [
+        "34f26a08-b327-49e0-a913-7ec5e1861159",
+        "82339275-425b-4854-9835-7f2248f0c058"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "c2888284-d3d5-4745-b59b-ff00f454ba22",
+      "headword": "옳다",
+      "part_of_speech": "adjective",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "8160899a-3706-4438-87c1-b96a8dd00951"
+      ],
+      "example_ids": [
+        "3b61fa4e-49d8-46b4-8e5a-75342c93788e",
+        "4b1634f5-2d65-4cd9-b46e-f8c51ff5cc68"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "c5b01bdd-6703-497e-b371-f24fa5e5a06d",
+      "headword": "그르다",
+      "part_of_speech": "adjective",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "8ff920bd-8d42-4c3d-81c7-fd51d2ac1aec"
+      ],
+      "example_ids": [
+        "fe03aad8-87f6-4c49-8195-7676dd2e0f6e",
+        "96b2c90a-600e-49b7-9dcb-de10233a119a"
+      ],
+      "note_id": "f30aa27f-5280-4b77-838a-e96aa225873e"
+    },
+    {
+      "id": "24531b4c-f82b-4365-8331-3c44e5cf5ef2",
+      "headword": "합당하다",
+      "part_of_speech": "adjective",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "8fa7c57e-a747-474b-86f0-a717131ea98e"
+      ],
+      "example_ids": [
+        "12641322-30d6-48cb-aa15-63b9dd45d12f",
+        "50ad434b-27ec-45bd-9203-511170bd1494"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "6a9943a0-519c-49f8-8e98-9694b2b11e99",
+      "headword": "정당하다",
+      "part_of_speech": "adjective",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "68aafd14-f7d9-43cd-bd22-7e32bfebdc96"
+      ],
+      "example_ids": [
+        "09ca141c-5618-4918-87e9-abe152e46359",
+        "578f1b6f-e421-46fb-bb97-206868c86206"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "d2c7450d-d6f9-42a4-8310-d91db58dda90",
+      "headword": "그럴듯하다",
+      "part_of_speech": "adjective",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "cff936fa-b9a5-4cb7-93fc-0db52b0751e8"
+      ],
+      "example_ids": [
+        "7b4f7117-acc5-4c12-832e-7ead28c85865",
+        "3284fe12-6985-4bb3-b659-3113437d51bf"
+      ],
+      "note_id": "eef080b8-484f-42c0-a8a4-1d42ca811f6b"
+    },
+    {
+      "id": "8db38e5e-c6c9-4489-b421-10624ef4f211",
+      "headword": "의아하다",
+      "part_of_speech": "adjective",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "cc56c36e-2e99-4ede-9ef3-0b7225900b30"
+      ],
+      "example_ids": [
+        "f6930d27-c9ba-4541-9192-d2c672d00091",
+        "d6f152b1-70f3-4628-b626-944641861d26"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "0cbd5a3c-7d89-4051-aead-abf8a3fd8ee2",
+      "headword": "성급하다",
+      "part_of_speech": "adjective",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "0d2dc870-8111-4108-a4ce-ef2e1dde8d20"
+      ],
+      "example_ids": [
+        "5a546967-c4c8-4649-8b4b-9271498b8cd2",
+        "2cf1a4ad-37b4-4d85-8a31-0d7f03447446"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "1661e1fc-f9c9-41ad-a308-65e67dd4702f",
+      "headword": "현명하다",
+      "part_of_speech": "adjective",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "04ef39fe-4c65-440c-9105-b2bbd34aef66"
+      ],
+      "example_ids": [
+        "a85a7599-68c9-4d3e-a3b1-ad746ab39596",
+        "41bca0d2-1773-4c12-b381-4eb50f959ef2"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "343948b2-e3f2-4d32-b91d-b50848cad7ba",
+      "headword": "틀림없이",
+      "part_of_speech": "adverb",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "7b346f82-a560-4d3c-8857-403067da380b"
+      ],
+      "example_ids": [
+        "fabf751a-1833-45df-bdeb-23dc464849eb",
+        "772ab3f4-cf31-4ae4-a364-23022ff2a49f"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "840d272b-8934-4845-b75b-3f47c7ed01ea",
+      "headword": "어쨌든",
+      "part_of_speech": "adverb",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "3a17476d-12ae-4a23-afdb-c7179be00247"
+      ],
+      "example_ids": [
+        "ce401ddd-ffc3-4426-b190-40eba8cb0cd5",
+        "7ace438a-ed24-41c7-99e9-f404a894fdec"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "4d901b08-2303-44ec-839b-171fb3e8a539",
+      "headword": "하긴",
+      "part_of_speech": "adverb",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "fcc5169d-8532-43d3-9704-f5500cb42bf3"
+      ],
+      "example_ids": [
+        "2447ff13-1940-4b36-9374-f079a4832238",
+        "f287c774-057b-47ec-b497-b2327c7c1f6b"
+      ],
+      "note_id": "ac538bdd-d0c9-404e-a724-94ae7f927815"
+    },
+    {
+      "id": "21cbdc07-a99b-4db1-9848-0dd7610ec9b3",
+      "headword": "과연",
+      "part_of_speech": "adverb",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "3602dd8d-221b-4d04-a8ec-a2329012a4a4",
+        "0caef079-034b-4093-84e2-ed8096746504"
+      ],
+      "example_ids": [
+        "ad38b813-c54b-491b-ae80-15d37dbd22fd",
+        "aa378482-7cf3-4159-8633-3f01076042b9"
+      ],
+      "note_id": "ad78f19b-52d4-4cbd-91cf-bc5074c19350"
+    },
+    {
+      "id": "caa360fd-0a1d-41fe-ad80-23e2b4a45285",
+      "headword": "정작",
+      "part_of_speech": "adverb",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "f03ecd66-b59c-4ba3-8c86-a4c1801e5f93"
+      ],
+      "example_ids": [
+        "f9145e21-c3d2-4704-85d8-365cdd5b9af8",
+        "8f016f53-bfd3-466e-8640-bfc753531792"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "bb2d75d0-42a5-4d52-af50-a8b1398b5965",
+      "headword": "사실상",
+      "part_of_speech": "adverb",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "28f53f5b-33dc-4c12-8648-a3f5934e6576"
+      ],
+      "example_ids": [
+        "a86b9efb-761f-4164-8c96-8e8e6e7e1748",
+        "111fa8ab-aaac-436a-885b-cfb1c7e26247"
+      ],
+      "note_id": "6151ea85-3add-4939-a1d0-b256a592a41e"
+    },
+    {
+      "id": "444f508a-ea5c-42fe-bb87-f5e469a2347f",
+      "headword": "본래",
+      "part_of_speech": "adverb",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "324d4a09-d44e-48ec-81d6-0e690cc476f1"
+      ],
+      "example_ids": [
+        "337655d2-412c-4af0-a0be-84c9bbefcace",
+        "5000c516-472a-4fc3-921c-73d24f5788a0"
+      ],
+      "note_id": "e5310bc5-f44a-420d-9e46-8f72a6de9d72"
+    },
+    {
+      "id": "ca74d962-6165-443c-b5b8-835e96d72c96",
+      "headword": "애초",
+      "part_of_speech": "noun",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "03a20bd9-fc2f-4f4f-be98-43ec27a56e68"
+      ],
+      "example_ids": [
+        "0750e78c-128e-4cf8-935d-24d6ab792f79",
+        "e3931426-cc79-4001-9573-53208f8bf0a2"
+      ],
+      "note_id": "b668ceb7-9842-44db-903f-b1543efdae6d"
+    },
+    {
+      "id": "d47d92eb-8286-46a5-a961-6b83ee95e94b",
+      "headword": "명백히",
+      "part_of_speech": "adverb",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "62895e42-be7a-4f20-a716-f978863ecc50"
+      ],
+      "example_ids": [
+        "8151c0e6-4746-4348-a240-20fdd1b0e834",
+        "9d09f078-ce98-4daa-9cc5-d73b2e243a37"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "092df09e-b55b-4fb6-b627-5187ad7be7d5",
+      "headword": "명확히",
+      "part_of_speech": "adverb",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "0884e76c-d839-40be-97d0-619d25f3c1df"
+      ],
+      "example_ids": [
+        "38de6a65-58e7-4eb0-97df-1d8b21496add",
+        "0a2a73c2-7926-41fc-afd2-b4e6a721c613"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "8731698f-ee6b-4562-a09b-f88f892b7dd4",
+      "headword": "정확히",
+      "part_of_speech": "adverb",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "876f535c-f91d-4816-a7fd-b0d7c6f27d5a"
+      ],
+      "example_ids": [
+        "c70c079a-89f7-462d-948b-d51b8e5dc0ca",
+        "e19563a2-ace5-4a2c-bc1b-0b9411739908"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "6e57429c-8af6-4ab7-be89-c86fab87173f",
+      "headword": "대강",
+      "part_of_speech": "adverb",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "ed04edfa-2a6f-4eb5-960a-82ad57bb88d5"
+      ],
+      "example_ids": [
+        "1a531972-d830-4ee5-ac9b-c628bd5118d0",
+        "61d2eb15-a953-4502-a274-cf276a3793c5"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "a7733652-cd43-4de7-b91f-6fc90ccd27e5",
+      "headword": "얼핏",
+      "part_of_speech": "adverb",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "2a0e0573-91c8-4274-8237-386e7a8a4690"
+      ],
+      "example_ids": [
+        "f426b112-0188-4a82-90ce-3516acd921bf",
+        "c2844588-150b-4602-a595-1cb8a7915194"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "5e0fdecd-c1de-4534-91f2-5ab26f90939f",
+      "headword": "흔히",
+      "part_of_speech": "adverb",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "5a97e6d6-3a72-4a33-8972-4a0a7c5d73ce"
+      ],
+      "example_ids": [
+        "3a17ea3d-ea72-4399-8d75-1b8a2d64a6ec",
+        "baa7d6ca-acf8-4c0c-bf9e-3ec35e521c24"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "2b45cddd-9781-49d3-8198-e9ecabc6b807",
+      "headword": "의외로",
+      "part_of_speech": "adverb",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "f2deff46-b143-4bc4-a1a1-0bcf908922ef"
+      ],
+      "example_ids": [
+        "6a8eed77-5038-484a-a299-2f46644ceae0",
+        "821e9f79-e13e-4cd8-aa7c-65e5990f18c0"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "1312bbd9-b4a6-4386-af91-665ff3d295cc",
+      "headword": "관점",
+      "part_of_speech": "noun",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "147f7643-9bdf-41a0-b5b7-a90cb280748e"
+      ],
+      "example_ids": [
+        "e9bcd0bc-9106-4ed8-8aed-7596cf0d6020",
+        "5cbd88b6-0c85-40dd-8f44-0667c071ac1d"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "f067c3c3-a949-4584-9ea1-fb3ca9216de5",
+      "headword": "견해",
+      "part_of_speech": "noun",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "d4175e85-8f86-4593-8561-854d8694d84c"
+      ],
+      "example_ids": [
+        "de7513b4-95a2-4016-86fb-56f684c7a01b",
+        "81d2ae2e-957b-408c-b4aa-7c6ac52cd822"
+      ],
+      "note_id": "bb973f4b-2c6e-45a1-80ef-f4067490d123"
+    },
+    {
+      "id": "e9ab3d9b-d25a-4db6-851e-7b891974d2d3",
+      "headword": "증거",
+      "part_of_speech": "noun",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "57efd25d-592d-484c-8d10-b16f81166c0f"
+      ],
+      "example_ids": [
+        "ca51526d-d953-4a7c-9d8b-dfda97ccc6a8",
+        "532d41bb-37eb-43a7-b072-6a7521ade3b8"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "f1b04992-af4b-4f75-a5d7-f85c1e8e331f",
+      "headword": "단서",
+      "part_of_speech": "noun",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "f115b3b3-f577-4422-8301-a77d2eedce41"
+      ],
+      "example_ids": [
+        "8825e54f-2349-479b-a711-c65f5f5d7229",
+        "1b5e5060-b6ed-4b34-88d8-ecddddee7b0c"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "fc77a1ba-3252-4413-9ec4-b38873d1a3ca",
+      "headword": "확신",
+      "part_of_speech": "noun",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "39aa69ed-86c4-47b8-9f34-22207fdcd329"
+      ],
+      "example_ids": [
+        "97a97def-1aad-4f2d-ae28-9a4c78be1dd1",
+        "aac299fd-41e7-4b40-8df2-0c42d3d1ca3f"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "e576fbfb-56cc-417b-b9a4-a52cdeedba19",
+      "headword": "원칙",
+      "part_of_speech": "noun",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "3f0364d9-bc23-4911-bfe6-c660256525b0"
+      ],
+      "example_ids": [
+        "1b1db0f8-1cf0-4ddb-8c48-8e6606b5fa2a",
+        "d9a2c15f-da65-454a-9054-acb93dc16afc"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "4d801a38-159c-485b-aa99-715827097ca5",
+      "headword": "핵심",
+      "part_of_speech": "noun",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "e456f743-90fa-4e1a-8e4e-2b0aed1c53b7"
+      ],
+      "example_ids": [
+        "b2297930-f966-4540-a742-8bfef3ca479a",
+        "7c30dedf-6922-4546-84e0-88de8b1b2589"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "acb58381-7dc7-4b6e-b747-e41692d7c380",
+      "headword": "요점",
+      "part_of_speech": "noun",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "9514e6f1-9fc8-4018-9212-590a849faaa8"
+      ],
+      "example_ids": [
+        "4751f8ac-c0bc-4ad8-af50-2dace596310d",
+        "1fdcb2de-a35d-42f7-bc6c-67f81c631447"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "62ce542e-09d5-4389-ad2a-e840fcc4abab",
+      "headword": "결론",
+      "part_of_speech": "noun",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "2f154af4-a764-4122-9327-b9f71b978d3a"
+      ],
+      "example_ids": [
+        "ea129411-3894-4700-a713-9d0e07b8f3c0",
+        "8c22d20b-7f4c-46e8-ac8d-76925f925c65"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "3724b02c-38a0-4a7a-b875-c8c3707eba91",
+      "headword": "일리가 있다",
+      "part_of_speech": "expression",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "cf249b2f-fc68-476e-90c4-fd223f910beb"
+      ],
+      "example_ids": [
+        "938d5512-7e99-4976-8e97-8c00f56d97cb",
+        "2135a98f-f17e-4a7d-b258-45daedff8052"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "b15922fa-a1c8-4ac7-8a3a-e082757ef9c4",
+      "headword": "근거가 없다",
+      "part_of_speech": "expression",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "e5995fce-9f92-4745-a05a-fb639acb0b90"
+      ],
+      "example_ids": [
+        "982d1507-cb38-4d9e-84f8-1c0a1677f6b8",
+        "696ab002-b53b-41a6-9a7c-315f3847155f"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "71eaf01c-07fb-4d59-98f2-bb69afdb0cff",
+      "headword": "감이 오다",
+      "part_of_speech": "expression",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "eaf6785b-48bd-45b0-bbb3-6d786fe51cb7"
+      ],
+      "example_ids": [
+        "e5da1a1d-c7d8-4fa4-b180-ea557851961a",
+        "93e021c5-9925-4706-9608-1cb2e7ba37bc"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "5f04881a-e20b-49e9-acd2-8e4045ac2293",
+      "headword": "확신이 서다",
+      "part_of_speech": "expression",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "b10f3dc4-190e-47ef-aa84-2604e6dcfbbc"
+      ],
+      "example_ids": [
+        "0701671a-af8c-46cb-bd3c-6978ac62da11",
+        "fee50b0a-afae-4411-8912-08aa7edbbd62"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "b0086254-3262-45eb-a3b4-1c4ba70f57d9",
+      "headword": "앞뒤가 맞다",
+      "part_of_speech": "expression",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "ef4145bb-9498-40de-afd0-1d5c8dfbea73"
+      ],
+      "example_ids": [
+        "c54d6eef-6c6c-4bb1-9221-c294f2508727",
+        "48f37d06-0608-4990-8112-4e7fd082192b"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "193e14f2-1ce3-49f0-a7ed-439a774cc141",
+      "headword": "말이 되다",
+      "part_of_speech": "expression",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "c6e87206-e780-4137-92a6-dd86652735c4"
+      ],
+      "example_ids": [
+        "6c68e443-d424-43b8-a81e-6eddb006ffa6",
+        "532dde5e-571a-4033-9685-eca490be91e9"
+      ],
+      "note_id": "9297c570-4ad1-4d2f-a6a3-40ae4dfaaf0a"
+    },
+    {
+      "id": "111f7f70-48cd-4abf-832c-85a07ca6c1cb",
+      "headword": "말이 안 되다",
+      "part_of_speech": "expression",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "fb730631-cd09-4900-8374-5c1654086f0f"
+      ],
+      "example_ids": [
+        "c9908294-e0c4-45c2-bbce-766066a9b76d",
+        "7c5dc0db-a599-4a62-b901-2282edc6f4ca"
+      ],
+      "note_id": "f4b6b583-6fd4-45c5-ab05-12cdb009c859"
+    },
+    {
+      "id": "cc18c8aa-e28b-4f2b-bab7-3c57ba3c11d5",
+      "headword": "생각에 잠기다",
+      "part_of_speech": "expression",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "a5a86491-052e-486f-8535-257918b4786f"
+      ],
+      "example_ids": [
+        "ac7187c8-60c8-4826-a307-954c0d1ef8e8",
+        "be54e0b7-bb04-4683-823b-ec7d338ae6cd"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "bc2ccbde-cf23-40f6-a337-1d15bafbfdb9",
+      "headword": "생각이 짧다",
+      "part_of_speech": "expression",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "9d4a0252-65d1-4f99-8f49-af3f0860ea67"
+      ],
+      "example_ids": [
+        "5a29f7e4-38d4-4a8a-9835-e11aeb496526",
+        "a3326bd0-d370-4401-9209-38a72770e92b"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "43849e08-55e1-4194-a499-929e123d58c6",
+      "headword": "귀가 얇다",
+      "part_of_speech": "expression",
+      "level": "lower_intermediate",
+      "subgroup": "B1",
+      "theme": "意見・判断・推測",
+      "meaning_ids": [
+        "9cbae187-64fa-4005-8c3e-5b59bee5fb19"
+      ],
+      "example_ids": [
+        "855b5ccb-697c-48a7-8752-3c71bbf6053e",
+        "4c8ee8b4-37b6-4f37-9848-a643848ab3e7"
+      ],
+      "note_id": "0e5ec341-69b7-4cac-a804-8d014542ef55"
+    },
+    {
+      "id": "135c60d3-10c9-44c0-b243-c88b2f81de52",
+      "headword": "비교되다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "2929c078-0f5f-44b7-a150-f589ff8ae0ab"
+      ],
+      "example_ids": [
+        "765cbdf6-881e-4ce0-9d05-010fb67c5537",
+        "6a48786c-4945-49bb-9f47-ded0e65d0547"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "437e569e-258c-4817-8a6a-18cd0781685c",
+      "headword": "견주다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "e954c898-9f04-41d2-a618-54524ca1d215"
+      ],
+      "example_ids": [
+        "5b061f47-e691-4f97-9517-5f194bc06998",
+        "a473a310-766c-436b-b623-bf5dab4e0739"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "7c487ddc-7f77-4488-abb5-ab06cb4905cb",
+      "headword": "대비하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "fa927227-bd46-486a-9266-65825eaf0609",
+        "6228f634-4e5e-4218-ad8a-5dc8b0f350ed"
+      ],
+      "example_ids": [
+        "fe46086c-6ee8-470e-8d2a-690d35bd92bb",
+        "24c158fc-63b4-406e-9264-f59fc0f103dc"
+      ],
+      "note_id": "006ed4e0-d96e-483f-b08b-530efb783819"
+    },
+    {
+      "id": "2a6ef164-4837-4458-8bff-0f8ce7734aac",
+      "headword": "구별되다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "ab48baa4-2245-4295-9f79-c6c08b7f90a4"
+      ],
+      "example_ids": [
+        "9123645f-d50f-4269-bd6f-d3bcd0f7f4fb",
+        "35760e69-28b9-4099-a7a1-de0b2a36f829"
+      ],
+      "note_id": "6076e63b-2019-4148-9d68-4aa5bbe1f221"
+    },
+    {
+      "id": "8a4db092-5ffe-44a1-8ed2-c01d4e025976",
+      "headword": "구분되다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "be595bd8-edc6-48a6-a1f2-f4b98c7394a3"
+      ],
+      "example_ids": [
+        "09adcbc4-2de6-4661-be55-71cd3cd60fff",
+        "e4b1759f-3df1-45ce-9bcf-4a1ead01ceb2"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "9b5d94b7-fafd-4a92-ad3a-8ed79a0e5487",
+      "headword": "분류하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "ef8c13d6-97a2-4728-9736-2a5f58aa69cb"
+      ],
+      "example_ids": [
+        "b6f60849-7746-43ee-8009-eb5b5489e956",
+        "bf8ec5d0-5082-4a62-af1b-3626b161f656"
+      ],
+      "note_id": "36d21d39-1883-441f-bdea-be0a9ca5c589"
+    },
+    {
+      "id": "f3ea13bd-026b-44a4-a135-f51af279bc98",
+      "headword": "분류되다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "14bad55f-7428-4e7f-a19f-29885283ebb6"
+      ],
+      "example_ids": [
+        "28d17b2a-af9e-4256-a33b-86011935c1bd",
+        "4e14f552-6bc1-4570-8895-6e7f7e5f4f1e"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "b2beeffd-bc1b-414e-a435-5f3fc03ac33d",
+      "headword": "가려내다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "4a74ed96-8cfe-438b-939f-3e32863136be"
+      ],
+      "example_ids": [
+        "c795ec55-64a7-4593-a948-239e072f661f",
+        "8d15feb0-8543-4f29-98a6-664f602b3353"
+      ],
+      "note_id": "d8edc6b6-6a2d-44b7-9678-71cf31e4a2d5"
+    },
+    {
+      "id": "d5e47b56-9e24-4325-a590-ebca4efb3324",
+      "headword": "택하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "11b57733-4391-428b-acbb-9501f4c6fdea"
+      ],
+      "example_ids": [
+        "7b7a37d1-7f6c-4b16-a182-90ed0589b662",
+        "657d08b5-e957-4eea-ad38-722c63162434"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "8535c9d2-d8a1-484f-b983-322fd6a0d1b3",
+      "headword": "추리다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "fff218b5-7925-406e-a0cf-dbd85c9a30b8"
+      ],
+      "example_ids": [
+        "7c6be1f5-71df-4e1f-bd94-7bb8e0fbb73c",
+        "f43ff614-7078-49fa-a76f-24a31664e56e"
+      ],
+      "note_id": "f4dbbbb7-f19d-42c7-9535-822fbc246cd1"
+    },
+    {
+      "id": "b670cced-5a56-4b52-8905-0583d627221e",
+      "headword": "거르다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "fdaf0c47-39cd-4ed7-b9c2-5aad7ee49c29",
+        "40f75157-74c1-401a-a2d2-9f53f3aab661"
+      ],
+      "example_ids": [
+        "ef2064dc-cd7b-4e66-b8c6-91b189bc6435",
+        "2cf920ab-fdaa-4985-ae86-c59bdc150bd2"
+      ],
+      "note_id": "c1feaf26-a500-46cf-92ed-498b3f44cf43"
+    },
+    {
+      "id": "a6a44df0-6431-4650-bc0c-a7f0fd5f99a0",
+      "headword": "배제하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "7a5a1257-752e-4617-ab49-19968e284805"
+      ],
+      "example_ids": [
+        "1f48f511-f295-46f2-b856-766241a14f07",
+        "912efa77-e5df-4b6f-929c-96e3edd70f63"
+      ],
+      "note_id": "7bc476ca-3f58-4565-a778-a1b8e152b8ad"
+    },
+    {
+      "id": "556f0e1d-ccda-4069-ac47-ecde2f881f24",
+      "headword": "제외하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "8bab974d-26f4-4642-a3db-86b1af863ed2"
+      ],
+      "example_ids": [
+        "30048210-a421-455d-82cc-122da112e4d0",
+        "c5d474be-f72a-4272-9666-6323f42d1d5f"
+      ],
+      "note_id": "6e8b2cf8-e402-41b3-902f-9ba4ac96c141"
+    },
+    {
+      "id": "934b85b8-0016-404f-8431-15f89916aa30",
+      "headword": "제외되다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "71dfde64-21c6-45c3-afa5-56a21cd4515d"
+      ],
+      "example_ids": [
+        "f5a6fd54-a481-4133-8f77-85cf669fefeb",
+        "e4a8945b-6eac-46ad-bd5f-a548582c3b45"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "f3836beb-3b81-485b-862b-a12b29a83982",
+      "headword": "한정하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "c32d7770-7ad8-49ec-bd2c-dcf10d9d2881"
+      ],
+      "example_ids": [
+        "048edbd9-bcf6-4e97-bad4-a9f7b534e6f3",
+        "f02da715-7c9e-43d3-aaea-6d454986f550"
+      ],
+      "note_id": "09e02139-8517-43be-8a6b-b9c233ae8d75"
+    },
+    {
+      "id": "7dd7e000-b055-4ead-9c7b-a0efd61b9823",
+      "headword": "제한하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "039c6c23-df18-42f4-b023-c9782592b624"
+      ],
+      "example_ids": [
+        "184cd021-0d5b-45a4-ab00-4dcadcd82cc7",
+        "ffc7471d-302d-48f0-9e6f-fb247b92308c"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "1f6533b8-1bcc-4e71-921e-eac2154812ec",
+      "headword": "제한되다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "1ff1d3ca-1f7f-4cd2-8003-ce267200e9f7"
+      ],
+      "example_ids": [
+        "d11c94b2-0e81-4e5f-8cc6-982e49690d88",
+        "d832d892-8e58-4647-8cea-803b49e97180"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "7298de9d-2d8d-4e6f-938f-3a2aed8e7f7d",
+      "headword": "결정되다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "f6593187-5d3b-479e-92d4-d2ec603acef6"
+      ],
+      "example_ids": [
+        "59bf7fed-f1e7-4f03-aa44-f8bbcfd7aeb6",
+        "13f52360-014a-45d4-9c0f-711b666b089c"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "8bfb7eec-f8a3-40e5-b21b-2a1af805d637",
+      "headword": "결심하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "823a83e5-e5e3-4395-a9c0-762485233797"
+      ],
+      "example_ids": [
+        "9fd5fae7-6c87-4485-b202-7fa854549b9f",
+        "56ca5cbc-d3c4-4d2d-aada-82aa8d3c8630"
+      ],
+      "note_id": "efd13b2d-fe89-4205-ba61-8094c50570b9"
+    },
+    {
+      "id": "4031446e-63bd-4ccf-b0b8-31561198862f",
+      "headword": "다짐하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "b85cf477-66b3-4531-84e0-5e5d000882e2"
+      ],
+      "example_ids": [
+        "06d37bf4-f131-414b-b101-2e61c57cf437",
+        "551d238f-c2e2-4fdb-8935-14e8bc5ca332"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "67188042-3751-461d-a809-48ca55a7af27",
+      "headword": "단념하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "06e3bb4a-da68-42b5-866d-e5d93a405541"
+      ],
+      "example_ids": [
+        "171e9db5-2ddf-4fcd-a357-72c1394f9da1",
+        "a04d2c56-9363-421f-829d-b601cd6b6cf2"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "be1449c5-8767-491d-beff-5bc4e75a6d49",
+      "headword": "감수하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "a0b03910-17b0-4af3-9b9b-e499a456e4b3"
+      ],
+      "example_ids": [
+        "f7b3be95-19b1-49e6-b18e-3cb683949614",
+        "e90e1c81-cdb2-4302-b576-a10423d93389"
+      ],
+      "note_id": "30171a54-57dd-43f0-a84f-03d6ad1a1d98"
+    },
+    {
+      "id": "a26cd0b7-80e5-4c37-a419-d1fd4806ad44",
+      "headword": "머뭇거리다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "ff2e5789-f0e2-468e-af38-073593677d4c"
+      ],
+      "example_ids": [
+        "b7036b73-9ec8-4c81-be5d-b8f227a3c048",
+        "a11f76fc-748a-411a-b3ea-dacc9b871d95"
+      ],
+      "note_id": "45c84e3c-a3da-4f09-aba9-807fe0c3866a"
+    },
+    {
+      "id": "6269bb34-0b54-468c-9666-2d4b2f998844",
+      "headword": "꺼리다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "97017202-3b58-4712-b469-70dfbbbcf624"
+      ],
+      "example_ids": [
+        "c5925813-13c1-4908-b1af-23f94a925498",
+        "1644f821-e6a3-4536-ba90-be88ba574d33"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "3f2796f8-5f83-4896-8a15-50fc48315ed3",
+      "headword": "구상하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "6a157861-f354-435d-955c-8fdad819d5d0"
+      ],
+      "example_ids": [
+        "9352438b-9e57-4969-a840-23046713c43e",
+        "63c7710b-0053-42bd-8837-3fc800febf8b"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "5ca63646-2729-4aa0-9f0b-2dd3ab167351",
+      "headword": "기획하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "e7b2180c-9012-4105-906a-0c4d9025471f"
+      ],
+      "example_ids": [
+        "b78d8c47-a8d5-4323-99f8-dd92199aa9ee",
+        "c31a9da6-60e9-46c7-a6e5-8d5e13eb5cf8"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "62001ee6-7763-4594-a8b2-63f6f25cd142",
+      "headword": "설계하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "d9bf3039-2f3f-4db1-99e2-60746e80507b"
+      ],
+      "example_ids": [
+        "3a119a96-786e-4ce3-9219-fa153f1e458b",
+        "91a82c3a-dcaa-4f30-9a2c-7ca12afe551c"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "ee2bcfa0-d35d-4143-a73d-7c04f0d68544",
+      "headword": "세워지다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "d0ad0279-95d6-4ad3-8f39-95d8398e48f4"
+      ],
+      "example_ids": [
+        "8677b015-4589-4544-bfd7-06ef646ce2b6",
+        "d64f39c6-0bf9-4501-b772-e56d842f4585"
+      ],
+      "note_id": "7c4d8f4b-2292-46e0-9cc8-81fd0d14684a"
+    },
+    {
+      "id": "e3cd6915-29ac-43bc-aa6a-8f4fe707bf42",
+      "headword": "실행하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "575f91e6-91ac-4a3e-9625-f93cc83c7e0c"
+      ],
+      "example_ids": [
+        "18e8dbb9-3d4b-410f-ac72-fbbff944812f",
+        "63ef78b7-d163-47e2-8951-6109bcd520ad"
+      ],
+      "note_id": "8a2ffcbb-f2ca-46db-8ceb-64e0fb71eb54"
+    },
+    {
+      "id": "c8592974-6772-4087-bff7-924c6307e76d",
+      "headword": "실행되다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "6ce0ddcf-aff8-431d-a69a-90ebf929dc1d"
+      ],
+      "example_ids": [
+        "e721fbb7-b425-45c6-983d-68855f4790f0",
+        "fee5edae-13c9-405d-9e09-841c05452f24"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "b5c9e579-d7f7-4230-9127-f4aedef050bb",
+      "headword": "실천하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "de5454dd-e6a6-4831-b6c1-92ae9c2cabab"
+      ],
+      "example_ids": [
+        "d531a090-62a0-4346-bac3-c8c3e1c3513d",
+        "b01f96dd-657b-4dd7-a976-515419eec713"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "babab24c-3016-45e9-9915-ec973957d971",
+      "headword": "실현되다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "26fc5117-078d-4b06-ae55-7106bf262403"
+      ],
+      "example_ids": [
+        "e6468b48-7188-4f86-b46d-cc8c1263e776",
+        "e811a108-583c-4d1b-b9cd-f613f08a0a40"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "8ea02838-133e-4257-b26a-ef3a8c8a1635",
+      "headword": "마무리하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "55859b7b-1cfb-45b4-a0b1-ba9bcd24c2c2"
+      ],
+      "example_ids": [
+        "8327090b-ef6f-4dfc-a938-7cf274d5f4dc",
+        "57c79282-8972-4871-a6ad-031c6515e38a"
+      ],
+      "note_id": "40d2572e-9d14-430d-a569-bca43a022288"
+    },
+    {
+      "id": "c43d19a0-bff5-4f39-9c01-012bb332efe6",
+      "headword": "마무리되다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "151492e4-b7c6-40d1-8e74-21c1158ba0a2"
+      ],
+      "example_ids": [
+        "01c03f8c-8c9f-447e-a6b1-9f0b387dab47",
+        "74ee3987-2054-455b-9109-a41d97fdeaa9"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "e18c5c24-3571-4241-84e6-986e66031c50",
+      "headword": "완성하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "fa8dc575-7642-4ae1-9d03-fb836061fda6"
+      ],
+      "example_ids": [
+        "87bafad4-dae0-45ea-a3d3-85e162378edc",
+        "5a43e119-ef6f-4451-ab12-b58d382e0c80"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "507279a4-d2c6-4653-a044-c9453922b6ae",
+      "headword": "완성되다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "ca6b5cc6-60f7-477d-8fab-41fa0ee96bc1"
+      ],
+      "example_ids": [
+        "10c8198f-0bc8-4960-85f0-6fb2302ba504",
+        "94eeb696-1466-4093-828e-385c0379bdb2"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "44b9dcc4-d67b-4e54-ada5-242895baf96c",
+      "headword": "시도하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "fc828530-f803-4384-93e7-857dac3f35d7"
+      ],
+      "example_ids": [
+        "43e647fb-7eaf-46bf-adfd-6a939691d36f",
+        "914661bd-ecb9-4d13-8baf-27655b0ce4d5"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "68a42049-07d2-4308-9305-4eed493b16c7",
+      "headword": "도전하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "575c40df-00a8-48d1-a526-6e60f61a682c"
+      ],
+      "example_ids": [
+        "763a75f8-2356-437a-99af-48999d3fe232",
+        "2621cbd0-d19e-4132-8956-9a5a5b90be56"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "11e53595-e315-421f-8e58-ed9098961168",
+      "headword": "경험하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "b54ba47b-3a32-4e92-9fb0-bb0416146c6d"
+      ],
+      "example_ids": [
+        "ff3b7101-d559-4fa9-b102-76347eade763",
+        "3c0b1bd5-a688-4fb5-bc86-7c7fe42ff933"
+      ],
+      "note_id": "1e3aff28-acc3-48e7-9f73-6ae594e5d093"
+    },
+    {
+      "id": "3e1dae95-f1ef-42a1-b47d-f7660f3befc7",
+      "headword": "겪다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "4a8704b2-b404-4391-a803-056c2a348104"
+      ],
+      "example_ids": [
+        "4437ed94-a390-4e96-8029-113de1dc38e7",
+        "680fc7c9-f22e-4769-a3b0-bc1298616403"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "47e69403-1bcd-4f30-8a89-d74178cb7780",
+      "headword": "체험하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "e91a1b59-9059-49ef-9cc2-209a2afbc3ee"
+      ],
+      "example_ids": [
+        "6504456a-7572-4f6a-9e91-c620a2a99e10",
+        "86338b2a-8287-475c-ad54-a07410aed360"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "9e386491-c89b-4002-abda-d95b41862a4e",
+      "headword": "실감하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "c60fe264-c21b-40b1-918d-221681d03bfc"
+      ],
+      "example_ids": [
+        "0ede3d6a-de2e-4ebb-a047-4b738a85aecc",
+        "92585cbe-3e12-4e65-9f14-b8ae44cf2228"
+      ],
+      "note_id": "87d70b54-919d-4d65-8c6c-9ad9a3b19105"
+    },
+    {
+      "id": "c69d4f8b-a220-40f0-ba37-321d2e18f9fa",
+      "headword": "터득하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "4b4c00f0-d50d-426f-8aef-f1fabe9c15fe"
+      ],
+      "example_ids": [
+        "c69be139-ae8b-4fa2-a45b-58537400de77",
+        "c308429c-5d0f-40a0-a18e-210d6d89586e"
+      ],
+      "note_id": "a09c2a13-18bb-4727-8b69-54dd03bb484c"
+    },
+    {
+      "id": "3dc45fd3-1c66-4a3f-9127-dc4a2cc0c86b",
+      "headword": "되풀이하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "da939e63-32ca-4385-ac40-ecdf9b32c1ee"
+      ],
+      "example_ids": [
+        "444f2549-a193-40ca-8948-a43eb6f12a95",
+        "79ab19b2-f18b-4dff-ba55-10c5ec57c310"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "5efb5a88-0e8e-450d-83bd-5756b3794297",
+      "headword": "잊히다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "9e9261ae-52b2-47b7-8a76-dc0651e8a092"
+      ],
+      "example_ids": [
+        "fd011d3a-5e67-4f9d-a311-8634a69d5b0e",
+        "3d0eb1a2-b149-4d0a-a330-8b128eb48324"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "91ca5131-ba7d-4053-ab0c-8b58b06fe5a1",
+      "headword": "까다롭다",
+      "part_of_speech": "adjective",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "2dd78fc1-8c9e-4884-8842-4f4e906167d6"
+      ],
+      "example_ids": [
+        "c20f64fe-4b06-4de0-807d-317faf1776c8",
+        "04d6c197-8862-4eea-8c32-45175f1c05b0"
+      ],
+      "note_id": "5318b53d-8522-46ac-8259-65ebb283b675"
+    },
+    {
+      "id": "c4dd844e-a470-43a3-81d2-7dd4b3fd1197",
+      "headword": "수월하다",
+      "part_of_speech": "adjective",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "7286830b-8aad-4e05-a9f3-2d10b2b76301"
+      ],
+      "example_ids": [
+        "1a3a948d-6624-4e68-8bba-3ddbc0d5329e",
+        "61a4026b-6baf-47c4-a2bd-512622d60e6b"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "d36edea2-9340-4c16-9304-9d52de519018",
+      "headword": "간편하다",
+      "part_of_speech": "adjective",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "7731b26f-44da-4bd0-a145-80d5c292d5c8"
+      ],
+      "example_ids": [
+        "173a41d8-445f-4a3d-ad33-9bcd0db49482",
+        "e56600b2-2a26-412a-95c8-d9e8e2185304"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "39530fcb-901a-4530-91a0-11a138bbddb9",
+      "headword": "유사하다",
+      "part_of_speech": "adjective",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "30ebdc72-acb9-4e2c-96da-2fb730595bc9"
+      ],
+      "example_ids": [
+        "106e2636-439f-425e-a0ea-6a0df074358c",
+        "3e932606-27c2-4872-a6ee-e3617f5a688b"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "16395299-981c-4273-a888-28ecbb797d5b",
+      "headword": "동일하다",
+      "part_of_speech": "adjective",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "357531f9-7caf-4b8d-a9e5-51cb05840ff8"
+      ],
+      "example_ids": [
+        "a3e09c1c-030e-490c-9f3c-81fa4b4ef470",
+        "d2c800eb-b482-430a-a982-5248501352fa"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "702c484b-6280-446d-b910-4cb744394597",
+      "headword": "독특하다",
+      "part_of_speech": "adjective",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "1f1ca9ec-d69a-4a3e-8160-e51ab6f6d7ed"
+      ],
+      "example_ids": [
+        "7d07f5d8-d9aa-47d2-9d06-cdffc676542b",
+        "2688345e-0aa0-4b4b-87e6-3ef834b69f35"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "d073f4dd-56a2-4a99-883d-aa93a1fecd58",
+      "headword": "별다르다",
+      "part_of_speech": "adjective",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "b149ec6b-1f3f-4a5a-a6fa-dc8bdf99c3b0"
+      ],
+      "example_ids": [
+        "186d7260-94f0-4d1e-a4f7-af9755e9e8dc",
+        "2ac2a04d-9135-42f7-9665-90707a1b3e47"
+      ],
+      "note_id": "ccb4075b-edd7-4f9c-9635-0cccb0b71e2f"
+    },
+    {
+      "id": "b4d3dde0-94b6-46ff-87b5-1d97e10904e0",
+      "headword": "색다르다",
+      "part_of_speech": "adjective",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "6bc324e3-7281-443c-8d77-8740db52c9c4"
+      ],
+      "example_ids": [
+        "ec8d9742-c774-4d1f-82b6-da0a3023d8f1",
+        "c39709db-fd83-43d8-8bf8-ca700b95de3a"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "1c75a554-fc7b-4b3a-986d-afafe2a887ff",
+      "headword": "뛰어나다",
+      "part_of_speech": "adjective",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "379ca011-86dd-449c-9368-84d00f5c22a2"
+      ],
+      "example_ids": [
+        "cee9f672-f5b1-48f0-b51b-90f99f8c469e",
+        "848b1d25-aa45-48f6-aba7-d613f0f2b8e3"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "04dc60ee-a55b-40ec-8b9a-4e784150aaf1",
+      "headword": "모자라다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "42a31b38-cfac-4ea9-9ecf-da85c75d7b35"
+      ],
+      "example_ids": [
+        "832bc02c-453a-463f-b109-78d385cfdef8",
+        "bea97eef-5d84-48b5-b095-a5665c3544bc"
+      ],
+      "note_id": "90a9a726-27f4-44e5-bbc6-671e541a54df"
+    },
+    {
+      "id": "93ee6fd4-eb41-45c5-a62b-f56935749694",
+      "headword": "넘치다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "7ea73ce9-a01a-464a-ad47-23f98180c10c"
+      ],
+      "example_ids": [
+        "45297645-d244-472e-89bb-17d93c5961fa",
+        "0dd6cabb-7abd-4bc0-b96c-e2fe163beabd"
+      ],
+      "note_id": "219e50d5-edf0-4ac5-82f9-da079d381708"
+    },
+    {
+      "id": "cf350bf6-c4d2-4b7d-a222-df5880f0a163",
+      "headword": "적당하다",
+      "part_of_speech": "adjective",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "7f2097ad-a15e-4df0-abe9-14cbcb16e064"
+      ],
+      "example_ids": [
+        "412eae0b-3907-43d6-8361-b6207a56bf70",
+        "aae99c40-07e3-4097-af89-cd00e6ce9f50"
+      ],
+      "note_id": "61519136-6a6d-47fc-815c-73f0e46618f8"
+    },
+    {
+      "id": "9837f11f-80c4-4a15-ba2e-64c39aa227a2",
+      "headword": "알맞다",
+      "part_of_speech": "adjective",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "7586c65c-75e9-44cb-be2a-359c2b2d82cf"
+      ],
+      "example_ids": [
+        "067054c7-fe73-4079-a862-d467654f007d",
+        "bb1c1258-68aa-4459-b60f-5a36e306a180"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "0e4238ec-9082-4dc6-9b09-5e5423088e1f",
+      "headword": "마땅하다",
+      "part_of_speech": "adjective",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "a816cf77-ce09-4ae4-bc42-a386039d7500"
+      ],
+      "example_ids": [
+        "69d96268-13f7-4cb2-a826-3d390e5d8f26",
+        "6fe8d49f-0299-4d56-acf5-665869266fbd"
+      ],
+      "note_id": "3120c224-9c7f-4a3f-a4a0-a5d2bc42b312"
+    },
+    {
+      "id": "ea0061b4-2ecd-4dab-8c97-5b8a95de3950",
+      "headword": "유리하다",
+      "part_of_speech": "adjective",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "9a2ce20a-7626-4387-8824-aa05310f371a"
+      ],
+      "example_ids": [
+        "7734a720-3f36-4966-89db-824c30b4f211",
+        "3f4fc3c2-31a6-4eeb-b5e0-5586e40a08c5"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "48a2b5ed-219c-428c-b355-b3a2044c635c",
+      "headword": "불리하다",
+      "part_of_speech": "adjective",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "878e8036-4a7c-4aad-bad9-f064f60e351d"
+      ],
+      "example_ids": [
+        "f3e3541e-e9e9-4cbd-843a-26c07d39f138",
+        "44ea10ac-4044-428c-8e4b-8133d732ac0a"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "987c11a0-6c29-4a32-ad62-f892643f93f6",
+      "headword": "유익하다",
+      "part_of_speech": "adjective",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "6089caf5-cb99-4091-9933-c1f0be8b469b"
+      ],
+      "example_ids": [
+        "b789a474-8b91-42c4-a12c-1a94da945976",
+        "e599d6f3-928e-496f-9207-cc4342746510"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "3304eaaa-f063-465b-b9a0-306a3981a600",
+      "headword": "해롭다",
+      "part_of_speech": "adjective",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "b09b24f3-016c-4993-a5ba-84a1f382f406"
+      ],
+      "example_ids": [
+        "b9157412-ec69-433b-b3d1-5183a89ec57a",
+        "a4951730-701a-4279-9fe9-a6fa263e93d6"
+      ],
+      "note_id": "640accf6-8e0f-4ac2-9835-2f23861a0a1f"
+    },
+    {
+      "id": "e7b03dba-54ea-4fe9-b765-871b3b41503e",
+      "headword": "이롭다",
+      "part_of_speech": "adjective",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "30f2480e-27c1-48b6-9374-e86d50ba8093"
+      ],
+      "example_ids": [
+        "ea4397b5-27f1-47fa-adba-55dfa76ce43d",
+        "dd81c3c5-3a21-4724-b780-2d260254a9e1"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "7d710394-d44a-4f8c-abad-33e0c4c89a0e",
+      "headword": "낯익다",
+      "part_of_speech": "adjective",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "8de3fcdd-7386-4569-b6d8-9d0b9cfb1ccf"
+      ],
+      "example_ids": [
+        "56c588be-4bc4-4f07-8f3b-7875ad51080e",
+        "458a1558-0ce7-492b-a373-feb3f2eb32af"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "568bb866-330d-430a-9b81-3bb3387aa158",
+      "headword": "뒤늦다",
+      "part_of_speech": "adjective",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "34a831a5-e0f2-4ff1-853d-6b3b2102d81b"
+      ],
+      "example_ids": [
+        "9307dd8e-2204-4a32-97cf-8c5fbb6e9e0f",
+        "9933536a-724f-4a5a-a9d3-d7c5c90d1598"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "995b6784-bc71-49b7-aef0-68e071c48c40",
+      "headword": "비교적",
+      "part_of_speech": "adverb",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "19cfec0e-07e5-46c7-a0e6-e8eab7cddb69"
+      ],
+      "example_ids": [
+        "0ef3e0f6-f5e4-4b55-b17a-cfac32153c25",
+        "3df77289-db37-4568-8ca8-bc1323391d80"
+      ],
+      "note_id": "9c24bcde-82a1-4d30-8e62-8ff823f2970c"
+    },
+    {
+      "id": "3f57e0ff-7755-43f4-b5f8-84e6db008f15",
+      "headword": "제법",
+      "part_of_speech": "adverb",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "81b64338-d22a-478c-b4c2-0016e3637149"
+      ],
+      "example_ids": [
+        "12ddc143-63ea-4e07-847c-3c0aa44cde86",
+        "ea25c8f1-bf83-41fa-ada4-73d5a0c4484a"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "36238514-8f36-4322-9821-1f7d9333a673",
+      "headword": "반대",
+      "part_of_speech": "noun",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "3f032c36-8634-4705-909e-1131bcdf5210"
+      ],
+      "example_ids": [
+        "20522dbd-2414-437b-a02e-116478bf3b59",
+        "ea0e29a1-f3e1-46ca-92b9-2a6f90ec80e2"
+      ],
+      "note_id": "f8d77cee-7154-4210-8a26-87c434f6fc1d"
+    },
+    {
+      "id": "2aa9d85a-532a-420f-a76d-7a006ec01229",
+      "headword": "가령",
+      "part_of_speech": "adverb",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "1a7bdb7b-6323-4647-94c5-ebf0b5cd97f4"
+      ],
+      "example_ids": [
+        "997bedfc-df68-4bfa-bd4a-2eadb7317723",
+        "84556652-e49d-4d87-826e-7aaf4aa99f58"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "c49f6116-4059-416f-90e2-91c22f762aed",
+      "headword": "예컨대",
+      "part_of_speech": "adverb",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "d3bdb035-796a-421c-b47d-26650bb6807f"
+      ],
+      "example_ids": [
+        "31b11b0b-0432-40b2-8b24-133129d33555",
+        "8acd83bc-7ff5-4cac-87fb-d9576f081fe7"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "ed3776b4-b27a-4bf3-9cda-fc65e6bbe5f2",
+      "headword": "이를테면",
+      "part_of_speech": "adverb",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "d0d1614b-4622-414a-abac-8d074ed30c97"
+      ],
+      "example_ids": [
+        "0ea3ef3c-7fb0-40bc-873b-3a55ad68e734",
+        "4e3a2e65-480a-407e-823c-114b8f465126"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "750cca3f-71e4-4527-91e9-8e6455ef6b70",
+      "headword": "심지어",
+      "part_of_speech": "adverb",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "eb564618-ebf8-4273-a024-349089bdf94f"
+      ],
+      "example_ids": [
+        "2523b45c-ae5b-45a3-9163-698a1e7f32af",
+        "2ddc9c15-3be5-4f8a-bc2b-f7c016a1ba23"
+      ],
+      "note_id": "35619aa0-51a8-4160-9c54-b1a843550247"
+    },
+    {
+      "id": "fabda854-f120-429b-972c-792d082404a8",
+      "headword": "더구나",
+      "part_of_speech": "adverb",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "04feb412-4f47-4e9d-a4c8-234fad391f34"
+      ],
+      "example_ids": [
+        "ff796ddf-d6cb-4644-82d2-476bce8a295f",
+        "79245039-0247-4c18-b621-ab7e51805b49"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "900350c7-0141-47c3-8df4-fd1ad73f602c",
+      "headword": "단지",
+      "part_of_speech": "adverb",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "82471afb-ed0c-474d-b067-3e95fb6250e3"
+      ],
+      "example_ids": [
+        "96a76292-b18e-4697-afd9-1c6598d9a0d5",
+        "0d5ea834-3f3f-4285-acfe-81b9d785ee35"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "a743977d-6ab8-448b-a4aa-8101f2484018",
+      "headword": "다소",
+      "part_of_speech": "adverb",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "e5b53e55-9888-4dd0-941e-0edf8f8d7782"
+      ],
+      "example_ids": [
+        "c5432d8c-897d-4c23-87ab-903531e17966",
+        "5539cf2e-d915-4489-aef9-2de185caa49b"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "082723f1-c07d-401a-9037-d9a26255360e",
+      "headword": "진작",
+      "part_of_speech": "adverb",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "f4c51fbf-e03e-4cc9-a0df-687d5087783e"
+      ],
+      "example_ids": [
+        "f1de928a-1e0b-489c-8410-e25448fe6c34",
+        "ac5ebebf-2ace-46d1-a734-d8d97cfc4c77"
+      ],
+      "note_id": "a283c34a-d870-4225-a661-ff19a78406de"
+    },
+    {
+      "id": "6121326d-ff13-44cd-a1f2-3959ba9f4c70",
+      "headword": "이제야",
+      "part_of_speech": "adverb",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "6c69964b-ea6a-43fd-99d3-a9cb7753f0b7"
+      ],
+      "example_ids": [
+        "b55c5434-da79-4563-aa1a-cbc89273e81c",
+        "a50e019d-38a1-4028-8735-0fe713c9c84a"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "60e23e4f-9813-4f2a-8bed-b5ee34bc7009",
+      "headword": "때마침",
+      "part_of_speech": "adverb",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "eb8534bb-82c3-4140-b936-676d0ef7837a"
+      ],
+      "example_ids": [
+        "67bfc7f4-c584-402d-8714-c65ee8f4f044",
+        "29182323-2ff9-4e73-b0b6-39cf5f4e2e34"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "10eff2a8-eb82-4b1b-971f-d945691bcb4a",
+      "headword": "대안",
+      "part_of_speech": "noun",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "e8763bf5-44ff-4c5c-8d54-3fdd25224712"
+      ],
+      "example_ids": [
+        "151cd875-80ff-439e-827e-30d2dd752ca4",
+        "28fbf8cb-5801-4bc3-90d0-532109e4eac2"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "122a9070-1480-4b5a-8858-15c954f7bed7",
+      "headword": "선택지",
+      "part_of_speech": "noun",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "9a7842d3-b93a-4120-adaa-1e67196d3592"
+      ],
+      "example_ids": [
+        "4a6195fc-b5a6-465f-b717-304ccc9e41bb",
+        "e46b6124-acb6-4ac2-9741-054280e78342"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "c898f88f-3092-4f35-b130-04c505644a7a",
+      "headword": "우선순위",
+      "part_of_speech": "noun",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "a0547f47-8253-41e0-a85b-87c9e90fbf6f"
+      ],
+      "example_ids": [
+        "7de5463b-1bc6-44b1-b6cc-fb944d0d7bae",
+        "6c050333-006e-4b4a-a171-229f14f3dac3"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "fff57970-96c3-4433-ac16-c80dba5fc76c",
+      "headword": "장단점",
+      "part_of_speech": "noun",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "b853beed-64e9-43f7-bd5e-4e138ebd2ca7"
+      ],
+      "example_ids": [
+        "da0138ef-9f53-40cb-9d3a-dc994c1ca53f",
+        "419de64b-b198-47a2-955d-62c6ba2f7349"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "c69ddfb8-b925-4629-8462-09c1c1743714",
+      "headword": "예외",
+      "part_of_speech": "noun",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "d7735bbf-7037-4bba-ba1c-19c451e86adc"
+      ],
+      "example_ids": [
+        "621ad70c-a493-4f47-bf89-873f62d55673",
+        "53ca1515-893c-4cb3-88f3-31f66d65c68f"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "477424dc-67ba-4f48-8f12-eec97f7d6acf",
+      "headword": "경험담",
+      "part_of_speech": "noun",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "db260978-b876-4e08-b559-f60fc5e7d2dc"
+      ],
+      "example_ids": [
+        "140cfe81-859e-4ece-b35f-9b0a4ab16b46",
+        "58eb34d7-5da9-433a-bfe9-cd4716283126"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "9bf539c9-5bfe-47a7-8a0e-a9b366a36fe2",
+      "headword": "시행착오",
+      "part_of_speech": "noun",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "5a72aa23-e069-4fdb-b889-9c2922745ae5"
+      ],
+      "example_ids": [
+        "5531bd54-d98d-4201-86d8-08cb61a764b6",
+        "841cdd16-b655-4166-8bff-6b247b186240"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "1795e06c-d5fb-4699-84cf-0c91806dcd6c",
+      "headword": "성취감",
+      "part_of_speech": "noun",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "06ea8248-f74d-4167-8905-7365e691a041"
+      ],
+      "example_ids": [
+        "d9e5aa6c-5281-4638-aeb6-465e8977acec",
+        "4ffd3f13-c62c-40f9-a14a-3bbff77a824a"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "1947f4f9-2866-4cd3-ba2f-aa8c55b8814a",
+      "headword": "목적",
+      "part_of_speech": "noun",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "ab5b8519-30f1-4ce3-8db5-62ee2662c834"
+      ],
+      "example_ids": [
+        "8b31b8ab-e55e-4298-88e9-3d31bb269292",
+        "447ddfee-577d-40d1-bf2b-06a57d4b0ff7"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "96782cbd-0d77-4031-bf58-b8dcad22a81c",
+      "headword": "적성",
+      "part_of_speech": "noun",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "7c567601-c54d-4175-b667-ef3562bc7677"
+      ],
+      "example_ids": [
+        "272953d1-959e-4895-9dd1-79e51ef3effa",
+        "23362eff-a11a-4a08-baf4-999554e43d57"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "fe1f0198-189c-4d78-837d-deab2c3ddf06",
+      "headword": "마찬가지",
+      "part_of_speech": "noun",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "61d4d355-8d51-4afc-a5c9-d5a505f648ff"
+      ],
+      "example_ids": [
+        "0d4d4af7-4c8c-4bdc-8396-98c1b927871b",
+        "2c430e9c-7bf2-48f5-8073-214e1e849cc3"
+      ],
+      "note_id": "715808c0-d21b-4d2d-8b6c-1b96d2e01b71"
+    },
+    {
+      "id": "ed59d377-2e92-4504-ae2f-be4af361e60f",
+      "headword": "가닥을 잡다",
+      "part_of_speech": "expression",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "24dcd806-49ce-477b-b797-0033ab293626"
+      ],
+      "example_ids": [
+        "e305aa56-e38a-4337-b38b-1093ee333bf0",
+        "264c52c3-9f59-43d6-a1a9-2a2a33246214"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "eb0b28de-b04a-4162-bdb1-0057a7534939",
+      "headword": "갈피를 잡다",
+      "part_of_speech": "expression",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "77fee4bd-0e55-4fa3-ba54-94b8d51b2c13"
+      ],
+      "example_ids": [
+        "21780043-35d5-4700-91b8-6f696bd01ee4",
+        "41ce05c9-f60e-4950-9966-4fefd1f24ab3"
+      ],
+      "note_id": "66e2d587-ef57-4bb1-bf30-09302422bc83"
+    },
+    {
+      "id": "c0b00ec3-2391-4585-a5ba-59974c4c1fe2",
+      "headword": "뜻을 모으다",
+      "part_of_speech": "expression",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "b601aff2-ccba-40e9-9248-501f1eb23a64"
+      ],
+      "example_ids": [
+        "b1366a16-bb2a-42b2-bc3d-02a22422a22e",
+        "2bb78f76-676a-47f5-8390-b0ea37cd4ce2"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "85623f68-5c4b-4a83-8153-9bb1beb745a3",
+      "headword": "뜻이 맞다",
+      "part_of_speech": "expression",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "3cdd67b9-4455-43c1-aa72-d952f6b43f5e"
+      ],
+      "example_ids": [
+        "0f21a9d1-baf9-4e9d-adfb-5eab5f4a3eb8",
+        "546d8f87-b3cb-46d5-bf0d-177c8b040dbe"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "a40a20ce-61b1-44ce-bacc-07ec8eb26606",
+      "headword": "한눈에 들어오다",
+      "part_of_speech": "expression",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "7ed0ed82-c1ba-4dac-801c-13c538e0f432"
+      ],
+      "example_ids": [
+        "152ec300-a0b6-479e-878b-ef6d19773fdd",
+        "f9d46446-1843-430a-a1db-8a9129e1692a"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "bae3cd2e-c105-497e-92db-d261f8a69675",
+      "headword": "눈을 돌리다",
+      "part_of_speech": "expression",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "5b655df5-8a9d-4b9b-a84a-84d80a019bda"
+      ],
+      "example_ids": [
+        "62203e54-675d-44e1-b33c-291f52d4969f",
+        "808a52ab-9199-40ca-80e8-0dec87fddda3"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "a944b2f4-bd2a-4d6f-b008-f6302e0b0431",
+      "headword": "눈높이를 맞추다",
+      "part_of_speech": "expression",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "f59606de-5be4-4fd3-9088-408f0aacb43a"
+      ],
+      "example_ids": [
+        "b13b87d6-efbf-4130-acbc-191ce1c6b6f8",
+        "2b96fbd3-d1c2-4f6b-9148-cca2427307b1"
+      ],
+      "note_id": "180b7229-eb6c-4b2e-adac-072ef8f17f13"
+    },
+    {
+      "id": "76a5794a-8b69-4dfd-93b9-d9983d0a1254",
+      "headword": "발을 들이다",
+      "part_of_speech": "expression",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "3080d8e3-8605-4b58-acde-75e999461d25"
+      ],
+      "example_ids": [
+        "301e65ac-440e-4d9d-9922-9aec8b72e6e5",
+        "88b3db0a-76fb-4fa9-a706-a175fb08a2ce"
+      ],
+      "note_id": "89dc0dcc-ceaa-4fd0-9d2c-da1ded65b9c5"
+    },
+    {
+      "id": "5555040f-f3de-4738-b326-75520154a78f",
+      "headword": "첫발을 떼다",
+      "part_of_speech": "expression",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "8101bbc5-3696-40e5-8bb7-66e7d66d1948"
+      ],
+      "example_ids": [
+        "55780fba-6695-4d69-a60d-11c0d3cd6d21",
+        "8cf32791-0faf-4d61-907f-b13c80e6dcfe"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "6dc8a797-d8bb-47f2-8b28-b5ed13cd4c9a",
+      "headword": "발판이 되다",
+      "part_of_speech": "expression",
+      "level": "lower_intermediate",
+      "subgroup": "B2",
+      "theme": "比較・選択・計画・経験",
+      "meaning_ids": [
+        "5ce6be1a-1a22-4be5-a399-72706ecd0059"
+      ],
+      "example_ids": [
+        "32d2a4f3-ecbc-4316-9f23-08774e23fa03",
+        "892a5f7e-06a4-4937-8988-12d6c2e6d756"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "4feff201-5665-4586-bcc5-a1fb7586f3f2",
+      "headword": "발생하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "70092dd2-b958-4adc-b528-289f8d8de899"
+      ],
+      "example_ids": [
+        "8351d24b-87f2-49dd-bf04-cfd84d2f72e5",
+        "df88c9ec-24a3-431b-9359-100eb6f12cc1"
+      ],
+      "note_id": "0e2fc4cc-ee2d-4a5c-b747-9e998de94217"
+    },
+    {
+      "id": "994912e3-df8f-4214-99f6-0e4f668ec8cf",
+      "headword": "일으키다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "90c4e3a5-c66f-4aee-937c-3a3c1b766a7c"
+      ],
+      "example_ids": [
+        "e197fd93-9b21-4a56-9e7d-ec38d694f0dc",
+        "6980d998-310c-4a87-b230-e8d1fc5a9731"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "b73cd140-cf93-454c-9e5a-15dd2da58627",
+      "headword": "벌어지다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "a01b2884-2a51-4dab-a243-bef975c2e2c0",
+        "3af7b9ea-c81d-4d27-a3b5-d33da10e6221"
+      ],
+      "example_ids": [
+        "02f94d57-02f8-40c2-a8d2-3377f075363d",
+        "785a38f9-04ec-405d-b5e8-eba0e3cc8986"
+      ],
+      "note_id": "3e69a492-92eb-45d8-be9c-2c99009f97df"
+    },
+    {
+      "id": "12e0e569-2902-4680-b2b7-63d20ab31c24",
+      "headword": "벌이다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "34d5a244-936f-4aa1-9e86-fbfa30a5f68d"
+      ],
+      "example_ids": [
+        "c9f9b1ed-cf8c-41d9-b8d6-4fb4ed3996f3",
+        "3f57c744-6615-43ca-a54d-abf7612b15a4"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "1d2abbc1-c32d-493c-a3c2-ab3e8b7753d5",
+      "headword": "이어지다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "6522d0ad-1db7-46ca-903e-1d73a53ae774",
+        "7fcf1831-42ce-41ab-873f-3c5e18c2a56d"
+      ],
+      "example_ids": [
+        "8980fc73-bfb1-4e47-8562-b3be74e7bfb2",
+        "1efdb582-8efb-4e77-bb12-0565f73c66b6"
+      ],
+      "note_id": "86ea38a8-328f-4138-b76f-db8e32de7f7c"
+    },
+    {
+      "id": "30460908-cf28-40b1-8202-d4bbdea6bd1b",
+      "headword": "연결되다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "337eea93-1510-45d4-852a-0489f50b21e6"
+      ],
+      "example_ids": [
+        "f77a3c75-5ced-438f-a9ea-6c8ba015afd9",
+        "719608b8-736a-4659-afaf-406a569e9b1d"
+      ],
+      "note_id": "1ae666f9-19aa-48f6-9d05-476273edc635"
+    },
+    {
+      "id": "5720b8e5-2bc7-4d0c-8564-68275ec06f5d",
+      "headword": "연관되다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "dd5bd918-0367-4f82-b795-ee065fd7d5e8"
+      ],
+      "example_ids": [
+        "3f958dd1-7de2-4d69-ac1e-1e52c14c40cb",
+        "dec2d04c-cb1d-4352-9810-8de8872c262f"
+      ],
+      "note_id": "25cab80b-8827-486c-aa42-63e90199365a"
+    },
+    {
+      "id": "6f1a9516-6c81-4dc0-a929-c2618955eac9",
+      "headword": "관련되다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "836eb863-a48f-4438-a0f5-755942da4976"
+      ],
+      "example_ids": [
+        "68f782b5-836b-4721-afb3-87b1cc8ecbf9",
+        "4008fa65-a488-404a-92b5-417f4869a0f2"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "ad2de41c-7878-4b50-9d4d-95189d1606f6",
+      "headword": "작용하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "a0e7dcd1-9fa1-4d89-9986-dcdce6232b92"
+      ],
+      "example_ids": [
+        "5bd31b0a-f215-4c1b-99e8-e9ba6e597569",
+        "d845dee6-13e4-41c9-9fca-daabbc8423aa"
+      ],
+      "note_id": "8d19b032-27e1-4ec2-b546-020e7c58d16a"
+    },
+    {
+      "id": "08417803-79df-4f2d-bded-ffde99d096a7",
+      "headword": "미치다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "9b59d664-3421-4d31-b0b5-829536e32057",
+        "ac29d9ad-ce20-4982-9dde-fd21c4f7a2a8"
+      ],
+      "example_ids": [
+        "3119d63e-83f3-4950-addf-82ef7e8c6b47",
+        "f72a34cb-4d92-4e76-8df0-a695d61d7c4d"
+      ],
+      "note_id": "4fe28ad7-0bff-461c-a4fc-f8a080e3b35b"
+    },
+    {
+      "id": "5ce34d72-b229-4e62-854e-13b7b28406d1",
+      "headword": "끼치다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "db15b220-faab-471a-ace0-85b62f39e4d2"
+      ],
+      "example_ids": [
+        "762750ad-b6fa-458b-ae0c-1e3753ac6f88",
+        "52120417-42cf-4fc8-bf1c-31f47503560b"
+      ],
+      "note_id": "79320fca-d434-459d-8d3d-6959dcc321ff"
+    },
+    {
+      "id": "87004891-3d99-4ca1-ba53-a26bb0adc19c",
+      "headword": "비롯되다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "19a71179-a8c9-468f-8e5e-d23f6ee6efd2"
+      ],
+      "example_ids": [
+        "937a3f80-b55c-4377-b717-cb80fde45e47",
+        "df27ec04-56a3-41e6-b7ea-b776b8bd262e"
+      ],
+      "note_id": "c5721b1b-222d-4dbc-bdbb-f9af35af5870"
+    },
+    {
+      "id": "0b530947-80ff-4f9e-9432-b09bfb0d9251",
+      "headword": "유발하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "a85feddc-fe12-4540-b0af-0bc411372ce2"
+      ],
+      "example_ids": [
+        "16dd6f7d-c307-4a17-a866-bc0f61e79d8e",
+        "e6b258dd-74be-46cd-ba3f-f5d23d29b5af"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "e93ee6c9-d5c9-4f19-a430-b8a5b3c99914",
+      "headword": "해당하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "beb828b3-6811-48a9-a0c8-dcaeb4d34ac4"
+      ],
+      "example_ids": [
+        "ac798ae5-3827-48ec-ae6d-feb0e3e5bc62",
+        "9a7788fa-6ece-4054-a796-942dc3b9d59c"
+      ],
+      "note_id": "cb50323f-00cc-4f24-9a9d-2baa8fa05609"
+    },
+    {
+      "id": "2bb6ff65-2df6-45ee-bb15-a4147ac9613c",
+      "headword": "속하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "394c9d5f-61e3-449a-b3f1-e2e09eb62f12"
+      ],
+      "example_ids": [
+        "5db5a91c-e745-4c28-a419-03018dbcd70b",
+        "f31c9e84-5628-4922-b60c-be4c5468c9a4"
+      ],
+      "note_id": "bd28f6f0-d8c5-4091-a7ed-c2894b544468"
+    },
+    {
+      "id": "a6c8a2b5-5c7f-4d9b-81d7-fd7dfe18fb27",
+      "headword": "달라지다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "f5edbe5b-a1ab-44ea-9027-50f03be0960e"
+      ],
+      "example_ids": [
+        "aaa82744-b476-4c7a-89ef-72fe3fbbe23e",
+        "4110cd45-bc26-4a84-99b4-0b1f4d933a20"
+      ],
+      "note_id": "5dd9dc19-334f-46ce-b321-fe6c0793e1be"
+    },
+    {
+      "id": "8a55aeba-63d2-486a-8192-39c3a467cf87",
+      "headword": "변하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "fa250f33-7b63-4cb7-b992-df967bd0fdd9"
+      ],
+      "example_ids": [
+        "d396c5e9-6f2a-4ba6-a5e1-8b6130b235cc",
+        "104027ff-64d0-4566-9746-4008d3452795"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "96cc45f5-545d-4c2e-af5f-e97a611dc4af",
+      "headword": "전환하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "135a9223-f1fa-4e2c-843d-91066e842ed1"
+      ],
+      "example_ids": [
+        "70d5fdd7-67ac-45ae-857e-05e5dea6e891",
+        "8ce76227-7d8d-41e9-b78d-d79bb0b74fe5"
+      ],
+      "note_id": "f5f55119-757b-4124-8e6e-1542367a7370"
+    },
+    {
+      "id": "d4932a98-e248-43f4-8e66-1fed52d0eb90",
+      "headword": "전환되다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "a1b1c630-df05-4a1d-9044-ab0946cb563e"
+      ],
+      "example_ids": [
+        "df230576-e55c-494a-a811-88398e131ddb",
+        "0a493507-06cf-4e8e-b62a-f87ed5ceca8c"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "f54e4922-93b9-4d0e-b408-307ab5daf83e",
+      "headword": "펼치다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "5698969b-275c-4b96-bdc2-6435dc7e5905",
+        "c6d45e41-ba3c-4d67-a84e-44ba0f86c4ef"
+      ],
+      "example_ids": [
+        "65c54225-3353-4e48-997c-320e79e7feaa",
+        "23051279-c557-45fe-9e4d-3d8fd5d72a58"
+      ],
+      "note_id": "f142c0c1-9c42-498e-ae0f-25e2f2e689a9"
+    },
+    {
+      "id": "87dae1ad-3187-4395-a15a-2266e3331702",
+      "headword": "펼쳐지다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "78698bd2-dd36-48ff-b63f-1c8dd083c662"
+      ],
+      "example_ids": [
+        "d527b7d9-f504-43b6-9c7c-29d52eb9e9d5",
+        "ecbeb13c-a653-43c1-974d-159a78a0c0b4"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "e96028e9-bfe0-4b8b-901a-a306d90757d5",
+      "headword": "확대하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "c1678537-cc17-49fa-82d1-afbd713f4933"
+      ],
+      "example_ids": [
+        "3faacbe9-6492-4c98-ba08-88fa012eae6d",
+        "09058268-07e6-4d47-a21b-c1ed9e9fb317"
+      ],
+      "note_id": "ff82d4a8-b2ea-4be9-b6f1-ef70d270ba80"
+    },
+    {
+      "id": "e4c6208c-e583-48d4-af13-13da5dc51e2f",
+      "headword": "확대되다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "a02cefbc-4b63-465b-a227-04322789007b"
+      ],
+      "example_ids": [
+        "21121b1b-11ff-4997-95a2-bcfa08da30c8",
+        "9b218a90-4709-46b1-9cf8-6ccd1bdf1abe"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "72c443d2-f708-4349-a970-3490ea6700a3",
+      "headword": "확장하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "160a05cd-10a4-49e8-8fe2-61cf2e1a57bd"
+      ],
+      "example_ids": [
+        "10bbeb3c-b063-43a7-a413-5335798476a9",
+        "ca375b92-6cb6-4711-b054-14618214b6fd"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "a9c2c052-5ebe-4195-b9d8-e855132cf3bf",
+      "headword": "넓히다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "cb941b67-f269-4369-b6f6-a8ee86f20890"
+      ],
+      "example_ids": [
+        "b59b58a0-8abc-4b52-b753-1729c56f5a41",
+        "2d2e12fb-04ff-4d74-b179-7b9131c63f50"
+      ],
+      "note_id": "10f7779c-47fc-411f-8a07-5836685cc856"
+    },
+    {
+      "id": "0db1e334-c4fd-4338-ba66-d642453880b5",
+      "headword": "좁히다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "cefd930a-004c-4c29-a335-e6eced83c355"
+      ],
+      "example_ids": [
+        "1600905f-996d-48c3-acfd-846c0b45af24",
+        "442ee548-9c28-4bac-8e4f-ca829968eaea"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "37cbfe94-81ba-44d0-a661-ebbecc3edaa3",
+      "headword": "축소하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "d2a2802a-8861-46d2-aa14-c34f9f664999"
+      ],
+      "example_ids": [
+        "6c7eacb9-7413-46ca-91ea-5d8cda5565b3",
+        "1deef989-ff66-4ab3-8edb-2cc0ba237e94"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "ccaf582b-cd9a-425f-b356-727110f7cee5",
+      "headword": "축소되다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "323a5f59-dd7b-4f81-b402-9d4ec1f80fff"
+      ],
+      "example_ids": [
+        "626b75b9-a1d6-4fc2-a28b-f72ae29fbb15",
+        "26d184a6-a059-4f07-8e9d-5a4c310b8ce1"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "a8920080-8559-4653-a0cd-ab90919d4762",
+      "headword": "감소하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "873930d0-4704-42f8-913f-a89d3fcb54e4"
+      ],
+      "example_ids": [
+        "98fbff7f-4c56-415f-b7d7-562e670393c6",
+        "1de21bca-fc07-4f81-be24-931427ecb090"
+      ],
+      "note_id": "2cdf290c-6b68-4a07-9f6c-56986db00be2"
+    },
+    {
+      "id": "05597fa1-6999-4803-bff0-41015818351b",
+      "headword": "증가하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "7389e4c4-b3e3-43ea-bebe-da76828d2388"
+      ],
+      "example_ids": [
+        "9fb91734-16ec-467e-a3b2-f7cb80cbf639",
+        "e01e0d0c-e625-4234-aad6-6a54de8b653e"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "8a771494-a718-4e2d-9a74-2d7200dc4309",
+      "headword": "늘어나다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "5e5797ad-a307-4723-ad28-2a006abce774"
+      ],
+      "example_ids": [
+        "e987ec6b-c74b-4c01-8172-0440821bfdbd",
+        "0cbf0976-6601-48cd-afd4-e49b98d7115a"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "1dbea548-ec2c-402c-b4c5-7ffb51262324",
+      "headword": "줄어들다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "9d6d49c7-1731-4c29-a750-ceec159dd7ee"
+      ],
+      "example_ids": [
+        "a2551fbe-c983-4127-b9e3-aa5d003ce893",
+        "20aa6053-cc63-46e8-ad18-7993e340b8c1"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "bc9a4734-59bb-40a0-bcdc-ad1075d885bd",
+      "headword": "높아지다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "3c675cde-bb86-48ee-87e4-d853ae439a21"
+      ],
+      "example_ids": [
+        "c0393c13-857f-405b-b599-ba98d4f1569e",
+        "48c039ef-f478-4a2a-8193-d77c5ba43b2c"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "c8d7a07d-18df-4135-a0cb-a1c9b4fb46a3",
+      "headword": "낮아지다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "625d9f24-7fb9-4ec9-9cb6-80aafea70cbd"
+      ],
+      "example_ids": [
+        "188b1ba4-3157-4ba0-a18d-3c9ed1a72092",
+        "ba9321af-dd8a-402b-99f1-9ef8c5c4e0f0"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "40bda3a1-0a96-4749-afac-5855cf3f3c0d",
+      "headword": "높이다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "b7c0b997-18bf-4e5a-9800-cbf84d4f9aac"
+      ],
+      "example_ids": [
+        "d5c1cf87-ba8e-491c-b448-62531cd4b3ba",
+        "26cbf029-689c-4524-b354-9692c5db2205"
+      ],
+      "note_id": "00138168-8af9-4f19-a9b0-a0affcc0997b"
+    },
+    {
+      "id": "9d2a8300-ff9f-4616-b8f5-c84a953c467f",
+      "headword": "낮추다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "5ee0a06f-40ff-41fc-9d03-c3a0ec4703d0"
+      ],
+      "example_ids": [
+        "ca948222-f5d9-4f39-8437-c76270cd4979",
+        "e4059040-c1f4-45c9-a00c-47e74cbf2402"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "9f771312-502b-4590-ba1d-a533acb7aa4b",
+      "headword": "악화되다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "715bb334-2fe4-4831-985b-6cccf7acca0b"
+      ],
+      "example_ids": [
+        "e22519ac-1fb9-4d54-88d8-850973299654",
+        "21ea34fd-0db6-46d6-bf2a-00a0b34737bc"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "20027d7b-37d4-4da9-ae1f-c9030b404d89",
+      "headword": "개선되다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "25438d36-156e-4116-af84-c62d98751e15"
+      ],
+      "example_ids": [
+        "3ebf6c69-4037-4f69-888d-2f7900992225",
+        "1e176264-fa56-4b7e-aad5-1211050771ad"
+      ],
+      "note_id": "2e3a9b07-a276-4d61-aeb2-2a8c0eef4901"
+    },
+    {
+      "id": "155ec61e-503a-48f3-bcfa-847a6ee9bf5d",
+      "headword": "향상되다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "7f8625b3-f53f-4422-bc6e-3fed1375aec4"
+      ],
+      "example_ids": [
+        "1601c5c1-d175-435a-8de6-6100fa6bfd2c",
+        "d56ba17d-72ee-4612-9470-2557c8f99c09"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "bb3674b7-3d61-4d41-8761-8c89b3b18fa8",
+      "headword": "발전하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "f9aa7c72-6a85-4a8b-9b28-e71508102c49"
+      ],
+      "example_ids": [
+        "3b749a22-3d47-47de-a96d-d629b85a2cf6",
+        "a928def3-6013-43bd-a04b-2075d9f26a96"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "457d6fee-266c-4793-a355-ba1ec9226ccf",
+      "headword": "성장하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "a25900a2-d473-4e61-a601-69e037a232bb"
+      ],
+      "example_ids": [
+        "2d4c142c-069d-4329-bd52-37c2fa0d7435",
+        "274998f2-f826-479a-a62d-f97e17d48eab"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "9a1f3644-6f10-4b9a-8ac3-90de95ae9329",
+      "headword": "강화하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "d680c1ad-395e-46d2-8135-6f7896ab0a3e"
+      ],
+      "example_ids": [
+        "77314712-46fb-44f4-ab90-ab301af3b4f6",
+        "81129243-9d33-40e5-9c38-36c74616100d"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "462cd423-0a8e-4b3f-b5ab-dfd8949ea9ea",
+      "headword": "약해지다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "5ad8ec3c-5ae3-4f8d-a3a8-37e51c057b2e"
+      ],
+      "example_ids": [
+        "7e6cc2d2-e812-4160-a361-c570415cfb0c",
+        "8141ea0a-b82f-4d32-9059-8c2025d92656"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "b29c6929-d97a-4477-98b2-86d42b79f1b0",
+      "headword": "안정되다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "1b9f361d-0529-4909-98d3-fbc6ca9ac350"
+      ],
+      "example_ids": [
+        "ec8a70f7-aa64-4e1b-90f2-db0f6cc46a79",
+        "a879cd46-07e5-4788-92fe-e2ea0fcda779"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "046edfc0-f373-4a2e-9304-9956df51e6cd",
+      "headword": "회복하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "4336f013-6dd1-4066-8c4c-349f3c4c4339"
+      ],
+      "example_ids": [
+        "286e2d67-b30e-43e5-8c7c-a10dc6cb93b0",
+        "753681b3-b239-463c-9e7c-c4a82ee7c183"
+      ],
+      "note_id": "8ca0aa65-31d0-417b-b67e-9cc8d2ddfc86"
+    },
+    {
+      "id": "381daad3-2e25-4db9-a079-2799259617fa",
+      "headword": "회복되다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "f3ea137b-6e28-484b-b3d9-bf5cd602bdb8"
+      ],
+      "example_ids": [
+        "354205b4-d5aa-4ded-b673-8409acea2c64",
+        "ea142280-db22-4f39-8e83-0a0b24b550f1"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "7e475fcb-0965-4bc7-8c82-379ce5f7dfe2",
+      "headword": "고쳐지다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "63d6aba3-8a31-4095-9b1d-7bb27eec6393"
+      ],
+      "example_ids": [
+        "4a12add1-fccd-47b6-aec6-17af1a98a443",
+        "6dfb0ed4-648f-4dde-a426-0e1ec428e1df"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "7919e0aa-ab07-4ea5-bc2c-4aec8ff1f442",
+      "headword": "보완되다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "effb39dd-cfda-49dd-b16d-e7bf8ec06b2e"
+      ],
+      "example_ids": [
+        "d98eaec3-09f4-46f3-9a06-a096e3fb7993",
+        "0baf1754-03e7-4f9c-a9d6-331181b1df60"
+      ],
+      "note_id": "6ee3a204-686d-46fe-ab2e-a29878827da0"
+    },
+    {
+      "id": "62f17c53-a858-46ee-a701-17e8a8befa24",
+      "headword": "해결되다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "2337013d-2f4b-469a-90ee-9f548dac56cc"
+      ],
+      "example_ids": [
+        "82e7bc05-fdfc-4938-92b4-4cb7d41c3ab3",
+        "ab015aa2-eb40-4517-ae98-4fe0aeb00220"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "398503f1-c2d6-4b62-a6df-1f8b826d558f",
+      "headword": "해소하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "132f8403-3a3a-4be2-ac4b-86864189f883"
+      ],
+      "example_ids": [
+        "22f653b0-c145-4a21-8b06-877d609d9adf",
+        "224b7e36-25e6-48e3-9f47-969edaccad85"
+      ],
+      "note_id": "82e0a810-b01b-4a5a-90bb-36cf9ed6e833"
+    },
+    {
+      "id": "bdedecaf-d9d6-4231-a28b-e6059e7f99f5",
+      "headword": "해소되다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "959b1916-1525-4df5-bb03-1d859959b848"
+      ],
+      "example_ids": [
+        "99fd077b-04dc-47ed-9af8-4b08801b2426",
+        "d2fdb19c-c3ff-4d35-953b-1eae8d1d8827"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "1eeeb696-d55e-46cc-91c8-46853d17c726",
+      "headword": "예방하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "a7161429-0520-4db2-9836-7f7593baaaa3"
+      ],
+      "example_ids": [
+        "c3d42b72-ba30-4ee1-b88c-f9ad25b9d7bb",
+        "d67ec3eb-1c5e-457f-8e27-d5285ed2b885"
+      ],
+      "note_id": "3f1d14c3-efe7-42d0-9bfc-7a40fb221c01"
+    },
+    {
+      "id": "eddef989-37aa-4212-9dd1-bd67c3c87bcf",
+      "headword": "대응하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "55df1ac0-dd6c-4414-8395-7d7df61c31cb"
+      ],
+      "example_ids": [
+        "15923f52-afb6-442d-9f17-520af1879ec3",
+        "ccf4ace4-ff8d-4a14-89f5-0989bff25d3e"
+      ],
+      "note_id": "19bc03a6-122b-4e77-82da-3475b38df3ac"
+    },
+    {
+      "id": "715ab5cd-723b-4383-946d-5b26597e664f",
+      "headword": "대처하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "194d23fc-4f46-4284-af0e-f10655c67bd8"
+      ],
+      "example_ids": [
+        "c933a4fb-ee07-4cc0-92a4-9390d6d88e11",
+        "779c7737-866e-4f71-97f0-fdc084654599"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "14392145-b956-4946-bcf8-5237a5d7d141",
+      "headword": "극복하다",
+      "part_of_speech": "verb",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "b896037a-728f-4f5a-8d37-db6890d01ca6"
+      ],
+      "example_ids": [
+        "29d16d4e-b3b2-4cf7-beb9-df715eef0cc8",
+        "051f4b69-dd5c-4d43-929c-23e05f045193"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "ebb2dc4f-06cf-4763-9395-8fbfcbc52fa2",
+      "headword": "불안정하다",
+      "part_of_speech": "adjective",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "409d2ce0-21d4-4b9b-971f-a4ab50cc51b0"
+      ],
+      "example_ids": [
+        "d3552ccd-e854-4ef4-8a64-e0c06855dde0",
+        "07ec41b5-6d35-416f-956c-7579c9e660a5"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "63ef785c-2195-48b4-9a64-b22715a04fb8",
+      "headword": "불필요하다",
+      "part_of_speech": "adjective",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "4e261f15-12e7-4a7c-bd0c-2f803131e118"
+      ],
+      "example_ids": [
+        "6730c3f3-ce8a-4b10-bd20-039fb15c76c5",
+        "51885a62-e390-44b7-afba-b2e804bf7df8"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "42d98168-8efa-473b-a2d1-3c2930e527bf",
+      "headword": "긴급하다",
+      "part_of_speech": "adjective",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "f9685366-0902-40b2-907a-227dbd6e01bd"
+      ],
+      "example_ids": [
+        "48f33f8a-6a6f-4260-8111-af9ba39cd162",
+        "8fc805a6-110d-44c0-8116-759799411d77"
+      ],
+      "note_id": "e6564ec5-a0b2-4f3e-9676-71627f32538b"
+    },
+    {
+      "id": "9aaad6b4-6bea-449c-a98f-31918dd9d92e",
+      "headword": "시급하다",
+      "part_of_speech": "adjective",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "09e1edff-b3f4-4fb5-823d-db9159e473c2"
+      ],
+      "example_ids": [
+        "8a12a10d-6b13-4a8c-807e-851fed1209c7",
+        "56da23f9-48c3-485c-98cb-48d5f4801879"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "71fa026b-5b35-40f2-b12d-18c2ccec2ebb",
+      "headword": "심각하다",
+      "part_of_speech": "adjective",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "f6b67445-4989-47a7-ace8-2e7fd741e924"
+      ],
+      "example_ids": [
+        "855232e2-4ec2-451f-a958-85e0b905df82",
+        "a1e3036d-1575-4a4f-be72-f9c90f223697"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "ff4a96df-fd3e-4224-8bcc-f867b1642004",
+      "headword": "사소하다",
+      "part_of_speech": "adjective",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "fd06f85a-57bc-4c09-9f79-b69d02fc5bda"
+      ],
+      "example_ids": [
+        "d84bfc3e-ab1a-40cd-b3de-1566a2f33b92",
+        "316fa145-33a9-438d-8bf4-3e94d577b366"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "7f82ba1c-b421-41ec-9b83-89cd3eb5dad0",
+      "headword": "당연하다",
+      "part_of_speech": "adjective",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "54b007ac-9e67-4517-ba8b-1d6bdd53b862"
+      ],
+      "example_ids": [
+        "fb1d25e1-1d2d-4371-8573-08a367fc0240",
+        "765bd5fb-88fe-465e-b738-0e2a93279eb5"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "337a86d8-b673-45ad-ab66-f73c568ee112",
+      "headword": "무난하다",
+      "part_of_speech": "adjective",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "4ca5ce2a-9ee9-4f37-938b-16071cd891f2"
+      ],
+      "example_ids": [
+        "9e51c510-30f9-44ec-8eb8-5d2441d1ae3a",
+        "95eea89e-7515-4944-918d-3dc5501fbaed"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "80906a7c-b229-46f1-84b3-adba696d0fd0",
+      "headword": "순조롭다",
+      "part_of_speech": "adjective",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "5ccb8bcc-77c3-42d7-befa-47b785bd9c4e"
+      ],
+      "example_ids": [
+        "3f880ba2-9bea-4c6d-99b7-0b3bb541a21e",
+        "d1a1c580-041d-4670-9953-0c19df7984f9"
+      ],
+      "note_id": "84450038-55dc-4ca9-8024-67ef781a72ee"
+    },
+    {
+      "id": "32e78b0c-7695-47e3-889a-b6914bba5a69",
+      "headword": "원만하다",
+      "part_of_speech": "adjective",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "35ca4d4e-f20f-47e7-98eb-4da275819e0c"
+      ],
+      "example_ids": [
+        "72f8fcc5-81d4-4600-bafe-d4f839706222",
+        "ab25604c-41a1-4088-ae88-20ba4737d975"
+      ],
+      "note_id": "d0e6e621-e50e-47a8-b679-f56437b9568c"
+    },
+    {
+      "id": "f1278060-62fe-42db-8401-0375a4c75df3",
+      "headword": "서서히",
+      "part_of_speech": "adverb",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "a56d4723-8a5c-4bcf-88d9-e275f425b017"
+      ],
+      "example_ids": [
+        "ba08d2f8-c8c9-4752-88ec-2f1614562d64",
+        "b3b6e0b4-4c49-4440-9843-5f78558f1d99"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "3b53ccb8-1704-44ce-bdea-90533705a5b6",
+      "headword": "급격히",
+      "part_of_speech": "adverb",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "64901863-cd7b-45ac-832e-969842438d28"
+      ],
+      "example_ids": [
+        "dcd5f2fb-fc36-4481-9f85-fa2cfc941085",
+        "8b4491a2-b500-473e-9b2b-df5ffe1d1667"
+      ],
+      "note_id": "f509c279-85a1-4213-8da9-eed0745b7ecf"
+    },
+    {
+      "id": "1029f348-5747-42c4-9915-9215c3bf9403",
+      "headword": "급속히",
+      "part_of_speech": "adverb",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "3d6f0de2-e037-46b3-8715-af0e7acc25ae"
+      ],
+      "example_ids": [
+        "2d0552a3-e828-410c-8567-e9c037fffd59",
+        "e4f6aa94-2a10-40b0-a077-6965d8edbe6f"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "aa784af4-2611-4730-89f8-bc2d850b2b3c",
+      "headword": "이내",
+      "part_of_speech": "adverb",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "3db49c13-b27e-4916-b2b9-4f5881f29868"
+      ],
+      "example_ids": [
+        "68aa70de-9e0f-4fac-979b-2f2ae3217e6f",
+        "a9750260-37a6-4d0a-b647-adfc7a564eda"
+      ],
+      "note_id": "a084dd7a-f845-4ade-be4e-bb1ebfea6278"
+    },
+    {
+      "id": "b71eb084-cb2f-400b-8198-1f515c18348e",
+      "headword": "즉시",
+      "part_of_speech": "adverb",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "61520112-42ff-4e17-8dc5-962e92d7b95c"
+      ],
+      "example_ids": [
+        "c745ac7f-2b75-448b-a71e-af0d5c8b8dc3",
+        "a1ab2490-38ee-44f7-98da-f6827640b945"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "8eb138a0-d6ca-4097-beb7-d2ef4312f338",
+      "headword": "비로소",
+      "part_of_speech": "adverb",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "766abc12-174d-4819-bc5f-9359eeda4449"
+      ],
+      "example_ids": [
+        "06c83588-3018-4f47-b96c-698d5c4d63d9",
+        "e3741d87-7097-4250-bd6e-6cdecb8c8d3f"
+      ],
+      "note_id": "4844a045-5611-4211-957f-baf4c0e8c777"
+    },
+    {
+      "id": "a5fe57cc-ade6-4fda-ad04-4e2a985c98e7",
+      "headword": "어김없이",
+      "part_of_speech": "adverb",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "0bd478ee-b2cb-4a43-af9b-493c429fc491"
+      ],
+      "example_ids": [
+        "62dc6f10-67a5-475c-b192-1602dc4d537e",
+        "3ffe3dfb-4b4c-4945-b234-a67d42b9d18b"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "5f433b13-d854-4f04-98f1-9ef5ef263fb4",
+      "headword": "번번이",
+      "part_of_speech": "adverb",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "f5276cad-ae84-4487-9374-b34cd623dd19"
+      ],
+      "example_ids": [
+        "ec828c25-eac6-4d59-bc06-06eacd726c17",
+        "c4cfcd26-6346-41c0-90c9-1fa5666c2c7c"
+      ],
+      "note_id": "388d61ad-2e72-4678-9be2-9f451b67af72"
+    },
+    {
+      "id": "7f263821-ffc0-4abe-9124-941049022fbc",
+      "headword": "자연히",
+      "part_of_speech": "adverb",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "13a9d5da-0e06-43f5-b9c3-deaea754b67a"
+      ],
+      "example_ids": [
+        "cbe982d8-55dc-4c84-9d6c-4fedfa65304d",
+        "5b758c3e-3151-481b-bc13-61799eb4225d"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "0c62d0eb-f84a-45a4-9f98-7891dc370d3a",
+      "headword": "뜻밖에",
+      "part_of_speech": "adverb",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "739bdf1d-cec3-4211-802e-73a2aa70521b"
+      ],
+      "example_ids": [
+        "8acfcc3e-6c7c-47f4-9213-2c1ed8334266",
+        "be2a67b2-2786-4057-b709-2dc28fa4f514"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "8dd63221-bc92-421b-b705-ccace32fb7c3",
+      "headword": "계기",
+      "part_of_speech": "noun",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "df6c77b7-9047-448a-b39b-a0a767736f77"
+      ],
+      "example_ids": [
+        "55e335d5-3de0-4f3f-a320-c86bc9d42e1e",
+        "6e0b21f8-08b1-4e5d-8209-67664d05e206"
+      ],
+      "note_id": "7a66c4a6-089e-448e-bc09-e4623fb73bd1"
+    },
+    {
+      "id": "0ef4dfac-6e96-4aec-a16f-a20508454fe2",
+      "headword": "배경",
+      "part_of_speech": "noun",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "bf80c64c-ae1e-4560-820e-820c6deb8cd4",
+        "1fc94dcd-5c0c-44d9-bea8-66e266fa0ddc"
+      ],
+      "example_ids": [
+        "869a67ec-0291-4af0-9705-ea68f7f9e0ee",
+        "2a7e6425-a52b-4daf-a55b-6d656fb96c53"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "20c8a77f-7650-41d9-af65-cfc2807a870e",
+      "headword": "절차",
+      "part_of_speech": "noun",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "a3a4c4c7-22b1-4c2f-8741-6c83b110856f"
+      ],
+      "example_ids": [
+        "c46dd6ff-e60b-4838-a7f5-67d4b2effed5",
+        "14f27a28-ab6d-4806-b7f5-39332d0167c3"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "668c654e-4bb3-486f-a58a-c868421d9da9",
+      "headword": "방식",
+      "part_of_speech": "noun",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "bc4124e4-5275-4737-bfc3-17aa2b316789"
+      ],
+      "example_ids": [
+        "6c22a419-5f7c-4fd9-b665-b305f61757fd",
+        "b83ab00c-7922-4fdd-9845-b3868ea8a736"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "6c501245-1b05-4b2c-8896-36f669d73010",
+      "headword": "수단",
+      "part_of_speech": "noun",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "f1ff1a49-f661-4afe-a3ed-c8ac247403ad"
+      ],
+      "example_ids": [
+        "ee0baf13-598b-46c0-8180-bc25a470eb81",
+        "fd6138b4-034a-4670-83e9-640f33514868"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "41cf9de1-5784-49ef-b79e-65ac745a0690",
+      "headword": "대책",
+      "part_of_speech": "noun",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "e3db6444-34f1-46c3-b6e2-e9c68b83d0aa"
+      ],
+      "example_ids": [
+        "0c1a80a3-0cbe-4bfa-9a30-c3b5f5e9c5d2",
+        "85f524f6-a047-45be-a572-307b4d9f575e"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "fa8d085b-7bc7-404e-9532-f94dd4b5d0b8",
+      "headword": "방안",
+      "part_of_speech": "noun",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "fc56ad3b-4261-422d-aed8-b19cf45d072e"
+      ],
+      "example_ids": [
+        "a0115b48-2a38-43ef-bcb9-3978ad7671c3",
+        "d5d7403b-e2bc-45f8-bb2b-4d5b0e6a81d9"
+      ],
+      "note_id": "1c29847f-0962-43af-9d7b-96ed69437bed"
+    },
+    {
+      "id": "5eb9ce15-660b-4326-8470-4d1aeb91cc13",
+      "headword": "해결책",
+      "part_of_speech": "noun",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "e8309583-0a12-41be-ae7c-0f61851d698b"
+      ],
+      "example_ids": [
+        "121f775e-02f9-4d85-8672-db8178316e8a",
+        "13942f07-7c81-4d73-9352-5a212cd4d823"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "9148f6a1-ef8a-4e7e-8a83-9794c41606a4",
+      "headword": "실마리",
+      "part_of_speech": "noun",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "50f23dc1-cc4d-4d61-ab23-d7cdbb3a5a33"
+      ],
+      "example_ids": [
+        "09366eb1-4623-4535-ac50-80e0198014a8",
+        "ef5004db-8226-459e-8fdc-2d6dd3852c08"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "3d076669-3414-478b-ad18-76be9c395576",
+      "headword": "개선점",
+      "part_of_speech": "noun",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "17d6ea3c-0ea1-4f49-8519-510a31cfa10f"
+      ],
+      "example_ids": [
+        "e95ce558-4e38-4836-929a-0199bba914bd",
+        "4c288515-7059-4c2d-b4c3-1a3f251df455"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "c1da3916-2944-454f-8c57-da097e6fac01",
+      "headword": "한계",
+      "part_of_speech": "noun",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "9c59b993-e13a-4a1e-9d65-f8145f5ebd47"
+      ],
+      "example_ids": [
+        "5426dcf5-6311-43a8-9bc2-d51a644c14c4",
+        "835cf5d7-02d1-4419-a49d-64ae93dd8bc5"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "9d29f4a3-982a-44bd-872c-890473001aba",
+      "headword": "실마리를 찾다",
+      "part_of_speech": "expression",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "8a92db23-3483-4d73-afb3-876cd5fbceef"
+      ],
+      "example_ids": [
+        "be8c7cff-8c20-4422-95d5-049a190328bc",
+        "d53be6bf-bd98-4861-be26-005d83a663b3"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "dc74ca05-85f7-4cc8-b6a8-56f3ef0c6927",
+      "headword": "실마리가 풀리다",
+      "part_of_speech": "expression",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "28491d29-934d-488c-9547-78c73660dc56"
+      ],
+      "example_ids": [
+        "d38f0789-9846-4aec-8516-e5a0dffd47fa",
+        "2542d610-8fb6-4f81-b29b-fb48dd3ca65e"
+      ],
+      "note_id": "e0645d0d-3a48-431f-af9f-7a28d146d909"
+    },
+    {
+      "id": "c8765399-a14c-48a4-a059-e8e1eea44861",
+      "headword": "효과를 보다",
+      "part_of_speech": "expression",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "21b136e6-681b-49b9-ba89-c76b32f71ed8"
+      ],
+      "example_ids": [
+        "b097f117-cd4e-4f80-a1cb-974d5be3284f",
+        "3d843e90-74e6-4ad2-bd4d-cdf335d6ae87"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "d6bf1546-ff21-402e-8903-c1648f427f23",
+      "headword": "힘을 쏟다",
+      "part_of_speech": "expression",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "f9dabbda-7cd5-40a4-a438-154743a549bc"
+      ],
+      "example_ids": [
+        "0d33a142-87b7-4576-8b0b-69e637de14ab",
+        "4ddec8b9-a4fc-4740-a35f-3416717e117c"
+      ],
+      "note_id": "3ac62a7b-fe9a-4011-8858-dc0640afa063"
+    },
+    {
+      "id": "45a8d894-baa1-4aa2-a587-3834b5d31dff",
+      "headword": "힘을 기울이다",
+      "part_of_speech": "expression",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "95150339-a15b-4adf-ad8b-2c14c01ba172"
+      ],
+      "example_ids": [
+        "5de4b6d2-0ed6-40c1-a788-7aea11d62ff4",
+        "cd951172-7cd4-4a80-baa2-3e38584b9328"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "ac4c0b79-a296-424b-b336-9813474908e9",
+      "headword": "공을 들이다",
+      "part_of_speech": "expression",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "5c680035-9958-4bab-bfc2-32f7b11434a1"
+      ],
+      "example_ids": [
+        "ceeafeb5-79ae-4ec4-8e49-ac43122e0991",
+        "bca596bf-ff1d-42c6-b057-c612a8e96eea"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "8c727607-e81b-45a5-b245-498fb9c90f56",
+      "headword": "길이 열리다",
+      "part_of_speech": "expression",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "e91355a6-a3ef-4ca3-b41f-b11268dfcd3c"
+      ],
+      "example_ids": [
+        "0b47f01d-a17d-450a-b352-6cd4d565ffcc",
+        "0a0f2619-87c2-431f-b548-5944cf0ffaef"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "43481413-590b-4f7c-aeca-229333002bfc",
+      "headword": "길을 열다",
+      "part_of_speech": "expression",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "4eb7bf54-3cfb-4c80-9344-d3fc9c821646"
+      ],
+      "example_ids": [
+        "4cc599fd-a64c-4d9a-a6a0-78678afe8101",
+        "5051913d-dadb-4432-b71e-6ce597722536"
+      ],
+      "note_id": "2d32079e-0dd1-4a04-8f00-06cf0eec935a"
+    },
+    {
+      "id": "6bac9910-73a5-4ef5-a354-eccb3d9d172b",
+      "headword": "한계를 넘다",
+      "part_of_speech": "expression",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "ec5b2c53-6847-4b75-b2b6-5da3c83a1ddf"
+      ],
+      "example_ids": [
+        "ef530c97-7923-4ad7-9b35-9e66630fbaeb",
+        "6cb23565-5862-4713-aa1c-15c43151aaaa"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "4128593d-2068-4a2b-91f7-d13f03ca3ee4",
+      "headword": "벽에 부딪히다",
+      "part_of_speech": "expression",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "4b810558-7ebf-4e08-82a2-694faf76a4e5"
+      ],
+      "example_ids": [
+        "290d8ed4-e306-4e70-bbfa-d9024363e19b",
+        "f828e06a-f494-4ac6-83ac-a650fadd4340"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "ca2ca8d6-a455-4bd9-9056-adc0bc97565e",
+      "headword": "제자리를 찾다",
+      "part_of_speech": "expression",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "b01bf49c-20c1-414c-aada-4cab9adc628c"
+      ],
+      "example_ids": [
+        "073a5929-9791-4b06-9c3d-3d0339085934",
+        "23ec5bc3-f081-4a87-a8f2-7797b701f1c4"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "65be01ba-0f64-43d0-a74c-02665379e72c",
+      "headword": "물꼬를 트다",
+      "part_of_speech": "expression",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "05177413-b1b5-4ebd-b30b-1a03f3ad0106"
+      ],
+      "example_ids": [
+        "7062e15d-c40c-4604-a7eb-ae2592b76d44",
+        "441db083-3667-42e2-9f8a-7e175e36665d"
+      ],
+      "note_id": "9c1df77a-67d7-460c-ad41-81b6e03a1205"
+    },
+    {
+      "id": "8f9a0959-906c-44e2-a628-0781701e5602",
+      "headword": "변화를 주다",
+      "part_of_speech": "expression",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "4a322ad9-be18-43eb-a803-29d02ea5d041"
+      ],
+      "example_ids": [
+        "fb4538eb-d820-4929-bff6-acf8d9f7f23a",
+        "9cca75a5-116b-4040-a3da-fe29ad1136d0"
+      ],
+      "note_id": null
+    },
+    {
+      "id": "b86c56f7-5957-421d-83cf-d599dfb5406d",
+      "headword": "균형을 잡다",
+      "part_of_speech": "expression",
+      "level": "lower_intermediate",
+      "subgroup": "B3",
+      "theme": "原因・結果・変化・問題解決",
+      "meaning_ids": [
+        "b7837577-81de-46f5-a3d5-486c4e9cfffd"
+      ],
+      "example_ids": [
+        "842a5826-c670-4b72-8f77-790c7f2e9083",
+        "b35f540e-acd5-488f-984e-792898c8e8f5"
+      ],
+      "note_id": null
+    }
+  ],
+  "examples": [
+    "f689bfe2-5f3a-431b-85fa-309edaf44f2f",
+    "d6d47e5c-790a-4913-9f8d-05c89f65c53b",
+    "1d6c2673-4edf-4887-a628-167cbf296a58",
+    "188c7341-2db0-43e2-bce9-b18ebc46156d",
+    "a350cda5-7c40-4eca-a244-7724fe55e482",
+    "e2b72808-b426-473b-9c5f-907bf80ac6fd",
+    "7cb8bad9-b587-458d-8da2-c18c1a18ca93",
+    "ee81111c-3c00-42e9-b1c8-3baf87f98717",
+    "fa7c0452-efa1-4441-9c23-c2c6956d512d",
+    "01833473-053d-4240-bb1a-3c7d838bb8be",
+    "6cbc441c-ceaa-469b-9e6a-1f0c68a2a5d2",
+    "61cb4435-8160-4d50-9de7-8ca393658682",
+    "1665a361-77c8-4aaf-8604-233dff8c76ff",
+    "b72ffb27-ae75-41fd-892f-22df096674e7",
+    "2922a698-7a1f-44f0-9b73-63d256cbfc79",
+    "b986b9fe-3bfa-4413-b415-8a3997a630a4",
+    "daf18d2e-56c8-4899-a4f7-ef04f9e3441f",
+    "72e131f5-a584-4561-b500-7ddd412f9561",
+    "4b21bdc9-2755-42e1-be21-01a8f5d3d759",
+    "9ab5fc85-51df-406b-bd25-120be75531f3",
+    "16b43452-e0bf-4335-8838-06f365a36f8d",
+    "a8c40f3b-d90a-4403-9429-d60034902106",
+    "8ca53dd1-3bae-4ee6-a4cc-9018e959a0c5",
+    "5dc3e8a2-ed19-4486-bb03-f896d34c7b11",
+    "fc846c3f-5849-4136-9c48-d5d01b264b82",
+    "044c9046-86f4-4c37-85ce-574a24a58368",
+    "5cc49845-dcbe-4a41-959b-f441f249845d",
+    "6e4aaf26-39ee-49f7-bf64-cfd8f1d09c2c",
+    "4fe5314c-3c95-4bd3-9591-992957047827",
+    "38b649ce-e33e-4788-9c8a-7068486ae49d",
+    "3d65005c-633c-49b2-94a9-733a9ff45a81",
+    "2e47b757-c16a-44ae-8628-e46d5e88a736",
+    "6270bb13-690c-4763-a821-c2f05c3e290d",
+    "565e2084-1069-4382-b207-f0db930ba18f",
+    "d3479279-93b8-4de6-940d-3f0cec4c0cb7",
+    "701bdc21-0ad8-4e3e-8bec-72ee26c26f24",
+    "0831d0ff-7dbc-44a3-8ff8-7ad4229806a4",
+    "4fd794f6-bc8f-479a-9154-3c151af2c2b5",
+    "9169620c-f29c-41e4-9e27-6b5c3e4a2124",
+    "11ed5c4c-f7e2-4d74-82a2-dc69a627246f",
+    "bb866d07-1842-49d2-9b3f-c2c4e59b7b07",
+    "41964f40-dd14-4eb4-8cae-4f8c4f989344",
+    "1fb6661e-0c5d-45a6-9aca-ffd4c986ca3a",
+    "f1e97640-a8f8-449c-b079-d4924d24e9ff",
+    "fb6cea0a-e8aa-4f49-9eb5-9318a629d14d",
+    "42de2712-1542-4c71-8567-73e5f710219b",
+    "6d5a07ab-ffc1-4fd6-bd6e-77bc22dd8e20",
+    "248c5e18-772a-4857-8f30-bee318f3505a",
+    "893e94e2-ed2d-4444-8dd3-1c4fa6a46bf6",
+    "479c1573-dc81-4ea2-bf39-c2a7d48eae4a",
+    "d916327a-8c6a-4a77-a7d0-8b8a909303bc",
+    "b1e55bd5-9f0e-4467-afed-f55bf5738d28",
+    "784697ba-8a83-4f0d-80ee-910794ea7479",
+    "022aab75-8c6d-4187-a468-72a308338572",
+    "8093e492-714f-4b70-a32d-21575218b1d9",
+    "80bad380-d03b-453b-81b6-dbc505d1dceb",
+    "86759a2c-40c0-44c9-8f5d-d6d981801c2b",
+    "8443185a-7462-402f-87cb-d5e76439ba2b",
+    "a72e7f6c-394e-4bd0-8db8-5d5b5c898f39",
+    "47b30dfd-2da2-431a-a1cd-b8ddcb3d2ad8",
+    "3882ebb9-5061-4773-ab38-6f6d0a93b498",
+    "21fbd184-5853-468a-b106-8e779f3bac87",
+    "19befce9-0e62-4d6d-be63-4481249004f9",
+    "30607a01-903b-4ffc-aa81-d4fda10f5eb5",
+    "70e24bf9-1233-455f-8d85-6b0c110868e6",
+    "1abeaaf0-de05-492b-bf59-9f5295ff92a1",
+    "3358af05-1946-4884-abf7-1a55434d13ab",
+    "e908e7c9-922b-4917-9931-a5426a9b9fda",
+    "b31b8d28-74ef-4949-8731-8f6c0eb1d586",
+    "57a7e19f-b308-4811-8a3c-269ad9dd4db3",
+    "63d0fd52-d086-4d20-a3cb-875219b47c21",
+    "c2e10a93-8f24-4c08-a9ab-cea2c97aaee6",
+    "ea5180e1-3fd7-43df-ab89-549c055a701e",
+    "15231e51-a346-454e-b445-b0ad8e6f03a2",
+    "67ed3264-57ee-4411-82bc-d08fca81d78b",
+    "289ee462-c2c5-426e-8a0e-28d89ae195fb",
+    "3590340c-ded5-4d26-af5a-6cf12f064f30",
+    "4d8d832c-c0ea-4892-b622-9402ae4f83f3",
+    "02a006e4-6a48-4863-b599-c2bd0cc6a8b9",
+    "cc1f35f0-85c6-48be-894e-48e8704f8c93",
+    "bd72f798-327a-4eba-b986-22b6f2740010",
+    "7acbf48f-8705-4e2f-9211-6b9c34f93e01",
+    "2a98d099-e067-4230-bf2c-24f54b33775d",
+    "c7917010-6d42-4569-b3d9-d26ed99b216c",
+    "c7679e98-58c1-4c67-a437-e9b44c6d0818",
+    "80bc3ead-9bb8-420f-a881-11257108981e",
+    "0de2cd4e-e034-431e-bae9-3becc29a2a27",
+    "897b342b-1c51-4f34-a089-c8257d6adf0e",
+    "cf3628b5-a064-44eb-b36b-c0481ebbc74b",
+    "c77250ff-15ff-48ff-a9a6-11f8e84ecaa6",
+    "ae2443af-67ac-4265-aa27-592404f4fcb2",
+    "e6f5cc78-6a06-45e6-b0d0-16c033e0c4c7",
+    "3f46d6a3-27f8-4fca-9472-221300c6d583",
+    "dfd59f33-4dbc-425a-9495-14aa32fd6c59",
+    "33dc138b-2394-4207-a199-ab7b87c7ea51",
+    "c5690d85-3f26-479d-93b8-4ee5b960d838",
+    "2289959c-023c-481c-a3b3-2ef37c256862",
+    "b8efb8da-7189-4197-a608-2bcaf275cbda",
+    "228f177c-0d31-4c82-b909-7fec3cb09a80",
+    "74f9c8db-9b64-484e-bf9e-c2c4dbe8769b",
+    "bf27fc61-9cd5-4637-bf13-1f05fa77b0b3",
+    "4132aee5-22f1-48dd-bfa4-c3fda63bf103",
+    "32e01a04-bcc9-4344-9af1-0a825937d262",
+    "9ff63132-0950-45a3-aaf6-685bc0d2e88d",
+    "54bf3074-e6d0-4339-b792-a4f1782807b1",
+    "40d689e7-0ebf-4b48-8130-4b2927bac68d",
+    "65069233-8cac-4273-bf71-7cfee906ed22",
+    "6269a27c-ec6e-486c-a173-90fbd184a858",
+    "b06527b5-4466-4c7d-b46b-6f33b0c2abef",
+    "93d7e17c-1895-46d0-b736-3462f9353f57",
+    "f94e6b0f-b50c-40eb-972f-dbdb20233048",
+    "dfa44794-a30f-46d1-9e6e-a33c12b66e70",
+    "26b3d30f-7db5-48fd-b4c5-d16c13e571d6",
+    "40e4a477-595f-405a-b8be-5aca8b8ecc21",
+    "34f26a08-b327-49e0-a913-7ec5e1861159",
+    "82339275-425b-4854-9835-7f2248f0c058",
+    "3b61fa4e-49d8-46b4-8e5a-75342c93788e",
+    "4b1634f5-2d65-4cd9-b46e-f8c51ff5cc68",
+    "fe03aad8-87f6-4c49-8195-7676dd2e0f6e",
+    "96b2c90a-600e-49b7-9dcb-de10233a119a",
+    "12641322-30d6-48cb-aa15-63b9dd45d12f",
+    "50ad434b-27ec-45bd-9203-511170bd1494",
+    "09ca141c-5618-4918-87e9-abe152e46359",
+    "578f1b6f-e421-46fb-bb97-206868c86206",
+    "7b4f7117-acc5-4c12-832e-7ead28c85865",
+    "3284fe12-6985-4bb3-b659-3113437d51bf",
+    "f6930d27-c9ba-4541-9192-d2c672d00091",
+    "d6f152b1-70f3-4628-b626-944641861d26",
+    "5a546967-c4c8-4649-8b4b-9271498b8cd2",
+    "2cf1a4ad-37b4-4d85-8a31-0d7f03447446",
+    "a85a7599-68c9-4d3e-a3b1-ad746ab39596",
+    "41bca0d2-1773-4c12-b381-4eb50f959ef2",
+    "fabf751a-1833-45df-bdeb-23dc464849eb",
+    "772ab3f4-cf31-4ae4-a364-23022ff2a49f",
+    "ce401ddd-ffc3-4426-b190-40eba8cb0cd5",
+    "7ace438a-ed24-41c7-99e9-f404a894fdec",
+    "2447ff13-1940-4b36-9374-f079a4832238",
+    "f287c774-057b-47ec-b497-b2327c7c1f6b",
+    "ad38b813-c54b-491b-ae80-15d37dbd22fd",
+    "aa378482-7cf3-4159-8633-3f01076042b9",
+    "f9145e21-c3d2-4704-85d8-365cdd5b9af8",
+    "8f016f53-bfd3-466e-8640-bfc753531792",
+    "a86b9efb-761f-4164-8c96-8e8e6e7e1748",
+    "111fa8ab-aaac-436a-885b-cfb1c7e26247",
+    "337655d2-412c-4af0-a0be-84c9bbefcace",
+    "5000c516-472a-4fc3-921c-73d24f5788a0",
+    "0750e78c-128e-4cf8-935d-24d6ab792f79",
+    "e3931426-cc79-4001-9573-53208f8bf0a2",
+    "8151c0e6-4746-4348-a240-20fdd1b0e834",
+    "9d09f078-ce98-4daa-9cc5-d73b2e243a37",
+    "38de6a65-58e7-4eb0-97df-1d8b21496add",
+    "0a2a73c2-7926-41fc-afd2-b4e6a721c613",
+    "c70c079a-89f7-462d-948b-d51b8e5dc0ca",
+    "e19563a2-ace5-4a2c-bc1b-0b9411739908",
+    "1a531972-d830-4ee5-ac9b-c628bd5118d0",
+    "61d2eb15-a953-4502-a274-cf276a3793c5",
+    "f426b112-0188-4a82-90ce-3516acd921bf",
+    "c2844588-150b-4602-a595-1cb8a7915194",
+    "3a17ea3d-ea72-4399-8d75-1b8a2d64a6ec",
+    "baa7d6ca-acf8-4c0c-bf9e-3ec35e521c24",
+    "6a8eed77-5038-484a-a299-2f46644ceae0",
+    "821e9f79-e13e-4cd8-aa7c-65e5990f18c0",
+    "e9bcd0bc-9106-4ed8-8aed-7596cf0d6020",
+    "5cbd88b6-0c85-40dd-8f44-0667c071ac1d",
+    "de7513b4-95a2-4016-86fb-56f684c7a01b",
+    "81d2ae2e-957b-408c-b4aa-7c6ac52cd822",
+    "ca51526d-d953-4a7c-9d8b-dfda97ccc6a8",
+    "532d41bb-37eb-43a7-b072-6a7521ade3b8",
+    "8825e54f-2349-479b-a711-c65f5f5d7229",
+    "1b5e5060-b6ed-4b34-88d8-ecddddee7b0c",
+    "97a97def-1aad-4f2d-ae28-9a4c78be1dd1",
+    "aac299fd-41e7-4b40-8df2-0c42d3d1ca3f",
+    "1b1db0f8-1cf0-4ddb-8c48-8e6606b5fa2a",
+    "d9a2c15f-da65-454a-9054-acb93dc16afc",
+    "b2297930-f966-4540-a742-8bfef3ca479a",
+    "7c30dedf-6922-4546-84e0-88de8b1b2589",
+    "4751f8ac-c0bc-4ad8-af50-2dace596310d",
+    "1fdcb2de-a35d-42f7-bc6c-67f81c631447",
+    "ea129411-3894-4700-a713-9d0e07b8f3c0",
+    "8c22d20b-7f4c-46e8-ac8d-76925f925c65",
+    "938d5512-7e99-4976-8e97-8c00f56d97cb",
+    "2135a98f-f17e-4a7d-b258-45daedff8052",
+    "982d1507-cb38-4d9e-84f8-1c0a1677f6b8",
+    "696ab002-b53b-41a6-9a7c-315f3847155f",
+    "e5da1a1d-c7d8-4fa4-b180-ea557851961a",
+    "93e021c5-9925-4706-9608-1cb2e7ba37bc",
+    "0701671a-af8c-46cb-bd3c-6978ac62da11",
+    "fee50b0a-afae-4411-8912-08aa7edbbd62",
+    "c54d6eef-6c6c-4bb1-9221-c294f2508727",
+    "48f37d06-0608-4990-8112-4e7fd082192b",
+    "6c68e443-d424-43b8-a81e-6eddb006ffa6",
+    "532dde5e-571a-4033-9685-eca490be91e9",
+    "c9908294-e0c4-45c2-bbce-766066a9b76d",
+    "7c5dc0db-a599-4a62-b901-2282edc6f4ca",
+    "ac7187c8-60c8-4826-a307-954c0d1ef8e8",
+    "be54e0b7-bb04-4683-823b-ec7d338ae6cd",
+    "5a29f7e4-38d4-4a8a-9835-e11aeb496526",
+    "a3326bd0-d370-4401-9209-38a72770e92b",
+    "855b5ccb-697c-48a7-8752-3c71bbf6053e",
+    "4c8ee8b4-37b6-4f37-9848-a643848ab3e7",
+    "765cbdf6-881e-4ce0-9d05-010fb67c5537",
+    "6a48786c-4945-49bb-9f47-ded0e65d0547",
+    "5b061f47-e691-4f97-9517-5f194bc06998",
+    "a473a310-766c-436b-b623-bf5dab4e0739",
+    "fe46086c-6ee8-470e-8d2a-690d35bd92bb",
+    "24c158fc-63b4-406e-9264-f59fc0f103dc",
+    "9123645f-d50f-4269-bd6f-d3bcd0f7f4fb",
+    "35760e69-28b9-4099-a7a1-de0b2a36f829",
+    "09adcbc4-2de6-4661-be55-71cd3cd60fff",
+    "e4b1759f-3df1-45ce-9bcf-4a1ead01ceb2",
+    "b6f60849-7746-43ee-8009-eb5b5489e956",
+    "bf8ec5d0-5082-4a62-af1b-3626b161f656",
+    "28d17b2a-af9e-4256-a33b-86011935c1bd",
+    "4e14f552-6bc1-4570-8895-6e7f7e5f4f1e",
+    "c795ec55-64a7-4593-a948-239e072f661f",
+    "8d15feb0-8543-4f29-98a6-664f602b3353",
+    "7b7a37d1-7f6c-4b16-a182-90ed0589b662",
+    "657d08b5-e957-4eea-ad38-722c63162434",
+    "7c6be1f5-71df-4e1f-bd94-7bb8e0fbb73c",
+    "f43ff614-7078-49fa-a76f-24a31664e56e",
+    "ef2064dc-cd7b-4e66-b8c6-91b189bc6435",
+    "2cf920ab-fdaa-4985-ae86-c59bdc150bd2",
+    "1f48f511-f295-46f2-b856-766241a14f07",
+    "912efa77-e5df-4b6f-929c-96e3edd70f63",
+    "30048210-a421-455d-82cc-122da112e4d0",
+    "c5d474be-f72a-4272-9666-6323f42d1d5f",
+    "f5a6fd54-a481-4133-8f77-85cf669fefeb",
+    "e4a8945b-6eac-46ad-bd5f-a548582c3b45",
+    "048edbd9-bcf6-4e97-bad4-a9f7b534e6f3",
+    "f02da715-7c9e-43d3-aaea-6d454986f550",
+    "184cd021-0d5b-45a4-ab00-4dcadcd82cc7",
+    "ffc7471d-302d-48f0-9e6f-fb247b92308c",
+    "d11c94b2-0e81-4e5f-8cc6-982e49690d88",
+    "d832d892-8e58-4647-8cea-803b49e97180",
+    "59bf7fed-f1e7-4f03-aa44-f8bbcfd7aeb6",
+    "13f52360-014a-45d4-9c0f-711b666b089c",
+    "9fd5fae7-6c87-4485-b202-7fa854549b9f",
+    "56ca5cbc-d3c4-4d2d-aada-82aa8d3c8630",
+    "06d37bf4-f131-414b-b101-2e61c57cf437",
+    "551d238f-c2e2-4fdb-8935-14e8bc5ca332",
+    "171e9db5-2ddf-4fcd-a357-72c1394f9da1",
+    "a04d2c56-9363-421f-829d-b601cd6b6cf2",
+    "f7b3be95-19b1-49e6-b18e-3cb683949614",
+    "e90e1c81-cdb2-4302-b576-a10423d93389",
+    "b7036b73-9ec8-4c81-be5d-b8f227a3c048",
+    "a11f76fc-748a-411a-b3ea-dacc9b871d95",
+    "c5925813-13c1-4908-b1af-23f94a925498",
+    "1644f821-e6a3-4536-ba90-be88ba574d33",
+    "9352438b-9e57-4969-a840-23046713c43e",
+    "63c7710b-0053-42bd-8837-3fc800febf8b",
+    "b78d8c47-a8d5-4323-99f8-dd92199aa9ee",
+    "c31a9da6-60e9-46c7-a6e5-8d5e13eb5cf8",
+    "3a119a96-786e-4ce3-9219-fa153f1e458b",
+    "91a82c3a-dcaa-4f30-9a2c-7ca12afe551c",
+    "8677b015-4589-4544-bfd7-06ef646ce2b6",
+    "d64f39c6-0bf9-4501-b772-e56d842f4585",
+    "18e8dbb9-3d4b-410f-ac72-fbbff944812f",
+    "63ef78b7-d163-47e2-8951-6109bcd520ad",
+    "e721fbb7-b425-45c6-983d-68855f4790f0",
+    "fee5edae-13c9-405d-9e09-841c05452f24",
+    "d531a090-62a0-4346-bac3-c8c3e1c3513d",
+    "b01f96dd-657b-4dd7-a976-515419eec713",
+    "e6468b48-7188-4f86-b46d-cc8c1263e776",
+    "e811a108-583c-4d1b-b9cd-f613f08a0a40",
+    "8327090b-ef6f-4dfc-a938-7cf274d5f4dc",
+    "57c79282-8972-4871-a6ad-031c6515e38a",
+    "01c03f8c-8c9f-447e-a6b1-9f0b387dab47",
+    "74ee3987-2054-455b-9109-a41d97fdeaa9",
+    "87bafad4-dae0-45ea-a3d3-85e162378edc",
+    "5a43e119-ef6f-4451-ab12-b58d382e0c80",
+    "10c8198f-0bc8-4960-85f0-6fb2302ba504",
+    "94eeb696-1466-4093-828e-385c0379bdb2",
+    "43e647fb-7eaf-46bf-adfd-6a939691d36f",
+    "914661bd-ecb9-4d13-8baf-27655b0ce4d5",
+    "763a75f8-2356-437a-99af-48999d3fe232",
+    "2621cbd0-d19e-4132-8956-9a5a5b90be56",
+    "ff3b7101-d559-4fa9-b102-76347eade763",
+    "3c0b1bd5-a688-4fb5-bc86-7c7fe42ff933",
+    "4437ed94-a390-4e96-8029-113de1dc38e7",
+    "680fc7c9-f22e-4769-a3b0-bc1298616403",
+    "6504456a-7572-4f6a-9e91-c620a2a99e10",
+    "86338b2a-8287-475c-ad54-a07410aed360",
+    "0ede3d6a-de2e-4ebb-a047-4b738a85aecc",
+    "92585cbe-3e12-4e65-9f14-b8ae44cf2228",
+    "c69be139-ae8b-4fa2-a45b-58537400de77",
+    "c308429c-5d0f-40a0-a18e-210d6d89586e",
+    "444f2549-a193-40ca-8948-a43eb6f12a95",
+    "79ab19b2-f18b-4dff-ba55-10c5ec57c310",
+    "fd011d3a-5e67-4f9d-a311-8634a69d5b0e",
+    "3d0eb1a2-b149-4d0a-a330-8b128eb48324",
+    "c20f64fe-4b06-4de0-807d-317faf1776c8",
+    "04d6c197-8862-4eea-8c32-45175f1c05b0",
+    "1a3a948d-6624-4e68-8bba-3ddbc0d5329e",
+    "61a4026b-6baf-47c4-a2bd-512622d60e6b",
+    "173a41d8-445f-4a3d-ad33-9bcd0db49482",
+    "e56600b2-2a26-412a-95c8-d9e8e2185304",
+    "106e2636-439f-425e-a0ea-6a0df074358c",
+    "3e932606-27c2-4872-a6ee-e3617f5a688b",
+    "a3e09c1c-030e-490c-9f3c-81fa4b4ef470",
+    "d2c800eb-b482-430a-a982-5248501352fa",
+    "7d07f5d8-d9aa-47d2-9d06-cdffc676542b",
+    "2688345e-0aa0-4b4b-87e6-3ef834b69f35",
+    "186d7260-94f0-4d1e-a4f7-af9755e9e8dc",
+    "2ac2a04d-9135-42f7-9665-90707a1b3e47",
+    "ec8d9742-c774-4d1f-82b6-da0a3023d8f1",
+    "c39709db-fd83-43d8-8bf8-ca700b95de3a",
+    "cee9f672-f5b1-48f0-b51b-90f99f8c469e",
+    "848b1d25-aa45-48f6-aba7-d613f0f2b8e3",
+    "832bc02c-453a-463f-b109-78d385cfdef8",
+    "bea97eef-5d84-48b5-b095-a5665c3544bc",
+    "45297645-d244-472e-89bb-17d93c5961fa",
+    "0dd6cabb-7abd-4bc0-b96c-e2fe163beabd",
+    "412eae0b-3907-43d6-8361-b6207a56bf70",
+    "aae99c40-07e3-4097-af89-cd00e6ce9f50",
+    "067054c7-fe73-4079-a862-d467654f007d",
+    "bb1c1258-68aa-4459-b60f-5a36e306a180",
+    "69d96268-13f7-4cb2-a826-3d390e5d8f26",
+    "6fe8d49f-0299-4d56-acf5-665869266fbd",
+    "7734a720-3f36-4966-89db-824c30b4f211",
+    "3f4fc3c2-31a6-4eeb-b5e0-5586e40a08c5",
+    "f3e3541e-e9e9-4cbd-843a-26c07d39f138",
+    "44ea10ac-4044-428c-8e4b-8133d732ac0a",
+    "b789a474-8b91-42c4-a12c-1a94da945976",
+    "e599d6f3-928e-496f-9207-cc4342746510",
+    "b9157412-ec69-433b-b3d1-5183a89ec57a",
+    "a4951730-701a-4279-9fe9-a6fa263e93d6",
+    "ea4397b5-27f1-47fa-adba-55dfa76ce43d",
+    "dd81c3c5-3a21-4724-b780-2d260254a9e1",
+    "56c588be-4bc4-4f07-8f3b-7875ad51080e",
+    "458a1558-0ce7-492b-a373-feb3f2eb32af",
+    "9307dd8e-2204-4a32-97cf-8c5fbb6e9e0f",
+    "9933536a-724f-4a5a-a9d3-d7c5c90d1598",
+    "0ef3e0f6-f5e4-4b55-b17a-cfac32153c25",
+    "3df77289-db37-4568-8ca8-bc1323391d80",
+    "12ddc143-63ea-4e07-847c-3c0aa44cde86",
+    "ea25c8f1-bf83-41fa-ada4-73d5a0c4484a",
+    "20522dbd-2414-437b-a02e-116478bf3b59",
+    "ea0e29a1-f3e1-46ca-92b9-2a6f90ec80e2",
+    "997bedfc-df68-4bfa-bd4a-2eadb7317723",
+    "84556652-e49d-4d87-826e-7aaf4aa99f58",
+    "31b11b0b-0432-40b2-8b24-133129d33555",
+    "8acd83bc-7ff5-4cac-87fb-d9576f081fe7",
+    "0ea3ef3c-7fb0-40bc-873b-3a55ad68e734",
+    "4e3a2e65-480a-407e-823c-114b8f465126",
+    "2523b45c-ae5b-45a3-9163-698a1e7f32af",
+    "2ddc9c15-3be5-4f8a-bc2b-f7c016a1ba23",
+    "ff796ddf-d6cb-4644-82d2-476bce8a295f",
+    "79245039-0247-4c18-b621-ab7e51805b49",
+    "96a76292-b18e-4697-afd9-1c6598d9a0d5",
+    "0d5ea834-3f3f-4285-acfe-81b9d785ee35",
+    "c5432d8c-897d-4c23-87ab-903531e17966",
+    "5539cf2e-d915-4489-aef9-2de185caa49b",
+    "f1de928a-1e0b-489c-8410-e25448fe6c34",
+    "ac5ebebf-2ace-46d1-a734-d8d97cfc4c77",
+    "b55c5434-da79-4563-aa1a-cbc89273e81c",
+    "a50e019d-38a1-4028-8735-0fe713c9c84a",
+    "67bfc7f4-c584-402d-8714-c65ee8f4f044",
+    "29182323-2ff9-4e73-b0b6-39cf5f4e2e34",
+    "151cd875-80ff-439e-827e-30d2dd752ca4",
+    "28fbf8cb-5801-4bc3-90d0-532109e4eac2",
+    "4a6195fc-b5a6-465f-b717-304ccc9e41bb",
+    "e46b6124-acb6-4ac2-9741-054280e78342",
+    "7de5463b-1bc6-44b1-b6cc-fb944d0d7bae",
+    "6c050333-006e-4b4a-a171-229f14f3dac3",
+    "da0138ef-9f53-40cb-9d3a-dc994c1ca53f",
+    "419de64b-b198-47a2-955d-62c6ba2f7349",
+    "621ad70c-a493-4f47-bf89-873f62d55673",
+    "53ca1515-893c-4cb3-88f3-31f66d65c68f",
+    "140cfe81-859e-4ece-b35f-9b0a4ab16b46",
+    "58eb34d7-5da9-433a-bfe9-cd4716283126",
+    "5531bd54-d98d-4201-86d8-08cb61a764b6",
+    "841cdd16-b655-4166-8bff-6b247b186240",
+    "d9e5aa6c-5281-4638-aeb6-465e8977acec",
+    "4ffd3f13-c62c-40f9-a14a-3bbff77a824a",
+    "8b31b8ab-e55e-4298-88e9-3d31bb269292",
+    "447ddfee-577d-40d1-bf2b-06a57d4b0ff7",
+    "272953d1-959e-4895-9dd1-79e51ef3effa",
+    "23362eff-a11a-4a08-baf4-999554e43d57",
+    "0d4d4af7-4c8c-4bdc-8396-98c1b927871b",
+    "2c430e9c-7bf2-48f5-8073-214e1e849cc3",
+    "e305aa56-e38a-4337-b38b-1093ee333bf0",
+    "264c52c3-9f59-43d6-a1a9-2a2a33246214",
+    "21780043-35d5-4700-91b8-6f696bd01ee4",
+    "41ce05c9-f60e-4950-9966-4fefd1f24ab3",
+    "b1366a16-bb2a-42b2-bc3d-02a22422a22e",
+    "2bb78f76-676a-47f5-8390-b0ea37cd4ce2",
+    "0f21a9d1-baf9-4e9d-adfb-5eab5f4a3eb8",
+    "546d8f87-b3cb-46d5-bf0d-177c8b040dbe",
+    "152ec300-a0b6-479e-878b-ef6d19773fdd",
+    "f9d46446-1843-430a-a1db-8a9129e1692a",
+    "62203e54-675d-44e1-b33c-291f52d4969f",
+    "808a52ab-9199-40ca-80e8-0dec87fddda3",
+    "b13b87d6-efbf-4130-acbc-191ce1c6b6f8",
+    "2b96fbd3-d1c2-4f6b-9148-cca2427307b1",
+    "301e65ac-440e-4d9d-9922-9aec8b72e6e5",
+    "88b3db0a-76fb-4fa9-a706-a175fb08a2ce",
+    "55780fba-6695-4d69-a60d-11c0d3cd6d21",
+    "8cf32791-0faf-4d61-907f-b13c80e6dcfe",
+    "32d2a4f3-ecbc-4316-9f23-08774e23fa03",
+    "892a5f7e-06a4-4937-8988-12d6c2e6d756",
+    "8351d24b-87f2-49dd-bf04-cfd84d2f72e5",
+    "df88c9ec-24a3-431b-9359-100eb6f12cc1",
+    "e197fd93-9b21-4a56-9e7d-ec38d694f0dc",
+    "6980d998-310c-4a87-b230-e8d1fc5a9731",
+    "02f94d57-02f8-40c2-a8d2-3377f075363d",
+    "785a38f9-04ec-405d-b5e8-eba0e3cc8986",
+    "c9f9b1ed-cf8c-41d9-b8d6-4fb4ed3996f3",
+    "3f57c744-6615-43ca-a54d-abf7612b15a4",
+    "8980fc73-bfb1-4e47-8562-b3be74e7bfb2",
+    "1efdb582-8efb-4e77-bb12-0565f73c66b6",
+    "f77a3c75-5ced-438f-a9ea-6c8ba015afd9",
+    "719608b8-736a-4659-afaf-406a569e9b1d",
+    "3f958dd1-7de2-4d69-ac1e-1e52c14c40cb",
+    "dec2d04c-cb1d-4352-9810-8de8872c262f",
+    "68f782b5-836b-4721-afb3-87b1cc8ecbf9",
+    "4008fa65-a488-404a-92b5-417f4869a0f2",
+    "5bd31b0a-f215-4c1b-99e8-e9ba6e597569",
+    "d845dee6-13e4-41c9-9fca-daabbc8423aa",
+    "3119d63e-83f3-4950-addf-82ef7e8c6b47",
+    "f72a34cb-4d92-4e76-8df0-a695d61d7c4d",
+    "762750ad-b6fa-458b-ae0c-1e3753ac6f88",
+    "52120417-42cf-4fc8-bf1c-31f47503560b",
+    "937a3f80-b55c-4377-b717-cb80fde45e47",
+    "df27ec04-56a3-41e6-b7ea-b776b8bd262e",
+    "16dd6f7d-c307-4a17-a866-bc0f61e79d8e",
+    "e6b258dd-74be-46cd-ba3f-f5d23d29b5af",
+    "ac798ae5-3827-48ec-ae6d-feb0e3e5bc62",
+    "9a7788fa-6ece-4054-a796-942dc3b9d59c",
+    "5db5a91c-e745-4c28-a419-03018dbcd70b",
+    "f31c9e84-5628-4922-b60c-be4c5468c9a4",
+    "aaa82744-b476-4c7a-89ef-72fe3fbbe23e",
+    "4110cd45-bc26-4a84-99b4-0b1f4d933a20",
+    "d396c5e9-6f2a-4ba6-a5e1-8b6130b235cc",
+    "104027ff-64d0-4566-9746-4008d3452795",
+    "70d5fdd7-67ac-45ae-857e-05e5dea6e891",
+    "8ce76227-7d8d-41e9-b78d-d79bb0b74fe5",
+    "df230576-e55c-494a-a811-88398e131ddb",
+    "0a493507-06cf-4e8e-b62a-f87ed5ceca8c",
+    "65c54225-3353-4e48-997c-320e79e7feaa",
+    "23051279-c557-45fe-9e4d-3d8fd5d72a58",
+    "d527b7d9-f504-43b6-9c7c-29d52eb9e9d5",
+    "ecbeb13c-a653-43c1-974d-159a78a0c0b4",
+    "3faacbe9-6492-4c98-ba08-88fa012eae6d",
+    "09058268-07e6-4d47-a21b-c1ed9e9fb317",
+    "21121b1b-11ff-4997-95a2-bcfa08da30c8",
+    "9b218a90-4709-46b1-9cf8-6ccd1bdf1abe",
+    "10bbeb3c-b063-43a7-a413-5335798476a9",
+    "ca375b92-6cb6-4711-b054-14618214b6fd",
+    "b59b58a0-8abc-4b52-b753-1729c56f5a41",
+    "2d2e12fb-04ff-4d74-b179-7b9131c63f50",
+    "1600905f-996d-48c3-acfd-846c0b45af24",
+    "442ee548-9c28-4bac-8e4f-ca829968eaea",
+    "6c7eacb9-7413-46ca-91ea-5d8cda5565b3",
+    "1deef989-ff66-4ab3-8edb-2cc0ba237e94",
+    "626b75b9-a1d6-4fc2-a28b-f72ae29fbb15",
+    "26d184a6-a059-4f07-8e9d-5a4c310b8ce1",
+    "98fbff7f-4c56-415f-b7d7-562e670393c6",
+    "1de21bca-fc07-4f81-be24-931427ecb090",
+    "9fb91734-16ec-467e-a3b2-f7cb80cbf639",
+    "e01e0d0c-e625-4234-aad6-6a54de8b653e",
+    "e987ec6b-c74b-4c01-8172-0440821bfdbd",
+    "0cbf0976-6601-48cd-afd4-e49b98d7115a",
+    "a2551fbe-c983-4127-b9e3-aa5d003ce893",
+    "20aa6053-cc63-46e8-ad18-7993e340b8c1",
+    "c0393c13-857f-405b-b599-ba98d4f1569e",
+    "48c039ef-f478-4a2a-8193-d77c5ba43b2c",
+    "188b1ba4-3157-4ba0-a18d-3c9ed1a72092",
+    "ba9321af-dd8a-402b-99f1-9ef8c5c4e0f0",
+    "d5c1cf87-ba8e-491c-b448-62531cd4b3ba",
+    "26cbf029-689c-4524-b354-9692c5db2205",
+    "ca948222-f5d9-4f39-8437-c76270cd4979",
+    "e4059040-c1f4-45c9-a00c-47e74cbf2402",
+    "e22519ac-1fb9-4d54-88d8-850973299654",
+    "21ea34fd-0db6-46d6-bf2a-00a0b34737bc",
+    "3ebf6c69-4037-4f69-888d-2f7900992225",
+    "1e176264-fa56-4b7e-aad5-1211050771ad",
+    "1601c5c1-d175-435a-8de6-6100fa6bfd2c",
+    "d56ba17d-72ee-4612-9470-2557c8f99c09",
+    "3b749a22-3d47-47de-a96d-d629b85a2cf6",
+    "a928def3-6013-43bd-a04b-2075d9f26a96",
+    "2d4c142c-069d-4329-bd52-37c2fa0d7435",
+    "274998f2-f826-479a-a62d-f97e17d48eab",
+    "77314712-46fb-44f4-ab90-ab301af3b4f6",
+    "81129243-9d33-40e5-9c38-36c74616100d",
+    "7e6cc2d2-e812-4160-a361-c570415cfb0c",
+    "8141ea0a-b82f-4d32-9059-8c2025d92656",
+    "ec8a70f7-aa64-4e1b-90f2-db0f6cc46a79",
+    "a879cd46-07e5-4788-92fe-e2ea0fcda779",
+    "286e2d67-b30e-43e5-8c7c-a10dc6cb93b0",
+    "753681b3-b239-463c-9e7c-c4a82ee7c183",
+    "354205b4-d5aa-4ded-b673-8409acea2c64",
+    "ea142280-db22-4f39-8e83-0a0b24b550f1",
+    "4a12add1-fccd-47b6-aec6-17af1a98a443",
+    "6dfb0ed4-648f-4dde-a426-0e1ec428e1df",
+    "d98eaec3-09f4-46f3-9a06-a096e3fb7993",
+    "0baf1754-03e7-4f9c-a9d6-331181b1df60",
+    "82e7bc05-fdfc-4938-92b4-4cb7d41c3ab3",
+    "ab015aa2-eb40-4517-ae98-4fe0aeb00220",
+    "22f653b0-c145-4a21-8b06-877d609d9adf",
+    "224b7e36-25e6-48e3-9f47-969edaccad85",
+    "99fd077b-04dc-47ed-9af8-4b08801b2426",
+    "d2fdb19c-c3ff-4d35-953b-1eae8d1d8827",
+    "c3d42b72-ba30-4ee1-b88c-f9ad25b9d7bb",
+    "d67ec3eb-1c5e-457f-8e27-d5285ed2b885",
+    "15923f52-afb6-442d-9f17-520af1879ec3",
+    "ccf4ace4-ff8d-4a14-89f5-0989bff25d3e",
+    "c933a4fb-ee07-4cc0-92a4-9390d6d88e11",
+    "779c7737-866e-4f71-97f0-fdc084654599",
+    "29d16d4e-b3b2-4cf7-beb9-df715eef0cc8",
+    "051f4b69-dd5c-4d43-929c-23e05f045193",
+    "d3552ccd-e854-4ef4-8a64-e0c06855dde0",
+    "07ec41b5-6d35-416f-956c-7579c9e660a5",
+    "6730c3f3-ce8a-4b10-bd20-039fb15c76c5",
+    "51885a62-e390-44b7-afba-b2e804bf7df8",
+    "48f33f8a-6a6f-4260-8111-af9ba39cd162",
+    "8fc805a6-110d-44c0-8116-759799411d77",
+    "8a12a10d-6b13-4a8c-807e-851fed1209c7",
+    "56da23f9-48c3-485c-98cb-48d5f4801879",
+    "855232e2-4ec2-451f-a958-85e0b905df82",
+    "a1e3036d-1575-4a4f-be72-f9c90f223697",
+    "d84bfc3e-ab1a-40cd-b3de-1566a2f33b92",
+    "316fa145-33a9-438d-8bf4-3e94d577b366",
+    "fb1d25e1-1d2d-4371-8573-08a367fc0240",
+    "765bd5fb-88fe-465e-b738-0e2a93279eb5",
+    "9e51c510-30f9-44ec-8eb8-5d2441d1ae3a",
+    "95eea89e-7515-4944-918d-3dc5501fbaed",
+    "3f880ba2-9bea-4c6d-99b7-0b3bb541a21e",
+    "d1a1c580-041d-4670-9953-0c19df7984f9",
+    "72f8fcc5-81d4-4600-bafe-d4f839706222",
+    "ab25604c-41a1-4088-ae88-20ba4737d975",
+    "ba08d2f8-c8c9-4752-88ec-2f1614562d64",
+    "b3b6e0b4-4c49-4440-9843-5f78558f1d99",
+    "dcd5f2fb-fc36-4481-9f85-fa2cfc941085",
+    "8b4491a2-b500-473e-9b2b-df5ffe1d1667",
+    "2d0552a3-e828-410c-8567-e9c037fffd59",
+    "e4f6aa94-2a10-40b0-a077-6965d8edbe6f",
+    "68aa70de-9e0f-4fac-979b-2f2ae3217e6f",
+    "a9750260-37a6-4d0a-b647-adfc7a564eda",
+    "c745ac7f-2b75-448b-a71e-af0d5c8b8dc3",
+    "a1ab2490-38ee-44f7-98da-f6827640b945",
+    "06c83588-3018-4f47-b96c-698d5c4d63d9",
+    "e3741d87-7097-4250-bd6e-6cdecb8c8d3f",
+    "62dc6f10-67a5-475c-b192-1602dc4d537e",
+    "3ffe3dfb-4b4c-4945-b234-a67d42b9d18b",
+    "ec828c25-eac6-4d59-bc06-06eacd726c17",
+    "c4cfcd26-6346-41c0-90c9-1fa5666c2c7c",
+    "cbe982d8-55dc-4c84-9d6c-4fedfa65304d",
+    "5b758c3e-3151-481b-bc13-61799eb4225d",
+    "8acfcc3e-6c7c-47f4-9213-2c1ed8334266",
+    "be2a67b2-2786-4057-b709-2dc28fa4f514",
+    "55e335d5-3de0-4f3f-a320-c86bc9d42e1e",
+    "6e0b21f8-08b1-4e5d-8209-67664d05e206",
+    "869a67ec-0291-4af0-9705-ea68f7f9e0ee",
+    "2a7e6425-a52b-4daf-a55b-6d656fb96c53",
+    "c46dd6ff-e60b-4838-a7f5-67d4b2effed5",
+    "14f27a28-ab6d-4806-b7f5-39332d0167c3",
+    "6c22a419-5f7c-4fd9-b665-b305f61757fd",
+    "b83ab00c-7922-4fdd-9845-b3868ea8a736",
+    "ee0baf13-598b-46c0-8180-bc25a470eb81",
+    "fd6138b4-034a-4670-83e9-640f33514868",
+    "0c1a80a3-0cbe-4bfa-9a30-c3b5f5e9c5d2",
+    "85f524f6-a047-45be-a572-307b4d9f575e",
+    "a0115b48-2a38-43ef-bcb9-3978ad7671c3",
+    "d5d7403b-e2bc-45f8-bb2b-4d5b0e6a81d9",
+    "121f775e-02f9-4d85-8672-db8178316e8a",
+    "13942f07-7c81-4d73-9352-5a212cd4d823",
+    "09366eb1-4623-4535-ac50-80e0198014a8",
+    "ef5004db-8226-459e-8fdc-2d6dd3852c08",
+    "e95ce558-4e38-4836-929a-0199bba914bd",
+    "4c288515-7059-4c2d-b4c3-1a3f251df455",
+    "5426dcf5-6311-43a8-9bc2-d51a644c14c4",
+    "835cf5d7-02d1-4419-a49d-64ae93dd8bc5",
+    "be8c7cff-8c20-4422-95d5-049a190328bc",
+    "d53be6bf-bd98-4861-be26-005d83a663b3",
+    "d38f0789-9846-4aec-8516-e5a0dffd47fa",
+    "2542d610-8fb6-4f81-b29b-fb48dd3ca65e",
+    "b097f117-cd4e-4f80-a1cb-974d5be3284f",
+    "3d843e90-74e6-4ad2-bd4d-cdf335d6ae87",
+    "0d33a142-87b7-4576-8b0b-69e637de14ab",
+    "4ddec8b9-a4fc-4740-a35f-3416717e117c",
+    "5de4b6d2-0ed6-40c1-a788-7aea11d62ff4",
+    "cd951172-7cd4-4a80-baa2-3e38584b9328",
+    "ceeafeb5-79ae-4ec4-8e49-ac43122e0991",
+    "bca596bf-ff1d-42c6-b057-c612a8e96eea",
+    "0b47f01d-a17d-450a-b352-6cd4d565ffcc",
+    "0a0f2619-87c2-431f-b548-5944cf0ffaef",
+    "4cc599fd-a64c-4d9a-a6a0-78678afe8101",
+    "5051913d-dadb-4432-b71e-6ce597722536",
+    "ef530c97-7923-4ad7-9b35-9e66630fbaeb",
+    "6cb23565-5862-4713-aa1c-15c43151aaaa",
+    "290d8ed4-e306-4e70-bbfa-d9024363e19b",
+    "f828e06a-f494-4ac6-83ac-a650fadd4340",
+    "073a5929-9791-4b06-9c3d-3d0339085934",
+    "23ec5bc3-f081-4a87-a8f2-7797b701f1c4",
+    "7062e15d-c40c-4604-a7eb-ae2592b76d44",
+    "441db083-3667-42e2-9f8a-7e175e36665d",
+    "fb4538eb-d820-4929-bff6-acf8d9f7f23a",
+    "9cca75a5-116b-4040-a3da-fe29ad1136d0",
+    "842a5826-c670-4b72-8f77-790c7f2e9083",
+    "b35f540e-acd5-488f-984e-792898c8e8f5"
+  ],
+  "notes": [
+    "0ca71b01-adff-4169-9f8b-8cb8d2f42dc6",
+    "bd123031-e0fa-436d-9075-03e8d707e0b9",
+    "6de60199-a6fe-4c2f-af5a-27e4c08c7a17",
+    "7af7932a-c212-4628-955a-f3e7fcc07ee6",
+    "331af6a3-b249-4105-a06d-c30cbd386659",
+    "5d8a9bac-a75d-4740-9bff-0b486ff92c4a",
+    "7ffe9e1c-8db7-49fe-a473-fee8d89b6875",
+    "13a961e7-fd5f-45be-a970-08064477940e",
+    "f3d01fe7-ce04-470f-a201-81b8927828bf",
+    "4db3b0f5-6440-40b9-bf1f-ce4f7962496c",
+    "93038615-08bc-49fe-9c16-275031c1328a",
+    "d83231f4-465a-426e-9305-f2bb89d2c561",
+    "2cd505c8-5419-4559-abf5-4460dbfe18f6",
+    "3660bc64-a03e-4b50-bd21-a180aa3994c7",
+    "f740ad54-e93a-46e2-a10f-9bb8da9cc05c",
+    "0836fd05-504b-4596-80f4-9d64b25dcac7",
+    "1a5c75f6-ee19-4115-94e8-37a147279a27",
+    "5f1504f1-84bf-4dd3-89b2-ac7c29ba180c",
+    "9382caa1-9cba-49b4-88bb-6b10bb3183e8",
+    "f30aa27f-5280-4b77-838a-e96aa225873e",
+    "eef080b8-484f-42c0-a8a4-1d42ca811f6b",
+    "ac538bdd-d0c9-404e-a724-94ae7f927815",
+    "ad78f19b-52d4-4cbd-91cf-bc5074c19350",
+    "6151ea85-3add-4939-a1d0-b256a592a41e",
+    "e5310bc5-f44a-420d-9e46-8f72a6de9d72",
+    "b668ceb7-9842-44db-903f-b1543efdae6d",
+    "bb973f4b-2c6e-45a1-80ef-f4067490d123",
+    "9297c570-4ad1-4d2f-a6a3-40ae4dfaaf0a",
+    "f4b6b583-6fd4-45c5-ab05-12cdb009c859",
+    "0e5ec341-69b7-4cac-a804-8d014542ef55",
+    "006ed4e0-d96e-483f-b08b-530efb783819",
+    "6076e63b-2019-4148-9d68-4aa5bbe1f221",
+    "36d21d39-1883-441f-bdea-be0a9ca5c589",
+    "d8edc6b6-6a2d-44b7-9678-71cf31e4a2d5",
+    "f4dbbbb7-f19d-42c7-9535-822fbc246cd1",
+    "c1feaf26-a500-46cf-92ed-498b3f44cf43",
+    "7bc476ca-3f58-4565-a778-a1b8e152b8ad",
+    "6e8b2cf8-e402-41b3-902f-9ba4ac96c141",
+    "09e02139-8517-43be-8a6b-b9c233ae8d75",
+    "efd13b2d-fe89-4205-ba61-8094c50570b9",
+    "30171a54-57dd-43f0-a84f-03d6ad1a1d98",
+    "45c84e3c-a3da-4f09-aba9-807fe0c3866a",
+    "7c4d8f4b-2292-46e0-9cc8-81fd0d14684a",
+    "8a2ffcbb-f2ca-46db-8ceb-64e0fb71eb54",
+    "40d2572e-9d14-430d-a569-bca43a022288",
+    "1e3aff28-acc3-48e7-9f73-6ae594e5d093",
+    "87d70b54-919d-4d65-8c6c-9ad9a3b19105",
+    "a09c2a13-18bb-4727-8b69-54dd03bb484c",
+    "5318b53d-8522-46ac-8259-65ebb283b675",
+    "ccb4075b-edd7-4f9c-9635-0cccb0b71e2f",
+    "90a9a726-27f4-44e5-bbc6-671e541a54df",
+    "219e50d5-edf0-4ac5-82f9-da079d381708",
+    "61519136-6a6d-47fc-815c-73f0e46618f8",
+    "3120c224-9c7f-4a3f-a4a0-a5d2bc42b312",
+    "640accf6-8e0f-4ac2-9835-2f23861a0a1f",
+    "9c24bcde-82a1-4d30-8e62-8ff823f2970c",
+    "f8d77cee-7154-4210-8a26-87c434f6fc1d",
+    "35619aa0-51a8-4160-9c54-b1a843550247",
+    "a283c34a-d870-4225-a661-ff19a78406de",
+    "715808c0-d21b-4d2d-8b6c-1b96d2e01b71",
+    "66e2d587-ef57-4bb1-bf30-09302422bc83",
+    "180b7229-eb6c-4b2e-adac-072ef8f17f13",
+    "89dc0dcc-ceaa-4fd0-9d2c-da1ded65b9c5",
+    "0e2fc4cc-ee2d-4a5c-b747-9e998de94217",
+    "3e69a492-92eb-45d8-be9c-2c99009f97df",
+    "86ea38a8-328f-4138-b76f-db8e32de7f7c",
+    "1ae666f9-19aa-48f6-9d05-476273edc635",
+    "25cab80b-8827-486c-aa42-63e90199365a",
+    "8d19b032-27e1-4ec2-b546-020e7c58d16a",
+    "4fe28ad7-0bff-461c-a4fc-f8a080e3b35b",
+    "79320fca-d434-459d-8d3d-6959dcc321ff",
+    "c5721b1b-222d-4dbc-bdbb-f9af35af5870",
+    "cb50323f-00cc-4f24-9a9d-2baa8fa05609",
+    "bd28f6f0-d8c5-4091-a7ed-c2894b544468",
+    "5dd9dc19-334f-46ce-b321-fe6c0793e1be",
+    "f5f55119-757b-4124-8e6e-1542367a7370",
+    "f142c0c1-9c42-498e-ae0f-25e2f2e689a9",
+    "ff82d4a8-b2ea-4be9-b6f1-ef70d270ba80",
+    "10f7779c-47fc-411f-8a07-5836685cc856",
+    "2cdf290c-6b68-4a07-9f6c-56986db00be2",
+    "00138168-8af9-4f19-a9b0-a0affcc0997b",
+    "2e3a9b07-a276-4d61-aeb2-2a8c0eef4901",
+    "8ca0aa65-31d0-417b-b67e-9cc8d2ddfc86",
+    "6ee3a204-686d-46fe-ab2e-a29878827da0",
+    "82e0a810-b01b-4a5a-90bb-36cf9ed6e833",
+    "3f1d14c3-efe7-42d0-9bfc-7a40fb221c01",
+    "19bc03a6-122b-4e77-82da-3475b38df3ac",
+    "e6564ec5-a0b2-4f3e-9676-71627f32538b",
+    "84450038-55dc-4ca9-8024-67ef781a72ee",
+    "d0e6e621-e50e-47a8-b679-f56437b9568c",
+    "f509c279-85a1-4213-8da9-eed0745b7ecf",
+    "a084dd7a-f845-4ade-be4e-bb1ebfea6278",
+    "4844a045-5611-4211-957f-baf4c0e8c777",
+    "388d61ad-2e72-4678-9be2-9f451b67af72",
+    "7a66c4a6-089e-448e-bc09-e4623fb73bd1",
+    "1c29847f-0962-43af-9d7b-96ed69437bed",
+    "e0645d0d-3a48-431f-af9f-7a28d146d909",
+    "3ac62a7b-fe9a-4011-8858-dc0640afa063",
+    "2d32079e-0dd1-4a04-8f00-06cf0eec935a",
+    "9c1df77a-67d7-460c-ad41-81b6e03a1205"
+  ],
+  "relations": [
+    {
+      "source_id": "ec0b75da-4526-4c4e-b7cc-ef7558e85d1b",
+      "target_id": "3b9ad923-36a4-467e-87ad-e174b8a90fcb",
+      "relation": "confusable",
+      "source_headword": "짐작하다",
+      "target_headword": "추측하다"
+    },
+    {
+      "source_id": "3b9ad923-36a4-467e-87ad-e174b8a90fcb",
+      "target_id": "a1a7e0a9-670a-46df-a8ce-474227d1dac6",
+      "relation": "confusable",
+      "source_headword": "추측하다",
+      "target_headword": "추정하다"
+    },
+    {
+      "source_id": "6f08ab98-0d53-4d4f-a87d-4ea667703aa8",
+      "target_id": "c873decc-e5d6-4674-9fcc-07e5223c7a27",
+      "relation": "confusable",
+      "source_headword": "예상하다",
+      "target_headword": "예측하다"
+    },
+    {
+      "source_id": "41eb0b81-2767-44c3-97db-deb0134486ec",
+      "target_id": "ef076dcc-0fea-4d47-981a-a6637b4a5eb1",
+      "relation": "confusable",
+      "source_headword": "판단하다",
+      "target_headword": "단정하다"
+    },
+    {
+      "source_id": "b35775f5-69fb-4e04-b8a8-6677c59d7581",
+      "target_id": "4eaa5dad-c922-4e37-ba4d-e6571d1a55ca",
+      "relation": "related_word",
+      "source_headword": "수긍하다",
+      "target_headword": "납득하다"
+    },
+    {
+      "source_id": "4eaa5dad-c922-4e37-ba4d-e6571d1a55ca",
+      "target_id": "b145e388-f79a-41e6-bc7c-3a81bb54b735",
+      "relation": "confusable",
+      "source_headword": "납득하다",
+      "target_headword": "이해하다"
+    },
+    {
+      "source_id": "4eaa5dad-c922-4e37-ba4d-e6571d1a55ca",
+      "target_id": "32d12234-5612-4bc6-95fc-c750f8edbb98",
+      "relation": "related_word",
+      "source_headword": "납득하다",
+      "target_headword": "납득되다"
+    },
+    {
+      "source_id": "b145e388-f79a-41e6-bc7c-3a81bb54b735",
+      "target_id": "85be4977-e6b0-45c8-93e2-731d04f43937",
+      "relation": "related_word",
+      "source_headword": "이해하다",
+      "target_headword": "이해되다"
+    },
+    {
+      "source_id": "b145e388-f79a-41e6-bc7c-3a81bb54b735",
+      "target_id": "556b9369-ccc8-4aea-a27b-7add0d29cb97",
+      "relation": "related_word",
+      "source_headword": "이해하다",
+      "target_headword": "이해시키다"
+    },
+    {
+      "source_id": "ed0496e8-a61d-4b5c-8566-df6a359ce703",
+      "target_id": "7b4c2153-9e25-44ff-b3cb-df66d9a73391",
+      "relation": "related_word",
+      "source_headword": "설득하다",
+      "target_headword": "설득되다"
+    },
+    {
+      "source_id": "6b217bf3-9d55-4d57-a410-a2316bee935b",
+      "target_id": "cb88a3a9-0bc7-4bae-b3b9-d49715c04991",
+      "relation": "related_word",
+      "source_headword": "의미하다",
+      "target_headword": "뜻하다"
+    },
+    {
+      "source_id": "5a289e89-26be-4619-b53c-098c04024c1c",
+      "target_id": "e8240f03-b192-4150-b2ff-a392ec43ac6d",
+      "relation": "related_word",
+      "source_headword": "여기다",
+      "target_headword": "여겨지다"
+    },
+    {
+      "source_id": "d3bafe2c-faa1-4397-b0ca-957021355263",
+      "target_id": "81ed4c65-35f2-4f91-b6d3-186323de90d9",
+      "relation": "related_word",
+      "source_headword": "해석하다",
+      "target_headword": "해석되다"
+    },
+    {
+      "source_id": "8f1a792d-a2d6-48f3-8078-420622ec0c56",
+      "target_id": "01eede48-ef7f-4c8b-a436-df6dba0b5922",
+      "relation": "confusable",
+      "source_headword": "가리키다",
+      "target_headword": "가르치다"
+    },
+    {
+      "source_id": "de4d296e-7f21-47bd-a615-e39c22e6e9e6",
+      "target_id": "3ea7bb7d-a19c-4a2e-a98c-ec9109d89967",
+      "relation": "related_word",
+      "source_headword": "증명하다",
+      "target_headword": "증명되다"
+    },
+    {
+      "source_id": "de4d296e-7f21-47bd-a615-e39c22e6e9e6",
+      "target_id": "bda63962-dba3-4f2c-8085-e42def611054",
+      "relation": "confusable",
+      "source_headword": "증명하다",
+      "target_headword": "검증하다"
+    },
+    {
+      "source_id": "9d987aa2-e261-42b4-a42a-f96717f2324d",
+      "target_id": "aed8d44a-846b-460f-83c5-c9673216a016",
+      "relation": "confusable",
+      "source_headword": "참고하다",
+      "target_headword": "참조하다"
+    },
+    {
+      "source_id": "c2888284-d3d5-4745-b59b-ff00f454ba22",
+      "target_id": "c5b01bdd-6703-497e-b371-f24fa5e5a06d",
+      "relation": "antonym",
+      "source_headword": "옳다",
+      "target_headword": "그르다"
+    },
+    {
+      "source_id": "0cbb1c81-1046-44ba-b27a-3a44d482050a",
+      "target_id": "d07d1160-40b6-49f4-9d54-51b08b628ace",
+      "relation": "antonym",
+      "source_headword": "모호하다",
+      "target_headword": "명확하다"
+    },
+    {
+      "source_id": "c47dc784-56d0-4259-9639-8dad99341afc",
+      "target_id": "589491b1-550a-4fd7-a9d0-18dbecbf7763",
+      "relation": "antonym",
+      "source_headword": "확실하다",
+      "target_headword": "불확실하다"
+    },
+    {
+      "source_id": "79cb3f18-d5e1-44f6-ab02-b8b637f24a1b",
+      "target_id": "4f37e18a-1524-4ec1-9314-c90afe73a929",
+      "relation": "antonym",
+      "source_headword": "적절하다",
+      "target_headword": "부적절하다"
+    },
+    {
+      "source_id": "9c35d1a5-e2f7-43cc-a3b0-5e32f59cbb16",
+      "target_id": "24531b4c-f82b-4365-8331-3c44e5cf5ef2",
+      "relation": "related_word",
+      "source_headword": "타당하다",
+      "target_headword": "합당하다"
+    },
+    {
+      "source_id": "6a9943a0-519c-49f8-8e98-9694b2b11e99",
+      "target_id": "c25868ac-c8f6-44b1-b62c-6dce05c98375",
+      "relation": "antonym",
+      "source_headword": "정당하다",
+      "target_headword": "부당하다"
+    },
+    {
+      "source_id": "21cbdc07-a99b-4db1-9848-0dd7610ec9b3",
+      "target_id": "0ae17326-1884-443a-8544-53b7b532b0b6",
+      "relation": "confusable",
+      "source_headword": "과연",
+      "target_headword": "역시"
+    },
+    {
+      "source_id": "193e14f2-1ce3-49f0-a7ed-439a774cc141",
+      "target_id": "111f7f70-48cd-4abf-832c-85a07ca6c1cb",
+      "relation": "antonym",
+      "source_headword": "말이 되다",
+      "target_headword": "말이 안 되다"
+    },
+    {
+      "source_id": "43849e08-55e1-4194-a499-929e123d58c6",
+      "target_id": "0470841f-43b0-4f3b-8b0b-a70820f21e07",
+      "relation": "confusable",
+      "source_headword": "귀가 얇다",
+      "target_headword": "입이 가볍다"
+    },
+    {
+      "source_id": "4135f709-b649-41da-afe2-9a4ca485fda2",
+      "target_id": "135c60d3-10c9-44c0-b243-c88b2f81de52",
+      "relation": "related_word",
+      "source_headword": "비교하다",
+      "target_headword": "비교되다"
+    },
+    {
+      "source_id": "9b5d94b7-fafd-4a92-ad3a-8ed79a0e5487",
+      "target_id": "f3ea13bd-026b-44a4-a135-f51af279bc98",
+      "relation": "related_word",
+      "source_headword": "분류하다",
+      "target_headword": "분류되다"
+    },
+    {
+      "source_id": "556f0e1d-ccda-4069-ac47-ecde2f881f24",
+      "target_id": "934b85b8-0016-404f-8431-15f89916aa30",
+      "relation": "related_word",
+      "source_headword": "제외하다",
+      "target_headword": "제외되다"
+    },
+    {
+      "source_id": "7dd7e000-b055-4ead-9c7b-a0efd61b9823",
+      "target_id": "1f6533b8-1bcc-4e71-921e-eac2154812ec",
+      "relation": "related_word",
+      "source_headword": "제한하다",
+      "target_headword": "제한되다"
+    },
+    {
+      "source_id": "8cee8dfd-d1df-4c90-bd93-2ff16d1c2c13",
+      "target_id": "7298de9d-2d8d-4e6f-938f-3a2aed8e7f7d",
+      "relation": "related_word",
+      "source_headword": "결정하다",
+      "target_headword": "결정되다"
+    },
+    {
+      "source_id": "8bfb7eec-f8a3-40e5-b21b-2a1af805d637",
+      "target_id": "4031446e-63bd-4ccf-b0b8-31561198862f",
+      "relation": "confusable",
+      "source_headword": "결심하다",
+      "target_headword": "다짐하다"
+    },
+    {
+      "source_id": "e3cd6915-29ac-43bc-aa6a-8f4fe707bf42",
+      "target_id": "b5c9e579-d7f7-4230-9127-f4aedef050bb",
+      "relation": "confusable",
+      "source_headword": "실행하다",
+      "target_headword": "실천하다"
+    },
+    {
+      "source_id": "e3cd6915-29ac-43bc-aa6a-8f4fe707bf42",
+      "target_id": "c8592974-6772-4087-bff7-924c6307e76d",
+      "relation": "related_word",
+      "source_headword": "실행하다",
+      "target_headword": "실행되다"
+    },
+    {
+      "source_id": "e18c5c24-3571-4241-84e6-986e66031c50",
+      "target_id": "507279a4-d2c6-4653-a044-c9453922b6ae",
+      "relation": "related_word",
+      "source_headword": "완성하다",
+      "target_headword": "완성되다"
+    },
+    {
+      "source_id": "8ea02838-133e-4257-b26a-ef3a8c8a1635",
+      "target_id": "c43d19a0-bff5-4f39-9c01-012bb332efe6",
+      "relation": "related_word",
+      "source_headword": "마무리하다",
+      "target_headword": "마무리되다"
+    },
+    {
+      "source_id": "11e53595-e315-421f-8e58-ed9098961168",
+      "target_id": "47e69403-1bcd-4f30-8a89-d74178cb7780",
+      "relation": "confusable",
+      "source_headword": "경험하다",
+      "target_headword": "체험하다"
+    },
+    {
+      "source_id": "11e53595-e315-421f-8e58-ed9098961168",
+      "target_id": "3e1dae95-f1ef-42a1-b47d-f7660f3befc7",
+      "relation": "related_word",
+      "source_headword": "경험하다",
+      "target_headword": "겪다"
+    },
+    {
+      "source_id": "39530fcb-901a-4530-91a0-11a138bbddb9",
+      "target_id": "16395299-981c-4273-a888-28ecbb797d5b",
+      "relation": "confusable",
+      "source_headword": "유사하다",
+      "target_headword": "동일하다"
+    },
+    {
+      "source_id": "ea0061b4-2ecd-4dab-8c97-5b8a95de3950",
+      "target_id": "48a2b5ed-219c-428c-b355-b3a2044c635c",
+      "relation": "antonym",
+      "source_headword": "유리하다",
+      "target_headword": "불리하다"
+    },
+    {
+      "source_id": "3304eaaa-f063-465b-b9a0-306a3981a600",
+      "target_id": "e7b03dba-54ea-4fe9-b765-871b3b41503e",
+      "relation": "antonym",
+      "source_headword": "해롭다",
+      "target_headword": "이롭다"
+    },
+    {
+      "source_id": "7d710394-d44a-4f8c-abad-33e0c4c89a0e",
+      "target_id": "7369ad2c-c060-4c0c-982a-8a2cac1b28db",
+      "relation": "antonym",
+      "source_headword": "낯익다",
+      "target_headword": "낯설다"
+    },
+    {
+      "source_id": "91ca5131-ba7d-4053-ab0c-8b58b06fe5a1",
+      "target_id": "c4dd844e-a470-43a3-81d2-7dd4b3fd1197",
+      "relation": "related_word",
+      "source_headword": "까다롭다",
+      "target_headword": "수월하다"
+    },
+    {
+      "source_id": "7c487ddc-7f77-4488-abb5-ab06cb4905cb",
+      "target_id": "4135f709-b649-41da-afe2-9a4ca485fda2",
+      "relation": "confusable",
+      "source_headword": "대비하다",
+      "target_headword": "비교하다"
+    },
+    {
+      "source_id": "b670cced-5a56-4b52-8905-0583d627221e",
+      "target_id": "8535c9d2-d8a1-484f-b983-322fd6a0d1b3",
+      "relation": "related_word",
+      "source_headword": "거르다",
+      "target_headword": "추리다"
+    },
+    {
+      "source_id": "36238514-8f36-4322-9821-1f7d9333a673",
+      "target_id": "e7370dfe-2222-4eca-b515-a3f370df40cf",
+      "relation": "confusable",
+      "source_headword": "반대",
+      "target_headword": "오히려"
+    },
+    {
+      "source_id": "995b6784-bc71-49b7-aef0-68e071c48c40",
+      "target_id": "3f57e0ff-7755-43f4-b5f8-84e6db008f15",
+      "relation": "confusable",
+      "source_headword": "비교적",
+      "target_headword": "제법"
+    },
+    {
+      "source_id": "ed59d377-2e92-4504-ae2f-be4af361e60f",
+      "target_id": "eb0b28de-b04a-4162-bdb1-0057a7534939",
+      "relation": "related_word",
+      "source_headword": "가닥을 잡다",
+      "target_headword": "갈피를 잡다"
+    },
+    {
+      "source_id": "c49f6116-4059-416f-90e2-91c22f762aed",
+      "target_id": "2aa9d85a-532a-420f-a76d-7a006ec01229",
+      "relation": "synonym",
+      "source_headword": "예컨대",
+      "target_headword": "가령"
+    },
+    {
+      "source_id": "4feff201-5665-4586-bcc5-a1fb7586f3f2",
+      "target_id": "994912e3-df8f-4214-99f6-0e4f668ec8cf",
+      "relation": "related_word",
+      "source_headword": "발생하다",
+      "target_headword": "일으키다"
+    },
+    {
+      "source_id": "b73cd140-cf93-454c-9e5a-15dd2da58627",
+      "target_id": "12e0e569-2902-4680-b2b7-63d20ab31c24",
+      "relation": "confusable",
+      "source_headword": "벌어지다",
+      "target_headword": "벌이다"
+    },
+    {
+      "source_id": "6f1a9516-6c81-4dc0-a929-c2618955eac9",
+      "target_id": "5720b8e5-2bc7-4d0c-8564-68275ec06f5d",
+      "relation": "related_word",
+      "source_headword": "관련되다",
+      "target_headword": "연관되다"
+    },
+    {
+      "source_id": "08417803-79df-4f2d-bded-ffde99d096a7",
+      "target_id": "5ce34d72-b229-4e62-854e-13b7b28406d1",
+      "relation": "confusable",
+      "source_headword": "미치다",
+      "target_headword": "끼치다"
+    },
+    {
+      "source_id": "96cc45f5-545d-4c2e-af5f-e97a611dc4af",
+      "target_id": "d4932a98-e248-43f4-8e66-1fed52d0eb90",
+      "relation": "related_word",
+      "source_headword": "전환하다",
+      "target_headword": "전환되다"
+    },
+    {
+      "source_id": "f54e4922-93b9-4d0e-b408-307ab5daf83e",
+      "target_id": "87dae1ad-3187-4395-a15a-2266e3331702",
+      "relation": "related_word",
+      "source_headword": "펼치다",
+      "target_headword": "펼쳐지다"
+    },
+    {
+      "source_id": "e96028e9-bfe0-4b8b-901a-a306d90757d5",
+      "target_id": "e4c6208c-e583-48d4-af13-13da5dc51e2f",
+      "relation": "related_word",
+      "source_headword": "확대하다",
+      "target_headword": "확대되다"
+    },
+    {
+      "source_id": "e96028e9-bfe0-4b8b-901a-a306d90757d5",
+      "target_id": "72c443d2-f708-4349-a970-3490ea6700a3",
+      "relation": "confusable",
+      "source_headword": "확대하다",
+      "target_headword": "확장하다"
+    },
+    {
+      "source_id": "37cbfe94-81ba-44d0-a661-ebbecc3edaa3",
+      "target_id": "ccaf582b-cd9a-425f-b356-727110f7cee5",
+      "relation": "related_word",
+      "source_headword": "축소하다",
+      "target_headword": "축소되다"
+    },
+    {
+      "source_id": "a9c2c052-5ebe-4195-b9d8-e855132cf3bf",
+      "target_id": "0db1e334-c4fd-4338-ba66-d642453880b5",
+      "relation": "antonym",
+      "source_headword": "넓히다",
+      "target_headword": "좁히다"
+    },
+    {
+      "source_id": "05597fa1-6999-4803-bff0-41015818351b",
+      "target_id": "a8920080-8559-4653-a0cd-ab90919d4762",
+      "relation": "antonym",
+      "source_headword": "증가하다",
+      "target_headword": "감소하다"
+    },
+    {
+      "source_id": "40bda3a1-0a96-4749-afac-5855cf3f3c0d",
+      "target_id": "9d2a8300-ff9f-4616-b8f5-c84a953c467f",
+      "relation": "antonym",
+      "source_headword": "높이다",
+      "target_headword": "낮추다"
+    },
+    {
+      "source_id": "046edfc0-f373-4a2e-9304-9956df51e6cd",
+      "target_id": "381daad3-2e25-4db9-a079-2799259617fa",
+      "relation": "related_word",
+      "source_headword": "회복하다",
+      "target_headword": "회복되다"
+    },
+    {
+      "source_id": "398503f1-c2d6-4b62-a6df-1f8b826d558f",
+      "target_id": "bdedecaf-d9d6-4231-a28b-e6059e7f99f5",
+      "relation": "related_word",
+      "source_headword": "해소하다",
+      "target_headword": "해소되다"
+    },
+    {
+      "source_id": "eddef989-37aa-4212-9dd1-bd67c3c87bcf",
+      "target_id": "715ab5cd-723b-4383-946d-5b26597e664f",
+      "relation": "confusable",
+      "source_headword": "대응하다",
+      "target_headword": "대처하다"
+    },
+    {
+      "source_id": "1eeeb696-d55e-46cc-91c8-46853d17c726",
+      "target_id": "82e7f68f-9977-47f0-82ca-35fb2e21d8d1",
+      "relation": "related_word",
+      "source_headword": "예방하다",
+      "target_headword": "해결하다"
+    },
+    {
+      "source_id": "56f73507-5ec7-46b6-9736-b51c52ecfe74",
+      "target_id": "8dd63221-bc92-421b-b705-ccace32fb7c3",
+      "relation": "confusable",
+      "source_headword": "원인",
+      "target_headword": "계기"
+    },
+    {
+      "source_id": "fa8d085b-7bc7-404e-9532-f94dd4b5d0b8",
+      "target_id": "41cf9de1-5784-49ef-b79e-65ac745a0690",
+      "relation": "confusable",
+      "source_headword": "방안",
+      "target_headword": "대책"
+    },
+    {
+      "source_id": "d6bf1546-ff21-402e-8903-c1648f427f23",
+      "target_id": "45a8d894-baa1-4aa2-a587-3834b5d31dff",
+      "relation": "related_word",
+      "source_headword": "힘을 쏟다",
+      "target_headword": "힘을 기울이다"
+    },
+    {
+      "source_id": "8c727607-e81b-45a5-b245-498fb9c90f56",
+      "target_id": "43481413-590b-4f7c-aeca-229333002bfc",
+      "relation": "related_word",
+      "source_headword": "길이 열리다",
+      "target_headword": "길을 열다"
+    },
+    {
+      "source_id": "9148f6a1-ef8a-4e7e-8a83-9794c41606a4",
+      "target_id": "f1b04992-af4b-4f75-a5d7-f85c1e8e331f",
+      "relation": "related_word",
+      "source_headword": "실마리",
+      "target_headword": "단서"
+    },
+    {
+      "source_id": "3b53ccb8-1704-44ce-bdea-90533705a5b6",
+      "target_id": "f1278060-62fe-42db-8401-0375a4c75df3",
+      "relation": "antonym",
+      "source_headword": "급격히",
+      "target_headword": "서서히"
+    },
+    {
+      "source_id": "9aaad6b4-6bea-449c-a98f-31918dd9d92e",
+      "target_id": "42d98168-8efa-473b-a2d1-3c2930e527bf",
+      "relation": "confusable",
+      "source_headword": "시급하다",
+      "target_headword": "긴급하다"
+    }
+  ],
+  "grammar_links": [
+    {
+      "grammar_id": "9aaced5c-d486-4f21-8084-c62276df062c",
+      "example_id": "f689bfe2-5f3a-431b-85fa-309edaf44f2f",
+      "pattern": "-아 / 어 주세요"
+    },
+    {
+      "grammar_id": "f331886b-4670-4a73-a700-b0f0f036b1a4",
+      "example_id": "1d6c2673-4edf-4887-a628-167cbf296a58",
+      "pattern": "-았 / 었어요"
+    },
+    {
+      "grammar_id": "b85e6804-85a2-495d-8781-e885ee9468a2",
+      "example_id": "01833473-053d-4240-bb1a-3c7d838bb8be",
+      "pattern": "-(으)ㄹ 수 있다 / 없다"
+    },
+    {
+      "grammar_id": "66f56006-dd56-4cc4-bdcb-38f1c17c0036",
+      "example_id": "72e131f5-a584-4561-b500-7ddd412f9561",
+      "pattern": "보다（比較）"
+    },
+    {
+      "grammar_id": "1734a471-0e5b-4500-956c-dfa22926d2e9",
+      "example_id": "b72ffb27-ae75-41fd-892f-22df096674e7",
+      "pattern": "-(으)ㄹ 거예요（予定）"
+    },
+    {
+      "grammar_id": "cb33378d-7dda-43f8-9157-e3780201589d",
+      "example_id": "7b4f7117-acc5-4c12-832e-7ead28c85865",
+      "pattern": "-지만"
+    },
+    {
+      "grammar_id": "701ca81c-0e04-466d-add4-42b94643fd87",
+      "example_id": "c20f64fe-4b06-4de0-807d-317faf1776c8",
+      "pattern": "-아 / 어서"
+    },
+    {
+      "grammar_id": "502b2304-463f-4c29-9919-96630599383c",
+      "example_id": "ff3b7101-d559-4fa9-b102-76347eade763",
+      "pattern": "-(으)ㄴ 적이 있다 / 없다"
+    },
+    {
+      "grammar_id": "93796ac0-18d5-4363-a562-26e6fff959b4",
+      "example_id": "8327090b-ef6f-4dfc-a938-7cf274d5f4dc",
+      "pattern": "-(으)ㄴ 후에"
+    },
+    {
+      "grammar_id": "7779f2ed-308d-46aa-9df6-bd6001fe88fa",
+      "example_id": "b01f96dd-657b-4dd7-a976-515419eec713",
+      "pattern": "-(으)려고 하다"
+    },
+    {
+      "grammar_id": "92cf69c3-2bda-453a-8b5f-47f1e4902f2a",
+      "example_id": "c3d42b72-ba30-4ee1-b88c-f9ad25b9d7bb",
+      "pattern": "-기 전에"
+    },
+    {
+      "grammar_id": "919c26fd-b810-4c62-9f0c-2a25f7a30ca7",
+      "example_id": "ab015aa2-eb40-4517-ae98-4fe0aeb00220",
+      "pattern": "-(으)니까"
+    },
+    {
+      "grammar_id": "97089b8e-acc1-406d-9fad-5e53189aeeb8",
+      "example_id": "779c7737-866e-4f71-97f0-fdc084654599",
+      "pattern": "-(으)면 안 되다"
+    },
+    {
+      "grammar_id": "cc45a574-10b5-47b3-9302-bdd0468ad221",
+      "example_id": "2d4c142c-069d-4329-bd52-37c2fa0d7435",
+      "pattern": "-고"
+    },
+    {
+      "grammar_id": "eef9130b-15eb-4138-ab8b-dcda74c864b1",
+      "example_id": "3f880ba2-9bea-4c6d-99b7-0b3bb541a21e",
+      "pattern": "-는 / -(으)ㄴ 것 같다（現在の推測）"
+    }
+  ]
+}

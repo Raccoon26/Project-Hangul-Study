@@ -1,3 +1,18 @@
+# PROJECT_STATUS — DATA-08-3 / Batch B (현재)
+
+**Release Readiness B — Conditional 유지.** 기존 DEV/DATA와 Batch A 결과는 아래 이력으로 보존한다.
+
+- Batch B 승인: **初中級 어휘300 / 신규 문장600 / 의미311 / Note100**, 전300항목 Collocation. 동사148·형용사49·부사36·표현34·명사33. 세 묶음 각100/200에 한일 재독·중복/UUID·strict Validator 적용, 품질로 줄인 수량0.
+- 현재 Production: **Vocabulary1,977 / Examples3,978(문장3,965+기존발음13) / Meanings2,086 / Grammar42 / Listening115 / Questions354**. 어휘 入門306 / 初級800 / 初中級871.
+- **Content16 / Schema4 / minReader7 / UserProgress10**. 직전 Content15 원본 DB를 fixture로 보존. 기존 ID/상세본문/정렬/learning_order/membership 삭제·비활성화0. 어휘관계72·문법참조15 추가에 참여한 기존 끝점28개 revision만+1.
+- strict Validator errors0 / 기존warnings10, integrity/FK 정상, source/Bundle 일치. 최종 portable: **255개 PASS (failures/errors/skip0, exit0)**. 기존243+B 신규12, A 정확한301/602 회귀군도 v15 fixture에서 보존했다.
+- native 정의128개 / 실행0. Swift/Xcode·실기기 검증 미실행, runtime/UI/엔진/사용자DB/광고·구매 코드 변경0. 기존 retirement P1, native 출시 gate와 初中級 Grammar0/Listening2/Question5 공백 유지.
+- DATA-08 전체800~1,200어휘/1,300~2,000문장 목표 유지. **A+B 누적601/1,202; 잔여199~599/98~798**. Batch B 이후 단계는 실행하지 않았다.
+
+실제 수량·한일 검수·실패/수정·통합/미실행 gate: [DATA08_PROGRESS.md](DATA08_PROGRESS.md) §11, [검수](Docs/DATA08_B_REVIEW.md), [카탈로그](Docs/DATA08_B_REVIEW_CATALOG.md), [기계 집계](Docs/DATA08_B_COUNTS.json).
+
+---
+
 # PROJECT_STATUS — DATA-08-2 / Batch A (현재)
 
 2026-10-19 (Asia/Tokyo). **Release Readiness: B — Conditional 유지, App Store 제출 승인 아님.** 아래 DATA-07 본문은 이력으로 보존한다.

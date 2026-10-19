@@ -1,0 +1,274 @@
+{
+  "stage": "DATA-08-3",
+  "batch": "B",
+  "baseline_commit": "e3f335056b354e292e333ce5a681fe8399caea9e",
+  "branch": "data08-3/batch-b",
+  "starting_tracked_changes": 0,
+  "starting_untracked_files": 0,
+  "source": "Content/production.json",
+  "production_db": "Resources/content.sqlite",
+  "metadata": {
+    "singleton": 1,
+    "schema_version": 4,
+    "content_version": 16,
+    "min_reader_version": 7,
+    "dataset_id": "ko-ja-core",
+    "is_fixture": 0,
+    "source_locale": "ja",
+    "target_locale": "ko"
+  },
+  "user_progress_version": 10,
+  "counts": {
+    "vocabulary": 1977,
+    "meanings": 2086,
+    "examples": 3978,
+    "grammar": 42,
+    "listening_items": 115,
+    "questions": 354,
+    "learner_notes": 385,
+    "grammar_examples": 152,
+    "vocabulary_examples": 3894,
+    "content_items": 9161,
+    "content_links": 1091,
+    "tags": 91,
+    "sources": 17
+  },
+  "delta": {
+    "vocabulary": 300,
+    "meanings": 311,
+    "examples": 600,
+    "grammar": 0,
+    "listening_items": 0,
+    "questions": 0,
+    "learner_notes": 100,
+    "grammar_examples": 15,
+    "vocabulary_examples": 600,
+    "content_items": 1314,
+    "content_links": 172,
+    "tags": 3,
+    "sources": 1
+  },
+  "sentence_examples_excluding_pronunciation": 3965,
+  "by_level": {
+    "vocabulary": {
+      "beginner": 800,
+      "intro": 306,
+      "lower_intermediate": 871
+    },
+    "examples": {
+      "beginner": 1577,
+      "intro": 659,
+      "lower_intermediate": 1742
+    },
+    "grammar": {
+      "beginner": 20,
+      "intro": 22
+    },
+    "listening_items": {
+      "beginner": 79,
+      "intro": 34,
+      "lower_intermediate": 2
+    },
+    "questions": {
+      "beginner": 134,
+      "hangul": 59,
+      "intro": 156,
+      "lower_intermediate": 5
+    }
+  },
+  "batch_pos": {
+    "verb": 148,
+    "adjective": 49,
+    "adverb": 36,
+    "noun": 33,
+    "expression": 34
+  },
+  "polysemous_or_distinct_sense_vocabulary": 11,
+  "collocation_vocabulary": 300,
+  "new_lexical_relations": 72,
+  "new_grammar_example_links": 15,
+  "normalized_new_headword_duplicates": 0,
+  "normalized_new_korean_example_duplicates": 0,
+  "normalized_new_japanese_example_duplicates": 0,
+  "old_ids_deleted": 0,
+  "old_rows_deleted_or_retired": 0,
+  "old_endpoint_revisions": 28,
+  "old_endpoint_revisions_exactly_approved": true,
+  "old_endpoint_kinds": {
+    "vocabulary": 13,
+    "grammar": 15
+  },
+  "integrity_check": [
+    "ok"
+  ],
+  "foreign_key_violations": 0,
+  "sha256": {
+    "Content/production.json": "dcf51d2583ddb7fa7bbbfb7487937546ef30551857d36fecaefc8c3c5ae7b30e",
+    "Resources/content.sqlite": "112d3662f79a72ca61ad7140a5d937396c0bc9f71180dd5f35a403a040a91f29",
+    "Tests/Fixtures/content-v14-production.sqlite": "9293e75ee0161f8fa7688d6ea500f314c8d93fc3f6c9e0284bbf43afec622ac5",
+    "Tests/Fixtures/content-v15-production.sqlite": "b4459a400dae7e7b5572688db928a7b550d865f9cf1b3dfd8cd22a86d5d6f75d"
+  },
+  "subgroups": [
+    {
+      "subgroup": "B1",
+      "cumulative_vocabulary": 100,
+      "cumulative_examples": 200,
+      "subgroup_vocabulary": 100,
+      "subgroup_examples": 200,
+      "meanings": 104,
+      "notes": 30,
+      "new_content_items": 437,
+      "approved_old_endpoints": 13,
+      "relations": 26,
+      "grammar_links": 6,
+      "pos": {
+        "verb": 46,
+        "adjective": 20,
+        "adverb": 14,
+        "noun": 10,
+        "expression": 10
+      },
+      "checks": {
+        "korean_japanese_self_review": "assistant individual reread; not independent expert review",
+        "normalized_new_and_existing_heads_sentences_pairs": "pass",
+        "stable_uuid4": "pass",
+        "old_payload_and_revision_whitelist": "pass",
+        "real_card_meaning_note_grammar_sql": "pass",
+        "integrity": "ok",
+        "foreign_key_violations": 0,
+        "validator_errors": 0,
+        "validator_warnings": 10,
+        "prior_checkpoint_uuid_and_rows": "preserved"
+      },
+      "source_sha256": "93209a369429e761e34fdfcbc5f5249ac6b4300bf7adb33c143475c11dbdbb79",
+      "database_sha256": "020a7b9dbed9b3697c8fe455583c8c54470c65ab7c469888a403a2738e37ed48"
+    },
+    {
+      "subgroup": "B2",
+      "cumulative_vocabulary": 200,
+      "cumulative_examples": 400,
+      "subgroup_vocabulary": 100,
+      "subgroup_examples": 200,
+      "meanings": 206,
+      "notes": 63,
+      "new_content_items": 872,
+      "approved_old_endpoints": 21,
+      "relations": 49,
+      "grammar_links": 10,
+      "pos": {
+        "verb": 93,
+        "adjective": 39,
+        "adverb": 26,
+        "noun": 22,
+        "expression": 20
+      },
+      "checks": {
+        "korean_japanese_self_review": "assistant individual reread; not independent expert review",
+        "normalized_new_and_existing_heads_sentences_pairs": "pass",
+        "stable_uuid4": "pass",
+        "old_payload_and_revision_whitelist": "pass",
+        "real_card_meaning_note_grammar_sql": "pass",
+        "integrity": "ok",
+        "foreign_key_violations": 0,
+        "validator_errors": 0,
+        "validator_warnings": 10,
+        "prior_checkpoint_uuid_and_rows": "preserved"
+      },
+      "source_sha256": "477ffe9ba11db135625496e6a2eb9f7eefb62f78c55348e2adb2334f32887652",
+      "database_sha256": "97002cbe23bae45da18964478420d6bd56cc200fb2ad44f344039cb54cfe7784"
+    },
+    {
+      "subgroup": "B3",
+      "cumulative_vocabulary": 300,
+      "cumulative_examples": 600,
+      "subgroup_vocabulary": 100,
+      "subgroup_examples": 200,
+      "meanings": 311,
+      "notes": 100,
+      "new_content_items": 1314,
+      "approved_old_endpoints": 28,
+      "relations": 72,
+      "grammar_links": 15,
+      "pos": {
+        "verb": 148,
+        "adjective": 49,
+        "adverb": 36,
+        "noun": 33,
+        "expression": 34
+      },
+      "checks": {
+        "korean_japanese_self_review": "assistant individual reread; not independent expert review",
+        "normalized_new_and_existing_heads_sentences_pairs": "pass",
+        "stable_uuid4": "pass",
+        "old_payload_and_revision_whitelist": "pass",
+        "real_card_meaning_note_grammar_sql": "pass",
+        "integrity": "ok",
+        "foreign_key_violations": 0,
+        "validator_errors": 0,
+        "validator_warnings": 10,
+        "prior_checkpoint_uuid_and_rows": "preserved"
+      },
+      "source_sha256": "dcf51d2583ddb7fa7bbbfb7487937546ef30551857d36fecaefc8c3c5ae7b30e",
+      "database_sha256": "112d3662f79a72ca61ad7140a5d937396c0bc9f71180dd5f35a403a040a91f29"
+    }
+  ],
+  "data08_cumulative": {
+    "vocabulary": 601,
+    "sentence_examples": 1202
+  },
+  "data08_target": {
+    "vocabulary": [
+      800,
+      1200
+    ],
+    "sentence_examples": [
+      1300,
+      2000
+    ]
+  },
+  "data08_remaining": {
+    "vocabulary": [
+      199,
+      599
+    ],
+    "sentence_examples": [
+      98,
+      798
+    ]
+  },
+  "native_test_definitions": 128,
+  "native_tests_executed": 0,
+  "remaining_gates": [
+    "Xcode Debug/Release/SDK link/XCTest",
+    "iPhone offline, TTS, interruption, VoiceOver, ads, StoreKit",
+    "existing retirement resume P1",
+    "lower_intermediate Grammar0/Listening2/Question5 expansion"
+  ],
+  "portable_tests": {
+    "command": "sh Tools/verify.sh --portable",
+    "executed": 255,
+    "passed": 255,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "exit_code": 0,
+    "seconds": 103.423,
+    "new_batch_tests": 12,
+    "previous_tests": 243
+  },
+  "initial_portable": {
+    "executed": 254,
+    "failures": 3,
+    "passed": 251,
+    "reason": "stale global note/POS count expectations"
+  },
+  "interim_portable_before_final_basic_form_correction": {
+    "executed": 255,
+    "passed": 255,
+    "failures": 0
+  },
+  "editorial_corrections": {
+    "fields": 49,
+    "headwords": 26
+  }
+}

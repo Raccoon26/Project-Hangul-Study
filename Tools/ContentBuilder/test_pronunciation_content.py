@@ -19,7 +19,7 @@ class PronunciationContentTests(unittest.TestCase):
         source=self.folder/'invalid.json';source.write_text(json.dumps(data,ensure_ascii=False))
         with self.assertRaises(ValueError):build(source,self.folder/'rejected.sqlite',production=True)
     def test_versions_integrity_and_reviewed_short_word_warnings(self):
-        self.assertEqual(self.db.execute('SELECT schema_version,content_version,min_reader_version,is_fixture FROM content_metadata').fetchone(),(4,15,7,0))
+        self.assertEqual(self.db.execute('SELECT schema_version,content_version,min_reader_version,is_fixture FROM content_metadata').fetchone(),(4,16,7,0))
         self.assertEqual(self.report['validation']['error_count'],0)
         # DATA-01/02/03 add five reviewed homograph groups; DEV-04 short-word warnings remain.
         self.assertEqual(self.report['validation']['warning_count'],10)

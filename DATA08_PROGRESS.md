@@ -1,6 +1,6 @@
 # DATA-08 진행 기록
 
-> **현재: DATA-08-2 / Batch A 완료 — 신규 어휘301 / 신규 문장602, Content15 / Schema4 / Reader7 / UserProgress10.** 전체 목표800~1,200 / 1,300~2,000 유지. 최신 상세는 §10, §1~9는 DATA-08-1 당시 조사 기록이다.
+> **현재: DATA-08-3 / Batch B 완료 — 신규 어휘300 / 신규 문장600, A+B 누적601/1,202. Content16 / Schema4 / Reader7 / UserProgress10.** 전체 목표800~1,200 / 1,300~2,000 유지. 최신 상세는 §11, §1~10은 이전 단계 기록이다.
 
 ## 목표·범위
 
@@ -191,6 +191,7 @@ sh Tools/verify.sh --portable
 | --- | ---: | ---: | --- | --- | --- |
 | DATA-08-1 | **0 / 0** | **0 / 0** | 실제 수량·ID·해시·FK·source 대조, strict0errors/10warnings, portable232PASS | 기존 retirement P1 재확인; 신규 수정0; 임시DB 차이 기록 | 시작 main=`3b40fb9`, clean, origin과 일치. 산출물은 AGENTS.md·이 문서·baseline JSON만 |
 | DATA-08-2 / Batch A | **301 / 602** | **301 / 602** | 전항목 한일 재독, 다의어17/Note68/관계45/문법연결14, strict0errors/기존10warnings, portable243PASS | 초안19항목 교정; 맞추다/맞히다 구분, 조회한도 보존. 기존 P1 유지 | 시작 main=`57bedcc`, clean, 작업 branch=`data08-2/batch-a`; Content14 fixture 보존, 콘텐츠·검수·테스트만 반영 |
+| DATA-08-3 / Batch B | **300 / 600** | **601 / 1,202** | 세 묶음 개별재독·중복/UUID/strict gate, Note100/관계72/문법참조15, portable 최종은 §11 | 기본형·품사·조사·번역 초안교정, 기존 P1 유지 | main=`e3f3350`, clean 시작, branch=`data08-3/batch-b`; Content15 원본보존, Content16 배포 |
 
 DATA-08-1 당시 전체 목표 대비 남은 신규량(이력): **어휘800~1,200 / 문장1,300~2,000**. 목표 범위 달성 시 누적 Vocabulary는2,176~2,576, 문장 Example은4,063~4,763(발음 예시 유지 시 전체 Example4,076~4,776). 후속 배치에서 실제 증가로 재계산하며 이번 단계 달성량으로 표시하지 않는다.
 
@@ -324,3 +325,68 @@ sh Tools/verify.sh --portable
 **전체 목표800~1,200어휘 / 1,300~2,000문장을 유지**한다. 현재 누적 **301 / 602**, 남은 신규량 **어휘499~899 / 문장698~1,398**. Batch A에서 줄인 부족분은0이고, 이 잔여량은 원래 전체 DATA-08의 후속 단계 몫이다. Batch B나 전체 DATA-08을 완료했다고 표시하지 않는다.
 
 최종 전달은 이 기록의 콘텐츠·fixture·검수자료·회귀 기대값·신규테스트 및 현재 상태 문서만 커밋·푸시/PR/머지한다. 앱 구현·스키마·기존 과거보고서/fixture는 보존한다. 최종 commit/PR은 전달 메시지와 `git log --oneline -- DATA08_PROGRESS.md Content/data08-a-ids.json`으로 확인하고, 전달 직전 작업트리/upstream 상태를 확인한다.
+
+## 11. DATA-08-3 / Batch B 완료
+
+시작 `main/origin/main=e3f335056b354e292e333ce5a681fe8399caea9e` (Batch A PR #3 merge), tracked/untracked 변경0. `DATA08_PROGRESS.md` §10, 상태/제작/누적/출시 문서와 실제 Content15·Batch A source/DB/색인·Swift repository/활용 코드·Git을 대조했다. 작업 branch=`data08-3/batch-b`. 기존 DEV-01~14 / DATA-01~07 / Batch A 결과를 보존했다.
+
+### 실제 증가와 현재 수량
+
+요청 목표270~400어휘/450~650문장에 대해 **初中級 신규300어휘/600문장** 반영. 품질 때문에 줄인 수량0. 100어휘·200문장씩 세 묶음으로 검수했다. 전체 목표 **800~1,200어휘 / 1,300~2,000문장** 유지, A+B 누적601/1,202, 잔여199~599/98~798. Batch B 뒤 단계는 실행하지 않았다.
+
+| 항목 | Batch A 완료 시 | B 증가 | 현재 Production |
+| --- | ---: | ---: | ---: |
+| Vocabulary | 1,677 | 300 | **1,977** |
+| Meaning | 1,775 | 311 | **2,086** |
+| 문장 Example | 3,365 | 600 | **3,965** |
+| 전체 Example (기존 발음13 포함) | 3,378 | 600 | **3,978** |
+| Grammar | 42 | 0 | 42 |
+| Listening | 115 | 0 | 115 |
+| Question | 354 | 0 | 354 |
+| Learner Note | 285 | 100 | 385 |
+| Grammar Example 참조 | 137 | 15 | 152 |
+| Vocabulary Example 참조 | 3,294 | 600 | 3,894 |
+| content_items | 7,847 | 1,314 | 9,161 |
+
+어휘 level: 入門306 / 初級800 / 初中級871. 문장 level: 入門646 / 初級1,577 / 初中級1,742. Grammar22/20/0, Listening34/79/2, Question入門156/初級134/初中級5/한글59. B는 모두 lower_intermediate다. 공식 TOPIK/빈도는 null. 현재 **Content16 / Schema4 / minReader7 / UserProgress10**.
+
+품사: 동사148 / 형용사49 / 부사36 / 회화 표현34 / 명사33(11%). 전300항목 Collocation, 100항목 일본인 Note, 11항목 두 의미/용법 분리, 어휘관계72. 실제 신규문장은600개이며 예문 재사용/관계 증가로 부풀리지 않았다.
+
+### 묶음별 검수·Duplicate Audit·Stable ID·Validator
+
+| 묶음 | 영역 | 어휘/문장 | 의미/Note | 누적 strict 검증 | Duplicate / FK / UUID |
+| --- | --- | --- | --- | --- | --- |
+| B1 | 의견·판단·추측 | 100/200 | 104/30 | errors0 / 기존warnings10 | 신규중복0 / 위반0 / UUID4 |
+| B2 | 비교·선택·계획·경험 | 100/200 | 102/33 | errors0 / 기존warnings10 | 신규중복0 / 위반0 / UUID4 |
+| B3 | 원인·결과·영향·변화·개선·문제 해결 | 100/200 | 105/37 | errors0 / 기존warnings10 | 신규중복0 / 위반0 / UUID4 |
+
+각 묶음마다 작성 후 별도 재독, 한국어 조사/활용/문법/띄어쓰기/상황·난도와 일본어 의미/시제/문체를 개별 대조했다. 검수자는 같은 assistant이며 독립 원어민·전문가 승인이 아니다. 각 누적 candidate를 실제 직전 배포 Content15와 strict 비교하고 통과한 후보만 통합했다. B2/B3의 기본형 추가 보정 후 해당 gate도 재실행했다.
+
+NFC·casefold·공백 제거 표제어/한국어·일본어 문장/한일 쌍을 기존전체/A/B 앞 묶음과 대조, 신규중복0. 기존 경고10(발음5/동형어5)은 보존했다. 그르다(형용사), 모자라다/넘치다(동사), 애초/마찬가지/반대(명사), 뒤늦다(형용사) 등은 기본형·품사를 대조했다. 단정하다/뒷받침하다의 주체·목적어, 본래의 부사 용법, 한일 의미 대응·번역·복잡한 구문을 다듬었다. 미치다·대비하다의 조사, 경험하다/겪다/체험하다, 실행하다/실천하다/실현되다, 확대하다/확장하다, 긴급하다/시급하다 등 차이를 Note로 설명했다.
+
+카탈로그300항목/600문장과 검수 fingerprint를 보존했다. 수정 전후49필드/26표제어는 `Docs/DATA08_B_CORRECTIONS.json`의 실제 값을 따른다. 사전 추가검색의 timeout/503을 성공으로 보고하지 않았다. 원문·번역·Note는 자체 작성했다. 사전/음성/공식등급의 이용 권한이나 인증을 추측하지 않았다.
+
+### DB/참조/학습 통합
+
+직전 Content15 fixture SHA=`b4459a400dae7e7b5572688db928a7b550d865f9cf1b3dfd8cd22a86d5d6f75d`를 원본 byte 그대로 보존했다. 기존 v14 fixture/A 색인·검수 산출물도 유지했다. strict 재빌드 source/승인 DB/Bundle 일치, integrity=ok/FK0. 최종 Source·DB SHA와 전체 수량은 [DATA08_B_COUNTS.json](Docs/DATA08_B_COUNTS.json)에 기록했다.
+
+새 content_items1,314 UUID4, 기존 ID/상세본문/kind/created_at/sort_key/learning_order/lesson membership 삭제·재정렬·비활성화0. 관계 추가 끝점28개(어휘13/문법15)에 한해 revision+1/updated_at 갱신. 승인 목록=`Content/data08-b-revised-ids.json`. 기존1,677어휘와 A 전체 payload를 검사했다.
+
+기존 문법42개를 유지하고 새 예문15개를 참조하며, 실제 LIMIT6 안에서 이전/새 예문 모두 노출을 확인했다. 의미별 Example ID를 기존 Grammar/Listening/Sentence Production이 재사용할 구조는 유지한다. 신규 듣기/문항을 만든 것으로 세지 않는다. 하다형other, ㅂ/르/규칙 metadata와 predicate/expression has_batchim=null, expression irregular_type=null 유지.
+
+### 테스트·발견·수정·미해결
+
+- 첫 portable: **254개 실행 / 251 PASS / 3 FAIL / skip0**. 세 실패는 Note 링크282→382와 전역 품사 총수 기대값 미갱신. 기존 제약·검사 강도를 유지하며 정확한 총수만 갱신했다.
+- 중간 재검사255 PASS 후 마지막 기본형 대조에서 반대로→반대(명사+로)를 보정했다. 신규 UUID를 재발급하지 않고 해당 미배포 어휘의 기본형/품사/Note를 바로잡았다. B2/B3 감사/Validator와 전체 검사를 재실행했다.
+- 최종 `sh Tools/verify.sh --portable`: **255개 PASS (failures/errors/skip0, exit0)**. 로그=`Docs/DATA08_B_TEST_LOG.txt`. 기존243 + B 신규12, 초기/중간 실패·통과 로그도 보존한다.
+- A의 정확한301/602 및14→15 검사는 v15 fixture로 보존, B의15→16 검사는 현재 Bundle에서 A 전체를 포함한 기존 payload/ID 보존을 확인한다. 실제SQL 카드/뜻/Note/검색/문법/관계·20개 세트·5/10/20 due·중복enrollment와 A어휘20개의4/20 부분session/사용자DB byte/SRS/favorite/설정/schema10 보존을 검사했다. 기존 회귀군의 Grammar/Listening/직접입력/통계/유지학습 검사도 유지했다.
+- 실제 활용10어휘/카드 연결 XCTest1개 추가. native 정의 **128개, 실행0**. Swift/Xcode 없음; type-check/Debug·Release build/SDK link/XCTest·실기기 검증을 portable 성공으로 대체하지 않는다. 기존 native Data07 전체初中級 기대값270→871도 수정했다.
+- 새 runtime 코드/엔진/사용자DB/광고·구매 변경0. 기존 retirement resume P1, native 출시 gate, 初中級 Grammar0/Listening2/Question5와 상위레벨 공백은 유지한다. 이번 범위에서 미해결 데이터 손상 P0를 재현하지 않았으나 앱 전체 결함 부재나 출시 승인으로 표현하지 않는다.
+
+로컬SQLite/저장/Resume·짧은 세션·광고 경계를 유지한다. 실제3~10분·iPhone 비행기모드/TTS/통화·kill/VoiceOver/광고/IAP/알림은 기존 Mac/실기기 gate다. 배포 판정 B—Conditional 유지.
+
+### Git 전달
+
+기존 명시적 커밋·푸시·PR·머지 위임에 따라 검증된 branch를 전달한다. 최종 커밋/PR/merge SHA는 Git/PR 자체가 기준이며 문서 안에 자기 commit SHA를 고정해 순환 변경하지 않는다. 직전 main과 merge 직전 remote 상태, 실제 merge/최종 clean 여부는 최종 응답에서 보고한다.
+
+근거: [개별 검수](Docs/DATA08_B_REVIEW.md), [전체 카탈로그](Docs/DATA08_B_REVIEW_CATALOG.md), [수량·해시](Docs/DATA08_B_COUNTS.json), `Docs/DATA08_B1~B3_AUDIT.json` / `VALIDATION.json` / `EDITORIAL.json` / `DB_BUILD.json`.

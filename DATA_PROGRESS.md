@@ -1,3 +1,26 @@
+# DATA_PROGRESS — DATA-08-3 / Batch B (현재)
+
+실제 `Resources/content.sqlite` 집계. **Schema4 / Content16 / Reader7 / UserProgress10**. 이하 Batch A/DATA-07 기록은 당시 이력이다.
+
+| 항목 | 현재 | Batch B 증가 | level/구분 |
+| --- | ---: | ---: | --- |
+| Vocabulary | **1,977** | **300** | 入門306 / 初級800 / 初中級871 |
+| 문장 Example | **3,965** | **600** | 入門646 / 初級1,577 / 初中級1,742 |
+| 전체 Example | 3,978 | 600 | 문장3,965 + 기존발음13 |
+| Meanings | 2,086 | 311 | 11항목 두 의미/용법 분리 |
+| Grammar | 42 | 0 | 入門22 / 初級20 / 初中級0 |
+| Listening | 115 | 0 | 入門34 / 初級79 / 初中級2 |
+| Question | 354 | 0 | 入門156 / 初級134 / 初中級5 / 한글59 |
+| Note | 385 | 100 | 전300어휘 Collocation |
+| Grammar Example 참조 | 152 | 15 | 새 문장 ID 참조, 기존 예문 유지 |
+| Vocabulary Example 참조 | 3,894 | 600 | 신규 문장과 관계 별도 집계 |
+
+A+B 신규 누적 **601어휘/1,202문장**. 전체 목표800~1,200/1,300~2,000 유지, 잔여199~599/98~798. 세 묶음 각100/200의 Self Review·Duplicate Audit·Stable ID·Validator 완료. strict0errors/기존10warnings, 최종 portable **255개 PASS (failures/errors/skip0, exit0)**, native128개 미실행. 기존 데이터 삭제·비활성화0.
+
+[DATA08_PROGRESS.md](DATA08_PROGRESS.md) §11과 [DATA08_B_COUNTS.json](Docs/DATA08_B_COUNTS.json)에 실제 SHA·증가량·검사·Git 상태를 기록한다. 다음 Batch는 수행하지 않았다.
+
+---
+
 # DATA_PROGRESS — DATA-08-2 / Batch A (현재)
 
 2026-10-19 (Asia/Tokyo). `Resources/content.sqlite` 실제 집계, source=`Content/production.json`. **Schema4 / Content15 / Reader7 / UserProgress10**. 이하 DATA-07 기록은 과거 이력으로 보존한다.
