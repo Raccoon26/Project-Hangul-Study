@@ -1,3 +1,13 @@
+# DATA-08-8 최종 확인 — Content19 / Schema4 / reader7 / UserProgress10
+
+**수량·Source/DB 통합 목표 달성, 전체 완료 판정은 B—Conditional 유지. DATA-09 미착수.** 신규 Vocabulary **911개(일반 어휘807 + 표현104)** / 고유 신규 문장 Example **1,821개**. 일반 어휘만 세어도 목표800~1,200 범위에 들며, 예문 목표1,300~2,000도 충족한다. 기존 예문1개 재사용은 신규 수에 포함하지 않았다.
+
+Production: Vocabulary **2,287**, Meaning **2,420**, Example **4,597(문장4,584 + 발음13)**, Grammar **42**, Listening **1,936**, Question **3,337**, Course **5**, Lesson **85**. Content19와 모든 기존 ID·원본·DB byte 유지. Importer 재구성 DB는 번들과 SHA-256까지 동일, strict **0 errors / 기존10 warnings**, FK0 / integrity ok, 종료 점검133건 PASS. 이번 portable **301/301 PASS**(270.967초, 실패/오류/skip0, exit0). iOS build/XCTest137개는 **BLOCKED**, 독립 사람 언어 검수는 **NOT TESTED**다.
+
+현재 결과와 미완료 조건은 [DATA08_CLOSEOUT](Docs/DATA08_CLOSEOUT.md), 실제 수량·해시는 [CLOSEOUT.json](Docs/DATA08_CLOSEOUT.json), 단계별 기록은 [DATA08_PROGRESS](DATA08_PROGRESS.md) §16을 따른다. **아래 DATA-08-1~7 및 DEV/DATA 섹션의 ‘현재’·완료 표현·테스트 수는 각 단계 당시 이력이며 최신 상태로 합산하거나 대체하지 않는다.**
+
+---
+
 **DATA-08-7 감사: Content19 / Schema4 / reader7 / UserProgress10 유지, Source/DB 변경0.** P1 세 건(비활성 복습 복구·받아쓰기 문장부호·듣기 due 퇴역 prefix) 코드 수정. 전체 Python/SQL **301 PASS**, native137개/실행0·iOS Build **BLOCKED**. 원래 DEV01~14/DATA01~07 작업 명세 원문은 찾지 못해 전체 원문 준수는 확인 불가. 기존 목표911어휘/1,821예문 유지, B—Conditional. [감사·부분 구현·상태표](Docs/DATA08_SYSTEM_REVIEW.md), [DATA08_PROGRESS.md](DATA08_PROGRESS.md) §15. 아래는 단계별 이력이다.
 
 ---
@@ -159,3 +169,15 @@ TEST_DESTINATION='platform=iOS Simulator,name=실제로 설치된 Simulator 이�
 | 개인정보설정열기→즉시닫기/background | 지연된form이학습화면위에나오지않음 |
 
 하나라도 데이터손실/crash/구매권한오류 발생 시 제출 중단. 재현 절차, 로그(개인정보 제거), 수정, 재검증 결과를 PROJECT_STATUS에 기록한다. Production AdMob 값을 안 넣고 광고 없는 Release를 유지하는 것은 허용된 설정이며 임의의 ID로 채우지 않는다.
+
+
+## DATA-08-8 최종 release gate (아래 미체크 항목은 실제 실행 전 완료 표시 금지)
+
+- [x] 원본/ID/기존 fixture 보존, Content19 byte-exact 재구성, strict 오류0/기존경고10, FK0/integrity ok, 전수 경로/수량 검증.
+- [ ] Mac의 Xcode/Swift/공식 SDK resolve, Debug/Release Simulator 및 device-architecture build.
+- [ ] 현재137 native XCTest 전체 실행(기존 Content swap·설정/진도 보존·불규칙·P1 세 건 포함).
+- [ ] iPhone3~10분/한 손/큰 글씨/VoiceOver/즉시저장·중단·이어하기/강제 종료·통화/비행기 모드·TTS·메모리 검증.
+- [ ] 실제 StoreKit 구매/복원/취소/철회/오프라인 권한과 Content Version 독립성, AdMob/동의/실제 Keychain 검증.
+- [ ] 독립 사람의 한국어/일본어 검수·Level/Register 및163선행Grammar 후보 확인.
+
+현재 B—Conditional이며 App Store 제출 승인·DATA08 완전 검수 완료가 아니다. 원래DEV/DATA명세 미확보 사항은 UNVERIFIABLE로 유지한다. DATA09 미착수. 최종 portable 실행 결과/명령은 [CLOSEOUT](Docs/DATA08_CLOSEOUT.md)을 따른다.

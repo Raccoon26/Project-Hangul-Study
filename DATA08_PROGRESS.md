@@ -1,5 +1,15 @@
 # DATA-08 진행 기록
 
+# DATA-08-8 최종 확인 — Content19 / Schema4 / reader7 / UserProgress10
+
+**수량·Source/DB 통합 목표 달성, 전체 완료 판정은 B—Conditional 유지. DATA-09 미착수.** 신규 Vocabulary **911개(일반 어휘807 + 표현104)** / 고유 신규 문장 Example **1,821개**. 일반 어휘만 세어도 목표800~1,200 범위에 들며, 예문 목표1,300~2,000도 충족한다. 기존 예문1개 재사용은 신규 수에 포함하지 않았다.
+
+Production: Vocabulary **2,287**, Meaning **2,420**, Example **4,597(문장4,584 + 발음13)**, Grammar **42**, Listening **1,936**, Question **3,337**, Course **5**, Lesson **85**. Content19와 모든 기존 ID·원본·DB byte 유지. Importer 재구성 DB는 번들과 SHA-256까지 동일, strict **0 errors / 기존10 warnings**, FK0 / integrity ok, 종료 점검133건 PASS. 이번 portable **301/301 PASS**(270.967초, 실패/오류/skip0, exit0). iOS build/XCTest137개는 **BLOCKED**, 독립 사람 언어 검수는 **NOT TESTED**다.
+
+현재 결과와 미완료 조건은 [DATA08_CLOSEOUT](Docs/DATA08_CLOSEOUT.md), 실제 수량·해시는 [CLOSEOUT.json](Docs/DATA08_CLOSEOUT.json), 단계별 기록은 [DATA08_PROGRESS](DATA08_PROGRESS.md) §16을 따른다. **아래 DATA-08-1~7 및 DEV/DATA 섹션의 ‘현재’·완료 표현·테스트 수는 각 단계 당시 이력이며 최신 상태로 합산하거나 대체하지 않는다.**
+
+---
+
 > **DATA-08-7 감사: Content19 / Schema4 / reader7 / UserProgress10 유지, Source/DB 변경0.** P1 세 건(비활성 복습 복구·받아쓰기 문장부호·듣기 due 퇴역 prefix) 코드 수정. 전체 Python/SQL **301 PASS**, native137개/실행0·iOS Build **BLOCKED**. 원래 DEV01~14/DATA01~07 작업 명세 원문은 찾지 못해 전체 원문 준수는 확인 불가. 기존 목표911어휘/1,821예문 유지, B—Conditional. [감사·부분 구현·상태표](Docs/DATA08_SYSTEM_REVIEW.md), [DATA08_PROGRESS.md](DATA08_PROGRESS.md) §15. 아래는 단계별 이력이다.
 
 > **현재 DATA-08-6 Production 통합: Content19 / Schema4 / Reader7 / UserProgress10.** 실제 Course1·Unit3·Lesson47/911어휘 배치,1,821 듣기·받아쓰기와1,162 활용/문장입력 연결. 전체 목표911/1,821 유지, portable291PASS. native132개·실기기/사람 검수 미실행. 현재 상세는 §14, 아래 §1~13은 당시 이력이다.
@@ -662,3 +672,42 @@ PurchaseService/AdService/MonetizationPolicy/LearningPreferences는 시작 commi
 初中級 Grammar0/상위 콘텐츠·검증 녹음 부족, mixed Unit scheduler/정밀진단/자유작문·직접입력 전용 due queue 미구현을 유지한다. 파랗다/노랗다 현재·과거, 빨갛다 과거의 Dictionary override 부족은 P2 부분 구현이다. 기존 고정 회독/레슨의 퇴역 시 보존·안전 정지/대량퇴역 정책 제한도 남긴다. P1 수정은 코드/SQL PASS이고 native 실행을 기다리며 **B—Conditional**을 유지한다.
 
 상세 재현·버그·상태표는 [SYSTEM_REVIEW](Docs/DATA08_SYSTEM_REVIEW.md), [RESULTS](Docs/DATA08_SYSTEM_RESULTS.json), [REPRO](Docs/DATA08_SYSTEM_REPRO.json), 원시 로그는 `Docs/DATA08_SYSTEM_*TEST_LOG.txt`에 있다. 기존 명시적 커밋·푸시·PR·머지 위임으로 검증된 branch를 전달하며 최종 SHA/PR/clean main은 Git/PR과 최종 응답이 기준이다. **DATA-08-7에서 종료하고 다음 단계/앱 배포는 시작하지 않는다.**
+
+
+## 16. DATA-08-8 — 최종 검증·원본 보존·Git 전달
+
+**수량·통합 목표 달성 / B—Conditional 유지 / DATA09 미착수.** 시작 clean main `4cf64ca3b1ac496193033ee7a04d63ad1ee46379`, 기존 미커밋 변경0. 실제 보존 v14~18 DB·현재19·A/B/C registry와1~7단계 수량·보고서를 다시 대조했다.
+
+| 단계 | 실제 근거 | 검증된 결과 / 당시 portable |
+| --- | --- | --- |
+| 1 상태 조사 | v14 fixture·BASELINE | V1,376/E2,776, Content14, 추가0; 당시232 PASS |
+| 2 Batch A | v15 fixture·A ID registry | 신규 V301(일반261/표현40), E602; 당시243 PASS |
+| 3 Batch B | v16 fixture·B ID registry | 신규 V300(일반266/표현34), E600; 당시255 PASS |
+| 4 Batch C | v17 fixture·C ID registry | 신규 V310(일반280/표현30), E619, 기존1 재사용; 당시269 PASS |
+| 5 전체 품질 감사 | v18 fixture·FINAL_COUNTS/EDITORIAL/SAMPLES | 신규 수량 증감0,34어휘/43필드 교정·40 ID revision; 당시280 PASS |
+| 6 Production 통합 | 현재 v19·INTEGRATION_COUNTS | 신규 Course1/Unit tag3/Lesson47, 듣기1,821/활용581/문장입력581; 당시291 PASS |
+| 7 요구사항 감사 | 현재 v19·SYSTEM_RESULTS | Content/Schema 변경0, P1 세 건 코드 수정; 당시301 PASS |
+
+신규 Vocabulary911(일반807/표현104), Meaning963, 고유 신규 Example1,821, Note314. 기존1문장 재사용 제외, 목표800~1,200 /1,300~2,000 대비 부족0/0. 이번 신규/삭제/retire/revision/Version 변경0. Content19/Schema4/reader7/UserProgress10 유지.
+
+| Level | Vocabulary | Meaning | Example(문장) | Grammar | Listening | Question | Course / Lesson |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| 한글 | 0 | 0 | 0(0) | 0 | 0 | 59 | 1 / 12 |
+| 入門 / intro | 306 | 327 | 659(646) | 22 | 34 | 156 | 2 / 20 |
+| 初級 / beginner | 800 | 847 | 1,577(1,577) | 20 | 79 | 134 | 1 / 6 |
+| 初中級 / lower_intermediate | 1,181 | 1,246 | 2,361(2,361) | 0 | 1,823 | 2,988 | 1 / 47 |
+| 中級·中上級·上級·マスター·維持学習 각각 | 0 | 0 | 0(0) | 0 | 0 | 0 | 0 / 0 |
+| **합계** | **2,287** | **2,420** | **4,597(4,584)** | **42** | **1,936** | **3,337** | **5 / 85** |
+
+Importer 재구성의 source25테이블63,159행뿐 아니라 metadata/검색 index/sqlite_stat1 포함 **전체31테이블·schema/index SQL·byte SHA**가 번들과 동일하다. strict errors0/기존warnings10, integrity ok/FK0, 종료 점검133 PASS. Source SHA `f97b3bd70d07a3945770b8d6940c4a53e29a9b70b565caf21fb927230c08b4a8`, 번들/재구성 SHA `57aeaf918d5eaaec3bbfaed02f87c5452cca8264540b923a70448b781adbe9e5`. 전체 Git refs의 접근 가능한50MiB/100MiB 초과 blob0, 최대17,932,288bytes. 이전 실패 원문이 없어 당시 원인은 단정하지 않는다. LFS·이력 재작성·force push 없음. Production 원본 JSON/DDL/Importer/ID 색인, 번들 DB, 모든 과거 fixture를 보존하고 새 임시 DB/WAL/SHM/빌드 산출물만 ignore한다. 기존 추적 hidden DB는 삭제하지 않았다.
+
+- **PASS**: strict Importer/Validator 0 errors / 기존10 warnings, 재구성3.2742초, byte-exact SHA·전체31테이블·schema/index 일치, integrity ok/FK0.
+- **PASS**: 종료 구조·보존 점검133건, Source25테이블63,159행·기존75개 Content/Resources/fixture 파일 byte 보존, 전체 문항/예문 경로 확인.
+- **PASS**: 이번 `sh Tools/verify.sh --portable` **301/301**, 270.967초, failures/errors/skipped/expected failures0, exit0. [이번 원시 로그](Docs/DATA08_CLOSEOUT_TEST_LOG.txt). 과거 단계/전용 회귀 수를 중복 합산하지 않는다.
+- **BLOCKED**: 이번 `xcodebuild -version` 및 `swift --version` 모두 exit127(command not found). iOS Debug/Release/device-architecture build·SDK link·type-check·native XCTest 정의137개/실행0. UI/오디오/강제 종료/실제 Keychain·StoreKit/AdMob·실기기 성능·메모리/3~10분은 실행0이다.
+- **NOT TESTED**: 독립 사람·원어민/교사의 한일 언어·난도 검수. **UNVERIFIABLE**: 원래 DEV/DATA 전체 명세 준수.
+- 현재 최종 실행 **FAIL0**. 기존 단계 초기 FAIL/ERROR 로그와 수정 근거는 보존했다. portable 성공을 iOS 빌드나 사람 검수 완료로 바꾸지 않는다.
+
+최종 검수 범위는 기존 assistant 전911/963/1,821/314 및 표본84의 hash·교정34어휘43필드 기록 재대조다. 사람 검수0,163문형의 선행Grammar/Level/Register 미해결,原DEV/DATA명세 전체 준수 확인불가. 이번 실행 범위에서 미해결로 재현된 P0/P1은0이나, 이전 P1 세 건의 상태는 코드수정/SQL PASS/native BLOCKED다. iOS P0/P1 부재를 보장하지 않는다. 初中級Grammar0·상위레벨/검증녹음0·H override/고정회독 대량퇴역 제한 등 공백을 유지한다. 실제 기기·구매·광고·사람 검수 gate를 해결하기 전 DATA09를 시작하지 않는다.
+
+`PROJECT_STATUS.md`, `DATA_PROGRESS.md`, `CONTENT_GUIDE.md`, `RELEASE_CHECKLIST.md`, `AGENTS.md`, README/Importer 안내를 최종 실제 상태·보존/재현 정책에 맞췄다. 기존 이력/초기 실패 로그는 보존한다. 전체 수량/해시/근거/재현 명령/버그/다음 공백은 [최종 보고](Docs/DATA08_CLOSEOUT.md), [구조/보존 점검](Docs/DATA08_CLOSEOUT.json), [이번 경로 감사](Docs/DATA08_CLOSEOUT_ROUTING.json)에 있다. Git 전달은 일반 commit/push와 PR을 사용하고 실제 최종 SHA/원격 반영은 Git/PR·최종 응답으로 확인한다. 이번 DATA08-8에서 종료한다.

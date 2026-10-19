@@ -1,3 +1,13 @@
+# DATA-08-8 최종 확인 — Content19 / Schema4 / reader7 / UserProgress10
+
+**수량·Source/DB 통합 목표 달성, 전체 완료 판정은 B—Conditional 유지. DATA-09 미착수.** 신규 Vocabulary **911개(일반 어휘807 + 표현104)** / 고유 신규 문장 Example **1,821개**. 일반 어휘만 세어도 목표800~1,200 범위에 들며, 예문 목표1,300~2,000도 충족한다. 기존 예문1개 재사용은 신규 수에 포함하지 않았다.
+
+Production: Vocabulary **2,287**, Meaning **2,420**, Example **4,597(문장4,584 + 발음13)**, Grammar **42**, Listening **1,936**, Question **3,337**, Course **5**, Lesson **85**. Content19와 모든 기존 ID·원본·DB byte 유지. Importer 재구성 DB는 번들과 SHA-256까지 동일, strict **0 errors / 기존10 warnings**, FK0 / integrity ok, 종료 점검133건 PASS. 이번 portable **301/301 PASS**(270.967초, 실패/오류/skip0, exit0). iOS build/XCTest137개는 **BLOCKED**, 독립 사람 언어 검수는 **NOT TESTED**다.
+
+현재 결과와 미완료 조건은 [DATA08_CLOSEOUT](Docs/DATA08_CLOSEOUT.md), 실제 수량·해시는 [CLOSEOUT.json](Docs/DATA08_CLOSEOUT.json), 단계별 기록은 [DATA08_PROGRESS](DATA08_PROGRESS.md) §16을 따른다. **아래 DATA-08-1~7 및 DEV/DATA 섹션의 ‘현재’·완료 표현·테스트 수는 각 단계 당시 이력이며 최신 상태로 합산하거나 대체하지 않는다.**
+
+---
+
 **DATA-08-7 감사: Content19 / Schema4 / reader7 / UserProgress10 유지, Source/DB 변경0.** P1 세 건(비활성 복습 복구·받아쓰기 문장부호·듣기 due 퇴역 prefix) 코드 수정. 전체 Python/SQL **301 PASS**, native137개/실행0·iOS Build **BLOCKED**. 원래 DEV01~14/DATA01~07 작업 명세 원문은 찾지 못해 전체 원문 준수는 확인 불가. 기존 목표911어휘/1,821예문 유지, B—Conditional. [감사·부분 구현·상태표](Docs/DATA08_SYSTEM_REVIEW.md), [DATA08_PROGRESS.md](DATA08_PROGRESS.md) §15. 아래는 단계별 이력이다.
 
 ---
@@ -1092,3 +1102,12 @@ sh Tools/verify.sh --portable
 - 듣기 due는 새 snapshot 전에20개씩 Content 가용성을 확인한다. 정상 조회에서 누락된 ID만 버전별로 보류하며 DB/decoding 오류를 ‘퇴역’으로 추정하지 않는다. 기존 active listening snapshot은 재조회/재작성하지 않는다.
 - dictation은 끝 .!? 생략을 허용하되 내부 부호·어휘·철자 차이를 정답으로 합치지 않는다. 띄어쓰기 피드백을 유지한다. 일반 ProductionAnswer의 exact/spacing 규칙은 변하지 않는다.
 - 자동 alias 병합/기존 고정 회독 ID 대체·자동 완료·SRS 초기화를 허용하지 않는다. 원래 명세 미확보/Native137개 BLOCKED/사람 검수 NOT TESTED와 B—Conditional을 보존한다. 상세 DATA08_PROGRESS §15.
+
+
+## DATA-08-CLOSEOUT — Content19 재구성·원본 보존 계약
+
+현재 runtime은 `Content/production.json` + `content-schema-v4.sql` → 기존 Importer/Validator → `Resources/content.sqlite`이며 Content19/Schema4/reader7이다. 신규911(일반807/표현104)/문장1,821, 전체2,287/4,597(문장4,584). source/ID registry·DDL·과거 snapshot을 반드시 Git 보존한다. 번들 DB는 재생성 가능하지만 현재 Xcode가 포함하는 배포 자산이므로 추적을 유지한다. synthetic/candidate/staging/WAL/SHM/Xcode 출력과 구분한다. `*.sqlite`/`Content/*.json` 전체를 ignore하거나 원본을 지워 대용량 오류를 우회하지 않는다.
+
+동일19 재현에는18 fixture를 `--previous`로 사용해 `/tmp` candidate를 만든다. 위 DATA08_CLOSEOUT 명령으로 전체31테이블·schema/index·SHA까지 일치했다. 다음 콘텐츠 변경은 현재19 DB를 먼저 불변 snapshot으로 보존하고19를 previous로 지정한 strict gate를 통과시킨다. Content Version은 실제 본문/관계 변경 정책대로만 갱신하고 schema 변경이 없으면 Schema4 유지. 이번 문서/검증 변경은 Content19를 유지한다.
+
+원본16,638,955bytes/번들17,932,288bytes, 현재 접근 가능한 Git 이력의50MiB/100MiB 초과 blob0이므로 LFS 도입 불필요. 향후 JSONL shard 또는 필요한 원본에 한한 LFS를 별도 검토한다. 독립 사람 검수·163선행 문형·native gate는 미완료다. 상세·정확한 재현 명령은 [최종 보고](Docs/DATA08_CLOSEOUT.md).

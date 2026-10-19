@@ -1,0 +1,25 @@
+{
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+  "python": "3.12.14",
+  "sqlite": "3.53.1",
+  "commands": [
+    {
+      "command": [
+        "xcodebuild",
+        "-version"
+      ],
+      "exit_code": 127,
+      "output": "xcodebuild: command not found",
+      "status": "BLOCKED"
+    },
+    {
+      "command": [
+        "swift",
+        "--version"
+      ],
+      "exit_code": 127,
+      "output": "swift: command not found",
+      "status": "BLOCKED"
+    }
+  ]
+}
