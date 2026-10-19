@@ -1,3 +1,9 @@
+# DATA_PROGRESS — DATA-08-6 / Production 통합 (현재)
+
+**DATA-08-6: Content19 / Schema4 / minReader7 / UserProgress10.** 911어휘/1,821신규예문 목표 유지. 실제 Course1·Unit tag3·Lesson47에911어휘 배치, 듣기/받아쓰기1,821·활용/문장입력1,162문항 연결. Production Vocabulary2,287 / Example4,597 / Grammar42 / Listening1,936 / Question3,337. strict0errors/기존10warnings·integrity ok/FK0·전63,159행 Source/DB 일치. portable **291 PASS**(289.839초, failures/errors/skipped0, exit0), 전용11 PASS. 사용자 기록/active snapshot/5·10·20 복습 SQL 보존. native 정의132/실행0, 실제 iPhone/offline/TTS/3~10분과 사람 검수 미실행. B—Conditional 유지. 상세 [통합 기록](Docs/DATA08_INTEGRATION.md), [DATA08_PROGRESS.md](DATA08_PROGRESS.md) §14. 아래는 단계별 이력이다.
+
+---
+
 # DATA_PROGRESS — DATA-08-5 / 최종 감사 (현재)
 
 **Content18 / Schema4 / Reader7 / UserProgress10.** 이번 신규/삭제 행0,34어휘43필드 교정·40엔티티 revision+1. 이하 A/B/C와 DEV/DATA 기록은 당시 이력이다.

@@ -13,7 +13,7 @@ class CurriculumSQLTests(unittest.TestCase):
  def tearDown(self):self.db.close()
  def test_all_production_membership_paged_by_level_without_orphans(self):
   sql=query('SQLiteCurriculum','SELECT id FROM content_items')
-  for kind,totals in [('vocabulary',{'intro':306,'beginner':800,'lower_intermediate':1181}),('grammar',{'intro':22,'beginner':20}),('listening',{'intro':34,'beginner':79,'lower_intermediate':2}),('lesson',{'hangul':12,'intro':14})]:
+  for kind,totals in [('vocabulary',{'intro':306,'beginner':800,'lower_intermediate':1181}),('grammar',{'intro':22,'beginner':20}),('listening',{'intro':34,'beginner':79,'lower_intermediate':1823}),('lesson',{'hangul':12,'intro':14,'lower_intermediate':47})]:
    for level,n in totals.items():
     ids=[];after=''
     while True:
@@ -25,10 +25,14 @@ class CurriculumSQLTests(unittest.TestCase):
  def test_curriculum_production_filter_uses_real_active_question_targets(self):
   sql=query('SQLiteCurriculum','SELECT DISTINCT v.id,v.headword');allids=[]
   for level in ['intro','beginner','lower_intermediate']:
-   rows=self.db.execute(sql,[level,'']).fetchall();self.assertLessEqual(len(rows),30);allids += [r[0]for r in rows]
-   for id,_ in rows:
-    self.assertTrue(self.db.execute(query('SQLiteProduction','SELECT q.*'),[id]).fetchall())
-  self.assertEqual(len(set(allids)),31)
+   after=''
+   while True:
+    rows=self.db.execute(sql,[level,after]).fetchall();self.assertLessEqual(len(rows),30)
+    if not rows:break
+    allids += [r[0]for r in rows];after=rows[-1][0]
+    for id,_ in rows:
+     self.assertTrue(self.db.execute(query('SQLiteProduction','SELECT q.*'),[id]).fetchall())
+  self.assertEqual(len(set(allids)),612)
   self.assertEqual(self.db.execute(sql,['advanced','']).fetchall(),[])
  def test_profile_skip_replacement_and_diagnostic_never_mutate_learning_tables(self):
   with tempfile.TemporaryDirectory() as tmp:

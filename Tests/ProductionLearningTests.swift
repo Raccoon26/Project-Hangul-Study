@@ -133,7 +133,7 @@ final class ProductionLearningTests: XCTestCase {
         let url=try XCTUnwrap(Bundle.main.url(forResource:"content",withExtension:"sqlite"))
         let content=try SQLiteContentRepository(url:url,allowFixture:false)
         let entries=try await allProductionEntries(content)
-        XCTAssertEqual(entries.count,31)
+        XCTAssertEqual(entries.count,612)
         for entry in entries {
             let questions=try await content.productionQuestions(id:entry.0)
             XCTAssertFalse(questions.isEmpty)

@@ -15,7 +15,7 @@ struct ListeningCatalogView: View {
                 }.disabled(due == 0 && !activeReview)
             }
             Section("音声を聞いて練習") {
-                ForEach([LearningLevel.intro,.beginner],id:\.rawValue) { level in
+                ForEach([LearningLevel.intro,.beginner,.lowerIntermediate],id:\.rawValue) { level in
                     NavigationLink(level.japaneseName) { ListeningBatchView(services:services,level:level) }
                 }
                 Text("再生ボタンを押すと音声が流れます。1回最大20問。途中で閉じても続きから再開できます。")
