@@ -1,3 +1,24 @@
+# DATA_PROGRESS — DATA-08-4 / Batch C (현재)
+
+실제 Production 집계. **Schema4 / Content17 / Reader7 / UserProgress10**. 아래 A/B와 DEV/DATA 내용은 당시 이력이다.
+
+| 항목 | 현재 | C 증가 | level/구분 |
+| --- | ---: | ---: | --- |
+| Vocabulary | **2,287** | **310** | 入門306 / 初級800 / 初中級1,181 |
+| 문장 Example | **4,584** | **619** | 入門646 / 初級1,577 / 初中級2,361 |
+| 전체 Example | 4,597 | 619 | 기존 발음13 포함 |
+| Meaning | 2,420 | 334 | C 다의어24항목 |
+| Grammar | 42 | 0 | 入門22 / 初級20 / 初中級0 |
+| Listening | 115 | 0 | 入門34 / 初級79 / 初中級2 |
+| Question | 354 | 0 | 入門156 / 初級134 / 初中級5 / 한글59 |
+| Note | 531 | 146 | C 전310항목 Collocation/Register |
+| Grammar Example 참조 | 169 | 17 | 기존 문법 재사용 |
+| Vocabulary Example 참조 | 4,514 | 620 | 신규619 / 재사용1 |
+
+A+B+C 누적 **911어휘(일반807/표현104) / 신규 문장1,821**, 전체 목표800~1,200 / 1,300~2,000 달성, 부족0/0. C 일반280/표현30. 세 묶음 strict 오류0/기존경고10·integrity ok/FK0·신규중복0. portable269 PASS, native129개 미실행. 기존 데이터 삭제·비활성화0. 상세 [DATA08_PROGRESS.md](DATA08_PROGRESS.md) §12, [실제 수량·해시](Docs/DATA08_C_COUNTS.json). Batch C 이후 작업은 수행하지 않았다.
+
+---
+
 # DATA_PROGRESS — DATA-08-3 / Batch B (현재)
 
 실제 `Resources/content.sqlite` 집계. **Schema4 / Content16 / Reader7 / UserProgress10**. 이하 Batch A/DATA-07 기록은 당시 이력이다.

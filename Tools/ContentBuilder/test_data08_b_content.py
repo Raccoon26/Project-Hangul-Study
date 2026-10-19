@@ -1,10 +1,13 @@
 """DATA-08-B bundle, release preservation and actual repository SQL contracts.
 
+The exact Content16 source and bundle are immutable historical fixtures.
+Batch C checks their complete preservation in the current bundle.
 These tests exercise SQLite, not the Swift engine or iOS lifecycle.
 """
 import collections
 import copy
 import hashlib
+import gzip
 import json
 import shutil
 import sqlite3
@@ -23,7 +26,9 @@ from test_lookup_sql import user
 class Data08BatchBTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.db = sqlite3.connect((ROOT/'Resources/content.sqlite').as_uri()+'?mode=ro', uri=True)
+        cls.release = ROOT/'Tests/Fixtures/content-v16-production.sqlite'
+        cls.source_bytes = gzip.decompress((ROOT/'Tests/Fixtures/content-v16-production.json.gz').read_bytes())
+        cls.db = sqlite3.connect(cls.release.as_uri()+'?mode=ro', uri=True)
         cls.previous = ROOT/'Tests/Fixtures/content-v15-production.sqlite'
         cls.old = sqlite3.connect(cls.previous.as_uri()+'?mode=ro', uri=True)
         cls.registry = json.loads((ROOT/'Content/data08-b-ids.json').read_text())
@@ -38,7 +43,9 @@ class Data08BatchBTests(unittest.TestCase):
     def test_strict_source_rebuild_and_exact_release_delta(self):
         with tempfile.TemporaryDirectory() as tmp:
             output = Path(tmp)/'content.sqlite'
-            result = build(ROOT/'Content/production.json', output, self.previous, production=True)
+            released_source = Path(tmp)/'content16.json'
+            released_source.write_bytes(self.source_bytes)
+            result = build(released_source, output, self.previous, production=True)
             self.assertEqual(result['validation']['error_count'], 0)
             self.assertEqual(result['validation']['warning_count'], 10)
             with sqlite3.connect(output) as rebuilt:
@@ -227,7 +234,7 @@ class Data08BatchBTests(unittest.TestCase):
             db.commit()
             db.close()
             before = progress.read_bytes()
-            shutil.copyfile(ROOT/'Resources/content.sqlite', content)
+            shutil.copyfile(self.release, content)
             self.assertEqual(progress.read_bytes(), before)
             with sqlite3.connect(progress) as cold, sqlite3.connect(content) as current:
                 self.assertEqual(cold.execute('SELECT state_json,status FROM vocabulary_sessions').fetchone(), (payload, 'active'))
@@ -238,7 +245,7 @@ class Data08BatchBTests(unittest.TestCase):
                     self.assertIsNotNone(current.execute(query('SQLiteLookup', 'SELECT i.level'), [item_id, kind]).fetchone())
 
     def test_corrupt_candidate_and_unapproved_old_revision_changes_are_rejected(self):
-        original = json.loads((ROOT/'Content/production.json').read_text())
+        original = json.loads(self.source_bytes)
         example_id = self.registry['examples'][0]
         revised_id = next(iter(self.approved))
         old_revision = self.old.execute('SELECT revision FROM content_items WHERE id=?', [revised_id]).fetchone()[0]
@@ -257,7 +264,7 @@ class Data08BatchBTests(unittest.TestCase):
                     build(source, Path(tmp)/'invalid.sqlite', self.previous, production=True)
 
     def test_reviewed_payload_fingerprints_and_three_subgroup_gate_records(self):
-        source = json.loads((ROOT/'Content/production.json').read_text())
+        source = json.loads(self.source_bytes)
         rows = {k: {r['id']: r for r in values if 'id' in r}
                 for k, values in source['tables'].items()}
         review = json.loads((ROOT/'Docs/DATA08_B_EDITORIAL.json').read_text())
@@ -281,5 +288,5 @@ class Data08BatchBTests(unittest.TestCase):
                              (stage*100, stage*200))
             self.assertEqual(report['validation']['error_count'], 0)
             self.assertEqual(report['validation']['warning_count'], 10)
-        self.assertEqual(hashlib.sha256((ROOT/'Content/production.json').read_bytes()).hexdigest(),
+        self.assertEqual(hashlib.sha256(self.source_bytes).hexdigest(),
                          audit['source_sha256'])

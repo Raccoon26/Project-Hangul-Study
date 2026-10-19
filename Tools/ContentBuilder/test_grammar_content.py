@@ -25,11 +25,11 @@ class GrammarContentTests(unittest.TestCase):
         for name in ['user-schema-v1']+[f'user-migration-v{i}' for i in range(2,7)]:db.executescript((ROOT/f'Resources/{name}.sql').read_text())
         return db
     def test_production_counts_versions_and_preserved_old_content(self):
-        self.assertEqual(self.db.execute('SELECT schema_version,content_version,min_reader_version FROM content_metadata').fetchone(),(4,16,7))
-        for table,n in [('grammar',42),('grammar_examples',152),('questions',354),('vocabulary',1977),('examples',3978),('courses',4),('lessons',38)]:self.assertEqual(self.db.execute('SELECT COUNT(*) FROM '+table).fetchone()[0],n)
+        self.assertEqual(self.db.execute('SELECT schema_version,content_version,min_reader_version FROM content_metadata').fetchone(),(4,17,7))
+        for table,n in [('grammar',42),('grammar_examples',169),('questions',354),('vocabulary',2287),('examples',4597),('courses',4),('lessons',38)]:self.assertEqual(self.db.execute('SELECT COUNT(*) FROM '+table).fetchone()[0],n)
         with sqlite3.connect(ROOT/'Tests/Fixtures/content-v7-production.sqlite') as old:
             before,after=signatures(old),signatures(self.db)
-            self.assertEqual(len(before),3380);self.assertTrue(all(after[id]==sig for id,sig in before.items() if id not in (json.loads((ROOT/"Content/dev08-revised-ids.json").read_text()) + json.loads((ROOT/"Content/dev09-revised-ids.json").read_text()) + json.loads((ROOT/"Content/data04-revised-ids.json").read_text()) + json.loads((ROOT/"Content/data05-revised-ids.json").read_text()) + json.loads((ROOT/"Content/data06-revised-ids.json").read_text()) + json.loads((ROOT/"Content/data07-revised-ids.json").read_text()) + json.loads((ROOT/"Content/data08-a-revised-ids.json").read_text()) + json.loads((ROOT/"Content/data08-b-revised-ids.json").read_text()))))
+            self.assertEqual(len(before),3380);self.assertTrue(all(after[id]==sig for id,sig in before.items() if id not in (json.loads((ROOT/"Content/dev08-revised-ids.json").read_text()) + json.loads((ROOT/"Content/dev09-revised-ids.json").read_text()) + json.loads((ROOT/"Content/data04-revised-ids.json").read_text()) + json.loads((ROOT/"Content/data05-revised-ids.json").read_text()) + json.loads((ROOT/"Content/data06-revised-ids.json").read_text()) + json.loads((ROOT/"Content/data07-revised-ids.json").read_text()) + json.loads((ROOT/"Content/data08-a-revised-ids.json").read_text()) + json.loads((ROOT/"Content/data08-b-revised-ids.json").read_text()) + json.loads((ROOT/"Content/data08-c-revised-ids.json").read_text()))))
         self.assertEqual(self.report['validation']['error_count'],0)
         with sqlite3.connect(ROOT/'Resources/content.sqlite') as bundle:self.assertEqual(signatures(bundle),signatures(self.db))
     def test_actual_repository_level_lesson_search_example_comparison_queries(self):

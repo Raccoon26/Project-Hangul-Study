@@ -1,0 +1,36 @@
+{
+  "subgroup": "C1",
+  "cumulative_vocabulary_rows": 100,
+  "lexical_vocabulary": 90,
+  "phrases": 10,
+  "cumulative_examples": 199,
+  "meanings": 105,
+  "notes": 42,
+  "new_content_items": 449,
+  "reused_examples": 1,
+  "approved_old_endpoints": 15,
+  "relations": 28,
+  "grammar_links": 7,
+  "pos": {
+    "verb": 43,
+    "noun": 27,
+    "adjective": 10,
+    "adverb": 10,
+    "expression": 10
+  },
+  "checks": {
+    "korean_japanese_self_review": "assistant individual reread, not independent expert review",
+    "normalized_old_new_headword_korean_japanese_pairs": "pass",
+    "meaning_ordinals_and_sense_examples": "pass",
+    "stable_uuid4": "pass",
+    "old_payload_and_revision_allowlist": "pass",
+    "actual_card_meaning_note_relation_grammar_SQL": "pass",
+    "integrity": "ok",
+    "foreign_key_violations": 0,
+    "validator_errors": 0,
+    "validator_warnings": 10,
+    "earlier_subgroup_UUID_payloads": "preserved"
+  },
+  "source_sha256": "786d3cb4bfefc41b109b953114ba0c39e7855dfef541d986027ebd14e1dd5071",
+  "database_sha256": "4e2c559d0630ce9e5228d35b393a853c7da3d1b41482b07c00236b3b80c15aa8"
+}

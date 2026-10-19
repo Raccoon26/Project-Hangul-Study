@@ -19,17 +19,18 @@ class Data07Tests(unittest.TestCase):
    self.assertEqual(r['validation']['error_count'],0);self.assertEqual(r['validation']['warning_count'],10)
    with sqlite3.connect(p) as c:self.assertEqual(signatures(c),signatures(self.c))
   # Cumulative Content13 -> current; DATA07's exact cohort remains checked below.
-  for t,delta in [('vocabulary',1051),('meanings',1104),('examples',2102),('grammar',0),('questions',12),('listening_items',4),('grammar_examples',57),('learner_notes',204)]:
+  for t,delta in [('vocabulary',1361),('meanings',1438),('examples',2721),('grammar',0),('questions',12),('listening_items',4),('grammar_examples',74),('learner_notes',350)]:
    self.assertEqual(self.c.execute('SELECT COUNT(*) FROM '+t).fetchone()[0]-self.old.execute('SELECT COUNT(*) FROM '+t).fetchone()[0],delta,t)
-  self.assertEqual(self.c.execute('SELECT schema_version,content_version,min_reader_version,is_fixture FROM content_metadata').fetchone(),(4,16,7,0))
+  self.assertEqual(self.c.execute('SELECT schema_version,content_version,min_reader_version,is_fixture FROM content_metadata').fetchone(),(4,17,7,0))
  def test_old_payloads_and_only_reviewed_endpoint_revision_changes(self):
   a,b=signatures(self.old),signatures(self.c);approved=set(json.loads((ROOT/'Content/data07-revised-ids.json').read_text()))
   subsequent=set(json.loads((ROOT/'Content/data08-a-revised-ids.json').read_text()))
   batch_b=set(json.loads((ROOT/'Content/data08-b-revised-ids.json').read_text()))
-  self.assertEqual({id for id in a if a[id]!=b[id]},(approved | subsequent | batch_b) & set(a));self.assertEqual(len(approved),30)
+  batch_c=set(json.loads((ROOT/'Content/data08-c-revised-ids.json').read_text()))
+  self.assertEqual({id for id in a if a[id]!=b[id]},(approved | subsequent | batch_b | batch_c) & set(a));self.assertEqual(len(approved),30)
   for row in self.old.execute('SELECT * FROM content_items'):
    actual=self.c.execute('SELECT * FROM content_items WHERE id=?',[row[0]]).fetchone()
-   self.assertEqual(actual[:2]+actual[3:-1],row[:2]+row[3:-1]);self.assertEqual(actual[2],row[2]+int(row[0]in approved)+int(row[0]in subsequent)+int(row[0]in batch_b))
+   self.assertEqual(actual[:2]+actual[3:-1],row[:2]+row[3:-1]);self.assertEqual(actual[2],row[2]+int(row[0]in approved)+int(row[0]in subsequent)+int(row[0]in batch_b)+int(row[0]in batch_c))
   for t in ['vocabulary','meanings','examples','grammar','questions','listening_items','courses','lessons','hangul','pronunciation_rules']:
    for row in self.old.execute('SELECT * FROM '+t):self.assertEqual(self.c.execute('SELECT * FROM '+t+' WHERE id=?',[row[0]]).fetchone(),row)
   for t in ['vocabulary_examples','grammar_examples','lesson_items','question_choices','content_links']:
@@ -63,7 +64,7 @@ class Data07Tests(unittest.TestCase):
    self.assertEqual(self.c.execute('SELECT irregular_type FROM vocabulary WHERE headword=?',[word]).fetchone()[0],kind)
   for word in ['한동안','당장']:self.assertEqual(self.words[word]['part_of_speech'],'noun')
  def test_level_set_order_and_curriculum_access_in_bounded_pages(self):
-  for level,n in [('intro',306),('beginner',800),('lower_intermediate',871)]:
+  for level,n in [('intro',306),('beginner',800),('lower_intermediate',1181)]:
    sql='SELECT v.id FROM vocabulary v JOIN content_items i ON i.id=v.id WHERE i.level=? ORDER BY sort_key,v.id'
    old=[r[0]for r in self.old.execute(sql,[level])];new=[r[0]for r in self.c.execute(sql,[level])]
    self.assertEqual(len(new),n);self.assertEqual(new[:len(old)],old)

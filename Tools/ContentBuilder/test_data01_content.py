@@ -21,8 +21,8 @@ class Data01ContentTests(unittest.TestCase):
     def clause(self,prefix):
         return next(s for s in re.findall(r'sql \+= "([^"]+)"',self.swift) if s.startswith(prefix))
     def test_release_counts_versions_and_integrity(self):
-        self.assertEqual(self.db.execute('SELECT schema_version,content_version,min_reader_version,is_fixture,dataset_id FROM content_metadata').fetchone(),(4,16,7,0,'ko-ja-core'))
-        for table,count in [('vocabulary',1977),('meanings',2086),('examples',3978),('courses',4),('lessons',38),('hangul',55),('pronunciation_rules',36)]:
+        self.assertEqual(self.db.execute('SELECT schema_version,content_version,min_reader_version,is_fixture,dataset_id FROM content_metadata').fetchone(),(4,17,7,0,'ko-ja-core'))
+        for table,count in [('vocabulary',2287),('meanings',2420),('examples',4597),('courses',4),('lessons',38),('hangul',55),('pronunciation_rules',36)]:
             self.assertEqual(self.db.execute('SELECT COUNT(*) FROM '+table).fetchone()[0],count)
         self.assertEqual(len(self.registry['examples']),447)
         self.assertEqual(self.db.execute('PRAGMA integrity_check').fetchone()[0],'ok')
@@ -66,7 +66,7 @@ class Data01ContentTests(unittest.TestCase):
         self.assertTrue({v['id'] for v in self.registry['vocabulary']}.issubset(set(seen)))
         self.assertEqual(self.db.execute(self.queries[0]+self.clause(' AND i.level=')+self.clause(' ORDER BY'),['advanced',50]).fetchall(),[])
     def test_part_of_speech_query_and_targeted_taxonomy(self):
-        expected={'noun':515,'pronoun':14,'bound_noun':19,'verb':762,'adjective':296,'adverb':222,'numeral':10,'determiner':6,'expression':133}
+        expected={'noun':568,'pronoun':14,'bound_noun':19,'verb':900,'adjective':341,'adverb':266,'numeral':10,'determiner':6,'expression':163}
         for pos,count in expected.items():
             rows=self.db.execute('SELECT id FROM vocabulary WHERE part_of_speech=?',[pos]).fetchall()
             self.assertEqual(len(rows),count)
@@ -95,11 +95,11 @@ class Data01ContentTests(unittest.TestCase):
             if pos in ('verb','adjective','expression'):self.assertIsNone(batchim)
             else:self.assertEqual(batchim,int((ord(word[-1])-0xac00)%28!=0))
     def test_notes_tags_and_sentence_deduplication(self):
-        self.assertEqual(self.db.execute("SELECT COUNT(*) FROM content_links l JOIN vocabulary v ON v.id=l.source_id WHERE l.relation='learner_note'").fetchone()[0],382)
+        self.assertEqual(self.db.execute("SELECT COUNT(*) FROM content_links l JOIN vocabulary v ON v.id=l.source_id WHERE l.relation='learner_note'").fetchone()[0],528)
         tag=self.registry['batch_tag_id']
         self.assertEqual(self.db.execute('SELECT COUNT(*) FROM item_tags it JOIN vocabulary v ON v.id=it.content_id WHERE it.tag_id=?',[tag]).fetchone()[0],226)
         self.assertEqual(self.db.execute('SELECT COUNT(DISTINCT korean) FROM examples e JOIN item_tags it ON it.content_id=e.id WHERE it.tag_id=?',[tag]).fetchone()[0],447)
-        self.assertEqual(self.db.execute('SELECT COUNT(*) FROM vocabulary_examples').fetchone()[0],3894)
+        self.assertEqual(self.db.execute('SELECT COUNT(*) FROM vocabulary_examples').fetchone()[0],4514)
     def test_malformed_data01_rows_rejected_by_existing_validator(self):
         vocab=self.registry['vocabulary'][0];eid=vocab['example_ids'][0]
         mutations={

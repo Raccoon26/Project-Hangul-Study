@@ -13,7 +13,7 @@ class CurriculumSQLTests(unittest.TestCase):
  def tearDown(self):self.db.close()
  def test_all_production_membership_paged_by_level_without_orphans(self):
   sql=query('SQLiteCurriculum','SELECT id FROM content_items')
-  for kind,totals in [('vocabulary',{'intro':306,'beginner':800,'lower_intermediate':871}),('grammar',{'intro':22,'beginner':20}),('listening',{'intro':34,'beginner':79,'lower_intermediate':2}),('lesson',{'hangul':12,'intro':14})]:
+  for kind,totals in [('vocabulary',{'intro':306,'beginner':800,'lower_intermediate':1181}),('grammar',{'intro':22,'beginner':20}),('listening',{'intro':34,'beginner':79,'lower_intermediate':2}),('lesson',{'hangul':12,'intro':14})]:
    for level,n in totals.items():
     ids=[];after=''
     while True:

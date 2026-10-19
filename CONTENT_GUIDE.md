@@ -1,3 +1,7 @@
+> **현재 기준 (DATA-08-4 / Batch C): Schema4 / Content17 / minReader7 / UserProgress10.** C 일반어휘280/표현30·신규문장619·재사용1, 의미334/Note146. DATA-08 누적911어휘(일반807/표현104)/신규문장1,821로 전체 목표 달성. 최신 계약은 마지막 DATA-08-C 절과 `DATA08_PROGRESS.md` §12. 아래 A/B·DEV/DATA 내용은 당시 이력이다.
+
+---
+
 > **현재 기준 (DATA-08-3 / Batch B): Schema4 / Content16 / minReader7 / UserProgress10.** 初中級300어휘/600문장·311의미·100 Note 추가, 전항목 Collocation. 최신 계약은 마지막 DATA-08-B 절과 `DATA08_PROGRESS.md` §11. 이하 Batch A/DEV/DATA 내용은 당시 이력이다.
 
 > **현재 기준 (DATA-08-2 / Batch A, 2026-10-19): Schema4 / Content15 / minReader7 / UserProgress10.** 신규 初中級301어휘/602문장, 의미318/Note68. 아래 DEV/DATA 버전은 당시 이력이며 최신 추가 계약은 마지막 DATA-08-A 절과 `DATA08_PROGRESS.md`를 따릅니다.
@@ -1030,3 +1034,16 @@ sh Tools/verify.sh --portable
 - 회귀검사: `sh Tools/verify.sh --portable`. A의 정확한 cohort는 v15 fixture에서, B의15→16과 A 포함 기존 payload/진도 보존은 현재 Bundle에서 확인한다. native128개와 실제3~10분/offline·중단·음성·접근성·광고/IAP gate는 Mac/iPhone에서 별도로 실행한다.
 
 상세·교정·원본/번역 카탈로그·검수 hash: `Docs/DATA08_B_REVIEW.md`, `DATA08_B_REVIEW_CATALOG.md`, `DATA08_B_EDITORIAL.json`, `DATA08_B_COUNTS.json`.
+
+
+## DATA-08-C 제작·검수 계약 (Content17)
+
+- 실제 직전 Content16 DB/source를 `Tests/Fixtures/content-v16-production.sqlite` / `content-v16-production.json.gz`에 보존한다. gzip은 역사 검사용이며 runtime 입력이 아니다. 다음 배포는 현재 Content17을 보존해 previous로 사용한다.
+- C 재현: `python3 Tools/ContentBuilder/build_content.py Content/production.json /tmp/content17.sqlite --production --previous Tests/Fixtures/content-v16-production.sqlite --report /tmp/content17-report.json`. 기존 schema4/reader7/UserProgress10을 유지하며 candidate를 검수한 후에만 Bundle로 반영한다.
+- C 신규310 Vocabulary는 일반280/phrase30, 신규 문장619와 기존 예문1 재사용을 별도 집계한다. Phrase는 기존 expression 품사와 색인 lexical_category로 구분한다. 신규 Grammar/Listening/Question0. 전체 DATA-08 누적911/1,821, phrase 제외 일반어휘807, 부족0/0.
+- 100/100/110어휘 묶음별 한일 개별 재독·Duplicate Audit·Stable UUID4·Relation·strict gate를 적용했다. 전310 Collocation=`meanings.usage_ja`, Register=`meanings.nuance_ja`, Note146·다의어24항목. 검수 주체는 같은 assistant이며 독립 전문가 승인이 아니다.
+- 기존 ID/상세본문/정렬/학습 membership 보존. 관계 끝점46개만 `Content/data08-c-revised-ids.json`대로 revision+1. 기존 예문1개는 ID/본문을 재사용하고 새 관계만 추가한다. 신규 중복0, strict 오류0/기존 경고10·FK0·integrity ok.
+- 기존 Grammar 참조17개가 실제 LIMIT6에 보이는지 검사한다. Meaning별 Example 참조를 기존 Listening/Sentence Production에서 재사용 가능하게 유지한다. predicate/expression has_batchim=null, expression irregular_type=null, 하다형 other 및 기존 불규칙 엔진 계약을 따른다.
+- `sh Tools/verify.sh --portable`:269 PASS. A/B 정확한 과거 배포 회귀군은 원본 fixture에서 유지하고 C는 현재 Bundle에서 전체 보존/16→17 갱신·부분 session·SRS/UserProgress를 검사한다. native129개는 Mac에서 별도 실행한다. 실제3~10분/offline·음성·중단·접근성·광고/구매 gate는 유지한다.
+
+근거: `Docs/DATA08_C_REVIEW.md`, `DATA08_C_REVIEW_CATALOG.md`, `DATA08_C_EDITORIAL.json`, `DATA08_C_COUNTS.json`, `DATA08_C1~C3_AUDIT.json` / `VALIDATION.json`.

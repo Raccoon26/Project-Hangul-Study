@@ -38,17 +38,17 @@ class Data03ContentTests(unittest.TestCase):
         with sqlite3.connect(ROOT/'Tests/Fixtures/content-v6-production.sqlite') as old:
             before, after = signatures(old), signatures(self.db)
             self.assertEqual(len(before), 2288)
-            self.assertEqual(len(after), 9161)
-            self.assertTrue(all(after[id] == digest for id, digest in before.items() if id not in (json.loads((ROOT/"Content/dev08-revised-ids.json").read_text()) + json.loads((ROOT/"Content/dev09-revised-ids.json").read_text()) + json.loads((ROOT/"Content/data04-revised-ids.json").read_text()) + json.loads((ROOT/"Content/data05-revised-ids.json").read_text()) + json.loads((ROOT/"Content/data06-revised-ids.json").read_text()) + json.loads((ROOT/"Content/data07-revised-ids.json").read_text()) + json.loads((ROOT/"Content/data08-a-revised-ids.json").read_text()) + json.loads((ROOT/"Content/data08-b-revised-ids.json").read_text()))))
+            self.assertEqual(len(after), 10573)
+            self.assertTrue(all(after[id] == digest for id, digest in before.items() if id not in (json.loads((ROOT/"Content/dev08-revised-ids.json").read_text()) + json.loads((ROOT/"Content/dev09-revised-ids.json").read_text()) + json.loads((ROOT/"Content/data04-revised-ids.json").read_text()) + json.loads((ROOT/"Content/data05-revised-ids.json").read_text()) + json.loads((ROOT/"Content/data06-revised-ids.json").read_text()) + json.loads((ROOT/"Content/data07-revised-ids.json").read_text()) + json.loads((ROOT/"Content/data08-a-revised-ids.json").read_text()) + json.loads((ROOT/"Content/data08-b-revised-ids.json").read_text()) + json.loads((ROOT/"Content/data08-c-revised-ids.json").read_text()))))
             for table in ['content_items', 'vocabulary', 'meanings', 'examples']:
                 for row in old.execute('SELECT * FROM '+table):
-                    if table=='content_items' and row[0] in (json.loads((ROOT/'Content/dev08-revised-ids.json').read_text()) + json.loads((ROOT/'Content/dev09-revised-ids.json').read_text()) + json.loads((ROOT/'Content/data04-revised-ids.json').read_text()) + json.loads((ROOT/'Content/data05-revised-ids.json').read_text()) + json.loads((ROOT/'Content/data06-revised-ids.json').read_text()) + json.loads((ROOT/'Content/data07-revised-ids.json').read_text()) + json.loads((ROOT/'Content/data08-a-revised-ids.json').read_text()) + json.loads((ROOT/'Content/data08-b-revised-ids.json').read_text())):
+                    if table=='content_items' and row[0] in (json.loads((ROOT/'Content/dev08-revised-ids.json').read_text()) + json.loads((ROOT/'Content/dev09-revised-ids.json').read_text()) + json.loads((ROOT/'Content/data04-revised-ids.json').read_text()) + json.loads((ROOT/'Content/data05-revised-ids.json').read_text()) + json.loads((ROOT/'Content/data06-revised-ids.json').read_text()) + json.loads((ROOT/'Content/data07-revised-ids.json').read_text()) + json.loads((ROOT/'Content/data08-a-revised-ids.json').read_text()) + json.loads((ROOT/'Content/data08-b-revised-ids.json').read_text()) + json.loads((ROOT/'Content/data08-c-revised-ids.json').read_text())):
                         current=self.db.execute('SELECT * FROM content_items WHERE id=?',[row[0]]).fetchone()
-                        self.assertEqual(current[2],row[2]+sum(row[0] in json.loads((ROOT/f'Content/dev{v}-revised-ids.json').read_text()) for v in ['08','09'])+int(row[0] in json.loads((ROOT/'Content/data04-revised-ids.json').read_text()))+int(row[0] in json.loads((ROOT/'Content/data05-revised-ids.json').read_text()))+int(row[0] in json.loads((ROOT/'Content/data06-revised-ids.json').read_text()))+int(row[0] in json.loads((ROOT/'Content/data07-revised-ids.json').read_text()))+int(row[0] in json.loads((ROOT/'Content/data08-a-revised-ids.json').read_text()))+int(row[0] in json.loads((ROOT/'Content/data08-b-revised-ids.json').read_text())))
+                        self.assertEqual(current[2],row[2]+sum(row[0] in json.loads((ROOT/f'Content/dev{v}-revised-ids.json').read_text()) for v in ['08','09'])+int(row[0] in json.loads((ROOT/'Content/data04-revised-ids.json').read_text()))+int(row[0] in json.loads((ROOT/'Content/data05-revised-ids.json').read_text()))+int(row[0] in json.loads((ROOT/'Content/data06-revised-ids.json').read_text()))+int(row[0] in json.loads((ROOT/'Content/data07-revised-ids.json').read_text()))+int(row[0] in json.loads((ROOT/'Content/data08-a-revised-ids.json').read_text()))+int(row[0] in json.loads((ROOT/'Content/data08-b-revised-ids.json').read_text()))+int(row[0] in json.loads((ROOT/'Content/data08-c-revised-ids.json').read_text())))
                         self.assertEqual(current[:2]+current[3:-1],row[:2]+row[3:-1])
                         continue
                     self.assertEqual(self.db.execute('SELECT * FROM '+table+' WHERE id=?', [row[0]]).fetchone(), row)
-        self.assertEqual(self.db.execute('SELECT schema_version,content_version,min_reader_version,is_fixture FROM content_metadata').fetchone(), (4,16,7,0))
+        self.assertEqual(self.db.execute('SELECT schema_version,content_version,min_reader_version,is_fixture FROM content_metadata').fetchone(), (4,17,7,0))
         with sqlite3.connect(ROOT/'Resources/content.sqlite') as bundle:
             self.assertEqual(signatures(bundle), signatures(self.db))
 
@@ -96,7 +96,7 @@ class Data03ContentTests(unittest.TestCase):
                 self.assertTrue(all(0 < len(s) <= 20 for s in new_sets))
         self.assertEqual(collections.Counter(v['part_of_speech'] for v in self.words.values()), dict(verb=109,adjective=51,adverb=30,noun=52,bound_noun=8))
         self.assertEqual(collections.Counter(v['level'] for v in self.words.values()),dict(intro=10,beginner=240))
-        self.assertEqual(self.db.execute('SELECT COUNT(*) FROM vocabulary WHERE learning_priority IS NOT NULL').fetchone()[0],1501)
+        self.assertEqual(self.db.execute('SELECT COUNT(*) FROM vocabulary WHERE learning_priority IS NOT NULL').fetchone()[0],1811)
 
     def test_actual_prefix_search_secondary_sense_and_intentional_homograph(self):
         sql=self.base+self.clause(' AND v.id IN')+self.clause(' ORDER BY')
