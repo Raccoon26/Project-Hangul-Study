@@ -1,3 +1,27 @@
+# DATA_PROGRESS — DATA-08-2 / Batch A (현재)
+
+2026-10-19 (Asia/Tokyo). `Resources/content.sqlite` 실제 집계, source=`Content/production.json`. **Schema4 / Content15 / Reader7 / UserProgress10**. 이하 DATA-07 기록은 과거 이력으로 보존한다.
+
+| 항목 | 현재 | Batch A 증가 | 분포/구분 |
+| --- | ---: | ---: | --- |
+| Vocabulary | 1,677 | 301 | 入門306 / 初級800 / 初中級571 |
+| 문장 Example | 3,365 | 602 | 入門646 / 初級1,577 / 初中級1,142 |
+| 전체 Example | 3,378 | 602 | 문장3,365 + 기존발음13 |
+| Meanings | 1,775 | 318 | 17개 다의어의 의미 구분 포함 |
+| Grammar | 42 | 0 | 入門22 / 初級20 / 初中級0 |
+| Listening | 115 | 0 | 入門34 / 初級79 / 初中級2; 모두TTS |
+| Questions | 354 | 0 | hangul59 / 入門156 / 初級134 / 初中級5 |
+| Learner notes | 285 | 68 | 이번68개 어휘에 Collocation/일본인용 설명 |
+| Vocabulary-example 관계 | 3,294 | 602 | 고유예문 수와 별도 집계 |
+| Grammar-example 관계 | 137 | 14 | 기존문법14개와 신규예문 연결 |
+| Content items | 7,847 | 1,295 | 기존ID 삭제0 |
+
+신규 품사: verb150 / adjective51 / adverb40 / expression40 / noun20. 신규는 전부lower_intermediate. 어휘관계45, 기존끝점23개 revision+1 외 기존 본문/정렬/사용자기록 변경0. Validator0errors/기존10warnings, portable243PASS. native127개 작성·미실행.
+
+DATA-08 전체목표 신규어휘800~1,200 / 문장1,300~2,000 유지. 누적301/602, 잔여499~899/698~1,398. Batch A 목표270~400/450~650 충족, 수량축소0. 검수와 잔여문제는 `DATA08_PROGRESS.md`, 실제 SQL 집계는 `Docs/DATA08_A_COUNTS.json`에 기록한다.
+
+---
+
 # DATA_PROGRESS — DATA-07 / 2026-10-06
 
 실제 `Resources/content.sqlite` 집계. Source=`Content/production.json`.

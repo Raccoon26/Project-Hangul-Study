@@ -1,0 +1,16 @@
+test_content14_to15_swap_preserves_user_bytes_and_partial_session (test_data08_a_content.Data08BatchATests.test_content14_to15_swap_preserves_user_bytes_and_partial_session) ... ok
+test_corrupt_candidate_and_unapproved_old_revision_changes_are_rejected (test_data08_a_content.Data08BatchATests.test_corrupt_candidate_and_unapproved_old_revision_changes_are_rejected) ... ok
+test_curriculum_keyset_pages_existing_sort_prefix_and_twenty_item_sets (test_data08_a_content.Data08BatchATests.test_curriculum_keyset_pages_existing_sort_prefix_and_twenty_item_sets) ... ok
+test_every_card_meaning_example_and_note_uses_real_repository_sql (test_data08_a_content.Data08BatchATests.test_every_card_meaning_example_and_note_uses_real_repository_sql) ... ok
+test_metadata_irregulars_and_confusion_corrections (test_data08_a_content.Data08BatchATests.test_metadata_irregulars_and_confusion_corrections) ... ok
+test_new_srs_enrollment_does_not_reset_due_and_short_queues_are_bounded (test_data08_a_content.Data08BatchATests.test_new_srs_enrollment_does_not_reset_due_and_short_queues_are_bounded) ... ok
+test_no_new_normalized_headword_or_sentence_duplicates (test_data08_a_content.Data08BatchATests.test_no_new_normalized_headword_or_sentence_duplicates) ... ok
+test_previous_release_bytes_and_all_existing_rows_preserved (test_data08_a_content.Data08BatchATests.test_previous_release_bytes_and_all_existing_rows_preserved) ... ok
+test_real_batch_size_uuid_level_and_pos_balance (test_data08_a_content.Data08BatchATests.test_real_batch_size_uuid_level_and_pos_balance) ... ok
+test_search_secondary_senses_notes_and_typed_relations (test_data08_a_content.Data08BatchATests.test_search_secondary_senses_notes_and_typed_relations) ... ok
+test_strict_source_rebuild_and_exact_release_delta (test_data08_a_content.Data08BatchATests.test_strict_source_rebuild_and_exact_release_delta) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 5.844s
+
+OK

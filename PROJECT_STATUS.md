@@ -1,3 +1,20 @@
+# PROJECT_STATUS — DATA-08-2 / Batch A (현재)
+
+2026-10-19 (Asia/Tokyo). **Release Readiness: B — Conditional 유지, App Store 제출 승인 아님.** 아래 DATA-07 본문은 이력으로 보존한다.
+
+- Batch A: **初中級 어휘301 / 신규 문장602 / 의미318 / 일본인 Note68** 반영. 명사20, 동사150·형용사51·부사40·표현40. 품질로 줄인 수량0.
+- 현재 Production: Vocabulary1,677 / Examples3,378(문장3,365 + 발음예시13) / Meanings1,775 / Grammar42 / Listening115 / Questions354. 어휘 入門306 / 初級800 / 初中級571.
+- **Content15 / Schema4 / minReader7 / UserProgress10**. Content14는 `Tests/Fixtures/content-v14-production.sqlite`에 원본 byte 그대로 보존.
+- 기존 본문·ID·정렬·membership 삭제/변경0. 어휘관계45와 기존문법 예문연결14를 추가하며 승인된 기존끝점23개(어휘9/문법14)의 revision만+1. `Content/data08-a-revised-ids.json` 참조.
+- strict Validator **errors0 / 기존warnings10**, integrity/FK 정상. 기존232 + 신규11 = **portable243 tests PASS**. Source/Bundle 일치 및4/20 부분session·SRS·favorite·설정 보존 확인.
+- 현재 native 테스트 정의127개(이번1개 추가), **실행0**. Xcode/Swift compiler·iPhone QA 미실행. 앱 runtime/UI/광고/구매 코드 변경0.
+- 기존 retirement resume P1과 native 출시 gate 유지. 初中級 전용 Grammar0 / Listening2 / Question5의 연계 부족도 유지. Batch A는 vocabulary 확장 단계이며 후속 Batch는 실행하지 않았다.
+- DATA-08 전체 신규800~1,200어휘/1,300~2,000문장 목표 유지. 누적301/602, 잔여499~899/698~1,398. 전체 목표 완료로 표현하지 않는다.
+
+상세: [DATA08_PROGRESS.md](DATA08_PROGRESS.md), [개별 검수](Docs/DATA08_A_REVIEW.md), [전체 카탈로그](Docs/DATA08_A_REVIEW_CATALOG.md), [실제 집계](Docs/DATA08_A_COUNTS.json). 첫 회귀검사19개 실패는 이전 총수/버전/revision 기대값이 원인이며 수정 후243개 모두 통과했다. Validator/제약/기존 cohort 검사는 유지했다.
+
+---
+
 # PROJECT_STATUS — DATA-07
 
 2026-10-06. DEV-14 기준은 `Docs/DEV-14_STATUS.md`에 보존.

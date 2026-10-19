@@ -1,0 +1,162 @@
+{
+  "stage": "DATA-08-2",
+  "batch": "A",
+  "date_jst": "2026-10-19",
+  "baseline_commit": "57bedcca04831901f31f01c5097b5d387db001d5",
+  "branch": "data08-2/batch-a",
+  "starting_tracked_changes": 0,
+  "starting_untracked_files": 0,
+  "source": "Content/production.json",
+  "production_db": "Resources/content.sqlite",
+  "metadata": {
+    "singleton": 1,
+    "schema_version": 4,
+    "content_version": 15,
+    "min_reader_version": 7,
+    "dataset_id": "ko-ja-core",
+    "is_fixture": 0,
+    "source_locale": "ja",
+    "target_locale": "ko"
+  },
+  "user_progress_version": 10,
+  "counts": {
+    "vocabulary": 1677,
+    "meanings": 1775,
+    "examples": 3378,
+    "grammar": 42,
+    "listening_items": 115,
+    "questions": 354,
+    "learner_notes": 285,
+    "grammar_examples": 137,
+    "vocabulary_examples": 3294,
+    "content_items": 7847,
+    "content_links": 919,
+    "tags": 88,
+    "sources": 16
+  },
+  "delta": {
+    "vocabulary": 301,
+    "meanings": 318,
+    "examples": 602,
+    "grammar": 0,
+    "listening_items": 0,
+    "questions": 0,
+    "learner_notes": 68,
+    "grammar_examples": 14,
+    "vocabulary_examples": 602,
+    "content_items": 1295,
+    "content_links": 113,
+    "tags": 6,
+    "sources": 1
+  },
+  "sentence_examples_excluding_pronunciation": 3365,
+  "by_level": {
+    "vocabulary": {
+      "beginner": 800,
+      "intro": 306,
+      "lower_intermediate": 571
+    },
+    "examples": {
+      "beginner": 1577,
+      "intro": 659,
+      "lower_intermediate": 1142
+    },
+    "grammar": {
+      "beginner": 20,
+      "intro": 22
+    },
+    "listening_items": {
+      "beginner": 79,
+      "intro": 34,
+      "lower_intermediate": 2
+    },
+    "questions": {
+      "beginner": 134,
+      "hangul": 59,
+      "intro": 156,
+      "lower_intermediate": 5
+    }
+  },
+  "batch_pos": {
+    "verb": 150,
+    "adjective": 51,
+    "noun": 20,
+    "adverb": 40,
+    "expression": 40
+  },
+  "batch_themes": {
+    "人間関係": 49,
+    "感情": 57,
+    "頼み事・断り方": 36,
+    "誤解・対立": 57,
+    "日常生活": 44,
+    "学校・職場": 58
+  },
+  "polysemous_vocabulary": 17,
+  "normalized_new_headword_duplicates": 0,
+  "normalized_new_korean_example_duplicates": 0,
+  "old_ids_deleted": 0,
+  "old_endpoint_revisions": 23,
+  "old_endpoint_revisions_exactly_approved": true,
+  "old_endpoint_kinds": {
+    "vocabulary": 9,
+    "grammar": 14
+  },
+  "integrity_check": [
+    "ok"
+  ],
+  "foreign_key_violations": 0,
+  "sha256": {
+    "Content/production.json": "7d8db01231f2a7a234846de27a5a59003e0c72b22e68ed802233398b2113afec",
+    "Resources/content.sqlite": "b4459a400dae7e7b5572688db928a7b550d865f9cf1b3dfd8cd22a86d5d6f75d",
+    "Tests/Fixtures/content-v14-production.sqlite": "9293e75ee0161f8fa7688d6ea500f314c8d93fc3f6c9e0284bbf43afec622ac5"
+  },
+  "initial_portable_run": {
+    "tests": 232,
+    "failures": 19,
+    "errors": 0,
+    "exit_code": 1,
+    "cause": "Current bundle count/version and approved revision expectations still described Content14; updated explicit assertions, not production code or validator."
+  },
+  "final_portable_run": {
+    "tests": 243,
+    "passed": 243,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "expected_failures": 0,
+    "exit_code": 0,
+    "seconds": 90.952
+  },
+  "batch_specific_tests": {
+    "tests": 11,
+    "passed": 11,
+    "exit_code": 0
+  },
+  "native_tests_authored": 127,
+  "native_tests_executed": 0,
+  "native_build_executed": false,
+  "new_grammar": 0,
+  "new_listening": 0,
+  "new_questions": 0,
+  "new_runtime_code": false,
+  "quality_quantity_reduction": false,
+  "data08_cumulative": {
+    "new_vocabulary": 301,
+    "new_sentence_examples": 602
+  },
+  "data08_remaining_target": {
+    "new_vocabulary": [
+      499,
+      899
+    ],
+    "new_sentence_examples": [
+      698,
+      1398
+    ]
+  },
+  "source_table_mismatches": [],
+  "source_metadata_matches_db": true,
+  "derived_vocabulary_search_matches": true,
+  "derived_vocabulary_search_rows": 3452
+}

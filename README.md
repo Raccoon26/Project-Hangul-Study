@@ -1,3 +1,5 @@
+> **현재 DATA-08-2 / Batch A (2026-10-19): Content15 / schema4 / reader7. Vocabulary1,677 · Examples3,378(문장3,365) · Grammar42 · Listening115.** 이번 初中級301어휘/602문장 추가, portable243개 통과. Xcode/native127개·실기기 검증은 미실행입니다. DATA-08 전체목표와 단계별 결과는 [DATA08_PROGRESS.md](DATA08_PROGRESS.md), 현재 출시 gate는 [PROJECT_STATUS.md](PROJECT_STATUS.md)를 확인하세요. 아래 DATA/DEV 설명은 당시 이력입니다.
+
 > **DATA-07 (2026-10-06): Content14 · Vocabulary1,376 · Examples2,776 · Grammar42 · Listening115.** 신규어휘450/예문900. 현재검증/남은Release gate는 PROJECT_STATUS.md, 실제누적수는 DATA_PROGRESS.md. 아래 DEV별 설명의 당시 수량은 이력입니다.
 
 ## DEV-14 검증 실행
