@@ -1,0 +1,38 @@
+[
+  {
+    "source": "입력하다",
+    "target": "입력되다",
+    "relation": "related_word",
+    "missing": [
+      "입력하다"
+    ],
+    "disposition": "Rejected planned relation; no entity created solely to satisfy relation"
+  },
+  {
+    "source": "삭제하다",
+    "target": "삭제되다",
+    "relation": "related_word",
+    "missing": [
+      "삭제하다"
+    ],
+    "disposition": "Rejected planned relation; no entity created solely to satisfy relation"
+  },
+  {
+    "source": "퍼지다",
+    "target": "퍼뜨리다",
+    "relation": "related_word",
+    "missing": [
+      "퍼지다"
+    ],
+    "disposition": "Rejected planned relation; no entity created solely to satisfy relation"
+  },
+  {
+    "source": "조언하다",
+    "target": "충고하다",
+    "relation": "confusable",
+    "missing": [
+      "충고하다"
+    ],
+    "disposition": "Rejected planned relation; no entity created solely to satisfy relation"
+  }
+]

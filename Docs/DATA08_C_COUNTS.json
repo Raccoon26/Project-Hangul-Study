@@ -1,0 +1,189 @@
+{
+  "stage": "DATA-08-4",
+  "batch": "C",
+  "baseline_commit": "e7ed775342e261716aa1f7a4afd3eabd965fde78",
+  "branch": "data08-4/batch-c",
+  "starting_tracked_changes": 0,
+  "starting_untracked_files": 0,
+  "source": "Content/production.json",
+  "production_db": "Resources/content.sqlite",
+  "metadata": {
+    "singleton": 1,
+    "schema_version": 4,
+    "content_version": 17,
+    "min_reader_version": 7,
+    "dataset_id": "ko-ja-core",
+    "is_fixture": 0,
+    "source_locale": "ja",
+    "target_locale": "ko"
+  },
+  "user_progress_version": 10,
+  "counts": {
+    "vocabulary": 2287,
+    "meanings": 2420,
+    "examples": 4597,
+    "grammar": 42,
+    "listening_items": 115,
+    "questions": 354,
+    "learner_notes": 531,
+    "grammar_examples": 169,
+    "vocabulary_examples": 4514,
+    "content_items": 10573,
+    "content_links": 1321,
+    "tags": 94,
+    "sources": 18
+  },
+  "delta": {
+    "vocabulary": 310,
+    "meanings": 334,
+    "examples": 619,
+    "grammar": 0,
+    "listening_items": 0,
+    "questions": 0,
+    "learner_notes": 146,
+    "grammar_examples": 17,
+    "vocabulary_examples": 620,
+    "content_items": 1412,
+    "content_links": 230,
+    "tags": 3,
+    "sources": 1
+  },
+  "sentence_examples_excluding_pronunciation": 4584,
+  "by_level": {
+    "vocabulary": {
+      "beginner": 800,
+      "intro": 306,
+      "lower_intermediate": 1181
+    },
+    "examples": {
+      "beginner": 1577,
+      "intro": 659,
+      "lower_intermediate": 2361
+    },
+    "grammar": {
+      "beginner": 20,
+      "intro": 22
+    },
+    "listening_items": {
+      "beginner": 79,
+      "intro": 34,
+      "lower_intermediate": 2
+    },
+    "questions": {
+      "beginner": 134,
+      "hangul": 59,
+      "intro": 156,
+      "lower_intermediate": 5
+    }
+  },
+  "batch_POS": {
+    "verb": 138,
+    "noun": 53,
+    "adjective": 45,
+    "adverb": 44,
+    "expression": 30
+  },
+  "batch_categories": {
+    "lexical_vocabulary": 280,
+    "phrases": 30,
+    "new_grammar": 0
+  },
+  "batch_distinct_sense_entries": 24,
+  "batch_collocation_vocabulary_rows": 310,
+  "batch_register_vocabulary_rows": 310,
+  "batch_new_examples": 619,
+  "batch_reused_examples": 1,
+  "batch_new_vocabulary_example_relations": 620,
+  "new_lexical_relations": 84,
+  "new_grammar_example_links": 17,
+  "normalized_new_headword_duplicates": 0,
+  "normalized_new_korean_example_duplicates": 0,
+  "normalized_new_japanese_example_duplicates": 0,
+  "old_ids_deleted_or_retyped": 0,
+  "old_rows_deleted_or_retired": 0,
+  "old_endpoint_revisions": 46,
+  "old_endpoint_kinds": {
+    "vocabulary": 28,
+    "grammar": 17,
+    "example": 1
+  },
+  "old_endpoint_revisions_exactly_approved": true,
+  "integrity_check": [
+    "ok"
+  ],
+  "foreign_key_violations": 0,
+  "sha256": {
+    "Content/production.json": "7fee2b4591f1ecd732bdf8a88433a86644cbe665a609005556d985c80c3f604b",
+    "Resources/content.sqlite": "836dec2fac50508a177010dbf8f83a74a9e4660c8c42c1f08a75bd9207f286c6",
+    "Tests/Fixtures/content-v14-production.sqlite": "9293e75ee0161f8fa7688d6ea500f314c8d93fc3f6c9e0284bbf43afec622ac5",
+    "Tests/Fixtures/content-v15-production.sqlite": "b4459a400dae7e7b5572688db928a7b550d865f9cf1b3dfd8cd22a86d5d6f75d",
+    "Tests/Fixtures/content-v16-production.sqlite": "112d3662f79a72ca61ad7140a5d937396c0bc9f71180dd5f35a403a040a91f29",
+    "Tests/Fixtures/content-v16-production.json.gz": "34a1c7c381f1a21ed929e42fe198cc1f5684ab09381e53d1dfff91a073168636"
+  },
+  "released_Content16_source_SHA256": "dcf51d2583ddb7fa7bbbfb7487937546ef30551857d36fecaefc8c3c5ae7b30e",
+  "batch_ABC": {
+    "A": {
+      "vocabulary_rows": 301,
+      "lexical_vocabulary": 261,
+      "phrases": 40,
+      "new_examples": 602
+    },
+    "B": {
+      "vocabulary_rows": 300,
+      "lexical_vocabulary": 266,
+      "phrases": 34,
+      "new_examples": 600
+    },
+    "C": {
+      "vocabulary_rows": 310,
+      "lexical_vocabulary": 280,
+      "phrases": 30,
+      "new_examples": 619
+    }
+  },
+  "data08_cumulative": {
+    "vocabulary_rows": 911,
+    "lexical_vocabulary_excluding_phrases": 807,
+    "phrases": 104,
+    "new_examples": 1821,
+    "reused_existing_examples": 1
+  },
+  "data08_targets": {
+    "vocabulary": [
+      800,
+      1200
+    ],
+    "new_examples": [
+      1300,
+      2000
+    ]
+  },
+  "data08_target_status": {
+    "vocabulary": "achieved",
+    "new_examples": "achieved",
+    "shortfall_vocabulary": 0,
+    "shortfall_examples": 0
+  },
+  "native_test_definitions": 129,
+  "native_tests_executed": 0,
+  "remaining_release_gates": [
+    "Xcode Debug/Release/SDK link/XCTest",
+    "iPhone offline, TTS, interruption, VoiceOver, ads/StoreKit",
+    "existing retirement active-review P1",
+    "lower_intermediate Grammar0/Listening2/Question5 and higher-level gaps"
+  ],
+  "portable_verification": {
+    "command": "sh Tools/verify.sh --portable",
+    "tests_run": 269,
+    "passed": 269,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "exit_status": 0,
+    "elapsed_seconds": 140.179,
+    "log": "Docs/DATA08_C_TEST_LOG.txt",
+    "new_batch_c_tests": 14,
+    "baseline_passed": 255,
+    "interruption_recovery": "Reran final suite because earlier temporary log did not survive restart."
+  }
+}

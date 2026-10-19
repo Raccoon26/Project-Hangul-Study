@@ -132,7 +132,7 @@ final class Data07IntegrationTests: XCTestCase {
     func testLowerIntermediateSearchAndFourRealListeningTasks() async throws {
         let content = try SQLiteContentRepository(url:XCTUnwrap(Bundle.main.url(forResource:"content",withExtension:"sqlite")),allowFixture:false)
         let count = try await content.vocabularyCount(level:.lowerIntermediate)
-        XCTAssertEqual(count,871)
+        XCTAssertEqual(count,1181)
         let hits = try await content.lookup("返送",offset:0)
         XCTAssertTrue(hits.contains { $0.title == "반송하다" })
         do {

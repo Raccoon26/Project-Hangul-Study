@@ -1,3 +1,16 @@
+# PROJECT_STATUS — DATA-08-4 / Batch C (현재)
+
+**DATA-08 콘텐츠 수량 목표 달성. Release Readiness B—Conditional 유지.** 아래 Batch A/B·DEV/DATA 기록은 당시 이력이다.
+
+- Batch C: 初中級310어휘(일반280/표현30), 신규 문장619, 기존 예문1 재사용. 의미334·Note146·전항목 Collocation/Register·다의어24·어휘 관계84·기존 문법 참조17.
+- A+B+C 누적 **911어휘(일반807/표현104) / 신규 문장1,821**. 목표800~1,200 / 1,300~2,000 충족, 부족0/0.
+- Production Vocabulary2,287 / Examples4,597(문장4,584) / Grammar42 / Listening115 / Question354. Content17 / Schema4 / minReader7 / UserProgress10.
+- 세 묶음 한일 재독·중복/UUID/Relation 검사, strict0errors/기존10warnings·integrity ok/FK0. 기존 본문/ID/정렬/진도 보존, 관계 끝점46개만 승인 revision+1. 직전 Content16 DB/source 보존.
+- portable **269 PASS (failures/errors/skipped0, exit0)**. native 정의129개/실행0. Xcode·SDK·실기기 QA 미실행. 기존 retirement P1·初中級 Grammar0/Listening2/Question5·상위레벨 공백 유지.
+- runtime/학습 엔진/UserProgress/광고·구매 코드 변경0. Batch C 이후 작업은 수행하지 않았다. 상세: [DATA08_PROGRESS.md](DATA08_PROGRESS.md) §12, [수량·해시](Docs/DATA08_C_COUNTS.json), [검수](Docs/DATA08_C_REVIEW.md).
+
+---
+
 # PROJECT_STATUS — DATA-08-3 / Batch B (현재)
 
 **Release Readiness B — Conditional 유지.** 기존 DEV/DATA와 Batch A 결과는 아래 이력으로 보존한다.
