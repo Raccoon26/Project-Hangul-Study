@@ -1,0 +1,950 @@
+{
+  "stage": "DATA-08-1",
+  "date_jst": "2026-10-19",
+  "baseline_commit": "3b40fb9a82d942c91bb7bb57190e6fceaae98e82",
+  "scope": "Read-only baseline audit; no content additions or changes",
+  "data08_target": {
+    "new_vocabulary": [
+      800,
+      1200
+    ],
+    "new_sentence_examples": [
+      1300,
+      2000
+    ],
+    "added_this_stage": 0
+  },
+  "sha256": {
+    "Content/production.json": "dcc936ba8f31aba0f6bfd0f47e4199568bd27e71a9c23f0a22731fe7175cf065",
+    "Resources/content.sqlite": "9293e75ee0161f8fa7688d6ea500f314c8d93fc3f6c9e0284bbf43afec622ac5",
+    "Resources/.content-pcb7fgvn.sqlite": "764a6d38259f37fdcb2ee26070fd33a8f005e88eb844dc8eee8e227b16923a6d"
+  },
+  "metadata": {
+    "singleton": 1,
+    "schema_version": 4,
+    "content_version": 14,
+    "min_reader_version": 7,
+    "dataset_id": "ko-ja-core",
+    "is_fixture": 0,
+    "source_locale": "ja",
+    "target_locale": "ko"
+  },
+  "pragma_user_version": 4,
+  "integrity_check": [
+    "ok"
+  ],
+  "foreign_key_check": [],
+  "table_counts": {
+    "audio_questions": 3,
+    "conjugations": 0,
+    "content_aliases": 0,
+    "content_audio": 36,
+    "content_items": 6552,
+    "content_links": 806,
+    "content_metadata": 1,
+    "courses": 4,
+    "examples": 2776,
+    "grammar": 42,
+    "grammar_examples": 123,
+    "hangul": 55,
+    "item_sources": 6118,
+    "item_tags": 3549,
+    "learner_notes": 217,
+    "lesson_items": 226,
+    "lessons": 38,
+    "listening_items": 115,
+    "meanings": 1457,
+    "media_assets": 0,
+    "pronunciation_examples": 13,
+    "pronunciation_presentations": 36,
+    "pronunciation_rules": 36,
+    "question_choices": 828,
+    "questions": 354,
+    "sources": 15,
+    "tags": 82,
+    "vocabulary": 1376,
+    "vocabulary_examples": 2692,
+    "vocabulary_search": 2833
+  },
+  "kind_counts": [
+    {
+      "kind": "course",
+      "total": 4,
+      "active": 4
+    },
+    {
+      "kind": "example",
+      "total": 2776,
+      "active": 2776
+    },
+    {
+      "kind": "grammar",
+      "total": 42,
+      "active": 42
+    },
+    {
+      "kind": "hangul",
+      "total": 55,
+      "active": 55
+    },
+    {
+      "kind": "lesson",
+      "total": 38,
+      "active": 38
+    },
+    {
+      "kind": "listening",
+      "total": 115,
+      "active": 115
+    },
+    {
+      "kind": "meaning",
+      "total": 1457,
+      "active": 1457
+    },
+    {
+      "kind": "note",
+      "total": 217,
+      "active": 217
+    },
+    {
+      "kind": "pronunciation",
+      "total": 36,
+      "active": 36
+    },
+    {
+      "kind": "question",
+      "total": 354,
+      "active": 354
+    },
+    {
+      "kind": "tag",
+      "total": 82,
+      "active": 82
+    },
+    {
+      "kind": "vocabulary",
+      "total": 1376,
+      "active": 1376
+    }
+  ],
+  "source_metadata_matches_db": true,
+  "source_table_mismatches": [],
+  "by_level": {
+    "vocabulary": {
+      "hangul": 0,
+      "intro": 306,
+      "beginner": 800,
+      "lower_intermediate": 270,
+      "intermediate": 0,
+      "upper_intermediate": 0,
+      "advanced": 0,
+      "master": 0,
+      "maintenance": 0
+    },
+    "examples": {
+      "hangul": 0,
+      "intro": 659,
+      "beginner": 1577,
+      "lower_intermediate": 540,
+      "intermediate": 0,
+      "upper_intermediate": 0,
+      "advanced": 0,
+      "master": 0,
+      "maintenance": 0
+    },
+    "grammar": {
+      "hangul": 0,
+      "intro": 22,
+      "beginner": 20,
+      "lower_intermediate": 0,
+      "intermediate": 0,
+      "upper_intermediate": 0,
+      "advanced": 0,
+      "master": 0,
+      "maintenance": 0
+    },
+    "listening_items": {
+      "hangul": 0,
+      "intro": 34,
+      "beginner": 79,
+      "lower_intermediate": 2,
+      "intermediate": 0,
+      "upper_intermediate": 0,
+      "advanced": 0,
+      "master": 0,
+      "maintenance": 0
+    },
+    "questions": {
+      "hangul": 59,
+      "intro": 156,
+      "beginner": 134,
+      "lower_intermediate": 5,
+      "intermediate": 0,
+      "upper_intermediate": 0,
+      "advanced": 0,
+      "master": 0,
+      "maintenance": 0
+    }
+  },
+  "pronunciation_examples_by_level": {
+    "intro": 13
+  },
+  "sentence_examples_excluding_pronunciation": 2763,
+  "question_types": {
+    "listening_choice": 86,
+    "listening_input": 29,
+    "multiple_choice": 174,
+    "text_input": 65
+  },
+  "production_modes": {
+    "blank": 3,
+    "form": 59,
+    "sentence": 3
+  },
+  "listening_tasks": {
+    "comprehension": 27,
+    "dictation": 29,
+    "korean": 27,
+    "meaning": 32
+  },
+  "listening_audio_modes": {
+    "tts": 115
+  },
+  "vocabulary_pos": {
+    "adjective": 196,
+    "adverb": 146,
+    "bound_noun": 19,
+    "determiner": 6,
+    "expression": 59,
+    "noun": 462,
+    "numeral": 10,
+    "pronoun": 14,
+    "verb": 464
+  },
+  "grammar_patterns": [
+    "(으)로（手段・道具）",
+    "-(으)ㄴ 적이 있다 / 없다",
+    "-(으)ㄴ 후에",
+    "-(으)ㄹ 거예요（予定）",
+    "-(으)ㄹ 수 있다 / 없다",
+    "-(으)니까",
+    "-(으)려고 하다",
+    "-(으)면",
+    "-(으)면 안 되다",
+    "-(으)세요（依頼・勧め）",
+    "-ㅂ니다 / 습니다",
+    "-고",
+    "-고 싶다",
+    "-고 있다（進行）",
+    "-기 전에",
+    "-는 / -(으)ㄴ 것 같다（現在の推測）",
+    "-아 / 어 보다",
+    "-아 / 어 주세요",
+    "-아 / 어도 되다",
+    "-아 / 어서",
+    "-아 / 어야 하다",
+    "-아요 / 어요",
+    "-았 / 었어요",
+    "-지 마세요",
+    "-지 않다",
+    "-지만",
+    "까지",
+    "도",
+    "만",
+    "보다（比較）",
+    "부터",
+    "안 + 動詞・形容詞",
+    "에",
+    "에게 / 한테",
+    "에서",
+    "와 / 과 · 하고",
+    "은 / 는",
+    "을 / 를",
+    "이 / 가",
+    "이 / 가 아니다",
+    "이에요 / 예요",
+    "있다 / 없다"
+  ],
+  "vocabulary_theme_counts": [
+    {
+      "namespace": "data01_theme",
+      "label_ja": "人・関係・自己紹介",
+      "vocabulary": 20
+    },
+    {
+      "namespace": "data01_theme",
+      "label_ja": "基本動詞",
+      "vocabulary": 35
+    },
+    {
+      "namespace": "data01_theme",
+      "label_ja": "場所",
+      "vocabulary": 20
+    },
+    {
+      "namespace": "data01_theme",
+      "label_ja": "学校・仕事・活動",
+      "vocabulary": 15
+    },
+    {
+      "namespace": "data01_theme",
+      "label_ja": "家・暮らし",
+      "vocabulary": 20
+    },
+    {
+      "namespace": "data01_theme",
+      "label_ja": "数・助数詞",
+      "vocabulary": 10
+    },
+    {
+      "namespace": "data01_theme",
+      "label_ja": "時間・日付",
+      "vocabulary": 20
+    },
+    {
+      "namespace": "data01_theme",
+      "label_ja": "状態・気持ち",
+      "vocabulary": 25
+    },
+    {
+      "namespace": "data01_theme",
+      "label_ja": "疑問・よく使う副詞",
+      "vocabulary": 20
+    },
+    {
+      "namespace": "data01_theme",
+      "label_ja": "移動・位置",
+      "vocabulary": 15
+    },
+    {
+      "namespace": "data01_theme",
+      "label_ja": "追加・基本動作と状態",
+      "vocabulary": 6
+    },
+    {
+      "namespace": "data01_theme",
+      "label_ja": "食べ物・飲み物",
+      "vocabulary": 20
+    },
+    {
+      "namespace": "data02_theme",
+      "label_ja": "よく使う副詞",
+      "vocabulary": 10
+    },
+    {
+      "namespace": "data02_theme",
+      "label_ja": "人との交流",
+      "vocabulary": 10
+    },
+    {
+      "namespace": "data02_theme",
+      "label_ja": "体・健康",
+      "vocabulary": 10
+    },
+    {
+      "namespace": "data02_theme",
+      "label_ja": "動作を広げる",
+      "vocabulary": 10
+    },
+    {
+      "namespace": "data02_theme",
+      "label_ja": "基本の副詞・行動",
+      "vocabulary": 10
+    },
+    {
+      "namespace": "data02_theme",
+      "label_ja": "天気・位置",
+      "vocabulary": 10
+    },
+    {
+      "namespace": "data02_theme",
+      "label_ja": "学校・職場",
+      "vocabulary": 10
+    },
+    {
+      "namespace": "data02_theme",
+      "label_ja": "家の中",
+      "vocabulary": 10
+    },
+    {
+      "namespace": "data02_theme",
+      "label_ja": "家事・生活",
+      "vocabulary": 10
+    },
+    {
+      "namespace": "data02_theme",
+      "label_ja": "家族・身近な人",
+      "vocabulary": 10
+    },
+    {
+      "namespace": "data02_theme",
+      "label_ja": "店・サービス",
+      "vocabulary": 10
+    },
+    {
+      "namespace": "data02_theme",
+      "label_ja": "性質・感情",
+      "vocabulary": 10
+    },
+    {
+      "namespace": "data02_theme",
+      "label_ja": "指す言葉・基本表現",
+      "vocabulary": 10
+    },
+    {
+      "namespace": "data02_theme",
+      "label_ja": "数・日付",
+      "vocabulary": 10
+    },
+    {
+      "namespace": "data02_theme",
+      "label_ja": "料理・食事",
+      "vocabulary": 10
+    },
+    {
+      "namespace": "data02_theme",
+      "label_ja": "日常の動作",
+      "vocabulary": 10
+    },
+    {
+      "namespace": "data02_theme",
+      "label_ja": "時間・予定",
+      "vocabulary": 10
+    },
+    {
+      "namespace": "data02_theme",
+      "label_ja": "曜日・季節・時間",
+      "vocabulary": 10
+    },
+    {
+      "namespace": "data02_theme",
+      "label_ja": "気持ち・行動",
+      "vocabulary": 10
+    },
+    {
+      "namespace": "data02_theme",
+      "label_ja": "状態・変化",
+      "vocabulary": 10
+    },
+    {
+      "namespace": "data02_theme",
+      "label_ja": "町・外出",
+      "vocabulary": 10
+    },
+    {
+      "namespace": "data02_theme",
+      "label_ja": "移動と確認",
+      "vocabulary": 10
+    },
+    {
+      "namespace": "data02_theme",
+      "label_ja": "移動・旅行",
+      "vocabulary": 10
+    },
+    {
+      "namespace": "data02_theme",
+      "label_ja": "関係・会話",
+      "vocabulary": 10
+    },
+    {
+      "namespace": "data02_theme",
+      "label_ja": "食事・買い物",
+      "vocabulary": 10
+    },
+    {
+      "namespace": "data03_theme",
+      "label_ja": "人・物の性質",
+      "vocabulary": 10
+    },
+    {
+      "namespace": "data03_theme",
+      "label_ja": "会話によく出る副詞",
+      "vocabulary": 10
+    },
+    {
+      "namespace": "data03_theme",
+      "label_ja": "伝えるための言葉",
+      "vocabulary": 10
+    },
+    {
+      "namespace": "data03_theme",
+      "label_ja": "体を動かす",
+      "vocabulary": 10
+    },
+    {
+      "namespace": "data03_theme",
+      "label_ja": "変える・整える",
+      "vocabulary": 10
+    },
+    {
+      "namespace": "data03_theme",
+      "label_ja": "変化・自動詞",
+      "vocabulary": 10
+    },
+    {
+      "namespace": "data03_theme",
+      "label_ja": "大切な状態",
+      "vocabulary": 10
+    },
+    {
+      "namespace": "data03_theme",
+      "label_ja": "学習と日常の道具",
+      "vocabulary": 10
+    },
+    {
+      "namespace": "data03_theme",
+      "label_ja": "感情を表す動詞",
+      "vocabulary": 10
+    },
+    {
+      "namespace": "data03_theme",
+      "label_ja": "時間がかかる・暮らす",
+      "vocabulary": 10
+    },
+    {
+      "namespace": "data03_theme",
+      "label_ja": "時間・単位の補強",
+      "vocabulary": 10
+    },
+    {
+      "namespace": "data03_theme",
+      "label_ja": "毎日の出来事",
+      "vocabulary": 10
+    },
+    {
+      "namespace": "data03_theme",
+      "label_ja": "気持ちを話す名詞",
+      "vocabulary": 10
+    },
+    {
+      "namespace": "data03_theme",
+      "label_ja": "気持ち・体調",
+      "vocabulary": 10
+    },
+    {
+      "namespace": "data03_theme",
+      "label_ja": "物を動かす",
+      "vocabulary": 10
+    },
+    {
+      "namespace": "data03_theme",
+      "label_ja": "状態を詳しく言う",
+      "vocabulary": 10
+    },
+    {
+      "namespace": "data03_theme",
+      "label_ja": "程度・やり方",
+      "vocabulary": 10
+    },
+    {
+      "namespace": "data03_theme",
+      "label_ja": "考え・判断",
+      "vocabulary": 10
+    },
+    {
+      "namespace": "data03_theme",
+      "label_ja": "見た目・感覚",
+      "vocabulary": 10
+    },
+    {
+      "namespace": "data03_theme",
+      "label_ja": "見つける・つながる",
+      "vocabulary": 10
+    },
+    {
+      "namespace": "data03_theme",
+      "label_ja": "話す・頼む",
+      "vocabulary": 10
+    },
+    {
+      "namespace": "data03_theme",
+      "label_ja": "身近な仕事・学習",
+      "vocabulary": 10
+    },
+    {
+      "namespace": "data03_theme",
+      "label_ja": "身近な動作",
+      "vocabulary": 10
+    },
+    {
+      "namespace": "data03_theme",
+      "label_ja": "量・お金・生活",
+      "vocabulary": 10
+    },
+    {
+      "namespace": "data03_theme",
+      "label_ja": "頻度・時間の副詞",
+      "vocabulary": 10
+    },
+    {
+      "namespace": "data05_theme",
+      "label_ja": "よく使うまとまり",
+      "vocabulary": 20
+    },
+    {
+      "namespace": "data05_theme",
+      "label_ja": "会話の副詞",
+      "vocabulary": 30
+    },
+    {
+      "namespace": "data05_theme",
+      "label_ja": "暮らし・学校・仕事・移動の名詞",
+      "vocabulary": 60
+    },
+    {
+      "namespace": "data05_theme",
+      "label_ja": "状態・性質",
+      "vocabulary": 30
+    },
+    {
+      "namespace": "data05_theme",
+      "label_ja": "生活・仕事の動作",
+      "vocabulary": 60
+    },
+    {
+      "namespace": "data07_theme",
+      "label_ja": "会話の副詞",
+      "vocabulary": 10
+    },
+    {
+      "namespace": "data07_theme",
+      "label_ja": "学校・仕事・考えを整理する",
+      "vocabulary": 50
+    },
+    {
+      "namespace": "data07_theme",
+      "label_ja": "家と持ち物",
+      "vocabulary": 30
+    },
+    {
+      "namespace": "data07_theme",
+      "label_ja": "時間・やり方",
+      "vocabulary": 20
+    },
+    {
+      "namespace": "data07_theme",
+      "label_ja": "暮らしの状態",
+      "vocabulary": 50
+    },
+    {
+      "namespace": "data07_theme",
+      "label_ja": "毎日の動作",
+      "vocabulary": 50
+    },
+    {
+      "namespace": "data07_theme",
+      "label_ja": "気持ち・態度",
+      "vocabulary": 50
+    },
+    {
+      "namespace": "data07_theme",
+      "label_ja": "生活の支度",
+      "vocabulary": 20
+    },
+    {
+      "namespace": "data07_theme",
+      "label_ja": "移動・旅行・サービス",
+      "vocabulary": 50
+    },
+    {
+      "namespace": "data07_theme",
+      "label_ja": "考えを伝える・関係をつくる",
+      "vocabulary": 50
+    },
+    {
+      "namespace": "data07_theme",
+      "label_ja": "話の流れ・気持ちを伝える表現",
+      "vocabulary": 50
+    },
+    {
+      "namespace": "data07_theme",
+      "label_ja": "食事・外出",
+      "vocabulary": 20
+    }
+  ],
+  "stable_ids": {
+    "total": 6552,
+    "unique": 6552,
+    "noncanonical": []
+  },
+  "revision_distribution": {
+    "1": 6387,
+    "2": 155,
+    "3": 8,
+    "4": 1,
+    "5": 1
+  },
+  "id_manifest_checks": [
+    {
+      "path": "Content/data01-ids.json",
+      "uuid_count": 995,
+      "unresolved": []
+    },
+    {
+      "path": "Content/data02-ids.json",
+      "uuid_count": 1068,
+      "unresolved": []
+    },
+    {
+      "path": "Content/data03-ids.json",
+      "uuid_count": 1092,
+      "unresolved": []
+    },
+    {
+      "path": "Content/data04-ids.json",
+      "uuid_count": 169,
+      "unresolved": []
+    },
+    {
+      "path": "Content/data04-revised-ids.json",
+      "uuid_count": 13,
+      "unresolved": []
+    },
+    {
+      "path": "Content/data05-ids.json",
+      "uuid_count": 804,
+      "unresolved": []
+    },
+    {
+      "path": "Content/data05-revised-ids.json",
+      "uuid_count": 8,
+      "unresolved": []
+    },
+    {
+      "path": "Content/data06-ids.json",
+      "uuid_count": 240,
+      "unresolved": []
+    },
+    {
+      "path": "Content/data06-revised-ids.json",
+      "uuid_count": 80,
+      "unresolved": []
+    },
+    {
+      "path": "Content/data07-ids.json",
+      "uuid_count": 1907,
+      "unresolved": []
+    },
+    {
+      "path": "Content/data07-revised-ids.json",
+      "uuid_count": 30,
+      "unresolved": []
+    },
+    {
+      "path": "Content/dev08-revised-ids.json",
+      "uuid_count": 23,
+      "unresolved": []
+    },
+    {
+      "path": "Content/dev09-revised-ids.json",
+      "uuid_count": 24,
+      "unresolved": []
+    },
+    {
+      "path": "Content/grammar-seed-ids.json",
+      "uuid_count": 60,
+      "unresolved": []
+    },
+    {
+      "path": "Content/hangul-ids.json",
+      "uuid_count": 130,
+      "unresolved": []
+    },
+    {
+      "path": "Content/listening-ids.json",
+      "uuid_count": 24,
+      "unresolved": []
+    },
+    {
+      "path": "Content/production-drill-ids.json",
+      "uuid_count": 49,
+      "unresolved": []
+    },
+    {
+      "path": "Content/pronunciation-ids.json",
+      "uuid_count": 96,
+      "unresolved": []
+    }
+  ],
+  "duplicate_headword_candidates": {
+    "저": [
+      "9b45d39c-a966-41da-bc64-973bd8767c94",
+      "ea0ec264-a477-4945-9fb2-92629e759e5f"
+    ],
+    "차": [
+      "e80b26ff-6c6f-4004-99a7-d784495483a3",
+      "58ee8623-b923-44c3-9ab3-3f12d0c24230"
+    ],
+    "일": [
+      "1b74ab03-9ce3-454b-914b-5f14f32f1395",
+      "fef18457-1e05-435b-8939-4ef1a49fa0cd"
+    ],
+    "쓰다": [
+      "d7632872-1ba0-4930-9e6f-ead30910d5a7",
+      "707d6ce7-4939-4d70-b143-6458c44d362f"
+    ],
+    "적다": [
+      "7ed9cfb9-b5ef-441d-9607-a4d60f44eb7e",
+      "f211c5be-f0e5-48c1-8e43-f3e850327e1b"
+    ]
+  },
+  "duplicate_korean_example_groups": {
+    "한국에 처음 왔어요.": [
+      "57bc8424-3583-4a51-be83-0b23edc1b918",
+      "207235de-8504-44e1-ac67-aef5100b810b"
+    ],
+    "매일 한국어를 공부해요.": [
+      "eb4d79c7-13f1-44df-8c5d-3d4a7d92c1ae",
+      "b1c01f0b-738c-43ba-8bf6-11a783aff9fa"
+    ],
+    "표를 미리 샀어요.": [
+      "210a0483-c33c-46ce-bb74-841c67dd4ba7",
+      "b6ebb2f7-874c-416e-8c4c-5792c651e1a3"
+    ],
+    "이 정도면 충분해요.": [
+      "8311d462-f61a-456c-8356-c95bb664200e",
+      "e0b4a5f0-cd1e-4be1-a99a-8b609a5e8fad"
+    ]
+  },
+  "previous_content13_comparison": {
+    "old_content_items": 4663,
+    "new_content_items": 6552,
+    "deleted_ids": [],
+    "changed_signature_count": 30,
+    "approved_revision_ids": 30,
+    "changes_match_approved_list": true,
+    "delta": {
+      "vocabulary": 450,
+      "meanings": 475,
+      "examples": 900,
+      "grammar": 0,
+      "listening_items": 4,
+      "questions": 12
+    }
+  },
+  "matches_data07_delivery": {
+    "source_sha256": true,
+    "content_sha256": true
+  },
+  "data08_evidence": {
+    "paths": [],
+    "sort_keys": 0,
+    "sources": 0
+  },
+  "git_start": {
+    "branch": "main",
+    "upstream": "origin/main",
+    "ahead": 0,
+    "behind": 0,
+    "tracked_changes": 0,
+    "untracked_files": 0,
+    "data08_commit_message_matches": 0
+  },
+  "derived_vocabulary_search_matches_source": true,
+  "native": {
+    "swift_files": 89,
+    "app_swift_files": 74,
+    "test_files": 15,
+    "authored_test_methods": 126,
+    "native_tests_executed": 0,
+    "swift_compiler_available": false,
+    "xcodebuild_available": false,
+    "release_build_executed": false
+  },
+  "validation": {
+    "command": "python3 Tools/ContentBuilder/build_content.py Content/production.json --validate-only --production --previous Tests/Fixtures/content-v13-production.sqlite --report /tmp/data08-validation.json",
+    "exit_code": 0,
+    "validation_only": true,
+    "error_count": 0,
+    "warning_count": 10,
+    "errors": [],
+    "warnings": [
+      {
+        "code": "short_sentence",
+        "location": "production.json:examples[1]",
+        "message": "korean: single-character sentence needs review"
+      },
+      {
+        "code": "short_sentence",
+        "location": "production.json:examples[1]",
+        "message": "japanese: single-character sentence needs review"
+      },
+      {
+        "code": "short_sentence",
+        "location": "production.json:examples[2]",
+        "message": "korean: single-character sentence needs review"
+      },
+      {
+        "code": "short_sentence",
+        "location": "production.json:examples[2]",
+        "message": "japanese: single-character sentence needs review"
+      },
+      {
+        "code": "short_sentence",
+        "location": "production.json:examples[3]",
+        "message": "korean: single-character sentence needs review"
+      },
+      {
+        "code": "duplicate_headword_candidate",
+        "location": "저",
+        "message": "[\"9b45d39c-a966-41da-bc64-973bd8767c94\", \"ea0ec264-a477-4945-9fb2-92629e759e5f\"]"
+      },
+      {
+        "code": "duplicate_headword_candidate",
+        "location": "차",
+        "message": "[\"e80b26ff-6c6f-4004-99a7-d784495483a3\", \"58ee8623-b923-44c3-9ab3-3f12d0c24230\"]"
+      },
+      {
+        "code": "duplicate_headword_candidate",
+        "location": "일",
+        "message": "[\"1b74ab03-9ce3-454b-914b-5f14f32f1395\", \"fef18457-1e05-435b-8939-4ef1a49fa0cd\"]"
+      },
+      {
+        "code": "duplicate_headword_candidate",
+        "location": "쓰다",
+        "message": "[\"d7632872-1ba0-4930-9e6f-ead30910d5a7\", \"707d6ce7-4939-4d70-b143-6458c44d362f\"]"
+      },
+      {
+        "code": "duplicate_headword_candidate",
+        "location": "적다",
+        "message": "[\"7ed9cfb9-b5ef-441d-9607-a4d60f44eb7e\", \"f211c5be-f0e5-48c1-8e43-f3e850327e1b\"]"
+      }
+    ],
+    "details_limit": 200
+  },
+  "portable_checks": {
+    "command": "sh Tools/verify.sh --portable",
+    "exit_code": 0,
+    "tests_run": 232,
+    "seconds": 71.783,
+    "result": "OK",
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "expected_failures": 0,
+    "release_ads": "disabled: production IDs absent"
+  },
+  "hidden_database": {
+    "path": "Resources/.content-pcb7fgvn.sqlite",
+    "tracked_before_audit": true,
+    "content_version": 14,
+    "schema_version": 4,
+    "same_id_set_as_production": true,
+    "different_signature_count": 227,
+    "different_vocabulary_rows": 227,
+    "different_fields": {
+      "has_batchim": 227,
+      "irregular_type": 92
+    },
+    "selected_by_app_or_generator": false,
+    "modified_in_this_stage": false
+  },
+  "retirement_characterization": {
+    "environment": "in-memory copies only; actual repository SQL; no Swift runtime execution",
+    "production_modified": false,
+    "due_queue_returns_retired_vocabulary_id": true,
+    "active_card_query_returns_row": false,
+    "interpretation": "Existing P1 recovery gap; current production has no inactive items."
+  }
+}
