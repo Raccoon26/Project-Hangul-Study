@@ -1,0 +1,92 @@
+{
+  "sha256": "13ab70c6e5b10392bf5c69f6ed7a03003c6701db02d76c522e7e8d743f691e9d",
+  "schema_version": 4,
+  "content_version": 14,
+  "rows": {
+    "audio_questions": 3,
+    "content_audio": 36,
+    "content_items": 6536,
+    "content_links": 767,
+    "courses": 4,
+    "examples": 2776,
+    "grammar": 42,
+    "grammar_examples": 95,
+    "hangul": 55,
+    "item_sources": 6102,
+    "item_tags": 3549,
+    "learner_notes": 217,
+    "lesson_items": 226,
+    "lessons": 38,
+    "listening_items": 111,
+    "meanings": 1457,
+    "pronunciation_examples": 13,
+    "pronunciation_presentations": 36,
+    "pronunciation_rules": 36,
+    "question_choices": 819,
+    "questions": 342,
+    "sources": 15,
+    "tags": 82,
+    "vocabulary": 1376,
+    "vocabulary_examples": 2692
+  },
+  "seconds": 0.9739,
+  "validation": {
+    "error_count": 0,
+    "warning_count": 10,
+    "errors": [],
+    "warnings": [
+      {
+        "code": "short_sentence",
+        "location": "candidate2.json:examples[1]",
+        "message": "korean: single-character sentence needs review"
+      },
+      {
+        "code": "short_sentence",
+        "location": "candidate2.json:examples[1]",
+        "message": "japanese: single-character sentence needs review"
+      },
+      {
+        "code": "short_sentence",
+        "location": "candidate2.json:examples[2]",
+        "message": "korean: single-character sentence needs review"
+      },
+      {
+        "code": "short_sentence",
+        "location": "candidate2.json:examples[2]",
+        "message": "japanese: single-character sentence needs review"
+      },
+      {
+        "code": "short_sentence",
+        "location": "candidate2.json:examples[3]",
+        "message": "korean: single-character sentence needs review"
+      },
+      {
+        "code": "duplicate_headword_candidate",
+        "location": "저",
+        "message": "[\"9b45d39c-a966-41da-bc64-973bd8767c94\", \"ea0ec264-a477-4945-9fb2-92629e759e5f\"]"
+      },
+      {
+        "code": "duplicate_headword_candidate",
+        "location": "차",
+        "message": "[\"e80b26ff-6c6f-4004-99a7-d784495483a3\", \"58ee8623-b923-44c3-9ab3-3f12d0c24230\"]"
+      },
+      {
+        "code": "duplicate_headword_candidate",
+        "location": "일",
+        "message": "[\"1b74ab03-9ce3-454b-914b-5f14f32f1395\", \"fef18457-1e05-435b-8939-4ef1a49fa0cd\"]"
+      },
+      {
+        "code": "duplicate_headword_candidate",
+        "location": "쓰다",
+        "message": "[\"d7632872-1ba0-4930-9e6f-ead30910d5a7\", \"707d6ce7-4939-4d70-b143-6458c44d362f\"]"
+      },
+      {
+        "code": "duplicate_headword_candidate",
+        "location": "적다",
+        "message": "[\"7ed9cfb9-b5ef-441d-9607-a4d60f44eb7e\", \"f211c5be-f0e5-48c1-8e43-f3e850327e1b\"]"
+      }
+    ],
+    "details_limit": 200
+  },
+  "validation_only": true
+}

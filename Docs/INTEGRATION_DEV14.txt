@@ -1,0 +1,15 @@
+test_consent_delay_is_cancelled_when_purchase_screen_leaves (test_dev14_audit.Dev14AuditTests.test_consent_delay_is_cancelled_when_purchase_screen_leaves) ... ok
+test_duplicate_constraints_actually_reject_invalid_writes (test_dev14_audit.Dev14AuditTests.test_duplicate_constraints_actually_reject_invalid_writes) ... ok
+test_each_historical_user_schema_migrates_without_losing_srs_favorites (test_dev14_audit.Dev14AuditTests.test_each_historical_user_schema_migrates_without_losing_srs_favorites) ... ok
+test_forced_process_exit_keeps_four_answers_not_entire_session (test_dev14_audit.Dev14AuditTests.test_forced_process_exit_keeps_four_answers_not_entire_session) ... ok
+test_grammar_answer_refreshes_continue_timestamp (test_dev14_audit.Dev14AuditTests.test_grammar_answer_refreshes_continue_timestamp) ... ok
+test_listening_due_excludes_unsupported_algorithms_and_uses_index (test_dev14_audit.Dev14AuditTests.test_listening_due_excludes_unsupported_algorithms_and_uses_index) ... ok
+test_mismatched_dataset_gate_precedes_migration (test_dev14_audit.Dev14AuditTests.test_mismatched_dataset_gate_precedes_migration) ... ok
+test_production_retry_does_not_inflate_first_attempt_accuracy (test_dev14_audit.Dev14AuditTests.test_production_retry_does_not_inflate_first_attempt_accuracy) ... ok
+test_snapshot_lookup_is_content_independent_and_preserves_retry (test_dev14_audit.Dev14AuditTests.test_snapshot_lookup_is_content_independent_and_preserves_retry) ... ok
+test_ui_never_interpolates_raw_error_descriptions (test_dev14_audit.Dev14AuditTests.test_ui_never_interpolates_raw_error_descriptions) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.067s
+
+OK

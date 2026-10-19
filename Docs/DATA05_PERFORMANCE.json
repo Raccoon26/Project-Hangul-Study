@@ -1,0 +1,57 @@
+{
+  "scope": "Linux warm SQLite queries only; not iOS startup/latency",
+  "iterations": 100,
+  "database_bytes": 5332992,
+  "measurements": {
+    "stable_id": {
+      "median_ms": 0.0054,
+      "p95_ms": 0.0057,
+      "rows": 1,
+      "plan": [
+        "SEARCH vocabulary USING INDEX sqlite_autoindex_vocabulary_1 (id=?)"
+      ]
+    },
+    "beginner_page_20": {
+      "median_ms": 0.0782,
+      "p95_ms": 0.1154,
+      "rows": 20,
+      "plan": [
+        "SCAN v USING INDEX idx_vocabulary_sort",
+        "SEARCH i USING INDEX sqlite_autoindex_content_items_1 (id=?)",
+        "CORRELATED SCALAR SUBQUERY 1",
+        "SEARCH m USING INDEX sqlite_autoindex_meanings_2 (vocabulary_id=?)",
+        "SEARCH mi USING INDEX sqlite_autoindex_content_items_1 (id=?)"
+      ]
+    },
+    "new_word_search": {
+      "median_ms": 0.0399,
+      "p95_ms": 0.0645,
+      "rows": 1,
+      "plan": [
+        "SEARCH i USING INDEX sqlite_autoindex_content_items_1 (id=?)",
+        "LIST SUBQUERY 2",
+        "SEARCH vocabulary_search USING PRIMARY KEY (term>? AND term<?)",
+        "REUSE LIST SUBQUERY 2",
+        "SEARCH v USING INDEX sqlite_autoindex_vocabulary_1 (id=?)",
+        "CORRELATED SCALAR SUBQUERY 1",
+        "SEARCH m USING INDEX sqlite_autoindex_meanings_2 (vocabulary_id=?)",
+        "SEARCH mi USING INDEX sqlite_autoindex_content_items_1 (id=?)",
+        "USE TEMP B-TREE FOR ORDER BY"
+      ]
+    },
+    "example_relationship": {
+      "median_ms": 0.0096,
+      "p95_ms": 0.0112,
+      "rows": 2,
+      "plan": [
+        "SEARCH m USING INDEX sqlite_autoindex_meanings_2 (vocabulary_id=?)",
+        "SEARCH mi USING INDEX sqlite_autoindex_content_items_1 (id=?)",
+        "SEARCH ve USING COVERING INDEX sqlite_autoindex_vocabulary_examples_1 (meaning_id=?)",
+        "SEARCH e USING INDEX sqlite_autoindex_examples_1 (id=?)",
+        "SEARCH i USING INDEX sqlite_autoindex_content_items_1 (id=?)",
+        "USE TEMP B-TREE FOR DISTINCT",
+        "USE TEMP B-TREE FOR ORDER BY"
+      ]
+    }
+  }
+}

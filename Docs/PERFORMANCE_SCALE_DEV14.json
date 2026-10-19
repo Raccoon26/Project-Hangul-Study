@@ -1,0 +1,104 @@
+{
+  "environment": {
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+    "python": "3.12.14",
+    "sqlite": "3.53.1"
+  },
+  "note": "Synthetic development data only. Linux/Python SQLite measurements are not iPhone startup or UI benchmarks.",
+  "vocabulary": 15000,
+  "examples": 30000,
+  "generation_seconds": 1.0558,
+  "build_seconds": 15.156,
+  "db_bytes": 50712576,
+  "peak_process_rss_mib": 68.82,
+  "full_pagination_seconds": 0.3368,
+  "pagination_unique_ids": 15000,
+  "queries": {
+    "word_by_id": {
+      "median_ms": 0.0042,
+      "p95_ms": 0.0082,
+      "rows": 1,
+      "plan": [
+        "SEARCH vocabulary USING INDEX sqlite_autoindex_vocabulary_1 (id=?)"
+      ]
+    },
+    "first_page_50": {
+      "median_ms": 0.1745,
+      "p95_ms": 0.2998,
+      "rows": 50,
+      "plan": [
+        "SCAN v USING INDEX idx_vocabulary_sort",
+        "SEARCH i USING INDEX sqlite_autoindex_content_items_1 (id=?)",
+        "CORRELATED SCALAR SUBQUERY 1",
+        "SEARCH m USING INDEX sqlite_autoindex_meanings_2 (vocabulary_id=?)",
+        "SEARCH mi USING INDEX sqlite_autoindex_content_items_1 (id=?)"
+      ]
+    },
+    "level_page_50": {
+      "median_ms": 5.2069,
+      "p95_ms": 5.9755,
+      "rows": 50,
+      "plan": [
+        "SEARCH i USING INDEX idx_content_level (ANY(kind) AND is_active=? AND level=?)",
+        "SEARCH v USING INDEX sqlite_autoindex_vocabulary_1 (id=?)",
+        "CORRELATED SCALAR SUBQUERY 1",
+        "SEARCH m USING INDEX sqlite_autoindex_meanings_2 (vocabulary_id=?)",
+        "SEARCH mi USING INDEX sqlite_autoindex_content_items_1 (id=?)",
+        "USE TEMP B-TREE FOR ORDER BY"
+      ]
+    },
+    "korean_prefix_50": {
+      "median_ms": 3.7819,
+      "p95_ms": 5.7674,
+      "rows": 50,
+      "plan": [
+        "SEARCH i USING INDEX sqlite_autoindex_content_items_1 (id=?)",
+        "LIST SUBQUERY 2",
+        "SEARCH vocabulary_search USING PRIMARY KEY (term>? AND term<?)",
+        "REUSE LIST SUBQUERY 2",
+        "SEARCH v USING INDEX sqlite_autoindex_vocabulary_1 (id=?)",
+        "CORRELATED SCALAR SUBQUERY 1",
+        "SEARCH m USING INDEX sqlite_autoindex_meanings_2 (vocabulary_id=?)",
+        "SEARCH mi USING INDEX sqlite_autoindex_content_items_1 (id=?)",
+        "USE TEMP B-TREE FOR ORDER BY"
+      ]
+    },
+    "japanese_prefix_50": {
+      "median_ms": 3.4895,
+      "p95_ms": 4.8141,
+      "rows": 50,
+      "plan": [
+        "SEARCH i USING INDEX sqlite_autoindex_content_items_1 (id=?)",
+        "LIST SUBQUERY 2",
+        "SEARCH vocabulary_search USING PRIMARY KEY (term>? AND term<?)",
+        "REUSE LIST SUBQUERY 2",
+        "SEARCH v USING INDEX sqlite_autoindex_vocabulary_1 (id=?)",
+        "CORRELATED SCALAR SUBQUERY 1",
+        "SEARCH m USING INDEX sqlite_autoindex_meanings_2 (vocabulary_id=?)",
+        "SEARCH mi USING INDEX sqlite_autoindex_content_items_1 (id=?)",
+        "USE TEMP B-TREE FOR ORDER BY"
+      ]
+    },
+    "example_relationship": {
+      "median_ms": 0.0117,
+      "p95_ms": 0.0294,
+      "rows": 2,
+      "plan": [
+        "SEARCH m USING INDEX sqlite_autoindex_meanings_2 (vocabulary_id=?)",
+        "SEARCH mi USING INDEX sqlite_autoindex_content_items_1 (id=?)",
+        "SEARCH ve USING COVERING INDEX sqlite_autoindex_vocabulary_examples_1 (meaning_id=?)",
+        "SEARCH e USING INDEX sqlite_autoindex_examples_1 (id=?)",
+        "SEARCH i USING INDEX sqlite_autoindex_content_items_1 (id=?)",
+        "USE TEMP B-TREE FOR DISTINCT",
+        "USE TEMP B-TREE FOR ORDER BY"
+      ]
+    }
+  },
+  "validation": {
+    "error_count": 0,
+    "warning_count": 0,
+    "errors": [],
+    "warnings": [],
+    "details_limit": 200
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "content_version": 14,
+  "schema_version": 4,
+  "new_vocabulary": 450,
+  "new_examples": 900,
+  "new_meanings": 475,
+  "new_notes": 36,
+  "new_questions": 12,
+  "new_listening": 4,
+  "grammar_links": 28,
+  "grammar_patterns_reused": 26,
+  "lexical_relations": 23,
+  "revised_existing_endpoints": 30,
+  "counts": {
+    "vocabulary": 1376,
+    "meanings": 1457,
+    "examples": 2776,
+    "grammar": 42,
+    "listening_items": 115,
+    "questions": 354,
+    "pronunciation_rules": 36,
+    "hangul": 55,
+    "learner_notes": 217,
+    "vocabulary_examples": 2692,
+    "content_items": 6552
+  },
+  "new_pos": {
+    "verb": 176,
+    "expression": 39,
+    "adjective": 51,
+    "adverb": 56,
+    "noun": 128
+  },
+  "new_themes": {
+    "毎日の動作": 50,
+    "暮らしの状態": 50,
+    "時間・やり方": 20,
+    "家と持ち物": 30,
+    "生活の支度": 20,
+    "食事・外出": 20,
+    "会話の副詞": 10,
+    "考えを伝える・関係をつくる": 50,
+    "気持ち・態度": 50,
+    "学校・仕事・考えを整理する": 50,
+    "移動・旅行・サービス": 50,
+    "話の流れ・気持ちを伝える表現": 50
+  },
+  "vocabulary_by_level": {
+    "beginner": 800,
+    "intro": 306,
+    "lower_intermediate": 270
+  }
+}

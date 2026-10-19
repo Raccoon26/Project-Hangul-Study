@@ -1,0 +1,8 @@
+42 runtime/schema/importer/project files byte-identical to DEV-04, including all Swift/UI/Audio/Progress files.
+Debug: exact project DB-copy shell phase passed; copied production schema 3/content 5, 226 vocabulary.
+Release: exact project DB-copy shell phase passed; copied production schema 3/content 5, 226 vocabulary.
+Info.plist and scheme/workspace XML parse passed. Xcode project itself is unchanged.
+Swift compiler available: False; xcodebuild available: False.
+NOT performed: native build/typecheck/link, XCTest, app/simulator UI or actual audio playback.
+Source SHA256: a44b8676d68c475aa538ddc65f611d2f651e1dd8e215826707b7be9651b996bb
+Bundle DB SHA256: 90b962bde235b0c21fdc4b608d5c0fb3190dae3b6b03deaa6913deae55d54e42

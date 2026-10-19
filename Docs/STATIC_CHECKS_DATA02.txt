@@ -1,0 +1,11 @@
+DATA-02 static verification (Linux)
+Swift tree-sitter syntax: 45 files, 0 errors; NOT type-check/build.
+plist / Xcode scheme and workspace XML: valid.
+Xcode project file paths: 54 checked; no Swift file added/removed.
+Content SQLite integrity_check: ok; foreign_key_check: no rows.
+Byte-preserved: 32 engine/repository/audio/model/schema/importer/validator files compared with DEV-06.
+Removed project files: none.
+Previous release v5 snapshot: byte-identical to DEV-06 bundled DB.
+Native XCTest: 59 authored including new production beginner → pass → SRS → reopen test; NOT EXECUTED.
+Swift compiler: None; Xcode: None. Native build/type-check/UI/audio NOT EXECUTED.
+Content DB SHA256: 8ae761833ebc7b71387795716e11c599ab6b52c1042f4a135ef4129b8126d913

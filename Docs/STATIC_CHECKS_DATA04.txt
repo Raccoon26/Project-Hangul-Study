@@ -1,0 +1,8 @@
+DATA-04 Linux static verification
+Swift tree-sitter syntax: 62 files, no syntax errors. NOT Swift type-check.
+All Swift paths remain in generated Xcode project; plist/XML parse checks passed.
+All 54 application Swift files byte-identical to DEV-09 (UI, repository, learning/audio engines unchanged).
+SQLite integrity_check ok; foreign_key_check empty; header/schema metadata both 4.
+Native XCTest: 80 authored, NOT EXECUTED.
+Xcode/Swift compiler/iOS simulator unavailable: build, native tests, UI, VoiceOver, audio not executed.
+DB SHA256: 2cc1dcb0cde3f12deabcdc349fc18e0239c90c14405826d054d1f1eecfe47c51

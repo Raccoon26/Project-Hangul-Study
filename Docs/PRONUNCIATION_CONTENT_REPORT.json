@@ -1,0 +1,59 @@
+{
+  "path": "/workspace/scratch/5b18e936d3a8/HangulStudy/Resources/content.sqlite",
+  "sha256": "5ca932b0bc36d9cbafc9bb923fed9d67b0eb39fe80f635fc6632a59d7924a515",
+  "schema_version": 3,
+  "content_version": 4,
+  "rows": {
+    "audio_questions": 3,
+    "content_audio": 36,
+    "content_items": 225,
+    "content_links": 101,
+    "courses": 2,
+    "examples": 13,
+    "hangul": 55,
+    "item_sources": 37,
+    "learner_notes": 3,
+    "lesson_items": 184,
+    "lessons": 26,
+    "pronunciation_examples": 13,
+    "pronunciation_presentations": 36,
+    "pronunciation_rules": 36,
+    "question_choices": 318,
+    "questions": 90,
+    "sources": 2
+  },
+  "seconds": 0.1226,
+  "validation": {
+    "error_count": 0,
+    "warning_count": 5,
+    "errors": [],
+    "warnings": [
+      {
+        "code": "short_sentence",
+        "location": "production.json:examples[1]",
+        "message": "korean: single-character sentence needs review"
+      },
+      {
+        "code": "short_sentence",
+        "location": "production.json:examples[1]",
+        "message": "japanese: single-character sentence needs review"
+      },
+      {
+        "code": "short_sentence",
+        "location": "production.json:examples[2]",
+        "message": "korean: single-character sentence needs review"
+      },
+      {
+        "code": "short_sentence",
+        "location": "production.json:examples[2]",
+        "message": "japanese: single-character sentence needs review"
+      },
+      {
+        "code": "short_sentence",
+        "location": "production.json:examples[3]",
+        "message": "korean: single-character sentence needs review"
+      }
+    ],
+    "details_limit": 200
+  }
+}

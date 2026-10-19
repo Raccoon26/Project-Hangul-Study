@@ -1,0 +1,4628 @@
+{
+  "metadata": {
+    "schema_version": 2,
+    "content_version": 3,
+    "min_reader_version": 3,
+    "dataset_id": "ko-ja-core",
+    "is_fixture": 0,
+    "source_locale": "ja",
+    "target_locale": "ko"
+  },
+  "tables": {
+    "content_items": [
+      {
+        "id": "13cdab25-b671-41ed-b33c-0617cc0eefa4",
+        "kind": "hangul",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "5473e552-7329-4c1d-89cf-931a489fdadf",
+        "kind": "hangul",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "dac7e6a1-9f7b-4dc5-b890-d839343a15e7",
+        "kind": "hangul",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "8dc5b683-0deb-4e20-ab41-c99b291b279c",
+        "kind": "hangul",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "d81cf4c8-919f-441e-9904-853348dd0779",
+        "kind": "hangul",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "ae4496ac-2a41-4014-8337-d40b1afea890",
+        "kind": "hangul",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "b07d378f-8c1c-4282-8b1c-f625c7dc97f5",
+        "kind": "hangul",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "273d46b5-9926-4c66-acd7-6feb860fc223",
+        "kind": "hangul",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "99aa7df4-54a9-4794-b83f-ad577c8fe3c5",
+        "kind": "hangul",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "dc0fa17d-b99d-44e3-8a00-993422a9f509",
+        "kind": "hangul",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "a6fdd636-cd9a-43bc-af25-c65edb1d7973",
+        "kind": "hangul",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "f00c9b31-8596-4e8e-8dae-34742fd5ba41",
+        "kind": "hangul",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "7b071a7a-51a0-461c-9616-a51bb19b0ecc",
+        "kind": "hangul",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "0aaa52ac-f58c-42c4-a3c8-8f8ebfa74935",
+        "kind": "hangul",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "7bd38b41-2292-44e6-8368-cf9950db263b",
+        "kind": "hangul",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "e0ba7920-7bba-4035-8ba9-84a369fdcb4c",
+        "kind": "hangul",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "7d6d02b1-70b2-4af2-9c4c-ce10412f7592",
+        "kind": "hangul",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "79940f2f-7b57-41a5-9670-21c9a8022fe2",
+        "kind": "hangul",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "ccc9b86c-97c3-4208-be97-d98061c01952",
+        "kind": "hangul",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "3f286c84-a110-4f46-834d-8de54b2edf61",
+        "kind": "hangul",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "8a70eca0-19ac-49cc-aa4a-ec3cb677ecc7",
+        "kind": "hangul",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "ab9486a0-d6a2-4a6f-b8fe-e985908fc181",
+        "kind": "hangul",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "ac4c93b7-5b3c-4cf1-9a3c-a83d980d5a6d",
+        "kind": "hangul",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "954a1ce0-fcc7-4503-bd8b-338afca995ea",
+        "kind": "hangul",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "5a75f002-5cf5-42eb-8942-eb5a3380b3b8",
+        "kind": "hangul",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "8f9bb9bd-7251-4519-9093-b574b70cf5d5",
+        "kind": "hangul",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "4f0703a9-2372-4c4d-a3ee-88f8d6ffc728",
+        "kind": "hangul",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "3d770dcb-99a2-4400-9722-bb173f3d94c9",
+        "kind": "hangul",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "2b748998-ad51-4121-97c5-39a7b33b0d14",
+        "kind": "hangul",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "22a4e5d7-e7cc-4efc-abb7-90bbc18240b4",
+        "kind": "hangul",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "e39a974b-4754-4c9d-a0d7-de34165c242f",
+        "kind": "hangul",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "a52bb187-f848-41a8-b3b5-e5575e36ebcf",
+        "kind": "hangul",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "408eb3dd-1437-4a39-8f41-b69eccf6c74c",
+        "kind": "hangul",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "29bfb7fb-7575-4aeb-823d-3f68d1a53cd2",
+        "kind": "hangul",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "eccc0cc5-6849-44f7-b702-3e05dc04b230",
+        "kind": "hangul",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "a3800822-6abe-4d0c-8c77-1f9db84a6094",
+        "kind": "hangul",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "17995e1b-d74c-4e61-b2b0-ae405c0c24ea",
+        "kind": "hangul",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "7a3bb07a-4751-4cd7-8e5d-903f2fc7c583",
+        "kind": "hangul",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "04144f14-fd8d-4782-89ce-2c3eebd40710",
+        "kind": "hangul",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "6e39f9a5-be72-4695-88fa-439042207093",
+        "kind": "hangul",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "af7446a8-f23e-4bc7-8324-6e8112b5f7d8",
+        "kind": "course",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "f4196523-bc9c-48a6-960d-db7cdda2dce9",
+        "kind": "note",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "51a9f6b7-fa40-4df9-8c20-c3051518b0e4",
+        "kind": "note",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "e2c94f7c-6f0d-4fb3-835c-5764e2b27dae",
+        "kind": "question",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "fb0a3fb7-8619-4c29-acd9-7f2f37f095e0",
+        "kind": "question",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "23070402-d6ce-42d6-9914-8ad77cc67e6e",
+        "kind": "lesson",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "0e3e5693-c15b-48f0-b584-1dc00d0e99da",
+        "kind": "question",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "b04ad54a-ba12-47a6-978e-c23060819d6e",
+        "kind": "question",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "4c29a0de-cd1f-42d6-9ef4-3c568845d59e",
+        "kind": "question",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "93648f3d-7dc2-479a-967f-df674378a725",
+        "kind": "question",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "a507ff40-eb57-4660-913c-4870295223f3",
+        "kind": "question",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "b134273f-a630-4fb6-9dc0-a51a54378dfd",
+        "kind": "lesson",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "a8a69721-b574-4c7a-92cb-dc67fa256228",
+        "kind": "question",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "e7f6746d-bf2f-4cb3-b8de-092155970eee",
+        "kind": "question",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "b38323fb-d1bb-4e54-b335-1b1c186f73cd",
+        "kind": "question",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "f6c86754-ba5b-400f-bd6b-12526c9bc0a7",
+        "kind": "question",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "8a823591-73fd-4d24-87e1-a3fb44a7269e",
+        "kind": "question",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "17e7c511-1c71-4491-a01e-6ea164aba9e4",
+        "kind": "lesson",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "67e96897-b5e6-4d55-b614-13b60ca95ec2",
+        "kind": "question",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "fa78e1cf-d2a2-4c9c-b35b-70935ebe3afe",
+        "kind": "question",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "98e49db3-ea68-43ac-a863-0ae83be0aa3a",
+        "kind": "question",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "2813f944-af75-42a2-871e-74f73166ebc2",
+        "kind": "question",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "7f9c3da7-7f4b-41f4-9e94-c09bac09089b",
+        "kind": "question",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "b2d84dc0-b6a7-44ec-9ef3-c2270c5f41e9",
+        "kind": "question",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "0945e87f-d6b0-4950-b5e6-477d045fadc5",
+        "kind": "question",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "9d7df0d8-14fc-4b17-8e01-d7ff6b6c89ca",
+        "kind": "lesson",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "6b2a15bb-6304-43f8-8147-73c0d3505d18",
+        "kind": "question",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "c50ec33b-0860-44dd-a680-237dc8aecff6",
+        "kind": "question",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "ed6a3de3-a1ba-414e-9b70-70692449a30a",
+        "kind": "question",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "17c36e12-77fd-4c73-a40b-ee23b8a1b458",
+        "kind": "question",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "06fcd62c-cf6a-4c7e-b5ab-dbd3b46b76e7",
+        "kind": "question",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "2a46e89a-071c-4377-a2ff-f1e3c8e2f640",
+        "kind": "question",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "c54b31fa-46e2-46ab-9b81-5713932083fa",
+        "kind": "question",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "1173c397-c518-4a5d-8a08-8086b9fb73e6",
+        "kind": "lesson",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "51ee7cdc-d30c-41de-9ba8-a55395c4d89d",
+        "kind": "hangul",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "dda3265d-e33d-409d-88e3-21969743610f",
+        "kind": "question",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "63c48b81-eda1-4b21-9edf-c68f016e8a58",
+        "kind": "hangul",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "78f5d736-4d7c-4711-8e05-0d563967c893",
+        "kind": "question",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "e3971b40-6bab-42c5-8508-c52d2cce1a1f",
+        "kind": "hangul",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "29604196-23ab-4c0a-8993-276cda4701dc",
+        "kind": "question",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "cee61fd2-a909-47d9-8bbf-1c0d6fbd811b",
+        "kind": "lesson",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "598dbd95-e1d9-4196-9af7-498aadcce2b3",
+        "kind": "question",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "8ad934ef-b58e-475f-87b7-a75bcd9765c2",
+        "kind": "question",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "ddde1889-a7c4-44c5-88ee-a189e0fd28d1",
+        "kind": "question",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "9f86343c-a654-49b8-8c52-86fe5ab02c6f",
+        "kind": "question",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "e49ebaab-07e5-459c-b978-88bde4af45e6",
+        "kind": "question",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "d8c168a5-c0b7-4942-8bba-5280585fb150",
+        "kind": "lesson",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "a6a8fe22-10d6-4b77-9a9d-f749a5a8b726",
+        "kind": "question",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "4669de09-a4af-4bbc-85ad-8ad3cf183f36",
+        "kind": "question",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "9f31b378-f8d6-454a-bd82-6fcf9e190566",
+        "kind": "question",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "80bf9c70-9078-422f-a20c-68c731c48950",
+        "kind": "question",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "af691b38-00c5-4991-b6a1-6193218298e8",
+        "kind": "lesson",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "11a3754f-55ce-4b04-b3a0-9f262357cfe2",
+        "kind": "question",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "5675075f-079e-4e76-91e0-57e66bb5f083",
+        "kind": "question",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "5412677c-61d6-4d2d-a13a-bfb195cc9ad1",
+        "kind": "question",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "a6a56663-559c-454d-9168-fc3cf2aab361",
+        "kind": "question",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "2a24da64-f999-42a4-aa52-7ea946055cd4",
+        "kind": "question",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "e23bd2a4-8462-4f6a-b432-3ea8d9431225",
+        "kind": "question",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "9888fb73-a834-4d1a-be05-b732270c77cc",
+        "kind": "question",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "e55e08ea-f53b-482f-9a29-09c2503e32d9",
+        "kind": "lesson",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "2410ae3e-26f6-41d2-9acd-a5652c84e559",
+        "kind": "note",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "3445ddcb-6167-4914-8576-bb540ff5c7c2",
+        "kind": "hangul",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "f8b10953-16f7-45b5-8853-125282cab0e6",
+        "kind": "hangul",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "c846a64a-fd96-49c1-bbda-fc1f7b3521fd",
+        "kind": "hangul",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "35bf4fa9-52ca-412e-9e3b-feb46c5e4366",
+        "kind": "hangul",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "1dab9d5f-0431-4e98-9346-3ce15988c806",
+        "kind": "hangul",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "880226b3-37ed-4b0a-a7d0-d74a6aa31eb9",
+        "kind": "hangul",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "7451513f-d31f-4ba2-95cb-50113fb2cff7",
+        "kind": "hangul",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "f36ba331-862c-45f3-9cd8-e316cbedac8f",
+        "kind": "question",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "35dcac87-4f6f-4f94-9e8b-1c2d1dab3168",
+        "kind": "question",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "3488c71b-2a7c-46af-9a32-21a4a397316e",
+        "kind": "lesson",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "67b92573-85a1-47ad-a069-4e4b992a63da",
+        "kind": "hangul",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "50a68c1b-f4a5-4680-9e1d-93f0c729c63d",
+        "kind": "question",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "2639697e-f0df-44f6-8c47-24d631c6a481",
+        "kind": "hangul",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "53765cb7-8046-475d-a035-eaf40cf6b9a5",
+        "kind": "question",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "8299adf3-5f41-4fce-bdae-b9e68d4eef5f",
+        "kind": "hangul",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "74586568-87ef-4dab-a0df-234fbe9ac05b",
+        "kind": "question",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "23ec1014-72ac-49eb-9099-774bf3713151",
+        "kind": "hangul",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "06cdb8ac-5424-4919-bf58-536dc3bfba24",
+        "kind": "question",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "51dd9448-f728-4e88-8c3e-5894a9883fa2",
+        "kind": "hangul",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "a3cc0cd1-7530-4052-bdec-49c486816764",
+        "kind": "question",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "0fe213ed-2dfd-4056-9630-418e5505ffc7",
+        "kind": "lesson",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "fdf120b1-65af-420d-b311-12659bb4b645",
+        "kind": "question",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "10f80cc5-2bcb-4e58-90bb-2d2f85114701",
+        "kind": "question",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "a9dddb11-25fd-481e-80ec-ce48e1164ebb",
+        "kind": "question",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "1108cacd-fbb6-4da4-96fc-f316d7e99147",
+        "kind": "question",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "b26f608a-be53-4d84-8070-8ddbebc5f4b6",
+        "kind": "question",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "f15e83cc-6dcb-4a6f-8323-667f8328954d",
+        "kind": "question",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "72b61412-6705-47ab-9698-cf870517715d",
+        "kind": "question",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      },
+      {
+        "id": "d14277e7-a5d6-44b3-9dfc-c1a7e0ef5e8a",
+        "kind": "lesson",
+        "revision": 1,
+        "is_active": 1,
+        "level": "hangul",
+        "created_at": "2026-09-30T12:30:00Z",
+        "updated_at": "2026-09-30T12:30:00Z"
+      }
+    ],
+    "hangul": [
+      {
+        "id": "13cdab25-b671-41ed-b33c-0617cc0eefa4",
+        "symbol": "ㅏ",
+        "category": "vowel",
+        "name_ko": "아",
+        "explanation_ja": "口を自然に開いて出す母音です。日本語の「ア」を手がかりにできますが、同じ音だと決めつけないでください。\n\n例：아",
+        "audio_asset_id": null
+      },
+      {
+        "id": "5473e552-7329-4c1d-89cf-931a489fdadf",
+        "symbol": "ㅓ",
+        "category": "vowel",
+        "name_ko": "어",
+        "explanation_ja": "唇を丸めず、口を開いて出します。唇を丸めるㅗと区別しましょう。日本語の「オ」と完全には同じではありません。\n\n例：어",
+        "audio_asset_id": null
+      },
+      {
+        "id": "dac7e6a1-9f7b-4dc5-b890-d839343a15e7",
+        "symbol": "ㅗ",
+        "category": "vowel",
+        "name_ko": "오",
+        "explanation_ja": "唇を丸めて、前に少し突き出します。ㅓとの違いは、口の開き方や唇の形を意識して覚えましょう。\n\n例：오",
+        "audio_asset_id": null
+      },
+      {
+        "id": "8dc5b683-0deb-4e20-ab41-c99b291b279c",
+        "symbol": "ㅜ",
+        "category": "vowel",
+        "name_ko": "우",
+        "explanation_ja": "唇を丸めて出す母音です。日本語の「ウ」より唇の丸みを意識します。唇を丸めないㅡと区別しましょう。\n\n例：우",
+        "audio_asset_id": null
+      },
+      {
+        "id": "d81cf4c8-919f-441e-9904-853348dd0779",
+        "symbol": "ㅣ",
+        "category": "vowel",
+        "name_ko": "이",
+        "explanation_ja": "舌を前のほうに置き、口を横に軽く開きます。日本語の「イ」を手がかりにできます。\n\n例：이",
+        "audio_asset_id": null
+      },
+      {
+        "id": "ae4496ac-2a41-4014-8337-d40b1afea890",
+        "symbol": "ㅑ",
+        "category": "vowel",
+        "name_ko": "야",
+        "explanation_ja": "ㅏに短い「y」の動きを添えた母音です。二つの音節に分けず、ひとまとまりで出します。\n\n例：야",
+        "audio_asset_id": null
+      },
+      {
+        "id": "b07d378f-8c1c-4282-8b1c-f625c7dc97f5",
+        "symbol": "ㅕ",
+        "category": "vowel",
+        "name_ko": "여",
+        "explanation_ja": "ㅓに短い「y」の動きを添えます。ㅓと同じく、唇を丸めすぎないようにしましょう。\n\n例：여",
+        "audio_asset_id": null
+      },
+      {
+        "id": "273d46b5-9926-4c66-acd7-6feb860fc223",
+        "symbol": "ㅛ",
+        "category": "vowel",
+        "name_ko": "요",
+        "explanation_ja": "ㅗに短い「y」の動きを添えます。唇の丸みを保ち、一つの音節として出します。\n\n例：요",
+        "audio_asset_id": null
+      },
+      {
+        "id": "99aa7df4-54a9-4794-b83f-ad577c8fe3c5",
+        "symbol": "ㅠ",
+        "category": "vowel",
+        "name_ko": "유",
+        "explanation_ja": "ㅜに短い「y」の動きを添えます。唇を丸め、一つの音節として出します。\n\n例：유",
+        "audio_asset_id": null
+      },
+      {
+        "id": "dc0fa17d-b99d-44e3-8a00-993422a9f509",
+        "symbol": "ㅡ",
+        "category": "vowel",
+        "name_ko": "으",
+        "explanation_ja": "唇を丸めず、舌を口の奥寄りに置いて出します。ㅜと同じ音ではありません。日本語の「ウ」だけで覚えないようにしましょう。\n\n例：으",
+        "audio_asset_id": null
+      },
+      {
+        "id": "a6fdd636-cd9a-43bc-af25-c65edb1d7973",
+        "symbol": "ㄱ",
+        "category": "consonant",
+        "name_ko": "기역",
+        "explanation_ja": "舌の奥で空気をいったん止めて出します。ㄱ・ㅋ・ㄲは別の子音です。ㄱをいつも日本語の「カ」または「ガ」と固定して覚えないようにしましょう。\n\n例：가",
+        "audio_asset_id": null
+      },
+      {
+        "id": "f00c9b31-8596-4e8e-8dae-34742fd5ba41",
+        "symbol": "ㄴ",
+        "category": "consonant",
+        "name_ko": "니은",
+        "explanation_ja": "舌先を上の歯のすぐ後ろにつけ、鼻に息を通します。母音と合わせて나などの文字を作ります。\n\n例：나",
+        "audio_asset_id": null
+      },
+      {
+        "id": "7b071a7a-51a0-461c-9616-a51bb19b0ecc",
+        "symbol": "ㄷ",
+        "category": "consonant",
+        "name_ko": "디귿",
+        "explanation_ja": "舌先を上の歯の後ろにつけて、いったん止めた空気を出します。ㄷ・ㅌ・ㄸの三つを区別します。\n\n例：다",
+        "audio_asset_id": null
+      },
+      {
+        "id": "0aaa52ac-f58c-42c4-a3c8-8f8ebfa74935",
+        "symbol": "ㄹ",
+        "category": "consonant",
+        "name_ko": "리을",
+        "explanation_ja": "母音の前では、舌先が上の歯の後ろ付近に短く触れます。日本語のラ行に近く聞こえることもありますが、同じ音ではありません。音節の終わりでは舌をつけたままにします。\n\n例：라",
+        "audio_asset_id": null
+      },
+      {
+        "id": "7bd38b41-2292-44e6-8368-cf9950db263b",
+        "symbol": "ㅁ",
+        "category": "consonant",
+        "name_ko": "미음",
+        "explanation_ja": "上下の唇を合わせ、鼻に息を通します。唇の閉じ方を意識しましょう。\n\n例：마",
+        "audio_asset_id": null
+      },
+      {
+        "id": "e0ba7920-7bba-4035-8ba9-84a369fdcb4c",
+        "symbol": "ㅂ",
+        "category": "consonant",
+        "name_ko": "비읍",
+        "explanation_ja": "上下の唇で空気をいったん止めてから開きます。ㅂ・ㅍ・ㅃは別の子音です。\n\n例：바",
+        "audio_asset_id": null
+      },
+      {
+        "id": "7d6d02b1-70b2-4af2-9c4c-ce10412f7592",
+        "symbol": "ㅅ",
+        "category": "consonant",
+        "name_ko": "시옷",
+        "explanation_ja": "歯の近くの狭いすき間から息を出します。後ろの母音によって聞こえ方が変わるので、すべてを日本語の「サ行」に置き換えないようにしましょう。\n\n例：사",
+        "audio_asset_id": null
+      },
+      {
+        "id": "79940f2f-7b57-41a5-9670-21c9a8022fe2",
+        "symbol": "ㅇ",
+        "category": "consonant",
+        "name_ko": "이응",
+        "explanation_ja": "音節の最初にあるㅇは発音しません。母音だけで始まる音節でも、子音の場所にㅇを書きます。아のㅇは無音ですが、パッチムのㅇは別の働きをします。\n\n例：아",
+        "audio_asset_id": null
+      },
+      {
+        "id": "ccc9b86c-97c3-4208-be97-d98061c01952",
+        "symbol": "ㅈ",
+        "category": "consonant",
+        "name_ko": "지읒",
+        "explanation_ja": "舌の前のほうで空気を止めたあと、すき間から出します。ㅈ・ㅊ・ㅉを区別しましょう。\n\n例：자",
+        "audio_asset_id": null
+      },
+      {
+        "id": "3f286c84-a110-4f46-834d-8de54b2edf61",
+        "symbol": "ㅊ",
+        "category": "consonant",
+        "name_ko": "치읓",
+        "explanation_ja": "ㅈと似た位置で作りますが、強い息を伴います。日本語の「チャ」と完全に同じだと思わず、息の出方にも注目しましょう。\n\n例：차",
+        "audio_asset_id": null
+      },
+      {
+        "id": "8a70eca0-19ac-49cc-aa4a-ec3cb677ecc7",
+        "symbol": "ㅋ",
+        "category": "consonant",
+        "name_ko": "키읔",
+        "explanation_ja": "舌の奥で作り、強い息を伴う子音です。ㄱ・ㅋ・ㄲのうち、ㅋは息を強く出すことが手がかりになります。\n\n例：카",
+        "audio_asset_id": null
+      },
+      {
+        "id": "ab9486a0-d6a2-4a6f-b8fe-e985908fc181",
+        "symbol": "ㅌ",
+        "category": "consonant",
+        "name_ko": "티읕",
+        "explanation_ja": "舌先を使い、強い息を伴って出します。ㄷやㄸと同じ文字ではありません。\n\n例：타",
+        "audio_asset_id": null
+      },
+      {
+        "id": "ac4c93b7-5b3c-4cf1-9a3c-a83d980d5a6d",
+        "symbol": "ㅍ",
+        "category": "consonant",
+        "name_ko": "피읖",
+        "explanation_ja": "唇を閉じてから開くときに、強い息を伴います。ㅂ・ㅍ・ㅃの違いを意識しましょう。\n\n例：파",
+        "audio_asset_id": null
+      },
+      {
+        "id": "954a1ce0-fcc7-4503-bd8b-338afca995ea",
+        "symbol": "ㅎ",
+        "category": "consonant",
+        "name_ko": "히읗",
+        "explanation_ja": "息がのどを通るときの音です。まずは母音と合わせた하で、息の流れを意識しましょう。\n\n例：하",
+        "audio_asset_id": null
+      },
+      {
+        "id": "5a75f002-5cf5-42eb-8942-eb5a3380b3b8",
+        "symbol": "ㄲ",
+        "category": "consonant",
+        "name_ko": "쌍기역",
+        "explanation_ja": "ㄱを重ねた濃音です。口の中でしっかり構え、息を強く吹き出さずに発音します。単にㄱを二回読んだり、音量を上げたりすることではありません。\n\n例：까",
+        "audio_asset_id": null
+      },
+      {
+        "id": "8f9bb9bd-7251-4519-9093-b574b70cf5d5",
+        "symbol": "ㄸ",
+        "category": "consonant",
+        "name_ko": "쌍디귿",
+        "explanation_ja": "ㄷを重ねた濃音です。舌先の構えをしっかり作ります。日本語の小さい「ッ」を毎回前につける読み方ではありません。\n\n例：따",
+        "audio_asset_id": null
+      },
+      {
+        "id": "4f0703a9-2372-4c4d-a3ee-88f8d6ffc728",
+        "symbol": "ㅃ",
+        "category": "consonant",
+        "name_ko": "쌍비읍",
+        "explanation_ja": "ㅂを重ねた濃音です。唇をしっかり閉じて構え、強く息を吹くㅍと区別します。\n\n例：빠",
+        "audio_asset_id": null
+      },
+      {
+        "id": "3d770dcb-99a2-4400-9722-bb173f3d94c9",
+        "symbol": "ㅆ",
+        "category": "consonant",
+        "name_ko": "쌍시옷",
+        "explanation_ja": "ㅅよりしっかりした構えで出す濃音です。ㅅを長く伸ばすだけの音ではありません。\n\n例：싸",
+        "audio_asset_id": null
+      },
+      {
+        "id": "2b748998-ad51-4121-97c5-39a7b33b0d14",
+        "symbol": "ㅉ",
+        "category": "consonant",
+        "name_ko": "쌍지읒",
+        "explanation_ja": "ㅈを重ねた濃音です。ㅈ・ㅊ・ㅉは、息の出方や構えなどを合わせて区別します。音だけの聞き分けは、検証済み音声が加わってから練習します。\n\n例：짜",
+        "audio_asset_id": null
+      },
+      {
+        "id": "22a4e5d7-e7cc-4efc-abb7-90bbc18240b4",
+        "symbol": "ㅐ",
+        "category": "vowel",
+        "name_ko": "애",
+        "explanation_ja": "ㅏとㅣを組み合わせた形の母音字です。「ア・イ」と二つに区切って読むわけではありません。ㅔと発音を区別しない話者も多いため、ここでは綴りを区別して覚えます。\n\n例：애",
+        "audio_asset_id": null
+      },
+      {
+        "id": "e39a974b-4754-4c9d-a0d7-de34165c242f",
+        "symbol": "ㅔ",
+        "category": "vowel",
+        "name_ko": "에",
+        "explanation_ja": "ㅓとㅣを組み合わせた形の母音字です。ㅐと似た音で発音されることが多いですが、文字の形と単語の綴りは別々に覚えましょう。\n\n例：에",
+        "audio_asset_id": null
+      },
+      {
+        "id": "a52bb187-f848-41a8-b3b5-e5575e36ebcf",
+        "symbol": "ㅒ",
+        "category": "vowel",
+        "name_ko": "얘",
+        "explanation_ja": "ㅐに短い「y」の動きを添える母音です。ㅖと似て聞こえる場合もあります。二本の短い線と縦線の位置を確かめましょう。\n\n例：얘",
+        "audio_asset_id": null
+      },
+      {
+        "id": "408eb3dd-1437-4a39-8f41-b69eccf6c74c",
+        "symbol": "ㅖ",
+        "category": "vowel",
+        "name_ko": "예",
+        "explanation_ja": "ㅔに短い「y」の動きを添える母音です。ここでは音節の最初に使う예で形を覚えます。\n\n例：예",
+        "audio_asset_id": null
+      },
+      {
+        "id": "29bfb7fb-7575-4aeb-823d-3f68d1a53cd2",
+        "symbol": "ㅘ",
+        "category": "vowel",
+        "name_ko": "와",
+        "explanation_ja": "ㅗとㅏを組み合わせた母音字です。唇を丸めた位置からㅏへ滑らかに動かし、一つの音節として出します。\n\n例：와",
+        "audio_asset_id": null
+      },
+      {
+        "id": "eccc0cc5-6849-44f7-b702-3e05dc04b230",
+        "symbol": "ㅙ",
+        "category": "vowel",
+        "name_ko": "왜",
+        "explanation_ja": "ㅗとㅐを組み合わせた形です。丸めた唇から母音へ移ります。ㅞ・ㅚと似て聞こえることがあるので、綴りも一緒に覚えましょう。\n\n例：왜",
+        "audio_asset_id": null
+      },
+      {
+        "id": "a3800822-6abe-4d0c-8c77-1f9db84a6094",
+        "symbol": "ㅚ",
+        "category": "vowel",
+        "name_ko": "외",
+        "explanation_ja": "ㅗとㅣを組み合わせた形です。「オイ」と二つの音節に分けません。単母音としての発音に加え、唇を丸めた位置から「エ」に近い音へ移る発音も認められています。\n\n例：외",
+        "audio_asset_id": null
+      },
+      {
+        "id": "17995e1b-d74c-4e61-b2b0-ae405c0c24ea",
+        "symbol": "ㅝ",
+        "category": "vowel",
+        "name_ko": "워",
+        "explanation_ja": "ㅜとㅓを組み合わせた母音字です。唇を丸めた位置からㅓへ滑らかに移ります。ㅘと同じ形・音ではありません。\n\n例：워",
+        "audio_asset_id": null
+      },
+      {
+        "id": "7a3bb07a-4751-4cd7-8e5d-903f2fc7c583",
+        "symbol": "ㅞ",
+        "category": "vowel",
+        "name_ko": "웨",
+        "explanation_ja": "ㅜとㅔを組み合わせた形です。ㅙと似て聞こえる場合がありますが、綴りではㅜから始まる形を確かめます。\n\n例：웨",
+        "audio_asset_id": null
+      },
+      {
+        "id": "04144f14-fd8d-4782-89ce-2c3eebd40710",
+        "symbol": "ㅟ",
+        "category": "vowel",
+        "name_ko": "위",
+        "explanation_ja": "ㅜとㅣを組み合わせた形です。唇を丸めたまま舌を前寄りにする発音のほか、短い「w」からㅣへ移る発音も認められています。\n\n例：위",
+        "audio_asset_id": null
+      },
+      {
+        "id": "6e39f9a5-be72-4695-88fa-439042207093",
+        "symbol": "ㅢ",
+        "category": "vowel",
+        "name_ko": "의",
+        "explanation_ja": "ㅡからㅣへ滑らかに移る母音です。まずは音節の最初の의で覚えましょう。単語の中や助詞では別の発音が認められる場合がありますが、その使い分けは後の学習で扱います。\n\n例：의",
+        "audio_asset_id": null
+      },
+      {
+        "id": "51ee7cdc-d30c-41de-9ba8-a55395c4d89d",
+        "symbol": "가",
+        "category": "syllable",
+        "name_ko": "가",
+        "explanation_ja": "縦長の母音ㅏは、子音の右に置きます。二つの部品が一つの音節になります。 横長の母音ㅗやㅜは子音の下に置きます。たとえばㄱとㅗを合わせると고です。",
+        "audio_asset_id": null
+      },
+      {
+        "id": "63c48b81-eda1-4b21-9edf-c68f016e8a58",
+        "symbol": "나",
+        "category": "syllable",
+        "name_ko": "나",
+        "explanation_ja": "子音をㄴに替えると나になります。ㅏは右側です。",
+        "audio_asset_id": null
+      },
+      {
+        "id": "e3971b40-6bab-42c5-8508-c52d2cce1a1f",
+        "symbol": "한",
+        "category": "syllable",
+        "name_ko": "한",
+        "explanation_ja": "最初の子音ㅎと母音ㅏの下に、最後の子音ㄴを置きます。下の子音をパッチムと呼びます。",
+        "audio_asset_id": null
+      },
+      {
+        "id": "3445ddcb-6167-4914-8576-bb540ff5c7c2",
+        "symbol": "각",
+        "category": "syllable",
+        "name_ko": "각",
+        "explanation_ja": "舌の奥で空気を止め、強く破裂させずに終わります。「カク」と二音節にしません。",
+        "audio_asset_id": null
+      },
+      {
+        "id": "f8b10953-16f7-45b5-8853-125282cab0e6",
+        "symbol": "간",
+        "category": "syllable",
+        "name_ko": "간",
+        "explanation_ja": "舌先を上の歯の後ろにつけ、鼻へ息を通して終わります。",
+        "audio_asset_id": null
+      },
+      {
+        "id": "c846a64a-fd96-49c1-bbda-fc1f7b3521fd",
+        "symbol": "갇",
+        "category": "syllable",
+        "name_ko": "갇",
+        "explanation_ja": "舌先を上の歯の後ろにつけ、強く破裂させずに止めます。これは単独の音節での練習です。",
+        "audio_asset_id": null
+      },
+      {
+        "id": "35bf4fa9-52ca-412e-9e3b-feb46c5e4366",
+        "symbol": "갈",
+        "category": "syllable",
+        "name_ko": "갈",
+        "explanation_ja": "舌先を上の歯の後ろ付近につけたまま終わります。母音の前のㄹと同じ動きではありません。",
+        "audio_asset_id": null
+      },
+      {
+        "id": "1dab9d5f-0431-4e98-9346-3ce15988c806",
+        "symbol": "감",
+        "category": "syllable",
+        "name_ko": "감",
+        "explanation_ja": "唇を閉じ、鼻に息を通して終わります。母音を足して「ム」にしません。",
+        "audio_asset_id": null
+      },
+      {
+        "id": "880226b3-37ed-4b0a-a7d0-d74a6aa31eb9",
+        "symbol": "갑",
+        "category": "syllable",
+        "name_ko": "갑",
+        "explanation_ja": "唇を閉じ、強く破裂させずに終わります。「プ」という母音を足しません。",
+        "audio_asset_id": null
+      },
+      {
+        "id": "7451513f-d31f-4ba2-95cb-50113fb2cff7",
+        "symbol": "강",
+        "category": "syllable",
+        "name_ko": "강",
+        "explanation_ja": "舌の奥を上げ、鼻に息を通して終わります。最初のㅇとは違い、パッチムでは音があります。",
+        "audio_asset_id": null
+      },
+      {
+        "id": "67b92573-85a1-47ad-a069-4e4b992a63da",
+        "symbol": "나",
+        "category": "syllable",
+        "name_ko": "나",
+        "explanation_ja": "「私」という意味で使われる形です。まず文字を確かめましょう。",
+        "audio_asset_id": null
+      },
+      {
+        "id": "2639697e-f0df-44f6-8c47-24d631c6a481",
+        "symbol": "나무",
+        "category": "syllable",
+        "name_ko": "나무",
+        "explanation_ja": "「木」という意味です。二つの音節のブロックを順に読みます。",
+        "audio_asset_id": null
+      },
+      {
+        "id": "8299adf3-5f41-4fce-bdae-b9e68d4eef5f",
+        "symbol": "바다",
+        "category": "syllable",
+        "name_ko": "바다",
+        "explanation_ja": "「海」という意味です。바と다を順に読みます。",
+        "audio_asset_id": null
+      },
+      {
+        "id": "23ec1014-72ac-49eb-9099-774bf3713151",
+        "symbol": "우유",
+        "category": "syllable",
+        "name_ko": "우유",
+        "explanation_ja": "「牛乳」という意味です。どちらのㅇも音節の最初なので発音しません。",
+        "audio_asset_id": null
+      },
+      {
+        "id": "51dd9448-f728-4e88-8c3e-5894a9883fa2",
+        "symbol": "하나",
+        "category": "syllable",
+        "name_ko": "하나",
+        "explanation_ja": "「一つ」という意味です。하と나を順に読みます。",
+        "audio_asset_id": null
+      }
+    ],
+    "content_links": [
+      {
+        "source_id": "5473e552-7329-4c1d-89cf-931a489fdadf",
+        "target_id": "dac7e6a1-9f7b-4dc5-b890-d839343a15e7",
+        "relation": "related"
+      },
+      {
+        "source_id": "8dc5b683-0deb-4e20-ab41-c99b291b279c",
+        "target_id": "dc0fa17d-b99d-44e3-8a00-993422a9f509",
+        "relation": "related"
+      },
+      {
+        "source_id": "22a4e5d7-e7cc-4efc-abb7-90bbc18240b4",
+        "target_id": "e39a974b-4754-4c9d-a0d7-de34165c242f",
+        "relation": "related"
+      },
+      {
+        "source_id": "a6fdd636-cd9a-43bc-af25-c65edb1d7973",
+        "target_id": "8a70eca0-19ac-49cc-aa4a-ec3cb677ecc7",
+        "relation": "related"
+      },
+      {
+        "source_id": "a6fdd636-cd9a-43bc-af25-c65edb1d7973",
+        "target_id": "5a75f002-5cf5-42eb-8942-eb5a3380b3b8",
+        "relation": "related"
+      },
+      {
+        "source_id": "7b071a7a-51a0-461c-9616-a51bb19b0ecc",
+        "target_id": "ab9486a0-d6a2-4a6f-b8fe-e985908fc181",
+        "relation": "related"
+      },
+      {
+        "source_id": "7b071a7a-51a0-461c-9616-a51bb19b0ecc",
+        "target_id": "8f9bb9bd-7251-4519-9093-b574b70cf5d5",
+        "relation": "related"
+      },
+      {
+        "source_id": "e0ba7920-7bba-4035-8ba9-84a369fdcb4c",
+        "target_id": "ac4c93b7-5b3c-4cf1-9a3c-a83d980d5a6d",
+        "relation": "related"
+      },
+      {
+        "source_id": "e0ba7920-7bba-4035-8ba9-84a369fdcb4c",
+        "target_id": "4f0703a9-2372-4c4d-a3ee-88f8d6ffc728",
+        "relation": "related"
+      },
+      {
+        "source_id": "ccc9b86c-97c3-4208-be97-d98061c01952",
+        "target_id": "3f286c84-a110-4f46-834d-8de54b2edf61",
+        "relation": "related"
+      },
+      {
+        "source_id": "ccc9b86c-97c3-4208-be97-d98061c01952",
+        "target_id": "2b748998-ad51-4121-97c5-39a7b33b0d14",
+        "relation": "related"
+      },
+      {
+        "source_id": "e2c94f7c-6f0d-4fb3-835c-5764e2b27dae",
+        "target_id": "f4196523-bc9c-48a6-960d-db7cdda2dce9",
+        "relation": "question_target"
+      },
+      {
+        "source_id": "fb0a3fb7-8619-4c29-acd9-7f2f37f095e0",
+        "target_id": "51a9f6b7-fa40-4df9-8c20-c3051518b0e4",
+        "relation": "question_target"
+      },
+      {
+        "source_id": "0e3e5693-c15b-48f0-b584-1dc00d0e99da",
+        "target_id": "13cdab25-b671-41ed-b33c-0617cc0eefa4",
+        "relation": "question_target"
+      },
+      {
+        "source_id": "b04ad54a-ba12-47a6-978e-c23060819d6e",
+        "target_id": "5473e552-7329-4c1d-89cf-931a489fdadf",
+        "relation": "question_target"
+      },
+      {
+        "source_id": "4c29a0de-cd1f-42d6-9ef4-3c568845d59e",
+        "target_id": "dac7e6a1-9f7b-4dc5-b890-d839343a15e7",
+        "relation": "question_target"
+      },
+      {
+        "source_id": "93648f3d-7dc2-479a-967f-df674378a725",
+        "target_id": "8dc5b683-0deb-4e20-ab41-c99b291b279c",
+        "relation": "question_target"
+      },
+      {
+        "source_id": "a507ff40-eb57-4660-913c-4870295223f3",
+        "target_id": "d81cf4c8-919f-441e-9904-853348dd0779",
+        "relation": "question_target"
+      },
+      {
+        "source_id": "a8a69721-b574-4c7a-92cb-dc67fa256228",
+        "target_id": "ae4496ac-2a41-4014-8337-d40b1afea890",
+        "relation": "question_target"
+      },
+      {
+        "source_id": "e7f6746d-bf2f-4cb3-b8de-092155970eee",
+        "target_id": "b07d378f-8c1c-4282-8b1c-f625c7dc97f5",
+        "relation": "question_target"
+      },
+      {
+        "source_id": "b38323fb-d1bb-4e54-b335-1b1c186f73cd",
+        "target_id": "273d46b5-9926-4c66-acd7-6feb860fc223",
+        "relation": "question_target"
+      },
+      {
+        "source_id": "f6c86754-ba5b-400f-bd6b-12526c9bc0a7",
+        "target_id": "99aa7df4-54a9-4794-b83f-ad577c8fe3c5",
+        "relation": "question_target"
+      },
+      {
+        "source_id": "8a823591-73fd-4d24-87e1-a3fb44a7269e",
+        "target_id": "dc0fa17d-b99d-44e3-8a00-993422a9f509",
+        "relation": "question_target"
+      },
+      {
+        "source_id": "67e96897-b5e6-4d55-b614-13b60ca95ec2",
+        "target_id": "a6fdd636-cd9a-43bc-af25-c65edb1d7973",
+        "relation": "question_target"
+      },
+      {
+        "source_id": "fa78e1cf-d2a2-4c9c-b35b-70935ebe3afe",
+        "target_id": "f00c9b31-8596-4e8e-8dae-34742fd5ba41",
+        "relation": "question_target"
+      },
+      {
+        "source_id": "98e49db3-ea68-43ac-a863-0ae83be0aa3a",
+        "target_id": "7b071a7a-51a0-461c-9616-a51bb19b0ecc",
+        "relation": "question_target"
+      },
+      {
+        "source_id": "2813f944-af75-42a2-871e-74f73166ebc2",
+        "target_id": "0aaa52ac-f58c-42c4-a3c8-8f8ebfa74935",
+        "relation": "question_target"
+      },
+      {
+        "source_id": "7f9c3da7-7f4b-41f4-9e94-c09bac09089b",
+        "target_id": "7bd38b41-2292-44e6-8368-cf9950db263b",
+        "relation": "question_target"
+      },
+      {
+        "source_id": "b2d84dc0-b6a7-44ec-9ef3-c2270c5f41e9",
+        "target_id": "e0ba7920-7bba-4035-8ba9-84a369fdcb4c",
+        "relation": "question_target"
+      },
+      {
+        "source_id": "0945e87f-d6b0-4950-b5e6-477d045fadc5",
+        "target_id": "7d6d02b1-70b2-4af2-9c4c-ce10412f7592",
+        "relation": "question_target"
+      },
+      {
+        "source_id": "6b2a15bb-6304-43f8-8147-73c0d3505d18",
+        "target_id": "79940f2f-7b57-41a5-9670-21c9a8022fe2",
+        "relation": "question_target"
+      },
+      {
+        "source_id": "c50ec33b-0860-44dd-a680-237dc8aecff6",
+        "target_id": "ccc9b86c-97c3-4208-be97-d98061c01952",
+        "relation": "question_target"
+      },
+      {
+        "source_id": "ed6a3de3-a1ba-414e-9b70-70692449a30a",
+        "target_id": "3f286c84-a110-4f46-834d-8de54b2edf61",
+        "relation": "question_target"
+      },
+      {
+        "source_id": "17c36e12-77fd-4c73-a40b-ee23b8a1b458",
+        "target_id": "8a70eca0-19ac-49cc-aa4a-ec3cb677ecc7",
+        "relation": "question_target"
+      },
+      {
+        "source_id": "06fcd62c-cf6a-4c7e-b5ab-dbd3b46b76e7",
+        "target_id": "ab9486a0-d6a2-4a6f-b8fe-e985908fc181",
+        "relation": "question_target"
+      },
+      {
+        "source_id": "2a46e89a-071c-4377-a2ff-f1e3c8e2f640",
+        "target_id": "ac4c93b7-5b3c-4cf1-9a3c-a83d980d5a6d",
+        "relation": "question_target"
+      },
+      {
+        "source_id": "c54b31fa-46e2-46ab-9b81-5713932083fa",
+        "target_id": "954a1ce0-fcc7-4503-bd8b-338afca995ea",
+        "relation": "question_target"
+      },
+      {
+        "source_id": "dda3265d-e33d-409d-88e3-21969743610f",
+        "target_id": "51ee7cdc-d30c-41de-9ba8-a55395c4d89d",
+        "relation": "question_target"
+      },
+      {
+        "source_id": "78f5d736-4d7c-4711-8e05-0d563967c893",
+        "target_id": "63c48b81-eda1-4b21-9edf-c68f016e8a58",
+        "relation": "question_target"
+      },
+      {
+        "source_id": "29604196-23ab-4c0a-8993-276cda4701dc",
+        "target_id": "e3971b40-6bab-42c5-8508-c52d2cce1a1f",
+        "relation": "question_target"
+      },
+      {
+        "source_id": "598dbd95-e1d9-4196-9af7-498aadcce2b3",
+        "target_id": "5a75f002-5cf5-42eb-8942-eb5a3380b3b8",
+        "relation": "question_target"
+      },
+      {
+        "source_id": "8ad934ef-b58e-475f-87b7-a75bcd9765c2",
+        "target_id": "8f9bb9bd-7251-4519-9093-b574b70cf5d5",
+        "relation": "question_target"
+      },
+      {
+        "source_id": "ddde1889-a7c4-44c5-88ee-a189e0fd28d1",
+        "target_id": "4f0703a9-2372-4c4d-a3ee-88f8d6ffc728",
+        "relation": "question_target"
+      },
+      {
+        "source_id": "9f86343c-a654-49b8-8c52-86fe5ab02c6f",
+        "target_id": "3d770dcb-99a2-4400-9722-bb173f3d94c9",
+        "relation": "question_target"
+      },
+      {
+        "source_id": "e49ebaab-07e5-459c-b978-88bde4af45e6",
+        "target_id": "2b748998-ad51-4121-97c5-39a7b33b0d14",
+        "relation": "question_target"
+      },
+      {
+        "source_id": "a6a8fe22-10d6-4b77-9a9d-f749a5a8b726",
+        "target_id": "22a4e5d7-e7cc-4efc-abb7-90bbc18240b4",
+        "relation": "question_target"
+      },
+      {
+        "source_id": "4669de09-a4af-4bbc-85ad-8ad3cf183f36",
+        "target_id": "e39a974b-4754-4c9d-a0d7-de34165c242f",
+        "relation": "question_target"
+      },
+      {
+        "source_id": "9f31b378-f8d6-454a-bd82-6fcf9e190566",
+        "target_id": "a52bb187-f848-41a8-b3b5-e5575e36ebcf",
+        "relation": "question_target"
+      },
+      {
+        "source_id": "80bf9c70-9078-422f-a20c-68c731c48950",
+        "target_id": "408eb3dd-1437-4a39-8f41-b69eccf6c74c",
+        "relation": "question_target"
+      },
+      {
+        "source_id": "11a3754f-55ce-4b04-b3a0-9f262357cfe2",
+        "target_id": "29bfb7fb-7575-4aeb-823d-3f68d1a53cd2",
+        "relation": "question_target"
+      },
+      {
+        "source_id": "5675075f-079e-4e76-91e0-57e66bb5f083",
+        "target_id": "eccc0cc5-6849-44f7-b702-3e05dc04b230",
+        "relation": "question_target"
+      },
+      {
+        "source_id": "5412677c-61d6-4d2d-a13a-bfb195cc9ad1",
+        "target_id": "a3800822-6abe-4d0c-8c77-1f9db84a6094",
+        "relation": "question_target"
+      },
+      {
+        "source_id": "a6a56663-559c-454d-9168-fc3cf2aab361",
+        "target_id": "17995e1b-d74c-4e61-b2b0-ae405c0c24ea",
+        "relation": "question_target"
+      },
+      {
+        "source_id": "2a24da64-f999-42a4-aa52-7ea946055cd4",
+        "target_id": "7a3bb07a-4751-4cd7-8e5d-903f2fc7c583",
+        "relation": "question_target"
+      },
+      {
+        "source_id": "e23bd2a4-8462-4f6a-b432-3ea8d9431225",
+        "target_id": "04144f14-fd8d-4782-89ce-2c3eebd40710",
+        "relation": "question_target"
+      },
+      {
+        "source_id": "9888fb73-a834-4d1a-be05-b732270c77cc",
+        "target_id": "6e39f9a5-be72-4695-88fa-439042207093",
+        "relation": "question_target"
+      },
+      {
+        "source_id": "f36ba331-862c-45f3-9cd8-e316cbedac8f",
+        "target_id": "e3971b40-6bab-42c5-8508-c52d2cce1a1f",
+        "relation": "question_target"
+      },
+      {
+        "source_id": "35dcac87-4f6f-4f94-9e8b-1c2d1dab3168",
+        "target_id": "7451513f-d31f-4ba2-95cb-50113fb2cff7",
+        "relation": "question_target"
+      },
+      {
+        "source_id": "50a68c1b-f4a5-4680-9e1d-93f0c729c63d",
+        "target_id": "67b92573-85a1-47ad-a069-4e4b992a63da",
+        "relation": "question_target"
+      },
+      {
+        "source_id": "53765cb7-8046-475d-a035-eaf40cf6b9a5",
+        "target_id": "2639697e-f0df-44f6-8c47-24d631c6a481",
+        "relation": "question_target"
+      },
+      {
+        "source_id": "74586568-87ef-4dab-a0df-234fbe9ac05b",
+        "target_id": "8299adf3-5f41-4fce-bdae-b9e68d4eef5f",
+        "relation": "question_target"
+      },
+      {
+        "source_id": "06cdb8ac-5424-4919-bf58-536dc3bfba24",
+        "target_id": "23ec1014-72ac-49eb-9099-774bf3713151",
+        "relation": "question_target"
+      },
+      {
+        "source_id": "a3cc0cd1-7530-4052-bdec-49c486816764",
+        "target_id": "51dd9448-f728-4e88-8c3e-5894a9883fa2",
+        "relation": "question_target"
+      },
+      {
+        "source_id": "fdf120b1-65af-420d-b311-12659bb4b645",
+        "target_id": "13cdab25-b671-41ed-b33c-0617cc0eefa4",
+        "relation": "question_target"
+      },
+      {
+        "source_id": "10f80cc5-2bcb-4e58-90bb-2d2f85114701",
+        "target_id": "5473e552-7329-4c1d-89cf-931a489fdadf",
+        "relation": "question_target"
+      },
+      {
+        "source_id": "a9dddb11-25fd-481e-80ec-ce48e1164ebb",
+        "target_id": "dc0fa17d-b99d-44e3-8a00-993422a9f509",
+        "relation": "question_target"
+      },
+      {
+        "source_id": "1108cacd-fbb6-4da4-96fc-f316d7e99147",
+        "target_id": "22a4e5d7-e7cc-4efc-abb7-90bbc18240b4",
+        "relation": "question_target"
+      },
+      {
+        "source_id": "b26f608a-be53-4d84-8070-8ddbebc5f4b6",
+        "target_id": "5a75f002-5cf5-42eb-8942-eb5a3380b3b8",
+        "relation": "question_target"
+      },
+      {
+        "source_id": "f15e83cc-6dcb-4a6f-8323-667f8328954d",
+        "target_id": "e3971b40-6bab-42c5-8508-c52d2cce1a1f",
+        "relation": "question_target"
+      },
+      {
+        "source_id": "72b61412-6705-47ab-9698-cf870517715d",
+        "target_id": "79940f2f-7b57-41a5-9670-21c9a8022fe2",
+        "relation": "question_target"
+      }
+    ],
+    "courses": [
+      {
+        "id": "af7446a8-f23e-4bc7-8324-6e8112b5f7d8",
+        "title_ja": "ハングル入門",
+        "description_ja": "0 → 文字のしくみがわかるまで",
+        "ordinal": 0
+      }
+    ],
+    "learner_notes": [
+      {
+        "id": "f4196523-bc9c-48a6-960d-db7cdda2dce9",
+        "title_ja": "一文字は、音のまとまり",
+        "explanation_ja": "ハングルは、子音と母音を組み合わせて一つの音節のブロックを作ります。ㄱとㅏは、横に並べたままではなく가とまとめて書きます。\n\nまずは形と組み合わせを学びましょう。音声はまだ収録していません。発音のヒントは、正確な音を聞く練習の代わりにはなりません。",
+        "confusion_type": "hangul_intro"
+      },
+      {
+        "id": "51a9f6b7-fa40-4df9-8c20-c3051518b0e4",
+        "title_ja": "母音で始まるときはㅇ",
+        "explanation_ja": "아のように母音で始まる音節でも、最初の子音の位置にㅇを書きます。この位置のㅇは発音しません。下に置くパッチムのㅇとは役割が違います。",
+        "confusion_type": "hangul_intro"
+      },
+      {
+        "id": "2410ae3e-26f6-41d2-9acd-a5652c84e559",
+        "title_ja": "パッチムは、音節の最後",
+        "explanation_ja": "音節の下の子音をパッチムといいます。母音を足して「ク」「ム」などの別の音節にしないことが大切です。まず、代表的な七つの終わり方を単独の音節で確かめます。次の文字につながるときの変化や、二つ書くパッチムは後で学びます。",
+        "confusion_type": "hangul_intro"
+      }
+    ],
+    "questions": [
+      {
+        "id": "e2c94f7c-6f0d-4fb3-835c-5764e2b27dae",
+        "question_type": "multiple_choice",
+        "direction": "ko_ja",
+        "answer_schema_version": 1,
+        "prompt_ja": "一つの音節にまとめた形はどれですか？",
+        "prompt_ko": "ㄱ + ㅏ",
+        "explanation_ja": "子音と母音を一つのブロックにまとめます。",
+        "answer_json": "{\"correct_choice_ids\": [\"answer\"]}"
+      },
+      {
+        "id": "fb0a3fb7-8619-4c29-acd9-7f2f37f095e0",
+        "question_type": "multiple_choice",
+        "direction": "ko_ja",
+        "answer_schema_version": 1,
+        "prompt_ja": "아の最初のㅇは、どう読みますか？",
+        "prompt_ko": "아",
+        "explanation_ja": "音節の最初のㅇは発音しません。",
+        "answer_json": "{\"correct_choice_ids\": [\"answer\"]}"
+      },
+      {
+        "id": "0e3e5693-c15b-48f0-b584-1dc00d0e99da",
+        "question_type": "multiple_choice",
+        "direction": "ko_ja",
+        "answer_schema_version": 1,
+        "prompt_ja": "発音のヒントとして、適切な説明を選びましょう",
+        "prompt_ko": "ㅏ",
+        "explanation_ja": "口を自然に開く、「ア」を手がかりにする音です。日本語の音と完全に同じという意味ではありません。形と口の動きを合わせて確かめましょう。",
+        "answer_json": "{\"correct_choice_ids\": [\"answer\"]}"
+      },
+      {
+        "id": "b04ad54a-ba12-47a6-978e-c23060819d6e",
+        "question_type": "multiple_choice",
+        "direction": "ko_ja",
+        "answer_schema_version": 1,
+        "prompt_ja": "発音のヒントとして、適切な説明を選びましょう",
+        "prompt_ko": "ㅓ",
+        "explanation_ja": "唇を丸めず、口を開いて出す音です。日本語の音と完全に同じという意味ではありません。形と口の動きを合わせて確かめましょう。",
+        "answer_json": "{\"correct_choice_ids\": [\"answer\"]}"
+      },
+      {
+        "id": "4c29a0de-cd1f-42d6-9ef4-3c568845d59e",
+        "question_type": "multiple_choice",
+        "direction": "ko_ja",
+        "answer_schema_version": 1,
+        "prompt_ja": "発音のヒントとして、適切な説明を選びましょう",
+        "prompt_ko": "ㅗ",
+        "explanation_ja": "唇を丸め、前に少し突き出して出す音です。日本語の音と完全に同じという意味ではありません。形と口の動きを合わせて確かめましょう。",
+        "answer_json": "{\"correct_choice_ids\": [\"answer\"]}"
+      },
+      {
+        "id": "93648f3d-7dc2-479a-967f-df674378a725",
+        "question_type": "multiple_choice",
+        "direction": "ko_ja",
+        "answer_schema_version": 1,
+        "prompt_ja": "発音のヒントとして、適切な説明を選びましょう",
+        "prompt_ko": "ㅜ",
+        "explanation_ja": "日本語の「ウ」より唇の丸みを意識する音です。日本語の音と完全に同じという意味ではありません。形と口の動きを合わせて確かめましょう。",
+        "answer_json": "{\"correct_choice_ids\": [\"answer\"]}"
+      },
+      {
+        "id": "a507ff40-eb57-4660-913c-4870295223f3",
+        "question_type": "multiple_choice",
+        "direction": "ko_ja",
+        "answer_schema_version": 1,
+        "prompt_ja": "この文字の名前を選びましょう",
+        "prompt_ko": "ㅣ",
+        "explanation_ja": "この母音字の名前は이です。",
+        "answer_json": "{\"correct_choice_ids\": [\"answer\"]}"
+      },
+      {
+        "id": "a8a69721-b574-4c7a-92cb-dc67fa256228",
+        "question_type": "multiple_choice",
+        "direction": "ko_ja",
+        "answer_schema_version": 1,
+        "prompt_ja": "この文字の名前を選びましょう",
+        "prompt_ko": "ㅑ",
+        "explanation_ja": "この母音字の名前は야です。",
+        "answer_json": "{\"correct_choice_ids\": [\"answer\"]}"
+      },
+      {
+        "id": "e7f6746d-bf2f-4cb3-b8de-092155970eee",
+        "question_type": "multiple_choice",
+        "direction": "ko_ja",
+        "answer_schema_version": 1,
+        "prompt_ja": "この文字の名前を選びましょう",
+        "prompt_ko": "ㅕ",
+        "explanation_ja": "この母音字の名前は여です。",
+        "answer_json": "{\"correct_choice_ids\": [\"answer\"]}"
+      },
+      {
+        "id": "b38323fb-d1bb-4e54-b335-1b1c186f73cd",
+        "question_type": "multiple_choice",
+        "direction": "ko_ja",
+        "answer_schema_version": 1,
+        "prompt_ja": "この文字の名前を選びましょう",
+        "prompt_ko": "ㅛ",
+        "explanation_ja": "この母音字の名前は요です。",
+        "answer_json": "{\"correct_choice_ids\": [\"answer\"]}"
+      },
+      {
+        "id": "f6c86754-ba5b-400f-bd6b-12526c9bc0a7",
+        "question_type": "multiple_choice",
+        "direction": "ko_ja",
+        "answer_schema_version": 1,
+        "prompt_ja": "この文字の名前を選びましょう",
+        "prompt_ko": "ㅠ",
+        "explanation_ja": "この母音字の名前は유です。",
+        "answer_json": "{\"correct_choice_ids\": [\"answer\"]}"
+      },
+      {
+        "id": "8a823591-73fd-4d24-87e1-a3fb44a7269e",
+        "question_type": "multiple_choice",
+        "direction": "ko_ja",
+        "answer_schema_version": 1,
+        "prompt_ja": "発音のヒントとして、適切な説明を選びましょう",
+        "prompt_ko": "ㅡ",
+        "explanation_ja": "唇を丸めず、舌を奥寄りに置く音です。日本語の音と完全に同じという意味ではありません。形と口の動きを合わせて確かめましょう。",
+        "answer_json": "{\"correct_choice_ids\": [\"answer\"]}"
+      },
+      {
+        "id": "67e96897-b5e6-4d55-b614-13b60ca95ec2",
+        "question_type": "multiple_choice",
+        "direction": "ko_ja",
+        "answer_schema_version": 1,
+        "prompt_ja": "この文字の名前を選びましょう",
+        "prompt_ko": "ㄱ",
+        "explanation_ja": "文字の名前は기역です。名前全体が、この子音だけの音を表しているわけではありません。",
+        "answer_json": "{\"correct_choice_ids\": [\"answer\"]}"
+      },
+      {
+        "id": "fa78e1cf-d2a2-4c9c-b35b-70935ebe3afe",
+        "question_type": "multiple_choice",
+        "direction": "ko_ja",
+        "answer_schema_version": 1,
+        "prompt_ja": "この文字の名前を選びましょう",
+        "prompt_ko": "ㄴ",
+        "explanation_ja": "文字の名前は니은です。名前全体が、この子音だけの音を表しているわけではありません。",
+        "answer_json": "{\"correct_choice_ids\": [\"answer\"]}"
+      },
+      {
+        "id": "98e49db3-ea68-43ac-a863-0ae83be0aa3a",
+        "question_type": "multiple_choice",
+        "direction": "ko_ja",
+        "answer_schema_version": 1,
+        "prompt_ja": "この文字の名前を選びましょう",
+        "prompt_ko": "ㄷ",
+        "explanation_ja": "文字の名前は디귿です。名前全体が、この子音だけの音を表しているわけではありません。",
+        "answer_json": "{\"correct_choice_ids\": [\"answer\"]}"
+      },
+      {
+        "id": "2813f944-af75-42a2-871e-74f73166ebc2",
+        "question_type": "multiple_choice",
+        "direction": "ko_ja",
+        "answer_schema_version": 1,
+        "prompt_ja": "この文字の名前を選びましょう",
+        "prompt_ko": "ㄹ",
+        "explanation_ja": "文字の名前は리을です。名前全体が、この子音だけの音を表しているわけではありません。",
+        "answer_json": "{\"correct_choice_ids\": [\"answer\"]}"
+      },
+      {
+        "id": "7f9c3da7-7f4b-41f4-9e94-c09bac09089b",
+        "question_type": "multiple_choice",
+        "direction": "ko_ja",
+        "answer_schema_version": 1,
+        "prompt_ja": "この文字の名前を選びましょう",
+        "prompt_ko": "ㅁ",
+        "explanation_ja": "文字の名前は미음です。名前全体が、この子音だけの音を表しているわけではありません。",
+        "answer_json": "{\"correct_choice_ids\": [\"answer\"]}"
+      },
+      {
+        "id": "b2d84dc0-b6a7-44ec-9ef3-c2270c5f41e9",
+        "question_type": "multiple_choice",
+        "direction": "ko_ja",
+        "answer_schema_version": 1,
+        "prompt_ja": "この文字の名前を選びましょう",
+        "prompt_ko": "ㅂ",
+        "explanation_ja": "文字の名前は비읍です。名前全体が、この子音だけの音を表しているわけではありません。",
+        "answer_json": "{\"correct_choice_ids\": [\"answer\"]}"
+      },
+      {
+        "id": "0945e87f-d6b0-4950-b5e6-477d045fadc5",
+        "question_type": "multiple_choice",
+        "direction": "ko_ja",
+        "answer_schema_version": 1,
+        "prompt_ja": "この文字の名前を選びましょう",
+        "prompt_ko": "ㅅ",
+        "explanation_ja": "文字の名前は시옷です。名前全体が、この子音だけの音を表しているわけではありません。",
+        "answer_json": "{\"correct_choice_ids\": [\"answer\"]}"
+      },
+      {
+        "id": "6b2a15bb-6304-43f8-8147-73c0d3505d18",
+        "question_type": "multiple_choice",
+        "direction": "ko_ja",
+        "answer_schema_version": 1,
+        "prompt_ja": "この文字の名前を選びましょう",
+        "prompt_ko": "ㅇ",
+        "explanation_ja": "文字の名前は이응です。名前全体が、この子音だけの音を表しているわけではありません。",
+        "answer_json": "{\"correct_choice_ids\": [\"answer\"]}"
+      },
+      {
+        "id": "c50ec33b-0860-44dd-a680-237dc8aecff6",
+        "question_type": "multiple_choice",
+        "direction": "ko_ja",
+        "answer_schema_version": 1,
+        "prompt_ja": "この文字の名前を選びましょう",
+        "prompt_ko": "ㅈ",
+        "explanation_ja": "文字の名前は지읒です。名前全体が、この子音だけの音を表しているわけではありません。",
+        "answer_json": "{\"correct_choice_ids\": [\"answer\"]}"
+      },
+      {
+        "id": "ed6a3de3-a1ba-414e-9b70-70692449a30a",
+        "question_type": "multiple_choice",
+        "direction": "ko_ja",
+        "answer_schema_version": 1,
+        "prompt_ja": "この文字の名前を選びましょう",
+        "prompt_ko": "ㅊ",
+        "explanation_ja": "文字の名前は치읓です。名前全体が、この子音だけの音を表しているわけではありません。",
+        "answer_json": "{\"correct_choice_ids\": [\"answer\"]}"
+      },
+      {
+        "id": "17c36e12-77fd-4c73-a40b-ee23b8a1b458",
+        "question_type": "multiple_choice",
+        "direction": "ko_ja",
+        "answer_schema_version": 1,
+        "prompt_ja": "この文字の名前を選びましょう",
+        "prompt_ko": "ㅋ",
+        "explanation_ja": "文字の名前は키읔です。名前全体が、この子音だけの音を表しているわけではありません。",
+        "answer_json": "{\"correct_choice_ids\": [\"answer\"]}"
+      },
+      {
+        "id": "06fcd62c-cf6a-4c7e-b5ab-dbd3b46b76e7",
+        "question_type": "multiple_choice",
+        "direction": "ko_ja",
+        "answer_schema_version": 1,
+        "prompt_ja": "この文字の名前を選びましょう",
+        "prompt_ko": "ㅌ",
+        "explanation_ja": "文字の名前は티읕です。名前全体が、この子音だけの音を表しているわけではありません。",
+        "answer_json": "{\"correct_choice_ids\": [\"answer\"]}"
+      },
+      {
+        "id": "2a46e89a-071c-4377-a2ff-f1e3c8e2f640",
+        "question_type": "multiple_choice",
+        "direction": "ko_ja",
+        "answer_schema_version": 1,
+        "prompt_ja": "この文字の名前を選びましょう",
+        "prompt_ko": "ㅍ",
+        "explanation_ja": "文字の名前は피읖です。名前全体が、この子音だけの音を表しているわけではありません。",
+        "answer_json": "{\"correct_choice_ids\": [\"answer\"]}"
+      },
+      {
+        "id": "c54b31fa-46e2-46ab-9b81-5713932083fa",
+        "question_type": "multiple_choice",
+        "direction": "ko_ja",
+        "answer_schema_version": 1,
+        "prompt_ja": "この文字の名前を選びましょう",
+        "prompt_ko": "ㅎ",
+        "explanation_ja": "文字の名前は히읗です。名前全体が、この子音だけの音を表しているわけではありません。",
+        "answer_json": "{\"correct_choice_ids\": [\"answer\"]}"
+      },
+      {
+        "id": "dda3265d-e33d-409d-88e3-21969743610f",
+        "question_type": "multiple_choice",
+        "direction": "ko_ja",
+        "answer_schema_version": 1,
+        "prompt_ja": "組み合わせてできる文字はどれですか？",
+        "prompt_ko": "ㄱ + ㅏ",
+        "explanation_ja": "縦長の母音ㅏは、子音の右に置きます。二つの部品が一つの音節になります。",
+        "answer_json": "{\"correct_choice_ids\": [\"answer\"]}"
+      },
+      {
+        "id": "78f5d736-4d7c-4711-8e05-0d563967c893",
+        "question_type": "multiple_choice",
+        "direction": "ko_ja",
+        "answer_schema_version": 1,
+        "prompt_ja": "組み合わせてできる文字はどれですか？",
+        "prompt_ko": "ㄴ + ㅏ",
+        "explanation_ja": "子音をㄴに替えると나になります。ㅏは右側です。",
+        "answer_json": "{\"correct_choice_ids\": [\"answer\"]}"
+      },
+      {
+        "id": "29604196-23ab-4c0a-8993-276cda4701dc",
+        "question_type": "multiple_choice",
+        "direction": "ko_ja",
+        "answer_schema_version": 1,
+        "prompt_ja": "組み合わせてできる文字はどれですか？",
+        "prompt_ko": "ㅎ + ㅏ + ㄴ",
+        "explanation_ja": "最初の子音ㅎと母音ㅏの下に、最後の子音ㄴを置きます。下の子音をパッチムと呼びます。",
+        "answer_json": "{\"correct_choice_ids\": [\"answer\"]}"
+      },
+      {
+        "id": "598dbd95-e1d9-4196-9af7-498aadcce2b3",
+        "question_type": "multiple_choice",
+        "direction": "ko_ja",
+        "answer_schema_version": 1,
+        "prompt_ja": "この文字の名前を選びましょう",
+        "prompt_ko": "ㄲ",
+        "explanation_ja": "文字の名前は쌍기역です。名前全体が、この子音だけの音を表しているわけではありません。",
+        "answer_json": "{\"correct_choice_ids\": [\"answer\"]}"
+      },
+      {
+        "id": "8ad934ef-b58e-475f-87b7-a75bcd9765c2",
+        "question_type": "multiple_choice",
+        "direction": "ko_ja",
+        "answer_schema_version": 1,
+        "prompt_ja": "この文字の名前を選びましょう",
+        "prompt_ko": "ㄸ",
+        "explanation_ja": "文字の名前は쌍디귿です。名前全体が、この子音だけの音を表しているわけではありません。",
+        "answer_json": "{\"correct_choice_ids\": [\"answer\"]}"
+      },
+      {
+        "id": "ddde1889-a7c4-44c5-88ee-a189e0fd28d1",
+        "question_type": "multiple_choice",
+        "direction": "ko_ja",
+        "answer_schema_version": 1,
+        "prompt_ja": "この文字の名前を選びましょう",
+        "prompt_ko": "ㅃ",
+        "explanation_ja": "文字の名前は쌍비읍です。名前全体が、この子音だけの音を表しているわけではありません。",
+        "answer_json": "{\"correct_choice_ids\": [\"answer\"]}"
+      },
+      {
+        "id": "9f86343c-a654-49b8-8c52-86fe5ab02c6f",
+        "question_type": "multiple_choice",
+        "direction": "ko_ja",
+        "answer_schema_version": 1,
+        "prompt_ja": "この文字の名前を選びましょう",
+        "prompt_ko": "ㅆ",
+        "explanation_ja": "文字の名前は쌍시옷です。名前全体が、この子音だけの音を表しているわけではありません。",
+        "answer_json": "{\"correct_choice_ids\": [\"answer\"]}"
+      },
+      {
+        "id": "e49ebaab-07e5-459c-b978-88bde4af45e6",
+        "question_type": "multiple_choice",
+        "direction": "ko_ja",
+        "answer_schema_version": 1,
+        "prompt_ja": "この文字の名前を選びましょう",
+        "prompt_ko": "ㅉ",
+        "explanation_ja": "文字の名前は쌍지읒です。名前全体が、この子音だけの音を表しているわけではありません。",
+        "answer_json": "{\"correct_choice_ids\": [\"answer\"]}"
+      },
+      {
+        "id": "a6a8fe22-10d6-4b77-9a9d-f749a5a8b726",
+        "question_type": "multiple_choice",
+        "direction": "ko_ja",
+        "answer_schema_version": 1,
+        "prompt_ja": "この文字の名前を選びましょう",
+        "prompt_ko": "ㅐ",
+        "explanation_ja": "この母音字の名前は애です。",
+        "answer_json": "{\"correct_choice_ids\": [\"answer\"]}"
+      },
+      {
+        "id": "4669de09-a4af-4bbc-85ad-8ad3cf183f36",
+        "question_type": "multiple_choice",
+        "direction": "ko_ja",
+        "answer_schema_version": 1,
+        "prompt_ja": "この文字の名前を選びましょう",
+        "prompt_ko": "ㅔ",
+        "explanation_ja": "この母音字の名前は에です。",
+        "answer_json": "{\"correct_choice_ids\": [\"answer\"]}"
+      },
+      {
+        "id": "9f31b378-f8d6-454a-bd82-6fcf9e190566",
+        "question_type": "multiple_choice",
+        "direction": "ko_ja",
+        "answer_schema_version": 1,
+        "prompt_ja": "この文字の名前を選びましょう",
+        "prompt_ko": "ㅒ",
+        "explanation_ja": "この母音字の名前は얘です。",
+        "answer_json": "{\"correct_choice_ids\": [\"answer\"]}"
+      },
+      {
+        "id": "80bf9c70-9078-422f-a20c-68c731c48950",
+        "question_type": "multiple_choice",
+        "direction": "ko_ja",
+        "answer_schema_version": 1,
+        "prompt_ja": "この文字の名前を選びましょう",
+        "prompt_ko": "ㅖ",
+        "explanation_ja": "この母音字の名前は예です。",
+        "answer_json": "{\"correct_choice_ids\": [\"answer\"]}"
+      },
+      {
+        "id": "11a3754f-55ce-4b04-b3a0-9f262357cfe2",
+        "question_type": "multiple_choice",
+        "direction": "ko_ja",
+        "answer_schema_version": 1,
+        "prompt_ja": "この文字の名前を選びましょう",
+        "prompt_ko": "ㅘ",
+        "explanation_ja": "この母音字の名前は와です。",
+        "answer_json": "{\"correct_choice_ids\": [\"answer\"]}"
+      },
+      {
+        "id": "5675075f-079e-4e76-91e0-57e66bb5f083",
+        "question_type": "multiple_choice",
+        "direction": "ko_ja",
+        "answer_schema_version": 1,
+        "prompt_ja": "この文字の名前を選びましょう",
+        "prompt_ko": "ㅙ",
+        "explanation_ja": "この母音字の名前は왜です。",
+        "answer_json": "{\"correct_choice_ids\": [\"answer\"]}"
+      },
+      {
+        "id": "5412677c-61d6-4d2d-a13a-bfb195cc9ad1",
+        "question_type": "multiple_choice",
+        "direction": "ko_ja",
+        "answer_schema_version": 1,
+        "prompt_ja": "この文字の名前を選びましょう",
+        "prompt_ko": "ㅚ",
+        "explanation_ja": "この母音字の名前は외です。",
+        "answer_json": "{\"correct_choice_ids\": [\"answer\"]}"
+      },
+      {
+        "id": "a6a56663-559c-454d-9168-fc3cf2aab361",
+        "question_type": "multiple_choice",
+        "direction": "ko_ja",
+        "answer_schema_version": 1,
+        "prompt_ja": "この文字の名前を選びましょう",
+        "prompt_ko": "ㅝ",
+        "explanation_ja": "この母音字の名前は워です。",
+        "answer_json": "{\"correct_choice_ids\": [\"answer\"]}"
+      },
+      {
+        "id": "2a24da64-f999-42a4-aa52-7ea946055cd4",
+        "question_type": "multiple_choice",
+        "direction": "ko_ja",
+        "answer_schema_version": 1,
+        "prompt_ja": "この文字の名前を選びましょう",
+        "prompt_ko": "ㅞ",
+        "explanation_ja": "この母音字の名前は웨です。",
+        "answer_json": "{\"correct_choice_ids\": [\"answer\"]}"
+      },
+      {
+        "id": "e23bd2a4-8462-4f6a-b432-3ea8d9431225",
+        "question_type": "multiple_choice",
+        "direction": "ko_ja",
+        "answer_schema_version": 1,
+        "prompt_ja": "この文字の名前を選びましょう",
+        "prompt_ko": "ㅟ",
+        "explanation_ja": "この母音字の名前は위です。",
+        "answer_json": "{\"correct_choice_ids\": [\"answer\"]}"
+      },
+      {
+        "id": "9888fb73-a834-4d1a-be05-b732270c77cc",
+        "question_type": "multiple_choice",
+        "direction": "ko_ja",
+        "answer_schema_version": 1,
+        "prompt_ja": "この文字の名前を選びましょう",
+        "prompt_ko": "ㅢ",
+        "explanation_ja": "この母音字の名前は의です。",
+        "answer_json": "{\"correct_choice_ids\": [\"answer\"]}"
+      },
+      {
+        "id": "f36ba331-862c-45f3-9cd8-e316cbedac8f",
+        "question_type": "multiple_choice",
+        "direction": "ko_ja",
+        "answer_schema_version": 1,
+        "prompt_ja": "한のパッチムはどれですか？",
+        "prompt_ko": "한",
+        "explanation_ja": "下にあるㄴが、この音節の最後の子音です。",
+        "answer_json": "{\"correct_choice_ids\": [\"answer\"]}"
+      },
+      {
+        "id": "35dcac87-4f6f-4f94-9e8b-1c2d1dab3168",
+        "question_type": "multiple_choice",
+        "direction": "ko_ja",
+        "answer_schema_version": 1,
+        "prompt_ja": "강の最後のㅇについて、正しい説明はどれですか？",
+        "prompt_ko": "강",
+        "explanation_ja": "最初の位置とパッチムでは、ㅇの働きが違います。",
+        "answer_json": "{\"correct_choice_ids\": [\"answer\"]}"
+      },
+      {
+        "id": "50a68c1b-f4a5-4680-9e1d-93f0c729c63d",
+        "question_type": "multiple_choice",
+        "direction": "ko_ja",
+        "answer_schema_version": 1,
+        "prompt_ja": "読み方の手がかりはどれですか？（カタカナは目安です）",
+        "prompt_ko": "나",
+        "explanation_ja": "ㄴとㅏを合わせた一つの音節です。「ナ」は読み方の目安で、日本語と完全に同じ音という意味ではありません。",
+        "answer_json": "{\"correct_choice_ids\": [\"answer\"]}"
+      },
+      {
+        "id": "53765cb7-8046-475d-a035-eaf40cf6b9a5",
+        "question_type": "multiple_choice",
+        "direction": "ko_ja",
+        "answer_schema_version": 1,
+        "prompt_ja": "文字の組み合わせを選びましょう",
+        "prompt_ko": "나무",
+        "explanation_ja": "文字を一つずつ確かめると、나 + 무になります。",
+        "answer_json": "{\"correct_choice_ids\": [\"answer\"]}"
+      },
+      {
+        "id": "74586568-87ef-4dab-a0df-234fbe9ac05b",
+        "question_type": "multiple_choice",
+        "direction": "ko_ja",
+        "answer_schema_version": 1,
+        "prompt_ja": "文字の組み合わせを選びましょう",
+        "prompt_ko": "바다",
+        "explanation_ja": "文字を一つずつ確かめると、바 + 다になります。",
+        "answer_json": "{\"correct_choice_ids\": [\"answer\"]}"
+      },
+      {
+        "id": "06cdb8ac-5424-4919-bf58-536dc3bfba24",
+        "question_type": "multiple_choice",
+        "direction": "ko_ja",
+        "answer_schema_version": 1,
+        "prompt_ja": "文字の組み合わせを選びましょう",
+        "prompt_ko": "우유",
+        "explanation_ja": "文字を一つずつ確かめると、우 + 유になります。",
+        "answer_json": "{\"correct_choice_ids\": [\"answer\"]}"
+      },
+      {
+        "id": "a3cc0cd1-7530-4052-bdec-49c486816764",
+        "question_type": "multiple_choice",
+        "direction": "ko_ja",
+        "answer_schema_version": 1,
+        "prompt_ja": "文字の組み合わせを選びましょう",
+        "prompt_ko": "하나",
+        "explanation_ja": "文字を一つずつ確かめると、하 + 나になります。",
+        "answer_json": "{\"correct_choice_ids\": [\"answer\"]}"
+      },
+      {
+        "id": "fdf120b1-65af-420d-b311-12659bb4b645",
+        "question_type": "multiple_choice",
+        "direction": "ko_ja",
+        "answer_schema_version": 1,
+        "prompt_ja": "口を自然に開く母音字を選びましょう",
+        "prompt_ko": null,
+        "explanation_ja": "ㅏは、唇を丸めず口を開いて出す母音です。",
+        "answer_json": "{\"correct_choice_ids\": [\"answer\"]}"
+      },
+      {
+        "id": "10f80cc5-2bcb-4e58-90bb-2d2f85114701",
+        "question_type": "multiple_choice",
+        "direction": "ko_ja",
+        "answer_schema_version": 1,
+        "prompt_ja": "ㅗと区別するときのㅓの特徴はどれですか？",
+        "prompt_ko": "ㅓ",
+        "explanation_ja": "口と唇の形を意識します。カタカナだけで同じ音だと決めつけないでください。",
+        "answer_json": "{\"correct_choice_ids\": [\"answer\"]}"
+      },
+      {
+        "id": "a9dddb11-25fd-481e-80ec-ce48e1164ebb",
+        "question_type": "multiple_choice",
+        "direction": "ko_ja",
+        "answer_schema_version": 1,
+        "prompt_ja": "唇を丸めないㅡを選びましょう",
+        "prompt_ko": null,
+        "explanation_ja": "ㅜとは唇の形が違います。",
+        "answer_json": "{\"correct_choice_ids\": [\"answer\"]}"
+      },
+      {
+        "id": "1108cacd-fbb6-4da4-96fc-f316d7e99147",
+        "question_type": "multiple_choice",
+        "direction": "ko_ja",
+        "answer_schema_version": 1,
+        "prompt_ja": "ㅐとㅔについて、適切な学び方はどれですか？",
+        "prompt_ko": "ㅐ / ㅔ",
+        "explanation_ja": "発音の区別が弱い話者もいますが、綴りを自由に入れ替えることはできません。",
+        "answer_json": "{\"correct_choice_ids\": [\"answer\"]}"
+      },
+      {
+        "id": "b26f608a-be53-4d84-8070-8ddbebc5f4b6",
+        "question_type": "multiple_choice",
+        "direction": "ko_ja",
+        "answer_schema_version": 1,
+        "prompt_ja": "ㄱを重ねた濃音の文字はどれですか？",
+        "prompt_ko": null,
+        "explanation_ja": "ㄱ・ㅋ・ㄲは別の子音です。",
+        "answer_json": "{\"correct_choice_ids\": [\"answer\"]}"
+      },
+      {
+        "id": "f15e83cc-6dcb-4a6f-8323-667f8328954d",
+        "question_type": "multiple_choice",
+        "direction": "ko_ja",
+        "answer_schema_version": 1,
+        "prompt_ja": "この組み合わせからできる文字はどれですか？",
+        "prompt_ko": "ㅎ + ㅏ + ㄴ",
+        "explanation_ja": "最後のㄴを下に置きます。",
+        "answer_json": "{\"correct_choice_ids\": [\"answer\"]}"
+      },
+      {
+        "id": "72b61412-6705-47ab-9698-cf870517715d",
+        "question_type": "multiple_choice",
+        "direction": "ko_ja",
+        "answer_schema_version": 1,
+        "prompt_ja": "우유の最初の子音ㅇについて、正しい説明はどれですか？",
+        "prompt_ko": "우유",
+        "explanation_ja": "母音で始まる音節の子音の位置を埋めています。",
+        "answer_json": "{\"correct_choice_ids\": [\"answer\"]}"
+      }
+    ],
+    "question_choices": [
+      {
+        "question_id": "e2c94f7c-6f0d-4fb3-835c-5764e2b27dae",
+        "choice_id": "answer",
+        "ordinal": 0,
+        "text": "가"
+      },
+      {
+        "question_id": "e2c94f7c-6f0d-4fb3-835c-5764e2b27dae",
+        "choice_id": "option-1",
+        "ordinal": 1,
+        "text": "ㄱㅏ"
+      },
+      {
+        "question_id": "e2c94f7c-6f0d-4fb3-835c-5764e2b27dae",
+        "choice_id": "option-2",
+        "ordinal": 2,
+        "text": "ㅏㄱ"
+      },
+      {
+        "question_id": "fb0a3fb7-8619-4c29-acd9-7f2f37f095e0",
+        "choice_id": "answer",
+        "ordinal": 0,
+        "text": "音を出さず、子音の場所を埋める"
+      },
+      {
+        "question_id": "fb0a3fb7-8619-4c29-acd9-7f2f37f095e0",
+        "choice_id": "option-1",
+        "ordinal": 1,
+        "text": "必ず「ン」と読む"
+      },
+      {
+        "question_id": "fb0a3fb7-8619-4c29-acd9-7f2f37f095e0",
+        "choice_id": "option-2",
+        "ordinal": 2,
+        "text": "母音を二回読む"
+      },
+      {
+        "question_id": "0e3e5693-c15b-48f0-b584-1dc00d0e99da",
+        "choice_id": "answer",
+        "ordinal": 0,
+        "text": "口を自然に開く、「ア」を手がかりにする音"
+      },
+      {
+        "question_id": "0e3e5693-c15b-48f0-b584-1dc00d0e99da",
+        "choice_id": "option-1",
+        "ordinal": 1,
+        "text": "唇を丸めて出す音"
+      },
+      {
+        "question_id": "0e3e5693-c15b-48f0-b584-1dc00d0e99da",
+        "choice_id": "option-2",
+        "ordinal": 2,
+        "text": "唇を閉じて鼻に息を通す音"
+      },
+      {
+        "question_id": "0e3e5693-c15b-48f0-b584-1dc00d0e99da",
+        "choice_id": "option-3",
+        "ordinal": 3,
+        "text": "音節の最後で空気を止める音"
+      },
+      {
+        "question_id": "b04ad54a-ba12-47a6-978e-c23060819d6e",
+        "choice_id": "answer",
+        "ordinal": 0,
+        "text": "唇を丸めず、口を開いて出す音"
+      },
+      {
+        "question_id": "b04ad54a-ba12-47a6-978e-c23060819d6e",
+        "choice_id": "option-1",
+        "ordinal": 1,
+        "text": "唇を丸めて前に突き出すㅗの音"
+      },
+      {
+        "question_id": "b04ad54a-ba12-47a6-978e-c23060819d6e",
+        "choice_id": "option-2",
+        "ordinal": 2,
+        "text": "舌を前に置くㅣの音"
+      },
+      {
+        "question_id": "b04ad54a-ba12-47a6-978e-c23060819d6e",
+        "choice_id": "option-3",
+        "ordinal": 3,
+        "text": "唇を閉じるㅁの音"
+      },
+      {
+        "question_id": "4c29a0de-cd1f-42d6-9ef4-3c568845d59e",
+        "choice_id": "answer",
+        "ordinal": 0,
+        "text": "唇を丸め、前に少し突き出して出す音"
+      },
+      {
+        "question_id": "4c29a0de-cd1f-42d6-9ef4-3c568845d59e",
+        "choice_id": "option-1",
+        "ordinal": 1,
+        "text": "唇を丸めずに出すㅓの音"
+      },
+      {
+        "question_id": "4c29a0de-cd1f-42d6-9ef4-3c568845d59e",
+        "choice_id": "option-2",
+        "ordinal": 2,
+        "text": "口を自然に開くㅏの音"
+      },
+      {
+        "question_id": "4c29a0de-cd1f-42d6-9ef4-3c568845d59e",
+        "choice_id": "option-3",
+        "ordinal": 3,
+        "text": "音を出さない初声のㅇ"
+      },
+      {
+        "question_id": "93648f3d-7dc2-479a-967f-df674378a725",
+        "choice_id": "answer",
+        "ordinal": 0,
+        "text": "日本語の「ウ」より唇の丸みを意識する音"
+      },
+      {
+        "question_id": "93648f3d-7dc2-479a-967f-df674378a725",
+        "choice_id": "option-1",
+        "ordinal": 1,
+        "text": "唇を丸めないㅡの音"
+      },
+      {
+        "question_id": "93648f3d-7dc2-479a-967f-df674378a725",
+        "choice_id": "option-2",
+        "ordinal": 2,
+        "text": "口を自然に開くㅏの音"
+      },
+      {
+        "question_id": "93648f3d-7dc2-479a-967f-df674378a725",
+        "choice_id": "option-3",
+        "ordinal": 3,
+        "text": "舌を前に置くㅣの音"
+      },
+      {
+        "question_id": "a507ff40-eb57-4660-913c-4870295223f3",
+        "choice_id": "answer",
+        "ordinal": 0,
+        "text": "이"
+      },
+      {
+        "question_id": "a507ff40-eb57-4660-913c-4870295223f3",
+        "choice_id": "option-1",
+        "ordinal": 1,
+        "text": "아"
+      },
+      {
+        "question_id": "a507ff40-eb57-4660-913c-4870295223f3",
+        "choice_id": "option-2",
+        "ordinal": 2,
+        "text": "어"
+      },
+      {
+        "question_id": "a507ff40-eb57-4660-913c-4870295223f3",
+        "choice_id": "option-3",
+        "ordinal": 3,
+        "text": "오"
+      },
+      {
+        "question_id": "a8a69721-b574-4c7a-92cb-dc67fa256228",
+        "choice_id": "answer",
+        "ordinal": 0,
+        "text": "야"
+      },
+      {
+        "question_id": "a8a69721-b574-4c7a-92cb-dc67fa256228",
+        "choice_id": "option-1",
+        "ordinal": 1,
+        "text": "여"
+      },
+      {
+        "question_id": "a8a69721-b574-4c7a-92cb-dc67fa256228",
+        "choice_id": "option-2",
+        "ordinal": 2,
+        "text": "요"
+      },
+      {
+        "question_id": "a8a69721-b574-4c7a-92cb-dc67fa256228",
+        "choice_id": "option-3",
+        "ordinal": 3,
+        "text": "유"
+      },
+      {
+        "question_id": "e7f6746d-bf2f-4cb3-b8de-092155970eee",
+        "choice_id": "answer",
+        "ordinal": 0,
+        "text": "여"
+      },
+      {
+        "question_id": "e7f6746d-bf2f-4cb3-b8de-092155970eee",
+        "choice_id": "option-1",
+        "ordinal": 1,
+        "text": "야"
+      },
+      {
+        "question_id": "e7f6746d-bf2f-4cb3-b8de-092155970eee",
+        "choice_id": "option-2",
+        "ordinal": 2,
+        "text": "요"
+      },
+      {
+        "question_id": "e7f6746d-bf2f-4cb3-b8de-092155970eee",
+        "choice_id": "option-3",
+        "ordinal": 3,
+        "text": "유"
+      },
+      {
+        "question_id": "b38323fb-d1bb-4e54-b335-1b1c186f73cd",
+        "choice_id": "answer",
+        "ordinal": 0,
+        "text": "요"
+      },
+      {
+        "question_id": "b38323fb-d1bb-4e54-b335-1b1c186f73cd",
+        "choice_id": "option-1",
+        "ordinal": 1,
+        "text": "야"
+      },
+      {
+        "question_id": "b38323fb-d1bb-4e54-b335-1b1c186f73cd",
+        "choice_id": "option-2",
+        "ordinal": 2,
+        "text": "여"
+      },
+      {
+        "question_id": "b38323fb-d1bb-4e54-b335-1b1c186f73cd",
+        "choice_id": "option-3",
+        "ordinal": 3,
+        "text": "유"
+      },
+      {
+        "question_id": "f6c86754-ba5b-400f-bd6b-12526c9bc0a7",
+        "choice_id": "answer",
+        "ordinal": 0,
+        "text": "유"
+      },
+      {
+        "question_id": "f6c86754-ba5b-400f-bd6b-12526c9bc0a7",
+        "choice_id": "option-1",
+        "ordinal": 1,
+        "text": "야"
+      },
+      {
+        "question_id": "f6c86754-ba5b-400f-bd6b-12526c9bc0a7",
+        "choice_id": "option-2",
+        "ordinal": 2,
+        "text": "여"
+      },
+      {
+        "question_id": "f6c86754-ba5b-400f-bd6b-12526c9bc0a7",
+        "choice_id": "option-3",
+        "ordinal": 3,
+        "text": "요"
+      },
+      {
+        "question_id": "8a823591-73fd-4d24-87e1-a3fb44a7269e",
+        "choice_id": "answer",
+        "ordinal": 0,
+        "text": "唇を丸めず、舌を奥寄りに置く音"
+      },
+      {
+        "question_id": "8a823591-73fd-4d24-87e1-a3fb44a7269e",
+        "choice_id": "option-1",
+        "ordinal": 1,
+        "text": "唇を丸めて出すㅜの音"
+      },
+      {
+        "question_id": "8a823591-73fd-4d24-87e1-a3fb44a7269e",
+        "choice_id": "option-2",
+        "ordinal": 2,
+        "text": "口を自然に開くㅏの音"
+      },
+      {
+        "question_id": "8a823591-73fd-4d24-87e1-a3fb44a7269e",
+        "choice_id": "option-3",
+        "ordinal": 3,
+        "text": "舌を前に置くㅣの音"
+      },
+      {
+        "question_id": "67e96897-b5e6-4d55-b614-13b60ca95ec2",
+        "choice_id": "answer",
+        "ordinal": 0,
+        "text": "기역"
+      },
+      {
+        "question_id": "67e96897-b5e6-4d55-b614-13b60ca95ec2",
+        "choice_id": "option-1",
+        "ordinal": 1,
+        "text": "니은"
+      },
+      {
+        "question_id": "67e96897-b5e6-4d55-b614-13b60ca95ec2",
+        "choice_id": "option-2",
+        "ordinal": 2,
+        "text": "디귿"
+      },
+      {
+        "question_id": "67e96897-b5e6-4d55-b614-13b60ca95ec2",
+        "choice_id": "option-3",
+        "ordinal": 3,
+        "text": "리을"
+      },
+      {
+        "question_id": "fa78e1cf-d2a2-4c9c-b35b-70935ebe3afe",
+        "choice_id": "answer",
+        "ordinal": 0,
+        "text": "니은"
+      },
+      {
+        "question_id": "fa78e1cf-d2a2-4c9c-b35b-70935ebe3afe",
+        "choice_id": "option-1",
+        "ordinal": 1,
+        "text": "기역"
+      },
+      {
+        "question_id": "fa78e1cf-d2a2-4c9c-b35b-70935ebe3afe",
+        "choice_id": "option-2",
+        "ordinal": 2,
+        "text": "디귿"
+      },
+      {
+        "question_id": "fa78e1cf-d2a2-4c9c-b35b-70935ebe3afe",
+        "choice_id": "option-3",
+        "ordinal": 3,
+        "text": "리을"
+      },
+      {
+        "question_id": "98e49db3-ea68-43ac-a863-0ae83be0aa3a",
+        "choice_id": "answer",
+        "ordinal": 0,
+        "text": "디귿"
+      },
+      {
+        "question_id": "98e49db3-ea68-43ac-a863-0ae83be0aa3a",
+        "choice_id": "option-1",
+        "ordinal": 1,
+        "text": "기역"
+      },
+      {
+        "question_id": "98e49db3-ea68-43ac-a863-0ae83be0aa3a",
+        "choice_id": "option-2",
+        "ordinal": 2,
+        "text": "니은"
+      },
+      {
+        "question_id": "98e49db3-ea68-43ac-a863-0ae83be0aa3a",
+        "choice_id": "option-3",
+        "ordinal": 3,
+        "text": "리을"
+      },
+      {
+        "question_id": "2813f944-af75-42a2-871e-74f73166ebc2",
+        "choice_id": "answer",
+        "ordinal": 0,
+        "text": "리을"
+      },
+      {
+        "question_id": "2813f944-af75-42a2-871e-74f73166ebc2",
+        "choice_id": "option-1",
+        "ordinal": 1,
+        "text": "기역"
+      },
+      {
+        "question_id": "2813f944-af75-42a2-871e-74f73166ebc2",
+        "choice_id": "option-2",
+        "ordinal": 2,
+        "text": "니은"
+      },
+      {
+        "question_id": "2813f944-af75-42a2-871e-74f73166ebc2",
+        "choice_id": "option-3",
+        "ordinal": 3,
+        "text": "디귿"
+      },
+      {
+        "question_id": "7f9c3da7-7f4b-41f4-9e94-c09bac09089b",
+        "choice_id": "answer",
+        "ordinal": 0,
+        "text": "미음"
+      },
+      {
+        "question_id": "7f9c3da7-7f4b-41f4-9e94-c09bac09089b",
+        "choice_id": "option-1",
+        "ordinal": 1,
+        "text": "기역"
+      },
+      {
+        "question_id": "7f9c3da7-7f4b-41f4-9e94-c09bac09089b",
+        "choice_id": "option-2",
+        "ordinal": 2,
+        "text": "니은"
+      },
+      {
+        "question_id": "7f9c3da7-7f4b-41f4-9e94-c09bac09089b",
+        "choice_id": "option-3",
+        "ordinal": 3,
+        "text": "디귿"
+      },
+      {
+        "question_id": "b2d84dc0-b6a7-44ec-9ef3-c2270c5f41e9",
+        "choice_id": "answer",
+        "ordinal": 0,
+        "text": "비읍"
+      },
+      {
+        "question_id": "b2d84dc0-b6a7-44ec-9ef3-c2270c5f41e9",
+        "choice_id": "option-1",
+        "ordinal": 1,
+        "text": "기역"
+      },
+      {
+        "question_id": "b2d84dc0-b6a7-44ec-9ef3-c2270c5f41e9",
+        "choice_id": "option-2",
+        "ordinal": 2,
+        "text": "니은"
+      },
+      {
+        "question_id": "b2d84dc0-b6a7-44ec-9ef3-c2270c5f41e9",
+        "choice_id": "option-3",
+        "ordinal": 3,
+        "text": "디귿"
+      },
+      {
+        "question_id": "0945e87f-d6b0-4950-b5e6-477d045fadc5",
+        "choice_id": "answer",
+        "ordinal": 0,
+        "text": "시옷"
+      },
+      {
+        "question_id": "0945e87f-d6b0-4950-b5e6-477d045fadc5",
+        "choice_id": "option-1",
+        "ordinal": 1,
+        "text": "기역"
+      },
+      {
+        "question_id": "0945e87f-d6b0-4950-b5e6-477d045fadc5",
+        "choice_id": "option-2",
+        "ordinal": 2,
+        "text": "니은"
+      },
+      {
+        "question_id": "0945e87f-d6b0-4950-b5e6-477d045fadc5",
+        "choice_id": "option-3",
+        "ordinal": 3,
+        "text": "디귿"
+      },
+      {
+        "question_id": "6b2a15bb-6304-43f8-8147-73c0d3505d18",
+        "choice_id": "answer",
+        "ordinal": 0,
+        "text": "이응"
+      },
+      {
+        "question_id": "6b2a15bb-6304-43f8-8147-73c0d3505d18",
+        "choice_id": "option-1",
+        "ordinal": 1,
+        "text": "지읒"
+      },
+      {
+        "question_id": "6b2a15bb-6304-43f8-8147-73c0d3505d18",
+        "choice_id": "option-2",
+        "ordinal": 2,
+        "text": "치읓"
+      },
+      {
+        "question_id": "6b2a15bb-6304-43f8-8147-73c0d3505d18",
+        "choice_id": "option-3",
+        "ordinal": 3,
+        "text": "키읔"
+      },
+      {
+        "question_id": "c50ec33b-0860-44dd-a680-237dc8aecff6",
+        "choice_id": "answer",
+        "ordinal": 0,
+        "text": "지읒"
+      },
+      {
+        "question_id": "c50ec33b-0860-44dd-a680-237dc8aecff6",
+        "choice_id": "option-1",
+        "ordinal": 1,
+        "text": "이응"
+      },
+      {
+        "question_id": "c50ec33b-0860-44dd-a680-237dc8aecff6",
+        "choice_id": "option-2",
+        "ordinal": 2,
+        "text": "치읓"
+      },
+      {
+        "question_id": "c50ec33b-0860-44dd-a680-237dc8aecff6",
+        "choice_id": "option-3",
+        "ordinal": 3,
+        "text": "키읔"
+      },
+      {
+        "question_id": "ed6a3de3-a1ba-414e-9b70-70692449a30a",
+        "choice_id": "answer",
+        "ordinal": 0,
+        "text": "치읓"
+      },
+      {
+        "question_id": "ed6a3de3-a1ba-414e-9b70-70692449a30a",
+        "choice_id": "option-1",
+        "ordinal": 1,
+        "text": "이응"
+      },
+      {
+        "question_id": "ed6a3de3-a1ba-414e-9b70-70692449a30a",
+        "choice_id": "option-2",
+        "ordinal": 2,
+        "text": "지읒"
+      },
+      {
+        "question_id": "ed6a3de3-a1ba-414e-9b70-70692449a30a",
+        "choice_id": "option-3",
+        "ordinal": 3,
+        "text": "키읔"
+      },
+      {
+        "question_id": "17c36e12-77fd-4c73-a40b-ee23b8a1b458",
+        "choice_id": "answer",
+        "ordinal": 0,
+        "text": "키읔"
+      },
+      {
+        "question_id": "17c36e12-77fd-4c73-a40b-ee23b8a1b458",
+        "choice_id": "option-1",
+        "ordinal": 1,
+        "text": "이응"
+      },
+      {
+        "question_id": "17c36e12-77fd-4c73-a40b-ee23b8a1b458",
+        "choice_id": "option-2",
+        "ordinal": 2,
+        "text": "지읒"
+      },
+      {
+        "question_id": "17c36e12-77fd-4c73-a40b-ee23b8a1b458",
+        "choice_id": "option-3",
+        "ordinal": 3,
+        "text": "치읓"
+      },
+      {
+        "question_id": "06fcd62c-cf6a-4c7e-b5ab-dbd3b46b76e7",
+        "choice_id": "answer",
+        "ordinal": 0,
+        "text": "티읕"
+      },
+      {
+        "question_id": "06fcd62c-cf6a-4c7e-b5ab-dbd3b46b76e7",
+        "choice_id": "option-1",
+        "ordinal": 1,
+        "text": "이응"
+      },
+      {
+        "question_id": "06fcd62c-cf6a-4c7e-b5ab-dbd3b46b76e7",
+        "choice_id": "option-2",
+        "ordinal": 2,
+        "text": "지읒"
+      },
+      {
+        "question_id": "06fcd62c-cf6a-4c7e-b5ab-dbd3b46b76e7",
+        "choice_id": "option-3",
+        "ordinal": 3,
+        "text": "치읓"
+      },
+      {
+        "question_id": "2a46e89a-071c-4377-a2ff-f1e3c8e2f640",
+        "choice_id": "answer",
+        "ordinal": 0,
+        "text": "피읖"
+      },
+      {
+        "question_id": "2a46e89a-071c-4377-a2ff-f1e3c8e2f640",
+        "choice_id": "option-1",
+        "ordinal": 1,
+        "text": "이응"
+      },
+      {
+        "question_id": "2a46e89a-071c-4377-a2ff-f1e3c8e2f640",
+        "choice_id": "option-2",
+        "ordinal": 2,
+        "text": "지읒"
+      },
+      {
+        "question_id": "2a46e89a-071c-4377-a2ff-f1e3c8e2f640",
+        "choice_id": "option-3",
+        "ordinal": 3,
+        "text": "치읓"
+      },
+      {
+        "question_id": "c54b31fa-46e2-46ab-9b81-5713932083fa",
+        "choice_id": "answer",
+        "ordinal": 0,
+        "text": "히읗"
+      },
+      {
+        "question_id": "c54b31fa-46e2-46ab-9b81-5713932083fa",
+        "choice_id": "option-1",
+        "ordinal": 1,
+        "text": "이응"
+      },
+      {
+        "question_id": "c54b31fa-46e2-46ab-9b81-5713932083fa",
+        "choice_id": "option-2",
+        "ordinal": 2,
+        "text": "지읒"
+      },
+      {
+        "question_id": "c54b31fa-46e2-46ab-9b81-5713932083fa",
+        "choice_id": "option-3",
+        "ordinal": 3,
+        "text": "치읓"
+      },
+      {
+        "question_id": "dda3265d-e33d-409d-88e3-21969743610f",
+        "choice_id": "answer",
+        "ordinal": 0,
+        "text": "가"
+      },
+      {
+        "question_id": "dda3265d-e33d-409d-88e3-21969743610f",
+        "choice_id": "option-1",
+        "ordinal": 1,
+        "text": "나"
+      },
+      {
+        "question_id": "dda3265d-e33d-409d-88e3-21969743610f",
+        "choice_id": "option-2",
+        "ordinal": 2,
+        "text": "한"
+      },
+      {
+        "question_id": "dda3265d-e33d-409d-88e3-21969743610f",
+        "choice_id": "option-3",
+        "ordinal": 3,
+        "text": "하"
+      },
+      {
+        "question_id": "78f5d736-4d7c-4711-8e05-0d563967c893",
+        "choice_id": "answer",
+        "ordinal": 0,
+        "text": "나"
+      },
+      {
+        "question_id": "78f5d736-4d7c-4711-8e05-0d563967c893",
+        "choice_id": "option-1",
+        "ordinal": 1,
+        "text": "가"
+      },
+      {
+        "question_id": "78f5d736-4d7c-4711-8e05-0d563967c893",
+        "choice_id": "option-2",
+        "ordinal": 2,
+        "text": "한"
+      },
+      {
+        "question_id": "78f5d736-4d7c-4711-8e05-0d563967c893",
+        "choice_id": "option-3",
+        "ordinal": 3,
+        "text": "하"
+      },
+      {
+        "question_id": "29604196-23ab-4c0a-8993-276cda4701dc",
+        "choice_id": "answer",
+        "ordinal": 0,
+        "text": "한"
+      },
+      {
+        "question_id": "29604196-23ab-4c0a-8993-276cda4701dc",
+        "choice_id": "option-1",
+        "ordinal": 1,
+        "text": "가"
+      },
+      {
+        "question_id": "29604196-23ab-4c0a-8993-276cda4701dc",
+        "choice_id": "option-2",
+        "ordinal": 2,
+        "text": "나"
+      },
+      {
+        "question_id": "29604196-23ab-4c0a-8993-276cda4701dc",
+        "choice_id": "option-3",
+        "ordinal": 3,
+        "text": "하"
+      },
+      {
+        "question_id": "598dbd95-e1d9-4196-9af7-498aadcce2b3",
+        "choice_id": "answer",
+        "ordinal": 0,
+        "text": "쌍기역"
+      },
+      {
+        "question_id": "598dbd95-e1d9-4196-9af7-498aadcce2b3",
+        "choice_id": "option-1",
+        "ordinal": 1,
+        "text": "쌍디귿"
+      },
+      {
+        "question_id": "598dbd95-e1d9-4196-9af7-498aadcce2b3",
+        "choice_id": "option-2",
+        "ordinal": 2,
+        "text": "쌍비읍"
+      },
+      {
+        "question_id": "598dbd95-e1d9-4196-9af7-498aadcce2b3",
+        "choice_id": "option-3",
+        "ordinal": 3,
+        "text": "쌍시옷"
+      },
+      {
+        "question_id": "8ad934ef-b58e-475f-87b7-a75bcd9765c2",
+        "choice_id": "answer",
+        "ordinal": 0,
+        "text": "쌍디귿"
+      },
+      {
+        "question_id": "8ad934ef-b58e-475f-87b7-a75bcd9765c2",
+        "choice_id": "option-1",
+        "ordinal": 1,
+        "text": "쌍기역"
+      },
+      {
+        "question_id": "8ad934ef-b58e-475f-87b7-a75bcd9765c2",
+        "choice_id": "option-2",
+        "ordinal": 2,
+        "text": "쌍비읍"
+      },
+      {
+        "question_id": "8ad934ef-b58e-475f-87b7-a75bcd9765c2",
+        "choice_id": "option-3",
+        "ordinal": 3,
+        "text": "쌍시옷"
+      },
+      {
+        "question_id": "ddde1889-a7c4-44c5-88ee-a189e0fd28d1",
+        "choice_id": "answer",
+        "ordinal": 0,
+        "text": "쌍비읍"
+      },
+      {
+        "question_id": "ddde1889-a7c4-44c5-88ee-a189e0fd28d1",
+        "choice_id": "option-1",
+        "ordinal": 1,
+        "text": "쌍기역"
+      },
+      {
+        "question_id": "ddde1889-a7c4-44c5-88ee-a189e0fd28d1",
+        "choice_id": "option-2",
+        "ordinal": 2,
+        "text": "쌍디귿"
+      },
+      {
+        "question_id": "ddde1889-a7c4-44c5-88ee-a189e0fd28d1",
+        "choice_id": "option-3",
+        "ordinal": 3,
+        "text": "쌍시옷"
+      },
+      {
+        "question_id": "9f86343c-a654-49b8-8c52-86fe5ab02c6f",
+        "choice_id": "answer",
+        "ordinal": 0,
+        "text": "쌍시옷"
+      },
+      {
+        "question_id": "9f86343c-a654-49b8-8c52-86fe5ab02c6f",
+        "choice_id": "option-1",
+        "ordinal": 1,
+        "text": "쌍기역"
+      },
+      {
+        "question_id": "9f86343c-a654-49b8-8c52-86fe5ab02c6f",
+        "choice_id": "option-2",
+        "ordinal": 2,
+        "text": "쌍디귿"
+      },
+      {
+        "question_id": "9f86343c-a654-49b8-8c52-86fe5ab02c6f",
+        "choice_id": "option-3",
+        "ordinal": 3,
+        "text": "쌍비읍"
+      },
+      {
+        "question_id": "e49ebaab-07e5-459c-b978-88bde4af45e6",
+        "choice_id": "answer",
+        "ordinal": 0,
+        "text": "쌍지읒"
+      },
+      {
+        "question_id": "e49ebaab-07e5-459c-b978-88bde4af45e6",
+        "choice_id": "option-1",
+        "ordinal": 1,
+        "text": "쌍기역"
+      },
+      {
+        "question_id": "e49ebaab-07e5-459c-b978-88bde4af45e6",
+        "choice_id": "option-2",
+        "ordinal": 2,
+        "text": "쌍디귿"
+      },
+      {
+        "question_id": "e49ebaab-07e5-459c-b978-88bde4af45e6",
+        "choice_id": "option-3",
+        "ordinal": 3,
+        "text": "쌍비읍"
+      },
+      {
+        "question_id": "a6a8fe22-10d6-4b77-9a9d-f749a5a8b726",
+        "choice_id": "answer",
+        "ordinal": 0,
+        "text": "애"
+      },
+      {
+        "question_id": "a6a8fe22-10d6-4b77-9a9d-f749a5a8b726",
+        "choice_id": "option-1",
+        "ordinal": 1,
+        "text": "에"
+      },
+      {
+        "question_id": "a6a8fe22-10d6-4b77-9a9d-f749a5a8b726",
+        "choice_id": "option-2",
+        "ordinal": 2,
+        "text": "얘"
+      },
+      {
+        "question_id": "a6a8fe22-10d6-4b77-9a9d-f749a5a8b726",
+        "choice_id": "option-3",
+        "ordinal": 3,
+        "text": "예"
+      },
+      {
+        "question_id": "4669de09-a4af-4bbc-85ad-8ad3cf183f36",
+        "choice_id": "answer",
+        "ordinal": 0,
+        "text": "에"
+      },
+      {
+        "question_id": "4669de09-a4af-4bbc-85ad-8ad3cf183f36",
+        "choice_id": "option-1",
+        "ordinal": 1,
+        "text": "애"
+      },
+      {
+        "question_id": "4669de09-a4af-4bbc-85ad-8ad3cf183f36",
+        "choice_id": "option-2",
+        "ordinal": 2,
+        "text": "얘"
+      },
+      {
+        "question_id": "4669de09-a4af-4bbc-85ad-8ad3cf183f36",
+        "choice_id": "option-3",
+        "ordinal": 3,
+        "text": "예"
+      },
+      {
+        "question_id": "9f31b378-f8d6-454a-bd82-6fcf9e190566",
+        "choice_id": "answer",
+        "ordinal": 0,
+        "text": "얘"
+      },
+      {
+        "question_id": "9f31b378-f8d6-454a-bd82-6fcf9e190566",
+        "choice_id": "option-1",
+        "ordinal": 1,
+        "text": "애"
+      },
+      {
+        "question_id": "9f31b378-f8d6-454a-bd82-6fcf9e190566",
+        "choice_id": "option-2",
+        "ordinal": 2,
+        "text": "에"
+      },
+      {
+        "question_id": "9f31b378-f8d6-454a-bd82-6fcf9e190566",
+        "choice_id": "option-3",
+        "ordinal": 3,
+        "text": "예"
+      },
+      {
+        "question_id": "80bf9c70-9078-422f-a20c-68c731c48950",
+        "choice_id": "answer",
+        "ordinal": 0,
+        "text": "예"
+      },
+      {
+        "question_id": "80bf9c70-9078-422f-a20c-68c731c48950",
+        "choice_id": "option-1",
+        "ordinal": 1,
+        "text": "애"
+      },
+      {
+        "question_id": "80bf9c70-9078-422f-a20c-68c731c48950",
+        "choice_id": "option-2",
+        "ordinal": 2,
+        "text": "에"
+      },
+      {
+        "question_id": "80bf9c70-9078-422f-a20c-68c731c48950",
+        "choice_id": "option-3",
+        "ordinal": 3,
+        "text": "얘"
+      },
+      {
+        "question_id": "11a3754f-55ce-4b04-b3a0-9f262357cfe2",
+        "choice_id": "answer",
+        "ordinal": 0,
+        "text": "와"
+      },
+      {
+        "question_id": "11a3754f-55ce-4b04-b3a0-9f262357cfe2",
+        "choice_id": "option-1",
+        "ordinal": 1,
+        "text": "왜"
+      },
+      {
+        "question_id": "11a3754f-55ce-4b04-b3a0-9f262357cfe2",
+        "choice_id": "option-2",
+        "ordinal": 2,
+        "text": "외"
+      },
+      {
+        "question_id": "11a3754f-55ce-4b04-b3a0-9f262357cfe2",
+        "choice_id": "option-3",
+        "ordinal": 3,
+        "text": "워"
+      },
+      {
+        "question_id": "5675075f-079e-4e76-91e0-57e66bb5f083",
+        "choice_id": "answer",
+        "ordinal": 0,
+        "text": "왜"
+      },
+      {
+        "question_id": "5675075f-079e-4e76-91e0-57e66bb5f083",
+        "choice_id": "option-1",
+        "ordinal": 1,
+        "text": "와"
+      },
+      {
+        "question_id": "5675075f-079e-4e76-91e0-57e66bb5f083",
+        "choice_id": "option-2",
+        "ordinal": 2,
+        "text": "외"
+      },
+      {
+        "question_id": "5675075f-079e-4e76-91e0-57e66bb5f083",
+        "choice_id": "option-3",
+        "ordinal": 3,
+        "text": "워"
+      },
+      {
+        "question_id": "5412677c-61d6-4d2d-a13a-bfb195cc9ad1",
+        "choice_id": "answer",
+        "ordinal": 0,
+        "text": "외"
+      },
+      {
+        "question_id": "5412677c-61d6-4d2d-a13a-bfb195cc9ad1",
+        "choice_id": "option-1",
+        "ordinal": 1,
+        "text": "와"
+      },
+      {
+        "question_id": "5412677c-61d6-4d2d-a13a-bfb195cc9ad1",
+        "choice_id": "option-2",
+        "ordinal": 2,
+        "text": "왜"
+      },
+      {
+        "question_id": "5412677c-61d6-4d2d-a13a-bfb195cc9ad1",
+        "choice_id": "option-3",
+        "ordinal": 3,
+        "text": "워"
+      },
+      {
+        "question_id": "a6a56663-559c-454d-9168-fc3cf2aab361",
+        "choice_id": "answer",
+        "ordinal": 0,
+        "text": "워"
+      },
+      {
+        "question_id": "a6a56663-559c-454d-9168-fc3cf2aab361",
+        "choice_id": "option-1",
+        "ordinal": 1,
+        "text": "와"
+      },
+      {
+        "question_id": "a6a56663-559c-454d-9168-fc3cf2aab361",
+        "choice_id": "option-2",
+        "ordinal": 2,
+        "text": "왜"
+      },
+      {
+        "question_id": "a6a56663-559c-454d-9168-fc3cf2aab361",
+        "choice_id": "option-3",
+        "ordinal": 3,
+        "text": "외"
+      },
+      {
+        "question_id": "2a24da64-f999-42a4-aa52-7ea946055cd4",
+        "choice_id": "answer",
+        "ordinal": 0,
+        "text": "웨"
+      },
+      {
+        "question_id": "2a24da64-f999-42a4-aa52-7ea946055cd4",
+        "choice_id": "option-1",
+        "ordinal": 1,
+        "text": "와"
+      },
+      {
+        "question_id": "2a24da64-f999-42a4-aa52-7ea946055cd4",
+        "choice_id": "option-2",
+        "ordinal": 2,
+        "text": "왜"
+      },
+      {
+        "question_id": "2a24da64-f999-42a4-aa52-7ea946055cd4",
+        "choice_id": "option-3",
+        "ordinal": 3,
+        "text": "외"
+      },
+      {
+        "question_id": "e23bd2a4-8462-4f6a-b432-3ea8d9431225",
+        "choice_id": "answer",
+        "ordinal": 0,
+        "text": "위"
+      },
+      {
+        "question_id": "e23bd2a4-8462-4f6a-b432-3ea8d9431225",
+        "choice_id": "option-1",
+        "ordinal": 1,
+        "text": "와"
+      },
+      {
+        "question_id": "e23bd2a4-8462-4f6a-b432-3ea8d9431225",
+        "choice_id": "option-2",
+        "ordinal": 2,
+        "text": "왜"
+      },
+      {
+        "question_id": "e23bd2a4-8462-4f6a-b432-3ea8d9431225",
+        "choice_id": "option-3",
+        "ordinal": 3,
+        "text": "외"
+      },
+      {
+        "question_id": "9888fb73-a834-4d1a-be05-b732270c77cc",
+        "choice_id": "answer",
+        "ordinal": 0,
+        "text": "의"
+      },
+      {
+        "question_id": "9888fb73-a834-4d1a-be05-b732270c77cc",
+        "choice_id": "option-1",
+        "ordinal": 1,
+        "text": "와"
+      },
+      {
+        "question_id": "9888fb73-a834-4d1a-be05-b732270c77cc",
+        "choice_id": "option-2",
+        "ordinal": 2,
+        "text": "왜"
+      },
+      {
+        "question_id": "9888fb73-a834-4d1a-be05-b732270c77cc",
+        "choice_id": "option-3",
+        "ordinal": 3,
+        "text": "외"
+      },
+      {
+        "question_id": "f36ba331-862c-45f3-9cd8-e316cbedac8f",
+        "choice_id": "answer",
+        "ordinal": 0,
+        "text": "ㄴ"
+      },
+      {
+        "question_id": "f36ba331-862c-45f3-9cd8-e316cbedac8f",
+        "choice_id": "option-1",
+        "ordinal": 1,
+        "text": "ㅎ"
+      },
+      {
+        "question_id": "f36ba331-862c-45f3-9cd8-e316cbedac8f",
+        "choice_id": "option-2",
+        "ordinal": 2,
+        "text": "ㅏ"
+      },
+      {
+        "question_id": "35dcac87-4f6f-4f94-9e8b-1c2d1dab3168",
+        "choice_id": "answer",
+        "ordinal": 0,
+        "text": "鼻に息を通す音がある"
+      },
+      {
+        "question_id": "35dcac87-4f6f-4f94-9e8b-1c2d1dab3168",
+        "choice_id": "option-1",
+        "ordinal": 1,
+        "text": "いつも無音になる"
+      },
+      {
+        "question_id": "35dcac87-4f6f-4f94-9e8b-1c2d1dab3168",
+        "choice_id": "option-2",
+        "ordinal": 2,
+        "text": "母音だけを表す"
+      },
+      {
+        "question_id": "50a68c1b-f4a5-4680-9e1d-93f0c729c63d",
+        "choice_id": "answer",
+        "ordinal": 0,
+        "text": "ナに近い音"
+      },
+      {
+        "question_id": "50a68c1b-f4a5-4680-9e1d-93f0c729c63d",
+        "choice_id": "option-1",
+        "ordinal": 1,
+        "text": "マに近い音"
+      },
+      {
+        "question_id": "50a68c1b-f4a5-4680-9e1d-93f0c729c63d",
+        "choice_id": "option-2",
+        "ordinal": 2,
+        "text": "カに近い音"
+      },
+      {
+        "question_id": "50a68c1b-f4a5-4680-9e1d-93f0c729c63d",
+        "choice_id": "option-3",
+        "ordinal": 3,
+        "text": "ハに近い音"
+      },
+      {
+        "question_id": "53765cb7-8046-475d-a035-eaf40cf6b9a5",
+        "choice_id": "answer",
+        "ordinal": 0,
+        "text": "나 + 무"
+      },
+      {
+        "question_id": "53765cb7-8046-475d-a035-eaf40cf6b9a5",
+        "choice_id": "option-1",
+        "ordinal": 1,
+        "text": "ㅁ + ㅏ"
+      },
+      {
+        "question_id": "53765cb7-8046-475d-a035-eaf40cf6b9a5",
+        "choice_id": "option-2",
+        "ordinal": 2,
+        "text": "가 + 나"
+      },
+      {
+        "question_id": "53765cb7-8046-475d-a035-eaf40cf6b9a5",
+        "choice_id": "option-3",
+        "ordinal": 3,
+        "text": "나 + 마"
+      },
+      {
+        "question_id": "74586568-87ef-4dab-a0df-234fbe9ac05b",
+        "choice_id": "answer",
+        "ordinal": 0,
+        "text": "바 + 다"
+      },
+      {
+        "question_id": "74586568-87ef-4dab-a0df-234fbe9ac05b",
+        "choice_id": "option-1",
+        "ordinal": 1,
+        "text": "ㅁ + ㅏ"
+      },
+      {
+        "question_id": "74586568-87ef-4dab-a0df-234fbe9ac05b",
+        "choice_id": "option-2",
+        "ordinal": 2,
+        "text": "가 + 나"
+      },
+      {
+        "question_id": "74586568-87ef-4dab-a0df-234fbe9ac05b",
+        "choice_id": "option-3",
+        "ordinal": 3,
+        "text": "나 + 마"
+      },
+      {
+        "question_id": "06cdb8ac-5424-4919-bf58-536dc3bfba24",
+        "choice_id": "answer",
+        "ordinal": 0,
+        "text": "우 + 유"
+      },
+      {
+        "question_id": "06cdb8ac-5424-4919-bf58-536dc3bfba24",
+        "choice_id": "option-1",
+        "ordinal": 1,
+        "text": "ㅁ + ㅏ"
+      },
+      {
+        "question_id": "06cdb8ac-5424-4919-bf58-536dc3bfba24",
+        "choice_id": "option-2",
+        "ordinal": 2,
+        "text": "가 + 나"
+      },
+      {
+        "question_id": "06cdb8ac-5424-4919-bf58-536dc3bfba24",
+        "choice_id": "option-3",
+        "ordinal": 3,
+        "text": "나 + 마"
+      },
+      {
+        "question_id": "a3cc0cd1-7530-4052-bdec-49c486816764",
+        "choice_id": "answer",
+        "ordinal": 0,
+        "text": "하 + 나"
+      },
+      {
+        "question_id": "a3cc0cd1-7530-4052-bdec-49c486816764",
+        "choice_id": "option-1",
+        "ordinal": 1,
+        "text": "ㅁ + ㅏ"
+      },
+      {
+        "question_id": "a3cc0cd1-7530-4052-bdec-49c486816764",
+        "choice_id": "option-2",
+        "ordinal": 2,
+        "text": "가 + 나"
+      },
+      {
+        "question_id": "a3cc0cd1-7530-4052-bdec-49c486816764",
+        "choice_id": "option-3",
+        "ordinal": 3,
+        "text": "나 + 마"
+      },
+      {
+        "question_id": "fdf120b1-65af-420d-b311-12659bb4b645",
+        "choice_id": "answer",
+        "ordinal": 0,
+        "text": "ㅏ"
+      },
+      {
+        "question_id": "fdf120b1-65af-420d-b311-12659bb4b645",
+        "choice_id": "option-1",
+        "ordinal": 1,
+        "text": "ㅗ"
+      },
+      {
+        "question_id": "fdf120b1-65af-420d-b311-12659bb4b645",
+        "choice_id": "option-2",
+        "ordinal": 2,
+        "text": "ㅡ"
+      },
+      {
+        "question_id": "10f80cc5-2bcb-4e58-90bb-2d2f85114701",
+        "choice_id": "answer",
+        "ordinal": 0,
+        "text": "唇を丸めず、口を開く"
+      },
+      {
+        "question_id": "10f80cc5-2bcb-4e58-90bb-2d2f85114701",
+        "choice_id": "option-1",
+        "ordinal": 1,
+        "text": "唇を強く丸める"
+      },
+      {
+        "question_id": "10f80cc5-2bcb-4e58-90bb-2d2f85114701",
+        "choice_id": "option-2",
+        "ordinal": 2,
+        "text": "いつも日本語の「オ」と同じ"
+      },
+      {
+        "question_id": "a9dddb11-25fd-481e-80ec-ce48e1164ebb",
+        "choice_id": "answer",
+        "ordinal": 0,
+        "text": "ㅡ"
+      },
+      {
+        "question_id": "a9dddb11-25fd-481e-80ec-ce48e1164ebb",
+        "choice_id": "option-1",
+        "ordinal": 1,
+        "text": "ㅜ"
+      },
+      {
+        "question_id": "a9dddb11-25fd-481e-80ec-ce48e1164ebb",
+        "choice_id": "option-2",
+        "ordinal": 2,
+        "text": "ㅗ"
+      },
+      {
+        "question_id": "1108cacd-fbb6-4da4-96fc-f316d7e99147",
+        "choice_id": "answer",
+        "ordinal": 0,
+        "text": "似た発音でも、綴りは区別して覚える"
+      },
+      {
+        "question_id": "1108cacd-fbb6-4da4-96fc-f316d7e99147",
+        "choice_id": "option-1",
+        "ordinal": 1,
+        "text": "必ず全員がはっきり違う音で読む"
+      },
+      {
+        "question_id": "1108cacd-fbb6-4da4-96fc-f316d7e99147",
+        "choice_id": "option-2",
+        "ordinal": 2,
+        "text": "どちらを書いてもよい"
+      },
+      {
+        "question_id": "b26f608a-be53-4d84-8070-8ddbebc5f4b6",
+        "choice_id": "answer",
+        "ordinal": 0,
+        "text": "ㄲ"
+      },
+      {
+        "question_id": "b26f608a-be53-4d84-8070-8ddbebc5f4b6",
+        "choice_id": "option-1",
+        "ordinal": 1,
+        "text": "ㅋ"
+      },
+      {
+        "question_id": "b26f608a-be53-4d84-8070-8ddbebc5f4b6",
+        "choice_id": "option-2",
+        "ordinal": 2,
+        "text": "ㄱ"
+      },
+      {
+        "question_id": "f15e83cc-6dcb-4a6f-8323-667f8328954d",
+        "choice_id": "answer",
+        "ordinal": 0,
+        "text": "한"
+      },
+      {
+        "question_id": "f15e83cc-6dcb-4a6f-8323-667f8328954d",
+        "choice_id": "option-1",
+        "ordinal": 1,
+        "text": "하"
+      },
+      {
+        "question_id": "f15e83cc-6dcb-4a6f-8323-667f8328954d",
+        "choice_id": "option-2",
+        "ordinal": 2,
+        "text": "나"
+      },
+      {
+        "question_id": "72b61412-6705-47ab-9698-cf870517715d",
+        "choice_id": "answer",
+        "ordinal": 0,
+        "text": "どちらの音節でも最初のㅇは無音"
+      },
+      {
+        "question_id": "72b61412-6705-47ab-9698-cf870517715d",
+        "choice_id": "option-1",
+        "ordinal": 1,
+        "text": "どちらもパッチムの音になる"
+      },
+      {
+        "question_id": "72b61412-6705-47ab-9698-cf870517715d",
+        "choice_id": "option-2",
+        "ordinal": 2,
+        "text": "母音がないので読めない"
+      }
+    ],
+    "lessons": [
+      {
+        "id": "23070402-d6ce-42d6-9914-8ad77cc67e6e",
+        "course_id": "af7446a8-f23e-4bc7-8324-6e8112b5f7d8",
+        "title_ja": "はじめてのハングル",
+        "ordinal": 0
+      },
+      {
+        "id": "b134273f-a630-4fb6-9dc0-a51a54378dfd",
+        "course_id": "af7446a8-f23e-4bc7-8324-6e8112b5f7d8",
+        "title_ja": "基本母音①",
+        "ordinal": 1
+      },
+      {
+        "id": "17e7c511-1c71-4491-a01e-6ea164aba9e4",
+        "course_id": "af7446a8-f23e-4bc7-8324-6e8112b5f7d8",
+        "title_ja": "基本母音②",
+        "ordinal": 2
+      },
+      {
+        "id": "9d7df0d8-14fc-4b17-8e01-d7ff6b6c89ca",
+        "course_id": "af7446a8-f23e-4bc7-8324-6e8112b5f7d8",
+        "title_ja": "基本子音①",
+        "ordinal": 3
+      },
+      {
+        "id": "1173c397-c518-4a5d-8a08-8086b9fb73e6",
+        "course_id": "af7446a8-f23e-4bc7-8324-6e8112b5f7d8",
+        "title_ja": "基本子音②",
+        "ordinal": 4
+      },
+      {
+        "id": "cee61fd2-a909-47d9-8bbf-1c0d6fbd811b",
+        "course_id": "af7446a8-f23e-4bc7-8324-6e8112b5f7d8",
+        "title_ja": "文字を組み立てる",
+        "ordinal": 5
+      },
+      {
+        "id": "d8c168a5-c0b7-4942-8bba-5280585fb150",
+        "course_id": "af7446a8-f23e-4bc7-8324-6e8112b5f7d8",
+        "title_ja": "濃音",
+        "ordinal": 6
+      },
+      {
+        "id": "af691b38-00c5-4991-b6a1-6193218298e8",
+        "course_id": "af7446a8-f23e-4bc7-8324-6e8112b5f7d8",
+        "title_ja": "複合母音①",
+        "ordinal": 7
+      },
+      {
+        "id": "e55e08ea-f53b-482f-9a29-09c2503e32d9",
+        "course_id": "af7446a8-f23e-4bc7-8324-6e8112b5f7d8",
+        "title_ja": "複合母音②",
+        "ordinal": 8
+      },
+      {
+        "id": "3488c71b-2a7c-46af-9a32-21a4a397316e",
+        "course_id": "af7446a8-f23e-4bc7-8324-6e8112b5f7d8",
+        "title_ja": "パッチム入門",
+        "ordinal": 9
+      },
+      {
+        "id": "0fe213ed-2dfd-4056-9630-418e5505ffc7",
+        "course_id": "af7446a8-f23e-4bc7-8324-6e8112b5f7d8",
+        "title_ja": "読んでみよう",
+        "ordinal": 10
+      },
+      {
+        "id": "d14277e7-a5d6-44b3-9dfc-c1a7e0ef5e8a",
+        "course_id": "af7446a8-f23e-4bc7-8324-6e8112b5f7d8",
+        "title_ja": "総合確認",
+        "ordinal": 11
+      }
+    ],
+    "lesson_items": [
+      {
+        "lesson_id": "23070402-d6ce-42d6-9914-8ad77cc67e6e",
+        "content_id": "f4196523-bc9c-48a6-960d-db7cdda2dce9",
+        "ordinal": 0
+      },
+      {
+        "lesson_id": "23070402-d6ce-42d6-9914-8ad77cc67e6e",
+        "content_id": "51a9f6b7-fa40-4df9-8c20-c3051518b0e4",
+        "ordinal": 1
+      },
+      {
+        "lesson_id": "23070402-d6ce-42d6-9914-8ad77cc67e6e",
+        "content_id": "e2c94f7c-6f0d-4fb3-835c-5764e2b27dae",
+        "ordinal": 2
+      },
+      {
+        "lesson_id": "23070402-d6ce-42d6-9914-8ad77cc67e6e",
+        "content_id": "fb0a3fb7-8619-4c29-acd9-7f2f37f095e0",
+        "ordinal": 3
+      },
+      {
+        "lesson_id": "b134273f-a630-4fb6-9dc0-a51a54378dfd",
+        "content_id": "13cdab25-b671-41ed-b33c-0617cc0eefa4",
+        "ordinal": 0
+      },
+      {
+        "lesson_id": "b134273f-a630-4fb6-9dc0-a51a54378dfd",
+        "content_id": "5473e552-7329-4c1d-89cf-931a489fdadf",
+        "ordinal": 1
+      },
+      {
+        "lesson_id": "b134273f-a630-4fb6-9dc0-a51a54378dfd",
+        "content_id": "dac7e6a1-9f7b-4dc5-b890-d839343a15e7",
+        "ordinal": 2
+      },
+      {
+        "lesson_id": "b134273f-a630-4fb6-9dc0-a51a54378dfd",
+        "content_id": "8dc5b683-0deb-4e20-ab41-c99b291b279c",
+        "ordinal": 3
+      },
+      {
+        "lesson_id": "b134273f-a630-4fb6-9dc0-a51a54378dfd",
+        "content_id": "d81cf4c8-919f-441e-9904-853348dd0779",
+        "ordinal": 4
+      },
+      {
+        "lesson_id": "b134273f-a630-4fb6-9dc0-a51a54378dfd",
+        "content_id": "0e3e5693-c15b-48f0-b584-1dc00d0e99da",
+        "ordinal": 5
+      },
+      {
+        "lesson_id": "b134273f-a630-4fb6-9dc0-a51a54378dfd",
+        "content_id": "b04ad54a-ba12-47a6-978e-c23060819d6e",
+        "ordinal": 6
+      },
+      {
+        "lesson_id": "b134273f-a630-4fb6-9dc0-a51a54378dfd",
+        "content_id": "4c29a0de-cd1f-42d6-9ef4-3c568845d59e",
+        "ordinal": 7
+      },
+      {
+        "lesson_id": "b134273f-a630-4fb6-9dc0-a51a54378dfd",
+        "content_id": "93648f3d-7dc2-479a-967f-df674378a725",
+        "ordinal": 8
+      },
+      {
+        "lesson_id": "b134273f-a630-4fb6-9dc0-a51a54378dfd",
+        "content_id": "a507ff40-eb57-4660-913c-4870295223f3",
+        "ordinal": 9
+      },
+      {
+        "lesson_id": "17e7c511-1c71-4491-a01e-6ea164aba9e4",
+        "content_id": "ae4496ac-2a41-4014-8337-d40b1afea890",
+        "ordinal": 0
+      },
+      {
+        "lesson_id": "17e7c511-1c71-4491-a01e-6ea164aba9e4",
+        "content_id": "b07d378f-8c1c-4282-8b1c-f625c7dc97f5",
+        "ordinal": 1
+      },
+      {
+        "lesson_id": "17e7c511-1c71-4491-a01e-6ea164aba9e4",
+        "content_id": "273d46b5-9926-4c66-acd7-6feb860fc223",
+        "ordinal": 2
+      },
+      {
+        "lesson_id": "17e7c511-1c71-4491-a01e-6ea164aba9e4",
+        "content_id": "99aa7df4-54a9-4794-b83f-ad577c8fe3c5",
+        "ordinal": 3
+      },
+      {
+        "lesson_id": "17e7c511-1c71-4491-a01e-6ea164aba9e4",
+        "content_id": "dc0fa17d-b99d-44e3-8a00-993422a9f509",
+        "ordinal": 4
+      },
+      {
+        "lesson_id": "17e7c511-1c71-4491-a01e-6ea164aba9e4",
+        "content_id": "a8a69721-b574-4c7a-92cb-dc67fa256228",
+        "ordinal": 5
+      },
+      {
+        "lesson_id": "17e7c511-1c71-4491-a01e-6ea164aba9e4",
+        "content_id": "e7f6746d-bf2f-4cb3-b8de-092155970eee",
+        "ordinal": 6
+      },
+      {
+        "lesson_id": "17e7c511-1c71-4491-a01e-6ea164aba9e4",
+        "content_id": "b38323fb-d1bb-4e54-b335-1b1c186f73cd",
+        "ordinal": 7
+      },
+      {
+        "lesson_id": "17e7c511-1c71-4491-a01e-6ea164aba9e4",
+        "content_id": "f6c86754-ba5b-400f-bd6b-12526c9bc0a7",
+        "ordinal": 8
+      },
+      {
+        "lesson_id": "17e7c511-1c71-4491-a01e-6ea164aba9e4",
+        "content_id": "8a823591-73fd-4d24-87e1-a3fb44a7269e",
+        "ordinal": 9
+      },
+      {
+        "lesson_id": "9d7df0d8-14fc-4b17-8e01-d7ff6b6c89ca",
+        "content_id": "a6fdd636-cd9a-43bc-af25-c65edb1d7973",
+        "ordinal": 0
+      },
+      {
+        "lesson_id": "9d7df0d8-14fc-4b17-8e01-d7ff6b6c89ca",
+        "content_id": "f00c9b31-8596-4e8e-8dae-34742fd5ba41",
+        "ordinal": 1
+      },
+      {
+        "lesson_id": "9d7df0d8-14fc-4b17-8e01-d7ff6b6c89ca",
+        "content_id": "7b071a7a-51a0-461c-9616-a51bb19b0ecc",
+        "ordinal": 2
+      },
+      {
+        "lesson_id": "9d7df0d8-14fc-4b17-8e01-d7ff6b6c89ca",
+        "content_id": "0aaa52ac-f58c-42c4-a3c8-8f8ebfa74935",
+        "ordinal": 3
+      },
+      {
+        "lesson_id": "9d7df0d8-14fc-4b17-8e01-d7ff6b6c89ca",
+        "content_id": "7bd38b41-2292-44e6-8368-cf9950db263b",
+        "ordinal": 4
+      },
+      {
+        "lesson_id": "9d7df0d8-14fc-4b17-8e01-d7ff6b6c89ca",
+        "content_id": "e0ba7920-7bba-4035-8ba9-84a369fdcb4c",
+        "ordinal": 5
+      },
+      {
+        "lesson_id": "9d7df0d8-14fc-4b17-8e01-d7ff6b6c89ca",
+        "content_id": "7d6d02b1-70b2-4af2-9c4c-ce10412f7592",
+        "ordinal": 6
+      },
+      {
+        "lesson_id": "9d7df0d8-14fc-4b17-8e01-d7ff6b6c89ca",
+        "content_id": "67e96897-b5e6-4d55-b614-13b60ca95ec2",
+        "ordinal": 7
+      },
+      {
+        "lesson_id": "9d7df0d8-14fc-4b17-8e01-d7ff6b6c89ca",
+        "content_id": "fa78e1cf-d2a2-4c9c-b35b-70935ebe3afe",
+        "ordinal": 8
+      },
+      {
+        "lesson_id": "9d7df0d8-14fc-4b17-8e01-d7ff6b6c89ca",
+        "content_id": "98e49db3-ea68-43ac-a863-0ae83be0aa3a",
+        "ordinal": 9
+      },
+      {
+        "lesson_id": "9d7df0d8-14fc-4b17-8e01-d7ff6b6c89ca",
+        "content_id": "2813f944-af75-42a2-871e-74f73166ebc2",
+        "ordinal": 10
+      },
+      {
+        "lesson_id": "9d7df0d8-14fc-4b17-8e01-d7ff6b6c89ca",
+        "content_id": "7f9c3da7-7f4b-41f4-9e94-c09bac09089b",
+        "ordinal": 11
+      },
+      {
+        "lesson_id": "9d7df0d8-14fc-4b17-8e01-d7ff6b6c89ca",
+        "content_id": "b2d84dc0-b6a7-44ec-9ef3-c2270c5f41e9",
+        "ordinal": 12
+      },
+      {
+        "lesson_id": "9d7df0d8-14fc-4b17-8e01-d7ff6b6c89ca",
+        "content_id": "0945e87f-d6b0-4950-b5e6-477d045fadc5",
+        "ordinal": 13
+      },
+      {
+        "lesson_id": "1173c397-c518-4a5d-8a08-8086b9fb73e6",
+        "content_id": "79940f2f-7b57-41a5-9670-21c9a8022fe2",
+        "ordinal": 0
+      },
+      {
+        "lesson_id": "1173c397-c518-4a5d-8a08-8086b9fb73e6",
+        "content_id": "ccc9b86c-97c3-4208-be97-d98061c01952",
+        "ordinal": 1
+      },
+      {
+        "lesson_id": "1173c397-c518-4a5d-8a08-8086b9fb73e6",
+        "content_id": "3f286c84-a110-4f46-834d-8de54b2edf61",
+        "ordinal": 2
+      },
+      {
+        "lesson_id": "1173c397-c518-4a5d-8a08-8086b9fb73e6",
+        "content_id": "8a70eca0-19ac-49cc-aa4a-ec3cb677ecc7",
+        "ordinal": 3
+      },
+      {
+        "lesson_id": "1173c397-c518-4a5d-8a08-8086b9fb73e6",
+        "content_id": "ab9486a0-d6a2-4a6f-b8fe-e985908fc181",
+        "ordinal": 4
+      },
+      {
+        "lesson_id": "1173c397-c518-4a5d-8a08-8086b9fb73e6",
+        "content_id": "ac4c93b7-5b3c-4cf1-9a3c-a83d980d5a6d",
+        "ordinal": 5
+      },
+      {
+        "lesson_id": "1173c397-c518-4a5d-8a08-8086b9fb73e6",
+        "content_id": "954a1ce0-fcc7-4503-bd8b-338afca995ea",
+        "ordinal": 6
+      },
+      {
+        "lesson_id": "1173c397-c518-4a5d-8a08-8086b9fb73e6",
+        "content_id": "6b2a15bb-6304-43f8-8147-73c0d3505d18",
+        "ordinal": 7
+      },
+      {
+        "lesson_id": "1173c397-c518-4a5d-8a08-8086b9fb73e6",
+        "content_id": "c50ec33b-0860-44dd-a680-237dc8aecff6",
+        "ordinal": 8
+      },
+      {
+        "lesson_id": "1173c397-c518-4a5d-8a08-8086b9fb73e6",
+        "content_id": "ed6a3de3-a1ba-414e-9b70-70692449a30a",
+        "ordinal": 9
+      },
+      {
+        "lesson_id": "1173c397-c518-4a5d-8a08-8086b9fb73e6",
+        "content_id": "17c36e12-77fd-4c73-a40b-ee23b8a1b458",
+        "ordinal": 10
+      },
+      {
+        "lesson_id": "1173c397-c518-4a5d-8a08-8086b9fb73e6",
+        "content_id": "06fcd62c-cf6a-4c7e-b5ab-dbd3b46b76e7",
+        "ordinal": 11
+      },
+      {
+        "lesson_id": "1173c397-c518-4a5d-8a08-8086b9fb73e6",
+        "content_id": "2a46e89a-071c-4377-a2ff-f1e3c8e2f640",
+        "ordinal": 12
+      },
+      {
+        "lesson_id": "1173c397-c518-4a5d-8a08-8086b9fb73e6",
+        "content_id": "c54b31fa-46e2-46ab-9b81-5713932083fa",
+        "ordinal": 13
+      },
+      {
+        "lesson_id": "cee61fd2-a909-47d9-8bbf-1c0d6fbd811b",
+        "content_id": "51ee7cdc-d30c-41de-9ba8-a55395c4d89d",
+        "ordinal": 0
+      },
+      {
+        "lesson_id": "cee61fd2-a909-47d9-8bbf-1c0d6fbd811b",
+        "content_id": "dda3265d-e33d-409d-88e3-21969743610f",
+        "ordinal": 1
+      },
+      {
+        "lesson_id": "cee61fd2-a909-47d9-8bbf-1c0d6fbd811b",
+        "content_id": "63c48b81-eda1-4b21-9edf-c68f016e8a58",
+        "ordinal": 2
+      },
+      {
+        "lesson_id": "cee61fd2-a909-47d9-8bbf-1c0d6fbd811b",
+        "content_id": "78f5d736-4d7c-4711-8e05-0d563967c893",
+        "ordinal": 3
+      },
+      {
+        "lesson_id": "cee61fd2-a909-47d9-8bbf-1c0d6fbd811b",
+        "content_id": "e3971b40-6bab-42c5-8508-c52d2cce1a1f",
+        "ordinal": 4
+      },
+      {
+        "lesson_id": "cee61fd2-a909-47d9-8bbf-1c0d6fbd811b",
+        "content_id": "29604196-23ab-4c0a-8993-276cda4701dc",
+        "ordinal": 5
+      },
+      {
+        "lesson_id": "d8c168a5-c0b7-4942-8bba-5280585fb150",
+        "content_id": "5a75f002-5cf5-42eb-8942-eb5a3380b3b8",
+        "ordinal": 0
+      },
+      {
+        "lesson_id": "d8c168a5-c0b7-4942-8bba-5280585fb150",
+        "content_id": "8f9bb9bd-7251-4519-9093-b574b70cf5d5",
+        "ordinal": 1
+      },
+      {
+        "lesson_id": "d8c168a5-c0b7-4942-8bba-5280585fb150",
+        "content_id": "4f0703a9-2372-4c4d-a3ee-88f8d6ffc728",
+        "ordinal": 2
+      },
+      {
+        "lesson_id": "d8c168a5-c0b7-4942-8bba-5280585fb150",
+        "content_id": "3d770dcb-99a2-4400-9722-bb173f3d94c9",
+        "ordinal": 3
+      },
+      {
+        "lesson_id": "d8c168a5-c0b7-4942-8bba-5280585fb150",
+        "content_id": "2b748998-ad51-4121-97c5-39a7b33b0d14",
+        "ordinal": 4
+      },
+      {
+        "lesson_id": "d8c168a5-c0b7-4942-8bba-5280585fb150",
+        "content_id": "598dbd95-e1d9-4196-9af7-498aadcce2b3",
+        "ordinal": 5
+      },
+      {
+        "lesson_id": "d8c168a5-c0b7-4942-8bba-5280585fb150",
+        "content_id": "8ad934ef-b58e-475f-87b7-a75bcd9765c2",
+        "ordinal": 6
+      },
+      {
+        "lesson_id": "d8c168a5-c0b7-4942-8bba-5280585fb150",
+        "content_id": "ddde1889-a7c4-44c5-88ee-a189e0fd28d1",
+        "ordinal": 7
+      },
+      {
+        "lesson_id": "d8c168a5-c0b7-4942-8bba-5280585fb150",
+        "content_id": "9f86343c-a654-49b8-8c52-86fe5ab02c6f",
+        "ordinal": 8
+      },
+      {
+        "lesson_id": "d8c168a5-c0b7-4942-8bba-5280585fb150",
+        "content_id": "e49ebaab-07e5-459c-b978-88bde4af45e6",
+        "ordinal": 9
+      },
+      {
+        "lesson_id": "af691b38-00c5-4991-b6a1-6193218298e8",
+        "content_id": "22a4e5d7-e7cc-4efc-abb7-90bbc18240b4",
+        "ordinal": 0
+      },
+      {
+        "lesson_id": "af691b38-00c5-4991-b6a1-6193218298e8",
+        "content_id": "e39a974b-4754-4c9d-a0d7-de34165c242f",
+        "ordinal": 1
+      },
+      {
+        "lesson_id": "af691b38-00c5-4991-b6a1-6193218298e8",
+        "content_id": "a52bb187-f848-41a8-b3b5-e5575e36ebcf",
+        "ordinal": 2
+      },
+      {
+        "lesson_id": "af691b38-00c5-4991-b6a1-6193218298e8",
+        "content_id": "408eb3dd-1437-4a39-8f41-b69eccf6c74c",
+        "ordinal": 3
+      },
+      {
+        "lesson_id": "af691b38-00c5-4991-b6a1-6193218298e8",
+        "content_id": "a6a8fe22-10d6-4b77-9a9d-f749a5a8b726",
+        "ordinal": 4
+      },
+      {
+        "lesson_id": "af691b38-00c5-4991-b6a1-6193218298e8",
+        "content_id": "4669de09-a4af-4bbc-85ad-8ad3cf183f36",
+        "ordinal": 5
+      },
+      {
+        "lesson_id": "af691b38-00c5-4991-b6a1-6193218298e8",
+        "content_id": "9f31b378-f8d6-454a-bd82-6fcf9e190566",
+        "ordinal": 6
+      },
+      {
+        "lesson_id": "af691b38-00c5-4991-b6a1-6193218298e8",
+        "content_id": "80bf9c70-9078-422f-a20c-68c731c48950",
+        "ordinal": 7
+      },
+      {
+        "lesson_id": "e55e08ea-f53b-482f-9a29-09c2503e32d9",
+        "content_id": "29bfb7fb-7575-4aeb-823d-3f68d1a53cd2",
+        "ordinal": 0
+      },
+      {
+        "lesson_id": "e55e08ea-f53b-482f-9a29-09c2503e32d9",
+        "content_id": "eccc0cc5-6849-44f7-b702-3e05dc04b230",
+        "ordinal": 1
+      },
+      {
+        "lesson_id": "e55e08ea-f53b-482f-9a29-09c2503e32d9",
+        "content_id": "a3800822-6abe-4d0c-8c77-1f9db84a6094",
+        "ordinal": 2
+      },
+      {
+        "lesson_id": "e55e08ea-f53b-482f-9a29-09c2503e32d9",
+        "content_id": "17995e1b-d74c-4e61-b2b0-ae405c0c24ea",
+        "ordinal": 3
+      },
+      {
+        "lesson_id": "e55e08ea-f53b-482f-9a29-09c2503e32d9",
+        "content_id": "7a3bb07a-4751-4cd7-8e5d-903f2fc7c583",
+        "ordinal": 4
+      },
+      {
+        "lesson_id": "e55e08ea-f53b-482f-9a29-09c2503e32d9",
+        "content_id": "04144f14-fd8d-4782-89ce-2c3eebd40710",
+        "ordinal": 5
+      },
+      {
+        "lesson_id": "e55e08ea-f53b-482f-9a29-09c2503e32d9",
+        "content_id": "6e39f9a5-be72-4695-88fa-439042207093",
+        "ordinal": 6
+      },
+      {
+        "lesson_id": "e55e08ea-f53b-482f-9a29-09c2503e32d9",
+        "content_id": "11a3754f-55ce-4b04-b3a0-9f262357cfe2",
+        "ordinal": 7
+      },
+      {
+        "lesson_id": "e55e08ea-f53b-482f-9a29-09c2503e32d9",
+        "content_id": "5675075f-079e-4e76-91e0-57e66bb5f083",
+        "ordinal": 8
+      },
+      {
+        "lesson_id": "e55e08ea-f53b-482f-9a29-09c2503e32d9",
+        "content_id": "5412677c-61d6-4d2d-a13a-bfb195cc9ad1",
+        "ordinal": 9
+      },
+      {
+        "lesson_id": "e55e08ea-f53b-482f-9a29-09c2503e32d9",
+        "content_id": "a6a56663-559c-454d-9168-fc3cf2aab361",
+        "ordinal": 10
+      },
+      {
+        "lesson_id": "e55e08ea-f53b-482f-9a29-09c2503e32d9",
+        "content_id": "2a24da64-f999-42a4-aa52-7ea946055cd4",
+        "ordinal": 11
+      },
+      {
+        "lesson_id": "e55e08ea-f53b-482f-9a29-09c2503e32d9",
+        "content_id": "e23bd2a4-8462-4f6a-b432-3ea8d9431225",
+        "ordinal": 12
+      },
+      {
+        "lesson_id": "e55e08ea-f53b-482f-9a29-09c2503e32d9",
+        "content_id": "9888fb73-a834-4d1a-be05-b732270c77cc",
+        "ordinal": 13
+      },
+      {
+        "lesson_id": "3488c71b-2a7c-46af-9a32-21a4a397316e",
+        "content_id": "2410ae3e-26f6-41d2-9acd-a5652c84e559",
+        "ordinal": 0
+      },
+      {
+        "lesson_id": "3488c71b-2a7c-46af-9a32-21a4a397316e",
+        "content_id": "3445ddcb-6167-4914-8576-bb540ff5c7c2",
+        "ordinal": 1
+      },
+      {
+        "lesson_id": "3488c71b-2a7c-46af-9a32-21a4a397316e",
+        "content_id": "f8b10953-16f7-45b5-8853-125282cab0e6",
+        "ordinal": 2
+      },
+      {
+        "lesson_id": "3488c71b-2a7c-46af-9a32-21a4a397316e",
+        "content_id": "c846a64a-fd96-49c1-bbda-fc1f7b3521fd",
+        "ordinal": 3
+      },
+      {
+        "lesson_id": "3488c71b-2a7c-46af-9a32-21a4a397316e",
+        "content_id": "35bf4fa9-52ca-412e-9e3b-feb46c5e4366",
+        "ordinal": 4
+      },
+      {
+        "lesson_id": "3488c71b-2a7c-46af-9a32-21a4a397316e",
+        "content_id": "1dab9d5f-0431-4e98-9346-3ce15988c806",
+        "ordinal": 5
+      },
+      {
+        "lesson_id": "3488c71b-2a7c-46af-9a32-21a4a397316e",
+        "content_id": "880226b3-37ed-4b0a-a7d0-d74a6aa31eb9",
+        "ordinal": 6
+      },
+      {
+        "lesson_id": "3488c71b-2a7c-46af-9a32-21a4a397316e",
+        "content_id": "7451513f-d31f-4ba2-95cb-50113fb2cff7",
+        "ordinal": 7
+      },
+      {
+        "lesson_id": "3488c71b-2a7c-46af-9a32-21a4a397316e",
+        "content_id": "f36ba331-862c-45f3-9cd8-e316cbedac8f",
+        "ordinal": 8
+      },
+      {
+        "lesson_id": "3488c71b-2a7c-46af-9a32-21a4a397316e",
+        "content_id": "35dcac87-4f6f-4f94-9e8b-1c2d1dab3168",
+        "ordinal": 9
+      },
+      {
+        "lesson_id": "0fe213ed-2dfd-4056-9630-418e5505ffc7",
+        "content_id": "67b92573-85a1-47ad-a069-4e4b992a63da",
+        "ordinal": 0
+      },
+      {
+        "lesson_id": "0fe213ed-2dfd-4056-9630-418e5505ffc7",
+        "content_id": "50a68c1b-f4a5-4680-9e1d-93f0c729c63d",
+        "ordinal": 1
+      },
+      {
+        "lesson_id": "0fe213ed-2dfd-4056-9630-418e5505ffc7",
+        "content_id": "2639697e-f0df-44f6-8c47-24d631c6a481",
+        "ordinal": 2
+      },
+      {
+        "lesson_id": "0fe213ed-2dfd-4056-9630-418e5505ffc7",
+        "content_id": "53765cb7-8046-475d-a035-eaf40cf6b9a5",
+        "ordinal": 3
+      },
+      {
+        "lesson_id": "0fe213ed-2dfd-4056-9630-418e5505ffc7",
+        "content_id": "8299adf3-5f41-4fce-bdae-b9e68d4eef5f",
+        "ordinal": 4
+      },
+      {
+        "lesson_id": "0fe213ed-2dfd-4056-9630-418e5505ffc7",
+        "content_id": "74586568-87ef-4dab-a0df-234fbe9ac05b",
+        "ordinal": 5
+      },
+      {
+        "lesson_id": "0fe213ed-2dfd-4056-9630-418e5505ffc7",
+        "content_id": "23ec1014-72ac-49eb-9099-774bf3713151",
+        "ordinal": 6
+      },
+      {
+        "lesson_id": "0fe213ed-2dfd-4056-9630-418e5505ffc7",
+        "content_id": "06cdb8ac-5424-4919-bf58-536dc3bfba24",
+        "ordinal": 7
+      },
+      {
+        "lesson_id": "0fe213ed-2dfd-4056-9630-418e5505ffc7",
+        "content_id": "51dd9448-f728-4e88-8c3e-5894a9883fa2",
+        "ordinal": 8
+      },
+      {
+        "lesson_id": "0fe213ed-2dfd-4056-9630-418e5505ffc7",
+        "content_id": "a3cc0cd1-7530-4052-bdec-49c486816764",
+        "ordinal": 9
+      },
+      {
+        "lesson_id": "d14277e7-a5d6-44b3-9dfc-c1a7e0ef5e8a",
+        "content_id": "fdf120b1-65af-420d-b311-12659bb4b645",
+        "ordinal": 0
+      },
+      {
+        "lesson_id": "d14277e7-a5d6-44b3-9dfc-c1a7e0ef5e8a",
+        "content_id": "10f80cc5-2bcb-4e58-90bb-2d2f85114701",
+        "ordinal": 1
+      },
+      {
+        "lesson_id": "d14277e7-a5d6-44b3-9dfc-c1a7e0ef5e8a",
+        "content_id": "a9dddb11-25fd-481e-80ec-ce48e1164ebb",
+        "ordinal": 2
+      },
+      {
+        "lesson_id": "d14277e7-a5d6-44b3-9dfc-c1a7e0ef5e8a",
+        "content_id": "1108cacd-fbb6-4da4-96fc-f316d7e99147",
+        "ordinal": 3
+      },
+      {
+        "lesson_id": "d14277e7-a5d6-44b3-9dfc-c1a7e0ef5e8a",
+        "content_id": "b26f608a-be53-4d84-8070-8ddbebc5f4b6",
+        "ordinal": 4
+      },
+      {
+        "lesson_id": "d14277e7-a5d6-44b3-9dfc-c1a7e0ef5e8a",
+        "content_id": "f15e83cc-6dcb-4a6f-8323-667f8328954d",
+        "ordinal": 5
+      },
+      {
+        "lesson_id": "d14277e7-a5d6-44b3-9dfc-c1a7e0ef5e8a",
+        "content_id": "72b61412-6705-47ab-9698-cf870517715d",
+        "ordinal": 6
+      }
+    ],
+    "sources": [
+      {
+        "id": "f504a0e9-5ba0-4b67-9905-8cc4d92e00a6",
+        "title": "国立国語院：ハングルの構成・標準発音法",
+        "citation": "文字の構成・現代字母の一覧を確認。日本語の説明と問題は本プロジェクトの独自執筆。発音の口頭評価は未実施。",
+        "url": "https://m.korean.go.kr/hangeul/principle/001.html",
+        "accessed_at": "2026-09-30"
+      }
+    ],
+    "item_sources": [
+      {
+        "content_id": "af7446a8-f23e-4bc7-8324-6e8112b5f7d8",
+        "source_id": "f504a0e9-5ba0-4b67-9905-8cc4d92e00a6",
+        "note": "文字構成・字母範囲の確認資料"
+      }
+    ]
+  }
+}

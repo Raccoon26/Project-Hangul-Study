@@ -1,0 +1,133 @@
+{
+  "synthetic_events": 300000,
+  "legacy_active_production_sessions": 20,
+  "query_ms": [
+    0.374,
+    0.031,
+    0.021,
+    0.018,
+    0.018,
+    0.017,
+    0.017,
+    0.017,
+    0.018,
+    0.019
+  ],
+  "plan": [
+    [
+      2,
+      0,
+      0,
+      "CO-ROUTINE (subquery-7)"
+    ],
+    [
+      3,
+      2,
+      0,
+      "COMPOUND QUERY"
+    ],
+    [
+      4,
+      3,
+      0,
+      "LEFT-MOST SUBQUERY"
+    ],
+    [
+      9,
+      4,
+      214,
+      "SCAN s USING INDEX idx_vocabulary_active"
+    ],
+    [
+      12,
+      4,
+      47,
+      "SEARCH v USING INDEX sqlite_autoindex_vocabulary_sets_1 (id=?)"
+    ],
+    [
+      25,
+      3,
+      0,
+      "UNION ALL"
+    ],
+    [
+      28,
+      25,
+      214,
+      "SCAN grammar_sessions USING INDEX idx_grammar_active"
+    ],
+    [
+      39,
+      3,
+      0,
+      "UNION ALL"
+    ],
+    [
+      42,
+      39,
+      214,
+      "SCAN production_sessions USING INDEX idx_production_active"
+    ],
+    [
+      54,
+      39,
+      0,
+      "CORRELATED SCALAR SUBQUERY 3"
+    ],
+    [
+      60,
+      54,
+      61,
+      "SEARCH e USING INDEX idx_events_item_date (content_id=?)"
+    ],
+    [
+      83,
+      3,
+      0,
+      "UNION ALL"
+    ],
+    [
+      86,
+      83,
+      214,
+      "SCAN listening_sessions USING INDEX idx_listening_active"
+    ],
+    [
+      100,
+      3,
+      0,
+      "UNION ALL"
+    ],
+    [
+      103,
+      100,
+      214,
+      "SCAN lesson_sessions USING INDEX idx_one_active_lesson"
+    ],
+    [
+      114,
+      3,
+      0,
+      "UNION ALL"
+    ],
+    [
+      117,
+      114,
+      214,
+      "SCAN review_sessions USING INDEX idx_review_active"
+    ],
+    [
+      141,
+      0,
+      216,
+      "SCAN (subquery-7)"
+    ],
+    [
+      157,
+      0,
+      0,
+      "USE TEMP B-TREE FOR ORDER BY"
+    ]
+  ],
+  "scope": "real repository SQL; not iPhone launch measurement"
+}

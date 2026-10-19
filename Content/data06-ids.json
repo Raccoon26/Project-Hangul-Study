@@ -1,0 +1,642 @@
+[
+  {
+    "id": "037f6902-0417-4ef9-83b7-60440b9911f3",
+    "question_id": "461671d6-a3d3-45fe-8d0d-2ef9d5017a77",
+    "source_example_id": "1bbc9e7a-bbbc-4fd7-af69-e511593178d0",
+    "task": "meaning",
+    "level": "beginner",
+    "learning_order": 60
+  },
+  {
+    "id": "be4e86d8-568a-4d6c-9bcf-db11b732cbe9",
+    "question_id": "64d7d187-ac0f-4aa7-99ad-7ee82f04e91f",
+    "source_example_id": "3e367dbe-d3f0-4e90-9e08-689874e08355",
+    "task": "korean",
+    "level": "intro",
+    "learning_order": 60
+  },
+  {
+    "id": "a472065e-549d-4764-9f64-4c59367df9c3",
+    "question_id": "03b273e3-6863-4e4d-89a3-2dec29e2d905",
+    "source_example_id": "c4ab9f84-b13a-46eb-9424-72afddfa2684",
+    "task": "dictation",
+    "level": "beginner",
+    "learning_order": 61
+  },
+  {
+    "id": "332b775d-4bf3-4a00-89d8-9b9b92973835",
+    "question_id": "19372f99-ba3e-4250-8313-a2cb65dabe4f",
+    "source_example_id": "a61a66c0-0c0e-4700-a8e1-6f082412b812",
+    "task": "comprehension",
+    "level": "beginner",
+    "learning_order": 62
+  },
+  {
+    "id": "76b89c3f-63c3-4b73-93ad-de6d70baf508",
+    "question_id": "98e5906a-54f5-4666-8ac0-2bab7e7433eb",
+    "source_example_id": "aefde064-698c-4c62-bec3-6695cb9865a2",
+    "task": "meaning",
+    "level": "beginner",
+    "learning_order": 63
+  },
+  {
+    "id": "891702b1-840b-4c3e-9333-8454bc4994d6",
+    "question_id": "9ac3d127-0a6b-4b0e-99db-394359040c5f",
+    "source_example_id": "9eb7b262-9891-45e0-b63b-7cfc13339355",
+    "task": "korean",
+    "level": "intro",
+    "learning_order": 61
+  },
+  {
+    "id": "09832ff5-ed62-4615-aa3f-7764dfbda7d3",
+    "question_id": "35ece7dc-c626-4f83-b193-00cee99bd2f1",
+    "source_example_id": "9f78f6d0-fab4-41f0-ba52-d8bee9a5fc01",
+    "task": "dictation",
+    "level": "beginner",
+    "learning_order": 64
+  },
+  {
+    "id": "45933bf3-7516-4e54-b557-9a8bd5191243",
+    "question_id": "da46475a-37e2-47ad-ae0d-15ac8d5f6246",
+    "source_example_id": "76c17f60-4c90-43d6-bc8f-2613fe5ba87b",
+    "task": "comprehension",
+    "level": "beginner",
+    "learning_order": 65
+  },
+  {
+    "id": "f3445ba8-d392-4689-a253-ee9ece87dcce",
+    "question_id": "677c7e69-e2f0-489d-95b0-3ad4c5efad8a",
+    "source_example_id": "4c679837-6b80-4f61-a1de-c823f42d0207",
+    "task": "meaning",
+    "level": "beginner",
+    "learning_order": 66
+  },
+  {
+    "id": "0011105f-70b5-4feb-a6d6-9eee056452f4",
+    "question_id": "3ffa8d03-6839-4c29-8534-f7d8f5d1d599",
+    "source_example_id": "e04fd43d-64b8-42e4-a6dd-066db5f5061a",
+    "task": "korean",
+    "level": "intro",
+    "learning_order": 62
+  },
+  {
+    "id": "810ae83c-800a-47c5-9495-f56bfc17aa70",
+    "question_id": "614cf107-fd69-4344-b4c3-c95b44110e27",
+    "source_example_id": "f1002b11-a4ee-45bc-a0e8-c1d0dd61955d",
+    "task": "dictation",
+    "level": "beginner",
+    "learning_order": 67
+  },
+  {
+    "id": "95f91089-1612-4a31-be8a-30b48f141bbc",
+    "question_id": "8c2ca378-cc67-4bcd-97e1-edf03b0d517d",
+    "source_example_id": "aaaefa33-f4c5-420f-9509-c29723e419bf",
+    "task": "comprehension",
+    "level": "beginner",
+    "learning_order": 68
+  },
+  {
+    "id": "f1d8e544-8e1e-4824-bfff-78d254dffcae",
+    "question_id": "828aa53f-a1b4-43cc-8dc7-5c473d32b1bf",
+    "source_example_id": "9e24bc7d-7561-4789-bfc5-ef98d44618c5",
+    "task": "meaning",
+    "level": "beginner",
+    "learning_order": 69
+  },
+  {
+    "id": "09cc8e8c-047d-4145-a876-cf28606821d3",
+    "question_id": "c3164c63-1b74-43b9-9541-ef70bd5b4213",
+    "source_example_id": "c02f23f2-d007-4df0-a1cc-10a3df21d77a",
+    "task": "korean",
+    "level": "intro",
+    "learning_order": 63
+  },
+  {
+    "id": "07fa4fd3-1057-44f7-bfd3-674b83bf4c54",
+    "question_id": "64d91cab-9b4e-4f33-8b27-940d3e758890",
+    "source_example_id": "a4763b30-c573-4dc9-b783-ea6f999482a7",
+    "task": "dictation",
+    "level": "beginner",
+    "learning_order": 70
+  },
+  {
+    "id": "af987933-cfb1-4ea1-8e74-750fe7dab7ef",
+    "question_id": "4490909a-8830-409e-8df6-e8fed9ad5a9c",
+    "source_example_id": "9d4967b7-8964-4ab0-b4d5-46b09d0c739e",
+    "task": "comprehension",
+    "level": "beginner",
+    "learning_order": 71
+  },
+  {
+    "id": "f3d93e8e-7e8e-4dbb-882d-580e9459b102",
+    "question_id": "865d3856-37da-4d71-9e79-33a2a64d0c13",
+    "source_example_id": "6da6acdb-c85c-4d74-b77d-4d439647570c",
+    "task": "meaning",
+    "level": "beginner",
+    "learning_order": 72
+  },
+  {
+    "id": "60fc8f95-d34b-4296-8147-a63de1d04421",
+    "question_id": "3dbee9fb-65e7-40b3-a70f-3a2db07b1278",
+    "source_example_id": "70f92a9f-bee8-478e-81b6-8273b991bfb3",
+    "task": "korean",
+    "level": "intro",
+    "learning_order": 64
+  },
+  {
+    "id": "53effe1a-c34f-4795-964d-7cea3d5f7b7d",
+    "question_id": "4f66e737-9eb4-4e9c-9d7d-a47ecc850cac",
+    "source_example_id": "4df35a6f-2597-4ebb-8e37-64edd5904529",
+    "task": "dictation",
+    "level": "beginner",
+    "learning_order": 73
+  },
+  {
+    "id": "30ab092a-7266-4b39-b7a7-edfb366a71db",
+    "question_id": "ea67c682-1fdd-46a2-8f1b-34e4ecfc088c",
+    "source_example_id": "f24663ce-1110-42a0-8301-8a6344df3c9d",
+    "task": "comprehension",
+    "level": "beginner",
+    "learning_order": 74
+  },
+  {
+    "id": "f79d6979-0dec-488e-8f04-3c277e480343",
+    "question_id": "27a3fbca-c1ff-4169-a0ca-e5f7dff4d9af",
+    "source_example_id": "3a2b3451-d7d3-4bb4-a16e-c9bce7e2e0e1",
+    "task": "meaning",
+    "level": "beginner",
+    "learning_order": 75
+  },
+  {
+    "id": "92ce48ea-6850-4201-b1c7-d010516b3e2f",
+    "question_id": "5371dde0-89a6-451b-8d91-760eb6943d7b",
+    "source_example_id": "028e3051-3c69-4c39-92f6-23e0afa58898",
+    "task": "korean",
+    "level": "intro",
+    "learning_order": 65
+  },
+  {
+    "id": "d6ac5186-ce79-4aab-8fb5-69cf189f59f5",
+    "question_id": "436ffa71-dd6d-45a8-9201-950a1f206b43",
+    "source_example_id": "eafa606f-e4c9-43ac-aa00-41d664ca9820",
+    "task": "dictation",
+    "level": "beginner",
+    "learning_order": 76
+  },
+  {
+    "id": "e943fab2-c339-44a9-bb5e-7fc181745800",
+    "question_id": "41f2fba8-b5db-410a-9a78-bc1f31efa2a6",
+    "source_example_id": "81c96070-ce4d-46d5-967b-efa66b58ec8b",
+    "task": "comprehension",
+    "level": "beginner",
+    "learning_order": 77
+  },
+  {
+    "id": "07312c09-d4f1-447a-a7e0-dcbfca5fb723",
+    "question_id": "0fe29bed-070d-4526-9004-17605f66d10b",
+    "source_example_id": "91a4b933-3107-4dd7-be6b-463731dfc169",
+    "task": "meaning",
+    "level": "beginner",
+    "learning_order": 78
+  },
+  {
+    "id": "027d22ab-793a-4def-b87e-dac59a1253cb",
+    "question_id": "53e10f35-b378-4c15-9f2f-722cfdd6d15b",
+    "source_example_id": "4b971d5e-ae0a-4e9f-9c6e-ca02099abd03",
+    "task": "korean",
+    "level": "intro",
+    "learning_order": 66
+  },
+  {
+    "id": "54405cd4-92e8-4345-a9ff-e6f27abff9c0",
+    "question_id": "16010bdc-d98c-4789-8abb-eb9bef75805c",
+    "source_example_id": "aa7609ba-6b07-4e9f-938a-514e53dbc8a6",
+    "task": "dictation",
+    "level": "beginner",
+    "learning_order": 79
+  },
+  {
+    "id": "f60ee6c4-30e8-473e-83e9-b486721320d1",
+    "question_id": "b6f2908b-c2bd-4d73-a59e-c6f7d9609769",
+    "source_example_id": "e68ebd0b-97aa-466c-aac1-460afd4acca2",
+    "task": "comprehension",
+    "level": "beginner",
+    "learning_order": 80
+  },
+  {
+    "id": "084103b4-36aa-4734-b924-fd5a64a3a0f8",
+    "question_id": "f6510de9-d73a-4628-8039-033059c6c03b",
+    "source_example_id": "24ae8d95-7d12-4cf4-bdee-769cfdf98539",
+    "task": "meaning",
+    "level": "beginner",
+    "learning_order": 81
+  },
+  {
+    "id": "8aa6d60a-0b7f-423c-9b63-40edfcfbe0f8",
+    "question_id": "9b083d2b-80cc-4726-bb8b-fcd2b362414f",
+    "source_example_id": "73cdcada-06ae-48cd-a996-6c96e54ced24",
+    "task": "korean",
+    "level": "intro",
+    "learning_order": 67
+  },
+  {
+    "id": "6d3ad448-df0d-4158-85b7-b67909fb5934",
+    "question_id": "c33c47b1-c0cd-4f8c-8be6-d5885172aaa8",
+    "source_example_id": "4be300e8-2a0a-4dde-a802-b343dae2f99d",
+    "task": "dictation",
+    "level": "beginner",
+    "learning_order": 82
+  },
+  {
+    "id": "4ed999ad-ba71-4530-9072-cd0654cd4dde",
+    "question_id": "03159240-aef2-44de-a8fd-8a47d361d44b",
+    "source_example_id": "0f99bd3f-1556-4c8e-8b46-c5bd1ff4075a",
+    "task": "comprehension",
+    "level": "beginner",
+    "learning_order": 83
+  },
+  {
+    "id": "0a7f58a9-58b8-4c70-8819-703d6ff5ef97",
+    "question_id": "1ae48a38-7104-48ba-8ebc-579f8e7b4ffa",
+    "source_example_id": "10ffcb09-3bda-47dd-bbe8-4346fa315b73",
+    "task": "meaning",
+    "level": "beginner",
+    "learning_order": 84
+  },
+  {
+    "id": "479f0d28-12a0-4f2a-bf0b-8c527a8c6ea1",
+    "question_id": "ec911783-bfb9-464f-8b0e-42340cc0bdb6",
+    "source_example_id": "1a4d6c98-f956-4b3e-b17f-4e8539a1ca78",
+    "task": "korean",
+    "level": "intro",
+    "learning_order": 68
+  },
+  {
+    "id": "9ba5ee0f-b92b-4fc0-b3e5-f0b2742f3b60",
+    "question_id": "5002e4af-0e9b-43d1-997a-34fe4637f2ce",
+    "source_example_id": "e2f9a179-cdc6-4dbd-b23b-9051fd642251",
+    "task": "dictation",
+    "level": "beginner",
+    "learning_order": 85
+  },
+  {
+    "id": "3702b065-27c9-47d5-b907-6e932da35673",
+    "question_id": "00ac7e22-16e8-4ed7-bcf1-10d8e8b57abc",
+    "source_example_id": "194a4be0-e9e4-481d-98d5-8b6baf518013",
+    "task": "comprehension",
+    "level": "beginner",
+    "learning_order": 86
+  },
+  {
+    "id": "3a3b3ce9-b80d-4c8e-8ce8-19fd8c019f63",
+    "question_id": "89f7f90a-30de-4375-bede-95afb3bf211d",
+    "source_example_id": "a54756e2-6ad6-44f0-a70b-bbfd3ff066c6",
+    "task": "meaning",
+    "level": "beginner",
+    "learning_order": 87
+  },
+  {
+    "id": "9da4d3a1-0e4b-4264-bb81-e874fa296c70",
+    "question_id": "d60d3355-f8aa-4d2c-a088-afec190fb033",
+    "source_example_id": "b003660f-c794-49c0-8422-bc5ac3ac1fb0",
+    "task": "korean",
+    "level": "intro",
+    "learning_order": 69
+  },
+  {
+    "id": "d8f0608e-f560-4ded-9aea-43b5dfd2581e",
+    "question_id": "6ea71fba-db44-465d-ae2b-8afb195f0a67",
+    "source_example_id": "08b7c803-215d-45fb-b331-957fcd85f374",
+    "task": "dictation",
+    "level": "beginner",
+    "learning_order": 88
+  },
+  {
+    "id": "091f6981-ee07-426f-a6d0-b1bbf83b68f1",
+    "question_id": "551910c7-fb5c-4589-9e7e-15d3ea4d88b5",
+    "source_example_id": "c9cbdbaa-7fde-4529-9f2b-4961e7b338d7",
+    "task": "comprehension",
+    "level": "beginner",
+    "learning_order": 89
+  },
+  {
+    "id": "ac580080-57f3-4a6d-b88d-864109c727d5",
+    "question_id": "b116ec9a-7b3f-4ccf-8630-518e8392681d",
+    "source_example_id": "ddcea803-5d42-4bed-bcbb-729e5f49a804",
+    "task": "meaning",
+    "level": "beginner",
+    "learning_order": 90
+  },
+  {
+    "id": "97c3f290-61cb-4b34-bb9c-8071a767dc1a",
+    "question_id": "4466aa9c-4280-444c-ae2b-bf258e712cdc",
+    "source_example_id": "73b5cdcf-4234-482d-971e-efa979c0b190",
+    "task": "korean",
+    "level": "intro",
+    "learning_order": 70
+  },
+  {
+    "id": "db711abe-ec12-4aa5-a956-a216bd5417dd",
+    "question_id": "3ad4af3b-09a4-431a-911f-1c19f9c6202b",
+    "source_example_id": "eb00d76c-aba4-4572-8994-4e5019180768",
+    "task": "dictation",
+    "level": "beginner",
+    "learning_order": 91
+  },
+  {
+    "id": "4b3c30f4-0589-405f-a9ae-5b4877316db7",
+    "question_id": "60f47ad6-1427-42ea-a896-3451e5e0c365",
+    "source_example_id": "54630aef-9a85-493c-a122-38862eeb1bd3",
+    "task": "comprehension",
+    "level": "beginner",
+    "learning_order": 92
+  },
+  {
+    "id": "5e3e7ebb-29fe-422c-989a-0bfdaa7ba347",
+    "question_id": "ce127c1c-f65b-47dd-a7c8-753139d6f4f8",
+    "source_example_id": "2b6f7536-f544-4886-8065-3f7bc094f733",
+    "task": "meaning",
+    "level": "beginner",
+    "learning_order": 93
+  },
+  {
+    "id": "80919dcd-274b-491f-9f74-dddadf222ab0",
+    "question_id": "088fb2ff-c187-42cf-a28c-70ce1f8b1ba2",
+    "source_example_id": "ee7fe3f1-725a-4c1f-9f10-392926a09ffb",
+    "task": "korean",
+    "level": "intro",
+    "learning_order": 71
+  },
+  {
+    "id": "016361b4-b520-485e-a0ce-ecf1e4af8f26",
+    "question_id": "90e6878b-12a4-4a6d-8031-c83b05113549",
+    "source_example_id": "2531cfff-0b57-472c-bee0-f9fb8de00ddb",
+    "task": "dictation",
+    "level": "beginner",
+    "learning_order": 94
+  },
+  {
+    "id": "5a92d83c-79a8-49ea-b20e-897b22340edf",
+    "question_id": "79fe1dcd-c8d9-481b-bb8b-ee93b258e994",
+    "source_example_id": "c1e08e3b-6d03-4ce4-ac5c-9d13ee6d0cf2",
+    "task": "comprehension",
+    "level": "beginner",
+    "learning_order": 95
+  },
+  {
+    "id": "87c85bf0-8aec-488d-b66f-223f0182dd93",
+    "question_id": "f4e1498a-1539-4428-a1ae-33d3afc034d3",
+    "source_example_id": "0309e1bd-8367-430d-b350-aa03a1c217e3",
+    "task": "meaning",
+    "level": "beginner",
+    "learning_order": 96
+  },
+  {
+    "id": "1e83bc64-9711-436f-aba1-b3d24b5f95ff",
+    "question_id": "bf8d70bb-eeec-4c03-9f9c-1d90ad3f8289",
+    "source_example_id": "108354c0-54f5-42e4-bf91-de547dc43936",
+    "task": "korean",
+    "level": "intro",
+    "learning_order": 72
+  },
+  {
+    "id": "e2665823-9f14-4d68-9e3a-ed7997ee2e07",
+    "question_id": "6afaa6ef-7737-444f-be04-1425268d1da4",
+    "source_example_id": "d3e49cba-bd69-4f72-8ea3-eff5a6c1b6f3",
+    "task": "dictation",
+    "level": "beginner",
+    "learning_order": 97
+  },
+  {
+    "id": "ac3f2397-691c-4bb5-8ed9-b8cf3fe81e02",
+    "question_id": "f3aaf485-ca31-4ea2-b1be-e102c21ad298",
+    "source_example_id": "d42393f3-f4ca-410a-8749-c5ece8823992",
+    "task": "comprehension",
+    "level": "beginner",
+    "learning_order": 98
+  },
+  {
+    "id": "f4ef9948-9277-44c0-b0f5-b74765eca2a9",
+    "question_id": "15c37cae-8883-4180-83e5-1de928592ed4",
+    "source_example_id": "76dcc034-4b18-4b2b-93fc-2867cdbcad71",
+    "task": "meaning",
+    "level": "beginner",
+    "learning_order": 99
+  },
+  {
+    "id": "b9b87c1d-3684-4e08-b22e-86de2ed53f09",
+    "question_id": "ad39906f-5b71-4b20-9922-d814330cf455",
+    "source_example_id": "8ff949b1-952e-46d0-9394-e9e425fc5df3",
+    "task": "korean",
+    "level": "intro",
+    "learning_order": 73
+  },
+  {
+    "id": "3db6f0e9-f55a-490e-a2e7-55557be32c44",
+    "question_id": "7da8a7ec-f6c1-4b8d-808d-19d515650455",
+    "source_example_id": "80cc7610-a5cc-4a47-927a-4867fb5cd324",
+    "task": "dictation",
+    "level": "beginner",
+    "learning_order": 100
+  },
+  {
+    "id": "1efecc96-6b6f-4826-8634-a16ef6785818",
+    "question_id": "4fffa4ef-10ff-44c5-ad07-bc9e75143b3a",
+    "source_example_id": "f1b9e9f3-bf82-41a0-93ae-bc63f588dd43",
+    "task": "comprehension",
+    "level": "beginner",
+    "learning_order": 101
+  },
+  {
+    "id": "d2b0947e-6e70-4ec0-99a8-6744b3cb5107",
+    "question_id": "0015cce5-1631-4a33-9b23-0a2987f887d7",
+    "source_example_id": "242325d7-b12d-475a-bc62-13df081ec70b",
+    "task": "meaning",
+    "level": "beginner",
+    "learning_order": 102
+  },
+  {
+    "id": "bf3cb197-58ca-4071-99c5-1afbd499c5ac",
+    "question_id": "40b8c99e-d732-466a-8e4e-daba9517a41f",
+    "source_example_id": "e7238095-3b6e-468f-934d-df69802aabaf",
+    "task": "korean",
+    "level": "intro",
+    "learning_order": 74
+  },
+  {
+    "id": "89a6f7e9-ce54-4581-9faa-0e020a474ec0",
+    "question_id": "a3828787-1545-409d-8ed4-f70a514cba91",
+    "source_example_id": "3ea8df42-98e3-4e8c-b373-e10f6d5f8d00",
+    "task": "dictation",
+    "level": "beginner",
+    "learning_order": 103
+  },
+  {
+    "id": "22684bfb-bc98-40f2-89c3-929ea06589e8",
+    "question_id": "2d5fa65d-87d2-4b70-8b23-ac2e61d6a499",
+    "source_example_id": "6e53fa65-ece8-4c08-a174-e9b89eb518f7",
+    "task": "comprehension",
+    "level": "beginner",
+    "learning_order": 104
+  },
+  {
+    "id": "3d0e086a-df3b-43cc-a9bb-4c1f00b074f9",
+    "question_id": "7346402d-9bab-46ff-9927-368c9088bad2",
+    "source_example_id": "73d9df51-d4f4-46a7-91ce-ae5314f345df",
+    "task": "meaning",
+    "level": "beginner",
+    "learning_order": 105
+  },
+  {
+    "id": "27ccb134-476c-4d2a-9a79-46a93240dd60",
+    "question_id": "64e2fc74-af44-46c9-b939-aec0bff10894",
+    "source_example_id": "09e8672a-7706-4a3e-8666-0184b342a5c1",
+    "task": "korean",
+    "level": "intro",
+    "learning_order": 75
+  },
+  {
+    "id": "c4ad2d42-2f33-4581-988c-a634070a1266",
+    "question_id": "8a81e149-cc7c-4875-aeef-e3b971747f31",
+    "source_example_id": "72a7a88e-8180-4015-bd43-9206676b3052",
+    "task": "dictation",
+    "level": "beginner",
+    "learning_order": 106
+  },
+  {
+    "id": "9217608b-6aa6-4acc-b053-c27773195383",
+    "question_id": "793a7e9a-8ed0-4379-8ed6-f165e904e78b",
+    "source_example_id": "f80bdaf0-ddf3-4af4-a8b8-2ef6342e80e8",
+    "task": "comprehension",
+    "level": "beginner",
+    "learning_order": 107
+  },
+  {
+    "id": "b1bcb160-aea2-43fc-9b5d-7213031d4a66",
+    "question_id": "5385d4b9-bff5-4500-8111-3312ef56d1e1",
+    "source_example_id": "9da93880-b2bd-40eb-9176-9478f0f5bfe7",
+    "task": "meaning",
+    "level": "beginner",
+    "learning_order": 108
+  },
+  {
+    "id": "34b1b1b1-cf1c-41ea-9af4-f9705d38fa01",
+    "question_id": "79822150-a8dd-47cc-944f-772b450bfadb",
+    "source_example_id": "c949dd5b-cc87-466d-9b8b-8e4411edc156",
+    "task": "korean",
+    "level": "intro",
+    "learning_order": 76
+  },
+  {
+    "id": "617654d7-24be-4f5d-b6fd-cfb3b249c0ec",
+    "question_id": "5ce11b15-4717-4f97-ae57-ac7dd0868d9d",
+    "source_example_id": "342ad659-2e9f-4028-8b79-bf93e87e1397",
+    "task": "dictation",
+    "level": "beginner",
+    "learning_order": 109
+  },
+  {
+    "id": "7a01b785-c82f-4e5e-8811-ee62fca1616e",
+    "question_id": "cc46481e-19fc-40ce-b9db-b77defdded65",
+    "source_example_id": "3d5ced1d-ea7c-46f8-9c5d-1843d75c8a2a",
+    "task": "comprehension",
+    "level": "beginner",
+    "learning_order": 110
+  },
+  {
+    "id": "080d83bd-9a7c-40df-b719-8be4476d5504",
+    "question_id": "d7a0cc04-1e24-4690-890f-2d3bb8f81847",
+    "source_example_id": "53b81646-7657-49ad-98a5-837c19f59572",
+    "task": "meaning",
+    "level": "beginner",
+    "learning_order": 111
+  },
+  {
+    "id": "2136d549-ee6f-4edf-b3f9-98193176d5b6",
+    "question_id": "1a747892-4e62-426f-b13c-4c125d66cbbd",
+    "source_example_id": "f6c1c8ea-0f1b-40e9-9cb9-48d474617895",
+    "task": "korean",
+    "level": "intro",
+    "learning_order": 77
+  },
+  {
+    "id": "c917e8cc-59af-41ec-a133-988044fc9947",
+    "question_id": "7cd521a1-b68c-4a7f-ac89-7de1f6e6838d",
+    "source_example_id": "fd56f01c-f15d-4dc3-889f-1006c872c9d9",
+    "task": "dictation",
+    "level": "beginner",
+    "learning_order": 112
+  },
+  {
+    "id": "60b86440-9b7a-41dd-95a1-c0dc3e931a51",
+    "question_id": "37192cbc-6b3f-4033-b1ac-a869e464f39a",
+    "source_example_id": "e7ba1f52-7bf4-4064-8121-7ae2be085e75",
+    "task": "comprehension",
+    "level": "intro",
+    "learning_order": 78
+  },
+  {
+    "id": "e1ab11a1-ce35-4336-844d-03ad4ce33373",
+    "question_id": "4b7e016c-cbd0-468a-908a-ac921ba9e8fc",
+    "source_example_id": "f5e32285-c5f9-474c-8f68-0d16272ecdee",
+    "task": "meaning",
+    "level": "beginner",
+    "learning_order": 113
+  },
+  {
+    "id": "a7e9284e-1713-4847-a570-d162566fd80f",
+    "question_id": "07f4969c-72b0-418e-abfb-88f14b762b73",
+    "source_example_id": "7ba735ac-7d85-43c9-b865-bb3786f3cf6b",
+    "task": "korean",
+    "level": "intro",
+    "learning_order": 79
+  },
+  {
+    "id": "e82f78e0-7f61-4ad9-aabf-bb00c851ada2",
+    "question_id": "c0328420-8325-4c44-a549-c8c6ae411738",
+    "source_example_id": "6eb1c82c-4b13-4c7b-a48e-54c65c58df13",
+    "task": "dictation",
+    "level": "beginner",
+    "learning_order": 114
+  },
+  {
+    "id": "6510b327-ed37-4280-85da-672ca89295ed",
+    "question_id": "35d15265-5989-4382-994c-582e87aab725",
+    "source_example_id": "56105761-b606-4e82-9396-d80bbc941be3",
+    "task": "comprehension",
+    "level": "beginner",
+    "learning_order": 115
+  },
+  {
+    "id": "67e98349-58a5-418d-b683-8cb51852d0b0",
+    "question_id": "a10e3778-dae2-4ff2-9756-7a56192ddead",
+    "source_example_id": "2367063f-25ea-49be-bbe9-bd193baadc8a",
+    "task": "meaning",
+    "level": "beginner",
+    "learning_order": 116
+  },
+  {
+    "id": "a995a5c9-56cc-4e44-b098-7bb1e2ded5dc",
+    "question_id": "201c681f-7377-44bf-a53f-60250d8afbb6",
+    "source_example_id": "940a5919-b3c6-4047-9c23-e83daccce686",
+    "task": "korean",
+    "level": "intro",
+    "learning_order": 80
+  },
+  {
+    "id": "d3b48e41-d352-45fe-af39-737390d4c21f",
+    "question_id": "f3ec506a-d278-4ac0-8b39-4b97915030eb",
+    "source_example_id": "e271c4c4-6cd0-404b-bde7-65b2fd731287",
+    "task": "dictation",
+    "level": "beginner",
+    "learning_order": 117
+  },
+  {
+    "id": "fb20ed0c-aef9-473b-86c0-afc39b1a85e6",
+    "question_id": "c0b68ef4-c473-4145-873e-8ca5fd2a6738",
+    "source_example_id": "e589668c-4541-450c-8c96-0eb6fa575ed7",
+    "task": "comprehension",
+    "level": "beginner",
+    "learning_order": 118
+  }
+]

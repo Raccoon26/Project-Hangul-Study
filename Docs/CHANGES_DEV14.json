@@ -1,0 +1,206 @@
+[
+  {
+    "file": "RELEASE_CHECKLIST.md",
+    "change": "modified"
+  },
+  {
+    "file": "DATA_PROGRESS.md",
+    "change": "modified"
+  },
+  {
+    "file": ".gitignore",
+    "change": "added"
+  },
+  {
+    "file": "CONTENT_GUIDE.md",
+    "change": "modified"
+  },
+  {
+    "file": "PROJECT_STATUS.md",
+    "change": "modified"
+  },
+  {
+    "file": "README.md",
+    "change": "modified"
+  },
+  {
+    "file": "Services/AdService.swift",
+    "change": "modified"
+  },
+  {
+    "file": "Utilities/LearningErrorMessage.swift",
+    "change": "added"
+  },
+  {
+    "file": "Utilities/StudyDay.swift",
+    "change": "modified"
+  },
+  {
+    "file": "Tests/ReleaseAuditTests.swift",
+    "change": "added"
+  },
+  {
+    "file": "Docs/DEV-13_STATUS.md",
+    "change": "added"
+  },
+  {
+    "file": "Docs/TEST_RESULTS_DEV14_FINAL.txt",
+    "change": "added"
+  },
+  {
+    "file": "Docs/INTEGRATION_DEV14.txt",
+    "change": "added"
+  },
+  {
+    "file": "Docs/ARCHITECTURE.md",
+    "change": "modified"
+  },
+  {
+    "file": "Docs/TEST_RESULTS_DEV14.txt",
+    "change": "added"
+  },
+  {
+    "file": "Docs/STATIC_AUDIT_DEV14.json",
+    "change": "added"
+  },
+  {
+    "file": "Docs/PERFORMANCE_SCALE_DEV14.json",
+    "change": "added"
+  },
+  {
+    "file": "Docs/PERFORMANCE_LOOKUP_DEV14.json",
+    "change": "added"
+  },
+  {
+    "file": "Docs/DEV14_REQUIREMENTS_AUDIT.md",
+    "change": "added"
+  },
+  {
+    "file": "Docs/PERFORMANCE_STATISTICS_DEV14.json",
+    "change": "added"
+  },
+  {
+    "file": "Docs/VALIDATION_DEV14.json",
+    "change": "added"
+  },
+  {
+    "file": "Persistence/SQLiteConnection.swift",
+    "change": "modified"
+  },
+  {
+    "file": "Repositories/SQLiteGrammarProgress.swift",
+    "change": "modified"
+  },
+  {
+    "file": "Repositories/SQLiteStatistics.swift",
+    "change": "modified"
+  },
+  {
+    "file": "Repositories/SQLiteListening.swift",
+    "change": "modified"
+  },
+  {
+    "file": "Repositories/SQLiteProgressRepository.swift",
+    "change": "modified"
+  },
+  {
+    "file": "Repositories/SQLiteProduction.swift",
+    "change": "modified"
+  },
+  {
+    "file": "Repositories/RepositoryProtocols.swift",
+    "change": "modified"
+  },
+  {
+    "file": "Views/GrammarLearningViews.swift",
+    "change": "modified"
+  },
+  {
+    "file": "Views/ListeningView.swift",
+    "change": "modified"
+  },
+  {
+    "file": "Views/RecordsView.swift",
+    "change": "modified"
+  },
+  {
+    "file": "Views/LookupView.swift",
+    "change": "modified"
+  },
+  {
+    "file": "Views/VocabularyStudySetsView.swift",
+    "change": "modified"
+  },
+  {
+    "file": "Views/ProductionView.swift",
+    "change": "modified"
+  },
+  {
+    "file": "Views/LookupDetailView.swift",
+    "change": "modified"
+  },
+  {
+    "file": "Views/LearnView.swift",
+    "change": "modified"
+  },
+  {
+    "file": "Views/CurriculumResumeView.swift",
+    "change": "modified"
+  },
+  {
+    "file": "Views/PlacementView.swift",
+    "change": "modified"
+  },
+  {
+    "file": "Views/CurriculumView.swift",
+    "change": "modified"
+  },
+  {
+    "file": "Views/RemoveAdsView.swift",
+    "change": "modified"
+  },
+  {
+    "file": "ViewModels/AppModel.swift",
+    "change": "modified"
+  },
+  {
+    "file": "ViewModels/LessonViewModel.swift",
+    "change": "modified"
+  },
+  {
+    "file": "ViewModels/GrammarViewModel.swift",
+    "change": "modified"
+  },
+  {
+    "file": "ViewModels/LookupViewModel.swift",
+    "change": "modified"
+  },
+  {
+    "file": "ViewModels/VocabularyStudyViewModel.swift",
+    "change": "modified"
+  },
+  {
+    "file": "HangulStudy.xcodeproj/project.pbxproj",
+    "change": "modified"
+  },
+  {
+    "file": "LearningEngine/ConjugationEngine.swift",
+    "change": "modified"
+  },
+  {
+    "file": "Tools/verify.sh",
+    "change": "modified"
+  },
+  {
+    "file": "Tools/ContentBuilder/test_data06_content.py",
+    "change": "modified"
+  },
+  {
+    "file": "Tools/ContentBuilder/test_listening_content.py",
+    "change": "modified"
+  },
+  {
+    "file": "Tools/ContentBuilder/test_dev14_audit.py",
+    "change": "added"
+  }
+]

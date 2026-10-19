@@ -1,0 +1,9 @@
+DEV-08 Linux static verification
+Swift tree-sitter syntax: 58 files, no errors. NOT type-check.
+All Swift files and migration v7 in Xcode project. plist/XML valid.
+SQLite integrity_check ok; foreign_key_check empty.
+6 critical audio/grammar/vocabulary/SRS engine/repository files byte-identical to DEV-07.
+v8 previous DB byte-identical to DEV-07 bundle. No file removed.
+Native XCTest: 71 authored, NOT EXECUTED.
+Xcode/Swift compiler/iOS simulator unavailable: native build, XCTest, keyboard/audio/accessibility not executed.
+DB SHA256: 0254c48c50847445808386e315a5b8ef6ab1049399b1fb125e1192cc62922745

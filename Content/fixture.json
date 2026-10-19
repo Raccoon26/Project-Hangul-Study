@@ -1,0 +1,193 @@
+{
+  "metadata": {
+    "schema_version": 2,
+    "content_version": 2,
+    "min_reader_version": 2,
+    "dataset_id": "dev-fixture",
+    "is_fixture": 1,
+    "source_locale": "ja",
+    "target_locale": "ko"
+  },
+  "tables": {
+    "content_items": [
+      {
+        "id": "00000000-0000-4000-8000-000000000001",
+        "kind": "vocabulary",
+        "revision": 2,
+        "is_active": 1,
+        "level": "intro",
+        "created_at": "2026-09-30T00:00:00Z",
+        "updated_at": "2026-09-30T00:00:00Z"
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000000002",
+        "kind": "meaning",
+        "revision": 2,
+        "is_active": 1,
+        "level": "intro",
+        "created_at": "2026-09-30T00:00:00Z",
+        "updated_at": "2026-09-30T00:00:00Z"
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000000003",
+        "kind": "example",
+        "revision": 2,
+        "is_active": 1,
+        "level": "intro",
+        "created_at": "2026-09-30T00:00:00Z",
+        "updated_at": "2026-09-30T00:00:00Z"
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000000004",
+        "kind": "vocabulary",
+        "revision": 2,
+        "is_active": 1,
+        "level": "intro",
+        "created_at": "2026-09-30T00:00:00Z",
+        "updated_at": "2026-09-30T00:00:00Z"
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000000005",
+        "kind": "meaning",
+        "revision": 2,
+        "is_active": 1,
+        "level": "intro",
+        "created_at": "2026-09-30T00:00:00Z",
+        "updated_at": "2026-09-30T00:00:00Z"
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000000006",
+        "kind": "course",
+        "revision": 2,
+        "is_active": 1,
+        "level": "intro",
+        "created_at": "2026-09-30T00:00:00Z",
+        "updated_at": "2026-09-30T00:00:00Z"
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000000007",
+        "kind": "lesson",
+        "revision": 2,
+        "is_active": 1,
+        "level": "intro",
+        "created_at": "2026-09-30T00:00:00Z",
+        "updated_at": "2026-09-30T00:00:00Z"
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000000008",
+        "kind": "hangul",
+        "revision": 2,
+        "is_active": 1,
+        "level": "intro",
+        "created_at": "2026-09-30T00:00:00Z",
+        "updated_at": "2026-09-30T00:00:00Z"
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000000009",
+        "kind": "note",
+        "revision": 2,
+        "is_active": 1,
+        "level": "intro",
+        "created_at": "2026-09-30T00:00:00Z",
+        "updated_at": "2026-09-30T00:00:00Z"
+      }
+    ],
+    "vocabulary": [
+      {
+        "id": "00000000-0000-4000-8000-000000000001",
+        "headword": "안녕하세요",
+        "reading": null,
+        "part_of_speech": "expression",
+        "sort_key": "안녕하세요"
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000000004",
+        "headword": "물",
+        "reading": null,
+        "part_of_speech": "noun",
+        "sort_key": "물"
+      }
+    ],
+    "meanings": [
+      {
+        "id": "00000000-0000-4000-8000-000000000002",
+        "vocabulary_id": "00000000-0000-4000-8000-000000000001",
+        "meaning_ja": "こんにちは",
+        "ordinal": 0
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000000005",
+        "vocabulary_id": "00000000-0000-4000-8000-000000000004",
+        "meaning_ja": "水",
+        "ordinal": 0
+      }
+    ],
+    "examples": [
+      {
+        "id": "00000000-0000-4000-8000-000000000003",
+        "korean": "물을 마셔요",
+        "japanese": "水を飲みます",
+        "audio_asset_id": null
+      }
+    ],
+    "vocabulary_examples": [
+      {
+        "meaning_id": "00000000-0000-4000-8000-000000000005",
+        "example_id": "00000000-0000-4000-8000-000000000003"
+      }
+    ],
+    "courses": [
+      {
+        "id": "00000000-0000-4000-8000-000000000006",
+        "title_ja": "開発用コース",
+        "description_ja": "画面とデータ構造を確認するためのサンプルです",
+        "ordinal": 0
+      }
+    ],
+    "lessons": [
+      {
+        "id": "00000000-0000-4000-8000-000000000007",
+        "course_id": "00000000-0000-4000-8000-000000000006",
+        "title_ja": "開発用レッスン",
+        "ordinal": 0
+      }
+    ],
+    "lesson_items": [
+      {
+        "lesson_id": "00000000-0000-4000-8000-000000000007",
+        "content_id": "00000000-0000-4000-8000-000000000008",
+        "ordinal": 0
+      },
+      {
+        "lesson_id": "00000000-0000-4000-8000-000000000007",
+        "content_id": "00000000-0000-4000-8000-000000000001",
+        "ordinal": 1
+      }
+    ],
+    "hangul": [
+      {
+        "id": "00000000-0000-4000-8000-000000000008",
+        "symbol": "ㅏ",
+        "category": "vowel",
+        "name_ko": "아",
+        "explanation_ja": "基本母音の一つです。開発用サンプルであり、発音教材は未収録です",
+        "audio_asset_id": null
+      }
+    ],
+    "learner_notes": [
+      {
+        "id": "00000000-0000-4000-8000-000000000009",
+        "title_ja": "日本語訳について",
+        "explanation_ja": "訳語は文脈によって変わります",
+        "confusion_type": "translation"
+      }
+    ],
+    "content_links": [
+      {
+        "source_id": "00000000-0000-4000-8000-000000000001",
+        "target_id": "00000000-0000-4000-8000-000000000009",
+        "relation": "learner_note"
+      }
+    ]
+  }
+}

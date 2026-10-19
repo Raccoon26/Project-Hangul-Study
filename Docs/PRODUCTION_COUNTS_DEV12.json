@@ -1,0 +1,30 @@
+{
+  "vocabulary": 926,
+  "meanings": 982,
+  "examples": 1876,
+  "grammar": 42,
+  "listening_items": 111,
+  "questions": 342,
+  "pronunciation_rules": 36,
+  "hangul": 55,
+  "metadata": [
+    4,
+    13,
+    7,
+    0
+  ],
+  "integrity": "ok",
+  "foreign_key_violations": 0,
+  "level_vocabulary": {
+    "beginner": 620,
+    "intro": 306
+  },
+  "level_grammar": {
+    "beginner": 20,
+    "intro": 22
+  },
+  "unchanged_since_dev11": {
+    "Content/production.json": true,
+    "Resources/content.sqlite": true
+  }
+}

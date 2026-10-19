@@ -1,0 +1,35 @@
+{
+  "synthetic_events": 300000,
+  "synthetic_vocabulary_ids": 15000,
+  "environment": "Linux SQLite; no iPhone launch/UI timing",
+  "queries": {
+    "today": {
+      "median_ms": 0.208,
+      "max_ms": 0.331,
+      "plan": [
+        "SEARCH study_events USING COVERING INDEX idx_study_event_time (occurred_at>? AND occurred_at<?)"
+      ]
+    },
+    "30_days": {
+      "median_ms": 3.08,
+      "max_ms": 3.463,
+      "plan": [
+        "SEARCH study_events USING COVERING INDEX idx_study_event_time (occurred_at>? AND occurred_at<?)"
+      ]
+    },
+    "lifetime": {
+      "median_ms": 178.483,
+      "max_ms": 198.87,
+      "plan": [
+        "SCAN CONSTANT ROW",
+        "SCALAR SUBQUERY 1",
+        "SCAN study_events USING INDEX idx_events_item_date",
+        "SCALAR SUBQUERY 2",
+        "SCAN i USING INDEX sqlite_autoindex_vocabulary_set_items_1",
+        "SEARCH s USING INDEX sqlite_autoindex_vocabulary_sets_1 (id=?)",
+        "SCALAR SUBQUERY 3",
+        "SCAN study_events USING INDEX idx_events_item_date"
+      ]
+    }
+  }
+}

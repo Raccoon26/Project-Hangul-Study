@@ -1,0 +1,5290 @@
+{
+  "batch": "DATA-01",
+  "vocabulary": [
+    {
+      "id": "090db94a-98a0-4f3a-af22-f8529040daf3",
+      "headword": "사람",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "人",
+      "meaning_ids": [
+        "266498c1-ef16-408a-b28c-d720563e2adc"
+      ],
+      "example_ids": [
+        "4638ef50-2549-47f5-944c-4b8eee6610ee",
+        "5823c55f-d117-45c2-826e-c088624d3cb4"
+      ],
+      "category": "人・関係・自己紹介"
+    },
+    {
+      "id": "f7c5ab61-ebb3-407f-8558-c46dc233e5a6",
+      "headword": "친구",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "友達",
+      "meaning_ids": [
+        "65ceb8f6-ad7b-4fa4-9a67-7e123c965963"
+      ],
+      "example_ids": [
+        "54465daa-2218-4d88-ad82-65138fd5a8db",
+        "4a005961-25cf-40b0-babf-dea1eb6dcef2"
+      ],
+      "category": "人・関係・自己紹介"
+    },
+    {
+      "id": "dc6a029d-a006-45c0-89d0-5793df629e43",
+      "headword": "가족",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "家族",
+      "meaning_ids": [
+        "673568c5-28e7-4bf6-be6a-6c01f9bfdddf"
+      ],
+      "example_ids": [
+        "70f92a9f-bee8-478e-81b6-8273b991bfb3",
+        "a1e8ab64-5fc0-4f14-a131-28498c46a5ba"
+      ],
+      "category": "人・関係・自己紹介"
+    },
+    {
+      "id": "de5ec030-6781-42f8-b89f-46f2f2bd0f44",
+      "headword": "어머니",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "母・お母さん",
+      "meaning_ids": [
+        "8d7316f7-ad36-4752-bf73-68b285f2fb4a"
+      ],
+      "example_ids": [
+        "77411322-ff5e-40f5-84bc-df19c0eb240b",
+        "2529732c-adff-4150-b92d-f4659e857e3f"
+      ],
+      "category": "人・関係・自己紹介"
+    },
+    {
+      "id": "54b32bf3-097c-4af2-8e9b-e246cb59a6df",
+      "headword": "아버지",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "父・お父さん",
+      "meaning_ids": [
+        "95882b0f-d7ea-4696-a927-22f6e3611de4"
+      ],
+      "example_ids": [
+        "305e9846-5268-486b-b20e-615309f6994f",
+        "08ac2116-64f9-4a24-aec3-f5d3ca2cda8f"
+      ],
+      "category": "人・関係・自己紹介"
+    },
+    {
+      "id": "0db0a20f-ce82-4c7d-8089-112c3b216e49",
+      "headword": "동생",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "弟・妹",
+      "meaning_ids": [
+        "d906d4c1-b8ac-4890-aef1-ba30f43c3018"
+      ],
+      "example_ids": [
+        "293a1891-d3db-4396-a722-6f978538339d",
+        "aaf6b55b-75b2-42d0-9a80-fdce919f2e47"
+      ],
+      "category": "人・関係・自己紹介"
+    },
+    {
+      "id": "81e50e73-927e-4799-975d-8316802b9764",
+      "headword": "형",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "兄（男性から見た）",
+      "meaning_ids": [
+        "d40b3763-c621-4b5b-a4d4-3b0c2b6959e5"
+      ],
+      "example_ids": [
+        "982d75c0-b1b2-4a19-b2b3-d13df654fa83",
+        "6de1fe15-aa1c-4cab-8670-aacb2fbbeac0"
+      ],
+      "category": "人・関係・自己紹介"
+    },
+    {
+      "id": "9fd363e2-5fd3-4838-acff-281fc271e32e",
+      "headword": "오빠",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "兄（女性から見た）",
+      "meaning_ids": [
+        "1de7b327-be0c-421c-96fa-c62f2303d652"
+      ],
+      "example_ids": [
+        "2c5a5529-908e-431b-b194-10cc423e7846",
+        "89ffa434-f1c1-410f-b337-6772fc7ea1a1"
+      ],
+      "category": "人・関係・自己紹介"
+    },
+    {
+      "id": "3218d39c-50fd-4a24-bab4-b2101d67dc7b",
+      "headword": "누나",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "姉（男性から見た）",
+      "meaning_ids": [
+        "3d24c338-9c09-4876-95e3-f6e56f92871a"
+      ],
+      "example_ids": [
+        "db38e5d5-554a-4d95-90f3-1bfdcac95711",
+        "21ee5383-34ce-4a1f-a0fe-624be022dadd"
+      ],
+      "category": "人・関係・自己紹介"
+    },
+    {
+      "id": "2f81df65-5421-4558-8691-d7197aa1dd18",
+      "headword": "언니",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "姉（女性から見た）",
+      "meaning_ids": [
+        "613d0ede-0b70-4b5c-b68c-ec9acf752551"
+      ],
+      "example_ids": [
+        "d36fa050-2dc9-4b2c-ae27-48c2e6204189",
+        "33032362-b650-4918-aafc-736f0697ef18"
+      ],
+      "category": "人・関係・自己紹介"
+    },
+    {
+      "id": "8bc8295f-cc25-47fa-988e-af81342d498f",
+      "headword": "아이",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "子ども",
+      "meaning_ids": [
+        "9eff65b5-3de5-47bf-90dc-6b4dfcfa0a95"
+      ],
+      "example_ids": [
+        "2cf944bf-238c-4d93-8306-66aec307c31d",
+        "718328e1-63cb-4d3c-831b-906fbe817e87"
+      ],
+      "category": "人・関係・自己紹介"
+    },
+    {
+      "id": "a59161e4-ae92-46da-8b5a-5738a476a81e",
+      "headword": "남자",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "男性・男の人",
+      "meaning_ids": [
+        "a5c6690d-6097-4236-a270-550fdccd243d"
+      ],
+      "example_ids": [
+        "d3479fa0-4a3b-4a7e-be62-648baf17c988",
+        "4b2393dc-304d-46cc-b3f9-797efd17d1a5"
+      ],
+      "category": "人・関係・自己紹介"
+    },
+    {
+      "id": "c7c1c4f5-b3b6-4e58-9b4d-0d4dfe1c5ead",
+      "headword": "여자",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "女性・女の人",
+      "meaning_ids": [
+        "699bca8e-0b39-4d5c-8b3e-d7a732aa462b"
+      ],
+      "example_ids": [
+        "f5a2ddfb-76b6-4e05-b88c-94bb4f483588",
+        "f869fe02-0a61-4c50-ac9f-d44a5a2fd6ce"
+      ],
+      "category": "人・関係・自己紹介"
+    },
+    {
+      "id": "1f749772-13cf-4d65-aedd-703a9b89d576",
+      "headword": "이름",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "名前",
+      "meaning_ids": [
+        "9512c627-b077-4d46-b350-8a1ca009f549"
+      ],
+      "example_ids": [
+        "57fb203f-2efa-4acb-914a-9a7b21590efb",
+        "f7b3622b-816b-4f24-86e8-a3435b18352c"
+      ],
+      "category": "人・関係・自己紹介"
+    },
+    {
+      "id": "cd2a689c-d1a2-4aa5-a5b5-ba1ba439b3ad",
+      "headword": "나라",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "国",
+      "meaning_ids": [
+        "42b5b1bf-66df-4b5c-b58c-b96fcc29b490"
+      ],
+      "example_ids": [
+        "05d4375d-3705-49b7-a66b-0a3c879f2afd",
+        "8db38eb7-a28d-4329-ae55-8d569ef781d9"
+      ],
+      "category": "人・関係・自己紹介"
+    },
+    {
+      "id": "c25d1418-ccba-4a6d-b9ce-70b6328f5f19",
+      "headword": "한국",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "韓国",
+      "meaning_ids": [
+        "5c9fca8d-9495-4aa0-8b21-eaf1b672abd4"
+      ],
+      "example_ids": [
+        "626b5317-1818-4508-9c1e-4909c983a199",
+        "57bc8424-3583-4a51-be83-0b23edc1b918"
+      ],
+      "category": "人・関係・自己紹介"
+    },
+    {
+      "id": "47ef3701-a8a3-486b-9b8c-3327537d2ac2",
+      "headword": "일본",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "日本",
+      "meaning_ids": [
+        "5799ab2f-c15a-49f9-9bf2-614e6062bedd"
+      ],
+      "example_ids": [
+        "27666662-a53b-4d1d-91f7-04566a03ef2d",
+        "a7ae725e-573a-4fb0-867c-b509912fdd22"
+      ],
+      "category": "人・関係・自己紹介"
+    },
+    {
+      "id": "9f785f45-a451-4933-88b9-4a5e508c18c9",
+      "headword": "나",
+      "part_of_speech": "pronoun",
+      "primary_meaning_ja": "私・僕（くだけた言い方）",
+      "meaning_ids": [
+        "3dfb7c9b-ac74-4c48-ae13-f6b4d020200e"
+      ],
+      "example_ids": [
+        "487aa354-a508-4d71-ad48-8c7a0b17ba6a",
+        "1e887bfd-930e-4b17-a463-dd02e96b741a"
+      ],
+      "category": "人・関係・自己紹介"
+    },
+    {
+      "id": "9b45d39c-a966-41da-bc64-973bd8767c94",
+      "headword": "저",
+      "part_of_speech": "pronoun",
+      "primary_meaning_ja": "私（へりくだった言い方）",
+      "meaning_ids": [
+        "bb1765b7-0b0e-471c-9576-20adf81f180a"
+      ],
+      "example_ids": [
+        "7ba735ac-7d85-43c9-b865-bb3786f3cf6b",
+        "025d3172-1d52-4689-816f-f75d0af74091"
+      ],
+      "category": "人・関係・自己紹介"
+    },
+    {
+      "id": "8e699a96-c542-4ffc-a3d6-66f742a0acea",
+      "headword": "우리",
+      "part_of_speech": "pronoun",
+      "primary_meaning_ja": "私たち・私たちの",
+      "meaning_ids": [
+        "25683ee4-ec77-4498-beed-e836e4064ea0"
+      ],
+      "example_ids": [
+        "35c414aa-ebc3-4e4b-8ff3-785c7234ba74",
+        "d2441111-4fac-4102-b81f-54007ec4967e"
+      ],
+      "category": "人・関係・自己紹介"
+    },
+    {
+      "id": "df0ad7e8-8ea0-4188-87b4-a5653cbcbf1d",
+      "headword": "집",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "家・自宅",
+      "meaning_ids": [
+        "b8f51c5b-1865-4a6b-b1d3-84fd4ddc6f6d"
+      ],
+      "example_ids": [
+        "2a2dcef6-df46-4c50-b475-5feb18fe856b",
+        "350fc162-2a32-43fb-aaf2-743df7e0f906"
+      ],
+      "category": "場所"
+    },
+    {
+      "id": "17f33b9b-d0e0-47b3-a17a-064bdb1d17e8",
+      "headword": "학교",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "学校",
+      "meaning_ids": [
+        "0b7ddc7b-64f9-41db-ac27-4a2b7ad93f14"
+      ],
+      "example_ids": [
+        "54ecca9d-b399-48cd-b0d5-469422cc4450",
+        "233d7132-266e-4957-9ed0-843a8b90a465"
+      ],
+      "category": "場所"
+    },
+    {
+      "id": "731b820b-2c92-4c04-a518-f33cc8822431",
+      "headword": "회사",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "会社",
+      "meaning_ids": [
+        "ab41d9b1-9702-4f9e-9df8-e05d507986b6"
+      ],
+      "example_ids": [
+        "5bbcff06-0094-4ef6-9691-8033bbd49634",
+        "2822a4dd-305f-4080-9b43-9f9159f24a9d"
+      ],
+      "category": "場所"
+    },
+    {
+      "id": "eff9d2f6-cc0d-4cda-9374-8f62f2872f61",
+      "headword": "가게",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "店",
+      "meaning_ids": [
+        "cf700bc2-85b5-4762-b760-8e095e006f29"
+      ],
+      "example_ids": [
+        "387f6a11-9c60-4627-9bf1-c4a1091921b8",
+        "76ccb844-9028-47f4-8b38-8a20b00fe9c2"
+      ],
+      "category": "場所"
+    },
+    {
+      "id": "b351d310-867a-42cf-bba0-2bec28a8e0e7",
+      "headword": "식당",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "食堂・飲食店",
+      "meaning_ids": [
+        "84a1af61-dd09-4833-8c6f-a52a0a053402"
+      ],
+      "example_ids": [
+        "b524368b-cff0-4f5a-9ea7-ab1ee212fe2a",
+        "0b6d6adc-ce09-4f9f-9eb9-f7ee580e0faa"
+      ],
+      "category": "場所"
+    },
+    {
+      "id": "36141fe7-0c48-4a6f-9e17-c3100e3b123f",
+      "headword": "카페",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "カフェ",
+      "meaning_ids": [
+        "a3712ac6-6356-4f2f-85e7-7d6e11e9a199"
+      ],
+      "example_ids": [
+        "5e9014a0-5790-4926-9950-c7dcbd250a7c",
+        "268739fd-a5cc-43eb-92e2-d8a222157133"
+      ],
+      "category": "場所"
+    },
+    {
+      "id": "3b056ea6-d623-43a1-bcf0-d85789b3a6c0",
+      "headword": "병원",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "病院",
+      "meaning_ids": [
+        "913b1d61-7f42-49e3-a7cb-dab02b452796"
+      ],
+      "example_ids": [
+        "99b1835b-8daa-4ee7-8536-10e1f8709f72",
+        "834592fc-279b-44cc-ad76-511ff35b5bfc"
+      ],
+      "category": "場所"
+    },
+    {
+      "id": "4d08508a-1ecb-49e0-b0f6-c6be555c072b",
+      "headword": "약국",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "薬局",
+      "meaning_ids": [
+        "9aad537f-e5b9-49dd-a5ab-1db13f7d4d5b"
+      ],
+      "example_ids": [
+        "9fd35e8b-c7fb-4705-8b7e-b671d52b373f",
+        "7125e123-a85f-4fa0-969f-8eea8084af9f"
+      ],
+      "category": "場所"
+    },
+    {
+      "id": "71f6c156-134e-4cc0-9c81-e0b13e67ac4d",
+      "headword": "은행",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "銀行",
+      "meaning_ids": [
+        "e0c7277d-f174-4311-89d8-ce8fd4dcc50b"
+      ],
+      "example_ids": [
+        "fbae7788-5e60-4f77-8e42-56309ccf7f94",
+        "1baa899e-c98e-4c82-a8be-fc5a0222ed9f"
+      ],
+      "category": "場所"
+    },
+    {
+      "id": "7832147e-6fa8-42c4-afab-6dd0f0387f53",
+      "headword": "우체국",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "郵便局",
+      "meaning_ids": [
+        "1c600eae-313c-4bbf-aa8c-941e2fcef1d1"
+      ],
+      "example_ids": [
+        "8e061ad8-719b-473a-824e-90ebd9e945fa",
+        "7ad50d02-ba11-40dc-94ca-dbb2fc145ad0"
+      ],
+      "category": "場所"
+    },
+    {
+      "id": "c1bdd866-d3c4-4d45-becc-64de26822527",
+      "headword": "도서관",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "図書館",
+      "meaning_ids": [
+        "e16b1234-a9d4-4594-b0b5-a28ce3c4c4d6"
+      ],
+      "example_ids": [
+        "369133f7-1a82-46e2-a46d-bfdf9c38b7b5",
+        "84f6da35-df85-4962-90c6-438b20393ea4"
+      ],
+      "category": "場所"
+    },
+    {
+      "id": "be2a8f97-c682-4f64-abd3-fc502f5b60e1",
+      "headword": "공원",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "公園",
+      "meaning_ids": [
+        "f236b519-6ae8-4f72-b5ec-7ab63a122f6b"
+      ],
+      "example_ids": [
+        "bb8e3869-d5c0-410f-b6ae-94f6d109bc58",
+        "1215766f-b87b-401b-8363-bf57cb5f3fa5"
+      ],
+      "category": "場所"
+    },
+    {
+      "id": "5a5587c2-5ea9-4b11-adcb-ed65f275153f",
+      "headword": "역",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "駅",
+      "meaning_ids": [
+        "e4a32c3a-936f-43da-8d69-08f238c32a49"
+      ],
+      "example_ids": [
+        "67648251-7695-49e3-8629-4e1bd7ff1a01",
+        "c949dd5b-cc87-466d-9b8b-8e4411edc156"
+      ],
+      "category": "場所"
+    },
+    {
+      "id": "593ca400-f4ef-4d5f-a18f-043cb04cc87f",
+      "headword": "공항",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "空港",
+      "meaning_ids": [
+        "2a77d5bc-2617-4da4-a783-4423827a3cc4"
+      ],
+      "example_ids": [
+        "2e16d170-906a-43a1-a1a2-c1e2a19590ec",
+        "73b5cdcf-4234-482d-971e-efa979c0b190"
+      ],
+      "category": "場所"
+    },
+    {
+      "id": "87089083-4557-421e-a23e-16ee0e7b399c",
+      "headword": "화장실",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "トイレ",
+      "meaning_ids": [
+        "12a2ccd5-80a1-43f0-8bcf-d679332a26dc"
+      ],
+      "example_ids": [
+        "a26790f3-e5e3-4cc1-b76e-441849bc474f",
+        "775b8a40-27d7-4a79-bb43-50f5c45bdc40"
+      ],
+      "category": "場所"
+    },
+    {
+      "id": "24760d3c-f89b-4f4a-8b54-dfa0ab29fa3c",
+      "headword": "시장",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "市場",
+      "meaning_ids": [
+        "595f3bf8-64b9-4058-a1b0-8d91dcb20975"
+      ],
+      "example_ids": [
+        "2ce19654-89df-47ec-9cb0-2118bbf8d414",
+        "e6c0f57e-7e99-4a6f-9749-4f069ffe3339"
+      ],
+      "category": "場所"
+    },
+    {
+      "id": "b7f06646-8fbf-433c-9433-3ff954fe3d76",
+      "headword": "마트",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "スーパー",
+      "meaning_ids": [
+        "16bde105-8da8-408b-8871-814b1e65738c"
+      ],
+      "example_ids": [
+        "334ccfec-0f84-4134-901e-b3c74c5d3525",
+        "54004d62-1b3d-4d30-a232-68c9adceb8a7"
+      ],
+      "category": "場所"
+    },
+    {
+      "id": "64fc02ea-f32a-4914-9078-712df5966dd9",
+      "headword": "편의점",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "コンビニ",
+      "meaning_ids": [
+        "2d351a7a-72d2-4733-bcc4-fd7b33469cea"
+      ],
+      "example_ids": [
+        "b2d63b59-8c7d-45da-a72f-d809d25ca216",
+        "c9f91e27-dcca-47a2-8ecf-989f9c0feefc"
+      ],
+      "category": "場所"
+    },
+    {
+      "id": "03f7983e-8505-4847-86eb-db4842c03ee7",
+      "headword": "호텔",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "ホテル",
+      "meaning_ids": [
+        "81d0e27a-22a5-4a7d-8aea-771a8589c711"
+      ],
+      "example_ids": [
+        "a2a60aa8-127e-4e1b-b033-3e6b241c38d4",
+        "413fd051-3056-4781-83d6-88e986086119"
+      ],
+      "category": "場所"
+    },
+    {
+      "id": "9968aff7-82d6-4bde-9156-9512ef622029",
+      "headword": "앞",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "前",
+      "meaning_ids": [
+        "2a23a566-2820-451c-b185-cfbd1997387c"
+      ],
+      "example_ids": [
+        "a8c2fdd1-a18c-4213-8f41-b79a9585ffe3",
+        "287ba07a-2989-4d8a-8530-53fc648869cb"
+      ],
+      "category": "場所"
+    },
+    {
+      "id": "f64af4cd-56ec-4477-8825-7e14bfb6e3da",
+      "headword": "방",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "部屋",
+      "meaning_ids": [
+        "abc45f80-a9be-45f5-97c7-f26d360e6c6e"
+      ],
+      "example_ids": [
+        "dc954f9e-8a0a-4de6-80e4-580e206f0104",
+        "b25b5d2f-8b45-4d0e-a019-78a7f1457cf6"
+      ],
+      "category": "家・暮らし"
+    },
+    {
+      "id": "3349d3c5-0f10-4ca2-9525-aaf2ec571cdb",
+      "headword": "문",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "ドア・戸",
+      "meaning_ids": [
+        "113891c5-9c3b-432a-958f-499748f7767b"
+      ],
+      "example_ids": [
+        "dab506c9-2ecb-4d91-8976-209c0ec697dd",
+        "087e5196-08fe-4aa4-b069-69d466684782"
+      ],
+      "category": "家・暮らし"
+    },
+    {
+      "id": "6d07a440-6ac9-4d34-8393-66ddac63d163",
+      "headword": "창문",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "窓",
+      "meaning_ids": [
+        "5225e393-a6ee-4545-8ba3-23e5b33f57e6"
+      ],
+      "example_ids": [
+        "c8065784-5a33-47bd-90c9-4a2059f06b8d",
+        "374fd115-2ab7-45d9-a6f0-f7050a1ff89b"
+      ],
+      "category": "家・暮らし"
+    },
+    {
+      "id": "ef9c458c-4a24-4cd5-8954-c978408af6f6",
+      "headword": "책상",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "机",
+      "meaning_ids": [
+        "17801c7f-dcd0-4590-b7b1-1ef81e024017"
+      ],
+      "example_ids": [
+        "ed9d085c-4d2a-473f-b815-f6f2d924aeff",
+        "a17f5363-a005-4321-9cf3-4af9d141a94c"
+      ],
+      "category": "家・暮らし"
+    },
+    {
+      "id": "9859b333-0a4c-40bc-b12e-61a9b052aac4",
+      "headword": "의자",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "椅子",
+      "meaning_ids": [
+        "4cddbf47-6fa5-4fc9-9f2c-2062ebdbd6aa"
+      ],
+      "example_ids": [
+        "77c3d7fd-71dc-404c-affa-e68e184f938c",
+        "edc4f250-777a-40ed-a08a-7664edeb8be0"
+      ],
+      "category": "家・暮らし"
+    },
+    {
+      "id": "e7dbca4d-13bd-4a07-a913-ee2951f0cc8d",
+      "headword": "침대",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "ベッド",
+      "meaning_ids": [
+        "5635ebb4-ccba-491b-ae5e-51c2ac755ab6"
+      ],
+      "example_ids": [
+        "38b0d4d8-d9db-4c78-92e0-566790a3cae0",
+        "182d52bc-d4fe-4745-b394-f8fc86fee2d0"
+      ],
+      "category": "家・暮らし"
+    },
+    {
+      "id": "168d9edb-dd5f-4ee9-9d92-6365f9bbe037",
+      "headword": "가방",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "かばん",
+      "meaning_ids": [
+        "b7786781-1241-48ac-8171-7aa4ed3a2786"
+      ],
+      "example_ids": [
+        "e04fd43d-64b8-42e4-a6dd-066db5f5061a",
+        "8f9c9c7a-c2cf-4f23-b728-b480b8db71f0"
+      ],
+      "category": "家・暮らし"
+    },
+    {
+      "id": "b4912ccf-2d96-41a4-8b62-94bb9325bb46",
+      "headword": "옷",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "服",
+      "meaning_ids": [
+        "d168fa9b-35ee-4893-b520-ab4cde814e02"
+      ],
+      "example_ids": [
+        "94b6a950-478e-4c9a-b263-8d2bb568d5e3",
+        "c89c439c-576f-4ccb-9626-5777e8a93dbf"
+      ],
+      "category": "家・暮らし"
+    },
+    {
+      "id": "d01ea179-e5e8-4b3e-976d-a6507016c77b",
+      "headword": "신발",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "靴・履物",
+      "meaning_ids": [
+        "4b461165-0f66-420a-9fe6-fc425d78fd18"
+      ],
+      "example_ids": [
+        "d5e0f7f4-d6f3-41ff-b8c5-f70f40c124c7",
+        "238b7eb3-1d67-4fcc-b046-3b20c5ee57ca"
+      ],
+      "category": "家・暮らし"
+    },
+    {
+      "id": "e867abee-e174-4a48-80fe-f7f9bc1958cd",
+      "headword": "우산",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "傘",
+      "meaning_ids": [
+        "05c8a934-7765-4fe2-a59a-f6a0b4cc3be7"
+      ],
+      "example_ids": [
+        "81922bd6-277a-4a8b-b9ee-fc8d5f1edb76",
+        "db21af3b-f657-494d-b50f-2076e99e2826"
+      ],
+      "category": "家・暮らし"
+    },
+    {
+      "id": "fc3127df-aa3c-4a2a-9e98-483f65d81c9e",
+      "headword": "지갑",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "財布",
+      "meaning_ids": [
+        "9d45d955-fa57-4bd7-b613-805742d485f0"
+      ],
+      "example_ids": [
+        "8a45d485-6150-404b-bff5-f4e6cf955410",
+        "dd238bb1-9869-49d7-aef0-300f3b98ec11"
+      ],
+      "category": "家・暮らし"
+    },
+    {
+      "id": "69755067-5b17-4796-984a-7191fb7b9399",
+      "headword": "돈",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "お金",
+      "meaning_ids": [
+        "aff7129e-6a7d-4634-b690-5f97241e21e2"
+      ],
+      "example_ids": [
+        "b7b226c0-a512-49ea-9b7c-488f85d75b2a",
+        "014586bd-9b59-4aa0-b543-548bc706da16"
+      ],
+      "category": "家・暮らし"
+    },
+    {
+      "id": "7b3aad74-a092-4eda-9eb7-404ce69abfee",
+      "headword": "열쇠",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "鍵",
+      "meaning_ids": [
+        "485c01c6-9393-41eb-ad25-e396af55c25e"
+      ],
+      "example_ids": [
+        "166b72a3-fdf9-4b4d-b34a-4ece38c7b120",
+        "d545a624-87c3-4f8b-aad9-aa85f24021b3"
+      ],
+      "category": "家・暮らし"
+    },
+    {
+      "id": "e1068871-50c2-4fa5-a80a-8e8dcae61c4d",
+      "headword": "휴대폰",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "携帯電話",
+      "meaning_ids": [
+        "da354582-df42-4d51-b568-31a7eba5a24e"
+      ],
+      "example_ids": [
+        "c87b88f0-c532-42cb-8e3d-f4b1f72a289f",
+        "1da10332-745d-4539-a21f-da27d1d6cd91"
+      ],
+      "category": "家・暮らし"
+    },
+    {
+      "id": "845a3c1a-a67e-4514-b334-9934739bf281",
+      "headword": "사진",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "写真",
+      "meaning_ids": [
+        "2042d9b0-9d94-4a86-b4cb-a9d347b083c1"
+      ],
+      "example_ids": [
+        "028e3051-3c69-4c39-92f6-23e0afa58898",
+        "b4d99890-7f2d-4ba8-8f53-c85326099935"
+      ],
+      "category": "家・暮らし"
+    },
+    {
+      "id": "2b8cf1f5-ae73-4511-99e5-ad3084ff6da7",
+      "headword": "물건",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "物・品物",
+      "meaning_ids": [
+        "fcda5eba-e024-4b4d-8fd3-5410e074cd40"
+      ],
+      "example_ids": [
+        "ef5b083e-6ed6-4808-ac5f-ad1f05bcf6f1",
+        "5b58ea60-a2e7-4a79-aeb4-b5ab8cf3d038"
+      ],
+      "category": "家・暮らし"
+    },
+    {
+      "id": "7dc903fe-6633-4e23-a0f8-4f656dbfb913",
+      "headword": "청소",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "掃除",
+      "meaning_ids": [
+        "75e2c110-9ef0-4d84-ad73-6da066489c94"
+      ],
+      "example_ids": [
+        "1c4262d4-33c8-4d68-abf3-59dab7ba870b",
+        "ed63500b-92e5-4216-8172-11978fa3df42"
+      ],
+      "category": "家・暮らし"
+    },
+    {
+      "id": "0bc82500-a6fa-4203-89e7-0fbc9a7bc781",
+      "headword": "빨래",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "洗濯",
+      "meaning_ids": [
+        "b7d34287-0a22-486a-aff8-7971fb45a3d2",
+        "33149649-ce16-4c9c-b064-85555db9a73d"
+      ],
+      "example_ids": [
+        "8cd6ea87-fef9-43bd-a7ed-1e2d98c1aa01",
+        "bfab0c9a-e5e5-488a-b60f-0eea9da84d5d"
+      ],
+      "category": "家・暮らし"
+    },
+    {
+      "id": "66e39115-a45f-4cad-bdcd-55af3088caf1",
+      "headword": "선물",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "プレゼント・贈り物",
+      "meaning_ids": [
+        "58d4513a-4d64-4375-b059-fa6bc4b624c2"
+      ],
+      "example_ids": [
+        "8a5c1d94-2a86-4d90-a477-456b81231f2f",
+        "93fc16dc-4c78-4835-9c8d-a92550fe473e"
+      ],
+      "category": "家・暮らし"
+    },
+    {
+      "id": "1459f917-5c48-4045-962c-74e36f7e82dc",
+      "headword": "약",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "薬",
+      "meaning_ids": [
+        "af77755e-b230-41ff-b44e-b03cb99cffdd"
+      ],
+      "example_ids": [
+        "e9a39b62-2ef3-4aae-bbaa-52b85e3ecaba",
+        "372d2af7-4ad0-4157-91c4-b2a4693eb114"
+      ],
+      "category": "家・暮らし"
+    },
+    {
+      "id": "41e67819-0f9f-421c-8125-8f1f5b4b1e15",
+      "headword": "물",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "水",
+      "meaning_ids": [
+        "9c9b9050-3805-4dc5-8b4a-bdccbd63d323"
+      ],
+      "example_ids": [
+        "437fe600-9fe9-46e2-b24f-810eb6fa8c17",
+        "de3de067-f231-453c-889b-c284fe7dd08e"
+      ],
+      "category": "食べ物・飲み物"
+    },
+    {
+      "id": "92d160f5-4f24-4091-9a91-8c89403a636d",
+      "headword": "밥",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "ご飯（炊いた米）",
+      "meaning_ids": [
+        "68f6af22-ddaa-4ea9-843c-88dc8acca09a",
+        "6b6a9b7d-ed93-472d-b3df-2a8259b07973"
+      ],
+      "example_ids": [
+        "341f56b0-1e77-4206-98b1-b87c05f7ed68",
+        "a3d46d2e-8604-46d0-8b24-d3e97f8cd2e7"
+      ],
+      "category": "食べ物・飲み物"
+    },
+    {
+      "id": "f5927dcb-f4bd-466a-bf40-4d06d297ff26",
+      "headword": "빵",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "パン",
+      "meaning_ids": [
+        "8af2b337-0a5a-42fa-b8a0-f213f5460592"
+      ],
+      "example_ids": [
+        "6b832268-91c5-4d7c-be1b-51d7ccbdcada",
+        "5aecf736-25a4-4d17-b05f-2095cbd48859"
+      ],
+      "category": "食べ物・飲み物"
+    },
+    {
+      "id": "799b55eb-7fce-43db-81bc-e70a967d7450",
+      "headword": "국",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "スープ・汁物",
+      "meaning_ids": [
+        "c5573fe5-6003-487f-84bb-c49fbc29ea08"
+      ],
+      "example_ids": [
+        "0613633a-865b-4d99-950b-6147a0837dc7",
+        "e5174a98-317e-4da2-b38d-adba3d2f6cfe"
+      ],
+      "category": "食べ物・飲み物"
+    },
+    {
+      "id": "5d8f9816-999b-49bf-b0de-fce6c493c23c",
+      "headword": "김치",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "キムチ",
+      "meaning_ids": [
+        "aada02cb-7c48-49cc-9326-96a85aa9cbbf"
+      ],
+      "example_ids": [
+        "c20c45c1-c2d7-4518-aec4-e582cc1cfe77",
+        "f2d9dfea-219d-44ea-a61f-1f2cf3924862"
+      ],
+      "category": "食べ物・飲み物"
+    },
+    {
+      "id": "cac00abd-de86-4ad4-bf60-23a683497520",
+      "headword": "고기",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "肉",
+      "meaning_ids": [
+        "b1e973f4-aeec-4dd0-9c13-49f329ee186f"
+      ],
+      "example_ids": [
+        "340b8dc1-99a6-43b6-81de-fa0b49593376",
+        "1a4d6c98-f956-4b3e-b17f-4e8539a1ca78"
+      ],
+      "category": "食べ物・飲み物"
+    },
+    {
+      "id": "d161ed44-7b29-44aa-aba7-e17693ca3afe",
+      "headword": "생선",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "魚（主に食材として）",
+      "meaning_ids": [
+        "79cc8d4e-4fb0-40bb-8f76-72c9a2e59fa9"
+      ],
+      "example_ids": [
+        "d33a289f-60d3-4bb9-b06a-b78a030030e1",
+        "2a2ce59a-ce16-4ba0-83b0-09eaa8cac1ce"
+      ],
+      "category": "食べ物・飲み物"
+    },
+    {
+      "id": "cc3f9796-676e-4dd4-aa2a-2c943e781cac",
+      "headword": "달걀",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "卵",
+      "meaning_ids": [
+        "07e0bdfd-3fc4-42dc-9d60-3449045a7e3c"
+      ],
+      "example_ids": [
+        "66020637-900a-4a3d-b9d4-7fbad33c4292",
+        "fbb4eb68-9daf-48ef-b519-a03fb16ad25e"
+      ],
+      "category": "食べ物・飲み物"
+    },
+    {
+      "id": "64349950-e46e-46b0-8d14-ba4564042123",
+      "headword": "채소",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "野菜",
+      "meaning_ids": [
+        "87bc85ed-911b-48d2-8c94-46821d201c0f"
+      ],
+      "example_ids": [
+        "515c47b0-d4a9-4e07-90a8-386881b84ff7",
+        "4ba41d2c-efa0-483e-ba1b-c30fb99a416f"
+      ],
+      "category": "食べ物・飲み物"
+    },
+    {
+      "id": "0f799050-380e-477b-b565-25b7ccd504d6",
+      "headword": "과일",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "果物",
+      "meaning_ids": [
+        "aba39588-2a41-4f8b-94ab-63517242d027"
+      ],
+      "example_ids": [
+        "2586f7fa-4006-403b-b2cb-39ae0506c0d1",
+        "12faf4cb-1a27-4656-a220-f37abd0ad70e"
+      ],
+      "category": "食べ物・飲み物"
+    },
+    {
+      "id": "3ce29c86-75f3-4249-bcef-6feea3c62519",
+      "headword": "사과",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "りんご",
+      "meaning_ids": [
+        "f5989114-ef4b-424b-a11e-d46d102157ef"
+      ],
+      "example_ids": [
+        "33d83038-fd8e-429a-b3e9-0886203bcb9d",
+        "be064136-fd15-4245-835b-ec3fe7876311"
+      ],
+      "category": "食べ物・飲み物"
+    },
+    {
+      "id": "1acb8d5b-fadf-40dc-a263-07225dcbaa81",
+      "headword": "우유",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "牛乳",
+      "meaning_ids": [
+        "e6a5fae0-6489-48d6-b019-6f6918a90e62"
+      ],
+      "example_ids": [
+        "b63baa50-b82e-4f0a-a780-b6b910e7201a",
+        "2f677556-c86c-40e0-b187-f5ce701e0e99"
+      ],
+      "category": "食べ物・飲み物"
+    },
+    {
+      "id": "f4ddceb5-dd4f-47bd-90f5-54bacc7d28f9",
+      "headword": "커피",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "コーヒー",
+      "meaning_ids": [
+        "81d929da-b1cd-41e3-b6ba-04273fa823ba"
+      ],
+      "example_ids": [
+        "f477902d-5e87-4353-a8d6-38a715880e1b",
+        "c9bf6b0c-ef8a-4f26-a8eb-ec6173cc5219"
+      ],
+      "category": "食べ物・飲み物"
+    },
+    {
+      "id": "e80b26ff-6c6f-4004-99a7-d784495483a3",
+      "headword": "차",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "お茶",
+      "meaning_ids": [
+        "b8dc6703-eba1-41ac-91b7-9fc2fd97f83d"
+      ],
+      "example_ids": [
+        "fe87298a-0e86-482d-83b5-c222a53084f0",
+        "a65df902-2faa-480d-8ba9-7dc808fd967f"
+      ],
+      "category": "食べ物・飲み物"
+    },
+    {
+      "id": "596d919e-c482-4578-92ab-c78f50e516d8",
+      "headword": "주스",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "ジュース",
+      "meaning_ids": [
+        "bdde3c9a-24ff-4194-87a8-8ff63c75f6a2"
+      ],
+      "example_ids": [
+        "fef26243-9c50-499f-923e-97a6386ffdfb",
+        "ba3d27c8-d0f9-48df-9556-a063b0a7c5a0"
+      ],
+      "category": "食べ物・飲み物"
+    },
+    {
+      "id": "e537f0d7-a12f-4152-b839-d5050546d46f",
+      "headword": "음식",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "食べ物・料理",
+      "meaning_ids": [
+        "dfb6d298-a3eb-449b-8f62-3695dc987899"
+      ],
+      "example_ids": [
+        "c4123578-0898-43b0-b09c-38505c9d7703",
+        "6071f1b5-1993-4698-94d3-8fb6f27c1f30"
+      ],
+      "category": "食べ物・飲み物"
+    },
+    {
+      "id": "a535654e-1e8a-4c3b-8fdb-4833d2024787",
+      "headword": "요리",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "料理を作ること",
+      "meaning_ids": [
+        "341478b6-932f-42dc-b389-00e5ad3ef617",
+        "6a311eb7-a0ce-4309-9e23-19d2ae92a50b"
+      ],
+      "example_ids": [
+        "d0454edd-c383-4cc3-b55c-61708a48e6c8",
+        "efd86e32-72e8-4d3b-872d-05a6edce6021"
+      ],
+      "category": "食べ物・飲み物"
+    },
+    {
+      "id": "27a0be2f-74a6-4a20-b9e3-0dde09af5b00",
+      "headword": "메뉴",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "メニュー表",
+      "meaning_ids": [
+        "a81c4fcd-d858-477e-86d5-12a68f784f4b",
+        "955b3f5a-b851-41d0-ac9a-f5ae421a290f"
+      ],
+      "example_ids": [
+        "01b3e309-378d-41d0-aef7-96b0260a264b",
+        "8e8d118b-d1d1-4b41-a487-5e950e1954b0"
+      ],
+      "category": "食べ物・飲み物"
+    },
+    {
+      "id": "7b9fdc12-0369-4ad3-865d-45d31f62cfe7",
+      "headword": "컵",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "コップ・カップ",
+      "meaning_ids": [
+        "4b5840e2-88d1-4d9a-a7b3-ba0067b076e6"
+      ],
+      "example_ids": [
+        "3d79e03e-a59e-49ef-a41b-6c18167e6214",
+        "f4984990-cbde-4705-8bbc-94fdebca509e"
+      ],
+      "category": "食べ物・飲み物"
+    },
+    {
+      "id": "4d53f1b9-3f62-4322-977b-c0cfa9a3b1f1",
+      "headword": "젓가락",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "箸",
+      "meaning_ids": [
+        "c55c1982-3f70-432c-8eda-3c41eb23a58d"
+      ],
+      "example_ids": [
+        "ccbb41cb-e8ec-4a05-bc5f-f24fda352889",
+        "f7510ae8-fdb9-402e-9510-52967ed604d3"
+      ],
+      "category": "食べ物・飲み物"
+    },
+    {
+      "id": "06aa64f8-7b97-4554-8e24-5d293f07b2f1",
+      "headword": "오늘",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "今日",
+      "meaning_ids": [
+        "b200c4f3-144e-4b07-8a4c-0fc7fbf5f03a"
+      ],
+      "example_ids": [
+        "d0a48ab9-d762-40b1-962a-d7c005f95b58",
+        "e464e8db-dd74-4386-84fb-1168fb61b59c"
+      ],
+      "category": "時間・日付"
+    },
+    {
+      "id": "53075425-8bb3-4553-a1fc-c8f3f9e10e2c",
+      "headword": "내일",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "明日",
+      "meaning_ids": [
+        "f7280cf3-1ae9-43da-ac49-c6461378ce3f"
+      ],
+      "example_ids": [
+        "8812c64a-9097-4870-a33f-23585a69ecdb",
+        "beccb867-7c13-4778-b093-8328233f3c3e"
+      ],
+      "category": "時間・日付"
+    },
+    {
+      "id": "fe2383d3-0a35-4f41-a364-8be230595d5a",
+      "headword": "어제",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "昨日",
+      "meaning_ids": [
+        "21885537-fdae-45d4-976e-882d4219783f"
+      ],
+      "example_ids": [
+        "0d697384-b746-4ac5-b80e-75c4c343902a",
+        "67623d49-d23b-4d9d-8b79-c32694fb2bc0"
+      ],
+      "category": "時間・日付"
+    },
+    {
+      "id": "f9b5e625-9aaf-46a1-8d05-a8b1f959830f",
+      "headword": "지금",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "今",
+      "meaning_ids": [
+        "d758c138-b8eb-46c6-aac2-1cdd90fdb8de"
+      ],
+      "example_ids": [
+        "4d480b0a-d446-4ba0-a7cd-8c64d18893ef",
+        "3c4fa5cc-2de5-4be8-a23f-4c1a87a46ca9"
+      ],
+      "category": "時間・日付"
+    },
+    {
+      "id": "0762154b-09da-4788-8b89-fd17df46b76b",
+      "headword": "아침",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "朝",
+      "meaning_ids": [
+        "aac2790a-cfb0-4769-a3d1-52129539a691",
+        "5409e64a-7813-47b8-be8c-3d957be33f11"
+      ],
+      "example_ids": [
+        "1f3f286c-05ca-4275-afe7-3209286dcbcc",
+        "d5727892-2935-4b1e-8b7e-5fa0d5269b36"
+      ],
+      "category": "時間・日付"
+    },
+    {
+      "id": "4ecee4f7-6e9a-4624-a6c2-fdf90fb31d27",
+      "headword": "점심",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "昼食",
+      "meaning_ids": [
+        "95c64ab6-ce5d-4395-9386-f5c6415d5c45"
+      ],
+      "example_ids": [
+        "0d1afbde-ce67-4cc6-98b0-d94ff846e724",
+        "c646caf4-7eae-47c3-b341-5d6f7c670538"
+      ],
+      "category": "時間・日付"
+    },
+    {
+      "id": "f409f81c-2cde-4c04-bb72-19bc3e829eb2",
+      "headword": "저녁",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "夕方・夜の初め",
+      "meaning_ids": [
+        "1316255d-116a-4846-95bf-7512447caf2b",
+        "330b2da8-9838-4616-86eb-1e423f2ae322"
+      ],
+      "example_ids": [
+        "81d5d720-2e38-4a80-8dac-112bc141ea6d",
+        "534bc974-6303-4b3a-82c1-7d819623223a"
+      ],
+      "category": "時間・日付"
+    },
+    {
+      "id": "d29dfc85-ac2d-463b-ac72-8455e9236b29",
+      "headword": "밤",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "夜",
+      "meaning_ids": [
+        "3713838f-6436-4006-bb05-fe548c3f90ba"
+      ],
+      "example_ids": [
+        "59c1b08b-0d6d-416a-abf3-e63b335d685c",
+        "5bff1d61-80f5-41b1-b500-18c4386d5034"
+      ],
+      "category": "時間・日付"
+    },
+    {
+      "id": "a458bf4e-7c72-43d9-b504-ed0fb7fe7fdc",
+      "headword": "시간",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "時間・時",
+      "meaning_ids": [
+        "4b8ecad7-aa2a-4f6c-bc96-1e7f32918e03",
+        "f85aebb7-ca98-42d4-96c8-eb7974e778df"
+      ],
+      "example_ids": [
+        "f9f4805b-8aeb-4752-950e-22f0d7163b5a",
+        "02910576-2f1e-4998-9819-d893fabd0209"
+      ],
+      "category": "時間・日付"
+    },
+    {
+      "id": "e83bbd64-c745-40a8-b5d5-0e85cd9081d6",
+      "headword": "날",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "日（ひ・特定の日）",
+      "meaning_ids": [
+        "9922d33a-6d6b-4286-b597-ee89fc2e974e"
+      ],
+      "example_ids": [
+        "2980d728-37bb-4e13-a8d4-d4b74b91cba9",
+        "fb34231c-a944-4af4-9cee-c1d339326e5c"
+      ],
+      "category": "時間・日付"
+    },
+    {
+      "id": "0999d7b9-e0af-49b3-b672-35a0800faf81",
+      "headword": "주말",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "週末",
+      "meaning_ids": [
+        "673b98e2-7dda-41cd-a385-d7bef6af298c"
+      ],
+      "example_ids": [
+        "05d45ab3-6a7c-4a1f-98d5-c9bb8df3991e",
+        "8367c64a-7e7e-46fe-82ee-e63f627bb442"
+      ],
+      "category": "時間・日付"
+    },
+    {
+      "id": "00b78a22-4993-4717-b9cc-c998907d205b",
+      "headword": "월요일",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "月曜日",
+      "meaning_ids": [
+        "b5bd0b7e-6cdb-4efa-b45b-d67474380fd8"
+      ],
+      "example_ids": [
+        "6b12f6f3-1086-4b39-a613-a1cb0025435a",
+        "f97265b9-d6c1-4988-a2fb-faa8cd185f97"
+      ],
+      "category": "時間・日付"
+    },
+    {
+      "id": "81a025bf-1e29-42fe-acfd-2de971345987",
+      "headword": "생일",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "誕生日",
+      "meaning_ids": [
+        "d494cd2d-21b7-4bb5-9455-85c1d0f13efd"
+      ],
+      "example_ids": [
+        "caec9f44-3847-4b14-9a72-93949db8b39c",
+        "c536f9af-eaad-45af-a781-8bb28548a17c"
+      ],
+      "category": "時間・日付"
+    },
+    {
+      "id": "9b293cb0-e20c-4aa9-8157-ece446985f56",
+      "headword": "년",
+      "part_of_speech": "bound_noun",
+      "primary_meaning_ja": "年（年数・西暦）",
+      "meaning_ids": [
+        "d48ecbcc-85fe-4327-838c-e54d84451a27"
+      ],
+      "example_ids": [
+        "a43656e0-4329-4112-a509-a513b3c66469",
+        "1273df03-f339-47fd-a8e4-5a4860740753"
+      ],
+      "category": "時間・日付"
+    },
+    {
+      "id": "6ed77580-8bbe-41d2-acee-336e103c1bce",
+      "headword": "월",
+      "part_of_speech": "bound_noun",
+      "primary_meaning_ja": "月（暦の月）",
+      "meaning_ids": [
+        "6af49248-ae22-4c82-af77-a3339670e63e"
+      ],
+      "example_ids": [
+        "0dc3b03c-677d-4ba2-9f61-903f81d2ed8c",
+        "d42464dd-1529-46ac-b4a4-26d25821a8a2"
+      ],
+      "category": "時間・日付"
+    },
+    {
+      "id": "1b74ab03-9ce3-454b-914b-5f14f32f1395",
+      "headword": "일",
+      "part_of_speech": "bound_noun",
+      "primary_meaning_ja": "日（日付・日数）",
+      "meaning_ids": [
+        "d6cab34d-c13b-4ff9-a423-f19c473d89eb"
+      ],
+      "example_ids": [
+        "36b3dc6f-3ba4-4760-8f13-f9b90f09aed9",
+        "fb26993a-e294-410a-9d41-996193d0993e"
+      ],
+      "category": "時間・日付"
+    },
+    {
+      "id": "5f1818c8-4c3c-47d2-a2d2-f49c2aa07c0b",
+      "headword": "시",
+      "part_of_speech": "bound_noun",
+      "primary_meaning_ja": "時（時刻）",
+      "meaning_ids": [
+        "9654e35f-7aea-4ff2-a70b-edb23a3f4f43"
+      ],
+      "example_ids": [
+        "c763309c-cad7-4dee-a480-87de32d0fc25",
+        "45683926-fe7b-404e-8713-2ba0dca3c4ec"
+      ],
+      "category": "時間・日付"
+    },
+    {
+      "id": "e894b902-3d18-400e-b9ca-b3e466df4b2c",
+      "headword": "분",
+      "part_of_speech": "bound_noun",
+      "primary_meaning_ja": "分（時間の単位）",
+      "meaning_ids": [
+        "3b601f74-6b3e-420e-b73a-f77eddb4cdda"
+      ],
+      "example_ids": [
+        "53d2cd87-8bd5-40f2-9d9f-ad442e004b24",
+        "09f520a8-985e-42c6-a8eb-a4025570b8e9"
+      ],
+      "category": "時間・日付"
+    },
+    {
+      "id": "b4fe0cb8-d955-4563-b542-2a0a9be28748",
+      "headword": "봄",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "春",
+      "meaning_ids": [
+        "8f985247-5d6c-43c1-aba3-41651abb876e"
+      ],
+      "example_ids": [
+        "f257155d-f42b-496b-970a-0602d1f392d8",
+        "a784e47f-65c7-4456-b229-e6a203836425"
+      ],
+      "category": "時間・日付"
+    },
+    {
+      "id": "f60b86bb-46cf-4e1a-8cf1-61cc94c37d92",
+      "headword": "겨울",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "冬",
+      "meaning_ids": [
+        "5c3b3ac0-d7de-4d70-b3da-5e476e0ca7c6"
+      ],
+      "example_ids": [
+        "73cdcada-06ae-48cd-a996-6c96e54ced24",
+        "c9a4292a-7c23-49d4-86c8-3bb39c39b95b"
+      ],
+      "category": "時間・日付"
+    },
+    {
+      "id": "06c1d885-8813-474e-93cc-6b5fbbab7eca",
+      "headword": "학생",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "学生",
+      "meaning_ids": [
+        "154b29d9-1fe8-4af7-9571-aa57c24d6776"
+      ],
+      "example_ids": [
+        "50150595-5c13-4b4f-a66d-4c5865728975",
+        "88613adf-b628-4e46-a394-0bd2d3b30658"
+      ],
+      "category": "学校・仕事・活動"
+    },
+    {
+      "id": "a350d481-c04b-4ba3-8688-887b92827662",
+      "headword": "선생님",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "先生",
+      "meaning_ids": [
+        "9a176c3b-f58b-41ec-85ae-50f23e8b44f2"
+      ],
+      "example_ids": [
+        "57915d3a-1ac8-4dac-886a-782b93e6f016",
+        "90a47541-e77e-4d07-8467-47ae1f05b536"
+      ],
+      "category": "学校・仕事・活動"
+    },
+    {
+      "id": "83525a76-9d0a-4e02-b515-b2c47577b3f3",
+      "headword": "회사원",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "会社員",
+      "meaning_ids": [
+        "5e758fcf-ba18-4531-901a-b5e7f87d2019"
+      ],
+      "example_ids": [
+        "fe4d54a4-a142-4298-9cf6-4039622e1ca4",
+        "c78af723-a5e4-4b36-b18d-2efc4d5b4b9d"
+      ],
+      "category": "学校・仕事・活動"
+    },
+    {
+      "id": "1dcdf5dd-c646-434f-b577-8602b5953d59",
+      "headword": "책",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "本",
+      "meaning_ids": [
+        "6682a31f-b04f-466a-a2db-6cea159a1524"
+      ],
+      "example_ids": [
+        "527ffac6-fdcb-4674-9a11-31f7d57d822c",
+        "76fbdfa3-d46a-4eeb-9cf7-555c500401bb"
+      ],
+      "category": "学校・仕事・活動"
+    },
+    {
+      "id": "8075c3cc-d28d-4cf8-91e6-9985a2e92b73",
+      "headword": "공책",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "ノート",
+      "meaning_ids": [
+        "40a6d1f9-7a65-4ab1-b59a-3b4176298fee"
+      ],
+      "example_ids": [
+        "8d61abd1-a414-4542-ad9e-11a19d8c6253",
+        "8ea2b7cc-a998-426b-9920-e0d7292df1b5"
+      ],
+      "category": "学校・仕事・活動"
+    },
+    {
+      "id": "17376601-91b8-4a4f-b768-fce72c35e3bb",
+      "headword": "연필",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "鉛筆",
+      "meaning_ids": [
+        "8ab807c0-82bd-46ca-8c2e-8d1404fe3898"
+      ],
+      "example_ids": [
+        "344cf431-9e0f-43b5-b26f-ef499cb808b1",
+        "85dc810f-409c-4136-95d5-9d823dd5cb17"
+      ],
+      "category": "学校・仕事・活動"
+    },
+    {
+      "id": "92c5d44f-7f12-4f4b-9620-79ab186db402",
+      "headword": "펜",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "ペン",
+      "meaning_ids": [
+        "c8641302-d33f-4c2f-93e7-f1e6241fd0c4"
+      ],
+      "example_ids": [
+        "7282631b-6ffb-4507-8dc8-8018b1252e7b",
+        "76130389-5040-407d-9952-10e222a56641"
+      ],
+      "category": "学校・仕事・活動"
+    },
+    {
+      "id": "7fffeafa-d6aa-46e4-954e-048399f79950",
+      "headword": "수업",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "授業",
+      "meaning_ids": [
+        "8999203d-d3fc-4001-ac6f-5170aec7520a"
+      ],
+      "example_ids": [
+        "3ffdca81-6356-4b3e-976a-730e4f6161af",
+        "ae07980e-4480-4c40-8317-08edd01f2b66"
+      ],
+      "category": "学校・仕事・活動"
+    },
+    {
+      "id": "4eb3f805-8135-49a3-8c4e-460512b7ce4f",
+      "headword": "공부",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "勉強",
+      "meaning_ids": [
+        "be91ae77-e5bb-4917-b30a-6ff6ba6f4e6b"
+      ],
+      "example_ids": [
+        "3e87fe18-72a9-4fc4-a51b-9f07e9d97031",
+        "fb8d50d1-7d79-497f-8bc2-c25b314798a0"
+      ],
+      "category": "学校・仕事・活動"
+    },
+    {
+      "id": "8ec4cdde-aa9f-429b-865d-803a76647b2c",
+      "headword": "한국어",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "韓国語",
+      "meaning_ids": [
+        "be385491-f056-4eef-92f7-834972e3c044"
+      ],
+      "example_ids": [
+        "5b9e3918-0005-4171-b78e-677443a94c44",
+        "eb4d79c7-13f1-44df-8c5d-3d4a7d92c1ae"
+      ],
+      "category": "学校・仕事・活動"
+    },
+    {
+      "id": "fef18457-1e05-435b-8939-4ef1a49fa0cd",
+      "headword": "일",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "仕事・働くこと",
+      "meaning_ids": [
+        "59015277-0f95-4398-b305-6444e02a21a0"
+      ],
+      "example_ids": [
+        "b70cd2ef-a5f8-4482-80d8-5808df0f80fd",
+        "a0923661-bb38-49df-a3ee-a3d24d343467"
+      ],
+      "category": "学校・仕事・活動"
+    },
+    {
+      "id": "6929a6e3-66bd-4272-8f02-efbe34fcaeb3",
+      "headword": "준비",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "準備",
+      "meaning_ids": [
+        "bb04467d-32de-46c4-8f8e-319de5db43cb"
+      ],
+      "example_ids": [
+        "1f4c4f22-688f-45a1-b341-cd05116816e5",
+        "293a1190-c4f5-41b0-8f90-548853e37609"
+      ],
+      "category": "学校・仕事・活動"
+    },
+    {
+      "id": "2cf2dfce-5742-474c-b741-a08162f0f790",
+      "headword": "약속",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "約束・会う予定",
+      "meaning_ids": [
+        "c6553601-d3e2-48e1-aa09-247430dfcdb5"
+      ],
+      "example_ids": [
+        "d10e223b-3523-4013-8fed-e85d1de8483b",
+        "ccd1122d-65f7-479b-a108-4b6e3b86401f"
+      ],
+      "category": "学校・仕事・活動"
+    },
+    {
+      "id": "bf7be98a-58bd-4584-8373-8f38d625e998",
+      "headword": "운동",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "運動",
+      "meaning_ids": [
+        "e26fa02a-23a3-47c5-81f1-f5690d1d644b"
+      ],
+      "example_ids": [
+        "a33f6d61-9458-486d-a58c-dc44b0c91579",
+        "d21f1caa-f116-4bbb-bc2f-b7db0eff8105"
+      ],
+      "category": "学校・仕事・活動"
+    },
+    {
+      "id": "bb906b9d-2143-4e6a-92c8-344f5f5e409b",
+      "headword": "문제",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "問題（解く課題）",
+      "meaning_ids": [
+        "f7fa8455-89b2-46fe-87f2-b7bab1426d47",
+        "6ed47435-7242-4a3e-a3a5-df3d3a9d209d"
+      ],
+      "example_ids": [
+        "603de0d2-98ac-4be7-a977-c8d8e9fe9022",
+        "7b6f1b67-c9aa-43c3-9ee9-833f987a4ef8"
+      ],
+      "category": "学校・仕事・活動"
+    },
+    {
+      "id": "1c18bffa-f8ca-4012-9069-2a6b562867d5",
+      "headword": "버스",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "バス",
+      "meaning_ids": [
+        "e503e83f-e302-4eb6-bcc6-4611f7f6ba1c"
+      ],
+      "example_ids": [
+        "b4ba0fbf-9899-44d8-a239-4d6cd0e9e6ce",
+        "c922ea13-79ff-460c-a8df-bdb93caa5542"
+      ],
+      "category": "移動・位置"
+    },
+    {
+      "id": "0fa9bb02-ac17-4472-aef4-ac34fc1d9593",
+      "headword": "지하철",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "地下鉄",
+      "meaning_ids": [
+        "36a37e72-a59b-4389-896c-24cdccc06acd"
+      ],
+      "example_ids": [
+        "1e2ba252-6c53-445f-9d11-6e1ee46ee776",
+        "f6824fb0-7612-4261-892d-4f8683e7ed59"
+      ],
+      "category": "移動・位置"
+    },
+    {
+      "id": "3d7c5cf9-dcab-4eec-968f-7d7312935ee5",
+      "headword": "기차",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "列車",
+      "meaning_ids": [
+        "7c6491d8-782f-43dd-86b2-75c248a4e887"
+      ],
+      "example_ids": [
+        "1402749b-577d-4ff3-84b5-3b8a7bae7b92",
+        "4b3dd9ac-21f4-4c57-ae3d-6f2749f63e47"
+      ],
+      "category": "移動・位置"
+    },
+    {
+      "id": "ff23e1cf-59fe-46f9-b087-051221a71447",
+      "headword": "택시",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "タクシー",
+      "meaning_ids": [
+        "84893b2d-1400-4714-82bd-56570f756937"
+      ],
+      "example_ids": [
+        "c9321664-b735-43a6-96ff-e5b272dbc35f",
+        "7c7f3dbc-866c-4349-b69d-511d6d34d686"
+      ],
+      "category": "移動・位置"
+    },
+    {
+      "id": "58ee8623-b923-44c3-9ab3-3f12d0c24230",
+      "headword": "차",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "車・自動車",
+      "meaning_ids": [
+        "a84ca3f8-1eb0-40c1-8b2e-7590b05f570a"
+      ],
+      "example_ids": [
+        "d5cff56a-8d7d-40fe-959a-7a4df8df5368",
+        "d710ac67-d6b2-4c2d-996a-3ef0bc850785"
+      ],
+      "category": "移動・位置"
+    },
+    {
+      "id": "2a35b680-41a4-4386-bb09-31cc1eca9c0a",
+      "headword": "길",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "道",
+      "meaning_ids": [
+        "aed8fa27-f839-4061-8f8a-c77a404efc7d"
+      ],
+      "example_ids": [
+        "f0c462f4-13c3-4cdf-963b-11cb5a720468",
+        "7c304a61-788c-4f8c-82ea-1a0bd795cdfc"
+      ],
+      "category": "移動・位置"
+    },
+    {
+      "id": "cd5a0e5b-3360-4b74-b22e-2811548ea8dd",
+      "headword": "지도",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "地図",
+      "meaning_ids": [
+        "73e35351-4e96-4784-9f13-d0b0f23a6a1b"
+      ],
+      "example_ids": [
+        "dfdb5d51-9494-45c8-9af2-176ad61f9387",
+        "1c9023ef-dcb3-4020-be85-ebf257d8494f"
+      ],
+      "category": "移動・位置"
+    },
+    {
+      "id": "24c1d10c-52f6-439e-bb23-a9e02b313cb0",
+      "headword": "표",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "切符・チケット",
+      "meaning_ids": [
+        "c1887ce4-b187-4736-ac01-a05bc1f2756f"
+      ],
+      "example_ids": [
+        "dca72fef-4718-4ef8-9a99-40910efb8358",
+        "210a0483-c33c-46ce-bb74-841c67dd4ba7"
+      ],
+      "category": "移動・位置"
+    },
+    {
+      "id": "c90f715e-3de4-43ba-bb1b-ce81c7008bfc",
+      "headword": "여행",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "旅行",
+      "meaning_ids": [
+        "8511519a-5d1f-4e6b-9bcf-fe1854d9de41"
+      ],
+      "example_ids": [
+        "4fe4fd76-946f-4cd8-9517-e4dd7916bb13",
+        "caa400a7-0ae9-4530-b624-8d80be713724"
+      ],
+      "category": "移動・位置"
+    },
+    {
+      "id": "3088c346-ace8-4160-90b8-b193e68e0483",
+      "headword": "오른쪽",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "右・右側",
+      "meaning_ids": [
+        "7fa41a20-7889-480e-996c-e70d6a543518"
+      ],
+      "example_ids": [
+        "f4612382-9e33-47b4-b60c-c978692d801b",
+        "21c39a00-e6db-474f-9302-478d397e2642"
+      ],
+      "category": "移動・位置"
+    },
+    {
+      "id": "5b3e3514-c527-46ec-89e5-1d03ad6449e0",
+      "headword": "왼쪽",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "左・左側",
+      "meaning_ids": [
+        "11913168-15a2-4bfc-8ee5-87c23b70e011"
+      ],
+      "example_ids": [
+        "871c55d0-004c-4182-a462-6a00b9a864ef",
+        "41dcee50-aea2-488a-ba5b-eb5b1cbfcb0f"
+      ],
+      "category": "移動・位置"
+    },
+    {
+      "id": "abd2a5a7-adab-42ea-ae28-2e87b0a9b785",
+      "headword": "여기",
+      "part_of_speech": "pronoun",
+      "primary_meaning_ja": "ここ",
+      "meaning_ids": [
+        "b62e799b-acd2-45d3-8be9-c741fddaac05"
+      ],
+      "example_ids": [
+        "49689f2b-0cfa-4073-a2ec-1d60d080c1d0",
+        "3b144a71-086d-4d4b-b67a-6d97cbca3650"
+      ],
+      "category": "移動・位置"
+    },
+    {
+      "id": "20a9f364-f084-47c6-a7b1-49d4c9eddc86",
+      "headword": "거기",
+      "part_of_speech": "pronoun",
+      "primary_meaning_ja": "そこ",
+      "meaning_ids": [
+        "b011d419-b68c-4e51-9863-4f21672ea0ad"
+      ],
+      "example_ids": [
+        "cac7a2f1-9f1e-4fe5-b77b-3b5e448b811b",
+        "a713cfc0-ffe9-4312-9267-c55c85a067de"
+      ],
+      "category": "移動・位置"
+    },
+    {
+      "id": "6fd198f3-3aee-42a7-89d7-35a11071c674",
+      "headword": "저기",
+      "part_of_speech": "pronoun",
+      "primary_meaning_ja": "あそこ",
+      "meaning_ids": [
+        "ae9c190c-08fe-4fcc-a320-52949362c163"
+      ],
+      "example_ids": [
+        "5734c069-6bde-4422-b4f1-93dea2c0d19a",
+        "198576ad-b0b7-4094-8640-554b3aa8ee86"
+      ],
+      "category": "移動・位置"
+    },
+    {
+      "id": "384d31a1-b96e-4e1e-a909-0bac628c7942",
+      "headword": "뒤",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "後ろ",
+      "meaning_ids": [
+        "25553264-6f5c-4353-a44c-d8244f39f3e2"
+      ],
+      "example_ids": [
+        "82437b8e-f951-4498-8605-81bf60952ac4",
+        "8560aff4-873f-4628-9a26-f31dd6132f5b"
+      ],
+      "category": "移動・位置"
+    },
+    {
+      "id": "1898070d-1778-4143-b1d8-9dae56ec3dbb",
+      "headword": "가다",
+      "part_of_speech": "verb",
+      "primary_meaning_ja": "行く",
+      "meaning_ids": [
+        "78a1ee40-a502-42e9-9837-15bdc447b4c5"
+      ],
+      "example_ids": [
+        "931a8fd9-984e-4837-ab17-b2ef6d296acb",
+        "55630863-c10c-4535-9fe7-68943f6014c4"
+      ],
+      "category": "基本動詞"
+    },
+    {
+      "id": "1414b2e7-420f-4214-9cbe-f5d58e560c67",
+      "headword": "오다",
+      "part_of_speech": "verb",
+      "primary_meaning_ja": "来る",
+      "meaning_ids": [
+        "a2003f8e-9481-4fc8-8074-eb70f731b35d"
+      ],
+      "example_ids": [
+        "25761ec1-bb64-4cda-81ee-8b341ce9023d",
+        "1201ab82-b0a5-43db-bc3b-54f3653168de"
+      ],
+      "category": "基本動詞"
+    },
+    {
+      "id": "af329db1-d832-40ff-bf40-84a4ab8785ff",
+      "headword": "먹다",
+      "part_of_speech": "verb",
+      "primary_meaning_ja": "食べる",
+      "meaning_ids": [
+        "0c35b34c-7d45-4814-b15a-d1ae2852b5b9"
+      ],
+      "example_ids": [
+        "6f5de38c-f0e3-4776-b1f6-9c8f719c8019",
+        "d8376afe-17a9-4020-b37a-28b90fc2982e"
+      ],
+      "category": "基本動詞"
+    },
+    {
+      "id": "67cb9ccd-49f3-4e17-a1a5-2a55c79abe69",
+      "headword": "마시다",
+      "part_of_speech": "verb",
+      "primary_meaning_ja": "飲む",
+      "meaning_ids": [
+        "54d65af4-4569-4fee-91fe-d1a5f404650a"
+      ],
+      "example_ids": [
+        "6262dfa5-fa6e-4bc2-9732-32eb1a1d5c2a",
+        "123530d6-9ef5-4bc4-b50c-13e597bc806d"
+      ],
+      "category": "基本動詞"
+    },
+    {
+      "id": "ea5bda06-a0b7-4f37-a227-489cd0e97b50",
+      "headword": "보다",
+      "part_of_speech": "verb",
+      "primary_meaning_ja": "見る",
+      "meaning_ids": [
+        "ef095d07-3e44-4743-b4ee-dd4f5f59c09d"
+      ],
+      "example_ids": [
+        "456feb6e-50f7-4d94-b2c0-56b67fe35f49",
+        "6a01d3db-f280-4094-b955-fed1241cc50d"
+      ],
+      "category": "基本動詞"
+    },
+    {
+      "id": "16f1a043-b220-4239-9472-abbc01e0f55f",
+      "headword": "읽다",
+      "part_of_speech": "verb",
+      "primary_meaning_ja": "読む",
+      "meaning_ids": [
+        "5693eb29-66ec-426c-82e8-7fb3d0af3e1b"
+      ],
+      "example_ids": [
+        "be7133cf-3e7c-4a58-868a-69a38c65499a",
+        "ea4e3764-cc1e-4f3e-a25a-f792edd9ad87"
+      ],
+      "category": "基本動詞"
+    },
+    {
+      "id": "8860a406-438e-46c0-9400-ec8d46b8142b",
+      "headword": "듣다",
+      "part_of_speech": "verb",
+      "primary_meaning_ja": "聞く",
+      "meaning_ids": [
+        "4189447d-f7e1-46da-800f-34c11dd21616"
+      ],
+      "example_ids": [
+        "4899f78c-29ac-4f12-803c-92011a759e53",
+        "80faa9f3-0e43-4adf-85cd-1d6c57f7fb2a"
+      ],
+      "category": "基本動詞"
+    },
+    {
+      "id": "d7632872-1ba0-4930-9e6f-ead30910d5a7",
+      "headword": "쓰다",
+      "part_of_speech": "verb",
+      "primary_meaning_ja": "書く",
+      "meaning_ids": [
+        "5e5b69fa-ef4d-4148-8b7a-9240642e8243"
+      ],
+      "example_ids": [
+        "b003660f-c794-49c0-8422-bc5ac3ac1fb0",
+        "b8c56c88-cbf1-4960-babb-e2177484e1d0"
+      ],
+      "category": "基本動詞"
+    },
+    {
+      "id": "9af026ae-ee03-41cc-94f2-8eab122f49bb",
+      "headword": "배우다",
+      "part_of_speech": "verb",
+      "primary_meaning_ja": "習う・学ぶ",
+      "meaning_ids": [
+        "cd3a36c8-c1d1-4c9e-811c-dc5a9a444cbf"
+      ],
+      "example_ids": [
+        "8fc9b208-8f6f-4cd1-8aeb-af0d355b2084",
+        "73631744-8169-4d01-8896-731413d728a1"
+      ],
+      "category": "基本動詞"
+    },
+    {
+      "id": "6fb5fdd9-f6ec-4407-b9b7-b4f47c316b4e",
+      "headword": "공부하다",
+      "part_of_speech": "verb",
+      "primary_meaning_ja": "勉強する",
+      "meaning_ids": [
+        "6143504d-3827-4232-b01e-1544cfb51b72"
+      ],
+      "example_ids": [
+        "1cfe9ce0-f144-4187-ba7f-d1f499a23294",
+        "859edb1e-8dd1-4f4a-907b-59d6170d6297"
+      ],
+      "category": "基本動詞"
+    },
+    {
+      "id": "6650e3b6-0b98-4269-9de8-bbeb5139c5c8",
+      "headword": "일하다",
+      "part_of_speech": "verb",
+      "primary_meaning_ja": "働く・仕事をする",
+      "meaning_ids": [
+        "c97a175f-aef6-45cf-a084-3aeece1728e6"
+      ],
+      "example_ids": [
+        "105cb190-445b-459d-9c0e-1cda6f9572b3",
+        "881230c2-628f-4b80-a919-d3401289d5ae"
+      ],
+      "category": "基本動詞"
+    },
+    {
+      "id": "31197479-9264-45e6-9b23-81db1e559ae1",
+      "headword": "만나다",
+      "part_of_speech": "verb",
+      "primary_meaning_ja": "会う",
+      "meaning_ids": [
+        "355f30a8-65e3-4a81-abff-c06417bbaec1"
+      ],
+      "example_ids": [
+        "19d43df5-adb5-4338-b456-f0a7437c9703",
+        "8ff949b1-952e-46d0-9394-e9e425fc5df3"
+      ],
+      "category": "基本動詞"
+    },
+    {
+      "id": "ccac444a-c57d-49ca-994b-d6b07120e469",
+      "headword": "사다",
+      "part_of_speech": "verb",
+      "primary_meaning_ja": "買う",
+      "meaning_ids": [
+        "4728434d-96e7-411f-af9d-f2d8f77ca37c"
+      ],
+      "example_ids": [
+        "6036d94b-9984-4ddb-b96c-9c28c2616451",
+        "afdec6c9-e3db-4e55-a613-281fb468967c"
+      ],
+      "category": "基本動詞"
+    },
+    {
+      "id": "f5c6b7ca-638f-4099-87ca-10d44fa6a939",
+      "headword": "팔다",
+      "part_of_speech": "verb",
+      "primary_meaning_ja": "売る",
+      "meaning_ids": [
+        "56b25115-add0-4cf7-8c41-b4c01b91401a"
+      ],
+      "example_ids": [
+        "6f018f6a-49ab-4bef-8cef-a4d5388a0005",
+        "2ecaa6b7-522a-479c-ae7f-2858ec12e365"
+      ],
+      "category": "基本動詞"
+    },
+    {
+      "id": "0dd02230-2962-45ac-bd96-9f1a44e30da9",
+      "headword": "주다",
+      "part_of_speech": "verb",
+      "primary_meaning_ja": "あげる・くれる・渡す",
+      "meaning_ids": [
+        "63326b81-5420-4c33-897e-641f8a18be4f"
+      ],
+      "example_ids": [
+        "dd0c768c-7ec1-4442-aa86-b66ea2278c4c",
+        "78287d7a-7c28-4e6e-9d19-706b832c9083"
+      ],
+      "category": "基本動詞"
+    },
+    {
+      "id": "7f867bcf-2ff8-46d3-8a0d-d23e4e88c8c6",
+      "headword": "받다",
+      "part_of_speech": "verb",
+      "primary_meaning_ja": "受け取る・もらう",
+      "meaning_ids": [
+        "cc348f57-9d70-4680-84d2-0dae6f3b5dd2"
+      ],
+      "example_ids": [
+        "3e672fd7-d5cf-4d86-a273-df925ceb6331",
+        "01185495-0b1c-4250-9c33-b82c633cc034"
+      ],
+      "category": "基本動詞"
+    },
+    {
+      "id": "85724ee0-455d-47c4-8f97-3edb361164d3",
+      "headword": "만들다",
+      "part_of_speech": "verb",
+      "primary_meaning_ja": "作る",
+      "meaning_ids": [
+        "c3d80adc-fed1-4e17-8459-e980f98a6db1"
+      ],
+      "example_ids": [
+        "9db3a086-371c-4f1b-9492-62f282d74704",
+        "1faace81-01ae-4964-8e4b-ab027167788a"
+      ],
+      "category": "基本動詞"
+    },
+    {
+      "id": "79ef3101-1f56-489b-b552-8bae054e8160",
+      "headword": "자다",
+      "part_of_speech": "verb",
+      "primary_meaning_ja": "寝る",
+      "meaning_ids": [
+        "a27eafbc-e6fb-4a84-abc5-ed7ad6cfd7bd"
+      ],
+      "example_ids": [
+        "06edc7f2-7319-409f-b0c5-d399e7f403a2",
+        "8a84aa03-45ff-4696-9ffa-995feaaee99e"
+      ],
+      "category": "基本動詞"
+    },
+    {
+      "id": "2f607ac4-bc8a-4d5d-bdc8-5f2cdc9324f0",
+      "headword": "일어나다",
+      "part_of_speech": "verb",
+      "primary_meaning_ja": "起きる（眠りから覚める）",
+      "meaning_ids": [
+        "e6cbfde1-040c-44f7-8e4a-f8e65f4ca775",
+        "aad5546e-a801-4e52-a5f2-4167c07d383b"
+      ],
+      "example_ids": [
+        "09e8672a-7706-4a3e-8666-0184b342a5c1",
+        "fe254c4a-90f3-4ee5-bd97-06f8d1602c54"
+      ],
+      "category": "基本動詞"
+    },
+    {
+      "id": "2f3e8d0b-1753-4536-8674-99cc5dbaea44",
+      "headword": "앉다",
+      "part_of_speech": "verb",
+      "primary_meaning_ja": "座る",
+      "meaning_ids": [
+        "8ad9bb15-6626-4fb6-8a52-be70f739444b"
+      ],
+      "example_ids": [
+        "a552d3a2-09af-4f91-b1ca-61fcea08765a",
+        "14581155-712c-49f5-ac0b-e9dac9d0ad3f"
+      ],
+      "category": "基本動詞"
+    },
+    {
+      "id": "65eaab5e-4529-423c-a0b1-13f3d02ed2b0",
+      "headword": "서다",
+      "part_of_speech": "verb",
+      "primary_meaning_ja": "立つ",
+      "meaning_ids": [
+        "58d995fe-9a17-4eb0-816e-9e916c1c51f3"
+      ],
+      "example_ids": [
+        "54b66cc6-41e0-414e-9e7f-e80f7f7366ed",
+        "b890c708-4e07-4b1f-af4b-99391a58fa07"
+      ],
+      "category": "基本動詞"
+    },
+    {
+      "id": "1b03a139-026f-42c1-bcc5-9c5d6612ea77",
+      "headword": "걷다",
+      "part_of_speech": "verb",
+      "primary_meaning_ja": "歩く",
+      "meaning_ids": [
+        "c384426b-b1ff-472f-9e6d-6d8da84b27f8"
+      ],
+      "example_ids": [
+        "5a5a5deb-571a-4230-8b92-77c13c859eb8",
+        "95d5b5c8-bb0a-4c89-926f-3ab158e126a9"
+      ],
+      "category": "基本動詞"
+    },
+    {
+      "id": "089cb834-aa83-4ef3-8727-48957b563991",
+      "headword": "뛰다",
+      "part_of_speech": "verb",
+      "primary_meaning_ja": "走る・駆ける",
+      "meaning_ids": [
+        "c86809a8-1477-4d56-873a-32a5974dc9d3"
+      ],
+      "example_ids": [
+        "5483be0c-bc8a-47e5-84e5-6262ea7bdaac",
+        "dff0b469-d616-4b10-acee-d27d18b1cc78"
+      ],
+      "category": "基本動詞"
+    },
+    {
+      "id": "d60dee9a-187d-490a-b322-37bbf7db8b88",
+      "headword": "타다",
+      "part_of_speech": "verb",
+      "primary_meaning_ja": "乗る",
+      "meaning_ids": [
+        "d85316ec-9e0a-4870-b414-0e577a6a0d15"
+      ],
+      "example_ids": [
+        "61d15335-82bc-4c71-9a4c-b2f3de9a698c",
+        "6b909b7d-3bd1-4f61-a4b3-fa26d3caf415"
+      ],
+      "category": "基本動詞"
+    },
+    {
+      "id": "9bdf07ed-baeb-42a0-8ee1-23b6e06b2b0a",
+      "headword": "내리다",
+      "part_of_speech": "verb",
+      "primary_meaning_ja": "降りる",
+      "meaning_ids": [
+        "8b96bd98-3e92-4c06-b17a-5aca2ef71aa7"
+      ],
+      "example_ids": [
+        "e7238095-3b6e-468f-934d-df69802aabaf",
+        "4ea089e1-0f59-4480-a110-e1bfda053889"
+      ],
+      "category": "基本動詞"
+    },
+    {
+      "id": "04ecddf4-c1b7-4b9a-a26c-dd4dd5285eb0",
+      "headword": "기다리다",
+      "part_of_speech": "verb",
+      "primary_meaning_ja": "待つ",
+      "meaning_ids": [
+        "b99df152-b18a-4342-9c45-e652ec5f7a16"
+      ],
+      "example_ids": [
+        "60c06afb-9acb-4172-ba3b-ea64de79008c",
+        "89d7ad40-37f6-4db1-86a6-e7047964b53e"
+      ],
+      "category": "基本動詞"
+    },
+    {
+      "id": "ef99c9c1-d608-4886-b8ea-09d82a6534a8",
+      "headword": "찾다",
+      "part_of_speech": "verb",
+      "primary_meaning_ja": "探す",
+      "meaning_ids": [
+        "bdc07d0d-24dc-46b8-910b-faf2b4fc4089",
+        "bf1e0cd7-78d5-4290-a15f-bd1bbc34b3cf"
+      ],
+      "example_ids": [
+        "c3fc41f9-b1bd-46ab-a4ef-967766ed7bfa",
+        "f4edeef0-5b56-423f-a8c6-abf97780de58"
+      ],
+      "category": "基本動詞"
+    },
+    {
+      "id": "2de8f51d-04ee-4c80-9b2f-cda1e77c283f",
+      "headword": "열다",
+      "part_of_speech": "verb",
+      "primary_meaning_ja": "開ける",
+      "meaning_ids": [
+        "c8d32770-858c-46f1-8e9e-056466bae0f2"
+      ],
+      "example_ids": [
+        "69ee15a1-92c4-4d8a-9c68-3512e5718a0e",
+        "7ae978e5-dee1-48af-9909-6bc7bca7357b"
+      ],
+      "category": "基本動詞"
+    },
+    {
+      "id": "e3261465-a0dd-40f5-8abc-0682d671a989",
+      "headword": "닫다",
+      "part_of_speech": "verb",
+      "primary_meaning_ja": "閉める・閉じる",
+      "meaning_ids": [
+        "9259650a-5256-49d0-9083-6a7e74bd5906"
+      ],
+      "example_ids": [
+        "fbfab089-352a-4cae-a45a-0825f1b7ec19",
+        "1a3f655b-1706-4402-ba9c-40647e8582c5"
+      ],
+      "category": "基本動詞"
+    },
+    {
+      "id": "a80b5e32-c4ef-46fb-8fd4-4263255bb0d2",
+      "headword": "입다",
+      "part_of_speech": "verb",
+      "primary_meaning_ja": "着る",
+      "meaning_ids": [
+        "d16b567d-fc77-4cd5-ba5e-d9241fcf7cc6"
+      ],
+      "example_ids": [
+        "ee1f6786-0c26-4d51-9c08-bf61fcff62ae",
+        "1453529c-f700-4fff-913b-ecc24956ffb4"
+      ],
+      "category": "基本動詞"
+    },
+    {
+      "id": "fef2fed6-f85d-43b0-96e3-f2aac78b159c",
+      "headword": "신다",
+      "part_of_speech": "verb",
+      "primary_meaning_ja": "履く（靴・靴下など）",
+      "meaning_ids": [
+        "794961e2-6e82-4000-b1aa-e1bd34d7f831"
+      ],
+      "example_ids": [
+        "9ef205f6-b857-4ce7-be0d-9f03e2e598ed",
+        "615ff62f-2ae2-4b5c-bdd1-584c3262366a"
+      ],
+      "category": "基本動詞"
+    },
+    {
+      "id": "0b16776f-2681-4555-bc5d-701a315d1f3d",
+      "headword": "씻다",
+      "part_of_speech": "verb",
+      "primary_meaning_ja": "洗う",
+      "meaning_ids": [
+        "43cf874d-da07-4f9c-a00f-befb3ccb04de"
+      ],
+      "example_ids": [
+        "5c52e774-3ee3-4c23-b00f-2a01676f40a3",
+        "d36daffe-c65e-4ca8-b3af-f03a28b0271b"
+      ],
+      "category": "基本動詞"
+    },
+    {
+      "id": "d3f53872-702d-4ce9-ab79-e3092315d4e2",
+      "headword": "좋아하다",
+      "part_of_speech": "verb",
+      "primary_meaning_ja": "好きだ・好む",
+      "meaning_ids": [
+        "73eb6ba9-b640-4431-90d2-84af6790b947"
+      ],
+      "example_ids": [
+        "ec4d71b5-a5f7-4b22-93b5-fdd1e84cb602",
+        "4957452f-a49d-4ff6-8cd4-89aa9d43ac4d"
+      ],
+      "category": "基本動詞"
+    },
+    {
+      "id": "346f1442-8a5b-4e57-90d2-ba1be2974b02",
+      "headword": "알다",
+      "part_of_speech": "verb",
+      "primary_meaning_ja": "知っている",
+      "meaning_ids": [
+        "6f3701ee-3537-4ae7-b432-1b029c1492ff",
+        "40badfef-435a-407f-bed9-90c30474bb43"
+      ],
+      "example_ids": [
+        "2e17f7a3-2770-4242-a11d-71271677e411",
+        "e2b7dd3f-6e35-4a87-9040-4e584490ca75"
+      ],
+      "category": "基本動詞"
+    },
+    {
+      "id": "668bbf50-dbbd-460d-b3ee-e557bfdcbe5f",
+      "headword": "모르다",
+      "part_of_speech": "verb",
+      "primary_meaning_ja": "知らない・分からない",
+      "meaning_ids": [
+        "618e084f-52e9-4690-a984-0674085d15d1"
+      ],
+      "example_ids": [
+        "afbcd5a3-4fb8-44c8-92be-675ec528c626",
+        "c105803b-55e0-4946-8396-c9596b9fbd83"
+      ],
+      "category": "基本動詞"
+    },
+    {
+      "id": "7af61ee9-b068-4f2b-8616-c91181852a9c",
+      "headword": "있다",
+      "part_of_speech": "adjective",
+      "primary_meaning_ja": "ある・いる（存在）",
+      "meaning_ids": [
+        "bb3bb025-3ffd-423e-90e9-87f880de036c",
+        "5bdd6b4f-c8de-4975-918a-244e5f908b43"
+      ],
+      "example_ids": [
+        "ed9d085c-4d2a-473f-b815-f6f2d924aeff",
+        "447abb1b-9606-433c-bc75-8b1e7a0c61cb"
+      ],
+      "category": "状態・気持ち"
+    },
+    {
+      "id": "2e191f39-f933-485f-b358-72fe7474b566",
+      "headword": "없다",
+      "part_of_speech": "adjective",
+      "primary_meaning_ja": "ない・いない（不在）",
+      "meaning_ids": [
+        "f49ae30d-7f00-4cf5-b276-b9b00f7a2517",
+        "e9dc72d2-d8f6-413f-970f-051fe1fe73c6"
+      ],
+      "example_ids": [
+        "53cca841-ae86-435d-b60e-7571faf5306d",
+        "3c153d99-94da-407c-9a14-2ce3ea0ec13b"
+      ],
+      "category": "状態・気持ち"
+    },
+    {
+      "id": "d950295a-d670-4b6e-9e5b-4c9be2b4b0d0",
+      "headword": "좋다",
+      "part_of_speech": "adjective",
+      "primary_meaning_ja": "よい・いい",
+      "meaning_ids": [
+        "2a218c8c-ff76-4431-8524-e2e5e8a0a1d5",
+        "b0970b26-3f29-4d23-b693-ce5304b91428"
+      ],
+      "example_ids": [
+        "5f0ab2ca-9d46-4fe2-8141-606239a484ac",
+        "f0250e28-b83f-4ff7-a3c9-75e7dac19730"
+      ],
+      "category": "状態・気持ち"
+    },
+    {
+      "id": "1cf8f896-e145-40ed-a6ee-9e2087ae439f",
+      "headword": "싫다",
+      "part_of_speech": "adjective",
+      "primary_meaning_ja": "嫌だ・嫌いだ",
+      "meaning_ids": [
+        "f14242db-6501-484b-b2ec-b9fc64d5f35e"
+      ],
+      "example_ids": [
+        "42846287-815d-4ca8-8c5b-819a106e972d",
+        "eb320836-75a7-4eee-b78e-c04c82df4478"
+      ],
+      "category": "状態・気持ち"
+    },
+    {
+      "id": "c4b11d0f-49cb-4a5b-8058-1229dfbfb300",
+      "headword": "크다",
+      "part_of_speech": "adjective",
+      "primary_meaning_ja": "大きい",
+      "meaning_ids": [
+        "29040b13-1f2e-4ac6-a7c2-a0758b27cd07"
+      ],
+      "example_ids": [
+        "ea64085b-534d-49fb-8ff4-6140c1c73f15",
+        "c78cd33a-e4d0-4caa-bf43-0f279159066c"
+      ],
+      "category": "状態・気持ち"
+    },
+    {
+      "id": "afc3da3b-0f1a-4d55-a341-7fc3008728fc",
+      "headword": "작다",
+      "part_of_speech": "adjective",
+      "primary_meaning_ja": "小さい",
+      "meaning_ids": [
+        "39068cd7-5e0f-4cbb-9a47-46fc9d369924"
+      ],
+      "example_ids": [
+        "a63ff3a3-5062-4d01-aac8-718e8176e4bf",
+        "a1777ea2-db48-4fc6-97c6-ffa49fa64e95"
+      ],
+      "category": "状態・気持ち"
+    },
+    {
+      "id": "bd066e35-223d-41e5-af6a-fcd3cb3eeeeb",
+      "headword": "많다",
+      "part_of_speech": "adjective",
+      "primary_meaning_ja": "多い",
+      "meaning_ids": [
+        "ab998586-f883-4d89-b1ff-b5d2c222b9d3"
+      ],
+      "example_ids": [
+        "d58cea71-65ef-4c5f-89a7-450f172e4557",
+        "181d85a7-d0c3-4d2a-b351-03b65b118300"
+      ],
+      "category": "状態・気持ち"
+    },
+    {
+      "id": "7ed9cfb9-b5ef-441d-9607-a4d60f44eb7e",
+      "headword": "적다",
+      "part_of_speech": "adjective",
+      "primary_meaning_ja": "少ない",
+      "meaning_ids": [
+        "791eddd9-009d-4dff-9528-b8751cb584cc"
+      ],
+      "example_ids": [
+        "c3609c17-b5e3-4353-bf93-c6fd4b7ba625",
+        "a33bcad9-bf96-424d-bc19-cee2fb26f6ca"
+      ],
+      "category": "状態・気持ち"
+    },
+    {
+      "id": "f27fb9d5-1301-4875-9431-91226837aa09",
+      "headword": "길다",
+      "part_of_speech": "adjective",
+      "primary_meaning_ja": "長い",
+      "meaning_ids": [
+        "afd95de0-fb71-4d0f-ad13-a81f2dcf954c"
+      ],
+      "example_ids": [
+        "9f990f01-7e17-41b2-b0ac-9bba6df648a4",
+        "56165c55-fd17-4c02-a7d1-8363a94d72ad"
+      ],
+      "category": "状態・気持ち"
+    },
+    {
+      "id": "07757b79-e9a7-49cb-a349-03f0ae461022",
+      "headword": "짧다",
+      "part_of_speech": "adjective",
+      "primary_meaning_ja": "短い",
+      "meaning_ids": [
+        "160c77fc-0263-43c8-bbe6-ba9831988b18"
+      ],
+      "example_ids": [
+        "e6cfacf3-b3ca-4885-9194-209d14d542b1",
+        "fcb7270d-c78d-4b47-a2f6-6a44d281a550"
+      ],
+      "category": "状態・気持ち"
+    },
+    {
+      "id": "bef9f9e3-2afb-4adc-a8b7-3c13dee20447",
+      "headword": "높다",
+      "part_of_speech": "adjective",
+      "primary_meaning_ja": "高い（高さ）",
+      "meaning_ids": [
+        "a2f4c3be-42be-438e-97b0-73bdc5aa7f87"
+      ],
+      "example_ids": [
+        "29ed161a-f9f4-41dd-afdb-8a5597c184d7",
+        "5d13da13-5bb5-4913-ada9-30103b96c849"
+      ],
+      "category": "状態・気持ち"
+    },
+    {
+      "id": "35abda25-54fe-460d-9600-df592d5ac774",
+      "headword": "낮다",
+      "part_of_speech": "adjective",
+      "primary_meaning_ja": "低い",
+      "meaning_ids": [
+        "597416a0-dc86-4af0-be8c-6aef332ad631"
+      ],
+      "example_ids": [
+        "170119dd-b0d0-4e81-a30f-d062f97ac76e",
+        "92b9a3d8-9188-4fec-a93c-dc667b029eac"
+      ],
+      "category": "状態・気持ち"
+    },
+    {
+      "id": "e87cd45c-1fe8-4c9c-9198-902cd2439137",
+      "headword": "빠르다",
+      "part_of_speech": "adjective",
+      "primary_meaning_ja": "速い・早い（速度など）",
+      "meaning_ids": [
+        "aeedf3bb-a9e6-402e-b8fa-d03e199b1497"
+      ],
+      "example_ids": [
+        "08c2a4f2-a4be-46d5-bbcc-79f4c858b5bc",
+        "f4a22e8a-09e5-4210-8445-a47a5d712685"
+      ],
+      "category": "状態・気持ち"
+    },
+    {
+      "id": "e1ab49af-4f1d-4413-970f-c3a33845b71a",
+      "headword": "느리다",
+      "part_of_speech": "adjective",
+      "primary_meaning_ja": "遅い（速度）",
+      "meaning_ids": [
+        "bdcc836c-43c3-43f1-a75a-bf605a6189b5",
+        "b6c79a14-7b71-4012-98e0-5a640c32985a"
+      ],
+      "example_ids": [
+        "525234c5-7109-45e2-8883-d9135111248c",
+        "2109d7ae-be6d-46d0-8dec-179c1043ebaa"
+      ],
+      "category": "状態・気持ち"
+    },
+    {
+      "id": "029ea48d-d4aa-448c-8f14-8898c2549e34",
+      "headword": "쉽다",
+      "part_of_speech": "adjective",
+      "primary_meaning_ja": "易しい・簡単だ",
+      "meaning_ids": [
+        "af597d5d-281d-4de9-b296-011296cd298d"
+      ],
+      "example_ids": [
+        "603de0d2-98ac-4be7-a977-c8d8e9fe9022",
+        "efd86e32-72e8-4d3b-872d-05a6edce6021"
+      ],
+      "category": "状態・気持ち"
+    },
+    {
+      "id": "b9cbba95-22a8-47ab-b630-9212e0abac5f",
+      "headword": "어렵다",
+      "part_of_speech": "adjective",
+      "primary_meaning_ja": "難しい",
+      "meaning_ids": [
+        "4632dc13-1ce4-478b-b491-8a0a6dfe641c"
+      ],
+      "example_ids": [
+        "e30ebf1b-d4c5-49e5-9742-58128ef93669",
+        "4d7880de-9556-4cce-9445-cd1c0bff6203"
+      ],
+      "category": "状態・気持ち"
+    },
+    {
+      "id": "d5544f27-923b-4363-b62c-0851beccf8df",
+      "headword": "덥다",
+      "part_of_speech": "adjective",
+      "primary_meaning_ja": "暑い",
+      "meaning_ids": [
+        "0c6b832b-2e8c-4c12-bc27-38dbcc6d1670"
+      ],
+      "example_ids": [
+        "270488df-108e-467d-9cd0-231aff113f0a",
+        "b843a33c-11e7-4a8e-bcf0-5dec0eb442f8"
+      ],
+      "category": "状態・気持ち"
+    },
+    {
+      "id": "b71fc7a2-f04d-411a-9260-2b598e599154",
+      "headword": "춥다",
+      "part_of_speech": "adjective",
+      "primary_meaning_ja": "寒い",
+      "meaning_ids": [
+        "4a06ef9b-33e4-41a7-a28a-474caeea55cc"
+      ],
+      "example_ids": [
+        "93b4a06a-eee7-4e6f-b10c-f8ab94c0593a",
+        "7698c2c8-8e9a-4914-a33b-ce57036cb011"
+      ],
+      "category": "状態・気持ち"
+    },
+    {
+      "id": "a5c803c5-7e30-41d3-96ba-e4cb72a62e17",
+      "headword": "뜨겁다",
+      "part_of_speech": "adjective",
+      "primary_meaning_ja": "熱い",
+      "meaning_ids": [
+        "1a33b0ee-903f-407e-aba7-c3e9a5543f7e"
+      ],
+      "example_ids": [
+        "93840220-081f-4c57-9f7a-31873070decb",
+        "af83ae76-7bf6-4baa-bc60-e8bbd1f0030a"
+      ],
+      "category": "状態・気持ち"
+    },
+    {
+      "id": "86f03ce4-3561-4522-b4aa-c3d121a8831a",
+      "headword": "차갑다",
+      "part_of_speech": "adjective",
+      "primary_meaning_ja": "冷たい",
+      "meaning_ids": [
+        "74e07434-13a9-4c46-ae3b-4861cb5ca9d5"
+      ],
+      "example_ids": [
+        "78d0eb40-0444-4d5a-8253-b81b69f3f059",
+        "b53d4d8f-866c-47d3-bf7a-6ea862b6eed7"
+      ],
+      "category": "状態・気持ち"
+    },
+    {
+      "id": "bafda0f9-c64e-4e80-ac66-42274be25ac2",
+      "headword": "맛있다",
+      "part_of_speech": "adjective",
+      "primary_meaning_ja": "おいしい",
+      "meaning_ids": [
+        "44122b17-1566-4684-9a57-db7d3cede4a7"
+      ],
+      "example_ids": [
+        "c35a95f2-1020-410f-9176-fd151f01ec66",
+        "b216c514-bb0d-4ab4-92be-a34dcb41d9a1"
+      ],
+      "category": "状態・気持ち"
+    },
+    {
+      "id": "4539e5b2-b27f-44d0-b172-12d132dc0970",
+      "headword": "맛없다",
+      "part_of_speech": "adjective",
+      "primary_meaning_ja": "おいしくない",
+      "meaning_ids": [
+        "8a4a22d4-775b-40c6-8fe6-0cba7332f8a8"
+      ],
+      "example_ids": [
+        "409695ed-a032-4017-9367-d5f99320da40",
+        "b860590d-7e43-4a4b-aec5-31b413dceb4e"
+      ],
+      "category": "状態・気持ち"
+    },
+    {
+      "id": "d8419682-fe09-4d80-a16d-cfa9a5705410",
+      "headword": "아프다",
+      "part_of_speech": "adjective",
+      "primary_meaning_ja": "痛い",
+      "meaning_ids": [
+        "579055d1-e804-42d6-bc0a-5db3c78a9136",
+        "ee85c398-5696-42fd-b605-c0eed88515cc"
+      ],
+      "example_ids": [
+        "9c186e56-bf4c-42f7-b110-9bc705dea2cb",
+        "4c803536-2f2d-49e1-ad1c-b5ff083925ac"
+      ],
+      "category": "状態・気持ち"
+    },
+    {
+      "id": "b88d7075-2664-439e-ae76-2c4284fab9a3",
+      "headword": "기쁘다",
+      "part_of_speech": "adjective",
+      "primary_meaning_ja": "うれしい",
+      "meaning_ids": [
+        "c7952f77-e33c-4678-80f1-e01e0f27d486"
+      ],
+      "example_ids": [
+        "7cc8beb5-4cf3-4833-85ba-e26932dae971",
+        "da7ea7d5-a49a-4b79-9b81-e092b12745d3"
+      ],
+      "category": "状態・気持ち"
+    },
+    {
+      "id": "328825b6-f8ba-4903-b501-60887eb9a9bc",
+      "headword": "슬프다",
+      "part_of_speech": "adjective",
+      "primary_meaning_ja": "悲しい",
+      "meaning_ids": [
+        "e37e4bcf-8720-42dc-a1f0-ad56440b419a"
+      ],
+      "example_ids": [
+        "7ce69378-4f31-4798-b821-563fb13b3768",
+        "62145c60-d51a-44f9-9fd2-b954f2ebf7c6"
+      ],
+      "category": "状態・気持ち"
+    },
+    {
+      "id": "ddadde97-c840-442c-84b9-11dbcd3464ce",
+      "headword": "누구",
+      "part_of_speech": "pronoun",
+      "primary_meaning_ja": "誰",
+      "meaning_ids": [
+        "2fe59ec4-8b27-4289-85c9-bd4796749750"
+      ],
+      "example_ids": [
+        "1c797bef-ed5f-498a-b403-3c5e3df5ea90",
+        "3b4c2cd7-1c9b-4ce1-9512-f4c281df1e8d"
+      ],
+      "category": "疑問・よく使う副詞"
+    },
+    {
+      "id": "1dec5754-7840-4bb5-b87d-ed8398a2c738",
+      "headword": "무엇",
+      "part_of_speech": "pronoun",
+      "primary_meaning_ja": "何",
+      "meaning_ids": [
+        "6340809b-a221-45f6-80f6-1bd7c51462ea"
+      ],
+      "example_ids": [
+        "cffb5712-05e1-4e63-be6a-0239989da8e6",
+        "8dd196da-b694-4888-a242-66948d703ef0"
+      ],
+      "category": "疑問・よく使う副詞"
+    },
+    {
+      "id": "90c49706-991e-41f0-83bb-e77f4de7b06e",
+      "headword": "어디",
+      "part_of_speech": "pronoun",
+      "primary_meaning_ja": "どこ",
+      "meaning_ids": [
+        "3998d2f2-dc92-4264-b09e-39720db4680a"
+      ],
+      "example_ids": [
+        "fce7c88a-b9b4-4127-82f3-f11ed17720d9",
+        "6cb51c31-4008-4ec2-83df-d19ccb89eb0f"
+      ],
+      "category": "疑問・よく使う副詞"
+    },
+    {
+      "id": "47e140e8-c3f7-42db-8d59-2308282ba5ae",
+      "headword": "언제",
+      "part_of_speech": "pronoun",
+      "primary_meaning_ja": "いつ",
+      "meaning_ids": [
+        "4948ff2b-d5be-4d24-b4ad-0464aecbd050"
+      ],
+      "example_ids": [
+        "caec9f44-3847-4b14-9a72-93949db8b39c",
+        "53221e67-b5b0-451a-8264-edbacb5fde35"
+      ],
+      "category": "疑問・よく使う副詞"
+    },
+    {
+      "id": "00983448-84d9-468b-8c65-e6dda9cd8fd6",
+      "headword": "왜",
+      "part_of_speech": "adverb",
+      "primary_meaning_ja": "なぜ・どうして",
+      "meaning_ids": [
+        "1d9e574a-6316-46bd-8da4-37246ee5d2ce"
+      ],
+      "example_ids": [
+        "d654a16e-1d5c-4614-8267-13040a275a83",
+        "5d136f8a-c478-4721-87e6-d8f89bb841e4"
+      ],
+      "category": "疑問・よく使う副詞"
+    },
+    {
+      "id": "5396e19a-4fb0-45cb-845d-7f0432b2e35c",
+      "headword": "어떻다",
+      "part_of_speech": "adjective",
+      "primary_meaning_ja": "どうだ・どのようだ",
+      "meaning_ids": [
+        "686f8cfa-a23d-4f83-986e-7880ea6ec0be"
+      ],
+      "example_ids": [
+        "a9299f6d-f154-481c-95ca-3c71631f00cb",
+        "6f5991bf-97eb-4f05-affc-89c97915fda2"
+      ],
+      "category": "疑問・よく使う副詞"
+    },
+    {
+      "id": "d0c2cddd-5ef1-4584-ad81-ce77072c5ee2",
+      "headword": "얼마",
+      "part_of_speech": "noun",
+      "primary_meaning_ja": "いくら",
+      "meaning_ids": [
+        "15ed1ce2-e4b2-4abb-b35f-e2031d6986b7"
+      ],
+      "example_ids": [
+        "4b8e7b3d-7963-48bc-aad5-69aa58875ac2",
+        "40dd7a62-a01d-4747-a3bc-bf1eb044be76"
+      ],
+      "category": "疑問・よく使う副詞"
+    },
+    {
+      "id": "bf3bc071-b18c-49f7-acad-2be120eb7989",
+      "headword": "조금",
+      "part_of_speech": "adverb",
+      "primary_meaning_ja": "少し",
+      "meaning_ids": [
+        "40abf52f-34e0-4de7-8a21-f1d83e03d7d4"
+      ],
+      "example_ids": [
+        "0fed2406-a337-4ab7-870e-b49fab9ce3e8",
+        "5e96200f-52e7-4460-a327-82e5156961d3"
+      ],
+      "category": "疑問・よく使う副詞"
+    },
+    {
+      "id": "4f75de17-cc6f-43d6-9f8c-08eda89d9209",
+      "headword": "많이",
+      "part_of_speech": "adverb",
+      "primary_meaning_ja": "たくさん・多く",
+      "meaning_ids": [
+        "b62bf2f2-7e6c-4147-a0e0-16d4ec928eae"
+      ],
+      "example_ids": [
+        "f1673a68-e0fc-4765-a193-87dc7eff0a19",
+        "ebf715ea-2d36-4113-aa91-329f65603d51"
+      ],
+      "category": "疑問・よく使う副詞"
+    },
+    {
+      "id": "227b9a95-21f6-4f1f-b9cf-9de50a82685e",
+      "headword": "아주",
+      "part_of_speech": "adverb",
+      "primary_meaning_ja": "とても",
+      "meaning_ids": [
+        "5cac59df-c142-4974-85a6-1c905b3840a8"
+      ],
+      "example_ids": [
+        "1be0b112-e990-495c-bfbd-9a73689799bf",
+        "aebcef42-07f7-4182-b697-a3dac75dc306"
+      ],
+      "category": "疑問・よく使う副詞"
+    },
+    {
+      "id": "00ec58e9-258f-4bb2-a6e2-f969cb91d891",
+      "headword": "너무",
+      "part_of_speech": "adverb",
+      "primary_meaning_ja": "あまりにも・〜すぎて",
+      "meaning_ids": [
+        "4192d995-3fa8-41e9-9bad-4fd8c34f2beb",
+        "6a00dce5-1b8c-46bf-a5ea-865a64afa475"
+      ],
+      "example_ids": [
+        "6e9fb5c7-5e98-47df-9dec-b6e1696e1bc2",
+        "50c8ede7-8611-4730-b7ac-09a58eed9bf9"
+      ],
+      "category": "疑問・よく使う副詞"
+    },
+    {
+      "id": "a7fd0527-aedf-441a-bc19-da2322906e8c",
+      "headword": "잘",
+      "part_of_speech": "adverb",
+      "primary_meaning_ja": "上手に・うまく",
+      "meaning_ids": [
+        "bf636686-73e6-46b9-90c3-3945b9bd9755",
+        "97b213f5-da23-4ede-b292-c903255116b8"
+      ],
+      "example_ids": [
+        "e3db7198-d3ee-4e7d-b281-201202636cfd",
+        "0e9d3514-b446-465b-b638-00efc6528288"
+      ],
+      "category": "疑問・よく使う副詞"
+    },
+    {
+      "id": "c80246c7-a2d0-4888-be31-c1ab70be39f8",
+      "headword": "같이",
+      "part_of_speech": "adverb",
+      "primary_meaning_ja": "一緒に",
+      "meaning_ids": [
+        "51e7ff03-21d9-4deb-83bb-94a5fc467d30"
+      ],
+      "example_ids": [
+        "4b971d5e-ae0a-4e9f-9c6e-ca02099abd03",
+        "b3922d0f-cbe4-4285-9e9c-7ab265623794"
+      ],
+      "category": "疑問・よく使う副詞"
+    },
+    {
+      "id": "97ba1052-4cac-4a73-b21a-fb221e902e5c",
+      "headword": "다시",
+      "part_of_speech": "adverb",
+      "primary_meaning_ja": "もう一度・再び",
+      "meaning_ids": [
+        "4fd1f2a5-f29f-435e-9657-81052efe8883"
+      ],
+      "example_ids": [
+        "17923e98-b84e-4718-9e79-c39452302352",
+        "ad790a5b-f6ea-43c5-9edf-ada234f1fdf2"
+      ],
+      "category": "疑問・よく使う副詞"
+    },
+    {
+      "id": "308a16a9-bcad-4e12-9e6c-8ace4b976976",
+      "headword": "천천히",
+      "part_of_speech": "adverb",
+      "primary_meaning_ja": "ゆっくり",
+      "meaning_ids": [
+        "a70288b5-4f77-468d-a480-e74ca9cf1f35"
+      ],
+      "example_ids": [
+        "15bdcfa1-46df-4385-8be9-b6ec7c03e358",
+        "3e010995-e7e8-4283-8357-1d5ab180a3f8"
+      ],
+      "category": "疑問・よく使う副詞"
+    },
+    {
+      "id": "ac35199e-09f0-4a45-802c-51a51263bcae",
+      "headword": "빨리",
+      "part_of_speech": "adverb",
+      "primary_meaning_ja": "速く・早く",
+      "meaning_ids": [
+        "84ef1115-39f5-4ee9-9ead-b86ce79800fb"
+      ],
+      "example_ids": [
+        "de40d6e4-d13d-4a48-9792-b12a041f2625",
+        "7ddb95f8-ffaf-460f-ab8c-6af7dc66ef35"
+      ],
+      "category": "疑問・よく使う副詞"
+    },
+    {
+      "id": "c2abdce3-733d-4c97-a049-cea6d19fa376",
+      "headword": "항상",
+      "part_of_speech": "adverb",
+      "primary_meaning_ja": "いつも",
+      "meaning_ids": [
+        "e19dcc59-0528-4f67-a1d5-8defcb724e74"
+      ],
+      "example_ids": [
+        "59920216-0ed0-4f42-8d00-70df0e0db3ba",
+        "68a4e330-149b-43f1-bd41-40c4410e55d2"
+      ],
+      "category": "疑問・よく使う副詞"
+    },
+    {
+      "id": "561201d7-3c33-47d7-b9e8-068ab1e2f76f",
+      "headword": "자주",
+      "part_of_speech": "adverb",
+      "primary_meaning_ja": "よく・しばしば",
+      "meaning_ids": [
+        "0b7878c5-ed00-47fb-adba-5d87420eb5a0"
+      ],
+      "example_ids": [
+        "af375a3b-930f-4b8c-848d-dd8bd899a989",
+        "1fe6e741-5e7d-4056-8023-23ba27f6e3f6"
+      ],
+      "category": "疑問・よく使う副詞"
+    },
+    {
+      "id": "a618d66f-3038-4138-a259-f1caf4e7e6e3",
+      "headword": "안",
+      "part_of_speech": "adverb",
+      "primary_meaning_ja": "〜しない・〜くない",
+      "meaning_ids": [
+        "5696072c-2f0a-4427-b037-529e92ab5488"
+      ],
+      "example_ids": [
+        "78021a15-d126-4494-9163-611c3cef18c0",
+        "aa1789b5-ff99-44fa-897e-40aea4665d57"
+      ],
+      "category": "疑問・よく使う副詞"
+    },
+    {
+      "id": "6f6636c7-03fa-4d8a-b69e-a51f4685738d",
+      "headword": "못",
+      "part_of_speech": "adverb",
+      "primary_meaning_ja": "〜できない",
+      "meaning_ids": [
+        "2b969a85-5dc2-4180-be92-7419540baf08"
+      ],
+      "example_ids": [
+        "1b8ca944-ad86-498a-8b5d-bab42ec5ebda",
+        "abd19319-d03a-4b51-871c-774767bd391d"
+      ],
+      "category": "疑問・よく使う副詞"
+    },
+    {
+      "id": "e5722fa2-1d1a-4053-81d2-a8352749ce6e",
+      "headword": "하나",
+      "part_of_speech": "numeral",
+      "primary_meaning_ja": "一つ・一",
+      "meaning_ids": [
+        "9701522e-9786-4739-a6f9-fa3743742da9"
+      ],
+      "example_ids": [
+        "fc2346fe-9025-44c1-abcd-c117f692d576",
+        "2b2b7c1d-698b-4b00-a6e9-e0d9afe54e05"
+      ],
+      "category": "数・助数詞"
+    },
+    {
+      "id": "07601d1b-2047-410c-b1ae-51be186e9cbb",
+      "headword": "둘",
+      "part_of_speech": "numeral",
+      "primary_meaning_ja": "二つ・二",
+      "meaning_ids": [
+        "1754a00b-6f4d-4f96-be9e-1d843270f6f0"
+      ],
+      "example_ids": [
+        "533572e7-31d8-4423-864a-cac120e37f74",
+        "2ec7e2b1-758f-4f5c-8533-543648ac9ca8"
+      ],
+      "category": "数・助数詞"
+    },
+    {
+      "id": "2ba6406d-1613-4011-a5a0-e6204be44c78",
+      "headword": "셋",
+      "part_of_speech": "numeral",
+      "primary_meaning_ja": "三つ・三",
+      "meaning_ids": [
+        "88e0b57e-217d-467b-807c-9329dd5829c2"
+      ],
+      "example_ids": [
+        "02350d85-da28-4da3-b1b3-ce60fd9f2767",
+        "b7e3f251-dfa4-4b4c-9ac2-5dbbdc287eeb"
+      ],
+      "category": "数・助数詞"
+    },
+    {
+      "id": "31e12b28-f791-40d5-a012-25fc4be58800",
+      "headword": "넷",
+      "part_of_speech": "numeral",
+      "primary_meaning_ja": "四つ・四",
+      "meaning_ids": [
+        "27b20586-9fa5-4060-a941-38397a9dd127"
+      ],
+      "example_ids": [
+        "b71d7a41-1675-4b22-9544-0fefc1584977",
+        "6de4272b-5fca-4cc7-960f-b1d92aec84b2"
+      ],
+      "category": "数・助数詞"
+    },
+    {
+      "id": "c8cc712a-ed34-4023-8a08-4ef5e87c2600",
+      "headword": "개",
+      "part_of_speech": "bound_noun",
+      "primary_meaning_ja": "個（物を数える）",
+      "meaning_ids": [
+        "6aed14d0-f4fa-46db-9527-cd827339a51c"
+      ],
+      "example_ids": [
+        "70b4f2d1-1afe-4339-9edf-49a4d6c1f713",
+        "57d6d5e5-dd89-4615-bb75-6dc52dcd0608"
+      ],
+      "category": "数・助数詞"
+    },
+    {
+      "id": "5b42a972-9704-4e0e-a244-bf3ccedaf27c",
+      "headword": "명",
+      "part_of_speech": "bound_noun",
+      "primary_meaning_ja": "人（人数を数える）",
+      "meaning_ids": [
+        "db283bca-04ba-4cdd-9977-440455491354"
+      ],
+      "example_ids": [
+        "f19b4e08-96ef-4862-89d2-6dc8ac2e112f",
+        "cfc14565-9dd7-464f-be38-cbbbd327d855"
+      ],
+      "category": "数・助数詞"
+    },
+    {
+      "id": "cfc79c12-fd86-4491-bdf0-4a14873af9b1",
+      "headword": "잔",
+      "part_of_speech": "bound_noun",
+      "primary_meaning_ja": "杯（飲み物を数える）",
+      "meaning_ids": [
+        "37e38a78-e80e-488a-915d-3e16568878cf"
+      ],
+      "example_ids": [
+        "a62612b5-bce8-4945-82c5-f6f17d13bf05",
+        "1289ed3d-d946-45cf-95e1-582b52ea096b"
+      ],
+      "category": "数・助数詞"
+    },
+    {
+      "id": "25e19448-a954-43bb-93af-218c21c8f41f",
+      "headword": "원",
+      "part_of_speech": "bound_noun",
+      "primary_meaning_ja": "ウォン（韓国の通貨単位）",
+      "meaning_ids": [
+        "df20f81e-2b25-483b-83a6-cb9f242b1bc0"
+      ],
+      "example_ids": [
+        "caddb9d1-6792-4e9b-9633-4d76e8f32e0a",
+        "33bdabbf-f965-45ed-880d-62ae04f8c5d2"
+      ],
+      "category": "数・助数詞"
+    },
+    {
+      "id": "e519b7d2-1c6e-4e58-86b1-4ce96353c36a",
+      "headword": "몇",
+      "part_of_speech": "determiner",
+      "primary_meaning_ja": "いくつの・何〜",
+      "meaning_ids": [
+        "a84fb97a-2b71-47fb-8a3f-05ff2f3d1082"
+      ],
+      "example_ids": [
+        "3c4fa5cc-2de5-4be8-a23f-4c1a87a46ca9",
+        "fa884795-83f5-4629-88a9-5b29169d5682"
+      ],
+      "category": "数・助数詞"
+    },
+    {
+      "id": "9889aabd-c19d-41b2-8bcf-fc0648b08eda",
+      "headword": "모두",
+      "part_of_speech": "adverb",
+      "primary_meaning_ja": "全部・みんな",
+      "meaning_ids": [
+        "82028ca1-189f-4fbc-bf49-1f335d18a399"
+      ],
+      "example_ids": [
+        "56491d05-9c70-45f8-af07-9e6e23e38140",
+        "41162d41-34a2-41cd-84cc-2083cda6925c"
+      ],
+      "category": "数・助数詞"
+    },
+    {
+      "id": "707d6ce7-4939-4d70-b143-6458c44d362f",
+      "headword": "쓰다",
+      "part_of_speech": "verb",
+      "primary_meaning_ja": "使う",
+      "meaning_ids": [
+        "f169e2f2-201a-4f04-bd2a-afa11ccb4cd3"
+      ],
+      "example_ids": [
+        "d0ff2120-db9d-4775-8d5b-06d4da946b4c",
+        "bb14640e-bb16-4615-a80f-96e47e78a685"
+      ],
+      "category": "追加・基本動作と状態"
+    },
+    {
+      "id": "37d7df89-a163-4f6b-9230-a502ba2451ca",
+      "headword": "하다",
+      "part_of_speech": "verb",
+      "primary_meaning_ja": "する",
+      "meaning_ids": [
+        "79843b87-79de-4971-8c6b-3b9d3d20c559"
+      ],
+      "example_ids": [
+        "8c8e2726-f831-4021-a433-57d3b3d54b90",
+        "8c33a5b3-b283-4ede-9094-0c074bca5935"
+      ],
+      "category": "追加・基本動作と状態"
+    },
+    {
+      "id": "fadd3f8d-ed23-4489-904f-3541547d1e3a",
+      "headword": "비싸다",
+      "part_of_speech": "adjective",
+      "primary_meaning_ja": "高い（値段）",
+      "meaning_ids": [
+        "0a61b3a5-dc71-44ee-bac2-26afb62f41d0"
+      ],
+      "example_ids": [
+        "2c85527c-4cb2-4fa4-b494-094a3a399b69",
+        "bcf46962-0e3e-430c-a1f0-53f376c4946f"
+      ],
+      "category": "追加・基本動作と状態"
+    },
+    {
+      "id": "c4a5b5d2-695e-45d6-bb3d-0d8650e093d2",
+      "headword": "싸다",
+      "part_of_speech": "adjective",
+      "primary_meaning_ja": "安い",
+      "meaning_ids": [
+        "9f525fe1-c6d9-41b8-8201-05468cf6fd66"
+      ],
+      "example_ids": [
+        "16225ae3-1771-4568-bfc9-1371d2454597",
+        "47bd4538-a2c8-48df-b212-a5f2c91c67a2"
+      ],
+      "category": "追加・基本動作と状態"
+    },
+    {
+      "id": "b89d828d-c480-4c28-a46c-ece563386708",
+      "headword": "바쁘다",
+      "part_of_speech": "adjective",
+      "primary_meaning_ja": "忙しい",
+      "meaning_ids": [
+        "126520b7-87d6-4ef4-afaf-829b66b18793"
+      ],
+      "example_ids": [
+        "ff5181a1-dc2f-4d7b-9a0b-2656ef785361",
+        "b0b75175-22e2-4090-939d-e003b01dbf52"
+      ],
+      "category": "追加・基本動作と状態"
+    },
+    {
+      "id": "936cba02-cffb-4e6a-903c-ad501ecac569",
+      "headword": "피곤하다",
+      "part_of_speech": "adjective",
+      "primary_meaning_ja": "疲れている・疲れた",
+      "meaning_ids": [
+        "f83c311c-7faf-4052-919b-6731e5f8ee4f"
+      ],
+      "example_ids": [
+        "4563d950-cad9-423c-bb65-d296b1e697f1",
+        "018989df-2f34-4a80-9af4-90bea4656007"
+      ],
+      "category": "追加・基本動作と状態"
+    }
+  ],
+  "examples": [
+    {
+      "id": "4638ef50-2549-47f5-944c-4b8eee6610ee",
+      "korean": "저 사람은 누구예요?"
+    },
+    {
+      "id": "5823c55f-d117-45c2-826e-c088624d3cb4",
+      "korean": "공원에 사람이 많아요."
+    },
+    {
+      "id": "54465daa-2218-4d88-ad82-65138fd5a8db",
+      "korean": "친구와 영화를 봐요."
+    },
+    {
+      "id": "4a005961-25cf-40b0-babf-dea1eb6dcef2",
+      "korean": "제 친구는 일본 사람이에요."
+    },
+    {
+      "id": "70f92a9f-bee8-478e-81b6-8273b991bfb3",
+      "korean": "가족과 같이 살아요."
+    },
+    {
+      "id": "a1e8ab64-5fc0-4f14-a131-28498c46a5ba",
+      "korean": "우리 가족은 네 명이에요."
+    },
+    {
+      "id": "77411322-ff5e-40f5-84bc-df19c0eb240b",
+      "korean": "어머니는 집에 계세요."
+    },
+    {
+      "id": "2529732c-adff-4150-b92d-f4659e857e3f",
+      "korean": "어머니와 전화로 이야기해요."
+    },
+    {
+      "id": "305e9846-5268-486b-b20e-615309f6994f",
+      "korean": "아버지는 회사에 가셨어요."
+    },
+    {
+      "id": "08ac2116-64f9-4a24-aec3-f5d3ca2cda8f",
+      "korean": "아버지와 산책해요."
+    },
+    {
+      "id": "293a1891-d3db-4396-a722-6f978538339d",
+      "korean": "동생은 학생이에요."
+    },
+    {
+      "id": "aaf6b55b-75b2-42d0-9a80-fdce919f2e47",
+      "korean": "저는 동생이 없어요."
+    },
+    {
+      "id": "982d75c0-b1b2-4a19-b2b3-d13df654fa83",
+      "korean": "형은 요리를 잘해요."
+    },
+    {
+      "id": "6de1fe15-aa1c-4cab-8670-aacb2fbbeac0",
+      "korean": "저는 형과 같이 살아요."
+    },
+    {
+      "id": "2c5a5529-908e-431b-b194-10cc423e7846",
+      "korean": "오빠는 지금 일해요."
+    },
+    {
+      "id": "89ffa434-f1c1-410f-b337-6772fc7ea1a1",
+      "korean": "오빠와 점심을 먹어요."
+    },
+    {
+      "id": "db38e5d5-554a-4d95-90f3-1bfdcac95711",
+      "korean": "누나는 선생님이에요."
+    },
+    {
+      "id": "21ee5383-34ce-4a1f-a0fe-624be022dadd",
+      "korean": "누나에게 선물을 줘요."
+    },
+    {
+      "id": "d36fa050-2dc9-4b2c-ae27-48c2e6204189",
+      "korean": "언니는 책을 읽어요."
+    },
+    {
+      "id": "33032362-b650-4918-aafc-736f0697ef18",
+      "korean": "언니와 옷을 사러 가요."
+    },
+    {
+      "id": "2cf944bf-238c-4d93-8306-66aec307c31d",
+      "korean": "아이가 자고 있어요."
+    },
+    {
+      "id": "718328e1-63cb-4d3c-831b-906fbe817e87",
+      "korean": "아이들이 공원에서 놀아요."
+    },
+    {
+      "id": "d3479fa0-4a3b-4a7e-be62-648baf17c988",
+      "korean": "저 남자는 제 친구예요."
+    },
+    {
+      "id": "4b2393dc-304d-46cc-b3f9-797efd17d1a5",
+      "korean": "남자 두 명이 버스를 기다려요."
+    },
+    {
+      "id": "f5a2ddfb-76b6-4e05-b88c-94bb4f483588",
+      "korean": "저 여자는 제 언니예요."
+    },
+    {
+      "id": "f869fe02-0a61-4c50-ac9f-d44a5a2fd6ce",
+      "korean": "여자 세 명이 이야기해요."
+    },
+    {
+      "id": "57fb203f-2efa-4acb-914a-9a7b21590efb",
+      "korean": "이름이 뭐예요?"
+    },
+    {
+      "id": "f7b3622b-816b-4f24-86e8-a3435b18352c",
+      "korean": "여기에 이름을 써 주세요."
+    },
+    {
+      "id": "05d4375d-3705-49b7-a66b-0a3c879f2afd",
+      "korean": "어느 나라에서 왔어요?"
+    },
+    {
+      "id": "8db38eb7-a28d-4329-ae55-8d569ef781d9",
+      "korean": "여러 나라의 음식을 먹어 봐요."
+    },
+    {
+      "id": "626b5317-1818-4508-9c1e-4909c983a199",
+      "korean": "한국에서 공부해요."
+    },
+    {
+      "id": "57bc8424-3583-4a51-be83-0b23edc1b918",
+      "korean": "한국에 처음 왔어요."
+    },
+    {
+      "id": "27666662-a53b-4d1d-91f7-04566a03ef2d",
+      "korean": "저는 일본에서 왔어요."
+    },
+    {
+      "id": "a7ae725e-573a-4fb0-867c-b509912fdd22",
+      "korean": "다음 주에 일본에 가요."
+    },
+    {
+      "id": "487aa354-a508-4d71-ad48-8c7a0b17ba6a",
+      "korean": "나는 집에 있어."
+    },
+    {
+      "id": "1e887bfd-930e-4b17-a463-dd02e96b741a",
+      "korean": "나도 같이 갈래."
+    },
+    {
+      "id": "7ba735ac-7d85-43c9-b865-bb3786f3cf6b",
+      "korean": "저는 회사원이에요."
+    },
+    {
+      "id": "025d3172-1d52-4689-816f-f75d0af74091",
+      "korean": "저도 한국어를 배워요."
+    },
+    {
+      "id": "35c414aa-ebc3-4e4b-8ff3-785c7234ba74",
+      "korean": "우리 같이 가요."
+    },
+    {
+      "id": "d2441111-4fac-4102-b81f-54007ec4967e",
+      "korean": "우리 집은 역 근처에 있어요."
+    },
+    {
+      "id": "2a2dcef6-df46-4c50-b475-5feb18fe856b",
+      "korean": "집에 가요."
+    },
+    {
+      "id": "350fc162-2a32-43fb-aaf2-743df7e0f906",
+      "korean": "집에서 저녁을 먹어요."
+    },
+    {
+      "id": "54ecca9d-b399-48cd-b0d5-469422cc4450",
+      "korean": "학교는 집에서 가까워요."
+    },
+    {
+      "id": "233d7132-266e-4957-9ed0-843a8b90a465",
+      "korean": "오늘 학교에 안 가요."
+    },
+    {
+      "id": "5bbcff06-0094-4ef6-9691-8033bbd49634",
+      "korean": "회사는 아홉 시에 시작해요."
+    },
+    {
+      "id": "2822a4dd-305f-4080-9b43-9f9159f24a9d",
+      "korean": "회사 근처에서 점심을 먹어요."
+    },
+    {
+      "id": "387f6a11-9c60-4627-9bf1-c4a1091921b8",
+      "korean": "이 가게는 빵을 팔아요."
+    },
+    {
+      "id": "76ccb844-9028-47f4-8b38-8a20b00fe9c2",
+      "korean": "가게가 아직 열려 있어요."
+    },
+    {
+      "id": "b524368b-cff0-4f5a-9ea7-ab1ee212fe2a",
+      "korean": "이 식당은 김치찌개가 맛있어요."
+    },
+    {
+      "id": "0b6d6adc-ce09-4f9f-9eb9-f7ee580e0faa",
+      "korean": "식당에서 친구를 만나요."
+    },
+    {
+      "id": "5e9014a0-5790-4926-9950-c7dcbd250a7c",
+      "korean": "카페에서 커피를 마셔요."
+    },
+    {
+      "id": "268739fd-a5cc-43eb-92e2-d8a222157133",
+      "korean": "조용한 카페를 찾아요."
+    },
+    {
+      "id": "99b1835b-8daa-4ee7-8536-10e1f8709f72",
+      "korean": "감기에 걸려서 병원에 가요."
+    },
+    {
+      "id": "834592fc-279b-44cc-ad76-511ff35b5bfc",
+      "korean": "병원은 역 앞에 있어요."
+    },
+    {
+      "id": "9fd35e8b-c7fb-4705-8b7e-b671d52b373f",
+      "korean": "약국에서 약을 사요."
+    },
+    {
+      "id": "7125e123-a85f-4fa0-969f-8eea8084af9f",
+      "korean": "이 근처에 약국이 있어요?"
+    },
+    {
+      "id": "fbae7788-5e60-4f77-8e42-56309ccf7f94",
+      "korean": "은행에서 돈을 찾아요."
+    },
+    {
+      "id": "1baa899e-c98e-4c82-a8be-fc5a0222ed9f",
+      "korean": "은행은 세 시까지예요."
+    },
+    {
+      "id": "8e061ad8-719b-473a-824e-90ebd9e945fa",
+      "korean": "우체국에서 편지를 보내요."
+    },
+    {
+      "id": "7ad50d02-ba11-40dc-94ca-dbb2fc145ad0",
+      "korean": "우체국은 어디에 있어요?"
+    },
+    {
+      "id": "369133f7-1a82-46e2-a46d-bfdf9c38b7b5",
+      "korean": "도서관에서 책을 빌려요."
+    },
+    {
+      "id": "84f6da35-df85-4962-90c6-438b20393ea4",
+      "korean": "도서관에서는 조용히 해요."
+    },
+    {
+      "id": "bb8e3869-d5c0-410f-b6ae-94f6d109bc58",
+      "korean": "공원에서 운동해요."
+    },
+    {
+      "id": "1215766f-b87b-401b-8363-bf57cb5f3fa5",
+      "korean": "공원에 나무가 많아요."
+    },
+    {
+      "id": "67648251-7695-49e3-8629-4e1bd7ff1a01",
+      "korean": "역에서 만나요."
+    },
+    {
+      "id": "c949dd5b-cc87-466d-9b8b-8e4411edc156",
+      "korean": "역까지 걸어서 가요."
+    },
+    {
+      "id": "2e16d170-906a-43a1-a1a2-c1e2a19590ec",
+      "korean": "공항에 일찍 도착했어요."
+    },
+    {
+      "id": "73b5cdcf-4234-482d-971e-efa979c0b190",
+      "korean": "공항에서 버스를 타요."
+    },
+    {
+      "id": "a26790f3-e5e3-4cc1-b76e-441849bc474f",
+      "korean": "화장실이 어디예요?"
+    },
+    {
+      "id": "775b8a40-27d7-4a79-bb43-50f5c45bdc40",
+      "korean": "화장실은 이 층에 있어요."
+    },
+    {
+      "id": "2ce19654-89df-47ec-9cb0-2118bbf8d414",
+      "korean": "시장에서 과일을 사요."
+    },
+    {
+      "id": "e6c0f57e-7e99-4a6f-9749-4f069ffe3339",
+      "korean": "이 시장은 아침에 열어요."
+    },
+    {
+      "id": "334ccfec-0f84-4134-901e-b3c74c5d3525",
+      "korean": "마트에서 우유를 사요."
+    },
+    {
+      "id": "54004d62-1b3d-4d30-a232-68c9adceb8a7",
+      "korean": "집 앞에 큰 마트가 있어요."
+    },
+    {
+      "id": "b2d63b59-8c7d-45da-a72f-d809d25ca216",
+      "korean": "편의점에서 물을 샀어요."
+    },
+    {
+      "id": "c9f91e27-dcca-47a2-8ecf-989f9c0feefc",
+      "korean": "편의점이 가까워서 편해요."
+    },
+    {
+      "id": "a2a60aa8-127e-4e1b-b033-3e6b241c38d4",
+      "korean": "호텔에서 쉬어요."
+    },
+    {
+      "id": "413fd051-3056-4781-83d6-88e986086119",
+      "korean": "이 호텔은 방이 깨끗해요."
+    },
+    {
+      "id": "a8c2fdd1-a18c-4213-8f41-b79a9585ffe3",
+      "korean": "학교 앞에서 기다려요."
+    },
+    {
+      "id": "287ba07a-2989-4d8a-8530-53fc648869cb",
+      "korean": "제 앞에 사람이 있어요."
+    },
+    {
+      "id": "dc954f9e-8a0a-4de6-80e4-580e206f0104",
+      "korean": "제 방은 작아요."
+    },
+    {
+      "id": "b25b5d2f-8b45-4d0e-a019-78a7f1457cf6",
+      "korean": "방에 책상이 있어요."
+    },
+    {
+      "id": "dab506c9-2ecb-4d91-8976-209c0ec697dd",
+      "korean": "문을 닫아 주세요."
+    },
+    {
+      "id": "087e5196-08fe-4aa4-b069-69d466684782",
+      "korean": "문이 열려 있어요."
+    },
+    {
+      "id": "c8065784-5a33-47bd-90c9-4a2059f06b8d",
+      "korean": "창문을 열어요."
+    },
+    {
+      "id": "374fd115-2ab7-45d9-a6f0-f7050a1ff89b",
+      "korean": "창문 옆에 앉아요."
+    },
+    {
+      "id": "ed9d085c-4d2a-473f-b815-f6f2d924aeff",
+      "korean": "책상 위에 책이 있어요."
+    },
+    {
+      "id": "a17f5363-a005-4321-9cf3-4af9d141a94c",
+      "korean": "이 책상은 조금 낮아요."
+    },
+    {
+      "id": "77c3d7fd-71dc-404c-affa-e68e184f938c",
+      "korean": "의자에 앉으세요."
+    },
+    {
+      "id": "edc4f250-777a-40ed-a08a-7664edeb8be0",
+      "korean": "의자가 하나 더 필요해요."
+    },
+    {
+      "id": "38b0d4d8-d9db-4c78-92e0-566790a3cae0",
+      "korean": "침대에서 책을 읽어요."
+    },
+    {
+      "id": "182d52bc-d4fe-4745-b394-f8fc86fee2d0",
+      "korean": "침대 옆에 불이 있어요."
+    },
+    {
+      "id": "e04fd43d-64b8-42e4-a6dd-066db5f5061a",
+      "korean": "가방 안에 지갑이 있어요."
+    },
+    {
+      "id": "8f9c9c7a-c2cf-4f23-b728-b480b8db71f0",
+      "korean": "이 가방은 가벼워요."
+    },
+    {
+      "id": "94b6a950-478e-4c9a-b263-8d2bb568d5e3",
+      "korean": "옷을 갈아입어요."
+    },
+    {
+      "id": "c89c439c-576f-4ccb-9626-5777e8a93dbf",
+      "korean": "겨울옷을 꺼냈어요."
+    },
+    {
+      "id": "d5e0f7f4-d6f3-41ff-b8c5-f70f40c124c7",
+      "korean": "여기서 신발을 벗어요."
+    },
+    {
+      "id": "238b7eb3-1d67-4fcc-b046-3b20c5ee57ca",
+      "korean": "새 신발을 샀어요."
+    },
+    {
+      "id": "81922bd6-277a-4a8b-b9ee-fc8d5f1edb76",
+      "korean": "비가 와서 우산을 써요."
+    },
+    {
+      "id": "db21af3b-f657-494d-b50f-2076e99e2826",
+      "korean": "우산을 집에 두고 왔어요."
+    },
+    {
+      "id": "8a45d485-6150-404b-bff5-f4e6cf955410",
+      "korean": "지갑을 가방에 넣어요."
+    },
+    {
+      "id": "dd238bb1-9869-49d7-aef0-300f3b98ec11",
+      "korean": "지갑에 돈이 없어요."
+    },
+    {
+      "id": "b7b226c0-a512-49ea-9b7c-488f85d75b2a",
+      "korean": "돈을 조금 모아요."
+    },
+    {
+      "id": "014586bd-9b59-4aa0-b543-548bc706da16",
+      "korean": "지금은 돈이 없어요."
+    },
+    {
+      "id": "166b72a3-fdf9-4b4d-b34a-4ece38c7b120",
+      "korean": "열쇠로 문을 열어요."
+    },
+    {
+      "id": "d545a624-87c3-4f8b-aad9-aa85f24021b3",
+      "korean": "열쇠가 어디에 있어요?"
+    },
+    {
+      "id": "c87b88f0-c532-42cb-8e3d-f4b1f72a289f",
+      "korean": "휴대폰으로 사진을 찍어요."
+    },
+    {
+      "id": "1da10332-745d-4539-a21f-da27d1d6cd91",
+      "korean": "휴대폰을 충전해요."
+    },
+    {
+      "id": "028e3051-3c69-4c39-92f6-23e0afa58898",
+      "korean": "같이 사진을 찍어요."
+    },
+    {
+      "id": "b4d99890-7f2d-4ba8-8f53-c85326099935",
+      "korean": "이 사진은 가족사진이에요."
+    },
+    {
+      "id": "ef5b083e-6ed6-4808-ac5f-ad1f05bcf6f1",
+      "korean": "이 물건은 제 거예요."
+    },
+    {
+      "id": "5b58ea60-a2e7-4a79-aeb4-b5ab8cf3d038",
+      "korean": "무거운 물건은 아래에 놓아요."
+    },
+    {
+      "id": "1c4262d4-33c8-4d68-abf3-59dab7ba870b",
+      "korean": "주말에 방 청소를 해요."
+    },
+    {
+      "id": "ed63500b-92e5-4216-8172-11978fa3df42",
+      "korean": "청소가 끝났어요."
+    },
+    {
+      "id": "8cd6ea87-fef9-43bd-a7ed-1e2d98c1aa01",
+      "korean": "오늘은 빨래를 해요."
+    },
+    {
+      "id": "bfab0c9a-e5e5-488a-b60f-0eea9da84d5d",
+      "korean": "빨래가 아직 안 말랐어요."
+    },
+    {
+      "id": "8a5c1d94-2a86-4d90-a477-456b81231f2f",
+      "korean": "친구에게 선물을 줘요."
+    },
+    {
+      "id": "93fc16dc-4c78-4835-9c8d-a92550fe473e",
+      "korean": "생일 선물을 받았어요."
+    },
+    {
+      "id": "e9a39b62-2ef3-4aae-bbaa-52b85e3ecaba",
+      "korean": "밥을 먹고 약을 먹어요."
+    },
+    {
+      "id": "372d2af7-4ad0-4157-91c4-b2a4693eb114",
+      "korean": "이 약은 조금 써요."
+    },
+    {
+      "id": "437fe600-9fe9-46e2-b24f-810eb6fa8c17",
+      "korean": "물을 마셔요."
+    },
+    {
+      "id": "de3de067-f231-453c-889b-c284fe7dd08e",
+      "korean": "물 한 잔 주세요."
+    },
+    {
+      "id": "341f56b0-1e77-4206-98b1-b87c05f7ed68",
+      "korean": "밥을 조금 더 주세요."
+    },
+    {
+      "id": "a3d46d2e-8604-46d0-8b24-d3e97f8cd2e7",
+      "korean": "아침에 밥을 먹었어요."
+    },
+    {
+      "id": "6b832268-91c5-4d7c-be1b-51d7ccbdcada",
+      "korean": "아침에 빵을 먹어요."
+    },
+    {
+      "id": "5aecf736-25a4-4d17-b05f-2095cbd48859",
+      "korean": "이 빵은 따뜻해요."
+    },
+    {
+      "id": "0613633a-865b-4d99-950b-6147a0837dc7",
+      "korean": "국이 뜨거워요."
+    },
+    {
+      "id": "e5174a98-317e-4da2-b38d-adba3d2f6cfe",
+      "korean": "국에 소금을 조금 넣어요."
+    },
+    {
+      "id": "c20c45c1-c2d7-4518-aec4-e582cc1cfe77",
+      "korean": "이 김치는 많이 매워요."
+    },
+    {
+      "id": "f2d9dfea-219d-44ea-a61f-1f2cf3924862",
+      "korean": "김치를 조금 먹어 봐요."
+    },
+    {
+      "id": "340b8dc1-99a6-43b6-81de-fa0b49593376",
+      "korean": "저녁에 고기를 구워요."
+    },
+    {
+      "id": "1a4d6c98-f956-4b3e-b17f-4e8539a1ca78",
+      "korean": "고기 대신 생선을 먹어요."
+    },
+    {
+      "id": "d33a289f-60d3-4bb9-b06a-b78a030030e1",
+      "korean": "생선을 구워요."
+    },
+    {
+      "id": "2a2ce59a-ce16-4ba0-83b0-09eaa8cac1ce",
+      "korean": "이 식당은 생선이 맛있어요."
+    },
+    {
+      "id": "66020637-900a-4a3d-b9d4-7fbad33c4292",
+      "korean": "달걀을 삶아요."
+    },
+    {
+      "id": "fbb4eb68-9daf-48ef-b519-a03fb16ad25e",
+      "korean": "냉장고에 달걀이 있어요."
+    },
+    {
+      "id": "515c47b0-d4a9-4e07-90a8-386881b84ff7",
+      "korean": "채소를 씻어요."
+    },
+    {
+      "id": "4ba41d2c-efa0-483e-ba1b-c30fb99a416f",
+      "korean": "채소를 많이 먹어요."
+    },
+    {
+      "id": "2586f7fa-4006-403b-b2cb-39ae0506c0d1",
+      "korean": "식사 후에 과일을 먹어요."
+    },
+    {
+      "id": "12faf4cb-1a27-4656-a220-f37abd0ad70e",
+      "korean": "과일을 조금 샀어요."
+    },
+    {
+      "id": "33d83038-fd8e-429a-b3e9-0886203bcb9d",
+      "korean": "사과를 반으로 잘라요."
+    },
+    {
+      "id": "be064136-fd15-4245-835b-ec3fe7876311",
+      "korean": "사과 두 개 주세요."
+    },
+    {
+      "id": "b63baa50-b82e-4f0a-a780-b6b910e7201a",
+      "korean": "우유를 한 잔 마셔요."
+    },
+    {
+      "id": "2f677556-c86c-40e0-b187-f5ce701e0e99",
+      "korean": "우유는 냉장고에 있어요."
+    },
+    {
+      "id": "f477902d-5e87-4353-a8d6-38a715880e1b",
+      "korean": "커피에 우유를 넣어요."
+    },
+    {
+      "id": "c9bf6b0c-ef8a-4f26-a8eb-ec6173cc5219",
+      "korean": "저는 커피를 안 마셔요."
+    },
+    {
+      "id": "fe87298a-0e86-482d-83b5-c222a53084f0",
+      "korean": "따뜻한 차를 마셔요."
+    },
+    {
+      "id": "a65df902-2faa-480d-8ba9-7dc808fd967f",
+      "korean": "차가 조금 뜨거워요."
+    },
+    {
+      "id": "fef26243-9c50-499f-923e-97a6386ffdfb",
+      "korean": "오렌지 주스 주세요."
+    },
+    {
+      "id": "ba3d27c8-d0f9-48df-9556-a063b0a7c5a0",
+      "korean": "주스를 컵에 따라요."
+    },
+    {
+      "id": "c4123578-0898-43b0-b09c-38505c9d7703",
+      "korean": "한국 음식을 좋아해요."
+    },
+    {
+      "id": "6071f1b5-1993-4698-94d3-8fb6f27c1f30",
+      "korean": "음식을 천천히 먹어요."
+    },
+    {
+      "id": "d0454edd-c383-4cc3-b55c-61708a48e6c8",
+      "korean": "집에서 요리를 해요."
+    },
+    {
+      "id": "efd86e32-72e8-4d3b-872d-05a6edce6021",
+      "korean": "이 요리는 만들기 쉬워요."
+    },
+    {
+      "id": "01b3e309-378d-41d0-aef7-96b0260a264b",
+      "korean": "메뉴를 보여 주세요."
+    },
+    {
+      "id": "8e8d118b-d1d1-4b41-a487-5e950e1954b0",
+      "korean": "이 메뉴가 인기가 많아요."
+    },
+    {
+      "id": "3d79e03e-a59e-49ef-a41b-6c18167e6214",
+      "korean": "컵에 물이 있어요."
+    },
+    {
+      "id": "f4984990-cbde-4705-8bbc-94fdebca509e",
+      "korean": "깨끗한 컵을 써요."
+    },
+    {
+      "id": "ccbb41cb-e8ec-4a05-bc5f-f24fda352889",
+      "korean": "젓가락으로 먹어요."
+    },
+    {
+      "id": "f7510ae8-fdb9-402e-9510-52967ed604d3",
+      "korean": "젓가락이 바닥에 떨어졌어요."
+    },
+    {
+      "id": "d0a48ab9-d762-40b1-962a-d7c005f95b58",
+      "korean": "오늘은 쉬는 날이에요."
+    },
+    {
+      "id": "e464e8db-dd74-4386-84fb-1168fb61b59c",
+      "korean": "오늘 저녁에 만나요."
+    },
+    {
+      "id": "8812c64a-9097-4870-a33f-23585a69ecdb",
+      "korean": "내일은 비가 와요."
+    },
+    {
+      "id": "beccb867-7c13-4778-b093-8328233f3c3e",
+      "korean": "내일 다시 전화할게요."
+    },
+    {
+      "id": "0d697384-b746-4ac5-b80e-75c4c343902a",
+      "korean": "어제 친구를 만났어요."
+    },
+    {
+      "id": "67623d49-d23b-4d9d-8b79-c32694fb2bc0",
+      "korean": "어제는 아주 추웠어요."
+    },
+    {
+      "id": "4d480b0a-d446-4ba0-a7cd-8c64d18893ef",
+      "korean": "지금은 바빠요."
+    },
+    {
+      "id": "3c4fa5cc-2de5-4be8-a23f-4c1a87a46ca9",
+      "korean": "지금 몇 시예요?"
+    },
+    {
+      "id": "1f3f286c-05ca-4275-afe7-3209286dcbcc",
+      "korean": "아침에 일찍 일어나요."
+    },
+    {
+      "id": "d5727892-2935-4b1e-8b7e-5fa0d5269b36",
+      "korean": "아침을 먹고 나가요."
+    },
+    {
+      "id": "0d1afbde-ce67-4cc6-98b0-d94ff846e724",
+      "korean": "점심은 뭐 먹어요?"
+    },
+    {
+      "id": "c646caf4-7eae-47c3-b341-5d6f7c670538",
+      "korean": "열두 시에 점심을 먹어요."
+    },
+    {
+      "id": "81d5d720-2e38-4a80-8dac-112bc141ea6d",
+      "korean": "저녁에 친구를 만나요."
+    },
+    {
+      "id": "534bc974-6303-4b3a-82c1-7d819623223a",
+      "korean": "저녁을 같이 먹어요."
+    },
+    {
+      "id": "59c1b08b-0d6d-416a-abf3-e63b335d685c",
+      "korean": "밤에는 조용해요."
+    },
+    {
+      "id": "5bff1d61-80f5-41b1-b500-18c4386d5034",
+      "korean": "밤 열 시에 집에 와요."
+    },
+    {
+      "id": "f9f4805b-8aeb-4752-950e-22f0d7163b5a",
+      "korean": "시간이 없어요."
+    },
+    {
+      "id": "02910576-2f1e-4998-9819-d893fabd0209",
+      "korean": "한 시간 기다렸어요."
+    },
+    {
+      "id": "2980d728-37bb-4e13-a8d4-d4b74b91cba9",
+      "korean": "오늘은 좋은 날이에요."
+    },
+    {
+      "id": "fb34231c-a944-4af4-9cee-c1d339326e5c",
+      "korean": "쉬는 날에 영화를 봐요."
+    },
+    {
+      "id": "05d45ab3-6a7c-4a1f-98d5-c9bb8df3991e",
+      "korean": "주말에 뭐 해요?"
+    },
+    {
+      "id": "8367c64a-7e7e-46fe-82ee-e63f627bb442",
+      "korean": "이번 주말에는 집에 있어요."
+    },
+    {
+      "id": "6b12f6f3-1086-4b39-a613-a1cb0025435a",
+      "korean": "월요일부터 일해요."
+    },
+    {
+      "id": "f97265b9-d6c1-4988-a2fb-faa8cd185f97",
+      "korean": "다음 월요일에 만나요."
+    },
+    {
+      "id": "caec9f44-3847-4b14-9a72-93949db8b39c",
+      "korean": "생일이 언제예요?"
+    },
+    {
+      "id": "c536f9af-eaad-45af-a781-8bb28548a17c",
+      "korean": "오늘은 친구 생일이에요."
+    },
+    {
+      "id": "a43656e0-4329-4112-a509-a513b3c66469",
+      "korean": "한국어를 일 년 배웠어요."
+    },
+    {
+      "id": "1273df03-f339-47fd-a8e4-5a4860740753",
+      "korean": "올해는 2026년이에요."
+    },
+    {
+      "id": "0dc3b03c-677d-4ba2-9f61-903f81d2ed8c",
+      "korean": "제 생일은 3월이에요."
+    },
+    {
+      "id": "d42464dd-1529-46ac-b4a4-26d25821a8a2",
+      "korean": "4월에 한국에 가요."
+    },
+    {
+      "id": "36b3dc6f-3ba4-4760-8f13-f9b90f09aed9",
+      "korean": "오늘은 5월 3일이에요."
+    },
+    {
+      "id": "fb26993a-e294-410a-9d41-996193d0993e",
+      "korean": "한국에서 3일 동안 지내요."
+    },
+    {
+      "id": "c763309c-cad7-4dee-a480-87de32d0fc25",
+      "korean": "지금 두 시예요."
+    },
+    {
+      "id": "45683926-fe7b-404e-8713-2ba0dca3c4ec",
+      "korean": "세 시에 시작해요."
+    },
+    {
+      "id": "53d2cd87-8bd5-40f2-9d9f-ad442e004b24",
+      "korean": "오 분만 기다려 주세요."
+    },
+    {
+      "id": "09f520a8-985e-42c6-a8eb-a4025570b8e9",
+      "korean": "지금 세 시 십 분이에요."
+    },
+    {
+      "id": "f257155d-f42b-496b-970a-0602d1f392d8",
+      "korean": "봄에는 꽃이 피어요."
+    },
+    {
+      "id": "a784e47f-65c7-4456-b229-e6a203836425",
+      "korean": "한국의 봄은 따뜻해요."
+    },
+    {
+      "id": "73cdcada-06ae-48cd-a996-6c96e54ced24",
+      "korean": "겨울에는 눈이 와요."
+    },
+    {
+      "id": "c9a4292a-7c23-49d4-86c8-3bb39c39b95b",
+      "korean": "겨울에는 따뜻한 옷을 입어요."
+    },
+    {
+      "id": "50150595-5c13-4b4f-a66d-4c5865728975",
+      "korean": "저는 학생이에요."
+    },
+    {
+      "id": "88613adf-b628-4e46-a394-0bd2d3b30658",
+      "korean": "학생들이 교실에 있어요."
+    },
+    {
+      "id": "57915d3a-1ac8-4dac-886a-782b93e6f016",
+      "korean": "선생님께 질문해요."
+    },
+    {
+      "id": "90a47541-e77e-4d07-8467-47ae1f05b536",
+      "korean": "선생님은 한국 사람이세요."
+    },
+    {
+      "id": "fe4d54a4-a142-4298-9cf6-4039622e1ca4",
+      "korean": "언니는 회사원이에요."
+    },
+    {
+      "id": "c78af723-a5e4-4b36-b18d-2efc4d5b4b9d",
+      "korean": "저는 회사원이고 동생은 학생이에요."
+    },
+    {
+      "id": "527ffac6-fdcb-4674-9a11-31f7d57d822c",
+      "korean": "한국어 책을 읽어요."
+    },
+    {
+      "id": "76fbdfa3-d46a-4eeb-9cf7-555c500401bb",
+      "korean": "책을 가방에 넣어요."
+    },
+    {
+      "id": "8d61abd1-a414-4542-ad9e-11a19d8c6253",
+      "korean": "공책에 이름을 써요."
+    },
+    {
+      "id": "8ea2b7cc-a998-426b-9920-e0d7292df1b5",
+      "korean": "새 공책이 필요해요."
+    },
+    {
+      "id": "344cf431-9e0f-43b5-b26f-ef499cb808b1",
+      "korean": "연필로 써 주세요."
+    },
+    {
+      "id": "85dc810f-409c-4136-95d5-9d823dd5cb17",
+      "korean": "연필이 책상 아래에 있어요."
+    },
+    {
+      "id": "7282631b-6ffb-4507-8dc8-8018b1252e7b",
+      "korean": "이 펜은 잘 써져요."
+    },
+    {
+      "id": "76130389-5040-407d-9952-10e222a56641",
+      "korean": "펜 좀 빌려 주세요."
+    },
+    {
+      "id": "3ffdca81-6356-4b3e-976a-730e4f6161af",
+      "korean": "수업이 아홉 시에 시작해요."
+    },
+    {
+      "id": "ae07980e-4480-4c40-8317-08edd01f2b66",
+      "korean": "오늘은 수업이 없어요."
+    },
+    {
+      "id": "3e87fe18-72a9-4fc4-a51b-9f07e9d97031",
+      "korean": "한국어 공부가 재미있어요."
+    },
+    {
+      "id": "fb8d50d1-7d79-497f-8bc2-c25b314798a0",
+      "korean": "공부는 끝났어요?"
+    },
+    {
+      "id": "5b9e3918-0005-4171-b78e-677443a94c44",
+      "korean": "한국어를 조금 해요."
+    },
+    {
+      "id": "eb4d79c7-13f1-44df-8c5d-3d4a7d92c1ae",
+      "korean": "매일 한국어를 공부해요."
+    },
+    {
+      "id": "b70cd2ef-a5f8-4482-80d8-5808df0f80fd",
+      "korean": "오늘은 일이 많아요."
+    },
+    {
+      "id": "a0923661-bb38-49df-a3ee-a3d24d343467",
+      "korean": "일이 끝나면 집에 가요."
+    },
+    {
+      "id": "1f4c4f22-688f-45a1-b341-cd05116816e5",
+      "korean": "여행 준비를 해요."
+    },
+    {
+      "id": "293a1190-c4f5-41b0-8f90-548853e37609",
+      "korean": "준비가 다 됐어요."
+    },
+    {
+      "id": "d10e223b-3523-4013-8fed-e85d1de8483b",
+      "korean": "친구와 약속이 있어요."
+    },
+    {
+      "id": "ccd1122d-65f7-479b-a108-4b6e3b86401f",
+      "korean": "약속 시간을 지켜요."
+    },
+    {
+      "id": "a33f6d61-9458-486d-a58c-dc44b0c91579",
+      "korean": "아침마다 운동을 해요."
+    },
+    {
+      "id": "d21f1caa-f116-4bbb-bc2f-b7db0eff8105",
+      "korean": "어떤 운동을 좋아해요?"
+    },
+    {
+      "id": "603de0d2-98ac-4be7-a977-c8d8e9fe9022",
+      "korean": "이 문제는 쉬워요."
+    },
+    {
+      "id": "7b6f1b67-c9aa-43c3-9ee9-833f987a4ef8",
+      "korean": "문제가 생겼어요."
+    },
+    {
+      "id": "b4ba0fbf-9899-44d8-a239-4d6cd0e9e6ce",
+      "korean": "버스로 학교에 가요."
+    },
+    {
+      "id": "c922ea13-79ff-460c-a8df-bdb93caa5542",
+      "korean": "버스가 곧 와요."
+    },
+    {
+      "id": "1e2ba252-6c53-445f-9d11-6e1ee46ee776",
+      "korean": "지하철을 타고 회사에 가요."
+    },
+    {
+      "id": "f6824fb0-7612-4261-892d-4f8683e7ed59",
+      "korean": "지하철역은 어디예요?"
+    },
+    {
+      "id": "1402749b-577d-4ff3-84b5-3b8a7bae7b92",
+      "korean": "기차가 출발해요."
+    },
+    {
+      "id": "4b3dd9ac-21f4-4c57-ae3d-6f2749f63e47",
+      "korean": "기차 안에서 쉬어요."
+    },
+    {
+      "id": "c9321664-b735-43a6-96ff-e5b272dbc35f",
+      "korean": "택시를 타요."
+    },
+    {
+      "id": "7c7f3dbc-866c-4349-b69d-511d6d34d686",
+      "korean": "역 앞에 택시가 있어요."
+    },
+    {
+      "id": "d5cff56a-8d7d-40fe-959a-7a4df8df5368",
+      "korean": "차를 운전해요."
+    },
+    {
+      "id": "d710ac67-d6b2-4c2d-996a-3ef0bc850785",
+      "korean": "제 차는 흰색이에요."
+    },
+    {
+      "id": "f0c462f4-13c3-4cdf-963b-11cb5a720468",
+      "korean": "이 길로 가세요."
+    },
+    {
+      "id": "7c304a61-788c-4f8c-82ea-1a0bd795cdfc",
+      "korean": "길을 잃었어요."
+    },
+    {
+      "id": "dfdb5d51-9494-45c8-9af2-176ad61f9387",
+      "korean": "지도를 보고 길을 찾아요."
+    },
+    {
+      "id": "1c9023ef-dcb3-4020-be85-ebf257d8494f",
+      "korean": "지도에 역이 나와 있어요."
+    },
+    {
+      "id": "dca72fef-4718-4ef8-9a99-40910efb8358",
+      "korean": "기차표 두 장 주세요."
+    },
+    {
+      "id": "210a0483-c33c-46ce-bb74-841c67dd4ba7",
+      "korean": "표를 미리 샀어요."
+    },
+    {
+      "id": "4fe4fd76-946f-4cd8-9517-e4dd7916bb13",
+      "korean": "친구와 여행을 가요."
+    },
+    {
+      "id": "caa400a7-0ae9-4530-b624-8d80be713724",
+      "korean": "이번 여행은 짧아요."
+    },
+    {
+      "id": "f4612382-9e33-47b4-b60c-c978692d801b",
+      "korean": "오른쪽으로 가세요."
+    },
+    {
+      "id": "21c39a00-e6db-474f-9302-478d397e2642",
+      "korean": "오른쪽에 화장실이 있어요."
+    },
+    {
+      "id": "871c55d0-004c-4182-a462-6a00b9a864ef",
+      "korean": "왼쪽을 보세요."
+    },
+    {
+      "id": "41dcee50-aea2-488a-ba5b-eb5b1cbfcb0f",
+      "korean": "은행은 왼쪽에 있어요."
+    },
+    {
+      "id": "49689f2b-0cfa-4073-a2ec-1d60d080c1d0",
+      "korean": "여기에 앉으세요."
+    },
+    {
+      "id": "3b144a71-086d-4d4b-b67a-6d97cbca3650",
+      "korean": "여기는 도서관이에요."
+    },
+    {
+      "id": "cac7a2f1-9f1e-4fe5-b77b-3b5e448b811b",
+      "korean": "거기 날씨는 어때요?"
+    },
+    {
+      "id": "a713cfc0-ffe9-4312-9267-c55c85a067de",
+      "korean": "거기서 기다려 주세요."
+    },
+    {
+      "id": "5734c069-6bde-4422-b4f1-93dea2c0d19a",
+      "korean": "저기에 학교가 있어요."
+    },
+    {
+      "id": "198576ad-b0b7-4094-8640-554b3aa8ee86",
+      "korean": "저기는 너무 멀어요."
+    },
+    {
+      "id": "82437b8e-f951-4498-8605-81bf60952ac4",
+      "korean": "집 뒤에 공원이 있어요."
+    },
+    {
+      "id": "8560aff4-873f-4628-9a26-f31dd6132f5b",
+      "korean": "제 뒤에 서세요."
+    },
+    {
+      "id": "931a8fd9-984e-4837-ab17-b2ef6d296acb",
+      "korean": "친구 집에 가요."
+    },
+    {
+      "id": "55630863-c10c-4535-9fe7-68943f6014c4",
+      "korean": "어디에 가요?"
+    },
+    {
+      "id": "25761ec1-bb64-4cda-81ee-8b341ce9023d",
+      "korean": "친구가 우리 집에 와요."
+    },
+    {
+      "id": "1201ab82-b0a5-43db-bc3b-54f3653168de",
+      "korean": "내일 다시 오세요."
+    },
+    {
+      "id": "6f5de38c-f0e3-4776-b1f6-9c8f719c8019",
+      "korean": "저녁을 먹어요."
+    },
+    {
+      "id": "d8376afe-17a9-4020-b37a-28b90fc2982e",
+      "korean": "무엇을 먹고 싶어요?"
+    },
+    {
+      "id": "6262dfa5-fa6e-4bc2-9732-32eb1a1d5c2a",
+      "korean": "차를 천천히 마셔요."
+    },
+    {
+      "id": "123530d6-9ef5-4bc4-b50c-13e597bc806d",
+      "korean": "아침에는 물을 마셔요."
+    },
+    {
+      "id": "456feb6e-50f7-4d94-b2c0-56b67fe35f49",
+      "korean": "주말에 영화를 봐요."
+    },
+    {
+      "id": "6a01d3db-f280-4094-b955-fed1241cc50d",
+      "korean": "창밖을 봐요."
+    },
+    {
+      "id": "be7133cf-3e7c-4a58-868a-69a38c65499a",
+      "korean": "매일 책을 읽어요."
+    },
+    {
+      "id": "ea4e3764-cc1e-4f3e-a25a-f792edd9ad87",
+      "korean": "이 문장을 읽어 주세요."
+    },
+    {
+      "id": "4899f78c-29ac-4f12-803c-92011a759e53",
+      "korean": "음악을 들어요."
+    },
+    {
+      "id": "80faa9f3-0e43-4adf-85cd-1d6c57f7fb2a",
+      "korean": "제 말을 들어 주세요."
+    },
+    {
+      "id": "b003660f-c794-49c0-8422-bc5ac3ac1fb0",
+      "korean": "공책에 단어를 써요."
+    },
+    {
+      "id": "b8c56c88-cbf1-4960-babb-e2177484e1d0",
+      "korean": "친구에게 편지를 써요."
+    },
+    {
+      "id": "8fc9b208-8f6f-4cd1-8aeb-af0d355b2084",
+      "korean": "한국어를 배워요."
+    },
+    {
+      "id": "73631744-8169-4d01-8896-731413d728a1",
+      "korean": "학교에서 수영을 배웠어요."
+    },
+    {
+      "id": "1cfe9ce0-f144-4187-ba7f-d1f499a23294",
+      "korean": "도서관에서 공부해요."
+    },
+    {
+      "id": "859edb1e-8dd1-4f4a-907b-59d6170d6297",
+      "korean": "오늘은 두 시간 공부했어요."
+    },
+    {
+      "id": "105cb190-445b-459d-9c0e-1cda6f9572b3",
+      "korean": "은행에서 일해요."
+    },
+    {
+      "id": "881230c2-628f-4b80-a919-d3401289d5ae",
+      "korean": "토요일에도 일해요."
+    },
+    {
+      "id": "19d43df5-adb5-4338-b456-f0a7437c9703",
+      "korean": "역에서 친구를 만나요."
+    },
+    {
+      "id": "8ff949b1-952e-46d0-9394-e9e425fc5df3",
+      "korean": "내일 다시 만나요."
+    },
+    {
+      "id": "6036d94b-9984-4ddb-b96c-9c28c2616451",
+      "korean": "마트에서 과일을 사요."
+    },
+    {
+      "id": "afdec6c9-e3db-4e55-a613-281fb468967c",
+      "korean": "어제 새 옷을 샀어요."
+    },
+    {
+      "id": "6f018f6a-49ab-4bef-8cef-a4d5388a0005",
+      "korean": "이 가게는 신발을 팔아요."
+    },
+    {
+      "id": "2ecaa6b7-522a-479c-ae7f-2858ec12e365",
+      "korean": "여기서 우표를 팔아요?"
+    },
+    {
+      "id": "dd0c768c-7ec1-4442-aa86-b66ea2278c4c",
+      "korean": "동생에게 책을 줘요."
+    },
+    {
+      "id": "78287d7a-7c28-4e6e-9d19-706b832c9083",
+      "korean": "친구가 선물을 줬어요."
+    },
+    {
+      "id": "3e672fd7-d5cf-4d86-a273-df925ceb6331",
+      "korean": "친구에게 선물을 받았어요."
+    },
+    {
+      "id": "01185495-0b1c-4250-9c33-b82c633cc034",
+      "korean": "택배를 받았어요."
+    },
+    {
+      "id": "9db3a086-371c-4f1b-9492-62f282d74704",
+      "korean": "집에서 빵을 만들어요."
+    },
+    {
+      "id": "1faace81-01ae-4964-8e4b-ab027167788a",
+      "korean": "친구와 저녁을 만들어요."
+    },
+    {
+      "id": "06edc7f2-7319-409f-b0c5-d399e7f403a2",
+      "korean": "밤 열한 시에 자요."
+    },
+    {
+      "id": "8a84aa03-45ff-4696-9ffa-995feaaee99e",
+      "korean": "어제는 잘 잤어요."
+    },
+    {
+      "id": "09e8672a-7706-4a3e-8666-0184b342a5c1",
+      "korean": "아침 일곱 시에 일어나요."
+    },
+    {
+      "id": "fe254c4a-90f3-4ee5-bd97-06f8d1602c54",
+      "korean": "의자에서 일어나세요."
+    },
+    {
+      "id": "a552d3a2-09af-4f91-b1ca-61fcea08765a",
+      "korean": "여기에 앉아도 돼요?"
+    },
+    {
+      "id": "14581155-712c-49f5-ac0b-e9dac9d0ad3f",
+      "korean": "창문 옆에 앉았어요."
+    },
+    {
+      "id": "54b66cc6-41e0-414e-9e7f-e80f7f7366ed",
+      "korean": "문 앞에 서 있어요."
+    },
+    {
+      "id": "b890c708-4e07-4b1f-af4b-99391a58fa07",
+      "korean": "여기에 줄을 서세요."
+    },
+    {
+      "id": "5a5a5deb-571a-4230-8b92-77c13c859eb8",
+      "korean": "매일 삼십 분 걸어요."
+    },
+    {
+      "id": "95d5b5c8-bb0a-4c89-926f-3ab158e126a9",
+      "korean": "집까지 걸었어요."
+    },
+    {
+      "id": "5483be0c-bc8a-47e5-84e5-6262ea7bdaac",
+      "korean": "공원에서 뛰어요."
+    },
+    {
+      "id": "dff0b469-d616-4b10-acee-d27d18b1cc78",
+      "korean": "학교 안에서는 뛰지 마세요."
+    },
+    {
+      "id": "61d15335-82bc-4c71-9a4c-b2f3de9a698c",
+      "korean": "버스를 타요."
+    },
+    {
+      "id": "6b909b7d-3bd1-4f61-a4b3-fa26d3caf415",
+      "korean": "자전거를 타고 가요."
+    },
+    {
+      "id": "e7238095-3b6e-468f-934d-df69802aabaf",
+      "korean": "다음 역에서 내려요."
+    },
+    {
+      "id": "4ea089e1-0f59-4480-a110-e1bfda053889",
+      "korean": "여기서 내릴게요."
+    },
+    {
+      "id": "60c06afb-9acb-4172-ba3b-ea64de79008c",
+      "korean": "친구를 기다려요."
+    },
+    {
+      "id": "89d7ad40-37f6-4db1-86a6-e7047964b53e",
+      "korean": "잠깐 기다려 주세요."
+    },
+    {
+      "id": "c3fc41f9-b1bd-46ab-a4ef-967766ed7bfa",
+      "korean": "열쇠를 찾아요."
+    },
+    {
+      "id": "f4edeef0-5b56-423f-a8c6-abf97780de58",
+      "korean": "드디어 지갑을 찾았어요."
+    },
+    {
+      "id": "69ee15a1-92c4-4d8a-9c68-3512e5718a0e",
+      "korean": "더워서 창문을 열어요."
+    },
+    {
+      "id": "7ae978e5-dee1-48af-9909-6bc7bca7357b",
+      "korean": "가방을 열어 보세요."
+    },
+    {
+      "id": "fbfab089-352a-4cae-a45a-0825f1b7ec19",
+      "korean": "추워서 문을 닫아요."
+    },
+    {
+      "id": "1a3f655b-1706-4402-ba9c-40647e8582c5",
+      "korean": "책을 닫아 주세요."
+    },
+    {
+      "id": "ee1f6786-0c26-4d51-9c08-bf61fcff62ae",
+      "korean": "따뜻한 옷을 입어요."
+    },
+    {
+      "id": "1453529c-f700-4fff-913b-ecc24956ffb4",
+      "korean": "오늘은 치마를 입었어요."
+    },
+    {
+      "id": "9ef205f6-b857-4ce7-be0d-9f03e2e598ed",
+      "korean": "신발을 신어요."
+    },
+    {
+      "id": "615ff62f-2ae2-4b5c-bdd1-584c3262366a",
+      "korean": "추워서 양말을 신어요."
+    },
+    {
+      "id": "5c52e774-3ee3-4c23-b00f-2a01676f40a3",
+      "korean": "밥 먹기 전에 손을 씻어요."
+    },
+    {
+      "id": "d36daffe-c65e-4ca8-b3af-f03a28b0271b",
+      "korean": "아침에 얼굴을 씻어요."
+    },
+    {
+      "id": "ec4d71b5-a5f7-4b22-93b5-fdd1e84cb602",
+      "korean": "저는 고양이를 좋아해요."
+    },
+    {
+      "id": "4957452f-a49d-4ff6-8cd4-89aa9d43ac4d",
+      "korean": "어떤 음악을 좋아해요?"
+    },
+    {
+      "id": "2e17f7a3-2770-4242-a11d-71271677e411",
+      "korean": "이 사람을 알아요?"
+    },
+    {
+      "id": "e2b7dd3f-6e35-4a87-9040-4e584490ca75",
+      "korean": "이 단어의 뜻을 알아요."
+    },
+    {
+      "id": "afbcd5a3-4fb8-44c8-92be-675ec528c626",
+      "korean": "길을 몰라요."
+    },
+    {
+      "id": "c105803b-55e0-4946-8396-c9596b9fbd83",
+      "korean": "그 사람은 잘 몰라요."
+    },
+    {
+      "id": "447abb1b-9606-433c-bc75-8b1e7a0c61cb",
+      "korean": "오늘은 시간이 있어요."
+    },
+    {
+      "id": "53cca841-ae86-435d-b60e-7571faf5306d",
+      "korean": "방에 아무도 없어요."
+    },
+    {
+      "id": "3c153d99-94da-407c-9a14-2ce3ea0ec13b",
+      "korean": "지금 돈이 없어요."
+    },
+    {
+      "id": "5f0ab2ca-9d46-4fe2-8141-606239a484ac",
+      "korean": "오늘 날씨가 좋아요."
+    },
+    {
+      "id": "f0250e28-b83f-4ff7-a3c9-75e7dac19730",
+      "korean": "저는 이 색이 좋아요."
+    },
+    {
+      "id": "42846287-815d-4ca8-8c5b-819a106e972d",
+      "korean": "저는 추운 날씨가 싫어요."
+    },
+    {
+      "id": "eb320836-75a7-4eee-b78e-c04c82df4478",
+      "korean": "혼자 먹기 싫어요."
+    },
+    {
+      "id": "ea64085b-534d-49fb-8ff4-6140c1c73f15",
+      "korean": "이 가방은 커요."
+    },
+    {
+      "id": "c78cd33a-e4d0-4caa-bf43-0f279159066c",
+      "korean": "저 건물은 정말 커요."
+    },
+    {
+      "id": "a63ff3a3-5062-4d01-aac8-718e8176e4bf",
+      "korean": "제 방은 조금 작아요."
+    },
+    {
+      "id": "a1777ea2-db48-4fc6-97c6-ffa49fa64e95",
+      "korean": "이 신발은 너무 작아요."
+    },
+    {
+      "id": "d58cea71-65ef-4c5f-89a7-450f172e4557",
+      "korean": "오늘은 사람이 많아요."
+    },
+    {
+      "id": "181d85a7-d0c3-4d2a-b351-03b65b118300",
+      "korean": "할 일이 많아요."
+    },
+    {
+      "id": "c3609c17-b5e3-4353-bf93-c6fd4b7ba625",
+      "korean": "오늘은 손님이 적어요."
+    },
+    {
+      "id": "a33bcad9-bf96-424d-bc19-cee2fb26f6ca",
+      "korean": "이 음식은 양이 적어요."
+    },
+    {
+      "id": "9f990f01-7e17-41b2-b0ac-9bba6df648a4",
+      "korean": "이 길은 길어요."
+    },
+    {
+      "id": "56165c55-fd17-4c02-a7d1-8363a94d72ad",
+      "korean": "언니는 머리가 길어요."
+    },
+    {
+      "id": "e6cfacf3-b3ca-4885-9194-209d14d542b1",
+      "korean": "이 치마는 짧아요."
+    },
+    {
+      "id": "fcb7270d-c78d-4b47-a2f6-6a44d281a550",
+      "korean": "휴가가 너무 짧아요."
+    },
+    {
+      "id": "29ed161a-f9f4-41dd-afdb-8a5597c184d7",
+      "korean": "저 산은 높아요."
+    },
+    {
+      "id": "5d13da13-5bb5-4913-ada9-30103b96c849",
+      "korean": "이 의자는 너무 높아요."
+    },
+    {
+      "id": "170119dd-b0d0-4e81-a30f-d062f97ac76e",
+      "korean": "책상이 조금 낮아요."
+    },
+    {
+      "id": "92b9a3d8-9188-4fec-a93c-dc667b029eac",
+      "korean": "오늘은 기온이 낮아요."
+    },
+    {
+      "id": "08c2a4f2-a4be-46d5-bbcc-79f4c858b5bc",
+      "korean": "기차가 빨라요."
+    },
+    {
+      "id": "f4a22e8a-09e5-4210-8445-a47a5d712685",
+      "korean": "말이 너무 빨라요."
+    },
+    {
+      "id": "525234c5-7109-45e2-8883-d9135111248c",
+      "korean": "인터넷이 느려요."
+    },
+    {
+      "id": "2109d7ae-be6d-46d0-8dec-179c1043ebaa",
+      "korean": "이 시계는 조금 느려요."
+    },
+    {
+      "id": "e30ebf1b-d4c5-49e5-9742-58128ef93669",
+      "korean": "이 단어는 발음이 어려워요."
+    },
+    {
+      "id": "4d7880de-9556-4cce-9445-cd1c0bff6203",
+      "korean": "혼자 하기 어려워요."
+    },
+    {
+      "id": "270488df-108e-467d-9cd0-231aff113f0a",
+      "korean": "오늘은 정말 더워요."
+    },
+    {
+      "id": "b843a33c-11e7-4a8e-bcf0-5dec0eb442f8",
+      "korean": "방이 더워서 창문을 열어요."
+    },
+    {
+      "id": "93b4a06a-eee7-4e6f-b10c-f8ab94c0593a",
+      "korean": "밖이 추워요."
+    },
+    {
+      "id": "7698c2c8-8e9a-4914-a33b-ce57036cb011",
+      "korean": "추우니까 따뜻하게 입으세요."
+    },
+    {
+      "id": "93840220-081f-4c57-9f7a-31873070decb",
+      "korean": "물이 뜨거워요."
+    },
+    {
+      "id": "af83ae76-7bf6-4baa-bc60-e8bbd1f0030a",
+      "korean": "이 컵은 뜨거우니까 조심하세요."
+    },
+    {
+      "id": "78d0eb40-0444-4d5a-8253-b81b69f3f059",
+      "korean": "물이 차가워요."
+    },
+    {
+      "id": "b53d4d8f-866c-47d3-bf7a-6ea862b6eed7",
+      "korean": "손이 아주 차가워요."
+    },
+    {
+      "id": "c35a95f2-1020-410f-9176-fd151f01ec66",
+      "korean": "이 빵은 맛있어요."
+    },
+    {
+      "id": "b216c514-bb0d-4ab4-92be-a34dcb41d9a1",
+      "korean": "정말 맛있게 먹었어요."
+    },
+    {
+      "id": "409695ed-a032-4017-9367-d5f99320da40",
+      "korean": "이 음식은 맛없어요."
+    },
+    {
+      "id": "b860590d-7e43-4a4b-aec5-31b413dceb4e",
+      "korean": "커피가 식어서 맛없어요."
+    },
+    {
+      "id": "9c186e56-bf4c-42f7-b110-9bc705dea2cb",
+      "korean": "머리가 아파요."
+    },
+    {
+      "id": "4c803536-2f2d-49e1-ad1c-b5ff083925ac",
+      "korean": "오늘은 아파서 쉬어요."
+    },
+    {
+      "id": "7cc8beb5-4cf3-4833-85ba-e26932dae971",
+      "korean": "친구를 만나서 기뻐요."
+    },
+    {
+      "id": "da7ea7d5-a49a-4b79-9b81-e092b12745d3",
+      "korean": "좋은 소식을 들어서 기뻐요."
+    },
+    {
+      "id": "7ce69378-4f31-4798-b821-563fb13b3768",
+      "korean": "이 영화는 슬퍼요."
+    },
+    {
+      "id": "62145c60-d51a-44f9-9fd2-b954f2ebf7c6",
+      "korean": "친구와 헤어져서 슬퍼요."
+    },
+    {
+      "id": "1c797bef-ed5f-498a-b403-3c5e3df5ea90",
+      "korean": "누구와 같이 가요?"
+    },
+    {
+      "id": "3b4c2cd7-1c9b-4ce1-9512-f4c281df1e8d",
+      "korean": "누가 왔어요?"
+    },
+    {
+      "id": "cffb5712-05e1-4e63-be6a-0239989da8e6",
+      "korean": "무엇을 찾으세요?"
+    },
+    {
+      "id": "8dd196da-b694-4888-a242-66948d703ef0",
+      "korean": "이것은 무엇이에요?"
+    },
+    {
+      "id": "fce7c88a-b9b4-4127-82f3-f11ed17720d9",
+      "korean": "어디에서 만나요?"
+    },
+    {
+      "id": "6cb51c31-4008-4ec2-83df-d19ccb89eb0f",
+      "korean": "집이 어디예요?"
+    },
+    {
+      "id": "53221e67-b5b0-451a-8264-edbacb5fde35",
+      "korean": "언제까지 기다려요?"
+    },
+    {
+      "id": "d654a16e-1d5c-4614-8267-13040a275a83",
+      "korean": "왜 늦었어요?"
+    },
+    {
+      "id": "5d136f8a-c478-4721-87e6-d8f89bb841e4",
+      "korean": "왜 그렇게 생각해요?"
+    },
+    {
+      "id": "a9299f6d-f154-481c-95ca-3c71631f00cb",
+      "korean": "오늘 기분이 어때요?"
+    },
+    {
+      "id": "6f5991bf-97eb-4f05-affc-89c97915fda2",
+      "korean": "역에 어떻게 가요?"
+    },
+    {
+      "id": "4b8e7b3d-7963-48bc-aad5-69aa58875ac2",
+      "korean": "이거 얼마예요?"
+    },
+    {
+      "id": "40dd7a62-a01d-4747-a3bc-bf1eb044be76",
+      "korean": "모두 얼마예요?"
+    },
+    {
+      "id": "0fed2406-a337-4ab7-870e-b49fab9ce3e8",
+      "korean": "조금 기다려 주세요."
+    },
+    {
+      "id": "5e96200f-52e7-4460-a327-82e5156961d3",
+      "korean": "한국어를 조금 알아요."
+    },
+    {
+      "id": "f1673a68-e0fc-4765-a193-87dc7eff0a19",
+      "korean": "많이 드세요."
+    },
+    {
+      "id": "ebf715ea-2d36-4113-aa91-329f65603d51",
+      "korean": "오늘 많이 걸었어요."
+    },
+    {
+      "id": "1be0b112-e990-495c-bfbd-9a73689799bf",
+      "korean": "방이 아주 깨끗해요."
+    },
+    {
+      "id": "aebcef42-07f7-4182-b697-a3dac75dc306",
+      "korean": "오늘은 아주 기뻐요."
+    },
+    {
+      "id": "6e9fb5c7-5e98-47df-9dec-b6e1696e1bc2",
+      "korean": "가방이 너무 무거워요."
+    },
+    {
+      "id": "50c8ede7-8611-4730-b7ac-09a58eed9bf9",
+      "korean": "이 음식은 너무 맛있어요."
+    },
+    {
+      "id": "e3db7198-d3ee-4e7d-b281-201202636cfd",
+      "korean": "글씨를 잘 써요."
+    },
+    {
+      "id": "0e9d3514-b446-465b-b638-00efc6528288",
+      "korean": "어젯밤에 잘 잤어요."
+    },
+    {
+      "id": "4b971d5e-ae0a-4e9f-9c6e-ca02099abd03",
+      "korean": "같이 점심을 먹어요."
+    },
+    {
+      "id": "b3922d0f-cbe4-4285-9e9c-7ab265623794",
+      "korean": "친구와 같이 공부해요."
+    },
+    {
+      "id": "17923e98-b84e-4718-9e79-c39452302352",
+      "korean": "다시 말해 주세요."
+    },
+    {
+      "id": "ad790a5b-f6ea-43c5-9edf-ada234f1fdf2",
+      "korean": "다음에 다시 만나요."
+    },
+    {
+      "id": "15bdcfa1-46df-4385-8be9-b6ec7c03e358",
+      "korean": "천천히 말씀해 주세요."
+    },
+    {
+      "id": "3e010995-e7e8-4283-8357-1d5ab180a3f8",
+      "korean": "천천히 걸어요."
+    },
+    {
+      "id": "de40d6e4-d13d-4a48-9792-b12a041f2625",
+      "korean": "빨리 오세요."
+    },
+    {
+      "id": "7ddb95f8-ffaf-460f-ab8c-6af7dc66ef35",
+      "korean": "시간이 빨리 가요."
+    },
+    {
+      "id": "59920216-0ed0-4f42-8d00-70df0e0db3ba",
+      "korean": "항상 같은 버스를 타요."
+    },
+    {
+      "id": "68a4e330-149b-43f1-bd41-40c4410e55d2",
+      "korean": "항상 고마워요."
+    },
+    {
+      "id": "af375a3b-930f-4b8c-848d-dd8bd899a989",
+      "korean": "이 카페에 자주 와요."
+    },
+    {
+      "id": "1fe6e741-5e7d-4056-8023-23ba27f6e3f6",
+      "korean": "친구에게 자주 전화해요."
+    },
+    {
+      "id": "78021a15-d126-4494-9163-611c3cef18c0",
+      "korean": "오늘은 커피를 안 마셔요."
+    },
+    {
+      "id": "aa1789b5-ff99-44fa-897e-40aea4665d57",
+      "korean": "이 음식은 안 매워요."
+    },
+    {
+      "id": "1b8ca944-ad86-498a-8b5d-bab42ec5ebda",
+      "korean": "저는 수영을 못 해요."
+    },
+    {
+      "id": "abd19319-d03a-4b51-871c-774767bd391d",
+      "korean": "바빠서 전화를 못 받았어요."
+    },
+    {
+      "id": "fc2346fe-9025-44c1-abcd-c117f692d576",
+      "korean": "사과가 하나 있어요."
+    },
+    {
+      "id": "2b2b7c1d-698b-4b00-a6e9-e0d9afe54e05",
+      "korean": "하나만 주세요."
+    },
+    {
+      "id": "533572e7-31d8-4423-864a-cac120e37f74",
+      "korean": "사람이 둘 있어요."
+    },
+    {
+      "id": "2ec7e2b1-758f-4f5c-8533-543648ac9ca8",
+      "korean": "둘 다 제 친구예요."
+    },
+    {
+      "id": "02350d85-da28-4da3-b1b3-ce60fd9f2767",
+      "korean": "의자가 셋 있어요."
+    },
+    {
+      "id": "b7e3f251-dfa4-4b4c-9ac2-5dbbdc287eeb",
+      "korean": "셋 중에 하나를 고르세요."
+    },
+    {
+      "id": "b71d7a41-1675-4b22-9544-0fefc1584977",
+      "korean": "우리 가족은 모두 넷이에요."
+    },
+    {
+      "id": "6de4272b-5fca-4cc7-960f-b1d92aec84b2",
+      "korean": "넷이 같이 가요."
+    },
+    {
+      "id": "70b4f2d1-1afe-4339-9edf-49a4d6c1f713",
+      "korean": "사과 한 개를 먹어요."
+    },
+    {
+      "id": "57d6d5e5-dd89-4615-bb75-6dc52dcd0608",
+      "korean": "달걀 두 개가 필요해요."
+    },
+    {
+      "id": "f19b4e08-96ef-4862-89d2-6dc8ac2e112f",
+      "korean": "친구 세 명이 왔어요."
+    },
+    {
+      "id": "cfc14565-9dd7-464f-be38-cbbbd327d855",
+      "korean": "몇 명이에요?"
+    },
+    {
+      "id": "a62612b5-bce8-4945-82c5-f6f17d13bf05",
+      "korean": "커피 두 잔 주세요."
+    },
+    {
+      "id": "1289ed3d-d946-45cf-95e1-582b52ea096b",
+      "korean": "물을 세 잔 마셨어요."
+    },
+    {
+      "id": "caddb9d1-6792-4e9b-9633-4d76e8f32e0a",
+      "korean": "이 빵은 천 원이에요."
+    },
+    {
+      "id": "33bdabbf-f965-45ed-880d-62ae04f8c5d2",
+      "korean": "모두 오천 원입니다."
+    },
+    {
+      "id": "fa884795-83f5-4629-88a9-5b29169d5682",
+      "korean": "사과 몇 개를 살까요?"
+    },
+    {
+      "id": "56491d05-9c70-45f8-af07-9e6e23e38140",
+      "korean": "준비가 모두 끝났어요."
+    },
+    {
+      "id": "41162d41-34a2-41cd-84cc-2083cda6925c",
+      "korean": "학생들이 모두 왔어요."
+    },
+    {
+      "id": "d0ff2120-db9d-4775-8d5b-06d4da946b4c",
+      "korean": "컴퓨터를 써요."
+    },
+    {
+      "id": "bb14640e-bb16-4615-a80f-96e47e78a685",
+      "korean": "이 컵을 써도 돼요?"
+    },
+    {
+      "id": "8c8e2726-f831-4021-a433-57d3b3d54b90",
+      "korean": "지금 뭐 해요?"
+    },
+    {
+      "id": "8c33a5b3-b283-4ede-9094-0c074bca5935",
+      "korean": "저녁에 운동을 해요."
+    },
+    {
+      "id": "2c85527c-4cb2-4fa4-b494-094a3a399b69",
+      "korean": "이 가방은 비싸요."
+    },
+    {
+      "id": "bcf46962-0e3e-430c-a1f0-53f376c4946f",
+      "korean": "택시는 버스보다 비싸요."
+    },
+    {
+      "id": "16225ae3-1771-4568-bfc9-1371d2454597",
+      "korean": "이 가게는 과일이 싸요."
+    },
+    {
+      "id": "47bd4538-a2c8-48df-b212-a5f2c91c67a2",
+      "korean": "생각보다 싸요."
+    },
+    {
+      "id": "ff5181a1-dc2f-4d7b-9a0b-2656ef785361",
+      "korean": "오늘은 일이 많아서 바빠요."
+    },
+    {
+      "id": "b0b75175-22e2-4090-939d-e003b01dbf52",
+      "korean": "요즘 많이 바쁘세요?"
+    },
+    {
+      "id": "4563d950-cad9-423c-bb65-d296b1e697f1",
+      "korean": "오늘은 조금 피곤해요."
+    },
+    {
+      "id": "018989df-2f34-4a80-9af4-90bea4656007",
+      "korean": "피곤해서 일찍 잤어요."
+    }
+  ],
+  "tags": [
+    {
+      "id": "1a61cd61-f0e3-4149-9280-ba1ba858302b",
+      "label_ja": "人・関係・自己紹介"
+    },
+    {
+      "id": "af3af2b9-a661-4928-83a7-287f7af57854",
+      "label_ja": "場所"
+    },
+    {
+      "id": "8f647310-896a-4072-bf8f-3df50c91a15a",
+      "label_ja": "家・暮らし"
+    },
+    {
+      "id": "f30c02b2-cb94-4c40-a162-4a13e4e081f6",
+      "label_ja": "食べ物・飲み物"
+    },
+    {
+      "id": "3c117e10-9c4b-457e-b37f-22cade9e8902",
+      "label_ja": "時間・日付"
+    },
+    {
+      "id": "23049b15-d452-4ad8-a493-fe38d457a33a",
+      "label_ja": "学校・仕事・活動"
+    },
+    {
+      "id": "5adfe3cd-e7be-40cd-ba7f-7d0f297fae08",
+      "label_ja": "移動・位置"
+    },
+    {
+      "id": "afd6bc9d-862f-4f39-bdfd-9eac070c2cc7",
+      "label_ja": "基本動詞"
+    },
+    {
+      "id": "6fbe040f-af9a-4570-8f79-ba5ae9e9a5fc",
+      "label_ja": "状態・気持ち"
+    },
+    {
+      "id": "16b80183-2ed6-42c9-b019-d3cfb17c4276",
+      "label_ja": "疑問・よく使う副詞"
+    },
+    {
+      "id": "947ecf5b-63f2-4a0f-bd18-5e08115a6bff",
+      "label_ja": "数・助数詞"
+    },
+    {
+      "id": "a9575e07-f818-4c82-878d-c2f90dc7c6b0",
+      "label_ja": "追加・基本動作と状態"
+    }
+  ],
+  "notes": [
+    {
+      "id": "a80ef47c-4b0b-4d3b-b6ab-a8b81b088628",
+      "vocabulary_id": "f7c5ab61-ebb3-407f-8558-c46dc233e5a6"
+    },
+    {
+      "id": "bcd730ad-987f-4876-96fd-067702d89c6e",
+      "vocabulary_id": "de5ec030-6781-42f8-b89f-46f2f2bd0f44"
+    },
+    {
+      "id": "ec14115f-ff60-4845-925d-aef78515e665",
+      "vocabulary_id": "54b32bf3-097c-4af2-8e9b-e246cb59a6df"
+    },
+    {
+      "id": "6d7405c8-2b8f-4e24-85c2-f2b0a06179c4",
+      "vocabulary_id": "0db0a20f-ce82-4c7d-8089-112c3b216e49"
+    },
+    {
+      "id": "00779eda-430c-43ae-87c9-246e1d9a5446",
+      "vocabulary_id": "81e50e73-927e-4799-975d-8316802b9764"
+    },
+    {
+      "id": "f1c02e9d-1d7b-4564-a2eb-b5448514f0f5",
+      "vocabulary_id": "9fd363e2-5fd3-4838-acff-281fc271e32e"
+    },
+    {
+      "id": "aff62ca7-641f-4bdd-b5c7-cc7a4a6a0630",
+      "vocabulary_id": "3218d39c-50fd-4a24-bab4-b2101d67dc7b"
+    },
+    {
+      "id": "d95cd105-ff72-4abf-b6e4-0fe5faab504c",
+      "vocabulary_id": "2f81df65-5421-4558-8691-d7197aa1dd18"
+    },
+    {
+      "id": "2c6e0be2-e318-4132-b629-ebbcb45760a7",
+      "vocabulary_id": "9f785f45-a451-4933-88b9-4a5e508c18c9"
+    },
+    {
+      "id": "d5a5af03-e366-49dd-8e2b-326cde1ad1b6",
+      "vocabulary_id": "9b45d39c-a966-41da-bc64-973bd8767c94"
+    },
+    {
+      "id": "af576af4-8185-441b-a20f-75976ea405eb",
+      "vocabulary_id": "8e699a96-c542-4ffc-a3d6-66f742a0acea"
+    },
+    {
+      "id": "fb58b905-e2c6-47a0-8fb7-45087d37bf77",
+      "vocabulary_id": "df0ad7e8-8ea0-4188-87b4-a5653cbcbf1d"
+    },
+    {
+      "id": "2d903224-b12e-4627-ade3-5e0dc27bc3ae",
+      "vocabulary_id": "eff9d2f6-cc0d-4cda-9374-8f62f2872f61"
+    },
+    {
+      "id": "998a81cf-4c34-4dd1-a5c5-e426aaba7161",
+      "vocabulary_id": "b351d310-867a-42cf-bba0-2bec28a8e0e7"
+    },
+    {
+      "id": "611131bc-0ccb-4bf5-8c1d-94b213622cc5",
+      "vocabulary_id": "1459f917-5c48-4045-962c-74e36f7e82dc"
+    },
+    {
+      "id": "26607c0e-2042-45ec-b5b1-533155ba40e3",
+      "vocabulary_id": "92d160f5-4f24-4091-9a91-8c89403a636d"
+    },
+    {
+      "id": "a84b8459-11e6-438f-9c91-1c324899c794",
+      "vocabulary_id": "d161ed44-7b29-44aa-aba7-e17693ca3afe"
+    },
+    {
+      "id": "1a46de98-961a-4068-ab63-426bd30dbe2b",
+      "vocabulary_id": "e80b26ff-6c6f-4004-99a7-d784495483a3"
+    },
+    {
+      "id": "b771a6e9-e29f-4cfb-8ef1-b7606e42160c",
+      "vocabulary_id": "06aa64f8-7b97-4554-8e24-5d293f07b2f1"
+    },
+    {
+      "id": "fb8b6f38-68a8-4aef-947b-661c72c15176",
+      "vocabulary_id": "53075425-8bb3-4553-a1fc-c8f3f9e10e2c"
+    },
+    {
+      "id": "a0c1becb-7d61-4228-9ce6-190c554b739f",
+      "vocabulary_id": "fe2383d3-0a35-4f41-a364-8be230595d5a"
+    },
+    {
+      "id": "a1e80409-1172-48c4-8086-7ec55f046b31",
+      "vocabulary_id": "0762154b-09da-4788-8b89-fd17df46b76b"
+    },
+    {
+      "id": "89c4a1a4-5277-4788-a5e9-958859736f2c",
+      "vocabulary_id": "f409f81c-2cde-4c04-bb72-19bc3e829eb2"
+    },
+    {
+      "id": "bef7e3b9-7190-4908-8f64-47db88208eb3",
+      "vocabulary_id": "a458bf4e-7c72-43d9-b504-ed0fb7fe7fdc"
+    },
+    {
+      "id": "7fc15eb8-514a-4292-a741-e1033f814c32",
+      "vocabulary_id": "6ed77580-8bbe-41d2-acee-336e103c1bce"
+    },
+    {
+      "id": "ccb9c129-75a4-4da0-ac65-c7258f52e715",
+      "vocabulary_id": "1b74ab03-9ce3-454b-914b-5f14f32f1395"
+    },
+    {
+      "id": "a30c8647-d120-4992-8db2-adfd03c6288d",
+      "vocabulary_id": "5f1818c8-4c3c-47d2-a2d2-f49c2aa07c0b"
+    },
+    {
+      "id": "5f2b3636-a606-495d-8f93-3aa8428c02cb",
+      "vocabulary_id": "e894b902-3d18-400e-b9ca-b3e466df4b2c"
+    },
+    {
+      "id": "b7e79ecf-8bb7-4cf1-a299-df46442e6bb8",
+      "vocabulary_id": "4eb3f805-8135-49a3-8c4e-460512b7ce4f"
+    },
+    {
+      "id": "8f75a4a4-9516-4fad-9336-d3509f31b1e7",
+      "vocabulary_id": "8ec4cdde-aa9f-429b-865d-803a76647b2c"
+    },
+    {
+      "id": "1cf187ad-4be7-437e-bd49-a420fd3922b8",
+      "vocabulary_id": "fef18457-1e05-435b-8939-4ef1a49fa0cd"
+    },
+    {
+      "id": "c6a1b869-6016-40e9-8891-1da0c3e15006",
+      "vocabulary_id": "2cf2dfce-5742-474c-b741-a08162f0f790"
+    },
+    {
+      "id": "8336c8e2-142f-4d37-8958-b3b910deb123",
+      "vocabulary_id": "58ee8623-b923-44c3-9ab3-3f12d0c24230"
+    },
+    {
+      "id": "36e83886-5f92-40cb-91de-44e3c0d477cb",
+      "vocabulary_id": "8860a406-438e-46c0-9400-ec8d46b8142b"
+    },
+    {
+      "id": "1f95bbb5-9668-400c-aa43-8ff65b5c1efa",
+      "vocabulary_id": "d7632872-1ba0-4930-9e6f-ead30910d5a7"
+    },
+    {
+      "id": "1f65e18a-c604-4e35-a33d-8ac162e68432",
+      "vocabulary_id": "6fb5fdd9-f6ec-4407-b9b7-b4f47c316b4e"
+    },
+    {
+      "id": "caedb174-e811-4e8c-a329-447a43dcd46c",
+      "vocabulary_id": "6650e3b6-0b98-4269-9de8-bbeb5139c5c8"
+    },
+    {
+      "id": "a26d32c3-d7fc-4932-a0ff-a09230cd30b8",
+      "vocabulary_id": "0dd02230-2962-45ac-bd96-9f1a44e30da9"
+    },
+    {
+      "id": "3716c69b-c794-43f5-9a0a-94d2b9f47e7e",
+      "vocabulary_id": "1b03a139-026f-42c1-bcc5-9c5d6612ea77"
+    },
+    {
+      "id": "917d0d1c-6ae9-4733-8aae-b6510004c833",
+      "vocabulary_id": "e3261465-a0dd-40f5-8abc-0682d671a989"
+    },
+    {
+      "id": "66087588-ad7d-475a-9833-8f2389a8f73a",
+      "vocabulary_id": "a80b5e32-c4ef-46fb-8fd4-4263255bb0d2"
+    },
+    {
+      "id": "db544058-e46a-4504-ae18-a15785d93ff5",
+      "vocabulary_id": "fef2fed6-f85d-43b0-96e3-f2aac78b159c"
+    },
+    {
+      "id": "66fce00f-e026-4cb9-a8ec-defeebf6075b",
+      "vocabulary_id": "0b16776f-2681-4555-bc5d-701a315d1f3d"
+    },
+    {
+      "id": "6d0c99ef-59ad-47a0-83a7-7c391a2a44ba",
+      "vocabulary_id": "d3f53872-702d-4ce9-ab79-e3092315d4e2"
+    },
+    {
+      "id": "1689ca5e-8d69-47cb-9317-3eab036cf88c",
+      "vocabulary_id": "668bbf50-dbbd-460d-b3ee-e557bfdcbe5f"
+    },
+    {
+      "id": "841f5edb-3995-4720-889a-fb48de69dd7c",
+      "vocabulary_id": "d950295a-d670-4b6e-9e5b-4c9be2b4b0d0"
+    },
+    {
+      "id": "a4f710ba-72c9-46d8-8fdd-36b7d4f66b9b",
+      "vocabulary_id": "c4b11d0f-49cb-4a5b-8058-1229dfbfb300"
+    },
+    {
+      "id": "24e5ecc4-2f2c-451f-b0fa-4c8375d09b5d",
+      "vocabulary_id": "bef9f9e3-2afb-4adc-a8b7-3c13dee20447"
+    },
+    {
+      "id": "fa569994-48b3-48c2-883f-b18b299800d0",
+      "vocabulary_id": "d5544f27-923b-4363-b62c-0851beccf8df"
+    },
+    {
+      "id": "e43a814b-b29c-49f1-a87f-77a2b31efe61",
+      "vocabulary_id": "b71fc7a2-f04d-411a-9260-2b598e599154"
+    },
+    {
+      "id": "fbce02e9-e29c-4788-b5ec-90c7b2695e3e",
+      "vocabulary_id": "ddadde97-c840-442c-84b9-11dbcd3464ce"
+    },
+    {
+      "id": "3e2bcc87-2992-44af-bb3a-21fc519f2334",
+      "vocabulary_id": "1dec5754-7840-4bb5-b87d-ed8398a2c738"
+    },
+    {
+      "id": "9098764f-e7df-4aae-8690-1d914e28e98d",
+      "vocabulary_id": "5396e19a-4fb0-45cb-845d-7f0432b2e35c"
+    },
+    {
+      "id": "81faa07d-0bf0-4794-ac96-8b9ced0c8cc6",
+      "vocabulary_id": "00ec58e9-258f-4bb2-a6e2-f969cb91d891"
+    },
+    {
+      "id": "cd36c6ba-6ff8-4d4e-8eff-9f51fb025790",
+      "vocabulary_id": "a7fd0527-aedf-441a-bc19-da2322906e8c"
+    },
+    {
+      "id": "e28ca9c4-25ae-4f9e-9322-c36263ef459c",
+      "vocabulary_id": "a618d66f-3038-4138-a259-f1caf4e7e6e3"
+    },
+    {
+      "id": "28f7b29a-f727-4a42-a463-352e4af5b2b2",
+      "vocabulary_id": "6f6636c7-03fa-4d8a-b69e-a51f4685738d"
+    },
+    {
+      "id": "b8f1950c-89c0-4129-aec6-7fe3c9f615f9",
+      "vocabulary_id": "e5722fa2-1d1a-4053-81d2-a8352749ce6e"
+    },
+    {
+      "id": "b29ef578-7ef7-4df6-a453-f3ece103e589",
+      "vocabulary_id": "07601d1b-2047-410c-b1ae-51be186e9cbb"
+    },
+    {
+      "id": "cdb1d5ba-dbb5-4de2-ae34-063a9f883e60",
+      "vocabulary_id": "2ba6406d-1613-4011-a5a0-e6204be44c78"
+    },
+    {
+      "id": "a771dc38-e227-4f07-9e56-c6f649338e7b",
+      "vocabulary_id": "31e12b28-f791-40d5-a012-25fc4be58800"
+    },
+    {
+      "id": "4fcd4473-a02b-4c59-b9e4-bb1013619535",
+      "vocabulary_id": "5b42a972-9704-4e0e-a244-bf3ccedaf27c"
+    },
+    {
+      "id": "a0778c55-35d6-4696-a4c6-038b533ff018",
+      "vocabulary_id": "707d6ce7-4939-4d70-b143-6458c44d362f"
+    },
+    {
+      "id": "9c71dec5-9c9e-4bdd-b8fa-7becd671f535",
+      "vocabulary_id": "37d7df89-a163-4f6b-9230-a502ba2451ca"
+    },
+    {
+      "id": "6f6f74e5-33f4-481f-b81f-ab9af50a7b91",
+      "vocabulary_id": "936cba02-cffb-4e6a-903c-ad501ecac569"
+    }
+  ],
+  "batch_tag_id": "3d489b86-6c24-4fb5-8d14-f870eea99dd4"
+}

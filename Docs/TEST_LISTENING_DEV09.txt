@@ -1,0 +1,12 @@
+test_all_new_sql_prepares (test_listening_content.ListeningTests.test_all_new_sql_prepares) ... ok
+test_batch_pagination_is_bounded_and_editorial_order_stable (test_listening_content.ListeningTests.test_batch_pagination_is_bounded_and_editorial_order_stable) ... ok
+test_due_backlog_upsert_preserves_other_skill (test_listening_content.ListeningTests.test_due_backlog_upsert_preserves_other_skill) ... ok
+test_exact_previous_payloads_and_approved_revisions (test_listening_content.ListeningTests.test_exact_previous_payloads_and_approved_revisions) ... ok
+test_migration_snapshot_play_answer_and_duplicate_protection (test_listening_content.ListeningTests.test_migration_snapshot_play_answer_and_duplicate_protection) ... ok
+test_source_levels_tasks_and_no_sentence_duplication (test_listening_content.ListeningTests.test_source_levels_tasks_and_no_sentence_duplication) ... ok
+test_validator_rejects_bad_source_audio_level_answers_and_distractors (test_listening_content.ListeningTests.test_validator_rejects_bad_source_audio_level_answers_and_distractors) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 5.223s
+
+OK

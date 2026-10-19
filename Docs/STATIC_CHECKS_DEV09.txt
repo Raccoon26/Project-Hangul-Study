@@ -1,0 +1,10 @@
+DEV-09 Linux static verification
+Swift tree-sitter syntax: 62 files, no errors. NOT type-check.
+All Swift files and migration v8 referenced in generated Xcode project; plist/XML valid.
+SQLite integrity_check ok; foreign_key_check empty.
+7 critical audio/grammar/conjugation/SRS files byte-identical to DEV-08.
+v9 snapshot byte-identical to DEV-08 bundle. No previous project file deleted.
+No TODO/FIXME/placeholder in new listening runtime files.
+Native XCTest: 78 authored, NOT EXECUTED.
+Xcode/Swift compiler/iOS simulator unavailable. Build/type-check/UI/audio/VoiceOver not executed.
+DB SHA256: 9c584bd0f7b4b213a1b8120fed77fe6b1ad0d3a08e5649f07ee067973351d8d0

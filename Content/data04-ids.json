@@ -1,0 +1,559 @@
+{
+  "grammar": [
+    {
+      "key": "present",
+      "id": "f635b8cc-1c6a-415e-96cc-a450a8ff357f",
+      "level": "intro",
+      "pattern": "-아요 / 어요",
+      "examples": [
+        "801b5e83-e23e-4d46-9ceb-4643ef9c176e",
+        "3a700889-e0fa-42b0-bb0e-95ff19f89038"
+      ],
+      "questions": [
+        "c074844f-65ce-42cb-b780-d61f690876f0",
+        "88577670-08c9-4288-bc01-c27949aa5219"
+      ]
+    },
+    {
+      "key": "exist",
+      "id": "5f505574-8e24-43a5-b8a7-fc23655bf30d",
+      "level": "intro",
+      "pattern": "있다 / 없다",
+      "examples": [
+        "ed9d085c-4d2a-473f-b815-f6f2d924aeff",
+        "7128479f-de2e-4759-a8ec-77d840853343"
+      ],
+      "questions": [
+        "362bc533-5c7c-4f86-b025-ca415865f4bc",
+        "e5dbac25-3671-4f94-8fce-46ca90f66a28"
+      ]
+    },
+    {
+      "key": "noun_negative",
+      "id": "f61328b6-5449-4cd0-825f-c3a54906a4b1",
+      "level": "intro",
+      "pattern": "이 / 가 아니다",
+      "examples": [
+        "e69fb62b-5628-4bf5-82b8-2a91d813858f",
+        "2f15ab3e-2273-439f-8c4f-77506157ab44"
+      ],
+      "questions": [
+        "a1c8c3a7-d25e-4c2a-ad45-427f7c6cf6f9",
+        "316225f8-c618-4946-bfa3-9c452e65962d"
+      ]
+    },
+    {
+      "key": "formal",
+      "id": "0fbf97b3-4b94-463b-85b4-8e6e22defe65",
+      "level": "intro",
+      "pattern": "-ㅂ니다 / 습니다",
+      "examples": [
+        "e62507c9-e040-4c88-b5f2-f9447ea8e419",
+        "56c40b1d-f23d-4c35-86bc-05e5445031ab"
+      ],
+      "questions": [
+        "612dc829-5615-4363-b027-e6658599f853",
+        "8c7c92a6-dd06-4511-b599-b263e9ef95c7"
+      ]
+    },
+    {
+      "key": "past",
+      "id": "f331886b-4670-4a73-a700-b0f0f036b1a4",
+      "level": "intro",
+      "pattern": "-았 / 었어요",
+      "examples": [
+        "1f2c8f6a-9e0f-4859-a048-08a63bd5a91f",
+        "ba987596-d127-49a8-ad78-f46af0c98116"
+      ],
+      "questions": [
+        "7de46981-7d2b-485d-a1c8-b9e124b09858",
+        "adf2155a-228c-44c5-a3aa-c34ec25bddc6"
+      ]
+    },
+    {
+      "key": "short_negative",
+      "id": "19d5aacf-8e98-451e-affa-737a71b4d748",
+      "level": "intro",
+      "pattern": "안 + 動詞・形容詞",
+      "examples": [
+        "c9bf6b0c-ef8a-4f26-a8eb-ec6173cc5219",
+        "ea317a37-0af0-4c03-8e0c-f6a9b792eb1b"
+      ],
+      "questions": [
+        "f0155932-057a-4775-8f25-cf2b20940eda",
+        "ed85ccff-c6e6-4270-927a-c8b5662ce284"
+      ]
+    },
+    {
+      "key": "long_negative",
+      "id": "b8314a89-448e-4d2e-8aea-1fb8625311ce",
+      "level": "intro",
+      "pattern": "-지 않다",
+      "examples": [
+        "de015b15-3c43-4c6f-86cf-37338da332f3",
+        "841bb375-5147-4bdb-92d1-1ae4e46c5fdb"
+      ],
+      "questions": [
+        "27a3c7c2-748a-483a-ae96-ecb4e125f62d",
+        "b8fbba29-2569-4507-8f87-b94a38e1caea"
+      ]
+    },
+    {
+      "key": "coord",
+      "id": "aae16fc4-4a69-484f-b4f9-132a1f963ffc",
+      "level": "intro",
+      "pattern": "와 / 과 · 하고",
+      "examples": [
+        "fc575a70-893e-479d-8292-f04b502d71bf",
+        "3bbdd524-b1b3-4d0e-9192-49d6c31ae0fa"
+      ],
+      "questions": [
+        "17a753d2-3435-4095-a1d5-251c3b12cd42",
+        "098fff66-835a-41b4-a228-e821ba45d549"
+      ]
+    },
+    {
+      "key": "also",
+      "id": "ae5e885a-382d-4051-b57c-1db78860d22a",
+      "level": "intro",
+      "pattern": "도",
+      "examples": [
+        "18f09fb2-4c05-4bd4-928f-0eb2d91c4d5e",
+        "dfe383f5-0c4f-4793-bad7-fab481c54a9f"
+      ],
+      "questions": [
+        "0d38fc8a-1433-4387-8fa3-953cca7fcdc5",
+        "65edb8dc-5c28-4d2c-afdd-6af654aa19e9"
+      ]
+    },
+    {
+      "key": "only",
+      "id": "175390c0-2ef1-40f2-93a8-a528e1f75dd7",
+      "level": "intro",
+      "pattern": "만",
+      "examples": [
+        "2249ce0e-5f24-45ca-a496-665ed47924be",
+        "aac2fddc-a4a0-443b-a6b6-991d869c3606"
+      ],
+      "questions": [
+        "5ea6827b-0767-4ee3-b621-d295957d246b",
+        "daedd8f9-71fb-4b96-920a-502e599e4a79"
+      ]
+    },
+    {
+      "key": "from",
+      "id": "5901d23d-d80d-4c73-9c69-5b65cb3d3edf",
+      "level": "intro",
+      "pattern": "부터",
+      "examples": [
+        "ea252040-853c-4239-a668-5a1a08599f9e",
+        "2c7e4fa6-ccf8-48fd-8886-c65e59acc314"
+      ],
+      "questions": [
+        "6ab6576c-b57f-4295-b166-a2d0ef883571",
+        "0237104e-beca-40e0-995d-d6e610ff2de2"
+      ]
+    },
+    {
+      "key": "until",
+      "id": "c920d60c-c5d3-4e2a-b86b-faf321a27c29",
+      "level": "intro",
+      "pattern": "까지",
+      "examples": [
+        "273455de-a43d-4323-9b33-46db5122e45d",
+        "671c1ab0-d45d-41b3-8e43-3d69826a61cc"
+      ],
+      "questions": [
+        "24b03d90-9e9a-4fd9-b916-d10b2ad99f32",
+        "196b1846-d621-492c-be13-d1bfa5ab8e3b"
+      ]
+    },
+    {
+      "key": "recipient",
+      "id": "575ce16d-31f0-4064-96a1-8c83fe350b98",
+      "level": "intro",
+      "pattern": "에게 / 한테",
+      "examples": [
+        "b8c56c88-cbf1-4960-babb-e2177484e1d0",
+        "9e907651-5abe-40dc-8d9e-529e033b4d88"
+      ],
+      "questions": [
+        "fa8206c6-64dd-41f6-9395-e152d3dfe30b",
+        "869c2e3f-4260-4dc1-a35b-932a6900cd1c"
+      ]
+    },
+    {
+      "key": "means",
+      "id": "238e988d-4c7b-4904-bb68-08bba71265e4",
+      "level": "intro",
+      "pattern": "(으)로（手段・道具）",
+      "examples": [
+        "b4ba0fbf-9899-44d8-a239-4d6cd0e9e6ce",
+        "81a5e40b-67da-43b5-8f14-701dd1b63184"
+      ],
+      "questions": [
+        "49746ea1-a3af-4f6e-8156-ad503a744279",
+        "da23b994-e598-4e11-ae1d-92a332bc73af"
+      ]
+    },
+    {
+      "key": "request",
+      "id": "12b936fe-6229-4b30-b94f-2d47383010f2",
+      "level": "intro",
+      "pattern": "-(으)세요（依頼・勧め）",
+      "examples": [
+        "49689f2b-0cfa-4073-a2ec-1d60d080c1d0",
+        "ba9f33f4-f1ae-49c1-98a5-eccda7d46821"
+      ],
+      "questions": [
+        "41ddc1c0-77f2-4fb9-a805-ef1c58f1e6b1",
+        "cb563008-ed30-4922-9597-da02b7873db1"
+      ]
+    },
+    {
+      "key": "please",
+      "id": "9aaced5c-d486-4f21-8084-c62276df062c",
+      "level": "intro",
+      "pattern": "-아 / 어 주세요",
+      "examples": [
+        "ec936de3-1d5c-4df7-ae99-e65d4ab49714",
+        "1b66ebd9-600d-4152-a87f-579bdb29b495"
+      ],
+      "questions": [
+        "f9b93afe-336e-4caa-88c2-9ecfe4315264",
+        "cc54c692-a8f8-487d-9bf7-e9046142d077"
+      ]
+    },
+    {
+      "key": "intention",
+      "id": "7779f2ed-308d-46aa-9df6-bd6001fe88fa",
+      "level": "beginner",
+      "pattern": "-(으)려고 하다",
+      "examples": [
+        "5e53a471-b2e1-4e9c-a5ca-b958e5a26a3c",
+        "1e46759d-d648-40e7-95d5-000073d6530f"
+      ],
+      "questions": [
+        "e5e35c11-61b6-4f14-b869-69051abd9d49",
+        "88b89c23-210b-445e-8fb2-208f89374260"
+      ]
+    },
+    {
+      "key": "progress",
+      "id": "cdae82b2-3b2a-4f9d-a3f6-c72767b97803",
+      "level": "beginner",
+      "pattern": "-고 있다（進行）",
+      "examples": [
+        "cc8b20be-79d4-4a6a-bb79-45de34c9aa12",
+        "5eddc1bc-8a36-4dea-98be-c95087992d8e"
+      ],
+      "questions": [
+        "2c252e0e-02c1-4841-99c3-c59aa1cb8d7d",
+        "0765903d-c501-426a-bfef-b489a8587d7f"
+      ]
+    },
+    {
+      "key": "try",
+      "id": "e8ce5b27-35a6-4135-8014-47881cdd7f9a",
+      "level": "beginner",
+      "pattern": "-아 / 어 보다",
+      "examples": [
+        "c080652e-b84b-4c63-9c9c-3ddbe77c99a9",
+        "bfc46322-7481-4a4b-ae6c-7e53e54d54da"
+      ],
+      "questions": [
+        "48117c6a-02ee-40a5-bd4c-047186b18232",
+        "e643e013-a018-43ca-9639-125640a1d439"
+      ]
+    },
+    {
+      "key": "experience",
+      "id": "502b2304-463f-4c29-9919-96630599383c",
+      "level": "beginner",
+      "pattern": "-(으)ㄴ 적이 있다 / 없다",
+      "examples": [
+        "ce76fe4b-d173-4d60-ae1b-fd37e1849968",
+        "6318700b-8e34-4d0a-a114-5d83b9cbe0cf"
+      ],
+      "questions": [
+        "3eb4fe3c-3394-4ebf-9a21-db22eedce8f8",
+        "b23aa8ad-e2df-4bfc-b0c0-c4042fa19247"
+      ]
+    },
+    {
+      "key": "ability",
+      "id": "b85e6804-85a2-495d-8781-e885ee9468a2",
+      "level": "beginner",
+      "pattern": "-(으)ㄹ 수 있다 / 없다",
+      "examples": [
+        "c0750757-4adc-4ec5-b5c6-a0ce9baeec26",
+        "1d01a00b-54a3-4e60-aba4-7b3f5f95b9a0"
+      ],
+      "questions": [
+        "b8dce062-a2c3-4ec9-ae68-78512e573076",
+        "76e028ad-716c-4e67-8e00-6ea3ed43366e"
+      ]
+    },
+    {
+      "key": "obligation",
+      "id": "25dc9c13-05b1-4d9b-bb5b-5d1643f9a591",
+      "level": "beginner",
+      "pattern": "-아 / 어야 하다",
+      "examples": [
+        "f7fdbaf8-26ce-41ba-bb2e-c111d5b2c6e4",
+        "0f5543d8-d2d7-4b5c-ae88-295399d218af"
+      ],
+      "questions": [
+        "fc81b5a1-db68-492c-b288-06563cd8e951",
+        "3fea2095-74ec-40b4-a33e-301c61088774"
+      ]
+    },
+    {
+      "key": "permission",
+      "id": "89a0c275-28c3-4698-9ec7-69c3fe1fcdf4",
+      "level": "beginner",
+      "pattern": "-아 / 어도 되다",
+      "examples": [
+        "a552d3a2-09af-4f91-b1ca-61fcea08765a",
+        "2795b507-2192-4c59-8b14-99835c231828"
+      ],
+      "questions": [
+        "5171b7be-e78b-4c38-8eac-8e29cdbf6921",
+        "07010c55-99e5-42b3-827f-fb5552e7876b"
+      ]
+    },
+    {
+      "key": "prohibition",
+      "id": "97089b8e-acc1-406d-9fad-5e53189aeeb8",
+      "level": "beginner",
+      "pattern": "-(으)면 안 되다",
+      "examples": [
+        "9a7d0e50-f99d-40fe-9b1e-a1643bda96af",
+        "0e11c897-d6b7-4955-aa52-10779094bbc4"
+      ],
+      "questions": [
+        "1c15753e-fba3-4ebc-b3ec-b885f9cd0ab1",
+        "328508c9-d632-4147-a38f-a266aa81110f"
+      ]
+    },
+    {
+      "key": "future",
+      "id": "1734a471-0e5b-4500-956c-dfa22926d2e9",
+      "level": "beginner",
+      "pattern": "-(으)ㄹ 거예요（予定）",
+      "examples": [
+        "648ac505-8e80-48d4-b0d6-24422efc1a9b",
+        "049765f8-009f-441a-8418-d1ed25ca2191"
+      ],
+      "questions": [
+        "81274bb5-8d31-41a2-98d1-3dd69f70a585",
+        "29bd3cd9-08ec-4797-83f9-bfb17de76a2b"
+      ]
+    },
+    {
+      "key": "guess",
+      "id": "eef9130b-15eb-4138-ab8b-dcda74c864b1",
+      "level": "beginner",
+      "pattern": "-는 / -(으)ㄴ 것 같다（現在の推測）",
+      "examples": [
+        "0724bc14-120f-44d8-a82b-5e2d51cc34de",
+        "21305738-da6f-4eca-922b-40afe1505532"
+      ],
+      "questions": [
+        "0e9b5897-276f-4407-90b9-9f9d53e060ce",
+        "918e83f0-5c85-41ab-ae8d-eff9263a2150"
+      ]
+    },
+    {
+      "key": "comparison",
+      "id": "66f56006-dd56-4cc4-bdcb-38f1c17c0036",
+      "level": "beginner",
+      "pattern": "보다（比較）",
+      "examples": [
+        "fd3dae14-2275-4525-a151-82d6723b1d20",
+        "d2a3c1f0-a2af-4328-bd10-bfb6f833365c"
+      ],
+      "questions": [
+        "49e9547a-79c8-4194-8939-63dcfc6c4e0c",
+        "9b966346-df87-4ad6-a424-17584bcaf22a"
+      ]
+    },
+    {
+      "key": "before",
+      "id": "92cf69c3-2bda-453a-8b5f-47f1e4902f2a",
+      "level": "beginner",
+      "pattern": "-기 전에",
+      "examples": [
+        "4e524175-375c-4d5e-815e-8167409aabcf",
+        "47aedd30-3a6a-47c5-8776-e0c4a35e558d"
+      ],
+      "questions": [
+        "7b83d25b-0fd4-4b45-94e0-21c7e52e20e2",
+        "62c13c9f-0aee-4a8c-8084-086ef2d21331"
+      ]
+    },
+    {
+      "key": "after",
+      "id": "93796ac0-18d5-4363-a562-26e6fff959b4",
+      "level": "beginner",
+      "pattern": "-(으)ㄴ 후에",
+      "examples": [
+        "9186e028-f3c9-47fe-805a-31b8979ce397",
+        "082b5ef3-e2a0-4ba3-b46e-d8efee5f7a11"
+      ],
+      "questions": [
+        "550d4a0e-4c1d-46e8-b405-7a156fd3fbe8",
+        "323d874f-bd34-4a9a-9c83-959d816e401b"
+      ]
+    },
+    {
+      "key": "dont",
+      "id": "377e3a8a-5815-4d20-9418-b909dce54143",
+      "level": "beginner",
+      "pattern": "-지 마세요",
+      "examples": [
+        "70f4e0e9-f99c-4fac-bf36-fe08f15328c5",
+        "b9211238-21cf-4ff5-9c13-67ad5bb4474a"
+      ],
+      "questions": [
+        "76f2b29a-e558-42ba-8122-19fa91dcd831",
+        "cae83d63-cdd0-4309-a15a-e91da15ef076"
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "55f1ae45-3e8d-4da2-a180-e1b5f1798e49",
+      "title": "丁寧な文と存在",
+      "level": "intro",
+      "keys": [
+        "present",
+        "exist",
+        "noun_negative",
+        "formal"
+      ]
+    },
+    {
+      "id": "222bf403-092a-4b1c-8b11-7b8f12d11d60",
+      "title": "過去と否定",
+      "level": "intro",
+      "keys": [
+        "past",
+        "short_negative",
+        "long_negative"
+      ]
+    },
+    {
+      "id": "dd548dfc-90ea-4bc6-bffd-d62556e00531",
+      "title": "人とものをつなぐ",
+      "level": "intro",
+      "keys": [
+        "coord",
+        "also",
+        "only",
+        "recipient"
+      ]
+    },
+    {
+      "id": "eb1a4147-17e5-41ca-a9c7-050cb56b1dc5",
+      "title": "時間・手段・お願い",
+      "level": "intro",
+      "keys": [
+        "from",
+        "until",
+        "means",
+        "request",
+        "please"
+      ]
+    },
+    {
+      "id": "08b2d297-cb62-45fa-865c-a5eb1e23176b",
+      "title": "予定と進行",
+      "level": "beginner",
+      "keys": [
+        "intention",
+        "future",
+        "progress"
+      ]
+    },
+    {
+      "id": "323efe5c-1ee6-4524-9580-010d91de341a",
+      "title": "試す・経験・可能",
+      "level": "beginner",
+      "keys": [
+        "try",
+        "experience",
+        "ability"
+      ]
+    },
+    {
+      "id": "043ccfbd-6a6e-4029-8a5c-22e538106131",
+      "title": "義務・許可・禁止",
+      "level": "beginner",
+      "keys": [
+        "obligation",
+        "permission",
+        "prohibition",
+        "dont"
+      ]
+    },
+    {
+      "id": "d65daeaf-cd6b-4759-8706-2fb22f269171",
+      "title": "比べる・推測・前後",
+      "level": "beginner",
+      "keys": [
+        "guess",
+        "comparison",
+        "before",
+        "after"
+      ]
+    }
+  ],
+  "direct_input": [
+    {
+      "question_id": "c5b5264d-e182-4a08-8266-4fcc3760e546",
+      "grammar_id": "f635b8cc-1c6a-415e-96cc-a450a8ff357f",
+      "form": "present"
+    },
+    {
+      "question_id": "8f10e428-1f2f-4892-8913-dbed38bf33ff",
+      "grammar_id": "f331886b-4670-4a73-a700-b0f0f036b1a4",
+      "form": "past"
+    },
+    {
+      "question_id": "a5fef175-ed30-4cd4-8f7f-43f9b6e4c8fa",
+      "grammar_id": "1734a471-0e5b-4500-956c-dfa22926d2e9",
+      "form": "future"
+    },
+    {
+      "question_id": "7ec73119-3ee1-41ea-9c3f-348ab294f1f6",
+      "grammar_id": "19d5aacf-8e98-451e-affa-737a71b4d748",
+      "form": "negativeShort"
+    },
+    {
+      "question_id": "b475bdcf-ea14-4f79-aff3-b371fc1c0f9d",
+      "grammar_id": "b8314a89-448e-4d2e-8aea-1fb8625311ce",
+      "form": "negativeLong"
+    }
+  ],
+  "listening": [
+    {
+      "id": "38765927-164d-4a02-8733-d3bce221804b",
+      "question_id": "fb19ce4a-14b4-4145-b9d7-bb7b36716d2c",
+      "example_id": "cc8b20be-79d4-4a6a-bb79-45de34c9aa12",
+      "grammar_id": "cdae82b2-3b2a-4f9d-a3f6-c72767b97803"
+    },
+    {
+      "id": "70c9e5b3-5551-4b9b-af20-eb0c368830ee",
+      "question_id": "36b31530-aacd-4ec7-89f2-1b8ccb2ce535",
+      "example_id": "c0750757-4adc-4ec5-b5c6-a0ce9baeec26",
+      "grammar_id": "b85e6804-85a2-495d-8781-e885ee9468a2"
+    },
+    {
+      "id": "3284897a-abfa-4140-b09d-18861db615b0",
+      "question_id": "fc1dff3c-5b74-4319-98bb-605699750102",
+      "example_id": "a552d3a2-09af-4f91-b1ca-61fcea08765a",
+      "grammar_id": "89a0c275-28c3-4698-9ec7-69c3fe1fcdf4"
+    }
+  ]
+}

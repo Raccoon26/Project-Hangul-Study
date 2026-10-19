@@ -1,0 +1,8 @@
+/* Base language is Japanese. Add other .lproj folders in a later localization task. */
+"学ぶ" = "学ぶ";
+"単語" = "単語";
+"記録" = "記録";
+"設定" = "設定";
+"読み込み中" = "読み込み中";
+"閉じる" = "閉じる";
+"もう一度試す" = "もう一度試す";

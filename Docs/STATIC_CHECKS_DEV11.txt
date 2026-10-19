@@ -1,0 +1,9 @@
+Swift files parsed: 75
+Syntax errors: 0
+XCTest functions authored: 94; NOT EXECUTED
+swift: None
+xcodebuild: None
+Tree-sitter is syntax parsing only, NOT type checking or an iOS build.
+Content/production.json: unchanged from DEV10=True; SHA256=ad7e098eee5e9e16dcb4bed6985ac6e5750e61c71f2742b61a6ab6ddf5fe71f9
+Resources/content.sqlite: unchanged from DEV10=True; SHA256=0b36d3da9f39f2784ca5fd54ce0842458323e6bd81ed212b745c3d9e381969f7
+All 75 Swift source paths and user-migration-v9.sql occur in generated Xcode project.

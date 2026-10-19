@@ -1,0 +1,8 @@
+Swift syntax parsed: 68 files
+Syntax errors: 0
+XCTest test functions authored: 88; NOT EXECUTED
+swift available: None
+xcodebuild available: None
+Tree-sitter parsing is NOT Swift type checking or an Xcode build.
+Content/production.json: unchanged from DATA-06=True; SHA256=ad7e098eee5e9e16dcb4bed6985ac6e5750e61c71f2742b61a6ab6ddf5fe71f9
+Resources/content.sqlite: unchanged from DATA-06=True; SHA256=0b36d3da9f39f2784ca5fd54ce0842458323e6bd81ed212b745c3d9e381969f7
