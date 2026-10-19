@@ -48,12 +48,14 @@ final class GrammarReviewViewModel: ObservableObject {
     @Published private(set) var error: String?
     @Published private(set) var empty = false
     @Published private(set) var due = 0
+    @Published private(set) var unavailableID: ContentID?
     let practiceID: UUID?
     init(services: AppContainer, practiceID: UUID? = nil) { self.services = services; self.practiceID = practiceID }
     func open() async {
         guard !busy else { return }; busy = true; error = nil
         defer { busy = false }
         do {
+            try await services.progress.configureReviewContentVersion(services.metadata.contentVersion)
             if let id = practiceID { session = try await services.progress.reviewSession(id) }
             else { session = try await services.progress.beginGrammarReview(now: Date()) }; empty = false
             try await load()
@@ -61,12 +63,14 @@ final class GrammarReviewViewModel: ObservableObject {
         catch { self.error = LearningErrorMessage.message(for: error) }
     }
     private func load() async throws {
-        card = nil; question = nil
+        card = nil; question = nil; unavailableID = nil
         guard let current = session, let id = current.currentID else {
             if practiceID == nil { due = try await services.progress.grammarReviewSummary(now:Date()).due }
             else { due = 0 }; return
         }
-        let loaded = try await services.content.grammarCard(id: id)
+        let loaded: GrammarCard
+        do { loaded = try await services.content.grammarCard(id: id) }
+        catch GrammarError.changedContent { unavailableID = id; throw GrammarError.changedContent }
         let state = try await services.progress.reviewState(for: id, skill: "grammar")
         let index = (state?.reviewCount ?? 0) % loaded.questions.count
         question = try await services.progress.prepareGrammarReview(sessionID: current.id, contentID: id, question: loaded.questions[index])
@@ -91,5 +95,15 @@ final class GrammarReviewViewModel: ObservableObject {
             session = try await services.progress.submitReview(sessionID: current.id, contentID: id, rating: rating, now: Date(), timeZoneID: TimeZone.current.identifier)
             try await load()
         } catch { self.error = LearningErrorMessage.message(for: error) }
+    }
+    func deferUnavailable(expectedID: ContentID) async {
+        guard !busy, unavailableID == expectedID, let current = session, current.currentID == expectedID else { return }
+        busy = true; error = nil
+        defer { busy = false }
+        do {
+            session = try await services.progress.deferUnavailableReview(sessionID:current.id, contentID:expectedID,
+                contentVersion:services.metadata.contentVersion, now:Date())
+            try await load()
+        } catch { self.error = LearningErrorMessage.message(for:error) }
     }
 }

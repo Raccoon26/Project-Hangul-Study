@@ -66,11 +66,11 @@ extension SQLiteProgressRepository {
         }
     }
     func grammarReviewSummary(now: Date) async throws -> ReviewSummary {
-        let row = try db.query("SELECT COUNT(*) AS n FROM srs_state WHERE skill='grammar' AND algorithm=? AND algorithm_version=? AND due_at<=?",
+        let row = try db.query("SELECT COUNT(*) AS n FROM srs_state WHERE skill='grammar' AND algorithm=? AND algorithm_version=? AND due_at<=? AND NOT EXISTS(SELECT 1 FROM user_metadata unavailable WHERE unavailable.key='review.unavailable.v1.grammar.'||srs_state.content_id AND unavailable.value=COALESCE((SELECT value FROM user_metadata WHERE key='review.content-version.v1'),'0'))",
             [.text(StepReviewScheduler.algorithm), .integer(Int64(StepReviewScheduler.version)), .real(now.timeIntervalSince1970)]).first
         let active = try !db.query("SELECT 1 FROM review_sessions WHERE skill='grammar' AND status='active' LIMIT 1").isEmpty
         let start = try StepReviewScheduler.calendar(timeZoneID: TimeZone.current.identifier).startOfDay(for: now)
-        let overdue = try db.query("SELECT COUNT(*) AS n FROM srs_state WHERE skill='grammar' AND algorithm=? AND algorithm_version=? AND due_at<?", [.text(StepReviewScheduler.algorithm), .integer(Int64(StepReviewScheduler.version)), .real(start.timeIntervalSince1970)]).first?.integer("n") ?? 0
+        let overdue = try db.query("SELECT COUNT(*) AS n FROM srs_state WHERE skill='grammar' AND algorithm=? AND algorithm_version=? AND due_at<? AND NOT EXISTS(SELECT 1 FROM user_metadata unavailable WHERE unavailable.key='review.unavailable.v1.grammar.'||srs_state.content_id AND unavailable.value=COALESCE((SELECT value FROM user_metadata WHERE key='review.content-version.v1'),'0'))", [.text(StepReviewScheduler.algorithm), .integer(Int64(StepReviewScheduler.version)), .real(start.timeIntervalSince1970)]).first?.integer("n") ?? 0
         let done = try db.query("SELECT COUNT(*) AS n FROM review_items r JOIN review_sessions s ON s.id=r.session_id WHERE s.skill='grammar' AND r.reviewed_at>=? AND r.reviewed_at<=?", [.real(start.timeIntervalSince1970), .real(now.timeIntervalSince1970)]).first?.integer("n") ?? 0
         return ReviewSummary(due: try row?.integer("n") ?? 0, overdue: overdue, completedToday: done, hasActiveSession: active)
     }
@@ -80,7 +80,7 @@ extension SQLiteProgressRepository {
                 guard let id = UUID(uuidString: try row.text("id")) else { throw ReviewError.invalidState }
                 return try readReviewSession(id)
             }
-            let ids = try db.query("SELECT content_id FROM srs_state WHERE skill='grammar' AND algorithm=? AND algorithm_version=? AND due_at<=? ORDER BY due_at,content_id LIMIT 20",
+            let ids = try db.query("SELECT content_id FROM srs_state WHERE skill='grammar' AND algorithm=? AND algorithm_version=? AND due_at<=? AND NOT EXISTS(SELECT 1 FROM user_metadata unavailable WHERE unavailable.key='review.unavailable.v1.grammar.'||srs_state.content_id AND unavailable.value=COALESCE((SELECT value FROM user_metadata WHERE key='review.content-version.v1'),'0')) ORDER BY due_at,content_id LIMIT 20",
                 [.text(StepReviewScheduler.algorithm), .integer(Int64(StepReviewScheduler.version)), .real(now.timeIntervalSince1970)])
             guard !ids.isEmpty else { throw ReviewError.nothingDue }
             let id = UUID(), stamp = now.timeIntervalSince1970

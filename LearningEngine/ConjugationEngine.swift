@@ -108,6 +108,14 @@ enum ConjugationEngine {
 
 enum InputJudgement: String, Codable, Sendable { case correct, spacing, incorrect }
 enum ProductionAnswer {
+    static func judgeDictation(_ value: String, accepted: [String]) -> InputJudgement {
+        func sentence(_ text: String) -> String {
+            var text = normalize(text)
+            while let last = text.last, ".!?".contains(last) { text.removeLast() }
+            return text
+        }
+        return judge(sentence(value), accepted:accepted.map(sentence), spacingWarning:true)
+    }
     static func normalize(_ value: String) -> String {
         value.precomposedStringWithCanonicalMapping.split(whereSeparator: { $0.isWhitespace }).joined(separator:" ")
     }

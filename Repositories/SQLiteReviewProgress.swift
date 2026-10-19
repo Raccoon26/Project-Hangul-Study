@@ -1,6 +1,34 @@
 import Foundation
 
 extension SQLiteProgressRepository {
+    func configureReviewContentVersion(_ version: Int) async throws {
+        guard version > 0 else { throw ReviewError.invalidState }
+        try db.execute("INSERT INTO user_metadata(key,value) VALUES('review.content-version.v1',?) ON CONFLICT(key) DO UPDATE SET value=excluded.value WHERE value!=excluded.value", [.text(String(version))])
+    }
+    private func deferredReviewIDs(_ id: UUID) throws -> [String] {
+        guard let value = try db.query("SELECT value FROM user_metadata WHERE key=?", [.text("review.deferred.v1." + id.uuidString)]).first?.text("value") else { return [] }
+        let ids = try JSONDecoder().decode([String].self, from:Data(value.utf8))
+        guard ids.count <= 30, Set(ids).count == ids.count else { throw ReviewError.invalidState }
+        return ids
+    }
+    /// Explicit recovery for unavailable content, never a recall rating or SRS mutation.
+    func deferUnavailableReview(sessionID: UUID, contentID: ContentID, contentVersion: Int, now: Date) async throws -> ReviewSession {
+        try db.transaction {
+            guard contentVersion > 0, now.timeIntervalSince1970.isFinite else { throw ReviewError.invalidState }
+            let session = try readReviewSession(sessionID)
+            var ids = try deferredReviewIDs(sessionID)
+            if ids.contains(contentID.rawValue) { return session }
+            guard session.currentID == contentID, !session.completed else { throw ReviewError.staleCard }
+            ids.append(contentID.rawValue)
+            let json = String(decoding:try JSONEncoder().encode(ids),as:UTF8.self)
+            try db.execute("INSERT INTO user_metadata(key,value) VALUES(?,?) ON CONFLICT(key) DO UPDATE SET value=excluded.value", [.text("review.deferred.v1." + sessionID.uuidString), .text(json)])
+            // Exclude only from new queues for this release. A content update retries it.
+            try db.execute("INSERT INTO user_metadata(key,value) VALUES(?,?) ON CONFLICT(key) DO UPDATE SET value=excluded.value", [.text("review.unavailable.v1." + session.skill + "." + contentID.rawValue), .text(String(contentVersion))])
+            let completed = session.completedCount + ids.count == session.ids.count
+            try db.execute("UPDATE review_sessions SET status=?,updated_at=?,completed_at=? WHERE id=?", [.text(completed ? "completed" : "active"), .real(now.timeIntervalSince1970), completed ? .real(now.timeIntervalSince1970) : .null, .text(sessionID.uuidString)])
+            return try readReviewSession(sessionID)
+        }
+    }
     /// Called inside the pass-completion transaction. Repeated learning never resets an existing schedule.
     func enrollVocabularyReview(_ session: VocabularySession, timeZoneID: String) throws {
         guard let completedAt = session.completedAt else { throw ReviewError.invalidState }
@@ -47,9 +75,9 @@ extension SQLiteProgressRepository {
         let calendar = try StepReviewScheduler.calendar(timeZoneID: timeZoneID)
         let start = calendar.startOfDay(for: now)
         guard let end = calendar.date(byAdding: .day, value: 1, to: start) else { throw ReviewError.invalidState }
-        let due = try db.query("SELECT COUNT(*) AS n FROM srs_state WHERE skill='vocabulary' AND algorithm=? AND algorithm_version=? AND due_at<=?",
+        let due = try db.query("SELECT COUNT(*) AS n FROM srs_state WHERE skill='vocabulary' AND algorithm=? AND algorithm_version=? AND due_at<=? AND NOT EXISTS(SELECT 1 FROM user_metadata unavailable WHERE unavailable.key='review.unavailable.v1.vocabulary.'||srs_state.content_id AND unavailable.value=COALESCE((SELECT value FROM user_metadata WHERE key='review.content-version.v1'),'0'))",
             [.text(StepReviewScheduler.algorithm), .integer(Int64(StepReviewScheduler.version)), .real(now.timeIntervalSince1970)]).first?.integer("n") ?? 0
-        let overdue = try db.query("SELECT COUNT(*) AS n FROM srs_state WHERE skill='vocabulary' AND algorithm=? AND algorithm_version=? AND due_at<?",
+        let overdue = try db.query("SELECT COUNT(*) AS n FROM srs_state WHERE skill='vocabulary' AND algorithm=? AND algorithm_version=? AND due_at<? AND NOT EXISTS(SELECT 1 FROM user_metadata unavailable WHERE unavailable.key='review.unavailable.v1.vocabulary.'||srs_state.content_id AND unavailable.value=COALESCE((SELECT value FROM user_metadata WHERE key='review.content-version.v1'),'0'))",
             [.text(StepReviewScheduler.algorithm), .integer(Int64(StepReviewScheduler.version)), .real(start.timeIntervalSince1970)]).first?.integer("n") ?? 0
         let completed = try db.query("SELECT COUNT(*) AS n FROM review_items r JOIN review_sessions s ON s.id=r.session_id WHERE s.skill='vocabulary' AND r.reviewed_at>=? AND r.reviewed_at<?", [.real(start.timeIntervalSince1970), .real(end.timeIntervalSince1970)]).first?.integer("n") ?? 0
         let active = try !db.query("SELECT 1 FROM review_sessions WHERE skill='vocabulary' AND status='active' LIMIT 1").isEmpty
@@ -61,7 +89,7 @@ extension SQLiteProgressRepository {
                 guard let id = UUID(uuidString: try active.text("id")) else { throw ReviewError.invalidState }
                 return try readReviewSession(id)
             }
-            let ids = try db.query("SELECT content_id FROM srs_state WHERE skill='vocabulary' AND algorithm=? AND algorithm_version=? AND due_at<=? ORDER BY due_at,content_id LIMIT ?",
+            let ids = try db.query("SELECT content_id FROM srs_state WHERE skill='vocabulary' AND algorithm=? AND algorithm_version=? AND due_at<=? AND NOT EXISTS(SELECT 1 FROM user_metadata unavailable WHERE unavailable.key='review.unavailable.v1.vocabulary.'||srs_state.content_id AND unavailable.value=COALESCE((SELECT value FROM user_metadata WHERE key='review.content-version.v1'),'0')) ORDER BY due_at,content_id LIMIT ?",
                 [.text(StepReviewScheduler.algorithm), .integer(Int64(StepReviewScheduler.version)), .real(now.timeIntervalSince1970), .integer(Int64(min(max(limit, 1), 30)))]).map { try $0.text("content_id") }
             guard !ids.isEmpty else { throw ReviewError.nothingDue }
             let id = UUID(), stamp = now.timeIntervalSince1970
@@ -77,7 +105,13 @@ extension SQLiteProgressRepository {
         guard let row = try db.query("SELECT * FROM review_sessions WHERE id=?", [.text(id.uuidString)]).first else { throw ReviewError.invalidState }
         let items = try db.query("SELECT * FROM review_items WHERE session_id=? ORDER BY ordinal LIMIT 31", [.text(id.uuidString)])
         guard !items.isEmpty, items.count <= 30 else { throw ReviewError.invalidState }
-        let current = items.first { $0["result"]?.string == nil }
+        let deferred = Set(try deferredReviewIDs(id))
+        let pending = try Set(items.filter { $0["result"]?.string == nil }.map { try $0.text("content_id") })
+        guard deferred.isSubset(of:pending) else { throw ReviewError.invalidState }
+        let current = items.first { row in
+            guard let itemID = row["content_id"]?.string else { return false }
+            return row["result"]?.string == nil && !deferred.contains(itemID)
+        }
         let completed = try row.text("status") == "completed"
         guard completed == (current == nil) else { throw ReviewError.invalidState }
         let storedSkill = try row.text("skill")
@@ -87,7 +121,7 @@ extension SQLiteProgressRepository {
             completedCount: items.filter { $0["result"]?.string != nil }.count,
             currentID: try current.map { ContentID(rawValue: try $0.text("content_id")) },
             exposed: current?["exposed_at"] != .null && current != nil,
-            revealed: current?["revealed_at"] != .null && current != nil, completed: completed)
+            revealed: current?["revealed_at"] != .null && current != nil, completed: completed, deferredCount: deferred.count)
     }
     func exposeReview(sessionID: UUID, contentID: ContentID, contentRevision: Int, contentVersion: Int, now: Date, timeZoneID: String) async throws -> ReviewSession {
         try db.transaction {
@@ -139,7 +173,8 @@ extension SQLiteProgressRepository {
             try db.execute("UPDATE review_items SET result=?,reviewed_at=?,next_due_at=?,previous_stage=?,next_stage=?,time_zone=?,local_day=? WHERE session_id=? AND content_id=?",
                 [.text(rating.rawValue), .real(now.timeIntervalSince1970), .real(next.nextReviewAt.timeIntervalSince1970),
                  .integer(Int64(previous.stage)), .integer(Int64(next.stage)), .text(timeZoneID), .text(day), .text(sessionID.uuidString), .text(contentID.rawValue)])
-            let remaining = try db.query("SELECT COUNT(*) AS n FROM review_items WHERE session_id=? AND result IS NULL", [.text(sessionID.uuidString)]).first?.integer("n") ?? 0
+            let ungraded = try db.query("SELECT COUNT(*) AS n FROM review_items WHERE session_id=? AND result IS NULL", [.text(sessionID.uuidString)]).first?.integer("n") ?? 0
+            let remaining = ungraded - session.deferredCount
             try db.execute("UPDATE review_sessions SET status=?,updated_at=?,completed_at=? WHERE id=?",
                 [.text(remaining == 0 ? "completed" : "active"), .real(now.timeIntervalSince1970), remaining == 0 ? .real(now.timeIntervalSince1970) : .null, .text(sessionID.uuidString)])
             return try readReviewSession(sessionID)

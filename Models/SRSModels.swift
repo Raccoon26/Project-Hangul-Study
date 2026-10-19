@@ -48,6 +48,8 @@ struct ReviewSession: Identifiable, Sendable {
     let exposed: Bool
     let revealed: Bool
     let completed: Bool
+    var deferredCount: Int = 0
+    var processedCount: Int { completedCount + deferredCount }
 }
 struct ReviewSummary: Sendable {
     let due: Int

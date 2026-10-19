@@ -65,7 +65,9 @@ actor SQLiteProgressRepository: ProgressRepository {
         SELECT COALESCE(SUM(study_count),0) AS studied,COALESCE(SUM(correct_count),0) AS correct,
         COALESCE(SUM(incorrect_count),0) AS incorrect,
         (SELECT COUNT(*) FROM favorites) AS favorites,
-        (SELECT COUNT(DISTINCT content_id) FROM srs_state WHERE due_at<=?) AS due FROM item_progress
+        (SELECT COUNT(DISTINCT content_id) FROM srs_state WHERE due_at<=?
+         AND NOT EXISTS(SELECT 1 FROM user_metadata unavailable WHERE unavailable.key='review.unavailable.v1.'||srs_state.skill||'.'||srs_state.content_id
+         AND unavailable.value=COALESCE((SELECT value FROM user_metadata WHERE key='review.content-version.v1'),'0'))) AS due FROM item_progress
         """, [.real(now.timeIntervalSince1970)]).first else { return .empty }
         return LearningSummary(studyCount: try row.integer("studied"), correctCount: try row.integer("correct"),
                                incorrectCount: try row.integer("incorrect"), favoriteCount: try row.integer("favorites"), dueCount: try row.integer("due"))

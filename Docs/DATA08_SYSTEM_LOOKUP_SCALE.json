@@ -1,0 +1,69 @@
+{
+  "environment": "Linux Python sqlite3; SQL only, not iPhone latency",
+  "query": "same ranked literal substring query used by SQLiteLookup; 30 result limit",
+  "production": {
+    "학교": {
+      "median_ms": 0.617,
+      "max_ms": 1.691,
+      "returned": 1
+    },
+    "学校": {
+      "median_ms": 0.63,
+      "max_ms": 0.907,
+      "returned": 2
+    },
+    "고 싶다": {
+      "median_ms": 0.643,
+      "max_ms": 1.237,
+      "returned": 1
+    },
+    "したい": {
+      "median_ms": 0.581,
+      "max_ms": 1.304,
+      "returned": 1
+    },
+    "る": {
+      "median_ms": 3.633,
+      "max_ms": 5.706,
+      "returned": 30
+    },
+    "nomatch123": {
+      "median_ms": 0.579,
+      "max_ms": 0.718,
+      "returned": 0
+    }
+  },
+  "synthetic_counts": {
+    "vocabulary": 15000,
+    "examples": 30000,
+    "grammar": 500
+  },
+  "synthetic_build_seconds": 17.834,
+  "synthetic": {
+    "__synthetic__단어014999": {
+      "median_ms": 4.952,
+      "max_ms": 5.374,
+      "returned": 1
+    },
+    "__synthetic__意味014999": {
+      "median_ms": 5.83,
+      "max_ms": 7.585,
+      "returned": 1
+    },
+    "意味": {
+      "median_ms": 78.959,
+      "max_ms": 106.634,
+      "returned": 30
+    },
+    "文法": {
+      "median_ms": 8.396,
+      "max_ms": 10.334,
+      "returned": 30
+    },
+    "nomatch123": {
+      "median_ms": 5.638,
+      "max_ms": 6.711,
+      "returned": 0
+    }
+  }
+}

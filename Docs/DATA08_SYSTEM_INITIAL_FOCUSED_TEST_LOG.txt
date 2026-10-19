@@ -1,0 +1,54 @@
+test_all_deferred_completes_without_counting_learning_or_deleting_any_row (test_data08_system_audit.Data08SystemAuditTests.test_all_deferred_completes_without_counting_learning_or_deleting_any_row) ... ok
+test_defer_keeps_srs_events_membership_and_cold_cursor_for_both_skills_and_practice (test_data08_system_audit.Data08SystemAuditTests.test_defer_keeps_srs_events_membership_and_cold_cursor_for_both_skills_and_practice) ...
+  test_defer_keeps_srs_events_membership_and_cold_cursor_for_both_skills_and_practice (test_data08_system_audit.Data08SystemAuditTests.test_defer_keeps_srs_events_membership_and_cold_cursor_for_both_skills_and_practice) (skill='vocabulary') ... ERROR
+  test_defer_keeps_srs_events_membership_and_cold_cursor_for_both_skills_and_practice (test_data08_system_audit.Data08SystemAuditTests.test_defer_keeps_srs_events_membership_and_cold_cursor_for_both_skills_and_practice) (skill='grammar') ... ERROR
+  test_defer_keeps_srs_events_membership_and_cold_cursor_for_both_skills_and_practice (test_data08_system_audit.Data08SystemAuditTests.test_defer_keeps_srs_events_membership_and_cold_cursor_for_both_skills_and_practice) (skill='vocabulary_practice') ... ERROR
+  test_defer_keeps_srs_events_membership_and_cold_cursor_for_both_skills_and_practice (test_data08_system_audit.Data08SystemAuditTests.test_defer_keeps_srs_events_membership_and_cold_cursor_for_both_skills_and_practice) (skill='grammar_practice') ... ERROR
+test_defer_rolls_back_metadata_if_session_save_fails (test_data08_system_audit.Data08SystemAuditTests.test_defer_rolls_back_metadata_if_session_save_fails) ... ok
+test_entitlement_and_frequency_sample_bytes_are_untouched_by_content_and_defer (test_data08_system_audit.Data08SystemAuditTests.test_entitlement_and_frequency_sample_bytes_are_untouched_by_content_and_defer) ... ok
+test_legacy_active_review_retirement_reproducer_is_real (test_data08_system_audit.Data08SystemAuditTests.test_legacy_active_review_retirement_reproducer_is_real) ... ok
+test_monetization_storage_is_independent_of_content_and_user_metadata (test_data08_system_audit.Data08SystemAuditTests.test_monetization_storage_is_independent_of_content_and_user_metadata) ... ok
+test_production_dictation_period_omission_bug_and_narrow_new_policy (test_data08_system_audit.Data08SystemAuditTests.test_production_dictation_period_omission_bug_and_narrow_new_policy) ... ok
+test_recovery_guard_and_no_srs_mutation_in_repository_or_error_ui (test_data08_system_audit.Data08SystemAuditTests.test_recovery_guard_and_no_srs_mutation_in_repository_or_error_ui) ... ok
+test_release_scoped_quarantine_cannot_starve_later_due_and_retries_next_version (test_data08_system_audit.Data08SystemAuditTests.test_release_scoped_quarantine_cannot_starve_later_due_and_retries_next_version) ... ok
+
+======================================================================
+ERROR: test_defer_keeps_srs_events_membership_and_cold_cursor_for_both_skills_and_practice (test_data08_system_audit.Data08SystemAuditTests.test_defer_keeps_srs_events_membership_and_cold_cursor_for_both_skills_and_practice) (skill='vocabulary')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/Project-Hangul-Study/Tools/ContentBuilder/test_data08_system_audit.py", line 63, in test_defer_keeps_srs_events_membership_and_cold_cursor_for_both_skills_and_practice
+    d.execute("UPDATE review_items SET result='remembered',reviewed_at=100 WHERE content_id='keep'")
+sqlite3.IntegrityError: CHECK constraint failed: (result IS NULL AND reviewed_at IS NULL AND next_due_at IS NULL) OR
+       (result IS NOT NULL AND reviewed_at IS NOT NULL AND next_due_at IS NOT NULL AND revealed_at IS NOT NULL AND previous_stage IS NOT NULL AND next_stage IS NOT NULL AND time_zone IS NOT NULL AND local_day IS NOT NULL)
+
+======================================================================
+ERROR: test_defer_keeps_srs_events_membership_and_cold_cursor_for_both_skills_and_practice (test_data08_system_audit.Data08SystemAuditTests.test_defer_keeps_srs_events_membership_and_cold_cursor_for_both_skills_and_practice) (skill='grammar')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/Project-Hangul-Study/Tools/ContentBuilder/test_data08_system_audit.py", line 63, in test_defer_keeps_srs_events_membership_and_cold_cursor_for_both_skills_and_practice
+    d.execute("UPDATE review_items SET result='remembered',reviewed_at=100 WHERE content_id='keep'")
+sqlite3.IntegrityError: CHECK constraint failed: (result IS NULL AND reviewed_at IS NULL AND next_due_at IS NULL) OR
+       (result IS NOT NULL AND reviewed_at IS NOT NULL AND next_due_at IS NOT NULL AND revealed_at IS NOT NULL AND previous_stage IS NOT NULL AND next_stage IS NOT NULL AND time_zone IS NOT NULL AND local_day IS NOT NULL)
+
+======================================================================
+ERROR: test_defer_keeps_srs_events_membership_and_cold_cursor_for_both_skills_and_practice (test_data08_system_audit.Data08SystemAuditTests.test_defer_keeps_srs_events_membership_and_cold_cursor_for_both_skills_and_practice) (skill='vocabulary_practice')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/Project-Hangul-Study/Tools/ContentBuilder/test_data08_system_audit.py", line 63, in test_defer_keeps_srs_events_membership_and_cold_cursor_for_both_skills_and_practice
+    d.execute("UPDATE review_items SET result='remembered',reviewed_at=100 WHERE content_id='keep'")
+sqlite3.IntegrityError: CHECK constraint failed: (result IS NULL AND reviewed_at IS NULL AND next_due_at IS NULL) OR
+       (result IS NOT NULL AND reviewed_at IS NOT NULL AND next_due_at IS NOT NULL AND revealed_at IS NOT NULL AND previous_stage IS NOT NULL AND next_stage IS NOT NULL AND time_zone IS NOT NULL AND local_day IS NOT NULL)
+
+======================================================================
+ERROR: test_defer_keeps_srs_events_membership_and_cold_cursor_for_both_skills_and_practice (test_data08_system_audit.Data08SystemAuditTests.test_defer_keeps_srs_events_membership_and_cold_cursor_for_both_skills_and_practice) (skill='grammar_practice')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/Project-Hangul-Study/Tools/ContentBuilder/test_data08_system_audit.py", line 63, in test_defer_keeps_srs_events_membership_and_cold_cursor_for_both_skills_and_practice
+    d.execute("UPDATE review_items SET result='remembered',reviewed_at=100 WHERE content_id='keep'")
+sqlite3.IntegrityError: CHECK constraint failed: (result IS NULL AND reviewed_at IS NULL AND next_due_at IS NULL) OR
+       (result IS NOT NULL AND reviewed_at IS NOT NULL AND next_due_at IS NOT NULL AND revealed_at IS NOT NULL AND previous_stage IS NOT NULL AND next_stage IS NOT NULL AND time_zone IS NOT NULL AND local_day IS NOT NULL)
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.074s
+
+FAILED (errors=4)

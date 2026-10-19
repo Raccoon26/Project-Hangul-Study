@@ -1,5 +1,7 @@
 # DATA-08 진행 기록
 
+> **DATA-08-7 감사: Content19 / Schema4 / reader7 / UserProgress10 유지, Source/DB 변경0.** P1 세 건(비활성 복습 복구·받아쓰기 문장부호·듣기 due 퇴역 prefix) 코드 수정. 전체 Python/SQL **301 PASS**, native137개/실행0·iOS Build **BLOCKED**. 원래 DEV01~14/DATA01~07 작업 명세 원문은 찾지 못해 전체 원문 준수는 확인 불가. 기존 목표911어휘/1,821예문 유지, B—Conditional. [감사·부분 구현·상태표](Docs/DATA08_SYSTEM_REVIEW.md), [DATA08_PROGRESS.md](DATA08_PROGRESS.md) §15. 아래는 단계별 이력이다.
+
 > **현재 DATA-08-6 Production 통합: Content19 / Schema4 / Reader7 / UserProgress10.** 실제 Course1·Unit3·Lesson47/911어휘 배치,1,821 듣기·받아쓰기와1,162 활용/문장입력 연결. 전체 목표911/1,821 유지, portable291PASS. native132개·실기기/사람 검수 미실행. 현재 상세는 §14, 아래 §1~13은 당시 이력이다.
 
 > **현재: DATA-08-5 최종 감사 완료 — A~C911어휘·963뜻·고유 예문1,821개·Note314개를 assistant가 재독, 별도 무작위 표본84개 재감사. 34어휘/43필드 교정, Content18 / Schema4 / Reader7 / UserProgress10. portable280PASS. 사람 검수 미실행.** 전체 목표911어휘(일반807/표현104)/신규예문1,821 달성 유지. 선행 문법 후보163문장·native 검증 등 남은 사항은 §13, §1~12는 당시 이력이다.
@@ -197,6 +199,8 @@ sh Tools/verify.sh --portable
 | DATA-08-4 / Batch C | **310 / 619** (기존 예문1 재사용 별도) | **911 / 1,821** | 세 묶음 한일 재독·UUID/중복/관계/strict0errors·기존10warnings, portable269PASS | 중복1 재사용·관계초안4 제외·품사/번역 교정; 기존 P1 유지 | main=`e7ed775`, clean 시작, branch=`data08-4/batch-c`; 직전 Content16 보존, Content17 배포 |
 | DATA-08-5 / 최종 감사 | **0 / 0** (34어휘/43필드 교정) | **911 / 1,821** | 전체911/963/1,821/314 재독·표본84·strict0errors/기존10warnings·portable280PASS | 수혜자 역전·뜻별 결합·관용/번역/편집노출 교정; 선행Grammar 후보163·사람/native 미검수 | 시작 main=`093b215`, clean, branch=`data08-5/final-audit`; 직전17 원본보존,18 배포 |
 | DATA-08-6 / Production 통합 | **0 / 0** (검수 예문 재사용) | **911 / 1,821** | 63,159행·strict0errors/기존10warnings·portable291PASS, 전용11PASS·기록보존/성능 SQL | 어휘 레슨/初中級 듣기 접근·진단 난도·입력 안내 수정; native/사람/선행문법 gate 유지 | main=`556042b`, clean 시작; branch=`data08-6/production-integration`; 직전18 DB/source 보존,19 통합 |
+
+| DATA-08-7 / 요구·통합 감사 | **0 / 0** | **911 / 1,821** | 전3,337문제 경로/2,287카드·2,420뜻·검색/PK/FK/source 점검; portable301PASS/전용10PASS | P1 3건 수정; 원래 명세 원문 확인 불가; native137/0·Build BLOCKED, 사람 NOT TESTED | main=`4244176`, clean 시작; branch=`data08-7/requirements-audit`; Content19/Source·DB byte 유지 |
 
 
 DATA-08-1 당시 전체 목표 대비 남은 신규량(이력): **어휘800~1,200 / 문장1,300~2,000**. 목표 범위 달성 시 누적 Vocabulary는2,176~2,576, 문장 Example은4,063~4,763(발음 예시 유지 시 전체 Example4,076~4,776). 후속 배치에서 실제 증가로 재계산하며 이번 단계 달성량으로 표시하지 않는다.
@@ -617,3 +621,44 @@ sh Tools/verify.sh --portable
 **B—Conditional 유지**. 사람·독립 원어민/교사 검수 미실행, DATA08-5의163개 선행 문형 후보/Level·Register 적합성 의심은 해결했다고 표시하지 않는다. 初中級 독립 Grammar0/상위 Level 공백, 기존 retirement active-review P1도 유지한다. 듣기·문제 공백은 이번 실제 배치 수량으로 갱신했다. native Debug/Release/SDK·iPhone3~10분/한 손·즉시 중단 재개·오프라인/TTS/VoiceOver·광고/StoreKit/알림 gate는 Mac/iPhone에서 별도 실행해야 한다. 이번 결과는 DB/Source 통합과 실행된 portable 범위의 검증이며 출시 승인이 아니다.
 
 사용자의 기존 명시적 커밋·푸시·PR·머지 위임에 따라 검증된 변경을 전달한다. 최종 commit/PR/merge SHA와 clean main 일치는 Git/PR이 기준이다. DATA-08-6에서 종료하며 후속 단계는 시작하지 않는다.
+
+
+## 15. DATA-08-7 — 요구사항·통합 감사
+
+**DATA-08-7 감사: Content19 / Schema4 / reader7 / UserProgress10 유지, Source/DB 변경0.** P1 세 건(비활성 복습 복구·받아쓰기 문장부호·듣기 due 퇴역 prefix) 코드 수정. 전체 Python/SQL **301 PASS**, native137개/실행0·iOS Build **BLOCKED**. 원래 DEV01~14/DATA01~07 작업 명세 원문은 찾지 못해 전체 원문 준수는 확인 불가. 기존 목표911어휘/1,821예문 유지, B—Conditional. [감사·부분 구현·상태표](Docs/DATA08_SYSTEM_REVIEW.md), [DATA08_PROGRESS.md](DATA08_PROGRESS.md) §15. 아래는 단계별 이력이다.
+
+시작 main/origin=`42441768ea3ce39490350ed217021cfad58eae71`, tracked/untracked 변경0. 이번 Source/DB·ID·본문·정렬·revision·Content Version 변경0. 수량은 Vocabulary2,287 / Meaning2,420 / Examples4,597(문장4,584) / Grammar42 / Listening1,936 / Question3,337이다. 새 콘텐츠 추가/삭제/비활성0으로 DATA08 전체 목표911/1,821을 유지했다.
+
+### 명세 확인 범위
+
+원래 DEV01~14/DATA01~07 사용자 작업 명세 원문을 저장소/전체 Git SPEC 경로에서 찾지 못했다. 보존된21개 단계 보고서·현재 AGENTS/CONTENT_GUIDE/상태·이번 대화의 DATA08 요청을 근거로 감사했으며 **원래 명세 전체 준수는 확인 불가**다. 각 단계별 근거·현재 코드·부분 구현·테스트 부족은 [SYSTEM_REVIEW](Docs/DATA08_SYSTEM_REVIEW.md)의 DEV14행/DATA8행 표, 파일/해시는 [SYSTEM_AUDIT](Docs/DATA08_SYSTEM_AUDIT.json)에 기록했다. 사후 보고서를 원문 명세로 대체하지 않았다.
+
+### 발견·수정한 P1과 데이터 보존
+
+1. **복습 중 비활성 카드 정지**: 재조회만으로 같은 ID에 갇히는 Vocabulary/Grammar/Saved Practice에 명시적 보류 버튼을 연결했다. immutable IDs/순서·기존 답·SRS due/state·Favorites/통계를 남기고, 완료 수와 보류 수를 따로 표시한다. versioned user_metadata에 이번 Content Version에서만 queue 제외를 기록하고 새 버전에 원래 due로 재확인한다.4종 복습·전체20개 보류·중복/늦은 action·rollback·cold reopen·후속 queue 보존 SQL PASS. 자동 alias 병합/고정 회독 ID 대체를 도입하지 않았다.
+2. **받아쓰기 마침표 생략 오답**: 실제 dictation1,850개 중 DATA081,821개가 ‘句点は不要’ 안내와 달리 punctuation-free accepted가 없었다. dictation에서만 끝 .!?를 선택 사항으로 처리하고 내부 부호·철자·띄어쓰기 피드백과 일반 ProductionAnswer 규칙을 유지했다. Source 정답 배열·Example ID 변경0. native 전1,850문항 judge 회귀는 작성/실행 BLOCKED다.
+3. **듣기 due 앞20개 퇴역이 뒤의 활성 항목을 가림**: 새 snapshot을 만들기 전에20개씩 가용성을 읽고 확정 누락만 release별 보류 후 빈 page를 넘어간다. 임시 실제 번들의45 due/첫25퇴역에서2페이지째15활성으로 도달, 다음5개와 원 SRS45개·기존 snapshot을 남겼다. cancellation/yield 유지. native 가용성/snapshot 회귀는 BLOCKED다.
+
+UserProgress10/schema4를 유지하며 보류 기록은 `review.deferred.v1.<session>` / `review.unavailable.v1.<skill>.<id>` / `review.content-version.v1` metadata로만 추가한다. SRS/이벤트/판정/즐겨찾기 행의 삭제·초기화·재등록은 없다. 새 알고리즘·독립 학습 엔진·진도 DB를 만들지 않았다. 실행한 범위에서 새 P0는 재현하지 않았으나 native crash 부재를 인증한 것은 아니다.
+
+### 통합·회귀·Build 상태
+
+- **PASS**: 전2,287카드/2,420뜻의 예문·typed 상세2,329, generic3코스73레슨+Grammar12레슨,612 production lemma/1,227문항,1,936 listening/104batch. 전3,337문항 경로 포함/미연결0, 전Example4,597개 도달 불가0 및 published conjugation guard1,227건 오류0. 한국어2,287표제어·일본어72meaning 표본 검색, DATA08 전911 editorial payload SHA/581문장-첫뜻 관계 일치. 자동 검사는 언어 품질 보증이 아니다.
+- **PASS**: `sh Tools/verify.sh --portable` **301/301**, 296.353초, failures/errors/skipped0, exit0. 기존291+신규10. 전용10/10 PASS(0.085초)는 전체 suite와 중복이다. 전체300개 중간 PASS 로그도 별도 보존했다.
+- **FAIL → 수정**: 첫 전용 검사9 case 중4개 skill subtest가 테스트 seed의 필수 CHECK 필드 누락으로 ERROR. constraint를 유지하고 실제 repository UPDATE SQL로 수정했다. 초기/최종 로그와 오류를 숨기지 않았다.
+- **BLOCKED**: `xcodebuild -version` exit127(command not found); Swift compiler/iOS SDK 없음. iOS Debug/Release/type-check/SDK resolve/Simulator/XCTest137개(이번5개 추가)/실기기 실행0. 실제 Dead Button/Crash/IME·Audio 중단·VoiceOver·강제 종료·iPhone 메모리/3~10분 검증도 BLOCKED다.
+- **NOT TESTED**: 독립 사람 언어·학습 난도 검수. 기존163문형 후보·Level/Register 판단을 해결했다고 표시하지 않는다.
+
+### 성능·메모리·광고 제거
+
+현재 repository SQL/Linux warm30회 median/p95(ms): Home6.031/13.154, 한국어검색1.104/2.259, 일본어1.030/3.364, 넓은검색4.502/8.050, SRS20+header0.846/1.213,20개 membership/session commit1.310/2.295. 이전 기록과 환경/캐시 편차를 포함하며 iPhone 실행 시간으로 표시하지 않는다.
+
+Synthetic15k어휘/30k예문은 `/tmp`에서만 생성했다. build15.5272초 / DB50,712,576bytes / Python process peak RSS68.76MiB /15,000 ID 전수 keyset 0.3422초. 넓은 일본어 synthetic검색 median78.959ms/max106.634ms는 P2 관찰점. iOS heap/leak·기기 성능은 미검증이다. [PERFORMANCE](Docs/DATA08_SYSTEM_PERFORMANCE.json), [SCALE_MEMORY](Docs/DATA08_SYSTEM_SCALE_MEMORY.json), [LOOKUP_SCALE](Docs/DATA08_SYSTEM_LOOKUP_SCALE.json).
+
+PurchaseService/AdService/MonetizationPolicy/LearningPreferences는 시작 commit과 byte 동일하다. `remove_ads`·Keychain release/debug·frequency/preferences key는 Content Version/UserProgress metadata와 독립이며,18/19/20 metadata 변경·보류 전후 가상 opaque cache byte 보존을 검사했다. 실제 Keychain/StoreKit 권한을 실행한 검사가 아니다. 실제 구매/복원/광고/동의·offline entitlement는 BLOCKED로 유지한다. 학습 저장 뒤 유일 광고 위치·micro/Resume 제외·12분/60항목/30분 cap·무료/구매 동일 콘텐츠를 보존했다.
+
+### 부분 구현·Git·종료
+
+初中級 Grammar0/상위 콘텐츠·검증 녹음 부족, mixed Unit scheduler/정밀진단/자유작문·직접입력 전용 due queue 미구현을 유지한다. 파랗다/노랗다 현재·과거, 빨갛다 과거의 Dictionary override 부족은 P2 부분 구현이다. 기존 고정 회독/레슨의 퇴역 시 보존·안전 정지/대량퇴역 정책 제한도 남긴다. P1 수정은 코드/SQL PASS이고 native 실행을 기다리며 **B—Conditional**을 유지한다.
+
+상세 재현·버그·상태표는 [SYSTEM_REVIEW](Docs/DATA08_SYSTEM_REVIEW.md), [RESULTS](Docs/DATA08_SYSTEM_RESULTS.json), [REPRO](Docs/DATA08_SYSTEM_REPRO.json), 원시 로그는 `Docs/DATA08_SYSTEM_*TEST_LOG.txt`에 있다. 기존 명시적 커밋·푸시·PR·머지 위임으로 검증된 branch를 전달하며 최종 SHA/PR/clean main은 Git/PR과 최종 응답이 기준이다. **DATA-08-7에서 종료하고 다음 단계/앱 배포는 시작하지 않는다.**

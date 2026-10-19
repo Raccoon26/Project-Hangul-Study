@@ -23,6 +23,8 @@
 - 콘텐츠 갱신 시 실제 직전 배포 DB를 보존하고 `--previous` strict gate를 통과시킨다. DATA-08 첫 콘텐츠 갱신은 현재 Content14를 보존한 후 Content15 이상을 사용한다. 이번 조사 단계에서 v14 fixture를 만들거나 DB를 다시 배포할 필요는 없다.
 - 임시 candidate에 build → Validator → `PRAGMA integrity_check` / `foreign_key_check` → 원본/DB 대조 및 기존 ID 보존 확인 → 통합 검증 → 검수 완료 DB만 배포한다. 입력/직전 배포 DB를 출력으로 덮어쓰지 않는다.
 - UserProgress를 콘텐츠 업데이트에 맞춰 재작성·삭제하지 않는다. SRS due, 즐겨찾기, 기존 세트 membership, 진행 중 회독·문법·직접입력·듣기 snapshot, 설정·Curriculum·학습 이력을 보존한다.
+- DATA08-7의 복습 가용성 보류는 원래 review_items/SRS/판정을 남기는 versioned metadata다. 현재 카드의 명시적 보류와 새 듣기 due page의 확정 누락만 허용하고, Content Version 변경 시 원래 due로 재확인한다. completedCount/deferredCount를 구분하며 보류를 학습 완료로 세지 않는다. 기존 고정 회독/레슨 ID를 이 정책으로 자동 대체하지 않는다.
+- 받아쓰기 끝 .!? 생략과 내부 철자·문장부호·띄어쓰기 차이를 구분한다. 일반 직접입력/문장 생성 판정까지 정규화를 확대하지 않는다.
 
 ## Batch 검수·중복 방지·한국어/일본어 품질
 

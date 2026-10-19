@@ -19,7 +19,7 @@ struct ListeningQuestion: Codable, Identifiable, Sendable {
     let recording: RecordingAsset?
     var audio: LearningAudio { LearningAudio(source:recordingRequired ? .verifiedRecording : .systemTTS,usage:.wordSentence,text:recordingRequired ? nil : transcript,asset:recording) }
     func judge(_ answer: String) -> InputJudgement {
-        task == .dictation ? ProductionAnswer.judge(answer,accepted:accepted,spacingWarning:true) :
+        task == .dictation ? ProductionAnswer.judgeDictation(answer,accepted:accepted) :
             (ChoiceJudgement.isCorrect(answer,choices:choices,correctID:correctID) ? .correct : .incorrect)
     }
     func validate() throws {

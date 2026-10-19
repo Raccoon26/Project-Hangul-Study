@@ -52,6 +52,7 @@ protocol ProgressRepository: Sendable {
 
     func activeListening(scope: String) async throws -> ListeningSession?
     func listeningDue(now: Date) async throws -> (Int, [ContentID])
+    func deferUnavailableListening(ids: [ContentID], contentVersion: Int) async throws
     func beginListening(scope: String, questions: [ListeningQuestion], version: Int, review: Bool) async throws -> ListeningSession
     func updateListening(_ expected: ListeningSession, action: ListeningAction, now: Date) async throws -> ListeningSession
     func activeProduction(scope: ContentID) async throws -> ProductionSession?
@@ -69,6 +70,8 @@ protocol ProgressRepository: Sendable {
     func reviewSummary(now: Date, timeZoneID: String) async throws -> ReviewSummary
     func reviewState(for id: ContentID, skill: String) async throws -> SRSState?
     func beginReview(now: Date, limit: Int) async throws -> ReviewSession
+    func configureReviewContentVersion(_ version: Int) async throws
+    func deferUnavailableReview(sessionID: UUID, contentID: ContentID, contentVersion: Int, now: Date) async throws -> ReviewSession
     func reviewSession(_ id: UUID) async throws -> ReviewSession
     func exposeReview(sessionID: UUID, contentID: ContentID, contentRevision: Int, contentVersion: Int, now: Date, timeZoneID: String) async throws -> ReviewSession
     func revealReview(sessionID: UUID, contentID: ContentID, now: Date) async throws -> ReviewSession
