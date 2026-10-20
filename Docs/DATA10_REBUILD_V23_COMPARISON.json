@@ -1,0 +1,140 @@
+{
+  "scope": "Confirm second frozen23 byte-comparison failure without changing fixture",
+  "build": {
+    "path": "/private/tmp/hangul-data10-1/v23-rebuilt.sqlite",
+    "sha256": "492ab7470401d778746e47cd91bc97b5aac540d81e50bb5ed146006dbe316c24",
+    "schema_version": 4,
+    "content_version": 23,
+    "rows": {
+      "audio_questions": 3,
+      "content_audio": 36,
+      "content_items": 15935,
+      "content_links": 6425,
+      "courses": 8,
+      "examples": 4813,
+      "grammar": 96,
+      "grammar_examples": 389,
+      "hangul": 55,
+      "item_sources": 15501,
+      "item_tags": 4507,
+      "learner_notes": 531,
+      "lesson_items": 1191,
+      "lessons": 103,
+      "listening_items": 1936,
+      "meanings": 2420,
+      "pronunciation_examples": 13,
+      "pronunciation_presentations": 36,
+      "pronunciation_rules": 36,
+      "question_choices": 1476,
+      "questions": 3553,
+      "sources": 22,
+      "tags": 97,
+      "vocabulary": 2287,
+      "vocabulary_examples": 4514
+    },
+    "seconds": 5.4043,
+    "validation": {
+      "error_count": 0,
+      "warning_count": 10,
+      "errors": [],
+      "warnings": [
+        {
+          "code": "short_sentence",
+          "location": "frozen23.json:examples[1]",
+          "message": "korean: single-character sentence needs review"
+        },
+        {
+          "code": "short_sentence",
+          "location": "frozen23.json:examples[1]",
+          "message": "japanese: single-character sentence needs review"
+        },
+        {
+          "code": "short_sentence",
+          "location": "frozen23.json:examples[2]",
+          "message": "korean: single-character sentence needs review"
+        },
+        {
+          "code": "short_sentence",
+          "location": "frozen23.json:examples[2]",
+          "message": "japanese: single-character sentence needs review"
+        },
+        {
+          "code": "short_sentence",
+          "location": "frozen23.json:examples[3]",
+          "message": "korean: single-character sentence needs review"
+        },
+        {
+          "code": "duplicate_headword_candidate",
+          "location": "저",
+          "message": "[\"9b45d39c-a966-41da-bc64-973bd8767c94\", \"ea0ec264-a477-4945-9fb2-92629e759e5f\"]"
+        },
+        {
+          "code": "duplicate_headword_candidate",
+          "location": "차",
+          "message": "[\"e80b26ff-6c6f-4004-99a7-d784495483a3\", \"58ee8623-b923-44c3-9ab3-3f12d0c24230\"]"
+        },
+        {
+          "code": "duplicate_headword_candidate",
+          "location": "일",
+          "message": "[\"1b74ab03-9ce3-454b-914b-5f14f32f1395\", \"fef18457-1e05-435b-8939-4ef1a49fa0cd\"]"
+        },
+        {
+          "code": "duplicate_headword_candidate",
+          "location": "쓰다",
+          "message": "[\"d7632872-1ba0-4930-9e6f-ead30910d5a7\", \"707d6ce7-4939-4d70-b143-6458c44d362f\"]"
+        },
+        {
+          "code": "duplicate_headword_candidate",
+          "location": "적다",
+          "message": "[\"7ed9cfb9-b5ef-441d-9607-a4d60f44eb7e\", \"f211c5be-f0e5-48c1-8e43-f3e850327e1b\"]"
+        }
+      ],
+      "details_limit": 200
+    }
+  },
+  "original_sha": "0a4051d3c5423441b50348935d64559504f1553a55fd3ea472c84b40c9ebc025",
+  "rebuilt_sha": "492ab7470401d778746e47cd91bc97b5aac540d81e50bb5ed146006dbe316c24",
+  "original31_tables_equal": {
+    "audio_questions": true,
+    "conjugations": true,
+    "content_aliases": true,
+    "content_audio": true,
+    "content_items": true,
+    "content_links": true,
+    "content_metadata": true,
+    "courses": true,
+    "examples": true,
+    "grammar": true,
+    "grammar_examples": true,
+    "hangul": true,
+    "item_sources": true,
+    "item_tags": true,
+    "learner_notes": true,
+    "lesson_items": true,
+    "lessons": true,
+    "listening_items": true,
+    "meanings": true,
+    "media_assets": true,
+    "pronunciation_examples": true,
+    "pronunciation_presentations": true,
+    "pronunciation_rules": true,
+    "question_choices": true,
+    "questions": true,
+    "sources": true,
+    "sqlite_stat1": true,
+    "tags": true,
+    "vocabulary": true,
+    "vocabulary_examples": true,
+    "vocabulary_search": true
+  },
+  "common_schema_sql_equal": true,
+  "extra_objects": [
+    [
+      "table",
+      "sqlite_stat4"
+    ]
+  ],
+  "stat4_rows": 947,
+  "integrity": "ok",
+  "fk_violations": 0
+}

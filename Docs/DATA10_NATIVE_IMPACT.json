@@ -1,0 +1,529 @@
+{
+  "scope": "Static candidate impact; only existing XCTest proves native outputs; not all Dictionary UI executed",
+  "potential_doe_lemmas": [
+    {
+      "id": "56e8e91c-661a-4447-8bea-a15d5b4a243b",
+      "headword": "시작되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "f5a44c34-4f5e-4b59-a367-5ee9cee16821",
+      "headword": "예약되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "79f07dbf-b0b1-4991-990c-adf8c75fb5b1",
+      "headword": "전달되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "1c3cf6b6-1fc1-466f-8114-e52ee2be7e3c",
+      "headword": "정리되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "4605c267-54cd-4c86-8a59-b520c24f2c17",
+      "headword": "확인되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "4b7583e4-5393-4060-9e43-48394c7a102b",
+      "headword": "수정되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "da5df8ce-1e53-4378-bdb7-c70add2676b3",
+      "headword": "취소되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "ddb3518c-b718-44d3-b622-c3db07e77318",
+      "headword": "변경되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "4d4de239-9de5-4098-88ef-3fa5be84e2cf",
+      "headword": "진행되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "8d9cdb06-b6f6-452d-af12-e2bf0c55371b",
+      "headword": "처리되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "f25527fd-8089-49b1-b869-4c37b0bbe169",
+      "headword": "등록되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "52ec354f-adaf-47f1-ab0b-007c359fd846",
+      "headword": "접수되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "ed7c3d30-b367-408a-b3e8-1d75b41e7dcf",
+      "headword": "지연되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "13972a84-b195-458f-88a2-33c4bdae30df",
+      "headword": "결제되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "a0333bca-49c9-4aff-ad5b-96cda58c42b0",
+      "headword": "포함되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "33dfef7b-9ec1-4110-8297-b5798a4e4aa4",
+      "headword": "소외되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "a2cc7b7f-9a32-4f01-a4f9-2b6daba1e9e7",
+      "headword": "진정되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "f2b02aed-c9cd-4c03-9ade-c35b10c33881",
+      "headword": "허락되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "8e06f7eb-13de-4cd9-81cd-2d9808f3ae90",
+      "headword": "부담되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "dbe3d472-50ab-491c-8cac-00d48980dd7e",
+      "headword": "잘못되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "0562c38d-662f-437f-be55-2bc39284d943",
+      "headword": "와전되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "e110e340-ffbb-4496-84be-98111edbfcd1",
+      "headword": "준비되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "64a62c22-5bff-4d9e-aa40-fb7450b5df5b",
+      "headword": "마련되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "5786b60f-0aff-404f-8a45-cace6adae2b6",
+      "headword": "배정되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "1d593d55-281b-4992-af64-d4f5ba5bf4bb",
+      "headword": "공지되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "f3d21ef6-098b-4442-8c66-650840f25543",
+      "headword": "승인되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "d037b949-dbf8-42a9-8251-88fa9f6fc380",
+      "headword": "반영되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "7d925bb9-6e9b-4652-bbf6-99c25d66b8af",
+      "headword": "누락되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "32d12234-5612-4bc6-95fc-c750f8edbb98",
+      "headword": "납득되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "85be4977-e6b0-45c8-93e2-731d04f43937",
+      "headword": "이해되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "7b4c2153-9e25-44ff-b3cb-df66d9a73391",
+      "headword": "설득되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "df934bdc-f8bd-4de3-8a28-9535571a3867",
+      "headword": "표현되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "3ea7bb7d-a19c-4a2e-a98c-ec9109d89967",
+      "headword": "증명되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "81ed4c65-35f2-4f91-b6d3-186323de90d9",
+      "headword": "해석되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "135c60d3-10c9-44c0-b243-c88b2f81de52",
+      "headword": "비교되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "2a6ef164-4837-4458-8bff-0f8ce7734aac",
+      "headword": "구별되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "8a4db092-5ffe-44a1-8ed2-c01d4e025976",
+      "headword": "구분되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "f3ea13bd-026b-44a4-a135-f51af279bc98",
+      "headword": "분류되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "934b85b8-0016-404f-8431-15f89916aa30",
+      "headword": "제외되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "1f6533b8-1bcc-4e71-921e-eac2154812ec",
+      "headword": "제한되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "7298de9d-2d8d-4e6f-938f-3a2aed8e7f7d",
+      "headword": "결정되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "c8592974-6772-4087-bff7-924c6307e76d",
+      "headword": "실행되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "babab24c-3016-45e9-9915-ec973957d971",
+      "headword": "실현되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "c43d19a0-bff5-4f39-9c01-012bb332efe6",
+      "headword": "마무리되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "507279a4-d2c6-4653-a044-c9453922b6ae",
+      "headword": "완성되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "30460908-cf28-40b1-8202-d4bbdea6bd1b",
+      "headword": "연결되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "5720b8e5-2bc7-4d0c-8564-68275ec06f5d",
+      "headword": "연관되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "6f1a9516-6c81-4dc0-a929-c2618955eac9",
+      "headword": "관련되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "87004891-3d99-4ca1-ba53-a26bb0adc19c",
+      "headword": "비롯되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "d4932a98-e248-43f4-8e66-1fed52d0eb90",
+      "headword": "전환되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "e4c6208c-e583-48d4-af13-13da5dc51e2f",
+      "headword": "확대되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "ccaf582b-cd9a-425f-b356-727110f7cee5",
+      "headword": "축소되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "9f771312-502b-4590-ba1d-a533acb7aa4b",
+      "headword": "악화되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "20027d7b-37d4-4da9-ae1f-c9030b404d89",
+      "headword": "개선되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "155ec61e-503a-48f3-bcfa-847a6ee9bf5d",
+      "headword": "향상되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "b29c6929-d97a-4477-98b2-86d42b79f1b0",
+      "headword": "안정되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "381daad3-2e25-4db9-a079-2799259617fa",
+      "headword": "회복되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "7919e0aa-ab07-4ea5-bc2c-4aec8ff1f442",
+      "headword": "보완되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "62f17c53-a858-46ee-a701-17e8a8befa24",
+      "headword": "해결되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "bdedecaf-d9d6-4231-a28b-e6059e7f99f5",
+      "headword": "해소되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "c3ad4468-fbc8-47fc-83ed-63cb7e136508",
+      "headword": "접속되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "6dd1b3e5-eb21-4d7d-b711-61cc624949ca",
+      "headword": "입력되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "1de3f1e7-ba45-401d-9c82-566529105736",
+      "headword": "저장되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "36326a47-b4bc-4f60-bbf9-af9fc53f1bd3",
+      "headword": "삭제되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "26a19a59-cc13-4d9c-bf0e-810ad3e7df90",
+      "headword": "전송되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "d2552138-f582-43bd-8fe6-1d06af0ce16b",
+      "headword": "첨부되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "be444bcc-d254-47df-b1af-a4c2a87b212b",
+      "headword": "공유되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "1252d609-1d5f-4033-81ac-39f6ce93557b",
+      "headword": "공개되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "8009ee3e-8d9c-4bd5-b022-0dca3743e551",
+      "headword": "노출되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "98e416f1-3207-467b-b2b6-02ffcecbf76b",
+      "headword": "차단되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "691b22fb-a6f8-403d-aa78-cb4f250bf195",
+      "headword": "재생되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "079b3804-0099-44db-91e5-35d2a345f522",
+      "headword": "확산되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "17f7e398-68e8-4568-b909-195f38373cf7",
+      "headword": "유출되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "25e60e7e-be17-4240-92ec-eee265237c43",
+      "headword": "복구되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "8b48c44f-8bbd-44cc-a640-3255f85c055b",
+      "headword": "배분되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "3e28d75d-3202-4f74-ac6b-b0dca37281ad",
+      "headword": "조정되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "1bf38060-8105-4a6b-a34e-7ab37002aab9",
+      "headword": "조율되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "6e74cea8-92bf-4a81-a85d-ee71453247e0",
+      "headword": "추진되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "da424c85-b249-413c-a7ac-c3b15b4e18d1",
+      "headword": "거부되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "9a54bd8e-8327-491c-a346-29d2ddef846d",
+      "headword": "확정되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "3ce0ee2f-2a67-4da1-9f6e-96af7e3202e2",
+      "headword": "보류되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "9c4d3d8e-798c-4a95-9edc-764affb16b78",
+      "headword": "연기되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "4c81ee37-d084-48b8-8825-d19f69ae2913",
+      "headword": "도입되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "217c1312-96ad-4da0-9017-027adb9e696d",
+      "headword": "채택되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    },
+    {
+      "id": "f1efd1ca-4585-4d95-bc6e-d87f77b56bef",
+      "headword": "분산되다",
+      "part_of_speech": "verb",
+      "irregular_type": "none"
+    }
+  ],
+  "listening_cohort_extra": [
+    {
+      "id": "499a1477-6fb9-4116-a332-12698dd62d46",
+      "level": "beginner",
+      "learning_order": 200,
+      "task": "meaning"
+    },
+    {
+      "id": "20ca4689-5519-4774-bf1b-a681d116a7b9",
+      "level": "beginner",
+      "learning_order": 201,
+      "task": "korean"
+    }
+  ]
+}

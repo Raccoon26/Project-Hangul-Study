@@ -1,3 +1,11 @@
+# DATA-10-1 / 듣기 분석·Mac 환경 인계
+
+**Content24 / Schema4 / reader7 / UserProgress10 유지, Production 변경0.** PR #17 병합 main에서 듣기1,936개(전TTS) 전수 구조/중복/분포를 조사했다. 받아쓰기1,850개(95.56%), 初中級1,823개 중1,822개가 받아쓰기다. 신규150~250원문/300~500문제의 기준안200/400·4Batch를 설계했으며 이번 제작/통합0이다. AGENTS에 Mac/Windows Codex Cloud 교대 작업의 fetch·미커밋 보호·checkpoint push·PR/merge·main SHA 대조 규칙을 추가했다.
+
+이번 공통 portable **363/365 PASS·2FAIL**(SQLite byte 재구성), native **141전부 종료·136메서드PASS/5FAIL**(명령은 진단 수집 대기 후143으로 중단)이다. Mac native에서 DATA08 P1 세 건의5회귀는 통과했으나 기존 cohort/course 가정 테스트와 실제 활용 생성 오류가 재현됐다. native 전체 PASS/출시 승인으로 표현하지 않는다. 실행수/중단·재시도/빌드·미완료 gate와 최종 Git 전달은 [DATA10_PROGRESS](DATA10_PROGRESS.md), [분석·계획](Docs/DATA10_LISTENING_ANALYSIS.md), [native 발견](Docs/DATA10_NATIVE_FINDINGS.md)을 따른다. **Release B—Conditional·실기기/독립 사람 gate 유지. 다음 Batch 자동 시작0.** 아래 ‘현재’·버전/검사는 각 단계 당시 이력이다.
+
+---
+
 # DATA-09-8 / 최종 종료 — 현재 Production
 
 **Content24 / Schema4 / reader7 / UserProgress10 유지.** 신규 Grammar54·별도 고정Expression0·고유Example216·GrammarQuestion216(각Batch18/0/72/72), 기존Example4재사용 제외. 전체Vocabulary2,287/Meaning2,420/Example4,813/Grammar96/Question3,553/Listening1,936. Vocabulary expression 전체163개 중 DATA08 신규104개이며 DATA09 추가0이다. 장기Grammar/Expressions350~500 유지.

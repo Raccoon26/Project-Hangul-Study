@@ -1,5 +1,22 @@
 # HangulStudy 작업 규칙
 
+## Mac 로컬 / Windows에서 시작하는 Codex Cloud 공통 인계 (DATA-10부터)
+
+- 사람의 명시 요청을 받은 DATA 단계만 시작한다. Mac 로컬과 Windows에서 사용하는 Codex Cloud는 같은 `Raccoon26/Project-Hangul-Study`의 서로 다른 checkout이며 로컬 경로·설치 도구·자격증명이 같다고 가정하지 않는다. 기존 checkout을 사용한다.
+- 매 작업 시작에 `pwd`, `git status --short --branch`, `git remote -v`, `gh auth status`, 저장소 권한/기본 브랜치, `git fetch origin`, `git rev-parse HEAD origin/main`, ahead/behind를 확인한다. origin이 지정 저장소인지 확인하고 토큰 원문을 기록하지 않는다. 관련 단계 원장·현재 상태·검수/출시 gate를 실제 Source/DB/코드와 대조한다.
+- 미커밋 tracked/untracked 변경의 경로·의도를 먼저 조사하고 보존한다. 임의 삭제·stash·덮어쓰기·자동 커밋을 하지 않는다. clean main은 `git switch main` → `git merge --ff-only origin/main`으로 갱신한다. 분기/다른 작업 변경이 있으면 안전하게 분리하거나 충돌을 보고한다. 새 단계는 최신 main에서 `codex/<stage>-<purpose>` 브랜치를 만든다. checkpoint 인계로 같은 단계를 재개할 때는 기록된 기존 브랜치/SHA를 이어가며 새 브랜치를 중복 생성하지 않는다.
+- 동시에 두 환경에서 같은 단계/파일을 수정하지 않는다. 작업 중 환경 전환은 현재 브랜치에 검토 가능한 checkpoint commit과 일반 push가 성공한 후 진행한다. 단계 원장에 브랜치/SHA·검사 명령/결과·미완료 항목·다음 행동을 남기고 이전 환경의 수정을 중단한다. push 실패 시 전환 완료로 보고하지 않는다. 다음 환경은 fetch 후 해당 원격 브랜치/commit을 확인하고 이어간다. checkpoint를 main 완료/검증 통과로 간주하지 않는다.
+- 단계 종료에는 허용 범위의 diff·데이터/fixture 보존·관련 테스트를 확인하고 Commit → 일반 Push → main 대상 PR → 필수 checks/CI·mergeability 확인 → 정상 merge 순서로 전달한다. 이 요청처럼 병합까지 명시 위임된 작업은 재확인 없이 진행한다. 보호규칙/실패한 필수 CI를 우회하거나 admin 강제 병합하지 않는다. CI/check가 없으면 ‘없음’으로 기록하고 로컬 결과와 구분한다. 인증·권한·CI·충돌 등으로 중단되면 실제 원인과 필요한 조치를 남긴다.
+- 병합 후 clean checkout에서 main으로 이동해 fetch/ff-only 갱신하고 `git rev-parse HEAD origin/main`의 전체 SHA 일치와 status를 확인한다. PR URL·merge SHA·검사 결과/남은 gate를 최종 보고한다. 자기 merge SHA를 포함하려고 사후 문서 커밋을 반복하지 않는다. 최종 Git/PR과 응답을 인계 근거로 쓴다. 다음 환경은 로컬의 옛 main을 신뢰하지 않고 다시 fetch한다.
+- force push, 파괴적 reset/clean, 이력 재작성, 기존 Production/fixture 삭제, 데이터 축소를 통한 전달 우회를 금지한다. Xcode/Simulator 유무는 환경별로 다시 확인한다. Cloud portable PASS를 Mac native PASS로 바꾸지 않으며 설치되지 않은 native/실기기 gate는 BLOCKED로 유지한다.
+- Python/SQLite 버전과 `PRAGMA compile_options`도 확인한다. 현 배포24는 SQLite3.53.1의31테이블이다. Mac SQLite3.44.0의 ENABLE_STAT4 재구성은 같은31테이블의 행이 일치해도 추가 sqlite_stat4 때문에32테이블·SHA가 다르다(`Docs/DATA10_REBUILD_COMPARISON.json`). 이를 byte-exact PASS로 표시하거나 시스템 통계 테이블을 임의 삭제/검사 완화해 맞추지 않는다. 임시 재구성만 비교하고 Production을 보존하며, 실제 후속 배포 전 동일 writer 버전/compile profile의 재현 환경을 확인한다.
+
+## DATA-10-1 분석 범위
+
+- 2026-10-20 명시 요청으로 PR #17 병합 main에서 DATA10 분석·환경 설정을 시작했다. Content24/Schema4/reader7/UserProgress10·Listening1,936(TTS)·DATA09 수량 완료·Release B—Conditional이 기준이다. DATA09의 사람/실기기/native 잔여 gate는 실제 새 실행 결과에 한해 구분해서 갱신한다.
+- 이번은 신규 원문150~250개/문제300~500개의 제작 계획까지만 수행한다. 원문·문제 제작/통합, Production 교체, ID/revision·버전 변경, runtime 버그 수정과 다음 Batch는 포함하지 않는다. 최신 근거는 `DATA10_PROGRESS.md`, `Docs/DATA10_LISTENING_ANALYSIS.md`, `Docs/DATA10_LISTENING_BASELINE.json`이다.
+- 같은 원문을 다른 유형에 쓰면 Example은 하나만 보존하고 기존 1 listening : 1 question 계약에 따라 별도 Listening/Question을 연결한다. 새 원문 수·재사용 관계 수·문제 수를 분리한다. SRS는 Listening ID별이며 원문 단위 숙달/중복 자동 병합을 추가하지 않는다. 기존 163후보의36미해결/7조건부를 자동 재사용 승인으로 해석하지 않는다.
+
 ## 프로젝트와 기존 요구사항 보존
 
 - 일본어 사용자를 위한 한국어 학습 iOS 앱이다. 기존 DEV-01~14 / DATA-01~07의 요구사항, 코드, 콘텐츠, 테스트, 검수 기록과 미완료 출시 조건을 보존한다.
