@@ -1,3 +1,17 @@
+# 현재 Production — DATA-09-2 / Grammar Batch A
+
+Content20/Schema4/reader7/UserProgress10. 신규文法18/例文72/問題72、全体Grammar60/初中級18。canonical Sourceはproduction.json、current DBはResources/content.sqliteです。以下DATA08/01の版数は当時の履歴です。
+
+```sh
+python3 Tools/ContentBuilder/build_content.py Content/production.json /tmp/data09-a-rebuilt.sqlite --production --previous Tests/Fixtures/content-v19-production.sqlite --report /tmp/data09-a-build.json
+python3 -m unittest discover -s Tools/ContentBuilder -p test_data09_a_content.py -v
+sh Tools/verify.sh --portable
+```
+
+全311portable PASS、native/人の検収は未実施です。現在20の再現は19をpreviousにします。次の内容変更は現在20を先に保存し20をpreviousに使います。prepare_data09_a.pyは凍結19＋検収authoring＋発行済UUIDで同じ20を再現する資料で、後続データへの上書きimporterではありません。詳細は[DATA09_PROGRESS](../../DATA09_PROGRESS.md) §8を確認してください。
+
+---
+
 # 현재 Production 재현 — DATA-08-8
 
 Python3.10+ 표준 라이브러리만 사용한다. 현재 원본은 `Content/production.json`, Content19/Schema4/reader7이며 아래 DATA01 계약은 당시 이력이다. 프로젝트 루트에서 candidate를 `/tmp`에 만들고 기존 source/번들/fixture를 덮어쓰지 않는다.

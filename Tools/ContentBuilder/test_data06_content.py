@@ -18,14 +18,14 @@ class Data06Tests(unittest.TestCase):
    p=Path(tmp)/'content.sqlite';r=build(ROOT/'Content/production.json',p,ROOT/'Tests/Fixtures/content-v12-production.sqlite',production=True)
    self.assertEqual(r['validation']['error_count'],0);self.assertEqual(r['validation']['warning_count'],10)
    with sqlite3.connect(p) as db:self.assertEqual(signatures(db),signatures(self.db))
-  for table,old,new in [('listening_items',31,1936),('questions',262,3337),('content_items',4503,15428),('examples',1876,4597),('vocabulary',926,2287),('grammar',42,42)]:
+  for table,old,new in [('listening_items',31,1936),('questions',262,3409),('content_items',4503,15597),('examples',1876,4669),('vocabulary',926,2287),('grammar',42,60)]:
    self.assertEqual(self.old.execute('SELECT COUNT(*) FROM '+table).fetchone()[0],old)
    self.assertEqual(self.db.execute('SELECT COUNT(*) FROM '+table).fetchone()[0],new)
-  self.assertEqual(self.db.execute('SELECT schema_version,content_version,min_reader_version,is_fixture FROM content_metadata').fetchone(),(4,19,7,0))
+  self.assertEqual(self.db.execute('SELECT schema_version,content_version,min_reader_version,is_fixture FROM content_metadata').fetchone(),(4,20,7,0))
   self.assertEqual(self.db.execute('PRAGMA foreign_key_check').fetchall(),[])
  def test_existing_payloads_stable_ids_orders_and_only_approved_revisions(self):
   approved=set(json.loads((ROOT/'Content/data06-revised-ids.json').read_text()));a,b=signatures(self.old),signatures(self.db)
-  subsequent=set(json.loads((ROOT/'Content/data07-revised-ids.json').read_text())) | set(json.loads((ROOT/'Content/data08-a-revised-ids.json').read_text())) | set(json.loads((ROOT/'Content/data08-b-revised-ids.json').read_text())) | set(json.loads((ROOT/'Content/data08-c-revised-ids.json').read_text())) | set(json.loads((ROOT/'Content/data08-integration-revised-ids.json').read_text()))
+  subsequent=set(json.loads((ROOT/'Content/data07-revised-ids.json').read_text())) | set(json.loads((ROOT/'Content/data08-a-revised-ids.json').read_text())) | set(json.loads((ROOT/'Content/data08-b-revised-ids.json').read_text())) | set(json.loads((ROOT/'Content/data08-c-revised-ids.json').read_text())) | set(json.loads((ROOT/'Content/data08-integration-revised-ids.json').read_text())) | set(json.loads((ROOT/'Content/data09-a-revised-ids.json').read_text()))
   self.assertEqual(len(approved),80);self.assertEqual({id for id in a if a[id]!=b[id]},(approved | subsequent) & set(a))
   for row in self.old.execute('SELECT * FROM content_items'):
    expected=list(row)
@@ -35,6 +35,7 @@ class Data06Tests(unittest.TestCase):
    if row[0] in json.loads((ROOT/'Content/data08-b-revised-ids.json').read_text()):expected[2]+=1;expected[-1]='2026-10-19T07:56:45Z'
    if row[0] in json.loads((ROOT/'Content/data08-c-revised-ids.json').read_text()):expected[2]+=1;expected[-1]='2026-10-19T08:39:13Z'
    if row[0] in json.loads((ROOT/'Content/data08-integration-revised-ids.json').read_text()):expected[2]+=1;expected[-1]='2026-10-19T13:29:13Z'
+   if row[0] in json.loads((ROOT/'Content/data09-a-revised-ids.json').read_text()):expected[2]+=1;expected[-1]=json.loads((ROOT/'Content/data09-a-ids.json').read_text())['created_at']
    self.assertEqual(self.db.execute('SELECT * FROM content_items WHERE id=?',[row[0]]).fetchone(),tuple(expected))
   for table in ['vocabulary','meanings','examples','grammar','questions','listening_items','hangul','pronunciation_rules','courses','lessons']:
    for row in self.old.execute('SELECT * FROM '+table):self.assertEqual(self.db.execute('SELECT * FROM '+table+' WHERE id=?',[row[0]]).fetchone(),row)

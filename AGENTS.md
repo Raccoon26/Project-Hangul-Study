@@ -66,3 +66,11 @@
 - 2026-10-20 사용자가 DATA09-1을 명시 요청했으므로 이번 분석·설계는 앞선 DATA09 착수 보류의 예외다. DATA08의 native BLOCKED/사람 검수 NOT TESTED/B—Conditional을 통과·완료로 바꾸지 않는다. 후속 제작·통합·버전 변경은 이번 분석 요청에 포함하지 않는다.
 - 현재 Source/DB는 Content19/Schema4/reader7/UserProgress10·Grammar42/初中級0이다. `DATA09_PROGRESS.md`와 `Docs/DATA09_*`의54단위는 편집 초안이며 Runtime UUID/승인 콘텐츠가 아니다. 장기Grammar/Expressions350~500개를 유지하고 어휘 expression104개나 형태/시제 이형태로 중복 집계하지 않는다.
 - 후속 단계는163개 분류(부족147/Level·배치 재검토8/단순검토8)를 해결 수량으로 오인하지 않는다. Level8은 잠정 편집 우려이며 확정 오등급이 아니다. 원문·Example ID·기존42개·기존 Progress/SRS와 DATA08 기록을 보존하고 결과/검증 근거를 DATA09_PROGRESS에 누적한다.
+
+
+## DATA-09-2 현재 Batch 승인 기준
+
+- 사용자의 DATA09-2 명시 요청에 따라 Batch A18문형/72고유예문/72단일선택 문제를 승인·반영했다. 현재 Content20/Schema4/reader7/UserProgress10, Grammar60/初中級18이다. DATA09-1의54개는 당시 초안이며 이번 영역 조정은12개 선택+6개 추가다. 장기350~500 및 전체 신규45~60 목표를 유지하고 다음 Batch는 자동 시작하지 않는다.
+- canonical Source는 production.json 하나다. Content19 source/DB는 불변 fixture에 보존했다. prepare_data09_a.py는19+고정 UUID+검수 authoring으로 동일20만 재현하는 도구이며 후속 데이터를 덮어쓰는 importer로 사용하지 않는다. 다음 실제 콘텐츠 변경은 현재20을 previous로 보존한다.
+- 기존12개 관계 끝점 revision 변경은 data09-a-revised-ids.json만 허용한다. 기존 본문/ID/진도/SRS/snapshot/광고·구매 코드를 보존한다. 문형 이형태·고정 표현·질문 재사용으로 수량을 중복 집계하지 않는다.
+- 최신 근거는 DATA09_PROGRESS §8 및 Docs/DATA09_A_*다. assistant 한일 재독/portable 통과와 독립 사람·외부사전·Swift/iOS 검증을 구분하고 B—Conditional을 유지한다. 기존163후보를 자동 해결로 집계하지 않는다.

@@ -1,3 +1,11 @@
+# DATA-09-2 / Batch A — 현재 Production
+
+**Content20 / Schema4 / minReader7 / UserProgress10.** 신규 初中級 문법18개·고유 예문72개·단일 선택 문제72개를 assistant 한일 Self Review/중복·Stable ID/strict 검증 후 반영했다. 전체 Grammar60(入門22/初級20/初中級18), Example4,669(문장4,656+발음13), Question3,409, Vocabulary2,287. 새 Grammar 코스1·레슨6(47~52), 기존 본문/ID/순서 보존·관계 끝점12개만 revision+1. 기존19 source/DB fixture 보존, strict0errors/기존10warnings·Source25테이블64,099행 일치·integrity ok/FK0.
+
+이번 portable **311/311 PASS**(328.544초, failures/errors/skipped0, exit0). 독립 사람 언어 검수·외부 사전 대조 NOT TESTED, Swift/Xcode/iOS 빌드·XCTest137개/실기기 실행0(BLOCKED), **B—Conditional 유지**. 장기Grammar/Expressions350~500개 및 DATA09 신규45~60개 목표 유지. 이번은 Batch A에서 종료한다. [DATA09_PROGRESS §8](DATA09_PROGRESS.md), [검수·한계](Docs/DATA09_A_REVIEW.md), [실제 수량](Docs/DATA09_A_COUNTS.json). 아래 DATA09-1/DATA08 및 DEV/DATA 내용의 ‘현재’는 당시 이력이다.
+
+---
+
 > **DATA-09-1 분석·설계 (2026-10-20 JST):** 현재 Production은 Content19/Schema4/reader7/UserProgress10, Grammar42(入門22/初級20/初中級0)로 동일하다. 기존42개·후보163개를 조사하고 初中級54개 교육 단위를 설계했다. 신규 Production0, DATA08 B—Conditional·native/사람 검수 gate 유지. 현재 요청의 분석 범위만 진행했으며 아래 DATA08 결과는 당시 이력이다. [DATA09_PROGRESS](DATA09_PROGRESS.md), [설계](Docs/DATA09_DESIGN.md).
 
 # DATA-08-8 최종 확인 — Content19 / Schema4 / reader7 / UserProgress10
@@ -1113,3 +1121,12 @@ sh Tools/verify.sh --portable
 동일19 재현에는18 fixture를 `--previous`로 사용해 `/tmp` candidate를 만든다. 위 DATA08_CLOSEOUT 명령으로 전체31테이블·schema/index·SHA까지 일치했다. 다음 콘텐츠 변경은 현재19 DB를 먼저 불변 snapshot으로 보존하고19를 previous로 지정한 strict gate를 통과시킨다. Content Version은 실제 본문/관계 변경 정책대로만 갱신하고 schema 변경이 없으면 Schema4 유지. 이번 문서/검증 변경은 Content19를 유지한다.
 
 원본16,638,955bytes/번들17,932,288bytes, 현재 접근 가능한 Git 이력의50MiB/100MiB 초과 blob0이므로 LFS 도입 불필요. 향후 JSONL shard 또는 필요한 원본에 한한 LFS를 별도 검토한다. 독립 사람 검수·163선행 문형·native gate는 미완료다. 상세·정확한 재현 명령은 [최종 보고](Docs/DATA08_CLOSEOUT.md).
+
+
+## DATA-09-A — 문법 원본·버전 계약
+
+이번 승인 snapshot은 Content20/Schema4/reader7/UserProgress10이다.18개 문법은 기존42개와 다른 학습 기능이며72개 신규 한일 예문/72개 multiple_choice 문제를 연결한다. grammar_task는 meaning/form/context/contrast 각18개,선택지3개/정답1개/개별 일본어 이유를 사용한다. source/DB/기존19 snapshot·한 번 발급한 UUID와12개 revision allowlist를 보존한다. 텍스트 accepted/free-writing/지원하지 않는 ConjugationForm은 추가하지 않았다.
+
+문법 수는 入門22/初級20/初中級18,현재 Grammar60이다. DATA09 신규18과 장기350~500개 목표를 구분한다.18단위에서 품사·시제 이형태/위해·위한 등을 별도 신규로 세지 않는다. 기존54안의 배치 조정은 DATA09_A_SCOPE.json이 기준이며 과거 계획을 수정해 승인된 것처럼 표시하지 않는다.
+
+다음 실제 콘텐츠 변경은20 DB/source를 먼저 보존하고20을 --previous로 strict 검증한다. 현재20 재현에는19 fixture를 사용한다. authoring/검수 색인은 runtime 입력이 아니며 앱은 production.json에서 생성한 번들 DB만 읽는다. 이번 검증·한계는 DATA09_PROGRESS §8,미검증 native/사람 gate는 유지한다.

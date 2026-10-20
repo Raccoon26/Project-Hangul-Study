@@ -1,4 +1,7 @@
-"""DATA08-6 real content/repository SQL checks; not Swift or device execution."""
+"""Exact DATA08 Content18→19 release gate, pinned to immutable19.
+Current20 and preservation of all19 payloads are tested by test_data09_a_content.
+Uses current repository SQL, not Swift or device execution.
+"""
 import collections
 import gzip
 import hashlib
@@ -19,7 +22,7 @@ from test_data05_content import query, queries
 from test_lookup_sql import user
 from validator import signatures, ValidationError
 
-BUNDLE = Path(os.environ.get('DATA08_CANDIDATE', ROOT/'Resources/content.sqlite'))
+BUNDLE = Path(os.environ.get('DATA08_CANDIDATE', ROOT/'Tests/Fixtures/content-v19-production.sqlite'))
 
 
 def vocabulary_sql():
@@ -32,7 +35,10 @@ def vocabulary_sql():
 class Data08IntegrationTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.source = json.loads((ROOT/'Content/production.json').read_text())
+        cls.released_source = tempfile.TemporaryDirectory()
+        cls.source_path = Path(cls.released_source.name)/'content19.json'
+        cls.source_path.write_bytes(gzip.decompress((ROOT/'Tests/Fixtures/content-v19-production.json.gz').read_bytes()))
+        cls.source = json.loads(cls.source_path.read_text())
         cls.previous = ROOT/'Tests/Fixtures/content-v18-production.sqlite'
         cls.before_bytes = gzip.decompress((ROOT/'Tests/Fixtures/content-v18-production.json.gz').read_bytes())
         cls.before = json.loads(cls.before_bytes)
@@ -46,7 +52,7 @@ class Data08IntegrationTests(unittest.TestCase):
 
     @classmethod
     def tearDownClass(cls):
-        cls.db.close(); cls.old.close()
+        cls.db.close(); cls.old.close(); cls.released_source.cleanup()
 
     def test_strict_import_and_complete_source_bundle_integrity(self):
         report = audit(self.source, BUNDLE)
@@ -56,7 +62,7 @@ class Data08IntegrationTests(unittest.TestCase):
         self.assertEqual(report['scope']['unique_examples'], 1821)
         with tempfile.TemporaryDirectory() as tmp:
             out = Path(tmp)/'rebuilt.sqlite'
-            result = build(ROOT/'Content/production.json', out, self.previous, production=True)
+            result = build(self.source_path, out, self.previous, production=True)
             self.assertEqual(result['validation']['error_count'], 0)
             self.assertEqual(result['validation']['warning_count'], 10)
             with sqlite3.connect(out) as rebuilt:
