@@ -1,4 +1,6 @@
-"""DATA09-A real importer/SQLite regressions; never language or Swift certification."""
+"""Exact DATA09-A19→20 gate pinned to immutable20. Live21 preservation is in B.
+Never language or Swift certification.
+"""
 import collections
 import copy
 import gzip
@@ -18,20 +20,24 @@ from validator import signatures,ValidationError,normalize
 from test_data05_content import query
 from test_lookup_sql import user
 
-SOURCE=Path(os.environ.get('DATA09_A_SOURCE',ROOT/'Content/production.json'))
-BUNDLE=Path(os.environ.get('DATA09_A_BUNDLE',ROOT/'Resources/content.sqlite'))
+SOURCE=Path(os.environ.get('DATA09_A_SOURCE',ROOT/'Tests/Fixtures/content-v20-production.json.gz'))
+BUNDLE=Path(os.environ.get('DATA09_A_BUNDLE',ROOT/'Tests/Fixtures/content-v20-production.sqlite'))
 
 
 class Data09BatchATests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
+        global SOURCE
+        cls.released_source=tempfile.TemporaryDirectory()
+        if SOURCE.suffix=='.gz':
+            raw=gzip.decompress(SOURCE.read_bytes());SOURCE=Path(cls.released_source.name)/'content20.json';SOURCE.write_bytes(raw)
         cls.source=json.loads(SOURCE.read_text())
         cls.registry=json.loads((ROOT/'Content/data09-a-ids.json').read_text())
         cls.approved=set(json.loads((ROOT/'Content/data09-a-revised-ids.json').read_text()))
         cls.old=sqlite3.connect(ROOT/'Tests/Fixtures/content-v19-production.sqlite')
         cls.db=sqlite3.connect(BUNDLE.resolve().as_uri()+'?mode=ro',uri=True)
     @classmethod
-    def tearDownClass(cls):cls.db.close();cls.old.close()
+    def tearDownClass(cls):cls.db.close();cls.old.close();cls.released_source.cleanup()
 
     def test_strict19_to20_rebuild_all_rows_and_original_bytes(self):
         self.assertEqual(hashlib.sha256((ROOT/'Tests/Fixtures/content-v19-production.sqlite').read_bytes()).hexdigest(),'57aeaf918d5eaaec3bbfaed02f87c5452cca8264540b923a70448b781adbe9e5')

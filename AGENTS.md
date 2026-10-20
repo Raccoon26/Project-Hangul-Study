@@ -74,3 +74,11 @@
 - canonical Source는 production.json 하나다. Content19 source/DB는 불변 fixture에 보존했다. prepare_data09_a.py는19+고정 UUID+검수 authoring으로 동일20만 재현하는 도구이며 후속 데이터를 덮어쓰는 importer로 사용하지 않는다. 다음 실제 콘텐츠 변경은 현재20을 previous로 보존한다.
 - 기존12개 관계 끝점 revision 변경은 data09-a-revised-ids.json만 허용한다. 기존 본문/ID/진도/SRS/snapshot/광고·구매 코드를 보존한다. 문형 이형태·고정 표현·질문 재사용으로 수량을 중복 집계하지 않는다.
 - 최신 근거는 DATA09_PROGRESS §8 및 Docs/DATA09_A_*다. assistant 한일 재독/portable 통과와 독립 사람·외부사전·Swift/iOS 검증을 구분하고 B—Conditional을 유지한다. 기존163후보를 자동 해결로 집계하지 않는다.
+
+
+## DATA-09-3 현재 Batch 승인 기준
+
+- 사용자의 명시 요청으로 Batch B18문형/72고유예문/72문제를 반영했다. Content21/Schema4/reader7/UserProgress10, Grammar78/初中級36, DATA09 누적36/144/144이다. DATA08 예문4개 재사용은 신규 수에 넣지 않는다. 전체 신규45~60 및 장기350~500을 유지하고 다음 Batch를 자동 시작하지 않는다.
+- Content20 Source/DB fixture와 A 검수 기록은 불변이다. A19→20 정확한 검사는20fixture로 고정하며 B20→21 검사가 모든 구행을 보존한다. prepare_data09_b.py는20+고정UUID+검수 authoring으로 동일21만 재현한다. 다음 실제 변경은 현재21을 previous로 보존한다.
+- 기존22개 관계 끝점(Grammar18+Example4) revision+1은 data09-b-revised-ids.json만 허용한다. 기존 본문·ID·배치·Progress/SRS·광고/구매 코드를 보호한다. 새 데이터만으로 Schema/reader/UserProgress를 올리지 않는다.
+- 최신 근거는 DATA09_PROGRESS §9 / Docs/DATA09_B_*다. assistant 한일 Self Review와 portable323 PASS는 독립 사람·사전·iOS 검증이 아니다. native BLOCKED/사람 NOT TESTED/B—Conditional을 유지한다. 기존163후보 전체 해결이나 모든 예문 토큰의 Vocabulary 등재를 주장하지 않는다.

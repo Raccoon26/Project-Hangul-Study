@@ -22,16 +22,16 @@ class Data05Tests(unittest.TestCase):
    path=Path(tmp)/'bundle.sqlite';r=build(ROOT/'Content/production.json',path,ROOT/'Tests/Fixtures/content-v11-production.sqlite',production=True)
    self.assertEqual(r['validation']['error_count'],0);self.assertEqual(r['validation']['warning_count'],10)
    with sqlite3.connect(path) as new:self.assertEqual(signatures(new),signatures(self.db))
-  for table,before,after in [('vocabulary',726,2287),('meanings',772,2420),('examples',1537,4669),('grammar',42,60),('questions',250,3409),('listening_items',27,1936),('content_items',3700,15597)]:
+  for table,before,after in [('vocabulary',726,2287),('meanings',772,2420),('examples',1537,4741),('grammar',42,78),('questions',250,3481),('listening_items',27,1936),('content_items',3700,15766)]:
    self.assertEqual(self.old.execute('SELECT COUNT(*) FROM '+table).fetchone()[0],before);self.assertEqual(self.db.execute('SELECT COUNT(*) FROM '+table).fetchone()[0],after)
-  self.assertEqual(self.db.execute('SELECT schema_version,content_version,min_reader_version,is_fixture FROM content_metadata').fetchone(),(4,20,7,0))
+  self.assertEqual(self.db.execute('SELECT schema_version,content_version,min_reader_version,is_fixture FROM content_metadata').fetchone(),(4,21,7,0))
   self.assertEqual(self.db.execute('PRAGMA user_version').fetchone()[0],4)
  def test_all_existing_payloads_ids_membership_and_approved_relation_revisions(self):
   historical=sqlite3.connect(ROOT/'Tests/Fixtures/content-v12-production.sqlite')
   a,b=signatures(self.old),signatures(historical);historical.close();changed=set(json.loads((ROOT/'Content/data05-revised-ids.json').read_text()))
   self.assertEqual({id for id in a if a[id]!=b[id]},changed);self.assertEqual(len(changed),8)
   for row in self.old.execute('SELECT * FROM content_items'):
-   actual=self.db.execute('SELECT * FROM content_items WHERE id=?',[row[0]]).fetchone();self.assertEqual(actual[:2]+actual[3:-1],row[:2]+row[3:-1]);self.assertEqual(actual[2],row[2]+int(row[0] in changed)+int(row[0] in json.loads((ROOT/'Content/data06-revised-ids.json').read_text()))+int(row[0] in json.loads((ROOT/'Content/data07-revised-ids.json').read_text()))+int(row[0] in json.loads((ROOT/'Content/data08-a-revised-ids.json').read_text()))+int(row[0] in json.loads((ROOT/'Content/data08-b-revised-ids.json').read_text()))+int(row[0] in json.loads((ROOT/'Content/data08-c-revised-ids.json').read_text()))+int(row[0] in json.loads((ROOT/'Content/data08-integration-revised-ids.json').read_text()))+int(row[0] in json.loads((ROOT/'Content/data09-a-revised-ids.json').read_text())))
+   actual=self.db.execute('SELECT * FROM content_items WHERE id=?',[row[0]]).fetchone();self.assertEqual(actual[:2]+actual[3:-1],row[:2]+row[3:-1]);self.assertEqual(actual[2],row[2]+int(row[0] in changed)+int(row[0] in json.loads((ROOT/'Content/data06-revised-ids.json').read_text()))+int(row[0] in json.loads((ROOT/'Content/data07-revised-ids.json').read_text()))+int(row[0] in json.loads((ROOT/'Content/data08-a-revised-ids.json').read_text()))+int(row[0] in json.loads((ROOT/'Content/data08-b-revised-ids.json').read_text()))+int(row[0] in json.loads((ROOT/'Content/data08-c-revised-ids.json').read_text()))+int(row[0] in json.loads((ROOT/'Content/data08-integration-revised-ids.json').read_text()))+int(row[0] in json.loads((ROOT/'Content/data09-a-revised-ids.json').read_text()))+int(row[0] in json.loads((ROOT/'Content/data09-b-revised-ids.json').read_text())))
   for table in ['vocabulary','meanings','examples','grammar','questions','hangul','pronunciation_rules','listening_items','lessons','courses']:
    for row in self.old.execute('SELECT * FROM '+table):self.assertEqual(self.db.execute('SELECT * FROM '+table+' WHERE id=?',[row[0]]).fetchone(),row)
   for row in self.old.execute('SELECT * FROM lesson_items'):self.assertIn(row,self.db.execute('SELECT * FROM lesson_items WHERE lesson_id=?',[row[0]]).fetchall())

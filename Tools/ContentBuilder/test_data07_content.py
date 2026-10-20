@@ -19,9 +19,9 @@ class Data07Tests(unittest.TestCase):
    self.assertEqual(r['validation']['error_count'],0);self.assertEqual(r['validation']['warning_count'],10)
    with sqlite3.connect(p) as c:self.assertEqual(signatures(c),signatures(self.c))
   # Cumulative Content13 -> current; DATA07's exact cohort remains checked below.
-  for t,delta in [('vocabulary',1361),('meanings',1438),('examples',2793),('grammar',18),('questions',3067),('listening_items',1825),('grammar_examples',146),('learner_notes',350)]:
+  for t,delta in [('vocabulary',1361),('meanings',1438),('examples',2865),('grammar',36),('questions',3139),('listening_items',1825),('grammar_examples',222),('learner_notes',350)]:
    self.assertEqual(self.c.execute('SELECT COUNT(*) FROM '+t).fetchone()[0]-self.old.execute('SELECT COUNT(*) FROM '+t).fetchone()[0],delta,t)
-  self.assertEqual(self.c.execute('SELECT schema_version,content_version,min_reader_version,is_fixture FROM content_metadata').fetchone(),(4,20,7,0))
+  self.assertEqual(self.c.execute('SELECT schema_version,content_version,min_reader_version,is_fixture FROM content_metadata').fetchone(),(4,21,7,0))
  def test_old_payloads_and_only_reviewed_endpoint_revision_changes(self):
   a,b=signatures(self.old),signatures(self.c);approved=set(json.loads((ROOT/'Content/data07-revised-ids.json').read_text()))
   subsequent=set(json.loads((ROOT/'Content/data08-a-revised-ids.json').read_text()))
@@ -29,10 +29,11 @@ class Data07Tests(unittest.TestCase):
   batch_c=set(json.loads((ROOT/'Content/data08-c-revised-ids.json').read_text()))
   integration=set(json.loads((ROOT/'Content/data08-integration-revised-ids.json').read_text()))
   data09_a=set(json.loads((ROOT/'Content/data09-a-revised-ids.json').read_text()))
-  self.assertEqual({id for id in a if a[id]!=b[id]},(approved | subsequent | batch_b | batch_c | integration | data09_a) & set(a));self.assertEqual(len(approved),30)
+  data09_b=set(json.loads((ROOT/'Content/data09-b-revised-ids.json').read_text()))
+  self.assertEqual({id for id in a if a[id]!=b[id]},(approved | subsequent | batch_b | batch_c | integration | data09_a | data09_b) & set(a));self.assertEqual(len(approved),30)
   for row in self.old.execute('SELECT * FROM content_items'):
    actual=self.c.execute('SELECT * FROM content_items WHERE id=?',[row[0]]).fetchone()
-   self.assertEqual(actual[:2]+actual[3:-1],row[:2]+row[3:-1]);self.assertEqual(actual[2],row[2]+int(row[0]in approved)+int(row[0]in subsequent)+int(row[0]in batch_b)+int(row[0]in batch_c)+int(row[0]in integration)+int(row[0]in data09_a))
+   self.assertEqual(actual[:2]+actual[3:-1],row[:2]+row[3:-1]);self.assertEqual(actual[2],row[2]+int(row[0]in approved)+int(row[0]in subsequent)+int(row[0]in batch_b)+int(row[0]in batch_c)+int(row[0]in integration)+int(row[0]in data09_a)+int(row[0]in data09_b))
   for t in ['vocabulary','meanings','examples','grammar','questions','listening_items','courses','lessons','hangul','pronunciation_rules']:
    for row in self.old.execute('SELECT * FROM '+t):self.assertEqual(self.c.execute('SELECT * FROM '+t+' WHERE id=?',[row[0]]).fetchone(),row)
   for t in ['vocabulary_examples','grammar_examples','lesson_items','question_choices','content_links']:

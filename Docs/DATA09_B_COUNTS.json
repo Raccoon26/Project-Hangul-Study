@@ -1,0 +1,122 @@
+{
+  "stage": "DATA-09-3",
+  "metadata": {
+    "schema_version": 4,
+    "content_version": 21,
+    "min_reader_version": 7,
+    "dataset_id": "ko-ja-core",
+    "is_fixture": 0,
+    "source_locale": "ja",
+    "target_locale": "ko"
+  },
+  "production": {
+    "content_items": 15766,
+    "hangul": 55,
+    "content_links": 6299,
+    "courses": 7,
+    "learner_notes": 531,
+    "questions": 3481,
+    "question_choices": 1260,
+    "lessons": 97,
+    "lesson_items": 1173,
+    "sources": 21,
+    "item_sources": 15332,
+    "pronunciation_rules": 36,
+    "pronunciation_presentations": 36,
+    "content_audio": 36,
+    "examples": 4741,
+    "pronunciation_examples": 13,
+    "audio_questions": 3,
+    "tags": 97,
+    "vocabulary": 2287,
+    "item_tags": 4507,
+    "meanings": 2420,
+    "vocabulary_examples": 4514,
+    "grammar": 78,
+    "grammar_examples": 317,
+    "listening_items": 1936
+  },
+  "level_distribution": {
+    "vocabulary": {
+      "beginner": 800,
+      "intro": 306,
+      "lower_intermediate": 1181
+    },
+    "meaning": {
+      "beginner": 847,
+      "intro": 327,
+      "lower_intermediate": 1246
+    },
+    "example": {
+      "beginner": 1577,
+      "intro": 659,
+      "lower_intermediate": 2505
+    },
+    "grammar": {
+      "beginner": 20,
+      "intro": 22,
+      "lower_intermediate": 36
+    },
+    "question": {
+      "beginner": 134,
+      "hangul": 59,
+      "intro": 156,
+      "lower_intermediate": 3132
+    },
+    "listening": {
+      "beginner": 79,
+      "intro": 34,
+      "lower_intermediate": 1823
+    },
+    "course": {
+      "beginner": 1,
+      "hangul": 1,
+      "intro": 2,
+      "lower_intermediate": 3
+    },
+    "lesson": {
+      "beginner": 6,
+      "hangul": 12,
+      "intro": 20,
+      "lower_intermediate": 59
+    }
+  },
+  "delta": {
+    "content_items": 169,
+    "hangul": 0,
+    "content_links": 126,
+    "courses": 1,
+    "learner_notes": 0,
+    "questions": 72,
+    "question_choices": 216,
+    "lessons": 6,
+    "lesson_items": 18,
+    "sources": 1,
+    "item_sources": 169,
+    "pronunciation_rules": 0,
+    "pronunciation_presentations": 0,
+    "content_audio": 0,
+    "examples": 72,
+    "pronunciation_examples": 0,
+    "audio_questions": 0,
+    "tags": 0,
+    "vocabulary": 0,
+    "item_tags": 0,
+    "meanings": 0,
+    "vocabulary_examples": 0,
+    "grammar": 18,
+    "grammar_examples": 76,
+    "listening_items": 0
+  },
+  "new_examples": 72,
+  "reused_existing_examples": 4,
+  "cumulative_data09": {
+    "grammar": 36,
+    "examples": 144,
+    "questions": 144
+  },
+  "source_tables": 25,
+  "source_rows": 65043,
+  "source_sha256": "d7bee9fa444f5d7e29675110aedcec97a231f0334a9e5b255452e83e2bf3a355",
+  "bundle_sha256": "0f53e4d93340d9ddc410d17a6cdd4aa1c3f4f69b2089e60b26a390cb9bdff009"
+}

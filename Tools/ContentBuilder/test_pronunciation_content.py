@@ -19,7 +19,7 @@ class PronunciationContentTests(unittest.TestCase):
         source=self.folder/'invalid.json';source.write_text(json.dumps(data,ensure_ascii=False))
         with self.assertRaises(ValueError):build(source,self.folder/'rejected.sqlite',production=True)
     def test_versions_integrity_and_reviewed_short_word_warnings(self):
-        self.assertEqual(self.db.execute('SELECT schema_version,content_version,min_reader_version,is_fixture FROM content_metadata').fetchone(),(4,20,7,0))
+        self.assertEqual(self.db.execute('SELECT schema_version,content_version,min_reader_version,is_fixture FROM content_metadata').fetchone(),(4,21,7,0))
         self.assertEqual(self.report['validation']['error_count'],0)
         # DATA-01/02/03 add five reviewed homograph groups; DEV-04 short-word warnings remain.
         self.assertEqual(self.report['validation']['warning_count'],10)
@@ -35,7 +35,7 @@ class PronunciationContentTests(unittest.TestCase):
             self.assertEqual(len(before),130)
     def test_course_order_and_rule_coverage(self):
         courses=self.db.execute('SELECT id,title_ja FROM courses ORDER BY ordinal').fetchall()
-        self.assertEqual([r[1] for r in courses],['ハングル入門','発音・パッチム','入門文法','初級文法','初中級・会話と現代生活','初中級文法・理由から計画へ'])
+        self.assertEqual([r[1] for r in courses],['ハングル入門','発音・パッチム','入門文法','初級文法','初中級・会話と現代生活','初中級文法・理由から計画へ','初中級文法・対照と経験の流れ'])
         lessons=self.db.execute('SELECT title_ja,ordinal FROM lessons WHERE course_id=? ORDER BY ordinal',[courses[1][0]]).fetchall()
         self.assertEqual(len(lessons),14);self.assertEqual([r[1] for r in lessons],list(range(14)))
         self.assertEqual(lessons[0][0],'パッチムの位置');self.assertEqual(lessons[-1][0],'総合確認')

@@ -1,3 +1,17 @@
+# DATA09-B / Content21 현재 재현
+
+원본 production.json → 기존 Importer → Resources/content.sqlite. Schema4/reader7/UserProgress10 유지. 새18문법/72예문/72문제, 기존예문4재사용(신규 제외), 전체Grammar78. 독립 사람/iOS 검수 gate는 유지한다. 상세 결과 DATA09_PROGRESS §9 / Docs/DATA09_B_RESULTS.json.
+
+```sh
+python3 Tools/ContentBuilder/prepare_data09_b.py --output /tmp/b-source.json --revised /tmp/b-revised.json
+python3 Tools/ContentBuilder/build_content.py Content/production.json /tmp/b-rebuilt.sqlite --production --previous Tests/Fixtures/content-v20-production.sqlite --report /tmp/b-report.json
+sh Tools/verify.sh --portable
+```
+
+prepare는 불변20과 고정ID로21만 재현한다. 최초 ID발급 옵션을 재현에 다시 쓰지 않는다. canonical 원본/번들/fixture를 출력 경로로 지정하지 않는다. 이전 절의 버전·수량은 당시 이력이다.
+
+---
+
 # 현재 Production — DATA-09-2 / Grammar Batch A
 
 Content20/Schema4/reader7/UserProgress10. 신규文法18/例文72/問題72、全体Grammar60/初中級18。canonical Sourceはproduction.json、current DBはResources/content.sqliteです。以下DATA08/01の版数は当時の履歴です。
