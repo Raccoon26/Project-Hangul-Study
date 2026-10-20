@@ -390,7 +390,7 @@
     "Docs/DATA09_C_REVIEW_CATALOG.md": "25ebf185d64ecd1c7fecccb98bd3019fe9c13f0b4e8ba30cbf63a866b1b66882",
     "Docs/DATA09_C_SCOPE.json": "f186596024660fa6c186a4390ccfecff7768c2657f23e2db7741852393039758",
     "Docs/DATA09_C_STRUCTURE.json": "e3c2584c2f447359cd4e52c7c6d4383f1acbb5ae9a63664904c3252c83613e97",
-    "DATA09_PROGRESS.md": "88c985005438090656e990d19f1f52ea22021601bdefd169071c6a3407d03ccd",
+    "DATA09_PROGRESS.md": "8d3cccd1d18928c59d57217eb24fec6d837c97ba15abcf151c89ca5bc078fd45",
     "Content/data09-c-ids.json": "9450a39e79f82bcf4ffe7c8f72068756fe4850c3412848f9b70e29f44add8bd6",
     "Content/data09-c-revised-ids.json": "df23aec522ed822bcc4199ef9c39a3c1bf14d64c701a39ed8abe407a3c12029a"
   },
@@ -401,5 +401,15 @@
       "Resources/content.sqlite"
     ],
     "other_protected_byte_changes": 0
+  },
+  "git_delivery": {
+    "content_commit": "b76b9c4230e5fc216068bbb313a1d0a5027e5dcf",
+    "branch": "data09-4/grammar-batch-c",
+    "push": "PASS",
+    "force_push": false,
+    "pull_request": 13,
+    "url": "https://github.com/Raccoon26/Project-Hangul-Study/pull/13",
+    "recorded_before_merge": true,
+    "final_merge_evidence": "GitHub PR state, git history and final assistant report"
   }
 }

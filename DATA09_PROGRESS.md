@@ -337,3 +337,8 @@ sh Tools/verify.sh --portable
 prepare는불변21+고정UUID+검수authoring으로이번22만 재현한다. 최초발급 `--allocate-ids`를 재현에 넣거나 후속Production을 덮어쓰는 용도로 쓰지 않는다. canonicalSource는production.json 하나다. 원본/DDL/Importer/registry/검수근거·재생성가능번들·불변fixture를 모두 보존한다. 최대 추적 파일50MiB 미만 확인 후 일반commit/push·PR을 사용하며 LFS/forcepush/이력재작성/원본삭제는 필요하지 않다. 최종merge/main일치는 PR/Git과 최종응답이 기준이다.
 
 미승인 원래 초안7개는 기 명사화, 게 부사형, 줄 알다/모르다, ㄹ 텐데, 다고 해서…것은 아니다, 기만 하다, 는 척하다다. 회상던/았던·일반 존경/겸양 전체체계·인용 축약/부정 범위·기존163후보 선행/Level재심사·신규예문 Listening/Dictation/직접입력 재사용·독립 사람/기기 검수도 남는다. 모든 예문 토큰의Dictionary등재·자동 활용 지원을 주장하지 않는다. **마지막 Batch C의 수량/콘텐츠 제작은 완료했고 후속 단계/DATA10은 시작하지 않는다.**
+
+
+### 10.6 Git 전달 기록
+
+콘텐츠 커밋 `b76b9c4230e5fc216068bbb313a1d0a5027e5dcf`를 `data09-4/grammar-batch-c`에 일반 push했고 성공했다. 대용량 파일 오류0, force push/LFS/원본 삭제/이력 재작성0. [PR #13](https://github.com/Raccoon26/Project-Hangul-Study/pull/13)을 main 대상으로 생성했다. 이 기록은 merge 전 전달 시점이며, 최종 merge/main 일치는 PR 상태·Git 이력과 최종 응답으로 확인한다.
