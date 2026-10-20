@@ -601,3 +601,7 @@ Source SHA `081ed35c7cd78345af1c1793fc450acaa2931f173cef00aaa960c8ef42318540`, B
 ### 14.5 Git·종료
 
 PROJECT_STATUS/CONTENT_GUIDE/DATA_PROGRESS/RELEASE_CHECKLIST/AGENTS/DATA09_PROGRESS를 실제 상태와 검증 한계로 갱신했다. 수량·품질·재현 명령·버그·다음 공백·원본/대용량 정책은 [최종 보고](Docs/DATA09_CLOSEOUT.md)에 있다. 이번 명시 지시에 따라 정상 commit/push/PR과 검증 후 main merge·원격 동기화를 수행한다. 실제 최종 SHA·PR 상태는 Git/PR과 최종 응답이 기준이다. Force Push 금지. **DATA09-8에서 종료하고 DATA10은 자동 시작하지 않는다.**
+
+### 14.6 Git 전달 기록
+
+검증된 종료 commit `982bf000355478ec834c4be1a2a684ac5e6fb0bc`를 `data09-8/final-closeout`으로 정상 push했다. PR은 [#17](https://github.com/Raccoon26/Project-Hangul-Study/pull/17)이다. 등록된 원격 CI check는 없어 보존한 로컬365 PASS만 실행 근거로 삼는다. 이 전달 기록은 문서만 변경하며 검증한 코드·Source·DB는 불변이다. 사용자의 지시에 따라 정상 main 병합과 원격 동기화를 진행하며 최종 merge SHA·상태는 해당 PR/Git과 최종 응답에서 확인한다. Force push·이력 재작성0.

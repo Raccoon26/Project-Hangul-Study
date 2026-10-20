@@ -413,7 +413,11 @@
           "bytes": 53135
         }
       ]
-    }
+    },
+    "validated_commit": "982bf000355478ec834c4be1a2a684ac5e6fb0bc",
+    "pr": 17,
+    "pr_url": "https://github.com/Raccoon26/Project-Hangul-Study/pull/17",
+    "remote_ci": "No status checks registered; local365 PASS only"
   },
   "next_stage_started": false
 }
