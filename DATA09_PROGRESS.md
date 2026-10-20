@@ -250,3 +250,8 @@ sh Tools/verify.sh --portable
 prepare_data09_b는 불변20+authoring+고정ID로 이번21만 재현한다. `--allocate-ids`를 재현 명령에 넣지 않으며 후속 Production을 덮어쓰는 Importer로 사용하지 않는다. canonical Source는 production.json 하나다. Source/DDL/Importer/ID/검수 근거와 재생성 가능한 번들·불변 fixture를 구분해 모두 보존한다. 최대 추적 파일은50MiB 미만이며 원본 삭제/LFS/이력 재작성/force push 없이 일반 commit/push·PR로 전달한다. 최종SHA/PR/merge/main 일치는 Git과 최종 응답이 기준이다.
 
 남은 콘텐츠: 인용의 발화 종류별 구조·명사화/수식·판단/추측·대화 의도·비례 변화, 기존163후보의 선행 전체 재연결 및 난도 검토, 신규 예문의 듣기/직접입력 재사용, 독립 사람/기기 검증. **DATA09-3/Batch B에서 종료하며 다음 단계는 시작하지 않았다.**
+
+
+### 9.6 Git 전달 기록
+
+콘텐츠 커밋 `0a9d846b98b528e2bbd7f920321afba8036550de`를 `data09-3/grammar-batch-b`에 일반 push했고 성공했다. 대용량 파일 오류0, force push/LFS/원본 삭제/이력 재작성0. [PR #12](https://github.com/Raccoon26/Project-Hangul-Study/pull/12)를 main 대상으로 생성했다. 이 전달 기록 작성 시점은 merge 전이며, 최종 merge/main 일치의 근거는 PR 상태·Git 이력과 최종 응답이다. 마지막 문서 점검에서 카탈로그 EOF 빈 줄 경고1건을 제거했으며 콘텐츠·테스트 코드·결과는 바뀌지 않았다.

@@ -380,12 +380,12 @@
     "Docs/DATA09_B_FOCUSED_TEST_LOG.txt": "0d58f7d655dcf6c417340a8966615c040893e8400cb815fa7560c6a682c35964",
     "Docs/DATA09_B_INITIAL_FOCUSED_TEST_LOG.txt": "3604bdb6ade6d2565ad5a5b531e21db2ca52814051d29418274327daa810f7d3",
     "Docs/DATA09_B_PORTABLE_TEST_LOG.txt": "d9dd30d8612e12894d1db825452cc493ea822a6e054eff661bd2cddb58f9b6d0",
+    "Docs/DATA09_B_REBUILD.json": "b16a6e92dc96c59b8cec39695acf6208934dc1c089c914f6e448b9b3b0ca978d",
     "Docs/DATA09_B_REVIEW.md": "c8fafecd3a55505da2c32edcff96b4d76b3470160197e7261f47bbf427276460",
-    "Docs/DATA09_B_REVIEW_CATALOG.md": "2f3f8478856825bc093b64fc774b44f37ee464668f8d6d4a282740dda7bc484b",
+    "Docs/DATA09_B_REVIEW_CATALOG.md": "faf7180c3a81cf440a88ec69a1882f996f28f99d1fc3d77fa71f3ac513fab052",
     "Docs/DATA09_B_SCOPE.json": "ba9431caff5c44eaabebec8fe9f02ab59cea67f58c0053b9920c347506426b94",
     "Docs/DATA09_B_STRUCTURE.json": "bb54dbd6d3ad6bf7e023d187299a3c38d04f8109a28b72bdf6cccfd85b735a3b",
-    "DATA09_PROGRESS.md": "98c13f1a1de67b81228e6ecf920510cfed0e1770fb8dff570838860486c2fb4b",
-    "Docs/DATA09_B_REBUILD.json": "b16a6e92dc96c59b8cec39695acf6208934dc1c089c914f6e448b9b3b0ca978d"
+    "DATA09_PROGRESS.md": "fc46e6a69e9d760f83a0df0200140839ce8cdc8c1097f0ee7efc5199e8b26f1e"
   },
   "preservation": {
     "baseline_files": 203,
@@ -394,5 +394,15 @@
       "Resources/content.sqlite"
     ],
     "other_protected_byte_changes": 0
+  },
+  "git_delivery": {
+    "content_commit": "0a9d846b98b528e2bbd7f920321afba8036550de",
+    "branch": "data09-3/grammar-batch-b",
+    "push": "PASS",
+    "force_push": false,
+    "pull_request": 12,
+    "url": "https://github.com/Raccoon26/Project-Hangul-Study/pull/12",
+    "recorded_before_merge": true,
+    "final_merge_evidence": "GitHub PR state and git history; final assistant report"
   }
 }
