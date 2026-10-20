@@ -21,8 +21,8 @@ class Data01ContentTests(unittest.TestCase):
     def clause(self,prefix):
         return next(s for s in re.findall(r'sql \+= "([^"]+)"',self.swift) if s.startswith(prefix))
     def test_release_counts_versions_and_integrity(self):
-        self.assertEqual(self.db.execute('SELECT schema_version,content_version,min_reader_version,is_fixture,dataset_id FROM content_metadata').fetchone(),(4,20,7,0,'ko-ja-core'))
-        for table,count in [('vocabulary',2287),('meanings',2420),('examples',4669),('courses',6),('lessons',91),('hangul',55),('pronunciation_rules',36)]:
+        self.assertEqual(self.db.execute('SELECT schema_version,content_version,min_reader_version,is_fixture,dataset_id FROM content_metadata').fetchone(),(4,21,7,0,'ko-ja-core'))
+        for table,count in [('vocabulary',2287),('meanings',2420),('examples',4741),('courses',7),('lessons',97),('hangul',55),('pronunciation_rules',36)]:
             self.assertEqual(self.db.execute('SELECT COUNT(*) FROM '+table).fetchone()[0],count)
         self.assertEqual(len(self.registry['examples']),447)
         self.assertEqual(self.db.execute('PRAGMA integrity_check').fetchone()[0],'ok')

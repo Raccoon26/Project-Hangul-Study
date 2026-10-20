@@ -1,0 +1,229 @@
+{
+  "stage": "DATA-09-3",
+  "selected_plan_keys": [
+    "P09",
+    "P10",
+    "P11",
+    "P12",
+    "P46",
+    "P04",
+    "P13",
+    "P31",
+    "P33",
+    "P32",
+    "P42",
+    "P43",
+    "P47",
+    "P41",
+    "P45",
+    "P49",
+    "P51",
+    "P52"
+  ],
+  "selected_grammar": [
+    {
+      "key": "B01",
+      "pattern": "-(으)ㄹ 때",
+      "prerequisite": "-아요 / 어요",
+      "comparisons": [
+        "-기 전에",
+        "-(으)ㄴ 후에"
+      ]
+    },
+    {
+      "key": "B02",
+      "pattern": "-고 나서",
+      "prerequisite": "-고",
+      "comparisons": [
+        "-고",
+        "-(으)ㄴ 후에"
+      ]
+    },
+    {
+      "key": "B03",
+      "pattern": "-는 동안 / N 동안",
+      "prerequisite": "-고 있다（進行）",
+      "comparisons": [
+        "-고 있다（進行）",
+        "-고 나서"
+      ]
+    },
+    {
+      "key": "B04",
+      "pattern": "-자마자",
+      "prerequisite": "-고 나서",
+      "comparisons": [
+        "-고 나서",
+        "-(으)ㄴ 후에"
+      ]
+    },
+    {
+      "key": "B05",
+      "pattern": "-다가（중단·전환）",
+      "prerequisite": "-고 있다（進行）",
+      "comparisons": [
+        "-고 나서",
+        "-는 동안 / N 동안"
+      ]
+    },
+    {
+      "key": "B06",
+      "pattern": "-아/어 있다（결과 상태）",
+      "prerequisite": "-고 있다（進行）",
+      "comparisons": [
+        "-고 있다（進行）",
+        "-아/어지다（상태 변화）"
+      ]
+    },
+    {
+      "key": "B07",
+      "pattern": "-(으)ㄴ/는데（배경·대조）",
+      "prerequisite": "-지만",
+      "comparisons": [
+        "-지만",
+        "-기 때문에 / N 때문에"
+      ]
+    },
+    {
+      "key": "B08",
+      "pattern": "-아/어도（양보）",
+      "prerequisite": "-지만",
+      "comparisons": [
+        "-아 / 어도 되다",
+        "-지만"
+      ]
+    },
+    {
+      "key": "B09",
+      "pattern": "-기는 하지만",
+      "prerequisite": "-지만",
+      "comparisons": [
+        "-지만",
+        "-(으)ㄴ/는데（배경·대조）"
+      ]
+    },
+    {
+      "key": "B10",
+      "pattern": "N(이)라도（차선·최소 선택）",
+      "prerequisite": "도",
+      "comparisons": [
+        "도",
+        "-아/어도（양보）"
+      ]
+    },
+    {
+      "key": "B11",
+      "pattern": "-더니（관찰·변화）",
+      "prerequisite": "-(으)ㄴ/는데（배경·대조）",
+      "comparisons": [
+        "-았/었더니（경험·발견）",
+        "-(으)ㄴ/는데（배경·대조）"
+      ]
+    },
+    {
+      "key": "B12",
+      "pattern": "-았/었더니（경험·발견）",
+      "prerequisite": "-더니（관찰·변화）",
+      "comparisons": [
+        "-더니（관찰·변화）",
+        "-(으)면"
+      ]
+    },
+    {
+      "key": "B13",
+      "pattern": "-다 보니(까)",
+      "prerequisite": "-다 보면",
+      "comparisons": [
+        "-다 보면",
+        "-았/었더니（경험·발견）"
+      ]
+    },
+    {
+      "key": "B14",
+      "pattern": "-(으)ㄹ 뻔하다",
+      "prerequisite": "-(으)ㄹ 거예요（予定）",
+      "comparisons": [
+        "-(으)ㄹ까 봐",
+        "-았 / 었어요"
+      ]
+    },
+    {
+      "key": "B15",
+      "pattern": "-고 나서야 / -(으)ㄴ 뒤에야",
+      "prerequisite": "-고 나서",
+      "comparisons": [
+        "-고 나서",
+        "-아/어야（필요 조건）"
+      ]
+    },
+    {
+      "key": "B16",
+      "pattern": "-(으)ㄴ/는 편이다",
+      "prerequisite": "-는 / -(으)ㄴ 것 같다（現在の推測）",
+      "comparisons": [
+        "-는 / -(으)ㄴ 것 같다（現在の推測）",
+        "보다（比較）"
+      ]
+    },
+    {
+      "key": "B17",
+      "pattern": "-는 대신(에) / N 대신(에)",
+      "prerequisite": "-(으)ㄴ/는데（배경·대조）",
+      "comparisons": [
+        "N(이)라도（차선·최소 선택）",
+        "-지만"
+      ]
+    },
+    {
+      "key": "B18",
+      "pattern": "-는 김에",
+      "prerequisite": "-는 동안 / N 동안",
+      "comparisons": [
+        "-는 대신(에) / N 대신(에)",
+        "-는 동안 / N 동안"
+      ]
+    }
+  ],
+  "reused": {
+    "B11": "68aa70de-9e0f-4fac-979b-2f2ae3217e6f",
+    "B12": "c4001ebf-8cc8-406c-b0dd-16937faa1eec",
+    "B14": "76c15fc5-8892-41a8-8582-0a7b492d4f51",
+    "B15": "d030d8b1-0a40-4ec2-adce-ef0bcfdbaf03"
+  },
+  "revision_allowlist": [
+    "0ae7131c-e497-4b82-8286-59c84d5c9e9d",
+    "1734a471-0e5b-4500-956c-dfa22926d2e9",
+    "400d4fa2-b300-406c-9425-c7bb1a125c9d",
+    "4310e69f-27bc-49bb-92a3-08f592427316",
+    "66f56006-dd56-4cc4-bdcb-38f1c17c0036",
+    "68aa70de-9e0f-4fac-979b-2f2ae3217e6f",
+    "71950d57-960d-45a6-a4e6-e492e4c01a50",
+    "76c15fc5-8892-41a8-8582-0a7b492d4f51",
+    "89a0c275-28c3-4698-9ec7-69c3fe1fcdf4",
+    "92cf69c3-2bda-453a-8b5f-47f1e4902f2a",
+    "93796ac0-18d5-4363-a562-26e6fff959b4",
+    "9ab75790-f386-4770-89c4-fd3909f97436",
+    "ae5e885a-382d-4051-b57c-1db78860d22a",
+    "c4001ebf-8cc8-406c-b0dd-16937faa1eec",
+    "cb33378d-7dda-43f8-9157-e3780201589d",
+    "cc45a574-10b5-47b3-9302-bdd0468ad221",
+    "cdae82b2-3b2a-4f9d-a3f6-c72767b97803",
+    "d030d8b1-0a40-4ec2-adce-ef0bcfdbaf03",
+    "da6206fe-cb6b-4842-8943-da3c54c07370",
+    "eef9130b-15eb-4138-ab8b-dcda74c864b1",
+    "f331886b-4670-4a73-a700-b0f0f036b1a4",
+    "f635b8cc-1c6a-415e-96cc-a450a8ff357f"
+  ],
+  "remaining_original_plan_units": 24,
+  "all_data09_approved_new": 36,
+  "target_new": [
+    45,
+    60
+  ],
+  "long_term_target": [
+    350,
+    500
+  ],
+  "native_status": "BLOCKED",
+  "human_status": "NOT TESTED"
+}

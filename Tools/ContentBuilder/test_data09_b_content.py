@@ -1,0 +1,196 @@
+"""DATA09-B real importer/SQLite regressions; never language or Swift certification."""
+import collections
+import copy
+import gzip
+import hashlib
+import json
+import os
+import shutil
+import socket
+import sqlite3
+import tempfile
+import unittest
+import uuid
+from pathlib import Path
+from unittest.mock import patch
+from build_content import ROOT,build
+from validator import signatures,ValidationError,normalize
+from test_data05_content import query
+from test_lookup_sql import user
+from prepare_data09_b import REUSED, authored, prepare
+from types import SimpleNamespace
+
+SOURCE=Path(os.environ.get('DATA09_B_SOURCE',ROOT/'Content/production.json'))
+BUNDLE=Path(os.environ.get('DATA09_B_BUNDLE',ROOT/'Resources/content.sqlite'))
+
+
+class Data09BatchBTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.source=json.loads(SOURCE.read_text())
+        cls.registry=json.loads((ROOT/'Content/data09-b-ids.json').read_text())
+        cls.approved=set(json.loads((ROOT/'Content/data09-b-revised-ids.json').read_text()))
+        cls.old=sqlite3.connect(ROOT/'Tests/Fixtures/content-v20-production.sqlite')
+        cls.db=sqlite3.connect(BUNDLE.resolve().as_uri()+'?mode=ro',uri=True)
+    @classmethod
+    def tearDownClass(cls):cls.db.close();cls.old.close()
+
+    def test_strict20_to21_rebuild_all_rows_and_original20_bytes(self):
+        self.assertEqual(hashlib.sha256((ROOT/'Tests/Fixtures/content-v20-production.sqlite').read_bytes()).hexdigest(),'c7b48bc8b27b7d436fadd41429d9dabf85acf615b632d8cc9a87ca5d6bc39886')
+        self.assertEqual(hashlib.sha256(gzip.decompress((ROOT/'Tests/Fixtures/content-v20-production.json.gz').read_bytes())).hexdigest(),'0ccf5dee471d10dc39401e01f5db52e8093bb77da822626457f2dde9a9bf4e19')
+        with tempfile.TemporaryDirectory() as folder:
+            out=Path(folder)/'rebuilt.sqlite';r=build(SOURCE,out,ROOT/'Tests/Fixtures/content-v20-production.sqlite',production=True)
+            self.assertEqual((r['validation']['error_count'],r['validation']['warning_count']),(0,10))
+            with sqlite3.connect(out) as rebuilt:
+                for table, in self.db.execute("SELECT name FROM sqlite_master WHERE type='table'"):
+                    self.assertEqual(collections.Counter(rebuilt.execute('SELECT * FROM '+table)),collections.Counter(self.db.execute('SELECT * FROM '+table)),table)
+        self.assertEqual(self.db.execute('SELECT schema_version,content_version,min_reader_version,is_fixture FROM content_metadata').fetchone(),(4,21,7,0))
+        self.assertEqual(self.db.execute('PRAGMA integrity_check').fetchall(),[('ok',)])
+        self.assertEqual(self.db.execute('PRAGMA foreign_key_check').fetchall(),[])
+
+    def test_exact_counts_stable_uuid4_and_no_unapproved_entities(self):
+        expected={'vocabulary':2287,'meanings':2420,'examples':4741,'grammar':78,'grammar_examples':317,'questions':3481,'listening_items':1936,'courses':7,'lessons':97,'content_items':15766}
+        for table,n in expected.items():self.assertEqual(self.db.execute('SELECT COUNT(*) FROM '+table).fetchone()[0],n,table)
+        new={r[0] for r in self.db.execute('SELECT id FROM content_items')}-{r[0] for r in self.old.execute('SELECT id FROM content_items')}
+        wanted={self.registry['course_id'],*self.registry['lesson_ids']}
+        for g in self.registry['grammar']:wanted|={g['id'],*g['example_ids'],*g['question_ids']}
+        self.assertEqual(new,wanted);self.assertEqual(len(new),169)
+        for item in new:
+            self.assertEqual(str(uuid.UUID(item)),item);self.assertEqual(uuid.UUID(item).version,4)
+            self.assertEqual(self.db.execute('SELECT level,revision,is_active FROM content_items WHERE id=?',(item,)).fetchone(),('lower_intermediate',1,1))
+
+    def test_every_old_payload_membership_and_exact22_revision_endpoints_preserved(self):
+        before,after=signatures(self.old),signatures(self.db)
+        self.assertTrue(set(before)<=set(after));self.assertEqual({i for i in before if before[i]!=after[i]},self.approved);self.assertEqual(len(self.approved),22)
+        for row in self.old.execute('SELECT * FROM content_items'):
+            expected=list(row)
+            if row[0] in self.approved:expected[2]+=1;expected[-1]=self.registry['created_at']
+            self.assertEqual(self.db.execute('SELECT * FROM content_items WHERE id=?',(row[0],)).fetchone(),tuple(expected))
+        for table, in self.old.execute("SELECT name FROM sqlite_master WHERE type='table' AND name NOT LIKE 'sqlite_%'"):
+            if table in ('content_items','content_metadata','vocabulary_search'):continue
+            self.assertTrue(set(self.old.execute('SELECT * FROM '+table))<=set(self.db.execute('SELECT * FROM '+table)),table)
+
+    def test_new_patterns_and72_pairs_have_no_normalized_old_or_internal_duplicates(self):
+        for table,field,ids in [('grammar','pattern',[g['id'] for g in self.registry['grammar']]),('examples','korean',[e for g in self.registry['grammar'] for e in g['example_ids']]),('examples','japanese',[e for g in self.registry['grammar'] for e in g['example_ids']])]:
+            norm=lambda x:''.join(normalize(x).split())
+            old={norm(r[0]) for r in self.old.execute('SELECT '+field+' FROM '+table)}
+            new=[norm(self.db.execute('SELECT '+field+' FROM '+table+' WHERE id=?',(i,)).fetchone()[0]) for i in ids]
+            self.assertEqual(len(new),len(set(new)));self.assertFalse(old&set(new))
+
+    def test_all18_cards_and_six_lessons_reachable_through_actual_repository_sql(self):
+        lessons=self.db.execute(query('SQLiteGrammarContent','SELECT l.id,l.title_ja'),['lower_intermediate',-1,30]).fetchall()
+        self.assertEqual([l[2] for l in lessons],list(range(47,59)))
+        lessons=[l for l in lessons if l[0] in self.registry['lesson_ids']]
+        self.assertEqual([l[2] for l in lessons],list(range(53,59)));self.assertEqual([l[3] for l in lessons],[3]*6)
+        seen=[]
+        for lid,_,_,_ in lessons:seen += [r[0] for r in self.db.execute(query('SQLiteGrammarContent','SELECT g.id FROM lesson_items'),[lid])]
+        self.assertEqual(seen,[g['id'] for g in self.registry['grammar']])
+        for g in self.registry['grammar']:
+            self.assertIsNotNone(self.db.execute(query('SQLiteGrammarContent','SELECT g.*,i.revision'),[g['id']]).fetchone())
+            self.assertEqual({r[0] for r in self.db.execute(query('SQLiteGrammarContent','SELECT e.id,e.korean'),[g['id']])},set(g['example_ids'])|({REUSED[g['key']]} if g['key'] in REUSED else set()))
+            self.assertEqual({r[0] for r in self.db.execute(query('SQLiteGrammarContent','SELECT q.*,i.revision'),[g['id']])},set(g['question_ids']))
+            self.assertGreaterEqual(len(self.db.execute(query('SQLiteGrammarContent','SELECT g.id,g.pattern'),[g['id']]).fetchall()),1)
+        search=query('SQLiteGrammarContent','SELECT g.id FROM grammar g JOIN content_items');after='';ids=[]
+        while True:
+            page=self.db.execute(search,['lower_intermediate',after,'','','',4]).fetchall()
+            if not page:break
+            ids += [r[0] for r in page];after=page[-1][0]
+        self.assertEqual(set(ids),set(seen)|{g['id'] for g in json.loads((ROOT/'Content/data09-a-ids.json').read_text())['grammar']});self.assertEqual(len(ids),36)
+
+    def test_72_single_choice_contracts_all_distractor_rationales_and_supported_tasks(self):
+        self.db.row_factory=sqlite3.Row
+        tasks=collections.Counter();answers=collections.Counter()
+        try:
+            for g in self.registry['grammar']:
+                for qid in g['question_ids']:
+                    q=self.db.execute('SELECT * FROM questions WHERE id=?',(qid,)).fetchone();answer=json.loads(q['answer_json'])['correct_choice_ids'];choices=self.db.execute('SELECT choice_id,text FROM question_choices WHERE question_id=? ORDER BY ordinal',(qid,)).fetchall()
+                    task=json.loads(q['rubric_json'])['grammar_task'];tasks[task]+=1
+                    self.assertEqual(q['question_type'],'multiple_choice');self.assertEqual(len(answer),1);self.assertEqual(len(choices),3)
+                    self.assertIn(answer[0],[r[0] for r in choices]);answers[answer[0]]+=1
+                    for _,text in choices:self.assertIn('「'+text+'」：',q['explanation_ja'])
+                    self.assertEqual(self.db.execute("SELECT target_id FROM content_links WHERE source_id=? AND relation='question_target'",(qid,)).fetchall()[0][0],g['id'])
+                    self.assertEqual(q['direction'],'ko_ko' if task=='form' else 'ko_ja')
+        finally:self.db.row_factory=None
+        self.assertEqual(tasks,dict(meaning=18,form=18,context=18,contrast=18));self.assertEqual(answers,dict(a=24,b=24,c=24))
+
+    def test_reviewed_irregular_and_particle_forms_are_exact_authored_answers(self):
+        expected=['들을 때','만들고 나서','사는 동안','듣자마자','걷다가','서 있다','추운데','도와도','멀기는 하지만','책이라도','듣더니','들었더니','걷다 보니','잊을 뻔했어요','만든 뒤에야','긴 편이다','만드는 대신','만드는 김에']
+        for g,wanted in zip(self.registry['grammar'],expected):
+            qid=g['question_ids'][1];answer=json.loads(self.db.execute('SELECT answer_json FROM questions WHERE id=?',(qid,)).fetchone()[0])['correct_choice_ids'][0]
+            self.assertEqual(self.db.execute('SELECT text FROM question_choices WHERE question_id=? AND choice_id=?',(qid,answer)).fetchone()[0],wanted)
+
+    def test_combined_prerequisite_graph_has_no_cycle_and_all_targets_are_active(self):
+        edges=collections.defaultdict(list)
+        for a,b,active in self.db.execute("SELECT l.source_id,l.target_id,i.is_active FROM content_links l JOIN grammar g ON g.id=l.source_id JOIN grammar t ON t.id=l.target_id JOIN content_items i ON i.id=t.id WHERE relation='prerequisite'"):
+            self.assertEqual(active,1);edges[a].append(b)
+        def visit(key,path):
+            self.assertNotIn(key,path)
+            for target in edges[key]:visit(target,path|{key})
+        for g in self.registry['grammar']:visit(g['id'],set())
+
+    def test_invalid_revision_version_task_and_multiple_answers_are_rejected(self):
+        first=self.registry['grammar'][0];gid=first['id'];qid=first['question_ids'][0]
+        changes={
+            'orphan':lambda s:s['tables']['grammar_examples'].append(dict(grammar_id=gid,example_id=str(uuid.uuid4()))),
+            'duplicate':lambda s:s['tables']['examples'].append(copy.deepcopy(s['tables']['examples'][-1])),
+            'version':lambda s:s['metadata'].update(content_version=20),
+            'revision':lambda s:next(r for r in s['tables']['content_items'] if r['id']==sorted(self.approved)[0]).update(revision=self.old.execute('SELECT revision FROM content_items WHERE id=?',(sorted(self.approved)[0],)).fetchone()[0]),
+            'unsupported':lambda s:next(q for q in s['tables']['questions'] if q['id']==qid).update(rubric_json='{"grammar_task":"free_writing"}'),
+            'multiple':lambda s:next(q for q in s['tables']['questions'] if q['id']==qid).update(answer_json='{"correct_choice_ids":["a","b"]}'),
+            'no_examples':lambda s:s['tables'].update(grammar_examples=[r for r in s['tables']['grammar_examples'] if r['grammar_id']!=gid]),
+        }
+        with tempfile.TemporaryDirectory() as folder:
+            p=Path(folder)/'bad.json'
+            for name,change in changes.items():
+                with self.subTest(case=name):
+                    source=copy.deepcopy(self.source);change(source);p.write_text(json.dumps(source,ensure_ascii=False))
+                    with self.assertRaises(ValidationError):build(p,Path(folder)/'bad.sqlite',ROOT/'Tests/Fixtures/content-v20-production.sqlite',production=True)
+
+    def test_disk_content_swap_preserves_user_snapshot_srs_and_duplicate_enrollment(self):
+        with tempfile.TemporaryDirectory() as folder:
+            active=Path(folder)/'content.sqlite';path=Path(folder)/'user.sqlite';shutil.copyfile(ROOT/'Tests/Fixtures/content-v20-production.sqlite',active)
+            d=user(path,10);old_g=json.loads((ROOT/'Content/data09-a-ids.json').read_text())['grammar'][0]['id']
+            d.execute("INSERT INTO srs_state VALUES(?,'grammar','calendar_steps',1,'{\"stage\":4}',900,NULL,100)",(old_g,));d.execute("INSERT INTO favorites(content_id,created_at,content_type) VALUES(?,100,'grammar')",(old_g,))
+            snapshot=json.dumps(dict(ids=[old_g],order=[old_g],position=0,page=3,contentVersion=20,selected='b',revision=8))
+            d.execute("INSERT INTO grammar_sessions VALUES('active','old-lesson',?,8,'active',100)",(snapshot,));d.commit();d.close()
+            before=hashlib.sha256(path.read_bytes()).hexdigest();shutil.copyfile(BUNDLE,active)
+            with patch.object(socket,'socket',side_effect=AssertionError('network forbidden')):
+                with sqlite3.connect(active) as c:self.assertIsNotNone(c.execute(query('SQLiteGrammarContent','SELECT g.*,i.revision'),[old_g]).fetchone())
+            self.assertEqual(hashlib.sha256(path.read_bytes()).hexdigest(),before)
+            d=sqlite3.connect(path);self.assertEqual(d.execute('SELECT state_json FROM grammar_sessions').fetchone()[0],snapshot)
+            enroll=query('SQLiteGrammarProgress','INSERT INTO srs_state(')
+            for _ in range(2):
+                d.execute(enroll,[old_g,'calendar_steps',1,'{"stage":0}',0,0])
+                for g in self.registry['grammar']:d.execute(enroll,[g['id'],'calendar_steps',1,'{"stage":0}',0,0])
+            self.assertEqual(d.execute("SELECT state_json,due_at FROM srs_state WHERE content_id=? AND skill='grammar'",(old_g,)).fetchone(),('{"stage":4}',900))
+            self.assertEqual(d.execute('SELECT COUNT(*) FROM srs_state').fetchone()[0],19);self.assertEqual(d.execute('SELECT * FROM favorites').fetchall(),[(old_g,100,'grammar')])
+            d.close()
+
+    def test_exact_four_data08_reused_examples_and_no_new_count_inflation(self):
+        data08=json.loads((ROOT/'Content/data08-a-ids.json').read_text())
+        cohort=set()
+        for batch in 'abc':
+            cohort.update(json.loads((ROOT/f'Content/data08-{batch}-ids.json').read_text())['examples'])
+        for key,eid in REUSED.items():
+            self.assertIn(eid,cohort)
+            self.assertEqual(self.old.execute('SELECT * FROM examples WHERE id=?',(eid,)).fetchone(),self.db.execute('SELECT * FROM examples WHERE id=?',(eid,)).fetchone())
+            g=next(g for g in self.registry['grammar'] if g['key']==key)
+            self.assertNotIn(eid,g['example_ids']);self.assertIn(eid,self.approved)
+            self.assertEqual(self.db.execute('SELECT COUNT(*) FROM grammar_examples WHERE grammar_id=?',(g['id'],)).fetchone()[0],5)
+        self.assertEqual(len(REUSED),4)
+        self.assertEqual(self.db.execute('SELECT COUNT(*) FROM examples').fetchone()[0]-self.old.execute('SELECT COUNT(*) FROM examples').fetchone()[0],72)
+
+    def test_fixed_registry_authoring_reproduces_source_and_reviewed_scope(self):
+        with tempfile.TemporaryDirectory() as folder:
+            out=Path(folder)/'candidate.json';rev=Path(folder)/'revised.json'
+            prepare(SimpleNamespace(allocate_ids=False,output=out,revised=rev))
+            self.assertEqual(out.read_bytes(),SOURCE.read_bytes())
+            self.assertEqual(json.loads(rev.read_text()),sorted(self.approved))
+        units=authored();bykey={u['key']:u for u in units}
+        # Observed editorial risks: unapproved forms and confused past/observation.
+        for u in units:
+            for e in u['examples']:
+                self.assertNotIn('올게요',e['korean']);self.assertNotIn('찾던 책',e['korean']);self.assertNotIn('얼마나 힘든지',e['korean'])
+        self.assertIn('-기는 했지만',bykey['B09']['form'])
+        self.assertIn('自動詞',bykey['B06']['explanation'])
+        self.assertIn('実際には',bykey['B14']['explanation'])
