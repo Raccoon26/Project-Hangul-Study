@@ -76,4 +76,6 @@ xcodebuild test-without-building -project HangulStudy.xcodeproj -scheme HangulSt
 
 ### 1.5 Git 전달
 
-검증 후 정상 Commit→Push→PR→필수 검사 확인→main merge→로컬/원격 main 전체SHA 일치를 수행한다. 실제 PR·검사·merge 결과는 아래 전달 기록과 Git/최종 응답이 기준이다. 권한/CI/검증문제로 미완료인 항목을 성공으로 바꾸지 않는다.
+분석·검수/실행 근거 commit `baa78564b5e1d7c439937997257e947f22b8c973`를 `codex/data10-1-listening-analysis`에 정상 push했고 [PR #18](https://github.com/Raccoon26/Project-Hangul-Study/pull/18)을 생성·이 채팅에 연결했다. PR은 MERGEABLE/CLEAN, `statusCheckRollup=[]`, required checks 조회는 ‘no checks reported’(CLI exit1)였으며 규칙/Actions workflow0이다. **필수 원격 검사가 없는 상태이며 CI PASS가 아니다.** 로컬363/365·native136/141과 명령143/미완료 gate를 PR 본문에 명시했다. 실패한 필수 CI를 우회하거나 admin/force merge하지 않는다.
+
+이 인계 기록은 문서만 보충하고 검증한 Source/Bundle/fixture/runtime/테스트를 바꾸지 않는다. 사용자 위임대로 정상 merge 후 fetch/ff-only로 로컬 main을 맞추고 전체SHA 일치/status를 확인한다. 자기 merge SHA 기록을 위해 재커밋하지 않으며 **실제 최종 merge SHA·main=origin/main·clean 상태는 PR/Git과 최종 응답이 기준**이다. 다음 환경은 fetch 후 최신 main에서 시작한다. 분석·환경 설정은 DATA10-1에서 종료하며 다음 Batch 자동 시작0이다.
