@@ -1,0 +1,8 @@
+{
+  "cold_setup": "PASS",
+  "sqlite_version": "3.53.1",
+  "stdlib_dump_roundtrip": "PASS",
+  "frozen24_sha256": "56a7fa8b5358e254eeb324e706860d150d20c8ec013ba0b6f602cf14d93cceff",
+  "current25_sha256": "01652666fc34cbc2d69a2d8a82f8aca778b20045b629df7d8623ee3e87a64500",
+  "current25_byte_equal": true
+}

@@ -1,0 +1,117 @@
+{
+  "recorded_at_utc": "2026-10-20T13:24:47.194005+00:00",
+  "environment": {
+    "os": "macOS27.0 arm64",
+    "xcode": "27.1 (27A9275)",
+    "destination": "iOS26.0.1 / iPhone17Pro Simulator EF9C685E-015B-4373-A0CD-7BC8CC4D3378",
+    "writer": "SQLite3.53.1 isolated pysqlite3 0.6.1; no STAT4/no zone; stdlib dump adapter"
+  },
+  "source_sha256": "ddb21c13e12624da2f208d3f842309ab79a075b986cea832424857cdae763941",
+  "bundle_sha256": "01652666fc34cbc2d69a2d8a82f8aca778b20045b629df7d8623ee3e87a64500",
+  "command": "TEST_DESTINATION='platform=iOS Simulator,id=EF9C685E-015B-4373-A0CD-7BC8CC4D3378' PATH='/tmp/hangul-data10-2/writer/bin:/tmp/hangul-data10-2/xcode-bin:$PATH' sh Tools/verify.sh",
+  "command_exit": 65,
+  "command_exit_reason": "XCTest known failed methods; completed normally, not interrupted",
+  "portable": {
+    "executed": 373,
+    "passed": 373,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "seconds": 684.789,
+    "phase_exit": 0
+  },
+  "builds": {
+    "debug_simulator": "PASS",
+    "release_simulator": "PASS",
+    "release_device_architecture_unsigned": "PASS",
+    "xcode_jobs": 1
+  },
+  "native": {
+    "executed": 142,
+    "passed": 137,
+    "failed": 5,
+    "skipped": 0,
+    "assertion_failures": 929,
+    "unexpected": 0,
+    "failed_methods": [
+      "-[HangulStudyTests.ListeningTests testData06RealItemsGradingAndAudioPolicy]",
+      "-[HangulStudyTests.PronunciationTests testListeningGateAndPronunciationProgressReopen]",
+      "-[HangulStudyTests.PronunciationTests testPronunciationCourseQueriesAndQuizAnswers]",
+      "-[HangulStudyTests.ReleaseAuditTests testConjugationOeContractsToWaeAndWaeStaysWae]",
+      "-[HangulStudyTests.StoreKitPurchaseTests testLocalNonConsumablePurchaseColdEntitlementAndRestore]"
+    ],
+    "sealed_xcresult_summary": "Docs/DATA10_A_XCRESULT_SUMMARY.json",
+    "new_batch_120_question_method": "PASS",
+    "data08_p1_five_methods": "PASS (subset of total)",
+    "phase_exit": 65,
+    "suite_seconds": 34.741,
+    "suite_elapsed_seconds": 35.313,
+    "startup_note": "Fresh Simulator app installation/launch waited before methods began; completed normally with sealed result, no forced interruption in final verify."
+  },
+  "strict": {
+    "errors": 0,
+    "warnings": 10,
+    "previous_version": 24
+  },
+  "preservation": {
+    "existing_entities_unchanged": 15941,
+    "protected24_and_older_files": 95,
+    "source_tables": 25,
+    "source_rows": 67385,
+    "new_ids": 300,
+    "existing_endpoint_revision_changes": 0
+  },
+  "preliminary_attempts": [
+    {
+      "label": "draft new test harness",
+      "executed": 8,
+      "passed": 6,
+      "failures": 1,
+      "errors": 1,
+      "cause": "internal sentence boundary assertion and absent SQL projection key; test harness corrected"
+    },
+    {
+      "label": "pre-final-language portable attempts",
+      "count": 2,
+      "exit": 130,
+      "status": "interrupted; not counted as completed or PASS"
+    },
+    {
+      "label": "first complete wrapper run",
+      "executed": 373,
+      "passed": 368,
+      "failures": 1,
+      "errors": 4,
+      "exit": 1,
+      "cause": "old cumulative count and missing iterdump; corrected expectations/stdlib adapter, no assertion weakening"
+    },
+    {
+      "label": "targeted count+new tests",
+      "executed": 9,
+      "passed": 9,
+      "seconds": 15.922
+    },
+    {
+      "label": "targeted dump preservation",
+      "executed": 2,
+      "passed": 2,
+      "seconds": 22.165
+    },
+    {
+      "label": "pre-freeze native",
+      "executed": 142,
+      "passed": 137,
+      "failed": 5,
+      "exit": 65,
+      "status": "completed; separate from final run, no unique-count addition"
+    }
+  ],
+  "release": "B—Conditional",
+  "remaining": [
+    "Known native five methods remain unfixed; see DATA10_NATIVE_FINDINGS.md",
+    "Independent native speaker/teacher and external dictionary full review NOT TESTED",
+    "Physical iPhone/normal-slow TTS listening/VoiceOver/IME/interruption/offline/3-10min NOT TESTED/BLOCKED",
+    "Signed archive and real production advertising/purchase NOT TESTED"
+  ],
+  "raw_final_log_sha256": "7690e685ca70bf846f64527d8dc2ec51bc8558ea7b87b82ca282845941771bbf"
+}

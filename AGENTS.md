@@ -9,7 +9,15 @@
 - 단계 종료에는 허용 범위의 diff·데이터/fixture 보존·관련 테스트를 확인하고 Commit → 일반 Push → main 대상 PR → 필수 checks/CI·mergeability 확인 → 정상 merge 순서로 전달한다. 이 요청처럼 병합까지 명시 위임된 작업은 재확인 없이 진행한다. 보호규칙/실패한 필수 CI를 우회하거나 admin 강제 병합하지 않는다. CI/check가 없으면 ‘없음’으로 기록하고 로컬 결과와 구분한다. 인증·권한·CI·충돌 등으로 중단되면 실제 원인과 필요한 조치를 남긴다.
 - 병합 후 clean checkout에서 main으로 이동해 fetch/ff-only 갱신하고 `git rev-parse HEAD origin/main`의 전체 SHA 일치와 status를 확인한다. PR URL·merge SHA·검사 결과/남은 gate를 최종 보고한다. 자기 merge SHA를 포함하려고 사후 문서 커밋을 반복하지 않는다. 최종 Git/PR과 응답을 인계 근거로 쓴다. 다음 환경은 로컬의 옛 main을 신뢰하지 않고 다시 fetch한다.
 - force push, 파괴적 reset/clean, 이력 재작성, 기존 Production/fixture 삭제, 데이터 축소를 통한 전달 우회를 금지한다. Xcode/Simulator 유무는 환경별로 다시 확인한다. Cloud portable PASS를 Mac native PASS로 바꾸지 않으며 설치되지 않은 native/실기기 gate는 BLOCKED로 유지한다.
-- Python/SQLite 버전과 `PRAGMA compile_options`도 확인한다. 현 배포24는 SQLite3.53.1의31테이블이다. Mac SQLite3.44.0의 ENABLE_STAT4 재구성은 같은31테이블의 행이 일치해도 추가 sqlite_stat4 때문에32테이블·SHA가 다르다(`Docs/DATA10_REBUILD_COMPARISON.json`). 이를 byte-exact PASS로 표시하거나 시스템 통계 테이블을 임의 삭제/검사 완화해 맞추지 않는다. 임시 재구성만 비교하고 Production을 보존하며, 실제 후속 배포 전 동일 writer 버전/compile profile의 재현 환경을 확인한다.
+- Python/SQLite 버전과 `PRAGMA compile_options`도 확인한다. DATA10-1 당시 배포24는 SQLite3.53.1의31테이블이다. Mac SQLite3.44.0의 ENABLE_STAT4 재구성은 같은31테이블의 행이 일치해도 추가 sqlite_stat4 때문에32테이블·SHA가 다르다(`Docs/DATA10_REBUILD_COMPARISON.json`). 이를 byte-exact PASS로 표시하거나 시스템 통계 테이블을 임의 삭제/검사 완화해 맞추지 않는다. 임시 재구성만 비교하고 Production을 보존하며, 실제 후속 배포 전 동일 writer 버전/compile profile의 재현 환경을 확인한다.
+
+## DATA-10-2 Listening Batch A 현재 기준
+
+- 명시 요청으로 初中級 신규 상황60개/문제120개를 Content25에 추가한다. 의미18/한국어12/받아쓰기30/내용이해60, 전TTS이며 녹음0이다. 일상·약속변경·교통·쇼핑·서비스·부탁/거절 각10원문. 기존 원문 source 재사용0, 신규 원문마다 Example1/Listening2/Question2이며 원문 수에 내부 문장/오답/반복 참조를 합산하지 않는다. 전체 DATA10 목표150~250/300~500은 유지한다.
+- Content24 원본/DB를 불변 fixture로 보존했다. 기존 모든 payload/ID/revision/created_at/learning_order/membership 변경0이다. 신규300개 UUID는 `data10-a-authoring.json`에 고정하고 기존 승인 revision 목록은 빈 배열이다. 다음 실제 콘텐츠 변경은 현재25를 previous로 먼저 보존한다. 과거 DATA09 정확한 통합 gate는 frozen24에 고정하고 새24→25 gate가 실제 Production 전체 보존을 검사한다.
+- 새 구간은 lower_intermediate learning_order2060~2179(batch103~108), 같은 source 두 유형은3구간 떨어진다. 기존 부분 구간을 채우거나 진행 중 snapshot을 재작성하지 않는다. 자동SRS가 같은 source 두 항목을 모을 수 있는 한계는 남는다. 목록은 기존練習番号이며 새 topic/다화자 UI를 구현한 것이 아니다.
+- Mac/Cloud byte writer 환경은 `Docs/DATA10_WRITER.md`/`setup_exact_writer.py`를 따른다. SQLite3.53.1만 같아도 allocator/compile profile로 통계 배치가 다를 수 있다. 격리된 profile에서 frozen24/현재25 전체 byte 비교를 확인하고 검사 완화·통계 삭제·원본 덮어쓰기로 우회하지 않는다.
+- Batch Self Review는 assistant 자체 검수다. 독립 사람/교사·실기기/TTS 검청·기존 활용/Purchase gate와 Release B—Conditional은 남는다. 최신 결과는 `DATA10_PROGRESS.md` §2 / `Docs/DATA10_A_*`다. 다음 단계는 자동 시작하지 않는다.
 
 ## DATA-10-1 분석 범위
 

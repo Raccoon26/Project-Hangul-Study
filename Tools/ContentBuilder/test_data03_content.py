@@ -38,7 +38,7 @@ class Data03ContentTests(unittest.TestCase):
         with sqlite3.connect(ROOT/'Tests/Fixtures/content-v6-production.sqlite') as old:
             before, after = signatures(old), signatures(self.db)
             self.assertEqual(len(before), 2288)
-            self.assertEqual(len(after), 15941)
+            self.assertEqual(len(after), 16241)
             self.assertTrue(all(after[id] == digest for id, digest in before.items() if id not in (json.loads((ROOT/"Content/dev08-revised-ids.json").read_text()) + json.loads((ROOT/"Content/dev09-revised-ids.json").read_text()) + json.loads((ROOT/"Content/data04-revised-ids.json").read_text()) + json.loads((ROOT/"Content/data05-revised-ids.json").read_text()) + json.loads((ROOT/"Content/data06-revised-ids.json").read_text()) + json.loads((ROOT/"Content/data07-revised-ids.json").read_text()) + json.loads((ROOT/"Content/data08-a-revised-ids.json").read_text()) + json.loads((ROOT/"Content/data08-b-revised-ids.json").read_text()) + json.loads((ROOT/"Content/data08-c-revised-ids.json").read_text()) + json.loads((ROOT/'Content/data09-a-revised-ids.json').read_text()) + json.loads((ROOT/'Content/data09-b-revised-ids.json').read_text()) + json.loads((ROOT/'Content/data09-c-revised-ids.json').read_text()) + json.loads((ROOT/'Content/data09-integration-revised-ids.json').read_text()) + json.loads((ROOT/"Content/data08-integration-revised-ids.json").read_text()))))
             for table in ['content_items', 'vocabulary', 'meanings', 'examples']:
                 for row in old.execute('SELECT * FROM '+table):
@@ -48,7 +48,7 @@ class Data03ContentTests(unittest.TestCase):
                         self.assertEqual(current[:2]+current[3:-1],row[:2]+row[3:-1])
                         continue
                     self.assertEqual(self.db.execute('SELECT * FROM '+table+' WHERE id=?', [row[0]]).fetchone(), row)
-        self.assertEqual(self.db.execute('SELECT schema_version,content_version,min_reader_version,is_fixture FROM content_metadata').fetchone(), (4,24,7,0))
+        self.assertEqual(self.db.execute('SELECT schema_version,content_version,min_reader_version,is_fixture FROM content_metadata').fetchone(), (4,25,7,0))
         with sqlite3.connect(ROOT/'Resources/content.sqlite') as bundle:
             self.assertEqual(signatures(bundle), signatures(self.db))
 

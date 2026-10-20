@@ -18,7 +18,7 @@ class Data04Tests(unittest.TestCase):
    self.assertEqual(report['validation']['error_count'],0);self.assertEqual(report['validation']['warning_count'],10)
    self.assertNotIn('duplicate_grammar_candidate',[w['code'] for w in report['validation']['warnings']])
    with sqlite3.connect(p) as rebuilt:self.assertEqual(signatures(rebuilt),signatures(self.db))
-  self.assertEqual(self.db.execute('SELECT schema_version,content_version,min_reader_version,is_fixture FROM content_metadata').fetchone(),(4,24,7,0))
+  self.assertEqual(self.db.execute('SELECT schema_version,content_version,min_reader_version,is_fixture FROM content_metadata').fetchone(),(4,25,7,0))
  def test_exact_delta_and_old_ids_payloads_membership_are_preserved(self):
   baseline=sqlite3.connect(ROOT/'Tests/Fixtures/content-v11-production.sqlite');self.addCleanup(baseline.close)
   # Pin this historical v10→v11 gate; DATA-05 tests strictly gate v11→current.

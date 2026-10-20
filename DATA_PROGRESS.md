@@ -1,3 +1,15 @@
+# DATA-10-2 / 初中級 Listening Batch A — Content25
+
+**Content25 / Schema4 / reader7 / UserProgress10.** 신규 상황60개·문제120개(내용60/받아쓰기30/의미18/한국어12), 6영역 각10원문/20문제. 전체 Example4,873/Listening2,056/Question3,673, Vocabulary2,287/Grammar96 불변. 기존 source 재사용0, 같은 신규 원문당2유형을 별도 구간에 배치했으며 전TTS·검증 녹음0이다. Content24 source/DB 불변 fixture와 기존95파일의 당시 byte·기존15,941개 엔티티 payload/ID/revision/순서/진도를 보존했다.
+
+한국어·일본어·정답/오답·accepted 전수 AI 자체 재독과 NFC/공백 중복·Stable ID/참조·strict previous24 오류0/기존경고10·source25테이블67,385행·DB/byte 재현을 확인했다. 독립 사람·교사/실제 TTS 검청·iPhone/VoiceOver·출시 검증은 남는다. DATA10 전체 목표150~250원문/300~500문제 유지, 이번60/120에서 종료하며 다음 단계는 시작하지 않는다.
+
+최종 `sh Tools/verify.sh`: **portable373/373 PASS**(실패/오류/skip0), Debug/Release Simulator·Release 기기 아키텍처 빌드 PASS. **native142실행·137PASS/기존5FAIL·skip0**, 정상 종료65/봉인 xcresult 보존. 새120문항·DATA08 P1 다섯 메서드는 PASS(전체142에 포함). 전체 native/출시 PASS는 아니다. [실제 결과](Docs/DATA10_A_TEST_RESULTS.json).
+
+최신 [DATA10_PROGRESS §2](DATA10_PROGRESS.md), [검수/한계](Docs/DATA10_A_REVIEW.md), [실제 수량](Docs/DATA10_A_COUNTS.json), [writer 재현](Docs/DATA10_WRITER.md)을 따른다. **Release B—Conditional 유지.** 아래 버전·‘현재’·완료/검사 표현은 각 단계 당시 이력이다.
+
+---
+
 # DATA-10-1 / 듣기 분석·Mac 환경 인계
 
 **Content24 / Schema4 / reader7 / UserProgress10 유지, Production 변경0.** PR #17 병합 main에서 듣기1,936개(전TTS) 전수 구조/중복/분포를 조사했다. 받아쓰기1,850개(95.56%), 初中級1,823개 중1,822개가 받아쓰기다. 신규150~250원문/300~500문제의 기준안200/400·4Batch를 설계했으며 이번 제작/통합0이다. AGENTS에 Mac/Windows Codex Cloud 교대 작업의 fetch·미커밋 보호·checkpoint push·PR/merge·main SHA 대조 규칙을 추가했다.

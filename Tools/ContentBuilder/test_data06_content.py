@@ -18,10 +18,10 @@ class Data06Tests(unittest.TestCase):
    p=Path(tmp)/'content.sqlite';r=build(ROOT/'Content/production.json',p,ROOT/'Tests/Fixtures/content-v12-production.sqlite',production=True)
    self.assertEqual(r['validation']['error_count'],0);self.assertEqual(r['validation']['warning_count'],10)
    with sqlite3.connect(p) as db:self.assertEqual(signatures(db),signatures(self.db))
-  for table,old,new in [('listening_items',31,1936),('questions',262,3553),('content_items',4503,15941),('examples',1876,4813),('vocabulary',926,2287),('grammar',42,96)]:
+  for table,old,new in [('listening_items',31,2056),('questions',262,3673),('content_items',4503,16241),('examples',1876,4873),('vocabulary',926,2287),('grammar',42,96)]:
    self.assertEqual(self.old.execute('SELECT COUNT(*) FROM '+table).fetchone()[0],old)
    self.assertEqual(self.db.execute('SELECT COUNT(*) FROM '+table).fetchone()[0],new)
-  self.assertEqual(self.db.execute('SELECT schema_version,content_version,min_reader_version,is_fixture FROM content_metadata').fetchone(),(4,24,7,0))
+  self.assertEqual(self.db.execute('SELECT schema_version,content_version,min_reader_version,is_fixture FROM content_metadata').fetchone(),(4,25,7,0))
   self.assertEqual(self.db.execute('PRAGMA foreign_key_check').fetchall(),[])
  def test_existing_payloads_stable_ids_orders_and_only_approved_revisions(self):
   approved=set(json.loads((ROOT/'Content/data06-revised-ids.json').read_text()));a,b=signatures(self.old),signatures(self.db)
@@ -46,7 +46,7 @@ class Data06Tests(unittest.TestCase):
    self.assertTrue(set(self.old.execute('SELECT * FROM '+table)) <= set(self.db.execute('SELECT * FROM '+table)))
  def test_all_new_items_through_bounded_repository_pages(self):
   seen=[];batches=query('SQLiteListening','SELECT l.learning_order/20');idsql=query('SQLiteListening','SELECT l.id FROM listening_items');qs=query('SQLiteListening','SELECT q.*,l.id')
-  for level,total in [('intro',34),('beginner',79),('lower_intermediate',1823)]:
+  for level,total in [('intro',34),('beginner',79),('lower_intermediate',1943)]:
    levelids=[]
    after=-1
    while True:
@@ -57,7 +57,7 @@ class Data06Tests(unittest.TestCase):
      rows=self.db.execute(qs+' AND l.id IN ('+','.join('?'for _ in ids)+') ORDER BY l.learning_order,l.id LIMIT 20',ids).fetchall();self.assertEqual(len(rows),len(ids));levelids+=ids
     after=page[-1][0]
    self.assertEqual(len(levelids),total);seen+=levelids
-  self.assertEqual(len(set(seen)),1936);self.assertTrue({v['id']for v in self.ids}<=set(seen))
+  self.assertEqual(len(set(seen)),2056);self.assertTrue({v['id']for v in self.ids}<=set(seen))
   self.assertEqual(self.db.execute(batches,['master',-1]).fetchall(),[])
  def test_new_types_sources_audio_choices_and_exact_dictation(self):
   self.assertEqual(len(self.ids),80);self.assertEqual(len({r['source_example_id']for r in self.ids}),80)

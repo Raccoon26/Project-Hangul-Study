@@ -20,19 +20,23 @@ from test_lookup_sql import user
 from test_data05_content import query
 from audit_data08_final import cohorts
 
-SOURCE=Path(os.environ.get('DATA09_INTEGRATION_SOURCE',ROOT/'Content/production.json'))
-BUNDLE=Path(os.environ.get('DATA09_INTEGRATION_BUNDLE',ROOT/'Resources/content.sqlite'))
+SOURCE=Path(os.environ.get('DATA09_INTEGRATION_SOURCE',ROOT/'Tests/Fixtures/content-v24-production.json.gz'))
+BUNDLE=Path(os.environ.get('DATA09_INTEGRATION_BUNDLE',ROOT/'Tests/Fixtures/content-v24-production.sqlite'))
 
 
 class Data09IntegrationTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
+        global SOURCE
+        cls.released_source=tempfile.TemporaryDirectory()
+        if SOURCE.suffix=='.gz':
+            raw=gzip.decompress(SOURCE.read_bytes());SOURCE=Path(cls.released_source.name)/'content24.json';SOURCE.write_bytes(raw)
         cls.source=json.loads(SOURCE.read_text());cls.manifest=json.loads((ROOT/'Content/data09-integration-ids.json').read_text())
         cls.registry={r['key']:r for r in registries()};cls.ids={r['id'] for r in cls.registry.values()}
         cls.approved=set(json.loads((ROOT/'Content/data09-integration-revised-ids.json').read_text()))
         cls.db=sqlite3.connect(BUNDLE);cls.old=sqlite3.connect(ROOT/'Tests/Fixtures/content-v23-production.sqlite')
     @classmethod
-    def tearDownClass(cls):cls.db.close();cls.old.close()
+    def tearDownClass(cls):cls.db.close();cls.old.close();cls.released_source.cleanup()
 
     def test_preserved19_and23_sources_and_both_strict_update_gates(self):
         expected={19:('57aeaf918d5eaaec3bbfaed02f87c5452cca8264540b923a70448b781adbe9e5','f97b3bd70d07a3945770b8d6940c4a53e29a9b70b565caf21fb927230c08b4a8'),23:('0a4051d3c5423441b50348935d64559504f1553a55fd3ea472c84b40c9ebc025',BASE_SHA)}

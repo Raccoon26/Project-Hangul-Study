@@ -1,0 +1,1625 @@
+{
+  "method": "NFC/whitespace exact tests + top3 character-trigram Jaccard for thematic reread; no semantic uniqueness certification",
+  "items": [
+    {
+      "key": "A01",
+      "korean": "오늘은 제가 저녁을 만들게요. 집에 오실 때 두부만 사다 주세요.",
+      "nearest_existing": [
+        {
+          "id": "1faace81-01ae-4964-8e4b-ab027167788a",
+          "korean": "친구와 저녁을 만들어요.",
+          "japanese": "友達と夕食を作ります。",
+          "character_trigram_jaccard": 0.125,
+          "sequence_ratio": 0.3673
+        },
+        {
+          "id": "a19d4714-a3af-4f51-84a8-ffc8b8c42b2e",
+          "korean": "오늘은 제가 동료를 대신해서 안내해요.",
+          "japanese": "今日は私が同僚に代わって案内します。",
+          "character_trigram_jaccard": 0.1042,
+          "sequence_ratio": 0.3509
+        },
+        {
+          "id": "5ffb3830-7125-4f9b-9974-b594840f80f6",
+          "korean": "한가할 때 전화해 주세요.",
+          "japanese": "手が空いたときに電話してください。",
+          "character_trigram_jaccard": 0.0952,
+          "sequence_ratio": 0.36
+        }
+      ]
+    },
+    {
+      "key": "A02",
+      "korean": "세탁기가 아직 돌아가고 있어요. 빨래가 끝나면 제가 널 테니까 먼저 나가세요.",
+      "nearest_existing": [
+        {
+          "id": "bfab0c9a-e5e5-488a-b60f-0eea9da84d5d",
+          "korean": "빨래가 아직 안 말랐어요.",
+          "japanese": "洗濯物がまだ乾いていません。",
+          "character_trigram_jaccard": 0.1277,
+          "sequence_ratio": 0.3158
+        },
+        {
+          "id": "76ccb844-9028-47f4-8b38-8a20b00fe9c2",
+          "korean": "가게가 아직 열려 있어요.",
+          "japanese": "店はまだ開いています。",
+          "character_trigram_jaccard": 0.1277,
+          "sequence_ratio": 0.3509
+        },
+        {
+          "id": "68f4d794-5909-4e5d-9791-49f836702a2e",
+          "korean": "빨래가 아직 눅눅해요.",
+          "japanese": "洗濯物がまだ湿っています。",
+          "character_trigram_jaccard": 0.1087,
+          "sequence_ratio": 0.2545
+        }
+      ]
+    },
+    {
+      "key": "A03",
+      "korean": "옆집 아기가 자고 있대요. 청소기는 나중에 돌리고 지금은 책상만 정리해요.",
+      "nearest_existing": [
+        {
+          "id": "f918346a-7085-4444-8ce7-de68edca8bfe",
+          "korean": "그 이야기는 나중에 해요.",
+          "japanese": "その話は後にしましょう。",
+          "character_trigram_jaccard": 0.1333,
+          "sequence_ratio": 0.4
+        },
+        {
+          "id": "8b553a5f-71a4-4230-95b4-4c5392ed3fb2",
+          "korean": "아기가 자고 있어서 문을 살며시 닫았어요.",
+          "japanese": "赤ちゃんが寝ているのでドアをそっと閉めました。",
+          "character_trigram_jaccard": 0.1111,
+          "sequence_ratio": 0.3125
+        },
+        {
+          "id": "72f89331-42e3-4a9d-9d72-96a1da87c501",
+          "korean": "책상을 정리해요.",
+          "japanese": "机を片付けます。",
+          "character_trigram_jaccard": 0.0952,
+          "sequence_ratio": 0.32
+        }
+      ]
+    },
+    {
+      "key": "A04",
+      "korean": "냉장고에 있는 국은 내일 먹을 거예요. 오늘 저녁에는 남은 밥으로 볶음밥을 해 먹어요.",
+      "nearest_existing": [
+        {
+          "id": "fd001e1e-3c5e-47bc-a64b-8cb20cb130de",
+          "korean": "오늘 저녁에는 집에서 쉬고 싶어요.",
+          "japanese": "今夜は家で休みたいです。",
+          "character_trigram_jaccard": 0.125,
+          "sequence_ratio": 0.3881
+        },
+        {
+          "id": "375a7058-ae77-4379-a721-0741d5b238dc",
+          "korean": "숟가락으로 밥을 먹어요.",
+          "japanese": "スプーンでご飯を食べます。",
+          "character_trigram_jaccard": 0.0962,
+          "sequence_ratio": 0.3279
+        },
+        {
+          "id": "2f677556-c86c-40e0-b187-f5ce701e0e99",
+          "korean": "우유는 냉장고에 있어요.",
+          "japanese": "牛乳は冷蔵庫にあります。",
+          "character_trigram_jaccard": 0.0962,
+          "sequence_ratio": 0.2951
+        }
+      ]
+    },
+    {
+      "key": "A05",
+      "korean": "현관 불이 안 켜져요. 새 전구는 서랍에 있으니까 퇴근하면 갈아 줄 수 있어요?",
+      "nearest_existing": [
+        {
+          "id": "e96c596d-a613-4913-822c-2dbffdcc9816",
+          "korean": "한 사람에게만 의존하면 부담을 줄 수 있어요.",
+          "japanese": "一人だけに頼ると、負担をかけることがあります。",
+          "character_trigram_jaccard": 0.1207,
+          "sequence_ratio": 0.3768
+        },
+        {
+          "id": "59ebf729-74e7-40dc-8b5f-8da9e342e553",
+          "korean": "컴퓨터가 잘 안 켜져요.",
+          "japanese": "パソコンの電源がうまく入りません。",
+          "character_trigram_jaccard": 0.1042,
+          "sequence_ratio": 0.2807
+        },
+        {
+          "id": "95519779-6c12-4303-8879-01a7be51a1eb",
+          "korean": "가위는 서랍 안에 있어요.",
+          "japanese": "はさみは引き出しの中にあります。",
+          "character_trigram_jaccard": 0.102,
+          "sequence_ratio": 0.3103
+        }
+      ]
+    },
+    {
+      "key": "A06",
+      "korean": "내일 아침에 일찍 나가야 해서 오늘은 먼저 잘게요. 설거지는 아침에 제가 할게요.",
+      "nearest_existing": [
+        {
+          "id": "dfec6526-bec1-4ceb-8edb-86127e7141fe",
+          "korean": "아침 기차를 타려면 일찍 나가야 해요.",
+          "japanese": "朝の列車に乗るには、早く出なければなりません。",
+          "character_trigram_jaccard": 0.1373,
+          "sequence_ratio": 0.3939
+        },
+        {
+          "id": "d5a472be-a040-4009-9066-c91d81b42b0e",
+          "korean": "너무 졸려서 먼저 잘게요.",
+          "japanese": "とても眠いので先に寝ます。",
+          "character_trigram_jaccard": 0.1333,
+          "sequence_ratio": 0.339
+        },
+        {
+          "id": "601cc9b9-ba66-4e9b-b1fb-c9c18c9b1e6c",
+          "korean": "나머지는 내일 할게요.",
+          "japanese": "残りは明日やります。",
+          "character_trigram_jaccard": 0.1136,
+          "sequence_ratio": 0.3158
+        }
+      ]
+    },
+    {
+      "key": "A07",
+      "korean": "우유가 조금 남아 있어요. 내일 아침까지는 충분하니까 오늘은 더 사지 않아도 돼요.",
+      "nearest_existing": [
+        {
+          "id": "d93b075a-af8d-435b-b531-f4bafe181052",
+          "korean": "당장 결정하지 않아도 돼요.",
+          "japanese": "今すぐ決めなくても大丈夫です。",
+          "character_trigram_jaccard": 0.14,
+          "sequence_ratio": 0.3607
+        },
+        {
+          "id": "4d820eec-24a7-4b1d-9928-ac22e0237d0c",
+          "korean": "무리한 요구에는 응하지 않아도 돼요.",
+          "japanese": "無理な要求には応じなくてもかまいません。",
+          "character_trigram_jaccard": 0.1273,
+          "sequence_ratio": 0.4242
+        },
+        {
+          "id": "db24b1fd-eb0a-4cec-abb2-232aec2882ef",
+          "korean": "가게 불이 꺼져 있어요. 오늘은 쉬나 봐요.",
+          "japanese": "店の明かりが消えています。今日は休みのようです。",
+          "character_trigram_jaccard": 0.1186,
+          "sequence_ratio": 0.4571
+        }
+      ]
+    },
+    {
+      "key": "A08",
+      "korean": "이불을 말리려고 베란다에 내놓았어요. 먼저 들어오시면 비가 오기 전에 걷어 주세요.",
+      "nearest_existing": [
+        {
+          "id": "b1c0ff70-8e19-449c-aeaa-716e9474f768",
+          "korean": "가방을 들어 주세요.",
+          "japanese": "かばんを持ってください。",
+          "character_trigram_jaccard": 0.1042,
+          "sequence_ratio": 0.3158
+        },
+        {
+          "id": "80faa9f3-0e43-4adf-85cd-1d6c57f7fb2a",
+          "korean": "제 말을 들어 주세요.",
+          "japanese": "私の話を聞いてください。",
+          "character_trigram_jaccard": 0.102,
+          "sequence_ratio": 0.3103
+        },
+        {
+          "id": "c77250ff-15ff-48ff-a9a6-11f8e84ecaa6",
+          "korean": "말하기 전에 상대의 마음을 헤아려 주세요.",
+          "japanese": "話す前に、相手の気持ちをくみ取ってください。",
+          "character_trigram_jaccard": 0.1017,
+          "sequence_ratio": 0.3188
+        }
+      ]
+    },
+    {
+      "key": "A09",
+      "korean": "내일은 쓰레기를 버리는 날이에요. 아침에는 바쁘니까 오늘 밤에 봉투를 묶어 둘게요.",
+      "nearest_existing": [
+        {
+          "id": "ff796ddf-d6cb-4644-82d2-476bce8a295f",
+          "korean": "그 식당은 멀어요. 더구나 오늘은 쉬는 날이에요.",
+          "japanese": "その店は遠いです。その上、今日は定休日です。",
+          "character_trigram_jaccard": 0.1129,
+          "sequence_ratio": 0.274
+        },
+        {
+          "id": "d0a48ab9-d762-40b1-962a-d7c005f95b58",
+          "korean": "오늘은 쉬는 날이에요.",
+          "japanese": "今日は休みの日です。",
+          "character_trigram_jaccard": 0.102,
+          "sequence_ratio": 0.3103
+        },
+        {
+          "id": "25db99b7-75ae-462c-8f80-6f3280fc3fdd",
+          "korean": "쓰레기를 버려요.",
+          "japanese": "ごみを捨てます。",
+          "character_trigram_jaccard": 0.0851,
+          "sequence_ratio": 0.2909
+        }
+      ]
+    },
+    {
+      "key": "A10",
+      "korean": "제가 산 책이 오늘 도착한대요. 제가 없을 때 택배가 오면 문 앞에 놓아 달라고 해 주세요.",
+      "nearest_existing": [
+        {
+          "id": "5ffb3830-7125-4f9b-9974-b594840f80f6",
+          "korean": "한가할 때 전화해 주세요.",
+          "japanese": "手が空いたときに電話してください。",
+          "character_trigram_jaccard": 0.0909,
+          "sequence_ratio": 0.3077
+        },
+        {
+          "id": "77d657c5-7085-41c6-8dcb-74985124e183",
+          "korean": "너무 맵지 않게 해 주세요.",
+          "japanese": "辛すぎないようにしてください。",
+          "character_trigram_jaccard": 0.0893,
+          "sequence_ratio": 0.2727
+        },
+        {
+          "id": "1067c1c4-66a9-45b2-9f56-e9ec817d700b",
+          "korean": "그 이야기를 다시 해 주세요.",
+          "japanese": "その話をもう一度してください。",
+          "character_trigram_jaccard": 0.0877,
+          "sequence_ratio": 0.2687
+        }
+      ]
+    },
+    {
+      "key": "A11",
+      "korean": "내일 두 시에 만나기로 했는데 회의가 생겼어요. 한 시간 늦춰서 세 시에 만날 수 있을까요?",
+      "nearest_existing": [
+        {
+          "id": "32006f0a-8eaa-4e76-8922-8bafa0adac7f",
+          "korean": "모임 시간이 한 시간 늦춰졌어요.",
+          "japanese": "集まりの時刻が一時間遅くなりました。",
+          "character_trigram_jaccard": 0.1296,
+          "sequence_ratio": 0.3188
+        },
+        {
+          "id": "e337cbfb-ac07-4866-a5c0-e9d937118dc1",
+          "korean": "오후 세 시에 만나요.",
+          "japanese": "午後3時に会いましょう。",
+          "character_trigram_jaccard": 0.12,
+          "sequence_ratio": 0.254
+        },
+        {
+          "id": "34919dc1-9ecb-4e61-a406-6154c4419d84",
+          "korean": "내일 만나기로 약속했어요.",
+          "japanese": "明日会う約束をしました。",
+          "character_trigram_jaccard": 0.1154,
+          "sequence_ratio": 0.3692
+        }
+      ]
+    },
+    {
+      "key": "A12",
+      "korean": "오늘 약속 장소 앞에서 공사를 해요. 건너편 서점 안에서 기다릴 테니까 그쪽으로 와 주세요.",
+      "nearest_existing": [
+        {
+          "id": "43858bdb-8496-4fed-b452-d8f172fbe7c5",
+          "korean": "약속 장소 앞에서 서성이며 친구를 기다렸어요.",
+          "japanese": "待ち合わせ場所の前を行ったり来たりしながら、友達を待ちました。",
+          "character_trigram_jaccard": 0.1452,
+          "sequence_ratio": 0.4211
+        },
+        {
+          "id": "f1534b87-ddef-4d7e-9a85-a4d75a172c0d",
+          "korean": "여기서 기다릴게요. 천천히 건너오세요.",
+          "japanese": "ここで待っています。ゆっくり渡ってきてください。",
+          "character_trigram_jaccard": 0.0984,
+          "sequence_ratio": 0.2778
+        },
+        {
+          "id": "fcd7725d-c235-4412-95e2-49664cb54874",
+          "korean": "먼저 도착하거든 입구에서 기다려 주세요.",
+          "japanese": "先に着いたら、入り口で待っていてください。",
+          "character_trigram_jaccard": 0.0968,
+          "sequence_ratio": 0.3288
+        }
+      ]
+    },
+    {
+      "key": "A13",
+      "korean": "금요일 저녁에는 야근을 해야 해요. 저녁 약속을 취소하는 대신 토요일 점심에 만나면 어때요?",
+      "nearest_existing": [
+        {
+          "id": "f7b3be95-19b1-49e6-b18e-3cb683949614",
+          "korean": "가격이 싼 대신 불편을 조금 감수해야 해요.",
+          "japanese": "値段が安い代わりに、多少の不便は受け入れなければなりません。",
+          "character_trigram_jaccard": 0.0952,
+          "sequence_ratio": 0.2667
+        },
+        {
+          "id": "8be2e313-6a3b-4a1d-8fcd-e4c277c4454c",
+          "korean": "막상 만나면 무슨 말을 해야 할지 모르겠어요.",
+          "japanese": "いざ会うと何を話せばいいか分かりません。",
+          "character_trigram_jaccard": 0.0938,
+          "sequence_ratio": 0.2368
+        },
+        {
+          "id": "4fad7565-85c3-419f-a528-c530e4888746",
+          "korean": "오늘 오후에 쉬는 대신 토요일에 일하기로 했어요.",
+          "japanese": "今日の午後に休む代わりに、土曜日に働くことにしました。",
+          "character_trigram_jaccard": 0.0909,
+          "sequence_ratio": 0.4103
+        }
+      ]
+    },
+    {
+      "key": "A14",
+      "korean": "버스를 놓쳐서 십 분쯤 늦을 것 같아요. 식당에 먼저 들어가 계시면 도착해서 연락할게요.",
+      "nearest_existing": [
+        {
+          "id": "16a7ada9-d763-4056-9cb7-f5964a099a3f",
+          "korean": "늦게 도착해서 먼저 양해를 구했어요.",
+          "japanese": "到着が遅くなり、まずご理解をお願いしました。",
+          "character_trigram_jaccard": 0.1017,
+          "sequence_ratio": 0.2609
+        },
+        {
+          "id": "676f5291-31ba-4e36-898e-918bee29d4d4",
+          "korean": "도착하면 연락할게요.",
+          "japanese": "着いたら連絡します。",
+          "character_trigram_jaccard": 0.098,
+          "sequence_ratio": 0.3
+        },
+        {
+          "id": "21305738-da6f-4eca-922b-40afe1505532",
+          "korean": "이 옷은 좀 큰 것 같아요.",
+          "japanese": "この服は少し大きいと思います。",
+          "character_trigram_jaccard": 0.0909,
+          "sequence_ratio": 0.3125
+        }
+      ]
+    },
+    {
+      "key": "A15",
+      "korean": "비가 많이 와서 오늘 산책은 어려울 것 같아요. 산책은 다음에 하고 오늘은 역 앞 카페에서 볼까요?",
+      "nearest_existing": [
+        {
+          "id": "8f01229d-09fa-4bdb-bedc-4af51c05bdaa",
+          "korean": "비가 많이 와서 오늘은 밖에 나가지 말자고 했어요.",
+          "japanese": "雨がひどいので、今日は外に出るのはやめようと言いました。",
+          "character_trigram_jaccard": 0.1719,
+          "sequence_ratio": 0.3855
+        },
+        {
+          "id": "482f305b-aeff-4753-8b3c-acb34ec5c1e0",
+          "korean": "아무래도 오늘은 못 갈 것 같아요.",
+          "japanese": "どうも今日は行けそうにありません。",
+          "character_trigram_jaccard": 0.1379,
+          "sequence_ratio": 0.3243
+        },
+        {
+          "id": "b62419e3-f371-4258-a6e0-7bfa357d34d6",
+          "korean": "오늘은 어쩐지 좋은 일이 생길 것 같아요.",
+          "japanese": "今日はなんとなくいいことがありそうです。",
+          "character_trigram_jaccard": 0.129,
+          "sequence_ratio": 0.3077
+        }
+      ]
+    },
+    {
+      "key": "A16",
+      "korean": "예약한 방을 오늘은 쓸 수 없대요. 건물은 그대로이고 모임 장소만 삼 층에서 이 층으로 바뀌었어요.",
+      "nearest_existing": [
+        {
+          "id": "1d01a00b-54a3-4e60-aba4-7b3f5f95b9a0",
+          "korean": "오늘은 갈 수 없어요.",
+          "japanese": "今日は行くことができません。",
+          "character_trigram_jaccard": 0.0862,
+          "sequence_ratio": 0.3284
+        },
+        {
+          "id": "fcbddc91-e976-457b-a088-ad89624915c8",
+          "korean": "집 주소가 바뀌었어요.",
+          "japanese": "自宅の住所が変わりました。",
+          "character_trigram_jaccard": 0.0862,
+          "sequence_ratio": 0.2687
+        },
+        {
+          "id": "7e87039f-8714-46d7-bbbf-7b34351eb551",
+          "korean": "약속 시간이 바뀌었어요.",
+          "japanese": "約束の時間が変わりました。",
+          "character_trigram_jaccard": 0.0847,
+          "sequence_ratio": 0.2941
+        }
+      ]
+    },
+    {
+      "key": "A17",
+      "korean": "다음 주 수업은 선생님 사정으로 하루 미뤄졌어요. 화요일이 아니라 수요일에 같은 시간에 오세요.",
+      "nearest_existing": [
+        {
+          "id": "7ddb73b7-693c-43d6-93aa-9391d2a0c1d5",
+          "korean": "회의가 다음 주로 미뤄졌어요.",
+          "japanese": "会議が来週に延期されました。",
+          "character_trigram_jaccard": 0.1207,
+          "sequence_ratio": 0.3478
+        },
+        {
+          "id": "50fc6dfd-04f4-4db3-9b90-d7ddcbed29fe",
+          "korean": "장난이 아니라 진심으로 하는 말이에요.",
+          "japanese": "冗談ではなく、本心から言っています。",
+          "character_trigram_jaccard": 0.0938,
+          "sequence_ratio": 0.2432
+        },
+        {
+          "id": "cbe982d8-55dc-4c84-9d6c-4fedfa65304d",
+          "korean": "매일 같은 시간에 일어나니 자연히 눈이 떠져요.",
+          "japanese": "毎日同じ時間に起きていると、自然に目が覚めます。",
+          "character_trigram_jaccard": 0.087,
+          "sequence_ratio": 0.2785
+        }
+      ]
+    },
+    {
+      "key": "A18",
+      "korean": "저녁에 만나기로 했지만 동생을 데리러 가야 해요. 괜찮으시면 오늘은 전화로 이야기할까요?",
+      "nearest_existing": [
+        {
+          "id": "2529732c-adff-4150-b92d-f4659e857e3f",
+          "korean": "어머니와 전화로 이야기해요.",
+          "japanese": "母と電話で話します。",
+          "character_trigram_jaccard": 0.1321,
+          "sequence_ratio": 0.2812
+        },
+        {
+          "id": "e332bdef-c112-4368-9c60-3eb58ab777c6",
+          "korean": "잠깐 쉰 후에 다시 이야기할까요?",
+          "japanese": "少し休んでから、もう一度話しましょうか。",
+          "character_trigram_jaccard": 0.1053,
+          "sequence_ratio": 0.3284
+        },
+        {
+          "id": "0c5f488c-eb4d-46a7-a88b-0ec549350944",
+          "korean": "우리는 다음 주에 다시 만나기로 했어요.",
+          "japanese": "私たちは、来週また会うことにしました。",
+          "character_trigram_jaccard": 0.0806,
+          "sequence_ratio": 0.2817
+        }
+      ]
+    },
+    {
+      "key": "A19",
+      "korean": "내일 병원 예약을 오전에서 오후로 바꿨어요. 점심 약속은 그대로니까 열두 시에 식당에서 만나요.",
+      "nearest_existing": [
+        {
+          "id": "0b6d6adc-ce09-4f9f-9eb9-f7ee580e0faa",
+          "korean": "식당에서 친구를 만나요.",
+          "japanese": "食堂で友達に会います。",
+          "character_trigram_jaccard": 0.1091,
+          "sequence_ratio": 0.2727
+        },
+        {
+          "id": "c646caf4-7eae-47c3-b341-5d6f7c670538",
+          "korean": "열두 시에 점심을 먹어요.",
+          "japanese": "12時に昼食を食べます。",
+          "character_trigram_jaccard": 0.1071,
+          "sequence_ratio": 0.2687
+        },
+        {
+          "id": "67648251-7695-49e3-8629-4e1bd7ff1a01",
+          "korean": "역에서 만나요.",
+          "japanese": "駅で会いましょう。",
+          "character_trigram_jaccard": 0.098,
+          "sequence_ratio": 0.2295
+        }
+      ]
+    },
+    {
+      "key": "A20",
+      "korean": "이번 주에는 모두 시간이 안 맞네요. 날짜는 다음 주에 다시 정하고 장소는 원래 식당으로 해요.",
+      "nearest_existing": [
+        {
+          "id": "0c5f488c-eb4d-46a7-a88b-0ec549350944",
+          "korean": "우리는 다음 주에 다시 만나기로 했어요.",
+          "japanese": "私たちは、来週また会うことにしました。",
+          "character_trigram_jaccard": 0.1475,
+          "sequence_ratio": 0.4
+        },
+        {
+          "id": "90dc45e0-81d8-46a5-9ff2-6289a76e75fb",
+          "korean": "다음 주에 다시 찾아올게요.",
+          "japanese": "来週また伺います。",
+          "character_trigram_jaccard": 0.125,
+          "sequence_ratio": 0.3235
+        },
+        {
+          "id": "e8d3fc4c-6087-4592-b2c9-bbe759ea409f",
+          "korean": "대회는 다음 주에 열려요.",
+          "japanese": "大会は来週開かれます。",
+          "character_trigram_jaccard": 0.1071,
+          "sequence_ratio": 0.2985
+        }
+      ]
+    },
+    {
+      "key": "A21",
+      "korean": "이 버스는 시장 앞에는 안 서요. 다음 정류장에서 내려서 길을 건너면 시장 입구가 보여요.",
+      "nearest_existing": [
+        {
+          "id": "f556ef2d-b5c7-4ac0-b379-571bfe04bd27",
+          "korean": "다음 정류장에서 내려요.",
+          "japanese": "次の停留所で降ります。",
+          "character_trigram_jaccard": 0.1875,
+          "sequence_ratio": 0.4127
+        },
+        {
+          "id": "5e78a176-9572-4b51-b910-d73f8557e484",
+          "korean": "횡단보도에서 길을 건너요.",
+          "japanese": "横断歩道で道を渡ります。",
+          "character_trigram_jaccard": 0.1154,
+          "sequence_ratio": 0.3125
+        },
+        {
+          "id": "0f673910-ea44-4e04-96cf-5d1b022e6755",
+          "korean": "친구가 길을 건너와서 인사했어요.",
+          "japanese": "友達が道を渡ってきて挨拶しました。",
+          "character_trigram_jaccard": 0.0877,
+          "sequence_ratio": 0.2647
+        }
+      ]
+    },
+    {
+      "key": "A22",
+      "korean": "급행열차는 박물관역에 서지 않아요. 거기서 내리실 분은 다음에 오는 일반 열차를 타셔야 해요.",
+      "nearest_existing": [
+        {
+          "id": "33e08520-4d43-4d3d-93f4-e3330868d6b9",
+          "korean": "이 열차는 다음 역에 정차하지 않아요.",
+          "japanese": "この列車は次の駅には止まりません。",
+          "character_trigram_jaccard": 0.15,
+          "sequence_ratio": 0.3562
+        },
+        {
+          "id": "510ca63f-eae2-4641-a258-953eb1615498",
+          "korean": "아이를 키우는 일은 쉽지 않아요.",
+          "japanese": "子どもを育てるのは簡単ではありません。",
+          "character_trigram_jaccard": 0.082,
+          "sequence_ratio": 0.2571
+        },
+        {
+          "id": "dfec6526-bec1-4ceb-8edb-86127e7141fe",
+          "korean": "아침 기차를 타려면 일찍 나가야 해요.",
+          "japanese": "朝の列車に乗るには、早く出なければなりません。",
+          "character_trigram_jaccard": 0.0781,
+          "sequence_ratio": 0.3014
+        }
+      ]
+    },
+    {
+      "key": "A23",
+      "korean": "지금 가면 출근 시간이라 길이 많이 막혀요. 조금 돌아가더라도 지하철로 가는 게 낫겠어요.",
+      "nearest_existing": [
+        {
+          "id": "4d2a80e1-885a-4be3-85a2-1b23f2f66f6d",
+          "korean": "어차피 해야 할 일이면 지금 하는 게 낫겠어요.",
+          "japanese": "どのみちやることなら、今やったほうがよさそうです。",
+          "character_trigram_jaccard": 0.125,
+          "sequence_ratio": 0.3421
+        },
+        {
+          "id": "d42393f3-f4ca-410a-8749-c5ece8823992",
+          "korean": "길이 막혀서 조금 늦었어요.",
+          "japanese": "道が混んでいたので少し遅れました。",
+          "character_trigram_jaccard": 0.1091,
+          "sequence_ratio": 0.3692
+        },
+        {
+          "id": "4c05d3f4-c97a-4bb2-b3b3-3374e9daf922",
+          "korean": "처음 가는 곳이라 조금 망설여져요.",
+          "japanese": "初めて行く場所なので少しためらいます。",
+          "character_trigram_jaccard": 0.0833,
+          "sequence_ratio": 0.3188
+        }
+      ]
+    },
+    {
+      "key": "A24",
+      "korean": "공항버스 표는 창구에서 먼저 사세요. 짐은 버스가 도착하면 기사님께 보여 드리면 돼요.",
+      "nearest_existing": [
+        {
+          "id": "161430bc-7fd3-4a1e-a411-2e640f8826ac",
+          "korean": "버스 방향이 헷갈리면 기사님께 물어보세요.",
+          "japanese": "バスの方向が分からなくなったら、運転手さんに尋ねてください。",
+          "character_trigram_jaccard": 0.1356,
+          "sequence_ratio": 0.3944
+        },
+        {
+          "id": "fcd7725d-c235-4412-95e2-49664cb54874",
+          "korean": "먼저 도착하거든 입구에서 기다려 주세요.",
+          "japanese": "先に着いたら、入り口で待っていてください。",
+          "character_trigram_jaccard": 0.1,
+          "sequence_ratio": 0.2857
+        },
+        {
+          "id": "5378cb54-6362-49dc-9841-f3302634c5e2",
+          "korean": "이 부품만 교체하면 돼요.",
+          "japanese": "この部品だけ取り替えれば大丈夫です。",
+          "character_trigram_jaccard": 0.0741,
+          "sequence_ratio": 0.2581
+        }
+      ]
+    },
+    {
+      "key": "A25",
+      "korean": "출구가 반대쪽에 있어요. 개찰구를 다시 나가지 말고 지하 통로를 따라가세요.",
+      "nearest_existing": [
+        {
+          "id": "ca2e6636-e0b5-409d-a638-949321cf369b",
+          "korean": "입구가 저쪽에 있어요.",
+          "japanese": "入口はあちらにあります。",
+          "character_trigram_jaccard": 0.1364,
+          "sequence_ratio": 0.3704
+        },
+        {
+          "id": "42d9b4f4-b8da-4bf6-8b19-d8f6ad31f922",
+          "korean": "친구를 따라가면 길을 찾을 수 있어요.",
+          "japanese": "友達についていけば道が分かります。",
+          "character_trigram_jaccard": 0.1346,
+          "sequence_ratio": 0.254
+        },
+        {
+          "id": "719608b8-736a-4659-afaf-406a569e9b1d",
+          "korean": "이 건물은 역과 지하 통로로 연결돼 있어요.",
+          "japanese": "この建物は、駅と地下通路でつながっています。",
+          "character_trigram_jaccard": 0.1273,
+          "sequence_ratio": 0.3333
+        }
+      ]
+    },
+    {
+      "key": "A26",
+      "korean": "교통카드 잔액이 부족하네요. 저기 충전기에서 충전하신 뒤에 다시 찍어 주세요.",
+      "nearest_existing": [
+        {
+          "id": "1b66ebd9-600d-4152-a87f-579bdb29b495",
+          "korean": "사진을 찍어 주세요.",
+          "japanese": "写真を撮ってください。",
+          "character_trigram_jaccard": 0.1395,
+          "sequence_ratio": 0.2963
+        },
+        {
+          "id": "3ac78e84-2f1e-4e86-9ba9-c1d7d1e5883c",
+          "korean": "이틀 뒤에 다시 오세요.",
+          "japanese": "2日後にまた来てください。",
+          "character_trigram_jaccard": 0.1333,
+          "sequence_ratio": 0.3929
+        },
+        {
+          "id": "154f0015-ed67-4d22-b08c-b815e9aa69d7",
+          "korean": "수정 후에 다시 보내 주세요.",
+          "japanese": "修正してからもう一度送ってください。",
+          "character_trigram_jaccard": 0.125,
+          "sequence_ratio": 0.3729
+        }
+      ]
+    },
+    {
+      "key": "A27",
+      "korean": "이번 열차는 사람이 너무 많아요. 다음 열차가 곧 온다니까 한 대 보내고 타요.",
+      "nearest_existing": [
+        {
+          "id": "5728ccb1-c364-4037-95ed-2242f58979a9",
+          "korean": "계단이 너무 많아요.",
+          "japanese": "階段がとても多いです。",
+          "character_trigram_jaccard": 0.1628,
+          "sequence_ratio": 0.3273
+        },
+        {
+          "id": "7d38feb1-38b6-4b36-b95d-fddc83a067c6",
+          "korean": "차례를 기다리는 사람이 많아요.",
+          "japanese": "順番を待っている人がたくさんいます。",
+          "character_trigram_jaccard": 0.1429,
+          "sequence_ratio": 0.3607
+        },
+        {
+          "id": "6c156447-467c-4ad7-9b7b-ece637a8e463",
+          "korean": "자료를 찾는 사람이 많아요. 중요한 자료인가 봐요.",
+          "japanese": "資料を探している人が多いです。大切な資料のようです。",
+          "character_trigram_jaccard": 0.1356,
+          "sequence_ratio": 0.4722
+        }
+      ]
+    },
+    {
+      "key": "A28",
+      "korean": "길이 막혀서 약속 시간에 늦겠어요. 여기서 택시를 내려서 남은 거리는 걸어갈게요.",
+      "nearest_existing": [
+        {
+          "id": "30439e7e-877c-4f67-86e0-512b3359f34d",
+          "korean": "길이 막혀서 늦었어요.",
+          "japanese": "道が混んでいて遅れました。",
+          "character_trigram_jaccard": 0.1277,
+          "sequence_ratio": 0.386
+        },
+        {
+          "id": "c07a004f-b4f4-4273-a67d-18ae7474e1a0",
+          "korean": "약속 시간에 늦지 않도록 일찍 나올게요.",
+          "japanese": "約束の時間に遅れないよう、早めに出ますね。",
+          "character_trigram_jaccard": 0.125,
+          "sequence_ratio": 0.4179
+        },
+        {
+          "id": "23c85689-d3b4-43ab-ae06-9ae1b1d53430",
+          "korean": "출발을 지체하면 약속 시간에 늦을 거예요.",
+          "japanese": "出発を遅らせると、約束の時間に遅れるでしょう。",
+          "character_trigram_jaccard": 0.1228,
+          "sequence_ratio": 0.3529
+        }
+      ]
+    },
+    {
+      "key": "A29",
+      "korean": "역 앞 도로를 고치는 중이라 버스 정류장이 옮겨졌어요. 이번 주에는 약국 앞에서 타시면 돼요.",
+      "nearest_existing": [
+        {
+          "id": "8a12a10d-6b13-4a8c-807e-851fed1209c7",
+          "korean": "지금은 도로를 고치는 일이 가장 시급해요.",
+          "japanese": "今は、道路の修理が最も急を要します。",
+          "character_trigram_jaccard": 0.1094,
+          "sequence_ratio": 0.3467
+        },
+        {
+          "id": "37460b16-2c70-4231-8a61-4fb2a0506770",
+          "korean": "버스 정류장이 어디예요?",
+          "japanese": "バス停はどこですか。",
+          "character_trigram_jaccard": 0.1091,
+          "sequence_ratio": 0.3077
+        },
+        {
+          "id": "df1fe315-2e8b-41aa-ba40-1911309cf0d7",
+          "korean": "역 앞에서 친구와 헤어졌어요.",
+          "japanese": "駅の前で友達と別れました。",
+          "character_trigram_jaccard": 0.1034,
+          "sequence_ratio": 0.2647
+        }
+      ]
+    },
+    {
+      "key": "A30",
+      "korean": "돌아오는 표는 아직 안 샀어요. 일이 언제 끝날지 몰라서 역에 도착한 뒤에 사려고요.",
+      "nearest_existing": [
+        {
+          "id": "6ae9b67f-67fa-46d6-8f53-e58cfbe1f77c",
+          "korean": "친구는 아직 안 왔어요.",
+          "japanese": "友達はまだ来ていません。",
+          "character_trigram_jaccard": 0.12,
+          "sequence_ratio": 0.3333
+        },
+        {
+          "id": "5c30c5ac-57fc-4f57-9f7b-19e7e0f4deb2",
+          "korean": "수건이 아직 안 말라서 다른 수건을 썼어요.",
+          "japanese": "タオルがまだ乾いていなかったので別のタオルを使いました。",
+          "character_trigram_jaccard": 0.0984,
+          "sequence_ratio": 0.2535
+        },
+        {
+          "id": "248bad5f-ae80-4d90-8c03-4af524ac5d3e",
+          "korean": "감기가 아직 안 나았어요.",
+          "japanese": "風邪がまだ治っていません。",
+          "character_trigram_jaccard": 0.0962,
+          "sequence_ratio": 0.2951
+        }
+      ]
+    },
+    {
+      "key": "A31",
+      "korean": "이 옷은 색이 마음에 드는데 조금 작아요. 같은 색으로 한 치수 큰 걸 입어 봐도 될까요?",
+      "nearest_existing": [
+        {
+          "id": "c627c7ab-715f-45fe-8ee7-ab082752d13b",
+          "korean": "이 옷은 색이 연해요.",
+          "japanese": "この服は色が淡いです。",
+          "character_trigram_jaccard": 0.1176,
+          "sequence_ratio": 0.3226
+        },
+        {
+          "id": "a63ff3a3-5062-4d01-aac8-718e8176e4bf",
+          "korean": "제 방은 조금 작아요.",
+          "japanese": "私の部屋は少し小さいです。",
+          "character_trigram_jaccard": 0.1176,
+          "sequence_ratio": 0.3226
+        },
+        {
+          "id": "f56f6e39-9713-4b25-8b7c-747047ee4b50",
+          "korean": "이 옷은 사이즈가 작아요.",
+          "japanese": "この服はサイズが小さいです。",
+          "character_trigram_jaccard": 0.1132,
+          "sequence_ratio": 0.3438
+        }
+      ]
+    },
+    {
+      "key": "A32",
+      "korean": "선물할 거라서 가격표는 떼어 주세요. 포장 상자는 필요 없고 종이봉투에만 넣어 주세요.",
+      "nearest_existing": [
+        {
+          "id": "f21bdd57-4272-43e4-a463-fa7db5762575",
+          "korean": "봉투에 빵을 넣어 주세요.",
+          "japanese": "袋にパンを入れてください。",
+          "character_trigram_jaccard": 0.1489,
+          "sequence_ratio": 0.3548
+        },
+        {
+          "id": "23d7120b-2a6f-4175-8384-b24c623fedec",
+          "korean": "간장을 조금만 넣어 주세요.",
+          "japanese": "しょうゆを少しだけ入れてください。",
+          "character_trigram_jaccard": 0.1458,
+          "sequence_ratio": 0.3175
+        },
+        {
+          "id": "7d203a3c-58ca-4bcb-8c2a-a29a63d45ce6",
+          "korean": "설탕을 덜 넣어 주세요.",
+          "japanese": "砂糖を少なめに入れてください。",
+          "character_trigram_jaccard": 0.1277,
+          "sequence_ratio": 0.2951
+        }
+      ]
+    },
+    {
+      "key": "A33",
+      "korean": "어제 산 우산이 잘 안 펴져요. 환불보다는 같은 제품으로 교환하고 싶어요.",
+      "nearest_existing": [
+        {
+          "id": "6187d431-5f4a-41c0-8853-c2f8dbedc11d",
+          "korean": "계속 공부하고 싶어요.",
+          "japanese": "これからも勉強を続けたいです。",
+          "character_trigram_jaccard": 0.1136,
+          "sequence_ratio": 0.3019
+        },
+        {
+          "id": "0ebcd46d-199b-4d92-946f-7e6a2d38c821",
+          "korean": "졸업한 뒤에는 경제적으로 자립하고 싶어요.",
+          "japanese": "卒業後は、経済的に自立したいです。",
+          "character_trigram_jaccard": 0.1111,
+          "sequence_ratio": 0.4375
+        },
+        {
+          "id": "dd81c3c5-3a21-4724-b780-2d260254a9e1",
+          "korean": "서로에게 이로운 방향으로 결정하고 싶어요.",
+          "japanese": "お互いのためになる方向で、決めたいです。",
+          "character_trigram_jaccard": 0.1111,
+          "sequence_ratio": 0.375
+        }
+      ]
+    },
+    {
+      "key": "A34",
+      "korean": "이 신발은 매장에 제 사이즈가 없네요. 다른 지점에 있으면 집으로 배송해 주실 수 있나요?",
+      "nearest_existing": [
+        {
+          "id": "58eb34d7-5da9-433a-bfe9-cd4716283126",
+          "korean": "직접 겪은 경험담을 들려주실 수 있나요?",
+          "japanese": "ご自身の経験談を、聞かせていただけますか。",
+          "character_trigram_jaccard": 0.1148,
+          "sequence_ratio": 0.3611
+        },
+        {
+          "id": "fe889f41-cdcc-410e-bb90-4219f56d59af",
+          "korean": "가방을 잠시 보관해 주실 수 있어요?",
+          "japanese": "かばんを少し預かっていただけますか。",
+          "character_trigram_jaccard": 0.1,
+          "sequence_ratio": 0.3429
+        },
+        {
+          "id": "0270721b-6db0-4ef2-9b72-a6c458469be4",
+          "korean": "영수증이 있으면 반품할 수 있어요.",
+          "japanese": "レシートがあれば返品できます。",
+          "character_trigram_jaccard": 0.0833,
+          "sequence_ratio": 0.3188
+        }
+      ]
+    },
+    {
+      "key": "A35",
+      "korean": "진열된 컵은 하나만 남아 있어요. 두 개 필요하시면 내일 새로 들어올 때 다시 오셔야 해요.",
+      "nearest_existing": [
+        {
+          "id": "8a0b92c4-1979-4bd8-84c1-7b327665ae53",
+          "korean": "어쩌면 내일 갈 수 있어요.",
+          "japanese": "もしかすると明日行けます。",
+          "character_trigram_jaccard": 0.1071,
+          "sequence_ratio": 0.2424
+        },
+        {
+          "id": "685a2653-ede4-4924-a1df-a50524bcba71",
+          "korean": "이 방에는 콘센트가 두 개 있어요.",
+          "japanese": "この部屋にはコンセントが二つあります。",
+          "character_trigram_jaccard": 0.1,
+          "sequence_ratio": 0.2286
+        },
+        {
+          "id": "935ea38d-a4f9-43e7-8ca5-f261de12e432",
+          "korean": "문장 하나만 보면 전체 맥락을 놓칠 수 있어요.",
+          "japanese": "一文だけを見ると、全体の文脈を見失うことがあります。",
+          "character_trigram_jaccard": 0.0896,
+          "sequence_ratio": 0.2597
+        }
+      ]
+    },
+    {
+      "key": "A36",
+      "korean": "이 가방은 할인 상품이라 쿠폰을 함께 쓸 수 없어요. 쿠폰은 할인하지 않는 상품에 써 주세요.",
+      "nearest_existing": [
+        {
+          "id": "c2718f19-8e20-423f-9be6-7e0c19069718",
+          "korean": "이름을 위에 써 주세요.",
+          "japanese": "名前を上に書いてください。",
+          "character_trigram_jaccard": 0.1176,
+          "sequence_ratio": 0.3385
+        },
+        {
+          "id": "344cf431-9e0f-43b5-b26f-ef499cb808b1",
+          "korean": "연필로 써 주세요.",
+          "japanese": "鉛筆で書いてください。",
+          "character_trigram_jaccard": 0.102,
+          "sequence_ratio": 0.2258
+        },
+        {
+          "id": "1d01a00b-54a3-4e60-aba4-7b3f5f95b9a0",
+          "korean": "오늘은 갈 수 없어요.",
+          "japanese": "今日は行くことができません。",
+          "character_trigram_jaccard": 0.098,
+          "sequence_ratio": 0.2812
+        }
+      ]
+    },
+    {
+      "key": "A37",
+      "korean": "영수증은 버리지 말고 보관해 주세요. 사이즈가 안 맞으면 일주일 안에 가져오시면 돼요.",
+      "nearest_existing": [
+        {
+          "id": "28fbf8cb-5801-4bc3-90d0-532109e4eac2",
+          "korean": "반대만 하지 말고 대안도 제시해 주세요.",
+          "japanese": "反対するだけでなく、代案も示してください。",
+          "character_trigram_jaccard": 0.1186,
+          "sequence_ratio": 0.3429
+        },
+        {
+          "id": "23362eff-a11a-4a08-baf4-999554e43d57",
+          "korean": "성적만 보지 말고 아이의 적성도 고려해 주세요.",
+          "japanese": "成績だけでなく、子供の適性も考慮してください。",
+          "character_trigram_jaccard": 0.1111,
+          "sequence_ratio": 0.3243
+        },
+        {
+          "id": "daba36c4-c32a-4dd6-ab47-5b7dd2eae121",
+          "korean": "말을 돌리지 말고 원하는 것을 분명히 알려 주세요.",
+          "japanese": "遠回しに言わず、希望をはっきり伝えてください。",
+          "character_trigram_jaccard": 0.1077,
+          "sequence_ratio": 0.3158
+        }
+      ]
+    },
+    {
+      "key": "A38",
+      "korean": "딸기는 오늘 먹을 거예요. 양이 많은 것보다 조금 비싸도 잘 익은 걸로 주세요.",
+      "nearest_existing": [
+        {
+          "id": "341f56b0-1e77-4206-98b1-b87c05f7ed68",
+          "korean": "밥을 조금 더 주세요.",
+          "japanese": "ご飯をもう少しください。",
+          "character_trigram_jaccard": 0.1064,
+          "sequence_ratio": 0.3571
+        },
+        {
+          "id": "b0691cef-0d44-415c-a3be-f514d1edbf05",
+          "korean": "우유를 조금 데워 주세요.",
+          "japanese": "牛乳を少し温めてください。",
+          "character_trigram_jaccard": 0.102,
+          "sequence_ratio": 0.3103
+        },
+        {
+          "id": "aa8c5056-b752-4a29-b34a-27ec59895a61",
+          "korean": "소리를 조금 줄여 주세요.",
+          "japanese": "音を少し小さくしてください。",
+          "character_trigram_jaccard": 0.102,
+          "sequence_ratio": 0.3103
+        }
+      ]
+    },
+    {
+      "key": "A39",
+      "korean": "인터넷에서 주문한 물건을 직접 찾으러 왔어요. 결제는 이미 했고 주문 번호도 가지고 있어요.",
+      "nearest_existing": [
+        {
+          "id": "45ac47bb-87bb-4911-940c-9f4ccdd3906c",
+          "korean": "주문한 물건을 오늘 발송했어요.",
+          "japanese": "ご注文の品を今日発送しました。",
+          "character_trigram_jaccard": 0.1273,
+          "sequence_ratio": 0.3529
+        },
+        {
+          "id": "7b9bb7bc-5800-4965-90f5-6d34b3d3992d",
+          "korean": "이 번호는 이미 등록되어 있어요.",
+          "japanese": "この番号はすでに登録されています。",
+          "character_trigram_jaccard": 0.125,
+          "sequence_ratio": 0.3188
+        },
+        {
+          "id": "88dab831-507d-41f6-85d3-d94a8b976838",
+          "korean": "인터넷에서 먼저 결제했어요.",
+          "japanese": "ネットで先に支払いました。",
+          "character_trigram_jaccard": 0.1111,
+          "sequence_ratio": 0.303
+        }
+      ]
+    },
+    {
+      "key": "A40",
+      "korean": "장바구니를 집에 두고 왔네요. 봉투는 하나만 주시고 깨지기 쉬운 병은 따로 싸 주세요.",
+      "nearest_existing": [
+        {
+          "id": "33e8c6e3-5a34-4e12-a1a1-c37d78a2811a",
+          "korean": "충전기를 집에 두고 왔어요.",
+          "japanese": "充電器を家に置いてきました。",
+          "character_trigram_jaccard": 0.1346,
+          "sequence_ratio": 0.3492
+        },
+        {
+          "id": "3a2b3451-d7d3-4bb4-a16e-c9bce7e2e0e1",
+          "korean": "교과서를 집에 두고 왔어요.",
+          "japanese": "教科書を家に置いてきました。",
+          "character_trigram_jaccard": 0.1346,
+          "sequence_ratio": 0.3492
+        },
+        {
+          "id": "2b2b7c1d-698b-4b00-a6e9-e0d9afe54e05",
+          "korean": "하나만 주세요.",
+          "japanese": "一つだけください。",
+          "character_trigram_jaccard": 0.1304,
+          "sequence_ratio": 0.2857
+        }
+      ]
+    },
+    {
+      "key": "A41",
+      "korean": "머리는 너무 짧게 자르지 말아 주세요. 앞머리만 눈에 닿지 않을 정도로 다듬어 주세요.",
+      "nearest_existing": [
+        {
+          "id": "44a318ea-f9ba-4d31-8c2f-929cafae337e",
+          "korean": "종이를 둥글게 말아 주세요.",
+          "japanese": "紙を丸めてください。",
+          "character_trigram_jaccard": 0.12,
+          "sequence_ratio": 0.3175
+        },
+        {
+          "id": "77d657c5-7085-41c6-8dcb-74985124e183",
+          "korean": "너무 맵지 않게 해 주세요.",
+          "japanese": "辛すぎないようにしてください。",
+          "character_trigram_jaccard": 0.098,
+          "sequence_ratio": 0.3175
+        },
+        {
+          "id": "eb093c38-de4c-4b56-969b-4a3d1ea06931",
+          "korean": "잘 섞어 주세요.",
+          "japanese": "よく混ぜてください。",
+          "character_trigram_jaccard": 0.087,
+          "sequence_ratio": 0.2456
+        }
+      ]
+    },
+    {
+      "key": "A42",
+      "korean": "세탁물은 오늘 맡기시면 금요일에 찾으실 수 있어요. 더 빨리 필요하시면 접수할 때 말씀해 주세요.",
+      "nearest_existing": [
+        {
+          "id": "0f799bec-c974-4c3a-a0ba-25cfe7fdb2fe",
+          "korean": "모두 들을 수 있도록 조금 크게 말씀해 주세요.",
+          "japanese": "皆さんに聞こえるように、少し大きな声で話してください。",
+          "character_trigram_jaccard": 0.1364,
+          "sequence_ratio": 0.4
+        },
+        {
+          "id": "15bdcfa1-46df-4385-8be9-b6ec7c03e358",
+          "korean": "천천히 말씀해 주세요.",
+          "japanese": "ゆっくり話してください。",
+          "character_trigram_jaccard": 0.1296,
+          "sequence_ratio": 0.2727
+        },
+        {
+          "id": "54d9f83a-917f-4f72-9369-dc7cdba1ffc0",
+          "korean": "다시 한번 말씀해 주세요.",
+          "japanese": "もう一度おっしゃってください。",
+          "character_trigram_jaccard": 0.125,
+          "sequence_ratio": 0.2941
+        }
+      ]
+    },
+    {
+      "key": "A43",
+      "korean": "책을 더 빌리고 싶으시면 먼저 반납해 주세요. 지금은 빌릴 수 있는 권수를 다 채우셨어요.",
+      "nearest_existing": [
+        {
+          "id": "ee6d712f-d482-4d29-b255-b18c72e8f629",
+          "korean": "다른 계정으로 들어가려면 먼저 로그아웃해 주세요.",
+          "japanese": "別のアカウントで入るには、まずログアウトしてください。",
+          "character_trigram_jaccard": 0.1061,
+          "sequence_ratio": 0.3377
+        },
+        {
+          "id": "887a52ba-c952-42c8-9a98-0269abcd0d54",
+          "korean": "그런 경우에는 먼저 전화해 주세요.",
+          "japanese": "そういう場合は先に電話してください。",
+          "character_trigram_jaccard": 0.1017,
+          "sequence_ratio": 0.3188
+        },
+        {
+          "id": "529ff9a8-2593-4494-9e12-a75b336b620a",
+          "korean": "이 방법이 안전한지 먼저 확인해 주세요.",
+          "japanese": "この方法が安全かどうか、先に確認してください。",
+          "character_trigram_jaccard": 0.0968,
+          "sequence_ratio": 0.3333
+        }
+      ]
+    },
+    {
+      "key": "A44",
+      "korean": "수리하는 데 사흘 정도 걸려요. 끝나면 문자로 알려 드릴 테니까 그때 찾으러 오세요.",
+      "nearest_existing": [
+        {
+          "id": "d338bd6c-add0-4a8c-ae2c-124343d4eefd",
+          "korean": "삼십 분 정도 걸려요.",
+          "japanese": "30分くらいかかります。",
+          "character_trigram_jaccard": 0.1224,
+          "sequence_ratio": 0.3051
+        },
+        {
+          "id": "1d9f654a-cfef-4809-ba9c-82a697f406d5",
+          "korean": "회의는 한 시간 정도 걸려요.",
+          "japanese": "会議は1時間ほどかかります。",
+          "character_trigram_jaccard": 0.1132,
+          "sequence_ratio": 0.3492
+        },
+        {
+          "id": "6576e76f-84cb-4358-a1dc-dffb9742b7fe",
+          "korean": "여행은 사흘 걸려요.",
+          "japanese": "旅行には3日かかります。",
+          "character_trigram_jaccard": 0.102,
+          "sequence_ratio": 0.2759
+        }
+      ]
+    },
+    {
+      "key": "A45",
+      "korean": "예약 없이 오시면 기다리셔야 할 수도 있어요. 방문 전에 전화하시면 빈 시간을 확인해 드릴게요.",
+      "nearest_existing": [
+        {
+          "id": "26f22462-96ae-451f-9ea3-70d9a7039c6f",
+          "korean": "예약 시간을 확인해요.",
+          "japanese": "予約時間を確認します。",
+          "character_trigram_jaccard": 0.1321,
+          "sequence_ratio": 0.3692
+        },
+        {
+          "id": "57a32dd8-11c4-4ee2-8637-4d1874848ed1",
+          "korean": "변경된 시간을 확인해 주세요.",
+          "japanese": "変更された時間を確認してください。",
+          "character_trigram_jaccard": 0.1228,
+          "sequence_ratio": 0.3188
+        },
+        {
+          "id": "801c8297-6172-4a10-b8b3-409c174cbda2",
+          "korean": "말 못 할 사정이 있을 수도 있어요.",
+          "japanese": "人には言えない事情があるのかもしれません。",
+          "character_trigram_jaccard": 0.1148,
+          "sequence_ratio": 0.3014
+        }
+      ]
+    },
+    {
+      "key": "A46",
+      "korean": "자리에서 주문하시는 게 아니라 입구에서 먼저 계산하시면 돼요. 음식은 번호를 부르면 가져가세요.",
+      "nearest_existing": [
+        {
+          "id": "3a615613-092e-4987-ad10-9601987d2036",
+          "korean": "우산을 가져가세요.",
+          "japanese": "傘を持っていってください。",
+          "character_trigram_jaccard": 0.0943,
+          "sequence_ratio": 0.254
+        },
+        {
+          "id": "fcd7725d-c235-4412-95e2-49664cb54874",
+          "korean": "먼저 도착하거든 입구에서 기다려 주세요.",
+          "japanese": "先に着いたら、入り口で待っていてください。",
+          "character_trigram_jaccard": 0.0938,
+          "sequence_ratio": 0.32
+        },
+        {
+          "id": "ea79ebd2-5894-409a-9057-055482266dd6",
+          "korean": "그 사람은 눈치가 없는 게 아니라 상황을 몰랐어요.",
+          "japanese": "あの人は気が利かないのではなく、状況を知らなかったのです。",
+          "character_trigram_jaccard": 0.0857,
+          "sequence_ratio": 0.2963
+        }
+      ]
+    },
+    {
+      "key": "A47",
+      "korean": "방은 아직 준비 중이라 바로 들어가실 수 없어요. 짐을 맡겨 두고 한 시간 뒤에 다시 와 주세요.",
+      "nearest_existing": [
+        {
+          "id": "3ac78e84-2f1e-4e86-9ba9-c1d7d1e5883c",
+          "korean": "이틀 뒤에 다시 오세요.",
+          "japanese": "2日後にまた来てください。",
+          "character_trigram_jaccard": 0.1053,
+          "sequence_ratio": 0.3284
+        },
+        {
+          "id": "154f0015-ed67-4d22-b08c-b815e9aa69d7",
+          "korean": "수정 후에 다시 보내 주세요.",
+          "japanese": "修正してからもう一度送ってください。",
+          "character_trigram_jaccard": 0.1,
+          "sequence_ratio": 0.3143
+        },
+        {
+          "id": "b7b9ad4e-d179-4d4a-98cc-3f6fc351e72f",
+          "korean": "문이 잠겨서 들어갈 수 없어요.",
+          "japanese": "ドアに鍵がかかっていて入れません。",
+          "character_trigram_jaccard": 0.0984,
+          "sequence_ratio": 0.3099
+        }
+      ]
+    },
+    {
+      "key": "A48",
+      "korean": "사진은 오늘 고르셔도 인화는 내일 끝나요. 완성되면 연락드릴 테니 찾으러 오시기 전에 확인해 주세요.",
+      "nearest_existing": [
+        {
+          "id": "c98df760-6ca8-4a76-b28b-e9e090e970dc",
+          "korean": "좌석 번호를 확인해 주세요.",
+          "japanese": "座席番号を確認してください。",
+          "character_trigram_jaccard": 0.1167,
+          "sequence_ratio": 0.2817
+        },
+        {
+          "id": "6254c999-17f4-4cf3-ba1f-c56a185956af",
+          "korean": "주소를 다시 확인해 주세요.",
+          "japanese": "住所をもう一度確認してください。",
+          "character_trigram_jaccard": 0.1167,
+          "sequence_ratio": 0.3099
+        },
+        {
+          "id": "a7b4059b-e6ae-4799-840a-2b609efc5d15",
+          "korean": "결제된 금액을 확인해 주세요.",
+          "japanese": "決済された金額を確認してください。",
+          "character_trigram_jaccard": 0.1148,
+          "sequence_ratio": 0.2778
+        }
+      ]
+    },
+    {
+      "key": "A49",
+      "korean": "분실물을 찾으러 오셨군요. 같은 색 우산이 여러 개라서 손잡이 모양을 알려 주시겠어요?",
+      "nearest_existing": [
+        {
+          "id": "0a75d193-6ed4-46aa-ab71-808bd41025de",
+          "korean": "반품 방법을 알려 주세요.",
+          "japanese": "返品の方法を教えてください。",
+          "character_trigram_jaccard": 0.0741,
+          "sequence_ratio": 0.2581
+        },
+        {
+          "id": "59b7b481-c6b3-49e3-819b-cdd3a2d05fd4",
+          "korean": "역에서 분실물을 찾았어요.",
+          "japanese": "駅で落とし物を見つけました。",
+          "character_trigram_jaccard": 0.0741,
+          "sequence_ratio": 0.2581
+        },
+        {
+          "id": "87afe7d9-d441-4900-bc5a-b24a1316e0ee",
+          "korean": "사용 방법을 알려 주세요.",
+          "japanese": "使い方を教えてください。",
+          "character_trigram_jaccard": 0.0741,
+          "sequence_ratio": 0.2581
+        }
+      ]
+    },
+    {
+      "key": "A50",
+      "korean": "휴대폰 화면이 깨졌지만 전화는 돼요. 오늘은 비용만 알아보고 수리는 다음에 맡기려고요.",
+      "nearest_existing": [
+        {
+          "id": "900b9313-4b57-4647-b520-07e159e9db8e",
+          "korean": "휴대폰 화면이 어두워요.",
+          "japanese": "携帯電話の画面が暗いです。",
+          "character_trigram_jaccard": 0.1176,
+          "sequence_ratio": 0.3279
+        },
+        {
+          "id": "db24b1fd-eb0a-4cec-abb2-232aec2882ef",
+          "korean": "가게 불이 꺼져 있어요. 오늘은 쉬나 봐요.",
+          "japanese": "店の明かりが消えています。今日は休みのようです。",
+          "character_trigram_jaccard": 0.0794,
+          "sequence_ratio": 0.3889
+        },
+        {
+          "id": "53ca1515-893c-4cb3-88f3-31f66d65c68f",
+          "korean": "대부분 일찍 끝나지만 오늘은 예외예요.",
+          "japanese": "たいてい早く終わりますが、今日は例外です。",
+          "character_trigram_jaccard": 0.0656,
+          "sequence_ratio": 0.3478
+        }
+      ]
+    },
+    {
+      "key": "A51",
+      "korean": "제가 잠깐 전화를 해야 해서요. 이 자리 좀 봐 주실 수 있을까요? 금방 돌아올게요.",
+      "nearest_existing": [
+        {
+          "id": "91a4b933-3107-4dd7-be6b-463731dfc169",
+          "korean": "금방 돌아올게요.",
+          "japanese": "すぐに戻ってきます。",
+          "character_trigram_jaccard": 0.1556,
+          "sequence_ratio": 0.3214
+        },
+        {
+          "id": "fe889f41-cdcc-410e-bb90-4219f56d59af",
+          "korean": "가방을 잠시 보관해 주실 수 있어요?",
+          "japanese": "かばんを少し預かっていただけますか。",
+          "character_trigram_jaccard": 0.0862,
+          "sequence_ratio": 0.4179
+        },
+        {
+          "id": "beb7fcd6-e152-4eaa-813a-e6e95c8a4646",
+          "korean": "할아버지께 전화를 해요.",
+          "japanese": "祖父に電話をします。",
+          "character_trigram_jaccard": 0.0769,
+          "sequence_ratio": 0.2667
+        }
+      ]
+    },
+    {
+      "key": "A52",
+      "korean": "자료를 오늘까지 보내 달라고 하셨죠? 아직 확인할 게 남아서 내일 오전까지 보내도 괜찮을까요?",
+      "nearest_existing": [
+        {
+          "id": "f1274874-037d-4ebf-bc69-d95b8c536a11",
+          "korean": "첨부된 사진이 흐릿해서 다시 보내 달라고 했어요.",
+          "japanese": "添付の写真がぼやけていたので、再送をお願いしました。",
+          "character_trigram_jaccard": 0.0909,
+          "sequence_ratio": 0.2532
+        },
+        {
+          "id": "ee2038db-5f1b-4789-bf37-bf795a15eeff",
+          "korean": "네, 보내 주신 자료를 먼저 읽을게요.",
+          "japanese": "はい、送ってくださった資料を先に読みますね。",
+          "character_trigram_jaccard": 0.0645,
+          "sequence_ratio": 0.1918
+        },
+        {
+          "id": "8fbe7abb-edc4-499c-919e-5e7685bd0797",
+          "korean": "선생님이 안내를 끝까지 들으라고 하셨어요.",
+          "japanese": "先生は、案内を最後まで聞くようにおっしゃいました。",
+          "character_trigram_jaccard": 0.0625,
+          "sequence_ratio": 0.2933
+        }
+      ]
+    },
+    {
+      "key": "A53",
+      "korean": "무거운 상자라 혼자 들기 어렵네요. 문까지만 같이 옮겨 주시면 그다음은 제가 할게요.",
+      "nearest_existing": [
+        {
+          "id": "4cdced74-27ae-42b4-b747-fde6b6a61e53",
+          "korean": "회의는 제가 진행할게요.",
+          "japanese": "会議は私が進行します。",
+          "character_trigram_jaccard": 0.0769,
+          "sequence_ratio": 0.2667
+        },
+        {
+          "id": "9347b3c5-b9aa-4784-a3f9-884f1c28da9c",
+          "korean": "이번에는 제가 양보할게요.",
+          "japanese": "今回は私が譲ります。",
+          "character_trigram_jaccard": 0.0755,
+          "sequence_ratio": 0.2951
+        },
+        {
+          "id": "da6b99fa-244a-4c38-b49b-861e12ee8d61",
+          "korean": "이번 일은 제가 맡을게요.",
+          "japanese": "今回の仕事は私が引き受けます。",
+          "character_trigram_jaccard": 0.0755,
+          "sequence_ratio": 0.2951
+        }
+      ]
+    },
+    {
+      "key": "A54",
+      "korean": "오늘은 아이를 돌봐야 해서 모임에 못 가요. 다음에는 꼭 갈 테니까 오늘은 저 없이 시작해 주세요.",
+      "nearest_existing": [
+        {
+          "id": "aba4a78a-30fd-4089-a426-b38b832d0d1a",
+          "korean": "주말 모임에서 할 활동을 제안해 주세요.",
+          "japanese": "週末の集まりですることを提案してください。",
+          "character_trigram_jaccard": 0.0923,
+          "sequence_ratio": 0.3377
+        },
+        {
+          "id": "4b000848-8038-40a8-bee2-cd5a124c7954",
+          "korean": "이 종이를 두 장 복사해 주세요.",
+          "japanese": "この紙を2枚コピーしてください。",
+          "character_trigram_jaccard": 0.0806,
+          "sequence_ratio": 0.3288
+        },
+        {
+          "id": "887a52ba-c952-42c8-9a98-0269abcd0d54",
+          "korean": "그런 경우에는 먼저 전화해 주세요.",
+          "japanese": "そういう場合は先に電話してください。",
+          "character_trigram_jaccard": 0.0794,
+          "sequence_ratio": 0.3243
+        }
+      ]
+    },
+    {
+      "key": "A55",
+      "korean": "차를 빌려 드리고 싶은데 내일은 제가 써야 해요. 모레는 괜찮으니까 날짜를 바꿀 수 있으면 말씀해 주세요.",
+      "nearest_existing": [
+        {
+          "id": "0f799bec-c974-4c3a-a0ba-25cfe7fdb2fe",
+          "korean": "모두 들을 수 있도록 조금 크게 말씀해 주세요.",
+          "japanese": "皆さんに聞こえるように、少し大きな声で話してください。",
+          "character_trigram_jaccard": 0.125,
+          "sequence_ratio": 0.3294
+        },
+        {
+          "id": "b472dac1-dc3c-46f2-862e-4d99e6698ce1",
+          "korean": "누구나 잘못할 수 있으니까 다시 설명해 주세요.",
+          "japanese": "誰でも間違えることはあるので、もう一度説明してください。",
+          "character_trigram_jaccard": 0.125,
+          "sequence_ratio": 0.3059
+        },
+        {
+          "id": "15bdcfa1-46df-4385-8be9-b6ec7c03e358",
+          "korean": "천천히 말씀해 주세요.",
+          "japanese": "ゆっくり話してください。",
+          "character_trigram_jaccard": 0.1167,
+          "sequence_ratio": 0.2535
+        }
+      ]
+    },
+    {
+      "key": "A56",
+      "korean": "회의 중이라 지금은 길게 이야기하기 어려워요. 급한 내용만 문자로 남겨 주시면 끝나고 전화할게요.",
+      "nearest_existing": [
+        {
+          "id": "d8b6e982-43c2-4de7-b16d-d9c9dd763ca2",
+          "korean": "공사 중이라 통행이 어려워요.",
+          "japanese": "工事中なので通行が難しいです。",
+          "character_trigram_jaccard": 0.1186,
+          "sequence_ratio": 0.3429
+        },
+        {
+          "id": "4d7880de-9556-4cce-9445-cd1c0bff6203",
+          "korean": "혼자 하기 어려워요.",
+          "japanese": "一人でするのは難しいです。",
+          "character_trigram_jaccard": 0.1091,
+          "sequence_ratio": 0.2769
+        },
+        {
+          "id": "d0791fbf-9132-42df-8766-26e963ebd307",
+          "korean": "지금은 판단이 어려워요.",
+          "japanese": "今は判断が難しいです。",
+          "character_trigram_jaccard": 0.1053,
+          "sequence_ratio": 0.3284
+        }
+      ]
+    },
+    {
+      "key": "A57",
+      "korean": "함께 가자고 해 주셔서 고마워요. 이번에는 선약이 있어서 어렵지만 다음에도 꼭 불러 주세요.",
+      "nearest_existing": [
+        {
+          "id": "12e4a2a7-7847-4c7a-b1b4-66a41fbba821",
+          "korean": "기억해 주셔서 고마워요.",
+          "japanese": "覚えていてくださってありがとうございます。",
+          "character_trigram_jaccard": 0.1765,
+          "sequence_ratio": 0.3438
+        },
+        {
+          "id": "3efb7451-408a-478f-b72c-b7ffd4127279",
+          "korean": "도와줘서 고마워요.",
+          "japanese": "手伝ってくれてありがとうございます。",
+          "character_trigram_jaccard": 0.0962,
+          "sequence_ratio": 0.2295
+        },
+        {
+          "id": "7ace438a-ed24-41c7-99e9-f404a894fdec",
+          "korean": "어쨌든 와 줘서 고마워요.",
+          "japanese": "とにかく、来てくれてありがとう。",
+          "character_trigram_jaccard": 0.0893,
+          "sequence_ratio": 0.2769
+        }
+      ]
+    },
+    {
+      "key": "A58",
+      "korean": "창문을 열어도 괜찮을까요? 바람이 세면 조금만 열어 두었다가 닫을게요.",
+      "nearest_existing": [
+        {
+          "id": "6144d085-8c44-4c44-864c-31d703221650",
+          "korean": "창문을 조금 열어 줄래요?",
+          "japanese": "窓を少し開けてくれますか。",
+          "character_trigram_jaccard": 0.1163,
+          "sequence_ratio": 0.4151
+        },
+        {
+          "id": "c8065784-5a33-47bd-90c9-4a2059f06b8d",
+          "korean": "창문을 열어요.",
+          "japanese": "窓を開けます。",
+          "character_trigram_jaccard": 0.1053,
+          "sequence_ratio": 0.3404
+        },
+        {
+          "id": "48c039ef-f478-4a2a-8193-d77c5ba43b2c",
+          "korean": "온도가 높아지면 창문을 열어 주세요.",
+          "japanese": "温度が上がったら、窓を開けてください。",
+          "character_trigram_jaccard": 0.102,
+          "sequence_ratio": 0.339
+        }
+      ]
+    },
+    {
+      "key": "A59",
+      "korean": "발표 순서를 바꿔 주실 수 있나요? 제가 먼저 해야 한다는 건 아니고 오후에 할 수 있으면 좋겠어요.",
+      "nearest_existing": [
+        {
+          "id": "9814d015-2795-4aa6-907f-a57d9889a775",
+          "korean": "조금만 더 시간이 있으면 좋겠어요. 아쉬워요.",
+          "japanese": "もう少し時間があればいいのに。残念です。",
+          "character_trigram_jaccard": 0.1194,
+          "sequence_ratio": 0.2963
+        },
+        {
+          "id": "0270721b-6db0-4ef2-9b72-a6c458469be4",
+          "korean": "영수증이 있으면 반품할 수 있어요.",
+          "japanese": "レシートがあれば返品できます。",
+          "character_trigram_jaccard": 0.1129,
+          "sequence_ratio": 0.32
+        },
+        {
+          "id": "58eb34d7-5da9-433a-bfe9-cd4716283126",
+          "korean": "직접 겪은 경험담을 들려주실 수 있나요?",
+          "japanese": "ご自身の経験談を、聞かせていただけますか。",
+          "character_trigram_jaccard": 0.1077,
+          "sequence_ratio": 0.3077
+        }
+      ]
+    },
+    {
+      "key": "A60",
+      "korean": "우산을 같이 쓰자고 해 줘서 고마워요. 저는 여기서 잠깐 기다렸다가 비가 그치면 갈게요.",
+      "nearest_existing": [
+        {
+          "id": "15f0f50a-0356-4c0c-9ac5-663f968012eb",
+          "korean": "생일 파티에 초대해 줘서 고마워요.",
+          "japanese": "誕生日パーティーに招待してくれてありがとう。",
+          "character_trigram_jaccard": 0.1429,
+          "sequence_ratio": 0.3529
+        },
+        {
+          "id": "475e8120-e122-49dd-bc8e-68f24bc99d0e",
+          "korean": "번거로운 일을 대신해 줘서 고마워요.",
+          "japanese": "手間のかかることを代わりにしてくれて、ありがとう。",
+          "character_trigram_jaccard": 0.1404,
+          "sequence_ratio": 0.3478
+        },
+        {
+          "id": "7ace438a-ed24-41c7-99e9-f404a894fdec",
+          "korean": "어쨌든 와 줘서 고마워요.",
+          "japanese": "とにかく、来てくれてありがとう。",
+          "character_trigram_jaccard": 0.1346,
+          "sequence_ratio": 0.3175
+        }
+      ]
+    }
+  ]
+}

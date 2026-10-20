@@ -1,0 +1,1030 @@
+{
+  "reviewer": "assistant self review; not independent human approval",
+  "passes": [
+    "initial authoring",
+    "separate bilingual and answer/distractor reread",
+    "post-correction recheck",
+    "rendered actual app choices and bilingual collocations reread; final manuscript frozen before complete verification"
+  ],
+  "scope": {
+    "originals": 60,
+    "translations": 60,
+    "questions": 120,
+    "choices": 270,
+    "accepted_answers": 30
+  },
+  "corrections": [
+    {
+      "key": "A35",
+      "field": "task.distractors",
+      "before": [
+        "今日、別の棚から二つ取る",
+        "今日残っている一つを二つに分ける"
+      ],
+      "after": [
+        "今日、二つとも持ち帰る",
+        "来週の入荷時にまた来る"
+      ],
+      "reason": "非現実的な選択肢を、在庫数・入荷日の聞き違いへ変更。"
+    },
+    {
+      "key": "A44",
+      "field": "japanese",
+      "before": "修理には三日ほどかかります。終わったらメールでお知らせするので、そのときに受け取りに来てください。",
+      "after": "修理には三日ほどかかります。終わったらメッセージでお知らせするので、そのときに受け取りに来てください。",
+      "reason": "문자をメールと限定せず、メッセージと訳す。"
+    },
+    {
+      "key": "A05",
+      "field": "learning_point_ja",
+      "before": "고장 난 불の場所は현관ですが、新しい전구の場所は서랍です。",
+      "after": "明かりがつかない場所は현관ですが、新しい전구の場所は서랍です。",
+      "reason": "原文にない고장 난という表現の引用を避ける。"
+    },
+    {
+      "key": "A59",
+      "field": "japanese",
+      "before": "発表の順番を変えていただけますか。私が先にしなければならないというわけではなく、午後にできればありがたいです。",
+      "after": "発表の順番を変えていただけますか。私が先にしなければならないということではなく、午後にできればありがたいです。",
+      "reason": "건 아니고を自然な日本語に整える。"
+    },
+    {
+      "key": "A08",
+      "field": "korean",
+      "before": "날씨가 좋아서 이불을 밖에 널었어요. 비가 오기 전에 들어오시면 먼저 걷어 주세요.",
+      "after": "이불을 말리려고 베란다에 내놓았어요. 먼저 들어오시면 비가 오기 전에 걷어 주세요.",
+      "reason": "既存Exampleと第一文が一致したため場面を独自に書き直し、訳・説明を再検証。既存行は変更しない。"
+    },
+    {
+      "key": "A08",
+      "field": "japanese",
+      "before": "天気がよいので布団を外に干しました。雨が降る前に帰ってきたら、先に取り込んでください。",
+      "after": "布団を乾かそうとベランダに出しました。先に帰宅したら、雨が降る前に取り込んでください。",
+      "reason": "既存Exampleと第一文が一致したため場面を独自に書き直し、訳・説明を再検証。既存行は変更しない。"
+    },
+    {
+      "key": "A08",
+      "field": "learning_point_ja",
+      "before": "널었어요は完了した行動、걷어 주세요はこれからしてほしい行動です。",
+      "after": "내놓았어요はすでに外に出した行動、걷어 주세요はこれからしてほしい行動です。",
+      "reason": "既存Exampleと第一文が一致したため場面を独自に書き直し、訳・説明を再検証。既存行は変更しない。"
+    },
+    {
+      "key": "A22",
+      "field": "korean",
+      "before": "급행열차는 이 역을 지나가요. 여기서 내리실 분은 다음에 오는 일반 열차를 타셔야 해요.",
+      "after": "급행열차는 박물관역에 서지 않아요. 거기서 내리실 분은 다음에 오는 일반 열차를 타셔야 해요.",
+      "reason": "ここが乗車駅か降車駅かを曖昧にせず、架空の目的駅を指定する。実在路線の案内ではない。"
+    },
+    {
+      "key": "A22",
+      "field": "japanese",
+      "before": "急行列車はこの駅を通過します。ここで降りる方は、次に来る普通列車に乗る必要があります。",
+      "after": "急行列車は博物館駅には止まりません。そこで降りる方は、次に来る普通列車に乗る必要があります。",
+      "reason": "ここが乗車駅か降車駅かを曖昧にせず、架空の目的駅を指定する。実在路線の案内ではない。"
+    },
+    {
+      "key": "A22",
+      "field": "task.prompt_ja",
+      "before": "この駅で降りたい人はどの列車に乗りますか。",
+      "after": "博物館駅で降りたい人はどの列車に乗りますか。",
+      "reason": "改稿した目的駅と設問を一致させる。"
+    },
+    {
+      "key": "A18",
+      "field": "japanese",
+      "before": "夜に会う約束でしたが、弟か妹を迎えに行かなければなりません。よろしければ、今日は電話で話しませんか。",
+      "after": "夜に会う約束でしたが、年下のきょうだいを迎えに行かなければなりません。よろしければ、今日は電話で話しませんか。",
+      "reason": "原文にない性別を補わず、自然な日本語で年下の関係を保つ。"
+    },
+    {
+      "key": "A18",
+      "field": "learning_point_ja",
+      "before": "동생の性別は示されていません。代案は전화로 이야기することです。",
+      "after": "동생は年下のきょうだいで、性別は示されていません。代案は전화로 이야기することです。",
+      "reason": "訳語の関係と性別未指定を明示。"
+    },
+    {
+      "key": "A18",
+      "field": "task.distractors",
+      "before": [
+        "弟か妹と一緒に会う",
+        "翌朝家を訪ねる"
+      ],
+      "after": [
+        "きょうだいと一緒に会う",
+        "翌朝家を訪ねる"
+      ],
+      "reason": "性別を限定しない訳語とオプションを統一。"
+    },
+    {
+      "key": "A22",
+      "field": "task.prompt_ja",
+      "before": "博物館駅で降りたい人はどの列車に乗りますか。",
+      "after": "博物館駅で降りたい人に、どうするよう案内していますか。",
+      "reason": "行動を問う形式で選択肢の役割をそろえる。"
+    },
+    {
+      "key": "A22",
+      "field": "task.correct",
+      "before": "次に来る普通列車",
+      "after": "次に来る普通列車に乗る",
+      "reason": "案内された行動を答える。"
+    },
+    {
+      "key": "A22",
+      "field": "task.distractors",
+      "before": [
+        "この駅を通過する急行列車",
+        "今来ている急行列車"
+      ],
+      "after": [
+        "今来ている急行列車に乗る",
+        "列車に乗らず駅を出る"
+      ],
+      "reason": "同じ急行列車を二通りに記述したオプションの重複を避ける。"
+    },
+    {
+      "key": "A31",
+      "field": "korean",
+      "before": "이 옷은 색은 마음에 드는데 조금 작아요. 같은 색으로 한 치수 큰 걸 입어 봐도 될까요?",
+      "after": "이 옷은 색이 마음에 드는데 조금 작아요. 같은 색으로 한 치수 큰 걸 입어 봐도 될까요?",
+      "reason": "話題助詞の重複を避けて自然な会話にする。"
+    },
+    {
+      "key": "A31",
+      "field": "japanese",
+      "before": "この服は色は気に入っていますが、少し小さいです。同じ色で一サイズ大きいものを試着してもいいですか。",
+      "after": "この服は色が気に入っていますが、少し小さいです。同じ色で一サイズ大きいものを試着してもいいですか。",
+      "reason": "韓国語と同様に自然な日本語へ整える。"
+    },
+    {
+      "key": "A41",
+      "field": "korean",
+      "before": "머리는 길이를 많이 자르지 말아 주세요. 앞머리만 눈에 닿지 않을 정도로 다듬어 주세요.",
+      "after": "머리는 너무 짧게 자르지 말아 주세요. 앞머리만 눈에 닿지 않을 정도로 다듬어 주세요.",
+      "reason": "길이를 자르다より自然な、髪を短くしすぎないという依頼にする。"
+    },
+    {
+      "key": "A41",
+      "field": "japanese",
+      "before": "髪は長さをあまり切らないでください。前髪だけ、目にかからない程度に整えてください。",
+      "after": "髪はあまり短くしないでください。前髪だけ、目にかからない程度に整えてください。",
+      "reason": "長さを切るという不自然な語の組み合わせを修正。"
+    }
+  ],
+  "items": [
+    {
+      "key": "A01",
+      "example_id": "689644a6-f088-43bf-8466-c099473ebe4f",
+      "domain": "daily",
+      "result": "AI_SELF_REVIEWED",
+      "checks": [
+        "Korean naturalness/register/reference",
+        "Japanese meaning/tense/politeness",
+        "internal lower_intermediate level; not official TOPIK",
+        "unique comprehension evidence and every distractor",
+        "exact transcript; terminal punctuation omission only"
+      ],
+      "evidence": "저녁을 만들게요は話し手の申し出、사다 주세요は相手への買い物の依頼です。"
+    },
+    {
+      "key": "A02",
+      "example_id": "f08a572e-3866-4239-910a-0a4da4987bce",
+      "domain": "daily",
+      "result": "AI_SELF_REVIEWED",
+      "checks": [
+        "Korean naturalness/register/reference",
+        "Japanese meaning/tense/politeness",
+        "internal lower_intermediate level; not official TOPIK",
+        "unique comprehension evidence and every distractor",
+        "exact transcript; terminal punctuation omission only"
+      ],
+      "evidence": "널 테니까の主語は話し手です。相手には먼저 나가세요と言っています。"
+    },
+    {
+      "key": "A03",
+      "example_id": "75a60c3e-0a4e-4c93-8aed-e58f67bc8d4d",
+      "domain": "daily",
+      "result": "AI_SELF_REVIEWED",
+      "checks": [
+        "Korean naturalness/register/reference",
+        "Japanese meaning/tense/politeness",
+        "internal lower_intermediate level; not official TOPIK",
+        "unique comprehension evidence and every distractor",
+        "exact transcript; terminal punctuation omission only"
+      ],
+      "evidence": "나중에と지금を対比し、책상만の「机だけ」を聞き取ります。"
+    },
+    {
+      "key": "A04",
+      "example_id": "1d62912e-9629-422f-a08d-034ca3a222f6",
+      "domain": "daily",
+      "result": "AI_SELF_REVIEWED",
+      "checks": [
+        "Korean naturalness/register/reference",
+        "Japanese meaning/tense/politeness",
+        "internal lower_intermediate level; not official TOPIK",
+        "unique comprehension evidence and every distractor",
+        "exact transcript; terminal punctuation omission only"
+      ],
+      "evidence": "국は내일、볶음밥は오늘 저녁と、食べる日が異なります。"
+    },
+    {
+      "key": "A05",
+      "example_id": "7d888398-ebca-4d73-8299-6bb5448c2ebb",
+      "domain": "daily",
+      "result": "AI_SELF_REVIEWED",
+      "checks": [
+        "Korean naturalness/register/reference",
+        "Japanese meaning/tense/politeness",
+        "internal lower_intermediate level; not official TOPIK",
+        "unique comprehension evidence and every distractor",
+        "exact transcript; terminal punctuation omission only"
+      ],
+      "evidence": "明かりがつかない場所は현관ですが、新しい전구の場所は서랍です。"
+    },
+    {
+      "key": "A06",
+      "example_id": "387cf86b-76d7-4f5d-af98-a50fd77e85f2",
+      "domain": "daily",
+      "result": "AI_SELF_REVIEWED",
+      "checks": [
+        "Korean naturalness/register/reference",
+        "Japanese meaning/tense/politeness",
+        "internal lower_intermediate level; not official TOPIK",
+        "unique comprehension evidence and every distractor",
+        "full passage meaning/korean alternatives"
+      ],
+      "evidence": "먼저 잘게요の後に、설거지는 아침에と具体的な予定を伝えています。"
+    },
+    {
+      "key": "A07",
+      "example_id": "1e645c7a-7e10-4c2c-84b4-c8b63dc9c014",
+      "domain": "daily",
+      "result": "AI_SELF_REVIEWED",
+      "checks": [
+        "Korean naturalness/register/reference",
+        "Japanese meaning/tense/politeness",
+        "internal lower_intermediate level; not official TOPIK",
+        "unique comprehension evidence and every distractor",
+        "full passage meaning/korean alternatives"
+      ],
+      "evidence": "조금 남아 있어요だけで不足と判断せず、충분하니까以降の結論を聞きます。"
+    },
+    {
+      "key": "A08",
+      "example_id": "04ba7508-ff52-41f3-bf15-285f87408a87",
+      "domain": "daily",
+      "result": "AI_SELF_REVIEWED",
+      "checks": [
+        "Korean naturalness/register/reference",
+        "Japanese meaning/tense/politeness",
+        "internal lower_intermediate level; not official TOPIK",
+        "unique comprehension evidence and every distractor",
+        "full passage meaning/korean alternatives"
+      ],
+      "evidence": "내놓았어요はすでに外に出した行動、걷어 주세요はこれからしてほしい行動です。"
+    },
+    {
+      "key": "A09",
+      "example_id": "55a1449c-3168-48a4-a808-383193fbbe7a",
+      "domain": "daily",
+      "result": "AI_SELF_REVIEWED",
+      "checks": [
+        "Korean naturalness/register/reference",
+        "Japanese meaning/tense/politeness",
+        "internal lower_intermediate level; not official TOPIK",
+        "unique comprehension evidence and every distractor",
+        "full passage meaning/korean alternatives"
+      ],
+      "evidence": "버리는 날は내일です。오늘 밤にする準備は봉투를 묶어 두는ことです。"
+    },
+    {
+      "key": "A10",
+      "example_id": "d5c4f6f4-c7e4-40a7-9e0f-a95c4bd1f3c6",
+      "domain": "daily",
+      "result": "AI_SELF_REVIEWED",
+      "checks": [
+        "Korean naturalness/register/reference",
+        "Japanese meaning/tense/politeness",
+        "internal lower_intermediate level; not official TOPIK",
+        "unique comprehension evidence and every distractor",
+        "full passage meaning/korean alternatives"
+      ],
+      "evidence": "문 앞에 놓아 달라고は、配達する人に取り次いでほしい依頼です。"
+    },
+    {
+      "key": "A11",
+      "example_id": "3de46329-fa3b-4a27-aa79-ac297d924a42",
+      "domain": "reschedule",
+      "result": "AI_SELF_REVIEWED",
+      "checks": [
+        "Korean naturalness/register/reference",
+        "Japanese meaning/tense/politeness",
+        "internal lower_intermediate level; not official TOPIK",
+        "unique comprehension evidence and every distractor",
+        "exact transcript; terminal punctuation omission only"
+      ],
+      "evidence": "두 시は元の約束、세 시は変更の提案です。늦춰서は遅らせることです。"
+    },
+    {
+      "key": "A12",
+      "example_id": "c6e8ef28-2388-460c-ac55-aff9404eac90",
+      "domain": "reschedule",
+      "result": "AI_SELF_REVIEWED",
+      "checks": [
+        "Korean naturalness/register/reference",
+        "Japanese meaning/tense/politeness",
+        "internal lower_intermediate level; not official TOPIK",
+        "unique comprehension evidence and every distractor",
+        "exact transcript; terminal punctuation omission only"
+      ],
+      "evidence": "工事の説明だけでなく、서점 안で待つという新しい場所を聞き取ります。"
+    },
+    {
+      "key": "A13",
+      "example_id": "0b7ad6a0-87a2-4c5b-bbf2-9dc604610d06",
+      "domain": "reschedule",
+      "result": "AI_SELF_REVIEWED",
+      "checks": [
+        "Korean naturalness/register/reference",
+        "Japanese meaning/tense/politeness",
+        "internal lower_intermediate level; not official TOPIK",
+        "unique comprehension evidence and every distractor",
+        "exact transcript; terminal punctuation omission only"
+      ],
+      "evidence": "금요일 저녁は都合が悪く、토요일 점심が代案です。"
+    },
+    {
+      "key": "A14",
+      "example_id": "ac24c1de-fed8-4550-8515-d403a380b824",
+      "domain": "reschedule",
+      "result": "AI_SELF_REVIEWED",
+      "checks": [
+        "Korean naturalness/register/reference",
+        "Japanese meaning/tense/politeness",
+        "internal lower_intermediate level; not official TOPIK",
+        "unique comprehension evidence and every distractor",
+        "exact transcript; terminal punctuation omission only"
+      ],
+      "evidence": "먼저 들어가 계시면で、外で待たずに入っていてほしいと伝えます。"
+    },
+    {
+      "key": "A15",
+      "example_id": "5752204c-6e25-449e-b417-ecdf2ca28d86",
+      "domain": "reschedule",
+      "result": "AI_SELF_REVIEWED",
+      "checks": [
+        "Korean naturalness/register/reference",
+        "Japanese meaning/tense/politeness",
+        "internal lower_intermediate level; not official TOPIK",
+        "unique comprehension evidence and every distractor",
+        "exact transcript; terminal punctuation omission only"
+      ],
+      "evidence": "산책은 다음에と오늘은を区別し、今日の代案を答えます。"
+    },
+    {
+      "key": "A16",
+      "example_id": "2495ebc0-9193-4eac-ba49-0610780112ae",
+      "domain": "reschedule",
+      "result": "AI_SELF_REVIEWED",
+      "checks": [
+        "Korean naturalness/register/reference",
+        "Japanese meaning/tense/politeness",
+        "internal lower_intermediate level; not official TOPIK",
+        "unique comprehension evidence and every distractor",
+        "full passage meaning/korean alternatives"
+      ],
+      "evidence": "그대로は建物に、바뀌었어요は三階から二階への変更にかかります。"
+    },
+    {
+      "key": "A17",
+      "example_id": "4e45011a-aa33-4f8f-ab06-2b6ede5089c7",
+      "domain": "reschedule",
+      "result": "AI_SELF_REVIEWED",
+      "checks": [
+        "Korean naturalness/register/reference",
+        "Japanese meaning/tense/politeness",
+        "internal lower_intermediate level; not official TOPIK",
+        "unique comprehension evidence and every distractor",
+        "full passage meaning/korean alternatives"
+      ],
+      "evidence": "화요일이 아니라 수요일が曜日の訂正です。時刻は같은 시간のままです。"
+    },
+    {
+      "key": "A18",
+      "example_id": "a3731a18-f1dc-4121-9445-98b69108a20d",
+      "domain": "reschedule",
+      "result": "AI_SELF_REVIEWED",
+      "checks": [
+        "Korean naturalness/register/reference",
+        "Japanese meaning/tense/politeness",
+        "internal lower_intermediate level; not official TOPIK",
+        "unique comprehension evidence and every distractor",
+        "full passage meaning/korean alternatives"
+      ],
+      "evidence": "동생は年下のきょうだいで、性別は示されていません。代案は전화로 이야기することです。"
+    },
+    {
+      "key": "A19",
+      "example_id": "599126a6-53ab-415e-be9c-27d3dfa97d9d",
+      "domain": "reschedule",
+      "result": "AI_SELF_REVIEWED",
+      "checks": [
+        "Korean naturalness/register/reference",
+        "Japanese meaning/tense/politeness",
+        "internal lower_intermediate level; not official TOPIK",
+        "unique comprehension evidence and every distractor",
+        "full passage meaning/korean alternatives"
+      ],
+      "evidence": "바꿨어요は病院の予約です。점심 약속은 그대로と区別します。"
+    },
+    {
+      "key": "A20",
+      "example_id": "9de7f16d-8a54-4870-b52a-910b56214b27",
+      "domain": "reschedule",
+      "result": "AI_SELF_REVIEWED",
+      "checks": [
+        "Korean naturalness/register/reference",
+        "Japanese meaning/tense/politeness",
+        "internal lower_intermediate level; not official TOPIK",
+        "unique comprehension evidence and every distractor",
+        "full passage meaning/korean alternatives"
+      ],
+      "evidence": "다음 주에は날짜를 정하는時です。実際に会う日が来週だとは確定していません。"
+    },
+    {
+      "key": "A21",
+      "example_id": "af345f1b-3cc7-46c3-88c9-8420d9330da8",
+      "domain": "transport",
+      "result": "AI_SELF_REVIEWED",
+      "checks": [
+        "Korean naturalness/register/reference",
+        "Japanese meaning/tense/politeness",
+        "internal lower_intermediate level; not official TOPIK",
+        "unique comprehension evidence and every distractor",
+        "exact transcript; terminal punctuation omission only"
+      ],
+      "evidence": "안 서요を聞き落とさず、次の停留所で降りるという手順を選びます。"
+    },
+    {
+      "key": "A22",
+      "example_id": "fcb0171c-c0d7-483a-a829-20798c6ab59f",
+      "domain": "transport",
+      "result": "AI_SELF_REVIEWED",
+      "checks": [
+        "Korean naturalness/register/reference",
+        "Japanese meaning/tense/politeness",
+        "internal lower_intermediate level; not official TOPIK",
+        "unique comprehension evidence and every distractor",
+        "exact transcript; terminal punctuation omission only"
+      ],
+      "evidence": "급행と일반 열차を対比しています。目的の駅に止まるのは普通列車です。"
+    },
+    {
+      "key": "A23",
+      "example_id": "1155aa20-658b-4c03-8641-7c90185d8622",
+      "domain": "transport",
+      "result": "AI_SELF_REVIEWED",
+      "checks": [
+        "Korean naturalness/register/reference",
+        "Japanese meaning/tense/politeness",
+        "internal lower_intermediate level; not official TOPIK",
+        "unique comprehension evidence and every distractor",
+        "exact transcript; terminal punctuation omission only"
+      ],
+      "evidence": "理由は출근 시간이라 길이 막힌다는ことです。料金については述べていません。"
+    },
+    {
+      "key": "A24",
+      "example_id": "5d4a3171-db9c-406a-b9ac-37da74e9004c",
+      "domain": "transport",
+      "result": "AI_SELF_REVIEWED",
+      "checks": [
+        "Korean naturalness/register/reference",
+        "Japanese meaning/tense/politeness",
+        "internal lower_intermediate level; not official TOPIK",
+        "unique comprehension evidence and every distractor",
+        "exact transcript; terminal punctuation omission only"
+      ],
+      "evidence": "먼저 사세요と도착하면の条件を区別して、先の行動を答えます。"
+    },
+    {
+      "key": "A25",
+      "example_id": "4a827148-507e-42cf-85b2-63b057cfde1f",
+      "domain": "transport",
+      "result": "AI_SELF_REVIEWED",
+      "checks": [
+        "Korean naturalness/register/reference",
+        "Japanese meaning/tense/politeness",
+        "internal lower_intermediate level; not official TOPIK",
+        "unique comprehension evidence and every distractor",
+        "exact transcript; terminal punctuation omission only"
+      ],
+      "evidence": "나가지 말고は「出ないで」。指示された経路は지하 통로です。"
+    },
+    {
+      "key": "A26",
+      "example_id": "b97afbd7-6351-43bb-a026-353e04005f10",
+      "domain": "transport",
+      "result": "AI_SELF_REVIEWED",
+      "checks": [
+        "Korean naturalness/register/reference",
+        "Japanese meaning/tense/politeness",
+        "internal lower_intermediate level; not official TOPIK",
+        "unique comprehension evidence and every distractor",
+        "full passage meaning/korean alternatives"
+      ],
+      "evidence": "충전하신 뒤에は「チャージした後で」。手順の前後を確かめます。"
+    },
+    {
+      "key": "A27",
+      "example_id": "c2ed1078-298f-4a8f-ad08-1fcf5fa06b86",
+      "domain": "transport",
+      "result": "AI_SELF_REVIEWED",
+      "checks": [
+        "Korean naturalness/register/reference",
+        "Japanese meaning/tense/politeness",
+        "internal lower_intermediate level; not official TOPIK",
+        "unique comprehension evidence and every distractor",
+        "full passage meaning/korean alternatives"
+      ],
+      "evidence": "한 대 보내고は列車を一本見送る意味です。移動を中止する話ではありません。"
+    },
+    {
+      "key": "A28",
+      "example_id": "fc090027-31ea-475d-8f32-79ab422805ce",
+      "domain": "transport",
+      "result": "AI_SELF_REVIEWED",
+      "checks": [
+        "Korean naturalness/register/reference",
+        "Japanese meaning/tense/politeness",
+        "internal lower_intermediate level; not official TOPIK",
+        "unique comprehension evidence and every distractor",
+        "full passage meaning/korean alternatives"
+      ],
+      "evidence": "내려서から걸어갈게요へ、交通手段を切り替える意図を聞きます。"
+    },
+    {
+      "key": "A29",
+      "example_id": "98ebff49-0c09-4790-9add-00943a83b8c7",
+      "domain": "transport",
+      "result": "AI_SELF_REVIEWED",
+      "checks": [
+        "Korean naturalness/register/reference",
+        "Japanese meaning/tense/politeness",
+        "internal lower_intermediate level; not official TOPIK",
+        "unique comprehension evidence and every distractor",
+        "full passage meaning/korean alternatives"
+      ],
+      "evidence": "工事のため一時的に移動しています。乗る場所は약국 앞です。"
+    },
+    {
+      "key": "A30",
+      "example_id": "c5e2884a-438d-40a7-910d-cc31ce8e3004",
+      "domain": "transport",
+      "result": "AI_SELF_REVIEWED",
+      "checks": [
+        "Korean naturalness/register/reference",
+        "Japanese meaning/tense/politeness",
+        "internal lower_intermediate level; not official TOPIK",
+        "unique comprehension evidence and every distractor",
+        "full passage meaning/korean alternatives"
+      ],
+      "evidence": "아직と사려고요で未購入と予定を区別します。理由は終了時刻が未定だからです。"
+    },
+    {
+      "key": "A31",
+      "example_id": "b0ff4d0a-8da9-4d61-a365-bdb881f3ee0c",
+      "domain": "shopping",
+      "result": "AI_SELF_REVIEWED",
+      "checks": [
+        "Korean naturalness/register/reference",
+        "Japanese meaning/tense/politeness",
+        "internal lower_intermediate level; not official TOPIK",
+        "unique comprehension evidence and every distractor",
+        "exact transcript; terminal punctuation omission only"
+      ],
+      "evidence": "色は変えずにサイズだけ한 치수 크게する希望です。"
+    },
+    {
+      "key": "A32",
+      "example_id": "953682da-9544-4681-9bd5-06321fea2c72",
+      "domain": "shopping",
+      "result": "AI_SELF_REVIEWED",
+      "checks": [
+        "Korean naturalness/register/reference",
+        "Japanese meaning/tense/politeness",
+        "internal lower_intermediate level; not official TOPIK",
+        "unique comprehension evidence and every distractor",
+        "exact transcript; terminal punctuation omission only"
+      ],
+      "evidence": "가격표を取る依頼と、상자는 필요 없다는包装方法の希望を区別します。"
+    },
+    {
+      "key": "A33",
+      "example_id": "860b02bf-e4d4-46e9-b697-bad3fbdb8196",
+      "domain": "shopping",
+      "result": "AI_SELF_REVIEWED",
+      "checks": [
+        "Korean naturalness/register/reference",
+        "Japanese meaning/tense/politeness",
+        "internal lower_intermediate level; not official TOPIK",
+        "unique comprehension evidence and every distractor",
+        "exact transcript; terminal punctuation omission only"
+      ],
+      "evidence": "환불보다는と교환하고 싶어요から、返金ではなく交換を希望すると分かります。"
+    },
+    {
+      "key": "A34",
+      "example_id": "003666d4-e6d6-46d6-befe-a9e94f44c7dd",
+      "domain": "shopping",
+      "result": "AI_SELF_REVIEWED",
+      "checks": [
+        "Korean naturalness/register/reference",
+        "Japanese meaning/tense/politeness",
+        "internal lower_intermediate level; not official TOPIK",
+        "unique comprehension evidence and every distractor",
+        "exact transcript; terminal punctuation omission only"
+      ],
+      "evidence": "있으면という条件の後に、집으로 배송してほしいと依頼しています。"
+    },
+    {
+      "key": "A35",
+      "example_id": "34071687-8d40-474b-83a7-da8d8dfbd633",
+      "domain": "shopping",
+      "result": "AI_SELF_REVIEWED",
+      "checks": [
+        "Korean naturalness/register/reference",
+        "Japanese meaning/tense/politeness",
+        "internal lower_intermediate level; not official TOPIK",
+        "unique comprehension evidence and every distractor",
+        "exact transcript; terminal punctuation omission only"
+      ],
+      "evidence": "하나만は現在の在庫、두 개は希望の数です。入荷は내일です。"
+    },
+    {
+      "key": "A36",
+      "example_id": "904f37fb-d533-4eca-b220-2a165f452521",
+      "domain": "shopping",
+      "result": "AI_SELF_REVIEWED",
+      "checks": [
+        "Korean naturalness/register/reference",
+        "Japanese meaning/tense/politeness",
+        "internal lower_intermediate level; not official TOPIK",
+        "unique comprehension evidence and every distractor",
+        "full passage meaning/korean alternatives"
+      ],
+      "evidence": "함께 쓸 수 없어요は割引との併用不可です。クーポン全体が無効なのではありません。"
+    },
+    {
+      "key": "A37",
+      "example_id": "d6faae97-7b9a-4fa6-9a2e-8a9147cddf48",
+      "domain": "shopping",
+      "result": "AI_SELF_REVIEWED",
+      "checks": [
+        "Korean naturalness/register/reference",
+        "Japanese meaning/tense/politeness",
+        "internal lower_intermediate level; not official TOPIK",
+        "unique comprehension evidence and every distractor",
+        "full passage meaning/korean alternatives"
+      ],
+      "evidence": "버리지 말고 보관する対象は영수증です。保証や交換の一般規則を説明する教材ではありません。"
+    },
+    {
+      "key": "A38",
+      "example_id": "7d8c05f9-428f-4dd7-a9b7-215bb51e5d78",
+      "domain": "shopping",
+      "result": "AI_SELF_REVIEWED",
+      "checks": [
+        "Korean naturalness/register/reference",
+        "Japanese meaning/tense/politeness",
+        "internal lower_intermediate level; not official TOPIK",
+        "unique comprehension evidence and every distractor",
+        "full passage meaning/korean alternatives"
+      ],
+      "evidence": "비싸도は値段の高さを許容しています。優先するのは잘 익은状態です。"
+    },
+    {
+      "key": "A39",
+      "example_id": "c844885d-8cf7-47d2-a332-76fd221f6d90",
+      "domain": "shopping",
+      "result": "AI_SELF_REVIEWED",
+      "checks": [
+        "Korean naturalness/register/reference",
+        "Japanese meaning/tense/politeness",
+        "internal lower_intermediate level; not official TOPIK",
+        "unique comprehension evidence and every distractor",
+        "full passage meaning/korean alternatives"
+      ],
+      "evidence": "찾으러 왔어요と이미 했어요で、来店目的と支払い済みであることを確かめます。"
+    },
+    {
+      "key": "A40",
+      "example_id": "18762f66-8c77-401d-af96-e16f0528e3c8",
+      "domain": "shopping",
+      "result": "AI_SELF_REVIEWED",
+      "checks": [
+        "Korean naturalness/register/reference",
+        "Japanese meaning/tense/politeness",
+        "internal lower_intermediate level; not official TOPIK",
+        "unique comprehension evidence and every distractor",
+        "full passage meaning/korean alternatives"
+      ],
+      "evidence": "하나만は袋の枚数、따로 싸 주세요は瓶の包み方の依頼です。"
+    },
+    {
+      "key": "A41",
+      "example_id": "ca718b83-370a-4947-bc31-755505662e48",
+      "domain": "service",
+      "result": "AI_SELF_REVIEWED",
+      "checks": [
+        "Korean naturalness/register/reference",
+        "Japanese meaning/tense/politeness",
+        "internal lower_intermediate level; not official TOPIK",
+        "unique comprehension evidence and every distractor",
+        "exact transcript; terminal punctuation omission only"
+      ],
+      "evidence": "전체 길이を大きく変えず、앞머리만を整える依頼です。"
+    },
+    {
+      "key": "A42",
+      "example_id": "9400bbcc-57f2-4a63-b117-6467a210f989",
+      "domain": "service",
+      "result": "AI_SELF_REVIEWED",
+      "checks": [
+        "Korean naturalness/register/reference",
+        "Japanese meaning/tense/politeness",
+        "internal lower_intermediate level; not official TOPIK",
+        "unique comprehension evidence and every distractor",
+        "exact transcript; terminal punctuation omission only"
+      ],
+      "evidence": "早く受け取れると確約しているのではなく、접수할 때相談するよう案内しています。"
+    },
+    {
+      "key": "A43",
+      "example_id": "9f646982-0f6e-4772-a90e-a6ef228e7fbc",
+      "domain": "service",
+      "result": "AI_SELF_REVIEWED",
+      "checks": [
+        "Korean naturalness/register/reference",
+        "Japanese meaning/tense/politeness",
+        "internal lower_intermediate level; not official TOPIK",
+        "unique comprehension evidence and every distractor",
+        "exact transcript; terminal punctuation omission only"
+      ],
+      "evidence": "이유は貸出冊数の上限です。延滞や罰金については述べていません。"
+    },
+    {
+      "key": "A44",
+      "example_id": "97c4240b-7a66-4672-be22-bf48da92954a",
+      "domain": "service",
+      "result": "AI_SELF_REVIEWED",
+      "checks": [
+        "Korean naturalness/register/reference",
+        "Japanese meaning/tense/politeness",
+        "internal lower_intermediate level; not official TOPIK",
+        "unique comprehension evidence and every distractor",
+        "exact transcript; terminal punctuation omission only"
+      ],
+      "evidence": "사흘 정도は目安です。来店の合図は끝나면 보내는 문자です。"
+    },
+    {
+      "key": "A45",
+      "example_id": "6efd1b4a-f475-41b4-9572-c6a12256816c",
+      "domain": "service",
+      "result": "AI_SELF_REVIEWED",
+      "checks": [
+        "Korean naturalness/register/reference",
+        "Japanese meaning/tense/politeness",
+        "internal lower_intermediate level; not official TOPIK",
+        "unique comprehension evidence and every distractor",
+        "exact transcript; terminal punctuation omission only"
+      ],
+      "evidence": "기다리셔야 할 수도は可能性です。방문 전에 전화するよう勧めています。"
+    },
+    {
+      "key": "A46",
+      "example_id": "77aca458-4d71-4ec1-9ab2-86a606c2e577",
+      "domain": "service",
+      "result": "AI_SELF_REVIEWED",
+      "checks": [
+        "Korean naturalness/register/reference",
+        "Japanese meaning/tense/politeness",
+        "internal lower_intermediate level; not official TOPIK",
+        "unique comprehension evidence and every distractor",
+        "full passage meaning/korean alternatives"
+      ],
+      "evidence": "먼저 계산と번호를 부르면 가져가는順序を聞き分けます。"
+    },
+    {
+      "key": "A47",
+      "example_id": "94e2ef9e-92e6-4449-8d7a-bb069e35b07c",
+      "domain": "service",
+      "result": "AI_SELF_REVIEWED",
+      "checks": [
+        "Korean naturalness/register/reference",
+        "Japanese meaning/tense/politeness",
+        "internal lower_intermediate level; not official TOPIK",
+        "unique comprehension evidence and every distractor",
+        "full passage meaning/korean alternatives"
+      ],
+      "evidence": "바로 들어갈 수 없어요の後に、荷物を預けるという代案が示されています。"
+    },
+    {
+      "key": "A48",
+      "example_id": "c2b165a8-8c60-4639-9ec7-48cbd96defd7",
+      "domain": "service",
+      "result": "AI_SELF_REVIEWED",
+      "checks": [
+        "Korean naturalness/register/reference",
+        "Japanese meaning/tense/politeness",
+        "internal lower_intermediate level; not official TOPIK",
+        "unique comprehension evidence and every distractor",
+        "full passage meaning/korean alternatives"
+      ],
+      "evidence": "오늘 고르는ことと내일 인화가 끝나는ことを区別します。"
+    },
+    {
+      "key": "A49",
+      "example_id": "16aa438f-d48d-4078-aabe-2e849cce76a1",
+      "domain": "service",
+      "result": "AI_SELF_REVIEWED",
+      "checks": [
+        "Korean naturalness/register/reference",
+        "Japanese meaning/tense/politeness",
+        "internal lower_intermediate level; not official TOPIK",
+        "unique comprehension evidence and every distractor",
+        "full passage meaning/korean alternatives"
+      ],
+      "evidence": "같은 색が複数あるため、区別できる손잡이 모양を聞いています。"
+    },
+    {
+      "key": "A50",
+      "example_id": "c928ef23-dc1e-4b68-99c9-3a7edc414fd5",
+      "domain": "service",
+      "result": "AI_SELF_REVIEWED",
+      "checks": [
+        "Korean naturalness/register/reference",
+        "Japanese meaning/tense/politeness",
+        "internal lower_intermediate level; not official TOPIK",
+        "unique comprehension evidence and every distractor",
+        "full passage meaning/korean alternatives"
+      ],
+      "evidence": "비용만と수리는 다음에で、今日の相談と後日の修理を分けています。"
+    },
+    {
+      "key": "A51",
+      "example_id": "6a05bbac-f78c-4efc-a9bc-c45a941d6b7b",
+      "domain": "request",
+      "result": "AI_SELF_REVIEWED",
+      "checks": [
+        "Korean naturalness/register/reference",
+        "Japanese meaning/tense/politeness",
+        "internal lower_intermediate level; not official TOPIK",
+        "unique comprehension evidence and every distractor",
+        "exact transcript; terminal punctuation omission only"
+      ],
+      "evidence": "자리를 봐 주다はここでは席を確保して見ていてもらうことです。"
+    },
+    {
+      "key": "A52",
+      "example_id": "8fc86d5d-832c-4179-b848-d513f7db0306",
+      "domain": "request",
+      "result": "AI_SELF_REVIEWED",
+      "checks": [
+        "Korean naturalness/register/reference",
+        "Japanese meaning/tense/politeness",
+        "internal lower_intermediate level; not official TOPIK",
+        "unique comprehension evidence and every distractor",
+        "exact transcript; terminal punctuation omission only"
+      ],
+      "evidence": "오늘까지が元の期限です。내일 오전까지 보내도の可否を尋ねています。"
+    },
+    {
+      "key": "A53",
+      "example_id": "29348d62-2a30-42de-b73a-b56af4dac606",
+      "domain": "request",
+      "result": "AI_SELF_REVIEWED",
+      "checks": [
+        "Korean naturalness/register/reference",
+        "Japanese meaning/tense/politeness",
+        "internal lower_intermediate level; not official TOPIK",
+        "unique comprehension evidence and every distractor",
+        "exact transcript; terminal punctuation omission only"
+      ],
+      "evidence": "문까지만で手伝いの範囲を限定し、その後は自分で行うと伝えます。"
+    },
+    {
+      "key": "A54",
+      "example_id": "06e816ab-fdaf-4795-88aa-df016982223e",
+      "domain": "request",
+      "result": "AI_SELF_REVIEWED",
+      "checks": [
+        "Korean naturalness/register/reference",
+        "Japanese meaning/tense/politeness",
+        "internal lower_intermediate level; not official TOPIK",
+        "unique comprehension evidence and every distractor",
+        "exact transcript; terminal punctuation omission only"
+      ],
+      "evidence": "못 가요は欠席の連絡です。저 없이 시작してほしいと依頼しています。"
+    },
+    {
+      "key": "A55",
+      "example_id": "1701ca0e-7b2d-4a12-b728-c646f6ffaee5",
+      "domain": "request",
+      "result": "AI_SELF_REVIEWED",
+      "checks": [
+        "Korean naturalness/register/reference",
+        "Japanese meaning/tense/politeness",
+        "internal lower_intermediate level; not official TOPIK",
+        "unique comprehension evidence and every distractor",
+        "exact transcript; terminal punctuation omission only"
+      ],
+      "evidence": "내일は断り、모레は代案です。빌려 드리다の貸す側は話し手です。"
+    },
+    {
+      "key": "A56",
+      "example_id": "4730d587-0890-4ff4-add1-67e6623088ed",
+      "domain": "request",
+      "result": "AI_SELF_REVIEWED",
+      "checks": [
+        "Korean naturalness/register/reference",
+        "Japanese meaning/tense/politeness",
+        "internal lower_intermediate level; not official TOPIK",
+        "unique comprehension evidence and every distractor",
+        "full passage meaning/korean alternatives"
+      ],
+      "evidence": "今の依頼は문자로 남겨 주세요、話し手の後の行動は전화할게요です。"
+    },
+    {
+      "key": "A57",
+      "example_id": "c4693812-857b-4a19-be9f-7849c0eb1872",
+      "domain": "request",
+      "result": "AI_SELF_REVIEWED",
+      "checks": [
+        "Korean naturalness/register/reference",
+        "Japanese meaning/tense/politeness",
+        "internal lower_intermediate level; not official TOPIK",
+        "unique comprehension evidence and every distractor",
+        "full passage meaning/korean alternatives"
+      ],
+      "evidence": "이번에는 어렵지만と다음에도 꼭で、今回の断りと今後の希望を区別します。"
+    },
+    {
+      "key": "A58",
+      "example_id": "da8bca54-db6c-46e7-9b98-05a03c51875f",
+      "domain": "request",
+      "result": "AI_SELF_REVIEWED",
+      "checks": [
+        "Korean naturalness/register/reference",
+        "Japanese meaning/tense/politeness",
+        "internal lower_intermediate level; not official TOPIK",
+        "unique comprehension evidence and every distractor",
+        "full passage meaning/korean alternatives"
+      ],
+      "evidence": "열어도 괜찮을까요は許可の依頼です。바람이 세면はその後の条件です。"
+    },
+    {
+      "key": "A59",
+      "example_id": "990ce76e-024d-443a-8c81-91419f485ddf",
+      "domain": "request",
+      "result": "AI_SELF_REVIEWED",
+      "checks": [
+        "Korean naturalness/register/reference",
+        "Japanese meaning/tense/politeness",
+        "internal lower_intermediate level; not official TOPIK",
+        "unique comprehension evidence and every distractor",
+        "full passage meaning/korean alternatives"
+      ],
+      "evidence": "먼저 해야 한다는 건 아니고と、先にする希望を明確に否定しています。"
+    },
+    {
+      "key": "A60",
+      "example_id": "faa4afbe-69a3-4717-b88f-406d20d8d361",
+      "domain": "request",
+      "result": "AI_SELF_REVIEWED",
+      "checks": [
+        "Korean naturalness/register/reference",
+        "Japanese meaning/tense/politeness",
+        "internal lower_intermediate level; not official TOPIK",
+        "unique comprehension evidence and every distractor",
+        "full passage meaning/korean alternatives"
+      ],
+      "evidence": "感謝の言葉の後に、自分は待ってから行くという別の行動を伝えています。"
+    }
+  ],
+  "remaining": [
+    "Independent native speaker/teacher review NOT TESTED",
+    "Real device normal/slow TTS listening and VoiceOver NOT TESTED",
+    "Known DATA10-1 runtime and release gates remain"
+  ],
+  "similarity_review": "全60原文を既存4,813例文の文字3-gram近傍各3件と比較。A08第一文を修正。短い定型句やテーマの共有を新しい既存Example再利用とは数えない。完全一致原文/日韓ペア0。意味の重複全般を排除した保証ではない。",
+  "draft_metadata_correction": {
+    "field": "created_at",
+    "before": "2026-10-20T18:00:00Z",
+    "after": "2026-10-20T12:23:57Z",
+    "reason": "未配布の新規300エンティティの原稿承認時刻を実UTCに設定。既存created_at変更0。"
+  }
+}
