@@ -1,4 +1,6 @@
-"""DATA09-B real importer/SQLite regressions; never language or Swift certification."""
+"""Exact DATA09-B20→21 pinned to immutable21; current22 is covered by C.
+Not language, human or Swift certification.
+"""
 import collections
 import copy
 import gzip
@@ -20,20 +22,24 @@ from test_lookup_sql import user
 from prepare_data09_b import REUSED, authored, prepare
 from types import SimpleNamespace
 
-SOURCE=Path(os.environ.get('DATA09_B_SOURCE',ROOT/'Content/production.json'))
-BUNDLE=Path(os.environ.get('DATA09_B_BUNDLE',ROOT/'Resources/content.sqlite'))
+SOURCE=Path(os.environ.get('DATA09_B_SOURCE',ROOT/'Tests/Fixtures/content-v21-production.json.gz'))
+BUNDLE=Path(os.environ.get('DATA09_B_BUNDLE',ROOT/'Tests/Fixtures/content-v21-production.sqlite'))
 
 
 class Data09BatchBTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
+        global SOURCE
+        cls.released_source=tempfile.TemporaryDirectory()
+        if SOURCE.suffix=='.gz':
+            raw=gzip.decompress(SOURCE.read_bytes());SOURCE=Path(cls.released_source.name)/'content21.json';SOURCE.write_bytes(raw)
         cls.source=json.loads(SOURCE.read_text())
         cls.registry=json.loads((ROOT/'Content/data09-b-ids.json').read_text())
         cls.approved=set(json.loads((ROOT/'Content/data09-b-revised-ids.json').read_text()))
         cls.old=sqlite3.connect(ROOT/'Tests/Fixtures/content-v20-production.sqlite')
         cls.db=sqlite3.connect(BUNDLE.resolve().as_uri()+'?mode=ro',uri=True)
     @classmethod
-    def tearDownClass(cls):cls.db.close();cls.old.close()
+    def tearDownClass(cls):cls.db.close();cls.old.close();cls.released_source.cleanup()
 
     def test_strict20_to21_rebuild_all_rows_and_original20_bytes(self):
         self.assertEqual(hashlib.sha256((ROOT/'Tests/Fixtures/content-v20-production.sqlite').read_bytes()).hexdigest(),'c7b48bc8b27b7d436fadd41429d9dabf85acf615b632d8cc9a87ca5d6bc39886')
