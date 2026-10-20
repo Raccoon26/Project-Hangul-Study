@@ -1,0 +1,111 @@
+{
+  "stage": "DATA-09-2",
+  "base_commit": "94a57097416583617b10dc168ca85e223a039b9b",
+  "versions": {
+    "content": 20,
+    "schema": 4,
+    "min_reader": 7,
+    "user_progress": 10
+  },
+  "counts": {
+    "content_items": 15597,
+    "hangul": 55,
+    "content_links": 6173,
+    "courses": 6,
+    "learner_notes": 531,
+    "questions": 3409,
+    "question_choices": 1044,
+    "lessons": 91,
+    "lesson_items": 1155,
+    "sources": 20,
+    "item_sources": 15163,
+    "pronunciation_rules": 36,
+    "pronunciation_presentations": 36,
+    "content_audio": 36,
+    "examples": 4669,
+    "pronunciation_examples": 13,
+    "audio_questions": 3,
+    "tags": 97,
+    "vocabulary": 2287,
+    "item_tags": 4507,
+    "meanings": 2420,
+    "vocabulary_examples": 4514,
+    "grammar": 60,
+    "grammar_examples": 241,
+    "listening_items": 1936
+  },
+  "by_level": {
+    "beginner": {
+      "vocabulary": 800,
+      "examples": 1577,
+      "grammar": 20,
+      "listening_items": 79,
+      "questions": 134,
+      "courses": 1,
+      "lessons": 6
+    },
+    "hangul": {
+      "vocabulary": 0,
+      "examples": 0,
+      "grammar": 0,
+      "listening_items": 0,
+      "questions": 59,
+      "courses": 1,
+      "lessons": 12
+    },
+    "intro": {
+      "vocabulary": 306,
+      "examples": 659,
+      "grammar": 22,
+      "listening_items": 34,
+      "questions": 156,
+      "courses": 2,
+      "lessons": 20
+    },
+    "lower_intermediate": {
+      "vocabulary": 1181,
+      "examples": 2433,
+      "grammar": 18,
+      "listening_items": 1823,
+      "questions": 3060,
+      "courses": 2,
+      "lessons": 53
+    }
+  },
+  "delta": {
+    "grammar": 18,
+    "examples": 72,
+    "questions": 72,
+    "question_choices": 216,
+    "courses": 1,
+    "lessons": 6,
+    "vocabulary": 0,
+    "new_content_ids": 169,
+    "revised_existing_ids": 12
+  },
+  "data09_cumulative": {
+    "grammar": 18,
+    "new_examples": 72,
+    "questions": 72
+  },
+  "long_term_target": [
+    350,
+    500
+  ],
+  "production_grammar_total": 60,
+  "long_term_remaining": [
+    290,
+    440
+  ],
+  "source_sha256": "0ccf5dee471d10dc39401e01f5db52e8093bb77da822626457f2dde9a9bf4e19",
+  "bundle_sha256": "c7b48bc8b27b7d436fadd41429d9dabf85acf615b632d8cc9a87ca5d6bc39886",
+  "original19_source_sha256": "f97b3bd70d07a3945770b8d6940c4a53e29a9b70b565caf21fb927230c08b4a8",
+  "original19_bundle_sha256": "57aeaf918d5eaaec3bbfaed02f87c5452cca8264540b923a70448b781adbe9e5",
+  "integrity_check": [
+    [
+      "ok"
+    ]
+  ],
+  "foreign_key_violations": [],
+  "tests_status": "PASS: full311 / focused10; native and independent human review remain blocked/not tested"
+}

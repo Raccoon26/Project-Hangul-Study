@@ -1,0 +1,15 @@
+test_72_single_choice_contracts_all_distractor_rationales_and_supported_tasks (test_data09_a_content.Data09BatchATests.test_72_single_choice_contracts_all_distractor_rationales_and_supported_tasks) ... ok
+test_all18_cards_and_six_lessons_reachable_through_actual_repository_sql (test_data09_a_content.Data09BatchATests.test_all18_cards_and_six_lessons_reachable_through_actual_repository_sql) ... ok
+test_combined_prerequisite_graph_has_no_cycle_and_all_targets_are_active (test_data09_a_content.Data09BatchATests.test_combined_prerequisite_graph_has_no_cycle_and_all_targets_are_active) ... ok
+test_disk_content_swap_preserves_user_snapshot_srs_and_duplicate_enrollment (test_data09_a_content.Data09BatchATests.test_disk_content_swap_preserves_user_snapshot_srs_and_duplicate_enrollment) ... ok
+test_every_old_payload_membership_and_exact12_revision_endpoints_preserved (test_data09_a_content.Data09BatchATests.test_every_old_payload_membership_and_exact12_revision_endpoints_preserved) ... ok
+test_exact_counts_stable_uuid4_and_no_unapproved_entities (test_data09_a_content.Data09BatchATests.test_exact_counts_stable_uuid4_and_no_unapproved_entities) ... ok
+test_invalid_revision_version_task_and_multiple_answers_are_rejected (test_data09_a_content.Data09BatchATests.test_invalid_revision_version_task_and_multiple_answers_are_rejected) ... ok
+test_new_patterns_and72_pairs_have_no_normalized_old_or_internal_duplicates (test_data09_a_content.Data09BatchATests.test_new_patterns_and72_pairs_have_no_normalized_old_or_internal_duplicates) ... ok
+test_reviewed_irregular_and_particle_forms_are_exact_authored_answers (test_data09_a_content.Data09BatchATests.test_reviewed_irregular_and_particle_forms_are_exact_authored_answers) ... ok
+test_strict19_to20_rebuild_all_rows_and_original_bytes (test_data09_a_content.Data09BatchATests.test_strict19_to20_rebuild_all_rows_and_original_bytes) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 24.039s
+
+OK

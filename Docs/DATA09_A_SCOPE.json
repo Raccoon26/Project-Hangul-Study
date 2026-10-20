@@ -1,0 +1,125 @@
+{
+  "stage": "DATA-09-2",
+  "reason": "User explicitly changed Batch A focus from the preliminary 54-unit order to reasons/results/conditions/purpose/intention/hypotheses.",
+  "selected": [
+    {
+      "key": "A01",
+      "id": "da6206fe-cb6b-4842-8943-da3c54c07370",
+      "pattern": "-기 때문에 / N 때문에",
+      "original_plan_key": "P35"
+    },
+    {
+      "key": "A02",
+      "id": "4168b8b7-98df-431a-a90c-d83945f3df76",
+      "pattern": "-느라고",
+      "original_plan_key": "new"
+    },
+    {
+      "key": "A03",
+      "id": "645acca8-db1f-4482-9b4c-88d637445e2d",
+      "pattern": "-는 바람에",
+      "original_plan_key": "P36"
+    },
+    {
+      "key": "A04",
+      "id": "400d4fa2-b300-406c-9425-c7bb1a125c9d",
+      "pattern": "-아/어지다（상태 변화）",
+      "original_plan_key": "P05"
+    },
+    {
+      "key": "A05",
+      "id": "e7ab89e5-358e-461a-893d-d87d057bc9ed",
+      "pattern": "-게 되다",
+      "original_plan_key": "P06"
+    },
+    {
+      "key": "A06",
+      "id": "0ae7131c-e497-4b82-8286-59c84d5c9e9d",
+      "pattern": "-아/어야（필요 조건）",
+      "original_plan_key": "new"
+    },
+    {
+      "key": "A07",
+      "id": "50b9f4ff-e592-4d4d-8057-a4e26a7bc2ad",
+      "pattern": "-(ㄴ/는)다면 / -다면 / N(이)라면",
+      "original_plan_key": "new"
+    },
+    {
+      "key": "A08",
+      "id": "7fb56c6c-79b1-4837-94e6-a65dd45ab62d",
+      "pattern": "-거든（조건）",
+      "original_plan_key": "new"
+    },
+    {
+      "key": "A09",
+      "id": "4dd04c0c-5449-4d0f-a3cd-f0701ccf5897",
+      "pattern": "-(으)려면",
+      "original_plan_key": "new"
+    },
+    {
+      "key": "A10",
+      "id": "39d90697-78fd-4a3b-847c-b90d5ff07e64",
+      "pattern": "-기 위해(서) / N을·를 위해(서)",
+      "original_plan_key": "P39"
+    },
+    {
+      "key": "A11",
+      "id": "76c32b94-218c-4167-9dc0-0e5e848766bd",
+      "pattern": "-도록（목표）",
+      "original_plan_key": "P37"
+    },
+    {
+      "key": "A12",
+      "id": "549f297e-3b2e-4de2-b170-de5015d0d77b",
+      "pattern": "-도록 하다（지시·방침）",
+      "original_plan_key": "P38"
+    },
+    {
+      "key": "A13",
+      "id": "d46e4c1d-f809-43eb-a867-f9a3220fb93a",
+      "pattern": "-기로 하다",
+      "original_plan_key": "P07"
+    },
+    {
+      "key": "A14",
+      "id": "6f229752-cc5f-4de7-b098-3e9f0c135bf9",
+      "pattern": "-(으)ㄹ까 하다（잠정 의도）",
+      "original_plan_key": "new"
+    },
+    {
+      "key": "A15",
+      "id": "d940b512-3a3a-4108-b561-fa33dfd93222",
+      "pattern": "-아/어야겠다",
+      "original_plan_key": "P18"
+    },
+    {
+      "key": "A16",
+      "id": "71950d57-960d-45a6-a4e6-e492e4c01a50",
+      "pattern": "-(으)ㄹ까 봐",
+      "original_plan_key": "P40"
+    },
+    {
+      "key": "A17",
+      "id": "4310e69f-27bc-49bb-92a3-08f592427316",
+      "pattern": "-다 보면",
+      "original_plan_key": "P44"
+    },
+    {
+      "key": "A18",
+      "id": "f527297e-94dd-472b-928e-7bc3900b2dae",
+      "pattern": "-(으)ㄹ 필요가 있다 / 없다",
+      "original_plan_key": "P50"
+    }
+  ],
+  "selected_original_plan_units": 12,
+  "new_functional_units": 6,
+  "preliminary54_plus6": 60,
+  "remaining_original_unproduced": 42,
+  "total_currently_approved_DATA09_units": 18,
+  "next_batches": "NOT STARTED; remaining42 are proposals, not a promise of automatic approval",
+  "long_term_goal": [
+    350,
+    500
+  ],
+  "quantity_reduction": 0
+}

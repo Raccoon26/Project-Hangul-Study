@@ -1,0 +1,14 @@
+test_actual_production_grammar_listening_relationships (test_data05_content.Data05Tests.test_actual_production_grammar_listening_relationships) ... ok
+test_all_existing_payloads_ids_membership_and_approved_relation_revisions (test_data05_content.Data05Tests.test_all_existing_payloads_ids_membership_and_approved_relation_revisions) ... ok
+test_all_new_cards_meanings_notes_and_examples_through_actual_queries (test_data05_content.Data05Tests.test_all_new_cards_meanings_notes_and_examples_through_actual_queries) ... ok
+test_new_bad_references_and_translations_rejected (test_data05_content.Data05Tests.test_new_bad_references_and_translations_rejected) ... ok
+test_new_listening_resume_attempt_identity_and_skill_isolation (test_data05_content.Data05Tests.test_new_listening_resume_attempt_identity_and_skill_isolation) ... ok
+test_new_set_and_srs_storage_resume_and_old_schedules_preserved (test_data05_content.Data05Tests.test_new_set_and_srs_storage_resume_and_old_schedules_preserved) ... ok
+test_retired_vocabulary_cannot_leak_into_active_production_pool (test_data05_content.Data05Tests.test_retired_vocabulary_cannot_leak_into_active_production_pool) ... ok
+test_search_level_pos_and_bounded_set_selection (test_data05_content.Data05Tests.test_search_level_pos_and_bounded_set_selection) ... ok
+test_strict_previous_release_gate_and_exact_delta (test_data05_content.Data05Tests.test_strict_previous_release_gate_and_exact_delta) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 14.182s
+
+OK
