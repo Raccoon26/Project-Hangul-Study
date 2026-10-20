@@ -1,0 +1,423 @@
+{
+  "stage": "DATA-09-8",
+  "date_utc": "2026-10-20",
+  "baseline_commit": "542816ccf1a8ce25a8a4865cbd8f2a7fcb73c03e",
+  "metadata": {
+    "schema_version": 4,
+    "content_version": 24,
+    "min_reader_version": 7,
+    "dataset_id": "ko-ja-core",
+    "is_fixture": 0,
+    "source_locale": "ja",
+    "target_locale": "ko"
+  },
+  "production_counts": {
+    "audio_questions": 3,
+    "conjugations": 0,
+    "content_aliases": 0,
+    "content_audio": 36,
+    "content_items": 15941,
+    "content_links": 6499,
+    "content_metadata": 1,
+    "courses": 8,
+    "examples": 4813,
+    "grammar": 96,
+    "grammar_examples": 389,
+    "hangul": 55,
+    "item_sources": 15507,
+    "item_tags": 4525,
+    "learner_notes": 531,
+    "lesson_items": 1191,
+    "lessons": 103,
+    "listening_items": 1936,
+    "meanings": 2420,
+    "media_assets": 0,
+    "pronunciation_examples": 13,
+    "pronunciation_presentations": 36,
+    "pronunciation_rules": 36,
+    "question_choices": 1476,
+    "questions": 3553,
+    "sources": 23,
+    "sqlite_stat1": 43,
+    "tags": 103,
+    "vocabulary": 2287,
+    "vocabulary_examples": 4514,
+    "vocabulary_search": 4707
+  },
+  "by_level": {
+    "hangul": {
+      "vocabulary": 0,
+      "meanings": 0,
+      "examples": 0,
+      "grammar": 0,
+      "questions": 59,
+      "listening_items": 0,
+      "courses": 1,
+      "lessons": 12
+    },
+    "intro": {
+      "vocabulary": 306,
+      "meanings": 327,
+      "examples": 659,
+      "grammar": 22,
+      "questions": 156,
+      "listening_items": 34,
+      "courses": 2,
+      "lessons": 20
+    },
+    "beginner": {
+      "vocabulary": 800,
+      "meanings": 847,
+      "examples": 1577,
+      "grammar": 20,
+      "questions": 134,
+      "listening_items": 79,
+      "courses": 1,
+      "lessons": 6
+    },
+    "lower_intermediate": {
+      "vocabulary": 1181,
+      "meanings": 1246,
+      "examples": 2577,
+      "grammar": 54,
+      "questions": 3204,
+      "listening_items": 1823,
+      "courses": 4,
+      "lessons": 65
+    },
+    "intermediate": {
+      "vocabulary": 0,
+      "meanings": 0,
+      "examples": 0,
+      "grammar": 0,
+      "questions": 0,
+      "listening_items": 0,
+      "courses": 0,
+      "lessons": 0
+    },
+    "upper_intermediate": {
+      "vocabulary": 0,
+      "meanings": 0,
+      "examples": 0,
+      "grammar": 0,
+      "questions": 0,
+      "listening_items": 0,
+      "courses": 0,
+      "lessons": 0
+    },
+    "advanced": {
+      "vocabulary": 0,
+      "meanings": 0,
+      "examples": 0,
+      "grammar": 0,
+      "questions": 0,
+      "listening_items": 0,
+      "courses": 0,
+      "lessons": 0
+    },
+    "master": {
+      "vocabulary": 0,
+      "meanings": 0,
+      "examples": 0,
+      "grammar": 0,
+      "questions": 0,
+      "listening_items": 0,
+      "courses": 0,
+      "lessons": 0
+    },
+    "maintenance": {
+      "vocabulary": 0,
+      "meanings": 0,
+      "examples": 0,
+      "grammar": 0,
+      "questions": 0,
+      "listening_items": 0,
+      "courses": 0,
+      "lessons": 0
+    }
+  },
+  "data09": {
+    "grammar": 54,
+    "fixed_expressions": 0,
+    "unique_examples": 216,
+    "grammar_questions": 216,
+    "vocabulary_expression_delta": 0,
+    "existing_vocabulary_expressions": 163,
+    "classification_basis": "All54 are productive grammar structures/endings in grammar table, per final Batch reviews; no new fixed vocabulary expressions. Draft pedagogical_type labels are not runtime item counts."
+  },
+  "batches": {
+    "A": {
+      "grammar": 18,
+      "fixed_expressions": 0,
+      "new_unique_examples": 72,
+      "grammar_questions": 72
+    },
+    "B": {
+      "grammar": 18,
+      "fixed_expressions": 0,
+      "new_unique_examples": 72,
+      "grammar_questions": 72
+    },
+    "C": {
+      "grammar": 18,
+      "fixed_expressions": 0,
+      "new_unique_examples": 72,
+      "grammar_questions": 72
+    }
+  },
+  "prerequisite_candidates": {
+    "total": 163,
+    "resolved": 120,
+    "pedagogically_allowable": 7,
+    "unresolved": 36,
+    "level_concerns_unresolved": 8,
+    "original_category_matrix": {
+      "level_mismatch_candidate": {
+        "unresolved": 8
+      },
+      "missing_grammar": {
+        "resolved": 120,
+        "unresolved": 23,
+        "pedagogically_allowable": 4
+      },
+      "review_only": {
+        "unresolved": 5,
+        "pedagogically_allowable": 3
+      }
+    },
+    "scope": "Existing AI explanation coverage classifications rechecked against current Example text and Grammar IDs; not human approval, mastery or reuse authorization"
+  },
+  "reconstruction": {
+    "status": "PASS",
+    "tables": 31,
+    "source_tables": 25,
+    "source_rows": 66094,
+    "source_sha256": "081ed35c7cd78345af1c1793fc450acaa2931f173cef00aaa960c8ef42318540",
+    "bundle_sha256": "56a7fa8b5358e254eeb324e706860d150d20c8ec013ba0b6f602cf14d93cceff",
+    "rebuilt_sha256": "56a7fa8b5358e254eeb324e706860d150d20c8ec013ba0b6f602cf14d93cceff",
+    "sha_mismatch": false,
+    "build_seconds": 4.0429,
+    "all_rows_schema_indexes_triggers_fk_equal": true,
+    "validation_errors": 0,
+    "existing_validation_warnings": 10,
+    "preserved_artifacts": 95
+  },
+  "tests": {
+    "portable": {
+      "status": "PASS",
+      "command": "sh Tools/verify.sh --portable",
+      "count": 365,
+      "seconds": 405.161,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "exit_code": 0,
+      "log": "Docs/DATA09_CLOSEOUT_TEST_LOG.txt"
+    },
+    "closeout_checks": {
+      "status": "PASS",
+      "count": 580,
+      "failed": 0,
+      "scope": "Read-only structural/archive/preservation checks, separate from unittest365"
+    },
+    "routing": {
+      "status": "PASS",
+      "questions": 3553,
+      "examples": 4813,
+      "unreachable": 0
+    },
+    "native": {
+      "status": "BLOCKED",
+      "defined": 141,
+      "executed": 0,
+      "build_started": false,
+      "reason": "Linux; xcodebuild and swift absent"
+    },
+    "independent_human_and_dictionary_review": "NOT TESTED"
+  },
+  "quality_scope": {
+    "prior_ai_full_review": "54 grammar/216 new examples/216 questions/648 choices, DATA09-5",
+    "prior_corrections": "25IDs/31fields; preserved in current Production",
+    "current_scope": "Reconfirmed archived results/current payload and reference/regression contracts; no new independent human reread",
+    "fixed_expression_count_clarification": "Whole Vocabulary expressions163; DATA08 new cohort104; DATA09 delta0"
+  },
+  "bugs": {
+    "data09_editorial": "25IDs/31fields corrected in Content23",
+    "data09_integration": [
+      "learning_point_ja lost by grammar reader/model/view fixed",
+      "course/unit/prerequisite previews connected",
+      "explicit related lexicon and eligible authored input navigation connected"
+    ],
+    "data08_p1": "3 code fixes retained; current SQL/corpus/source regressions PASS/native BLOCKED",
+    "this_stage_runtime_fixes": 0,
+    "new_unresolved_reproduced_p0_p1_in_executed_scope": 0,
+    "native_p1_confirmation_gates": "OPEN; not evidence no iOS P0/P1"
+  },
+  "git_sizes": {
+    "reachable_blob_count": 880,
+    "over50MiB": [],
+    "over100MiB": [],
+    "largest": [
+      {
+        "oid": "152b9eff6864cb8044f34ac82bb37e7e7dc9d53f",
+        "bytes": 18841600,
+        "path": "Resources/content.sqlite"
+      },
+      {
+        "oid": "e4a0a2fea7b092e780370bd0f3ab1460c011dc50",
+        "bytes": 18812928,
+        "path": "Tests/Fixtures/content-v22-production.sqlite"
+      },
+      {
+        "oid": "17f2ea87217285281fce1bf833e9d90b1e37e8f5",
+        "bytes": 18812928,
+        "path": "Tests/Fixtures/content-v23-production.sqlite"
+      },
+      {
+        "oid": "7ad568ee125f58c724736f68fa05a8b4a7eb04bf",
+        "bytes": 18509824,
+        "path": "Tests/Fixtures/content-v21-production.sqlite"
+      },
+      {
+        "oid": "6a46344f8a83661176115fa7c3a6d951ac0b30ad",
+        "bytes": 18194432,
+        "path": "Tests/Fixtures/content-v20-production.sqlite"
+      },
+      {
+        "oid": "112e8814b7cecc1720651d6825eac941d1a322a8",
+        "bytes": 17932288,
+        "path": "Tests/Fixtures/content-v19-production.sqlite"
+      },
+      {
+        "oid": "13de34e8907989f3e303d5f3a8ae7b88cbde5e91",
+        "bytes": 17472029,
+        "path": "Content/production.json"
+      },
+      {
+        "oid": "f8afd35c533ed988812d6a9c7b130db82bb26ee4",
+        "bytes": 17452706,
+        "path": "Content/production.json"
+      },
+      {
+        "oid": "07bc4baaad003e96bc4f9e3d5900074ee565b33f",
+        "bytes": 17451198,
+        "path": "Content/production.json"
+      },
+      {
+        "oid": "47e5a85c33fb789628cc5e01f430ec9165095b06",
+        "bytes": 17177529,
+        "path": "Content/production.json"
+      },
+      {
+        "oid": "3abf0eaf247fecd76f2c2fc3963638ac1b8cccdb",
+        "bytes": 16906708,
+        "path": "Content/production.json"
+      },
+      {
+        "oid": "c21af94202bb7f2b10fbd8939e408f0ed7b1b868",
+        "bytes": 16638955,
+        "path": "Content/production.json"
+      }
+    ],
+    "largest_working_tracked_files": [
+      {
+        "path": "Resources/content.sqlite",
+        "bytes": 18841600
+      },
+      {
+        "path": "Tests/Fixtures/content-v22-production.sqlite",
+        "bytes": 18812928
+      },
+      {
+        "path": "Tests/Fixtures/content-v23-production.sqlite",
+        "bytes": 18812928
+      },
+      {
+        "path": "Tests/Fixtures/content-v21-production.sqlite",
+        "bytes": 18509824
+      },
+      {
+        "path": "Tests/Fixtures/content-v20-production.sqlite",
+        "bytes": 18194432
+      },
+      {
+        "path": "Tests/Fixtures/content-v19-production.sqlite",
+        "bytes": 17932288
+      },
+      {
+        "path": "Content/production.json",
+        "bytes": 17472029
+      },
+      {
+        "path": "Tests/Fixtures/content-v18-production.sqlite",
+        "bytes": 11685888
+      },
+      {
+        "path": "Tests/Fixtures/content-v17-production.sqlite",
+        "bytes": 11677696
+      },
+      {
+        "path": "Tests/Fixtures/content-v16-production.sqlite",
+        "bytes": 10072064
+      },
+      {
+        "path": "Tests/Fixtures/content-v15-production.sqlite",
+        "bytes": 8736768
+      },
+      {
+        "path": "Resources/.content-pcb7fgvn.sqlite",
+        "bytes": 7426048
+      }
+    ]
+  },
+  "verified_inputs": {
+    "Content/production.json": "081ed35c7cd78345af1c1793fc450acaa2931f173cef00aaa960c8ef42318540",
+    "Resources/content.sqlite": "56a7fa8b5358e254eeb324e706860d150d20c8ec013ba0b6f602cf14d93cceff",
+    "Tools/ContentBuilder/build_content.py": "0deb72a953957cde4d97fc1b3776bbd5a574af1daa5daae2aef0d0772b259849",
+    "Tools/ContentBuilder/validator.py": "f9433be96a6225e461362f7bdfc748cee5a91cda4549a05926af9e0f423bda14",
+    "Tools/ContentBuilder/audit_data09_closeout.py": "579bc6ab78870483e027952363f77ff7b151079727442b46551a5589e2235570",
+    "Tools/ContentBuilder/audit_data09_system.py": "18685c8c6e26f5ed9f7d2fa405b5df08ea2ed0fe4f3f4ebf83bd4b3fc3feff99",
+    "Tools/verify.sh": "775f9d6da6e1027353f8c5ad4355b7a1c9243c41c3bd7e78861f17710321c788",
+    "Tests/GrammarLearningTests.swift": "558ff3e858a9cfeba721b89506ba013dde109c2a5d9b4605d0c5626323b74330"
+  },
+  "release": "B—Conditional",
+  "git": {
+    "branch": "data09-8/final-closeout",
+    "initial_clean": true,
+    "force_push": false,
+    "delivery": "Ordinary commit/push/PR/main merge explicitly authorized; final head/merge SHA and state in Git/PR and final response",
+    "staged_file_size_check": {
+      "status": "PASS",
+      "count": 17,
+      "over50MiB": 0,
+      "over100MiB": 0,
+      "largest": [
+        {
+          "path": "CONTENT_GUIDE.md",
+          "bytes": 122553
+        },
+        {
+          "path": "DATA09_PROGRESS.md",
+          "bytes": 96427
+        },
+        {
+          "path": "Docs/DATA09_CLOSEOUT.json",
+          "bytes": 92050
+        },
+        {
+          "path": "Docs/DATA09_CLOSEOUT_TEST_LOG.txt",
+          "bytes": 59146
+        },
+        {
+          "path": "Docs/DATA09_CLOSEOUT_ROUTING.json",
+          "bytes": 53135
+        }
+      ]
+    },
+    "validated_commit": "982bf000355478ec834c4be1a2a684ac5e6fb0bc",
+    "pr": 17,
+    "pr_url": "https://github.com/Raccoon26/Project-Hangul-Study/pull/17",
+    "remote_ci": "No status checks registered; local365 PASS only"
+  },
+  "next_stage_started": false
+}

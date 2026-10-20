@@ -1,0 +1,1205 @@
+{
+  "baseline_commit": "fcb7897b8bf78ce138e1941d9e678d9c22128aed",
+  "source_sha256": "081ed35c7cd78345af1c1793fc450acaa2931f173cef00aaa960c8ef42318540",
+  "bundle_sha256": "56a7fa8b5358e254eeb324e706860d150d20c8ec013ba0b6f602cf14d93cceff",
+  "metadata": {
+    "schema_version": 4,
+    "content_version": 24,
+    "min_reader_version": 7,
+    "dataset_id": "ko-ja-core",
+    "is_fixture": 0,
+    "source_locale": "ja",
+    "target_locale": "ko"
+  },
+  "structural": {
+    "validation": {
+      "error_count": 0,
+      "warning_count": 5,
+      "errors": [],
+      "warnings": [
+        {
+          "code": "short_sentence",
+          "location": "examples:1",
+          "message": "korean: single-character sentence needs review"
+        },
+        {
+          "code": "short_sentence",
+          "location": "examples:1",
+          "message": "japanese: single-character sentence needs review"
+        },
+        {
+          "code": "short_sentence",
+          "location": "examples:2",
+          "message": "korean: single-character sentence needs review"
+        },
+        {
+          "code": "short_sentence",
+          "location": "examples:2",
+          "message": "japanese: single-character sentence needs review"
+        },
+        {
+          "code": "short_sentence",
+          "location": "examples:3",
+          "message": "korean: single-character sentence needs review"
+        }
+      ],
+      "details_limit": 200
+    },
+    "source_rows_scanned": 66094,
+    "source_tables_scanned": 25,
+    "scope": {
+      "vocabulary": 911,
+      "meanings": 963,
+      "unique_examples": 1821,
+      "example_placements": 1822,
+      "notes": 314,
+      "lexical_relations": 201,
+      "grammar_references": 46
+    },
+    "by_batch": {
+      "A": {
+        "vocabulary": 301,
+        "new_examples": 602,
+        "pos": {
+          "verb": 150,
+          "adjective": 51,
+          "noun": 20,
+          "adverb": 40,
+          "expression": 40
+        }
+      },
+      "B": {
+        "vocabulary": 300,
+        "new_examples": 600,
+        "pos": {
+          "verb": 148,
+          "adjective": 49,
+          "adverb": 36,
+          "noun": 33,
+          "expression": 34
+        }
+      },
+      "C": {
+        "vocabulary": 310,
+        "new_examples": 619,
+        "pos": {
+          "verb": 138,
+          "noun": 53,
+          "adjective": 45,
+          "adverb": 44,
+          "expression": 30
+        }
+      }
+    },
+    "japanese_duplicate_candidates": [],
+    "limitation": "Structural checks and narrow observed-error lints only; no automated claim of Korean/Japanese correctness or human review."
+  },
+  "specification_inventory": [
+    {
+      "stage": "DEV-01",
+      "evidence": "Docs/DEV-01_STATUS.md",
+      "sha256": "e24e9e153fefffb672a0fbae453c5673bd9cf314cab989fd5b635cfaa4364de2",
+      "kind": "archived implementation/review report, not original task specification",
+      "original_task_specification": "NOT LOCATED",
+      "headings": [
+        "# PROJECT_STATUS — DEV-01",
+        "## 이번에 구현한 것",
+        "## 주요 아키텍처 결정",
+        "## 파일 구조",
+        "## DB 구조",
+        "## 아직 구현하지 않은 것",
+        "## 검증 결과",
+        "## 알려진 문제와 한계",
+        "## TODO 기록",
+        "## DEV-02 인계"
+      ],
+      "reported_limitations": [
+        "## 아직 구현하지 않은 것",
+        "- **Xcode/Swift 컴파일러가 없는 Linux 환경이므로 컴파일·링크·XCTest 8개 실행·iOS 화면 확인은 미실행**. 빌드 통과라고 주장하지 않습니다.",
+        "## 알려진 문제와 한계",
+        "8. 영속 저장은 정상 재실행/업데이트를 위한 로컬 DB입니다. 앱 삭제·기기 손실 보호용 별도 백업 기능은 아직 없습니다.",
+        "소스에 `TODO`/`FIXME` 마커, `fatalError`, `try!`, `as!`는 없습니다. 이후 작업은 위의 미구현 항목과 알려진 한계에 모두 명시했습니다. 미구현 기능을 동작하는 것처럼 보이는 버튼이나 가짜 결과로 대신하지 않았습니다. `ReviewScheduling`는 명시적인 미래 계약입니다."
+      ]
+    },
+    {
+      "stage": "DEV-02",
+      "evidence": "Docs/DEV-02_STATUS.md",
+      "sha256": "51621575ab25e9aaa30eb85ef6e295e86ee0d6ebdfbae7b1b9a56e7f2de120e4",
+      "kind": "archived implementation/review report, not original task specification",
+      "original_task_specification": "NOT LOCATED",
+      "headings": [
+        "# PROJECT_STATUS — DEV-02 완료",
+        "## 1. DEV-02에서 구현한 내용",
+        "## 2. DB 기술과 구조",
+        "## 3. UserProgress와 분리",
+        "## 4. Importer / Validator 구조",
+        "## 5. Stable ID / 버전",
+        "## 6. 테스트 결과",
+        "## 7. Synthetic 대용량 결과",
+        "## 8. 변경/추가된 주요 파일",
+        "## 9. 알려진 문제·미구현",
+        "## 10. 다음 DEV/DATA 주의사항",
+        "## TODO 기록"
+      ],
+      "reported_limitations": [
+        "기존 item_progress/SRS/due/event/favorite/회독/레슨/통계 테이블을 유지했습니다. v2에서 item_progress에 acquisition_status(unassessed/learning/acquired/maintaining), perceived_difficulty(null 또는 1~5)를 추가했습니다. 과거 횟수만 보고 습득 완료를 추정하지 않으므로 기본값은 unassessed입니다. 평가 화면/알고리즘은 아직 없습니다.",
+        "**Xcode/Swift 컴파일러가 없는 Linux 환경**이므로 iOS 컴파일·링크·시뮬레이터·XCTest **10개** 실행은 못 했습니다. 네이티브 빌드 성공으로 표현하지 않습니다. 특히 Apple 환경 backup API 실행은 추가 XCTest로 준비했지만 아직 실행하지 못했습니다.",
+        "## 9. 알려진 문제·미구현",
+        "4. 검색은 정규화된 **접두어 검색 API**이며 아직 검색 UI/FTS/형태소/퍼지 검색은 없습니다.",
+        "6. prerequisite 그래프 전체 순환 검증은 미구현입니다. alias 순환은 검사합니다.",
+        "7. 미디어 파일/해시는 검증하지만 앱 리소스 자동 복사·오디오 다운로드·재생은 미구현입니다.",
+        "8. 원격 콘텐츠 업데이트/서명 검증, 사용자 백업 복구 UI/내보내기/클라우드 동기화, migration backup 정리 정책은 미구현입니다.",
+        "11. 앱 아이콘/최종 브랜드/배포 서명/스토어 준비는 미구현입니다.",
+        "코드에 TODO/FIXME 마커는 없습니다. 미구현 사항은 위 9~10절에 기록했습니다. 기존 기능을 가짜 결과/임시 placeholder로 바꾸지 않았습니다."
+      ]
+    },
+    {
+      "stage": "DEV-03",
+      "evidence": "Docs/DEV-03_STATUS.md",
+      "sha256": "1573d8332f62c404c69c66c65cf6b487a4b6a393f3a66fc6a7fad850482c1ce0",
+      "kind": "archived implementation/review report, not original task specification",
+      "original_task_specification": "NOT LOCATED",
+      "headings": [
+        "# PROJECT_STATUS — DEV-03",
+        "## 1. 구현한 내용",
+        "## 2. Hangul 과정과 production 데이터",
+        "## 3. 화면 구조와 디자인",
+        "## 4. Content DB / Stable ID / 버전",
+        "## 5. Progress 저장",
+        "## 6. Quiz / 음원 구조",
+        "## 7. 테스트와 빌드",
+        "### 실제 수행",
+        "### 작성했지만 실행하지 못한 검증",
+        "## 8. 주요 파일",
+        "## 9. 알려진 제한과 다음 단계",
+        "## TODO 기록"
+      ],
+      "reported_limitations": [
+        "**환경에 Xcode/Swift 컴파일러가 없어 iOS Debug/Release build, Swift 타입 검사·링크, XCTest 실행, 시뮬레이터/실기기 화면 확인은 미실행입니다.** 앱 실행 흐름과 Light/Dark/Dynamic Type/VoiceOver의 실제 작동을 확인했다고 주장하지 않습니다. 다음 Mac 환경에서 `sh Tools/verify.sh`와 `⌘U`를 먼저 실행해야 합니다.",
+        "3. 콘텐츠는 실제 학습용으로 작성했지만 외부 한국어 교육 전문가/일본어 편집자 감수와 초보자 사용성 검증은 아직입니다. 평음/격음/경음·모음 구별은 텍스트만으로 충분한 청각 학습이 될 수 없습니다.",
+        "4. 과정은 잠금/선수학습 강제가 없고 완료는 습득 인증이 아닙니다. 전체 SRS·회독/숙련도 판정은 미구현입니다.",
+        "8. 단어 데이터는 아직 production에 없으므로 단어 탭은 빈 상태입니다. 기존 상세·즐겨찾기 코드는 보존했으며 테스트 fixture로 검증합니다.",
+        "코드에 새 TODO/FIXME 마커를 남기지 않았습니다. 미구현/검증 대기 사항은 위 9절에 모두 정리했습니다. 기존 기능을 가짜 결과나 임시 코드로 대체하지 않았습니다. 기존 미래 SRS 계약은 그대로 보존했습니다."
+      ]
+    },
+    {
+      "stage": "DEV-04",
+      "evidence": "Docs/DEV-04_STATUS.md",
+      "sha256": "1d6b824b21639ca309f11c5f1b529c9e21fd42bc6337d0444010d37d71b6ccc9",
+      "kind": "archived implementation/review report, not original task specification",
+      "original_task_specification": "NOT LOCATED",
+      "headings": [
+        "# PROJECT_STATUS — DEV-04",
+        "## 구현 결과",
+        "## 과정 구조",
+        "## Content DB / Importer 결정",
+        "## Audio Service / TTS 정책",
+        "## UI / Progress 연결",
+        "## 테스트 및 빌드 결과",
+        "### 실제 수행",
+        "### 미실행",
+        "## 주요 파일",
+        "## 알려진 제한 / 다음 단계",
+        "## TODO"
+      ],
+      "reported_limitations": [
+        "### 미실행",
+        "환경에 **Xcode와 Swift 컴파일러가 없어 iOS Debug/Release 빌드, Swift 타입 검사/링크, XCTest 실행, 시뮬레이터 UI, 실제 오디오 출력 검증은 미실행**입니다. 구문/SQL 검사만으로 이들이 통과했다고 주장하지 않습니다.",
+        "6. 외부 교육 전문가/일본어 편집자의 감수와 실제 초보자 사용성 검증은 아직입니다. 구조 테스트가 언어 품질을 대신하지 않습니다.",
+        "10. 전체 SRS/회독·대규모 어휘·TOPIK·문법 과정·광고/IAP·서버/로그인·발음채점은 미구현입니다. 실제 공부 시간 측정도 없으며 기존 duration_ms=0 정책을 유지합니다.",
+        "새 TODO/FIXME 마커를 남기지 않았습니다. 위의 미구현/검증 대기 사항을 다음 작업에 인계합니다. 기존 기능을 임시 결과로 대체하지 않았습니다."
+      ]
+    },
+    {
+      "stage": "DEV-05",
+      "evidence": "Docs/DEV-05_STATUS.md",
+      "sha256": "ecc746cfab7a2dbe5ee281205a6b9439a361e7dc6bfafa033bf72ca0102b1b9b",
+      "kind": "archived implementation/review report, not original task specification",
+      "original_task_specification": "NOT LOCATED",
+      "headings": [
+        "# PROJECT_STATUS — DEV-05",
+        "## 구현한 흐름",
+        "## 아키텍처와 버전",
+        "### 세트 구성",
+        "### 회독 상태 / 재개",
+        "### 사용자 DB v4",
+        "## UI / 음성",
+        "## 검증 결과",
+        "## 주요 파일",
+        "## 알려진 한계 / DEV-06 인계"
+      ],
+      "reported_limitations": [
+        "## 알려진 한계 / DEV-06 인계",
+        "2. 새로운 단어 집합은 현재 DATA의 sort_key 순서에서 아직 배정하지 않은 단어로 구성합니다. 편집자가 설계한 교육적 lesson/주제별 순서가 아닙니다. 앞으로 curated set을 추가해도 이미 시작한 사용자 ID snapshot을 다시 계산하지 마세요.",
+        "5. 콘텐츠 tombstone/누락이 진행 중 set에 생기면 안전하게 멈춥니다. 자동 alias 병합·대체·skip 정책은 미구현이며 기록을 보존한 명시적 정책이 필요합니다."
+      ]
+    },
+    {
+      "stage": "DEV-06",
+      "evidence": "Docs/DEV-06_STATUS.md",
+      "sha256": "2ac0772f505a1b2bdf1a6909a1041719fbf491d279677f98f504baa20c4b0e32",
+      "kind": "archived implementation/review report, not original task specification",
+      "original_task_specification": "NOT LOCATED",
+      "headings": [
+        "# PROJECT_STATUS — DEV-06",
+        "## 구현한 흐름",
+        "## 버전 / 저장",
+        "## 단계형 SRS 정책",
+        "## 상태 모델",
+        "## 날짜 / 시간대",
+        "## Due query / backlog",
+        "## UserProgress의 새 표",
+        "## UI / 기존 기능",
+        "## 실제 검증 결과",
+        "## 주요 변경 파일",
+        "## 알려진 한계 / 다음 단계"
+      ],
+      "reported_limitations": [
+        "## 알려진 한계 / 다음 단계",
+        "2. 같은 날 짧은 재학습 queue, 학습량 제한 개인화, 최적 interval 추정은 미구현입니다. 현재 실패는 다음 날입니다."
+      ]
+    },
+    {
+      "stage": "DEV-07",
+      "evidence": "Docs/DEV-07_STATUS.md",
+      "sha256": "1bd2d55481ef5871c2b1f87fb59ef89cab4ee47c22d87270651e6156e043cf89",
+      "kind": "archived implementation/review report, not original task specification",
+      "original_task_specification": "NOT LOCATED",
+      "headings": [
+        "# PROJECT_STATUS — DEV-07",
+        "## 구현한 흐름",
+        "## 아키텍처·DB·호환성",
+        "## 회독·저장·재개",
+        "## SRS·날짜·오늘의 복습",
+        "## Quiz·Validator·콘텐츠 품질",
+        "## UI·접근성",
+        "## 실제 검증 결과",
+        "## 주요 변경 파일",
+        "## 종료 전 감사·알려진 문제·다음 단계"
+      ],
+      "reported_limitations": [
+        "2026-10-01 UTC 구현·검증, 2026-10-02 UTC 중단 후 문서·배포 파일 정리. DATA-03 프로젝트·문서·production v7 DB를 확인하고 기존 구조 위에 문법 학습·회독·SRS 경로를 구현했습니다. 이전 상태는 `Docs/DATA-03_STATUS.md`에 보존했습니다. **Linux에서 Python/SQLite 검증과 Swift 구문 검사를 수행했습니다. Xcode 빌드·Swift type-check·네이티브 실행은 아직 검증하지 못했으므로 App Store 출시 준비가 끝났다는 의미는 아닙니다.**",
+        "- Native XCTest는 문법 6개를 추가해 **66개 작성, 미실행**입니다. 문법 회독 축소·전부 통과/보류·판정/저장·잘못된 상태·실제 production repository→회독→SRS→복습→재개·stage 변화를 테스트하도록 작성했습니다.",
+        "- 문법 콘텐츠는 입문/초급 12개뿐입니다. 외부 한일 교육 전문가 감수는 미완료입니다. DATA-04에서 현재 계약으로 확대하고 문맥상 복수 정답이 가능한 문제를 특히 재검수하세요.",
+        "- Grammar SRS는 매 방문 하나의 문제를 순환합니다. 자유 입력/작문·adaptive mixed scheduling·고급 활용은 미구현 범위입니다."
+      ]
+    },
+    {
+      "stage": "DEV-08",
+      "evidence": "Docs/DEV-08_STATUS.md",
+      "sha256": "6cc8dd482fe40f6c9508a3961ceb1d11c599bab3f6305618382337b3d5cfb493",
+      "kind": "archived implementation/review report, not original task specification",
+      "original_task_specification": "NOT LOCATED",
+      "headings": [
+        "# PROJECT_STATUS — DEV-08",
+        "## 구현한 사용자 경로",
+        "## 활용 엔진",
+        "## 콘텐츠·문법 연결",
+        "## 입력 판정·학습·재시도",
+        "## 저장·재개·SRS",
+        "## UI·오디오",
+        "## 검증 결과",
+        "## 주요 파일·미완성 감사·DEV-09"
+      ],
+      "reported_limitations": [
+        "규칙 확인 참고: 국립국어원 [한글 맞춤법/어문 규범](https://www.korean.go.kr/kornorms/m/m_regltn.do), [ㅂ 불규칙 돕다/곱다 설명](https://korean.go.kr/front/mcfaq/mcfaqView.do?mcfaq_seq=8733&mn_id=216&pageIndex=31), [ㅎ 불규칙 설명](https://www.korean.go.kr/front/onlineQna/onlineQnaView.do?mn_id=27&pageIndex=1&qna_seq=329865). 내용을 복제한 사전 데이터셋이 아니라 자체 편집 문제입니다. 외부 교육 전문가 감수는 미완료입니다.",
+        "입력 결과가 생긴 lemma는 기존 vocabulary SRS에 등록합니다. existing StepReviewScheduler를 그대로 호출하고 ON CONFLICT DO NOTHING으로 기존 일정/단계를 유지합니다. 현재 `今日の復習`에서는 해당 어휘의 의미 회상으로 이어집니다. **직접입력 전용 due queue·오답 기반 기존 SRS 재스케줄링은 미구현**이며 typed events가 다음 확장 지점입니다. 별도 SRS 구현을 복사하지 않았습니다.",
+        "- Native XCTest는 활용/불규칙과 규칙 반례/9 target/예외·범위 거부/입력 정규화·띄어쓰기·복수 정답/production DB→저장·retry·SRS·cold resume 5개를 추가하여 **71개 작성, 미실행**입니다."
+      ]
+    },
+    {
+      "stage": "DEV-09",
+      "evidence": "Docs/DEV-09_STATUS.md",
+      "sha256": "9af24295f6091fe81e3076c6bd37534145a0e57326544fdc3004200cc933892f",
+      "kind": "archived implementation/review report, not original task specification",
+      "original_task_specification": "NOT LOCATED",
+      "headings": [
+        "# PROJECT_STATUS — DEV-09",
+        "## 구현 경로",
+        "## Content architecture / version",
+        "## 세트·문제·입력",
+        "## UserProgress / resume / 통계",
+        "## SRS 실제 연결",
+        "## Audio / UI / 접근성",
+        "## 검증 결과",
+        "## 최종 감사 / 알려진 제한 / DEV-10"
+      ],
+      "reported_limitations": [
+        "미래 다른 예문에서 같은 어휘/문법을 듣게 할 연결은 source example 관계로 가능합니다. **서로 다른 문장 간 자동 mastery 전파/적응형 선정은 미구현**입니다. 특정 문장을 잘 기억한 것과 듣기 능력 전체를 동일시하지 않습니다.",
+        "- **Native XCTest 78개 작성, 미실행**. 신규 듣기 6개와 오디오 interruption 계약 1개를 추가했습니다. 정오답/공백/accepted/게이트/유한 retry/재시도 통계/실제 DB snapshot·SRS/native cold resume 등은 Mac 실행 대상입니다.",
+        "미해결 출시 검증: Mac 빌드/type-check/XCTest, 실제 기기 음질/발음·route interruption, VoiceOver가 원문을 미리 읽지 않는지, 한국어 IME·키보드 가림, native 강제 종료/재개. 오디오 없는 기기에서는 해당 듣기를 진행할 수 없으며 다른 학습과 저장 기록은 유지됩니다. 녹음 seed는 0개이고 TTS24개입니다. 외부 교육 감수는 아직 없습니다."
+      ]
+    },
+    {
+      "stage": "DEV-10",
+      "evidence": "Docs/DEV-10_STATUS.md",
+      "sha256": "ffb32153db69f1c1c1980942d38178bb9cd548cd28d1add1555d4a569a4c5c71",
+      "kind": "archived implementation/review report, not original task specification",
+      "original_task_specification": "NOT LOCATED",
+      "headings": [
+        "# PROJECT_STATUS — DEV-10",
+        "## 구현 내용 / Architecture",
+        "## Profile / Skip / Diagnostic / Resume",
+        "## Progress / Level 전이 / SRS 독립성",
+        "## UI 결정",
+        "## Integration Audit",
+        "## Bugs Found",
+        "## Bugs Fixed",
+        "## Known Remaining Issues / DEV-11 이후",
+        "## 주요 변경 파일"
+      ],
+      "reported_limitations": [
+        "- 단계별 문자·발음/단어/문법/듣기 확인 수, 다음 미완료 문자·발음 lesson, 모든 기존 lesson 선택, 작은 단어 세트·문법 lesson·듣기 batch 진입을 제공한다.",
+        "- 維持学習에서도 복습·활용·듣기를 계속 이용한다. 상위 단계에 아직 콘텐츠가 없으면 사실대로 안내하고 수록된 初級 코스로 이동할 수 있다. 완료/졸업으로 영구 제외하지 않는다.",
+        "기존 학습 Resume는 원본 session을 수정하지 않고 stable target으로 해당 기존 화면을 연다. 여러 미완료 session이면 **단어 → 문법 → 활용 → 듣기 → 문자/발음 → 복습**의 결정론적 모듈 순서를 쓴다. timestamp가 있는 모듈 내부는 최신 우선, 활용/듣기는 stable target 순이다. 모든 모듈의 전역 최신 조작 시각 순이라고 주장하지 않는다. legacy Listening scope도 원문 그대로 전달한다.",
+        "- Swift68파일 tree-sitter 구문 오류0. 네이티브 XCTest88개 작성(신규4), **미실행**. Xcodeproject 59 app +9 test 소스 포함. `Docs/STATIC_CHECKS_DEV10.txt` 참조.",
+        "- 진단은 총8문항의 초반 간이 평가이며 고급 수준을 식별하지 않는다. 상위 레벨은 직접 선택 가능하지만 실제 콘텐츠가 아직 없다.",
+        "- 신규 파일에 TODO/FIXME/임시 콘텐츠 없음. 미구현 사항은 이 절에 명시했다. 기존 기능/데이터를 placeholder로 대체하지 않았다."
+      ]
+    },
+    {
+      "stage": "DEV-11",
+      "evidence": "Docs/DEV-11_STATUS.md",
+      "sha256": "b332a69b617ce7f33c3c341a58d58f80f114aadfdbbc6dc5b47744f4c15dbeea",
+      "kind": "archived implementation/review report, not original task specification",
+      "original_task_specification": "NOT LOCATED",
+      "headings": [
+        "# PROJECT_STATUS — DEV-11",
+        "## 구현 범위",
+        "## 검색 구조 / Query / Ranking / 성능",
+        "## 상세 / 관계 / 활용 / 음성",
+        "## UserProgress / Favorites / Recent / Difficult",
+        "## Favorites / Difficult → Learning 재진입 정책",
+        "## Integration Audit",
+        "## Bugs Found",
+        "## Bugs Fixed",
+        "## Known Remaining Issues / 다음 단계",
+        "## 주요 파일"
+      ],
+      "reported_limitations": [
+        "- 한 종류당 미완료 수동 연습1개. 이미 진행 중이면 새 목록으로 덮어쓰지 않고 그 snapshot을 재개한다. UI에 이 정책을 표시한다.",
+        "- 수동 연습은 **기존 SRS를 초기화하거나 stage/due를 바꾸지 않으며 새 SRS도 등록하지 않는다**. 이번 결과는 practice session에만 저장한다. 아직 정규 학습하지 않은 항목은 상세의 ‘コースで順番に学ぶ’에서 기존 회독→SRS 경로를 이용할 수 있다.",
+        "- Swift75파일 구문 오류0. XCTest94개 작성, **미실행**(신규6개). 새 native tests는 실제 검색/활용일치/즐겨찾기 재실행/수동 어휘 SRS 불변/문법 quiz practice·완료 비오염/지연된 카드 조작 거부를 포함한다.",
+        "- Xcodeproject generator app65/test10 소스 + v9 migration resource. 네이티브 컴파일 및 UI tests는 미실행.",
+        "- 누락/비활성 콘텐츠는 학습기록을 삭제하지 않고 안전한 오류로 남긴다. 해당 항목이 포함된 미완료 연습은 콘텐츠 복구 전 끝낼 수 없으며 닫기/다른 모듈 학습은 가능하다. 자동 skip/기록 삭제는 구현하지 않았다.",
+        "- DEV-10의 상급 콘텐츠 부재/간이 진단/mixed Unit 미구현 한계도 유지한다."
+      ]
+    },
+    {
+      "stage": "DEV-12",
+      "evidence": "Docs/DEV-12_STATUS.md",
+      "sha256": "b4e75f3ceabbb21f12ea8e3e44d3fafb186693bfdd076fa2505c0a9d27caef2e",
+      "kind": "archived implementation/review report, not original task specification",
+      "original_task_specification": "NOT LOCATED",
+      "headings": [
+        "# PROJECT_STATUS — DEV-12",
+        "## DEV-12 구현 내용",
+        "## Statistics 구조 / 의미",
+        "## Maintenance / Short Session 정책",
+        "## Settings / Notification / Persistence",
+        "## DB / Version / Content",
+        "## 성능 결정",
+        "## Requirements Coverage Audit",
+        "## Integration Audit",
+        "## Micro-session / Commute UX Audit",
+        "## Bugs Found",
+        "## Bugs Fixed",
+        "## Known Remaining Issues / DEV-13 전 확인",
+        "## 테스트 / Build 결과",
+        "## 주요 파일"
+      ],
+      "reported_limitations": [
+        "예정 복습 완료는 vocabulary/grammar의 완료 review_items와 listening review 최초attempt만 합한다. manual practice/retry를 새 예정복습 완료로 중복 집계하지 않는다. 미완료 session 안에서 이미 제출한 문항도 계산한다.",
+        "알림은 “少しだけ、韓国語を復習しませんか…”라는 일반 초대이며 실제 due가 있다는 주장을 하지 않는다. due기반 background DB조회/polling/서버push/요일설정/deep link는 없다. 단말시간에 따르는 repeating trigger이며 DST/시간대/Focus/요약/실제 전달은 기기 QA가 필요하다. mock backend native tests는 작성했지만 미실행이다.",
+        "**부분/누락**: 수년 전체 production curriculum과 상급 data, 검증된 실제 개별 녹음, 혼합Unit/일일추천, 고급 placement, 자유작문/모든 활용예외, 여러 미완료 session의 ‘가장최근’ Continue 정책. 미검증을 완료로 표시하지 않았다.",
+        "- 저장: 의미있는 action별 transaction. 세션을 끝까지 해야 저장되는 구조 아님.20중4 저장/16미완료 SQL cold reopen PASS,5개 native test 작성.",
+        "- **Critical release gate:** Xcode type-check/Debug·Release build/104 XCTest, iPhone lifecycle/audio/notification/VoiceOver 실행 필요. 출시 검증 미완료.",
+        "- **Major:** Continue는 고정 모듈 순서(단어→문법→입력→듣기→레슨→복습). 여러 미완료 session이 있으면 항상 마지막 학습을 제시하지 않는다. 각 catalog로 재개 가능하지만 최근활동포인터/세션선택 개선 필요."
+      ]
+    },
+    {
+      "stage": "DEV-13",
+      "evidence": "Docs/DEV-13_STATUS.md",
+      "sha256": "f47eecde83c1dd0ae8efdab7fccd15659c1200bd09adf47bcddff5427e0cee11",
+      "kind": "archived implementation/review report, not original task specification",
+      "original_task_specification": "NOT LOCATED",
+      "headings": [
+        "# PROJECT_STATUS — DEV-13",
+        "## DEV-13 구현 / Ad architecture",
+        "## Frequency cap / Micro-session 보호",
+        "## Debug / Production / Privacy",
+        "## StoreKit / Entitlement architecture",
+        "## StoreKit 테스트 준비",
+        "## Requirements Coverage Audit",
+        "## Integration Audit",
+        "## Micro-session / Commute UX Audit",
+        "## Bugs Found",
+        "## Bugs Fixed",
+        "## Known Remaining Issues / DEV-14",
+        "## Tests / Build",
+        "## 주요 파일"
+      ],
+      "reported_limitations": []
+    },
+    {
+      "stage": "DEV-14",
+      "evidence": "Docs/DEV-14_STATUS.md",
+      "sha256": "6c7ed8df3389af91ada45c29eb14f244f7e8083d54ca3a036d21318db56273c8",
+      "kind": "archived implementation/review report, not original task specification",
+      "original_task_specification": "NOT LOCATED",
+      "headings": [
+        "# PROJECT_STATUS — DEV-14 Release Candidate audit",
+        "## DEV-14 구현 / Bugs Fixed",
+        "## Architecture / 데이터 보존",
+        "## Requirements Coverage Audit",
+        "## Integration Audit",
+        "## Micro-session / Commute UX Audit",
+        "## Performance / Accessibility Audit",
+        "## Tests / Build",
+        "## Bugs Found",
+        "## Known Remaining Issues / Release Gates",
+        "## DEV-15 / 다음 작업",
+        "### 측정값 (Linux / synthetic)",
+        "## Final verification"
+      ],
+      "reported_limitations": [
+        "**판정: B — Conditional. App Store 제출 가능 판정이 아니다.** Linux에서 실행 가능한 데이터/SQL/정적 검사는 수행했으나 Xcode/Swift compiler가 없어 iOS build, SDK 링크, XCTest, 실제 StoreKit/광고/음성/기기 UI는 미실행이다. 아래 출시 gate를 모두 통과하기 전 배포하지 않는다. **Content: Expansion Required.** 장기 고급 과정 전체가 완성됐다고 표시하지 않는다.",
+        "4. 직접입력 retry 이벤트를 `production_retry_*`로 구분. 첫 답변 정확도에서 retry를 제외하고 전체 시도 기록은 유지. 예전 이벤트는 신뢰할 수 있게 역분류할 수 없으므로 덮어쓰지 않으며 통계 화면에 한계를 안내.",
+        "- 강제 종료: 별도 SQLite 프로세스에서4개 답변 commit 뒤 완료 변경을 commit하지 않고 강제 종료. 재개 DB는4개 완료/16개 미완료/세션 active, integrity 정상. iOS 앱 kill UI 테스트를 대신하지 않음.",
+        "| Release gate | Xcode build/SDK resolution/native123 tests 미실행 | Mac에서 RELEASE_CHECKLIST 절차 실행; 실패 시 제출 금지 |",
+        "| Major: 품질 | 실제 한국어 TTS/일본어 교육 콘텐츠 전문가 검수 미실행 | 발음/음원 품질과 기기별 voice 가용성 검토 |",
+        "검증한 범위에서 미수정 데이터 손실 P0를 재현하지 않았지만 미실행 환경까지 안전하다는 보증은 아니다. Production AdMob ID 부재 자체는 버그가 아니며 Release 광고 비활성은 정상 정책이다. App Store 제출은 위 gate 해결 후 별도 판정."
+      ]
+    },
+    {
+      "stage": "DATA-01",
+      "evidence": "Docs/DATA-01_STATUS.md",
+      "sha256": "0e4bcc6ddca5cdab9db6b1b92df25eece9ec6045a5f00c91c82c8f8fbfd80e95",
+      "kind": "archived implementation/review report, not original task specification",
+      "original_task_specification": "NOT LOCATED",
+      "headings": [
+        "# PROJECT_STATUS — DATA-01",
+        "## 이번 결과",
+        "## 선정·품질 결정",
+        "## 중복·자체 검수",
+        "## 영구 ID와 기존 콘텐츠 보호",
+        "## 검증 결과",
+        "## 앱에서 보이는 범위·제한",
+        "## 변경·추가 파일 및 인계"
+      ],
+      "reported_limitations": [
+        "미실행:",
+        "기존 `単語` 탭이 새 production 단어를 50개씩 읽고 상세에서 일본어 대표 의미·품사·예문을 보여주는 구조입니다. UI 수정은 없습니다. 전체 의미 목록, learner_notes/learning_point, 태그·품사 검색 UI는 기존 화면에 아직 연결되지 않았습니다. 데이터는 저장·조회 가능한 상태이며 이 표시 확장은 후속 DEV에서 진행해야 합니다."
+      ]
+    },
+    {
+      "stage": "DATA-02",
+      "evidence": "Docs/DATA-02_STATUS.md",
+      "sha256": "76f279edb55fe45a82ca39e8b41a3e9f6dd140432d7a998f5af2145a4e9d0a50",
+      "kind": "archived implementation/review report, not original task specification",
+      "original_task_specification": "NOT LOCATED",
+      "headings": [
+        "# PROJECT_STATUS — DATA-02",
+        "## 실제 추가·누적 수",
+        "## 저장·버전 정책",
+        "## 검수·중복 판정",
+        "## 회독 / SRS / 접근 연결",
+        "## 실제 검증 결과",
+        "## 주요 변경 파일",
+        "## 알려진 한계 / 다음 DEV·DATA"
+      ],
+      "reported_limitations": [
+        "## 알려진 한계 / 다음 DEV·DATA",
+        "3. 외부 한일 언어·교육 감수 및 실제 TTS 청취는 미완료입니다. 신규 부사·동사 예문에는 배치 밖의 일상 기초어도 포함되며 완전한 controlled vocabulary 문장집은 아닙니다."
+      ]
+    },
+    {
+      "stage": "DATA-03",
+      "evidence": "Docs/DATA-03_STATUS.md",
+      "sha256": "c17b03f65376311f38ef8b445661750fc8a2cc70a2170d5d4d9235d8a79cf2ec",
+      "kind": "archived implementation/review report, not original task specification",
+      "original_task_specification": "NOT LOCATED",
+      "headings": [
+        "# PROJECT_STATUS — DATA-03",
+        "## 실제 추가·누적 수",
+        "## 기존 구조·버전·ID",
+        "## 편집 순서와 기존 세트 안정성",
+        "## 자체 검수·의미·일본인 특화",
+        "## 실제 검증 결과",
+        "## 주요 파일",
+        "## 알려진 한계 / 다음 단계"
+      ],
+      "reported_limitations": [
+        "**빌드/실행 한계:** Linux에는 Swift compiler/Xcode/iOS simulator가 없습니다. Swift type-check, Debug/Release build, XCTest 실행, UI/VoiceOver/Dynamic Type, 실제 앱 재시작 및 한국어 음성 청취는 미수행입니다. SQLite 통합 검사는 Swift 제어 흐름 실행을 대신하지 않습니다. Mac에서 `TEST_DESTINATION='platform=iOS Simulator,id=실제ID' sh Tools/verify.sh`로 확인해야 합니다.",
+        "## 알려진 한계 / 다음 단계"
+      ]
+    },
+    {
+      "stage": "DATA-04",
+      "evidence": "Docs/DATA-04_STATUS.md",
+      "sha256": "5ecd60b17b24c2ec67729637d1921781d63875878b0fb483166b961bfe66daa8",
+      "kind": "archived implementation/review report, not original task specification",
+      "original_task_specification": "NOT LOCATED",
+      "headings": [
+        "# PROJECT_STATUS — DATA-04",
+        "## 실제 추가 결과",
+        "## 문법 curriculum",
+        "## DB / Stable ID / 진도",
+        "## 발견·수정한 DEV-09 DB 헤더 결함",
+        "## Validator / self review",
+        "## 검증 결과와 범위",
+        "## 알려진 제한 / 다음 단계",
+        "## 주요 변경 파일"
+      ],
+      "reported_limitations": [
+        "- Swift **62파일** tree-sitter 구문 검사 통과. Native XCTest **80개 작성·미실행**. Swift type-check가 아닙니다."
+      ]
+    },
+    {
+      "stage": "DATA-05",
+      "evidence": "Docs/DATA-05_STATUS.md",
+      "sha256": "e16a6ceffcaeb364e22a3231268624cbfab245d61caf22ff4e2ad4df57cc5700",
+      "kind": "archived implementation/review report, not original task specification",
+      "original_task_specification": "NOT LOCATED",
+      "headings": [
+        "# PROJECT_STATUS — DATA-05",
+        "## 실제 구현·추가 결과",
+        "## DB / Version",
+        "## 품질 검수 / Validator",
+        "## Integration",
+        "### Bugs Found",
+        "### Bugs Fixed",
+        "### Known Remaining Issues",
+        "## Test / Build",
+        "## 주요 변경 파일 / 다음 단계"
+      ],
+      "reported_limitations": [
+        "- **Audio/Navigation**: 공통service의 누락음원/ko-KR fallback·stop·세대토큰 경로와 홈→단어/복습/문법/듣기→종료 경로 소스 감사. 실제 화면 탭·back stack·음성 청취는 미실행.",
+        "- 위 Swift 수정은 구문검사를 통과했지만 native build/runtime 검증은 아직이다. iOS 실기기/시뮬레이터에서 앱 강제종료 재개, back stack, background 음성 정지를 확인해야 한다.",
+        "- **Native XCTest82개 작성·미실행**. 새 production 단어의 회독→cold resume→SRS→복습과 새 listening source→재개→due 등록 end-to-end 테스트2개를 추가했다. 기존 ㄷ활용 회귀 기대값 및 실제 production pool count를 갱신했다.",
+        "다음 작업은 새 데이터보다 먼저 Mac native build/test 및 `Docs/DATA05_INTEGRATION_AUDIT.md`의 미실행 항목을 확인한다. 이후 콘텐츠만 추가할 때 schema4/UserProgress8을 불필요하게 변경하지 말고 기존 set/SRS ID를 유지한다. DATA04 역사적 v10→v11 정확 비교는 v11 snapshot에 고정했고, 신규 v11→현재 strict gate가 이를 이어받는다."
+      ]
+    },
+    {
+      "stage": "DATA-06",
+      "evidence": "Docs/DATA-06_STATUS.md",
+      "sha256": "377195fcc2d3a54501757a4a58c40ee4f03e16830e4c55e6af1920853dbf6dad",
+      "kind": "archived implementation/review report, not original task specification",
+      "original_task_specification": "NOT LOCATED",
+      "headings": [
+        "# PROJECT_STATUS — DATA-06",
+        "## 실제 추가 결과",
+        "## DB / Content Version / set 정책",
+        "## Validator / Self Review",
+        "## Integration Audit",
+        "### Bugs Found",
+        "### Bugs Fixed",
+        "### Known Remaining Issues",
+        "## Build / Tests",
+        "## 주요 변경 파일 / 다음 단계"
+      ],
+      "reported_limitations": [
+        "- **Native XCTest84개 작성·미실행**(이번2개 추가). 기존 Audio fallback/normal/slow/stop/late completion 테스트 유지."
+      ]
+    },
+    {
+      "stage": "DATA-07",
+      "evidence": "Docs/DATA07_REVIEW.md",
+      "sha256": "24aafe74cb0b9bcdcbcab8f3b84e2be0ab4de26422deedaa796ace23b3ce513d",
+      "kind": "archived implementation/review report, not original task specification",
+      "original_task_specification": "NOT LOCATED",
+      "headings": [
+        "# DATA-07 Editorial Review — 2026-10-06",
+        "## Scope and separate review",
+        "## Pass 1 — selection and semantics",
+        "## Pass 2 — corrections before publication",
+        "## Pass 3 — merged data and integration",
+        "## Remaining editorial coverage"
+      ],
+      "reported_limitations": [
+        "- 初中級 전용 문법 course 아직0: 기존42개 문법만 재사용. 일부 자연스러운 예문에 나오는 -다 보니/-느라/간접화법 등은 후속 문법 콘텐츠에서 설명해야 함.",
+        "- 고급 어휘, 뉴스/긴 대화, 검증된 발음 녹음, 전체 문법350–500개는 아직 미완성."
+      ]
+    }
+  ],
+  "original_specification_limit": "No complete original DEV01–14/DATA01–07 task specifications located in current tracked paths; archived reports are not full original specifications. DATA08/09 recorded requests and audit documents provide verifiable narrower contracts.",
+  "coverage": {
+    "vocabulary_cards": 2287,
+    "meaning_examples": 2420,
+    "reachable_examples": 4813,
+    "unreachable_examples": 0,
+    "published_production_guard_checked": 1227,
+    "typed_dictionary": 2383,
+    "generic_courses": 3,
+    "generic_lessons": 73,
+    "generic_steps_by_kind": {
+      "note": 3,
+      "question": 90,
+      "hangul": 55,
+      "pronunciation": 36,
+      "vocabulary": 911
+    },
+    "grammar_lessons": 30,
+    "grammar_cards": 96,
+    "production_entries": 612,
+    "production_questions": 1227,
+    "listening_items": 1936,
+    "listening_questions": 1936,
+    "listening_batches": 104,
+    "routed_questions": 3553,
+    "unrouted_questions": 0,
+    "korean_headword_queries": 2287,
+    "japanese_meaning_queries": 72,
+    "data08_current_editorial_payload_hash_matches": 911,
+    "data08_sentence_first_meaning_matches": 581
+  },
+  "levels": {
+    "hangul": {
+      "vocabulary": 0,
+      "grammar": 0,
+      "listening": 0,
+      "lesson": 12
+    },
+    "intro": {
+      "vocabulary": 306,
+      "grammar": 22,
+      "listening": 34,
+      "lesson": 14
+    },
+    "beginner": {
+      "vocabulary": 800,
+      "grammar": 20,
+      "listening": 79,
+      "lesson": 0
+    },
+    "lower_intermediate": {
+      "vocabulary": 1181,
+      "grammar": 54,
+      "listening": 1823,
+      "lesson": 47
+    },
+    "intermediate": {
+      "vocabulary": 0,
+      "grammar": 0,
+      "listening": 0,
+      "lesson": 0
+    },
+    "upper_intermediate": {
+      "vocabulary": 0,
+      "grammar": 0,
+      "listening": 0,
+      "lesson": 0
+    },
+    "advanced": {
+      "vocabulary": 0,
+      "grammar": 0,
+      "listening": 0,
+      "lesson": 0
+    },
+    "master": {
+      "vocabulary": 0,
+      "grammar": 0,
+      "listening": 0,
+      "lesson": 0
+    },
+    "maintenance": {
+      "vocabulary": 0,
+      "grammar": 0,
+      "listening": 0,
+      "lesson": 0
+    }
+  },
+  "japanese_samples": [
+    {
+      "vocabulary_id": "da424c85-b249-413c-a7ac-c3b15b4e18d1",
+      "term": "拒否される"
+    },
+    {
+      "vocabulary_id": "fe889155-7824-4ed3-9ae9-b2089e155079",
+      "term": "措置を取る・対処する"
+    },
+    {
+      "vocabulary_id": "fb71e3d6-4e2f-4135-adc3-0e7bd68a28d7",
+      "term": "報道する"
+    },
+    {
+      "vocabulary_id": "11daa901-088a-4bb6-abc7-deec09070fc8",
+      "term": "塩"
+    },
+    {
+      "vocabulary_id": "d552307c-e71f-4142-8cf5-562d7da9756c",
+      "term": "足を引っ張る・妨げる"
+    },
+    {
+      "vocabulary_id": "3349d3c5-0f10-4ca2-9525-aaf2ec571cdb",
+      "term": "ドア・戸"
+    },
+    {
+      "vocabulary_id": "448d873e-7622-41ce-802d-c7a8ed1f50a7",
+      "term": "閉じ込められる"
+    },
+    {
+      "vocabulary_id": "3d076669-3414-478b-ad18-76be9c395576",
+      "term": "改善すべき点"
+    },
+    {
+      "vocabulary_id": "64a6ffec-a0de-484d-befc-3900da56aa29",
+      "term": "雇用する"
+    },
+    {
+      "vocabulary_id": "064b7e8f-f7c2-4ffd-a827-64e427a55373",
+      "term": "てきぱきと・すらすらと"
+    },
+    {
+      "vocabulary_id": "851704d6-69d5-4668-baa3-74f5c68f0962",
+      "term": "走っていく"
+    },
+    {
+      "vocabulary_id": "400bbdf2-4235-4347-88a4-a987c75cfbef",
+      "term": "安全だ"
+    },
+    {
+      "vocabulary_id": "dae69581-4a7d-437e-9207-48cc1673f89f",
+      "term": "退勤する、仕事を終えて帰る"
+    },
+    {
+      "vocabulary_id": "91ca5131-ba7d-4053-ab0c-8b58b06fe5a1",
+      "term": "条件が厳しい・好みにうるさい"
+    },
+    {
+      "vocabulary_id": "9a50b4fb-9e3e-44f6-aff9-db287a64a663",
+      "term": "食欲がない"
+    },
+    {
+      "vocabulary_id": "32e78b0c-7695-47e3-889a-b6914bba5a69",
+      "term": "円満だ・滞りがない"
+    },
+    {
+      "vocabulary_id": "c3ad4468-fbc8-47fc-83ed-63cb7e136508",
+      "term": "接続される・つながる"
+    },
+    {
+      "vocabulary_id": "bc9a4734-59bb-40a0-bcdc-ad1075d885bd",
+      "term": "高くなる"
+    },
+    {
+      "vocabulary_id": "346f1442-8a5b-4e57-90d2-ba1be2974b02",
+      "term": "分かる・理解している"
+    },
+    {
+      "vocabulary_id": "bafda0f9-c64e-4e80-ac66-42274be25ac2",
+      "term": "おいしい"
+    },
+    {
+      "vocabulary_id": "003358a3-eb7d-425e-89b9-fc516bbeb63b",
+      "term": "睡眠"
+    },
+    {
+      "vocabulary_id": "ce56765d-803c-4642-9ca2-f6b0ebd5811c",
+      "term": "用意する・整える"
+    },
+    {
+      "vocabulary_id": "34c81351-e138-45d9-8aad-e2249edc5e3c",
+      "term": "減る"
+    },
+    {
+      "vocabulary_id": "0762154b-09da-4788-8b89-fd17df46b76b",
+      "term": "朝食"
+    },
+    {
+      "vocabulary_id": "eda63c71-c07d-4e4b-95c6-9b1e82f7caaf",
+      "term": "特別だ"
+    },
+    {
+      "vocabulary_id": "fa92473e-e2a4-4315-8537-91d9487c7ed6",
+      "term": "下"
+    },
+    {
+      "vocabulary_id": "ac4c0b79-a296-424b-b336-9813474908e9",
+      "term": "手間をかける・丹念に取り組む"
+    },
+    {
+      "vocabulary_id": "1020c15f-6bcb-4e76-bab1-d666dc5e0834",
+      "term": "どうせ・どのみち"
+    },
+    {
+      "vocabulary_id": "0dd02230-2962-45ac-bd96-9f1a44e30da9",
+      "term": "あげる・くれる・渡す"
+    },
+    {
+      "vocabulary_id": "a9ebcda9-f1c1-44c8-818d-9d797d7f705a",
+      "term": "引き出し式のたんす"
+    },
+    {
+      "vocabulary_id": "00ec58e9-258f-4bb2-a6e2-f969cb91d891",
+      "term": "とても（強調）"
+    },
+    {
+      "vocabulary_id": "b778a597-a11c-4d7e-97be-c8d2a65d1a20",
+      "term": "再度・改めて"
+    },
+    {
+      "vocabulary_id": "6f38dca5-47fa-44fa-ae92-666b80a7b32c",
+      "term": "実現する・行われる"
+    },
+    {
+      "vocabulary_id": "2eb45a9a-b91c-4e4c-8c49-710cd60a81e2",
+      "term": "任せる"
+    },
+    {
+      "vocabulary_id": "c1d919bc-075d-41b0-b7aa-6c438e2da09b",
+      "term": "提案する"
+    },
+    {
+      "vocabulary_id": "b3bccbb5-a3ac-4c50-b544-8e64f59e10e2",
+      "term": "すりつぶす・ひく"
+    },
+    {
+      "vocabulary_id": "93ee6fd4-eb41-45c5-a62b-f56935749694",
+      "term": "満ちあふれる"
+    },
+    {
+      "vocabulary_id": "9889aabd-c19d-41b2-8bcf-fc0648b08eda",
+      "term": "全部・みんな"
+    },
+    {
+      "vocabulary_id": "e24d0ed7-f936-4a0f-bcc0-6b5121ed2a18",
+      "term": "鈍い"
+    },
+    {
+      "vocabulary_id": "2ba6406d-1613-4011-a5a0-e6204be44c78",
+      "term": "三つ・三"
+    },
+    {
+      "vocabulary_id": "61d9d79d-7dd3-485b-ad72-3dceadb7ea68",
+      "term": "暖房"
+    },
+    {
+      "vocabulary_id": "624a2723-dbff-4088-83e6-2b94e7afc99b",
+      "term": "渡る"
+    },
+    {
+      "vocabulary_id": "8ddeea05-7042-4406-8b8a-1e32f11cd161",
+      "term": "新聞・ネットなどの記事"
+    },
+    {
+      "vocabulary_id": "426c3b15-eecc-4fff-8d5a-d0aea973e883",
+      "term": "複雑だ"
+    },
+    {
+      "vocabulary_id": "fd315e3f-7ba7-4523-8c35-dca24c2cd900",
+      "term": "持ちこたえる・踏ん張る"
+    },
+    {
+      "vocabulary_id": "ff5feaf3-a33b-4878-aceb-8dc964f9d0d0",
+      "term": "急に目立って・ぐっと"
+    },
+    {
+      "vocabulary_id": "ad7ffddc-e2ef-47be-9c8c-0872f25fc48f",
+      "term": "返金する"
+    },
+    {
+      "vocabulary_id": "308a16a9-bcad-4e12-9e6c-8ace4b976976",
+      "term": "ゆっくり"
+    },
+    {
+      "vocabulary_id": "ec0b75da-4526-4c4e-b7cc-ef7558e85d1b",
+      "term": "見当をつける・察する"
+    },
+    {
+      "vocabulary_id": "5bf0176c-0dd9-4569-a9e9-dec1d0f0d6fb",
+      "term": "せっけん"
+    },
+    {
+      "vocabulary_id": "82e7f68f-9977-47f0-82ca-35fb2e21d8d1",
+      "term": "解決する"
+    },
+    {
+      "vocabulary_id": "b5eec225-7c6f-4592-8daf-150508bdcfcd",
+      "term": "上達する、伸びる"
+    },
+    {
+      "vocabulary_id": "fff57970-96c3-4433-ac16-c80dba5fc76c",
+      "term": "長所と短所"
+    },
+    {
+      "vocabulary_id": "668c654e-4bb3-486f-a58a-c868421d9da9",
+      "term": "方式・やり方"
+    },
+    {
+      "vocabulary_id": "8920f124-ee28-48c2-be2e-189649272c97",
+      "term": "不十分だ・まだ足りない"
+    },
+    {
+      "vocabulary_id": "1b03a139-026f-42c1-bcc5-9c5d6612ea77",
+      "term": "歩く"
+    },
+    {
+      "vocabulary_id": "5dec9f2a-87e3-4754-835f-0bdbb9951019",
+      "term": "断る"
+    },
+    {
+      "vocabulary_id": "a9c2c052-5ebe-4195-b9d8-e855132cf3bf",
+      "term": "広くする・広げる"
+    },
+    {
+      "vocabulary_id": "eff9d2f6-cc0d-4cda-9374-8f62f2872f61",
+      "term": "店"
+    },
+    {
+      "vocabulary_id": "13df384f-9c5e-4cae-a48b-c5188741ce00",
+      "term": "よくなる"
+    },
+    {
+      "vocabulary_id": "eb4fe7e1-34cb-4162-9916-a3e033de2cb6",
+      "term": "営業時間"
+    },
+    {
+      "vocabulary_id": "3048b436-cfd5-402f-8dd1-aa84a188527d",
+      "term": "退職する"
+    },
+    {
+      "vocabulary_id": "25e19448-a954-43bb-93af-218c21c8f41f",
+      "term": "ウォン（韓国の通貨単位）"
+    },
+    {
+      "vocabulary_id": "4479f39d-b5bc-44e8-b354-7816665353d3",
+      "term": "無礼だ"
+    },
+    {
+      "vocabulary_id": "e8684c5c-2c63-4566-8ea9-4de018650e11",
+      "term": "身じろぎ・少しの動き"
+    },
+    {
+      "vocabulary_id": "eb108395-4d44-4f82-a419-afcd0442ace7",
+      "term": "頼み、お願い"
+    },
+    {
+      "vocabulary_id": "e8637310-386f-4c42-9c3e-b7ca8b7eeaeb",
+      "term": "大学の成績"
+    },
+    {
+      "vocabulary_id": "6c501245-1b05-4b2c-8896-36f669d73010",
+      "term": "手段"
+    },
+    {
+      "vocabulary_id": "3ce29c86-75f3-4249-bcef-6feea3c62519",
+      "term": "りんご"
+    },
+    {
+      "vocabulary_id": "1673ab68-07b5-492c-9d4f-ab63a48a8e7f",
+      "term": "タオル"
+    },
+    {
+      "vocabulary_id": "fa8d085b-7bc7-404e-9532-f94dd4b5d0b8",
+      "term": "方策・具体的な案"
+    },
+    {
+      "vocabulary_id": "053642fa-8da5-4ec2-b983-3ec3d2b7108e",
+      "term": "いきなり（軽率に）"
+    }
+  ],
+  "native": {
+    "definitions": 141,
+    "executed": 0,
+    "status": "BLOCKED: no Xcode/Swift/iOS SDK"
+  },
+  "independent_language_review": "NOT TESTED; previous assistant review is not human certification",
+  "environment": {
+    "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+    "python": "3.12.14",
+    "sqlite": "3.53.1"
+  },
+  "data09_contracts": {
+    "validation": {
+      "error_count": 0,
+      "warning_count": 0,
+      "errors": [],
+      "warnings": [],
+      "details_limit": 200
+    },
+    "cohort": {
+      "grammar": 54,
+      "new_examples": 216,
+      "questions": 216,
+      "choices": 648,
+      "new_direct_input": 0
+    },
+    "existing_input_contracts": {
+      "text_input": 1227,
+      "listening_input": 1850
+    },
+    "limitation": "Structural and narrow regression checks only. AI reread is separately documented; native grading/native teacher review not certified."
+  },
+  "source_rows": 66094,
+  "production_bytes_unchanged_from_baseline": {
+    "Content/production.json": "081ed35c7cd78345af1c1793fc450acaa2931f173cef00aaa960c8ef42318540",
+    "Resources/content.sqlite": "56a7fa8b5358e254eeb324e706860d150d20c8ec013ba0b6f602cf14d93cceff"
+  },
+  "monetization_and_preferences_unchanged_from_baseline": {
+    "Services/PurchaseService.swift": "bbf3106b12ff90142ba487b0d6f45006c0f02ee1cb05e19be19f9fdb52f1b757",
+    "Services/AdService.swift": "c7e64d0b8c93cb3de9a54342d4e9543ddc3071c29b2dc7510df4f6d029a4be6a",
+    "Models/MonetizationPolicy.swift": "341b40e673d064756c934d6fc853ed2453f9ef9c22503bb63a9e441ac3f304e0",
+    "Services/LearningPreferences.swift": "a4ed8e2cf72baaae1239978a8cfc0632e250dab15580a0822bc0ac46c90ea623"
+  },
+  "grammar_search_queries": 192,
+  "prerequisites": {
+    "nodes": 96,
+    "edges": 93,
+    "acyclic": true,
+    "forward_or_same_order": [
+      {
+        "grammar_id": "35a30485-766a-4146-aad0-88646020e192",
+        "prerequisite_id": "31239c2c-43e2-4c94-8db8-e3777ef8cc10",
+        "curriculum_order": [
+          58,
+          0
+        ],
+        "prerequisite_order": [
+          59,
+          0
+        ]
+      },
+      {
+        "grammar_id": "35a30485-766a-4146-aad0-88646020e192",
+        "prerequisite_id": "3213bc29-b278-4331-8a9d-383e0101653b",
+        "curriculum_order": [
+          58,
+          0
+        ],
+        "prerequisite_order": [
+          59,
+          1
+        ]
+      },
+      {
+        "grammar_id": "39d90697-78fd-4a3b-847c-b90d5ff07e64",
+        "prerequisite_id": "31239c2c-43e2-4c94-8db8-e3777ef8cc10",
+        "curriculum_order": [
+          50,
+          0
+        ],
+        "prerequisite_order": [
+          59,
+          0
+        ]
+      },
+      {
+        "grammar_id": "453d0f13-3727-4335-8f6a-ddff70f570ac",
+        "prerequisite_id": "31239c2c-43e2-4c94-8db8-e3777ef8cc10",
+        "curriculum_order": [
+          53,
+          0
+        ],
+        "prerequisite_order": [
+          59,
+          0
+        ]
+      },
+      {
+        "grammar_id": "54eb6883-e365-406c-9568-7078e72c0b10",
+        "prerequisite_id": "31239c2c-43e2-4c94-8db8-e3777ef8cc10",
+        "curriculum_order": [
+          57,
+          2
+        ],
+        "prerequisite_order": [
+          59,
+          0
+        ]
+      },
+      {
+        "grammar_id": "74fbc968-1127-454f-9097-d1917f7094a8",
+        "prerequisite_id": "31239c2c-43e2-4c94-8db8-e3777ef8cc10",
+        "curriculum_order": [
+          56,
+          0
+        ],
+        "prerequisite_order": [
+          59,
+          0
+        ]
+      },
+      {
+        "grammar_id": "754881ff-3e7d-4743-8de8-ab6f63b1a9a4",
+        "prerequisite_id": "31239c2c-43e2-4c94-8db8-e3777ef8cc10",
+        "curriculum_order": [
+          58,
+          2
+        ],
+        "prerequisite_order": [
+          59,
+          0
+        ]
+      },
+      {
+        "grammar_id": "7779f2ed-308d-46aa-9df6-bd6001fe88fa",
+        "prerequisite_id": "f635b8cc-1c6a-415e-96cc-a450a8ff357f",
+        "curriculum_order": [
+          2,
+          0
+        ],
+        "prerequisite_order": [
+          2,
+          0
+        ]
+      },
+      {
+        "grammar_id": "782eb56e-972c-4c6e-81a7-911d094caac1",
+        "prerequisite_id": "31239c2c-43e2-4c94-8db8-e3777ef8cc10",
+        "curriculum_order": [
+          58,
+          1
+        ],
+        "prerequisite_order": [
+          59,
+          0
+        ]
+      },
+      {
+        "grammar_id": "971d0ccc-242f-464d-90e9-775c19b88c94",
+        "prerequisite_id": "31239c2c-43e2-4c94-8db8-e3777ef8cc10",
+        "curriculum_order": [
+          53,
+          2
+        ],
+        "prerequisite_order": [
+          59,
+          0
+        ]
+      },
+      {
+        "grammar_id": "d14e4b1a-a765-440b-b8fa-4ec1b97d0a40",
+        "prerequisite_id": "31239c2c-43e2-4c94-8db8-e3777ef8cc10",
+        "curriculum_order": [
+          55,
+          0
+        ],
+        "prerequisite_order": [
+          59,
+          0
+        ]
+      },
+      {
+        "grammar_id": "f527297e-94dd-472b-928e-7bc3900b2dae",
+        "prerequisite_id": "453d0f13-3727-4335-8f6a-ddff70f570ac",
+        "curriculum_order": [
+          52,
+          2
+        ],
+        "prerequisite_order": [
+          53,
+          0
+        ]
+      }
+    ],
+    "policy": "Optional explanation previews support forward references without rewriting lesson/session order. Not evidence all incidental grammar is mastered; previous163 audit remains120 resolved/7 conditional/36 unresolved incl8 level concerns."
+  },
+  "data09_lessons": 18,
+  "limits": {
+    "native": "BLOCKED: no Xcode/Swift/iOS SDK. Definitions are not executed tests.",
+    "independent_teacher_review": "NOT TESTED",
+    "device_offline_audio_accessibility_memory_commute": "BLOCKED",
+    "ai_language_review": "Prior DATA09-5 AI full54/216/216 review preserved; this stage does structural/reference regression, not a fresh human language approval."
+  }
+}
