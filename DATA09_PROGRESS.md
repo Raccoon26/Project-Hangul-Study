@@ -415,3 +415,8 @@ A/B 기본 의미 선택 프레임36개 등 교육적 반복성·변별도·실�
 Meaning2,420/Listening1,936/Course8/Lesson103/content_items15,935/grammar_examples389로 수량 변화0. Source SHA `c8a74e3b61809aabe5d2dd88768446f986792f2585d40ef78327c50b2b6c5b1e`, DB SHA `0a4051d3c5423441b50348935d64559504f1553a55fd3ea472c84b40c9ebc025`. JSON/SQLite 원본을 삭제하거나 Git 이력을 재작성하지 않았다. 새22 DB fixture18,812,928 bytes 및 gzip 원본2,459,174 bytes는100MiB 제한 아래라 LFS 전환은 필요하지 않았다.
 
 근거: [실제 결과](Docs/DATA09_FINAL_RESULTS.json), [전체 로그](Docs/DATA09_FINAL_TEST_LOG.txt), [전용 로그](Docs/DATA09_FINAL_FOCUSED_LOG.txt), [strict build](Docs/DATA09_FINAL_BUILD.json), [실제 Production 재구성](Docs/DATA09_FINAL_RECONSTRUCTION.json), [Source/DB 수량](Docs/DATA09_FINAL_COUNTS.json), [입력 SHA](Docs/DATA09_FINAL_VERIFIED_INPUTS.json). `PROJECT_STATUS.md`, `CONTENT_GUIDE.md`, `DATA_PROGRESS.md`, `RELEASE_CHECKLIST.md`, `AGENTS.md`를 실제23과 미검증 gate에 맞춰 갱신했다. **DATA09-5에서 종료하며 DATA09-6/DATA10은 시작하지 않았다.**
+
+
+### 11.6 Git 전달
+
+콘텐츠/검수 commit `d3722f5e9e11480914fd453862595f06df3be5cf`를 `data09-5/final-content-audit`에 정상 push했다. [PR #14](https://github.com/Raccoon26/Project-Hangul-Study/pull/14)를 main 대상으로 생성했다. 기존 변경 손실·원본 삭제·이력 재작성·force push0, 신규 최대 blob18,812,928 bytes로 일반 Git push 성공. GitHub에 등록된 check는0개이며 로컬 portable PASS를 GitHub/native CI 실행으로 바꾸지 않는다. 최종 문서 전달 commit 및 main merge SHA/상태는 해당 PR의 head/merge 기록과 최종 응답을 따른다. 이 전달은 DATA09-5 범위이며 다음 단계는 시작하지 않는다.
