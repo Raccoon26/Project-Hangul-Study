@@ -550,3 +550,7 @@ DATA08 P1-01 unavailable 복습 보류: 원SRS/due/review_items/events 유지·�
 Source SHA `081ed35c7cd78345af1c1793fc450acaa2931f173cef00aaa960c8ef42318540`, bundle SHA `56a7fa8b5358e254eeb324e706860d150d20c8ec013ba0b6f602cf14d93cceff`를 전체 검사 후에도 확인했다. 기존 원본/DB/fixture/ID/미완료 gate를 보존하고 감사만으로 Content/Schema Version을 올리지 않았다. 기존 명시적 위임에 따라 정상 commit/push/PR/merge로 전달하며 최종 SHA/PR/clean main은 Git 및 최종 응답이 기준이다. Force push/이력 재작성0.
 
 이번 범위의 미수정 재현 P0/P1 0과 iOS/native P1 확인 미완료를 구분한다. B—Conditional·선행36건·독립 사람 NOT TESTED를 유지한다. **DATA-09-7에서 종료하며 다음 단계/DATA10은 시작하지 않았다.**
+
+### 13.5 Git 전달 기록
+
+검증된 감사/회귀 commit `4e25c574a5fe019bcb71338a85be9a34cf307f35`를 `data09-7/system-audit`로 정상 push했다. 전달 PR은 [#16](https://github.com/Raccoon26/Project-Hangul-Study/pull/16)이다. GitHub status check 등록은 없으므로 원격 CI PASS로 표현하지 않고 보존한 로컬365 PASS만 근거로 삼는다. 이 기록 추가는 문서만 변경하며 실행 코드/검증 입력은 불변이다. 사용자 위임에 따라 정상 merge로 전달하며 최종 merge SHA·상태·clean main 일치는 해당 PR/Git과 최종 응답이 기준이다.

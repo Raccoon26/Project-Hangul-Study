@@ -231,7 +231,11 @@
   "git": {
     "initial_clean": true,
     "delivery": "Authorized ordinary commit/push/PR/merge; final SHA and PR state in Git and final response",
-    "force_push": false
+    "force_push": false,
+    "validated_commit": "4e25c574a5fe019bcb71338a85be9a34cf307f35",
+    "pr": 16,
+    "pr_url": "https://github.com/Raccoon26/Project-Hangul-Study/pull/16",
+    "remote_ci": "No status checks registered; local365 PASS only"
   },
   "stop": "DATA-09-7 only; next stage/DATA10 not started"
 }
