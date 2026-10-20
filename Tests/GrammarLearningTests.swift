@@ -152,6 +152,50 @@ final class GrammarLearningTests: XCTestCase {
     func testDATA09LowerIntermediateGrammarSRSAndVersionedColdResume() async throws {
         try await exerciseProductionLesson(level:.lowerIntermediate,after:46,version:23)
     }
+    func testDATA09All18LessonsQuizSRSAndResume() async throws {
+        for after in 46...63 {
+            try await exerciseProductionLesson(level:.lowerIntermediate,after:after,version:24)
+        }
+    }
+    func testGrammarWrongReviewRetryAndStalePassCannotDuplicateProgress() async throws {
+        let dir=FileManager.default.temporaryDirectory.appendingPathComponent(UUID().uuidString)
+        try FileManager.default.createDirectory(at:dir,withIntermediateDirectories:true)
+        defer { try? FileManager.default.removeItem(at:dir) }
+        let repo=try repository(dir), id=ids[0]
+        var s=try await repo.beginGrammar(lesson:id,ids:[id],contentVersion:24,restart:false)
+        s=try await repo.updateGrammar(id:s.id,revision:s.revision,action:.expose([question]),contentRevision:1,contentVersion:24)
+        for _ in 0..<3 { s=try await repo.updateGrammar(id:s.id,revision:s.revision,action:.next,contentRevision:1,contentVersion:24) }
+        s=try await repo.updateGrammar(id:s.id,revision:s.revision,action:.answer("wrong"),contentRevision:1,contentVersion:24)
+        let cold=try repository(dir)
+        let resumed=try await cold.beginGrammar(lesson:id,ids:[id],contentVersion:25,restart:true)
+        XCTAssertEqual(resumed,s)
+        do { _=try await cold.updateGrammar(id:s.id,revision:s.revision,action:.answer("right"),contentRevision:1,contentVersion:25); XCTFail("A selected answer cannot change") } catch { }
+        s=try await cold.updateGrammar(id:s.id,revision:s.revision,action:.next,contentRevision:1,contentVersion:25)
+        let oldRevision=s.revision
+        s=try await cold.updateGrammar(id:s.id,revision:oldRevision,action:.decide(true),contentRevision:1,contentVersion:25)
+        do { _=try await cold.updateGrammar(id:s.id,revision:oldRevision,action:.decide(true),contentRevision:1,contentVersion:25); XCTFail("Stale completion accepted") } catch { }
+        do { _=try await cold.updateGrammar(id:s.id,revision:s.revision,action:.decide(true),contentRevision:1,contentVersion:25); XCTFail("Completed pass accepted") } catch { }
+        let db=try SQLiteConnection(url:dir.appendingPathComponent("user.sqlite"),readOnly:true)
+        XCTAssertEqual(try db.query("SELECT completed_passes FROM item_progress").first?.integer("completed_passes"),1)
+        XCTAssertEqual(try db.query("SELECT COUNT(*) AS n FROM srs_state").first?.integer("n"),1)
+        let initial=try await cold.reviewState(for:id,skill:"grammar")
+        let due=try XCTUnwrap(initial).nextReviewAt
+        var review=try await cold.beginGrammarReview(now:due)
+        _=try await cold.prepareGrammarReview(sessionID:review.id,contentID:id,question:question)
+        review=try await cold.exposeReview(sessionID:review.id,contentID:id,contentRevision:1,contentVersion:25,now:due,timeZoneID:"Asia/Tokyo")
+        _=try await cold.answerGrammarReview(sessionID:review.id,contentID:id,choice:"wrong",contentRevision:1,contentVersion:25)
+        let retry=try await cold.answerGrammarReview(sessionID:review.id,contentID:id,choice:"right",contentRevision:1,contentVersion:25)
+        XCTAssertEqual(retry.selected,"wrong")
+        do { _=try await cold.submitReview(sessionID:review.id,contentID:id,rating:.remembered,now:due,timeZoneID:"Asia/Tokyo"); XCTFail("Wrong answer promoted") } catch { }
+        let unchanged=try await cold.reviewState(for:id,skill:"grammar"); XCTAssertEqual(unchanged,initial)
+        _=try await cold.submitReview(sessionID:review.id,contentID:id,rating:.difficult,now:due,timeZoneID:"Asia/Tokyo")
+        let saved=try await cold.reviewState(for:id,skill:"grammar")
+        _=try await cold.submitReview(sessionID:review.id,contentID:id,rating:.remembered,now:due,timeZoneID:"Asia/Tokyo")
+        let kept=try await cold.reviewState(for:id,skill:"grammar")
+        XCTAssertEqual(saved,kept); XCTAssertEqual(kept?.reviewCount,1)
+        XCTAssertEqual(try db.query("SELECT COUNT(*) AS n FROM study_events WHERE skill='grammar_quiz_review'").first?.integer("n"),1)
+        XCTAssertEqual(try db.query("SELECT completed_passes FROM item_progress").first?.integer("completed_passes"),1)
+    }
     func testGrammarSRSUsesSharedStageAndFailureRules() throws {
         var s=try StepReviewScheduler.initial(at:Date(),neededRepetition:true,timeZoneID:"Asia/Tokyo")
         s=try StepReviewScheduler.next(previous:s,result:.remembered,at:s.nextReviewAt,timeZoneID:"Asia/Tokyo")

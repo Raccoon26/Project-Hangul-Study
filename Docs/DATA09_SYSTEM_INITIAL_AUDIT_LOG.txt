@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/workspace/Project-Hangul-Study/Tools/ContentBuilder/audit_data09_system.py", line 66, in <module>
+    r=run();a.report.write_text(json.dumps(r,ensure_ascii=False,indent=2)+'\n')
+      ^^^^^
+  File "/workspace/Project-Hangul-Study/Tools/ContentBuilder/audit_data09_system.py", line 37, in run
+    forward=[];orders=dict(c.execute('select id,learning_order from grammar'))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: learning_order

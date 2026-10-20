@@ -1,0 +1,241 @@
+{
+  "stage": "DATA-09-7",
+  "date_utc": "2026-10-20",
+  "baseline_commit": "fcb7897b8bf78ce138e1941d9e678d9c22128aed",
+  "branch": "data09-7/system-audit",
+  "metadata": {
+    "schema_version": 4,
+    "content_version": 24,
+    "min_reader_version": 7,
+    "dataset_id": "ko-ja-core",
+    "is_fixture": 0,
+    "source_locale": "ja",
+    "target_locale": "ko"
+  },
+  "production_counts": {
+    "metadata": [
+      4,
+      24,
+      7
+    ],
+    "integrity_check": [
+      [
+        "ok"
+      ]
+    ],
+    "foreign_key_check": [],
+    "counts": {
+      "vocabulary": 2287,
+      "meanings": 2420,
+      "examples": 4813,
+      "grammar": 96,
+      "questions": 3553,
+      "listening_items": 1936,
+      "courses": 8,
+      "lessons": 103,
+      "content_items": 15941
+    },
+    "levels": {
+      "vocabulary": {
+        "beginner": 800,
+        "intro": 306,
+        "lower_intermediate": 1181
+      },
+      "examples": {
+        "beginner": 1577,
+        "intro": 659,
+        "lower_intermediate": 2577
+      },
+      "grammar": {
+        "beginner": 20,
+        "intro": 22,
+        "lower_intermediate": 54
+      },
+      "questions": {
+        "beginner": 134,
+        "hangul": 59,
+        "intro": 156,
+        "lower_intermediate": 3204
+      },
+      "listening_items": {
+        "beginner": 79,
+        "intro": 34,
+        "lower_intermediate": 1823
+      }
+    },
+    "inactive_content_items": 0
+  },
+  "data09_new": {
+    "grammar": 54,
+    "unique_examples": 216,
+    "grammar_questions": 216
+  },
+  "tests": {
+    "portable": {
+      "status": "PASS",
+      "command": "sh Tools/verify.sh --portable",
+      "tests": 365,
+      "seconds": 415.721,
+      "failures": 0,
+      "errors": 0,
+      "skips": 0,
+      "exit_code": 0,
+      "log": "Docs/DATA09_SYSTEM_TEST_LOG.txt"
+    },
+    "focused": {
+      "status": "PASS",
+      "tests": 6,
+      "seconds": 0.071,
+      "exit_code": 0,
+      "log": "Docs/DATA09_SYSTEM_FOCUSED_TEST_LOG.txt",
+      "counting": "Included in365; not additional unique tests"
+    },
+    "data08_p1": {
+      "status": "PASS",
+      "tests": 10,
+      "seconds": 0.126,
+      "exit_code": 0,
+      "scope": "Actual SQLite/current corpus and source contracts; not Swift or UI",
+      "log": "Docs/DATA09_SYSTEM_DATA08_REGRESSION_LOG.txt"
+    },
+    "native": {
+      "status": "BLOCKED",
+      "definitions": 141,
+      "added": 2,
+      "executed": 0,
+      "build_started": false,
+      "reason": "Linux; xcodebuild and swift not installed",
+      "environment": "Docs/DATA09_SYSTEM_ENVIRONMENT.json"
+    },
+    "strict_importer": {
+      "status": "PASS",
+      "previous_versions": [
+        19,
+        23
+      ],
+      "current_version": 24,
+      "errors": 0,
+      "warnings": 10,
+      "byte_identical_bundle": true,
+      "evidence": "test_data09_integration.Data09IntegrationTests.test_preserved19_and23_sources_and_both_strict_update_gates in full log"
+    },
+    "data08_structure": {
+      "status": "PASS",
+      "errors": 0,
+      "warnings": 5
+    },
+    "data09_contracts": {
+      "status": "PASS",
+      "errors": 0,
+      "warnings": 0
+    }
+  },
+  "coverage": {
+    "vocabulary_cards": 2287,
+    "meaning_examples": 2420,
+    "reachable_examples": 4813,
+    "unreachable_examples": 0,
+    "published_production_guard_checked": 1227,
+    "typed_dictionary": 2383,
+    "generic_courses": 3,
+    "generic_lessons": 73,
+    "generic_steps_by_kind": {
+      "note": 3,
+      "question": 90,
+      "hangul": 55,
+      "pronunciation": 36,
+      "vocabulary": 911
+    },
+    "grammar_lessons": 30,
+    "grammar_cards": 96,
+    "production_entries": 612,
+    "production_questions": 1227,
+    "listening_items": 1936,
+    "listening_questions": 1936,
+    "listening_batches": 104,
+    "routed_questions": 3553,
+    "unrouted_questions": 0,
+    "korean_headword_queries": 2287,
+    "japanese_meaning_queries": 72,
+    "data08_current_editorial_payload_hash_matches": 911,
+    "data08_sentence_first_meaning_matches": 581
+  },
+  "grammar_search_queries": 192,
+  "prerequisites": {
+    "nodes": 96,
+    "edges": 93,
+    "cyclic_edges": 0,
+    "forward_curriculum_edges": 12,
+    "prior_candidate_status": {
+      "resolved": 120,
+      "conditional": 7,
+      "unresolved": 36,
+      "unresolved_level_concerns": 8
+    },
+    "note": "No new language reclassification; forward references use optional previews, not mastered prerequisites"
+  },
+  "bugs": {
+    "new_runtime_p0_reproduced": 0,
+    "new_runtime_p1_reproduced": 0,
+    "runtime_fixes": 0,
+    "previous_data08_p1": [
+      {
+        "id": "P1-01",
+        "sql_contract": "PASS",
+        "native": "BLOCKED"
+      },
+      {
+        "id": "P1-02",
+        "corpus_source": "PASS",
+        "swift_grading": "BLOCKED"
+      },
+      {
+        "id": "P1-03",
+        "sql_paging": "PASS",
+        "native": "BLOCKED"
+      }
+    ],
+    "initial_failures": [
+      {
+        "status": "FAIL then fixed",
+        "kind": "test harness",
+        "tests": 6,
+        "errors": 1,
+        "reason": "revealed_at required exposed_at; fixture corrected",
+        "log": "Docs/DATA09_SYSTEM_INITIAL_TEST_LOG.txt"
+      },
+      {
+        "status": "FAIL then fixed",
+        "kind": "audit tool",
+        "reason": "grammar has no learning_order; use actual lesson/item ordinal",
+        "log": "Docs/DATA09_SYSTEM_INITIAL_AUDIT_LOG.txt"
+      }
+    ]
+  },
+  "independent_teacher_and_dictionary_review": "NOT TESTED",
+  "original_complete_dev01_14_data01_07_specifications": "UNVERIFIABLE; no full original specs located",
+  "device_offline_audio_ui_accessibility_memory_commute_entitlements": "BLOCKED; SQL and opaque fixtures do not execute device lifecycle, UserDefaults, Keychain, StoreKit or AdMob",
+  "release": "B—Conditional",
+  "production_unchanged": {
+    "Content/production.json": "081ed35c7cd78345af1c1793fc450acaa2931f173cef00aaa960c8ef42318540",
+    "Resources/content.sqlite": "56a7fa8b5358e254eeb324e706860d150d20c8ec013ba0b6f602cf14d93cceff"
+  },
+  "verified_inputs": {
+    "Tools/ContentBuilder/test_data09_system_audit.py": "29b9346f4acd604210a26f5fdbe88cd471c716b2fa049e7a34a088de3f6b7409",
+    "Tools/ContentBuilder/audit_data09_system.py": "18685c8c6e26f5ed9f7d2fa405b5df08ea2ed0fe4f3f4ebf83bd4b3fc3feff99",
+    "Tests/GrammarLearningTests.swift": "558ff3e858a9cfeba721b89506ba013dde109c2a5d9b4605d0c5626323b74330",
+    "Tools/verify.sh": "775f9d6da6e1027353f8c5ad4355b7a1c9243c41c3bd7e78861f17710321c788",
+    "Content/production.json": "081ed35c7cd78345af1c1793fc450acaa2931f173cef00aaa960c8ef42318540",
+    "Resources/content.sqlite": "56a7fa8b5358e254eeb324e706860d150d20c8ec013ba0b6f602cf14d93cceff"
+  },
+  "git": {
+    "initial_clean": true,
+    "delivery": "Authorized ordinary commit/push/PR/merge; final SHA and PR state in Git and final response",
+    "force_push": false,
+    "validated_commit": "4e25c574a5fe019bcb71338a85be9a34cf307f35",
+    "pr": 16,
+    "pr_url": "https://github.com/Raccoon26/Project-Hangul-Study/pull/16",
+    "remote_ci": "No status checks registered; local365 PASS only"
+  },
+  "stop": "DATA-09-7 only; next stage/DATA10 not started"
+}
