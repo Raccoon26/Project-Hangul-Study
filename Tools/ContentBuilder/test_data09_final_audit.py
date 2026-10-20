@@ -18,13 +18,17 @@ from audit_data09_final import audit, registries
 from test_lookup_sql import user
 from test_data05_content import query
 
-SOURCE=Path(os.environ.get('DATA09_FINAL_SOURCE',ROOT/'Content/production.json'))
-BUNDLE=Path(os.environ.get('DATA09_FINAL_BUNDLE',ROOT/'Resources/content.sqlite'))
+SOURCE=Path(os.environ.get('DATA09_FINAL_SOURCE',ROOT/'Tests/Fixtures/content-v23-production.json.gz'))
+BUNDLE=Path(os.environ.get('DATA09_FINAL_BUNDLE',ROOT/'Tests/Fixtures/content-v23-production.sqlite'))
 
 
 class Data09FinalTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
+        global SOURCE
+        cls.released_source=tempfile.TemporaryDirectory()
+        if SOURCE.suffix=='.gz':
+            raw=gzip.decompress(SOURCE.read_bytes());SOURCE=Path(cls.released_source.name)/'content23.json';SOURCE.write_bytes(raw)
         cls.source=json.loads(SOURCE.read_text())
         cls.old_source=json.loads(gzip.decompress((ROOT/'Tests/Fixtures/content-v22-production.json.gz').read_bytes()))
         cls.db=sqlite3.connect(BUNDLE);cls.old=sqlite3.connect(ROOT/'Tests/Fixtures/content-v22-production.sqlite')
@@ -32,7 +36,7 @@ class Data09FinalTests(unittest.TestCase):
         cls.reg={r['key']:r for r in registries()}
         cls.revised=set(json.loads((ROOT/'Content/data09-final-revised-ids.json').read_text()))
     @classmethod
-    def tearDownClass(cls):cls.db.close();cls.old.close()
+    def tearDownClass(cls):cls.db.close();cls.old.close();cls.released_source.cleanup()
 
     def test_immutable22_and_deterministic_strict23_reconstruction(self):
         self.assertEqual(hashlib.sha256(gzip.decompress((ROOT/'Tests/Fixtures/content-v22-production.json.gz').read_bytes())).hexdigest(),BASE_SHA)

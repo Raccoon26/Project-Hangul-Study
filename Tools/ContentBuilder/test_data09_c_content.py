@@ -87,7 +87,7 @@ class Data09BatchCTests(unittest.TestCase):
         lessons=[l for l in lessons if l[0] in self.registry['lesson_ids']]
         self.assertEqual([l[2] for l in lessons],list(range(59,65)));self.assertEqual([l[3] for l in lessons],[3]*6)
         seen=[]
-        for lid,_,_,_ in lessons:seen += [r[0] for r in self.db.execute(query('SQLiteGrammarContent','SELECT g.id FROM lesson_items'),[lid])]
+        for row in lessons:seen += [r[0] for r in self.db.execute(query('SQLiteGrammarContent','SELECT g.id FROM lesson_items'),[row[0]])]
         self.assertEqual(seen,[g['id'] for g in self.registry['grammar']])
         for g in self.registry['grammar']:
             self.assertIsNotNone(self.db.execute(query('SQLiteGrammarContent','SELECT g.*,i.revision'),[g['id']]).fetchone())

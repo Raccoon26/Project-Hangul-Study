@@ -18,7 +18,7 @@ class Data04Tests(unittest.TestCase):
    self.assertEqual(report['validation']['error_count'],0);self.assertEqual(report['validation']['warning_count'],10)
    self.assertNotIn('duplicate_grammar_candidate',[w['code'] for w in report['validation']['warnings']])
    with sqlite3.connect(p) as rebuilt:self.assertEqual(signatures(rebuilt),signatures(self.db))
-  self.assertEqual(self.db.execute('SELECT schema_version,content_version,min_reader_version,is_fixture FROM content_metadata').fetchone(),(4,23,7,0))
+  self.assertEqual(self.db.execute('SELECT schema_version,content_version,min_reader_version,is_fixture FROM content_metadata').fetchone(),(4,24,7,0))
  def test_exact_delta_and_old_ids_payloads_membership_are_preserved(self):
   baseline=sqlite3.connect(ROOT/'Tests/Fixtures/content-v11-production.sqlite');self.addCleanup(baseline.close)
   # Pin this historical v10→v11 gate; DATA-05 tests strictly gate v11→current.
@@ -50,7 +50,7 @@ class Data04Tests(unittest.TestCase):
     if not page:break
     lessons+=page;after=page[-1][2]
    self.assertEqual(len(lessons),6);self.assertEqual(sum(l[3] for l in lessons),total)
-   for lid,_,_,count in lessons:self.assertEqual(len(self.db.execute(members,[lid]).fetchall()),count)
+   for row in lessons:self.assertEqual(len(self.db.execute(members,[row[0]]).fetchall()),row[3])
   self.assertEqual({g['id'] for g in self.ids['grammar']},{r[0] for l in self.ids['lessons'] for r in self.db.execute(members,[l['id']])})
  def test_new_card_examples_questions_and_comparison_contract(self):
   lookup=self.query('SELECT g.*,i.revision');examples=self.query('SELECT e.id,e.korean');questions=self.query('SELECT q.*,i.revision');comparisons=self.query('SELECT g.id,g.pattern')

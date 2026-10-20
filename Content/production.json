@@ -1,7 +1,7 @@
 {
   "metadata": {
     "schema_version": 4,
-    "content_version": 23,
+    "content_version": 24,
     "min_reader_version": 7,
     "dataset_id": "ko-ja-core",
     "is_fixture": 0,
@@ -7873,12 +7873,12 @@
       {
         "id": "1898070d-1778-4143-b1d8-9dae56ec3dbb",
         "kind": "vocabulary",
-        "revision": 2,
+        "revision": 3,
         "is_active": 1,
         "level": "intro",
         "difficulty": null,
         "created_at": "2026-10-01T00:50:00Z",
-        "updated_at": "2026-10-02T00:00:00Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "78a1ee40-a502-42e9-9837-15bdc447b4c5",
@@ -7913,12 +7913,12 @@
       {
         "id": "1414b2e7-420f-4214-9cbe-f5d58e560c67",
         "kind": "vocabulary",
-        "revision": 2,
+        "revision": 3,
         "is_active": 1,
         "level": "intro",
         "difficulty": null,
         "created_at": "2026-10-01T00:50:00Z",
-        "updated_at": "2026-10-02T00:00:00Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "a2003f8e-9481-4fc8-8074-eb70f731b35d",
@@ -7953,12 +7953,12 @@
       {
         "id": "af329db1-d832-40ff-bf40-84a4ab8785ff",
         "kind": "vocabulary",
-        "revision": 2,
+        "revision": 3,
         "is_active": 1,
         "level": "intro",
         "difficulty": null,
         "created_at": "2026-10-01T00:50:00Z",
-        "updated_at": "2026-10-02T00:00:00Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "0c35b34c-7d45-4814-b15a-d1ae2852b5b9",
@@ -7993,12 +7993,12 @@
       {
         "id": "67cb9ccd-49f3-4e17-a1a5-2a55c79abe69",
         "kind": "vocabulary",
-        "revision": 2,
+        "revision": 3,
         "is_active": 1,
         "level": "intro",
         "difficulty": null,
         "created_at": "2026-10-01T00:50:00Z",
-        "updated_at": "2026-10-02T00:00:00Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "54d65af4-4569-4fee-91fe-d1a5f404650a",
@@ -8073,12 +8073,12 @@
       {
         "id": "16f1a043-b220-4239-9472-abbc01e0f55f",
         "kind": "vocabulary",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "intro",
         "difficulty": null,
         "created_at": "2026-10-01T00:50:00Z",
-        "updated_at": "2026-10-01T00:50:00Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "5693eb29-66ec-426c-82e8-7fb3d0af3e1b",
@@ -8113,12 +8113,12 @@
       {
         "id": "8860a406-438e-46c0-9400-ec8d46b8142b",
         "kind": "vocabulary",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "intro",
         "difficulty": null,
         "created_at": "2026-10-01T00:50:00Z",
-        "updated_at": "2026-10-01T00:50:00Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "4189447d-f7e1-46da-800f-34c11dd21616",
@@ -8303,12 +8303,12 @@
       {
         "id": "6650e3b6-0b98-4269-9de8-bbeb5139c5c8",
         "kind": "vocabulary",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "intro",
         "difficulty": null,
         "created_at": "2026-10-01T00:50:00Z",
-        "updated_at": "2026-10-01T00:50:00Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "c97a175f-aef6-45cf-a084-3aeece1728e6",
@@ -8353,12 +8353,12 @@
       {
         "id": "31197479-9264-45e6-9b23-81db1e559ae1",
         "kind": "vocabulary",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "intro",
         "difficulty": null,
         "created_at": "2026-10-01T00:50:00Z",
-        "updated_at": "2026-10-01T00:50:00Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "355f30a8-65e3-4a81-abff-c06417bbaec1",
@@ -8773,12 +8773,12 @@
       {
         "id": "1b03a139-026f-42c1-bcc5-9c5d6612ea77",
         "kind": "vocabulary",
-        "revision": 2,
+        "revision": 3,
         "is_active": 1,
         "level": "intro",
         "difficulty": null,
         "created_at": "2026-10-01T00:50:00Z",
-        "updated_at": "2026-10-02T00:00:00Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "c384426b-b1ff-472f-9e6d-6d8da84b27f8",
@@ -8863,12 +8863,12 @@
       {
         "id": "d60dee9a-187d-490a-b322-37bbf7db8b88",
         "kind": "vocabulary",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "intro",
         "difficulty": null,
         "created_at": "2026-10-01T00:50:00Z",
-        "updated_at": "2026-10-01T00:50:00Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "d85316ec-9e0a-4870-b414-0e577a6a0d15",
@@ -8943,12 +8943,12 @@
       {
         "id": "04ecddf4-c1b7-4b9a-a26c-dd4dd5285eb0",
         "kind": "vocabulary",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "intro",
         "difficulty": null,
         "created_at": "2026-10-01T00:50:00Z",
-        "updated_at": "2026-10-01T00:50:00Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "b99df152-b18a-4342-9c45-e652ec5f7a16",
@@ -8983,12 +8983,12 @@
       {
         "id": "ef99c9c1-d608-4886-b8ea-09d82a6534a8",
         "kind": "vocabulary",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "intro",
         "difficulty": null,
         "created_at": "2026-10-01T00:50:00Z",
-        "updated_at": "2026-10-01T00:50:00Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "bdc07d0d-24dc-46b8-910b-faf2b4fc4089",
@@ -9033,12 +9033,12 @@
       {
         "id": "2de8f51d-04ee-4c80-9b2f-cda1e77c283f",
         "kind": "vocabulary",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "intro",
         "difficulty": null,
         "created_at": "2026-10-01T00:50:00Z",
-        "updated_at": "2026-10-01T00:50:00Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "c8d32770-858c-46f1-8e9e-056466bae0f2",
@@ -9323,12 +9323,12 @@
       {
         "id": "346f1442-8a5b-4e57-90d2-ba1be2974b02",
         "kind": "vocabulary",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "intro",
         "difficulty": null,
         "created_at": "2026-10-01T00:50:00Z",
-        "updated_at": "2026-10-01T00:50:00Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "6f3701ee-3537-4ae7-b432-1b029c1492ff",
@@ -14483,12 +14483,12 @@
       {
         "id": "89493a6f-ed7a-4db8-bd84-337c8a7c2c16",
         "kind": "vocabulary",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "intro",
         "difficulty": null,
         "created_at": "2026-10-01T14:40:42Z",
-        "updated_at": "2026-10-01T14:40:42Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "eb228dd6-3f82-44c4-903a-03e1ff81ee0a",
@@ -14783,12 +14783,12 @@
       {
         "id": "74e087ed-1b65-41c7-9725-08dc914c7ec9",
         "kind": "vocabulary",
-        "revision": 2,
+        "revision": 3,
         "is_active": 1,
         "level": "beginner",
         "difficulty": null,
         "created_at": "2026-10-01T14:40:42Z",
-        "updated_at": "2026-10-06T00:00:00Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "b1c218c3-3fcf-4cad-aa98-d5673646cc4d",
@@ -15983,12 +15983,12 @@
       {
         "id": "a01be543-2220-4967-a6ad-d733c20ca028",
         "kind": "vocabulary",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "beginner",
         "difficulty": null,
         "created_at": "2026-10-01T14:40:42Z",
-        "updated_at": "2026-10-01T14:40:42Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "e3396a65-6d11-44d3-ad7f-248c554c7b9f",
@@ -16103,12 +16103,12 @@
       {
         "id": "d0194da2-65bc-497f-877d-82ae0744ce75",
         "kind": "vocabulary",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "beginner",
         "difficulty": null,
         "created_at": "2026-10-01T14:40:42Z",
-        "updated_at": "2026-10-01T14:40:42Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "e4b7a319-1054-4c78-9a91-ac2e255a70a0",
@@ -16143,12 +16143,12 @@
       {
         "id": "58b7c4aa-bdc6-489c-93e2-f51e6c48a233",
         "kind": "vocabulary",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "beginner",
         "difficulty": null,
         "created_at": "2026-10-01T14:40:42Z",
-        "updated_at": "2026-10-01T14:40:42Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "a8bb2062-3b15-4340-bb56-0ffc073a1ade",
@@ -17363,12 +17363,12 @@
       {
         "id": "ff994d37-629a-4a49-821a-c3f581cdc02f",
         "kind": "vocabulary",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "beginner",
         "difficulty": null,
         "created_at": "2026-10-01T14:40:42Z",
-        "updated_at": "2026-10-01T14:40:42Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "f390fdec-60d5-4a1e-b780-829903f1d03d",
@@ -18993,12 +18993,12 @@
       {
         "id": "4aafcc31-ed11-4899-aaab-1df8291e03d0",
         "kind": "vocabulary",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "beginner",
         "difficulty": null,
         "created_at": "2026-10-01T14:40:42Z",
-        "updated_at": "2026-10-01T14:40:42Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "803f853d-a677-4a1c-b32b-6fabfc226c4a",
@@ -19033,12 +19033,12 @@
       {
         "id": "0d98c37e-f704-42b5-ba7d-2ecc2879559e",
         "kind": "vocabulary",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "beginner",
         "difficulty": null,
         "created_at": "2026-10-01T14:40:42Z",
-        "updated_at": "2026-10-01T14:40:42Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "7759afbd-92f3-4163-af0b-e7b0a70ad2fa",
@@ -19783,12 +19783,12 @@
       {
         "id": "7edda9ca-9455-40a4-be09-aa4bc434e5ab",
         "kind": "vocabulary",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "beginner",
         "difficulty": null,
         "created_at": "2026-10-01T14:40:42Z",
-        "updated_at": "2026-10-01T14:40:42Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "32d9a952-588f-462d-bba9-658062bf43a5",
@@ -19823,12 +19823,12 @@
       {
         "id": "e288c7ed-03ea-4f74-9c19-d66fcb1dfc00",
         "kind": "vocabulary",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "beginner",
         "difficulty": null,
         "created_at": "2026-10-01T14:40:42Z",
-        "updated_at": "2026-10-01T14:40:42Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "78d09c79-42c5-420c-a505-abb1103e4961",
@@ -22463,12 +22463,12 @@
       {
         "id": "46809049-544b-446a-8898-f79f0a205d9a",
         "kind": "vocabulary",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "beginner",
         "difficulty": null,
         "created_at": "2026-10-01T14:40:42Z",
-        "updated_at": "2026-10-01T14:40:42Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "a8c551df-ca00-4494-90a2-adc870d65456",
@@ -22593,12 +22593,12 @@
       {
         "id": "3fba2e1f-868a-49ef-bb3b-261ffd92748b",
         "kind": "vocabulary",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "beginner",
         "difficulty": null,
         "created_at": "2026-10-01T14:40:42Z",
-        "updated_at": "2026-10-01T14:40:42Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "e99db7fb-62c0-4071-a1dd-239a58f8975d",
@@ -22833,12 +22833,12 @@
       {
         "id": "b145e388-f79a-41e6-bc7c-3a81bb54b735",
         "kind": "vocabulary",
-        "revision": 2,
+        "revision": 3,
         "is_active": 1,
         "level": "beginner",
         "difficulty": null,
         "created_at": "2026-10-01T15:12:35Z",
-        "updated_at": "2026-10-19T07:56:45Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "23517920-c6c1-4d38-b779-050915fa10e4",
@@ -24043,12 +24043,12 @@
       {
         "id": "03d10d26-7ae9-4224-b8da-2b003b52c806",
         "kind": "vocabulary",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "beginner",
         "difficulty": null,
         "created_at": "2026-10-01T15:12:35Z",
-        "updated_at": "2026-10-01T15:12:35Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "abcdf7c9-8708-4915-ac84-c120636d9cb1",
@@ -24143,12 +24143,12 @@
       {
         "id": "7a745607-1a5d-4e97-9127-88f64de96b64",
         "kind": "vocabulary",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "beginner",
         "difficulty": null,
         "created_at": "2026-10-01T15:12:35Z",
-        "updated_at": "2026-10-01T15:12:35Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "d45dcc5a-20c0-4afd-9247-124f1ddf0f4d",
@@ -28113,12 +28113,12 @@
       {
         "id": "e9273372-f7c9-4657-8fe6-e2efc3e3be5c",
         "kind": "vocabulary",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "beginner",
         "difficulty": null,
         "created_at": "2026-10-01T15:12:35Z",
-        "updated_at": "2026-10-01T15:12:35Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "fbc935a2-afc1-4040-81ac-79431369be55",
@@ -28363,12 +28363,12 @@
       {
         "id": "4c8e554b-632d-4bff-a15b-7acb518b982d",
         "kind": "vocabulary",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "beginner",
         "difficulty": null,
         "created_at": "2026-10-01T15:12:35Z",
-        "updated_at": "2026-10-01T15:12:35Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "ddaf47ec-872b-41a5-9e05-2502822c2fbc",
@@ -31683,12 +31683,12 @@
       {
         "id": "f8ee8591-ab22-4bbf-a303-93d188239b34",
         "kind": "vocabulary",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "beginner",
         "difficulty": null,
         "created_at": "2026-10-01T15:12:35Z",
-        "updated_at": "2026-10-01T15:12:35Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "50f0588d-4418-4ec7-8318-45f099988046",
@@ -51306,11 +51306,11 @@
       {
         "id": "9d4f1185-991b-41e2-801d-85b3712214ff",
         "kind": "vocabulary",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "beginner",
         "created_at": "2026-10-06T00:00:00Z",
-        "updated_at": "2026-10-06T00:00:00Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "89e72b28-ef2d-49dc-8226-15b07c82926d",
@@ -51486,11 +51486,11 @@
       {
         "id": "64867086-e978-42e2-9fae-f2b9bc5ac124",
         "kind": "vocabulary",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "beginner",
         "created_at": "2026-10-06T00:00:00Z",
-        "updated_at": "2026-10-06T00:00:00Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "d47e44bd-caf1-4386-bca9-1d872764e6be",
@@ -83355,11 +83355,11 @@
       {
         "id": "9d2a8300-ff9f-4616-b8f5-c84a953c467f",
         "kind": "vocabulary",
-        "revision": 2,
+        "revision": 3,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-19T07:56:45Z",
-        "updated_at": "2026-10-19T13:29:13Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "5ee0a06f-40ff-41fc-9d03-c3a0ec4703d0",
@@ -142287,65 +142287,65 @@
       {
         "id": "ae7efa67-002a-4001-8e3a-6400a6b63b6e",
         "kind": "lesson",
-        "revision": 1,
-        "is_active": 1,
-        "level": "lower_intermediate",
-        "created_at": "2026-10-20T01:58:31Z",
-        "updated_at": "2026-10-20T01:58:31Z"
-      },
-      {
-        "id": "f29d6657-8996-4c33-b3d5-92579bbc8e65",
-        "kind": "lesson",
-        "revision": 1,
-        "is_active": 1,
-        "level": "lower_intermediate",
-        "created_at": "2026-10-20T01:58:31Z",
-        "updated_at": "2026-10-20T01:58:31Z"
-      },
-      {
-        "id": "add80d5f-a85d-4815-ba7d-07b082475590",
-        "kind": "lesson",
-        "revision": 1,
-        "is_active": 1,
-        "level": "lower_intermediate",
-        "created_at": "2026-10-20T01:58:31Z",
-        "updated_at": "2026-10-20T01:58:31Z"
-      },
-      {
-        "id": "f5d91969-e8dc-4ecc-be34-b8fe4ae7f419",
-        "kind": "lesson",
-        "revision": 1,
-        "is_active": 1,
-        "level": "lower_intermediate",
-        "created_at": "2026-10-20T01:58:31Z",
-        "updated_at": "2026-10-20T01:58:31Z"
-      },
-      {
-        "id": "21e60ea9-1a57-4b1b-a6a1-d4e23a4ee763",
-        "kind": "lesson",
-        "revision": 1,
-        "is_active": 1,
-        "level": "lower_intermediate",
-        "created_at": "2026-10-20T01:58:31Z",
-        "updated_at": "2026-10-20T01:58:31Z"
-      },
-      {
-        "id": "dfff35c0-1751-4b67-9e82-ea42814c355d",
-        "kind": "lesson",
-        "revision": 1,
-        "is_active": 1,
-        "level": "lower_intermediate",
-        "created_at": "2026-10-20T01:58:31Z",
-        "updated_at": "2026-10-20T01:58:31Z"
-      },
-      {
-        "id": "da6206fe-cb6b-4842-8943-da3c54c07370",
-        "kind": "grammar",
         "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-20T01:58:31Z",
-        "updated_at": "2026-10-20T02:55:47Z"
+        "updated_at": "2026-10-20T06:15:06Z"
+      },
+      {
+        "id": "f29d6657-8996-4c33-b3d5-92579bbc8e65",
+        "kind": "lesson",
+        "revision": 2,
+        "is_active": 1,
+        "level": "lower_intermediate",
+        "created_at": "2026-10-20T01:58:31Z",
+        "updated_at": "2026-10-20T06:15:06Z"
+      },
+      {
+        "id": "add80d5f-a85d-4815-ba7d-07b082475590",
+        "kind": "lesson",
+        "revision": 2,
+        "is_active": 1,
+        "level": "lower_intermediate",
+        "created_at": "2026-10-20T01:58:31Z",
+        "updated_at": "2026-10-20T06:15:06Z"
+      },
+      {
+        "id": "f5d91969-e8dc-4ecc-be34-b8fe4ae7f419",
+        "kind": "lesson",
+        "revision": 2,
+        "is_active": 1,
+        "level": "lower_intermediate",
+        "created_at": "2026-10-20T01:58:31Z",
+        "updated_at": "2026-10-20T06:15:06Z"
+      },
+      {
+        "id": "21e60ea9-1a57-4b1b-a6a1-d4e23a4ee763",
+        "kind": "lesson",
+        "revision": 2,
+        "is_active": 1,
+        "level": "lower_intermediate",
+        "created_at": "2026-10-20T01:58:31Z",
+        "updated_at": "2026-10-20T06:15:06Z"
+      },
+      {
+        "id": "dfff35c0-1751-4b67-9e82-ea42814c355d",
+        "kind": "lesson",
+        "revision": 2,
+        "is_active": 1,
+        "level": "lower_intermediate",
+        "created_at": "2026-10-20T01:58:31Z",
+        "updated_at": "2026-10-20T06:15:06Z"
+      },
+      {
+        "id": "da6206fe-cb6b-4842-8943-da3c54c07370",
+        "kind": "grammar",
+        "revision": 3,
+        "is_active": 1,
+        "level": "lower_intermediate",
+        "created_at": "2026-10-20T01:58:31Z",
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "7422d569-b6d3-4360-8601-0a6488f36183",
@@ -142422,11 +142422,11 @@
       {
         "id": "4168b8b7-98df-431a-a90c-d83945f3df76",
         "kind": "grammar",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-20T01:58:31Z",
-        "updated_at": "2026-10-20T01:58:31Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "1a2deca8-c232-486f-a4e2-0ea14d35f837",
@@ -142503,11 +142503,11 @@
       {
         "id": "645acca8-db1f-4482-9b4c-88d637445e2d",
         "kind": "grammar",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-20T01:58:31Z",
-        "updated_at": "2026-10-20T01:58:31Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "fd872237-0882-4381-aef5-19048cb4e7fd",
@@ -142584,11 +142584,11 @@
       {
         "id": "400d4fa2-b300-406c-9425-c7bb1a125c9d",
         "kind": "grammar",
-        "revision": 2,
+        "revision": 3,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-20T01:58:31Z",
-        "updated_at": "2026-10-20T02:55:47Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "048b2a98-90fb-4cbe-a26f-6b5b16e12004",
@@ -142665,11 +142665,11 @@
       {
         "id": "e7ab89e5-358e-461a-893d-d87d057bc9ed",
         "kind": "grammar",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-20T01:58:31Z",
-        "updated_at": "2026-10-20T01:58:31Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "2060317e-b0a6-4674-92eb-d2b8f215a26a",
@@ -142746,11 +142746,11 @@
       {
         "id": "0ae7131c-e497-4b82-8286-59c84d5c9e9d",
         "kind": "grammar",
-        "revision": 2,
+        "revision": 3,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-20T01:58:31Z",
-        "updated_at": "2026-10-20T02:55:47Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "6b2057c6-4e9f-422f-9537-122a5305433a",
@@ -142827,11 +142827,11 @@
       {
         "id": "50b9f4ff-e592-4d4d-8057-a4e26a7bc2ad",
         "kind": "grammar",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-20T01:58:31Z",
-        "updated_at": "2026-10-20T01:58:31Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "dbc105af-c0ef-4b25-9ea6-d52469022a92",
@@ -142908,11 +142908,11 @@
       {
         "id": "7fb56c6c-79b1-4837-94e6-a65dd45ab62d",
         "kind": "grammar",
-        "revision": 2,
+        "revision": 3,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-20T01:58:31Z",
-        "updated_at": "2026-10-20T05:42:25Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "fcd7725d-c235-4412-95e2-49664cb54874",
@@ -142989,11 +142989,11 @@
       {
         "id": "4dd04c0c-5449-4d0f-a3cd-f0701ccf5897",
         "kind": "grammar",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-20T01:58:31Z",
-        "updated_at": "2026-10-20T01:58:31Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "dfec6526-bec1-4ceb-8edb-86127e7141fe",
@@ -143070,11 +143070,11 @@
       {
         "id": "39d90697-78fd-4a3b-847c-b90d5ff07e64",
         "kind": "grammar",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-20T01:58:31Z",
-        "updated_at": "2026-10-20T01:58:31Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "6a5297b3-71f9-4e77-9f18-223adb922bb7",
@@ -143151,11 +143151,11 @@
       {
         "id": "76c32b94-218c-4167-9dc0-0e5e848766bd",
         "kind": "grammar",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-20T01:58:31Z",
-        "updated_at": "2026-10-20T01:58:31Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "8860465b-fbe2-4973-85ab-1b7d6408319d",
@@ -143232,11 +143232,11 @@
       {
         "id": "549f297e-3b2e-4de2-b170-de5015d0d77b",
         "kind": "grammar",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-20T01:58:31Z",
-        "updated_at": "2026-10-20T01:58:31Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "4a0951a2-ac23-4700-82b4-0d78d82a0049",
@@ -143313,11 +143313,11 @@
       {
         "id": "d46e4c1d-f809-43eb-a867-f9a3220fb93a",
         "kind": "grammar",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-20T01:58:31Z",
-        "updated_at": "2026-10-20T01:58:31Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "0c5f488c-eb4d-46a7-a88b-0ec549350944",
@@ -143394,11 +143394,11 @@
       {
         "id": "6f229752-cc5f-4de7-b098-3e9f0c135bf9",
         "kind": "grammar",
-        "revision": 2,
+        "revision": 3,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-20T01:58:31Z",
-        "updated_at": "2026-10-20T03:29:18Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "da7f8642-2aec-4a32-a78f-01e266caae02",
@@ -143475,11 +143475,11 @@
       {
         "id": "d940b512-3a3a-4108-b561-fa33dfd93222",
         "kind": "grammar",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-20T01:58:31Z",
-        "updated_at": "2026-10-20T01:58:31Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "e15243bc-8229-498e-8f77-567eb5a9f05f",
@@ -143556,11 +143556,11 @@
       {
         "id": "71950d57-960d-45a6-a4e6-e492e4c01a50",
         "kind": "grammar",
-        "revision": 2,
+        "revision": 3,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-20T01:58:31Z",
-        "updated_at": "2026-10-20T02:55:47Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "1951f0ac-ec8b-4030-b63a-9f827f73baab",
@@ -143637,11 +143637,11 @@
       {
         "id": "4310e69f-27bc-49bb-92a3-08f592427316",
         "kind": "grammar",
-        "revision": 4,
+        "revision": 5,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-20T01:58:31Z",
-        "updated_at": "2026-10-20T05:42:25Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "0c8a8524-dd62-4cc9-9f40-df7e982c9001",
@@ -143718,11 +143718,11 @@
       {
         "id": "f527297e-94dd-472b-928e-7bc3900b2dae",
         "kind": "grammar",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-20T01:58:31Z",
-        "updated_at": "2026-10-20T01:58:31Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "e01fb416-fe86-47f5-912a-54cc4aba842c",
@@ -143808,65 +143808,65 @@
       {
         "id": "f59f0b9f-b56b-438d-a510-f336e7f2fb44",
         "kind": "lesson",
-        "revision": 1,
-        "is_active": 1,
-        "level": "lower_intermediate",
-        "created_at": "2026-10-20T02:55:47Z",
-        "updated_at": "2026-10-20T02:55:47Z"
-      },
-      {
-        "id": "f624ac96-fe2a-4d6c-a0a7-377fa3e78b58",
-        "kind": "lesson",
-        "revision": 1,
-        "is_active": 1,
-        "level": "lower_intermediate",
-        "created_at": "2026-10-20T02:55:47Z",
-        "updated_at": "2026-10-20T02:55:47Z"
-      },
-      {
-        "id": "e49bb17b-0c09-4ebc-bcac-0874cf7daee7",
-        "kind": "lesson",
-        "revision": 1,
-        "is_active": 1,
-        "level": "lower_intermediate",
-        "created_at": "2026-10-20T02:55:47Z",
-        "updated_at": "2026-10-20T02:55:47Z"
-      },
-      {
-        "id": "4115d35b-5180-43ed-9f58-fd9160f3e98f",
-        "kind": "lesson",
-        "revision": 1,
-        "is_active": 1,
-        "level": "lower_intermediate",
-        "created_at": "2026-10-20T02:55:47Z",
-        "updated_at": "2026-10-20T02:55:47Z"
-      },
-      {
-        "id": "25e2707b-e3f2-4369-a8e5-2e13e84f03b0",
-        "kind": "lesson",
-        "revision": 1,
-        "is_active": 1,
-        "level": "lower_intermediate",
-        "created_at": "2026-10-20T02:55:47Z",
-        "updated_at": "2026-10-20T02:55:47Z"
-      },
-      {
-        "id": "1a45350c-42ac-49c8-95d8-4aaeb86516f4",
-        "kind": "lesson",
-        "revision": 1,
-        "is_active": 1,
-        "level": "lower_intermediate",
-        "created_at": "2026-10-20T02:55:47Z",
-        "updated_at": "2026-10-20T02:55:47Z"
-      },
-      {
-        "id": "453d0f13-3727-4335-8f6a-ddff70f570ac",
-        "kind": "grammar",
         "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-20T02:55:47Z",
-        "updated_at": "2026-10-20T05:42:25Z"
+        "updated_at": "2026-10-20T06:15:06Z"
+      },
+      {
+        "id": "f624ac96-fe2a-4d6c-a0a7-377fa3e78b58",
+        "kind": "lesson",
+        "revision": 2,
+        "is_active": 1,
+        "level": "lower_intermediate",
+        "created_at": "2026-10-20T02:55:47Z",
+        "updated_at": "2026-10-20T06:15:06Z"
+      },
+      {
+        "id": "e49bb17b-0c09-4ebc-bcac-0874cf7daee7",
+        "kind": "lesson",
+        "revision": 2,
+        "is_active": 1,
+        "level": "lower_intermediate",
+        "created_at": "2026-10-20T02:55:47Z",
+        "updated_at": "2026-10-20T06:15:06Z"
+      },
+      {
+        "id": "4115d35b-5180-43ed-9f58-fd9160f3e98f",
+        "kind": "lesson",
+        "revision": 2,
+        "is_active": 1,
+        "level": "lower_intermediate",
+        "created_at": "2026-10-20T02:55:47Z",
+        "updated_at": "2026-10-20T06:15:06Z"
+      },
+      {
+        "id": "25e2707b-e3f2-4369-a8e5-2e13e84f03b0",
+        "kind": "lesson",
+        "revision": 2,
+        "is_active": 1,
+        "level": "lower_intermediate",
+        "created_at": "2026-10-20T02:55:47Z",
+        "updated_at": "2026-10-20T06:15:06Z"
+      },
+      {
+        "id": "1a45350c-42ac-49c8-95d8-4aaeb86516f4",
+        "kind": "lesson",
+        "revision": 2,
+        "is_active": 1,
+        "level": "lower_intermediate",
+        "created_at": "2026-10-20T02:55:47Z",
+        "updated_at": "2026-10-20T06:15:06Z"
+      },
+      {
+        "id": "453d0f13-3727-4335-8f6a-ddff70f570ac",
+        "kind": "grammar",
+        "revision": 3,
+        "is_active": 1,
+        "level": "lower_intermediate",
+        "created_at": "2026-10-20T02:55:47Z",
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "e647ae37-6205-4df6-bd52-bf5f564deecb",
@@ -143943,11 +143943,11 @@
       {
         "id": "58303aa2-5451-40ec-8345-6b7cc14fa1aa",
         "kind": "grammar",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-20T02:55:47Z",
-        "updated_at": "2026-10-20T02:55:47Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "9cfd212c-44ca-4cc7-bd48-cdc1be06501e",
@@ -144024,11 +144024,11 @@
       {
         "id": "971d0ccc-242f-464d-90e9-775c19b88c94",
         "kind": "grammar",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-20T02:55:47Z",
-        "updated_at": "2026-10-20T02:55:47Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "13c0812c-02b2-47c3-bac9-3bc73ed0d8e0",
@@ -144105,11 +144105,11 @@
       {
         "id": "d41f1600-e5aa-40da-b23e-7c51a40d726b",
         "kind": "grammar",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-20T02:55:47Z",
-        "updated_at": "2026-10-20T02:55:47Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "f527a5e2-ccf5-4182-bdbd-1c205e45948b",
@@ -144186,11 +144186,11 @@
       {
         "id": "ec8a7395-00b1-494a-bada-a5f767a3e66e",
         "kind": "grammar",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-20T02:55:47Z",
-        "updated_at": "2026-10-20T02:55:47Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "c8b4025b-4f84-49dc-8351-8a5baa2713e0",
@@ -144267,11 +144267,11 @@
       {
         "id": "172590f5-9c3c-4fd9-9196-f1811ac4880e",
         "kind": "grammar",
-        "revision": 3,
+        "revision": 4,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-20T02:55:47Z",
-        "updated_at": "2026-10-20T05:42:25Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "6649660c-0674-426f-9336-c7fc3dade3ef",
@@ -144348,11 +144348,11 @@
       {
         "id": "d14e4b1a-a765-440b-b8fa-4ec1b97d0a40",
         "kind": "grammar",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-20T02:55:47Z",
-        "updated_at": "2026-10-20T02:55:47Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "7685a2e0-37dc-44c5-81a8-586b8795f729",
@@ -144429,11 +144429,11 @@
       {
         "id": "f3e5c2de-6721-46ce-af18-1a5c458bcac8",
         "kind": "grammar",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-20T02:55:47Z",
-        "updated_at": "2026-10-20T02:55:47Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "7bca453b-049a-4305-beaa-d7a84e46c0a7",
@@ -144510,11 +144510,11 @@
       {
         "id": "40f95bb3-8746-47cf-9a49-023cecc3345b",
         "kind": "grammar",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-20T02:55:47Z",
-        "updated_at": "2026-10-20T02:55:47Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "77460630-cca9-4c17-966a-80c960a13b08",
@@ -144591,11 +144591,11 @@
       {
         "id": "74fbc968-1127-454f-9097-d1917f7094a8",
         "kind": "grammar",
-        "revision": 2,
+        "revision": 3,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-20T02:55:47Z",
-        "updated_at": "2026-10-20T05:42:25Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "7b6b0769-be27-4e5d-9e6f-66df24beafb9",
@@ -144672,11 +144672,11 @@
       {
         "id": "11d06a0a-c142-4856-815d-e63d0158c8dd",
         "kind": "grammar",
-        "revision": 2,
+        "revision": 3,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-20T02:55:47Z",
-        "updated_at": "2026-10-20T05:42:25Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "58b1696a-eee0-4d4a-ab9d-3f92d45d73df",
@@ -144753,11 +144753,11 @@
       {
         "id": "f65f7148-511f-4c51-9472-7ba0dd29957d",
         "kind": "grammar",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-20T02:55:47Z",
-        "updated_at": "2026-10-20T02:55:47Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "0fb6125e-6309-4e18-ad75-6a9ed5e7f05d",
@@ -144834,11 +144834,11 @@
       {
         "id": "17659b43-e2b7-4290-91b8-82446e05f9cb",
         "kind": "grammar",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-20T02:55:47Z",
-        "updated_at": "2026-10-20T02:55:47Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "99dd0526-a3cd-4667-b288-c76423e8d331",
@@ -144915,11 +144915,11 @@
       {
         "id": "894c1244-bc9d-4a06-95bd-dff4f3c2cbb1",
         "kind": "grammar",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-20T02:55:47Z",
-        "updated_at": "2026-10-20T02:55:47Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "68c05edd-b6f3-4e5b-958a-c0e0029b0fcd",
@@ -144996,11 +144996,11 @@
       {
         "id": "54eb6883-e365-406c-9568-7078e72c0b10",
         "kind": "grammar",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-20T02:55:47Z",
-        "updated_at": "2026-10-20T02:55:47Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "348e03d8-94fd-433b-a4dd-1f200635dec8",
@@ -145077,11 +145077,11 @@
       {
         "id": "35a30485-766a-4146-aad0-88646020e192",
         "kind": "grammar",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-20T02:55:47Z",
-        "updated_at": "2026-10-20T02:55:47Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "ce984fd2-38c9-4fd3-a335-74b46eb7a342",
@@ -145158,11 +145158,11 @@
       {
         "id": "782eb56e-972c-4c6e-81a7-911d094caac1",
         "kind": "grammar",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-20T02:55:47Z",
-        "updated_at": "2026-10-20T02:55:47Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "a6352c1b-7e6f-48d2-996a-80656f620b4b",
@@ -145239,11 +145239,11 @@
       {
         "id": "754881ff-3e7d-4743-8de8-ab6f63b1a9a4",
         "kind": "grammar",
-        "revision": 2,
+        "revision": 3,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-20T02:55:47Z",
-        "updated_at": "2026-10-20T05:42:25Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "ec2ce1f6-3931-4627-b785-a6757241c192",
@@ -145329,65 +145329,65 @@
       {
         "id": "6045c8cf-a914-450b-9631-fa7127cfad7f",
         "kind": "lesson",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-20T03:29:18Z",
-        "updated_at": "2026-10-20T03:29:18Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "c59e00fb-8a7c-4c6d-9132-4aeb984ce4bc",
         "kind": "lesson",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-20T03:29:18Z",
-        "updated_at": "2026-10-20T03:29:18Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "569e0c3f-2fad-40e4-98b9-b59195bd33a2",
         "kind": "lesson",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-20T03:29:18Z",
-        "updated_at": "2026-10-20T03:29:18Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "49898f00-d091-4857-9661-506d6d7bd39e",
         "kind": "lesson",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-20T03:29:18Z",
-        "updated_at": "2026-10-20T03:29:18Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "02b08aa6-6c6d-4d94-b585-21a3ff03b902",
         "kind": "lesson",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-20T03:29:18Z",
-        "updated_at": "2026-10-20T03:29:18Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "5343ddd1-294a-4cda-ba08-ae72a1f57c73",
         "kind": "lesson",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-20T03:29:18Z",
-        "updated_at": "2026-10-20T03:29:18Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "31239c2c-43e2-4c94-8db8-e3777ef8cc10",
         "kind": "grammar",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-20T03:29:18Z",
-        "updated_at": "2026-10-20T03:29:18Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "c4935e25-5f72-4fa6-8a9c-1cb6d7a158e3",
@@ -145464,11 +145464,11 @@
       {
         "id": "3213bc29-b278-4331-8a9d-383e0101653b",
         "kind": "grammar",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-20T03:29:18Z",
-        "updated_at": "2026-10-20T03:29:18Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "9556acc8-8f09-438f-a395-d3bdcfa2e449",
@@ -145545,11 +145545,11 @@
       {
         "id": "c02c5bd8-8dc1-4e6c-ab6d-d756ddd32c6f",
         "kind": "grammar",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-20T03:29:18Z",
-        "updated_at": "2026-10-20T03:29:18Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "db24b1fd-eb0a-4cec-abb2-232aec2882ef",
@@ -145626,11 +145626,11 @@
       {
         "id": "445b7ded-b9dc-434e-b8fb-7ed4d253bc64",
         "kind": "grammar",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-20T03:29:18Z",
-        "updated_at": "2026-10-20T03:29:18Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "c31e0fb3-fc98-49a6-8eb7-34fa962ddafb",
@@ -145707,11 +145707,11 @@
       {
         "id": "2a7b0e46-86f5-49fa-ac87-de9e3de87e3a",
         "kind": "grammar",
-        "revision": 2,
+        "revision": 3,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-20T03:29:18Z",
-        "updated_at": "2026-10-20T05:42:25Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "8457da67-3335-491e-811c-80f43e6aee5d",
@@ -145788,11 +145788,11 @@
       {
         "id": "e4d0935d-a2ae-4207-8583-bcb93de194bd",
         "kind": "grammar",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-20T03:29:18Z",
-        "updated_at": "2026-10-20T03:29:18Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "4aa0b2a6-e99e-4ced-b24e-f2992336668e",
@@ -145869,11 +145869,11 @@
       {
         "id": "2d9cbb5e-ac05-4cbc-a52b-975c19d77210",
         "kind": "grammar",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-20T03:29:18Z",
-        "updated_at": "2026-10-20T03:29:18Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "80edd77f-6fe1-46cd-a802-b9de559ec905",
@@ -145950,11 +145950,11 @@
       {
         "id": "600d5cb2-aad4-414b-893a-3bb1f970909f",
         "kind": "grammar",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-20T03:29:18Z",
-        "updated_at": "2026-10-20T03:29:18Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "8fbe7abb-edc4-499c-919e-5e7685bd0797",
@@ -146031,11 +146031,11 @@
       {
         "id": "29c75088-07da-46d2-ac0b-495e520234ad",
         "kind": "grammar",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-20T03:29:18Z",
-        "updated_at": "2026-10-20T03:29:18Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "ab2fca1c-c0b4-475a-99cf-73ffdea28120",
@@ -146112,11 +146112,11 @@
       {
         "id": "bd26d280-1967-4d90-81f5-95b3c2e3db59",
         "kind": "grammar",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-20T03:29:18Z",
-        "updated_at": "2026-10-20T03:29:18Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "b3a4918e-06ec-4c12-9edc-d80d0599c82f",
@@ -146193,11 +146193,11 @@
       {
         "id": "f0acd94a-696c-4cbe-8d11-df2f2ea31f08",
         "kind": "grammar",
-        "revision": 2,
+        "revision": 3,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-20T03:29:18Z",
-        "updated_at": "2026-10-20T05:42:25Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "f0862d44-2640-48c6-bfb7-77cb68a75dec",
@@ -146274,11 +146274,11 @@
       {
         "id": "68c3a2a7-5f4e-4236-9474-380202f6bbeb",
         "kind": "grammar",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-20T03:29:18Z",
-        "updated_at": "2026-10-20T03:29:18Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "e332bdef-c112-4368-9c60-3eb58ab777c6",
@@ -146355,11 +146355,11 @@
       {
         "id": "c931b72d-27f5-446c-ab2f-d85c4b46b4b9",
         "kind": "grammar",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-20T03:29:18Z",
-        "updated_at": "2026-10-20T03:29:18Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "fd0125ce-cdd7-4992-b48c-fc74c14f1d7d",
@@ -146436,11 +146436,11 @@
       {
         "id": "b3c47e9e-b16e-4feb-bb5c-4cc4e49b5bf3",
         "kind": "grammar",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-20T03:29:18Z",
-        "updated_at": "2026-10-20T03:29:18Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "6144d085-8c44-4c44-864c-31d703221650",
@@ -146517,11 +146517,11 @@
       {
         "id": "0b6da528-99a6-4f2f-8708-686b052e3213",
         "kind": "grammar",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-20T03:29:18Z",
-        "updated_at": "2026-10-20T03:29:18Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "01c9e0b5-2264-4d0d-abac-d916158b8379",
@@ -146598,11 +146598,11 @@
       {
         "id": "f5fae1c3-9c30-4fe3-a9ed-6936aed2183a",
         "kind": "grammar",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-20T03:29:18Z",
-        "updated_at": "2026-10-20T03:29:18Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "a4118606-cc3b-4e86-885e-fe7c981f860d",
@@ -146679,11 +146679,11 @@
       {
         "id": "7d214986-8d9d-4f84-9af5-de0234f136d5",
         "kind": "grammar",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-20T03:29:18Z",
-        "updated_at": "2026-10-20T03:29:18Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "0199bdbc-bb88-4469-afa5-f8cd588c7d89",
@@ -146760,11 +146760,11 @@
       {
         "id": "34a56baf-0b84-4263-ab82-14942a47beca",
         "kind": "grammar",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "created_at": "2026-10-20T03:29:18Z",
-        "updated_at": "2026-10-20T03:29:18Z"
+        "updated_at": "2026-10-20T06:15:06Z"
       },
       {
         "id": "13c2dbc3-cc3d-4dbd-8301-ca650351d6d4",
@@ -146837,6 +146837,60 @@
         "level": "lower_intermediate",
         "created_at": "2026-10-20T03:29:18Z",
         "updated_at": "2026-10-20T03:29:18Z"
+      },
+      {
+        "id": "69a43001-7678-4fa7-86a6-84bbc76617e3",
+        "kind": "tag",
+        "revision": 1,
+        "is_active": 1,
+        "level": "lower_intermediate",
+        "created_at": "2026-10-20T06:15:06Z",
+        "updated_at": "2026-10-20T06:15:06Z"
+      },
+      {
+        "id": "1351160c-2f63-454e-8bff-c0c13d1d9470",
+        "kind": "tag",
+        "revision": 1,
+        "is_active": 1,
+        "level": "lower_intermediate",
+        "created_at": "2026-10-20T06:15:06Z",
+        "updated_at": "2026-10-20T06:15:06Z"
+      },
+      {
+        "id": "2df38668-519e-4a4c-8925-51dc5193b023",
+        "kind": "tag",
+        "revision": 1,
+        "is_active": 1,
+        "level": "lower_intermediate",
+        "created_at": "2026-10-20T06:15:06Z",
+        "updated_at": "2026-10-20T06:15:06Z"
+      },
+      {
+        "id": "f7e9235b-7489-41b0-ab3b-b9a7f3581bbc",
+        "kind": "tag",
+        "revision": 1,
+        "is_active": 1,
+        "level": "lower_intermediate",
+        "created_at": "2026-10-20T06:15:06Z",
+        "updated_at": "2026-10-20T06:15:06Z"
+      },
+      {
+        "id": "f6d8f52d-8ff9-4eca-a27d-0cffd33111f6",
+        "kind": "tag",
+        "revision": 1,
+        "is_active": 1,
+        "level": "lower_intermediate",
+        "created_at": "2026-10-20T06:15:06Z",
+        "updated_at": "2026-10-20T06:15:06Z"
+      },
+      {
+        "id": "ef742e25-8a6d-424f-9390-6905a2260636",
+        "kind": "tag",
+        "revision": 1,
+        "is_active": 1,
+        "level": "lower_intermediate",
+        "created_at": "2026-10-20T06:15:06Z",
+        "updated_at": "2026-10-20T06:15:06Z"
       }
     ],
     "hangul": [
@@ -179406,6 +179460,376 @@
         "source_id": "34a56baf-0b84-4263-ab82-14942a47beca",
         "target_id": "f5fae1c3-9c30-4fe3-a9ed-6936aed2183a",
         "relation": "prerequisite"
+      },
+      {
+        "source_id": "39d90697-78fd-4a3b-847c-b90d5ff07e64",
+        "target_id": "31239c2c-43e2-4c94-8db8-e3777ef8cc10",
+        "relation": "prerequisite"
+      },
+      {
+        "source_id": "f527297e-94dd-472b-928e-7bc3900b2dae",
+        "target_id": "453d0f13-3727-4335-8f6a-ddff70f570ac",
+        "relation": "prerequisite"
+      },
+      {
+        "source_id": "453d0f13-3727-4335-8f6a-ddff70f570ac",
+        "target_id": "31239c2c-43e2-4c94-8db8-e3777ef8cc10",
+        "relation": "prerequisite"
+      },
+      {
+        "source_id": "971d0ccc-242f-464d-90e9-775c19b88c94",
+        "target_id": "31239c2c-43e2-4c94-8db8-e3777ef8cc10",
+        "relation": "prerequisite"
+      },
+      {
+        "source_id": "d14e4b1a-a765-440b-b8fa-4ec1b97d0a40",
+        "target_id": "31239c2c-43e2-4c94-8db8-e3777ef8cc10",
+        "relation": "prerequisite"
+      },
+      {
+        "source_id": "74fbc968-1127-454f-9097-d1917f7094a8",
+        "target_id": "31239c2c-43e2-4c94-8db8-e3777ef8cc10",
+        "relation": "prerequisite"
+      },
+      {
+        "source_id": "54eb6883-e365-406c-9568-7078e72c0b10",
+        "target_id": "31239c2c-43e2-4c94-8db8-e3777ef8cc10",
+        "relation": "prerequisite"
+      },
+      {
+        "source_id": "35a30485-766a-4146-aad0-88646020e192",
+        "target_id": "31239c2c-43e2-4c94-8db8-e3777ef8cc10",
+        "relation": "prerequisite"
+      },
+      {
+        "source_id": "35a30485-766a-4146-aad0-88646020e192",
+        "target_id": "3213bc29-b278-4331-8a9d-383e0101653b",
+        "relation": "prerequisite"
+      },
+      {
+        "source_id": "782eb56e-972c-4c6e-81a7-911d094caac1",
+        "target_id": "31239c2c-43e2-4c94-8db8-e3777ef8cc10",
+        "relation": "prerequisite"
+      },
+      {
+        "source_id": "754881ff-3e7d-4743-8de8-ab6f63b1a9a4",
+        "target_id": "31239c2c-43e2-4c94-8db8-e3777ef8cc10",
+        "relation": "prerequisite"
+      },
+      {
+        "source_id": "c02c5bd8-8dc1-4e6c-ab6d-d756ddd32c6f",
+        "target_id": "172590f5-9c3c-4fd9-9196-f1811ac4880e",
+        "relation": "prerequisite"
+      },
+      {
+        "source_id": "2d9cbb5e-ac05-4cbc-a52b-975c19d77210",
+        "target_id": "3213bc29-b278-4331-8a9d-383e0101653b",
+        "relation": "prerequisite"
+      },
+      {
+        "source_id": "600d5cb2-aad4-414b-893a-3bb1f970909f",
+        "target_id": "31239c2c-43e2-4c94-8db8-e3777ef8cc10",
+        "relation": "prerequisite"
+      },
+      {
+        "source_id": "68c3a2a7-5f4e-4236-9474-380202f6bbeb",
+        "target_id": "d14e4b1a-a765-440b-b8fa-4ec1b97d0a40",
+        "relation": "prerequisite"
+      },
+      {
+        "source_id": "b3c47e9e-b16e-4feb-bb5c-4cc4e49b5bf3",
+        "target_id": "971d0ccc-242f-464d-90e9-775c19b88c94",
+        "relation": "prerequisite"
+      },
+      {
+        "source_id": "b3c47e9e-b16e-4feb-bb5c-4cc4e49b5bf3",
+        "target_id": "d14e4b1a-a765-440b-b8fa-4ec1b97d0a40",
+        "relation": "prerequisite"
+      },
+      {
+        "source_id": "0b6da528-99a6-4f2f-8708-686b052e3213",
+        "target_id": "76c32b94-218c-4167-9dc0-0e5e848766bd",
+        "relation": "prerequisite"
+      },
+      {
+        "source_id": "7d214986-8d9d-4f84-9af5-de0234f136d5",
+        "target_id": "e7ab89e5-358e-461a-893d-d87d057bc9ed",
+        "relation": "prerequisite"
+      },
+      {
+        "source_id": "34a56baf-0b84-4263-ab82-14942a47beca",
+        "target_id": "d14e4b1a-a765-440b-b8fa-4ec1b97d0a40",
+        "relation": "prerequisite"
+      },
+      {
+        "source_id": "da6206fe-cb6b-4842-8943-da3c54c07370",
+        "target_id": "e288c7ed-03ea-4f74-9c19-d66fcb1dfc00",
+        "relation": "related"
+      },
+      {
+        "source_id": "4168b8b7-98df-431a-a90c-d83945f3df76",
+        "target_id": "ef99c9c1-d608-4886-b8ea-09d82a6534a8",
+        "relation": "related"
+      },
+      {
+        "source_id": "645acca8-db1f-4482-9b4c-88d637445e2d",
+        "target_id": "64867086-e978-42e2-9fae-f2b9bc5ac124",
+        "relation": "related"
+      },
+      {
+        "source_id": "400d4fa2-b300-406c-9425-c7bb1a125c9d",
+        "target_id": "e9273372-f7c9-4657-8fe6-e2efc3e3be5c",
+        "relation": "related"
+      },
+      {
+        "source_id": "e7ab89e5-358e-461a-893d-d87d057bc9ed",
+        "target_id": "74e087ed-1b65-41c7-9725-08dc914c7ec9",
+        "relation": "related"
+      },
+      {
+        "source_id": "0ae7131c-e497-4b82-8286-59c84d5c9e9d",
+        "target_id": "346f1442-8a5b-4e57-90d2-ba1be2974b02",
+        "relation": "related"
+      },
+      {
+        "source_id": "50b9f4ff-e592-4d4d-8057-a4e26a7bc2ad",
+        "target_id": "8860a406-438e-46c0-9400-ec8d46b8142b",
+        "relation": "related"
+      },
+      {
+        "source_id": "7fb56c6c-79b1-4837-94e6-a65dd45ab62d",
+        "target_id": "ff994d37-629a-4a49-821a-c3f581cdc02f",
+        "relation": "related"
+      },
+      {
+        "source_id": "4dd04c0c-5449-4d0f-a3cd-f0701ccf5897",
+        "target_id": "d60dee9a-187d-490a-b322-37bbf7db8b88",
+        "relation": "related"
+      },
+      {
+        "source_id": "39d90697-78fd-4a3b-847c-b90d5ff07e64",
+        "target_id": "74e087ed-1b65-41c7-9725-08dc914c7ec9",
+        "relation": "related"
+      },
+      {
+        "source_id": "76c32b94-218c-4167-9dc0-0e5e848766bd",
+        "target_id": "9d2a8300-ff9f-4616-b8f5-c84a953c467f",
+        "relation": "related"
+      },
+      {
+        "source_id": "549f297e-3b2e-4de2-b170-de5015d0d77b",
+        "target_id": "3fba2e1f-868a-49ef-bb3b-261ffd92748b",
+        "relation": "related"
+      },
+      {
+        "source_id": "d46e4c1d-f809-43eb-a867-f9a3220fb93a",
+        "target_id": "31197479-9264-45e6-9b23-81db1e559ae1",
+        "relation": "related"
+      },
+      {
+        "source_id": "6f229752-cc5f-4de7-b098-3e9f0c135bf9",
+        "target_id": "89493a6f-ed7a-4db8-bd84-337c8a7c2c16",
+        "relation": "related"
+      },
+      {
+        "source_id": "d940b512-3a3a-4108-b561-fa33dfd93222",
+        "target_id": "1898070d-1778-4143-b1d8-9dae56ec3dbb",
+        "relation": "related"
+      },
+      {
+        "source_id": "71950d57-960d-45a6-a4e6-e492e4c01a50",
+        "target_id": "64867086-e978-42e2-9fae-f2b9bc5ac124",
+        "relation": "related"
+      },
+      {
+        "source_id": "4310e69f-27bc-49bb-92a3-08f592427316",
+        "target_id": "16f1a043-b220-4239-9472-abbc01e0f55f",
+        "relation": "related"
+      },
+      {
+        "source_id": "f527297e-94dd-472b-928e-7bc3900b2dae",
+        "target_id": "3fba2e1f-868a-49ef-bb3b-261ffd92748b",
+        "relation": "related"
+      },
+      {
+        "source_id": "453d0f13-3727-4335-8f6a-ddff70f570ac",
+        "target_id": "3fba2e1f-868a-49ef-bb3b-261ffd92748b",
+        "relation": "related"
+      },
+      {
+        "source_id": "58303aa2-5451-40ec-8345-6b7cc14fa1aa",
+        "target_id": "16f1a043-b220-4239-9472-abbc01e0f55f",
+        "relation": "related"
+      },
+      {
+        "source_id": "971d0ccc-242f-464d-90e9-775c19b88c94",
+        "target_id": "04ecddf4-c1b7-4b9a-a26c-dd4dd5285eb0",
+        "relation": "related"
+      },
+      {
+        "source_id": "d41f1600-e5aa-40da-b23e-7c51a40d726b",
+        "target_id": "2de8f51d-04ee-4c80-9b2f-cda1e77c283f",
+        "relation": "related"
+      },
+      {
+        "source_id": "ec8a7395-00b1-494a-bada-a5f767a3e66e",
+        "target_id": "16f1a043-b220-4239-9472-abbc01e0f55f",
+        "relation": "related"
+      },
+      {
+        "source_id": "172590f5-9c3c-4fd9-9196-f1811ac4880e",
+        "target_id": "7a745607-1a5d-4e97-9127-88f64de96b64",
+        "relation": "related"
+      },
+      {
+        "source_id": "d14e4b1a-a765-440b-b8fa-4ec1b97d0a40",
+        "target_id": "d0194da2-65bc-497f-877d-82ae0744ce75",
+        "relation": "related"
+      },
+      {
+        "source_id": "f3e5c2de-6721-46ce-af18-1a5c458bcac8",
+        "target_id": "1898070d-1778-4143-b1d8-9dae56ec3dbb",
+        "relation": "related"
+      },
+      {
+        "source_id": "40f95bb3-8746-47cf-9a49-023cecc3345b",
+        "target_id": "0d98c37e-f704-42b5-ba7d-2ecc2879559e",
+        "relation": "related"
+      },
+      {
+        "source_id": "74fbc968-1127-454f-9097-d1917f7094a8",
+        "target_id": "67cb9ccd-49f3-4e17-a1a5-2a55c79abe69",
+        "relation": "related"
+      },
+      {
+        "source_id": "11d06a0a-c142-4856-815d-e63d0158c8dd",
+        "target_id": "f8ee8591-ab22-4bbf-a303-93d188239b34",
+        "relation": "related"
+      },
+      {
+        "source_id": "f65f7148-511f-4c51-9472-7ba0dd29957d",
+        "target_id": "d0194da2-65bc-497f-877d-82ae0744ce75",
+        "relation": "related"
+      },
+      {
+        "source_id": "17659b43-e2b7-4290-91b8-82446e05f9cb",
+        "target_id": "1b03a139-026f-42c1-bcc5-9c5d6612ea77",
+        "relation": "related"
+      },
+      {
+        "source_id": "894c1244-bc9d-4a06-95bd-dff4f3c2cbb1",
+        "target_id": "4c8e554b-632d-4bff-a15b-7acb518b982d",
+        "relation": "related"
+      },
+      {
+        "source_id": "54eb6883-e365-406c-9568-7078e72c0b10",
+        "target_id": "b145e388-f79a-41e6-bc7c-3a81bb54b735",
+        "relation": "related"
+      },
+      {
+        "source_id": "35a30485-766a-4146-aad0-88646020e192",
+        "target_id": "ff994d37-629a-4a49-821a-c3f581cdc02f",
+        "relation": "related"
+      },
+      {
+        "source_id": "782eb56e-972c-4c6e-81a7-911d094caac1",
+        "target_id": "d60dee9a-187d-490a-b322-37bbf7db8b88",
+        "relation": "related"
+      },
+      {
+        "source_id": "754881ff-3e7d-4743-8de8-ab6f63b1a9a4",
+        "target_id": "1898070d-1778-4143-b1d8-9dae56ec3dbb",
+        "relation": "related"
+      },
+      {
+        "source_id": "31239c2c-43e2-4c94-8db8-e3777ef8cc10",
+        "target_id": "1898070d-1778-4143-b1d8-9dae56ec3dbb",
+        "relation": "related"
+      },
+      {
+        "source_id": "3213bc29-b278-4331-8a9d-383e0101653b",
+        "target_id": "1b03a139-026f-42c1-bcc5-9c5d6612ea77",
+        "relation": "related"
+      },
+      {
+        "source_id": "c02c5bd8-8dc1-4e6c-ab6d-d756ddd32c6f",
+        "target_id": "89493a6f-ed7a-4db8-bd84-337c8a7c2c16",
+        "relation": "related"
+      },
+      {
+        "source_id": "445b7ded-b9dc-434e-b8fb-7ed4d253bc64",
+        "target_id": "9d4f1185-991b-41e2-801d-85b3712214ff",
+        "relation": "related"
+      },
+      {
+        "source_id": "2a7b0e46-86f5-49fa-ac87-de9e3de87e3a",
+        "target_id": "7edda9ca-9455-40a4-be09-aa4bc434e5ab",
+        "relation": "related"
+      },
+      {
+        "source_id": "e4d0935d-a2ae-4207-8583-bcb93de194bd",
+        "target_id": "6650e3b6-0b98-4269-9de8-bbeb5139c5c8",
+        "relation": "related"
+      },
+      {
+        "source_id": "2d9cbb5e-ac05-4cbc-a52b-975c19d77210",
+        "target_id": "46809049-544b-446a-8898-f79f0a205d9a",
+        "relation": "related"
+      },
+      {
+        "source_id": "600d5cb2-aad4-414b-893a-3bb1f970909f",
+        "target_id": "8860a406-438e-46c0-9400-ec8d46b8142b",
+        "relation": "related"
+      },
+      {
+        "source_id": "29c75088-07da-46d2-ac0b-495e520234ad",
+        "target_id": "af329db1-d832-40ff-bf40-84a4ab8785ff",
+        "relation": "related"
+      },
+      {
+        "source_id": "bd26d280-1967-4d90-81f5-95b3c2e3db59",
+        "target_id": "1414b2e7-420f-4214-9cbe-f5d58e560c67",
+        "relation": "related"
+      },
+      {
+        "source_id": "f0acd94a-696c-4cbe-8d11-df2f2ea31f08",
+        "target_id": "03d10d26-7ae9-4224-b8da-2b003b52c806",
+        "relation": "related"
+      },
+      {
+        "source_id": "68c3a2a7-5f4e-4236-9474-380202f6bbeb",
+        "target_id": "58b7c4aa-bdc6-489c-93e2-f51e6c48a233",
+        "relation": "related"
+      },
+      {
+        "source_id": "c931b72d-27f5-446c-ab2f-d85c4b46b4b9",
+        "target_id": "af329db1-d832-40ff-bf40-84a4ab8785ff",
+        "relation": "related"
+      },
+      {
+        "source_id": "b3c47e9e-b16e-4feb-bb5c-4cc4e49b5bf3",
+        "target_id": "2de8f51d-04ee-4c80-9b2f-cda1e77c283f",
+        "relation": "related"
+      },
+      {
+        "source_id": "0b6da528-99a6-4f2f-8708-686b052e3213",
+        "target_id": "a01be543-2220-4967-a6ad-d733c20ca028",
+        "relation": "related"
+      },
+      {
+        "source_id": "f5fae1c3-9c30-4fe3-a9ed-6936aed2183a",
+        "target_id": "1898070d-1778-4143-b1d8-9dae56ec3dbb",
+        "relation": "related"
+      },
+      {
+        "source_id": "7d214986-8d9d-4f84-9af5-de0234f136d5",
+        "target_id": "b145e388-f79a-41e6-bc7c-3a81bb54b735",
+        "relation": "related"
+      },
+      {
+        "source_id": "34a56baf-0b84-4263-ab82-14942a47beca",
+        "target_id": "4aafcc31-ed11-4899-aaab-1df8291e03d0",
+        "relation": "related"
       }
     ],
     "courses": [
@@ -243722,6 +244146,13 @@
         "id": "0eae942a-3169-4b99-a639-b7e16ba02aef",
         "title": "HangulStudy DATA09-C：推測・引用・話し手の態度",
         "citation": "本プロジェクト独自の文法説明・韓国語例文・日本語訳・単一選択問題。assistantによる編集・再読。独立原語話者/教師の監修、公式難度認定、外部辞書照合は未実施。",
+        "url": null,
+        "accessed_at": null
+      },
+      {
+        "id": "1b889098-4eb3-4857-975f-b2f745142c6e",
+        "title": "DATA09：文法の単元・先行復習・関連語",
+        "citation": "既存の検収済み内容を参照する学習配置。assistant検討。独立原語話者・教師監修は未実施。",
         "url": null,
         "accessed_at": null
       }
@@ -321231,6 +321662,36 @@
         "content_id": "c5afade3-d59b-4825-a131-cff7e41b99df",
         "source_id": "0eae942a-3169-4b99-a639-b7e16ba02aef",
         "note": "本プロジェクトで独自執筆。assistantの韓日再読、独立した人の検収は未実施。"
+      },
+      {
+        "content_id": "69a43001-7678-4fa7-86a6-84bbc76617e3",
+        "source_id": "1b889098-4eb3-4857-975f-b2f745142c6e",
+        "note": "既存レッスン・教材IDと進行中の記録を保つ単元。"
+      },
+      {
+        "content_id": "1351160c-2f63-454e-8bff-c0c13d1d9470",
+        "source_id": "1b889098-4eb3-4857-975f-b2f745142c6e",
+        "note": "既存レッスン・教材IDと進行中の記録を保つ単元。"
+      },
+      {
+        "content_id": "2df38668-519e-4a4c-8925-51dc5193b023",
+        "source_id": "1b889098-4eb3-4857-975f-b2f745142c6e",
+        "note": "既存レッスン・教材IDと進行中の記録を保つ単元。"
+      },
+      {
+        "content_id": "f7e9235b-7489-41b0-ab3b-b9a7f3581bbc",
+        "source_id": "1b889098-4eb3-4857-975f-b2f745142c6e",
+        "note": "既存レッスン・教材IDと進行中の記録を保つ単元。"
+      },
+      {
+        "content_id": "f6d8f52d-8ff9-4eca-a27d-0cffd33111f6",
+        "source_id": "1b889098-4eb3-4857-975f-b2f745142c6e",
+        "note": "既存レッスン・教材IDと進行中の記録を保つ単元。"
+      },
+      {
+        "content_id": "ef742e25-8a6d-424f-9390-6905a2260636",
+        "source_id": "1b889098-4eb3-4857-975f-b2f745142c6e",
+        "note": "既存レッスン・教材IDと進行中の記録を保つ単元。"
       }
     ],
     "pronunciation_rules": [
@@ -356038,6 +356499,36 @@
         "id": "1cd4b79e-7d46-4e49-9dbd-323968cfbfbf",
         "label_ja": "ユニット C",
         "namespace": "curriculum_unit"
+      },
+      {
+        "id": "69a43001-7678-4fa7-86a6-84bbc76617e3",
+        "label_ja": "理由・変化・条件",
+        "namespace": "data09_unit"
+      },
+      {
+        "id": "1351160c-2f63-454e-8bff-c0c13d1d9470",
+        "label_ja": "目的・方針・必要性",
+        "namespace": "data09_unit"
+      },
+      {
+        "id": "2df38668-519e-4a4c-8925-51dc5193b023",
+        "label_ja": "時間・途中・結果状態",
+        "namespace": "data09_unit"
+      },
+      {
+        "id": "f7e9235b-7489-41b0-ab3b-b9a7f3581bbc",
+        "label_ja": "対照・経験・機会",
+        "namespace": "data09_unit"
+      },
+      {
+        "id": "f6d8f52d-8ff9-4eca-a27d-0cffd33111f6",
+        "label_ja": "修飾・推測・引用",
+        "namespace": "data09_unit"
+      },
+      {
+        "id": "ef742e25-8a6d-424f-9390-6905a2260636",
+        "label_ja": "伝える意図・会話の態度",
+        "namespace": "data09_unit"
       }
     ],
     "vocabulary": [
@@ -406088,6 +406579,78 @@
       {
         "content_id": "d2d3c6ac-1ede-4f61-abdb-9eebbff9c9fa",
         "tag_id": "1cd4b79e-7d46-4e49-9dbd-323968cfbfbf"
+      },
+      {
+        "content_id": "ae7efa67-002a-4001-8e3a-6400a6b63b6e",
+        "tag_id": "69a43001-7678-4fa7-86a6-84bbc76617e3"
+      },
+      {
+        "content_id": "f29d6657-8996-4c33-b3d5-92579bbc8e65",
+        "tag_id": "69a43001-7678-4fa7-86a6-84bbc76617e3"
+      },
+      {
+        "content_id": "add80d5f-a85d-4815-ba7d-07b082475590",
+        "tag_id": "69a43001-7678-4fa7-86a6-84bbc76617e3"
+      },
+      {
+        "content_id": "f5d91969-e8dc-4ecc-be34-b8fe4ae7f419",
+        "tag_id": "1351160c-2f63-454e-8bff-c0c13d1d9470"
+      },
+      {
+        "content_id": "21e60ea9-1a57-4b1b-a6a1-d4e23a4ee763",
+        "tag_id": "1351160c-2f63-454e-8bff-c0c13d1d9470"
+      },
+      {
+        "content_id": "dfff35c0-1751-4b67-9e82-ea42814c355d",
+        "tag_id": "1351160c-2f63-454e-8bff-c0c13d1d9470"
+      },
+      {
+        "content_id": "f59f0b9f-b56b-438d-a510-f336e7f2fb44",
+        "tag_id": "2df38668-519e-4a4c-8925-51dc5193b023"
+      },
+      {
+        "content_id": "f624ac96-fe2a-4d6c-a0a7-377fa3e78b58",
+        "tag_id": "2df38668-519e-4a4c-8925-51dc5193b023"
+      },
+      {
+        "content_id": "e49bb17b-0c09-4ebc-bcac-0874cf7daee7",
+        "tag_id": "2df38668-519e-4a4c-8925-51dc5193b023"
+      },
+      {
+        "content_id": "4115d35b-5180-43ed-9f58-fd9160f3e98f",
+        "tag_id": "f7e9235b-7489-41b0-ab3b-b9a7f3581bbc"
+      },
+      {
+        "content_id": "25e2707b-e3f2-4369-a8e5-2e13e84f03b0",
+        "tag_id": "f7e9235b-7489-41b0-ab3b-b9a7f3581bbc"
+      },
+      {
+        "content_id": "1a45350c-42ac-49c8-95d8-4aaeb86516f4",
+        "tag_id": "f7e9235b-7489-41b0-ab3b-b9a7f3581bbc"
+      },
+      {
+        "content_id": "6045c8cf-a914-450b-9631-fa7127cfad7f",
+        "tag_id": "f6d8f52d-8ff9-4eca-a27d-0cffd33111f6"
+      },
+      {
+        "content_id": "c59e00fb-8a7c-4c6d-9132-4aeb984ce4bc",
+        "tag_id": "f6d8f52d-8ff9-4eca-a27d-0cffd33111f6"
+      },
+      {
+        "content_id": "569e0c3f-2fad-40e4-98b9-b59195bd33a2",
+        "tag_id": "f6d8f52d-8ff9-4eca-a27d-0cffd33111f6"
+      },
+      {
+        "content_id": "49898f00-d091-4857-9661-506d6d7bd39e",
+        "tag_id": "ef742e25-8a6d-424f-9390-6905a2260636"
+      },
+      {
+        "content_id": "02b08aa6-6c6d-4d94-b585-21a3ff03b902",
+        "tag_id": "ef742e25-8a6d-424f-9390-6905a2260636"
+      },
+      {
+        "content_id": "5343ddd1-294a-4cda-ba08-ae72a1f57c73",
+        "tag_id": "ef742e25-8a6d-424f-9390-6905a2260636"
       }
     ],
     "meanings": [

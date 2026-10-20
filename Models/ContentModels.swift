@@ -31,6 +31,7 @@ struct Example: Identifiable, Sendable {
     let id: ContentID
     let korean: String
     let japanese: String
+    var learningPoint: String? = nil
 }
 struct Course: Identifiable, Sendable {
     let id: ContentID

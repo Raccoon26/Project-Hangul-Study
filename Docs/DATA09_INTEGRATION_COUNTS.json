@@ -1,0 +1,214 @@
+{
+  "content_version": 24,
+  "schema_version": 4,
+  "reader_version": 7,
+  "user_progress_version": 10,
+  "counts": {
+    "content_items": 15941,
+    "hangul": 55,
+    "content_links": 6499,
+    "courses": 8,
+    "learner_notes": 531,
+    "questions": 3553,
+    "question_choices": 1476,
+    "lessons": 103,
+    "lesson_items": 1191,
+    "sources": 23,
+    "item_sources": 15507,
+    "pronunciation_rules": 36,
+    "pronunciation_presentations": 36,
+    "content_audio": 36,
+    "examples": 4813,
+    "pronunciation_examples": 13,
+    "audio_questions": 3,
+    "tags": 103,
+    "vocabulary": 2287,
+    "item_tags": 4525,
+    "meanings": 2420,
+    "vocabulary_examples": 4514,
+    "grammar": 96,
+    "grammar_examples": 389,
+    "listening_items": 1936
+  },
+  "source_tables": 25,
+  "source_rows": 66094,
+  "new_grammar_examples_questions": [
+    54,
+    216,
+    216
+  ],
+  "this_stage_new": {
+    "unit_tags": 6,
+    "grammar": 0,
+    "examples": 0,
+    "questions": 0
+  },
+  "revised_existing_ids": 107,
+  "revised_kinds": {
+    "grammar": 54,
+    "lesson": 18,
+    "vocabulary": 35
+  },
+  "prerequisite_edges": 93,
+  "prerequisite_cycles": 0,
+  "placements": {
+    "理由・変化・条件": [
+      {
+        "id": "ae7efa67-002a-4001-8e3a-6400a6b63b6e",
+        "title_ja": "原因と不都合な結果",
+        "ordinal": 47
+      },
+      {
+        "id": "f29d6657-8996-4c33-b3d5-92579bbc8e65",
+        "title_ja": "状態の変化と必要条件",
+        "ordinal": 48
+      },
+      {
+        "id": "add80d5f-a85d-4815-ba7d-07b082475590",
+        "title_ja": "仮定と実現の条件",
+        "ordinal": 49
+      }
+    ],
+    "目的・方針・必要性": [
+      {
+        "id": "f5d91969-e8dc-4ecc-be34-b8fe4ae7f419",
+        "title_ja": "目的と行動の方針",
+        "ordinal": 50
+      },
+      {
+        "id": "21e60ea9-1a57-4b1b-a6a1-d4e23a4ee763",
+        "title_ja": "決定と考えている計画",
+        "ordinal": 51
+      },
+      {
+        "id": "dfff35c0-1751-4b67-9e82-ea42814c355d",
+        "title_ja": "心配・継続・必要性",
+        "ordinal": 52
+      }
+    ],
+    "時間・途中・結果状態": [
+      {
+        "id": "f59f0b9f-b56b-438d-a510-f336e7f2fb44",
+        "title_ja": "時と順序と継続",
+        "ordinal": 53
+      },
+      {
+        "id": "f624ac96-fe2a-4d6c-a0a7-377fa3e78b58",
+        "title_ja": "直後・途中・結果の状態",
+        "ordinal": 54
+      },
+      {
+        "id": "e49bb17b-0c09-4ebc-bcac-0874cf7daee7",
+        "title_ja": "背景と譲歩と対照",
+        "ordinal": 55
+      }
+    ],
+    "対照・経験・機会": [
+      {
+        "id": "4115d35b-5180-43ed-9f58-fd9160f3e98f",
+        "title_ja": "最低限の選択と経験の発見",
+        "ordinal": 56
+      },
+      {
+        "id": "25e2707b-e3f2-4369-a8e5-2e13e84f03b0",
+        "title_ja": "積み重ね・未遂・遅い気付き",
+        "ordinal": 57
+      },
+      {
+        "id": "1a45350c-42ac-49c8-95d8-4aaeb86516f4",
+        "title_ja": "傾向・代替・ついでの行動",
+        "ordinal": 58
+      }
+    ],
+    "修飾・推測・引用": [
+      {
+        "id": "6045c8cf-a914-450b-9631-fa7127cfad7f",
+        "title_ja": "修飾・名詞化と推測の根拠",
+        "ordinal": 59
+      },
+      {
+        "id": "c59e00fb-8a7c-4c6d-9132-4aeb984ce4bc",
+        "title_ja": "可能性・疑問内容・発言の報告",
+        "ordinal": 60
+      },
+      {
+        "id": "569e0c3f-2fad-40e4-98b9-b59195bd33a2",
+        "title_ja": "引用内容と依頼・誘いの伝達",
+        "ordinal": 61
+      }
+    ],
+    "伝える意図・会話の態度": [
+      {
+        "id": "49898f00-d091-4857-9661-506d6d7bd39e",
+        "title_ja": "質問の伝達と相手への提案",
+        "ordinal": 62
+      },
+      {
+        "id": "02b08aa6-6c6d-4d94-b585-21a3ff03b902",
+        "title_ja": "意向・依頼・約束の使い分け",
+        "ordinal": 63
+      },
+      {
+        "id": "5343ddd1-294a-4cda-ba08-ae72a1f57c73",
+        "title_ja": "共有の確認・変化の関係・気付き",
+        "ordinal": 64
+      }
+    ]
+  },
+  "linked_grammar": 54,
+  "linked_vocabulary": 35,
+  "grammar_with_existing_input": [
+    "A11",
+    "A15",
+    "B08",
+    "B10",
+    "B13",
+    "B18",
+    "C01",
+    "C02",
+    "C09",
+    "C10",
+    "C13",
+    "C16"
+  ],
+  "input_vocabulary_count": 6,
+  "input_placement_modes": {
+    "form": 45,
+    "sentence": 9,
+    "blank": 8
+  },
+  "input_scope": "Existing supported vocabulary forms/sentences only; not54 new grammar input forms. Repeated word placements do not count as new questions.",
+  "source_sha256": "081ed35c7cd78345af1c1793fc450acaa2931f173cef00aaa960c8ef42318540",
+  "database_sha256": "56a7fa8b5358e254eeb324e706860d150d20c8ec013ba0b6f602cf14d93cceff",
+  "independent_teacher_review": "NOT TESTED",
+  "input_unique_existing_questions": 26,
+  "input_unique_existing_modes": {
+    "form": 19,
+    "sentence": 4,
+    "blank": 3
+  },
+  "all_runtime_related_vocabulary_including_four_preserved_reuse_links": 39,
+  "levels": {
+    "vocabulary": {
+      "beginner": 800,
+      "intro": 306,
+      "lower_intermediate": 1181
+    },
+    "examples": {
+      "beginner": 1577,
+      "intro": 659,
+      "lower_intermediate": 2577
+    },
+    "grammar": {
+      "beginner": 20,
+      "intro": 22,
+      "lower_intermediate": 54
+    },
+    "questions": {
+      "beginner": 134,
+      "hangul": 59,
+      "intro": 156,
+      "lower_intermediate": 3204
+    }
+  }
+}

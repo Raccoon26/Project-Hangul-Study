@@ -1,0 +1,84 @@
+{
+  "validation": {
+    "error_count": 0,
+    "warning_count": 5,
+    "errors": [],
+    "warnings": [
+      {
+        "code": "short_sentence",
+        "location": "examples:1",
+        "message": "korean: single-character sentence needs review"
+      },
+      {
+        "code": "short_sentence",
+        "location": "examples:1",
+        "message": "japanese: single-character sentence needs review"
+      },
+      {
+        "code": "short_sentence",
+        "location": "examples:2",
+        "message": "korean: single-character sentence needs review"
+      },
+      {
+        "code": "short_sentence",
+        "location": "examples:2",
+        "message": "japanese: single-character sentence needs review"
+      },
+      {
+        "code": "short_sentence",
+        "location": "examples:3",
+        "message": "korean: single-character sentence needs review"
+      }
+    ],
+    "details_limit": 200
+  },
+  "source_rows_scanned": 66094,
+  "source_tables_scanned": 25,
+  "scope": {
+    "vocabulary": 911,
+    "meanings": 963,
+    "unique_examples": 1821,
+    "example_placements": 1822,
+    "notes": 314,
+    "lexical_relations": 201,
+    "grammar_references": 46
+  },
+  "by_batch": {
+    "A": {
+      "vocabulary": 301,
+      "new_examples": 602,
+      "pos": {
+        "verb": 150,
+        "adjective": 51,
+        "noun": 20,
+        "adverb": 40,
+        "expression": 40
+      }
+    },
+    "B": {
+      "vocabulary": 300,
+      "new_examples": 600,
+      "pos": {
+        "verb": 148,
+        "adjective": 49,
+        "adverb": 36,
+        "noun": 33,
+        "expression": 34
+      }
+    },
+    "C": {
+      "vocabulary": 310,
+      "new_examples": 619,
+      "pos": {
+        "verb": 138,
+        "noun": 53,
+        "adjective": 45,
+        "adverb": 44,
+        "expression": 30
+      }
+    }
+  },
+  "japanese_duplicate_candidates": [],
+  "limitation": "Structural checks and narrow observed-error lints only; no automated claim of Korean/Japanese correctness or human review.",
+  "source_sha256": "081ed35c7cd78345af1c1793fc450acaa2931f173cef00aaa960c8ef42318540"
+}

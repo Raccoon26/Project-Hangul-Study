@@ -30,6 +30,15 @@ struct GrammarCard: Sendable {
     let examples: [Example]
     let comparisons: [GrammarComparison]
     let questions: [GrammarQuestion]
+    var prerequisites: [GrammarPrerequisite] = []
+    var relatedWords: [LookupEntry] = []
+}
+struct GrammarPrerequisite: Identifiable, Sendable {
+    let id: ContentID
+    let pattern: String
+    let meaning: String
+    let form: String
+    let explanation: String
 }
 struct GrammarComparison: Identifiable, Sendable {
     let id: ContentID
@@ -44,6 +53,8 @@ struct GrammarLesson: Identifiable, Sendable {
     let level: LearningLevel
     let order: Int
     let count: Int
+    var courseTitle: String? = nil
+    var unitTitle: String? = nil
 }
 struct GrammarLessonStatus: Sendable {
     let lessonID: ContentID
