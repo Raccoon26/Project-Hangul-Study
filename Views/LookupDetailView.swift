@@ -64,6 +64,9 @@ struct LookupDetailView: View {
                         Button("もう一度学ぶ") { start() }.buttonStyle(.borderedProminent).controlSize(.large).disabled(saving)
                         Text("意味や問題を確認する自主練習です。途中の練習は再開し、既存の復習予定は変更しません。").font(.footnote).foregroundStyle(.secondary)
                     }
+                    if word?.hasProductionPractice == true {
+                        NavigationLink("活用・入力を練習") { ProductionStudyView(services:services,id:reference.contentID) }
+                    }
                     if let entry = entry { NavigationLink("コースで順番に学ぶ") { CurriculumLevelView(services:services,level:entry.level) } }
                     if !related.isEmpty {
                         DisclosureGroup("関連する単語・文法") {

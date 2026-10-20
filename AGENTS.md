@@ -98,3 +98,11 @@
 - Content22 Source/DB는 불변 fixture다. A/B/C 정확한 gate는20/21/22 fixture로 당시 승인 상태를 검증하며, final gate가22→23의25개 revision/31필드만 허용한다. production.json이 유일한 canonical Source이고 final prepare는22+명시 manifest로 동일23만 재현한다. 다음 실제 본문 변경은 현재23을 previous로 먼저 보존한다.
 - 선행163건의 해결120/조건부 허용7/미해결36은 설명 범위 판단이다. 새 재사용·배치 승인으로 해석하지 않고 기존 Batch B 재사용4개는 보존한다. Level 검토8건·부수 문형·인용 수식/양보의 기능 차이와 남은 교육 순서를 자동 완료 처리하지 않는다.
 - 최신 근거는 DATA09_PROGRESS §11 및 Docs/DATA09_FINAL_*다. portable346 PASS·AI 전수/고위험/무작위 재독은 독립 원어민/교사·외부 사전·Swift/iOS 검증을 대신하지 않는다. native BLOCKED/사람 NOT TESTED/B—Conditional·기존 native P1 gate를 유지하며 후속 단계/DATA10을 자동 시작하지 않는다.
+
+
+## DATA-09-6 현재 통합 기준
+
+- 명시 요청으로 현재 Content24/Schema4/reader7/UserProgress10에 통합했다. 신규54문법/216고유예문/216문제, 장기350~500 목표를 유지한다. 기존3Grammar코스/18레슨 ID·membership·ordinal을 보존하고6Unit tag(data09_unit)·선행 복습20참조·관련 어휘54관계를 추가했다. Unit은 레슨당1개, 레슨당3문법의 기존 작은 단위를 유지한다.
+- DATA09 시작 전19와 실제 직전23 원본/DB는 별도 불변 fixture다. 현재23을19로 재명명하지 않는다.19→24/23→24 strict와 전체 DB byte 재구성을 유지하며, 다음 실제 콘텐츠 변경은 현재24를 먼저 보존한다. final22→23 정확한 gate는23fixture에 고정했고 새23→24 gate가 Unit6개·기존107endpoint revision을 전부 검증한다. prepare_data09_integration은 동결23+고정 manifest로 같은24만 재현한다.
+- 선행 설명 프리뷰/사전 조회를 학습 완료·SRS 등록으로 세지 않는다. GrammarSession 질문 snapshot·선택/페이지/seed/order/ContentVersion과 Vocabulary set membership을 재작성하지 않는다. 예문 learning_point_ja는 reader→비영속 Example→학습/사전 화면까지 전달한다. 입력 연습은 실제 검수 문항이 있는 어휘에서만 노출하고 새54문형 전체 자동 생성으로 표현하지 않는다.
+- 최신 근거는 DATA09_PROGRESS §12/Docs/DATA09_INTEGRATION_*다. 최종 portable359 PASS·전용13/조회4와 SQL보존·오프라인/warm 성능 측정은 native 검증이 아니다.139 XCTest 실행0·iOS/접근성/기기 메모리/실제3~10분 BLOCKED, 독립 사람/사전 NOT TESTED, 기존 native P1/B—Conditional/미해결36건 유지. 다음 단계/DATA10은 자동 시작하지 않는다.

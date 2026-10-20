@@ -1,0 +1,667 @@
+{
+  "stage": "DATA-09-6",
+  "previous_content_version": 23,
+  "content_version": 24,
+  "schema_version": 4,
+  "created_at": "2026-10-20T06:15:06Z",
+  "source_id": "1b889098-4eb3-4857-975f-b2f745142c6e",
+  "units": [
+    {
+      "id": "69a43001-7678-4fa7-86a6-84bbc76617e3",
+      "course_id": "a4852cb6-6e40-4288-8dcd-f4c3d19a31ba",
+      "title_ja": "理由・変化・条件",
+      "lesson_ids": [
+        "ae7efa67-002a-4001-8e3a-6400a6b63b6e",
+        "f29d6657-8996-4c33-b3d5-92579bbc8e65",
+        "add80d5f-a85d-4815-ba7d-07b082475590"
+      ]
+    },
+    {
+      "id": "1351160c-2f63-454e-8bff-c0c13d1d9470",
+      "course_id": "a4852cb6-6e40-4288-8dcd-f4c3d19a31ba",
+      "title_ja": "目的・方針・必要性",
+      "lesson_ids": [
+        "f5d91969-e8dc-4ecc-be34-b8fe4ae7f419",
+        "21e60ea9-1a57-4b1b-a6a1-d4e23a4ee763",
+        "dfff35c0-1751-4b67-9e82-ea42814c355d"
+      ]
+    },
+    {
+      "id": "2df38668-519e-4a4c-8925-51dc5193b023",
+      "course_id": "a0535762-57b0-4982-86f9-acd1d7aa8895",
+      "title_ja": "時間・途中・結果状態",
+      "lesson_ids": [
+        "f59f0b9f-b56b-438d-a510-f336e7f2fb44",
+        "f624ac96-fe2a-4d6c-a0a7-377fa3e78b58",
+        "e49bb17b-0c09-4ebc-bcac-0874cf7daee7"
+      ]
+    },
+    {
+      "id": "f7e9235b-7489-41b0-ab3b-b9a7f3581bbc",
+      "course_id": "a0535762-57b0-4982-86f9-acd1d7aa8895",
+      "title_ja": "対照・経験・機会",
+      "lesson_ids": [
+        "4115d35b-5180-43ed-9f58-fd9160f3e98f",
+        "25e2707b-e3f2-4369-a8e5-2e13e84f03b0",
+        "1a45350c-42ac-49c8-95d8-4aaeb86516f4"
+      ]
+    },
+    {
+      "id": "f6d8f52d-8ff9-4eca-a27d-0cffd33111f6",
+      "course_id": "d5019276-ea13-4f5c-9862-ceee8d1f0775",
+      "title_ja": "修飾・推測・引用",
+      "lesson_ids": [
+        "6045c8cf-a914-450b-9631-fa7127cfad7f",
+        "c59e00fb-8a7c-4c6d-9132-4aeb984ce4bc",
+        "569e0c3f-2fad-40e4-98b9-b59195bd33a2"
+      ]
+    },
+    {
+      "id": "ef742e25-8a6d-424f-9390-6905a2260636",
+      "course_id": "d5019276-ea13-4f5c-9862-ceee8d1f0775",
+      "title_ja": "伝える意図・会話の態度",
+      "lesson_ids": [
+        "49898f00-d091-4857-9661-506d6d7bd39e",
+        "02b08aa6-6c6d-4d94-b585-21a3ff03b902",
+        "5343ddd1-294a-4cda-ba08-ae72a1f57c73"
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "source_id": "39d90697-78fd-4a3b-847c-b90d5ff07e64",
+      "target_id": "31239c2c-43e2-4c94-8db8-e3777ef8cc10",
+      "relation": "prerequisite",
+      "reason_ko": "검수 예문의 수식·명사화·시간·배경·결과/목표 상태를 사전 복습할 수 있는 실제 카드 참조.",
+      "key": "A10",
+      "target_key": "C01"
+    },
+    {
+      "source_id": "f527297e-94dd-472b-928e-7bc3900b2dae",
+      "target_id": "453d0f13-3727-4335-8f6a-ddff70f570ac",
+      "relation": "prerequisite",
+      "reason_ko": "검수 예문의 수식·명사화·시간·배경·결과/목표 상태를 사전 복습할 수 있는 실제 카드 참조.",
+      "key": "A18",
+      "target_key": "B01"
+    },
+    {
+      "source_id": "453d0f13-3727-4335-8f6a-ddff70f570ac",
+      "target_id": "31239c2c-43e2-4c94-8db8-e3777ef8cc10",
+      "relation": "prerequisite",
+      "reason_ko": "검수 예문의 수식·명사화·시간·배경·결과/목표 상태를 사전 복습할 수 있는 실제 카드 참조.",
+      "key": "B01",
+      "target_key": "C01"
+    },
+    {
+      "source_id": "971d0ccc-242f-464d-90e9-775c19b88c94",
+      "target_id": "31239c2c-43e2-4c94-8db8-e3777ef8cc10",
+      "relation": "prerequisite",
+      "reason_ko": "검수 예문의 수식·명사화·시간·배경·결과/목표 상태를 사전 복습할 수 있는 실제 카드 참조.",
+      "key": "B03",
+      "target_key": "C01"
+    },
+    {
+      "source_id": "d14e4b1a-a765-440b-b8fa-4ec1b97d0a40",
+      "target_id": "31239c2c-43e2-4c94-8db8-e3777ef8cc10",
+      "relation": "prerequisite",
+      "reason_ko": "검수 예문의 수식·명사화·시간·배경·결과/목표 상태를 사전 복습할 수 있는 실제 카드 참조.",
+      "key": "B07",
+      "target_key": "C01"
+    },
+    {
+      "source_id": "74fbc968-1127-454f-9097-d1917f7094a8",
+      "target_id": "31239c2c-43e2-4c94-8db8-e3777ef8cc10",
+      "relation": "prerequisite",
+      "reason_ko": "검수 예문의 수식·명사화·시간·배경·결과/목표 상태를 사전 복습할 수 있는 실제 카드 참조.",
+      "key": "B10",
+      "target_key": "C01"
+    },
+    {
+      "source_id": "54eb6883-e365-406c-9568-7078e72c0b10",
+      "target_id": "31239c2c-43e2-4c94-8db8-e3777ef8cc10",
+      "relation": "prerequisite",
+      "reason_ko": "검수 예문의 수식·명사화·시간·배경·결과/목표 상태를 사전 복습할 수 있는 실제 카드 참조.",
+      "key": "B15",
+      "target_key": "C01"
+    },
+    {
+      "source_id": "35a30485-766a-4146-aad0-88646020e192",
+      "target_id": "31239c2c-43e2-4c94-8db8-e3777ef8cc10",
+      "relation": "prerequisite",
+      "reason_ko": "검수 예문의 수식·명사화·시간·배경·결과/목표 상태를 사전 복습할 수 있는 실제 카드 참조.",
+      "key": "B16",
+      "target_key": "C01"
+    },
+    {
+      "source_id": "35a30485-766a-4146-aad0-88646020e192",
+      "target_id": "3213bc29-b278-4331-8a9d-383e0101653b",
+      "relation": "prerequisite",
+      "reason_ko": "검수 예문의 수식·명사화·시간·배경·결과/목표 상태를 사전 복습할 수 있는 실제 카드 참조.",
+      "key": "B16",
+      "target_key": "C02"
+    },
+    {
+      "source_id": "782eb56e-972c-4c6e-81a7-911d094caac1",
+      "target_id": "31239c2c-43e2-4c94-8db8-e3777ef8cc10",
+      "relation": "prerequisite",
+      "reason_ko": "검수 예문의 수식·명사화·시간·배경·결과/목표 상태를 사전 복습할 수 있는 실제 카드 참조.",
+      "key": "B17",
+      "target_key": "C01"
+    },
+    {
+      "source_id": "754881ff-3e7d-4743-8de8-ab6f63b1a9a4",
+      "target_id": "31239c2c-43e2-4c94-8db8-e3777ef8cc10",
+      "relation": "prerequisite",
+      "reason_ko": "검수 예문의 수식·명사화·시간·배경·결과/목표 상태를 사전 복습할 수 있는 실제 카드 참조.",
+      "key": "B18",
+      "target_key": "C01"
+    },
+    {
+      "source_id": "c02c5bd8-8dc1-4e6c-ab6d-d756ddd32c6f",
+      "target_id": "172590f5-9c3c-4fd9-9196-f1811ac4880e",
+      "relation": "prerequisite",
+      "reason_ko": "검수 예문의 수식·명사화·시간·배경·결과/목표 상태를 사전 복습할 수 있는 실제 카드 참조.",
+      "key": "C03",
+      "target_key": "B06"
+    },
+    {
+      "source_id": "2d9cbb5e-ac05-4cbc-a52b-975c19d77210",
+      "target_id": "3213bc29-b278-4331-8a9d-383e0101653b",
+      "relation": "prerequisite",
+      "reason_ko": "검수 예문의 수식·명사화·시간·배경·결과/목표 상태를 사전 복습할 수 있는 실제 카드 참조.",
+      "key": "C07",
+      "target_key": "C02"
+    },
+    {
+      "source_id": "600d5cb2-aad4-414b-893a-3bb1f970909f",
+      "target_id": "31239c2c-43e2-4c94-8db8-e3777ef8cc10",
+      "relation": "prerequisite",
+      "reason_ko": "검수 예문의 수식·명사화·시간·배경·결과/목표 상태를 사전 복습할 수 있는 실제 카드 참조.",
+      "key": "C08",
+      "target_key": "C01"
+    },
+    {
+      "source_id": "68c3a2a7-5f4e-4236-9474-380202f6bbeb",
+      "target_id": "d14e4b1a-a765-440b-b8fa-4ec1b97d0a40",
+      "relation": "prerequisite",
+      "reason_ko": "검수 예문의 수식·명사화·시간·배경·결과/목표 상태를 사전 복습할 수 있는 실제 카드 참조.",
+      "key": "C12",
+      "target_key": "B07"
+    },
+    {
+      "source_id": "b3c47e9e-b16e-4feb-bb5c-4cc4e49b5bf3",
+      "target_id": "971d0ccc-242f-464d-90e9-775c19b88c94",
+      "relation": "prerequisite",
+      "reason_ko": "검수 예문의 수식·명사화·시간·배경·결과/목표 상태를 사전 복습할 수 있는 실제 카드 참조.",
+      "key": "C14",
+      "target_key": "B03"
+    },
+    {
+      "source_id": "b3c47e9e-b16e-4feb-bb5c-4cc4e49b5bf3",
+      "target_id": "d14e4b1a-a765-440b-b8fa-4ec1b97d0a40",
+      "relation": "prerequisite",
+      "reason_ko": "검수 예문의 수식·명사화·시간·배경·결과/목표 상태를 사전 복습할 수 있는 실제 카드 참조.",
+      "key": "C14",
+      "target_key": "B07"
+    },
+    {
+      "source_id": "0b6da528-99a6-4f2f-8708-686b052e3213",
+      "target_id": "76c32b94-218c-4167-9dc0-0e5e848766bd",
+      "relation": "prerequisite",
+      "reason_ko": "검수 예문의 수식·명사화·시간·배경·결과/목표 상태를 사전 복습할 수 있는 실제 카드 참조.",
+      "key": "C15",
+      "target_key": "A11"
+    },
+    {
+      "source_id": "7d214986-8d9d-4f84-9af5-de0234f136d5",
+      "target_id": "e7ab89e5-358e-461a-893d-d87d057bc9ed",
+      "relation": "prerequisite",
+      "reason_ko": "검수 예문의 수식·명사화·시간·배경·결과/목표 상태를 사전 복습할 수 있는 실제 카드 참조.",
+      "key": "C17",
+      "target_key": "A05"
+    },
+    {
+      "source_id": "34a56baf-0b84-4263-ab82-14942a47beca",
+      "target_id": "d14e4b1a-a765-440b-b8fa-4ec1b97d0a40",
+      "relation": "prerequisite",
+      "reason_ko": "검수 예문의 수식·명사화·시간·배경·결과/목표 상태를 사전 복습할 수 있는 실제 카드 참조.",
+      "key": "C18",
+      "target_key": "B07"
+    }
+  ],
+  "related_vocabulary": [
+    {
+      "grammar_key": "A01",
+      "grammar_id": "da6206fe-cb6b-4842-8943-da3c54c07370",
+      "vocabulary_id": "e288c7ed-03ea-4f74-9c19-d66fcb1dfc00",
+      "headword": "끝나다",
+      "evidence_example_id": "7422d569-b6d3-4360-8601-0a6488f36183",
+      "note": "例文に出る関連語。文法の同義語・自動形態解析の結果ではありません。"
+    },
+    {
+      "grammar_key": "A02",
+      "grammar_id": "4168b8b7-98df-431a-a90c-d83945f3df76",
+      "vocabulary_id": "ef99c9c1-d608-4886-b8ea-09d82a6534a8",
+      "headword": "찾다",
+      "evidence_example_id": "1a2deca8-c232-486f-a4e2-0ea14d35f837",
+      "note": "例文に出る関連語。文法の同義語・自動形態解析の結果ではありません。"
+    },
+    {
+      "grammar_key": "A03",
+      "grammar_id": "645acca8-db1f-4482-9b4c-88d637445e2d",
+      "vocabulary_id": "64867086-e978-42e2-9fae-f2b9bc5ac124",
+      "headword": "놓치다",
+      "evidence_example_id": "fd872237-0882-4381-aef5-19048cb4e7fd",
+      "note": "例文に出る関連語。文法の同義語・自動形態解析の結果ではありません。"
+    },
+    {
+      "grammar_key": "A04",
+      "grammar_id": "400d4fa2-b300-406c-9425-c7bb1a125c9d",
+      "vocabulary_id": "e9273372-f7c9-4657-8fe6-e2efc3e3be5c",
+      "headword": "밝다",
+      "evidence_example_id": "048b2a98-90fb-4cbe-a26f-6b5b16e12004",
+      "note": "例文に出る関連語。文法の同義語・自動形態解析の結果ではありません。"
+    },
+    {
+      "grammar_key": "A05",
+      "grammar_id": "e7ab89e5-358e-461a-893d-d87d057bc9ed",
+      "vocabulary_id": "74e087ed-1b65-41c7-9725-08dc914c7ec9",
+      "headword": "준비하다",
+      "evidence_example_id": "2060317e-b0a6-4674-92eb-d2b8f215a26a",
+      "note": "例文に出る関連語。文法の同義語・自動形態解析の結果ではありません。"
+    },
+    {
+      "grammar_key": "A06",
+      "grammar_id": "0ae7131c-e497-4b82-8286-59c84d5c9e9d",
+      "vocabulary_id": "346f1442-8a5b-4e57-90d2-ba1be2974b02",
+      "headword": "알다",
+      "evidence_example_id": "6b2057c6-4e9f-422f-9537-122a5305433a",
+      "note": "例文に出る関連語。文法の同義語・自動形態解析の結果ではありません。"
+    },
+    {
+      "grammar_key": "A07",
+      "grammar_id": "50b9f4ff-e592-4d4d-8057-a4e26a7bc2ad",
+      "vocabulary_id": "8860a406-438e-46c0-9400-ec8d46b8142b",
+      "headword": "듣다",
+      "evidence_example_id": "b34a3c99-0644-41e9-aacc-12db8a9e13f1",
+      "note": "例文に出る関連語。文法の同義語・自動形態解析の結果ではありません。"
+    },
+    {
+      "grammar_key": "A08",
+      "grammar_id": "7fb56c6c-79b1-4837-94e6-a65dd45ab62d",
+      "vocabulary_id": "ff994d37-629a-4a49-821a-c3f581cdc02f",
+      "headword": "도착하다",
+      "evidence_example_id": "fcd7725d-c235-4412-95e2-49664cb54874",
+      "note": "例文に出る関連語。文法の同義語・自動形態解析の結果ではありません。"
+    },
+    {
+      "grammar_key": "A09",
+      "grammar_id": "4dd04c0c-5449-4d0f-a3cd-f0701ccf5897",
+      "vocabulary_id": "d60dee9a-187d-490a-b322-37bbf7db8b88",
+      "headword": "타다",
+      "evidence_example_id": "dfec6526-bec1-4ceb-8edb-86127e7141fe",
+      "note": "例文に出る関連語。文法の同義語・自動形態解析の結果ではありません。"
+    },
+    {
+      "grammar_key": "A10",
+      "grammar_id": "39d90697-78fd-4a3b-847c-b90d5ff07e64",
+      "vocabulary_id": "74e087ed-1b65-41c7-9725-08dc914c7ec9",
+      "headword": "준비하다",
+      "evidence_example_id": "6a5297b3-71f9-4e77-9f18-223adb922bb7",
+      "note": "例文に出る関連語。文法の同義語・自動形態解析の結果ではありません。"
+    },
+    {
+      "grammar_key": "A11",
+      "grammar_id": "76c32b94-218c-4167-9dc0-0e5e848766bd",
+      "vocabulary_id": "9d2a8300-ff9f-4616-b8f5-c84a953c467f",
+      "headword": "낮추다",
+      "evidence_example_id": "8860465b-fbe2-4973-85ab-1b7d6408319d",
+      "note": "例文に出る関連語。文法の同義語・自動形態解析の結果ではありません。"
+    },
+    {
+      "grammar_key": "A12",
+      "grammar_id": "549f297e-3b2e-4de2-b170-de5015d0d77b",
+      "vocabulary_id": "3fba2e1f-868a-49ef-bb3b-261ffd92748b",
+      "headword": "확인하다",
+      "evidence_example_id": "4a0951a2-ac23-4700-82b4-0d78d82a0049",
+      "note": "例文に出る関連語。文法の同義語・自動形態解析の結果ではありません。"
+    },
+    {
+      "grammar_key": "A13",
+      "grammar_id": "d46e4c1d-f809-43eb-a867-f9a3220fb93a",
+      "vocabulary_id": "31197479-9264-45e6-9b23-81db1e559ae1",
+      "headword": "만나다",
+      "evidence_example_id": "0c5f488c-eb4d-46a7-a88b-0ec549350944",
+      "note": "例文に出る関連語。文法の同義語・自動形態解析の結果ではありません。"
+    },
+    {
+      "grammar_key": "A14",
+      "grammar_id": "6f229752-cc5f-4de7-b098-3e9f0c135bf9",
+      "vocabulary_id": "89493a6f-ed7a-4db8-bd84-337c8a7c2c16",
+      "headword": "쉬다",
+      "evidence_example_id": "da7f8642-2aec-4a32-a78f-01e266caae02",
+      "note": "例文に出る関連語。文法の同義語・自動形態解析の結果ではありません。"
+    },
+    {
+      "grammar_key": "A15",
+      "grammar_id": "d940b512-3a3a-4108-b561-fa33dfd93222",
+      "vocabulary_id": "1898070d-1778-4143-b1d8-9dae56ec3dbb",
+      "headword": "가다",
+      "evidence_example_id": "e15243bc-8229-498e-8f77-567eb5a9f05f",
+      "note": "例文に出る関連語。文法の同義語・自動形態解析の結果ではありません。"
+    },
+    {
+      "grammar_key": "A16",
+      "grammar_id": "71950d57-960d-45a6-a4e6-e492e4c01a50",
+      "vocabulary_id": "64867086-e978-42e2-9fae-f2b9bc5ac124",
+      "headword": "놓치다",
+      "evidence_example_id": "1951f0ac-ec8b-4030-b63a-9f827f73baab",
+      "note": "例文に出る関連語。文法の同義語・自動形態解析の結果ではありません。"
+    },
+    {
+      "grammar_key": "A17",
+      "grammar_id": "4310e69f-27bc-49bb-92a3-08f592427316",
+      "vocabulary_id": "16f1a043-b220-4239-9472-abbc01e0f55f",
+      "headword": "읽다",
+      "evidence_example_id": "0c8a8524-dd62-4cc9-9f40-df7e982c9001",
+      "note": "例文に出る関連語。文法の同義語・自動形態解析の結果ではありません。"
+    },
+    {
+      "grammar_key": "A18",
+      "grammar_id": "f527297e-94dd-472b-928e-7bc3900b2dae",
+      "vocabulary_id": "3fba2e1f-868a-49ef-bb3b-261ffd92748b",
+      "headword": "확인하다",
+      "evidence_example_id": "e01fb416-fe86-47f5-912a-54cc4aba842c",
+      "note": "例文に出る関連語。文法の同義語・自動形態解析の結果ではありません。"
+    },
+    {
+      "grammar_key": "B01",
+      "grammar_id": "453d0f13-3727-4335-8f6a-ddff70f570ac",
+      "vocabulary_id": "3fba2e1f-868a-49ef-bb3b-261ffd92748b",
+      "headword": "확인하다",
+      "evidence_example_id": "e647ae37-6205-4df6-bd52-bf5f564deecb",
+      "note": "例文に出る関連語。文法の同義語・自動形態解析の結果ではありません。"
+    },
+    {
+      "grammar_key": "B02",
+      "grammar_id": "58303aa2-5451-40ec-8345-6b7cc14fa1aa",
+      "vocabulary_id": "16f1a043-b220-4239-9472-abbc01e0f55f",
+      "headword": "읽다",
+      "evidence_example_id": "9cfd212c-44ca-4cc7-bd48-cdc1be06501e",
+      "note": "例文に出る関連語。文法の同義語・自動形態解析の結果ではありません。"
+    },
+    {
+      "grammar_key": "B03",
+      "grammar_id": "971d0ccc-242f-464d-90e9-775c19b88c94",
+      "vocabulary_id": "04ecddf4-c1b7-4b9a-a26c-dd4dd5285eb0",
+      "headword": "기다리다",
+      "evidence_example_id": "13c0812c-02b2-47c3-bac9-3bc73ed0d8e0",
+      "note": "例文に出る関連語。文法の同義語・自動形態解析の結果ではありません。"
+    },
+    {
+      "grammar_key": "B04",
+      "grammar_id": "d41f1600-e5aa-40da-b23e-7c51a40d726b",
+      "vocabulary_id": "2de8f51d-04ee-4c80-9b2f-cda1e77c283f",
+      "headword": "열다",
+      "evidence_example_id": "f527a5e2-ccf5-4182-bdbd-1c205e45948b",
+      "note": "例文に出る関連語。文法の同義語・自動形態解析の結果ではありません。"
+    },
+    {
+      "grammar_key": "B05",
+      "grammar_id": "ec8a7395-00b1-494a-bada-a5f767a3e66e",
+      "vocabulary_id": "16f1a043-b220-4239-9472-abbc01e0f55f",
+      "headword": "읽다",
+      "evidence_example_id": "c8b4025b-4f84-49dc-8351-8a5baa2713e0",
+      "note": "例文に出る関連語。文法の同義語・自動形態解析の結果ではありません。"
+    },
+    {
+      "grammar_key": "B06",
+      "grammar_id": "172590f5-9c3c-4fd9-9196-f1811ac4880e",
+      "vocabulary_id": "7a745607-1a5d-4e97-9127-88f64de96b64",
+      "headword": "열리다",
+      "evidence_example_id": "6649660c-0674-426f-9336-c7fc3dade3ef",
+      "note": "例文に出る関連語。文法の同義語・自動形態解析の結果ではありません。"
+    },
+    {
+      "grammar_key": "B07",
+      "grammar_id": "d14e4b1a-a765-440b-b8fa-4ec1b97d0a40",
+      "vocabulary_id": "d0194da2-65bc-497f-877d-82ae0744ce75",
+      "headword": "전화하다",
+      "evidence_example_id": "7685a2e0-37dc-44c5-81a8-586b8795f729",
+      "note": "例文に出る関連語。文法の同義語・自動形態解析の結果ではありません。"
+    },
+    {
+      "grammar_key": "B08",
+      "grammar_id": "f3e5c2de-6721-46ce-af18-1a5c458bcac8",
+      "vocabulary_id": "1898070d-1778-4143-b1d8-9dae56ec3dbb",
+      "headword": "가다",
+      "evidence_example_id": "7bca453b-049a-4305-beaa-d7a84e46c0a7",
+      "note": "例文に出る関連語。文法の同義語・自動形態解析の結果ではありません。"
+    },
+    {
+      "grammar_key": "B09",
+      "grammar_id": "40f95bb3-8746-47cf-9a49-023cecc3345b",
+      "vocabulary_id": "0d98c37e-f704-42b5-ba7d-2ecc2879559e",
+      "headword": "좁다",
+      "evidence_example_id": "77460630-cca9-4c17-966a-80c960a13b08",
+      "note": "例文に出る関連語。文法の同義語・自動形態解析の結果ではありません。"
+    },
+    {
+      "grammar_key": "B10",
+      "grammar_id": "74fbc968-1127-454f-9097-d1917f7094a8",
+      "vocabulary_id": "67cb9ccd-49f3-4e17-a1a5-2a55c79abe69",
+      "headword": "마시다",
+      "evidence_example_id": "7b6b0769-be27-4e5d-9e6f-66df24beafb9",
+      "note": "例文に出る関連語。文法の同義語・自動形態解析の結果ではありません。"
+    },
+    {
+      "grammar_key": "B11",
+      "grammar_id": "11d06a0a-c142-4856-815d-e63d0158c8dd",
+      "vocabulary_id": "f8ee8591-ab22-4bbf-a303-93d188239b34",
+      "headword": "연습하다",
+      "evidence_example_id": "58b1696a-eee0-4d4a-ab9d-3f92d45d73df",
+      "note": "例文に出る関連語。文法の同義語・自動形態解析の結果ではありません。"
+    },
+    {
+      "grammar_key": "B12",
+      "grammar_id": "f65f7148-511f-4c51-9472-7ba0dd29957d",
+      "vocabulary_id": "d0194da2-65bc-497f-877d-82ae0744ce75",
+      "headword": "전화하다",
+      "evidence_example_id": "0fb6125e-6309-4e18-ad75-6a9ed5e7f05d",
+      "note": "例文に出る関連語。文法の同義語・自動形態解析の結果ではありません。"
+    },
+    {
+      "grammar_key": "B13",
+      "grammar_id": "17659b43-e2b7-4290-91b8-82446e05f9cb",
+      "vocabulary_id": "1b03a139-026f-42c1-bcc5-9c5d6612ea77",
+      "headword": "걷다",
+      "evidence_example_id": "99dd0526-a3cd-4667-b288-c76423e8d331",
+      "note": "例文に出る関連語。文法の同義語・自動形態解析の結果ではありません。"
+    },
+    {
+      "grammar_key": "B14",
+      "grammar_id": "894c1244-bc9d-4a06-95bd-dff4f3c2cbb1",
+      "vocabulary_id": "4c8e554b-632d-4bff-a15b-7acb518b982d",
+      "headword": "미끄럽다",
+      "evidence_example_id": "68c05edd-b6f3-4e5b-958a-c0e0029b0fcd",
+      "note": "例文に出る関連語。文法の同義語・自動形態解析の結果ではありません。"
+    },
+    {
+      "grammar_key": "B15",
+      "grammar_id": "54eb6883-e365-406c-9568-7078e72c0b10",
+      "vocabulary_id": "b145e388-f79a-41e6-bc7c-3a81bb54b735",
+      "headword": "이해하다",
+      "evidence_example_id": "348e03d8-94fd-433b-a4dd-1f200635dec8",
+      "note": "例文に出る関連語。文法の同義語・自動形態解析の結果ではありません。"
+    },
+    {
+      "grammar_key": "B16",
+      "grammar_id": "35a30485-766a-4146-aad0-88646020e192",
+      "vocabulary_id": "ff994d37-629a-4a49-821a-c3f581cdc02f",
+      "headword": "도착하다",
+      "evidence_example_id": "ce984fd2-38c9-4fd3-a335-74b46eb7a342",
+      "note": "例文に出る関連語。文法の同義語・自動形態解析の結果ではありません。"
+    },
+    {
+      "grammar_key": "B17",
+      "grammar_id": "782eb56e-972c-4c6e-81a7-911d094caac1",
+      "vocabulary_id": "d60dee9a-187d-490a-b322-37bbf7db8b88",
+      "headword": "타다",
+      "evidence_example_id": "a6352c1b-7e6f-48d2-996a-80656f620b4b",
+      "note": "例文に出る関連語。文法の同義語・自動形態解析の結果ではありません。"
+    },
+    {
+      "grammar_key": "B18",
+      "grammar_id": "754881ff-3e7d-4743-8de8-ab6f63b1a9a4",
+      "vocabulary_id": "1898070d-1778-4143-b1d8-9dae56ec3dbb",
+      "headword": "가다",
+      "evidence_example_id": "ec2ce1f6-3931-4627-b785-a6757241c192",
+      "note": "例文に出る関連語。文法の同義語・自動形態解析の結果ではありません。"
+    },
+    {
+      "grammar_key": "C01",
+      "grammar_id": "31239c2c-43e2-4c94-8db8-e3777ef8cc10",
+      "vocabulary_id": "1898070d-1778-4143-b1d8-9dae56ec3dbb",
+      "headword": "가다",
+      "evidence_example_id": "c4935e25-5f72-4fa6-8a9c-1cb6d7a158e3",
+      "note": "例文に出る関連語。文法の同義語・自動形態解析の結果ではありません。"
+    },
+    {
+      "grammar_key": "C02",
+      "grammar_id": "3213bc29-b278-4331-8a9d-383e0101653b",
+      "vocabulary_id": "1b03a139-026f-42c1-bcc5-9c5d6612ea77",
+      "headword": "걷다",
+      "evidence_example_id": "9556acc8-8f09-438f-a395-d3bdcfa2e449",
+      "note": "例文に出る関連語。文法の同義語・自動形態解析の結果ではありません。"
+    },
+    {
+      "grammar_key": "C03",
+      "grammar_id": "c02c5bd8-8dc1-4e6c-ab6d-d756ddd32c6f",
+      "vocabulary_id": "89493a6f-ed7a-4db8-bd84-337c8a7c2c16",
+      "headword": "쉬다",
+      "evidence_example_id": "db24b1fd-eb0a-4cec-abb2-232aec2882ef",
+      "note": "例文に出る関連語。文法の同義語・自動形態解析の結果ではありません。"
+    },
+    {
+      "grammar_key": "C04",
+      "grammar_id": "445b7ded-b9dc-434e-b8fb-7ed4d253bc64",
+      "vocabulary_id": "9d4f1185-991b-41e2-801d-85b3712214ff",
+      "headword": "막히다",
+      "evidence_example_id": "c31e0fb3-fc98-49a6-8eb7-34fa962ddafb",
+      "note": "例文に出る関連語。文法の同義語・自動形態解析の結果ではありません。"
+    },
+    {
+      "grammar_key": "C05",
+      "grammar_id": "2a7b0e46-86f5-49fa-ac87-de9e3de87e3a",
+      "vocabulary_id": "7edda9ca-9455-40a4-be09-aa4bc434e5ab",
+      "headword": "시작하다",
+      "evidence_example_id": "8457da67-3335-491e-811c-80f43e6aee5d",
+      "note": "例文に出る関連語。文法の同義語・自動形態解析の結果ではありません。"
+    },
+    {
+      "grammar_key": "C06",
+      "grammar_id": "e4d0935d-a2ae-4207-8583-bcb93de194bd",
+      "vocabulary_id": "6650e3b6-0b98-4269-9de8-bbeb5139c5c8",
+      "headword": "일하다",
+      "evidence_example_id": "4aa0b2a6-e99e-4ced-b24e-f2992336668e",
+      "note": "例文に出る関連語。文法の同義語・自動形態解析の結果ではありません。"
+    },
+    {
+      "grammar_key": "C07",
+      "grammar_id": "2d9cbb5e-ac05-4cbc-a52b-975c19d77210",
+      "vocabulary_id": "46809049-544b-446a-8898-f79f0a205d9a",
+      "headword": "돌아오다",
+      "evidence_example_id": "80edd77f-6fe1-46cd-a802-b9de559ec905",
+      "note": "例文に出る関連語。文法の同義語・自動形態解析の結果ではありません。"
+    },
+    {
+      "grammar_key": "C08",
+      "grammar_id": "600d5cb2-aad4-414b-893a-3bb1f970909f",
+      "vocabulary_id": "8860a406-438e-46c0-9400-ec8d46b8142b",
+      "headword": "듣다",
+      "evidence_example_id": "8fbe7abb-edc4-499c-919e-5e7685bd0797",
+      "note": "例文に出る関連語。文法の同義語・自動形態解析の結果ではありません。"
+    },
+    {
+      "grammar_key": "C09",
+      "grammar_id": "29c75088-07da-46d2-ac0b-495e520234ad",
+      "vocabulary_id": "af329db1-d832-40ff-bf40-84a4ab8785ff",
+      "headword": "먹다",
+      "evidence_example_id": "ab2fca1c-c0b4-475a-99cf-73ffdea28120",
+      "note": "例文に出る関連語。文法の同義語・自動形態解析の結果ではありません。"
+    },
+    {
+      "grammar_key": "C10",
+      "grammar_id": "bd26d280-1967-4d90-81f5-95b3c2e3db59",
+      "vocabulary_id": "1414b2e7-420f-4214-9cbe-f5d58e560c67",
+      "headword": "오다",
+      "evidence_example_id": "b3a4918e-06ec-4c12-9edc-d80d0599c82f",
+      "note": "例文に出る関連語。文法の同義語・自動形態解析の結果ではありません。"
+    },
+    {
+      "grammar_key": "C11",
+      "grammar_id": "f0acd94a-696c-4cbe-8d11-df2f2ea31f08",
+      "vocabulary_id": "03d10d26-7ae9-4224-b8da-2b003b52c806",
+      "headword": "들다",
+      "evidence_example_id": "f0862d44-2640-48c6-bfb7-77cb68a75dec",
+      "note": "例文に出る関連語。文法の同義語・自動形態解析の結果ではありません。"
+    },
+    {
+      "grammar_key": "C12",
+      "grammar_id": "68c3a2a7-5f4e-4236-9474-380202f6bbeb",
+      "vocabulary_id": "58b7c4aa-bdc6-489c-93e2-f51e6c48a233",
+      "headword": "이야기하다",
+      "evidence_example_id": "e332bdef-c112-4368-9c60-3eb58ab777c6",
+      "note": "例文に出る関連語。文法の同義語・自動形態解析の結果ではありません。"
+    },
+    {
+      "grammar_key": "C13",
+      "grammar_id": "c931b72d-27f5-446c-ab2f-d85c4b46b4b9",
+      "vocabulary_id": "af329db1-d832-40ff-bf40-84a4ab8785ff",
+      "headword": "먹다",
+      "evidence_example_id": "fd0125ce-cdd7-4992-b48c-fc74c14f1d7d",
+      "note": "例文に出る関連語。文法の同義語・自動形態解析の結果ではありません。"
+    },
+    {
+      "grammar_key": "C14",
+      "grammar_id": "b3c47e9e-b16e-4feb-bb5c-4cc4e49b5bf3",
+      "vocabulary_id": "2de8f51d-04ee-4c80-9b2f-cda1e77c283f",
+      "headword": "열다",
+      "evidence_example_id": "6144d085-8c44-4c44-864c-31d703221650",
+      "note": "例文に出る関連語。文法の同義語・自動形態解析の結果ではありません。"
+    },
+    {
+      "grammar_key": "C15",
+      "grammar_id": "0b6da528-99a6-4f2f-8708-686b052e3213",
+      "vocabulary_id": "a01be543-2220-4967-a6ad-d733c20ca028",
+      "headword": "연락하다",
+      "evidence_example_id": "01c9e0b5-2264-4d0d-abac-d916158b8379",
+      "note": "例文に出る関連語。文法の同義語・自動形態解析の結果ではありません。"
+    },
+    {
+      "grammar_key": "C16",
+      "grammar_id": "f5fae1c3-9c30-4fe3-a9ed-6936aed2183a",
+      "vocabulary_id": "1898070d-1778-4143-b1d8-9dae56ec3dbb",
+      "headword": "가다",
+      "evidence_example_id": "e0481c9e-c1fd-4115-982c-b28f8b8c876f",
+      "note": "例文に出る関連語。文法の同義語・自動形態解析の結果ではありません。"
+    },
+    {
+      "grammar_key": "C17",
+      "grammar_id": "7d214986-8d9d-4f84-9af5-de0234f136d5",
+      "vocabulary_id": "b145e388-f79a-41e6-bc7c-3a81bb54b735",
+      "headword": "이해하다",
+      "evidence_example_id": "0199bdbc-bb88-4469-afa5-f8cd588c7d89",
+      "note": "例文に出る関連語。文法の同義語・自動形態解析の結果ではありません。"
+    },
+    {
+      "grammar_key": "C18",
+      "grammar_id": "34a56baf-0b84-4263-ab82-14942a47beca",
+      "vocabulary_id": "4aafcc31-ed11-4899-aaab-1df8291e03d0",
+      "headword": "넓다",
+      "evidence_example_id": "13c2dbc3-cc3d-4dbd-8301-ca650351d6d4",
+      "note": "例文に出る関連語。文法の同義語・自動形態解析の結果ではありません。"
+    }
+  ],
+  "reviewer": "assistant integration/editorial review; independent teacher NOT TESTED"
+}

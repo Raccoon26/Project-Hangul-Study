@@ -1,0 +1,9 @@
+test_all_new_lessons_are_reachable_with_bounded_actual_queries (test_data04_content.Data04Tests.test_all_new_lessons_are_reachable_with_bounded_actual_queries) ... ok
+test_all18_cards_and_six_lessons_reachable_through_actual_repository_sql (test_data09_a_content.Data09BatchATests.test_all18_cards_and_six_lessons_reachable_through_actual_repository_sql) ... ok
+test_all18_cards_and_six_lessons_reachable_through_actual_repository_sql (test_data09_b_content.Data09BatchBTests.test_all18_cards_and_six_lessons_reachable_through_actual_repository_sql) ... ok
+test_all18_cards_and_six_lessons_reachable_through_actual_repository_sql (test_data09_c_content.Data09BatchCTests.test_all18_cards_and_six_lessons_reachable_through_actual_repository_sql) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.763s
+
+OK

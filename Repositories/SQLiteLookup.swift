@@ -61,14 +61,14 @@ extension SQLiteContentRepository {
         }
         let irregular = row["irregular_type"]?.string
         return VocabularyDetail(card:card,pronunciation:row["reading"]?.string,conjugations:forms,
-            irregular:irregular != nil && irregular != "none",examples:try await examples(for:id))
+            irregular:irregular != nil && irregular != "none",examples:try await examples(for:id),hasProductionPractice:!rubrics.isEmpty)
     }
     func relatedLookup(_ ref: LookupReference) async throws -> [LookupEntry] {
         // Explicit lexical/grammar relations and shared examples; no inferred synonym labels.
         let rows = try db.query("""
         WITH related(id) AS (
-          SELECT target_id FROM content_links WHERE source_id=? AND relation IN ('related_word','synonym','antonym','confusable','similar_grammar','contrast_grammar')
-          UNION SELECT source_id FROM content_links WHERE target_id=? AND relation IN ('related_word','synonym','antonym','confusable','similar_grammar','contrast_grammar')
+          SELECT target_id FROM content_links WHERE source_id=? AND relation IN ('related_word','synonym','antonym','confusable','similar_grammar','contrast_grammar','related')
+          UNION SELECT source_id FROM content_links WHERE target_id=? AND relation IN ('related_word','synonym','antonym','confusable','similar_grammar','contrast_grammar','related')
           UNION SELECT ge.grammar_id FROM vocabulary_examples ve JOIN meanings m ON m.id=ve.meaning_id JOIN grammar_examples ge ON ge.example_id=ve.example_id WHERE m.vocabulary_id=?
           UNION SELECT m.vocabulary_id FROM grammar_examples ge JOIN vocabulary_examples ve ON ve.example_id=ge.example_id JOIN meanings m ON m.id=ve.meaning_id WHERE ge.grammar_id=?
         ) SELECT i.id,i.kind FROM related r JOIN content_items i ON i.id=r.id

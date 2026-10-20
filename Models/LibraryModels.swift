@@ -30,6 +30,7 @@ struct VocabularyDetail: Sendable {
     let conjugations: [DetailConjugation]
     let irregular: Bool
     let examples: [Example]
+    var hasProductionPractice: Bool = false
 }
 struct LookupPractice: Identifiable, Sendable {
     let id: UUID

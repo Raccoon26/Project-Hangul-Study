@@ -1,0 +1,21 @@
+{
+  "validation": {
+    "error_count": 0,
+    "warning_count": 0,
+    "errors": [],
+    "warnings": [],
+    "details_limit": 200
+  },
+  "cohort": {
+    "grammar": 54,
+    "new_examples": 216,
+    "questions": 216,
+    "choices": 648,
+    "new_direct_input": 0
+  },
+  "existing_input_contracts": {
+    "text_input": 1227,
+    "listening_input": 1850
+  },
+  "limitation": "Structural and narrow regression checks only. AI reread is separately documented; native grading/native teacher review not certified."
+}

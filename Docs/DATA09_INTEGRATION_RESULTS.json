@@ -1,0 +1,111 @@
+{
+  "stage": "DATA-09-6",
+  "content_version": 24,
+  "schema_version": 4,
+  "min_reader_version": 7,
+  "user_progress_version": 10,
+  "portable": {
+    "status": "PASS",
+    "count": 359,
+    "seconds": 420.142,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "exit_code": 0,
+    "command": "sh Tools/verify.sh --portable",
+    "cwd": "/tmp/data09-integration-final-verification",
+    "log": "Docs/DATA09_INTEGRATION_TEST_LOG.txt"
+  },
+  "focused": {
+    "status": "PASS",
+    "count": 13,
+    "seconds": 22.336,
+    "log": "Docs/DATA09_INTEGRATION_FOCUSED_LOG.txt"
+  },
+  "query_regression": {
+    "status": "PASS",
+    "count": 4,
+    "seconds": 0.763,
+    "log": "Docs/DATA09_INTEGRATION_QUERY_REGRESSION_LOG.txt"
+  },
+  "initial_runs": [
+    {
+      "log": "Docs/DATA09_INTEGRATION_INITIAL_FOCUSED_LOG.txt",
+      "status": "FAIL",
+      "tests": 13,
+      "failures": 4,
+      "seconds": 19.577,
+      "reason": "SRS seed fields / column offsets / optimizer-stat preservation fixture"
+    },
+    {
+      "log": "Docs/DATA09_INTEGRATION_INITIAL_PORTABLE_LOG.txt",
+      "status": "FAIL",
+      "tests": 359,
+      "errors": 4,
+      "failures": 0,
+      "seconds": 418.495,
+      "reason": "Old4-column lesson unpack, new6-column result"
+    },
+    {
+      "log": "Docs/DATA09_INTEGRATION_SUPERSEDED_PORTABLE_LOG.txt",
+      "status": "FAIL",
+      "tests": 359,
+      "errors": 4,
+      "failures": 0,
+      "seconds": 425.021,
+      "reason": "Started before the same4-column fixtures were corrected"
+    }
+  ],
+  "production_reconstruction": {
+    "previous_versions": [
+      19,
+      23
+    ],
+    "status": "PASS; both byte-identical to actual Production DB",
+    "errors": 0,
+    "existing_warnings": 10
+  },
+  "new_grammar_examples_questions": [
+    54,
+    216,
+    216
+  ],
+  "this_stage": {
+    "new_unit_tags": 6,
+    "revised_existing_ids": 107,
+    "new_relations": 74,
+    "new_grammar": 0,
+    "new_examples": 0,
+    "new_questions": 0
+  },
+  "verified_input_files": 251,
+  "preserved_baseline_artifacts": 121,
+  "independent_native_teacher_review": "NOT TESTED",
+  "external_dictionary_review": "NOT TESTED",
+  "native": {
+    "build": "BLOCKED",
+    "xctest_defined": 139,
+    "xctest_executed": 0,
+    "voiceover_dynamic_type_device": "BLOCKED",
+    "real_offline_tts_and_resume": "BLOCKED",
+    "device_3_to_10_minutes": "BLOCKED",
+    "ios_memory": "BLOCKED",
+    "storekit_admob_userdefaults_keychain_device": "BLOCKED"
+  },
+  "release": "B—Conditional",
+  "previous_prerequisite_audit_163": {
+    "resolved": 120,
+    "pedagogically_allowable": 7,
+    "unresolved": 36,
+    "not_reclassified_this_stage": true
+  },
+  "next_stage_started": false,
+  "git_delivery": {
+    "content_commit": "dc3809e04154e30d6e548439f6fe41033fd576dd",
+    "branch": "data09-6/production-integration",
+    "content_push": "PASS",
+    "pull_request": "https://github.com/Raccoon26/Project-Hangul-Study/pull/15",
+    "final_head_and_merge_state_source": "GitHub PR head/merge record; this records the content delivery event",
+    "force_push": false
+  }
+}

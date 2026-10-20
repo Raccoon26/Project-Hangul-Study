@@ -116,6 +116,42 @@ final class GrammarLearningTests: XCTestCase {
         let advanced=try await cold.reviewState(for:id,skill:"grammar");XCTAssertEqual(advanced?.stage,1)
         let vocabulary=try await cold.reviewState(for:id,skill:"vocabulary");XCTAssertNil(vocabulary)
     }
+    func testDATA09UnitsPrerequisitesNotesAndVocabularyAreReachable() async throws {
+        let content=try SQLiteContentRepository(url:XCTUnwrap(Bundle.main.url(forResource:"content",withExtension:"sqlite")),allowFixture:false)
+        let lessons=try await content.grammarLessons(level:.lowerIntermediate,after:-1,limit:30)
+        XCTAssertEqual(lessons.count,18)
+        XCTAssertEqual(Set(lessons.compactMap(\.courseTitle)).count,3)
+        XCTAssertEqual(Set(lessons.compactMap(\.unitTitle)).count,6)
+        var ids=Set<ContentID>()
+        for lesson in lessons {
+            let members=try await content.grammarIDs(lesson:lesson.id)
+            XCTAssertEqual(members.count,3)
+            for id in members {
+                XCTAssertTrue(ids.insert(id).inserted)
+                let card=try await content.grammarCard(id:id)
+                XCTAssertEqual(card.questions.count,4)
+                XCTAssertGreaterThanOrEqual(card.examples.compactMap(\.learningPoint).count,4)
+                XCTAssertFalse(card.prerequisites.isEmpty)
+                XCTAssertFalse(card.relatedWords.isEmpty)
+                for word in card.relatedWords {
+                    let detail=try await content.vocabularyDetail(id:word.reference.contentID)
+                    if [PartOfSpeech.verb.japaneseName,PartOfSpeech.adjective.japaneseName].contains(detail.card.partOfSpeech) {
+                        XCTAssertEqual(detail.conjugations.count,3)
+                    } else {
+                        XCTAssertTrue(detail.conjugations.isEmpty)
+                    }
+                    if detail.hasProductionPractice {
+                        let questions=try await content.productionQuestions(id:word.reference.contentID)
+                        XCTAssertFalse(questions.isEmpty)
+                    }
+                }
+            }
+        }
+        XCTAssertEqual(ids.count,54)
+    }
+    func testDATA09LowerIntermediateGrammarSRSAndVersionedColdResume() async throws {
+        try await exerciseProductionLesson(level:.lowerIntermediate,after:46,version:23)
+    }
     func testGrammarSRSUsesSharedStageAndFailureRules() throws {
         var s=try StepReviewScheduler.initial(at:Date(),neededRepetition:true,timeZoneID:"Asia/Tokyo")
         s=try StepReviewScheduler.next(previous:s,result:.remembered,at:s.nextReviewAt,timeZoneID:"Asia/Tokyo")

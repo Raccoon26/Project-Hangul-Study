@@ -1,5 +1,13 @@
 # DATA-09 진행 기록
 
+# DATA-09-6 / Production·Curriculum 통합 — 현재 Production
+
+**Content24 / Schema4 / reader7 / UserProgress10.** 검수된 신규54문법·216고유예문·216문제를 기존3코스/18레슨의6단원과 실제 학습 경로에 통합했다. 기존 ID·membership·순서·본문·정답을 유지하고 선행 복습20참조·35관련어휘로54관계를 보강, 누락되던 예문 Note를 표시한다. 새 UUID는 Unit tag6개, 기존107개 관계 endpoint revision만 각1 증가. 전체 Grammar96(入門22/初級20/初中級54), Example4,813, Question3,553, Vocabulary2,287. 장기Grammar/Expressions350~500 유지.
+
+실제 직전23과 DATA09 전19 원본/DB를 각각 보존하고19→24/23→24 strict **0errors/기존10warnings**, Production 재구성 DB byte 일치. 최종 portable **359/359 PASS**(420.142초, 실패/오류/skip0), 전용13/13·조회 회귀4/4 PASS. Source25테이블66,094행·FK0/integrity ok, SQL/디스크에서 기존 Progress/Favorites/SRS/snapshot/통계 보존 확인. **Xcode/Swift/iOS/139 XCTest 실행0·실기기 접근성/메모리/3~10분·음성/Resume BLOCKED, 사람/외부 사전 검수 NOT TESTED, B—Conditional 유지**. 미해결 선행36건과 기존 native P1 gate는 완료로 바꾸지 않는다. [통합 보고](Docs/DATA09_INTEGRATION.md), [실제 결과](Docs/DATA09_INTEGRATION_RESULTS.json), [누적 기록 §12](DATA09_PROGRESS.md). DATA09-6에서 종료하며 다음 단계는 시작하지 않았다. 아래 수량/검사는 당시 이력이다.
+
+---
+
 # DATA-09-5 / 최종 품질 감사 — 현재 Production
 
 **Content23 / Schema4 / reader7 / UserProgress10.** A~C 신규54문법·216고유예문·216문제 전수 AI 자체 검수, 고위험18개 문법·무작위45개 별도 재감사 후 **25개 ID/31필드** 교정. 수량·기존 ID·정답 ID·학습 배치·Progress/SRS 정책 유지. 선행 후보163건은 **해결120 / 조건부 교육 허용7 / 미해결36**이며 원래 Level 검토8건은 모두 미해결이다. 전체 Grammar96(入門22/初級20/初中級54), Example4,813, Question3,553(Grammar300), Vocabulary2,287.
@@ -420,3 +428,81 @@ Meaning2,420/Listening1,936/Course8/Lesson103/content_items15,935/grammar_exampl
 ### 11.6 Git 전달
 
 콘텐츠/검수 commit `d3722f5e9e11480914fd453862595f06df3be5cf`를 `data09-5/final-content-audit`에 정상 push했다. [PR #14](https://github.com/Raccoon26/Project-Hangul-Study/pull/14)를 main 대상으로 생성했다. 기존 변경 손실·원본 삭제·이력 재작성·force push0, 신규 최대 blob18,812,928 bytes로 일반 Git push 성공. GitHub에 등록된 check는0개이며 로컬 portable PASS를 GitHub/native CI 실행으로 바꾸지 않는다. 최종 문서 전달 commit 및 main merge SHA/상태는 해당 PR의 head/merge 기록과 최종 응답을 따른다. 이 전달은 DATA09-5 범위이며 다음 단계는 시작하지 않는다.
+
+
+## 12. DATA-09-6 / Production·실제 Curriculum 통합
+
+### 12.1 시작·Content19와 실제 직전 버전 보존
+
+clean main/origin/main `d1c7b5cd42773f156a421139e905f61994b905ca`(PR #14)에서 `data09-6/production-integration`로 시작했다. 기존 미커밋 변경0. 사용자가 지정한 Content19는 DATA09 시작 전 원본이며, 실제 업데이트 직전 Production은 이미 Content23/Schema4/reader7/UserProgress10이다. **19를23으로 덮어쓰거나 현재 DB를19라고 재명명하지 않았다.** 기존19 원본/DB fixture를 보존하고 실제23 원본/DB도 별도 불변 fixture에 저장했다. 두 기준 모두 대상으로 strict previous-version 검증을 수행한다.
+
+- Content19 DB SHA `57aeaf918d5eaaec3bbfaed02f87c5452cca8264540b923a70448b781adbe9e5`, gzip 해제 Source SHA `f97b3bd70d07a3945770b8d6940c4a53e29a9b70b565caf21fb927230c08b4a8`.
+- Content23 DB SHA `0a4051d3c5423441b50348935d64559504f1553a55fd3ea472c84b40c9ebc025`, Source SHA `c8a74e3b61809aabe5d2dd88768446f986792f2585d40ef78327c50b2b6c5b1e`.
+
+PROJECT_STATUS/CONTENT_GUIDE/DATA_PROGRESS/RELEASE_CHECKLIST/AGENTS/DATA08_PROGRESS/DATA08_CLOSEOUT/DATA09_PROGRESS·실제 Source/DB·Grammar/Curriculum/Lookup/Production/SRS/Statistics/Resume 경로를 대조했다. A/B/C 및 최종 검수 원본·registry·과거 fixture·UserProgress schema를 보존한다. [보존 해시](Docs/DATA09_INTEGRATION_PRESERVATION.json).
+
+### 12.2 단원·선행 복습·실제 모듈 연결
+
+기존 신규54개 Grammar는 이미3개 코스/18개 레슨에 있었다. 기존 Course/Lesson/Grammar ID·lesson membership·ordinal·진행 중 snapshot 순서를 유지하면서, **6개 Unit tag**로 각 코스의6레슨을 두 단원(각3레슨)으로 묶었다. 실제 Grammar 목록 SQL이 코스명·단원명을 읽어 표시한다. 레슨당3개 문법·4문제/문법을 유지해 단원 전체를 한 세션으로 강제하지 않는다. Unit은 기존 tag/item_tags 구조를 사용하므로 Schema4 유지다.
+
+| Course | Unit | 기존 Lesson ordinal |
+| --- | --- | --- |
+| 이유부터 계획 | 理由・変化・条件 | 47~49 |
+| 이유부터 계획 | 目的・方針・必要性 | 50~52 |
+| 대조와 경험 | 時間・途中・結果状態 | 53~55 |
+| 대조와 경험 | 対照・経験・機会 | 56~58 |
+| 추측과 회화 의도 | 修飾・推測・引用 | 59~61 |
+| 추측과 회화 의도 | 伝える意図・会話の態度 | 62~64 |
+
+검수 예문에서 필요한 일반 관형·명사화·시간·배경·결과/목표 상태 **선행 참조20개**를 실제 Grammar ID로 보강했다. A10→C01, A18→B01, B16→C02, C14→B03/B07, C17→A05 등이 포함된다. 레슨 순서를 뒤집는 대신 문법 첫 설명의 `先に確認したい形`에서 해당 카드의 뜻·형태·설명을 먼저 읽을 수 있다. 선행 참조는 강제 잠금/자동 학습 완료가 아니며, 이미 아는 사람은 짧게 넘어갈 수 있다. 물리적 레슨 ordinal이 모든 부수 문형의 위상 순서라는 주장도 하지 않는다. 새 선행 DAG와 실제 preview를 함께 검증한다.
+
+54개 Grammar에 예문 문맥을 근거로 **35개 기존 어휘로 향하는 관련 관계54개**를 연결했다. 한국어 기본형과 실제 Dictionary 의미를 개별 대조했다. 동의어·자동 형태분석 결과로 표시하지 않는다. 관련어는 문법 학습에서 사전 sheet를 열어 뜻·기존 활용·저장·최근/어려운 항목 경로로 이어지며 기존 사전의 양방향 related 조회도 같은 참조를 사용한다. 기존 재사용 예문4개를 통한 관련어 경로도 보존한다.
+
+이35개 어휘 중6개에는 기존 검수 입력26문제(형태19/문장4/빈칸3)가 있어12개 Grammar에서 해당 입력 연습으로 이어진다. `VocabularyDetail.hasProductionPractice`에 따라 실제 문제가 있을 때만 `活用・入力を練習`을 노출한다. 나머지 관련어의 사전 활용표와 문법 자체의 객관식을,54개 새 문형 전부의 자동 문장 생성/직접입력 지원으로 부풀리지 않는다. 신규 Grammar/Example/Question 추가0, DATA09 누적54/216/216·기존 예문4개 재사용 유지.
+
+### 12.3 발견·수정한 연결 문제와 보존 정책
+
+- **예문 검수 Note 누락 수정:** 기존 grammarExamples SQL/Example 모델이 `learning_point_ja`를 버려, DATA09의 일본인 학습자 Note와 동생 성별 장면 설명이 화면까지 전달되지 않았다. 기존 열을 읽어 비영속 Example 모델에 전달하고 GrammarExampleView에서 표시한다. B03/B11/B16/C11의 실제 예문으로 회귀 검사한다. DB 문장·번역·Note 본문은 바꾸지 않았다.
+- **단원·선행 안내 연결 보완:** 기존3코스·18레슨은 문법 평면 목록에만 보였고 prerequisite 관계는 학습 설명에서 읽지 않았다. 코스/단원 표시와 최대8개 선행 카드의 선택적 사전 복습을 기존 학습 화면에 연결했다. 더 일반적인 관형형이 뒷단원이라는 문제에 대해, 기존 세션의 순서·진도를 바꾸지 않고 기초 설명에 먼저 접근할 수 있게 했다.
+- **관련어·입력 진입 보완:** 새 문법은 기존 공유 예문4개 외에는 어휘로 이어지는 명시 참조가 부족했다. 검토된54개 related 관계를 사전 양방향 조회에 포함하고, 실제 입력 문제가 있는 어휘만 기존 ProductionStudyView로 진입시킨다. 별도 채점 엔진·SRS·진도 DB를 만들지 않았다.
+
+관계·태그 변경이므로 후보는 Content24, Schema4/reader7/UserProgress10 유지다. 새 content UUID는 Unit tag6개뿐이다. 변경된 기존107개(Grammar54/어휘35/Lesson18)의 revision·updated_at만 정책대로1 증가시킨다. 새 관계74개(선행20+관련어54)와 Unit membership18개이며 기존 관계·태그·배치를 삭제하지 않는다. [고정 ID/배치/관계 manifest](Content/data09-integration-ids.json), [승인 revision](Content/data09-integration-revised-ids.json), `prepare_data09_integration.py`가 동결23에서 같은24를 재현한다.
+
+기존 질문·정답/choice ID·문법/예문 본문·Vocabulary sort key·Listening order는 유지한다. 진행 중 GrammarSession의 문항 snapshot/선택/페이지/ContentVersion과 기존 어휘 세트 membership을 재작성하지 않는다. 선행 설명·사전 조회만으로 완료나 SRS를 새로 등록하지 않는다. 기존19→24와23→24 교체를 별도 임시 사용자 디스크에서 확인하며 실제 개인DB를 수정하지 않는다.
+
+### 12.4 검사 범위·초기 검사 수정
+
+전용13개 검사에서19/23 fixture 해시 및 두 strict gate·재구성 byte 일치·107개 endpoint revision·신규6개 Unit·모든54개 실제 레슨/카드/질문·220개 예문 placement·Note reader/view·선행 DAG·사전/입력/검색·네트워크 금지·모든 사용자 테이블/설정/통계/어려운 항목·5/10/20 복습·중복 SRS와 rollback을 검사한다. SQL 실행과 Swift 실행을 구분한다.
+
+첫 전용 실행은13검사 중4 failure였다. 두 upgrade subcase의 가상 SRS seed에 Difficult 판정 필드(consecutiveSuccesses/lastResult)가 빠진 것, 코스/단원 SQL 열 번호 오기, 변경된 ANALYZE 통계(sqlite_stat1)를 불변 본문처럼 비교한 검사 문제가 원인이었다. seed와 열 번호를 수정하고 optimizer 통계는 불변 본문 비교에서 제외했다. **strict 재구성은 sqlite_stat1을 포함한 DB 전체 byte 일치를 계속 요구**한다. Production 데이터를 삭제하거나 Validator를 완화하지 않았다. 정정 후 전용 **13/13 PASS(20.361초)**. 초기 로그와 최종 전용 로그를 구분해 보존했다.
+
+고아 문항은 `question_target`/lesson/audio 관계뿐 아니라 `questions.listening_id` 소유 경로도 포함해 검사했다. 이를 빼면 기존 정상 듣기1,849문항을 잘못 고아로 세므로 삭제·재연결하지 않았다. 정의를 명시한 전수 검사에서 Grammar/Lesson, Example/의미·문법·발음, Question/학습 소유, Vocabulary/Meaning, Course/Lesson 고아0이다. [소유 경로·결과](Docs/DATA09_INTEGRATION_ORPHANS.json).
+
+native 회귀2개를 추가했다(전체139정의). 실제54개 카드/6단원/선행·Note·어휘 활용/입력 연결과 初中級 grammar 회독/SRS/cold resume를 대상으로 한다. 재사용 예문에서 연결되는 명사·부사·expression은 활용표가 없으므로, native 회귀의 기대값을 용언/그 외 품사로 구분했다. 이 작성상 정정 후 최종 파일 snapshot으로 전체 portable 검사를 다시 수행한다. **Xcode/Swift가 없어 native 실행0/BLOCKED**다.
+
+전용 upgrade fixture는 이후 실제19/23 DB의 Grammar/Lesson/Question/입력 대상 어휘/Listening ID를 사용하도록 강화했다. 교체 후 같은 ID로 실제 repository 조회가 가능한지도 확인하고 전용13/13을 재실행했다(**22.336초**). JSON은 SQL 보존 검사용 fixture이며 Swift Codable/상태전이 실행으로 인증하지 않는다.
+
+첫 전체 portable 실행은 **359개 실행/실패0/오류4,418.495초,exit1**이었다. Data04 및 A/B/C의 레슨 조회 검사가 기존4열을 고정 unpack해서, 새 코스/단원2열이 추가된6열 결과를 받지 못한 오류다. 레슨 ID/수량 assertion은 유지한 채 실제 행의 첫4열을 사용하도록 고쳤다. 해당4개 회귀는 **4/4 PASS(0.763초)**. 수정 전 재실행은 SUPERSEDED 로그로 분리하고, 최종 파일 전체 snapshot에서 portable를 새로 실행한다. 실패·중간 검사를 PASS로 덮어쓰지 않는다.
+
+수정 전6열 unpack을 고치기 전에 시작한 중간 전체 실행도359개/오류4/실패0(425.021초,exit1)로 종료했다. 이 결과 역시 SUPERSEDED 원시 로그에 실패 상태 그대로 보존하며 최종 PASS에 합산하지 않는다.
+
+설정 검사는 임시 SQLite의 opaque metadata 보존 범위다. 실제 UserDefaults/Keychain의 설정·광고 제거 권한·기기 상태 이전은 별도 native 검증이 필요하며 BLOCKED로 남긴다. 해당 서비스/저장 키 코드는 변경하지 않았다.
+
+### 12.5 최종 자동 검사·실제 Production 반영
+
+- **PASS** 최종 파일 snapshot의 `sh Tools/verify.sh --portable`: **359/359**,420.142초, failures/errors/skipped0,exit0. 기존346+신규13이며 별도 전용/조회 재실행 수는 합산하지 않는다. 전용13/13(22.336초), 조회 형식 회귀4/4(0.763초)도 PASS. 초기 실패/오류 로그는 그대로 보존했다.
+- **PASS** 실제19·23 보존 해시와 strict previous-version gate 모두0errors/기존10warnings. A/B/C/최종 검수의20/21/22/23 fixture와 정확한 gate를 유지했다. 변경107개와 신규 Unit6개 이외 모든 기존 payload·관계·배치·ID/kind/created_at을 보존한다.
+- **PASS** 검증 전후251개 코드/테스트/입력 SHA를 대조하고 검증 완료24만 Production Source/DB에 반영했다. 실제 Production Source에서19/23을 previous로 각각 다시 빌드해 **두 DB 모두 현재 Resources/content.sqlite와 byte/SHA까지 동일**함을 확인했다. Source25테이블66,094행, DB31테이블, integrity ok/FK0. 원본 JSON·과거 fixture·대용량 원본을 삭제/재작성하지 않았다.
+- **PASS** DATA09 계약0errors/0warnings, DATA08 구조 감사0errors/기존5단문warnings. 전체96 Grammar의 선행93간선 DAG 순환0·참조 누락0. 소유 경로를 포함한 Grammar/Example/Question/Vocabulary/Course 고아0. 기존 동형어 경고를 중복 오류라고 삭제/병합하지 않는다.
+- **PASS / SQL·디스크 범위**54개/18레슨/6단원·216문제·220예문 placement, 새 Note·선행/관련어·사전/입력/검색,19/23 실제 콘텐츠 ID로 모든 사용자 테이블/snapshot·통계·어려운 항목·Favorites 보존, SRS54개 중복 등록2회 후 기존stage4/due900 유지, 실패 transaction rollback,5/10/20 복습 경계, 네트워크 금지 조회를 실행했다. 실제 개인DB·Swift 상태전이를 실행했다고 주장하지 않는다.
+- **PASS / 로컬 warm SQL 성능** 동일 환경30회 측정의24 p95: Home4.6853ms, 넓은 검색4.1834ms, Grammar catalog1.1135ms, 전체 card2.2933ms, Grammar SRS due20 headers1.9652ms,3항목 session commit0.1683ms.23/19 기준 원시값을 함께 보존했다. 작은 레슨·즉시 transaction 저장·bounded 조회/scroll/44pt/선택적 프리뷰 정책을 유지한다. iPhone UI·RAM·3~10분 실측 보증이 아니다.
+- **BLOCKED** xcodebuild/swift 없음. iOS Debug/Release·SDK·139 XCTest(실행0), 실제 Resume/비행기 모드/TTS·접근성/큰 글씨/VoiceOver·메모리·중단/3~10분·StoreKit/AdMob/UserDefaults/Keychain 기기 검증은 미실행이다. **NOT TESTED** 독립 원어민·교사/외부 사전 검수. 기존 native P1/B—Conditional·미해결36건을 해결로 바꾸지 않는다.
+
+최종 Content24/Schema4/reader7/UserProgress10, Vocabulary2,287/Meaning2,420/Example4,813(문장4,800+발음13)/Grammar96(入門22/初級20/初中級54)/Question3,553(Grammar300)/Listening1,936/Course8/Lesson103. 신규 수량54/216/216과 목표45~60/180~300/180~300, 장기350~500 유지. content_items15,941·tags103·content_links6,499·grammar_examples389. 단원 태그나 재사용 관계를 신규 문법/예문/문제로 합산하지 않는다.
+
+Source SHA `081ed35c7cd78345af1c1793fc450acaa2931f173cef00aaa960c8ef42318540`, DB SHA `56a7fa8b5358e254eeb324e706860d150d20c8ec013ba0b6f602cf14d93cceff`. [결과](Docs/DATA09_INTEGRATION_RESULTS.json), [전체 로그](Docs/DATA09_INTEGRATION_TEST_LOG.txt), [전용 로그](Docs/DATA09_INTEGRATION_FOCUSED_LOG.txt), [19 기준 실제 재구성](Docs/DATA09_INTEGRATION_RECONSTRUCTION19.json), [23 기준 실제 재구성](Docs/DATA09_INTEGRATION_RECONSTRUCTION23.json), [수량·배치](Docs/DATA09_INTEGRATION_COUNTS.json), [성능](Docs/DATA09_INTEGRATION_PERFORMANCE.json), [범위·미검증](Docs/DATA09_INTEGRATION.md). 상위 상태/콘텐츠/릴리스 문서와 AGENTS를 실제24 및 미완료 gate에 맞췄다. **DATA09-6에서 종료하며 DATA09-7/DATA10은 시작하지 않았다.**
+
+
+### 12.6 Git 전달
+
+통합/검증 commit `dc3809e04154e30d6e548439f6fe41033fd576dd`를 `data09-6/production-integration`에 정상 push하고 [PR #15](https://github.com/Raccoon26/Project-Hangul-Study/pull/15)를 main 대상으로 생성했다. 최대 신규 blob18,841,600 bytes로 일반 Git push 성공. Content 원본·기존 fixture 보존, force push/이력 재작성/LFS 전환0. 초기 unittest subtest의 행끝 공백1개는 원시 로그 보존을 위해 그대로 두고 해당 원시 로그를 제외한 소스/문서 whitespace 검사를 수행했다. GitHub 등록 check0개이므로 로컬 portable PASS를 GitHub CI/native 실행으로 표현하지 않는다. 최종 전달 문서 commit과 main merge SHA/상태는 해당 PR head/merge 기록 및 최종 응답을 따른다. 이번은 DATA09-6에서 종료한다.

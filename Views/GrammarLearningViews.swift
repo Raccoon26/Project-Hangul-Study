@@ -22,6 +22,10 @@ struct GrammarCatalogView: View {
                 ForEach(lessons) { lesson in
                     Button { launch = lesson } label: {
                         VStack(alignment: .leading, spacing: 8) {
+                            if let course = lesson.courseTitle {
+                                Text([course,lesson.unitTitle].compactMap { $0 }.joined(separator:" · "))
+                                    .font(.caption).foregroundStyle(.secondary)
+                            }
                             Text(lesson.title).font(.headline).foregroundStyle(.primary)
                             Text("\(lesson.count)項目 · \(status(lesson.id))").font(.subheadline).foregroundStyle(.secondary)
                         }.padding(.vertical, 8).frame(minHeight: 44)
@@ -61,7 +65,9 @@ struct GrammarStudyView: View {
     @Environment(\.dismiss) private var dismiss
     @Environment(\.scenePhase) private var phase
     @EnvironmentObject private var audio: KoreanAudioService
-    init(services: AppContainer, lesson: GrammarLesson) { _model = StateObject(wrappedValue: GrammarViewModel(services: services, lesson: lesson)) }
+    @State private var lookup: LookupReference?
+    private let services: AppContainer
+    init(services: AppContainer, lesson: GrammarLesson) { self.services = services; _model = StateObject(wrappedValue: GrammarViewModel(services: services, lesson: lesson)) }
     var body: some View {
         VStack(spacing: 0) {
             HStack {
@@ -85,7 +91,18 @@ struct GrammarStudyView: View {
                                 Text("\(s.round)周目が終わりました").font(.title2)
                                 Text("次は、まだ覚えたい\(s.deferred.count)項目だけ確認します。")
                             } else if let card = model.card {
-                                if s.page < 3 { GrammarExplanationView(card: card, page: s.page) }
+                                if s.page < 3 {
+                                    GrammarExplanationView(card: card, page: s.page)
+                                    if s.page == 2 && !card.relatedWords.isEmpty {
+                                        DisclosureGroup("例文の単語を確認") {
+                                            ForEach(card.relatedWords) { word in
+                                                Button { lookup = word.reference } label: {
+                                                    Text(word.title+" · "+word.meaning).frame(minHeight:44)
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
                                 else if s.page == 3, let q = s.question {
                                     GrammarQuestionView(question: q, selected: s.selected, seed: s.seed &+ UInt64(s.round)) { choice in Task { await model.send(.answer(choice), expectedRevision:s.revision) } }
                                 } else {
@@ -105,6 +122,12 @@ struct GrammarStudyView: View {
         }.background(Color(uiColor: .systemBackground))
             .safeAreaInset(edge:.bottom) { actions }
             .disabled(model.busy).interactiveDismissDisabled(model.busy)
+            .sheet(item:$lookup) { reference in
+                NavigationStack {
+                    LookupDetailView(services:services,reference:reference)
+                        .toolbar { ToolbarItem(placement:.cancellationAction) { Button("閉じる") { lookup = nil } } }
+                }
+            }
             .task { await model.open() }.onDisappear { audio.stop() }
             .onChange(of: model.session?.revision) { _ in audio.stop() }
             .onChange(of: phase) { if $0 != .active { audio.stop() } }
@@ -144,6 +167,20 @@ struct GrammarExplanationView: View {
             if page == 0 {
                 Text(card.meaning).font(.title2)
                 Text(card.explanation)
+                if !card.prerequisites.isEmpty {
+                    DisclosureGroup("先に確認したい形") {
+                        VStack(alignment:.leading,spacing:16) {
+                            Text("必要な形だけ読み直せます。表示するだけでは学習完了になりません。")
+                                .font(.footnote).foregroundStyle(.secondary)
+                            ForEach(card.prerequisites) { item in
+                                Text(item.pattern).font(.headline)
+                                Text(item.meaning)
+                                Text(item.form)
+                                Text(item.explanation).foregroundStyle(.secondary)
+                            }
+                        }.padding(.top,12)
+                    }
+                }
             } else if page == 1 {
                 Text("形と使い方").font(.headline)
                 Text(card.form).font(.title3)
@@ -177,6 +214,7 @@ struct GrammarExampleView: View {
         VStack(alignment:.leading,spacing:8) {
             Text(example.korean).font(.title3).fixedSize(horizontal:false,vertical:true)
             Text(example.japanese).foregroundStyle(.secondary)
+            if let note = example.learningPoint { Text(note).font(.footnote).foregroundStyle(.secondary) }
             if audio.availability(for:request) == .available {
                 ViewThatFits(in:.horizontal) {
                     HStack(spacing:20) { buttons }

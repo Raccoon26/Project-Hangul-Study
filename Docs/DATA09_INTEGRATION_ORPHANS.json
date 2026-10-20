@@ -1,0 +1,25 @@
+{
+  "definitions": {
+    "grammar_without_lesson": "select g.id from grammar g where not exists(select 1 from lesson_items li where li.content_id=g.id)",
+    "example_without_vocabulary_grammar_or_pronunciation": "select e.id from examples e where not exists(select 1 from vocabulary_examples x where x.example_id=e.id) and not exists(select 1 from grammar_examples x where x.example_id=e.id) and not exists(select 1 from pronunciation_examples x where x.example_id=e.id)",
+    "vocabulary_without_meaning": "select v.id from vocabulary v where not exists(select 1 from meanings m where m.vocabulary_id=v.id)",
+    "course_without_lesson": "select c.id from courses c where not exists(select 1 from lessons l where l.course_id=c.id)",
+    "question_without_target_lesson_audio_or_listening": "select q.id from questions q where q.listening_id is null and not exists(select 1 from content_links l where l.source_id=q.id and l.relation='question_target') and not exists(select 1 from lesson_items li where li.content_id=q.id) and not exists(select 1 from audio_questions a where a.question_id=q.id)"
+  },
+  "ids": {
+    "grammar_without_lesson": [],
+    "example_without_vocabulary_grammar_or_pronunciation": [],
+    "vocabulary_without_meaning": [],
+    "course_without_lesson": [],
+    "question_without_target_lesson_audio_or_listening": []
+  },
+  "counts": {
+    "grammar_without_lesson": 0,
+    "example_without_vocabulary_grammar_or_pronunciation": 0,
+    "vocabulary_without_meaning": 0,
+    "course_without_lesson": 0,
+    "question_without_target_lesson_audio_or_listening": 0
+  },
+  "scope": "Structural ownership/placement; not language coverage/mastery",
+  "ownership_note": "Listening questions are owned through questions.listening_id FK; ignoring it flags1849 legitimate existing rows. No such content rows were deleted/retargeted."
+}
