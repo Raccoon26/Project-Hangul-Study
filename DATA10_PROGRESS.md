@@ -146,3 +146,14 @@ native 실패5개는 DATA10-1과 동일한 DATA06 cohort 가정1, 발음 course 
 ### 2.5 Git 전달·다음 환경
 
 검증한 Content25/원고·회귀·기록을 작업 branch에서 정상 commit/push하고 PR로 전달한다. 원격 필수 검사/mergeability를 다시 확인해 정상 병합하며, 최종 main=origin/main의 전체 SHA·clean 상태는 PR/Git과 최종 응답을 기준으로 남긴다. 자기 merge SHA를 기록하기 위한 재귀 commit은 하지 않는다. 실제 PR/전달 commit은 아래 후속 기록에 추가한다. 다음 단계 자동 시작0, force push/reset/기존 Production 삭제0.
+
+
+### 2.6 실제 Commit/Push/PR 인계
+
+검증/제작 commit `e07e823ef9f9feed54e1930d0c9ebe0486a201da`를 별도 branch `codex/data10-2-listening-batch-a`에 저장했다. 첫 일반 HTTPS push는 RPC HTTP400/sideband disconnect로 실패했고 remote head가 없어 PR 생성도 실패했다(생성된 PR0). 인증 API는 Raccoon26/ADMIN으로 정상이며 전체 접근 가능한972 blob 중50/100MiB 초과0·최대19,214,336bytes였다. 파일 삭제/축소/LFS/이력 재작성으로 우회하지 않았다.
+
+`git -c http.version=HTTP/1.1 -c http.postBuffer=524288000 push -u origin codex/data10-2-listening-batch-a`의 **일반 push 재시도 성공** 후 remote head가 위 commit과 일치함을 확인했다. 설정은 해당 명령에만 적용하고 global/repo 설정은 바꾸지 않았다. 전송 경로의 세부 HTTP400 원인은 단정하지 않는다. [객체 크기·전달 기록](Docs/DATA10_A_GIT_DELIVERY.json).
+
+[PR #19](https://github.com/Raccoon26/Project-Hangul-Study/pull/19)를 생성하고 채팅에 연결했다. 최초 head는 위 제작 commit, MERGEABLE/CLEAN·statusCheckRollup=[]였다. `gh pr checks --required`는 no checks reported(exit1), 규칙/Actions workflow0으로 **필수 원격 검사가 없는 상태이며 CI PASS가 아니다**. 최종 portable373 PASS·3build PASS·native137/142와 명령65/기존5실패·B—Conditional을 PR 본문에 명시했다.
+
+이 인계 보충은 문서·전달 근거만 추가하고 검증한 Source/Bundle/코드/테스트를 바꾸지 않는다. 보충 commit 정상 push 후 최신 head의 검사/mergeability를 확인해 user 위임대로 정상 merge한다. 실패한 필수 CI나 admin/force로 우회하지 않는다. 병합 후 로컬 main을 fetch/ff-only하고 origin/main과 전체SHA·clean 상태를 대조하며 최종 실제 merge SHA는 PR/Git·최종 응답을 따른다. DATA10-2에서 종료하고 다음 단계는 시작하지 않는다.
