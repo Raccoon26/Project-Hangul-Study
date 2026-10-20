@@ -1,0 +1,4549 @@
+{
+  "stage": "DATA-09-1",
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "Preserved bytes: Content/ContentPackageValidator.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Content/content-schema-v1.sql",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Content/content-schema-v2.sql",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Content/content-schema-v3.sql",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Content/content-schema-v4.sql",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Content/data01-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Content/data02-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Content/data03-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Content/data04-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Content/data04-revised-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Content/data05-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Content/data05-revised-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Content/data06-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Content/data06-revised-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Content/data07-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Content/data07-revised-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Content/data08-a-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Content/data08-a-revised-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Content/data08-b-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Content/data08-b-revised-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Content/data08-c-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Content/data08-c-revised-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Content/data08-final-revised-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Content/data08-integration-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Content/data08-integration-revised-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Content/dev08-revised-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Content/dev09-revised-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Content/fixture.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Content/grammar-seed-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Content/hangul-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Content/hangul-production.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Content/listening-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Content/production-drill-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Content/production-empty.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Content/production.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Content/pronunciation-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: DATA08_PROGRESS.md",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_A_COUNTS.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_A_DB_BUILD.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_A_EDITORIAL.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_A_EDITORIAL_CORRECTIONS.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_A_INITIAL_TEST_LOG.txt",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_A_NEW_TEST_LOG.txt",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_A_REVIEW.md",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_A_REVIEW_CATALOG.md",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_A_TEST_LOG.txt",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_A_VALIDATION.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_B1_AUDIT.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_B1_VALIDATION.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_B2_AUDIT.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_B2_VALIDATION.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_B3_AUDIT.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_B3_VALIDATION.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_BASELINE.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_B_CORRECTIONS.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_B_COUNTS.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_B_DB_BUILD.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_B_DICTIONARY.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_B_EDITORIAL.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_B_INITIAL_TEST_LOG.txt",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_B_INTERIM_TEST_LOG.txt",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_B_REVIEW.md",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_B_REVIEW_CATALOG.md",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_B_TEST_LOG.txt",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_C1_AUDIT.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_C1_VALIDATION.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_C2_AUDIT.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_C2_VALIDATION.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_C3_AUDIT.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_C3_VALIDATION.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_CLOSEOUT.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_CLOSEOUT.md",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_CLOSEOUT_BUILD.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_CLOSEOUT_ENVIRONMENT.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_CLOSEOUT_RESULTS.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_CLOSEOUT_ROUTING.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_CLOSEOUT_TEST_LOG.txt",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_C_CORRECTIONS.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_C_COUNTS.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_C_DB_BUILD.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_C_DICTIONARY.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_C_EDITORIAL.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_C_REJECTED_RELATIONS.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_C_REVIEW.md",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_C_REVIEW_CATALOG.md",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_C_TEST_LOG.txt",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_FINAL_BUILD.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_FINAL_COUNTS.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_FINAL_DICTIONARY.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_FINAL_EDITORIAL.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_FINAL_FINDINGS.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_FINAL_FOCUSED_TEST_LOG.txt",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_FINAL_GRAMMAR.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_FINAL_INITIAL_AUDIT.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_FINAL_RESCAN.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_FINAL_REVIEW.md",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_FINAL_RISK_FORMS.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_FINAL_SAMPLES.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_FINAL_STRUCTURE.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_FINAL_TEST_LOG.txt",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_INTEGRATION.md",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_INTEGRATION_BUILD.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_INTEGRATION_COUNTS.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_INTEGRATION_FOCUSED_TEST_LOG.txt",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_INTEGRATION_INITIAL_PORTABLE_TEST_LOG.txt",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_INTEGRATION_INITIAL_TEST_LOG.txt",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_INTEGRATION_PERFORMANCE.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_INTEGRATION_STRUCTURE.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_INTEGRATION_TEST_LOG.txt",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_SYSTEM_AUDIT.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_SYSTEM_FOCUSED_TEST_LOG.txt",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_SYSTEM_INITIAL_FOCUSED_TEST_LOG.txt",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_SYSTEM_INTERIM_TEST_LOG.txt",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_SYSTEM_LOOKUP_SCALE.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_SYSTEM_NATIVE_BUILD_LOG.txt",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_SYSTEM_PERFORMANCE.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_SYSTEM_REPRO.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_SYSTEM_REQUEST.md",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_SYSTEM_RESULTS.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_SYSTEM_REVIEW.md",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_SYSTEM_SCALE_MEMORY.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Docs/DATA08_SYSTEM_TEST_LOG.txt",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: LearningEngine/ConjugationEngine.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: LearningEngine/GrammarLearning.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: LearningEngine/HangulLearning.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: LearningEngine/ReviewScheduling.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: LearningEngine/StepReviewScheduler.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: LearningEngine/VocabularyPassEngine.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Models/AudioModels.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Models/ContentModels.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Models/ContentTaxonomy.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Models/CurriculumModels.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Models/GrammarModels.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Models/LearningModels.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Models/LessonModels.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Models/LibraryModels.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Models/ListeningModels.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Models/MonetizationPolicy.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Models/ProductionModels.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Models/PronunciationModels.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Models/SRSModels.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Models/StatisticsModels.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Models/VocabularyStudyModels.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Persistence/SQLiteConnection.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Persistence/UserDatabaseMigration.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Repositories/RepositoryProtocols.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Repositories/SQLiteContentRepository.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Repositories/SQLiteCurriculum.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Repositories/SQLiteGrammarContent.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Repositories/SQLiteGrammarProgress.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Repositories/SQLiteListening.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Repositories/SQLiteLookup.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Repositories/SQLiteProduction.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Repositories/SQLiteProgressRepository.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Repositories/SQLiteReviewProgress.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Repositories/SQLiteSavedContent.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Repositories/SQLiteStatistics.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Repositories/SQLiteVocabularyContent.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Repositories/SQLiteVocabularyProgress.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Resources/.content-pcb7fgvn.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Resources/Info.plist",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Resources/PrivacyInfo.xcprivacy",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Resources/content-fixture.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Resources/content.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Resources/ja.lproj/Localizable.strings",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Resources/user-migration-v10.sql",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Resources/user-migration-v2.sql",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Resources/user-migration-v3.sql",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Resources/user-migration-v4.sql",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Resources/user-migration-v5.sql",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Resources/user-migration-v6.sql",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Resources/user-migration-v7.sql",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Resources/user-migration-v8.sql",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Resources/user-migration-v9.sql",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Resources/user-schema-v1.sql",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Services/AdService.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Services/AppContainer.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Services/KoreanAudioService.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Services/LearningPreferences.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Services/PurchaseService.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Services/VocabularySetCatalog.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Tests/CurriculumTests.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Tests/Data07IntegrationTests.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Tests/Fixtures/content-v1.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Tests/Fixtures/content-v10-production.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Tests/Fixtures/content-v10-repaired-production.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Tests/Fixtures/content-v11-production.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Tests/Fixtures/content-v12-production.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Tests/Fixtures/content-v13-production.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Tests/Fixtures/content-v14-production.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Tests/Fixtures/content-v15-production.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Tests/Fixtures/content-v16-production.json.gz",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Tests/Fixtures/content-v16-production.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Tests/Fixtures/content-v17-production.json.gz",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Tests/Fixtures/content-v17-production.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Tests/Fixtures/content-v18-production.json.gz",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Tests/Fixtures/content-v18-production.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Tests/Fixtures/content-v2-production.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Tests/Fixtures/content-v3-production.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Tests/Fixtures/content-v4-production.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Tests/Fixtures/content-v5-production.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Tests/Fixtures/content-v6-production.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Tests/Fixtures/content-v7-production.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Tests/Fixtures/content-v8-production.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Tests/Fixtures/content-v9-production.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Tests/Fixtures/source-v1.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Tests/FoundationTests.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Tests/GrammarLearningTests.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Tests/HangulLearningTests.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Tests/ListeningTests.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Tests/LookupTests.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Tests/MonetizationTests.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Tests/ProductionLearningTests.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Tests/PronunciationTests.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Tests/ReleaseAuditTests.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Tests/SRSTests.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Tests/StatisticsAndSettingsTests.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Tests/StoreKitPurchaseTests.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Tests/VocabularyPassTests.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: ViewModels/AppModel.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: ViewModels/GrammarViewModel.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: ViewModels/LessonViewModel.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: ViewModels/LookupViewModel.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: ViewModels/ReviewViewModel.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: ViewModels/VocabularyStudyViewModel.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Views/CurriculumResumeView.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Views/CurriculumView.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Views/GrammarLearningViews.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Views/GrammarReviewView.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Views/LearnView.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Views/LessonSessionView.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Views/ListeningView.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Views/LookupDetailView.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Views/LookupView.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Views/MaintenanceView.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Views/PlacementView.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Views/ProductionView.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Views/RecordsView.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Views/RemoveAdsView.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Views/ReviewSessionView.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Views/RootView.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Views/SettingsView.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Views/VocabularyCardContentView.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Views/VocabularyListView.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Views/VocabularyStudySessionView.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Preserved bytes: Views/VocabularyStudySetsView.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Content/Schema/reader unchanged",
+      "status": "PASS"
+    },
+    {
+      "check": "All source fields match actual DB and retained DATA08 structural audit",
+      "status": "PASS"
+    },
+    {
+      "check": "Exactly42 existing Grammar, no lower_intermediate Grammar",
+      "status": "PASS"
+    },
+    {
+      "check": "Existing42 complete payloads retained",
+      "status": "PASS"
+    },
+    {
+      "check": "Exactly163 unique original candidate IDs, no omitted rows",
+      "status": "PASS"
+    },
+    {
+      "check": "54 proposed teaching units within45–60; no runtime IDs/approvals",
+      "status": "PASS"
+    },
+    {
+      "check": "Long-term goal350–500 unchanged",
+      "status": "PASS"
+    },
+    {
+      "check": "No exact duplicate draft/registered patterns",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate001 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate001 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate002 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate002 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate003 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate003 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate004 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate004 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate005 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate005 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate006 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate006 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate007 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate007 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate008 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate008 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate009 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate009 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate010 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate010 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate011 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate011 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate012 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate012 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate013 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate013 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate014 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate014 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate015 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate015 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate016 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate016 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate017 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate017 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate018 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate018 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate019 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate019 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate020 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate020 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate021 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate021 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate022 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate022 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate023 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate023 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate024 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate024 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate025 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate025 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate026 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate026 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate027 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate027 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate028 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate028 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate029 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate029 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate030 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate030 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate031 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate031 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate032 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate032 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate033 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate033 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate034 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate034 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate035 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate035 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate036 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate036 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate037 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate037 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate038 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate038 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate039 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate039 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate040 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate040 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate041 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate041 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate042 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate042 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate043 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate043 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate044 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate044 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate045 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate045 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate046 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate046 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate047 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate047 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate048 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate048 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate049 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate049 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate050 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate050 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate051 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate051 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate052 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate052 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate053 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate053 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate054 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate054 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate055 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate055 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate056 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate056 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate057 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate057 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate058 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate058 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate059 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate059 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate060 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate060 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate061 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate061 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate062 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate062 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate063 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate063 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate064 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate064 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate065 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate065 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate066 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate066 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate067 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate067 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate068 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate068 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate069 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate069 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate070 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate070 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate071 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate071 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate072 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate072 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate073 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate073 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate074 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate074 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate075 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate075 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate076 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate076 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate077 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate077 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate078 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate078 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate079 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate079 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate080 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate080 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate081 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate081 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate082 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate082 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate083 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate083 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate084 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate084 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate085 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate085 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate086 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate086 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate087 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate087 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate088 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate088 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate089 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate089 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate090 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate090 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate091 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate091 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate092 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate092 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate093 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate093 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate094 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate094 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate095 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate095 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate096 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate096 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate097 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate097 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate098 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate098 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate099 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate099 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate100 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate100 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate101 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate101 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate102 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate102 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate103 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate103 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate104 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate104 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate105 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate105 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate106 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate106 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate107 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate107 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate108 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate108 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate109 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate109 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate110 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate110 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate111 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate111 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate112 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate112 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate113 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate113 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate114 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate114 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate115 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate115 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate116 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate116 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate117 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate117 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate118 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate118 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate119 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate119 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate120 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate120 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate121 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate121 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate122 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate122 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate123 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate123 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate124 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate124 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate125 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate125 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate126 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate126 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate127 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate127 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate128 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate128 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate129 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate129 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate130 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate130 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate131 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate131 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate132 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate132 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate133 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate133 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate134 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate134 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate135 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate135 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate136 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate136 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate137 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate137 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate138 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate138 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate139 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate139 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate140 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate140 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate141 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate141 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate142 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate142 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate143 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate143 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate144 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate144 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate145 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate145 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate146 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate146 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate147 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate147 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate148 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate148 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate149 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate149 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate150 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate150 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate151 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate151 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate152 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate152 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate153 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate153 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate154 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate154 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate155 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate155 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate156 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate156 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate157 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate157 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate158 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate158 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate159 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate159 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate160 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate160 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate161 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate161 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate162 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate162 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate163 actual pair/level/original features/quoted evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "Candidate163 authored rationale/reference/no approval",
+      "status": "PASS"
+    },
+    {
+      "check": "Category totals reflect actual163 decisions",
+      "status": "PASS"
+    },
+    {
+      "check": "P01 all references resolve; no self-comparison",
+      "status": "PASS"
+    },
+    {
+      "check": "P01 prerequisite order and bounded question/examples design",
+      "status": "PASS"
+    },
+    {
+      "check": "P01 reuse ledger complete and unapproved",
+      "status": "PASS"
+    },
+    {
+      "check": "P01 reusable listening IDs:4b1634f5-2d65-4cd9-b46e-f8c51ff5cc68",
+      "status": "PASS"
+    },
+    {
+      "check": "P01 reusable question IDs:4b1634f5-2d65-4cd9-b46e-f8c51ff5cc68",
+      "status": "PASS"
+    },
+    {
+      "check": "P01 reusable listening IDs:8141ea0a-b82f-4d32-9059-8c2025d92656",
+      "status": "PASS"
+    },
+    {
+      "check": "P01 reusable question IDs:8141ea0a-b82f-4d32-9059-8c2025d92656",
+      "status": "PASS"
+    },
+    {
+      "check": "P01 reusable listening IDs:8e0c2adb-928f-40e1-bd6b-2155189f3b51",
+      "status": "PASS"
+    },
+    {
+      "check": "P01 reusable question IDs:8e0c2adb-928f-40e1-bd6b-2155189f3b51",
+      "status": "PASS"
+    },
+    {
+      "check": "P01 reusable listening IDs:91b30253-3950-4ce4-ae8f-d254b3ef97ec",
+      "status": "PASS"
+    },
+    {
+      "check": "P01 reusable question IDs:91b30253-3950-4ce4-ae8f-d254b3ef97ec",
+      "status": "PASS"
+    },
+    {
+      "check": "P01 reusable listening IDs:96d66b97-0c86-42c3-aba8-bdf0efe235f3",
+      "status": "PASS"
+    },
+    {
+      "check": "P01 reusable question IDs:96d66b97-0c86-42c3-aba8-bdf0efe235f3",
+      "status": "PASS"
+    },
+    {
+      "check": "P01 reusable listening IDs:bf0cbb3e-9512-468b-906f-a5deac21bef9",
+      "status": "PASS"
+    },
+    {
+      "check": "P01 reusable question IDs:bf0cbb3e-9512-468b-906f-a5deac21bef9",
+      "status": "PASS"
+    },
+    {
+      "check": "P02 all references resolve; no self-comparison",
+      "status": "PASS"
+    },
+    {
+      "check": "P02 prerequisite order and bounded question/examples design",
+      "status": "PASS"
+    },
+    {
+      "check": "P02 reuse ledger complete and unapproved",
+      "status": "PASS"
+    },
+    {
+      "check": "P02 reusable listening IDs:83f63295-c73e-4551-bef8-a7ca89bdd6d5",
+      "status": "PASS"
+    },
+    {
+      "check": "P02 reusable question IDs:83f63295-c73e-4551-bef8-a7ca89bdd6d5",
+      "status": "PASS"
+    },
+    {
+      "check": "P03 all references resolve; no self-comparison",
+      "status": "PASS"
+    },
+    {
+      "check": "P03 prerequisite order and bounded question/examples design",
+      "status": "PASS"
+    },
+    {
+      "check": "P03 reuse ledger complete and unapproved",
+      "status": "PASS"
+    },
+    {
+      "check": "P03 reusable listening IDs:0d4d4af7-4c8c-4bdc-8396-98c1b927871b",
+      "status": "PASS"
+    },
+    {
+      "check": "P03 reusable question IDs:0d4d4af7-4c8c-4bdc-8396-98c1b927871b",
+      "status": "PASS"
+    },
+    {
+      "check": "P03 reusable listening IDs:1dbf80aa-4ef2-4e67-9f5a-ccc2253908a3",
+      "status": "PASS"
+    },
+    {
+      "check": "P03 reusable question IDs:1dbf80aa-4ef2-4e67-9f5a-ccc2253908a3",
+      "status": "PASS"
+    },
+    {
+      "check": "P03 reusable listening IDs:3001ced8-2226-4af5-b68d-c78935499a77",
+      "status": "PASS"
+    },
+    {
+      "check": "P03 reusable question IDs:3001ced8-2226-4af5-b68d-c78935499a77",
+      "status": "PASS"
+    },
+    {
+      "check": "P03 reusable listening IDs:3390dec4-9be0-4046-85a1-018399a58de9",
+      "status": "PASS"
+    },
+    {
+      "check": "P03 reusable question IDs:3390dec4-9be0-4046-85a1-018399a58de9",
+      "status": "PASS"
+    },
+    {
+      "check": "P03 reusable listening IDs:578f1b6f-e421-46fb-bb97-206868c86206",
+      "status": "PASS"
+    },
+    {
+      "check": "P03 reusable question IDs:578f1b6f-e421-46fb-bb97-206868c86206",
+      "status": "PASS"
+    },
+    {
+      "check": "P03 reusable listening IDs:765bd5fb-88fe-465e-b738-0e2a93279eb5",
+      "status": "PASS"
+    },
+    {
+      "check": "P03 reusable question IDs:765bd5fb-88fe-465e-b738-0e2a93279eb5",
+      "status": "PASS"
+    },
+    {
+      "check": "P03 reusable listening IDs:92585cbe-3e12-4e65-9f14-b8ae44cf2228",
+      "status": "PASS"
+    },
+    {
+      "check": "P03 reusable question IDs:92585cbe-3e12-4e65-9f14-b8ae44cf2228",
+      "status": "PASS"
+    },
+    {
+      "check": "P03 reusable listening IDs:cb58e710-7d9e-4f89-926a-407bdf5417e9",
+      "status": "PASS"
+    },
+    {
+      "check": "P03 reusable question IDs:cb58e710-7d9e-4f89-926a-407bdf5417e9",
+      "status": "PASS"
+    },
+    {
+      "check": "P03 reusable listening IDs:cbba4966-cb5a-4135-8886-9c5c738801d7",
+      "status": "PASS"
+    },
+    {
+      "check": "P03 reusable question IDs:cbba4966-cb5a-4135-8886-9c5c738801d7",
+      "status": "PASS"
+    },
+    {
+      "check": "P03 reusable listening IDs:cc95650e-eddc-44a7-b094-5eb818625017",
+      "status": "PASS"
+    },
+    {
+      "check": "P03 reusable question IDs:cc95650e-eddc-44a7-b094-5eb818625017",
+      "status": "PASS"
+    },
+    {
+      "check": "P03 reusable listening IDs:d6d47e5c-790a-4913-9f8d-05c89f65c53b",
+      "status": "PASS"
+    },
+    {
+      "check": "P03 reusable question IDs:d6d47e5c-790a-4913-9f8d-05c89f65c53b",
+      "status": "PASS"
+    },
+    {
+      "check": "P03 reusable listening IDs:eabf81ea-ad02-4e4d-9cc3-b01876489972",
+      "status": "PASS"
+    },
+    {
+      "check": "P03 reusable question IDs:eabf81ea-ad02-4e4d-9cc3-b01876489972",
+      "status": "PASS"
+    },
+    {
+      "check": "P03 reusable listening IDs:fb1d25e1-1d2d-4371-8573-08a367fc0240",
+      "status": "PASS"
+    },
+    {
+      "check": "P03 reusable question IDs:fb1d25e1-1d2d-4371-8573-08a367fc0240",
+      "status": "PASS"
+    },
+    {
+      "check": "P03 reusable listening IDs:fd6138b4-034a-4670-83e9-640f33514868",
+      "status": "PASS"
+    },
+    {
+      "check": "P03 reusable question IDs:fd6138b4-034a-4670-83e9-640f33514868",
+      "status": "PASS"
+    },
+    {
+      "check": "P04 all references resolve; no self-comparison",
+      "status": "PASS"
+    },
+    {
+      "check": "P04 prerequisite order and bounded question/examples design",
+      "status": "PASS"
+    },
+    {
+      "check": "P04 reuse ledger complete and unapproved",
+      "status": "PASS"
+    },
+    {
+      "check": "P04 reusable listening IDs:00af92cf-0d96-4d71-9e69-bf375ca33980",
+      "status": "PASS"
+    },
+    {
+      "check": "P04 reusable question IDs:00af92cf-0d96-4d71-9e69-bf375ca33980",
+      "status": "PASS"
+    },
+    {
+      "check": "P04 reusable listening IDs:5f006780-734f-427d-b970-c5daa1e6cb9e",
+      "status": "PASS"
+    },
+    {
+      "check": "P04 reusable question IDs:5f006780-734f-427d-b970-c5daa1e6cb9e",
+      "status": "PASS"
+    },
+    {
+      "check": "P04 reusable listening IDs:c4001ebf-8cc8-406c-b0dd-16937faa1eec",
+      "status": "PASS"
+    },
+    {
+      "check": "P04 reusable question IDs:c4001ebf-8cc8-406c-b0dd-16937faa1eec",
+      "status": "PASS"
+    },
+    {
+      "check": "P05 all references resolve; no self-comparison",
+      "status": "PASS"
+    },
+    {
+      "check": "P05 prerequisite order and bounded question/examples design",
+      "status": "PASS"
+    },
+    {
+      "check": "P05 reuse ledger complete and unapproved",
+      "status": "PASS"
+    },
+    {
+      "check": "P06 all references resolve; no self-comparison",
+      "status": "PASS"
+    },
+    {
+      "check": "P06 prerequisite order and bounded question/examples design",
+      "status": "PASS"
+    },
+    {
+      "check": "P06 reuse ledger complete and unapproved",
+      "status": "PASS"
+    },
+    {
+      "check": "P06 reusable listening IDs:5b758c3e-3151-481b-bc13-61799eb4225d",
+      "status": "PASS"
+    },
+    {
+      "check": "P06 reusable question IDs:5b758c3e-3151-481b-bc13-61799eb4225d",
+      "status": "PASS"
+    },
+    {
+      "check": "P07 all references resolve; no self-comparison",
+      "status": "PASS"
+    },
+    {
+      "check": "P07 prerequisite order and bounded question/examples design",
+      "status": "PASS"
+    },
+    {
+      "check": "P07 reuse ledger complete and unapproved",
+      "status": "PASS"
+    },
+    {
+      "check": "P07 reusable listening IDs:41fdee06-df37-49bf-a5b5-fd6dc2e14789",
+      "status": "PASS"
+    },
+    {
+      "check": "P07 reusable question IDs:41fdee06-df37-49bf-a5b5-fd6dc2e14789",
+      "status": "PASS"
+    },
+    {
+      "check": "P07 reusable listening IDs:621ad70c-a493-4f47-bf89-873f62d55673",
+      "status": "PASS"
+    },
+    {
+      "check": "P07 reusable question IDs:621ad70c-a493-4f47-bf89-873f62d55673",
+      "status": "PASS"
+    },
+    {
+      "check": "P07 reusable listening IDs:6606bf6d-0db0-42f1-91ac-bb142a443e95",
+      "status": "PASS"
+    },
+    {
+      "check": "P07 reusable question IDs:6606bf6d-0db0-42f1-91ac-bb142a443e95",
+      "status": "PASS"
+    },
+    {
+      "check": "P07 reusable listening IDs:68f6bc43-8daf-43b9-b217-2bd229624919",
+      "status": "PASS"
+    },
+    {
+      "check": "P07 reusable question IDs:68f6bc43-8daf-43b9-b217-2bd229624919",
+      "status": "PASS"
+    },
+    {
+      "check": "P07 reusable listening IDs:763a75f8-2356-437a-99af-48999d3fe232",
+      "status": "PASS"
+    },
+    {
+      "check": "P07 reusable question IDs:763a75f8-2356-437a-99af-48999d3fe232",
+      "status": "PASS"
+    },
+    {
+      "check": "P07 reusable listening IDs:9fd5fae7-6c87-4485-b202-7fa854549b9f",
+      "status": "PASS"
+    },
+    {
+      "check": "P07 reusable question IDs:9fd5fae7-6c87-4485-b202-7fa854549b9f",
+      "status": "PASS"
+    },
+    {
+      "check": "P07 reusable listening IDs:b1366a16-bb2a-42b2-bc3d-02a22422a22e",
+      "status": "PASS"
+    },
+    {
+      "check": "P07 reusable question IDs:b1366a16-bb2a-42b2-bc3d-02a22422a22e",
+      "status": "PASS"
+    },
+    {
+      "check": "P07 reusable listening IDs:d686c7a7-34b5-4d69-b146-87f97b1ebd5f",
+      "status": "PASS"
+    },
+    {
+      "check": "P07 reusable question IDs:d686c7a7-34b5-4d69-b146-87f97b1ebd5f",
+      "status": "PASS"
+    },
+    {
+      "check": "P07 reusable listening IDs:e13a2e04-e3bc-49bb-9536-83b67d77e11c",
+      "status": "PASS"
+    },
+    {
+      "check": "P07 reusable question IDs:e13a2e04-e3bc-49bb-9536-83b67d77e11c",
+      "status": "PASS"
+    },
+    {
+      "check": "P08 all references resolve; no self-comparison",
+      "status": "PASS"
+    },
+    {
+      "check": "P08 prerequisite order and bounded question/examples design",
+      "status": "PASS"
+    },
+    {
+      "check": "P08 reuse ledger complete and unapproved",
+      "status": "PASS"
+    },
+    {
+      "check": "P08 reusable listening IDs:b097f117-cd4e-4f80-a1cb-974d5be3284f",
+      "status": "PASS"
+    },
+    {
+      "check": "P08 reusable question IDs:b097f117-cd4e-4f80-a1cb-974d5be3284f",
+      "status": "PASS"
+    },
+    {
+      "check": "P09 all references resolve; no self-comparison",
+      "status": "PASS"
+    },
+    {
+      "check": "P09 prerequisite order and bounded question/examples design",
+      "status": "PASS"
+    },
+    {
+      "check": "P09 reuse ledger complete and unapproved",
+      "status": "PASS"
+    },
+    {
+      "check": "P09 reusable listening IDs:3001ced8-2226-4af5-b68d-c78935499a77",
+      "status": "PASS"
+    },
+    {
+      "check": "P09 reusable question IDs:3001ced8-2226-4af5-b68d-c78935499a77",
+      "status": "PASS"
+    },
+    {
+      "check": "P10 all references resolve; no self-comparison",
+      "status": "PASS"
+    },
+    {
+      "check": "P10 prerequisite order and bounded question/examples design",
+      "status": "PASS"
+    },
+    {
+      "check": "P10 reuse ledger complete and unapproved",
+      "status": "PASS"
+    },
+    {
+      "check": "P10 reusable listening IDs:328eb81c-5b3a-4ce5-bfb1-878cdea8d099",
+      "status": "PASS"
+    },
+    {
+      "check": "P10 reusable question IDs:328eb81c-5b3a-4ce5-bfb1-878cdea8d099",
+      "status": "PASS"
+    },
+    {
+      "check": "P10 reusable listening IDs:c69be139-ae8b-4fa2-a45b-58537400de77",
+      "status": "PASS"
+    },
+    {
+      "check": "P10 reusable question IDs:c69be139-ae8b-4fa2-a45b-58537400de77",
+      "status": "PASS"
+    },
+    {
+      "check": "P10 reusable listening IDs:d030d8b1-0a40-4ec2-adce-ef0bcfdbaf03",
+      "status": "PASS"
+    },
+    {
+      "check": "P10 reusable question IDs:d030d8b1-0a40-4ec2-adce-ef0bcfdbaf03",
+      "status": "PASS"
+    },
+    {
+      "check": "P11 all references resolve; no self-comparison",
+      "status": "PASS"
+    },
+    {
+      "check": "P11 prerequisite order and bounded question/examples design",
+      "status": "PASS"
+    },
+    {
+      "check": "P11 reuse ledger complete and unapproved",
+      "status": "PASS"
+    },
+    {
+      "check": "P12 all references resolve; no self-comparison",
+      "status": "PASS"
+    },
+    {
+      "check": "P12 prerequisite order and bounded question/examples design",
+      "status": "PASS"
+    },
+    {
+      "check": "P12 reuse ledger complete and unapproved",
+      "status": "PASS"
+    },
+    {
+      "check": "P13 all references resolve; no self-comparison",
+      "status": "PASS"
+    },
+    {
+      "check": "P13 prerequisite order and bounded question/examples design",
+      "status": "PASS"
+    },
+    {
+      "check": "P13 reuse ledger complete and unapproved",
+      "status": "PASS"
+    },
+    {
+      "check": "P14 all references resolve; no self-comparison",
+      "status": "PASS"
+    },
+    {
+      "check": "P14 prerequisite order and bounded question/examples design",
+      "status": "PASS"
+    },
+    {
+      "check": "P14 reuse ledger complete and unapproved",
+      "status": "PASS"
+    },
+    {
+      "check": "P14 reusable listening IDs:8ce76227-7d8d-41e9-b78d-d79bb0b74fe5",
+      "status": "PASS"
+    },
+    {
+      "check": "P14 reusable question IDs:8ce76227-7d8d-41e9-b78d-d79bb0b74fe5",
+      "status": "PASS"
+    },
+    {
+      "check": "P15 all references resolve; no self-comparison",
+      "status": "PASS"
+    },
+    {
+      "check": "P15 prerequisite order and bounded question/examples design",
+      "status": "PASS"
+    },
+    {
+      "check": "P15 reuse ledger complete and unapproved",
+      "status": "PASS"
+    },
+    {
+      "check": "P16 all references resolve; no self-comparison",
+      "status": "PASS"
+    },
+    {
+      "check": "P16 prerequisite order and bounded question/examples design",
+      "status": "PASS"
+    },
+    {
+      "check": "P16 reuse ledger complete and unapproved",
+      "status": "PASS"
+    },
+    {
+      "check": "P16 reusable listening IDs:b72cce78-319d-485c-8b8c-4c5b369a67a9",
+      "status": "PASS"
+    },
+    {
+      "check": "P16 reusable question IDs:b72cce78-319d-485c-8b8c-4c5b369a67a9",
+      "status": "PASS"
+    },
+    {
+      "check": "P17 all references resolve; no self-comparison",
+      "status": "PASS"
+    },
+    {
+      "check": "P17 prerequisite order and bounded question/examples design",
+      "status": "PASS"
+    },
+    {
+      "check": "P17 reuse ledger complete and unapproved",
+      "status": "PASS"
+    },
+    {
+      "check": "P18 all references resolve; no self-comparison",
+      "status": "PASS"
+    },
+    {
+      "check": "P18 prerequisite order and bounded question/examples design",
+      "status": "PASS"
+    },
+    {
+      "check": "P18 reuse ledger complete and unapproved",
+      "status": "PASS"
+    },
+    {
+      "check": "P19 all references resolve; no self-comparison",
+      "status": "PASS"
+    },
+    {
+      "check": "P19 prerequisite order and bounded question/examples design",
+      "status": "PASS"
+    },
+    {
+      "check": "P19 reuse ledger complete and unapproved",
+      "status": "PASS"
+    },
+    {
+      "check": "P19 reusable listening IDs:01833473-053d-4240-bb1a-3c7d838bb8be",
+      "status": "PASS"
+    },
+    {
+      "check": "P19 reusable question IDs:01833473-053d-4240-bb1a-3c7d838bb8be",
+      "status": "PASS"
+    },
+    {
+      "check": "P19 reusable listening IDs:03998159-20df-4927-873a-2a87c59bbdda",
+      "status": "PASS"
+    },
+    {
+      "check": "P19 reusable question IDs:03998159-20df-4927-873a-2a87c59bbdda",
+      "status": "PASS"
+    },
+    {
+      "check": "P19 reusable listening IDs:06d37bf4-f131-414b-b101-2e61c57cf437",
+      "status": "PASS"
+    },
+    {
+      "check": "P19 reusable question IDs:06d37bf4-f131-414b-b101-2e61c57cf437",
+      "status": "PASS"
+    },
+    {
+      "check": "P19 reusable listening IDs:0b68c5fb-1b72-4a00-93bc-4458c3d51ea5",
+      "status": "PASS"
+    },
+    {
+      "check": "P19 reusable question IDs:0b68c5fb-1b72-4a00-93bc-4458c3d51ea5",
+      "status": "PASS"
+    },
+    {
+      "check": "P19 reusable listening IDs:0cad3cc8-0c02-4236-8236-69fbcf0e721f",
+      "status": "PASS"
+    },
+    {
+      "check": "P19 reusable question IDs:0cad3cc8-0c02-4236-8236-69fbcf0e721f",
+      "status": "PASS"
+    },
+    {
+      "check": "P19 reusable listening IDs:145726a1-e54a-4088-99a3-64174b3d7875",
+      "status": "PASS"
+    },
+    {
+      "check": "P19 reusable question IDs:145726a1-e54a-4088-99a3-64174b3d7875",
+      "status": "PASS"
+    },
+    {
+      "check": "P19 reusable listening IDs:1665a361-77c8-4aaf-8604-233dff8c76ff",
+      "status": "PASS"
+    },
+    {
+      "check": "P19 reusable question IDs:1665a361-77c8-4aaf-8604-233dff8c76ff",
+      "status": "PASS"
+    },
+    {
+      "check": "P19 reusable listening IDs:274998f2-f826-479a-a62d-f97e17d48eab",
+      "status": "PASS"
+    },
+    {
+      "check": "P19 reusable question IDs:274998f2-f826-479a-a62d-f97e17d48eab",
+      "status": "PASS"
+    },
+    {
+      "check": "P19 reusable listening IDs:2e1e1670-fdba-48cb-9052-e6ab8afb10ef",
+      "status": "PASS"
+    },
+    {
+      "check": "P19 reusable question IDs:2e1e1670-fdba-48cb-9052-e6ab8afb10ef",
+      "status": "PASS"
+    },
+    {
+      "check": "P19 reusable listening IDs:3b9a926f-7e99-4aff-bd42-79d8e65c5958",
+      "status": "PASS"
+    },
+    {
+      "check": "P19 reusable question IDs:3b9a926f-7e99-4aff-bd42-79d8e65c5958",
+      "status": "PASS"
+    },
+    {
+      "check": "P19 reusable listening IDs:4b1634f5-2d65-4cd9-b46e-f8c51ff5cc68",
+      "status": "PASS"
+    },
+    {
+      "check": "P19 reusable question IDs:4b1634f5-2d65-4cd9-b46e-f8c51ff5cc68",
+      "status": "PASS"
+    },
+    {
+      "check": "P19 reusable listening IDs:4c8ee8b4-37b6-4f37-9848-a643848ab3e7",
+      "status": "PASS"
+    },
+    {
+      "check": "P19 reusable question IDs:4c8ee8b4-37b6-4f37-9848-a643848ab3e7",
+      "status": "PASS"
+    },
+    {
+      "check": "P19 reusable listening IDs:50b137e6-a460-464f-a08f-99d5b84312dd",
+      "status": "PASS"
+    },
+    {
+      "check": "P19 reusable question IDs:50b137e6-a460-464f-a08f-99d5b84312dd",
+      "status": "PASS"
+    },
+    {
+      "check": "P19 reusable listening IDs:551d238f-c2e2-4fdb-8935-14e8bc5ca332",
+      "status": "PASS"
+    },
+    {
+      "check": "P19 reusable question IDs:551d238f-c2e2-4fdb-8935-14e8bc5ca332",
+      "status": "PASS"
+    },
+    {
+      "check": "P19 reusable listening IDs:5cc49845-dcbe-4a41-959b-f441f249845d",
+      "status": "PASS"
+    },
+    {
+      "check": "P19 reusable question IDs:5cc49845-dcbe-4a41-959b-f441f249845d",
+      "status": "PASS"
+    },
+    {
+      "check": "P19 reusable listening IDs:5f006780-734f-427d-b970-c5daa1e6cb9e",
+      "status": "PASS"
+    },
+    {
+      "check": "P19 reusable question IDs:5f006780-734f-427d-b970-c5daa1e6cb9e",
+      "status": "PASS"
+    },
+    {
+      "check": "P19 reusable listening IDs:61cb4435-8160-4d50-9de7-8ca393658682",
+      "status": "PASS"
+    },
+    {
+      "check": "P19 reusable question IDs:61cb4435-8160-4d50-9de7-8ca393658682",
+      "status": "PASS"
+    },
+    {
+      "check": "P19 reusable listening IDs:6e4aaf26-39ee-49f7-bf64-cfd8f1d09c2c",
+      "status": "PASS"
+    },
+    {
+      "check": "P19 reusable question IDs:6e4aaf26-39ee-49f7-bf64-cfd8f1d09c2c",
+      "status": "PASS"
+    },
+    {
+      "check": "P19 reusable listening IDs:b143f993-b03c-476b-883d-36492178586a",
+      "status": "PASS"
+    },
+    {
+      "check": "P19 reusable question IDs:b143f993-b03c-476b-883d-36492178586a",
+      "status": "PASS"
+    },
+    {
+      "check": "P19 reusable listening IDs:b72cce78-319d-485c-8b8c-4c5b369a67a9",
+      "status": "PASS"
+    },
+    {
+      "check": "P19 reusable question IDs:b72cce78-319d-485c-8b8c-4c5b369a67a9",
+      "status": "PASS"
+    },
+    {
+      "check": "P19 reusable listening IDs:b89df3bf-8ed0-4e5b-811b-747943bd3b2a",
+      "status": "PASS"
+    },
+    {
+      "check": "P19 reusable question IDs:b89df3bf-8ed0-4e5b-811b-747943bd3b2a",
+      "status": "PASS"
+    },
+    {
+      "check": "P19 reusable listening IDs:bb866d07-1842-49d2-9b3f-c2c4e59b7b07",
+      "status": "PASS"
+    },
+    {
+      "check": "P19 reusable question IDs:bb866d07-1842-49d2-9b3f-c2c4e59b7b07",
+      "status": "PASS"
+    },
+    {
+      "check": "P19 reusable listening IDs:c235d904-d54e-4db2-83c1-f806b6e36ab4",
+      "status": "PASS"
+    },
+    {
+      "check": "P19 reusable question IDs:c235d904-d54e-4db2-83c1-f806b6e36ab4",
+      "status": "PASS"
+    },
+    {
+      "check": "P19 reusable listening IDs:d6d47e5c-790a-4913-9f8d-05c89f65c53b",
+      "status": "PASS"
+    },
+    {
+      "check": "P19 reusable question IDs:d6d47e5c-790a-4913-9f8d-05c89f65c53b",
+      "status": "PASS"
+    },
+    {
+      "check": "P19 reusable listening IDs:dd9b836c-36d8-4142-b900-3610f55a3c96",
+      "status": "PASS"
+    },
+    {
+      "check": "P19 reusable question IDs:dd9b836c-36d8-4142-b900-3610f55a3c96",
+      "status": "PASS"
+    },
+    {
+      "check": "P19 reusable listening IDs:e050a7c3-5d4f-4ceb-af34-d252a2fdbb57",
+      "status": "PASS"
+    },
+    {
+      "check": "P19 reusable question IDs:e050a7c3-5d4f-4ceb-af34-d252a2fdbb57",
+      "status": "PASS"
+    },
+    {
+      "check": "P19 reusable listening IDs:e61e414f-b288-49c7-81cb-2fb03c7d253a",
+      "status": "PASS"
+    },
+    {
+      "check": "P19 reusable question IDs:e61e414f-b288-49c7-81cb-2fb03c7d253a",
+      "status": "PASS"
+    },
+    {
+      "check": "P19 reusable listening IDs:fa7c0452-efa1-4441-9c23-c2c6956d512d",
+      "status": "PASS"
+    },
+    {
+      "check": "P19 reusable question IDs:fa7c0452-efa1-4441-9c23-c2c6956d512d",
+      "status": "PASS"
+    },
+    {
+      "check": "P19 reusable listening IDs:fb1d25e1-1d2d-4371-8573-08a367fc0240",
+      "status": "PASS"
+    },
+    {
+      "check": "P19 reusable question IDs:fb1d25e1-1d2d-4371-8573-08a367fc0240",
+      "status": "PASS"
+    },
+    {
+      "check": "P19 reusable listening IDs:fe03aad8-87f6-4c49-8195-7676dd2e0f6e",
+      "status": "PASS"
+    },
+    {
+      "check": "P19 reusable question IDs:fe03aad8-87f6-4c49-8195-7676dd2e0f6e",
+      "status": "PASS"
+    },
+    {
+      "check": "P20 all references resolve; no self-comparison",
+      "status": "PASS"
+    },
+    {
+      "check": "P20 prerequisite order and bounded question/examples design",
+      "status": "PASS"
+    },
+    {
+      "check": "P20 reuse ledger complete and unapproved",
+      "status": "PASS"
+    },
+    {
+      "check": "P20 reusable listening IDs:0d4d4af7-4c8c-4bdc-8396-98c1b927871b",
+      "status": "PASS"
+    },
+    {
+      "check": "P20 reusable question IDs:0d4d4af7-4c8c-4bdc-8396-98c1b927871b",
+      "status": "PASS"
+    },
+    {
+      "check": "P20 reusable listening IDs:0d5ea834-3f3f-4285-acfe-81b9d785ee35",
+      "status": "PASS"
+    },
+    {
+      "check": "P20 reusable question IDs:0d5ea834-3f3f-4285-acfe-81b9d785ee35",
+      "status": "PASS"
+    },
+    {
+      "check": "P20 reusable listening IDs:21fbd184-5853-468a-b106-8e779f3bac87",
+      "status": "PASS"
+    },
+    {
+      "check": "P20 reusable question IDs:21fbd184-5853-468a-b106-8e779f3bac87",
+      "status": "PASS"
+    },
+    {
+      "check": "P20 reusable listening IDs:290d8ed4-e306-4e70-bbfa-d9024363e19b",
+      "status": "PASS"
+    },
+    {
+      "check": "P20 reusable question IDs:290d8ed4-e306-4e70-bbfa-d9024363e19b",
+      "status": "PASS"
+    },
+    {
+      "check": "P20 reusable listening IDs:3001ced8-2226-4af5-b68d-c78935499a77",
+      "status": "PASS"
+    },
+    {
+      "check": "P20 reusable question IDs:3001ced8-2226-4af5-b68d-c78935499a77",
+      "status": "PASS"
+    },
+    {
+      "check": "P20 reusable listening IDs:3390dec4-9be0-4046-85a1-018399a58de9",
+      "status": "PASS"
+    },
+    {
+      "check": "P20 reusable question IDs:3390dec4-9be0-4046-85a1-018399a58de9",
+      "status": "PASS"
+    },
+    {
+      "check": "P20 reusable listening IDs:3b67e8a5-be40-4291-adb1-46099db6d1be",
+      "status": "PASS"
+    },
+    {
+      "check": "P20 reusable question IDs:3b67e8a5-be40-4291-adb1-46099db6d1be",
+      "status": "PASS"
+    },
+    {
+      "check": "P20 reusable listening IDs:498d61d1-d209-452f-b604-91c7118e0b49",
+      "status": "PASS"
+    },
+    {
+      "check": "P20 reusable question IDs:498d61d1-d209-452f-b604-91c7118e0b49",
+      "status": "PASS"
+    },
+    {
+      "check": "P20 reusable listening IDs:4e45a5a1-d10a-4baa-b8ca-6d416a3be936",
+      "status": "PASS"
+    },
+    {
+      "check": "P20 reusable question IDs:4e45a5a1-d10a-4baa-b8ca-6d416a3be936",
+      "status": "PASS"
+    },
+    {
+      "check": "P20 reusable listening IDs:538c86ab-4dc6-4474-8e9f-70d5b165c62a",
+      "status": "PASS"
+    },
+    {
+      "check": "P20 reusable question IDs:538c86ab-4dc6-4474-8e9f-70d5b165c62a",
+      "status": "PASS"
+    },
+    {
+      "check": "P20 reusable listening IDs:546d8f87-b3cb-46d5-bf0d-177c8b040dbe",
+      "status": "PASS"
+    },
+    {
+      "check": "P20 reusable question IDs:546d8f87-b3cb-46d5-bf0d-177c8b040dbe",
+      "status": "PASS"
+    },
+    {
+      "check": "P20 reusable listening IDs:578f1b6f-e421-46fb-bb97-206868c86206",
+      "status": "PASS"
+    },
+    {
+      "check": "P20 reusable question IDs:578f1b6f-e421-46fb-bb97-206868c86206",
+      "status": "PASS"
+    },
+    {
+      "check": "P20 reusable listening IDs:681032a9-268c-4da7-a097-20a09579a6f1",
+      "status": "PASS"
+    },
+    {
+      "check": "P20 reusable question IDs:681032a9-268c-4da7-a097-20a09579a6f1",
+      "status": "PASS"
+    },
+    {
+      "check": "P20 reusable listening IDs:83ccfa12-e048-4b6a-b056-daffa1a1becb",
+      "status": "PASS"
+    },
+    {
+      "check": "P20 reusable question IDs:83ccfa12-e048-4b6a-b056-daffa1a1becb",
+      "status": "PASS"
+    },
+    {
+      "check": "P20 reusable listening IDs:912efa77-e5df-4b6f-929c-96e3edd70f63",
+      "status": "PASS"
+    },
+    {
+      "check": "P20 reusable question IDs:912efa77-e5df-4b6f-929c-96e3edd70f63",
+      "status": "PASS"
+    },
+    {
+      "check": "P20 reusable listening IDs:92585cbe-3e12-4e65-9f14-b8ae44cf2228",
+      "status": "PASS"
+    },
+    {
+      "check": "P20 reusable question IDs:92585cbe-3e12-4e65-9f14-b8ae44cf2228",
+      "status": "PASS"
+    },
+    {
+      "check": "P20 reusable listening IDs:97a97def-1aad-4f2d-ae28-9a4c78be1dd1",
+      "status": "PASS"
+    },
+    {
+      "check": "P20 reusable question IDs:97a97def-1aad-4f2d-ae28-9a4c78be1dd1",
+      "status": "PASS"
+    },
+    {
+      "check": "P20 reusable listening IDs:a1ab2490-38ee-44f7-98da-f6827640b945",
+      "status": "PASS"
+    },
+    {
+      "check": "P20 reusable question IDs:a1ab2490-38ee-44f7-98da-f6827640b945",
+      "status": "PASS"
+    },
+    {
+      "check": "P20 reusable listening IDs:b2b5443e-09a0-4491-9541-abccd92409a0",
+      "status": "PASS"
+    },
+    {
+      "check": "P20 reusable question IDs:b2b5443e-09a0-4491-9541-abccd92409a0",
+      "status": "PASS"
+    },
+    {
+      "check": "P20 reusable listening IDs:c106101b-698b-473d-8e19-27a9802fd969",
+      "status": "PASS"
+    },
+    {
+      "check": "P20 reusable question IDs:c106101b-698b-473d-8e19-27a9802fd969",
+      "status": "PASS"
+    },
+    {
+      "check": "P20 reusable listening IDs:cbba4966-cb5a-4135-8886-9c5c738801d7",
+      "status": "PASS"
+    },
+    {
+      "check": "P20 reusable question IDs:cbba4966-cb5a-4135-8886-9c5c738801d7",
+      "status": "PASS"
+    },
+    {
+      "check": "P20 reusable listening IDs:d1580697-1d15-4f12-98fa-b4bfadec0a42",
+      "status": "PASS"
+    },
+    {
+      "check": "P20 reusable question IDs:d1580697-1d15-4f12-98fa-b4bfadec0a42",
+      "status": "PASS"
+    },
+    {
+      "check": "P20 reusable listening IDs:da119135-5b15-401d-a6c8-cc5d760b3e3f",
+      "status": "PASS"
+    },
+    {
+      "check": "P20 reusable question IDs:da119135-5b15-401d-a6c8-cc5d760b3e3f",
+      "status": "PASS"
+    },
+    {
+      "check": "P20 reusable listening IDs:f1028ea3-c59c-494d-bc64-8a75e22caf92",
+      "status": "PASS"
+    },
+    {
+      "check": "P20 reusable question IDs:f1028ea3-c59c-494d-bc64-8a75e22caf92",
+      "status": "PASS"
+    },
+    {
+      "check": "P20 reusable listening IDs:fe783f83-f811-4b6a-888f-b76179dfaeae",
+      "status": "PASS"
+    },
+    {
+      "check": "P20 reusable question IDs:fe783f83-f811-4b6a-888f-b76179dfaeae",
+      "status": "PASS"
+    },
+    {
+      "check": "P21 all references resolve; no self-comparison",
+      "status": "PASS"
+    },
+    {
+      "check": "P21 prerequisite order and bounded question/examples design",
+      "status": "PASS"
+    },
+    {
+      "check": "P21 reuse ledger complete and unapproved",
+      "status": "PASS"
+    },
+    {
+      "check": "P21 reusable listening IDs:3867c99b-9f03-4b73-ba44-d90b9132988d",
+      "status": "PASS"
+    },
+    {
+      "check": "P21 reusable question IDs:3867c99b-9f03-4b73-ba44-d90b9132988d",
+      "status": "PASS"
+    },
+    {
+      "check": "P21 reusable listening IDs:76b516af-3b16-4045-8d01-d1e101f6832c",
+      "status": "PASS"
+    },
+    {
+      "check": "P21 reusable question IDs:76b516af-3b16-4045-8d01-d1e101f6832c",
+      "status": "PASS"
+    },
+    {
+      "check": "P21 reusable listening IDs:dd23ca3e-a553-42ef-9fbf-cb0176d7bb46",
+      "status": "PASS"
+    },
+    {
+      "check": "P21 reusable question IDs:dd23ca3e-a553-42ef-9fbf-cb0176d7bb46",
+      "status": "PASS"
+    },
+    {
+      "check": "P22 all references resolve; no self-comparison",
+      "status": "PASS"
+    },
+    {
+      "check": "P22 prerequisite order and bounded question/examples design",
+      "status": "PASS"
+    },
+    {
+      "check": "P22 reuse ledger complete and unapproved",
+      "status": "PASS"
+    },
+    {
+      "check": "P22 reusable listening IDs:d12d1eba-9fd0-4542-b4bf-6006958e3a89",
+      "status": "PASS"
+    },
+    {
+      "check": "P22 reusable question IDs:d12d1eba-9fd0-4542-b4bf-6006958e3a89",
+      "status": "PASS"
+    },
+    {
+      "check": "P23 all references resolve; no self-comparison",
+      "status": "PASS"
+    },
+    {
+      "check": "P23 prerequisite order and bounded question/examples design",
+      "status": "PASS"
+    },
+    {
+      "check": "P23 reuse ledger complete and unapproved",
+      "status": "PASS"
+    },
+    {
+      "check": "P24 all references resolve; no self-comparison",
+      "status": "PASS"
+    },
+    {
+      "check": "P24 prerequisite order and bounded question/examples design",
+      "status": "PASS"
+    },
+    {
+      "check": "P24 reuse ledger complete and unapproved",
+      "status": "PASS"
+    },
+    {
+      "check": "P24 reusable listening IDs:c75a98bf-e4fd-45ce-b850-a178cbb84c8a",
+      "status": "PASS"
+    },
+    {
+      "check": "P24 reusable question IDs:c75a98bf-e4fd-45ce-b850-a178cbb84c8a",
+      "status": "PASS"
+    },
+    {
+      "check": "P24 reusable listening IDs:f1274874-037d-4ebf-bc69-d95b8c536a11",
+      "status": "PASS"
+    },
+    {
+      "check": "P24 reusable question IDs:f1274874-037d-4ebf-bc69-d95b8c536a11",
+      "status": "PASS"
+    },
+    {
+      "check": "P25 all references resolve; no self-comparison",
+      "status": "PASS"
+    },
+    {
+      "check": "P25 prerequisite order and bounded question/examples design",
+      "status": "PASS"
+    },
+    {
+      "check": "P25 reuse ledger complete and unapproved",
+      "status": "PASS"
+    },
+    {
+      "check": "P26 all references resolve; no self-comparison",
+      "status": "PASS"
+    },
+    {
+      "check": "P26 prerequisite order and bounded question/examples design",
+      "status": "PASS"
+    },
+    {
+      "check": "P26 reuse ledger complete and unapproved",
+      "status": "PASS"
+    },
+    {
+      "check": "P27 all references resolve; no self-comparison",
+      "status": "PASS"
+    },
+    {
+      "check": "P27 prerequisite order and bounded question/examples design",
+      "status": "PASS"
+    },
+    {
+      "check": "P27 reuse ledger complete and unapproved",
+      "status": "PASS"
+    },
+    {
+      "check": "P28 all references resolve; no self-comparison",
+      "status": "PASS"
+    },
+    {
+      "check": "P28 prerequisite order and bounded question/examples design",
+      "status": "PASS"
+    },
+    {
+      "check": "P28 reuse ledger complete and unapproved",
+      "status": "PASS"
+    },
+    {
+      "check": "P29 all references resolve; no self-comparison",
+      "status": "PASS"
+    },
+    {
+      "check": "P29 prerequisite order and bounded question/examples design",
+      "status": "PASS"
+    },
+    {
+      "check": "P29 reuse ledger complete and unapproved",
+      "status": "PASS"
+    },
+    {
+      "check": "P30 all references resolve; no self-comparison",
+      "status": "PASS"
+    },
+    {
+      "check": "P30 prerequisite order and bounded question/examples design",
+      "status": "PASS"
+    },
+    {
+      "check": "P30 reuse ledger complete and unapproved",
+      "status": "PASS"
+    },
+    {
+      "check": "P31 all references resolve; no self-comparison",
+      "status": "PASS"
+    },
+    {
+      "check": "P31 prerequisite order and bounded question/examples design",
+      "status": "PASS"
+    },
+    {
+      "check": "P31 reuse ledger complete and unapproved",
+      "status": "PASS"
+    },
+    {
+      "check": "P31 reusable listening IDs:00af92cf-0d96-4d71-9e69-bf375ca33980",
+      "status": "PASS"
+    },
+    {
+      "check": "P31 reusable question IDs:00af92cf-0d96-4d71-9e69-bf375ca33980",
+      "status": "PASS"
+    },
+    {
+      "check": "P31 reusable listening IDs:111fa8ab-aaac-436a-885b-cfb1c7e26247",
+      "status": "PASS"
+    },
+    {
+      "check": "P31 reusable question IDs:111fa8ab-aaac-436a-885b-cfb1c7e26247",
+      "status": "PASS"
+    },
+    {
+      "check": "P31 reusable listening IDs:1b1db0f8-1cf0-4ddb-8c48-8e6606b5fa2a",
+      "status": "PASS"
+    },
+    {
+      "check": "P31 reusable question IDs:1b1db0f8-1cf0-4ddb-8c48-8e6606b5fa2a",
+      "status": "PASS"
+    },
+    {
+      "check": "P31 reusable listening IDs:1dbf80aa-4ef2-4e67-9f5a-ccc2253908a3",
+      "status": "PASS"
+    },
+    {
+      "check": "P31 reusable question IDs:1dbf80aa-4ef2-4e67-9f5a-ccc2253908a3",
+      "status": "PASS"
+    },
+    {
+      "check": "P31 reusable listening IDs:2289959c-023c-481c-a3b3-2ef37c256862",
+      "status": "PASS"
+    },
+    {
+      "check": "P31 reusable question IDs:2289959c-023c-481c-a3b3-2ef37c256862",
+      "status": "PASS"
+    },
+    {
+      "check": "P31 reusable listening IDs:2621cbd0-d19e-4132-8956-9a5a5b90be56",
+      "status": "PASS"
+    },
+    {
+      "check": "P31 reusable question IDs:2621cbd0-d19e-4132-8956-9a5a5b90be56",
+      "status": "PASS"
+    },
+    {
+      "check": "P31 reusable listening IDs:316fa145-33a9-438d-8bf4-3e94d577b366",
+      "status": "PASS"
+    },
+    {
+      "check": "P31 reusable question IDs:316fa145-33a9-438d-8bf4-3e94d577b366",
+      "status": "PASS"
+    },
+    {
+      "check": "P31 reusable listening IDs:40d689e7-0ebf-4b48-8130-4b2927bac68d",
+      "status": "PASS"
+    },
+    {
+      "check": "P31 reusable question IDs:40d689e7-0ebf-4b48-8130-4b2927bac68d",
+      "status": "PASS"
+    },
+    {
+      "check": "P31 reusable listening IDs:44ea10ac-4044-428c-8e4b-8133d732ac0a",
+      "status": "PASS"
+    },
+    {
+      "check": "P31 reusable question IDs:44ea10ac-4044-428c-8e4b-8133d732ac0a",
+      "status": "PASS"
+    },
+    {
+      "check": "P31 reusable listening IDs:5402d8db-3215-460d-a9af-7b8bc672b671",
+      "status": "PASS"
+    },
+    {
+      "check": "P31 reusable question IDs:5402d8db-3215-460d-a9af-7b8bc672b671",
+      "status": "PASS"
+    },
+    {
+      "check": "P31 reusable listening IDs:546d8f87-b3cb-46d5-bf0d-177c8b040dbe",
+      "status": "PASS"
+    },
+    {
+      "check": "P31 reusable question IDs:546d8f87-b3cb-46d5-bf0d-177c8b040dbe",
+      "status": "PASS"
+    },
+    {
+      "check": "P31 reusable listening IDs:616eaefd-6316-4b71-9772-d33698ab2498",
+      "status": "PASS"
+    },
+    {
+      "check": "P31 reusable question IDs:616eaefd-6316-4b71-9772-d33698ab2498",
+      "status": "PASS"
+    },
+    {
+      "check": "P31 reusable listening IDs:6270bb13-690c-4763-a821-c2f05c3e290d",
+      "status": "PASS"
+    },
+    {
+      "check": "P31 reusable question IDs:6270bb13-690c-4763-a821-c2f05c3e290d",
+      "status": "PASS"
+    },
+    {
+      "check": "P31 reusable listening IDs:62c0e171-d7f4-46a6-aba9-50a49bf62df1",
+      "status": "PASS"
+    },
+    {
+      "check": "P31 reusable question IDs:62c0e171-d7f4-46a6-aba9-50a49bf62df1",
+      "status": "PASS"
+    },
+    {
+      "check": "P31 reusable listening IDs:632c367a-b7b3-4941-8144-706eb26dd0ed",
+      "status": "PASS"
+    },
+    {
+      "check": "P31 reusable question IDs:632c367a-b7b3-4941-8144-706eb26dd0ed",
+      "status": "PASS"
+    },
+    {
+      "check": "P31 reusable listening IDs:6c71d1a2-d010-41b3-a90f-2e1df4e79a0d",
+      "status": "PASS"
+    },
+    {
+      "check": "P31 reusable question IDs:6c71d1a2-d010-41b3-a90f-2e1df4e79a0d",
+      "status": "PASS"
+    },
+    {
+      "check": "P31 reusable listening IDs:6cb23565-5862-4713-aa1c-15c43151aaaa",
+      "status": "PASS"
+    },
+    {
+      "check": "P31 reusable question IDs:6cb23565-5862-4713-aa1c-15c43151aaaa",
+      "status": "PASS"
+    },
+    {
+      "check": "P31 reusable listening IDs:6e7db1af-628f-479f-a1e0-3372c0831ac3",
+      "status": "PASS"
+    },
+    {
+      "check": "P31 reusable question IDs:6e7db1af-628f-479f-a1e0-3372c0831ac3",
+      "status": "PASS"
+    },
+    {
+      "check": "P31 reusable listening IDs:7b4dd97e-2ddf-476a-ab5b-334e5e8f2e41",
+      "status": "PASS"
+    },
+    {
+      "check": "P31 reusable question IDs:7b4dd97e-2ddf-476a-ab5b-334e5e8f2e41",
+      "status": "PASS"
+    },
+    {
+      "check": "P31 reusable listening IDs:8e0c2adb-928f-40e1-bd6b-2155189f3b51",
+      "status": "PASS"
+    },
+    {
+      "check": "P31 reusable question IDs:8e0c2adb-928f-40e1-bd6b-2155189f3b51",
+      "status": "PASS"
+    },
+    {
+      "check": "P31 reusable listening IDs:91b30253-3950-4ce4-ae8f-d254b3ef97ec",
+      "status": "PASS"
+    },
+    {
+      "check": "P31 reusable question IDs:91b30253-3950-4ce4-ae8f-d254b3ef97ec",
+      "status": "PASS"
+    },
+    {
+      "check": "P31 reusable listening IDs:9f40b580-37aa-4636-a058-624fbaa2f2b5",
+      "status": "PASS"
+    },
+    {
+      "check": "P31 reusable question IDs:9f40b580-37aa-4636-a058-624fbaa2f2b5",
+      "status": "PASS"
+    },
+    {
+      "check": "P31 reusable listening IDs:a6dbcab3-dba4-488d-82a9-269b0a6bede5",
+      "status": "PASS"
+    },
+    {
+      "check": "P31 reusable question IDs:a6dbcab3-dba4-488d-82a9-269b0a6bede5",
+      "status": "PASS"
+    },
+    {
+      "check": "P31 reusable listening IDs:b4dbfe77-c1c1-4a36-bc31-e25cb885d002",
+      "status": "PASS"
+    },
+    {
+      "check": "P31 reusable question IDs:b4dbfe77-c1c1-4a36-bc31-e25cb885d002",
+      "status": "PASS"
+    },
+    {
+      "check": "P31 reusable listening IDs:bff33442-6b43-4687-8dbf-83798e6e7888",
+      "status": "PASS"
+    },
+    {
+      "check": "P31 reusable question IDs:bff33442-6b43-4687-8dbf-83798e6e7888",
+      "status": "PASS"
+    },
+    {
+      "check": "P31 reusable listening IDs:cb73b4f7-ee86-41c8-b4e8-e6a6fcb0c33a",
+      "status": "PASS"
+    },
+    {
+      "check": "P31 reusable question IDs:cb73b4f7-ee86-41c8-b4e8-e6a6fcb0c33a",
+      "status": "PASS"
+    },
+    {
+      "check": "P31 reusable listening IDs:da312b90-abd7-4a90-9e67-7277eedc17fc",
+      "status": "PASS"
+    },
+    {
+      "check": "P31 reusable question IDs:da312b90-abd7-4a90-9e67-7277eedc17fc",
+      "status": "PASS"
+    },
+    {
+      "check": "P31 reusable listening IDs:e14da8b6-c51e-4cbb-80f4-bb0a43134253",
+      "status": "PASS"
+    },
+    {
+      "check": "P31 reusable question IDs:e14da8b6-c51e-4cbb-80f4-bb0a43134253",
+      "status": "PASS"
+    },
+    {
+      "check": "P31 reusable listening IDs:fcf5e9be-9685-4676-ab92-28d63039a0a1",
+      "status": "PASS"
+    },
+    {
+      "check": "P31 reusable question IDs:fcf5e9be-9685-4676-ab92-28d63039a0a1",
+      "status": "PASS"
+    },
+    {
+      "check": "P31 reusable listening IDs:fd870e88-9ca9-4643-8804-3fec9549c67d",
+      "status": "PASS"
+    },
+    {
+      "check": "P31 reusable question IDs:fd870e88-9ca9-4643-8804-3fec9549c67d",
+      "status": "PASS"
+    },
+    {
+      "check": "P32 all references resolve; no self-comparison",
+      "status": "PASS"
+    },
+    {
+      "check": "P32 prerequisite order and bounded question/examples design",
+      "status": "PASS"
+    },
+    {
+      "check": "P32 reuse ledger complete and unapproved",
+      "status": "PASS"
+    },
+    {
+      "check": "P32 reusable listening IDs:1169ec07-c52c-477b-b37a-21e269063d0b",
+      "status": "PASS"
+    },
+    {
+      "check": "P32 reusable question IDs:1169ec07-c52c-477b-b37a-21e269063d0b",
+      "status": "PASS"
+    },
+    {
+      "check": "P32 reusable listening IDs:33983055-ba18-41e2-b681-69df3140e7fd",
+      "status": "PASS"
+    },
+    {
+      "check": "P32 reusable question IDs:33983055-ba18-41e2-b681-69df3140e7fd",
+      "status": "PASS"
+    },
+    {
+      "check": "P32 reusable listening IDs:36e950f3-1e1d-4aa0-9e7f-61e1c433cc33",
+      "status": "PASS"
+    },
+    {
+      "check": "P32 reusable question IDs:36e950f3-1e1d-4aa0-9e7f-61e1c433cc33",
+      "status": "PASS"
+    },
+    {
+      "check": "P32 reusable listening IDs:71db4fde-b118-4c5b-a2d5-22784a19a0e4",
+      "status": "PASS"
+    },
+    {
+      "check": "P32 reusable question IDs:71db4fde-b118-4c5b-a2d5-22784a19a0e4",
+      "status": "PASS"
+    },
+    {
+      "check": "P32 reusable listening IDs:b02d8dbd-a04b-48bb-8609-db335164d7e4",
+      "status": "PASS"
+    },
+    {
+      "check": "P32 reusable question IDs:b02d8dbd-a04b-48bb-8609-db335164d7e4",
+      "status": "PASS"
+    },
+    {
+      "check": "P32 reusable listening IDs:b097f117-cd4e-4f80-a1cb-974d5be3284f",
+      "status": "PASS"
+    },
+    {
+      "check": "P32 reusable question IDs:b097f117-cd4e-4f80-a1cb-974d5be3284f",
+      "status": "PASS"
+    },
+    {
+      "check": "P32 reusable listening IDs:bf0cbb3e-9512-468b-906f-a5deac21bef9",
+      "status": "PASS"
+    },
+    {
+      "check": "P32 reusable question IDs:bf0cbb3e-9512-468b-906f-a5deac21bef9",
+      "status": "PASS"
+    },
+    {
+      "check": "P32 reusable listening IDs:c7917010-6d42-4569-b3d9-d26ed99b216c",
+      "status": "PASS"
+    },
+    {
+      "check": "P32 reusable question IDs:c7917010-6d42-4569-b3d9-d26ed99b216c",
+      "status": "PASS"
+    },
+    {
+      "check": "P32 reusable listening IDs:d84bfc3e-ab1a-40cd-b3de-1566a2f33b92",
+      "status": "PASS"
+    },
+    {
+      "check": "P32 reusable question IDs:d84bfc3e-ab1a-40cd-b3de-1566a2f33b92",
+      "status": "PASS"
+    },
+    {
+      "check": "P32 reusable listening IDs:d9e5aa6c-5281-4638-aeb6-465e8977acec",
+      "status": "PASS"
+    },
+    {
+      "check": "P32 reusable question IDs:d9e5aa6c-5281-4638-aeb6-465e8977acec",
+      "status": "PASS"
+    },
+    {
+      "check": "P33 all references resolve; no self-comparison",
+      "status": "PASS"
+    },
+    {
+      "check": "P33 prerequisite order and bounded question/examples design",
+      "status": "PASS"
+    },
+    {
+      "check": "P33 reuse ledger complete and unapproved",
+      "status": "PASS"
+    },
+    {
+      "check": "P34 all references resolve; no self-comparison",
+      "status": "PASS"
+    },
+    {
+      "check": "P34 prerequisite order and bounded question/examples design",
+      "status": "PASS"
+    },
+    {
+      "check": "P34 reuse ledger complete and unapproved",
+      "status": "PASS"
+    },
+    {
+      "check": "P34 reusable listening IDs:0cad3cc8-0c02-4236-8236-69fbcf0e721f",
+      "status": "PASS"
+    },
+    {
+      "check": "P34 reusable question IDs:0cad3cc8-0c02-4236-8236-69fbcf0e721f",
+      "status": "PASS"
+    },
+    {
+      "check": "P34 reusable listening IDs:27e54c68-2e32-4f69-bf98-221c62ad7834",
+      "status": "PASS"
+    },
+    {
+      "check": "P34 reusable question IDs:27e54c68-2e32-4f69-bf98-221c62ad7834",
+      "status": "PASS"
+    },
+    {
+      "check": "P34 reusable listening IDs:3f4fc3c2-31a6-4eeb-b5e0-5586e40a08c5",
+      "status": "PASS"
+    },
+    {
+      "check": "P34 reusable question IDs:3f4fc3c2-31a6-4eeb-b5e0-5586e40a08c5",
+      "status": "PASS"
+    },
+    {
+      "check": "P34 reusable listening IDs:765bd5fb-88fe-465e-b738-0e2a93279eb5",
+      "status": "PASS"
+    },
+    {
+      "check": "P34 reusable question IDs:765bd5fb-88fe-465e-b738-0e2a93279eb5",
+      "status": "PASS"
+    },
+    {
+      "check": "P34 reusable listening IDs:a04d2c56-9363-421f-829d-b601cd6b6cf2",
+      "status": "PASS"
+    },
+    {
+      "check": "P34 reusable question IDs:a04d2c56-9363-421f-829d-b601cd6b6cf2",
+      "status": "PASS"
+    },
+    {
+      "check": "P34 reusable listening IDs:c42ec7be-322f-4d3c-874d-f543b84576fa",
+      "status": "PASS"
+    },
+    {
+      "check": "P34 reusable question IDs:c42ec7be-322f-4d3c-874d-f543b84576fa",
+      "status": "PASS"
+    },
+    {
+      "check": "P34 reusable listening IDs:cb58e710-7d9e-4f89-926a-407bdf5417e9",
+      "status": "PASS"
+    },
+    {
+      "check": "P34 reusable question IDs:cb58e710-7d9e-4f89-926a-407bdf5417e9",
+      "status": "PASS"
+    },
+    {
+      "check": "P34 reusable listening IDs:cc95650e-eddc-44a7-b094-5eb818625017",
+      "status": "PASS"
+    },
+    {
+      "check": "P34 reusable question IDs:cc95650e-eddc-44a7-b094-5eb818625017",
+      "status": "PASS"
+    },
+    {
+      "check": "P34 reusable listening IDs:eabf81ea-ad02-4e4d-9cc3-b01876489972",
+      "status": "PASS"
+    },
+    {
+      "check": "P34 reusable question IDs:eabf81ea-ad02-4e4d-9cc3-b01876489972",
+      "status": "PASS"
+    },
+    {
+      "check": "P34 reusable listening IDs:fd6138b4-034a-4670-83e9-640f33514868",
+      "status": "PASS"
+    },
+    {
+      "check": "P34 reusable question IDs:fd6138b4-034a-4670-83e9-640f33514868",
+      "status": "PASS"
+    },
+    {
+      "check": "P35 all references resolve; no self-comparison",
+      "status": "PASS"
+    },
+    {
+      "check": "P35 prerequisite order and bounded question/examples design",
+      "status": "PASS"
+    },
+    {
+      "check": "P35 reuse ledger complete and unapproved",
+      "status": "PASS"
+    },
+    {
+      "check": "P36 all references resolve; no self-comparison",
+      "status": "PASS"
+    },
+    {
+      "check": "P36 prerequisite order and bounded question/examples design",
+      "status": "PASS"
+    },
+    {
+      "check": "P36 reuse ledger complete and unapproved",
+      "status": "PASS"
+    },
+    {
+      "check": "P37 all references resolve; no self-comparison",
+      "status": "PASS"
+    },
+    {
+      "check": "P37 prerequisite order and bounded question/examples design",
+      "status": "PASS"
+    },
+    {
+      "check": "P37 reuse ledger complete and unapproved",
+      "status": "PASS"
+    },
+    {
+      "check": "P37 reusable listening IDs:024f3358-36ac-4459-9a2d-6958344a4c47",
+      "status": "PASS"
+    },
+    {
+      "check": "P37 reusable question IDs:024f3358-36ac-4459-9a2d-6958344a4c47",
+      "status": "PASS"
+    },
+    {
+      "check": "P37 reusable listening IDs:05bf65b8-64dd-4557-b30b-5a7cfb006ee3",
+      "status": "PASS"
+    },
+    {
+      "check": "P37 reusable question IDs:05bf65b8-64dd-4557-b30b-5a7cfb006ee3",
+      "status": "PASS"
+    },
+    {
+      "check": "P37 reusable listening IDs:157096b6-50eb-4162-a216-da694949d556",
+      "status": "PASS"
+    },
+    {
+      "check": "P37 reusable question IDs:157096b6-50eb-4162-a216-da694949d556",
+      "status": "PASS"
+    },
+    {
+      "check": "P37 reusable listening IDs:323d87f9-3bf9-4460-a553-382c57d1bb9c",
+      "status": "PASS"
+    },
+    {
+      "check": "P37 reusable question IDs:323d87f9-3bf9-4460-a553-382c57d1bb9c",
+      "status": "PASS"
+    },
+    {
+      "check": "P37 reusable listening IDs:3a70de45-23eb-408a-8917-f6beeebf4762",
+      "status": "PASS"
+    },
+    {
+      "check": "P37 reusable question IDs:3a70de45-23eb-408a-8917-f6beeebf4762",
+      "status": "PASS"
+    },
+    {
+      "check": "P37 reusable listening IDs:5dc3e8a2-ed19-4486-bb03-f896d34c7b11",
+      "status": "PASS"
+    },
+    {
+      "check": "P37 reusable question IDs:5dc3e8a2-ed19-4486-bb03-f896d34c7b11",
+      "status": "PASS"
+    },
+    {
+      "check": "P37 reusable listening IDs:6bd9295a-4257-4715-bdba-dbb08627a171",
+      "status": "PASS"
+    },
+    {
+      "check": "P37 reusable question IDs:6bd9295a-4257-4715-bdba-dbb08627a171",
+      "status": "PASS"
+    },
+    {
+      "check": "P37 reusable listening IDs:6dc3d223-b9a8-41fe-99c5-a9db77eca5a0",
+      "status": "PASS"
+    },
+    {
+      "check": "P37 reusable question IDs:6dc3d223-b9a8-41fe-99c5-a9db77eca5a0",
+      "status": "PASS"
+    },
+    {
+      "check": "P37 reusable listening IDs:83bd63c0-f02f-4682-b4bf-ef6a833008ee",
+      "status": "PASS"
+    },
+    {
+      "check": "P37 reusable question IDs:83bd63c0-f02f-4682-b4bf-ef6a833008ee",
+      "status": "PASS"
+    },
+    {
+      "check": "P37 reusable listening IDs:921833c5-4b7e-4286-be33-32f80f5be6c0",
+      "status": "PASS"
+    },
+    {
+      "check": "P37 reusable question IDs:921833c5-4b7e-4286-be33-32f80f5be6c0",
+      "status": "PASS"
+    },
+    {
+      "check": "P37 reusable listening IDs:ac16095a-4ea0-4db8-887c-8cea6a429dfa",
+      "status": "PASS"
+    },
+    {
+      "check": "P37 reusable question IDs:ac16095a-4ea0-4db8-887c-8cea6a429dfa",
+      "status": "PASS"
+    },
+    {
+      "check": "P37 reusable listening IDs:cb4aabca-b120-4983-a957-ca410956937f",
+      "status": "PASS"
+    },
+    {
+      "check": "P37 reusable question IDs:cb4aabca-b120-4983-a957-ca410956937f",
+      "status": "PASS"
+    },
+    {
+      "check": "P37 reusable listening IDs:d5edc8b5-749b-4df2-a59f-1a1eaeb6ff18",
+      "status": "PASS"
+    },
+    {
+      "check": "P37 reusable question IDs:d5edc8b5-749b-4df2-a59f-1a1eaeb6ff18",
+      "status": "PASS"
+    },
+    {
+      "check": "P37 reusable listening IDs:e2ab0196-64d5-4899-a773-30eefdcb9cb9",
+      "status": "PASS"
+    },
+    {
+      "check": "P37 reusable question IDs:e2ab0196-64d5-4899-a773-30eefdcb9cb9",
+      "status": "PASS"
+    },
+    {
+      "check": "P37 reusable listening IDs:e924b3eb-e177-4f6a-a3ec-6e21ffc28ee4",
+      "status": "PASS"
+    },
+    {
+      "check": "P37 reusable question IDs:e924b3eb-e177-4f6a-a3ec-6e21ffc28ee4",
+      "status": "PASS"
+    },
+    {
+      "check": "P37 reusable listening IDs:f0695f23-19bd-4005-b961-cef0e8125c75",
+      "status": "PASS"
+    },
+    {
+      "check": "P37 reusable question IDs:f0695f23-19bd-4005-b961-cef0e8125c75",
+      "status": "PASS"
+    },
+    {
+      "check": "P37 reusable listening IDs:f29b64aa-5bee-44df-ab5d-84b335a20bdc",
+      "status": "PASS"
+    },
+    {
+      "check": "P37 reusable question IDs:f29b64aa-5bee-44df-ab5d-84b335a20bdc",
+      "status": "PASS"
+    },
+    {
+      "check": "P37 reusable listening IDs:fb6cea0a-e8aa-4f49-9eb5-9318a629d14d",
+      "status": "PASS"
+    },
+    {
+      "check": "P37 reusable question IDs:fb6cea0a-e8aa-4f49-9eb5-9318a629d14d",
+      "status": "PASS"
+    },
+    {
+      "check": "P37 reusable listening IDs:fd778fdc-4876-4804-b562-5a4e945ad72b",
+      "status": "PASS"
+    },
+    {
+      "check": "P37 reusable question IDs:fd778fdc-4876-4804-b562-5a4e945ad72b",
+      "status": "PASS"
+    },
+    {
+      "check": "P38 all references resolve; no self-comparison",
+      "status": "PASS"
+    },
+    {
+      "check": "P38 prerequisite order and bounded question/examples design",
+      "status": "PASS"
+    },
+    {
+      "check": "P38 reuse ledger complete and unapproved",
+      "status": "PASS"
+    },
+    {
+      "check": "P38 reusable listening IDs:024f3358-36ac-4459-9a2d-6958344a4c47",
+      "status": "PASS"
+    },
+    {
+      "check": "P38 reusable question IDs:024f3358-36ac-4459-9a2d-6958344a4c47",
+      "status": "PASS"
+    },
+    {
+      "check": "P38 reusable listening IDs:e924b3eb-e177-4f6a-a3ec-6e21ffc28ee4",
+      "status": "PASS"
+    },
+    {
+      "check": "P38 reusable question IDs:e924b3eb-e177-4f6a-a3ec-6e21ffc28ee4",
+      "status": "PASS"
+    },
+    {
+      "check": "P39 all references resolve; no self-comparison",
+      "status": "PASS"
+    },
+    {
+      "check": "P39 prerequisite order and bounded question/examples design",
+      "status": "PASS"
+    },
+    {
+      "check": "P39 reuse ledger complete and unapproved",
+      "status": "PASS"
+    },
+    {
+      "check": "P39 reusable listening IDs:1788aa40-b14b-49e9-9ed1-49a683ecbc91",
+      "status": "PASS"
+    },
+    {
+      "check": "P39 reusable question IDs:1788aa40-b14b-49e9-9ed1-49a683ecbc91",
+      "status": "PASS"
+    },
+    {
+      "check": "P39 reusable listening IDs:23051279-c557-45fe-9e4d-3d8fd5d72a58",
+      "status": "PASS"
+    },
+    {
+      "check": "P39 reusable question IDs:23051279-c557-45fe-9e4d-3d8fd5d72a58",
+      "status": "PASS"
+    },
+    {
+      "check": "P39 reusable listening IDs:77314712-46fb-44f4-ab90-ab301af3b4f6",
+      "status": "PASS"
+    },
+    {
+      "check": "P39 reusable question IDs:77314712-46fb-44f4-ab90-ab301af3b4f6",
+      "status": "PASS"
+    },
+    {
+      "check": "P39 reusable listening IDs:c31a9da6-60e9-46c7-a6e5-8d5e13eb5cf8",
+      "status": "PASS"
+    },
+    {
+      "check": "P39 reusable question IDs:c31a9da6-60e9-46c7-a6e5-8d5e13eb5cf8",
+      "status": "PASS"
+    },
+    {
+      "check": "P39 reusable listening IDs:fd0edba7-d4cc-47b3-ac22-2f6a012af47b",
+      "status": "PASS"
+    },
+    {
+      "check": "P39 reusable question IDs:fd0edba7-d4cc-47b3-ac22-2f6a012af47b",
+      "status": "PASS"
+    },
+    {
+      "check": "P40 all references resolve; no self-comparison",
+      "status": "PASS"
+    },
+    {
+      "check": "P40 prerequisite order and bounded question/examples design",
+      "status": "PASS"
+    },
+    {
+      "check": "P40 reuse ledger complete and unapproved",
+      "status": "PASS"
+    },
+    {
+      "check": "P40 reusable listening IDs:be5613ef-88c1-423a-93de-a4589f1ec33e",
+      "status": "PASS"
+    },
+    {
+      "check": "P40 reusable question IDs:be5613ef-88c1-423a-93de-a4589f1ec33e",
+      "status": "PASS"
+    },
+    {
+      "check": "P41 all references resolve; no self-comparison",
+      "status": "PASS"
+    },
+    {
+      "check": "P41 prerequisite order and bounded question/examples design",
+      "status": "PASS"
+    },
+    {
+      "check": "P41 reuse ledger complete and unapproved",
+      "status": "PASS"
+    },
+    {
+      "check": "P41 reusable listening IDs:05611109-c05e-4cda-b537-bc701d60071e",
+      "status": "PASS"
+    },
+    {
+      "check": "P41 reusable question IDs:05611109-c05e-4cda-b537-bc701d60071e",
+      "status": "PASS"
+    },
+    {
+      "check": "P41 reusable listening IDs:76c15fc5-8892-41a8-8582-0a7b492d4f51",
+      "status": "PASS"
+    },
+    {
+      "check": "P41 reusable question IDs:76c15fc5-8892-41a8-8582-0a7b492d4f51",
+      "status": "PASS"
+    },
+    {
+      "check": "P42 all references resolve; no self-comparison",
+      "status": "PASS"
+    },
+    {
+      "check": "P42 prerequisite order and bounded question/examples design",
+      "status": "PASS"
+    },
+    {
+      "check": "P42 reuse ledger complete and unapproved",
+      "status": "PASS"
+    },
+    {
+      "check": "P42 reusable listening IDs:68aa70de-9e0f-4fac-979b-2f2ae3217e6f",
+      "status": "PASS"
+    },
+    {
+      "check": "P42 reusable question IDs:68aa70de-9e0f-4fac-979b-2f2ae3217e6f",
+      "status": "PASS"
+    },
+    {
+      "check": "P42 reusable listening IDs:ea25c8f1-bf83-41fa-ada4-73d5a0c4484a",
+      "status": "PASS"
+    },
+    {
+      "check": "P42 reusable question IDs:ea25c8f1-bf83-41fa-ada4-73d5a0c4484a",
+      "status": "PASS"
+    },
+    {
+      "check": "P43 all references resolve; no self-comparison",
+      "status": "PASS"
+    },
+    {
+      "check": "P43 prerequisite order and bounded question/examples design",
+      "status": "PASS"
+    },
+    {
+      "check": "P43 reuse ledger complete and unapproved",
+      "status": "PASS"
+    },
+    {
+      "check": "P43 reusable listening IDs:8141ea0a-b82f-4d32-9059-8c2025d92656",
+      "status": "PASS"
+    },
+    {
+      "check": "P43 reusable question IDs:8141ea0a-b82f-4d32-9059-8c2025d92656",
+      "status": "PASS"
+    },
+    {
+      "check": "P43 reusable listening IDs:c4001ebf-8cc8-406c-b0dd-16937faa1eec",
+      "status": "PASS"
+    },
+    {
+      "check": "P43 reusable question IDs:c4001ebf-8cc8-406c-b0dd-16937faa1eec",
+      "status": "PASS"
+    },
+    {
+      "check": "P43 reusable listening IDs:d847a2f1-0351-488d-80f6-f5dd7dd419e1",
+      "status": "PASS"
+    },
+    {
+      "check": "P43 reusable question IDs:d847a2f1-0351-488d-80f6-f5dd7dd419e1",
+      "status": "PASS"
+    },
+    {
+      "check": "P43 reusable listening IDs:ea8d3ba9-5c5d-4f1d-a69d-2b9e4f5e4f0f",
+      "status": "PASS"
+    },
+    {
+      "check": "P43 reusable question IDs:ea8d3ba9-5c5d-4f1d-a69d-2b9e4f5e4f0f",
+      "status": "PASS"
+    },
+    {
+      "check": "P44 all references resolve; no self-comparison",
+      "status": "PASS"
+    },
+    {
+      "check": "P44 prerequisite order and bounded question/examples design",
+      "status": "PASS"
+    },
+    {
+      "check": "P44 reuse ledger complete and unapproved",
+      "status": "PASS"
+    },
+    {
+      "check": "P44 reusable listening IDs:5b758c3e-3151-481b-bc13-61799eb4225d",
+      "status": "PASS"
+    },
+    {
+      "check": "P44 reusable question IDs:5b758c3e-3151-481b-bc13-61799eb4225d",
+      "status": "PASS"
+    },
+    {
+      "check": "P45 all references resolve; no self-comparison",
+      "status": "PASS"
+    },
+    {
+      "check": "P45 prerequisite order and bounded question/examples design",
+      "status": "PASS"
+    },
+    {
+      "check": "P45 reuse ledger complete and unapproved",
+      "status": "PASS"
+    },
+    {
+      "check": "P45 reusable listening IDs:3c63f9df-0819-4a32-ae5b-2102bdc9478e",
+      "status": "PASS"
+    },
+    {
+      "check": "P45 reusable question IDs:3c63f9df-0819-4a32-ae5b-2102bdc9478e",
+      "status": "PASS"
+    },
+    {
+      "check": "P45 reusable listening IDs:c69be139-ae8b-4fa2-a45b-58537400de77",
+      "status": "PASS"
+    },
+    {
+      "check": "P45 reusable question IDs:c69be139-ae8b-4fa2-a45b-58537400de77",
+      "status": "PASS"
+    },
+    {
+      "check": "P45 reusable listening IDs:d030d8b1-0a40-4ec2-adce-ef0bcfdbaf03",
+      "status": "PASS"
+    },
+    {
+      "check": "P45 reusable question IDs:d030d8b1-0a40-4ec2-adce-ef0bcfdbaf03",
+      "status": "PASS"
+    },
+    {
+      "check": "P46 all references resolve; no self-comparison",
+      "status": "PASS"
+    },
+    {
+      "check": "P46 prerequisite order and bounded question/examples design",
+      "status": "PASS"
+    },
+    {
+      "check": "P46 reuse ledger complete and unapproved",
+      "status": "PASS"
+    },
+    {
+      "check": "P47 all references resolve; no self-comparison",
+      "status": "PASS"
+    },
+    {
+      "check": "P47 prerequisite order and bounded question/examples design",
+      "status": "PASS"
+    },
+    {
+      "check": "P47 reuse ledger complete and unapproved",
+      "status": "PASS"
+    },
+    {
+      "check": "P48 all references resolve; no self-comparison",
+      "status": "PASS"
+    },
+    {
+      "check": "P48 prerequisite order and bounded question/examples design",
+      "status": "PASS"
+    },
+    {
+      "check": "P48 reuse ledger complete and unapproved",
+      "status": "PASS"
+    },
+    {
+      "check": "P49 all references resolve; no self-comparison",
+      "status": "PASS"
+    },
+    {
+      "check": "P49 prerequisite order and bounded question/examples design",
+      "status": "PASS"
+    },
+    {
+      "check": "P49 reuse ledger complete and unapproved",
+      "status": "PASS"
+    },
+    {
+      "check": "P50 all references resolve; no self-comparison",
+      "status": "PASS"
+    },
+    {
+      "check": "P50 prerequisite order and bounded question/examples design",
+      "status": "PASS"
+    },
+    {
+      "check": "P50 reuse ledger complete and unapproved",
+      "status": "PASS"
+    },
+    {
+      "check": "P50 reusable listening IDs:fe783f83-f811-4b6a-888f-b76179dfaeae",
+      "status": "PASS"
+    },
+    {
+      "check": "P50 reusable question IDs:fe783f83-f811-4b6a-888f-b76179dfaeae",
+      "status": "PASS"
+    },
+    {
+      "check": "P51 all references resolve; no self-comparison",
+      "status": "PASS"
+    },
+    {
+      "check": "P51 prerequisite order and bounded question/examples design",
+      "status": "PASS"
+    },
+    {
+      "check": "P51 reuse ledger complete and unapproved",
+      "status": "PASS"
+    },
+    {
+      "check": "P52 all references resolve; no self-comparison",
+      "status": "PASS"
+    },
+    {
+      "check": "P52 prerequisite order and bounded question/examples design",
+      "status": "PASS"
+    },
+    {
+      "check": "P52 reuse ledger complete and unapproved",
+      "status": "PASS"
+    },
+    {
+      "check": "P53 all references resolve; no self-comparison",
+      "status": "PASS"
+    },
+    {
+      "check": "P53 prerequisite order and bounded question/examples design",
+      "status": "PASS"
+    },
+    {
+      "check": "P53 reuse ledger complete and unapproved",
+      "status": "PASS"
+    },
+    {
+      "check": "P54 all references resolve; no self-comparison",
+      "status": "PASS"
+    },
+    {
+      "check": "P54 prerequisite order and bounded question/examples design",
+      "status": "PASS"
+    },
+    {
+      "check": "P54 reuse ledger complete and unapproved",
+      "status": "PASS"
+    },
+    {
+      "check": "Existing19 plus proposed prerequisite edges form DAG",
+      "status": "PASS"
+    },
+    {
+      "check": "18 proposed3-item lessons appended after existing ordinal46",
+      "status": "PASS"
+    }
+  ],
+  "check_count": 1129,
+  "category_counts": {
+    "missing_grammar": 147,
+    "level_mismatch_candidate": 8,
+    "review_only": 8
+  },
+  "production_counts": {
+    "vocabulary": 2287,
+    "meanings": 2420,
+    "examples": 4597,
+    "grammar": 42,
+    "grammar_examples": 169,
+    "listening_items": 1936,
+    "questions": 3337,
+    "courses": 5,
+    "lessons": 85
+  },
+  "source_tables": 25,
+  "source_rows": 63159,
+  "proposed_units": 54,
+  "proposed_lessons": 18,
+  "existing_prerequisite_edges": 19,
+  "existing_and_proposed_DAG_nodes": 96,
+  "new_production_units": 0,
+  "source_sha256": "f97b3bd70d07a3945770b8d6940c4a53e29a9b70b565caf21fb927230c08b4a8",
+  "bundle_sha256": "57aeaf918d5eaaec3bbfaed02f87c5452cca8264540b923a70448b781adbe9e5",
+  "limitation": "Structural/coverage/design-reference checks only. No linguistic certification, confirmed Level reassignment, human approval, Swift execution or Production writes."
+}

@@ -59,3 +59,10 @@
 - `Content/production.json`·DDL·Importer/Validator·ID registry·검수 근거는 반드시 보존한다. `Resources/content.sqlite`는 재생성 가능한 현재 앱 배포 자산이며 Xcode 계약을 변경하지 않고 추적에서 빼지 않는다. 과거 release fixture는 회귀 계약이다. 새 candidate/synthetic/staging SQLite와 Xcode 빌드 결과는 `/tmp`/ignored 경로에 두고 원본/fixture를 덮어쓰지 않는다. 기존 tracked hidden DB는 이번 작업에서 보존했으며 신규 staging을 배포하지 않는다.
 - Git 대용량 오류 전후 tracked 파일과 접근 가능한 history blob 크기를 조사한다. 원본 삭제·데이터 축소·광범위 JSON/SQLite ignore·이력 재작성·force push로 우회하지 않는다. 실제 큰 원본에 필요할 때만 LFS와 checkout/CI/bundle 계약을 함께 검토하고 일반 push의 실제 결과를 확인한다.
 - 동일 Content19 재현은18 fixture strict gate와 임시 출력으로 전체31테이블/derived index/schema/index SQL·SHA까지 비교한다. 다음 콘텐츠 변경은 실제 현재19를 previous snapshot으로 보존한다. 문서·감사 도구 변경만으로 Content/Schema Version을 올리지 않는다. 최신 재현/미완료 gate는 `Docs/DATA08_CLOSEOUT.md`와 `DATA08_PROGRESS.md` §16이다.
+
+
+## DATA-09-1 명시 요청의 분석 범위
+
+- 2026-10-20 사용자가 DATA09-1을 명시 요청했으므로 이번 분석·설계는 앞선 DATA09 착수 보류의 예외다. DATA08의 native BLOCKED/사람 검수 NOT TESTED/B—Conditional을 통과·완료로 바꾸지 않는다. 후속 제작·통합·버전 변경은 이번 분석 요청에 포함하지 않는다.
+- 현재 Source/DB는 Content19/Schema4/reader7/UserProgress10·Grammar42/初中級0이다. `DATA09_PROGRESS.md`와 `Docs/DATA09_*`의54단위는 편집 초안이며 Runtime UUID/승인 콘텐츠가 아니다. 장기Grammar/Expressions350~500개를 유지하고 어휘 expression104개나 형태/시제 이형태로 중복 집계하지 않는다.
+- 후속 단계는163개 분류(부족147/Level·배치 재검토8/단순검토8)를 해결 수량으로 오인하지 않는다. Level8은 잠정 편집 우려이며 확정 오등급이 아니다. 원문·Example ID·기존42개·기존 Progress/SRS와 DATA08 기록을 보존하고 결과/검증 근거를 DATA09_PROGRESS에 누적한다.
