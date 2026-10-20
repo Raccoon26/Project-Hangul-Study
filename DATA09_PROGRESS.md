@@ -1,5 +1,13 @@
 # DATA-09 진행 기록
 
+# DATA-09-4 / Batch C — 현재 Production
+
+**Content22 / Schema4 / minReader7 / UserProgress10.** C 신규 初中級 Grammar18개·고유 신규 Example72개·Grammar Question72개를 한일 Self Review/중복·ID/strict 검증 후 반영했다. A/B/C 누적 **신규54문법·216고유예문·216문법문제**로 전체 목표45~60 /180~300 /180~300 충족. A/B의 기존 예문4개 재사용은 신규 수량에서 제외했다. 전체 Grammar96(入門22/初級20/初中級54), Example4,813(문장4,800+발음13), Question3,553(그중 Grammar300), Vocabulary2,287. 새 코스1·레슨6(59~64), 기존 본문·ID·배치 보존·기존 관계 끝점12개만 revision+1.
+
+재개 후 portable **335/335 PASS**(641.737초, 실패/오류/skip0,exit0), 전용12/12 PASS. strict0errors/기존10warnings, Source25테이블65,983행 일치·integrity ok/FK0·Importer 재구성 DB byte/SHA 일치. 독립 사람·외부 사전 검수 NOT TESTED, Swift/Xcode/iOS build·XCTest137정의/실행0 BLOCKED, **B—Conditional 유지**. 수량 목표와 출시 검증 완료를 구분하고 장기Grammar/Expressions350~500을 유지한다. [DATA09_PROGRESS §10](DATA09_PROGRESS.md), [검수 범위](Docs/DATA09_C_REVIEW.md), [실제 수량](Docs/DATA09_C_COUNTS.json). 마지막 Batch C에서 종료하며 다음 단계/DATA10은 시작하지 않았다. 아래 A/B·DATA08의 ‘현재’·수량·검사는 당시 이력이다.
+
+---
+
 # DATA-09-3 / Batch B — 현재 Production
 
 **Content21 / Schema4 / minReader7 / UserProgress10.** 신규 初中級 문법18개·고유 신규 예문72개·단일 선택 문제72개를 한일 Self Review/중복·ID/strict 검증 후 반영했다. DATA08 예문4개는 기존 ID로 재사용하여 신규 수량에서 제외했다. 전체 Grammar78(入門22/初級20/初中級36), Example4,741(문장4,728+발음13), Question3,481, Vocabulary2,287. 새 Grammar 코스1·레슨6(53~58), 기존 본문·ID·배치 보존·관계 끝점22개만 revision+1. Content20 Source/DB 불변 fixture 보존, strict0errors/기존10warnings·Source25테이블65,043행 일치·integrity ok/FK0.
@@ -255,3 +263,77 @@ prepare_data09_b는 불변20+authoring+고정ID로 이번21만 재현한다. `--
 ### 9.6 Git 전달 기록
 
 콘텐츠 커밋 `0a9d846b98b528e2bbd7f920321afba8036550de`를 `data09-3/grammar-batch-b`에 일반 push했고 성공했다. 대용량 파일 오류0, force push/LFS/원본 삭제/이력 재작성0. [PR #12](https://github.com/Raccoon26/Project-Hangul-Study/pull/12)를 main 대상으로 생성했다. 이 전달 기록 작성 시점은 merge 전이며, 최종 merge/main 일치의 근거는 PR 상태·Git 이력과 최종 응답이다. 마지막 문서 점검에서 카탈로그 EOF 빈 줄 경고1건을 제거했으며 콘텐츠·테스트 코드·결과는 바뀌지 않았다.
+
+
+## 10. DATA-09-4 / 마지막 Grammar Batch C
+
+### 10.1 기준선·Coverage Gap·중단 후 재개
+
+2026-10-20 JST. clean main/origin/main `7a56504e58c8ecb81de976c9a9c76d24546f536c`(PR #12)에서 `data09-4/grammar-batch-c`로 시작했다. PROJECT_STATUS/CONTENT_GUIDE/DATA_PROGRESS/RELEASE_CHECKLIST/AGENTS/DATA08_PROGRESS/DATA08_CLOSEOUT, A/B 결과·설계 및 실제 Source/DB를 확인했다. Content21/Schema4/reader7/UserProgress10, 기존 Grammar78개(원래42+A18+B18)였다. 기존 보호 대상221파일은 HEAD 대비 byte 일치를 확인했다.
+
+A/B 승인 수량은 신규36문법/144예문/144문제다. 전체 목표45~60/180~300/180~300에서 최소 부족9/36/36을 계산하고 C18/72/72를 제작했다. 수식·명사화→추측/가능성·의문 내용→평서/명령/권유/질문 인용→제안/의향/부탁/약속→공유 확인/새 인식·정도 연동 순서로 보강했다. C05는 P25/P26을 한 단위로 합치고 C16지요/C18네요는 생산적 회화 어미로 추가했다. 원래54개 설계키47개를 다루며7개는 미승인 공백이다. 초기 설계 전부를 억지로 승인한 것이 아니다. 새18개는 모두Grammar이며 고정Vocabulary expression 재등록0, 기존expression104개 별도 보존. [범위·남은 공백](Docs/DATA09_C_SCOPE.json).
+
+사용자의 ‘중단 지점부터’ 요청 시 작업 파일·40개 교정 기록·고정UUID·21fixture는 남았지만 /tmp의 candidate/검증 복사본/로그는 소실됐다. 실제 Production은21이어서 미검증 후보의 선반영은 없었다. 고정ID를 재발급하지 않고 같은 최종22를 재구성했으며 저장된 후보의 Source/DB SHA와 정확히 같았다. 새 로그는Docs에 직접 기록하고 전용/전체 검사를 다시 실행했다. 이전 대화의 초기12개 중10PASS/2FAIL(56.234초,B도구 import 오연결)·수정 후12PASS(63.769초)·번역 개선을 위해91개 PASS 후 중단(exit143) 관찰은 이번 실행 수에 합산하지 않는다. 원시 로그 소실과 완료 확인 불가능한 이전 최종 전체 실행을 [RESUME](Docs/DATA09_C_RESUME.md)에 명시했다. 이전 완료 불명 검사를 PASS로 표시하지 않는다.
+
+### 10.2 실제 신규·전체 수량·Level·배치
+
+|대상|Content21|C 신규|Content22|
+|---|---:|---:|---:|
+|Vocabulary|2,287|0|2,287|
+|Meaning|2,420|0|2,420|
+|Example|4,741|72|4,813|
+|Grammar|78|18|96|
+|Question|3,481|72|3,553|
+|그중 Grammar Question|228|72|300|
+|Listening|1,936|0|1,936|
+|Grammar→Example 관계|317|72|389|
+|Course|7|1|8|
+|Lesson|97|6|103|
+
+C 신규는 모두lower_intermediate다. Grammar은入門22/初級20/初中級54, Example659(발음13포함)/1,577/2,577, Question한글59/入門156/初級134/初中級3,204다. Vocabulary306/800/1,181 및 Listening34/79/1,823 유지. content_items15,935 / Source25테이블65,983행 / DB31테이블. 기존 Grammar 경로에 새 코스1·레슨59~64×3문형을 실제 배치했다. 문형별4예문/4문제는 기존 LIMIT6/20 안이고 카드·레슨·검색 SQL로 접근한다. 기존 레슨 membership·세트/ID/순서는 유지했다.
+
+|DATA09 신규|A|B|C|검증 누적|전체 목표|
+|---|---:|---:|---:|---:|---|
+|Grammar/Expressions|18|18|18|**54**|45~60|
+|고유 Example|72|72|72|**216**|180~300|
+|Grammar Questions|72|72|72|**216**|180~300|
+
+부족0. 기존42문법/84문법문제·기존 예문·A/B의DATA08 예문4개 재사용·관계 증가·고정Vocabulary expression104개는 신규 수량에 넣지 않았다. 현재 Grammar총96개로 장기350~500까지254~404개가 남는다. [전체 Count/Level/델타](Docs/DATA09_C_COUNTS.json).
+
+데이터만 바뀌므로 Content21→22만 갱신하고 Schema4/reader7/UserProgress10 유지. 실제21 DB/gzip Source를 불변 fixture로 보존했다(DB SHA `0f53e4d93340d9ddc410d17a6cdd4aa1c3f4f69b2089e60b26a390cb9bdff009`, 해제 Source SHA `d7bee9fa444f5d7e29675110aedcec97a231f0334a9e5b255452e83e2bf3a355`). 새 Source SHA `13a6739bb93daee36426f04ac83b95f7244a62c227ea90b0ddda2d179eeeafeb`, 번들 SHA `22c3257b4204309158dfdea0f0bfd7d870fa0c540bd21ee7f240673df052e0f4`. Batch C 승인 snapshot이며 전체 출시 승인과 구분한다.
+
+### 10.3 한국어/일본어·문제·선행·Stable ID 검수
+
+assistant가18개 전체 Pattern/Meaning/Explanation/Form/Usage/혼동 Note,72개 한일 예문·learning point,72문제·216선택지·정답/오답 해설을 한국어와 일본어 각각 재독했다. 관찰한 근거와 가능성, 발언의 종류·시점·출처, 원래 발화자/보고자/행위자/수혜자, 의향/약속/부탁과 공유/새 인식의 차이를 상황·Register로 설명했다. 독립 사람·외부 사전·공인 난도 검수는 NOT TESTED다.
+
+교정40개 문자열의 전후/occurrences를 남겼다. 미수록 기 명사화·았/었다가·보니/으니·인용 축약·불필요한 겸양 복합을 줄이고, 일본어 혼입·번역 대응·발화 진위 보장처럼 읽힐 질문을 고쳤다. 마지막 휴일→定休日 번역을休み로 바꿔 정기 휴무라는 추가 의미를 없앴다. 같은 문구가 문제에서도 쓰이면 함께 바뀌므로40개 독립 문장 오류나 사람 승인이라는 뜻은 아니다. 들은/들을/들으라고/들을까요/들을수록의ㄷ변화와 듣는다고의유지, 만든/산다고/머네요의ㄹ탈락, 추운/도울게요의ㅂ변화, 게요/께요·을수록 띄어쓰기·물으셨어요/주실래요의높임도 검토했다. [REVIEW](Docs/DATA09_C_REVIEW.md), [항목별 payload hash](Docs/DATA09_C_EDITORIAL.json), [교정 전후](Docs/DATA09_C_EDITORIAL_CORRECTIONS.json), [전체 카탈로그](Docs/DATA09_C_REVIEW_CATALOG.md).
+
+기존multiple_choice만 사용했다. meaning/form/context/contrast 각18문항,3선택지/정답1개,a/b/c각24개다. 의미 문제도18개 다른 지시문으로 직접 작성했고 인용·시점·사람 역할·선택/약속·Register를 섞었다. 가능한 다른 문형이 이 문맥에서 왜 다른 의도가 되는지 설명했다. 선택지216문구는 서로 다르고 예문은13~36자지만 이것이 자동 언어 품질/학습효과 보증은 아니다. 지정 기본형·시제·문맥에서 정답을 검사했으며 자유입력/복수 허용 답안이나 Conjugation 자동생성 form을 추가하지 않았다.
+
+새 Pattern18 및 한일72문장 각각은 기존21 전체·Batch 내부 NFC/공백 정규화 중복0이다. 새169content ID+source citation ID1개는UUIDv4 최초1회 발급 후 고정했다. 기존 본문/ID/created_at/레슨 배치/질문/선택지/관계 행을 모두 보존한다. 새 비교/선행 관계의 기존 Grammar12개 끝점만revision+1/updated_at을 바꾸고 [allowlist](Content/data09-c-revised-ids.json) 밖 변경0을 검사했다. 물리 삭제·비활성화·UserProgress 재작성0이다.
+
+C01→C02→C05/C06→C07~11, C12→C13→C14/C15, C16→C18 순서다. 대표 primary prerequisite1개·비교2개씩 연결했고 기존/A/B/C 선행 DAG 순환0이다. 앞 레슨/설명도 함께 필요하며 primary 관계가 모든 선행 mastery를 강제한다는 뜻은 아니다. 기존163후보 전체의 재연결·Level 재판정도 완료 수량에 넣지 않았다.
+
+### 10.4 재개 후 실제 실행·검증 한계
+
+- **PASS** strict21→22 전체 Importer/Validator: 오류0/기존경고10(짧은 발음예문5+기존 동형어 후보5). 별도 structural row audit는25테이블65,983행·오류0/기존경고5. 경고 삭제·Validator 완화0. integrity ok/FK0, 원본 행·DB 대조와31테이블 재구성·byte/SHA 일치.
+- **PASS** Batch C 전용 **12/12**, 54.833초, 실패/오류/skip0,exit0. 모든 기존 행·정확한12revision·169신규UUID·정규화중복·실제 레슨/카드/검색SQL·72채점계약/18기대형·선행DAG·오류 입력 거부·고정authoring 재현·누적 목표 실제ID/DB count·진도 보존을 검사했다. 재개 후 저장한 [전용 원시 로그](Docs/DATA09_C_FOCUSED_TEST_LOG.txt).
+- **PASS** 전체 `sh Tools/verify.sh --portable` **335/335**, 641.737초, 실패/오류/skip0,exit0. 기존323+신규12이며 전용 재실행을 합산하지 않는다. A19→20/B20→21의 정확한 gate는20/21 불변 fixture로 유지하고 C가 모든21→22 구행을 보존한다. 다른 live cohort도 현재count와 각Batch별 누적revision을 정확히 갱신했다. 기존 보존 assertion/Validator는 유지했다. [이번 전체 원시 로그](Docs/DATA09_C_PORTABLE_TEST_LOG.txt).
+- **PASS(범위 한정)** 임시 UserProgress10에 B06문법의stage4/due900·typed favorite·진행 중grammar session(snapshot21/선택/페이지/revision)을 저장하고 콘텐츠 파일만21→22 교체했다. 새 관계로B06 revision이 바뀌어도 사용자DB SHA/JSON byte·cold reopen·기존due/favorite가 유지됐다. 기존1+새18 SRS 등록2회 후 중복0, SQLite조회 중socket금지. 실제 개인DB·Swift 상태전이 검사가 아니다.
+- **BLOCKED/NOT TESTED** Linux/Python3.12.14,swift/xcodebuild없음. native137정의/실행0, iOS Debug/Release/SDK·실기기오디오/중단·메모리·3~10분 실측·개인진도·AdMob/StoreKit실행0. native 기대ContentVersion을22로 맞췄지만 build/XCTest를 실행했다고 주장하지 않는다. 독립 사람·외부 사전 한일 검수0. 새 P0/P1은 이번 범위에서 재현하지 않았지만 기존 native P1/B—Conditional gate는 해결로 바꾸지 않는다.
+
+최종candidate는 `/tmp/data09-c-verification` 복사본에서 검증했다. Source/DB·실행 코드 hash가 같은지 확인한 뒤 실제 Production에 승격했고, 실제 원본을 Importer로 재구성한 DB도 번들과 byte/SHA가 같다. 편집 검수18개 payload hash 역시 최종candidate와 맞았다. [기계 판독 결과](Docs/DATA09_C_RESULTS.json). 자동/assistant/사람/iOS 검증을 구분한다.
+
+### 10.5 재현·잔여 공백·Git 전달
+
+```sh
+python3 Tools/ContentBuilder/prepare_data09_c.py --output /tmp/data09-c-source.json --revised /tmp/data09-c-revised.json
+python3 Tools/ContentBuilder/build_content.py Content/production.json /tmp/data09-c-rebuilt.sqlite --production --previous Tests/Fixtures/content-v21-production.sqlite --report /tmp/data09-c-build.json
+python3 Tools/ContentBuilder/audit_data08_final.py Content/production.json --database Resources/content.sqlite --report /tmp/data09-c-structure.json
+python3 -m unittest discover -s Tools/ContentBuilder -p test_data09_c_content.py -v
+sh Tools/verify.sh --portable
+```
+
+prepare는불변21+고정UUID+검수authoring으로이번22만 재현한다. 최초발급 `--allocate-ids`를 재현에 넣거나 후속Production을 덮어쓰는 용도로 쓰지 않는다. canonicalSource는production.json 하나다. 원본/DDL/Importer/registry/검수근거·재생성가능번들·불변fixture를 모두 보존한다. 최대 추적 파일50MiB 미만 확인 후 일반commit/push·PR을 사용하며 LFS/forcepush/이력재작성/원본삭제는 필요하지 않다. 최종merge/main일치는 PR/Git과 최종응답이 기준이다.
+
+미승인 원래 초안7개는 기 명사화, 게 부사형, 줄 알다/모르다, ㄹ 텐데, 다고 해서…것은 아니다, 기만 하다, 는 척하다다. 회상던/았던·일반 존경/겸양 전체체계·인용 축약/부정 범위·기존163후보 선행/Level재심사·신규예문 Listening/Dictation/직접입력 재사용·독립 사람/기기 검수도 남는다. 모든 예문 토큰의Dictionary등재·자동 활용 지원을 주장하지 않는다. **마지막 Batch C의 수량/콘텐츠 제작은 완료했고 후속 단계/DATA10은 시작하지 않는다.**

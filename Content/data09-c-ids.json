@@ -1,0 +1,308 @@
+{
+  "stage": "DATA-09-4",
+  "batch": "C",
+  "content_version": 22,
+  "previous_content_version": 21,
+  "schema_version": 4,
+  "created_at": "2026-10-20T03:29:18Z",
+  "course_id": "d5019276-ea13-4f5c-9862-ceee8d1f0775",
+  "source_id": "0eae942a-3169-4b99-a639-b7e16ba02aef",
+  "lesson_ids": [
+    "6045c8cf-a914-450b-9631-fa7127cfad7f",
+    "c59e00fb-8a7c-4c6d-9132-4aeb984ce4bc",
+    "569e0c3f-2fad-40e4-98b9-b59195bd33a2",
+    "49898f00-d091-4857-9661-506d6d7bd39e",
+    "02b08aa6-6c6d-4d94-b585-21a3ff03b902",
+    "5343ddd1-294a-4cda-ba08-ae72a1f57c73"
+  ],
+  "grammar": [
+    {
+      "key": "C01",
+      "id": "31239c2c-43e2-4c94-8db8-e3777ef8cc10",
+      "example_ids": [
+        "c4935e25-5f72-4fa6-8a9c-1cb6d7a158e3",
+        "4cf82e55-6fd1-493a-9fa2-65b8e23016dc",
+        "c4a926e2-06fc-4038-9239-5b90e7c69462",
+        "3bae7c1a-e4c3-4c63-8edd-b38ed04a9fc1"
+      ],
+      "question_ids": [
+        "26d1f1a3-99bc-49f6-a990-41a43d47129b",
+        "705fbfb7-cc15-4d04-b65c-8445167f338e",
+        "2cafed4a-8d4a-4fa7-af57-ccb14c46f90d",
+        "287bd966-e245-4a84-87ea-00fbf4d6376d"
+      ]
+    },
+    {
+      "key": "C02",
+      "id": "3213bc29-b278-4331-8a9d-383e0101653b",
+      "example_ids": [
+        "9556acc8-8f09-438f-a395-d3bdcfa2e449",
+        "6ab8b2a1-721e-4ba0-b228-8ae1cdf54728",
+        "4b645e53-bbe4-41b5-bc69-cce23a7dbd7f",
+        "0ff5d796-6ec2-4963-a0af-5a23a63bf969"
+      ],
+      "question_ids": [
+        "67ac26af-3ce3-494b-92fd-0390f48bbbc1",
+        "4e582b23-7758-4012-b4b4-ac7e72ac610d",
+        "372e979d-c7e4-485c-b4b6-e00160d40c54",
+        "3e5ccc9f-e2c0-4b4f-901e-ca23055a53a3"
+      ]
+    },
+    {
+      "key": "C03",
+      "id": "c02c5bd8-8dc1-4e6c-ab6d-d756ddd32c6f",
+      "example_ids": [
+        "db24b1fd-eb0a-4cec-abb2-232aec2882ef",
+        "f06ef567-1dd8-4c81-bc6f-f9692e4591f8",
+        "a78e0ca2-4c1d-4423-8212-7bb14af1aac2",
+        "6c156447-467c-4ad7-9b7b-ece637a8e463"
+      ],
+      "question_ids": [
+        "74c59fe5-24b6-40b1-8b38-7b3f7f3cc5c5",
+        "bfb4a66c-dcc3-40c2-b37f-662931dd056f",
+        "884a303c-9c7e-4737-b344-ce3c0ae709fc",
+        "28b245a8-9a6e-4543-bc15-8e448bd85760"
+      ]
+    },
+    {
+      "key": "C04",
+      "id": "445b7ded-b9dc-434e-b8fb-7ed4d253bc64",
+      "example_ids": [
+        "c31e0fb3-fc98-49a6-8eb7-34fa962ddafb",
+        "d497105b-9baa-4247-ba8b-eee18e9e791d",
+        "44a5fbc1-fcf6-461a-92ae-43146504e86f",
+        "b491701b-6da2-4ea2-a4de-681e64b2302a"
+      ],
+      "question_ids": [
+        "b79b9182-c440-4917-a8a1-843576e10092",
+        "bbcd6d86-83de-4e77-b6be-69cdff38f037",
+        "20ea5bf1-87a2-4f8d-a938-3ed180ae6449",
+        "3fdb2d0a-da90-4602-a426-fda731b2d146"
+      ]
+    },
+    {
+      "key": "C05",
+      "id": "2a7b0e46-86f5-49fa-ac87-de9e3de87e3a",
+      "example_ids": [
+        "8457da67-3335-491e-811c-80f43e6aee5d",
+        "529ff9a8-2593-4494-9e12-a75b336b620a",
+        "e3d2f388-1ed0-44a7-83da-5f975f0c6243",
+        "3f3c9fd9-a472-450f-8a05-b61b5e730557"
+      ],
+      "question_ids": [
+        "9c89c3df-0093-4ee2-b1e9-e1449d2f2908",
+        "4637641d-695b-4bbb-be5b-586c82ddc9e8",
+        "716e1416-02bd-43bf-9a78-7cf18f5b55d8",
+        "556afe57-fa89-406f-9850-144c6208fe94"
+      ]
+    },
+    {
+      "key": "C06",
+      "id": "e4d0935d-a2ae-4207-8583-bcb93de194bd",
+      "example_ids": [
+        "4aa0b2a6-e99e-4ced-b24e-f2992336668e",
+        "24c0e34a-caea-4953-a6e7-b267e4e3dab0",
+        "1fe1cf79-be82-46b7-a5bc-a02c910723e3",
+        "b9ea56cd-8841-496e-a1c6-1e73c0be2e83"
+      ],
+      "question_ids": [
+        "6f6d1da9-9667-4b9d-abcd-3cb1208d9b22",
+        "74ead026-4789-4d6e-a52b-021b971c0c17",
+        "6d0b5105-5b6b-4e3d-841a-7329a6a24665",
+        "5f7e9815-039d-4753-841a-9dc78f496823"
+      ]
+    },
+    {
+      "key": "C07",
+      "id": "2d9cbb5e-ac05-4cbc-a52b-975c19d77210",
+      "example_ids": [
+        "80edd77f-6fe1-46cd-a802-b9de559ec905",
+        "39552f2b-d6a9-40f4-bc0b-131c1108e350",
+        "74b0d780-3bc8-4ab8-b14b-62ab96ef17b5",
+        "feec8f08-e7c8-4db4-bec1-b8f5be0d6404"
+      ],
+      "question_ids": [
+        "0d997c6d-638b-4b85-b8a5-4e3e38a966fd",
+        "ab477020-38e9-4af0-ba97-a59e0317c444",
+        "9f5a2069-c1ea-4df9-8ddf-063fb486ca6d",
+        "e5fdc264-a4d9-45b7-92b3-6f56eb35333d"
+      ]
+    },
+    {
+      "key": "C08",
+      "id": "600d5cb2-aad4-414b-893a-3bb1f970909f",
+      "example_ids": [
+        "8fbe7abb-edc4-499c-919e-5e7685bd0797",
+        "de3d11a3-7d5f-453c-993b-4b4521eb49fd",
+        "dafc7af5-f2e5-4941-9f78-7fc81513bca5",
+        "e1d464c3-ff98-4e2a-8eed-5ca0ca7ebe86"
+      ],
+      "question_ids": [
+        "b80f5a3c-ff90-4d28-8d33-7b1ac016d719",
+        "668ffc96-a596-4ce3-af0b-4db1465bae65",
+        "655a8deb-3368-44b4-8307-9d86f4ed845c",
+        "1bd9085a-8642-445f-946d-7fc0c757c4c4"
+      ]
+    },
+    {
+      "key": "C09",
+      "id": "29c75088-07da-46d2-ac0b-495e520234ad",
+      "example_ids": [
+        "ab2fca1c-c0b4-475a-99cf-73ffdea28120",
+        "c81dbfdf-95dd-4f0d-8551-34e0e8af8d35",
+        "8f01229d-09fa-4bdb-bedc-4af51c05bdaa",
+        "5c2aed61-5991-447b-8af3-9ac6292e07c7"
+      ],
+      "question_ids": [
+        "c32b9b24-b1c9-42c0-aa5e-a18d9bd9e530",
+        "30fe7bbf-2ab9-4471-a8d9-749e1b958b0e",
+        "49f6ebd5-1ac5-4b34-a14a-505c4efb06cc",
+        "5ec4a014-a2e0-4f83-891e-8b66813f2911"
+      ]
+    },
+    {
+      "key": "C10",
+      "id": "bd26d280-1967-4d90-81f5-95b3c2e3db59",
+      "example_ids": [
+        "b3a4918e-06ec-4c12-9edc-d80d0599c82f",
+        "a048b8f8-e1fb-49a8-9990-924c67f7b060",
+        "a41b12a1-617b-4f66-a461-c9db15030584",
+        "554330cc-6807-49ef-8d6a-a30e004be7ca"
+      ],
+      "question_ids": [
+        "3b547956-06ca-4bc1-b220-632f21403c95",
+        "61e0b3c4-c68f-41cc-9703-f8bae22b32e2",
+        "0c2500c6-efdf-42ed-89a9-faf92f298c1b",
+        "0a7dfbee-a97b-4fa4-9d8b-a22f1a459c09"
+      ]
+    },
+    {
+      "key": "C11",
+      "id": "f0acd94a-696c-4cbe-8d11-df2f2ea31f08",
+      "example_ids": [
+        "f0862d44-2640-48c6-bfb7-77cb68a75dec",
+        "87c3a220-a73d-486d-93bf-32235c3a78ec",
+        "0cc5c3ea-5d55-4892-ba1e-64d9b24a5715",
+        "daa55408-8366-4084-a45d-9c3e5a47b440"
+      ],
+      "question_ids": [
+        "0fb2d055-3178-4039-9213-844602dc2451",
+        "1b80d7a7-c76a-4cba-96e8-fffc79c364b3",
+        "9f6b9202-3632-41ba-b171-14cc2c4abf30",
+        "176dabd7-79bb-4860-b6a6-f8f952ba1a47"
+      ]
+    },
+    {
+      "key": "C12",
+      "id": "68c3a2a7-5f4e-4236-9474-380202f6bbeb",
+      "example_ids": [
+        "e332bdef-c112-4368-9c60-3eb58ab777c6",
+        "4b1ad35d-86fd-4602-8489-cd6054095833",
+        "d139f939-875f-40ba-89a4-80cbc3ae5a65",
+        "4e6950fb-7967-4b41-8a50-210618846fd9"
+      ],
+      "question_ids": [
+        "1c969ef8-7147-42e4-bbf5-647e6a20f419",
+        "e7e90db1-6599-4902-9e23-abcfc96e3f0d",
+        "00bf7de7-a395-4c45-9bc9-aeb49df0b67e",
+        "f2bc8b3e-6b54-4612-b273-463efe73d93e"
+      ]
+    },
+    {
+      "key": "C13",
+      "id": "c931b72d-27f5-446c-ab2f-d85c4b46b4b9",
+      "example_ids": [
+        "fd0125ce-cdd7-4992-b48c-fc74c14f1d7d",
+        "fd4a4541-68af-4042-a628-df7ee1e60c47",
+        "a2ad57ba-19cd-43a5-9007-65c413f9bb7a",
+        "d3922b02-7f92-41f9-a918-737e2e816e15"
+      ],
+      "question_ids": [
+        "81b69e0c-c1c1-4a92-8bc4-549979662241",
+        "a4e708e8-fb13-40b1-9f8f-46694130b0e9",
+        "76821c97-b20f-4afd-89e3-c5952c87dd74",
+        "a86c905f-d0d9-49e2-948b-296968e088ac"
+      ]
+    },
+    {
+      "key": "C14",
+      "id": "b3c47e9e-b16e-4feb-bb5c-4cc4e49b5bf3",
+      "example_ids": [
+        "6144d085-8c44-4c44-864c-31d703221650",
+        "b3f9d1cd-3512-4311-96e3-1eacec798aad",
+        "1e4071c3-68a3-4284-8452-955cea5cd519",
+        "50dfd4eb-032d-44d9-98ea-7b9115e7c5c1"
+      ],
+      "question_ids": [
+        "30c06307-1594-4a82-9d3e-f2446e983ff4",
+        "fb660779-766a-448a-96c1-105b7521c3ff",
+        "ce1506c8-a7d8-4eda-934a-51eea6728f05",
+        "02c88ae9-a796-4d10-85a2-29da2e477013"
+      ]
+    },
+    {
+      "key": "C15",
+      "id": "0b6da528-99a6-4f2f-8708-686b052e3213",
+      "example_ids": [
+        "01c9e0b5-2264-4d0d-abac-d916158b8379",
+        "baf8e086-193d-4b55-856d-2d3601bad896",
+        "c07a004f-b4f4-4273-a67d-18ae7474e1a0",
+        "ee2038db-5f1b-4789-bf37-bf795a15eeff"
+      ],
+      "question_ids": [
+        "84c1a7bf-9958-425c-b551-c4f5a506b4ca",
+        "b29343e4-2cfb-4241-9837-6b94317dad21",
+        "7bdd5e84-8933-4cd2-bdba-73e11220dcf9",
+        "8fd43e40-eac7-4c81-b66f-e34b68b1d551"
+      ]
+    },
+    {
+      "key": "C16",
+      "id": "f5fae1c3-9c30-4fe3-a9ed-6936aed2183a",
+      "example_ids": [
+        "a4118606-cc3b-4e86-885e-fe7c981f860d",
+        "e0481c9e-c1fd-4115-982c-b28f8b8c876f",
+        "1b60f0cb-d2eb-423c-a6b8-ccf5861073f3",
+        "06ac8037-c7b4-40e5-8a01-1dcdafa5374c"
+      ],
+      "question_ids": [
+        "d40b7661-a4cd-4ebb-a065-512e7e907b16",
+        "d65767bc-e4a0-49e3-9ec2-1763def4da8a",
+        "f579f74a-a1bc-42cc-936c-49cefc5ef3c2",
+        "fb2041f6-97aa-42a7-916a-26655fe56142"
+      ]
+    },
+    {
+      "key": "C17",
+      "id": "7d214986-8d9d-4f84-9af5-de0234f136d5",
+      "example_ids": [
+        "0199bdbc-bb88-4469-afa5-f8cd588c7d89",
+        "7bb574e9-df93-4f52-b44f-f43c80e487f9",
+        "626e6f81-489c-4387-8c18-aae7180b9451",
+        "bda5a286-da3c-4286-95e0-0878066124b1"
+      ],
+      "question_ids": [
+        "7cfbc32c-9db4-4b08-b99f-a3fa7c13c589",
+        "243e124b-d373-4ecd-949c-9dae3828ea47",
+        "1d5dca48-7690-4bd9-866d-047b5c3d96d6",
+        "3030d2f6-07db-48e2-aa2e-c77546d52b7b"
+      ]
+    },
+    {
+      "key": "C18",
+      "id": "34a56baf-0b84-4263-ab82-14942a47beca",
+      "example_ids": [
+        "13c2dbc3-cc3d-4dbd-8301-ca650351d6d4",
+        "e67f5eeb-5c8b-4259-849c-cd7d23e553a0",
+        "aa213445-2fd4-4f63-8ded-e8ee9305f888",
+        "19d9989a-49e1-48c1-895e-da74b7eff969"
+      ],
+      "question_ids": [
+        "6d34f82c-8b2b-4640-8a77-0754ecb2896a",
+        "a58affb5-8829-4ed6-a0f1-bda4c387d92e",
+        "f1a48206-803b-4006-abaf-40c1e9f8f983",
+        "c5afade3-d59b-4825-a131-cff7e41b99df"
+      ]
+    }
+  ]
+}

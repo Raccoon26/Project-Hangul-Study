@@ -1,3 +1,17 @@
+# DATA09-C / Content22 현재 재현
+
+production.json → 기존 Importer → Resources/content.sqlite. Schema4/reader7/UserProgress10 유지. C18문법/72예문/72문제, DATA09 신규누적54/216/216·전체Grammar96. 사람/iOS/최종출시gate는 유지한다. 상세 DATA09_PROGRESS §10 / Docs/DATA09_C_RESULTS.json.
+
+```sh
+python3 Tools/ContentBuilder/prepare_data09_c.py --output /tmp/c-source.json --revised /tmp/c-revised.json
+python3 Tools/ContentBuilder/build_content.py Content/production.json /tmp/c-rebuilt.sqlite --production --previous Tests/Fixtures/content-v21-production.sqlite --report /tmp/c-report.json
+sh Tools/verify.sh --portable
+```
+
+제작 도구는불변21+고정ID로22만 재현한다. ID최초발급 옵션을 재현에 넣지 않는다. 원본/번들/fixture를 출력으로 지정하지 않는다. 아래버전·수량은 당시이력이다.
+
+---
+
 # DATA09-B / Content21 현재 재현
 
 원본 production.json → 기존 Importer → Resources/content.sqlite. Schema4/reader7/UserProgress10 유지. 새18문법/72예문/72문제, 기존예문4재사용(신규 제외), 전체Grammar78. 독립 사람/iOS 검수 gate는 유지한다. 상세 결과 DATA09_PROGRESS §9 / Docs/DATA09_B_RESULTS.json.
