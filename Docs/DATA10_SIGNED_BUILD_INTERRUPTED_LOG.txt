@@ -1,0 +1,1220 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project HangulStudy.xcodeproj -scheme HangulStudy -configuration Debug -destination "platform=iOS Simulator,id=ACF4487F-0A8A-4D78-B16D-98B2DE5C35AF" -derivedDataPath /tmp/hangul-data10-1/SignedDerivedData -resultBundlePath /tmp/hangul-data10-1/SignedStoreKit.xcresult "-only-testing:HangulStudyTests/StoreKitPurchaseTests" -parallel-testing-enabled NO -collect-test-diagnostics never -test-timeouts-enabled YES -default-test-execution-time-allowance 120 -maximum-test-execution-time-allowance 120 CODE_SIGNING_ALLOWED=YES CODE_SIGN_IDENTITY=- test
+
+Build settings from command line:
+    CODE_SIGN_IDENTITY = -
+    CODE_SIGNING_ALLOWED = YES
+
+Resolve Package Graph
+
+Fetching from https://github.com/googleads/swift-package-manager-google-user-messaging-platform.git (cached)
+
+Fetching from https://github.com/googleads/swift-package-manager-google-mobile-ads.git (cached)
+
+Creating working copy of package ‘swift-package-manager-google-mobile-ads’
+
+Creating working copy of package ‘swift-package-manager-google-user-messaging-platform’
+
+Checking out 13.11.0 of package ‘swift-package-manager-google-mobile-ads’
+
+Checking out 3.1.0 of package ‘swift-package-manager-google-user-messaging-platform’
+
+
+Resolved source packages:
+  GoogleMobileAds: https://github.com/googleads/swift-package-manager-google-mobile-ads.git @ 13.11.0
+  GoogleUserMessagingPlatform: https://github.com/googleads/swift-package-manager-google-user-messaging-platform.git @ 3.1.0
+
+Writing result bundle at path:
+	/tmp/hangul-data10-1/SignedStoreKit.xcresult
+
+note: Using codesigning identity override: -
+ComputePackagePrebuildTargetDependencyGraph
+
+Prepare packages
+
+CreateBuildRequest
+
+SendProjectDescription
+
+CreateBuildOperation
+
+ComputeTargetDependencyGraph
+note: Building targets in dependency order
+note: Target dependency graph (6 targets)
+    Target 'HangulStudyTests' in project 'HangulStudy'
+        ➜ Explicit dependency on target 'HangulStudy' in project 'HangulStudy'
+    Target 'HangulStudy' in project 'HangulStudy'
+        ➜ Explicit dependency on target 'GoogleMobileAds-product' in project 'GoogleMobileAds'
+        ➜ Explicit dependency on target 'GoogleUserMessagingPlatform-product' in project 'GoogleUserMessagingPlatform'
+    Target 'GoogleMobileAds-product' in project 'GoogleMobileAds'
+        ➜ Explicit dependency on target 'GoogleMobileAdsTarget' in project 'GoogleMobileAds'
+        ➜ Explicit dependency on target 'GoogleUserMessagingPlatform-product' in project 'GoogleUserMessagingPlatform'
+    Target 'GoogleMobileAdsTarget' in project 'GoogleMobileAds'
+        ➜ Explicit dependency on target 'GoogleUserMessagingPlatform-product' in project 'GoogleUserMessagingPlatform'
+    Target 'GoogleUserMessagingPlatform-product' in project 'GoogleUserMessagingPlatform'
+        ➜ Explicit dependency on target 'UserMessagingPlatformTarget' in project 'GoogleUserMessagingPlatform'
+    Target 'UserMessagingPlatformTarget' in project 'GoogleUserMessagingPlatform' (no dependencies)
+
+GatherProvisioningInputs
+
+CreateBuildDescription
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc --version
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.1.sdk -x c -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.1.sdk -x objective-c -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.1.sdk -x c -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
+
+Build description signature: 8b115a18921e59f22714828e53bf2880
+Build description path: /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/XCBuildData/8b115a18921e59f22714828e53bf2880.xcbuilddata
+CreateBuildDirectory /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study/HangulStudy.xcodeproj
+    builtin-create-build-directory /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules
+
+CreateBuildDirectory /tmp/hangul-data10-1/SignedDerivedData/ModuleCache.noindex
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study/HangulStudy.xcodeproj
+    builtin-create-build-directory /tmp/hangul-data10-1/SignedDerivedData/ModuleCache.noindex
+
+CreateBuildDirectory /tmp/hangul-data10-1/SignedDerivedData/CompilationCache.noindex
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study/HangulStudy.xcodeproj
+    builtin-create-build-directory /tmp/hangul-data10-1/SignedDerivedData/CompilationCache.noindex
+
+CreateBuildDirectory /tmp/hangul-data10-1/SignedDerivedData/Build/Products
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study/HangulStudy.xcodeproj
+    builtin-create-build-directory /tmp/hangul-data10-1/SignedDerivedData/Build/Products
+
+CreateBuildDirectory /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study/HangulStudy.xcodeproj
+    builtin-create-build-directory /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex
+
+ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.1.sdk /tmp/hangul-data10-1/SignedDerivedData/SDKStatCaches.noindex/iphonesimulator27.1-24A94232-35d3147121984ba087c28d913653d626.sdkstatcache
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study/HangulStudy.xcodeproj
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.1.sdk -o /tmp/hangul-data10-1/SignedDerivedData/SDKStatCaches.noindex/iphonesimulator27.1-24A94232-35d3147121984ba087c28d913653d626.sdkstatcache
+
+CreateBuildDirectory /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study/HangulStudy.xcodeproj
+    builtin-create-build-directory /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules
+
+CreateBuildDirectory /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study/HangulStudy.xcodeproj
+    builtin-create-build-directory /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator
+
+CreateBuildDirectory /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/ExplicitPrecompiledModules
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study/HangulStudy.xcodeproj
+    builtin-create-build-directory /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/ExplicitPrecompiledModules
+
+WriteAuxiliaryFile /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy-8b6762a4df3d56dfd90ff1916c93c95b-VFS-iphonesimulator/all-product-headers.yaml
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study/HangulStudy.xcodeproj
+    write-file /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy-8b6762a4df3d56dfd90ff1916c93c95b-VFS-iphonesimulator/all-product-headers.yaml
+
+CreateBuildDirectory /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study/HangulStudy.xcodeproj
+    builtin-create-build-directory /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator
+
+CreateBuildDirectory /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/PrecompiledHeaders
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study/HangulStudy.xcodeproj
+    builtin-create-build-directory /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/PrecompiledHeaders
+
+CreateBuildDirectory /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/PackageFrameworks
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study/HangulStudy.xcodeproj
+    builtin-create-build-directory /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/PackageFrameworks
+
+ProcessXCFramework /tmp/hangul-data10-1/SignedDerivedData/SourcePackages/artifacts/swift-package-manager-google-user-messaging-platform/UserMessagingPlatform/UserMessagingPlatform.xcframework /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/UserMessagingPlatform.framework ios simulator
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study/HangulStudy.xcodeproj
+    builtin-process-xcframework --xcframework /tmp/hangul-data10-1/SignedDerivedData/SourcePackages/artifacts/swift-package-manager-google-user-messaging-platform/UserMessagingPlatform/UserMessagingPlatform.xcframework --platform ios --environment simulator --target-path /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator
+/tmp/hangul-data10-1/SignedDerivedData/SourcePackages/artifacts/swift-package-manager-google-user-messaging-platform/UserMessagingPlatform/UserMessagingPlatform.xcframework:1:1: note: The identity of “UserMessagingPlatform.xcframework” is not recorded in your project.
+
+ProcessXCFramework /tmp/hangul-data10-1/SignedDerivedData/SourcePackages/artifacts/swift-package-manager-google-mobile-ads/GoogleMobileAds/GoogleMobileAds.xcframework /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/GoogleMobileAds.framework ios simulator
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study/HangulStudy.xcodeproj
+    builtin-process-xcframework --xcframework /tmp/hangul-data10-1/SignedDerivedData/SourcePackages/artifacts/swift-package-manager-google-mobile-ads/GoogleMobileAds/GoogleMobileAds.xcframework --platform ios --environment simulator --target-path /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator
+/tmp/hangul-data10-1/SignedDerivedData/SourcePackages/artifacts/swift-package-manager-google-mobile-ads/GoogleMobileAds/GoogleMobileAds.xcframework:1:1: note: The identity of “GoogleMobileAds.xcframework” is not recorded in your project.
+
+WriteAuxiliaryFile /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudyTests.build/empty-HangulStudyTests.plist (in target 'HangulStudyTests' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    write-file /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudyTests.build/empty-HangulStudyTests.plist
+
+WriteAuxiliaryFile /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudyTests.build/Objects-normal/x86_64/HangulStudyTests.SwiftFileList (in target 'HangulStudyTests' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    write-file /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudyTests.build/Objects-normal/x86_64/HangulStudyTests.SwiftFileList
+
+WriteAuxiliaryFile /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudyTests.build/Objects-normal/x86_64/HangulStudyTests_const_extract_protocols.json (in target 'HangulStudyTests' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    write-file /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudyTests.build/Objects-normal/x86_64/HangulStudyTests_const_extract_protocols.json
+
+WriteAuxiliaryFile /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudyTests.build/Objects-normal/x86_64/HangulStudyTests.SwiftConstValuesFileList (in target 'HangulStudyTests' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    write-file /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudyTests.build/Objects-normal/x86_64/HangulStudyTests.SwiftConstValuesFileList
+
+WriteAuxiliaryFile /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudyTests.build/Objects-normal/x86_64/HangulStudyTests.LinkFileList (in target 'HangulStudyTests' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    write-file /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudyTests.build/Objects-normal/x86_64/HangulStudyTests.LinkFileList
+
+WriteAuxiliaryFile /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudyTests.build/Objects-normal/x86_64/HangulStudyTests-OutputFileMap.json (in target 'HangulStudyTests' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    write-file /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudyTests.build/Objects-normal/x86_64/HangulStudyTests-OutputFileMap.json
+
+WriteAuxiliaryFile /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudyTests.build/Objects-normal/arm64/HangulStudyTests_const_extract_protocols.json (in target 'HangulStudyTests' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    write-file /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudyTests.build/Objects-normal/arm64/HangulStudyTests_const_extract_protocols.json
+
+WriteAuxiliaryFile /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudyTests.build/Objects-normal/arm64/HangulStudyTests.SwiftFileList (in target 'HangulStudyTests' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    write-file /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudyTests.build/Objects-normal/arm64/HangulStudyTests.SwiftFileList
+
+WriteAuxiliaryFile /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudyTests.build/Objects-normal/arm64/HangulStudyTests.SwiftConstValuesFileList (in target 'HangulStudyTests' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    write-file /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudyTests.build/Objects-normal/arm64/HangulStudyTests.SwiftConstValuesFileList
+
+WriteAuxiliaryFile /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudyTests.build/Objects-normal/arm64/HangulStudyTests-OutputFileMap.json (in target 'HangulStudyTests' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    write-file /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudyTests.build/Objects-normal/arm64/HangulStudyTests-OutputFileMap.json
+
+WriteAuxiliaryFile /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudyTests.build/Objects-normal/arm64/HangulStudyTests.LinkFileList (in target 'HangulStudyTests' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    write-file /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudyTests.build/Objects-normal/arm64/HangulStudyTests.LinkFileList
+
+WriteAuxiliaryFile /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudyTests.build/HangulStudyTests.hmap (in target 'HangulStudyTests' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    write-file /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudyTests.build/HangulStudyTests.hmap
+
+WriteAuxiliaryFile /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudyTests.build/HangulStudyTests.DependencyStaticMetadataFileList (in target 'HangulStudyTests' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    write-file /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudyTests.build/HangulStudyTests.DependencyStaticMetadataFileList
+
+WriteAuxiliaryFile /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudyTests.build/HangulStudyTests.DependencyMetadataFileList (in target 'HangulStudyTests' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    write-file /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudyTests.build/HangulStudyTests.DependencyMetadataFileList
+
+WriteAuxiliaryFile /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudyTests.build/HangulStudyTests-project-headers.hmap (in target 'HangulStudyTests' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    write-file /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudyTests.build/HangulStudyTests-project-headers.hmap
+
+WriteAuxiliaryFile /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudyTests.build/HangulStudyTests-own-target-headers.hmap (in target 'HangulStudyTests' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    write-file /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudyTests.build/HangulStudyTests-own-target-headers.hmap
+
+WriteAuxiliaryFile /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudyTests.build/HangulStudyTests-generated-files.hmap (in target 'HangulStudyTests' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    write-file /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudyTests.build/HangulStudyTests-generated-files.hmap
+
+WriteAuxiliaryFile /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudyTests.build/HangulStudyTests-all-target-headers.hmap (in target 'HangulStudyTests' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    write-file /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudyTests.build/HangulStudyTests-all-target-headers.hmap
+
+WriteAuxiliaryFile /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudyTests.build/HangulStudyTests-all-non-framework-target-headers.hmap (in target 'HangulStudyTests' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    write-file /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudyTests.build/HangulStudyTests-all-non-framework-target-headers.hmap
+
+MkDir /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/HangulStudy.app/PlugIns/HangulStudyTests.xctest (in target 'HangulStudyTests' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    /bin/mkdir -p /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/HangulStudy.app/PlugIns/HangulStudyTests.xctest
+
+WriteAuxiliaryFile /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleUserMessagingPlatform.build/Debug-iphonesimulator/UserMessagingPlatformTarget-t.build/UserMessagingPlatformTarget.modulemap (in target 'UserMessagingPlatformTarget' from project 'GoogleUserMessagingPlatform')
+    cd /tmp/hangul-data10-1/SignedDerivedData/SourcePackages/checkouts/swift-package-manager-google-user-messaging-platform
+    write-file /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleUserMessagingPlatform.build/Debug-iphonesimulator/UserMessagingPlatformTarget-t.build/UserMessagingPlatformTarget.modulemap
+
+WriteAuxiliaryFile /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleUserMessagingPlatform.build/Debug-iphonesimulator/UserMessagingPlatformTarget-t.build/UserMessagingPlatformTarget.DependencyStaticMetadataFileList (in target 'UserMessagingPlatformTarget' from project 'GoogleUserMessagingPlatform')
+    cd /tmp/hangul-data10-1/SignedDerivedData/SourcePackages/checkouts/swift-package-manager-google-user-messaging-platform
+    write-file /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleUserMessagingPlatform.build/Debug-iphonesimulator/UserMessagingPlatformTarget-t.build/UserMessagingPlatformTarget.DependencyStaticMetadataFileList
+
+WriteAuxiliaryFile /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleUserMessagingPlatform.build/Debug-iphonesimulator/UserMessagingPlatformTarget-t.build/UserMessagingPlatformTarget.DependencyMetadataFileList (in target 'UserMessagingPlatformTarget' from project 'GoogleUserMessagingPlatform')
+    cd /tmp/hangul-data10-1/SignedDerivedData/SourcePackages/checkouts/swift-package-manager-google-user-messaging-platform
+    write-file /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleUserMessagingPlatform.build/Debug-iphonesimulator/UserMessagingPlatformTarget-t.build/UserMessagingPlatformTarget.DependencyMetadataFileList
+
+WriteAuxiliaryFile /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleUserMessagingPlatform.build/Debug-iphonesimulator/UserMessagingPlatformTarget-t.build/Objects-normal/arm64/UserMessagingPlatformTarget.LinkFileList (in target 'UserMessagingPlatformTarget' from project 'GoogleUserMessagingPlatform')
+    cd /tmp/hangul-data10-1/SignedDerivedData/SourcePackages/checkouts/swift-package-manager-google-user-messaging-platform
+    write-file /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleUserMessagingPlatform.build/Debug-iphonesimulator/UserMessagingPlatformTarget-t.build/Objects-normal/arm64/UserMessagingPlatformTarget.LinkFileList
+
+WriteAuxiliaryFile /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleUserMessagingPlatform.build/Debug-iphonesimulator/UserMessagingPlatformTarget-t.build/Objects-normal/arm64/e6072d4f65d7061329687fe24e3d63a7-common-args.resp (in target 'UserMessagingPlatformTarget' from project 'GoogleUserMessagingPlatform')
+    cd /tmp/hangul-data10-1/SignedDerivedData/SourcePackages/checkouts/swift-package-manager-google-user-messaging-platform
+    write-file /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleUserMessagingPlatform.build/Debug-iphonesimulator/UserMessagingPlatformTarget-t.build/Objects-normal/arm64/e6072d4f65d7061329687fe24e3d63a7-common-args.resp
+-fobjc-arc -fmodules -gmodules '-fmodules-cache-path=/tmp/hangul-data10-1/SignedDerivedData/ModuleCache.noindex' '-fmodule-name=UserMessagingPlatformTarget' -fpascal-strings -O0 -DSWIFT_PACKAGE '-DDEBUG=1' '-DOBJC_OLD_DISPATCH_PROTOTYPES=1' -g '-fobjc-abi-version=2' -fobjc-legacy-dispatch -I/tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/include -I/tmp/hangul-data10-1/SignedDerivedData/SourcePackages/checkouts/swift-package-manager-google-user-messaging-platform/UserMessagingPlatformTarget/include -I/tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleUserMessagingPlatform.build/Debug-iphonesimulator/UserMessagingPlatformTarget-t.build/DerivedSources-normal/arm64 -I/tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleUserMessagingPlatform.build/Debug-iphonesimulator/UserMessagingPlatformTarget-t.build/DerivedSources/arm64 -I/tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleUserMessagingPlatform.build/Debug-iphonesimulator/UserMessagingPlatformTarget-t.build/DerivedSources -F/tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.1.sdk/Developer/Library/Frameworks -DXcode
+
+Copy /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GeneratedModuleMaps-iphonesimulator/UserMessagingPlatformTarget.modulemap /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleUserMessagingPlatform.build/Debug-iphonesimulator/UserMessagingPlatformTarget-t.build/UserMessagingPlatformTarget.modulemap (in target 'UserMessagingPlatformTarget' from project 'GoogleUserMessagingPlatform')
+    cd /tmp/hangul-data10-1/SignedDerivedData/SourcePackages/checkouts/swift-package-manager-google-user-messaging-platform
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleUserMessagingPlatform.build/Debug-iphonesimulator/UserMessagingPlatformTarget-t.build/UserMessagingPlatformTarget.modulemap /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GeneratedModuleMaps-iphonesimulator
+
+WriteAuxiliaryFile /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/Objects-normal/x86_64/HangulStudy.SwiftFileList (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    write-file /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/Objects-normal/x86_64/HangulStudy.SwiftFileList
+
+WriteAuxiliaryFile /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/Objects-normal/x86_64/HangulStudy.SwiftConstValuesFileList (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    write-file /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/Objects-normal/x86_64/HangulStudy.SwiftConstValuesFileList
+
+WriteAuxiliaryFile /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/Objects-normal/x86_64/HangulStudy.LinkFileList (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    write-file /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/Objects-normal/x86_64/HangulStudy.LinkFileList
+
+WriteAuxiliaryFile /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/Objects-normal/x86_64/HangulStudy-OutputFileMap.json (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    write-file /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/Objects-normal/x86_64/HangulStudy-OutputFileMap.json
+
+WriteAuxiliaryFile /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/Script-FE52B775A23A0946F672F0D7.sh (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    write-file /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/Script-FE52B775A23A0946F672F0D7.sh
+
+WriteAuxiliaryFile /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/Objects-normal/x86_64/HangulStudy_const_extract_protocols.json (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    write-file /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/Objects-normal/x86_64/HangulStudy_const_extract_protocols.json
+
+WriteAuxiliaryFile /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/Objects-normal/arm64/HangulStudy_const_extract_protocols.json (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    write-file /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/Objects-normal/arm64/HangulStudy_const_extract_protocols.json
+
+WriteAuxiliaryFile /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/Objects-normal/arm64/HangulStudy.SwiftFileList (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    write-file /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/Objects-normal/arm64/HangulStudy.SwiftFileList
+
+WriteAuxiliaryFile /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/Objects-normal/arm64/HangulStudy.SwiftConstValuesFileList (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    write-file /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/Objects-normal/arm64/HangulStudy.SwiftConstValuesFileList
+
+WriteAuxiliaryFile /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/Objects-normal/arm64/HangulStudy.LinkFileList (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    write-file /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/Objects-normal/arm64/HangulStudy.LinkFileList
+
+WriteAuxiliaryFile /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/Objects-normal/arm64/HangulStudy-OutputFileMap.json (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    write-file /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/Objects-normal/arm64/HangulStudy-OutputFileMap.json
+
+WriteAuxiliaryFile /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/HangulStudy.hmap (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    write-file /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/HangulStudy.hmap
+
+WriteAuxiliaryFile /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/HangulStudy.DependencyStaticMetadataFileList (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    write-file /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/HangulStudy.DependencyStaticMetadataFileList
+
+WriteAuxiliaryFile /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/HangulStudy.DependencyMetadataFileList (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    write-file /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/HangulStudy.DependencyMetadataFileList
+
+WriteAuxiliaryFile /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/HangulStudy-project-headers.hmap (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    write-file /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/HangulStudy-project-headers.hmap
+
+WriteAuxiliaryFile /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/HangulStudy-own-target-headers.hmap (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    write-file /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/HangulStudy-own-target-headers.hmap
+
+WriteAuxiliaryFile /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/HangulStudy-generated-files.hmap (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    write-file /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/HangulStudy-generated-files.hmap
+
+WriteAuxiliaryFile /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/HangulStudy-all-target-headers.hmap (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    write-file /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/HangulStudy-all-target-headers.hmap
+
+WriteAuxiliaryFile /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/HangulStudy-all-non-framework-target-headers.hmap (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    write-file /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/HangulStudy-all-non-framework-target-headers.hmap
+
+WriteAuxiliaryFile /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/HangulStudy-DebugDylibPath-normal-x86_64.txt (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    write-file /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/HangulStudy-DebugDylibPath-normal-x86_64.txt
+
+WriteAuxiliaryFile /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/HangulStudy-DebugDylibPath-normal-arm64.txt (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    write-file /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/HangulStudy-DebugDylibPath-normal-arm64.txt
+
+WriteAuxiliaryFile /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/HangulStudy-DebugDylibInstallName-normal-x86_64.txt (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    write-file /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/HangulStudy-DebugDylibInstallName-normal-x86_64.txt
+
+WriteAuxiliaryFile /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/HangulStudy-DebugDylibInstallName-normal-arm64.txt (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    write-file /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/HangulStudy-DebugDylibInstallName-normal-arm64.txt
+
+WriteAuxiliaryFile /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/DerivedSources/Entitlements-Simulated.plist (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    write-file /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/DerivedSources/Entitlements-Simulated.plist
+
+WriteAuxiliaryFile /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/5025fdfec33796c4f9c7b6adb985f4e4.sb (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    write-file /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/5025fdfec33796c4f9c7b6adb985f4e4.sb
+
+WriteAuxiliaryFile /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphonesimulator/GoogleMobileAdsTarget-t.build/Objects-normal/arm64/GoogleMobileAdsTarget_const_extract_protocols.json (in target 'GoogleMobileAdsTarget' from project 'GoogleMobileAds')
+    cd /tmp/hangul-data10-1/SignedDerivedData/SourcePackages/checkouts/swift-package-manager-google-mobile-ads
+    write-file /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphonesimulator/GoogleMobileAdsTarget-t.build/Objects-normal/arm64/GoogleMobileAdsTarget_const_extract_protocols.json
+
+WriteAuxiliaryFile /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphonesimulator/GoogleMobileAdsTarget-t.build/Objects-normal/arm64/GoogleMobileAdsTarget.SwiftFileList (in target 'GoogleMobileAdsTarget' from project 'GoogleMobileAds')
+    cd /tmp/hangul-data10-1/SignedDerivedData/SourcePackages/checkouts/swift-package-manager-google-mobile-ads
+    write-file /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphonesimulator/GoogleMobileAdsTarget-t.build/Objects-normal/arm64/GoogleMobileAdsTarget.SwiftFileList
+
+WriteAuxiliaryFile /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphonesimulator/GoogleMobileAdsTarget-t.build/Objects-normal/arm64/GoogleMobileAdsTarget.SwiftConstValuesFileList (in target 'GoogleMobileAdsTarget' from project 'GoogleMobileAds')
+    cd /tmp/hangul-data10-1/SignedDerivedData/SourcePackages/checkouts/swift-package-manager-google-mobile-ads
+    write-file /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphonesimulator/GoogleMobileAdsTarget-t.build/Objects-normal/arm64/GoogleMobileAdsTarget.SwiftConstValuesFileList
+
+WriteAuxiliaryFile /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphonesimulator/GoogleMobileAdsTarget-t.build/Objects-normal/arm64/GoogleMobileAdsTarget.LinkFileList (in target 'GoogleMobileAdsTarget' from project 'GoogleMobileAds')
+    cd /tmp/hangul-data10-1/SignedDerivedData/SourcePackages/checkouts/swift-package-manager-google-mobile-ads
+    write-file /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphonesimulator/GoogleMobileAdsTarget-t.build/Objects-normal/arm64/GoogleMobileAdsTarget.LinkFileList
+
+WriteAuxiliaryFile /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphonesimulator/GoogleMobileAdsTarget-t.build/Objects-normal/arm64/GoogleMobileAdsTarget-OutputFileMap.json (in target 'GoogleMobileAdsTarget' from project 'GoogleMobileAds')
+    cd /tmp/hangul-data10-1/SignedDerivedData/SourcePackages/checkouts/swift-package-manager-google-mobile-ads
+    write-file /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphonesimulator/GoogleMobileAdsTarget-t.build/Objects-normal/arm64/GoogleMobileAdsTarget-OutputFileMap.json
+
+WriteAuxiliaryFile /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphonesimulator/GoogleMobileAdsTarget-t.build/GoogleMobileAdsTarget.modulemap (in target 'GoogleMobileAdsTarget' from project 'GoogleMobileAds')
+    cd /tmp/hangul-data10-1/SignedDerivedData/SourcePackages/checkouts/swift-package-manager-google-mobile-ads
+    write-file /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphonesimulator/GoogleMobileAdsTarget-t.build/GoogleMobileAdsTarget.modulemap
+
+WriteAuxiliaryFile /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphonesimulator/GoogleMobileAdsTarget-t.build/GoogleMobileAdsTarget.DependencyStaticMetadataFileList (in target 'GoogleMobileAdsTarget' from project 'GoogleMobileAds')
+    cd /tmp/hangul-data10-1/SignedDerivedData/SourcePackages/checkouts/swift-package-manager-google-mobile-ads
+    write-file /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphonesimulator/GoogleMobileAdsTarget-t.build/GoogleMobileAdsTarget.DependencyStaticMetadataFileList
+
+WriteAuxiliaryFile /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphonesimulator/GoogleMobileAdsTarget-t.build/GoogleMobileAdsTarget.DependencyMetadataFileList (in target 'GoogleMobileAdsTarget' from project 'GoogleMobileAds')
+    cd /tmp/hangul-data10-1/SignedDerivedData/SourcePackages/checkouts/swift-package-manager-google-mobile-ads
+    write-file /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphonesimulator/GoogleMobileAdsTarget-t.build/GoogleMobileAdsTarget.DependencyMetadataFileList
+
+MkDir /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/HangulStudy.app/PlugIns (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    /bin/mkdir -p /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/HangulStudy.app/PlugIns
+
+MkDir /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/HangulStudy.app/Frameworks (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    /bin/mkdir -p /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/HangulStudy.app/Frameworks
+
+MkDir /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/HangulStudy.app (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    /bin/mkdir -p /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/HangulStudy.app
+
+Copy /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GeneratedModuleMaps-iphonesimulator/GoogleMobileAdsTarget.modulemap /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphonesimulator/GoogleMobileAdsTarget-t.build/GoogleMobileAdsTarget.modulemap (in target 'GoogleMobileAdsTarget' from project 'GoogleMobileAds')
+    cd /tmp/hangul-data10-1/SignedDerivedData/SourcePackages/checkouts/swift-package-manager-google-mobile-ads
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphonesimulator/GoogleMobileAdsTarget-t.build/GoogleMobileAdsTarget.modulemap /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GeneratedModuleMaps-iphonesimulator
+
+ScanDependencies /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleUserMessagingPlatform.build/Debug-iphonesimulator/UserMessagingPlatformTarget-t.build/Objects-normal/arm64/placeholder.o /private/tmp/hangul-data10-1/SignedDerivedData/SourcePackages/checkouts/swift-package-manager-google-user-messaging-platform/UserMessagingPlatformTarget/placeholder.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler (in target 'UserMessagingPlatformTarget' from project 'GoogleUserMessagingPlatform')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study/HangulStudy.xcodeproj
+    
+    Using response file: /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleUserMessagingPlatform.build/Debug-iphonesimulator/UserMessagingPlatformTarget-t.build/Objects-normal/arm64/e6072d4f65d7061329687fe24e3d63a7-common-args.resp
+    
+    builtin-ScanDependencies -o /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleUserMessagingPlatform.build/Debug-iphonesimulator/UserMessagingPlatformTarget-t.build/Objects-normal/arm64/placeholder.o.scan -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -ivfsstatcache /tmp/hangul-data10-1/SignedDerivedData/SDKStatCaches.noindex/iphonesimulator27.1-24A94232-35d3147121984ba087c28d913653d626.sdkstatcache -target arm64-apple-ios15.0-simulator -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -fno-color-diagnostics -fmodules-prune-interval\=86400 -fmodules-prune-after\=345600 -fbuild-session-file\=/tmp/hangul-data10-1/SignedDerivedData/ModuleCache.noindex/Session.modulevalidation -fmodules-validate-once-per-build-session -Wnon-modular-include-in-framework-module -Werror\=non-modular-include-in-framework-module -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-objc-interface-ivars -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -w -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-implicit-fallthrough -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -index-store-path /tmp/hangul-data10-1/SignedDerivedData/Index.noindex/DataStore @/tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleUserMessagingPlatform.build/Debug-iphonesimulator/UserMessagingPlatformTarget-t.build/Objects-normal/arm64/e6072d4f65d7061329687fe24e3d63a7-common-args.resp -MMD -MT dependencies -MF /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleUserMessagingPlatform.build/Debug-iphonesimulator/UserMessagingPlatformTarget-t.build/Objects-normal/arm64/placeholder.d --serialize-diagnostics /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleUserMessagingPlatform.build/Debug-iphonesimulator/UserMessagingPlatformTarget-t.build/Objects-normal/arm64/placeholder.dia -c /private/tmp/hangul-data10-1/SignedDerivedData/SourcePackages/checkouts/swift-package-manager-google-user-messaging-platform/UserMessagingPlatformTarget/placeholder.m -o /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleUserMessagingPlatform.build/Debug-iphonesimulator/UserMessagingPlatformTarget-t.build/Objects-normal/arm64/placeholder.o -index-unit-output-path /GoogleUserMessagingPlatform.build/Debug-iphonesimulator/UserMessagingPlatformTarget-t.build/Objects-normal/arm64/placeholder.o
+
+SwiftDriver GoogleMobileAdsTarget normal arm64 com.apple.xcode.tools.swift.compiler (in target 'GoogleMobileAdsTarget' from project 'GoogleMobileAds')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study/HangulStudy.xcodeproj
+    builtin-SwiftDriver -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -parse-as-library -module-name GoogleMobileAdsTarget -Onone @/tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphonesimulator/GoogleMobileAdsTarget-t.build/Objects-normal/arm64/GoogleMobileAdsTarget.SwiftFileList -DSWIFT_PACKAGE -DDEBUG -DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE -Xcc -fmodule-map-file\=/tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GeneratedModuleMaps-iphonesimulator/UserMessagingPlatformTarget.modulemap -DXcode -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.1.sdk -target arm64-apple-ios15.0-simulator -g -module-cache-path /tmp/hangul-data10-1/SignedDerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -suppress-warnings -index-store-path /tmp/hangul-data10-1/SignedDerivedData/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator -Isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib -F /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/PackageFrameworks -F /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.1.sdk/Developer/Library/Frameworks -c -j8 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /tmp/hangul-data10-1/SignedDerivedData/SDKStatCaches.noindex/iphonesimulator27.1-24A94232-35d3147121984ba087c28d913653d626.sdkstatcache -output-file-map /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphonesimulator/GoogleMobileAdsTarget-t.build/Objects-normal/arm64/GoogleMobileAdsTarget-OutputFileMap.json -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /tmp/hangul-data10-1/SignedDerivedData/ModuleCache.noindex -sdk-module-cache-path /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules -emit-dependencies -emit-module -emit-module-path /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphonesimulator/GoogleMobileAdsTarget-t.build/Objects-normal/arm64/GoogleMobileAdsTarget.swiftmodule -serialize-diagnostics -dependency-scan-serialize-diagnostics-path /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphonesimulator/GoogleMobileAdsTarget-t.build/Objects-normal/arm64/GoogleMobileAdsTarget-dependency-scan.dia -validate-clang-modules-once -clang-build-session-file /tmp/hangul-data10-1/SignedDerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -fmodules-prune-interval\=86400 -Xcc -fmodules-prune-after\=345600 -emit-const-values -const-gather-protocols-list /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphonesimulator/GoogleMobileAdsTarget-t.build/Objects-normal/arm64/GoogleMobileAdsTarget_const_extract_protocols.json -Xcc -I/tmp/hangul-data10-1/SignedDerivedData/SourcePackages/checkouts/swift-package-manager-google-user-messaging-platform/UserMessagingPlatformTarget/include -Xcc -I/tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/include -Xcc -I/tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphonesimulator/GoogleMobileAdsTarget-t.build/DerivedSources-normal/arm64 -Xcc -I/tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphonesimulator/GoogleMobileAdsTarget-t.build/DerivedSources/arm64 -Xcc -I/tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphonesimulator/GoogleMobileAdsTarget-t.build/DerivedSources -Xcc -DSWIFT_PACKAGE -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphonesimulator/GoogleMobileAdsTarget-t.build/Objects-normal/arm64/GoogleMobileAdsTarget-Swift.h -working-directory /Users/shinchanhyeok/Desktop/Project-Hangul-Study/HangulStudy.xcodeproj -experimental-emit-module-separately -disable-cmo
+
+CompileC /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleUserMessagingPlatform.build/Debug-iphonesimulator/UserMessagingPlatformTarget-t.build/Objects-normal/arm64/placeholder.o /private/tmp/hangul-data10-1/SignedDerivedData/SourcePackages/checkouts/swift-package-manager-google-user-messaging-platform/UserMessagingPlatformTarget/placeholder.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler (in target 'UserMessagingPlatformTarget' from project 'GoogleUserMessagingPlatform')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study/HangulStudy.xcodeproj
+    
+    Using response file: /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleUserMessagingPlatform.build/Debug-iphonesimulator/UserMessagingPlatformTarget-t.build/Objects-normal/arm64/e6072d4f65d7061329687fe24e3d63a7-common-args.resp
+    
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -ivfsstatcache /tmp/hangul-data10-1/SignedDerivedData/SDKStatCaches.noindex/iphonesimulator27.1-24A94232-35d3147121984ba087c28d913653d626.sdkstatcache -target arm64-apple-ios15.0-simulator -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -fno-color-diagnostics -fmodules-prune-interval\=86400 -fmodules-prune-after\=345600 -fbuild-session-file\=/tmp/hangul-data10-1/SignedDerivedData/ModuleCache.noindex/Session.modulevalidation -fmodules-validate-once-per-build-session -Wnon-modular-include-in-framework-module -Werror\=non-modular-include-in-framework-module -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-objc-interface-ivars -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -w -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-implicit-fallthrough -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -index-store-path /tmp/hangul-data10-1/SignedDerivedData/Index.noindex/DataStore @/tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleUserMessagingPlatform.build/Debug-iphonesimulator/UserMessagingPlatformTarget-t.build/Objects-normal/arm64/e6072d4f65d7061329687fe24e3d63a7-common-args.resp -MMD -MT dependencies -MF /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleUserMessagingPlatform.build/Debug-iphonesimulator/UserMessagingPlatformTarget-t.build/Objects-normal/arm64/placeholder.d --serialize-diagnostics /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleUserMessagingPlatform.build/Debug-iphonesimulator/UserMessagingPlatformTarget-t.build/Objects-normal/arm64/placeholder.dia -c /private/tmp/hangul-data10-1/SignedDerivedData/SourcePackages/checkouts/swift-package-manager-google-user-messaging-platform/UserMessagingPlatformTarget/placeholder.m -o /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleUserMessagingPlatform.build/Debug-iphonesimulator/UserMessagingPlatformTarget-t.build/Objects-normal/arm64/placeholder.o -index-unit-output-path /GoogleUserMessagingPlatform.build/Debug-iphonesimulator/UserMessagingPlatformTarget-t.build/Objects-normal/arm64/placeholder.o
+
+Ld /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/UserMessagingPlatformTarget.o normal (in target 'UserMessagingPlatformTarget' from project 'GoogleUserMessagingPlatform')
+    cd /tmp/hangul-data10-1/SignedDerivedData/SourcePackages/checkouts/swift-package-manager-google-user-messaging-platform
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios15.0-simulator -r -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.1.sdk -O0 -w -Xlinker -no_warn_duplicate_libraries -F/tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator -F/tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.1.sdk/Developer/Library/Frameworks -filelist /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleUserMessagingPlatform.build/Debug-iphonesimulator/UserMessagingPlatformTarget-t.build/Objects-normal/arm64/UserMessagingPlatformTarget.LinkFileList -nostdlib -Xlinker -object_path_lto -Xlinker /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleUserMessagingPlatform.build/Debug-iphonesimulator/UserMessagingPlatformTarget-t.build/Objects-normal/arm64/UserMessagingPlatformTarget_lto.o -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -dependency_info -Xlinker /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleUserMessagingPlatform.build/Debug-iphonesimulator/UserMessagingPlatformTarget-t.build/Objects-normal/arm64/UserMessagingPlatformTarget_dependency_info.dat -fobjc-arc -fobjc-link-runtime -o /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/UserMessagingPlatformTarget.o
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/SwiftShims-8HJJ4TMX9QC68O7OX8EQA05AA.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/_SwiftConcurrencyShims-6PJT27NL4ENRI7KWGM8R3SDZE.pcm
+
+CodeSign /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/UserMessagingPlatformTarget.o (in target 'UserMessagingPlatformTarget' from project 'GoogleUserMessagingPlatform')
+    cd /tmp/hangul-data10-1/SignedDerivedData/SourcePackages/checkouts/swift-package-manager-google-user-messaging-platform
+    
+    Signing Identity:     "Sign to Run Locally"
+    
+    /usr/bin/codesign --force --sign - --timestamp\=none --generate-entitlement-der /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/UserMessagingPlatformTarget.o
+
+SwiftEmitModule normal arm64 Emitting\ module\ for\ GoogleMobileAdsTarget (in target 'GoogleMobileAdsTarget' from project 'GoogleMobileAds')
+
+SwiftCompile normal arm64 (in target 'GoogleMobileAdsTarget' from project 'GoogleMobileAds')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study/HangulStudy.xcodeproj
+    
+
+SwiftCompile normal arm64 Compiling\ placeholder.swift /private/tmp/hangul-data10-1/SignedDerivedData/SourcePackages/checkouts/swift-package-manager-google-mobile-ads/GoogleMobileAdsTarget/placeholder.swift (in target 'GoogleMobileAdsTarget' from project 'GoogleMobileAds')
+
+SwiftCompile normal arm64 /private/tmp/hangul-data10-1/SignedDerivedData/SourcePackages/checkouts/swift-package-manager-google-mobile-ads/GoogleMobileAdsTarget/placeholder.swift (in target 'GoogleMobileAdsTarget' from project 'GoogleMobileAds')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study/HangulStudy.xcodeproj
+    builtin-SwiftPerFileCompile placeholder.swift
+
+SwiftDriverJobDiscovery normal arm64 Emitting module for GoogleMobileAdsTarget (in target 'GoogleMobileAdsTarget' from project 'GoogleMobileAds')
+
+SwiftDriver\ Compilation\ Requirements GoogleMobileAdsTarget normal arm64 com.apple.xcode.tools.swift.compiler (in target 'GoogleMobileAdsTarget' from project 'GoogleMobileAds')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study/HangulStudy.xcodeproj
+    builtin-Swift-Compilation-Requirements -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -parse-as-library -module-name GoogleMobileAdsTarget -Onone @/tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphonesimulator/GoogleMobileAdsTarget-t.build/Objects-normal/arm64/GoogleMobileAdsTarget.SwiftFileList -DSWIFT_PACKAGE -DDEBUG -DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE -Xcc -fmodule-map-file\=/tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GeneratedModuleMaps-iphonesimulator/UserMessagingPlatformTarget.modulemap -DXcode -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.1.sdk -target arm64-apple-ios15.0-simulator -g -module-cache-path /tmp/hangul-data10-1/SignedDerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -suppress-warnings -index-store-path /tmp/hangul-data10-1/SignedDerivedData/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator -Isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib -F /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/PackageFrameworks -F /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.1.sdk/Developer/Library/Frameworks -c -j8 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /tmp/hangul-data10-1/SignedDerivedData/SDKStatCaches.noindex/iphonesimulator27.1-24A94232-35d3147121984ba087c28d913653d626.sdkstatcache -output-file-map /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphonesimulator/GoogleMobileAdsTarget-t.build/Objects-normal/arm64/GoogleMobileAdsTarget-OutputFileMap.json -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /tmp/hangul-data10-1/SignedDerivedData/ModuleCache.noindex -sdk-module-cache-path /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules -emit-dependencies -emit-module -emit-module-path /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphonesimulator/GoogleMobileAdsTarget-t.build/Objects-normal/arm64/GoogleMobileAdsTarget.swiftmodule -serialize-diagnostics -dependency-scan-serialize-diagnostics-path /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphonesimulator/GoogleMobileAdsTarget-t.build/Objects-normal/arm64/GoogleMobileAdsTarget-dependency-scan.dia -validate-clang-modules-once -clang-build-session-file /tmp/hangul-data10-1/SignedDerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -fmodules-prune-interval\=86400 -Xcc -fmodules-prune-after\=345600 -emit-const-values -const-gather-protocols-list /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphonesimulator/GoogleMobileAdsTarget-t.build/Objects-normal/arm64/GoogleMobileAdsTarget_const_extract_protocols.json -Xcc -I/tmp/hangul-data10-1/SignedDerivedData/SourcePackages/checkouts/swift-package-manager-google-user-messaging-platform/UserMessagingPlatformTarget/include -Xcc -I/tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/include -Xcc -I/tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphonesimulator/GoogleMobileAdsTarget-t.build/DerivedSources-normal/arm64 -Xcc -I/tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphonesimulator/GoogleMobileAdsTarget-t.build/DerivedSources/arm64 -Xcc -I/tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphonesimulator/GoogleMobileAdsTarget-t.build/DerivedSources -Xcc -DSWIFT_PACKAGE -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphonesimulator/GoogleMobileAdsTarget-t.build/Objects-normal/arm64/GoogleMobileAdsTarget-Swift.h -working-directory /Users/shinchanhyeok/Desktop/Project-Hangul-Study/HangulStudy.xcodeproj -experimental-emit-module-separately -disable-cmo
+
+SwiftMergeGeneratedHeaders /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GeneratedModuleMaps-iphonesimulator/GoogleMobileAdsTarget-Swift.h /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphonesimulator/GoogleMobileAdsTarget-t.build/Objects-normal/arm64/GoogleMobileAdsTarget-Swift.h (in target 'GoogleMobileAdsTarget' from project 'GoogleMobileAds')
+    cd /tmp/hangul-data10-1/SignedDerivedData/SourcePackages/checkouts/swift-package-manager-google-mobile-ads
+    builtin-swiftHeaderTool -arch arm64 /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphonesimulator/GoogleMobileAdsTarget-t.build/Objects-normal/arm64/GoogleMobileAdsTarget-Swift.h -o /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GeneratedModuleMaps-iphonesimulator/GoogleMobileAdsTarget-Swift.h
+
+Copy /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/GoogleMobileAdsTarget.swiftmodule/arm64-apple-ios-simulator.swiftmodule /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphonesimulator/GoogleMobileAdsTarget-t.build/Objects-normal/arm64/GoogleMobileAdsTarget.swiftmodule (in target 'GoogleMobileAdsTarget' from project 'GoogleMobileAds')
+    cd /tmp/hangul-data10-1/SignedDerivedData/SourcePackages/checkouts/swift-package-manager-google-mobile-ads
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphonesimulator/GoogleMobileAdsTarget-t.build/Objects-normal/arm64/GoogleMobileAdsTarget.swiftmodule /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/GoogleMobileAdsTarget.swiftmodule/arm64-apple-ios-simulator.swiftmodule
+
+Copy /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/GoogleMobileAdsTarget.swiftmodule/arm64-apple-ios-simulator.swiftdoc /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphonesimulator/GoogleMobileAdsTarget-t.build/Objects-normal/arm64/GoogleMobileAdsTarget.swiftdoc (in target 'GoogleMobileAdsTarget' from project 'GoogleMobileAds')
+    cd /tmp/hangul-data10-1/SignedDerivedData/SourcePackages/checkouts/swift-package-manager-google-mobile-ads
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphonesimulator/GoogleMobileAdsTarget-t.build/Objects-normal/arm64/GoogleMobileAdsTarget.swiftdoc /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/GoogleMobileAdsTarget.swiftmodule/arm64-apple-ios-simulator.swiftdoc
+
+Copy /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/GoogleMobileAdsTarget.swiftmodule/arm64-apple-ios-simulator.abi.json /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphonesimulator/GoogleMobileAdsTarget-t.build/Objects-normal/arm64/GoogleMobileAdsTarget.abi.json (in target 'GoogleMobileAdsTarget' from project 'GoogleMobileAds')
+    cd /tmp/hangul-data10-1/SignedDerivedData/SourcePackages/checkouts/swift-package-manager-google-mobile-ads
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphonesimulator/GoogleMobileAdsTarget-t.build/Objects-normal/arm64/GoogleMobileAdsTarget.abi.json /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/GoogleMobileAdsTarget.swiftmodule/arm64-apple-ios-simulator.abi.json
+
+Copy /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/GoogleMobileAdsTarget.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphonesimulator/GoogleMobileAdsTarget-t.build/Objects-normal/arm64/GoogleMobileAdsTarget.swiftsourceinfo (in target 'GoogleMobileAdsTarget' from project 'GoogleMobileAds')
+    cd /tmp/hangul-data10-1/SignedDerivedData/SourcePackages/checkouts/swift-package-manager-google-mobile-ads
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphonesimulator/GoogleMobileAdsTarget-t.build/Objects-normal/arm64/GoogleMobileAdsTarget.swiftsourceinfo /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/GoogleMobileAdsTarget.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo
+
+ProcessProductPackaging "" /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/HangulStudy.app-Simulated.xcent (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    
+    Entitlements:
+    
+    {
+    "application-identifier" = "FAKETEAMID.com.example.HangulStudy";
+}
+    
+    builtin-productPackagingUtility -entitlements -format xml -o /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/HangulStudy.app-Simulated.xcent
+
+ProcessProductPackagingDER /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/HangulStudy.app-Simulated.xcent /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/HangulStudy.app-Simulated.xcent.der (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    /usr/bin/derq query -f xml -i /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/HangulStudy.app-Simulated.xcent -o /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/HangulStudy.app-Simulated.xcent.der --raw
+
+SwiftDriver HangulStudy normal x86_64 com.apple.xcode.tools.swift.compiler (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-SwiftDriver -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name HangulStudy -Onone @/tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/Objects-normal/x86_64/HangulStudy.SwiftFileList -DDEBUG -DDEBUG -Xcc -fmodule-map-file\=/tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GeneratedModuleMaps-iphonesimulator/UserMessagingPlatformTarget.modulemap -enable-upcoming-feature StrictConcurrency -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.1.sdk -target x86_64-apple-ios16.0-simulator -g -module-cache-path /tmp/hangul-data10-1/SignedDerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /tmp/hangul-data10-1/SignedDerivedData/Index.noindex/DataStore -swift-version 5 -I /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator -F /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/PackageFrameworks -F /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator -emit-localized-strings -emit-localized-strings-path /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/Objects-normal/x86_64 -c -j8 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /tmp/hangul-data10-1/SignedDerivedData/SDKStatCaches.noindex/iphonesimulator27.1-24A94232-35d3147121984ba087c28d913653d626.sdkstatcache -output-file-map /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/Objects-normal/x86_64/HangulStudy-OutputFileMap.json -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /tmp/hangul-data10-1/SignedDerivedData/ModuleCache.noindex -sdk-module-cache-path /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules -emit-dependencies -emit-module -emit-module-path /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/Objects-normal/x86_64/HangulStudy.swiftmodule -serialize-diagnostics -dependency-scan-serialize-diagnostics-path /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/Objects-normal/x86_64/HangulStudy-dependency-scan.dia -validate-clang-modules-once -clang-build-session-file /tmp/hangul-data10-1/SignedDerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -fmodules-prune-interval\=86400 -Xcc -fmodules-prune-after\=345600 -emit-const-values -const-gather-protocols-list /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/Objects-normal/x86_64/HangulStudy_const_extract_protocols.json -Xcc -iquote -Xcc /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/HangulStudy-generated-files.hmap -Xcc -I/tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/HangulStudy-own-target-headers.hmap -Xcc -I/tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/HangulStudy-all-non-framework-target-headers.hmap -Xcc -ivfsoverlay -Xcc /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy-8b6762a4df3d56dfd90ff1916c93c95b-VFS-iphonesimulator/all-product-headers.yaml -Xcc -iquote -Xcc /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/HangulStudy-project-headers.hmap -Xcc -I/tmp/hangul-data10-1/SignedDerivedData/SourcePackages/checkouts/swift-package-manager-google-user-messaging-platform/UserMessagingPlatformTarget/include -Xcc -I/tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/include -Xcc -I/tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/DerivedSources-normal/x86_64 -Xcc -I/tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/DerivedSources/x86_64 -Xcc -I/tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/DerivedSources -emit-objc-header -emit-objc-header-path /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/Objects-normal/x86_64/HangulStudy-Swift.h -working-directory /Users/shinchanhyeok/Desktop/Project-Hangul-Study -experimental-emit-module-separately -disable-cmo
+
+SwiftDriver HangulStudy normal arm64 com.apple.xcode.tools.swift.compiler (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-SwiftDriver -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name HangulStudy -Onone @/tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/Objects-normal/arm64/HangulStudy.SwiftFileList -DDEBUG -DDEBUG -Xcc -fmodule-map-file\=/tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GeneratedModuleMaps-iphonesimulator/UserMessagingPlatformTarget.modulemap -enable-upcoming-feature StrictConcurrency -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.1.sdk -target arm64-apple-ios16.0-simulator -g -module-cache-path /tmp/hangul-data10-1/SignedDerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /tmp/hangul-data10-1/SignedDerivedData/Index.noindex/DataStore -swift-version 5 -I /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator -F /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/PackageFrameworks -F /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator -emit-localized-strings -emit-localized-strings-path /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/Objects-normal/arm64 -c -j8 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /tmp/hangul-data10-1/SignedDerivedData/SDKStatCaches.noindex/iphonesimulator27.1-24A94232-35d3147121984ba087c28d913653d626.sdkstatcache -output-file-map /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/Objects-normal/arm64/HangulStudy-OutputFileMap.json -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /tmp/hangul-data10-1/SignedDerivedData/ModuleCache.noindex -sdk-module-cache-path /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules -emit-dependencies -emit-module -emit-module-path /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/Objects-normal/arm64/HangulStudy.swiftmodule -serialize-diagnostics -dependency-scan-serialize-diagnostics-path /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/Objects-normal/arm64/HangulStudy-dependency-scan.dia -validate-clang-modules-once -clang-build-session-file /tmp/hangul-data10-1/SignedDerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -fmodules-prune-interval\=86400 -Xcc -fmodules-prune-after\=345600 -emit-const-values -const-gather-protocols-list /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/Objects-normal/arm64/HangulStudy_const_extract_protocols.json -Xcc -iquote -Xcc /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/HangulStudy-generated-files.hmap -Xcc -I/tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/HangulStudy-own-target-headers.hmap -Xcc -I/tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/HangulStudy-all-non-framework-target-headers.hmap -Xcc -ivfsoverlay -Xcc /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy-8b6762a4df3d56dfd90ff1916c93c95b-VFS-iphonesimulator/all-product-headers.yaml -Xcc -iquote -Xcc /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/HangulStudy-project-headers.hmap -Xcc -I/tmp/hangul-data10-1/SignedDerivedData/SourcePackages/checkouts/swift-package-manager-google-user-messaging-platform/UserMessagingPlatformTarget/include -Xcc -I/tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/include -Xcc -I/tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/DerivedSources-normal/arm64 -Xcc -I/tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/DerivedSources/arm64 -Xcc -I/tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/DerivedSources -emit-objc-header -emit-objc-header-path /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/Objects-normal/arm64/HangulStudy-Swift.h -working-directory /Users/shinchanhyeok/Desktop/Project-Hangul-Study -experimental-emit-module-separately -disable-cmo
+
+SwiftDriverJobDiscovery normal arm64 Compiling placeholder.swift (in target 'GoogleMobileAdsTarget' from project 'GoogleMobileAds')
+
+SwiftDriver\ Compilation GoogleMobileAdsTarget normal arm64 com.apple.xcode.tools.swift.compiler (in target 'GoogleMobileAdsTarget' from project 'GoogleMobileAds')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study/HangulStudy.xcodeproj
+    builtin-Swift-Compilation -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -parse-as-library -module-name GoogleMobileAdsTarget -Onone @/tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphonesimulator/GoogleMobileAdsTarget-t.build/Objects-normal/arm64/GoogleMobileAdsTarget.SwiftFileList -DSWIFT_PACKAGE -DDEBUG -DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE -Xcc -fmodule-map-file\=/tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GeneratedModuleMaps-iphonesimulator/UserMessagingPlatformTarget.modulemap -DXcode -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.1.sdk -target arm64-apple-ios15.0-simulator -g -module-cache-path /tmp/hangul-data10-1/SignedDerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -suppress-warnings -index-store-path /tmp/hangul-data10-1/SignedDerivedData/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator -Isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib -F /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/PackageFrameworks -F /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.1.sdk/Developer/Library/Frameworks -c -j8 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /tmp/hangul-data10-1/SignedDerivedData/SDKStatCaches.noindex/iphonesimulator27.1-24A94232-35d3147121984ba087c28d913653d626.sdkstatcache -output-file-map /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphonesimulator/GoogleMobileAdsTarget-t.build/Objects-normal/arm64/GoogleMobileAdsTarget-OutputFileMap.json -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /tmp/hangul-data10-1/SignedDerivedData/ModuleCache.noindex -sdk-module-cache-path /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules -emit-dependencies -emit-module -emit-module-path /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphonesimulator/GoogleMobileAdsTarget-t.build/Objects-normal/arm64/GoogleMobileAdsTarget.swiftmodule -serialize-diagnostics -dependency-scan-serialize-diagnostics-path /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphonesimulator/GoogleMobileAdsTarget-t.build/Objects-normal/arm64/GoogleMobileAdsTarget-dependency-scan.dia -validate-clang-modules-once -clang-build-session-file /tmp/hangul-data10-1/SignedDerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -fmodules-prune-interval\=86400 -Xcc -fmodules-prune-after\=345600 -emit-const-values -const-gather-protocols-list /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphonesimulator/GoogleMobileAdsTarget-t.build/Objects-normal/arm64/GoogleMobileAdsTarget_const_extract_protocols.json -Xcc -I/tmp/hangul-data10-1/SignedDerivedData/SourcePackages/checkouts/swift-package-manager-google-user-messaging-platform/UserMessagingPlatformTarget/include -Xcc -I/tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/include -Xcc -I/tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphonesimulator/GoogleMobileAdsTarget-t.build/DerivedSources-normal/arm64 -Xcc -I/tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphonesimulator/GoogleMobileAdsTarget-t.build/DerivedSources/arm64 -Xcc -I/tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphonesimulator/GoogleMobileAdsTarget-t.build/DerivedSources -Xcc -DSWIFT_PACKAGE -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphonesimulator/GoogleMobileAdsTarget-t.build/Objects-normal/arm64/GoogleMobileAdsTarget-Swift.h -working-directory /Users/shinchanhyeok/Desktop/Project-Hangul-Study/HangulStudy.xcodeproj -experimental-emit-module-separately -disable-cmo
+
+Ld /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/GoogleMobileAdsTarget.o normal (in target 'GoogleMobileAdsTarget' from project 'GoogleMobileAds')
+    cd /tmp/hangul-data10-1/SignedDerivedData/SourcePackages/checkouts/swift-package-manager-google-mobile-ads
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios15.0-simulator -r -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.1.sdk -O0 -w -Xlinker -no_warn_duplicate_libraries -F/tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator -F/tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/PackageFrameworks -F/tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.1.sdk/Developer/Library/Frameworks -filelist /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphonesimulator/GoogleMobileAdsTarget-t.build/Objects-normal/arm64/GoogleMobileAdsTarget.LinkFileList -nostdlib -Xlinker -object_path_lto -Xlinker /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphonesimulator/GoogleMobileAdsTarget-t.build/Objects-normal/arm64/GoogleMobileAdsTarget_lto.o -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -dependency_info -Xlinker /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphonesimulator/GoogleMobileAdsTarget-t.build/Objects-normal/arm64/GoogleMobileAdsTarget_dependency_info.dat -fobjc-link-runtime -L/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator -L/usr/lib/swift -Xlinker -add_ast_path -Xlinker /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphonesimulator/GoogleMobileAdsTarget-t.build/Objects-normal/arm64/GoogleMobileAdsTarget.swiftmodule -o /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/GoogleMobileAdsTarget.o
+
+ExtractAppIntentsMetadata (in target 'GoogleMobileAdsTarget' from project 'GoogleMobileAds')
+    cd /tmp/hangul-data10-1/SignedDerivedData/SourcePackages/checkouts/swift-package-manager-google-mobile-ads
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsmetadataprocessor --toolchain-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --module-name GoogleMobileAdsTarget --sdk-root /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.1.sdk --xcode-version 27A9275 --platform-family iOS --deployment-target 15.0 --bundle-identifier swift-package-manager-google-mobile-ads.GoogleMobileAdsTarget --output /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/GoogleMobileAdsTarget.appintents --target-triple arm64-apple-ios15.0-simulator --binary-file /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/GoogleMobileAdsTarget.o --dependency-file /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphonesimulator/GoogleMobileAdsTarget-t.build/Objects-normal/arm64/GoogleMobileAdsTarget_dependency_info.dat --stringsdata-file /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphonesimulator/GoogleMobileAdsTarget-t.build/Objects-normal/arm64/ExtractedAppShortcutsMetadata.stringsdata --source-file-list /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphonesimulator/GoogleMobileAdsTarget-t.build/Objects-normal/arm64/GoogleMobileAdsTarget.SwiftFileList --metadata-file-list /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphonesimulator/GoogleMobileAdsTarget-t.build/GoogleMobileAdsTarget.DependencyMetadataFileList --static-metadata-file-list /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphonesimulator/GoogleMobileAdsTarget-t.build/GoogleMobileAdsTarget.DependencyStaticMetadataFileList --swift-const-vals-list /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphonesimulator/GoogleMobileAdsTarget-t.build/Objects-normal/arm64/GoogleMobileAdsTarget.SwiftConstValuesFileList --force --compile-time-extraction --deployment-aware-processing --no-app-shortcuts-localization
+2026-10-20 20:26:28.566 appintentsmetadataprocessor[36948:2050495] Starting appintentsmetadataprocessor export
+2026-10-20 20:26:30.751 appintentsmetadataprocessor[36948:2050495] Extracted no relevant App Intents symbols, skipping writing output
+
+CodeSign /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/GoogleMobileAdsTarget.o (in target 'GoogleMobileAdsTarget' from project 'GoogleMobileAds')
+    cd /tmp/hangul-data10-1/SignedDerivedData/SourcePackages/checkouts/swift-package-manager-google-mobile-ads
+    
+    Signing Identity:     "Sign to Run Locally"
+    
+    /usr/bin/codesign --force --sign - --timestamp\=none --generate-entitlement-der /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/GoogleMobileAdsTarget.o
+
+CpResource /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/HangulStudy.app/user-schema-v1.sql /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Resources/user-schema-v1.sql (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-unsigned-binaries -strip-deterministic -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Resources/user-schema-v1.sql /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/HangulStudy.app
+
+CpResource /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/HangulStudy.app/user-migration-v9.sql /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Resources/user-migration-v9.sql (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-unsigned-binaries -strip-deterministic -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Resources/user-migration-v9.sql /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/HangulStudy.app
+
+CpResource /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/HangulStudy.app/user-migration-v8.sql /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Resources/user-migration-v8.sql (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-unsigned-binaries -strip-deterministic -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Resources/user-migration-v8.sql /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/HangulStudy.app
+
+CpResource /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/HangulStudy.app/user-migration-v7.sql /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Resources/user-migration-v7.sql (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-unsigned-binaries -strip-deterministic -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Resources/user-migration-v7.sql /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/HangulStudy.app
+
+Ld /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/Objects-normal/arm64/Binary/__preview.dylib normal arm64 (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios16.0-simulator -dynamiclib -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.1.sdk -Os -Xlinker -no_warn_duplicate_libraries -L/tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator -F/tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/PackageFrameworks -F/tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator -install_name @rpath/HangulStudy.debug.dylib -Xlinker -dead_strip -rdynamic -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -dependency_info -Xlinker /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/Objects-normal/arm64/HangulStudy_dependency_info.dat -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __entitlements -Xlinker /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/HangulStudy.app-Simulated.xcent -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __ents_der -Xlinker /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/HangulStudy.app-Simulated.xcent.der -Xlinker -no_adhoc_codesign -o /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/Objects-normal/arm64/Binary/__preview.dylib
+
+Ld /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/Objects-normal/x86_64/Binary/__preview.dylib normal x86_64 (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target x86_64-apple-ios16.0-simulator -dynamiclib -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.1.sdk -Os -Xlinker -no_warn_duplicate_libraries -L/tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator -F/tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/PackageFrameworks -F/tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator -install_name @rpath/HangulStudy.debug.dylib -Xlinker -dead_strip -rdynamic -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -dependency_info -Xlinker /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/Objects-normal/x86_64/HangulStudy_dependency_info.dat -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __entitlements -Xlinker /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/HangulStudy.app-Simulated.xcent -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __ents_der -Xlinker /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/HangulStudy.app-Simulated.xcent.der -Xlinker -no_adhoc_codesign -o /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/Objects-normal/x86_64/Binary/__preview.dylib
+
+CpResource /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/HangulStudy.app/user-migration-v6.sql /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Resources/user-migration-v6.sql (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-unsigned-binaries -strip-deterministic -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Resources/user-migration-v6.sql /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/HangulStudy.app
+
+CpResource /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/HangulStudy.app/user-migration-v5.sql /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Resources/user-migration-v5.sql (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-unsigned-binaries -strip-deterministic -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Resources/user-migration-v5.sql /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/HangulStudy.app
+
+CpResource /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/HangulStudy.app/user-migration-v4.sql /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Resources/user-migration-v4.sql (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-unsigned-binaries -strip-deterministic -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Resources/user-migration-v4.sql /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/HangulStudy.app
+
+CpResource /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/HangulStudy.app/user-migration-v3.sql /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Resources/user-migration-v3.sql (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-unsigned-binaries -strip-deterministic -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Resources/user-migration-v3.sql /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/HangulStudy.app
+
+CpResource /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/HangulStudy.app/user-migration-v2.sql /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Resources/user-migration-v2.sql (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-unsigned-binaries -strip-deterministic -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Resources/user-migration-v2.sql /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/HangulStudy.app
+
+CpResource /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/HangulStudy.app/user-migration-v10.sql /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Resources/user-migration-v10.sql (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-unsigned-binaries -strip-deterministic -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Resources/user-migration-v10.sql /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/HangulStudy.app
+
+CpResource /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/HangulStudy.app/PrivacyInfo.xcprivacy /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Resources/PrivacyInfo.xcprivacy (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-unsigned-binaries -strip-deterministic -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Resources/PrivacyInfo.xcprivacy /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/HangulStudy.app
+
+CopyStringsFile /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/HangulStudy.app/ja.lproj/Localizable.strings /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Resources/ja.lproj/Localizable.strings (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-copyStrings --validate --outputencoding binary --outfilename Localizable.strings --outdir /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/HangulStudy.app/ja.lproj -- /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Resources/ja.lproj/Localizable.strings
+/Users/shinchanhyeok/Desktop/Project-Hangul-Study/Resources/ja.lproj/Localizable.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'HangulStudy' from project 'HangulStudy')
+
+Copy /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/HangulStudy.app/Frameworks/UserMessagingPlatform.framework /tmp/hangul-data10-1/SignedDerivedData/SourcePackages/artifacts/swift-package-manager-google-user-messaging-platform/UserMessagingPlatform/UserMessagingPlatform.xcframework/ios-arm64_x86_64-simulator/UserMessagingPlatform.framework (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -strip-unsigned-binaries -strip-deterministic -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks -remove-static-executable /tmp/hangul-data10-1/SignedDerivedData/SourcePackages/artifacts/swift-package-manager-google-user-messaging-platform/UserMessagingPlatform/UserMessagingPlatform.xcframework/ios-arm64_x86_64-simulator/UserMessagingPlatform.framework /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/HangulStudy.app/Frameworks
+note: Injecting stub binary into codeless framework (in target 'HangulStudy' from project 'HangulStudy')
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.1.sdk -x c -c /dev/null -target arm64-apple-ios100.0-simulator -o /private/var/folders/8v/hn0fczhd7sg1sjf0r1hl0p_80000gn/T/swbuild.tmp.jeF7yDPM/Data.noindex/arm64-apple.o
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.1.sdk -dynamiclib -Xlinker -adhoc_codesign -target arm64-apple-ios100.0-simulator -install_name @rpath/UserMessagingPlatform.framework/UserMessagingPlatform -o /private/var/folders/8v/hn0fczhd7sg1sjf0r1hl0p_80000gn/T/swbuild.tmp.jeF7yDPM/Data.noindex/arm64-apple /private/var/folders/8v/hn0fczhd7sg1sjf0r1hl0p_80000gn/T/swbuild.tmp.jeF7yDPM/Data.noindex/arm64-apple.o
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.1.sdk -x c -c /dev/null -target x86_64-apple-ios100.0-simulator -o /private/var/folders/8v/hn0fczhd7sg1sjf0r1hl0p_80000gn/T/swbuild.tmp.jeF7yDPM/Data.noindex/x86_64-apple.o
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.1.sdk -dynamiclib -Xlinker -adhoc_codesign -target x86_64-apple-ios100.0-simulator -install_name @rpath/UserMessagingPlatform.framework/UserMessagingPlatform -o /private/var/folders/8v/hn0fczhd7sg1sjf0r1hl0p_80000gn/T/swbuild.tmp.jeF7yDPM/Data.noindex/x86_64-apple /private/var/folders/8v/hn0fczhd7sg1sjf0r1hl0p_80000gn/T/swbuild.tmp.jeF7yDPM/Data.noindex/x86_64-apple.o
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -create -output /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/HangulStudy.app/Frameworks/UserMessagingPlatform.framework/UserMessagingPlatform /private/var/folders/8v/hn0fczhd7sg1sjf0r1hl0p_80000gn/T/swbuild.tmp.jeF7yDPM/Data.noindex/arm64-apple /private/var/folders/8v/hn0fczhd7sg1sjf0r1hl0p_80000gn/T/swbuild.tmp.jeF7yDPM/Data.noindex/x86_64-apple
+
+Copy /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/HangulStudy.app/Frameworks/GoogleMobileAds.framework /tmp/hangul-data10-1/SignedDerivedData/SourcePackages/artifacts/swift-package-manager-google-mobile-ads/GoogleMobileAds/GoogleMobileAds.xcframework/ios-arm64_x86_64-simulator/GoogleMobileAds.framework (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -strip-unsigned-binaries -strip-deterministic -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks -remove-static-executable /tmp/hangul-data10-1/SignedDerivedData/SourcePackages/artifacts/swift-package-manager-google-mobile-ads/GoogleMobileAds/GoogleMobileAds.xcframework/ios-arm64_x86_64-simulator/GoogleMobileAds.framework /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/HangulStudy.app/Frameworks
+note: Injecting stub binary into codeless framework (in target 'HangulStudy' from project 'HangulStudy')
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.1.sdk -x c -c /dev/null -target arm64-apple-ios13.0-simulator -o /private/var/folders/8v/hn0fczhd7sg1sjf0r1hl0p_80000gn/T/swbuild.tmp.BdMxUsxh/Data.noindex/arm64-apple.o
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.1.sdk -dynamiclib -Xlinker -adhoc_codesign -target arm64-apple-ios13.0-simulator -install_name @rpath/GoogleMobileAds.framework/GoogleMobileAds -o /private/var/folders/8v/hn0fczhd7sg1sjf0r1hl0p_80000gn/T/swbuild.tmp.BdMxUsxh/Data.noindex/arm64-apple /private/var/folders/8v/hn0fczhd7sg1sjf0r1hl0p_80000gn/T/swbuild.tmp.BdMxUsxh/Data.noindex/arm64-apple.o
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.1.sdk -x c -c /dev/null -target x86_64-apple-ios13.0-simulator -o /private/var/folders/8v/hn0fczhd7sg1sjf0r1hl0p_80000gn/T/swbuild.tmp.BdMxUsxh/Data.noindex/x86_64-apple.o
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.1.sdk -dynamiclib -Xlinker -adhoc_codesign -target x86_64-apple-ios13.0-simulator -install_name @rpath/GoogleMobileAds.framework/GoogleMobileAds -o /private/var/folders/8v/hn0fczhd7sg1sjf0r1hl0p_80000gn/T/swbuild.tmp.BdMxUsxh/Data.noindex/x86_64-apple /private/var/folders/8v/hn0fczhd7sg1sjf0r1hl0p_80000gn/T/swbuild.tmp.BdMxUsxh/Data.noindex/x86_64-apple.o
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -create -output /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/HangulStudy.app/Frameworks/GoogleMobileAds.framework/GoogleMobileAds /private/var/folders/8v/hn0fczhd7sg1sjf0r1hl0p_80000gn/T/swbuild.tmp.BdMxUsxh/Data.noindex/arm64-apple /private/var/folders/8v/hn0fczhd7sg1sjf0r1hl0p_80000gn/T/swbuild.tmp.BdMxUsxh/Data.noindex/x86_64-apple
+
+CreateUniversalBinary /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/HangulStudy.app/__preview.dylib normal arm64\ x86_64 (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -create /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/Objects-normal/arm64/Binary/__preview.dylib /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/HangulStudy.build/Debug-iphonesimulator/HangulStudy.build/Objects-normal/x86_64/Binary/__preview.dylib -output /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/HangulStudy.app/__preview.dylib
+
+CodeSign /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/HangulStudy.app/Frameworks/GoogleMobileAds.framework (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    
+    Signing Identity:     "Sign to Run Locally"
+    
+    /usr/bin/codesign --force --sign - --timestamp\=none --preserve-metadata\=identifier,entitlements,flags --generate-entitlement-der /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/HangulStudy.app/Frameworks/GoogleMobileAds.framework
+/tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/HangulStudy.app/Frameworks/GoogleMobileAds.framework: replacing existing signature
+
+ProcessInfoPlistFile /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/HangulStudy.app/Info.plist /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Resources/Info.plist (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-infoPlistUtility /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Resources/Info.plist -producttype com.apple.product-type.application -genpkginfo /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/HangulStudy.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -scanforprivacyfile /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/HangulStudy.app/Frameworks/GoogleMobileAds.framework -scanforprivacyfile /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/HangulStudy.app/Frameworks/UserMessagingPlatform.framework -o /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/HangulStudy.app/Info.plist
+
+CodeSign /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/HangulStudy.app/Frameworks/UserMessagingPlatform.framework (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    
+    Signing Identity:     "Sign to Run Locally"
+    
+    /usr/bin/codesign --force --sign - --timestamp\=none --preserve-metadata\=identifier,entitlements,flags --generate-entitlement-der /tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/HangulStudy.app/Frameworks/UserMessagingPlatform.framework
+/tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/HangulStudy.app/Frameworks/UserMessagingPlatform.framework: replacing existing signature
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/ptrcheck-6TO5ISQEDCK5BA7T90LTNTA6G.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/_Builtin_float-EHJP7OB67T5Z4U5GFENJVGQWH.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/_StoreKit_SwiftUI-16YJKGD78T42VKJVX02L8UGH.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/ptrauth-ADY02U9X6P8H1PXQKX86ECJLG.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/_SwiftConcurrencyShims-C3TNV7RIWPLXGHUHES6BWMQNG.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/_Builtin_stdbool-703WNA1GKJF03KMAL7VW1QSHN.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/SwiftShims-5X9W5P7B3KJI8INZJ6CEBJ0HA.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/DeveloperToolsSupport-CJ3FSGMF5SMOZY0GLT5T3QX4Z.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/_Builtin_float-2TQI6KCNVJRV61T3J4ZLRZPEQ.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/DeveloperToolsSupport-8YB5AGARG1U0GMHDYMFJSEPV1.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/_Builtin_stddef-36RHK045BJ9N0DAUE6FCZK0TC.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/_Builtin_stdbool-AI7Q85RUUO6A0SW9HF77J22GM.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/_AvailabilityInternal-EF5KG8IMSSKZG219LKYTSGXI4.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/_AvailabilityInternal-8ZUXC2BLL31AKSFBHI1W5ZK0I.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/_StoreKit_SwiftUI-DRARGRWGSNVHVDSLCHKZRHVUG.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/ptrcheck-CFNZ2QZTEA8NB9K9XGNYEC72A.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/_Builtin_stddef-3R5U7UDPAOZ3QU8SA3FVVDAWK.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/SwiftShims-BM5QG30TEC8XF3N9BXZ9FBQTB.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/_Builtin_stdarg-39R1RZUIVU4XPI61JX5F2SQFP.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/ptrauth-HHJDGMDNP0T1SXLHCKODN9WZ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/_Builtin_stdarg-1JYEOL5T94MQU1EL4SCKMUGRY.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/_SwiftConcurrencyShims-CB7RYZWAGYAVAJKZQS4EYHIWF.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/_DarwinFoundation1-5XMM9VC5UYUFPJP816YEN5EIU.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/_DarwinFoundation1-5KQDM8K149KYOTJ5AFKIVU6VJ.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/_Builtin_limits-CUPL0MZH2XQ53DGD4Q4BCTQPF.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/ExtensionFoundation-4KJRNVFIEE19R18Z772LTCGF.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/_DarwinFoundation2-4JVE8UCRR1XXF57GYYPE57PCZ.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/SQLite3-CQ4JKQOKD84CA6UBZCQ9L4FHP.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/_Builtin_limits-DJC0TQGVZRQPRBDSK50T3A5J3.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/_DarwinFoundation2-AP1TLFPFY47J4HLFHYZ5YOCIU.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/ExtensionFoundation-BTNSLVW2U8F7FD800FGQ2H6J7.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/SQLite3-4SAQI6AEPELYOCKQN2IE79A77.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/string_h-7828DQ564Q27YR5BLUZRUMTTI.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/_Builtin_stdint-61U9JF3QFIZ2N2WBF9ACS7F1E.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/sys_types-1CSCCI5U5H7H8K4ED3AUHO5DD.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/_Builtin_tgmath-2A0VWIQWD9S61TAR89P1R8YP2.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/string_h-B7QQFLWC68SC5013E18TZZNPW.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/sys_types-EDJABGRXQD1UGL4UGGNHR6EIR.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/_Builtin_tgmath-97DBT0JCYED74MRRLSV22B1HR.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/_Builtin_stdint-1YS2GM1KE32QIDEE01ZN6PBKW.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/_DarwinFoundation3-54TBGRH6PLGY7DLZMAWTQ1GHC.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/_Builtin_stdatomic-EKN1FPD910T2V93U559GL4SI2.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/_DarwinFoundation3-21SDMSUIX27KOYGO8BVU57QM0.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/_Builtin_stdatomic-6PWCA8RGG09YDLTLQ68OP56NS.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/_Builtin_intrinsics-8GP8KMLUP0UXB0T9R29FSPOTE.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/_Builtin_inttypes-9PXWLGARKCYCW6EYI9B8VJBBE.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/_Builtin_intrinsics-XOIGN7OOCG5Q3HRFB55ZPYAG.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/_Builtin_inttypes-198K952CCW4E4YX5ONJ1N7HY7.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/Darwin-F062FBR2OVFHKY9J3KS2YM60G.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/Darwin-DGLIQ1L86VDQG8DWHSQAD6RF8.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/simd-YZPBCWGM5G6698T7NCKEVDE9.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/MachO-8ONL4277XO0SYNFX8WVJ49LUB.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/ObjectiveC-7S0FIUURC9KN8X79QLBO6WSWQ.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/ObjectiveC-4LBD79T8VTL9KYYKS22D693B6.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/MachO-E8ZV6S7UMOKB552WPOMPYJHH8.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/os_object-7LDH3SN5WOPMTNZLRDX219MMJ.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/simd-31NXNOSNJEXYWJRKXUTO32DTR.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/os_object-379O8TSPD1LTYWQK3UVXXT5EU.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/os_workgroup-95JHG48A8UAXOGNUE63VX0T0S.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/os_workgroup-P0KOR71P2I3Q9GRJRCIQ09QI.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/Dispatch-4TPL8SMXAD03COHYDEB5USOBL.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/Dispatch-D4SU5ORSEXVCI7FKJE28IN1JX.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/Spatial-B3BVKQV6324SDY4Q2NJYZ4CJU.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/dnssd-5WITKK96MD4UY8USRQZ2SJX48.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/XPC-7ZVICTZAAQOSU2OPERO6BHX9P.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/CoreFoundation-1C6R480SZRPO0F44LKRDZ2B5X.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/CoreFoundation-AJCX3RNYYWTLDOGJPSTZRQFOG.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/XPC-4AMUGEPPA7OAI1A8503O3AC9X.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/dnssd-1YKSBDRNZPEIUXBPEKSQ04NFB.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/os-4LP5EGI21BQQPZ3VDH27MB0V4.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/os-9W8OUQP88KM82GBMLAXR2Y3PU.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/CoreGraphics-698KKMIRGV8H0JY9ZXVXKH64Z.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/Security-5C8102B1P5XX3NR6EKJAM2Z3M.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/CFNetwork-17XGHNXSCO0JASIOPE0XXUBLX.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/CoreAudioTypes-P1CSLV5OM3XJBD8ZL816DYE7.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/CFNetwork-677P3AWXN95BK9P9T7UA9P4IO.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/Security-6CN2XYR20EVT76HSZFBUZ9M47.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/CoreGraphics-2IDWS6MD5R5UBRH7T9BGT9PC9.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/CoreAudioTypes-6VZ607FLVGVC69DIU8GE05CFY.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/CoreAudio-43D59GR5DFQF9YSJVHR69K60W.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/Foundation-8BQC1DNR5LWVL0Q70OTFI5QF9.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/CoreText-7YUE9OA6HKFTWY77KU0QM5AM7.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/ImageIO-7RNGZGSB49NJLZHVYYB4PXKVZ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/CoreAudio-DX48ZRYVSFRF6U1M7M7HGFMU1.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/Foundation-4GVVSX149AMM7FKXIQZG56DCW.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/ImageIO-BNLVFBLX3PW8IDISIMVBPO4JY.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/CoreText-8QXGBTCMVDWXQ0RZKUDXOIW1F.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/Spatial-9C5IIJ5A2W4WNXFIH4MPFOG1.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/LocalAuthentication-96VNHJCK0P67WQTX9Z3HC63XN.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/Symbols-DFP53C96TL9764H77FE4SX6RM.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/UIUtilities-ALHI3SVHE8RY620OJ7WILIKG.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/IOSurface-ZYXMDQQCXC89LP8I5OUABM1Y.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/UserNotifications-6TMJ2VM33K46N6J22F6XXLOI7.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/UniformTypeIdentifiers-9WHRVE2TQRZAP2O4XV2MXCP68.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/OpenGLES-9E0Q1EE726EUPDMIPPXM2N2Z7.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/CoreMIDI-4A68NMHDQOI09W6FA872JPSS9.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/BackgroundAssets-52IHDTSEX8VSUH000APMFSLL7.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/OSLog-61SBBSEEAO7K51U2TNB4OUHZA.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/OpenGLES-B1X4I567PM0DM0BWCZ6NMF2IZ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/CoreData-3GL33IBL1CK5GDGN4SPUOZ3CK.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/DataDetection-DBCF9TMBA71N9N937WTKVWOR5.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/Symbols-4FADD6EUYDLFMU6PR7FREHMGV.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/UIUtilities-9YARB99JELMDBYDYGJFF7TZU0.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/UserNotifications-6AKTIYON7Z93DVKRLYS852IVY.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/UniformTypeIdentifiers-96Y13RDFI465KLY65V1HZPNDH.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/BackgroundAssets-3MC5LXNKYLZJW5NRCLJM1QK2W.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/OSLog-3L745E8WS7VKHZKVMRHNYDND5.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/Network-C237X1P495OAY4IOM2I9RZ5KO.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/CoreTransferable-D8TGGBGCG94EZABUJRJP3086Y.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/LocalAuthentication-7EBAQNF1ZVQVX3V6XI0495CFW.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/_LocationEssentials-9TLX69DKXL6YRYRX195MH7HMD.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/_LocationEssentials-BHXWSMC04EG3HHTEF87PVEPYQ.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/FileProvider-7RSV1G3C6BRJPD3AR49X1TAVS.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/Accessibility-2OKN2H3D4997DZBUP73RCTE1B.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/CoreTransferable-CS5JCZPCZZH1DLQ9YW9ADMOX.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/Metal-3AC80QRQQVLGF70LWGZD0VVIW.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/CoreData-38U37E5UJBKDY2OIQRUW3D0H8.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/CoreLocation-89EPM2T7JD7HAUYR00W5AD7U5.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/CoreMIDI-A5WUBKQIM0GR9UN4D2YDG7KY8.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/FileProvider-AXKK0DZR45R7DS4YBZWGMN3O1.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/AVRouting-EON3AE0S5H9NKSV62MOCHQHHN.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/Accessibility-4OUJLBK1A6LW9CK0VPZ6K1SES.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/DataDetection-2YZDPFHJGZU8DEQLX2PBV2EUN.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/IOSurface-EL8THL30SR4TIT9GIQXIKOOGF.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/CoreLocation-7HRCF5P1Y2H3W5FK2FN3DNXLT.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/CoreMotion-DYQ22O2J4IUS29T52QFBC7U57.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/AudioToolbox-5P9PIJL2IONVVEHT17C9Z6T6T.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/Network-1V7I6BPBUGEHDDJAGHZ1D9G39.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/AudioToolbox-5HI4OR9LVHZ2EF1VW6QS56BCQ.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/CoreMotion-52DMIYAL2JFKF9LSSXH45UJ79.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/Metal-1XCVYP3YIPORSCE02FFSGED3L.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/CoreVideo-APOGSJ2H2UICBGWV769SRLUM2.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/AVRouting-5GHOMUYX81PWRRN7RECV4Z6WH.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/CoreImage-89MJTGNJIZOVXRY0R9WT4MSLV.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/CoreMedia-3GSYGCQPX0UP2D9OGIJTDABFS.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/QuartzCore-A2HQWFKXVKZV4JDS58ZCRNEZF.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/CoreVideo-9VF6YCTIL1AVKN2EAUJPMJXG4.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/SwiftUICore-1NETLI1HCIGJH02HG6SR241KH.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/VideoToolbox-17T4MIFMVU2LE3O64CCCNG1EZ.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/AVFAudio-869Z6ZSIZP8H6TOK75F4K5WYK.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/MediaToolbox-A8642Q0JXHHPNKQS30AK8N76O.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/UIKit-88Z455FRIJVUQ0KQEK35ZVSWJ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/QuartzCore-6NLORNA1T2IOGJD12EFH0YEP5.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/CoreMedia-9TSJQC9SOB4T6KLJIHA2ARMUG.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/CoreImage-CO68WCQ923ZOXH6U4H30RZLYX.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/SwiftUICore-7KSF00WDFMHS4GYDQT82XAQ7L.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/UIKit-2227VVJKW4XFLYBCSXS05UA76.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/AVFoundation-8YWX910ZYEGE0HCLPWQYQME3F.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/AVFAudio-9LDAIZRIAGI8RTUB6277MYMLA.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/MediaToolbox-CPVQN8ONKQ6BBM59W341YV3DL.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/VideoToolbox-DCO85N1DVW0XJH4T2I66TLT1Z.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/AVFoundation-68AAV2WC2ZBW33NJ28JENQY3V.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/WebKit-4Q1I39JFNCRUZMQM91Z7S6NER.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules/UserMessagingPlatform-44DICVAFU95ZHW61A8W9ZH40O.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/SwiftUI-9E48XJ8NTC2IY04IE3D5SQLMR.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/StoreKit-67PATN7OR5VMPQ27EH0PGN2MY.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules/UserMessagingPlatform-D7I96QU1AXQMW5YRPJVDCOQ7J.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/SwiftUI-B0VM1L1CATRRQWII9PDHHE1P7.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/StoreKit-DH3MIPUWMBZY8NM4C9EDNYC9T.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/SDKExplicitPrecompiledModules/WebKit-16MSSA6W5I82DXYJ4D90Y42RW.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules/GoogleMobileAds-5UEEWWRZAVOI45Z7P2G6JEF5J.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /tmp/hangul-data10-1/SignedDerivedData/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules/GoogleMobileAds-3YYX8XUGSA2GNR342JWN4KU72.pcm
+
+SwiftEmitModule normal x86_64 Emitting\ module\ for\ HangulStudy (in target 'HangulStudy' from project 'HangulStudy')
+
+SwiftCompile normal x86_64 (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    
+
+SwiftCompile normal x86_64 Compiling\ RecordsView.swift,\ RemoveAdsView.swift,\ ReviewSessionView.swift,\ RootView.swift,\ SettingsView.swift,\ VocabularyCardContentView.swift,\ VocabularyListView.swift,\ VocabularyStudySessionView.swift,\ VocabularyStudySetsView.swift /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Views/RecordsView.swift /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Views/RemoveAdsView.swift /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Views/ReviewSessionView.swift /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Views/RootView.swift /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Views/SettingsView.swift /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Views/VocabularyCardContentView.swift /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Views/VocabularyListView.swift /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Views/VocabularyStudySessionView.swift /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Views/VocabularyStudySetsView.swift (in target 'HangulStudy' from project 'HangulStudy')
+
+SwiftCompile normal x86_64 /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Views/RecordsView.swift (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-SwiftPerFileCompile RecordsView.swift
+
+SwiftCompile normal x86_64 /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Views/RemoveAdsView.swift (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-SwiftPerFileCompile RemoveAdsView.swift
+
+SwiftCompile normal x86_64 /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Views/ReviewSessionView.swift (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-SwiftPerFileCompile ReviewSessionView.swift
+
+SwiftCompile normal x86_64 /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Views/RootView.swift (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-SwiftPerFileCompile RootView.swift
+
+SwiftCompile normal x86_64 /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Views/SettingsView.swift (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-SwiftPerFileCompile SettingsView.swift
+
+SwiftCompile normal x86_64 /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Views/VocabularyCardContentView.swift (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-SwiftPerFileCompile VocabularyCardContentView.swift
+
+SwiftCompile normal x86_64 /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Views/VocabularyListView.swift (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-SwiftPerFileCompile VocabularyListView.swift
+
+SwiftCompile normal x86_64 /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Views/VocabularyStudySessionView.swift (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-SwiftPerFileCompile VocabularyStudySessionView.swift
+
+SwiftCompile normal x86_64 /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Views/VocabularyStudySetsView.swift (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-SwiftPerFileCompile VocabularyStudySetsView.swift
+
+SwiftCompile normal x86_64 Compiling\ SRSModels.swift,\ StatisticsModels.swift,\ VocabularyStudyModels.swift,\ SQLiteConnection.swift,\ UserDatabaseMigration.swift,\ RepositoryProtocols.swift,\ SQLiteContentRepository.swift,\ SQLiteCurriculum.swift,\ SQLiteGrammarContent.swift /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Models/SRSModels.swift /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Models/StatisticsModels.swift /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Models/VocabularyStudyModels.swift /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Persistence/SQLiteConnection.swift /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Persistence/UserDatabaseMigration.swift /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Repositories/RepositoryProtocols.swift /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Repositories/SQLiteContentRepository.swift /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Repositories/SQLiteCurriculum.swift /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Repositories/SQLiteGrammarContent.swift (in target 'HangulStudy' from project 'HangulStudy')
+
+SwiftCompile normal x86_64 /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Models/SRSModels.swift (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-SwiftPerFileCompile SRSModels.swift
+
+SwiftCompile normal x86_64 /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Models/StatisticsModels.swift (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-SwiftPerFileCompile StatisticsModels.swift
+
+SwiftCompile normal x86_64 /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Models/VocabularyStudyModels.swift (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-SwiftPerFileCompile VocabularyStudyModels.swift
+
+SwiftCompile normal x86_64 /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Persistence/SQLiteConnection.swift (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-SwiftPerFileCompile SQLiteConnection.swift
+
+SwiftCompile normal x86_64 /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Persistence/UserDatabaseMigration.swift (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-SwiftPerFileCompile UserDatabaseMigration.swift
+
+SwiftCompile normal x86_64 /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Repositories/RepositoryProtocols.swift (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-SwiftPerFileCompile RepositoryProtocols.swift
+
+SwiftCompile normal x86_64 /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Repositories/SQLiteContentRepository.swift (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-SwiftPerFileCompile SQLiteContentRepository.swift
+
+SwiftCompile normal x86_64 /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Repositories/SQLiteCurriculum.swift (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-SwiftPerFileCompile SQLiteCurriculum.swift
+
+SwiftCompile normal x86_64 /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Repositories/SQLiteGrammarContent.swift (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-SwiftPerFileCompile SQLiteGrammarContent.swift
+
+SwiftCompile normal x86_64 Compiling\ AppModel.swift,\ GrammarViewModel.swift,\ LessonViewModel.swift,\ LookupViewModel.swift,\ ReviewViewModel.swift,\ VocabularyStudyViewModel.swift,\ CurriculumResumeView.swift,\ CurriculumView.swift,\ GrammarLearningViews.swift /Users/shinchanhyeok/Desktop/Project-Hangul-Study/ViewModels/AppModel.swift /Users/shinchanhyeok/Desktop/Project-Hangul-Study/ViewModels/GrammarViewModel.swift /Users/shinchanhyeok/Desktop/Project-Hangul-Study/ViewModels/LessonViewModel.swift /Users/shinchanhyeok/Desktop/Project-Hangul-Study/ViewModels/LookupViewModel.swift /Users/shinchanhyeok/Desktop/Project-Hangul-Study/ViewModels/ReviewViewModel.swift /Users/shinchanhyeok/Desktop/Project-Hangul-Study/ViewModels/VocabularyStudyViewModel.swift /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Views/CurriculumResumeView.swift /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Views/CurriculumView.swift /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Views/GrammarLearningViews.swift (in target 'HangulStudy' from project 'HangulStudy')
+
+SwiftCompile normal x86_64 /Users/shinchanhyeok/Desktop/Project-Hangul-Study/ViewModels/AppModel.swift (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-SwiftPerFileCompile AppModel.swift
+
+SwiftCompile normal x86_64 /Users/shinchanhyeok/Desktop/Project-Hangul-Study/ViewModels/GrammarViewModel.swift (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-SwiftPerFileCompile GrammarViewModel.swift
+
+SwiftCompile normal x86_64 /Users/shinchanhyeok/Desktop/Project-Hangul-Study/ViewModels/LessonViewModel.swift (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-SwiftPerFileCompile LessonViewModel.swift
+
+SwiftCompile normal x86_64 /Users/shinchanhyeok/Desktop/Project-Hangul-Study/ViewModels/LookupViewModel.swift (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-SwiftPerFileCompile LookupViewModel.swift
+
+SwiftCompile normal x86_64 /Users/shinchanhyeok/Desktop/Project-Hangul-Study/ViewModels/ReviewViewModel.swift (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-SwiftPerFileCompile ReviewViewModel.swift
+
+SwiftCompile normal x86_64 /Users/shinchanhyeok/Desktop/Project-Hangul-Study/ViewModels/VocabularyStudyViewModel.swift (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-SwiftPerFileCompile VocabularyStudyViewModel.swift
+
+SwiftCompile normal x86_64 /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Views/CurriculumResumeView.swift (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-SwiftPerFileCompile CurriculumResumeView.swift
+
+SwiftCompile normal x86_64 /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Views/CurriculumView.swift (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-SwiftPerFileCompile CurriculumView.swift
+
+SwiftCompile normal x86_64 /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Views/GrammarLearningViews.swift (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-SwiftPerFileCompile GrammarLearningViews.swift
+
+SwiftCompile normal x86_64 Compiling\ HangulStudyApp.swift,\ ContentPackageValidator.swift,\ ConjugationEngine.swift,\ GrammarLearning.swift,\ HangulLearning.swift,\ ReviewScheduling.swift,\ StepReviewScheduler.swift,\ VocabularyPassEngine.swift,\ AudioModels.swift,\ ContentModels.swift /Users/shinchanhyeok/Desktop/Project-Hangul-Study/App/HangulStudyApp.swift /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Content/ContentPackageValidator.swift /Users/shinchanhyeok/Desktop/Project-Hangul-Study/LearningEngine/ConjugationEngine.swift /Users/shinchanhyeok/Desktop/Project-Hangul-Study/LearningEngine/GrammarLearning.swift /Users/shinchanhyeok/Desktop/Project-Hangul-Study/LearningEngine/HangulLearning.swift /Users/shinchanhyeok/Desktop/Project-Hangul-Study/LearningEngine/ReviewScheduling.swift /Users/shinchanhyeok/Desktop/Project-Hangul-Study/LearningEngine/StepReviewScheduler.swift /Users/shinchanhyeok/Desktop/Project-Hangul-Study/LearningEngine/VocabularyPassEngine.swift /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Models/AudioModels.swift /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Models/ContentModels.swift (in target 'HangulStudy' from project 'HangulStudy')
+
+SwiftCompile normal x86_64 /Users/shinchanhyeok/Desktop/Project-Hangul-Study/App/HangulStudyApp.swift (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-SwiftPerFileCompile HangulStudyApp.swift
+
+SwiftCompile normal x86_64 /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Content/ContentPackageValidator.swift (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-SwiftPerFileCompile ContentPackageValidator.swift
+
+SwiftCompile normal x86_64 /Users/shinchanhyeok/Desktop/Project-Hangul-Study/LearningEngine/ConjugationEngine.swift (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-SwiftPerFileCompile ConjugationEngine.swift
+
+SwiftCompile normal x86_64 /Users/shinchanhyeok/Desktop/Project-Hangul-Study/LearningEngine/GrammarLearning.swift (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-SwiftPerFileCompile GrammarLearning.swift
+
+SwiftCompile normal x86_64 /Users/shinchanhyeok/Desktop/Project-Hangul-Study/LearningEngine/HangulLearning.swift (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-SwiftPerFileCompile HangulLearning.swift
+
+SwiftCompile normal x86_64 /Users/shinchanhyeok/Desktop/Project-Hangul-Study/LearningEngine/ReviewScheduling.swift (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-SwiftPerFileCompile ReviewScheduling.swift
+
+SwiftCompile normal x86_64 /Users/shinchanhyeok/Desktop/Project-Hangul-Study/LearningEngine/StepReviewScheduler.swift (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-SwiftPerFileCompile StepReviewScheduler.swift
+
+SwiftCompile normal x86_64 /Users/shinchanhyeok/Desktop/Project-Hangul-Study/LearningEngine/VocabularyPassEngine.swift (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-SwiftPerFileCompile VocabularyPassEngine.swift
+
+SwiftCompile normal x86_64 /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Models/AudioModels.swift (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-SwiftPerFileCompile AudioModels.swift
+
+SwiftCompile normal x86_64 /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Models/ContentModels.swift (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-SwiftPerFileCompile ContentModels.swift
+
+SwiftCompile normal x86_64 Compiling\ ContentTaxonomy.swift,\ CurriculumModels.swift,\ GrammarModels.swift,\ LearningModels.swift,\ LessonModels.swift,\ LibraryModels.swift,\ ListeningModels.swift,\ MonetizationPolicy.swift,\ ProductionModels.swift,\ PronunciationModels.swift /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Models/ContentTaxonomy.swift /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Models/CurriculumModels.swift /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Models/GrammarModels.swift /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Models/LearningModels.swift /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Models/LessonModels.swift /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Models/LibraryModels.swift /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Models/ListeningModels.swift /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Models/MonetizationPolicy.swift /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Models/ProductionModels.swift /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Models/PronunciationModels.swift (in target 'HangulStudy' from project 'HangulStudy')
+
+SwiftCompile normal x86_64 /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Models/ContentTaxonomy.swift (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-SwiftPerFileCompile ContentTaxonomy.swift
+
+SwiftCompile normal x86_64 /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Models/CurriculumModels.swift (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-SwiftPerFileCompile CurriculumModels.swift
+
+SwiftCompile normal x86_64 /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Models/GrammarModels.swift (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-SwiftPerFileCompile GrammarModels.swift
+
+SwiftCompile normal x86_64 /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Models/LearningModels.swift (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-SwiftPerFileCompile LearningModels.swift
+
+SwiftCompile normal x86_64 /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Models/LessonModels.swift (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-SwiftPerFileCompile LessonModels.swift
+
+SwiftCompile normal x86_64 /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Models/LibraryModels.swift (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-SwiftPerFileCompile LibraryModels.swift
+
+SwiftCompile normal x86_64 /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Models/ListeningModels.swift (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-SwiftPerFileCompile ListeningModels.swift
+
+SwiftCompile normal x86_64 /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Models/MonetizationPolicy.swift (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-SwiftPerFileCompile MonetizationPolicy.swift
+
+SwiftCompile normal x86_64 /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Models/ProductionModels.swift (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-SwiftPerFileCompile ProductionModels.swift
+
+SwiftCompile normal x86_64 /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Models/PronunciationModels.swift (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-SwiftPerFileCompile PronunciationModels.swift
+
+SwiftCompile normal x86_64 Compiling\ SQLiteVocabularyProgress.swift,\ AdService.swift,\ AppContainer.swift,\ KoreanAudioService.swift,\ LearningPreferences.swift,\ PurchaseService.swift,\ VocabularySetCatalog.swift,\ LearningErrorMessage.swift,\ StudyDay.swift /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Repositories/SQLiteVocabularyProgress.swift /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Services/AdService.swift /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Services/AppContainer.swift /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Services/KoreanAudioService.swift /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Services/LearningPreferences.swift /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Services/PurchaseService.swift /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Services/VocabularySetCatalog.swift /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Utilities/LearningErrorMessage.swift /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Utilities/StudyDay.swift (in target 'HangulStudy' from project 'HangulStudy')
+/Users/shinchanhyeok/Desktop/Project-Hangul-Study/Services/AdService.swift:99:30: warning: consider using asynchronous alternative function
+ 97 |             sdkStarted = true
+ 98 |             MobileAds.shared.requestConfiguration.setPublisherFirstPartyIDEnabled(false)
+ 99 |             MobileAds.shared.start(completionHandler:nil)
+    |                              `- warning: consider using asynchronous alternative function
+100 |         }
+101 |         let request = Request()
+
+/tmp/hangul-data10-1/SignedDerivedData/Build/Products/Debug-iphonesimulator/GoogleMobileAds.framework/Headers/GADMobileAds.h:82:1: note: 'start()' declared here
+ 80 | /// are fully set up or if set-up times out. The Google Mobile Ads SDK starts on the first ad
+ 81 | /// request if this method is not called.
+ 82 | - (void)startWithCompletionHandler:(nullable GADInitializationCompletionHandler)completionHandler;
+    | `- note: 'start()' declared here
+ 83 | 
+ 84 | /// Disables automated SDK crash reporting. If not called, the SDK records the original exception
+
+/Users/shinchanhyeok/Desktop/Project-Hangul-Study/Services/KoreanAudioService.swift:119:30: warning: cannot access property 'observers' with a non-Sendable type '[any NSObjectProtocol]' from nonisolated deinit; this is an error in the Swift 6 language mode
+117 |         })
+118 |     }
+119 |     deinit { for observer in observers { NotificationCenter.default.removeObserver(observer) } }
+    |                              `- warning: cannot access property 'observers' with a non-Sendable type '[any NSObjectProtocol]' from nonisolated deinit; this is an error in the Swift 6 language mode
+120 |     private func activate() throws {
+121 |         let session = AVAudioSession.sharedInstance()
+
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/include/objc/NSObject.h:15:11: note: protocol 'NSObjectProtocol' does not conform to the 'Sendable' protocol
+ 13 | @class NSString, NSMethodSignature, NSInvocation;
+ 14 | 
+ 15 | @protocol NSObject
+    |           `- note: protocol 'NSObjectProtocol' does not conform to the 'Sendable' protocol
+ 16 | 
+ 17 | - (BOOL)isEqual:(id)object;
+
+/Users/shinchanhyeok/Desktop/Project-Hangul-Study/Services/KoreanAudioService.swift:1:1: warning: add '@preconcurrency' to suppress 'Sendable'-related warnings from module 'ObjectiveC' [#AddPreconcurrencyImport]
+  1 | import AVFoundation
+    | `- warning: add '@preconcurrency' to suppress 'Sendable'-related warnings from module 'ObjectiveC' [#AddPreconcurrencyImport]
+  2 | import Combine
+  3 | import CryptoKit
+    :
+117 |         })
+118 |     }
+119 |     deinit { for observer in observers { NotificationCenter.default.removeObserver(observer) } }
+    |     `- note: add 'isolated' to run isolated to 'MainActor', which may be later than 'nonisolated deinit'
+120 |     private func activate() throws {
+121 |         let session = AVAudioSession.sharedInstance()
+
+[#AddPreconcurrencyImport]: <https://docs.swift.org/compiler/documentation/diagnostics/add-preconcurrency-import>
+
+SwiftCompile normal x86_64 /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Repositories/SQLiteVocabularyProgress.swift (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-SwiftPerFileCompile SQLiteVocabularyProgress.swift
+
+SwiftCompile normal x86_64 /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Services/AdService.swift (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-SwiftPerFileCompile AdService.swift
+
+SwiftCompile normal x86_64 /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Services/AppContainer.swift (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-SwiftPerFileCompile AppContainer.swift
+
+SwiftCompile normal x86_64 /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Services/KoreanAudioService.swift (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-SwiftPerFileCompile KoreanAudioService.swift
+
+SwiftCompile normal x86_64 /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Services/LearningPreferences.swift (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-SwiftPerFileCompile LearningPreferences.swift
+
+SwiftCompile normal x86_64 /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Services/PurchaseService.swift (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-SwiftPerFileCompile PurchaseService.swift
+
+SwiftCompile normal x86_64 /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Services/VocabularySetCatalog.swift (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-SwiftPerFileCompile VocabularySetCatalog.swift
+
+SwiftCompile normal x86_64 /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Utilities/LearningErrorMessage.swift (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-SwiftPerFileCompile LearningErrorMessage.swift
+
+SwiftCompile normal x86_64 /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Utilities/StudyDay.swift (in target 'HangulStudy' from project 'HangulStudy')
+    cd /Users/shinchanhyeok/Desktop/Project-Hangul-Study
+    builtin-SwiftPerFileCompile StudyDay.swift
+
+SwiftCompile normal x86_64 Compiling\ GrammarReviewView.swift,\ LearnView.swift,\ LessonSessionView.swift,\ ListeningView.swift,\ LookupDetailView.swift,\ LookupView.swift,\ MaintenanceView.swift,\ PlacementView.swift,\ ProductionView.swift /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Views/GrammarReviewView.swift /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Views/LearnView.swift /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Views/LessonSessionView.swift /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Views/ListeningView.swift /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Views/LookupDetailView.swift /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Views/LookupView.swift /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Views/MaintenanceView.swift /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Views/PlacementView.swift /Users/shinchanhyeok/Desktop/Project-Hangul-Study/Views/ProductionView.swift (in target 'HangulStudy' from project 'HangulStudy')
+** BUILD INTERRUPTED **

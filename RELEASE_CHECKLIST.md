@@ -247,3 +247,18 @@ TEST_DESTINATION='platform=iOS Simulator,name=실제로 설치된 Simulator 이�
 - [ ] 독립 사람의 한일 품질·Level/선행문형 및 외부사전 활용 확인.163후보의 새 관계/난도 전수 해결은 미완료.
 
 B—Conditional 유지. Batch A snapshot 승인을 App Store 출시 승인으로 해석하지 않는다.
+
+
+## DATA-10-1 / Mac native 첫 실행 후 추가 추적
+
+이번 분석 단계의 실제 실행수/빌드/재시도·실패·StoreKit 상태는 [DATA10_PROGRESS](DATA10_PROGRESS.md) 및 [native 발견](Docs/DATA10_NATIVE_FINDINGS.md)에 누적한다. 아래는 현재 새 gate이며 위 과거 미체크 이력을 지우지 않는다.
+
+- [x] 현재 Source/Bundle/과거 fixture95파일 byte 보존, 듣기1,936 전수 구조/Source25테이블66,094행 대조 및 신규200원문/400문제 계획(제작0).
+- [x] Mac SDK resolve, DATA08 P1 세 건의 native API/판정/ViewModel5회귀 실행 PASS. 실제 화면 전체·기기 음성/중단·VoiceOver 확인은 별도다.
+- [ ] `되다/뵈다` 활용 생성 P1 재현의 최소 수정·영향 범위 및 `꿰다` 테스트 기대값의 규범 대조 후 native 재검증.
+- [ ] DATA06 cohort/발음 course 가정을 보수해 기존 의미의 assertion을 유지하고 현재141 native 전체 PASS 확인.
+- [ ] local StoreKit의 cold 새 인스턴스 checking/offlineProtected 실패 원인(서명/Keychain 포함)을 확인하고 재검증. iOS26 구매/명시 refresh·restore 부분 통과를 메서드 전체 PASS로 표시하지 않음.
+- [ ] 다음 실제 콘텐츠 배포 전 writer SQLite3.53.1/compile profile 재현 확인. Mac SQLite3.44.0 ENABLE_STAT4의 추가 sqlite_stat4/32테이블·SHA 차이를 Production 덮어쓰기나 검사 완화로 숨기지 않음.
+- [ ] 실제 iPhone 오프라인/TTS/IME/VoiceOver/중단/3~10분·기기 메모리·StoreKit/AdMob 및 독립 원어민/교사 검수.
+
+이번은 분석이므로 runtime/Production/테스트 assertion을 바꾸지 않는다. 실패를 삭제·skip·완화해 출시 gate를 통과시키지 않는다. **Release B—Conditional 유지.**

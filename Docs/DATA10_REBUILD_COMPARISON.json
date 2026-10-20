@@ -1,0 +1,321 @@
+{
+  "sqlite_version": "3.44.0",
+  "original_sha": "56a7fa8b5358e254eeb324e706860d150d20c8ec013ba0b6f602cf14d93cceff",
+  "rebuilt_sha": "b24a216e1e583308d905d67ae1a0d2bc779f19b1004a32583b8f730a022220ab",
+  "bytes": [
+    18841600,
+    18972672
+  ],
+  "tables": {
+    "audio_questions": {
+      "row_count": 3,
+      "rows_equal": true,
+      "columns_equal": true,
+      "foreign_keys_equal": true,
+      "indexes_equal": true
+    },
+    "conjugations": {
+      "row_count": 0,
+      "rows_equal": true,
+      "columns_equal": true,
+      "foreign_keys_equal": true,
+      "indexes_equal": true
+    },
+    "content_aliases": {
+      "row_count": 0,
+      "rows_equal": true,
+      "columns_equal": true,
+      "foreign_keys_equal": true,
+      "indexes_equal": true
+    },
+    "content_audio": {
+      "row_count": 36,
+      "rows_equal": true,
+      "columns_equal": true,
+      "foreign_keys_equal": true,
+      "indexes_equal": true
+    },
+    "content_items": {
+      "row_count": 15941,
+      "rows_equal": true,
+      "columns_equal": true,
+      "foreign_keys_equal": true,
+      "indexes_equal": true
+    },
+    "content_links": {
+      "row_count": 6499,
+      "rows_equal": true,
+      "columns_equal": true,
+      "foreign_keys_equal": true,
+      "indexes_equal": true
+    },
+    "content_metadata": {
+      "row_count": 1,
+      "rows_equal": true,
+      "columns_equal": true,
+      "foreign_keys_equal": true,
+      "indexes_equal": true
+    },
+    "courses": {
+      "row_count": 8,
+      "rows_equal": true,
+      "columns_equal": true,
+      "foreign_keys_equal": true,
+      "indexes_equal": true
+    },
+    "examples": {
+      "row_count": 4813,
+      "rows_equal": true,
+      "columns_equal": true,
+      "foreign_keys_equal": true,
+      "indexes_equal": true
+    },
+    "grammar": {
+      "row_count": 96,
+      "rows_equal": true,
+      "columns_equal": true,
+      "foreign_keys_equal": true,
+      "indexes_equal": true
+    },
+    "grammar_examples": {
+      "row_count": 389,
+      "rows_equal": true,
+      "columns_equal": true,
+      "foreign_keys_equal": true,
+      "indexes_equal": true
+    },
+    "hangul": {
+      "row_count": 55,
+      "rows_equal": true,
+      "columns_equal": true,
+      "foreign_keys_equal": true,
+      "indexes_equal": true
+    },
+    "item_sources": {
+      "row_count": 15507,
+      "rows_equal": true,
+      "columns_equal": true,
+      "foreign_keys_equal": true,
+      "indexes_equal": true
+    },
+    "item_tags": {
+      "row_count": 4525,
+      "rows_equal": true,
+      "columns_equal": true,
+      "foreign_keys_equal": true,
+      "indexes_equal": true
+    },
+    "learner_notes": {
+      "row_count": 531,
+      "rows_equal": true,
+      "columns_equal": true,
+      "foreign_keys_equal": true,
+      "indexes_equal": true
+    },
+    "lesson_items": {
+      "row_count": 1191,
+      "rows_equal": true,
+      "columns_equal": true,
+      "foreign_keys_equal": true,
+      "indexes_equal": true
+    },
+    "lessons": {
+      "row_count": 103,
+      "rows_equal": true,
+      "columns_equal": true,
+      "foreign_keys_equal": true,
+      "indexes_equal": true
+    },
+    "listening_items": {
+      "row_count": 1936,
+      "rows_equal": true,
+      "columns_equal": true,
+      "foreign_keys_equal": true,
+      "indexes_equal": true
+    },
+    "meanings": {
+      "row_count": 2420,
+      "rows_equal": true,
+      "columns_equal": true,
+      "foreign_keys_equal": true,
+      "indexes_equal": true
+    },
+    "media_assets": {
+      "row_count": 0,
+      "rows_equal": true,
+      "columns_equal": true,
+      "foreign_keys_equal": true,
+      "indexes_equal": true
+    },
+    "pronunciation_examples": {
+      "row_count": 13,
+      "rows_equal": true,
+      "columns_equal": true,
+      "foreign_keys_equal": true,
+      "indexes_equal": true
+    },
+    "pronunciation_presentations": {
+      "row_count": 36,
+      "rows_equal": true,
+      "columns_equal": true,
+      "foreign_keys_equal": true,
+      "indexes_equal": true
+    },
+    "pronunciation_rules": {
+      "row_count": 36,
+      "rows_equal": true,
+      "columns_equal": true,
+      "foreign_keys_equal": true,
+      "indexes_equal": true
+    },
+    "question_choices": {
+      "row_count": 1476,
+      "rows_equal": true,
+      "columns_equal": true,
+      "foreign_keys_equal": true,
+      "indexes_equal": true
+    },
+    "questions": {
+      "row_count": 3553,
+      "rows_equal": true,
+      "columns_equal": true,
+      "foreign_keys_equal": true,
+      "indexes_equal": true
+    },
+    "sources": {
+      "row_count": 23,
+      "rows_equal": true,
+      "columns_equal": true,
+      "foreign_keys_equal": true,
+      "indexes_equal": true
+    },
+    "sqlite_stat1": {
+      "row_count": 43,
+      "rows_equal": true,
+      "columns_equal": true,
+      "foreign_keys_equal": true,
+      "indexes_equal": true
+    },
+    "tags": {
+      "row_count": 103,
+      "rows_equal": true,
+      "columns_equal": true,
+      "foreign_keys_equal": true,
+      "indexes_equal": true
+    },
+    "vocabulary": {
+      "row_count": 2287,
+      "rows_equal": true,
+      "columns_equal": true,
+      "foreign_keys_equal": true,
+      "indexes_equal": true
+    },
+    "vocabulary_examples": {
+      "row_count": 4514,
+      "rows_equal": true,
+      "columns_equal": true,
+      "foreign_keys_equal": true,
+      "indexes_equal": true
+    },
+    "vocabulary_search": {
+      "row_count": 4707,
+      "rows_equal": true,
+      "columns_equal": true,
+      "foreign_keys_equal": true,
+      "indexes_equal": true
+    }
+  },
+  "schema_sql_equal": false,
+  "header_writer_versions": [
+    3053001,
+    3044000
+  ],
+  "header_different_offsets": [
+    30,
+    31,
+    98,
+    99
+  ],
+  "only_writer_version_diff": false,
+  "schema_sql_differences": [
+    {
+      "type": "table",
+      "name": "sqlite_stat4",
+      "original": null,
+      "rebuilt": [
+        "sqlite_stat4",
+        "CREATE TABLE sqlite_stat4(tbl,idx,neq,nlt,ndlt,sample)"
+      ]
+    }
+  ],
+  "rebuilt_table_count": 32,
+  "original_table_count": 31,
+  "extra_stat4_rows": 948,
+  "local_compile_options": [
+    "ATOMIC_INTRINSICS=1",
+    "COMPILER=clang-15.0.0",
+    "DEFAULT_AUTOVACUUM",
+    "DEFAULT_CACHE_SIZE=-2000",
+    "DEFAULT_FILE_FORMAT=4",
+    "DEFAULT_JOURNAL_SIZE_LIMIT=-1",
+    "DEFAULT_MMAP_SIZE=0",
+    "DEFAULT_PAGE_SIZE=4096",
+    "DEFAULT_PCACHE_INITSZ=20",
+    "DEFAULT_RECURSIVE_TRIGGERS",
+    "DEFAULT_SECTOR_SIZE=4096",
+    "DEFAULT_SYNCHRONOUS=2",
+    "DEFAULT_WAL_AUTOCHECKPOINT=1000",
+    "DEFAULT_WAL_SYNCHRONOUS=2",
+    "DEFAULT_WORKER_THREADS=0",
+    "ENABLE_API_ARMOR",
+    "ENABLE_COLUMN_METADATA",
+    "ENABLE_DBSTAT_VTAB",
+    "ENABLE_FTS3",
+    "ENABLE_FTS3_PARENTHESIS",
+    "ENABLE_FTS4",
+    "ENABLE_FTS5",
+    "ENABLE_GEOPOLY",
+    "ENABLE_MATH_FUNCTIONS",
+    "ENABLE_MEMORY_MANAGEMENT",
+    "ENABLE_PREUPDATE_HOOK",
+    "ENABLE_RTREE",
+    "ENABLE_SESSION",
+    "ENABLE_STAT4",
+    "ENABLE_UNLOCK_NOTIFY",
+    "MALLOC_SOFT_LIMIT=1024",
+    "MAX_ATTACHED=10",
+    "MAX_COLUMN=2000",
+    "MAX_COMPOUND_SELECT=500",
+    "MAX_DEFAULT_PAGE_SIZE=8192",
+    "MAX_EXPR_DEPTH=1000",
+    "MAX_FUNCTION_ARG=127",
+    "MAX_LENGTH=1000000000",
+    "MAX_LIKE_PATTERN_LENGTH=50000",
+    "MAX_MMAP_SIZE=0x7fff0000",
+    "MAX_PAGE_COUNT=1073741823",
+    "MAX_PAGE_SIZE=65536",
+    "MAX_SQL_LENGTH=1000000000",
+    "MAX_TRIGGER_DEPTH=1000",
+    "MAX_VARIABLE_NUMBER=250000",
+    "MAX_VDBE_OP=250000000",
+    "MAX_WORKER_THREADS=8",
+    "MUTEX_PTHREADS",
+    "SYSTEM_MALLOC",
+    "TEMP_STORE=1",
+    "THREADSAFE=1",
+    "USE_URI"
+  ],
+  "interpretation": "FAIL byte/schema reproduction: SQLite3.44.0 ENABLE_STAT4 creates sqlite_stat4; all original31 tables and schema/index/FK metadata match, but rebuilt has32 tables. Production unchanged; no drop/normalization/validator relaxation.",
+  "different_bytes_in_shared_prefix": 2341,
+  "rebuilt_extra_bytes": 131072,
+  "objects_only_in_one_database": [
+    [
+      "table",
+      "sqlite_stat4"
+    ]
+  ],
+  "all_common_schema_sql_equal": true,
+  "common_index_xinfo_equal": true,
+  "candidate_integrity": "ok",
+  "candidate_fk_violation_count": 0
+}

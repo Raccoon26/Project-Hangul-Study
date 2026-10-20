@@ -1,0 +1,1571 @@
+{
+  "stage": "DATA10-1 analysis and environment only",
+  "baseline_commit": "3de2e08a2e934be545f0cbcbecef1ba479ddb233",
+  "environment": {
+    "platform": "macOS-27.0-arm64-arm-64bit",
+    "python": "3.11.6",
+    "sqlite": "3.44.0",
+    "xcode": "27.1 (27A9275)",
+    "memory_gib": 8
+  },
+  "production_changes": 0,
+  "metadata": {
+    "singleton": 1,
+    "schema_version": 4,
+    "content_version": 24,
+    "min_reader_version": 7,
+    "dataset_id": "ko-ja-core",
+    "is_fixture": 0,
+    "source_locale": "ja",
+    "target_locale": "ko"
+  },
+  "protected_files": {
+    "Content/ContentPackageValidator.swift": true,
+    "Content/content-schema-v1.sql": true,
+    "Content/content-schema-v2.sql": true,
+    "Content/content-schema-v3.sql": true,
+    "Content/content-schema-v4.sql": true,
+    "Content/data01-ids.json": true,
+    "Content/data02-ids.json": true,
+    "Content/data03-ids.json": true,
+    "Content/data04-ids.json": true,
+    "Content/data04-revised-ids.json": true,
+    "Content/data05-ids.json": true,
+    "Content/data05-revised-ids.json": true,
+    "Content/data06-ids.json": true,
+    "Content/data06-revised-ids.json": true,
+    "Content/data07-ids.json": true,
+    "Content/data07-revised-ids.json": true,
+    "Content/data08-a-ids.json": true,
+    "Content/data08-a-revised-ids.json": true,
+    "Content/data08-b-ids.json": true,
+    "Content/data08-b-revised-ids.json": true,
+    "Content/data08-c-ids.json": true,
+    "Content/data08-c-revised-ids.json": true,
+    "Content/data08-final-revised-ids.json": true,
+    "Content/data08-integration-ids.json": true,
+    "Content/data08-integration-revised-ids.json": true,
+    "Content/data09-a-ids.json": true,
+    "Content/data09-a-revised-ids.json": true,
+    "Content/data09-b-ids.json": true,
+    "Content/data09-b-revised-ids.json": true,
+    "Content/data09-c-ids.json": true,
+    "Content/data09-c-revised-ids.json": true,
+    "Content/data09-final-corrections.json": true,
+    "Content/data09-final-revised-ids.json": true,
+    "Content/data09-integration-ids.json": true,
+    "Content/data09-integration-revised-ids.json": true,
+    "Content/dev08-revised-ids.json": true,
+    "Content/dev09-revised-ids.json": true,
+    "Content/fixture.json": true,
+    "Content/grammar-seed-ids.json": true,
+    "Content/hangul-ids.json": true,
+    "Content/hangul-production.json": true,
+    "Content/listening-ids.json": true,
+    "Content/production-drill-ids.json": true,
+    "Content/production-empty.json": true,
+    "Content/production.json": true,
+    "Content/pronunciation-ids.json": true,
+    "Resources/.content-pcb7fgvn.sqlite": true,
+    "Resources/Info.plist": true,
+    "Resources/PrivacyInfo.xcprivacy": true,
+    "Resources/content-fixture.sqlite": true,
+    "Resources/content.sqlite": true,
+    "Resources/ja.lproj/Localizable.strings": true,
+    "Resources/user-migration-v10.sql": true,
+    "Resources/user-migration-v2.sql": true,
+    "Resources/user-migration-v3.sql": true,
+    "Resources/user-migration-v4.sql": true,
+    "Resources/user-migration-v5.sql": true,
+    "Resources/user-migration-v6.sql": true,
+    "Resources/user-migration-v7.sql": true,
+    "Resources/user-migration-v8.sql": true,
+    "Resources/user-migration-v9.sql": true,
+    "Resources/user-schema-v1.sql": true,
+    "Tests/Fixtures/content-v1.sqlite": true,
+    "Tests/Fixtures/content-v10-production.sqlite": true,
+    "Tests/Fixtures/content-v10-repaired-production.sqlite": true,
+    "Tests/Fixtures/content-v11-production.sqlite": true,
+    "Tests/Fixtures/content-v12-production.sqlite": true,
+    "Tests/Fixtures/content-v13-production.sqlite": true,
+    "Tests/Fixtures/content-v14-production.sqlite": true,
+    "Tests/Fixtures/content-v15-production.sqlite": true,
+    "Tests/Fixtures/content-v16-production.json.gz": true,
+    "Tests/Fixtures/content-v16-production.sqlite": true,
+    "Tests/Fixtures/content-v17-production.json.gz": true,
+    "Tests/Fixtures/content-v17-production.sqlite": true,
+    "Tests/Fixtures/content-v18-production.json.gz": true,
+    "Tests/Fixtures/content-v18-production.sqlite": true,
+    "Tests/Fixtures/content-v19-production.json.gz": true,
+    "Tests/Fixtures/content-v19-production.sqlite": true,
+    "Tests/Fixtures/content-v2-production.sqlite": true,
+    "Tests/Fixtures/content-v20-production.json.gz": true,
+    "Tests/Fixtures/content-v20-production.sqlite": true,
+    "Tests/Fixtures/content-v21-production.json.gz": true,
+    "Tests/Fixtures/content-v21-production.sqlite": true,
+    "Tests/Fixtures/content-v22-production.json.gz": true,
+    "Tests/Fixtures/content-v22-production.sqlite": true,
+    "Tests/Fixtures/content-v23-production.json.gz": true,
+    "Tests/Fixtures/content-v23-production.sqlite": true,
+    "Tests/Fixtures/content-v3-production.sqlite": true,
+    "Tests/Fixtures/content-v4-production.sqlite": true,
+    "Tests/Fixtures/content-v5-production.sqlite": true,
+    "Tests/Fixtures/content-v6-production.sqlite": true,
+    "Tests/Fixtures/content-v7-production.sqlite": true,
+    "Tests/Fixtures/content-v8-production.sqlite": true,
+    "Tests/Fixtures/content-v9-production.sqlite": true,
+    "Tests/Fixtures/source-v1.json": true
+  },
+  "structural_checks_passed": 34,
+  "strict_validator": {
+    "error_count": 0,
+    "warning_count": 10,
+    "errors": [],
+    "warnings": [
+      {
+        "code": "short_sentence",
+        "location": "production.json:examples[1]",
+        "message": "korean: single-character sentence needs review"
+      },
+      {
+        "code": "short_sentence",
+        "location": "production.json:examples[1]",
+        "message": "japanese: single-character sentence needs review"
+      },
+      {
+        "code": "short_sentence",
+        "location": "production.json:examples[2]",
+        "message": "korean: single-character sentence needs review"
+      },
+      {
+        "code": "short_sentence",
+        "location": "production.json:examples[2]",
+        "message": "japanese: single-character sentence needs review"
+      },
+      {
+        "code": "short_sentence",
+        "location": "production.json:examples[3]",
+        "message": "korean: single-character sentence needs review"
+      },
+      {
+        "code": "duplicate_headword_candidate",
+        "location": "저",
+        "message": "[\"9b45d39c-a966-41da-bc64-973bd8767c94\", \"ea0ec264-a477-4945-9fb2-92629e759e5f\"]"
+      },
+      {
+        "code": "duplicate_headword_candidate",
+        "location": "차",
+        "message": "[\"e80b26ff-6c6f-4004-99a7-d784495483a3\", \"58ee8623-b923-44c3-9ab3-3f12d0c24230\"]"
+      },
+      {
+        "code": "duplicate_headword_candidate",
+        "location": "일",
+        "message": "[\"1b74ab03-9ce3-454b-914b-5f14f32f1395\", \"fef18457-1e05-435b-8939-4ef1a49fa0cd\"]"
+      },
+      {
+        "code": "duplicate_headword_candidate",
+        "location": "쓰다",
+        "message": "[\"d7632872-1ba0-4930-9e6f-ead30910d5a7\", \"707d6ce7-4939-4d70-b143-6458c44d362f\"]"
+      },
+      {
+        "code": "duplicate_headword_candidate",
+        "location": "적다",
+        "message": "[\"7ed9cfb9-b5ef-441d-9607-a4d60f44eb7e\", \"f211c5be-f0e5-48c1-8e43-f3e850327e1b\"]"
+      }
+    ],
+    "details_limit": 200
+  },
+  "portable": {
+    "command": "TEST_DESTINATION='platform=iOS Simulator,id=99A1C568-FE33-46DE-80E1-32A41B4E2486' sh Tools/verify.sh",
+    "exit": 1,
+    "executed": 365,
+    "passed": 363,
+    "failed": 2,
+    "errors": 0,
+    "skipped": 0,
+    "seconds": 2457.63,
+    "failed_tests": [
+      "test_immutable22_and_deterministic_strict23_reconstruction (test_data09_final_audit.Data09FinalTests.test_immutable22_and_deterministic_strict23_reconstruction)",
+      "test_preserved19_and23_sources_and_both_strict_update_gates (test_data09_integration.Data09IntegrationTests.test_preserved19_and23_sources_and_both_strict_update_gates)"
+    ],
+    "native_tail_of_verify": "NOT RUN: set -e stopped at portable failures"
+  },
+  "native": {
+    "ios17": {
+      "command_exit": 143,
+      "started": 126,
+      "passed": 121,
+      "failed": 4,
+      "completed_methods": [
+        {
+          "name": "CurriculumTests.testDATA08AuthoredCourseUnitsAndAllVocabularyLessons",
+          "status": "passed",
+          "seconds": 2.562
+        },
+        {
+          "name": "CurriculumTests.testDiagnosticCorrectBranchAndUnassessedAudio",
+          "status": "passed",
+          "seconds": 0.02
+        },
+        {
+          "name": "CurriculumTests.testDiagnosticEarlyExitAndStaleTap",
+          "status": "passed",
+          "seconds": 0.022
+        },
+        {
+          "name": "CurriculumTests.testEmptyDiagnosticIsRejected",
+          "status": "passed",
+          "seconds": 0.006
+        },
+        {
+          "name": "CurriculumTests.testRealDiagnosticProfileColdResumeAndHistoryPreservation",
+          "status": "passed",
+          "seconds": 0.218
+        },
+        {
+          "name": "Data07IntegrationTests.testActualNewConjugationsAndInputGrading",
+          "status": "passed",
+          "seconds": 0.034
+        },
+        {
+          "name": "Data07IntegrationTests.testDATA07NewWordsRoundColdResumeAndSRS",
+          "status": "passed",
+          "seconds": 0.107
+        },
+        {
+          "name": "Data07IntegrationTests.testLowerIntermediateSearchAndFourRealListeningTasks",
+          "status": "passed",
+          "seconds": 0.025
+        },
+        {
+          "name": "FoundationTests.testContentPagingReadOnlyAndFixtureGate",
+          "status": "passed",
+          "seconds": 0.017
+        },
+        {
+          "name": "FoundationTests.testDatasetMismatchDoesNotDestroyFavorites",
+          "status": "passed",
+          "seconds": 0.062
+        },
+        {
+          "name": "FoundationTests.testEventIdempotencyAndCounters",
+          "status": "passed",
+          "seconds": 0.049
+        },
+        {
+          "name": "FoundationTests.testFavoriteSurvivesReopenWithoutContentForeignKey",
+          "status": "passed",
+          "seconds": 0.042
+        },
+        {
+          "name": "FoundationTests.testFutureSchemaIsNotReset",
+          "status": "passed",
+          "seconds": 0.007
+        },
+        {
+          "name": "FoundationTests.testJapaneseStudyDayBoundary",
+          "status": "passed",
+          "seconds": 0.004
+        },
+        {
+          "name": "FoundationTests.testLevelAndJapanesePrefixSearch",
+          "status": "passed",
+          "seconds": 0.006
+        },
+        {
+          "name": "FoundationTests.testTransactionRollsBack",
+          "status": "passed",
+          "seconds": 0.007
+        },
+        {
+          "name": "FoundationTests.testV10UserMigrationPreservesV1AndCreatesBackup",
+          "status": "passed",
+          "seconds": 0.058
+        },
+        {
+          "name": "FoundationTests.testWrongAnswerAndSkippedSemantics",
+          "status": "passed",
+          "seconds": 0.042
+        },
+        {
+          "name": "GrammarLearningTests.testAllKnownAllUnknownAndDeterministicShuffle",
+          "status": "passed",
+          "seconds": 0.004
+        },
+        {
+          "name": "GrammarLearningTests.testCorruptEmptyAndDuplicateStatesRejected",
+          "status": "passed",
+          "seconds": 0.002
+        },
+        {
+          "name": "GrammarLearningTests.testDATA04AllNewLessonsPassResumeAndEnrollSharedSRS",
+          "status": "passed",
+          "seconds": 1.413
+        },
+        {
+          "name": "GrammarLearningTests.testDATA09All18LessonsQuizSRSAndResume",
+          "status": "passed",
+          "seconds": 4.251
+        },
+        {
+          "name": "GrammarLearningTests.testDATA09LowerIntermediateGrammarSRSAndVersionedColdResume",
+          "status": "passed",
+          "seconds": 0.213
+        },
+        {
+          "name": "GrammarLearningTests.testDATA09UnitsPrerequisitesNotesAndVocabularyAreReachable",
+          "status": "passed",
+          "seconds": 0.462
+        },
+        {
+          "name": "GrammarLearningTests.testGrammarSRSUsesSharedStageAndFailureRules",
+          "status": "passed",
+          "seconds": 0.002
+        },
+        {
+          "name": "GrammarLearningTests.testGrammarWrongReviewRetryAndStalePassCannotDuplicateProgress",
+          "status": "passed",
+          "seconds": 0.069
+        },
+        {
+          "name": "GrammarLearningTests.testOnlyDeferredGrammarReturnsAndSetFinishes",
+          "status": "passed",
+          "seconds": 0.002
+        },
+        {
+          "name": "GrammarLearningTests.testProductionGrammarRepositoryPassSRSAndColdResume",
+          "status": "passed",
+          "seconds": 0.119
+        },
+        {
+          "name": "GrammarLearningTests.testQuestionGateJudgeAndSnapshotResume",
+          "status": "passed",
+          "seconds": 0.002
+        },
+        {
+          "name": "HangulLearningTests.testCannotSkipUnansweredStep",
+          "status": "passed",
+          "seconds": 0.046
+        },
+        {
+          "name": "HangulLearningTests.testCompositionIncludingFinalAndNoInventedJamoReading",
+          "status": "passed",
+          "seconds": 0.003
+        },
+        {
+          "name": "HangulLearningTests.testContentChangeRequiresExplicitRestartWithoutDeletingHistory",
+          "status": "passed",
+          "seconds": 0.043
+        },
+        {
+          "name": "HangulLearningTests.testCorrectIncorrectAndUnknownChoice",
+          "status": "passed",
+          "seconds": 0.002
+        },
+        {
+          "name": "HangulLearningTests.testDuplicateSubmissionAndCompletionDoNotDoubleCount",
+          "status": "passed",
+          "seconds": 0.055
+        },
+        {
+          "name": "HangulLearningTests.testOptionsRepeatForResumeAndVaryByAttempt",
+          "status": "passed",
+          "seconds": 0.006
+        },
+        {
+          "name": "HangulLearningTests.testProductionCourseOrderAndEveryLessonReadable",
+          "status": "passed",
+          "seconds": 0.054
+        },
+        {
+          "name": "HangulLearningTests.testResumeAfterReopenKeepsSeedCursorAndFeedback",
+          "status": "passed",
+          "seconds": 0.075
+        },
+        {
+          "name": "ListeningTests.testAllChoiceTasksAndDictationReuse",
+          "status": "passed",
+          "seconds": 0.028
+        },
+        {
+          "name": "ListeningTests.testAllWrongAndRetrySuccessAreNotFirstPassMastery",
+          "status": "passed",
+          "seconds": 0.044
+        },
+        {
+          "name": "ListeningTests.testData06ProductionRetryColdResumeAndNoDoubleSRS",
+          "status": "passed",
+          "seconds": 0.649
+        },
+        {
+          "name": "ListeningTests.testData06RealItemsGradingAndAudioPolicy",
+          "status": "failed",
+          "seconds": 13.183
+        },
+        {
+          "name": "ListeningTests.testDATA08AllDictationsAllowTerminalPunctuationOmissionOnly",
+          "status": "passed",
+          "seconds": 1.116
+        },
+        {
+          "name": "ListeningTests.testDATA08AllLowerIntermediateDictationBatchesAndAnswers",
+          "status": "passed",
+          "seconds": 1.315
+        },
+        {
+          "name": "ListeningTests.testDATA08UnavailableListeningDueIsReleaseScopedAndPreservesSnapshots",
+          "status": "passed",
+          "seconds": 0.125
+        },
+        {
+          "name": "ListeningTests.testListeningRatingsUseSharedSchedulingAndNeverGraduateRetry",
+          "status": "passed",
+          "seconds": 0.007
+        },
+        {
+          "name": "ListeningTests.testPlaybackGateAndBoundedRetry",
+          "status": "passed",
+          "seconds": 0.009
+        },
+        {
+          "name": "ListeningTests.testRealContentDiskResumeAndSRS",
+          "status": "passed",
+          "seconds": 0.144
+        },
+        {
+          "name": "ListeningTests.testSnapshotKeepsFeedbackQueueAndDeterministicOptions",
+          "status": "passed",
+          "seconds": 0.003
+        },
+        {
+          "name": "LookupTests.testActualSearchRankingTypesAndEmptyInput",
+          "status": "passed",
+          "seconds": 0.054
+        },
+        {
+          "name": "LookupTests.testDetailUsesSameConjugationEngineAndOverridesAsLearning",
+          "status": "passed",
+          "seconds": 0.075
+        },
+        {
+          "name": "LookupTests.testGrammarPracticeUsesQuizAndDoesNotMarkCourseComplete",
+          "status": "passed",
+          "seconds": 0.083
+        },
+        {
+          "name": "LookupTests.testManualVocabularyReviewPreservesScheduleAndRoundResume",
+          "status": "passed",
+          "seconds": 0.195
+        },
+        {
+          "name": "LookupTests.testReviewRejectsDelayedActionsForAnotherCard",
+          "status": "passed",
+          "seconds": 0.057
+        },
+        {
+          "name": "LookupTests.testTypedFavoriteRecentAndColdReopenDoNotCreateLearning",
+          "status": "passed",
+          "seconds": 0.091
+        },
+        {
+          "name": "MonetizationTests.testBoundaryHistoryIsBounded",
+          "status": "passed",
+          "seconds": 0.007
+        },
+        {
+          "name": "MonetizationTests.testDuplicateCompletionAndColdFrequencyRestore",
+          "status": "passed",
+          "seconds": 0.008
+        },
+        {
+          "name": "MonetizationTests.testLongBoundaryNeedsLearningVolumeAndTimeCap",
+          "status": "passed",
+          "seconds": 0.002
+        },
+        {
+          "name": "MonetizationTests.testOnlyConfirmedFreeStatePermitsAds",
+          "status": "passed",
+          "seconds": 0.002
+        },
+        {
+          "name": "MonetizationTests.testPaidUserNeverEligibleForLongBoundary",
+          "status": "passed",
+          "seconds": 0.001
+        },
+        {
+          "name": "MonetizationTests.testPendingAndCancellationNeverGrantEntitlement",
+          "status": "passed",
+          "seconds": 0.001
+        },
+        {
+          "name": "MonetizationTests.testProductionMissingAndTestIDsRejected",
+          "status": "passed",
+          "seconds": 0.066
+        },
+        {
+          "name": "MonetizationTests.testPurchaseSuccessImmediatelyBlocksAds",
+          "status": "passed",
+          "seconds": 0.002
+        },
+        {
+          "name": "MonetizationTests.testResumeAndInvalidElapsedTimeNeverQualify",
+          "status": "passed",
+          "seconds": 0.001
+        },
+        {
+          "name": "MonetizationTests.testShortSessionsNeverQualifyEvenWithBacklog",
+          "status": "passed",
+          "seconds": 0.001
+        },
+        {
+          "name": "MonetizationTests.testUnverifiedDoesNotGrantAndProtectsPreviousVerifiedPurchase",
+          "status": "passed",
+          "seconds": 0.001
+        },
+        {
+          "name": "MonetizationTests.testVerifiedRevocationOverridesCache",
+          "status": "passed",
+          "seconds": 0.001
+        },
+        {
+          "name": "ProductionLearningTests.testActualProductionQuestionsAndSavedRetry",
+          "status": "passed",
+          "seconds": 0.931
+        },
+        {
+          "name": "ProductionLearningTests.testAllTargetFormsAndRestrictions",
+          "status": "passed",
+          "seconds": 0.004
+        },
+        {
+          "name": "ProductionLearningTests.testDATA04GrammarLinksGenerateAcceptedForms",
+          "status": "passed",
+          "seconds": 0.738
+        },
+        {
+          "name": "ProductionLearningTests.testDATA05ListeningSourceColdResumeAndDueRegistration",
+          "status": "passed",
+          "seconds": 0.052
+        },
+        {
+          "name": "ProductionLearningTests.testDATA05RealVocabularyPassColdResumeAndReview",
+          "status": "passed",
+          "seconds": 0.078
+        },
+        {
+          "name": "ProductionLearningTests.testDATA08BatchAReviewedMetadataAndConjugations",
+          "status": "passed",
+          "seconds": 0.017
+        },
+        {
+          "name": "ProductionLearningTests.testDATA08BatchBReviewedMetadataAndConjugations",
+          "status": "passed",
+          "seconds": 0.024
+        },
+        {
+          "name": "ProductionLearningTests.testDATA08BatchCReviewedMetadataAndConjugations",
+          "status": "passed",
+          "seconds": 0.023
+        },
+        {
+          "name": "ProductionLearningTests.testDATA08FinalAuditRiskFormsAcrossBatches",
+          "status": "passed",
+          "seconds": 0.017
+        },
+        {
+          "name": "ProductionLearningTests.testInputNormalizationAndSpacing",
+          "status": "passed",
+          "seconds": 0.002
+        },
+        {
+          "name": "ProductionLearningTests.testIrregularsAndRegularCounterexamples",
+          "status": "passed",
+          "seconds": 0.002
+        },
+        {
+          "name": "ProductionLearningTests.testRegularAndContractions",
+          "status": "passed",
+          "seconds": 0.002
+        },
+        {
+          "name": "PronunciationTests.testFailedPlaybackDoesNotCountAsHeard",
+          "status": "passed",
+          "seconds": 0.003
+        },
+        {
+          "name": "PronunciationTests.testInterruptedPlaybackDoesNotUnlockListeningAndCanRestart",
+          "status": "passed",
+          "seconds": 0.001
+        },
+        {
+          "name": "PronunciationTests.testJamoAndComparisonNeverReachTTS",
+          "status": "passed",
+          "seconds": 0.002
+        },
+        {
+          "name": "PronunciationTests.testKoreanVoiceLookupHasSafeFallback",
+          "status": "passed",
+          "seconds": 0.27
+        },
+        {
+          "name": "PronunciationTests.testLateCancelledCompletionCannotFinishNewPlayback",
+          "status": "passed",
+          "seconds": 0.002
+        },
+        {
+          "name": "PronunciationTests.testListeningGateAndPronunciationProgressReopen",
+          "status": "failed",
+          "seconds": 0.1
+        },
+        {
+          "name": "PronunciationTests.testMissingAndUnsafeRecordedPathsAreRejected",
+          "status": "passed",
+          "seconds": 0.022
+        },
+        {
+          "name": "PronunciationTests.testMissingKoreanVoiceDoesNotUseAnotherLanguage",
+          "status": "passed",
+          "seconds": 0.002
+        },
+        {
+          "name": "PronunciationTests.testMissingRecordingNeverFallsBackToTTS",
+          "status": "passed",
+          "seconds": 0.002
+        },
+        {
+          "name": "PronunciationTests.testNormalSlowAndStopUseSharedPolicy",
+          "status": "passed",
+          "seconds": 0.002
+        },
+        {
+          "name": "PronunciationTests.testPronunciationCourseQueriesAndQuizAnswers",
+          "status": "failed",
+          "seconds": 2.253
+        },
+        {
+          "name": "PronunciationTests.testRecordingResolverChecksChecksumBeforePlayback",
+          "status": "passed",
+          "seconds": 0.023
+        },
+        {
+          "name": "ReleaseAuditTests.testConjugationOeContractsToWaeAndWaeStaysWae",
+          "status": "failed",
+          "seconds": 0.014
+        },
+        {
+          "name": "ReleaseAuditTests.testDATA08UnavailableGrammarReviewContinuesWithoutLosingProgress",
+          "status": "passed",
+          "seconds": 0.118
+        },
+        {
+          "name": "ReleaseAuditTests.testDATA08UnavailableVocabularyReviewContinuesWithoutLosingProgress",
+          "status": "passed",
+          "seconds": 0.082
+        },
+        {
+          "name": "ReleaseAuditTests.testInternalErrorsNeverReachLearningUI",
+          "status": "passed",
+          "seconds": 0.054
+        },
+        {
+          "name": "ReleaseAuditTests.testInvalidDateCannotCreateStudyDay",
+          "status": "passed",
+          "seconds": 0.002
+        },
+        {
+          "name": "ReleaseAuditTests.testProductionResumeSnapshotAndRetryAreIndependentOfContentUpdate",
+          "status": "passed",
+          "seconds": 0.101
+        },
+        {
+          "name": "ReleaseAuditTests.testSQLiteTextRoundTripsEmbeddedNulAndJapanese",
+          "status": "passed",
+          "seconds": 0.006
+        },
+        {
+          "name": "ReleaseAuditTests.testWrongDatasetDoesNotMigrateExistingFile",
+          "status": "passed",
+          "seconds": 0.032
+        },
+        {
+          "name": "SRSTests.testBacklogLimitedWithoutDroppingUnstartedDueItems",
+          "status": "passed",
+          "seconds": 0.461
+        },
+        {
+          "name": "SRSTests.testClockRewindDoesNotSilentlyRewriteHistory",
+          "status": "passed",
+          "seconds": 0.013
+        },
+        {
+          "name": "SRSTests.testDATA08DeferredReviewsPreserveSchedulesAndRetryAfterContentUpdate",
+          "status": "passed",
+          "seconds": 0.27
+        },
+        {
+          "name": "SRSTests.testDifficultResetsAndCannotRepeatOnSameLocalDate",
+          "status": "passed",
+          "seconds": 0.006
+        },
+        {
+          "name": "SRSTests.testDSTUsesCalendarDays",
+          "status": "passed",
+          "seconds": 0.007
+        },
+        {
+          "name": "SRSTests.testDueBoundaryAndFutureExcluded",
+          "status": "passed",
+          "seconds": 0.089
+        },
+        {
+          "name": "SRSTests.testInitialKnownWordIsLowStageAndDueTomorrow",
+          "status": "passed",
+          "seconds": 0.005
+        },
+        {
+          "name": "SRSTests.testInvalidZoneAndCorruptStateAreRejected",
+          "status": "passed",
+          "seconds": 0.004
+        },
+        {
+          "name": "SRSTests.testLegacyCompletedPassBackfillIsIdempotent",
+          "status": "passed",
+          "seconds": 0.069
+        },
+        {
+          "name": "SRSTests.testMidnightChangesCalendarDayNotFixedTwentyFourHours",
+          "status": "passed",
+          "seconds": 0.004
+        },
+        {
+          "name": "SRSTests.testNeededRepetitionIsRecordedForFutureInitialPolicy",
+          "status": "passed",
+          "seconds": 0.056
+        },
+        {
+          "name": "SRSTests.testPassCompletionEnrollsInitiallyKnownWordsAndRepeatDoesNotReset",
+          "status": "passed",
+          "seconds": 0.055
+        },
+        {
+          "name": "SRSTests.testRememberedAdvancesAndCapsAtMaintenanceWithoutRemoval",
+          "status": "passed",
+          "seconds": 0.003
+        },
+        {
+          "name": "SRSTests.testRevealGateResumeRatingIdempotencyAndStatePersistence",
+          "status": "passed",
+          "seconds": 0.066
+        },
+        {
+          "name": "SRSTests.testSecondPassCompletionPreservesAdvancedReviewSchedule",
+          "status": "passed",
+          "seconds": 0.071
+        },
+        {
+          "name": "SRSTests.testTravelPreservesAbsoluteExistingDueAndUsesNewZoneForNextSchedule",
+          "status": "passed",
+          "seconds": 0.006
+        },
+        {
+          "name": "SRSTests.testUnsureKeepsStageButLimitsIntervalToThreeDays",
+          "status": "passed",
+          "seconds": 0.005
+        },
+        {
+          "name": "StatisticsAndSettingsTests.testDelayedGrammarAndVocabularyActionsDoNotAdvanceFreshState",
+          "status": "passed",
+          "seconds": 0.089
+        },
+        {
+          "name": "StatisticsAndSettingsTests.testDelayedLessonNextDoesNotSkipFollowingExplanation",
+          "status": "passed",
+          "seconds": 0.068
+        },
+        {
+          "name": "StatisticsAndSettingsTests.testEmptyAccuracyAndCalendarAcrossDST",
+          "status": "passed",
+          "seconds": 0.002
+        },
+        {
+          "name": "StatisticsAndSettingsTests.testEmptyAndPartialStatisticsPersist",
+          "status": "passed",
+          "seconds": 0.05
+        },
+        {
+          "name": "StatisticsAndSettingsTests.testEnableDisableFailureAndRevokedPermission",
+          "status": "passed",
+          "seconds": 0.028
+        },
+        {
+          "name": "StatisticsAndSettingsTests.testFiveItemReviewPartialCompletionColdResumeAndBacklog",
+          "status": "passed",
+          "seconds": 0.225
+        },
+        {
+          "name": "StatisticsAndSettingsTests.testOffPreferencesCancelStalePendingReminderWithoutPermissionPrompt",
+          "status": "passed",
+          "seconds": 0.008
+        },
+        {
+          "name": "StatisticsAndSettingsTests.testPermissionDeniedDoesNotRepeatRequestOrEnableReminder",
+          "status": "passed",
+          "seconds": 0.011
+        },
+        {
+          "name": "StatisticsAndSettingsTests.testPreferencesPersistAndNoLaunchPermissionPrompt",
+          "status": "passed",
+          "seconds": 0.086
+        },
+        {
+          "name": "StatisticsAndSettingsTests.testUnchangedLessonSurvivesContentReleaseWithoutReset",
+          "status": "passed",
+          "seconds": 0.078
+        }
+      ]
+    },
+    "ios26": {
+      "command_exit": 143,
+      "started": 141,
+      "passed": 136,
+      "failed": 5,
+      "completed_methods": [
+        {
+          "name": "CurriculumTests.testDATA08AuthoredCourseUnitsAndAllVocabularyLessons",
+          "status": "passed",
+          "seconds": 2.709
+        },
+        {
+          "name": "CurriculumTests.testDiagnosticCorrectBranchAndUnassessedAudio",
+          "status": "passed",
+          "seconds": 0.052
+        },
+        {
+          "name": "CurriculumTests.testDiagnosticEarlyExitAndStaleTap",
+          "status": "passed",
+          "seconds": 0.009
+        },
+        {
+          "name": "CurriculumTests.testEmptyDiagnosticIsRejected",
+          "status": "passed",
+          "seconds": 0.003
+        },
+        {
+          "name": "CurriculumTests.testRealDiagnosticProfileColdResumeAndHistoryPreservation",
+          "status": "passed",
+          "seconds": 0.196
+        },
+        {
+          "name": "Data07IntegrationTests.testActualNewConjugationsAndInputGrading",
+          "status": "passed",
+          "seconds": 0.033
+        },
+        {
+          "name": "Data07IntegrationTests.testDATA07NewWordsRoundColdResumeAndSRS",
+          "status": "passed",
+          "seconds": 0.147
+        },
+        {
+          "name": "Data07IntegrationTests.testLowerIntermediateSearchAndFourRealListeningTasks",
+          "status": "passed",
+          "seconds": 0.028
+        },
+        {
+          "name": "FoundationTests.testContentPagingReadOnlyAndFixtureGate",
+          "status": "passed",
+          "seconds": 0.015
+        },
+        {
+          "name": "FoundationTests.testDatasetMismatchDoesNotDestroyFavorites",
+          "status": "passed",
+          "seconds": 0.045
+        },
+        {
+          "name": "FoundationTests.testEventIdempotencyAndCounters",
+          "status": "passed",
+          "seconds": 0.047
+        },
+        {
+          "name": "FoundationTests.testFavoriteSurvivesReopenWithoutContentForeignKey",
+          "status": "passed",
+          "seconds": 0.066
+        },
+        {
+          "name": "FoundationTests.testFutureSchemaIsNotReset",
+          "status": "passed",
+          "seconds": 0.009
+        },
+        {
+          "name": "FoundationTests.testJapaneseStudyDayBoundary",
+          "status": "passed",
+          "seconds": 0.004
+        },
+        {
+          "name": "FoundationTests.testLevelAndJapanesePrefixSearch",
+          "status": "passed",
+          "seconds": 0.006
+        },
+        {
+          "name": "FoundationTests.testTransactionRollsBack",
+          "status": "passed",
+          "seconds": 0.006
+        },
+        {
+          "name": "FoundationTests.testV10UserMigrationPreservesV1AndCreatesBackup",
+          "status": "passed",
+          "seconds": 0.059
+        },
+        {
+          "name": "FoundationTests.testWrongAnswerAndSkippedSemantics",
+          "status": "passed",
+          "seconds": 0.043
+        },
+        {
+          "name": "GrammarLearningTests.testAllKnownAllUnknownAndDeterministicShuffle",
+          "status": "passed",
+          "seconds": 0.004
+        },
+        {
+          "name": "GrammarLearningTests.testCorruptEmptyAndDuplicateStatesRejected",
+          "status": "passed",
+          "seconds": 0.002
+        },
+        {
+          "name": "GrammarLearningTests.testDATA04AllNewLessonsPassResumeAndEnrollSharedSRS",
+          "status": "passed",
+          "seconds": 1.178
+        },
+        {
+          "name": "GrammarLearningTests.testDATA09All18LessonsQuizSRSAndResume",
+          "status": "passed",
+          "seconds": 3.83
+        },
+        {
+          "name": "GrammarLearningTests.testDATA09LowerIntermediateGrammarSRSAndVersionedColdResume",
+          "status": "passed",
+          "seconds": 0.188
+        },
+        {
+          "name": "GrammarLearningTests.testDATA09UnitsPrerequisitesNotesAndVocabularyAreReachable",
+          "status": "passed",
+          "seconds": 0.415
+        },
+        {
+          "name": "GrammarLearningTests.testGrammarSRSUsesSharedStageAndFailureRules",
+          "status": "passed",
+          "seconds": 0.002
+        },
+        {
+          "name": "GrammarLearningTests.testGrammarWrongReviewRetryAndStalePassCannotDuplicateProgress",
+          "status": "passed",
+          "seconds": 0.082
+        },
+        {
+          "name": "GrammarLearningTests.testOnlyDeferredGrammarReturnsAndSetFinishes",
+          "status": "passed",
+          "seconds": 0.003
+        },
+        {
+          "name": "GrammarLearningTests.testProductionGrammarRepositoryPassSRSAndColdResume",
+          "status": "passed",
+          "seconds": 0.135
+        },
+        {
+          "name": "GrammarLearningTests.testQuestionGateJudgeAndSnapshotResume",
+          "status": "passed",
+          "seconds": 0.002
+        },
+        {
+          "name": "HangulLearningTests.testCannotSkipUnansweredStep",
+          "status": "passed",
+          "seconds": 0.049
+        },
+        {
+          "name": "HangulLearningTests.testCompositionIncludingFinalAndNoInventedJamoReading",
+          "status": "passed",
+          "seconds": 0.002
+        },
+        {
+          "name": "HangulLearningTests.testContentChangeRequiresExplicitRestartWithoutDeletingHistory",
+          "status": "passed",
+          "seconds": 0.053
+        },
+        {
+          "name": "HangulLearningTests.testCorrectIncorrectAndUnknownChoice",
+          "status": "passed",
+          "seconds": 0.003
+        },
+        {
+          "name": "HangulLearningTests.testDuplicateSubmissionAndCompletionDoNotDoubleCount",
+          "status": "passed",
+          "seconds": 0.049
+        },
+        {
+          "name": "HangulLearningTests.testOptionsRepeatForResumeAndVaryByAttempt",
+          "status": "passed",
+          "seconds": 0.004
+        },
+        {
+          "name": "HangulLearningTests.testProductionCourseOrderAndEveryLessonReadable",
+          "status": "passed",
+          "seconds": 0.058
+        },
+        {
+          "name": "HangulLearningTests.testResumeAfterReopenKeepsSeedCursorAndFeedback",
+          "status": "passed",
+          "seconds": 0.054
+        },
+        {
+          "name": "ListeningTests.testAllChoiceTasksAndDictationReuse",
+          "status": "passed",
+          "seconds": 0.006
+        },
+        {
+          "name": "ListeningTests.testAllWrongAndRetrySuccessAreNotFirstPassMastery",
+          "status": "passed",
+          "seconds": 0.04
+        },
+        {
+          "name": "ListeningTests.testData06ProductionRetryColdResumeAndNoDoubleSRS",
+          "status": "passed",
+          "seconds": 0.638
+        },
+        {
+          "name": "ListeningTests.testData06RealItemsGradingAndAudioPolicy",
+          "status": "failed",
+          "seconds": 0.131
+        },
+        {
+          "name": "ListeningTests.testDATA08AllDictationsAllowTerminalPunctuationOmissionOnly",
+          "status": "passed",
+          "seconds": 0.945
+        },
+        {
+          "name": "ListeningTests.testDATA08AllLowerIntermediateDictationBatchesAndAnswers",
+          "status": "passed",
+          "seconds": 0.929
+        },
+        {
+          "name": "ListeningTests.testDATA08UnavailableListeningDueIsReleaseScopedAndPreservesSnapshots",
+          "status": "passed",
+          "seconds": 0.127
+        },
+        {
+          "name": "ListeningTests.testListeningRatingsUseSharedSchedulingAndNeverGraduateRetry",
+          "status": "passed",
+          "seconds": 0.002
+        },
+        {
+          "name": "ListeningTests.testPlaybackGateAndBoundedRetry",
+          "status": "passed",
+          "seconds": 0.005
+        },
+        {
+          "name": "ListeningTests.testRealContentDiskResumeAndSRS",
+          "status": "passed",
+          "seconds": 0.257
+        },
+        {
+          "name": "ListeningTests.testSnapshotKeepsFeedbackQueueAndDeterministicOptions",
+          "status": "passed",
+          "seconds": 0.006
+        },
+        {
+          "name": "LookupTests.testActualSearchRankingTypesAndEmptyInput",
+          "status": "passed",
+          "seconds": 0.044
+        },
+        {
+          "name": "LookupTests.testDetailUsesSameConjugationEngineAndOverridesAsLearning",
+          "status": "passed",
+          "seconds": 0.071
+        },
+        {
+          "name": "LookupTests.testGrammarPracticeUsesQuizAndDoesNotMarkCourseComplete",
+          "status": "passed",
+          "seconds": 0.088
+        },
+        {
+          "name": "LookupTests.testManualVocabularyReviewPreservesScheduleAndRoundResume",
+          "status": "passed",
+          "seconds": 0.107
+        },
+        {
+          "name": "LookupTests.testReviewRejectsDelayedActionsForAnotherCard",
+          "status": "passed",
+          "seconds": 0.057
+        },
+        {
+          "name": "LookupTests.testTypedFavoriteRecentAndColdReopenDoNotCreateLearning",
+          "status": "passed",
+          "seconds": 0.059
+        },
+        {
+          "name": "MonetizationTests.testBoundaryHistoryIsBounded",
+          "status": "passed",
+          "seconds": 0.006
+        },
+        {
+          "name": "MonetizationTests.testDuplicateCompletionAndColdFrequencyRestore",
+          "status": "passed",
+          "seconds": 0.01
+        },
+        {
+          "name": "MonetizationTests.testLongBoundaryNeedsLearningVolumeAndTimeCap",
+          "status": "passed",
+          "seconds": 0.001
+        },
+        {
+          "name": "MonetizationTests.testOnlyConfirmedFreeStatePermitsAds",
+          "status": "passed",
+          "seconds": 0.002
+        },
+        {
+          "name": "MonetizationTests.testPaidUserNeverEligibleForLongBoundary",
+          "status": "passed",
+          "seconds": 0.002
+        },
+        {
+          "name": "MonetizationTests.testPendingAndCancellationNeverGrantEntitlement",
+          "status": "passed",
+          "seconds": 0.001
+        },
+        {
+          "name": "MonetizationTests.testProductionMissingAndTestIDsRejected",
+          "status": "passed",
+          "seconds": 0.007
+        },
+        {
+          "name": "MonetizationTests.testPurchaseSuccessImmediatelyBlocksAds",
+          "status": "passed",
+          "seconds": 0.001
+        },
+        {
+          "name": "MonetizationTests.testResumeAndInvalidElapsedTimeNeverQualify",
+          "status": "passed",
+          "seconds": 0.001
+        },
+        {
+          "name": "MonetizationTests.testShortSessionsNeverQualifyEvenWithBacklog",
+          "status": "passed",
+          "seconds": 0.001
+        },
+        {
+          "name": "MonetizationTests.testUnverifiedDoesNotGrantAndProtectsPreviousVerifiedPurchase",
+          "status": "passed",
+          "seconds": 0.004
+        },
+        {
+          "name": "MonetizationTests.testVerifiedRevocationOverridesCache",
+          "status": "passed",
+          "seconds": 0.001
+        },
+        {
+          "name": "ProductionLearningTests.testActualProductionQuestionsAndSavedRetry",
+          "status": "passed",
+          "seconds": 0.862
+        },
+        {
+          "name": "ProductionLearningTests.testAllTargetFormsAndRestrictions",
+          "status": "passed",
+          "seconds": 0.004
+        },
+        {
+          "name": "ProductionLearningTests.testDATA04GrammarLinksGenerateAcceptedForms",
+          "status": "passed",
+          "seconds": 0.939
+        },
+        {
+          "name": "ProductionLearningTests.testDATA05ListeningSourceColdResumeAndDueRegistration",
+          "status": "passed",
+          "seconds": 0.059
+        },
+        {
+          "name": "ProductionLearningTests.testDATA05RealVocabularyPassColdResumeAndReview",
+          "status": "passed",
+          "seconds": 0.188
+        },
+        {
+          "name": "ProductionLearningTests.testDATA08BatchAReviewedMetadataAndConjugations",
+          "status": "passed",
+          "seconds": 0.035
+        },
+        {
+          "name": "ProductionLearningTests.testDATA08BatchBReviewedMetadataAndConjugations",
+          "status": "passed",
+          "seconds": 0.026
+        },
+        {
+          "name": "ProductionLearningTests.testDATA08BatchCReviewedMetadataAndConjugations",
+          "status": "passed",
+          "seconds": 0.026
+        },
+        {
+          "name": "ProductionLearningTests.testDATA08FinalAuditRiskFormsAcrossBatches",
+          "status": "passed",
+          "seconds": 0.023
+        },
+        {
+          "name": "ProductionLearningTests.testInputNormalizationAndSpacing",
+          "status": "passed",
+          "seconds": 0.003
+        },
+        {
+          "name": "ProductionLearningTests.testIrregularsAndRegularCounterexamples",
+          "status": "passed",
+          "seconds": 0.002
+        },
+        {
+          "name": "ProductionLearningTests.testRegularAndContractions",
+          "status": "passed",
+          "seconds": 0.002
+        },
+        {
+          "name": "PronunciationTests.testFailedPlaybackDoesNotCountAsHeard",
+          "status": "passed",
+          "seconds": 0.005
+        },
+        {
+          "name": "PronunciationTests.testInterruptedPlaybackDoesNotUnlockListeningAndCanRestart",
+          "status": "passed",
+          "seconds": 0.002
+        },
+        {
+          "name": "PronunciationTests.testJamoAndComparisonNeverReachTTS",
+          "status": "passed",
+          "seconds": 0.001
+        },
+        {
+          "name": "PronunciationTests.testKoreanVoiceLookupHasSafeFallback",
+          "status": "passed",
+          "seconds": 0.209
+        },
+        {
+          "name": "PronunciationTests.testLateCancelledCompletionCannotFinishNewPlayback",
+          "status": "passed",
+          "seconds": 0.002
+        },
+        {
+          "name": "PronunciationTests.testListeningGateAndPronunciationProgressReopen",
+          "status": "failed",
+          "seconds": 0.094
+        },
+        {
+          "name": "PronunciationTests.testMissingAndUnsafeRecordedPathsAreRejected",
+          "status": "passed",
+          "seconds": 0.003
+        },
+        {
+          "name": "PronunciationTests.testMissingKoreanVoiceDoesNotUseAnotherLanguage",
+          "status": "passed",
+          "seconds": 0.002
+        },
+        {
+          "name": "PronunciationTests.testMissingRecordingNeverFallsBackToTTS",
+          "status": "passed",
+          "seconds": 0.003
+        },
+        {
+          "name": "PronunciationTests.testNormalSlowAndStopUseSharedPolicy",
+          "status": "passed",
+          "seconds": 0.002
+        },
+        {
+          "name": "PronunciationTests.testPronunciationCourseQueriesAndQuizAnswers",
+          "status": "failed",
+          "seconds": 2.262
+        },
+        {
+          "name": "PronunciationTests.testRecordingResolverChecksChecksumBeforePlayback",
+          "status": "passed",
+          "seconds": 0.013
+        },
+        {
+          "name": "ReleaseAuditTests.testConjugationOeContractsToWaeAndWaeStaysWae",
+          "status": "failed",
+          "seconds": 0.027
+        },
+        {
+          "name": "ReleaseAuditTests.testDATA08UnavailableGrammarReviewContinuesWithoutLosingProgress",
+          "status": "passed",
+          "seconds": 0.123
+        },
+        {
+          "name": "ReleaseAuditTests.testDATA08UnavailableVocabularyReviewContinuesWithoutLosingProgress",
+          "status": "passed",
+          "seconds": 0.075
+        },
+        {
+          "name": "ReleaseAuditTests.testInternalErrorsNeverReachLearningUI",
+          "status": "passed",
+          "seconds": 0.011
+        },
+        {
+          "name": "ReleaseAuditTests.testInvalidDateCannotCreateStudyDay",
+          "status": "passed",
+          "seconds": 0.003
+        },
+        {
+          "name": "ReleaseAuditTests.testProductionResumeSnapshotAndRetryAreIndependentOfContentUpdate",
+          "status": "passed",
+          "seconds": 0.156
+        },
+        {
+          "name": "ReleaseAuditTests.testSQLiteTextRoundTripsEmbeddedNulAndJapanese",
+          "status": "passed",
+          "seconds": 0.008
+        },
+        {
+          "name": "ReleaseAuditTests.testWrongDatasetDoesNotMigrateExistingFile",
+          "status": "passed",
+          "seconds": 0.03
+        },
+        {
+          "name": "SRSTests.testBacklogLimitedWithoutDroppingUnstartedDueItems",
+          "status": "passed",
+          "seconds": 0.385
+        },
+        {
+          "name": "SRSTests.testClockRewindDoesNotSilentlyRewriteHistory",
+          "status": "passed",
+          "seconds": 0.013
+        },
+        {
+          "name": "SRSTests.testDATA08DeferredReviewsPreserveSchedulesAndRetryAfterContentUpdate",
+          "status": "passed",
+          "seconds": 0.237
+        },
+        {
+          "name": "SRSTests.testDifficultResetsAndCannotRepeatOnSameLocalDate",
+          "status": "passed",
+          "seconds": 0.004
+        },
+        {
+          "name": "SRSTests.testDSTUsesCalendarDays",
+          "status": "passed",
+          "seconds": 0.006
+        },
+        {
+          "name": "SRSTests.testDueBoundaryAndFutureExcluded",
+          "status": "passed",
+          "seconds": 0.053
+        },
+        {
+          "name": "SRSTests.testInitialKnownWordIsLowStageAndDueTomorrow",
+          "status": "passed",
+          "seconds": 0.004
+        },
+        {
+          "name": "SRSTests.testInvalidZoneAndCorruptStateAreRejected",
+          "status": "passed",
+          "seconds": 0.004
+        },
+        {
+          "name": "SRSTests.testLegacyCompletedPassBackfillIsIdempotent",
+          "status": "passed",
+          "seconds": 0.059
+        },
+        {
+          "name": "SRSTests.testMidnightChangesCalendarDayNotFixedTwentyFourHours",
+          "status": "passed",
+          "seconds": 0.005
+        },
+        {
+          "name": "SRSTests.testNeededRepetitionIsRecordedForFutureInitialPolicy",
+          "status": "passed",
+          "seconds": 0.058
+        },
+        {
+          "name": "SRSTests.testPassCompletionEnrollsInitiallyKnownWordsAndRepeatDoesNotReset",
+          "status": "passed",
+          "seconds": 0.056
+        },
+        {
+          "name": "SRSTests.testRememberedAdvancesAndCapsAtMaintenanceWithoutRemoval",
+          "status": "passed",
+          "seconds": 0.004
+        },
+        {
+          "name": "SRSTests.testRevealGateResumeRatingIdempotencyAndStatePersistence",
+          "status": "passed",
+          "seconds": 0.069
+        },
+        {
+          "name": "SRSTests.testSecondPassCompletionPreservesAdvancedReviewSchedule",
+          "status": "passed",
+          "seconds": 0.059
+        },
+        {
+          "name": "SRSTests.testTravelPreservesAbsoluteExistingDueAndUsesNewZoneForNextSchedule",
+          "status": "passed",
+          "seconds": 0.004
+        },
+        {
+          "name": "SRSTests.testUnsureKeepsStageButLimitsIntervalToThreeDays",
+          "status": "passed",
+          "seconds": 0.004
+        },
+        {
+          "name": "StatisticsAndSettingsTests.testDelayedGrammarAndVocabularyActionsDoNotAdvanceFreshState",
+          "status": "passed",
+          "seconds": 0.103
+        },
+        {
+          "name": "StatisticsAndSettingsTests.testDelayedLessonNextDoesNotSkipFollowingExplanation",
+          "status": "passed",
+          "seconds": 0.152
+        },
+        {
+          "name": "StatisticsAndSettingsTests.testEmptyAccuracyAndCalendarAcrossDST",
+          "status": "passed",
+          "seconds": 0.002
+        },
+        {
+          "name": "StatisticsAndSettingsTests.testEmptyAndPartialStatisticsPersist",
+          "status": "passed",
+          "seconds": 0.05
+        },
+        {
+          "name": "StatisticsAndSettingsTests.testEnableDisableFailureAndRevokedPermission",
+          "status": "passed",
+          "seconds": 0.025
+        },
+        {
+          "name": "StatisticsAndSettingsTests.testFiveItemReviewPartialCompletionColdResumeAndBacklog",
+          "status": "passed",
+          "seconds": 0.173
+        },
+        {
+          "name": "StatisticsAndSettingsTests.testOffPreferencesCancelStalePendingReminderWithoutPermissionPrompt",
+          "status": "passed",
+          "seconds": 0.004
+        },
+        {
+          "name": "StatisticsAndSettingsTests.testPermissionDeniedDoesNotRepeatRequestOrEnableReminder",
+          "status": "passed",
+          "seconds": 0.008
+        },
+        {
+          "name": "StatisticsAndSettingsTests.testPreferencesPersistAndNoLaunchPermissionPrompt",
+          "status": "passed",
+          "seconds": 0.048
+        },
+        {
+          "name": "StatisticsAndSettingsTests.testUnchangedLessonSurvivesContentReleaseWithoutReset",
+          "status": "passed",
+          "seconds": 0.052
+        },
+        {
+          "name": "StoreKitPurchaseTests.testLocalNonConsumablePurchaseColdEntitlementAndRestore",
+          "status": "failed",
+          "seconds": 3.443
+        },
+        {
+          "name": "VocabularyPassTests.testAllKnownFinishesFirstRoundWithoutPermanentMasteryFlag",
+          "status": "passed",
+          "seconds": 0.013
+        },
+        {
+          "name": "VocabularyPassTests.testAllUnknownRemainForNextRoundAndDoNotReappearWithinRound",
+          "status": "passed",
+          "seconds": 0.015
+        },
+        {
+          "name": "VocabularyPassTests.testCatalogContentReorderingAndNewVocabularyDoNotChangeStartedSet",
+          "status": "passed",
+          "seconds": 0.161
+        },
+        {
+          "name": "VocabularyPassTests.testCodableRestoresThirteenthCardRevealAndStableIDSnapshot",
+          "status": "passed",
+          "seconds": 0.007
+        },
+        {
+          "name": "VocabularyPassTests.testData02BeginnerUsesExistingPassSRSAndColdResume",
+          "status": "passed",
+          "seconds": 0.348
+        },
+        {
+          "name": "VocabularyPassTests.testData03ProductionTwoRoundsColdResumeAndDueReview",
+          "status": "passed",
+          "seconds": 0.095
+        },
+        {
+          "name": "VocabularyPassTests.testMustExposeAndRevealBeforeJudgment",
+          "status": "passed",
+          "seconds": 0.002
+        },
+        {
+          "name": "VocabularyPassTests.testProductionCatalogAllocatesDisjointSetsAndReadsRealMeaningsExamplesNotes",
+          "status": "passed",
+          "seconds": 0.125
+        },
+        {
+          "name": "VocabularyPassTests.testRejectsDuplicateEmptyOversizedAndCorruptSnapshots",
+          "status": "passed",
+          "seconds": 0.003
+        },
+        {
+          "name": "VocabularyPassTests.testRepositoryAtomicCompletionStaleSubmissionAndRepeatHistory",
+          "status": "passed",
+          "seconds": 0.063
+        },
+        {
+          "name": "VocabularyPassTests.testRepositoryColdReopenAndContentVersionUpdateRetainCurrentCard",
+          "status": "passed",
+          "seconds": 0.163
+        },
+        {
+          "name": "VocabularyPassTests.testSeedIsDeterministicAndNotDependentOnNewSessionUUID",
+          "status": "passed",
+          "seconds": 0.028
+        },
+        {
+          "name": "VocabularyPassTests.testSingleRemainingRequiresExplicitNextRound",
+          "status": "passed",
+          "seconds": 0.002
+        },
+        {
+          "name": "VocabularyPassTests.testTwentyEightThreeZero",
+          "status": "passed",
+          "seconds": 0.017
+        },
+        {
+          "name": "VocabularyPassTests.testTwoRemainingNeverImmediatelyRepeatLast",
+          "status": "passed",
+          "seconds": 0.002
+        }
+      ]
+    },
+    "install_retry": {
+      "command_exit": 143,
+      "started": 0,
+      "passed": 0,
+      "failed": 0,
+      "completed_methods": []
+    },
+    "signed_build_interrupted": {
+      "command_exit": 143,
+      "started": 0,
+      "passed": 0,
+      "failed": 0,
+      "completed_methods": []
+    }
+  },
+  "native_full_suite_assertion_failures": 929,
+  "native_full_suite_seconds": 24.463,
+  "native_full_suite_unexpected_failures": 0,
+  "native_full_suite_skipped": 0,
+  "native_p1_methods_passed": [
+    "SRSTests.testDATA08DeferredReviewsPreserveSchedulesAndRetryAfterContentUpdate",
+    "ReleaseAuditTests.testDATA08UnavailableVocabularyReviewContinuesWithoutLosingProgress",
+    "ReleaseAuditTests.testDATA08UnavailableGrammarReviewContinuesWithoutLosingProgress",
+    "ListeningTests.testDATA08AllDictationsAllowTerminalPunctuationOmissionOnly",
+    "ListeningTests.testDATA08UnavailableListeningDueIsReleaseScopedAndPreservesSnapshots"
+  ],
+  "native_command_limit": "All141 iOS26 methods completed; command interrupted during Simulator diagnostic collection (143); xcresult not sealed. Retry install blocked, signed build canceled, no additional tests.",
+  "native_build": "Debug app and test host built/linked and executed. Release simulator/device NOT RUN after portable failure.",
+  "binary_reconstruction": "FAIL: original31 tables equal; ENABLE_STAT4 rebuilt32 with948 stats rows, byte/schema/SHA differ. Production unchanged.",
+  "human_review": "NOT TESTED; assistant28 sample pairs/questions and57 choices only; dictionary lookup limited to3 conjugation entries",
+  "release": "B—Conditional"
+}

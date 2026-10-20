@@ -1,0 +1,1413 @@
+{
+  "scope": "DATA10-1 read-only; no linguistic approval",
+  "metadata": {
+    "singleton": 1,
+    "schema_version": 4,
+    "content_version": 24,
+    "min_reader_version": 7,
+    "dataset_id": "ko-ja-core",
+    "is_fixture": 0,
+    "source_locale": "ja",
+    "target_locale": "ko"
+  },
+  "source_rows": 66094,
+  "checks": {
+    "source_metadata": true,
+    "source_rows:content_items": true,
+    "source_rows:hangul": true,
+    "source_rows:content_links": true,
+    "source_rows:courses": true,
+    "source_rows:learner_notes": true,
+    "source_rows:questions": true,
+    "source_rows:question_choices": true,
+    "source_rows:lessons": true,
+    "source_rows:lesson_items": true,
+    "source_rows:sources": true,
+    "source_rows:item_sources": true,
+    "source_rows:pronunciation_rules": true,
+    "source_rows:pronunciation_presentations": true,
+    "source_rows:content_audio": true,
+    "source_rows:examples": true,
+    "source_rows:pronunciation_examples": true,
+    "source_rows:audio_questions": true,
+    "source_rows:tags": true,
+    "source_rows:vocabulary": true,
+    "source_rows:item_tags": true,
+    "source_rows:meanings": true,
+    "source_rows:vocabulary_examples": true,
+    "source_rows:grammar": true,
+    "source_rows:grammar_examples": true,
+    "source_rows:listening_items": true,
+    "integrity": true,
+    "foreign_keys": true,
+    "one_question_per_item": true,
+    "active_and_matching_levels": true,
+    "reference_without_transcript_copy": true,
+    "no_korean_prompt": true,
+    "unique_level_order": true,
+    "bounded_batches": true
+  },
+  "counts": {
+    "vocabulary": 2287,
+    "meanings": 2420,
+    "examples": 4813,
+    "grammar": 96,
+    "questions": 3553,
+    "listening_items": 1936
+  },
+  "audio_modes": {
+    "tts": 1936
+  },
+  "levels": {
+    "beginner": {
+      "count": 79,
+      "tasks": {
+        "meaning": 28,
+        "korean": 4,
+        "dictation": 25,
+        "comprehension": 22
+      },
+      "difficulty_null": 79,
+      "characters": {
+        "n": 79,
+        "min": 8,
+        "median": 13,
+        "p90": 17,
+        "max": 22
+      },
+      "eojeol": {
+        "n": 79,
+        "min": 2,
+        "median": 3,
+        "p90": 4,
+        "max": 6
+      },
+      "order_min": 0,
+      "order_max": 201,
+      "next_fresh_batch_order": 220,
+      "batches": 7,
+      "max_batch_size": 20
+    },
+    "intro": {
+      "count": 34,
+      "tasks": {
+        "meaning": 4,
+        "korean": 23,
+        "dictation": 3,
+        "comprehension": 4
+      },
+      "difficulty_null": 34,
+      "characters": {
+        "n": 34,
+        "min": 8,
+        "median": 11,
+        "p90": 14,
+        "max": 18
+      },
+      "eojeol": {
+        "n": 34,
+        "min": 2,
+        "median": 3,
+        "p90": 4,
+        "max": 5
+      },
+      "order_min": 0,
+      "order_max": 80,
+      "next_fresh_batch_order": 100,
+      "batches": 4,
+      "max_batch_size": 20
+    },
+    "lower_intermediate": {
+      "count": 1823,
+      "tasks": {
+        "dictation": 1822,
+        "comprehension": 1
+      },
+      "difficulty_null": 1823,
+      "characters": {
+        "n": 1823,
+        "min": 13,
+        "median": 22,
+        "p90": 26,
+        "max": 35
+      },
+      "eojeol": {
+        "n": 1823,
+        "min": 3,
+        "median": 6,
+        "p90": 7,
+        "max": 11
+      },
+      "order_min": 202,
+      "order_max": 2040,
+      "next_fresh_batch_order": 2060,
+      "batches": 93,
+      "max_batch_size": 20
+    }
+  },
+  "tasks": {
+    "meaning": 32,
+    "korean": 27,
+    "dictation": 1850,
+    "comprehension": 27
+  },
+  "duplicates": {
+    "source_id": [],
+    "korean": [],
+    "pair": [],
+    "terminal_punctuation": []
+  },
+  "full_example_duplicates": {
+    "korean": [
+      {
+        "key": "매일 한국어를 공부해요.",
+        "ids": [
+          "eb4d79c7-13f1-44df-8c5d-3d4a7d92c1ae",
+          "b1c01f0b-738c-43ba-8bf6-11a783aff9fa"
+        ]
+      },
+      {
+        "key": "이 정도면 충분해요.",
+        "ids": [
+          "8311d462-f61a-456c-8356-c95bb664200e",
+          "e0b4a5f0-cd1e-4be1-a99a-8b609a5e8fad"
+        ]
+      },
+      {
+        "key": "표를 미리 샀어요.",
+        "ids": [
+          "210a0483-c33c-46ce-bb74-841c67dd4ba7",
+          "b6ebb2f7-874c-416e-8c4c-5792c651e1a3"
+        ]
+      },
+      {
+        "key": "한국에 처음 왔어요.",
+        "ids": [
+          "57bc8424-3583-4a51-be83-0b23edc1b918",
+          "207235de-8504-44e1-ac67-aef5100b810b"
+        ]
+      }
+    ],
+    "pair": []
+  },
+  "coverage": {
+    "unique_listening_sources": 1936,
+    "active_examples": 4813,
+    "grammar_with_listening": 29,
+    "grammar_total": 96,
+    "data09_grammar_total": 54,
+    "data09_grammar_with_listening": 4,
+    "data09_linked_examples": 220,
+    "data09_linked_examples_with_listening": 4,
+    "multi_sentence_items": 4,
+    "feedback_equals_translation": 1825,
+    "existing_prerequisite_candidates_in_listening": {
+      "resolved": 120,
+      "unresolved": 36,
+      "pedagogically_allowable": 7
+    }
+  },
+  "repeated_three_eojeol_endings": [
+    {
+      "ending": "대책을 세워야 해요.",
+      "count": 3,
+      "ids": [
+        "4e1bab91-3c14-4136-87d0-c8a25480d77d",
+        "8dcb1a25-1381-4bfd-9bfc-676ef5ad5b68",
+        "61730f82-fa0e-4bf4-ae59-090e73ad3d22"
+      ]
+    }
+  ],
+  "assistant_review_samples": [
+    {
+      "id": "07312c09-d4f1-447a-a7e0-dcbfca5fb723",
+      "audio_asset_id": null,
+      "transcript_ko": null,
+      "explanation_ja": "돌아올게요は戻ってきます。금방はすぐにです。",
+      "source_example_id": "91a4b933-3107-4dd7-be6b-463731dfc169",
+      "audio_mode": "tts",
+      "learning_order": 78,
+      "level": "beginner",
+      "difficulty": null,
+      "is_active": 1,
+      "korean": "금방 돌아올게요.",
+      "japanese": "すぐに戻ってきます。",
+      "source_active": 1,
+      "source_level": "beginner",
+      "question_id": "0fe29bed-070d-4526-9004-17605f66d10b",
+      "question_type": "listening_choice",
+      "prompt_ja": "音声を聞いて、文の意味を選んでください。",
+      "prompt_ko": null,
+      "feedback": "돌아올게요は戻ってきます。금방はすぐにです。",
+      "question_active": 1,
+      "question_level": "beginner",
+      "task": "meaning",
+      "answer": {
+        "correct_choice_ids": [
+          "a"
+        ]
+      },
+      "choices": [
+        {
+          "choice_id": "a",
+          "text": "すぐに戻ってきます。"
+        },
+        {
+          "choice_id": "b",
+          "text": "後でまた出掛けます。"
+        },
+        {
+          "choice_id": "c",
+          "text": "すぐに出掛けます。"
+        }
+      ]
+    },
+    {
+      "id": "ca6e2de8-4257-4f3c-b2f0-de4b475d9642",
+      "audio_asset_id": null,
+      "transcript_ko": null,
+      "explanation_ja": "文の意味と、語の自然な組み合わせを確認しましょう。",
+      "source_example_id": "6d4f1b46-edd9-4467-a45b-375c9e8c661c",
+      "audio_mode": "tts",
+      "learning_order": 41,
+      "level": "beginner",
+      "difficulty": null,
+      "is_active": 1,
+      "korean": "이 옷을 반품하고 싶어요.",
+      "japanese": "この服を返品したいです。",
+      "source_active": 1,
+      "source_level": "beginner",
+      "question_id": "100c4dbb-2ccf-4a37-88d7-4d00505a8c0a",
+      "question_type": "listening_choice",
+      "prompt_ja": "音声を聞いて、文の意味を選んでください。",
+      "prompt_ko": null,
+      "feedback": "この服を返品したいです。",
+      "question_active": 1,
+      "question_level": "beginner",
+      "task": "meaning",
+      "answer": {
+        "correct_choice_ids": [
+          "a"
+        ]
+      },
+      "choices": [
+        {
+          "choice_id": "a",
+          "text": "この服を返品したいです。"
+        },
+        {
+          "choice_id": "b",
+          "text": "この服を交換したいです。"
+        },
+        {
+          "choice_id": "c",
+          "text": "この服を注文したいです。"
+        }
+      ]
+    },
+    {
+      "id": "ad718366-2ef8-464a-8f18-7cf0253f76b8",
+      "audio_asset_id": null,
+      "transcript_ko": null,
+      "explanation_ja": "文の意味と、語の自然な組み合わせを確認しましょう。",
+      "source_example_id": "fcab99dc-3346-44e4-b9df-1aae39bf8959",
+      "audio_mode": "tts",
+      "learning_order": 40,
+      "level": "beginner",
+      "difficulty": null,
+      "is_active": 1,
+      "korean": "새 회사에 조금씩 적응하고 있어요.",
+      "japanese": "新しい会社に少しずつ慣れています。",
+      "source_active": 1,
+      "source_level": "beginner",
+      "question_id": "a67b7f06-6f3f-48d6-aaa7-3871cfa0b185",
+      "question_type": "listening_choice",
+      "prompt_ja": "音声を聞いて、文の意味を選んでください。",
+      "prompt_ko": null,
+      "feedback": "新しい会社に少しずつ慣れています。",
+      "question_active": 1,
+      "question_level": "beginner",
+      "task": "meaning",
+      "answer": {
+        "correct_choice_ids": [
+          "a"
+        ]
+      },
+      "choices": [
+        {
+          "choice_id": "a",
+          "text": "新しい会社に少しずつ慣れています。"
+        },
+        {
+          "choice_id": "b",
+          "text": "新しい会社を探しています。"
+        },
+        {
+          "choice_id": "c",
+          "text": "新しい会社を辞めようとしています。"
+        }
+      ]
+    },
+    {
+      "id": "15526c68-f89c-4ecc-a004-2fcf63887fec",
+      "audio_asset_id": null,
+      "transcript_ko": null,
+      "explanation_ja": "싱거워요は味が薄いことです。짜요はしょっぱい、뜨거워요は熱いという意味です。",
+      "source_example_id": "0ae1f9c4-938c-4f30-b0a7-3316b16895b0",
+      "audio_mode": "tts",
+      "learning_order": 3,
+      "level": "beginner",
+      "difficulty": null,
+      "is_active": 1,
+      "korean": "국이 싱거워요.",
+      "japanese": "スープの味が薄いです。",
+      "source_active": 1,
+      "source_level": "beginner",
+      "question_id": "f6ba88cf-d854-435c-b746-2378008f5447",
+      "question_type": "listening_choice",
+      "prompt_ja": "聞こえた韓国語を選んでください。",
+      "prompt_ko": null,
+      "feedback": "싱거워요は味が薄いことです。짜요はしょっぱい、뜨거워요は熱いという意味です。",
+      "question_active": 1,
+      "question_level": "beginner",
+      "task": "korean",
+      "answer": {
+        "correct_choice_ids": [
+          "a"
+        ]
+      },
+      "choices": [
+        {
+          "choice_id": "a",
+          "text": "국이 싱거워요."
+        },
+        {
+          "choice_id": "b",
+          "text": "국이 조금 짜요."
+        },
+        {
+          "choice_id": "c",
+          "text": "국이 뜨거워요."
+        }
+      ]
+    },
+    {
+      "id": "20ca4689-5519-4774-bf1b-a681d116a7b9",
+      "audio_asset_id": null,
+      "transcript_ko": null,
+      "explanation_ja": "전화를 걸었어요は電話をかけたことです。",
+      "source_example_id": "a926f18c-054d-4104-8e45-b9270ecb65b7",
+      "audio_mode": "tts",
+      "learning_order": 201,
+      "level": "beginner",
+      "difficulty": null,
+      "is_active": 1,
+      "korean": "친구에게 전화를 걸었어요.",
+      "japanese": "友達に電話をかけました。",
+      "source_active": 1,
+      "source_level": "beginner",
+      "question_id": "af7833ca-ce38-4554-b6e6-557f513cd869",
+      "question_type": "listening_choice",
+      "prompt_ja": "聞こえた韓国語を選んでください。",
+      "prompt_ko": null,
+      "feedback": "전화를 걸었어요は電話をかけたことです。",
+      "question_active": 1,
+      "question_level": "beginner",
+      "task": "korean",
+      "answer": {
+        "correct_choice_ids": [
+          "a"
+        ]
+      },
+      "choices": [
+        {
+          "choice_id": "a",
+          "text": "친구에게 전화를 걸었어요."
+        },
+        {
+          "choice_id": "b",
+          "text": "친구에게 메시지를 남겼어요."
+        },
+        {
+          "choice_id": "c",
+          "text": "친구에게 자주 전화해요."
+        }
+      ]
+    },
+    {
+      "id": "1bd92676-addc-48c3-ab25-4c9fec144372",
+      "audio_asset_id": null,
+      "transcript_ko": null,
+      "explanation_ja": "오랫동안は長い間。기다렸어요は「待ちました」で、만났어요とは異なります。",
+      "source_example_id": "01f97143-ede5-4b31-95e5-b02d03746281",
+      "audio_mode": "tts",
+      "learning_order": 5,
+      "level": "beginner",
+      "difficulty": null,
+      "is_active": 1,
+      "korean": "친구를 오랫동안 기다렸어요.",
+      "japanese": "友達を長い間待ちました。",
+      "source_active": 1,
+      "source_level": "beginner",
+      "question_id": "caa64ce8-5d5e-4559-8752-33b444ae76d4",
+      "question_type": "listening_choice",
+      "prompt_ja": "聞こえた韓国語を選んでください。",
+      "prompt_ko": null,
+      "feedback": "오랫동안は長い間。기다렸어요は「待ちました」で、만났어요とは異なります。",
+      "question_active": 1,
+      "question_level": "beginner",
+      "task": "korean",
+      "answer": {
+        "correct_choice_ids": [
+          "a"
+        ]
+      },
+      "choices": [
+        {
+          "choice_id": "a",
+          "text": "친구를 오랫동안 기다렸어요."
+        },
+        {
+          "choice_id": "b",
+          "text": "한 시간 기다렸어요."
+        },
+        {
+          "choice_id": "c",
+          "text": "어제 친구를 만났어요."
+        }
+      ]
+    },
+    {
+      "id": "5b980448-1fdb-40ab-9aa2-d392b5d707f7",
+      "audio_asset_id": null,
+      "transcript_ko": null,
+      "explanation_ja": "켜요は電源を入れること。目的語には를が付きます。",
+      "source_example_id": "0f2f7ec9-5d2b-46f8-af06-4d684d16878e",
+      "audio_mode": "tts",
+      "learning_order": 6,
+      "level": "beginner",
+      "difficulty": null,
+      "is_active": 1,
+      "korean": "컴퓨터를 켜요.",
+      "japanese": "パソコンの電源を入れます。",
+      "source_active": 1,
+      "source_level": "beginner",
+      "question_id": "af111c2c-ae56-42ff-84cc-1fbfb98af3a2",
+      "question_type": "listening_input",
+      "prompt_ja": "聞こえた韓国語を入力してください。",
+      "prompt_ko": null,
+      "feedback": "켜요は電源を入れること。目的語には를が付きます。",
+      "question_active": 1,
+      "question_level": "beginner",
+      "task": "dictation",
+      "answer": {
+        "accepted": [
+          "컴퓨터를 켜요.",
+          "컴퓨터를 켜요"
+        ]
+      },
+      "choices": []
+    },
+    {
+      "id": "db711abe-ec12-4aa5-a956-a216bd5417dd",
+      "audio_asset_id": null,
+      "transcript_ko": null,
+      "explanation_ja": "原文の語と形を確認しましょう。意味：明日試験があります。",
+      "source_example_id": "eb00d76c-aba4-4572-8994-4e5019180768",
+      "audio_mode": "tts",
+      "learning_order": 91,
+      "level": "beginner",
+      "difficulty": null,
+      "is_active": 1,
+      "korean": "내일 시험이 있어요.",
+      "japanese": "明日試験があります。",
+      "source_active": 1,
+      "source_level": "beginner",
+      "question_id": "3ad4af3b-09a4-431a-911f-1c19f9c6202b",
+      "question_type": "listening_input",
+      "prompt_ja": "聞こえた文を韓国語で入力してください。",
+      "prompt_ko": null,
+      "feedback": "原文の語と形を確認しましょう。意味：明日試験があります。",
+      "question_active": 1,
+      "question_level": "beginner",
+      "task": "dictation",
+      "answer": {
+        "accepted": [
+          "내일 시험이 있어요.",
+          "내일 시험이 있어요"
+        ]
+      },
+      "choices": []
+    },
+    {
+      "id": "2e921b48-691a-4d4e-8113-09751373d569",
+      "audio_asset_id": null,
+      "transcript_ko": null,
+      "explanation_ja": "文の意味と、語の自然な組み合わせを確認しましょう。",
+      "source_example_id": "66b597f4-7a31-43e8-b20e-3da8b526d485",
+      "audio_mode": "tts",
+      "learning_order": 42,
+      "level": "beginner",
+      "difficulty": null,
+      "is_active": 1,
+      "korean": "내일 열 시에 여기서 모여요.",
+      "japanese": "明日10時にここに集まりましょう。",
+      "source_active": 1,
+      "source_level": "beginner",
+      "question_id": "744504e8-1c09-4454-a69e-204c3dcbe17b",
+      "question_type": "listening_input",
+      "prompt_ja": "聞こえた文を韓国語で入力してください。",
+      "prompt_ko": null,
+      "feedback": "明日10時にここに集まりましょう。",
+      "question_active": 1,
+      "question_level": "beginner",
+      "task": "dictation",
+      "answer": {
+        "accepted": [
+          "내일 열 시에 여기서 모여요.",
+          "내일 열 시에 여기서 모여요"
+        ]
+      },
+      "choices": []
+    },
+    {
+      "id": "52e8b3d2-ae55-472e-9f81-d405d189618e",
+      "audio_asset_id": null,
+      "transcript_ko": null,
+      "explanation_ja": "설탕は砂糖。빼 주세요は「抜いてください」という依頼です。",
+      "source_example_id": "04e75e70-405d-4944-9880-228e329583e4",
+      "audio_mode": "tts",
+      "learning_order": 10,
+      "level": "beginner",
+      "difficulty": null,
+      "is_active": 1,
+      "korean": "설탕은 빼 주세요.",
+      "japanese": "砂糖は抜いてください。",
+      "source_active": 1,
+      "source_level": "beginner",
+      "question_id": "54bba30a-729b-4e38-a38a-a77a2343aed7",
+      "question_type": "listening_choice",
+      "prompt_ja": "何を入れないでほしいと言っていますか？",
+      "prompt_ko": null,
+      "feedback": "설탕は砂糖。빼 주세요は「抜いてください」という依頼です。",
+      "question_active": 1,
+      "question_level": "beginner",
+      "task": "comprehension",
+      "answer": {
+        "correct_choice_ids": [
+          "a"
+        ]
+      },
+      "choices": [
+        {
+          "choice_id": "a",
+          "text": "砂糖"
+        },
+        {
+          "choice_id": "b",
+          "text": "塩"
+        },
+        {
+          "choice_id": "c",
+          "text": "牛乳"
+        }
+      ]
+    },
+    {
+      "id": "45933bf3-7516-4e54-b557-9a8bd5191243",
+      "audio_asset_id": null,
+      "transcript_ko": null,
+      "explanation_ja": "가족 몰래なので、家族に知られないように用意しました。",
+      "source_example_id": "76c17f60-4c90-43d6-bc8f-2613fe5ba87b",
+      "audio_mode": "tts",
+      "learning_order": 65,
+      "level": "beginner",
+      "difficulty": null,
+      "is_active": 1,
+      "korean": "가족 몰래 선물을 준비했어요.",
+      "japanese": "家族に内緒でプレゼントを用意しました。",
+      "source_active": 1,
+      "source_level": "beginner",
+      "question_id": "da46475a-37e2-47ad-ae0d-15ac8d5f6246",
+      "question_type": "listening_choice",
+      "prompt_ja": "プレゼントを用意したことを、誰に秘密にしましたか？",
+      "prompt_ko": null,
+      "feedback": "가족 몰래なので、家族に知られないように用意しました。",
+      "question_active": 1,
+      "question_level": "beginner",
+      "task": "comprehension",
+      "answer": {
+        "correct_choice_ids": [
+          "a"
+        ]
+      },
+      "choices": [
+        {
+          "choice_id": "a",
+          "text": "家族"
+        },
+        {
+          "choice_id": "b",
+          "text": "友達"
+        },
+        {
+          "choice_id": "c",
+          "text": "同僚"
+        }
+      ]
+    },
+    {
+      "id": "f60ee6c4-30e8-473e-83e9-b486721320d1",
+      "audio_asset_id": null,
+      "transcript_ko": null,
+      "explanation_ja": "고등학교를 졸업한 후에が、働き始めた時期を示しています。",
+      "source_example_id": "e68ebd0b-97aa-466c-aac1-460afd4acca2",
+      "audio_mode": "tts",
+      "learning_order": 80,
+      "level": "beginner",
+      "difficulty": null,
+      "is_active": 1,
+      "korean": "고등학교를 졸업한 후에 일을 시작했어요.",
+      "japanese": "高校を卒業した後、働き始めました。",
+      "source_active": 1,
+      "source_level": "beginner",
+      "question_id": "b6f2908b-c2bd-4d73-a59e-c6f7d9609769",
+      "question_type": "listening_choice",
+      "prompt_ja": "いつ働き始めましたか？",
+      "prompt_ko": null,
+      "feedback": "고등학교를 졸업한 후에が、働き始めた時期を示しています。",
+      "question_active": 1,
+      "question_level": "beginner",
+      "task": "comprehension",
+      "answer": {
+        "correct_choice_ids": [
+          "a"
+        ]
+      },
+      "choices": [
+        {
+          "choice_id": "a",
+          "text": "高校を卒業した後"
+        },
+        {
+          "choice_id": "b",
+          "text": "大学を卒業した後"
+        },
+        {
+          "choice_id": "c",
+          "text": "高校に入学する前"
+        }
+      ]
+    },
+    {
+      "id": "d029299f-92f7-42d7-ab30-34b0e94007d5",
+      "audio_asset_id": null,
+      "transcript_ko": null,
+      "explanation_ja": "뜨거워요は、食べ物や物に触れたときの「熱い」です。",
+      "source_example_id": "0613633a-865b-4d99-950b-6147a0837dc7",
+      "audio_mode": "tts",
+      "learning_order": 1,
+      "level": "intro",
+      "difficulty": null,
+      "is_active": 1,
+      "korean": "국이 뜨거워요.",
+      "japanese": "スープが熱いです。",
+      "source_active": 1,
+      "source_level": "intro",
+      "question_id": "fd908f08-87ce-416e-ab3f-84fe0a62fe8c",
+      "question_type": "listening_choice",
+      "prompt_ja": "聞こえた文の意味を選んでください。",
+      "prompt_ko": null,
+      "feedback": "뜨거워요は、食べ物や物に触れたときの「熱い」です。",
+      "question_active": 1,
+      "question_level": "intro",
+      "task": "meaning",
+      "answer": {
+        "correct_choice_ids": [
+          "a"
+        ]
+      },
+      "choices": [
+        {
+          "choice_id": "a",
+          "text": "スープが熱いです。"
+        },
+        {
+          "choice_id": "b",
+          "text": "スープが冷たいです。"
+        },
+        {
+          "choice_id": "c",
+          "text": "スープが少ないです。"
+        }
+      ]
+    },
+    {
+      "id": "3284897a-abfa-4140-b09d-18861db615b0",
+      "audio_asset_id": null,
+      "transcript_ko": null,
+      "explanation_ja": "ある行動が許されることを表します。疑問形にすると、相手に許可を求められます。",
+      "source_example_id": "a552d3a2-09af-4f91-b1ca-61fcea08765a",
+      "audio_mode": "tts",
+      "learning_order": 22,
+      "level": "intro",
+      "difficulty": null,
+      "is_active": 1,
+      "korean": "여기에 앉아도 돼요?",
+      "japanese": "ここに座ってもいいですか。",
+      "source_active": 1,
+      "source_level": "intro",
+      "question_id": "fc1dff3c-5b74-4319-98bb-605699750102",
+      "question_type": "listening_choice",
+      "prompt_ja": "音声を聞いて、文の意味を選んでください。",
+      "prompt_ko": null,
+      "feedback": "〜してもいい",
+      "question_active": 1,
+      "question_level": "intro",
+      "task": "meaning",
+      "answer": {
+        "correct_choice_ids": [
+          "a"
+        ]
+      },
+      "choices": [
+        {
+          "choice_id": "a",
+          "text": "ここに座ってもいいですか。"
+        },
+        {
+          "choice_id": "b",
+          "text": "ここに座らなければなりませんか。"
+        },
+        {
+          "choice_id": "c",
+          "text": "ここに座りたいですか。"
+        }
+      ]
+    },
+    {
+      "id": "47d00db7-7142-4fea-969f-041d0b33c84c",
+      "audio_asset_id": null,
+      "transcript_ko": null,
+      "explanation_ja": "없어요は「ありません」。돈はお金です。",
+      "source_example_id": "014586bd-9b59-4aa0-b543-548bc706da16",
+      "audio_mode": "tts",
+      "learning_order": 0,
+      "level": "intro",
+      "difficulty": null,
+      "is_active": 1,
+      "korean": "지금은 돈이 없어요.",
+      "japanese": "今はお金がありません。",
+      "source_active": 1,
+      "source_level": "intro",
+      "question_id": "e6950cfa-c195-4408-a656-4d6c5477c4a6",
+      "question_type": "listening_choice",
+      "prompt_ja": "聞こえた文の意味を選んでください。",
+      "prompt_ko": null,
+      "feedback": "없어요は「ありません」。돈はお金です。",
+      "question_active": 1,
+      "question_level": "intro",
+      "task": "meaning",
+      "answer": {
+        "correct_choice_ids": [
+          "a"
+        ]
+      },
+      "choices": [
+        {
+          "choice_id": "a",
+          "text": "今はお金がありません。"
+        },
+        {
+          "choice_id": "b",
+          "text": "今は時間がありません。"
+        },
+        {
+          "choice_id": "c",
+          "text": "今はお金があります。"
+        }
+      ]
+    },
+    {
+      "id": "a7e9284e-1713-4847-a570-d162566fd80f",
+      "audio_asset_id": null,
+      "transcript_ko": null,
+      "explanation_ja": "聞こえた文は「저는 회사원이에요.」です。意味：私は会社員です。",
+      "source_example_id": "7ba735ac-7d85-43c9-b865-bb3786f3cf6b",
+      "audio_mode": "tts",
+      "learning_order": 79,
+      "level": "intro",
+      "difficulty": null,
+      "is_active": 1,
+      "korean": "저는 회사원이에요.",
+      "japanese": "私は会社員です。",
+      "source_active": 1,
+      "source_level": "intro",
+      "question_id": "07f4969c-72b0-418e-abfb-88f14b762b73",
+      "question_type": "listening_choice",
+      "prompt_ja": "音声で実際に聞こえた韓国語を選んでください。",
+      "prompt_ko": null,
+      "feedback": "聞こえた文は「저는 회사원이에요.」です。意味：私は会社員です。",
+      "question_active": 1,
+      "question_level": "intro",
+      "task": "korean",
+      "answer": {
+        "correct_choice_ids": [
+          "a"
+        ]
+      },
+      "choices": [
+        {
+          "choice_id": "a",
+          "text": "저는 회사원이에요."
+        },
+        {
+          "choice_id": "b",
+          "text": "저는 학생이에요."
+        },
+        {
+          "choice_id": "c",
+          "text": "저는 학생이 아니에요."
+        }
+      ]
+    },
+    {
+      "id": "20caace3-4b7d-46e6-8a5c-a6fce95b28ea",
+      "audio_asset_id": null,
+      "transcript_ko": null,
+      "explanation_ja": "어제は昨日。만났어요は過去の出来事です。",
+      "source_example_id": "0d697384-b746-4ac5-b80e-75c4c343902a",
+      "audio_mode": "tts",
+      "learning_order": 5,
+      "level": "intro",
+      "difficulty": null,
+      "is_active": 1,
+      "korean": "어제 친구를 만났어요.",
+      "japanese": "昨日、友達に会いました。",
+      "source_active": 1,
+      "source_level": "intro",
+      "question_id": "fc849bc5-8525-40b5-96f5-bfd1106a8bed",
+      "question_type": "listening_choice",
+      "prompt_ja": "聞こえた韓国語を選んでください。",
+      "prompt_ko": null,
+      "feedback": "어제は昨日。만났어요は過去の出来事です。",
+      "question_active": 1,
+      "question_level": "intro",
+      "task": "korean",
+      "answer": {
+        "correct_choice_ids": [
+          "a"
+        ]
+      },
+      "choices": [
+        {
+          "choice_id": "a",
+          "text": "어제 친구를 만났어요."
+        },
+        {
+          "choice_id": "b",
+          "text": "역에서 친구를 만나요."
+        },
+        {
+          "choice_id": "c",
+          "text": "식당에서 친구를 만나요."
+        }
+      ]
+    },
+    {
+      "id": "be4e86d8-568a-4d6c-9bcf-db11b732cbe9",
+      "audio_asset_id": null,
+      "transcript_ko": null,
+      "explanation_ja": "聞こえた文は「가게는 일요일에도 열어요.」です。意味：店は日曜日も営業しています。",
+      "source_example_id": "3e367dbe-d3f0-4e90-9e08-689874e08355",
+      "audio_mode": "tts",
+      "learning_order": 60,
+      "level": "intro",
+      "difficulty": null,
+      "is_active": 1,
+      "korean": "가게는 일요일에도 열어요.",
+      "japanese": "店は日曜日も営業しています。",
+      "source_active": 1,
+      "source_level": "intro",
+      "question_id": "64d7d187-ac0f-4aa7-99ad-7ee82f04e91f",
+      "question_type": "listening_choice",
+      "prompt_ja": "音声で実際に聞こえた韓国語を選んでください。",
+      "prompt_ko": null,
+      "feedback": "聞こえた文は「가게는 일요일에도 열어요.」です。意味：店は日曜日も営業しています。",
+      "question_active": 1,
+      "question_level": "intro",
+      "task": "korean",
+      "answer": {
+        "correct_choice_ids": [
+          "a"
+        ]
+      },
+      "choices": [
+        {
+          "choice_id": "a",
+          "text": "가게는 일요일에도 열어요."
+        },
+        {
+          "choice_id": "b",
+          "text": "가게가 아직 열려 있어요."
+        },
+        {
+          "choice_id": "c",
+          "text": "가게 직원이 친절해요."
+        }
+      ]
+    },
+    {
+      "id": "9d5cf9fa-56ea-41ff-bebf-c92dd2b3a642",
+      "audio_asset_id": null,
+      "transcript_ko": null,
+      "explanation_ja": "내일は明日、다시はもう一度です。",
+      "source_example_id": "1201ab82-b0a5-43db-bc3b-54f3653168de",
+      "audio_mode": "tts",
+      "learning_order": 7,
+      "level": "intro",
+      "difficulty": null,
+      "is_active": 1,
+      "korean": "내일 다시 오세요.",
+      "japanese": "明日また来てください。",
+      "source_active": 1,
+      "source_level": "intro",
+      "question_id": "79521f28-e34c-4977-936d-5976bd4dc31f",
+      "question_type": "listening_input",
+      "prompt_ja": "聞こえた韓国語を入力してください。",
+      "prompt_ko": null,
+      "feedback": "내일は明日、다시はもう一度です。",
+      "question_active": 1,
+      "question_level": "intro",
+      "task": "dictation",
+      "answer": {
+        "accepted": [
+          "내일 다시 오세요.",
+          "내일 다시 오세요"
+        ]
+      },
+      "choices": []
+    },
+    {
+      "id": "63978cb2-a790-42db-9636-30f79969c61f",
+      "audio_asset_id": null,
+      "transcript_ko": null,
+      "explanation_ja": "조금と기다려 주세요の間を空けます。주세요まで入力しましょう。",
+      "source_example_id": "0fed2406-a337-4ab7-870e-b49fab9ce3e8",
+      "audio_mode": "tts",
+      "learning_order": 6,
+      "level": "intro",
+      "difficulty": null,
+      "is_active": 1,
+      "korean": "조금 기다려 주세요.",
+      "japanese": "少し待ってください。",
+      "source_active": 1,
+      "source_level": "intro",
+      "question_id": "8315bde0-832a-4a2b-817d-38af3065e0ba",
+      "question_type": "listening_input",
+      "prompt_ja": "聞こえた韓国語を入力してください。",
+      "prompt_ko": null,
+      "feedback": "조금と기다려 주세요の間を空けます。주세요まで入力しましょう。",
+      "question_active": 1,
+      "question_level": "intro",
+      "task": "dictation",
+      "answer": {
+        "accepted": [
+          "조금 기다려 주세요.",
+          "조금 기다려 주세요"
+        ]
+      },
+      "choices": []
+    },
+    {
+      "id": "e848857b-1299-4672-b5ea-d8cbf737e171",
+      "audio_asset_id": null,
+      "transcript_ko": null,
+      "explanation_ja": "깨끗해요は「きれいです」。発音だけでなく、깨끗というつづりも確認します。",
+      "source_example_id": "1be0b112-e990-495c-bfbd-9a73689799bf",
+      "audio_mode": "tts",
+      "learning_order": 8,
+      "level": "intro",
+      "difficulty": null,
+      "is_active": 1,
+      "korean": "방이 아주 깨끗해요.",
+      "japanese": "部屋がとてもきれいです。",
+      "source_active": 1,
+      "source_level": "intro",
+      "question_id": "67029bbc-812c-4a7b-9d89-6d87f6a3d821",
+      "question_type": "listening_input",
+      "prompt_ja": "聞こえた韓国語を入力してください。",
+      "prompt_ko": null,
+      "feedback": "깨끗해요は「きれいです」。発音だけでなく、깨끗というつづりも確認します。",
+      "question_active": 1,
+      "question_level": "intro",
+      "task": "dictation",
+      "answer": {
+        "accepted": [
+          "방이 아주 깨끗해요.",
+          "방이 아주 깨끗해요"
+        ]
+      },
+      "choices": []
+    },
+    {
+      "id": "d29a6602-c475-4895-9d66-e48c0c01b31b",
+      "audio_asset_id": null,
+      "transcript_ko": null,
+      "explanation_ja": "열한 시は11時です。時刻の「時」には固有数詞を使います。",
+      "source_example_id": "06edc7f2-7319-409f-b0c5-d399e7f403a2",
+      "audio_mode": "tts",
+      "learning_order": 10,
+      "level": "intro",
+      "difficulty": null,
+      "is_active": 1,
+      "korean": "밤 열한 시에 자요.",
+      "japanese": "夜11時に寝ます。",
+      "source_active": 1,
+      "source_level": "intro",
+      "question_id": "5da51994-9ed9-4e23-9763-04906b63d5e2",
+      "question_type": "listening_choice",
+      "prompt_ja": "何時に寝ますか？",
+      "prompt_ko": null,
+      "feedback": "열한 시は11時です。時刻の「時」には固有数詞を使います。",
+      "question_active": 1,
+      "question_level": "intro",
+      "task": "comprehension",
+      "answer": {
+        "correct_choice_ids": [
+          "a"
+        ]
+      },
+      "choices": [
+        {
+          "choice_id": "a",
+          "text": "夜11時"
+        },
+        {
+          "choice_id": "b",
+          "text": "夜10時"
+        },
+        {
+          "choice_id": "c",
+          "text": "夜12時"
+        }
+      ]
+    },
+    {
+      "id": "72ba0df3-ce39-47ca-ae8c-4ab3939886f1",
+      "audio_asset_id": null,
+      "transcript_ko": null,
+      "explanation_ja": "지하철は地下鉄です。타고は「乗って」という意味です。",
+      "source_example_id": "1e2ba252-6c53-445f-9d11-6e1ee46ee776",
+      "audio_mode": "tts",
+      "learning_order": 11,
+      "level": "intro",
+      "difficulty": null,
+      "is_active": 1,
+      "korean": "지하철을 타고 회사에 가요.",
+      "japanese": "地下鉄に乗って会社に行きます。",
+      "source_active": 1,
+      "source_level": "intro",
+      "question_id": "31097f7d-11b0-44d8-8984-47db7158d9c1",
+      "question_type": "listening_choice",
+      "prompt_ja": "会社へ何で行きますか？",
+      "prompt_ko": null,
+      "feedback": "지하철は地下鉄です。타고は「乗って」という意味です。",
+      "question_active": 1,
+      "question_level": "intro",
+      "task": "comprehension",
+      "answer": {
+        "correct_choice_ids": [
+          "a"
+        ]
+      },
+      "choices": [
+        {
+          "choice_id": "a",
+          "text": "地下鉄"
+        },
+        {
+          "choice_id": "b",
+          "text": "バス"
+        },
+        {
+          "choice_id": "c",
+          "text": "徒歩"
+        }
+      ]
+    },
+    {
+      "id": "60b86440-9b7a-41dd-95a1-c0dc3e931a51",
+      "audio_asset_id": null,
+      "transcript_ko": null,
+      "explanation_ja": "二つ目の文で저는 괜찮아요と伝えています。",
+      "source_example_id": "e7ba1f52-7bf4-4064-8121-7ae2be085e75",
+      "audio_mode": "tts",
+      "learning_order": 78,
+      "level": "intro",
+      "difficulty": null,
+      "is_active": 1,
+      "korean": "걱정하지 마세요. 저는 괜찮아요.",
+      "japanese": "心配しないでください。私は大丈夫です。",
+      "source_active": 1,
+      "source_level": "intro",
+      "question_id": "37192cbc-6b3f-4033-b1ac-a869e464f39a",
+      "question_type": "listening_choice",
+      "prompt_ja": "話している人は、自分の状態をどう伝えていますか？",
+      "prompt_ko": null,
+      "feedback": "二つ目の文で저는 괜찮아요と伝えています。",
+      "question_active": 1,
+      "question_level": "intro",
+      "task": "comprehension",
+      "answer": {
+        "correct_choice_ids": [
+          "a"
+        ]
+      },
+      "choices": [
+        {
+          "choice_id": "a",
+          "text": "大丈夫だ"
+        },
+        {
+          "choice_id": "b",
+          "text": "疲れている"
+        },
+        {
+          "choice_id": "c",
+          "text": "風邪をひいた"
+        }
+      ]
+    },
+    {
+      "id": "a1171acc-8263-4537-8845-8b0ec14312b9",
+      "audio_asset_id": null,
+      "transcript_ko": null,
+      "explanation_ja": "断った理由は、はっきりしています。",
+      "source_example_id": "3f46d6a3-27f8-4fca-9472-221300c6d583",
+      "audio_mode": "tts",
+      "learning_order": 914,
+      "level": "lower_intermediate",
+      "difficulty": null,
+      "is_active": 1,
+      "korean": "거절한 이유는 분명해요.",
+      "japanese": "断った理由は、はっきりしています。",
+      "source_active": 1,
+      "source_level": "lower_intermediate",
+      "question_id": "5124c66c-b27f-45c9-950b-f3009fb231f8",
+      "question_type": "listening_input",
+      "prompt_ja": "音声を聞いて、韓国語の文を書いてください。",
+      "prompt_ko": null,
+      "feedback": "断った理由は、はっきりしています。",
+      "question_active": 1,
+      "question_level": "lower_intermediate",
+      "task": "dictation",
+      "answer": {
+        "accepted": [
+          "거절한 이유는 분명해요."
+        ]
+      },
+      "choices": []
+    },
+    {
+      "id": "ab5d752f-832d-427e-982a-09151d68349e",
+      "audio_asset_id": null,
+      "transcript_ko": null,
+      "explanation_ja": "軽々しく約束せず、予定を確認してください。",
+      "source_example_id": "f0bef91d-0b9f-4417-8eeb-fa91f632ed0f",
+      "audio_mode": "tts",
+      "learning_order": 729,
+      "level": "lower_intermediate",
+      "difficulty": null,
+      "is_active": 1,
+      "korean": "섣불리 약속하지 말고 일정을 확인하세요.",
+      "japanese": "軽々しく約束せず、予定を確認してください。",
+      "source_active": 1,
+      "source_level": "lower_intermediate",
+      "question_id": "76efb35b-a414-4134-acc5-5e128887b7f9",
+      "question_type": "listening_input",
+      "prompt_ja": "音声を聞いて、韓国語の文を書いてください。",
+      "prompt_ko": null,
+      "feedback": "軽々しく約束せず、予定を確認してください。",
+      "question_active": 1,
+      "question_level": "lower_intermediate",
+      "task": "dictation",
+      "answer": {
+        "accepted": [
+          "섣불리 약속하지 말고 일정을 확인하세요."
+        ]
+      },
+      "choices": []
+    },
+    {
+      "id": "f1dff8d0-ad83-437f-af1b-7fd5ae7f60ca",
+      "audio_asset_id": null,
+      "transcript_ko": null,
+      "explanation_ja": "小さな会社でも、品質では大企業と肩を並べることができます。",
+      "source_example_id": "e999ac4c-d992-4432-82bb-275c428ddcc6",
+      "audio_mode": "tts",
+      "learning_order": 2040,
+      "level": "lower_intermediate",
+      "difficulty": null,
+      "is_active": 1,
+      "korean": "작은 회사도 품질에서는 큰 회사와 어깨를 나란히 할 수 있어요.",
+      "japanese": "小さな会社でも、品質では大企業と肩を並べることができます。",
+      "source_active": 1,
+      "source_level": "lower_intermediate",
+      "question_id": "ee6b148a-4724-4fba-8d38-35c2c22cae3a",
+      "question_type": "listening_input",
+      "prompt_ja": "音声を聞いて、韓国語の文を書いてください。",
+      "prompt_ko": null,
+      "feedback": "小さな会社でも、品質では大企業と肩を並べることができます。",
+      "question_active": 1,
+      "question_level": "lower_intermediate",
+      "task": "dictation",
+      "answer": {
+        "accepted": [
+          "작은 회사도 품질에서는 큰 회사와 어깨를 나란히 할 수 있어요."
+        ]
+      },
+      "choices": []
+    },
+    {
+      "id": "fb59f63c-9e72-49be-9a4e-40770bc3494b",
+      "audio_asset_id": null,
+      "transcript_ko": null,
+      "explanation_ja": "은행 맞은편は銀行の向かい側です。",
+      "source_example_id": "ce9979aa-d4a5-45cd-9a88-7e8ca633cbe0",
+      "audio_mode": "tts",
+      "learning_order": 203,
+      "level": "lower_intermediate",
+      "difficulty": null,
+      "is_active": 1,
+      "korean": "은행 맞은편에서 기다릴게요.",
+      "japanese": "銀行の向かい側で待っています。",
+      "source_active": 1,
+      "source_level": "lower_intermediate",
+      "question_id": "d05da7db-af50-46ca-abb2-62c8509fa1d4",
+      "question_type": "listening_choice",
+      "prompt_ja": "どこで待っていますか？",
+      "prompt_ko": null,
+      "feedback": "은행 맞은편は銀行の向かい側です。",
+      "question_active": 1,
+      "question_level": "lower_intermediate",
+      "task": "comprehension",
+      "answer": {
+        "correct_choice_ids": [
+          "a"
+        ]
+      },
+      "choices": [
+        {
+          "choice_id": "a",
+          "text": "銀行の向かい側"
+        },
+        {
+          "choice_id": "b",
+          "text": "銀行の中"
+        },
+        {
+          "choice_id": "c",
+          "text": "銀行の隣"
+        }
+      ]
+    }
+  ],
+  "protected_sha256": {
+    "Content/ContentPackageValidator.swift": "25feabdeb546adb0c7d10063c3d6800a700a9056f9a864bd4c59c413a030ca0b",
+    "Content/content-schema-v1.sql": "524f4a72f8039ddcfedee75cae0ed9c92e49620cf8bebe57f909b70a5aecc839",
+    "Content/content-schema-v2.sql": "91db6a316dc6c67b5f4dd67970184872d5c985dd07dd59ba3cfd17dc90fadcf7",
+    "Content/content-schema-v3.sql": "0fbc1c202d8b63c2d64932d7c582731896b7a177e908d55ede7b52f2680f9749",
+    "Content/content-schema-v4.sql": "1baf27e22565000820598a5fa0a594b6631c77a321811284d41bae89d144413a",
+    "Content/data01-ids.json": "6ad548ced0f314903b31ef2afdef7b6561311b7690930e228e5278ff9c8b1685",
+    "Content/data02-ids.json": "b04cbddd1c9b58b46edaa8ec3be015f4d45509d759aff9e535a96522796b91f8",
+    "Content/data03-ids.json": "31e78f406f52dc0a8424e760c62b54af6bed7929ce3ace0eaabe8510a1b9539a",
+    "Content/data04-ids.json": "642d4868dee9f421c3e56f883d1c3f724d76ed07fdd6b3e1235fb471a24fe6e2",
+    "Content/data04-revised-ids.json": "3fcccb6e94da85dd12c3d79748f3c89eb4f04af645e3dc2562e2499193e097a8",
+    "Content/data05-ids.json": "fe2156cfb55db3df5c1b95577c196a2eaa77117edb0ccd1d82a89cd4913759e7",
+    "Content/data05-revised-ids.json": "b0922e17d5b84831739e100defbb6da6b132a72af6ea700028bd0672f256c596",
+    "Content/data06-ids.json": "bacbc2639a90f31ca0e831fd291f8826188fb6de9f18584617b5391fee48a0ab",
+    "Content/data06-revised-ids.json": "231b4c575915bc82157b438b9cd7fb77a68c7c4c561c2a32e9fe3185194506c7",
+    "Content/data07-ids.json": "b655e8be09e7319e7a1472f9123efb038ef7a212e31ed4afe5c8ee94c87a18f5",
+    "Content/data07-revised-ids.json": "ac5d63f3703ff685ad123174c1d3c35bd3f3e8ba8eb454851a25acf8f20d18d0",
+    "Content/data08-a-ids.json": "15d0f5fb32fb42d76fcf308cc065d6b158ee73bbc2877440c4f73ff461f3e775",
+    "Content/data08-a-revised-ids.json": "0916fc96729b25cea1156dad64721e3b3303dabc82b7e79713687407600104f7",
+    "Content/data08-b-ids.json": "cae3935d5c3287314d5343a2399a9b34d8ef200e25033a4c3cafc7dc8a9fd566",
+    "Content/data08-b-revised-ids.json": "77836fb0bbff7e46e39e75d4ef286ff12ba13d36c1e134a96d53029a3b00540c",
+    "Content/data08-c-ids.json": "26892e43bffa172328ccb5f603a1e4d59820144187b93a8f8085ba912cf396a4",
+    "Content/data08-c-revised-ids.json": "9287793b45d03fd8b4475a061ea3ec72357e5de5fb3d2c940f0ea3bf7467eed6",
+    "Content/data08-final-revised-ids.json": "24387ce198033dc6e8587ab3a51edff3bf96c90dd4d512e885ca0c29f8108f2d",
+    "Content/data08-integration-ids.json": "a50f840478f2a0d82ff5af640aca075ef3240c3dbe85821ff714db9542f85f3a",
+    "Content/data08-integration-revised-ids.json": "f9a57937b3efe2f0ffb4d313646531e677e83d999dc92f80561bc0cc62c4cbe2",
+    "Content/data09-a-ids.json": "7fad6665da6a57f67b78a2ac4d35610649b31574bc44ebd6fd8e6a058e7afadc",
+    "Content/data09-a-revised-ids.json": "4a654eafde5f4707f7632fe8c5ab48017b6b978ef87a42975330d887183167b1",
+    "Content/data09-b-ids.json": "26ea6c7c619e46e507a1710509bbf5f3ab550e17e9144e08fadb3a762bc1debb",
+    "Content/data09-b-revised-ids.json": "17dae31c32434ec90bf25030fa9ec596db9dce3835ccefdcddcb0d73adaaf033",
+    "Content/data09-c-ids.json": "9450a39e79f82bcf4ffe7c8f72068756fe4850c3412848f9b70e29f44add8bd6",
+    "Content/data09-c-revised-ids.json": "df23aec522ed822bcc4199ef9c39a3c1bf14d64c701a39ed8abe407a3c12029a",
+    "Content/data09-final-corrections.json": "d393c26d1cc9305254b6a48b24c7f89d8be289cccaf3f4c0354755dcdece377f",
+    "Content/data09-final-revised-ids.json": "5bebc50f93ad7b7d5f39d95d6077cc6bac8c8f064e051108644d1022854fbc1d",
+    "Content/data09-integration-ids.json": "487315e1f8f92419b947af92666d14cebda249005d4fca58513ff21f9bab2e9d",
+    "Content/data09-integration-revised-ids.json": "b2f83107305e3425d7c4d910f095c822a21938c7c1050bdd3390dc90b0bb80ed",
+    "Content/dev08-revised-ids.json": "342225bd3572c18f4b8197a282ccfa53a5d8dab7a7fed807c889393a8e365ce9",
+    "Content/dev09-revised-ids.json": "c74a95409f0fbb2c5b1947d74bd0fd15722e7fc6de8ffc1c3db2a6fae80b3750",
+    "Content/fixture.json": "9a7924a97ebcaf8e2da6137454b11bf6fe4373a5f77afd91393fb1ac87cfa275",
+    "Content/grammar-seed-ids.json": "9fff248f94b4066f434e509a6f54744334ee9d6350a37517c114f5128db1950d",
+    "Content/hangul-ids.json": "99f365d2b4d18d5e4af1c08dcd4c6cfa813f513dd8f0629bfa3a7920b3910f8f",
+    "Content/hangul-production.json": "5775ba1b72c0fb5dc3cecef0040c4b6acd5879a5d65880aa47c6773ef50d09c7",
+    "Content/listening-ids.json": "7a400aaed71ad995aa0dae171d14b2748d6681cdced05a5896588d83ee3bbf84",
+    "Content/production-drill-ids.json": "ba02c86fef6a145b549f98e4a9fb08590b687ea5b4040c57dde8063bd43ec900",
+    "Content/production-empty.json": "fdadf8cf0a5c0af3cca4de10ca3d06b05811eac5173142234a9999d9e1768703",
+    "Content/production.json": "081ed35c7cd78345af1c1793fc450acaa2931f173cef00aaa960c8ef42318540",
+    "Content/pronunciation-ids.json": "2412bab433608c207101e7bd7f69eaa2af138ba1b297283885e98cabee247bf5",
+    "Resources/.content-pcb7fgvn.sqlite": "764a6d38259f37fdcb2ee26070fd33a8f005e88eb844dc8eee8e227b16923a6d",
+    "Resources/Info.plist": "d84af086fe7f0ee19ac91df9bac7656dcd0477f6f3ee273ed8e3976226506ca3",
+    "Resources/PrivacyInfo.xcprivacy": "f953ba99994eddf8fe1c7d1723ca44a2da3df5ac96b05f09f375fa3d76f465cc",
+    "Resources/content-fixture.sqlite": "c25941cafc110010e93a9bebe471e0f2b5787d902be68368872fc23e88090a0b",
+    "Resources/content.sqlite": "56a7fa8b5358e254eeb324e706860d150d20c8ec013ba0b6f602cf14d93cceff",
+    "Resources/ja.lproj/Localizable.strings": "8923a1e2215af51aea4cbf82ca8ed72de2ce6be2be0c01aa64cb5da09b78a167",
+    "Resources/user-migration-v10.sql": "d9b5a4ca24d15953488600704e52da456115a099e2469e689b749ee5df3c492b",
+    "Resources/user-migration-v2.sql": "3f3360c0811d1fc00876f26aa45b52a58626eddbee034f2999c553bc3f3cc10f",
+    "Resources/user-migration-v3.sql": "1d785636d52c46ce1ce0c35dc8593d83047281e7f5a124954733beca7665e12a",
+    "Resources/user-migration-v4.sql": "bd84209415ac94cff7f12efc485682b6f9485f5c54dbcc47dd788dd99f435b1c",
+    "Resources/user-migration-v5.sql": "9321d5f4c83c0955c90539d3e3a468e846b795bf213831cf90a32b58b324f528",
+    "Resources/user-migration-v6.sql": "123bc45faf7a474e1082c612cece86b9de2e1d7723e7566fdc1488ea18e962c2",
+    "Resources/user-migration-v7.sql": "032714a875c128f87657377d845371ae1d1860d6aadfed71ec5220e79d0523e9",
+    "Resources/user-migration-v8.sql": "97d45df22186192c8e1f42e7e1d4d490ce6736c9f38fbef8b609faa9e942db4e",
+    "Resources/user-migration-v9.sql": "62d8c0062da3161789540612d9bf4655eb3099be350e1849926cd1d41432536a",
+    "Resources/user-schema-v1.sql": "659998190192d6c4741041eea0e1822bc898d86ff97d6cb80b0ff89874baf7c4",
+    "Tests/Fixtures/content-v1.sqlite": "c94e449f65101f76356207637a131a4e0f74c78837f40ac2d543be6de893a122",
+    "Tests/Fixtures/content-v10-production.sqlite": "9c584bd0f7b4b213a1b8120fed77fe6b1ad0d3a08e5649f07ee067973351d8d0",
+    "Tests/Fixtures/content-v10-repaired-production.sqlite": "9723ef633343ec8cc83c68f85deb30dff36b03206b5a4435a3e159dbb9a7a9c6",
+    "Tests/Fixtures/content-v11-production.sqlite": "2cc1dcb0cde3f12deabcdc349fc18e0239c90c14405826d054d1f1eecfe47c51",
+    "Tests/Fixtures/content-v12-production.sqlite": "061bbf97d84f6c8e53e332b0a3eb3c197784ab38094041c459f2540818017ed2",
+    "Tests/Fixtures/content-v13-production.sqlite": "0b36d3da9f39f2784ca5fd54ce0842458323e6bd81ed212b745c3d9e381969f7",
+    "Tests/Fixtures/content-v14-production.sqlite": "9293e75ee0161f8fa7688d6ea500f314c8d93fc3f6c9e0284bbf43afec622ac5",
+    "Tests/Fixtures/content-v15-production.sqlite": "b4459a400dae7e7b5572688db928a7b550d865f9cf1b3dfd8cd22a86d5d6f75d",
+    "Tests/Fixtures/content-v16-production.json.gz": "34a1c7c381f1a21ed929e42fe198cc1f5684ab09381e53d1dfff91a073168636",
+    "Tests/Fixtures/content-v16-production.sqlite": "112d3662f79a72ca61ad7140a5d937396c0bc9f71180dd5f35a403a040a91f29",
+    "Tests/Fixtures/content-v17-production.json.gz": "3c57b04e4e67877f5ac14dde03e3f39cca7dc05e6d04ebfbff37038ac5a4702c",
+    "Tests/Fixtures/content-v17-production.sqlite": "836dec2fac50508a177010dbf8f83a74a9e4660c8c42c1f08a75bd9207f286c6",
+    "Tests/Fixtures/content-v18-production.json.gz": "ebb6ada94564ee7dcabce4e1eacb9bb94f6d5f51147f026e9e1b5e0084b41d98",
+    "Tests/Fixtures/content-v18-production.sqlite": "3235c21699bb297a4447f0ce2068a2e949db136a2c4e08ca70d7a737a07308e3",
+    "Tests/Fixtures/content-v19-production.json.gz": "0d958a41a03a5adf319bde346cc2161a3d85bd7d1df40af48a4a5f3d92c79217",
+    "Tests/Fixtures/content-v19-production.sqlite": "57aeaf918d5eaaec3bbfaed02f87c5452cca8264540b923a70448b781adbe9e5",
+    "Tests/Fixtures/content-v2-production.sqlite": "5e8d4e5c57329ce329bb8c5d8da42ffa21c3bd30da297331fb6a73a96d7565a0",
+    "Tests/Fixtures/content-v20-production.json.gz": "106cf9d45fd34f33f98169c2d12f4a04f9aa3358607fce967538e6ca5357c2ec",
+    "Tests/Fixtures/content-v20-production.sqlite": "c7b48bc8b27b7d436fadd41429d9dabf85acf615b632d8cc9a87ca5d6bc39886",
+    "Tests/Fixtures/content-v21-production.json.gz": "3b099240e7c1c286305309bfc3553f5db69d9a5836b2775416e9670cd14eddf9",
+    "Tests/Fixtures/content-v21-production.sqlite": "0f53e4d93340d9ddc410d17a6cdd4aa1c3f4f69b2089e60b26a390cb9bdff009",
+    "Tests/Fixtures/content-v22-production.json.gz": "0fe3a99e06dcd1ddac09e1386312df701ea709cc63049cf4c575cfa4fa3bf0eb",
+    "Tests/Fixtures/content-v22-production.sqlite": "22c3257b4204309158dfdea0f0bfd7d870fa0c540bd21ee7f240673df052e0f4",
+    "Tests/Fixtures/content-v23-production.json.gz": "8931631b4a66846b0f2146697cb4ba31226e579ec6b9f4929a00fd563aaf3761",
+    "Tests/Fixtures/content-v23-production.sqlite": "0a4051d3c5423441b50348935d64559504f1553a55fd3ea472c84b40c9ebc025",
+    "Tests/Fixtures/content-v3-production.sqlite": "c0396985debf7545e19e5ee0cad942f9649856a7055bcdf9e3d02a2e52cd3f2a",
+    "Tests/Fixtures/content-v4-production.sqlite": "5ca932b0bc36d9cbafc9bb923fed9d67b0eb39fe80f635fc6632a59d7924a515",
+    "Tests/Fixtures/content-v5-production.sqlite": "90b962bde235b0c21fdc4b608d5c0fb3190dae3b6b03deaa6913deae55d54e42",
+    "Tests/Fixtures/content-v6-production.sqlite": "8ae761833ebc7b71387795716e11c599ab6b52c1042f4a135ef4129b8126d913",
+    "Tests/Fixtures/content-v7-production.sqlite": "01aa1204e42ef8fe145aa7cc2275c07810e4f6587749a2be498a06a2e69fe1b2",
+    "Tests/Fixtures/content-v8-production.sqlite": "a08fd61a32540a2e713b59b1a6c40a70668dd7aee47c840658dff36a99ccfee5",
+    "Tests/Fixtures/content-v9-production.sqlite": "0254c48c50847445808386e315a5b8ef6ab1049399b1fb125e1192cc62922745",
+    "Tests/Fixtures/source-v1.json": "f58e81df24b22f52c9ca339e3589d2df11c843fe2404fd7e3eaeefda95be6827"
+  }
+}

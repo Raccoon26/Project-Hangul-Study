@@ -1178,3 +1178,10 @@ sh Tools/verify.sh --portable
 문법 수는 入門22/初級20/初中級18,현재 Grammar60이다. DATA09 신규18과 장기350~500개 목표를 구분한다.18단위에서 품사·시제 이형태/위해·위한 등을 별도 신규로 세지 않는다. 기존54안의 배치 조정은 DATA09_A_SCOPE.json이 기준이며 과거 계획을 수정해 승인된 것처럼 표시하지 않는다.
 
 다음 실제 콘텐츠 변경은20 DB/source를 먼저 보존하고20을 --previous로 strict 검증한다. 현재20 재현에는19 fixture를 사용한다. authoring/검수 색인은 runtime 입력이 아니며 앱은 production.json에서 생성한 번들 DB만 읽는다. 이번 검증·한계는 DATA09_PROGRESS §8,미검증 native/사람 gate는 유지한다.
+
+
+## DATA-10-1 — 듣기 분석·후속 제작 계획 (Content24 유지)
+
+이번은 분석·환경 설정만이며150~250고유 신규 원문/300~500문제 계획의 기준안200/400을 설계했다. 원문은 canonical Example 한일 지문1쌍이며 내부 문장 수·유형별 재사용 관계를 신규 원문으로 중복 합산하지 않는다. 기존1Listening:1Question 계약상 원문당2서로 다른 유형은 같은 Example에 Listening/Question 각2개로 연결하며 서로 다른20칸 연습 구간으로 분리한다. 자동SRS의 원문 중복 선택 제어를 구현한 것은 아니다.
+
+실제 현재는 Listening1,936(TTS), dictation1,850·meaning32·korean27·comprehension27이다. 다음 실제 콘텐츠 변경 전 Content24 source/DB를 먼저 보존하고 strict previous 검증한다. 데이터만으로 Schema4/reader7/UserProgress10을 올리지 않으며 기존 ID/order/snapshot/due/설정·광고/구매를 보존한다. [분석·검수/배치 gate](Docs/DATA10_LISTENING_ANALYSIS.md), [누적 실행·Git 전달](DATA10_PROGRESS.md), [Mac native 발견](Docs/DATA10_NATIVE_FINDINGS.md)을 따른다. 제작·runtime 수정0, 다음 Batch 자동 시작0, B—Conditional 유지.
