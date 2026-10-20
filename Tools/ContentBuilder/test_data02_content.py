@@ -33,11 +33,11 @@ class Data02ContentTests(unittest.TestCase):
             before, after = signatures(old), signatures(self.db)
             self.assertEqual(len(before), 1220)
             self.assertTrue(all(after[k] == v for k, v in before.items() if k not in (json.loads((ROOT/"Content/dev08-revised-ids.json").read_text()) + json.loads((ROOT/"Content/dev09-revised-ids.json").read_text()) + json.loads((ROOT/"Content/data04-revised-ids.json").read_text()) + json.loads((ROOT/"Content/data05-revised-ids.json").read_text()) + json.loads((ROOT/"Content/data06-revised-ids.json").read_text()) + json.loads((ROOT/"Content/data07-revised-ids.json").read_text()) + json.loads((ROOT/"Content/data08-a-revised-ids.json").read_text()) + json.loads((ROOT/"Content/data08-b-revised-ids.json").read_text()) + json.loads((ROOT/"Content/data08-c-revised-ids.json").read_text()) + json.loads((ROOT/'Content/data09-a-revised-ids.json').read_text()) + json.loads((ROOT/'Content/data09-b-revised-ids.json').read_text()) + json.loads((ROOT/'Content/data09-c-revised-ids.json').read_text()) + json.loads((ROOT/'Content/data09-integration-revised-ids.json').read_text()) + json.loads((ROOT/"Content/data08-integration-revised-ids.json").read_text()))))
-            self.assertEqual(len(after), 15941)
+            self.assertEqual(len(after), 16241)
             for table in ['vocabulary','meanings','examples']:
                 for row in old.execute('SELECT * FROM '+table):
                     self.assertEqual(self.db.execute('SELECT * FROM '+table+' WHERE id=?', [row[0]]).fetchone(), row)
-        self.assertEqual(self.db.execute('SELECT schema_version,content_version,min_reader_version FROM content_metadata').fetchone(), (4,24,7))
+        self.assertEqual(self.db.execute('SELECT schema_version,content_version,min_reader_version FROM content_metadata').fetchone(), (4,25,7))
         self.assertEqual(self.report['validation']['error_count'], 0)
     def test_all_new_ids_meanings_examples_notes_are_real_bundle_content(self):
         self.assertEqual(len(self.registry['vocabulary']),250)

@@ -1,0 +1,98 @@
+{
+  "devicesAndConfigurations" : [
+    {
+      "device" : {
+        "architecture" : "arm64",
+        "deviceId" : "EF9C685E-015B-4373-A0CD-7BC8CC4D3378",
+        "deviceName" : "DATA10-A-Final",
+        "modelName" : "iPhone 17 Pro",
+        "osBuildNumber" : "23A8464",
+        "osVersion" : "26.0.1",
+        "platform" : "iOS Simulator"
+      },
+      "expectedFailures" : 0,
+      "failedTests" : 5,
+      "passedTests" : 137,
+      "skippedTests" : 0,
+      "testPlanConfiguration" : {
+        "configurationId" : "1",
+        "configurationName" : "Test Scheme Action"
+      }
+    }
+  ],
+  "environmentDescription" : "HangulStudy · Built with macOS 27.0",
+  "expectedFailures" : 0,
+  "failedTests" : 5,
+  "finishTime" : 1792502623.566,
+  "passedTests" : 137,
+  "result" : "Failed",
+  "runtimeWarnings" : [
+
+  ],
+  "skippedTests" : 0,
+  "startTime" : 1792502031.013,
+  "statistics" : [
+
+  ],
+  "testFailures" : [
+    {
+      "failureText" : "XCTAssertEqual failed: (\"되요\") is not equal to (\"돼요\")",
+      "targetName" : "HangulStudyTests",
+      "testIdentifier" : 92,
+      "testIdentifierString" : "ReleaseAuditTests/testConjugationOeContractsToWaeAndWaeStaysWae()",
+      "testIdentifierURL" : "test://com.apple.xcode/HangulStudy/HangulStudyTests/ReleaseAuditTests/testConjugationOeContractsToWaeAndWaeStaysWae",
+      "testName" : "testConjugationOeContractsToWaeAndWaeStaysWae()"
+    },
+    {
+      "failureText" : "XCTAssertEqual failed: (\"82\") is not equal to (\"80\")",
+      "targetName" : "HangulStudyTests",
+      "testIdentifier" : 41,
+      "testIdentifierString" : "ListeningTests/testData06RealItemsGradingAndAudioPolicy()",
+      "testIdentifierURL" : "test://com.apple.xcode/HangulStudy/HangulStudyTests/ListeningTests/testData06RealItemsGradingAndAudioPolicy",
+      "testName" : "testData06RealItemsGradingAndAudioPolicy()"
+    },
+    {
+      "failureText" : "XCTUnwrap failed: expected non-nil value of type \"Lesson\"",
+      "targetName" : "HangulStudyTests",
+      "testIdentifier" : 85,
+      "testIdentifierString" : "PronunciationTests/testListeningGateAndPronunciationProgressReopen()",
+      "testIdentifierURL" : "test://com.apple.xcode/HangulStudy/HangulStudyTests/PronunciationTests/testListeningGateAndPronunciationProgressReopen",
+      "testName" : "testListeningGateAndPronunciationProgressReopen()"
+    },
+    {
+      "failureText" : "XCTAssertEqual failed: (\"checking\") is not equal to (\"offlineProtected\")",
+      "targetName" : "HangulStudyTests",
+      "testIdentifier" : 127,
+      "testIdentifierString" : "StoreKitPurchaseTests/testLocalNonConsumablePurchaseColdEntitlementAndRestore()",
+      "testIdentifierURL" : "test://com.apple.xcode/HangulStudy/HangulStudyTests/StoreKitPurchaseTests/testLocalNonConsumablePurchaseColdEntitlementAndRestore",
+      "testName" : "testLocalNonConsumablePurchaseColdEntitlementAndRestore()"
+    },
+    {
+      "failureText" : "XCTAssertEqual failed: (\"[\"ハングル入門\", \"発音・パッチム\", \"初中級・会話と現代生活\"]\") is not equal to (\"[\"ハングル入門\", \"発音・パッチム\"]\")",
+      "targetName" : "HangulStudyTests",
+      "testIdentifier" : 90,
+      "testIdentifierString" : "PronunciationTests/testPronunciationCourseQueriesAndQuizAnswers()",
+      "testIdentifierURL" : "test://com.apple.xcode/HangulStudy/HangulStudyTests/PronunciationTests/testPronunciationCourseQueriesAndQuizAnswers",
+      "testName" : "testPronunciationCourseQueriesAndQuizAnswers()"
+    }
+  ],
+  "title" : "Test - HangulStudy",
+  "topInsights" : [
+    {
+      "category" : "Common Failures",
+      "impact" : "20% of failures",
+      "text" : "911 runs of 1 test failed with XCTAssertEqual failed: (\"vocabulary_preview\") is not equal to (\"pronunciation\")"
+    },
+    {
+      "category" : "Common Failures",
+      "impact" : "20% of failures",
+      "text" : "2 runs of 1 test failed with XCTAssertEqual failed: (\"21\") is not equal to (\"20\")"
+    },
+    {
+      "category" : "Longest Test Runs",
+      "impact" : "50% of duration",
+      "text" : "5 longest test runs with outlier durations exceeding 2.29s (three standard deviations)"
+    }
+  ],
+  "totalTestCount" : 142
+}

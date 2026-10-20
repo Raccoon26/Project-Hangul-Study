@@ -79,3 +79,81 @@ xcodebuild test-without-building -project HangulStudy.xcodeproj -scheme HangulSt
 분석·검수/실행 근거 commit `baa78564b5e1d7c439937997257e947f22b8c973`를 `codex/data10-1-listening-analysis`에 정상 push했고 [PR #18](https://github.com/Raccoon26/Project-Hangul-Study/pull/18)을 생성·이 채팅에 연결했다. PR은 MERGEABLE/CLEAN, `statusCheckRollup=[]`, required checks 조회는 ‘no checks reported’(CLI exit1)였으며 규칙/Actions workflow0이다. **필수 원격 검사가 없는 상태이며 CI PASS가 아니다.** 로컬363/365·native136/141과 명령143/미완료 gate를 PR 본문에 명시했다. 실패한 필수 CI를 우회하거나 admin/force merge하지 않는다.
 
 이 인계 기록은 문서만 보충하고 검증한 Source/Bundle/fixture/runtime/테스트를 바꾸지 않는다. 사용자 위임대로 정상 merge 후 fetch/ff-only로 로컬 main을 맞추고 전체SHA 일치/status를 확인한다. 자기 merge SHA 기록을 위해 재커밋하지 않으며 **실제 최종 merge SHA·main=origin/main·clean 상태는 PR/Git과 최종 응답이 기준**이다. 다음 환경은 fetch 후 최신 main에서 시작한다. 분석·환경 설정은 DATA10-1에서 종료하며 다음 Batch 자동 시작0이다.
+
+
+## 2. DATA-10-2 / 初中級 Listening Batch A (2026-10-20 JST)
+
+명시 요청으로 신규 상황60개·문제120개를 제작한다. DATA10-1의 혼합 Level Batch A 계획은 이번 初中級 범위로 조정하며 전체150~250원문/300~500문제 목표는 유지한다. 누적60/120, 남은 목표90~190/180~380이고 다음 단계는 시작하지 않는다. **Release B—Conditional** 유지.
+
+### 2.1 시작 동기화·권한·환경 보존
+
+- 지정 clone `/Users/shinchanhyeok/Desktop/Project-Hangul-Study`, 시작 clean main/미커밋0, `git fetch origin` 후 HEAD=origin/main=`6748af987f59050ec78db63be944ad5acd6e02b9`(PR #18 병합). origin fetch/push=`https://github.com/Raccoon26/Project-Hangul-Study.git`.
+- `git status`, `git remote -v`, `gh auth status`, repo/default/main/권한 ADMIN 확인. keyring의 Raccoon26 HTTPS/repo·workflow 인증. main protection404/규칙0/Actions workflow0. 실제 PR 전달·merge 결과는 아래 §2.5와 최종 Git/PR이 기준이다.
+- `codex/data10-2-listening-batch-a` 별도 branch, 기존 checkout 사용·worktree0. 기존 변경 삭제·stash·force/reset·이력 재작성0. PROJECT_STATUS/CONTENT_GUIDE/DATA_PROGRESS/RELEASE_CHECKLIST/DATA08·09 기록/Docs/DATA09_CLOSEOUT/실제 듣기 엔진·DDL·Validator를 대조했다.
+- 실제 직전24 Source/DB를 `Tests/Fixtures/content-v24-production.json.gz`/`.sqlite`에 불변 보존했다. 기존95파일은24 snapshot 두 개를 통한 당시 Source/Bundle 보존과 나머지 원본 byte 보존을 확인한다. 현재 Source/Bundle만25로 정상 증가하며 기존 엔티티·payload/revision 변경0이다.
+- Mac의 기존 Python3.11.6/SQLite3.44.0은 시스템 그대로다. 새 격리 writer는 SQLite3.53.1/STAT4없음/zone allocator 비사용이다. 고정 원본 SHA·setup 도구·재현법은 [writer 기록](Docs/DATA10_WRITER.md), [compile profile](Docs/DATA10_A_WRITER_PROFILE.json). 기존24의 전체 byte/SHA를 실제 재현해 DATA10-1의 writer 문제를 해결했다. 통계 행 삭제/재정렬·header 수정/Validator·assertion 완화0.
+
+### 2.2 실제 증가·유형·배치
+
+Content24→**25** / Schema4 / reader7 / UserProgress10 유지. Vocabulary2,287/Meaning2,420/Grammar96/Course8/Lesson103 불변. Example4,813→**4,873**(+60, 문장4,860+발음13), Listening1,936→**2,056**(+120), Question3,553→**3,673**(+120), content_items15,941→16,241(+300). 기존 본문/ID/created_at/revision/order/membership/관계 변경·삭제/비활성화0, 추가 provenance source1개(학습 엔티티 수에서 제외).
+
+| Level | 시작→종료 Listening | 의미 /한국어 /받아쓰기 /내용이해 | 실제 증가 |
+| --- | --- | --- | ---: |
+| 入門 |34→34|4 /23 /3 /4|0|
+| 初級 |79→79|28 /4 /25 /22|0|
+| 初中級 |1,823→1,943|18 /12 /1,852 /61|120|
+| 전체 |1,936→2,056|50 /39 /1,880 /87|120|
+
+6영역(일상/약속변경/교통/쇼핑/서비스/부탁·거절) 각각10원문/20문제. 새4유형은 의미18·한국어12·받아쓰기30·내용60이다. 각2~3문장의 연속 발화/안내를 원문1개로 세고, 같은 Example로 Listening2/Question2를 만든다. **기존 source 재사용0 /신규 source60 /신규 source의 추가 참조60**, 한국어 오답 후보도 실제 Batch의 다른 학습 원문을 사용한다. 오답용 filler Example·단어 재생으로 수량을 채우지 않는다.
+
+새 UUID300개(Example60/Listening120/Question120)를 authoring 원장에1회 고정했다. 모든 신규 ID canonical UUID/active/level 일치, 기존 revision 승인목록은 빈 배열이다. learning_order2060~2179, batch103~108(화면練習104~109), 같은 source 두유형은3구간 차이로 분리한다. 기존 batch102의 부분 구간/빈칸/실행중 snapshot은 재작성하지 않는다. 자동SRS source 중복 선택과 기존 번호형 UI 한계는 남는다.
+
+### 2.3 Batch Self Review·중복·근거
+
+assistant가60한일 원문·120prompt/정답/해설·270선택지·30정확한 accepted를 작성 후 별도 재독하고 원고20필드를 교정했다. A08 기존 첫 문장 중복을 독자 장면으로 재작성, A22 승차역/목적역 모호함 제거, A35 비현실적 오답 교정, A44 문자 번역, A59 자연스러운 일본어, A05 설명을 수정했다. 추가 실제 선택지 재독에서 A18 성별을 임의로 정하지 않는 자연스러운 번역, A22 오답 중복, A31 조사 중복, A41 한일 어색한 결합을 교정했다. 원고 승인 timestamp는 실제 UTC로 바로잡았으며 기존 created_at 변경0이다. 원고 교정 전 portable 두 시도는 각각 중단(exit130)했고 완료/PASS로 합산하지 않는다. writer wrapper 초기 전체 실행은373개 중368PASS/1FAIL/4ERROR(누적 기대수량1·iterdump 미지원4)였으며 기대수량 교정·표준 dump 위임 후 전체를 다시 실행한다.
+
+[항목별 교정·검수](Docs/DATA10_A_SELF_REVIEW.json), [전60원문/120문제·선택지](Docs/DATA10_A_ITEMS.md), [기존4,813예문과 가까운 후보 각3개](Docs/DATA10_A_SIMILARITY.json), [검수 범위/한계](Docs/DATA10_A_REVIEW.md). 전체 기존+Batch내 NFC/공백 한국어·한일쌍·마지막 .!? 제외 완전 중복0, 단순 치환/동일 원문 재발급0이다. 짧은 정형 표현·주제 공유까지 교육적 의미 중복0을 인증하지 않는다. 기존163선행120/7/36·Level8미해결을 그대로 둔다.
+
+한국어 자연스러움/높임·시제·지시대상/조건·변경 전후·이유/다음 행동·일본어 해석·오답 비동치/정답 유일성을 자체 검토했다. 예 A20은 다음 주에 일정을 다시 정하는 뜻이고 실제 만남일 미정, A55는 내일 불가/모레 가능, A59는 먼저 발표할 필요를 부정한다. 내부 初中級 편집 Level이며 공인 TOPIK/빈도/독립 전문가 인증이 아니다. TTS120개이며 실제 녹음0, 외부 대본·음원 복사0/자체 저작 provenance 명시. 독립 사람·교사/전수 사전·실제 TTS 검청은 NOT TESTED다.
+
+Dictation accepted는 정확한 원문1개씩이며 마지막 .!? 생략은 기존 Swift 판정만 사용한다. 내부 문장부호·철자 차이/띄어쓰기 경고를 구분하고 자유작문·일반 직접입력 정규화를 확대하지 않는다. 정답 공개 전 transcript는 기존 prompt_ko=null/기존 UI 정책을 유지하며 실제 VoiceOver 검증은 별도 gate다.
+
+### 2.4 검사 결과
+
+최종 실행 결과는 아래 표와 [실제 결과 JSON](Docs/DATA10_A_TEST_RESULTS.json)에 기록한다. 작성 중의 부분/중단 실행을 최종 PASS에 합산하지 않는다.
+
+| 검사 | 실제 결과 | 범위·한계 |
+| --- | --- | --- |
+| strict24→25 /후속 재구성 |0errors/기존10warnings·byte/SHA 일치|짧은 발음예시5+동형어 후보5 유지. Validator 완화0|
+| 전수 Source/DB·95파일·Stable ID |25테이블67,385행 일치/integrity ok/FK0·기존15,941 fingerprint/본문/순서/revision 보존|Content24 source/DB는 불변 snapshot. 신규UUID300·중복/고아0|
+| writer cold setup rehearsal |별도 새 디렉터리 설치→24/25 byte/SHA·표준 dump 왕복 PASS|시스템 Python/DB·통계 행 편집0|
+| 최종 verify portable |**373/373 PASS**,684.789초,실패/오류/skip0,phase exit0|최종 고정 원고 기준. 전용8개 포함, 과거23/24 byte gate도 PASS|
+| Debug/Release Simulator·Release device architecture |**3/3 build PASS**, SDK resolve PASS|jobs1, unsigned architecture build. 실제 iPhone/서명 archive 아님|
+| 최종 verify XCTest |**142실행·137PASS/5FAIL/skip0**,929 assertion/0unexpected·suite34.741초,phase/full command exit65|봉인 xcresult 요약과 전체 raw gzip 보존. 진단 대기 강제 중단이 아닌 정상 실패 종료|
+| 새 Batch A native |**120문제·4유형/원문60·played gate/정답·모든 오답/받아쓰기·내부부호·spacing PASS**|새1메서드, 전체142에 포함. 실제 음성 검청/화면 인증 아님|
+| DATA08 P1 세 건 |**native5메서드 PASS**(전체142에 포함)|전체1,880 dictation 종결부호 검사 포함. 실기기 화면·음성·VoiceOver 별도|
+| 독립 사람/실제 기기·구매/광고 |NOT TESTED / BLOCKED|Release B—Conditional 유지|
+
+Source25 SHA `ddb21c13e12624da2f208d3f842309ab79a075b986cea832424857cdae763941`, Bundle/재구성 SHA `01652666fc34cbc2d69a2d8a82f8aca778b20045b629df7d8623ee3e87a64500`.
+
+final command는 위 final results JSON과 `Docs/DATA10_A_XCODE_WRAPPER.txt`를 따른다. 기존 verify.sh를 그대로 실행하고 wrapper는 작업1개/별도 DerivedData/result/비병렬 테스트/진단 수집 설정만 지정했다. Debug/Release/device gate·XCTest를 생략하지 않았다. [전체 로그 gzip](Docs/DATA10_A_FINAL_VERIFY_LOG.txt.gz), [봉인 xcresult 요약](Docs/DATA10_A_XCRESULT_SUMMARY.json).
+
+native 실패5개는 DATA10-1과 동일한 DATA06 cohort 가정1, 발음 course 가정2, 되다/뵈다 활용·꿰다 기대값1, cold Purchase cache1이다. 새 Batch/native 회귀 실패0·runtime 수정0. [기존 발견·원인/한계](Docs/DATA10_NATIVE_FINDINGS.md)를 유지하며929개 서로 다른 제품 버그나 실제 구매/모든 앱 실패로 합산하지 않는다. simulator는 새 임시 기기만 생성·사용/정리하며 기존 사용자 Simulator/진도는 삭제하지 않는다.
+
+초기 검사 실패와 중단을 숨기지 않는다. 초안 전용8개는 검사 코드의 SQL 투영키/문장 경계 가정에서1FAIL/1ERROR가 났고 수정 후 최종8 PASS. writer 초기 전체373는368PASS/1수량FAIL/4dumpERROR였으며 최종 전체373 PASS로 재검증했다. 별도9개·dump2개 targeted PASS와 동결 전 native142/137/5를 최종 고유 수에 더하지 않는다. 초기 로그와 기록은 결과 JSON/보존 gzip에 있다.
+
+
+### 2.5 Git 전달·다음 환경
+
+검증한 Content25/원고·회귀·기록을 작업 branch에서 정상 commit/push하고 PR로 전달한다. 원격 필수 검사/mergeability를 다시 확인해 정상 병합하며, 최종 main=origin/main의 전체 SHA·clean 상태는 PR/Git과 최종 응답을 기준으로 남긴다. 자기 merge SHA를 기록하기 위한 재귀 commit은 하지 않는다. 실제 PR/전달 commit은 아래 후속 기록에 추가한다. 다음 단계 자동 시작0, force push/reset/기존 Production 삭제0.
+
+
+### 2.6 실제 Commit/Push/PR 인계
+
+검증/제작 commit `e07e823ef9f9feed54e1930d0c9ebe0486a201da`를 별도 branch `codex/data10-2-listening-batch-a`에 저장했다. 첫 일반 HTTPS push는 RPC HTTP400/sideband disconnect로 실패했고 remote head가 없어 PR 생성도 실패했다(생성된 PR0). 인증 API는 Raccoon26/ADMIN으로 정상이며 전체 접근 가능한972 blob 중50/100MiB 초과0·최대19,214,336bytes였다. 파일 삭제/축소/LFS/이력 재작성으로 우회하지 않았다.
+
+`git -c http.version=HTTP/1.1 -c http.postBuffer=524288000 push -u origin codex/data10-2-listening-batch-a`의 **일반 push 재시도 성공** 후 remote head가 위 commit과 일치함을 확인했다. 설정은 해당 명령에만 적용하고 global/repo 설정은 바꾸지 않았다. 전송 경로의 세부 HTTP400 원인은 단정하지 않는다. [객체 크기·전달 기록](Docs/DATA10_A_GIT_DELIVERY.json).
+
+[PR #19](https://github.com/Raccoon26/Project-Hangul-Study/pull/19)를 생성하고 채팅에 연결했다. 최초 head는 위 제작 commit, MERGEABLE/CLEAN·statusCheckRollup=[]였다. `gh pr checks --required`는 no checks reported(exit1), 규칙/Actions workflow0으로 **필수 원격 검사가 없는 상태이며 CI PASS가 아니다**. 최종 portable373 PASS·3build PASS·native137/142와 명령65/기존5실패·B—Conditional을 PR 본문에 명시했다.
+
+이 인계 보충은 문서·전달 근거만 추가하고 검증한 Source/Bundle/코드/테스트를 바꾸지 않는다. 보충 commit 정상 push 후 최신 head의 검사/mergeability를 확인해 user 위임대로 정상 merge한다. 실패한 필수 CI나 admin/force로 우회하지 않는다. 병합 후 로컬 main을 fetch/ff-only하고 origin/main과 전체SHA·clean 상태를 대조하며 최종 실제 merge SHA는 PR/Git·최종 응답을 따른다. DATA10-2에서 종료하고 다음 단계는 시작하지 않는다.

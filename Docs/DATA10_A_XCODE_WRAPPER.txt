@@ -1,0 +1,9 @@
+#!/bin/sh
+data10_is_test=0
+for data10_arg in "$@"; do
+  if [ "$data10_arg" = test ]; then data10_is_test=1; fi
+done
+if [ "$data10_is_test" = 1 ]; then
+  exec /usr/bin/xcodebuild -jobs 1 -derivedDataPath /tmp/hangul-data10-1/DerivedData "$@" -resultBundlePath /tmp/hangul-data10-2/FinalVerify.xcresult -parallel-testing-enabled NO -collect-test-diagnostics never -test-timeouts-enabled YES -default-test-execution-time-allowance 120 -maximum-test-execution-time-allowance 120
+fi
+exec /usr/bin/xcodebuild -jobs 1 -derivedDataPath /tmp/hangul-data10-1/DerivedData "$@"

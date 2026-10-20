@@ -1,0 +1,1568 @@
+{
+  "batch": "DATA10-A",
+  "content_version": 25,
+  "created_at": "2026-10-20T12:23:57Z",
+  "source_id": "32c0e813-ede1-4058-a441-e245827f7bb5",
+  "items": [
+    {
+      "key": "A01",
+      "domain": "daily",
+      "korean": "오늘은 제가 저녁을 만들게요. 집에 오실 때 두부만 사다 주세요.",
+      "japanese": "今日は私が夕食を作ります。帰ってくるときに豆腐だけ買ってきてください。",
+      "learning_point_ja": "저녁을 만들게요は話し手の申し出、사다 주세요は相手への買い物の依頼です。",
+      "example_id": "689644a6-f088-43bf-8466-c099473ebe4f",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "621d7536-a738-4d16-b035-9c8f85917ed8",
+          "question_id": "b7f6a0da-c815-4e04-9a35-a91dc599f260",
+          "prompt_ja": "帰宅する人に頼んでいることは何ですか。",
+          "correct": "豆腐を買ってくること",
+          "distractors": [
+            "夕食を作ること",
+            "先に食事を済ませること"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "51ad7d8e-28c7-4234-9726-04be1ee00c95",
+          "question_id": "234c6c3b-5739-494e-9f89-4a1a693b2a67"
+        }
+      ]
+    },
+    {
+      "key": "A02",
+      "domain": "daily",
+      "korean": "세탁기가 아직 돌아가고 있어요. 빨래가 끝나면 제가 널 테니까 먼저 나가세요.",
+      "japanese": "洗濯機がまだ動いています。洗濯が終わったら私が干すので、先に出かけてください。",
+      "learning_point_ja": "널 테니까の主語は話し手です。相手には먼저 나가세요と言っています。",
+      "example_id": "f08a572e-3866-4239-910a-0a4da4987bce",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "28e3b66a-146e-4411-b274-ca7729a30d9f",
+          "question_id": "3a4e167e-0092-499d-a7e7-c8c51b2403ce",
+          "prompt_ja": "相手は今どうすればよいですか。",
+          "correct": "先に出かける",
+          "distractors": [
+            "洗濯物を干す",
+            "洗濯が終わるまで待つ"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "b05ffad4-98ed-4118-bdd7-8b78791b1d2e",
+          "question_id": "8d4844cb-aadf-4b54-aad2-1c452f8e9484"
+        }
+      ]
+    },
+    {
+      "key": "A03",
+      "domain": "daily",
+      "korean": "옆집 아기가 자고 있대요. 청소기는 나중에 돌리고 지금은 책상만 정리해요.",
+      "japanese": "隣の家の赤ちゃんが寝ているそうです。掃除機は後でかけて、今は机だけ片づけましょう。",
+      "learning_point_ja": "나중에と지금を対比し、책상만の「机だけ」を聞き取ります。",
+      "example_id": "75a60c3e-0a4e-4c93-8aed-e58f67bc8d4d",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "964eb95e-9921-4565-b0da-dcef6694f7d2",
+          "question_id": "66af6a8b-254f-4c16-8ea8-8e57c8310332",
+          "prompt_ja": "今することは何ですか。",
+          "correct": "机を片づける",
+          "distractors": [
+            "掃除機をかける",
+            "赤ちゃんを起こす"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "99f50a03-a157-429f-a0a8-ce83cdc3ab63",
+          "question_id": "3ee0e4f0-4151-47d2-a5ed-58db0cbf237c"
+        }
+      ]
+    },
+    {
+      "key": "A04",
+      "domain": "daily",
+      "korean": "냉장고에 있는 국은 내일 먹을 거예요. 오늘 저녁에는 남은 밥으로 볶음밥을 해 먹어요.",
+      "japanese": "冷蔵庫のスープは明日食べる予定です。今夜は残ったご飯でチャーハンを作って食べましょう。",
+      "learning_point_ja": "국は내일、볶음밥は오늘 저녁と、食べる日が異なります。",
+      "example_id": "1d62912e-9629-422f-a08d-034ca3a222f6",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "a2fa9a05-975e-4b12-99f0-156fdaf64f93",
+          "question_id": "9b10c738-8a4b-43f3-be43-620b1b95d000",
+          "prompt_ja": "今夜は何を食べる予定ですか。",
+          "correct": "チャーハン",
+          "distractors": [
+            "冷蔵庫のスープ",
+            "買ってきた弁当"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "e840686a-267e-46f0-b44b-2775a9b7e7c9",
+          "question_id": "c1f7402a-c19a-4bc6-938d-11124c1c955a"
+        }
+      ]
+    },
+    {
+      "key": "A05",
+      "domain": "daily",
+      "korean": "현관 불이 안 켜져요. 새 전구는 서랍에 있으니까 퇴근하면 갈아 줄 수 있어요?",
+      "japanese": "玄関の明かりがつきません。新しい電球は引き出しにあるので、仕事から帰ったら交換してもらえますか。",
+      "learning_point_ja": "明かりがつかない場所は현관ですが、新しい전구の場所は서랍です。",
+      "example_id": "7d888398-ebca-4d73-8299-6bb5448c2ebb",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "4cc4a018-9f52-4bb3-83af-5e7685b9e6f0",
+          "question_id": "759c5839-3758-4cd5-95d3-13cf0c83fad8",
+          "prompt_ja": "交換に使う新しい電球はどこにありますか。",
+          "correct": "引き出しの中",
+          "distractors": [
+            "玄関の外",
+            "会社の机の上"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "c9801c52-3e17-426b-9e7d-e10c690837df",
+          "question_id": "5a606cab-5a7a-4548-9ea1-2a2d95ea8f95"
+        }
+      ]
+    },
+    {
+      "key": "A06",
+      "domain": "daily",
+      "korean": "내일 아침에 일찍 나가야 해서 오늘은 먼저 잘게요. 설거지는 아침에 제가 할게요.",
+      "japanese": "明日の朝は早く出かけなければならないので、今日は先に寝ます。皿洗いは朝、私がします。",
+      "learning_point_ja": "먼저 잘게요の後に、설거지는 아침에と具体的な予定を伝えています。",
+      "example_id": "387cf86b-76d7-4f5d-af98-a50fd77e85f2",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "ea292edf-bbe6-4236-acdc-b3b9ce15f072",
+          "question_id": "50b5da4d-0253-4121-b455-ae19f4bfa8d1",
+          "prompt_ja": "話し手が皿洗いをするのはいつですか。",
+          "correct": "明日の朝",
+          "distractors": [
+            "今すぐ",
+            "明日の夜"
+          ]
+        },
+        {
+          "task": "meaning",
+          "listening_id": "90e1a192-681b-4b24-847d-af9c7f0fa44b",
+          "question_id": "86709864-5f28-4ac6-a210-2a9e616d7ed3"
+        }
+      ]
+    },
+    {
+      "key": "A07",
+      "domain": "daily",
+      "korean": "우유가 조금 남아 있어요. 내일 아침까지는 충분하니까 오늘은 더 사지 않아도 돼요.",
+      "japanese": "牛乳が少し残っています。明日の朝までは十分なので、今日は追加で買わなくても大丈夫です。",
+      "learning_point_ja": "조금 남아 있어요だけで不足と判断せず、충분하니까以降の結論を聞きます。",
+      "example_id": "1e645c7a-7e10-4c2c-84b4-c8b63dc9c014",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "8e214542-bbde-47c9-a888-393266790dd2",
+          "question_id": "f253eaad-3db9-4507-8f38-030e1df08e67",
+          "prompt_ja": "牛乳について何と言っていますか。",
+          "correct": "今日は買い足す必要がない",
+          "distractors": [
+            "今すぐ買い足す必要がある",
+            "明日の朝には一切残っていない"
+          ]
+        },
+        {
+          "task": "meaning",
+          "listening_id": "2f3b71ee-fc88-430a-9b23-4e3dc65c93ae",
+          "question_id": "80219ae9-06f3-41bd-bf6f-12f3529262cd"
+        }
+      ]
+    },
+    {
+      "key": "A08",
+      "domain": "daily",
+      "korean": "이불을 말리려고 베란다에 내놓았어요. 먼저 들어오시면 비가 오기 전에 걷어 주세요.",
+      "japanese": "布団を乾かそうとベランダに出しました。先に帰宅したら、雨が降る前に取り込んでください。",
+      "learning_point_ja": "내놓았어요はすでに外に出した行動、걷어 주세요はこれからしてほしい行動です。",
+      "example_id": "04ba7508-ff52-41f3-bf15-285f87408a87",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "14650419-d949-427f-9c6a-ed583fbbed58",
+          "question_id": "82c8a88a-687e-4044-a616-c2e0ba8e3a5f",
+          "prompt_ja": "帰宅した人に何を頼んでいますか。",
+          "correct": "布団を取り込むこと",
+          "distractors": [
+            "布団を外に干すこと",
+            "窓を開けておくこと"
+          ]
+        },
+        {
+          "task": "meaning",
+          "listening_id": "80985498-430e-4321-8c7a-105ce3776ce4",
+          "question_id": "462831e5-4cd0-4cb6-8991-2a9391588314"
+        }
+      ]
+    },
+    {
+      "key": "A09",
+      "domain": "daily",
+      "korean": "내일은 쓰레기를 버리는 날이에요. 아침에는 바쁘니까 오늘 밤에 봉투를 묶어 둘게요.",
+      "japanese": "明日はごみを出す日です。朝は忙しいので、今夜のうちに袋を結んでおきます。",
+      "learning_point_ja": "버리는 날は내일です。오늘 밤にする準備は봉투를 묶어 두는ことです。",
+      "example_id": "55a1449c-3168-48a4-a808-383193fbbe7a",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "bf8c456e-91c8-48b8-8fb8-a3d6b9b0a2e5",
+          "question_id": "52a05cdb-9269-4583-a649-bc47c8e3fbba",
+          "prompt_ja": "今夜しておくことは何ですか。",
+          "correct": "ごみ袋を結んでおく",
+          "distractors": [
+            "ごみを収集場所に出す",
+            "新しい袋を買いに行く"
+          ]
+        },
+        {
+          "task": "korean",
+          "listening_id": "66ef8e1d-a3c9-4763-b2fe-52409b8f822a",
+          "question_id": "c77253e8-5817-4dc8-a098-7c0d863a1900"
+        }
+      ]
+    },
+    {
+      "key": "A10",
+      "domain": "daily",
+      "korean": "제가 산 책이 오늘 도착한대요. 제가 없을 때 택배가 오면 문 앞에 놓아 달라고 해 주세요.",
+      "japanese": "私が買った本が今日届くそうです。私がいないときに荷物が来たら、玄関の前に置いてほしいと伝えてください。",
+      "learning_point_ja": "문 앞에 놓아 달라고は、配達する人に取り次いでほしい依頼です。",
+      "example_id": "d5c4f6f4-c7e4-40a7-9e0f-a95c4bd1f3c6",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "05491648-276b-44fc-9a09-15e6af5c3c2a",
+          "question_id": "059daac5-ee95-40aa-8f0e-06ea8e25ded8",
+          "prompt_ja": "話し手が不在の場合、荷物はどうしてもらいますか。",
+          "correct": "玄関の前に置いてもらう",
+          "distractors": [
+            "送り主に返してもらう",
+            "明日もう一度届けてもらう"
+          ]
+        },
+        {
+          "task": "korean",
+          "listening_id": "2684d6a6-ff90-44b3-a273-9e52077fc062",
+          "question_id": "39bee727-cc78-4214-9bf8-a146b696ddd0"
+        }
+      ]
+    },
+    {
+      "key": "A11",
+      "domain": "reschedule",
+      "korean": "내일 두 시에 만나기로 했는데 회의가 생겼어요. 한 시간 늦춰서 세 시에 만날 수 있을까요?",
+      "japanese": "明日二時に会う約束でしたが、会議が入りました。一時間遅らせて三時に会えますか。",
+      "learning_point_ja": "두 시は元の約束、세 시は変更の提案です。늦춰서は遅らせることです。",
+      "example_id": "3de46329-fa3b-4a27-aa79-ac297d924a42",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "46d0510a-2128-486a-98e9-f372fde4bab0",
+          "question_id": "269d066d-8a12-4d5b-8d4c-2d8e3cd93575",
+          "prompt_ja": "変更後の待ち合わせ時刻として提案しているのは何時ですか。",
+          "correct": "三時",
+          "distractors": [
+            "二時",
+            "一時"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "dca5102c-86a8-44e8-8f66-2b6338248713",
+          "question_id": "c9b9cfea-d54c-4c5c-a981-af782b9d8a45"
+        }
+      ]
+    },
+    {
+      "key": "A12",
+      "domain": "reschedule",
+      "korean": "오늘 약속 장소 앞에서 공사를 해요. 건너편 서점 안에서 기다릴 테니까 그쪽으로 와 주세요.",
+      "japanese": "今日の待ち合わせ場所の前で工事をしています。向かいの書店の中で待っているので、そちらに来てください。",
+      "learning_point_ja": "工事の説明だけでなく、서점 안で待つという新しい場所を聞き取ります。",
+      "example_id": "c6e8ef28-2388-460c-ac55-aff9404eac90",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "4d48c839-2c62-497a-ac25-90b47d2dad35",
+          "question_id": "f480b960-ab80-4383-b67b-4ec3ee6764a4",
+          "prompt_ja": "相手はどこへ行けばよいですか。",
+          "correct": "向かいの書店の中",
+          "distractors": [
+            "工事現場の前",
+            "最初の待ち合わせ場所の外"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "488479ce-1fdc-4242-8102-dae226450e16",
+          "question_id": "488803bd-3f1b-48e6-baef-fdad0456d769"
+        }
+      ]
+    },
+    {
+      "key": "A13",
+      "domain": "reschedule",
+      "korean": "금요일 저녁에는 야근을 해야 해요. 저녁 약속을 취소하는 대신 토요일 점심에 만나면 어때요?",
+      "japanese": "金曜の夜は残業をしなければなりません。夕食の約束を取りやめて、その代わりに土曜の昼に会うのはどうですか。",
+      "learning_point_ja": "금요일 저녁は都合が悪く、토요일 점심が代案です。",
+      "example_id": "0b7ad6a0-87a2-4c5b-bbf2-9dc604610d06",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "12f4f916-629a-4279-9fc3-6b2316700ded",
+          "question_id": "0caad5d4-2658-45dc-a334-d2c3526ccc07",
+          "prompt_ja": "代わりに会う日時として何を提案していますか。",
+          "correct": "土曜の昼",
+          "distractors": [
+            "金曜の昼",
+            "土曜の夜"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "49634577-1309-4a8a-8406-3a9e36fa8c85",
+          "question_id": "8f1bca53-229f-4d1f-80e1-bbaadebdd55f"
+        }
+      ]
+    },
+    {
+      "key": "A14",
+      "domain": "reschedule",
+      "korean": "버스를 놓쳐서 십 분쯤 늦을 것 같아요. 식당에 먼저 들어가 계시면 도착해서 연락할게요.",
+      "japanese": "バスに乗り遅れたので、十分ほど遅れそうです。先に店に入っていてくだされば、到着してから連絡します。",
+      "learning_point_ja": "먼저 들어가 계시면で、外で待たずに入っていてほしいと伝えます。",
+      "example_id": "ac24c1de-fed8-4550-8515-d403a380b824",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "636e42b6-58cf-4fe9-9ed0-be30f8e44a96",
+          "question_id": "ee8b2bf4-b548-45e8-ae65-0b9ace0da742",
+          "prompt_ja": "待っている相手にどうしてほしいと言っていますか。",
+          "correct": "先に店に入っていてほしい",
+          "distractors": [
+            "バス停まで迎えに来てほしい",
+            "店の外で十分待ってほしい"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "70969846-3ec1-402e-9abe-e6c55ac25ddf",
+          "question_id": "b99eb2bb-42b4-486f-abdb-c19ccf3554a2"
+        }
+      ]
+    },
+    {
+      "key": "A15",
+      "domain": "reschedule",
+      "korean": "비가 많이 와서 오늘 산책은 어려울 것 같아요. 산책은 다음에 하고 오늘은 역 앞 카페에서 볼까요?",
+      "japanese": "雨がひどいので、今日の散歩は難しそうです。散歩はまた今度にして、今日は駅前のカフェで会いませんか。",
+      "learning_point_ja": "산책은 다음에と오늘은を区別し、今日の代案を答えます。",
+      "example_id": "5752204c-6e25-449e-b417-ecdf2ca28d86",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "288eb65e-e41f-4187-95bd-1a0c50fcf4d4",
+          "question_id": "077fad0e-18d8-40f5-844c-19c9dc904a20",
+          "prompt_ja": "今日の予定はどう変えようとしていますか。",
+          "correct": "散歩の代わりにカフェで会う",
+          "distractors": [
+            "カフェの代わりに散歩する",
+            "駅で会ってから散歩する"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "05b91264-de4a-4067-ac39-2ceabfbec9cc",
+          "question_id": "5e2bfb2f-f0ed-4fde-975a-43111cff00ad"
+        }
+      ]
+    },
+    {
+      "key": "A16",
+      "domain": "reschedule",
+      "korean": "예약한 방을 오늘은 쓸 수 없대요. 건물은 그대로이고 모임 장소만 삼 층에서 이 층으로 바뀌었어요.",
+      "japanese": "予約した部屋が今日は使えないそうです。建物は同じで、集まりの場所だけ三階から二階に変わりました。",
+      "learning_point_ja": "그대로は建物に、바뀌었어요は三階から二階への変更にかかります。",
+      "example_id": "2495ebc0-9193-4eac-ba49-0610780112ae",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "76231921-9f50-4b80-96d2-9c16c3c020d3",
+          "question_id": "59cbe46d-e9db-4488-b6ee-d1895f77e37c",
+          "prompt_ja": "変更されたのは何ですか。",
+          "correct": "集まる階",
+          "distractors": [
+            "建物",
+            "集まる日"
+          ]
+        },
+        {
+          "task": "meaning",
+          "listening_id": "6e2b0408-8bd2-468f-bcb6-cba57206f47d",
+          "question_id": "169ac55c-0274-47b9-b5aa-8270f6a66be2"
+        }
+      ]
+    },
+    {
+      "key": "A17",
+      "domain": "reschedule",
+      "korean": "다음 주 수업은 선생님 사정으로 하루 미뤄졌어요. 화요일이 아니라 수요일에 같은 시간에 오세요.",
+      "japanese": "来週の授業は先生の都合で一日延期されました。火曜ではなく水曜の同じ時刻に来てください。",
+      "learning_point_ja": "화요일이 아니라 수요일が曜日の訂正です。時刻は같은 시간のままです。",
+      "example_id": "4e45011a-aa33-4f8f-ab06-2b6ede5089c7",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "033407be-6a9a-4778-aa11-5254e455fa2f",
+          "question_id": "4b926af6-c2f5-47d1-9f5d-d451fb7e7385",
+          "prompt_ja": "来週の授業はいつありますか。",
+          "correct": "水曜のいつもと同じ時刻",
+          "distractors": [
+            "火曜のいつもと同じ時刻",
+            "水曜のいつもより一時間遅い時刻"
+          ]
+        },
+        {
+          "task": "meaning",
+          "listening_id": "dffd454c-cd18-402b-ae7c-8529510cce6f",
+          "question_id": "617042f8-aa3d-41a7-abf5-fb5d0bee96ce"
+        }
+      ]
+    },
+    {
+      "key": "A18",
+      "domain": "reschedule",
+      "korean": "저녁에 만나기로 했지만 동생을 데리러 가야 해요. 괜찮으시면 오늘은 전화로 이야기할까요?",
+      "japanese": "夜に会う約束でしたが、年下のきょうだいを迎えに行かなければなりません。よろしければ、今日は電話で話しませんか。",
+      "learning_point_ja": "동생は年下のきょうだいで、性別は示されていません。代案は전화로 이야기することです。",
+      "example_id": "a3731a18-f1dc-4121-9445-98b69108a20d",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "3c9df7e2-cc5c-4bba-a8cd-4e5ca14f4e2d",
+          "question_id": "7c3d03fd-4d4c-40d1-9ab8-4329c796bbd4",
+          "prompt_ja": "対面で会う代わりに何を提案していますか。",
+          "correct": "電話で話す",
+          "distractors": [
+            "きょうだいと一緒に会う",
+            "翌朝家を訪ねる"
+          ]
+        },
+        {
+          "task": "meaning",
+          "listening_id": "28ff1a10-de6e-44db-a4e7-20b5deb4457d",
+          "question_id": "be01fbe5-c3eb-40f5-aba9-93d80bc105de"
+        }
+      ]
+    },
+    {
+      "key": "A19",
+      "domain": "reschedule",
+      "korean": "내일 병원 예약을 오전에서 오후로 바꿨어요. 점심 약속은 그대로니까 열두 시에 식당에서 만나요.",
+      "japanese": "明日の病院の予約を午前から午後に変えました。昼食の約束はそのままなので、十二時に店で会いましょう。",
+      "learning_point_ja": "바꿨어요は病院の予約です。점심 약속은 그대로と区別します。",
+      "example_id": "599126a6-53ab-415e-be9c-27d3dfa97d9d",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "84c6cbee-fdad-40f1-ae61-f924086838b0",
+          "question_id": "d11e26f6-13e3-4fd8-a7ec-4048b22f7cbf",
+          "prompt_ja": "変更されていないのは何ですか。",
+          "correct": "十二時の昼食の約束",
+          "distractors": [
+            "午前の病院の予約",
+            "午後の病院の予約"
+          ]
+        },
+        {
+          "task": "korean",
+          "listening_id": "cc4f720d-e725-4ca3-9cb7-c53f3640ddcc",
+          "question_id": "7d8c73f4-7fe8-4db0-a833-bc51d2c1fce4"
+        }
+      ]
+    },
+    {
+      "key": "A20",
+      "domain": "reschedule",
+      "korean": "이번 주에는 모두 시간이 안 맞네요. 날짜는 다음 주에 다시 정하고 장소는 원래 식당으로 해요.",
+      "japanese": "今週はみんなの都合が合いませんね。日程は来週改めて決めて、場所は元の店にしましょう。",
+      "learning_point_ja": "다음 주에は날짜를 정하는時です。実際に会う日が来週だとは確定していません。",
+      "example_id": "9de7f16d-8a54-4870-b52a-910b56214b27",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "76485af1-e044-4d0c-94f0-dee3f04aeb23",
+          "question_id": "e88aef9c-f55d-448a-9ab3-dcc826b16816",
+          "prompt_ja": "来週することとして決まっているのは何ですか。",
+          "correct": "日程を改めて決める",
+          "distractors": [
+            "必ず店で食事をする",
+            "新しい店を探す"
+          ]
+        },
+        {
+          "task": "korean",
+          "listening_id": "18f2b8dc-409f-4130-8bc7-5134db2f1d4f",
+          "question_id": "02b7b19f-d46a-4d55-aa64-995bf8155556"
+        }
+      ]
+    },
+    {
+      "key": "A21",
+      "domain": "transport",
+      "korean": "이 버스는 시장 앞에는 안 서요. 다음 정류장에서 내려서 길을 건너면 시장 입구가 보여요.",
+      "japanese": "このバスは市場の前には止まりません。次の停留所で降りて道を渡ると、市場の入口が見えます。",
+      "learning_point_ja": "안 서요を聞き落とさず、次の停留所で降りるという手順を選びます。",
+      "example_id": "af345f1b-3cc7-46c3-88c9-8420d9330da8",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "d38d9b6b-8347-42f3-9d54-f7a7b6043264",
+          "question_id": "19fe5f0d-5d39-430e-9ac3-54d23d815dd8",
+          "prompt_ja": "市場へ行くには、まずどうしますか。",
+          "correct": "次の停留所で降りる",
+          "distractors": [
+            "市場の前の停留所まで乗る",
+            "今すぐ別のバスに乗り換える"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "d4a10eac-12c5-4583-b3bc-b50fde969b65",
+          "question_id": "80ef5671-5b5b-489b-8198-bd45c9f8e234"
+        }
+      ]
+    },
+    {
+      "key": "A22",
+      "domain": "transport",
+      "korean": "급행열차는 박물관역에 서지 않아요. 거기서 내리실 분은 다음에 오는 일반 열차를 타셔야 해요.",
+      "japanese": "急行列車は博物館駅には止まりません。そこで降りる方は、次に来る普通列車に乗る必要があります。",
+      "learning_point_ja": "급행と일반 열차を対比しています。目的の駅に止まるのは普通列車です。",
+      "example_id": "fcb0171c-c0d7-483a-a829-20798c6ab59f",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "849bed28-1214-4ec8-92e1-148c761713a1",
+          "question_id": "b017015b-ef66-4c64-b693-b421dfbe22ad",
+          "prompt_ja": "博物館駅で降りたい人に、どうするよう案内していますか。",
+          "correct": "次に来る普通列車に乗る",
+          "distractors": [
+            "今来ている急行列車に乗る",
+            "列車に乗らず駅を出る"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "71786b9b-76e1-4993-85d2-dadaa6de1b85",
+          "question_id": "670a7f4f-ac20-4b97-bc0d-92e30b82cb71"
+        }
+      ]
+    },
+    {
+      "key": "A23",
+      "domain": "transport",
+      "korean": "지금 가면 출근 시간이라 길이 많이 막혀요. 조금 돌아가더라도 지하철로 가는 게 낫겠어요.",
+      "japanese": "今行くと通勤時間なので道がとても混みます。少し遠回りでも地下鉄で行くほうがよさそうです。",
+      "learning_point_ja": "理由は출근 시간이라 길이 막힌다는ことです。料金については述べていません。",
+      "example_id": "1155aa20-658b-4c03-8641-7c90185d8622",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "58d92f47-59b0-4e21-b9b7-d16f86215a67",
+          "question_id": "a742ac54-f6af-4c14-81d6-0b1e28ddcb78",
+          "prompt_ja": "地下鉄を勧める理由は何ですか。",
+          "correct": "道路が混んでいるから",
+          "distractors": [
+            "地下鉄の駅が最も近いから",
+            "地下鉄のほうが必ず安いから"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "9b81000a-74a0-4860-a4f5-db3f44b4dd67",
+          "question_id": "71894d20-3604-4eec-8c86-cf980f97e44d"
+        }
+      ]
+    },
+    {
+      "key": "A24",
+      "domain": "transport",
+      "korean": "공항버스 표는 창구에서 먼저 사세요. 짐은 버스가 도착하면 기사님께 보여 드리면 돼요.",
+      "japanese": "空港バスの切符は窓口で先に買ってください。荷物はバスが着いたら運転手さんに見せれば大丈夫です。",
+      "learning_point_ja": "먼저 사세요と도착하면の条件を区別して、先の行動を答えます。",
+      "example_id": "5d4a3171-db9c-406a-b9ac-37da74e9004c",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "d8ffda42-b2e9-422b-ad5b-11cf8b101a7a",
+          "question_id": "225f628e-74d2-4f7e-8d22-f530e6b5f873",
+          "prompt_ja": "バスが到着する前にすることは何ですか。",
+          "correct": "窓口で切符を買う",
+          "distractors": [
+            "運転手に荷物を見せる",
+            "荷物を車内に置く"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "3ba985c2-ddb9-4470-a73d-a09ab0a5a40a",
+          "question_id": "a199a01a-c8fd-473e-bdc4-83bb2b695d7a"
+        }
+      ]
+    },
+    {
+      "key": "A25",
+      "domain": "transport",
+      "korean": "출구가 반대쪽에 있어요. 개찰구를 다시 나가지 말고 지하 통로를 따라가세요.",
+      "japanese": "出口は反対側にあります。改札をもう一度出るのではなく、地下通路に沿って進んでください。",
+      "learning_point_ja": "나가지 말고は「出ないで」。指示された経路は지하 통로です。",
+      "example_id": "4a827148-507e-42cf-85b2-63b057cfde1f",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "d5f6e9cc-dbcc-479e-ae1b-13b3e81fdd65",
+          "question_id": "6777add0-68f4-4c77-b818-447e07617cb7",
+          "prompt_ja": "反対側の出口へはどう行きますか。",
+          "correct": "地下通路を通る",
+          "distractors": [
+            "改札を出て地上を歩く",
+            "もう一度切符を買って戻る"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "c8d9e1d5-992b-4af4-87b0-6807899bfcd6",
+          "question_id": "ebf72d25-878c-4bfb-8059-d943db74c3f6"
+        }
+      ]
+    },
+    {
+      "key": "A26",
+      "domain": "transport",
+      "korean": "교통카드 잔액이 부족하네요. 저기 충전기에서 충전하신 뒤에 다시 찍어 주세요.",
+      "japanese": "交通カードの残高が足りませんね。あちらのチャージ機でチャージしてから、もう一度タッチしてください。",
+      "learning_point_ja": "충전하신 뒤에は「チャージした後で」。手順の前後を確かめます。",
+      "example_id": "b97afbd7-6351-43bb-a026-353e04005f10",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "0278998b-6e0e-49f9-ab92-5ee79ed46fd9",
+          "question_id": "5e294783-b481-4810-a3e1-d0515ee0ea22",
+          "prompt_ja": "カードをもう一度タッチする前に何をしますか。",
+          "correct": "残高をチャージする",
+          "distractors": [
+            "カードを返却する",
+            "運転手に切符を渡す"
+          ]
+        },
+        {
+          "task": "meaning",
+          "listening_id": "6636ccd9-98fe-4590-9097-f32b7b647fc5",
+          "question_id": "83cb241a-f798-4d28-8e8a-b6122db0b36e"
+        }
+      ]
+    },
+    {
+      "key": "A27",
+      "domain": "transport",
+      "korean": "이번 열차는 사람이 너무 많아요. 다음 열차가 곧 온다니까 한 대 보내고 타요.",
+      "japanese": "今度の列車は人が多すぎます。次の列車がすぐ来るそうなので、一本見送って乗りましょう。",
+      "learning_point_ja": "한 대 보내고は列車を一本見送る意味です。移動を中止する話ではありません。",
+      "example_id": "c2ed1078-298f-4a8f-ad08-1fcf5fa06b86",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "3dea576b-28fc-4c29-ba9c-99af0b9eeb53",
+          "question_id": "8c6f7e91-5eb5-4443-8e3e-bec72fa3491e",
+          "prompt_ja": "二人はどうするつもりですか。",
+          "correct": "一本見送って次に乗る",
+          "distractors": [
+            "混んでいても今の列車に乗る",
+            "駅を出てタクシーに乗る"
+          ]
+        },
+        {
+          "task": "meaning",
+          "listening_id": "2c5ad33a-4553-428a-94ea-d777af214484",
+          "question_id": "6c424d17-fe37-4f5b-808d-0529f6ccd0e9"
+        }
+      ]
+    },
+    {
+      "key": "A28",
+      "domain": "transport",
+      "korean": "길이 막혀서 약속 시간에 늦겠어요. 여기서 택시를 내려서 남은 거리는 걸어갈게요.",
+      "japanese": "道が混んでいて約束の時刻に遅れそうです。ここでタクシーを降りて、残りの距離は歩いて行きます。",
+      "learning_point_ja": "내려서から걸어갈게요へ、交通手段を切り替える意図を聞きます。",
+      "example_id": "fc090027-31ea-475d-8f32-79ab422805ce",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "2fe8dcbb-3d26-4ad8-a596-3ec6113f0470",
+          "question_id": "f7290ab8-255c-4947-8ffc-2d69c37bbd4c",
+          "prompt_ja": "話し手はこの後どうしますか。",
+          "correct": "タクシーを降りて歩く",
+          "distractors": [
+            "タクシーで最後まで行く",
+            "約束を取り消して帰る"
+          ]
+        },
+        {
+          "task": "meaning",
+          "listening_id": "991837f1-55d0-4608-9e0d-11695e1982b3",
+          "question_id": "40282fce-ca09-477d-aa89-e29c8f9045d5"
+        }
+      ]
+    },
+    {
+      "key": "A29",
+      "domain": "transport",
+      "korean": "역 앞 도로를 고치는 중이라 버스 정류장이 옮겨졌어요. 이번 주에는 약국 앞에서 타시면 돼요.",
+      "japanese": "駅前の道路を工事中なので、バス停が移動しました。今週は薬局の前から乗れば大丈夫です。",
+      "learning_point_ja": "工事のため一時的に移動しています。乗る場所は약국 앞です。",
+      "example_id": "98ebff49-0c09-4790-9add-00943a83b8c7",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "3409e97c-c0a4-42cb-8bdd-a4ef9f401a4a",
+          "question_id": "02f9dc0e-afb6-4ff1-abd7-8f19a019ac9b",
+          "prompt_ja": "今週はどこからバスに乗りますか。",
+          "correct": "薬局の前",
+          "distractors": [
+            "駅の改札の中",
+            "工事中の道路の真ん中"
+          ]
+        },
+        {
+          "task": "korean",
+          "listening_id": "4c594cd5-c790-4b41-8fc3-650488a7be7f",
+          "question_id": "ee1014ba-d414-462b-b545-77de628c775a"
+        }
+      ]
+    },
+    {
+      "key": "A30",
+      "domain": "transport",
+      "korean": "돌아오는 표는 아직 안 샀어요. 일이 언제 끝날지 몰라서 역에 도착한 뒤에 사려고요.",
+      "japanese": "帰りの切符はまだ買っていません。仕事がいつ終わるか分からないので、駅に着いてから買うつもりです。",
+      "learning_point_ja": "아직と사려고요で未購入と予定を区別します。理由は終了時刻が未定だからです。",
+      "example_id": "c5e2884a-438d-40a7-910d-cc31ce8e3004",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "16a16dde-0648-4fe2-bf77-af596e4767e8",
+          "question_id": "455caa7a-1ff1-47da-bf64-05fee99d4a94",
+          "prompt_ja": "帰りの切符をまだ買っていない理由は何ですか。",
+          "correct": "仕事が終わる時刻が分からないから",
+          "distractors": [
+            "駅でしか切符を買えないから",
+            "帰りの列車がすべて満席だから"
+          ]
+        },
+        {
+          "task": "korean",
+          "listening_id": "85e912d8-7902-40c8-b0bb-af049ab9c75e",
+          "question_id": "d1bbdae0-635e-4340-a872-8e52ac9c800d"
+        }
+      ]
+    },
+    {
+      "key": "A31",
+      "domain": "shopping",
+      "korean": "이 옷은 색이 마음에 드는데 조금 작아요. 같은 색으로 한 치수 큰 걸 입어 봐도 될까요?",
+      "japanese": "この服は色が気に入っていますが、少し小さいです。同じ色で一サイズ大きいものを試着してもいいですか。",
+      "learning_point_ja": "色は変えずにサイズだけ한 치수 크게する希望です。",
+      "example_id": "b0ff4d0a-8da9-4d61-a365-bdb881f3ee0c",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "9b503464-e5c8-467e-bb4a-23fb150a6e4f",
+          "question_id": "5e8a8fb2-8470-48b8-89dd-7492f025e183",
+          "prompt_ja": "客が試着したいのはどんな服ですか。",
+          "correct": "同じ色で一サイズ大きい服",
+          "distractors": [
+            "違う色で同じサイズの服",
+            "同じ色で一サイズ小さい服"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "b20becb3-1d73-43aa-9b1e-e5d5af943553",
+          "question_id": "f68dd3c1-d016-463b-b133-c4a8ecb470d5"
+        }
+      ]
+    },
+    {
+      "key": "A32",
+      "domain": "shopping",
+      "korean": "선물할 거라서 가격표는 떼어 주세요. 포장 상자는 필요 없고 종이봉투에만 넣어 주세요.",
+      "japanese": "贈り物なので値札は取ってください。包装の箱は要らないので、紙袋にだけ入れてください。",
+      "learning_point_ja": "가격표を取る依頼と、상자는 필요 없다는包装方法の希望を区別します。",
+      "example_id": "953682da-9544-4681-9bd5-06321fea2c72",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "bda9d5bf-103c-4f47-aafa-48965c332740",
+          "question_id": "967da73c-df4b-4823-b676-6de4cd0f28e9",
+          "prompt_ja": "客が不要だと言っているものは何ですか。",
+          "correct": "包装用の箱",
+          "distractors": [
+            "紙袋",
+            "贈り物そのもの"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "e099c0de-d2eb-425a-af8e-b083af9f8e95",
+          "question_id": "30f372c7-584b-4b3f-aece-5c44f08c74e9"
+        }
+      ]
+    },
+    {
+      "key": "A33",
+      "domain": "shopping",
+      "korean": "어제 산 우산이 잘 안 펴져요. 환불보다는 같은 제품으로 교환하고 싶어요.",
+      "japanese": "昨日買った傘がうまく開きません。返金よりも、同じ商品に交換したいです。",
+      "learning_point_ja": "환불보다는と교환하고 싶어요から、返金ではなく交換を希望すると分かります。",
+      "example_id": "860b02bf-e4d4-46e9-b697-bad3fbdb8196",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "87c241e9-0c6c-421e-9ffc-72a93a4d0b5f",
+          "question_id": "2ac2f0c3-61dc-4368-ba91-835bbb128684",
+          "prompt_ja": "客はどのような対応を希望していますか。",
+          "correct": "同じ商品への交換",
+          "distractors": [
+            "代金の返金",
+            "別の商品を追加で購入"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "780a34ad-35d0-4c0f-8b83-27ae423d6489",
+          "question_id": "51bc8c7c-1904-4611-9d2e-c84b1c1eb544"
+        }
+      ]
+    },
+    {
+      "key": "A34",
+      "domain": "shopping",
+      "korean": "이 신발은 매장에 제 사이즈가 없네요. 다른 지점에 있으면 집으로 배송해 주실 수 있나요?",
+      "japanese": "この靴はこの店に私のサイズがありませんね。別の店舗にあれば、自宅に配送してもらえますか。",
+      "learning_point_ja": "있으면という条件の後に、집으로 배송してほしいと依頼しています。",
+      "example_id": "003666d4-e6d6-46d6-befe-a9e94f44c7dd",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "64491f60-9e84-4f16-b3f3-c50a1714c883",
+          "question_id": "2f263471-40ab-4fef-a9d1-8db7b5fb6085",
+          "prompt_ja": "別の店舗に在庫がある場合、何を希望していますか。",
+          "correct": "自宅への配送",
+          "distractors": [
+            "その店舗への道案内",
+            "今ある小さい靴の購入"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "016845a6-b6cf-4b13-a77e-493b2893955a",
+          "question_id": "16e359f2-a44b-4b1a-bdfa-27e31eafd444"
+        }
+      ]
+    },
+    {
+      "key": "A35",
+      "domain": "shopping",
+      "korean": "진열된 컵은 하나만 남아 있어요. 두 개 필요하시면 내일 새로 들어올 때 다시 오셔야 해요.",
+      "japanese": "陳列してあるカップは一つしか残っていません。二つ必要でしたら、明日新しく入荷するときに改めて来ていただく必要があります。",
+      "learning_point_ja": "하나만は現在の在庫、두 개は希望の数です。入荷は내일です。",
+      "example_id": "34071687-8d40-474b-83a7-da8d8dfbd633",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "cfd4cb88-11ed-4e3a-a4a7-ecc8e9001d68",
+          "question_id": "81888338-aa3d-4b6f-8aa1-c5efb4570b1e",
+          "prompt_ja": "カップを二つ買いたい場合はどうしますか。",
+          "correct": "明日の入荷時にまた来る",
+          "distractors": [
+            "今日、二つとも持ち帰る",
+            "来週の入荷時にまた来る"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "f131f5de-04c7-4c51-b433-86207e95afb3",
+          "question_id": "b1082ee1-2a89-4568-b075-816a4b526b74"
+        }
+      ]
+    },
+    {
+      "key": "A36",
+      "domain": "shopping",
+      "korean": "이 가방은 할인 상품이라 쿠폰을 함께 쓸 수 없어요. 쿠폰은 할인하지 않는 상품에 써 주세요.",
+      "japanese": "このかばんは割引商品なので、クーポンを併用できません。クーポンは割引されていない商品に使ってください。",
+      "learning_point_ja": "함께 쓸 수 없어요は割引との併用不可です。クーポン全体が無効なのではありません。",
+      "example_id": "904f37fb-d533-4eca-b220-2a165f452521",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "ba683d1a-32fd-4a18-8ab0-d46eac7b85c1",
+          "question_id": "893805db-36bd-4444-bcf3-c5a253d47ddd",
+          "prompt_ja": "クーポンを使えるのはどの商品ですか。",
+          "correct": "割引されていない商品",
+          "distractors": [
+            "この割引中のかばん",
+            "割引商品だけ"
+          ]
+        },
+        {
+          "task": "meaning",
+          "listening_id": "92b79b64-08c6-44e9-a45c-7f4372fa954f",
+          "question_id": "2b986c0a-bb7a-48a8-bbfc-ac846089ed96"
+        }
+      ]
+    },
+    {
+      "key": "A37",
+      "domain": "shopping",
+      "korean": "영수증은 버리지 말고 보관해 주세요. 사이즈가 안 맞으면 일주일 안에 가져오시면 돼요.",
+      "japanese": "レシートは捨てずに保管してください。サイズが合わなければ、一週間以内に持ってきていただければ大丈夫です。",
+      "learning_point_ja": "버리지 말고 보관する対象は영수증です。保証や交換の一般規則を説明する教材ではありません。",
+      "example_id": "d6faae97-7b9a-4fa6-9a2e-8a9147cddf48",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "3e291d9a-5f05-4427-beda-6c62b9e3053a",
+          "question_id": "7c1a4d12-a0a7-4ebb-9972-681d8fd620e0",
+          "prompt_ja": "サイズが合わない場合に備えて、何を保管しますか。",
+          "correct": "レシート",
+          "distractors": [
+            "値札だけ",
+            "包装用の箱だけ"
+          ]
+        },
+        {
+          "task": "meaning",
+          "listening_id": "9f8a21ac-3360-4603-9cfc-caf082e27a3c",
+          "question_id": "ff9b689c-3058-4f2d-858e-e2a28ac6ad2c"
+        }
+      ]
+    },
+    {
+      "key": "A38",
+      "domain": "shopping",
+      "korean": "딸기는 오늘 먹을 거예요. 양이 많은 것보다 조금 비싸도 잘 익은 걸로 주세요.",
+      "japanese": "いちごは今日食べます。量が多いものより、少し高くてもよく熟れたものをください。",
+      "learning_point_ja": "비싸도は値段の高さを許容しています。優先するのは잘 익은状態です。",
+      "example_id": "7d8c05f9-428f-4dd7-a9b7-215bb51e5d78",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "00ad8dc4-4085-4424-89b5-4004a3a68065",
+          "question_id": "1f540ec2-e96b-4c37-bf21-036fb6329510",
+          "prompt_ja": "客が優先しているのは何ですか。",
+          "correct": "よく熟れていること",
+          "distractors": [
+            "量が多いこと",
+            "最も安いこと"
+          ]
+        },
+        {
+          "task": "meaning",
+          "listening_id": "32d4ed23-a6e4-431e-adc2-9e136ab4d2f9",
+          "question_id": "af0b9379-9886-439b-bebe-098dd35eab7e"
+        }
+      ]
+    },
+    {
+      "key": "A39",
+      "domain": "shopping",
+      "korean": "인터넷에서 주문한 물건을 직접 찾으러 왔어요. 결제는 이미 했고 주문 번호도 가지고 있어요.",
+      "japanese": "ネットで注文した品物を直接受け取りに来ました。支払いはもう済ませていて、注文番号も持っています。",
+      "learning_point_ja": "찾으러 왔어요と이미 했어요で、来店目的と支払い済みであることを確かめます。",
+      "example_id": "c844885d-8cf7-47d2-a332-76fd221f6d90",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "e3cd7f05-d3b3-4287-8713-d00406558e87",
+          "question_id": "004048ff-302e-4435-9975-a8b88e34cf6a",
+          "prompt_ja": "客は何をしに来ましたか。",
+          "correct": "支払い済みの商品を受け取る",
+          "distractors": [
+            "新しい商品を注文する",
+            "注文を取り消して返金を受ける"
+          ]
+        },
+        {
+          "task": "korean",
+          "listening_id": "8c8acb1e-48e0-4aa8-a09e-b1230060b196",
+          "question_id": "bc396d5c-52e3-4ae0-8cce-6ce6e7949d55"
+        }
+      ]
+    },
+    {
+      "key": "A40",
+      "domain": "shopping",
+      "korean": "장바구니를 집에 두고 왔네요. 봉투는 하나만 주시고 깨지기 쉬운 병은 따로 싸 주세요.",
+      "japanese": "買い物袋を家に置いてきてしまいました。袋は一枚だけいただいて、割れやすい瓶は別に包んでください。",
+      "learning_point_ja": "하나만は袋の枚数、따로 싸 주세요は瓶の包み方の依頼です。",
+      "example_id": "18762f66-8c77-401d-af96-e16f0528e3c8",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "cbb60edc-4b11-4533-a3d4-767caca062c1",
+          "question_id": "d61c9874-f1ff-45aa-a36c-6c7fdb529b28",
+          "prompt_ja": "瓶について何を頼んでいますか。",
+          "correct": "別に包んでほしい",
+          "distractors": [
+            "袋をもう一枚買いたい",
+            "中身を別の容器に移したい"
+          ]
+        },
+        {
+          "task": "korean",
+          "listening_id": "1a48a22b-ab75-4b7a-b062-7fc278b8ee5d",
+          "question_id": "af16ec3c-74da-4eea-a2f8-c5100bc521a2"
+        }
+      ]
+    },
+    {
+      "key": "A41",
+      "domain": "service",
+      "korean": "머리는 너무 짧게 자르지 말아 주세요. 앞머리만 눈에 닿지 않을 정도로 다듬어 주세요.",
+      "japanese": "髪はあまり短くしないでください。前髪だけ、目にかからない程度に整えてください。",
+      "learning_point_ja": "전체 길이を大きく変えず、앞머리만を整える依頼です。",
+      "example_id": "ca718b83-370a-4947-bc31-755505662e48",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "1fc7991d-86cd-4983-b5dc-4713606eedc6",
+          "question_id": "6b37f07f-b3b9-42f1-ab82-0061330b5e9d",
+          "prompt_ja": "客が前髪について希望しているのは何ですか。",
+          "correct": "目にかからない程度に整える",
+          "distractors": [
+            "全体と同じ長さまで伸ばす",
+            "目が完全に隠れる長さにする"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "0e71834b-a8e6-4545-9d96-55a662524272",
+          "question_id": "ae930c85-febe-488a-ac46-33e5564a8f11"
+        }
+      ]
+    },
+    {
+      "key": "A42",
+      "domain": "service",
+      "korean": "세탁물은 오늘 맡기시면 금요일에 찾으실 수 있어요. 더 빨리 필요하시면 접수할 때 말씀해 주세요.",
+      "japanese": "洗濯物は今日お預けになれば、金曜に受け取れます。もっと早く必要でしたら、受付のときにお知らせください。",
+      "learning_point_ja": "早く受け取れると確約しているのではなく、접수할 때相談するよう案内しています。",
+      "example_id": "9400bbcc-57f2-4a63-b117-6467a210f989",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "8793f935-0ac9-4907-a528-35c0f146eefe",
+          "question_id": "fdef6e4b-eea4-4f51-82c3-d07d659d109b",
+          "prompt_ja": "金曜より早く必要な場合、いつ伝えますか。",
+          "correct": "受付のとき",
+          "distractors": [
+            "金曜に受け取るとき",
+            "受け取った翌日"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "57f1fbf1-3fe9-4fad-87d3-6c73bd1e3c6e",
+          "question_id": "4f9463ce-884f-418c-9bf2-9cd873a61d17"
+        }
+      ]
+    },
+    {
+      "key": "A43",
+      "domain": "service",
+      "korean": "책을 더 빌리고 싶으시면 먼저 반납해 주세요. 지금은 빌릴 수 있는 권수를 다 채우셨어요.",
+      "japanese": "さらに本を借りたい場合は、先に返却してください。今は貸出可能な冊数の上限に達しています。",
+      "learning_point_ja": "이유は貸出冊数の上限です。延滞や罰金については述べていません。",
+      "example_id": "9f646982-0f6e-4772-a90e-a6ef228e7fbc",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "8668b4c6-3af9-4451-a002-abd667a1f5f6",
+          "question_id": "68bde87c-e546-4595-acd3-895f00730f15",
+          "prompt_ja": "さらに本を借りる前に何をする必要がありますか。",
+          "correct": "借りている本を返す",
+          "distractors": [
+            "新しい会員証を作る",
+            "延滞金を必ず払う"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "e4b5bf6c-71c8-4f1c-8980-369eb6b8242c",
+          "question_id": "80fe15af-b2e2-4333-81cf-d9552a99c6e8"
+        }
+      ]
+    },
+    {
+      "key": "A44",
+      "domain": "service",
+      "korean": "수리하는 데 사흘 정도 걸려요. 끝나면 문자로 알려 드릴 테니까 그때 찾으러 오세요.",
+      "japanese": "修理には三日ほどかかります。終わったらメッセージでお知らせするので、そのときに受け取りに来てください。",
+      "learning_point_ja": "사흘 정도は目安です。来店の合図は끝나면 보내는 문자です。",
+      "example_id": "97c4240b-7a66-4672-be22-bf48da92954a",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "2ee096ad-5d16-43e0-9b82-aaa2da62fdab",
+          "question_id": "a225c96d-62d3-4598-b6cf-9300a7445805",
+          "prompt_ja": "受け取りに行くのはいつですか。",
+          "correct": "修理完了のメッセージが来てから",
+          "distractors": [
+            "必ず明日の朝",
+            "修理を頼んだ直後"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "3578def7-c630-4eb1-8882-7fab57f6cdb0",
+          "question_id": "edc4bd45-00fe-4069-bf50-15d93367cd96"
+        }
+      ]
+    },
+    {
+      "key": "A45",
+      "domain": "service",
+      "korean": "예약 없이 오시면 기다리셔야 할 수도 있어요. 방문 전에 전화하시면 빈 시간을 확인해 드릴게요.",
+      "japanese": "予約なしでいらっしゃると、お待ちいただく場合があります。来店前に電話していただければ、空いている時間をお調べします。",
+      "learning_point_ja": "기다리셔야 할 수도は可能性です。방문 전에 전화するよう勧めています。",
+      "example_id": "6efd1b4a-f475-41b4-9572-c6a12256816c",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "dd39f1a9-0d0e-4674-a931-defeffe111d7",
+          "question_id": "71fd6aa6-f2df-4f48-869c-abe149e0bbc2",
+          "prompt_ja": "待ち時間を避けたい人に勧めている行動は何ですか。",
+          "correct": "来店前に電話する",
+          "distractors": [
+            "予約せずにすぐ来店する",
+            "店の前で営業時間まで待つ"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "8ae42303-fe4e-49e1-8287-557ee8cc3b15",
+          "question_id": "7ce01108-9045-4f76-b2d3-a80c5244277a"
+        }
+      ]
+    },
+    {
+      "key": "A46",
+      "domain": "service",
+      "korean": "자리에서 주문하시는 게 아니라 입구에서 먼저 계산하시면 돼요. 음식은 번호를 부르면 가져가세요.",
+      "japanese": "席で注文するのではなく、入口で先に会計していただければ大丈夫です。料理は番号を呼ばれたら取りに行ってください。",
+      "learning_point_ja": "먼저 계산と번호를 부르면 가져가는順序を聞き分けます。",
+      "example_id": "77aca458-4d71-4ec1-9ab2-86a606c2e577",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "0f3b89a0-555c-429c-bac2-193ac82c8692",
+          "question_id": "2c6917ce-901f-45ac-97f2-2ecab2130a68",
+          "prompt_ja": "料理を受け取る前にまず何をしますか。",
+          "correct": "入口で会計する",
+          "distractors": [
+            "席で注文を待つ",
+            "料理を席まで運んでもらう"
+          ]
+        },
+        {
+          "task": "meaning",
+          "listening_id": "3908106d-3525-49ee-be65-a1c7c9740536",
+          "question_id": "a18eb92e-5fbd-4cf8-b590-cdec1c34f5a5"
+        }
+      ]
+    },
+    {
+      "key": "A47",
+      "domain": "service",
+      "korean": "방은 아직 준비 중이라 바로 들어가실 수 없어요. 짐을 맡겨 두고 한 시간 뒤에 다시 와 주세요.",
+      "japanese": "部屋はまだ準備中なので、すぐには入れません。荷物を預けて、一時間後にまたお越しください。",
+      "learning_point_ja": "바로 들어갈 수 없어요の後に、荷物を預けるという代案が示されています。",
+      "example_id": "94e2ef9e-92e6-4449-8d7a-bb069e35b07c",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "bd912680-8cf8-46be-a9a2-385263d85726",
+          "question_id": "fd81f7d4-ca7b-482e-b905-425f3d19026f",
+          "prompt_ja": "客にどうするよう案内していますか。",
+          "correct": "荷物を預けて一時間後に戻る",
+          "distractors": [
+            "すぐ部屋に入って待つ",
+            "荷物を持ったまま予約を取り消す"
+          ]
+        },
+        {
+          "task": "meaning",
+          "listening_id": "4f176cf1-6dc5-4ae3-a4bf-e64d847e3fc8",
+          "question_id": "030c42dc-c553-432a-b7d8-f0b22e79f104"
+        }
+      ]
+    },
+    {
+      "key": "A48",
+      "domain": "service",
+      "korean": "사진은 오늘 고르셔도 인화는 내일 끝나요. 완성되면 연락드릴 테니 찾으러 오시기 전에 확인해 주세요.",
+      "japanese": "写真は今日選んでいただいても、プリントは明日仕上がります。完成したらご連絡するので、受け取りに来る前に確認してください。",
+      "learning_point_ja": "오늘 고르는ことと내일 인화가 끝나는ことを区別します。",
+      "example_id": "c2b165a8-8c60-4639-9ec7-48cbd96defd7",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "b6e16342-726e-4ddb-ad0f-eeba4b930f7b",
+          "question_id": "514f8187-20ab-46bb-beed-66e74957c53a",
+          "prompt_ja": "今日できることは何ですか。",
+          "correct": "写真を選ぶ",
+          "distractors": [
+            "仕上がった写真を受け取る",
+            "必ずすべてのプリントを終える"
+          ]
+        },
+        {
+          "task": "meaning",
+          "listening_id": "506f4d88-0fc9-47b9-9679-c4ac541c2764",
+          "question_id": "b7876d5b-8e2c-43a3-9bcb-3b92dfa0bdcb"
+        }
+      ]
+    },
+    {
+      "key": "A49",
+      "domain": "service",
+      "korean": "분실물을 찾으러 오셨군요. 같은 색 우산이 여러 개라서 손잡이 모양을 알려 주시겠어요?",
+      "japanese": "忘れ物を取りにいらしたのですね。同じ色の傘がいくつもあるので、持ち手の形を教えていただけますか。",
+      "learning_point_ja": "같은 색が複数あるため、区別できる손잡이 모양を聞いています。",
+      "example_id": "16aa438f-d48d-4078-aabe-2e849cce76a1",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "53ed8315-001b-4670-8260-a6d2269c52df",
+          "question_id": "738a3f1b-040a-4041-9daf-e94bcb233369",
+          "prompt_ja": "傘を確認するために何を尋ねていますか。",
+          "correct": "持ち手の形",
+          "distractors": [
+            "傘の色だけ",
+            "購入した店の住所"
+          ]
+        },
+        {
+          "task": "korean",
+          "listening_id": "abdbf2a8-3249-45ec-af1e-5bb058d6e528",
+          "question_id": "85c0fd93-1839-4bd5-a826-e74ca8aedd44"
+        }
+      ]
+    },
+    {
+      "key": "A50",
+      "domain": "service",
+      "korean": "휴대폰 화면이 깨졌지만 전화는 돼요. 오늘은 비용만 알아보고 수리는 다음에 맡기려고요.",
+      "japanese": "携帯の画面は割れていますが、通話はできます。今日は費用だけ調べて、修理は後日頼むつもりです。",
+      "learning_point_ja": "비용만と수리는 다음에で、今日の相談と後日の修理を分けています。",
+      "example_id": "c928ef23-dc1e-4b68-99c9-3a7edc414fd5",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "34a0a210-803a-4a06-b80a-e4fbf911062d",
+          "question_id": "95ce8ef9-c0ff-4f9e-914f-58e5dc22948a",
+          "prompt_ja": "今日の来店目的は何ですか。",
+          "correct": "修理費用を調べる",
+          "distractors": [
+            "今日中に修理を終える",
+            "新しい携帯を契約する"
+          ]
+        },
+        {
+          "task": "korean",
+          "listening_id": "10136be5-4b6b-4382-ba52-58804c3d89e7",
+          "question_id": "7ff2c4a5-8a03-4044-8b0a-efb431a8e84e"
+        }
+      ]
+    },
+    {
+      "key": "A51",
+      "domain": "request",
+      "korean": "제가 잠깐 전화를 해야 해서요. 이 자리 좀 봐 주실 수 있을까요? 금방 돌아올게요.",
+      "japanese": "少し電話をしなければならないので、この席を見ていていただけますか。すぐ戻ります。",
+      "learning_point_ja": "자리를 봐 주다はここでは席を確保して見ていてもらうことです。",
+      "example_id": "6a05bbac-f78c-4efc-a9bc-c45a941d6b7b",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "6ac8ba73-1ad3-4d51-b4f2-6d44ac0c4387",
+          "question_id": "95403dda-f4c3-4279-815e-7eee24bd4720",
+          "prompt_ja": "相手に頼んでいることは何ですか。",
+          "correct": "席を見ていてほしい",
+          "distractors": [
+            "代わりに電話に出てほしい",
+            "荷物を家に届けてほしい"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "33e7a136-8960-41c1-a11f-c8596183f8d7",
+          "question_id": "f14916a6-76ce-4ee9-8bcb-4adbfd8c8c1c"
+        }
+      ]
+    },
+    {
+      "key": "A52",
+      "domain": "request",
+      "korean": "자료를 오늘까지 보내 달라고 하셨죠? 아직 확인할 게 남아서 내일 오전까지 보내도 괜찮을까요?",
+      "japanese": "資料を今日までに送ってほしいとおっしゃいましたよね。まだ確認することが残っているので、明日の午前までに送っても大丈夫ですか。",
+      "learning_point_ja": "오늘까지が元の期限です。내일 오전까지 보내도の可否を尋ねています。",
+      "example_id": "8fc86d5d-832c-4179-b848-d513f7db0306",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "533938cc-954e-4a7f-ac07-4b2fa5fa5d24",
+          "question_id": "666ff46a-079c-4e69-9814-fbfe2a1c277b",
+          "prompt_ja": "話し手は何の許可を求めていますか。",
+          "correct": "送付期限を明日の午前まで延ばすこと",
+          "distractors": [
+            "資料を送らずに捨てること",
+            "今日の午前中に会議を開くこと"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "694a91a8-27e0-4d94-b682-e54f02d4d2f9",
+          "question_id": "be6cf936-45bf-4b1f-9670-7d5ab8543358"
+        }
+      ]
+    },
+    {
+      "key": "A53",
+      "domain": "request",
+      "korean": "무거운 상자라 혼자 들기 어렵네요. 문까지만 같이 옮겨 주시면 그다음은 제가 할게요.",
+      "japanese": "重い箱なので一人で持つのは難しいですね。ドアまで一緒に運んでいただければ、その後は私がします。",
+      "learning_point_ja": "문까지만で手伝いの範囲を限定し、その後は自分で行うと伝えます。",
+      "example_id": "29348d62-2a30-42de-b73a-b56af4dac606",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "e6be5b01-46ea-4c9d-8d97-828e9f1bacc6",
+          "question_id": "5d8b94e9-675b-4c43-b5cf-2a22099bc63b",
+          "prompt_ja": "どこまで手伝ってほしいと言っていますか。",
+          "correct": "ドアまで",
+          "distractors": [
+            "建物の外までずっと",
+            "最後まで全部"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "e569c692-995e-4c55-8de9-f779ec2bd739",
+          "question_id": "d0e44794-c42e-4e3d-959f-dfd0b4c735ea"
+        }
+      ]
+    },
+    {
+      "key": "A54",
+      "domain": "request",
+      "korean": "오늘은 아이를 돌봐야 해서 모임에 못 가요. 다음에는 꼭 갈 테니까 오늘은 저 없이 시작해 주세요.",
+      "japanese": "今日は子どもの世話をしなければならないので、集まりに行けません。次は必ず行くので、今日は私抜きで始めてください。",
+      "learning_point_ja": "못 가요は欠席の連絡です。저 없이 시작してほしいと依頼しています。",
+      "example_id": "06e816ab-fdaf-4795-88aa-df016982223e",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "0261f28f-d52e-4c78-985d-dd60171a6dc2",
+          "question_id": "5e502399-901e-4765-b0a5-48f4b53491db",
+          "prompt_ja": "今日の集まりをどうしてほしいと言っていますか。",
+          "correct": "話し手を待たずに始める",
+          "distractors": [
+            "全員が来週まで待つ",
+            "話し手の家へ場所を変える"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "10f85dd3-88ed-49f6-b745-43d449103c5d",
+          "question_id": "65e0e8f6-a6f3-45ee-b8f0-4cb80a45cabd"
+        }
+      ]
+    },
+    {
+      "key": "A55",
+      "domain": "request",
+      "korean": "차를 빌려 드리고 싶은데 내일은 제가 써야 해요. 모레는 괜찮으니까 날짜를 바꿀 수 있으면 말씀해 주세요.",
+      "japanese": "車をお貸ししたいのですが、明日は私が使わなければなりません。あさってなら大丈夫なので、日を変えられたら教えてください。",
+      "learning_point_ja": "내일は断り、모레は代案です。빌려 드리다の貸す側は話し手です。",
+      "example_id": "1701ca0e-7b2d-4a12-b728-c646f6ffaee5",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "4229dfa5-5119-4e6d-96d1-150c61ee062b",
+          "question_id": "3c05dc6b-ed98-4736-b265-27d36b6f5131",
+          "prompt_ja": "車を貸せると言っているのはいつですか。",
+          "correct": "あさって",
+          "distractors": [
+            "明日",
+            "今日の夜だけ"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "6c5bb5b2-8f23-4fd4-9424-859af9df938b",
+          "question_id": "56fea544-4d65-4453-b4e0-f0ccca23b769"
+        }
+      ]
+    },
+    {
+      "key": "A56",
+      "domain": "request",
+      "korean": "회의 중이라 지금은 길게 이야기하기 어려워요. 급한 내용만 문자로 남겨 주시면 끝나고 전화할게요.",
+      "japanese": "会議中なので今は長く話すのが難しいです。急ぎの内容だけメッセージで残してくだされば、終わってから電話します。",
+      "learning_point_ja": "今の依頼は문자로 남겨 주세요、話し手の後の行動は전화할게요です。",
+      "example_id": "4730d587-0890-4ff4-add1-67e6623088ed",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "8ecdefeb-ab8f-4681-967c-0889cfa596c4",
+          "question_id": "346338a4-2e6e-434c-aa71-0e23e3f04725",
+          "prompt_ja": "今、相手にしてほしいことは何ですか。",
+          "correct": "急ぎの内容をメッセージで送る",
+          "distractors": [
+            "会議が終わるまで通話を続ける",
+            "会議室まで直接来る"
+          ]
+        },
+        {
+          "task": "meaning",
+          "listening_id": "1d448be6-cf7d-4ec0-98f4-97f0ab39ac76",
+          "question_id": "c74698a8-fed0-404b-bd90-dbcaf091a0b2"
+        }
+      ]
+    },
+    {
+      "key": "A57",
+      "domain": "request",
+      "korean": "함께 가자고 해 주셔서 고마워요. 이번에는 선약이 있어서 어렵지만 다음에도 꼭 불러 주세요.",
+      "japanese": "一緒に行こうと誘ってくださってありがとうございます。今回は先約があって難しいですが、次もぜひ声をかけてください。",
+      "learning_point_ja": "이번에는 어렵지만と다음에도 꼭で、今回の断りと今後の希望を区別します。",
+      "example_id": "c4693812-857b-4a19-be9f-7849c0eb1872",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "463ef927-6b08-4d08-85b8-0a0a9e00bf05",
+          "question_id": "08ec2bcd-ee62-4663-bbb3-bda655628438",
+          "prompt_ja": "話し手の意図として合うものはどれですか。",
+          "correct": "今回は断るが次も誘ってほしい",
+          "distractors": [
+            "今回も次回も誘わないでほしい",
+            "今回の参加を約束する"
+          ]
+        },
+        {
+          "task": "meaning",
+          "listening_id": "d3f6ee26-2dd6-4f35-bc4d-c7f21c74a4cc",
+          "question_id": "9d9873ad-9a13-4ee9-802c-68a6ad5f4d01"
+        }
+      ]
+    },
+    {
+      "key": "A58",
+      "domain": "request",
+      "korean": "창문을 열어도 괜찮을까요? 바람이 세면 조금만 열어 두었다가 닫을게요.",
+      "japanese": "窓を開けてもよいですか。風が強ければ、少しだけ開けておいてから閉めます。",
+      "learning_point_ja": "열어도 괜찮을까요は許可の依頼です。바람이 세면はその後の条件です。",
+      "example_id": "da8bca54-db6c-46e7-9b98-05a03c51875f",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "55a9c619-e365-4703-ad1a-232d26194021",
+          "question_id": "858f53d2-95ba-4d40-9513-4dc6e4ebd296",
+          "prompt_ja": "話し手が許可を求めていることは何ですか。",
+          "correct": "窓を開けること",
+          "distractors": [
+            "冷房を強くすること",
+            "窓を修理すること"
+          ]
+        },
+        {
+          "task": "meaning",
+          "listening_id": "bde9a72b-00ad-49c9-b612-5172e6045d51",
+          "question_id": "43d33dbe-aaa3-469f-adbc-0e213ef5304a"
+        }
+      ]
+    },
+    {
+      "key": "A59",
+      "domain": "request",
+      "korean": "발표 순서를 바꿔 주실 수 있나요? 제가 먼저 해야 한다는 건 아니고 오후에 할 수 있으면 좋겠어요.",
+      "japanese": "発表の順番を変えていただけますか。私が先にしなければならないということではなく、午後にできればありがたいです。",
+      "learning_point_ja": "먼저 해야 한다는 건 아니고と、先にする希望を明確に否定しています。",
+      "example_id": "990ce76e-024d-443a-8c81-91419f485ddf",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "ccdde016-5526-4d91-a9f8-24dfb7c2492b",
+          "question_id": "4bd0a6c8-d059-40c4-a520-7e913dbe83f4",
+          "prompt_ja": "発表の希望は何ですか。",
+          "correct": "午後に発表する",
+          "distractors": [
+            "必ず最初に発表する",
+            "発表そのものを取りやめる"
+          ]
+        },
+        {
+          "task": "korean",
+          "listening_id": "821b44f5-2b6f-44bd-b6f6-58c0ac047f71",
+          "question_id": "e5a7e2b7-f50c-4e6a-8670-459ec57ffb52"
+        }
+      ]
+    },
+    {
+      "key": "A60",
+      "domain": "request",
+      "korean": "우산을 같이 쓰자고 해 줘서 고마워요. 저는 여기서 잠깐 기다렸다가 비가 그치면 갈게요.",
+      "japanese": "傘に一緒に入ろうと言ってくれてありがとう。私はここで少し待って、雨がやんだら行きます。",
+      "learning_point_ja": "感謝の言葉の後に、自分は待ってから行くという別の行動を伝えています。",
+      "example_id": "faa4afbe-69a3-4717-b88f-406d20d8d361",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "6be60068-270c-4453-8cad-2b89e13776c6",
+          "question_id": "1669479c-9263-4792-9161-fd66e68f6b85",
+          "prompt_ja": "話し手はこの後どうしますか。",
+          "correct": "ここで雨がやむのを待つ",
+          "distractors": [
+            "相手の傘に入ってすぐ出発する",
+            "傘を買いにすぐ出かける"
+          ]
+        },
+        {
+          "task": "korean",
+          "listening_id": "a05595b8-d55a-492e-8ada-e5a17f82b086",
+          "question_id": "05cf9e08-73e4-482c-912e-613d3b540ef3"
+        }
+      ]
+    }
+  ]
+}

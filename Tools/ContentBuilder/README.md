@@ -79,3 +79,10 @@ python3 -m unittest discover -s Tools/ContentBuilder -v
 이후 배포에는 `--previous 이전배포.sqlite`를 반드시 지정합니다. 모든 오류를 수정한 뒤 출력하며 실패 시 기존 출력은 보존합니다. --validate-only도 같은 import/validate 경로를 실행하지만 임시 파일을 버립니다. warning은 삭제·병합하지 않고 검수 대상으로 제공합니다. 대용량 테스트도 동일한 validation을 거칩니다.
 
 DATA-01 production은 schema 3 / content 5 / reader 4입니다. schema 2 입력은 회귀 검증용으로 계속 지원합니다. `production-empty.json`과 `hangul-production.json`은 과거 snapshot이며 현재 앱 DB를 덮어쓰지 않습니다. 다음 DATA 배포는 현재 배포 DB를 `--previous`로 지정하세요. 한글/발음/음성 계약은 `CONTENT_GUIDE.md` 12~14절을 따릅니다.
+
+
+## DATA10 exact SQLite writer on Mac / Cloud
+
+`setup_exact_writer.py /tmp/hangul-content-writer` creates a new external directory with checksum-pinned SQLite3.53.1 + pysqlite3 0.6.1, disables STAT4 and uses the standard non-zone allocator. Its Connection adapter delegates missing iterdump() to Python stdlib dump, preserving existing dump-based progress checks. It does not alter system Python or repository inputs. Put the printed `bin` path first in PATH before existing builder/verify commands. See `Docs/DATA10_WRITER.md` for source hashes, the Mac allocator/statistics-layout investigation and actual byte comparison. A version string alone is insufficient; compare the frozen/current bundle bytes. Production/previous inputs are never setup outputs.
+
+DATA10-A's canonical source remains `Content/production.json`. `prepare_data10_a.py` reconstructs only frozen24→25 from fixed UUIDs/reviewed `data10-a-authoring.json`; temporary outputs cannot overwrite Content/Resources/Fixtures. `audit_data10_a.py` reports all old rows/fingerprints, Source/DB and frozen24/older file preservation; `test_data10_a_content.py` also tests actual bounded repository SQL, four tasks, source separation and on-disk UserProgress preservation. Original stage gates remain fixed to their historical release fixtures.

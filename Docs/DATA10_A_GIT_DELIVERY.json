@@ -1,0 +1,61 @@
+{
+  "accessible_blob_count": 972,
+  "over50MiB": 0,
+  "over100MiB": 0,
+  "largest": [
+    {
+      "sha": "55df96f2718f6514ec14e0651b0d90db66b3d081",
+      "bytes": 19214336,
+      "path": "Resources/content.sqlite"
+    },
+    {
+      "sha": "152b9eff6864cb8044f34ac82bb37e7e7dc9d53f",
+      "bytes": 18841600,
+      "path": "Resources/content.sqlite"
+    },
+    {
+      "sha": "e4a0a2fea7b092e780370bd0f3ab1460c011dc50",
+      "bytes": 18812928,
+      "path": "Tests/Fixtures/content-v22-production.sqlite"
+    },
+    {
+      "sha": "17f2ea87217285281fce1bf833e9d90b1e37e8f5",
+      "bytes": 18812928,
+      "path": "Tests/Fixtures/content-v23-production.sqlite"
+    },
+    {
+      "sha": "7ad568ee125f58c724736f68fa05a8b4a7eb04bf",
+      "bytes": 18509824,
+      "path": "Tests/Fixtures/content-v21-production.sqlite"
+    },
+    {
+      "sha": "6a46344f8a83661176115fa7c3a6d951ac0b30ad",
+      "bytes": 18194432,
+      "path": "Tests/Fixtures/content-v20-production.sqlite"
+    },
+    {
+      "sha": "112e8814b7cecc1720651d6825eac941d1a322a8",
+      "bytes": 17932288,
+      "path": "Tests/Fixtures/content-v19-production.sqlite"
+    },
+    {
+      "sha": "11213912dfb5a5a3673f077629ead32176b1b83a",
+      "bytes": 17869441,
+      "path": "Content/production.json"
+    }
+  ],
+  "push_first_attempt": "HTTP400 RPC failed; no remote branch/PR created; normal retry planned; no data deletion/history rewrite/force",
+  "implementation_commit": "e07e823ef9f9feed54e1930d0c9ebe0486a201da",
+  "first_push_succeeded": false,
+  "first_pr_created": false,
+  "retry_command": "git -c http.version=HTTP/1.1 -c http.postBuffer=524288000 push -u origin codex/data10-2-listening-batch-a",
+  "normal_retry_succeeded": true,
+  "remote_head_verified": "e07e823ef9f9feed54e1930d0c9ebe0486a201da",
+  "pr": "https://github.com/Raccoon26/Project-Hangul-Study/pull/19",
+  "mergeability_before_handoff": "MERGEABLE/CLEAN",
+  "statusCheckRollup": [],
+  "required_check_result": "no checks reported; CLI exit1; no remote CI PASS claim",
+  "force_push": false,
+  "destructive_reset": false,
+  "lfs_or_history_rewrite": false
+}
