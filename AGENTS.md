@@ -90,3 +90,11 @@
 - canonicalSource는production.json이다. A/B 정확한 gate는20/21 불변fixture를 사용하고 C가 모든21→22 보존을 확인한다. prepare_data09_c는21+고정ID+검수authoring으로동일22만 재현한다. 다음 실제 변경은현재22를previous로 보존한다.
 - 기존 Grammar12개 관계 끝점 revision+1만data09-c-revised-ids.json에따라 허용했다. 기존 본문/ID/배치/Progress/SRS·학습 엔진·광고/구매를 보호한다. 데이터만으로Schema/reader/UserProgress를 올리지 않는다.
 - 최신 근거는DATA09_PROGRESS §10/Docs/DATA09_C_*다. 재개 후portable335PASS와assistant 한일 재독은 독립 사람/사전/iOS/출시 완료가 아니다. native BLOCKED/사람 NOT TESTED/B—Conditional·기존P1 gate를 유지하고, 소실된 이전로그나 미완료 검사를PASS로 만들지 않는다. 미승인7개/163후보 전체재연결을 완료로 표시하지 않고 후속단계/DATA10을 자동 시작하지 않는다.
+
+
+## DATA-09-5 현재 최종 감사 기준
+
+- 명시 요청에 따라 A~C 신규54문법/216고유예문/216문제를 전수 AI 자체 검수하고, 25개 기존 ID/31필드를 교정했다. 현재 Content23/Schema4/reader7/UserProgress10이며 수량·ID·정답 choice ID·관계·배치·진도 정책은 유지한다. 장기350~500 및 DATA09 신규45~60/180~300/180~300 목표를 축소하지 않는다.
+- Content22 Source/DB는 불변 fixture다. A/B/C 정확한 gate는20/21/22 fixture로 당시 승인 상태를 검증하며, final gate가22→23의25개 revision/31필드만 허용한다. production.json이 유일한 canonical Source이고 final prepare는22+명시 manifest로 동일23만 재현한다. 다음 실제 본문 변경은 현재23을 previous로 먼저 보존한다.
+- 선행163건의 해결120/조건부 허용7/미해결36은 설명 범위 판단이다. 새 재사용·배치 승인으로 해석하지 않고 기존 Batch B 재사용4개는 보존한다. Level 검토8건·부수 문형·인용 수식/양보의 기능 차이와 남은 교육 순서를 자동 완료 처리하지 않는다.
+- 최신 근거는 DATA09_PROGRESS §11 및 Docs/DATA09_FINAL_*다. portable346 PASS·AI 전수/고위험/무작위 재독은 독립 원어민/교사·외부 사전·Swift/iOS 검증을 대신하지 않는다. native BLOCKED/사람 NOT TESTED/B—Conditional·기존 native P1 gate를 유지하며 후속 단계/DATA10을 자동 시작하지 않는다.

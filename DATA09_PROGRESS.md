@@ -1,5 +1,13 @@
 # DATA-09 진행 기록
 
+# DATA-09-5 / 최종 품질 감사 — 현재 Production
+
+**Content23 / Schema4 / reader7 / UserProgress10.** A~C 신규54문법·216고유예문·216문제 전수 AI 자체 검수, 고위험18개 문법·무작위45개 별도 재감사 후 **25개 ID/31필드** 교정. 수량·기존 ID·정답 ID·학습 배치·Progress/SRS 정책 유지. 선행 후보163건은 **해결120 / 조건부 교육 허용7 / 미해결36**이며 원래 Level 검토8건은 모두 미해결이다. 전체 Grammar96(入門22/初級20/初中級54), Example4,813, Question3,553(Grammar300), Vocabulary2,287.
+
+최종 portable **346/346 PASS**(380.927초, 실패/오류/skip0, exit0), 전용11/11 PASS. strict0errors/기존10warnings·FK0/integrity ok·Source25테이블65,983행 및 Importer 재구성 DB byte 일치. **독립 원어민·교사/외부 사전 검수 NOT TESTED, Swift/Xcode/iOS/XCTest137정의·실행0 BLOCKED, B—Conditional 유지**. AI 검수·자동 검사와 사람 승인/출시 완료를 구분한다. 신규 목표54/216/216 및 장기Grammar/Expressions350~500 유지. [상세 감사](Docs/DATA09_FINAL_REVIEW.md), [실제 결과](Docs/DATA09_FINAL_RESULTS.json), [누적 기록 §11](DATA09_PROGRESS.md). DATA09-5에서 종료하며 다음 단계는 시작하지 않았다. 아래 ‘현재’·수량·PASS는 각 단계 당시 이력이다.
+
+---
+
 # DATA-09-4 / Batch C — 현재 Production
 
 **Content22 / Schema4 / minReader7 / UserProgress10.** C 신규 初中級 Grammar18개·고유 신규 Example72개·Grammar Question72개를 한일 Self Review/중복·ID/strict 검증 후 반영했다. A/B/C 누적 **신규54문법·216고유예문·216문법문제**로 전체 목표45~60 /180~300 /180~300 충족. A/B의 기존 예문4개 재사용은 신규 수량에서 제외했다. 전체 Grammar96(入門22/初級20/初中級54), Example4,813(문장4,800+발음13), Question3,553(그중 Grammar300), Vocabulary2,287. 새 코스1·레슨6(59~64), 기존 본문·ID·배치 보존·기존 관계 끝점12개만 revision+1.
@@ -342,3 +350,68 @@ prepare는불변21+고정UUID+검수authoring으로이번22만 재현한다. 최
 ### 10.6 Git 전달 기록
 
 콘텐츠 커밋 `b76b9c4230e5fc216068bbb313a1d0a5027e5dcf`를 `data09-4/grammar-batch-c`에 일반 push했고 성공했다. 대용량 파일 오류0, force push/LFS/원본 삭제/이력 재작성0. [PR #13](https://github.com/Raccoon26/Project-Hangul-Study/pull/13)을 main 대상으로 생성했다. 이 기록은 merge 전 전달 시점이며, 최종 merge/main 일치는 PR 상태·Git 이력과 최종 응답으로 확인한다.
+
+
+## 11. DATA-09-5 / A~C 최종 품질 감사
+
+### 11.1 시작·실제 검수 범위
+
+2026-10-20 UTC, clean main/origin/main `b61866a7669bc1bf3fa2211fe45b08457b34cb0e`(PR #13)에서 `data09-5/final-content-audit`로 시작했다. 사전 미커밋 변경0. 실제 Content22/Schema4/reader7/UserProgress10과 기존 문서·A/B/C 원본/검수 기록을 대조했다. 현재22 Source SHA `13a6739bb93daee36426f04ac83b95f7244a62c227ea90b0ddda2d179eeeafeb`, DB SHA `22c3257b4204309158dfdea0f0bfd7d870fa0c540bd21ee7f240673df052e0f4`를 gzip/SQLite 불변 fixture로 보존했다. 기존 DEV01~14/DATA01~08·원래42 Grammar·A/B/C authoring·registry·과거 fixture·런타임 코드를 보호했다.
+
+assistant가 신규 **Grammar54개(각 Batch18), 고유 신규 Example216개(각72), Question216개(각72), 선택지648개와 전 해설**, 기존 DATA08 재사용 예문4개를 실제 DB에서 재독했다. 한국어 형태·의미·품사 결합·시제·불규칙·띄어쓰기·Register, 일본어 의미/설명/문체·높임·수혜자·부정 범위와 유사 문법 차이를 대조했다. 기존 전체 Grammar96개나 입력 문제3,077개의 언어 전수 재검수로 확대 표현하지 않는다.
+
+전수 재독과 별도로 고위험18개 Grammar의 form/constraints/confusion +첫 Example18개 +선택 Question18개/전 선택지·해설을 재감사했다. 무작위는 seed20261020095·각 Batch3 Grammar/6 Example/6 Question, 총45개를 한 번 추출한 뒤 교정 candidate에서 별도로 재독했다. 전수/고위험/무작위의 겹침은 독립 검수자·추가 콘텐츠 수로 합산하지 않는다. 독립 표시되는 성별 문맥3문항도 추가 확인했다. **검수 주체는 모두 AI 자체 검수이며 독립 원어민·교사 검수 및 외부 사전 대조는 NOT TESTED**다.
+
+문법별 검토 메모·실제 ID는 [EDITORIAL](Docs/DATA09_FINAL_EDITORIAL.json), 고위험/무작위의 항목별 재독 근거는 [REAUDIT](Docs/DATA09_FINAL_REAUDIT.json), 전체 방법·한계·수정표는 [FINAL_REVIEW](Docs/DATA09_FINAL_REVIEW.md)에 있다.
+
+### 11.2 교정·버전·수량 보존
+
+**13개 사항 /25개 ID /31필드**를 교정했다. 소유 엔티티는 Grammar9·Example8·Question8이며, 선택지3필드의 소유자는 해당 Question이다. `들려면`의 기본형(들다), 면의 일반·반복 조건, 니까의 근거 범위, 때절의 상대적 시제, 고 있다의 결과 유지 용법, 현재 추측 장면의 특정, 늦은 회의 종료의 원인 단정, 일본어 `数日間早寝`와 김에 설명, 신청 주체, 미도입 으니→니까, 노출된 내부 P25/P26, 동생의 성별 Note/독립 문항 장면을 수정했다. 으니 자체나 남동생 장면의 弟 번역을 비문으로 판정한 것이 아니다. 정확한 before/after/이유는 [manifest](Content/data09-final-corrections.json).
+
+본문 교정으로 **Content22→23**, Schema4/reader7/UserProgress10 유지. 기존 Stable ID/kind/created_at/정답 choice ID/answer_json/선택지 ordinal/관계/Level/학습 순서를 보존하고 [25개 소유 ID](Content/data09-final-revised-ids.json)의 revision만1 증가했다. 신규·삭제·비활성화·진도 재작성0. 구 A/B/C authoring은 당시 근거로 보존하고, 현재 canonical Source는 production.json이다. `prepare_data09_final.py`는 동결22+명시 manifest로 같은23만 재현한다. C21→22 검사는22 불변 fixture로 고정하여 당시 assertion을 그대로 유지하고 새22→23 exact delta 검사를 추가했다.
+
+A/B/C 신규 수량은 **54 Grammar /216고유 Example /216 Grammar Question**, 전체 목표45~60/180~300/180~300 충족 유지. 기존4개 예문 재사용은 신규로 계산하지 않는다. 장기 Grammar/Expressions350~500 목표를 유지하며 현재96 대비254~404개가 남는다.
+
+### 11.3 DATA08 선행 후보163건
+
+이전163개 ID·한국어·일본어·원래 분류를 보존하고 각 문장을 다시 읽어 [FINAL_PREREQUISITES](Docs/DATA09_FINAL_PREREQUISITES.json)에 판단·실제 지원 Grammar ID·미해결 이유를 기록했다.
+
+| 원래 분류 | 해결 | 교육적으로 허용 가능 | 미해결 |
+| --- | ---: | ---: | ---: |
+| 부족 문법147 | 120 | 4 | 23 |
+| Level·배치 검토8 | 0 | 0 | 8 |
+| 단순 검토8 | 0 | 3 | 5 |
+| **총163** | **120** | **7** | **36** |
+
+‘해결’은 지적된 문형의 설명 범위를 현재 카드로 지원할 수 있다는 뜻이며, 모든 단어·부수 문형 숙달·사람 승인·실제 배치 완료가 아니다. N이라도 차선 선택만으로 신분/규모 양보를 해결하지 않았고, 평서 인용 수식만으로 달라는 요구/기다리라는 말투를 승인하지 않았다. P34 이유 일반화 부정, 고 나니/으니 발견, 려는·기 명사화·게 부사화·는 게 낫다·아어하다·아어두다·은 끝에·아어서는 안되다 등의 범위와 Level8건을 남겼다. 이번163건의 원문/Level/관계 변경·새 재사용 승인0. 기존 Batch B의 승인 재사용4개는 별도 flag로 표시하고 그대로 보존했다.
+
+### 11.4 객관식·입력·교육적 한계
+
+신규216문제는 모두 단일 객관식·각3선택지/정답1개. 문맥이 부족했던 F01/F07/F09 및 독립 성별 문맥3문항을 교정했고 정답·choice ID는 그대로다. C17의 `들을 수록`/`들을수록`은 의도된 띄어쓰기 구별이다. 감사 도구 개발 중 공백을 지운 중복 검사로 이 문항을 오탐1건 냈고, 문항의 지식 목표에 맞춰 선택지 내부 공백을 보존했다. 기존 Validator나 문항을 삭제/완화한 것이 아니다.
+
+신규 문법용 직접입력은 **0 / 적용 대상 없음**. 기존 text_input1,227/listening_input1,850개는 accepted nonempty·정규화 중복 계약 전수 자동 확인, 기존 Swift ProductionAnswer 코드와 portable 회귀 범위를 대조했다. Swift 판정·IME·실제 iOS 입력 실행은 BLOCKED다. 일반 입력은 NFC/공백과 exact/spacing/incorrect를 구분하고, 끝 .!? 생략은 dictation에만 적용한다. 기존 엔진의9형 생성과 새54개 문형 전체 자동 생성을 혼동하지 않는다.
+
+A/B 기본 의미 선택 프레임36개 등 교육적 반복성·변별도·실제 학습효과는 사람/학습자 검증이 남는다. 주선행 DAG는 순환/단원 순서 역참조0이나 예문 속 모든 부수 문형의 선행 숙달은 별도다. A10의 대화할 시간, A18의 신청할 때 등 공통 기초보다 먼저 보이는 조합은 사전 리뷰/도움말·수업 순서 검토가 필요하며 기존 단원 순서를 임의 변경하지 않았다. 미해결36개를 완료로 바꾸거나 이번 단계에서 새 문형·듣기·직접입력·통합 단계를 시작하지 않는다.
+
+진행 중 GrammarSession은 문항 본문·해설·선택지를 포함한 bounded snapshot을 보존한다(Models/GrammarModels.swift, GrammarLearning.expose). 따라서 이번 교정은 Content23에서 새로 읽는 문항에 적용되며, 이미 저장된 세션의 과거 문구를 소급 재작성하지 않았다. 정답 ID를 유지해 기존 판정 계약을 보존했지만 실제 iOS Resume 확인은 BLOCKED다.
+
+### 11.5 실제 자동 검사·Production 반영
+
+- **PASS** 최종 candidate23에서 `sh Tools/verify.sh --portable`: **346/346**, 380.927초, failures/errors/skipped0, exit0. 전용11/11,16.794초, exit0. 첫28필드 candidate는345/345 PASS였으나 독립 성별 문맥3문항을 추가 교정한 뒤 전체를 다시 실행했다. 첫 결과는 PRELIMINARY 로그에 분리했으며 최종 검증으로 대체하지 않았다.
+- **PASS** 기존 Importer·strict `--previous content-v22-production.sqlite`:0errors/기존10warnings(발음 단문5/기존 동형어5), 25개 Source 테이블65,983행·FK0·integrity ok. DATA08 구조 감사0errors/기존5warnings. DATA09 전용 계약0errors/0warnings. 기존 오형태/과도한 단정7개 문구를 Production 전 범위 재검색해 재등장0을 확인했다. broader trigger의 정상 문장·의도된 오답은 무조건 치환하지 않았다.
+- **PASS** 전체96 Grammar/주선행73간선 DAG:순환0·누락 target0. 이 검사는 모든 예문의 부수 문형 선행 학습 완료를 뜻하지 않는다.
+- **PASS** candidate 전체 검증 전후244개 코드/테스트/입력 SHA 일치, 기존 fixture·Batch 근거·런타임147개 파일을 baseline SHA와 대조해 보존. 검증 완료 candidate만 Production Source/DB로 반영했고, 실제 Production Source를 Importer로 다시 만들어 DB31개 테이블/파생 index/schema를 포함해 **byte/SHA까지 동일**함을 확인했다.
+- **PASS / SQL 한정** 실제 repository SQL·임시 user10 디스크에 Content22→23 교체 시 기존 SRS stage4/due900·Favorites·부분 session snapshot 보존 및 중복 등록 시 due 불변 확인. 기존 전체 portable 통합·회귀도 통과했다. 실제 개인 DB·Swift Resume 실행과 혼동하지 않는다.
+- **BLOCKED** xcodebuild/swift 실행 파일 없음. iOS Debug/Release/SDK·XCTest137정의/실행0·실기기 음성/IME/중단/메모리/3~10분·AdMob/StoreKit 미실행. **NOT TESTED** 독립 원어민·교사/외부 사전 검수. 새 P0/P1 런타임 오류는 이번 실행 범위에서 재현하지 않았고 기존 native P1 gate/B—Conditional은 유지한다.
+
+| Level | Vocabulary | Example | Grammar | Question |
+| --- | ---: | ---: | ---: | ---: |
+| 한글 | 0 | 0 | 0 | 59 |
+| 入門 | 306 | 659(발음13 포함) | 22 | 156 |
+| 初級 | 800 | 1,577 | 20 | 134 |
+| 初中級 | 1,181 | 2,577 | 54 | 3,204 |
+| **전체** | **2,287** | **4,813(문장4,800)** | **96** | **3,553** |
+
+Meaning2,420/Listening1,936/Course8/Lesson103/content_items15,935/grammar_examples389로 수량 변화0. Source SHA `c8a74e3b61809aabe5d2dd88768446f986792f2585d40ef78327c50b2b6c5b1e`, DB SHA `0a4051d3c5423441b50348935d64559504f1553a55fd3ea472c84b40c9ebc025`. JSON/SQLite 원본을 삭제하거나 Git 이력을 재작성하지 않았다. 새22 DB fixture18,812,928 bytes 및 gzip 원본2,459,174 bytes는100MiB 제한 아래라 LFS 전환은 필요하지 않았다.
+
+근거: [실제 결과](Docs/DATA09_FINAL_RESULTS.json), [전체 로그](Docs/DATA09_FINAL_TEST_LOG.txt), [전용 로그](Docs/DATA09_FINAL_FOCUSED_LOG.txt), [strict build](Docs/DATA09_FINAL_BUILD.json), [실제 Production 재구성](Docs/DATA09_FINAL_RECONSTRUCTION.json), [Source/DB 수량](Docs/DATA09_FINAL_COUNTS.json), [입력 SHA](Docs/DATA09_FINAL_VERIFIED_INPUTS.json). `PROJECT_STATUS.md`, `CONTENT_GUIDE.md`, `DATA_PROGRESS.md`, `RELEASE_CHECKLIST.md`, `AGENTS.md`를 실제23과 미검증 gate에 맞춰 갱신했다. **DATA09-5에서 종료하며 DATA09-6/DATA10은 시작하지 않았다.**

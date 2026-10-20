@@ -1,0 +1,24 @@
+{
+  "native": {
+    "xcodebuild": {
+      "command": [
+        "xcodebuild",
+        "-version"
+      ],
+      "status": "BLOCKED",
+      "error": "executable not found",
+      "executed_tests": 0
+    },
+    "swift": {
+      "command": [
+        "swift",
+        "--version"
+      ],
+      "status": "BLOCKED",
+      "error": "executable not found",
+      "executed_tests": 0
+    }
+  },
+  "independent_native_teacher_review": "NOT TESTED",
+  "external_dictionary_review": "NOT TESTED"
+}

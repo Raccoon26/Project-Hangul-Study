@@ -1,0 +1,51 @@
+{
+  "stage": "DATA-09-5",
+  "content_version": 23,
+  "schema_version": 4,
+  "reader_version": 7,
+  "user_progress_version": 10,
+  "portable": {
+    "status": "PASS",
+    "count": 346,
+    "seconds": 380.927,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "exit_code": 0,
+    "command": "sh Tools/verify.sh --portable",
+    "cwd": "/tmp/data09-final-verification-v2",
+    "log": "Docs/DATA09_FINAL_TEST_LOG.txt"
+  },
+  "focused": {
+    "status": "PASS",
+    "count": 11,
+    "seconds": 16.794,
+    "exit_code": 0,
+    "log": "Docs/DATA09_FINAL_FOCUSED_LOG.txt"
+  },
+  "preliminary": {
+    "count": 345,
+    "seconds": 363.457,
+    "status": "PASS; superseded by final candidate after 3 standalone-question scene corrections",
+    "log": "Docs/DATA09_FINAL_PRELIMINARY_TEST_LOG.txt"
+  },
+  "production_reconstruction": "PASS; byte-identical SQLite, all31 tables/derived data included",
+  "verified_input_hashes": 244,
+  "preserved_original_files": 147,
+  "native_build": "BLOCKED",
+  "native_xctest": {
+    "status": "BLOCKED",
+    "defined": 137,
+    "executed": 0
+  },
+  "independent_native_teacher_review": "NOT TESTED",
+  "external_dictionary_review": "NOT TESTED",
+  "new_direct_input": "N/A: 0 new items",
+  "prerequisites": {
+    "resolved": 120,
+    "pedagogically_allowable": 7,
+    "unresolved": 36
+  },
+  "release": "B—Conditional",
+  "next_stage_started": false
+}

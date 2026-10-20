@@ -1,0 +1,16 @@
+test_all163_decisions_preserve_original_text_and_do_not_claim_human_review (test_data09_final_audit.Data09FinalTests.test_all163_decisions_preserve_original_text_and_do_not_claim_human_review) ... ok
+test_all_cohort_counts_choices_duplicates_and_input_contracts (test_data09_final_audit.Data09FinalTests.test_all_cohort_counts_choices_duplicates_and_input_contracts) ... ok
+test_disk22_to23_swap_preserves_srs_favorite_and_question_snapshot (test_data09_final_audit.Data09FinalTests.test_disk22_to23_swap_preserves_srs_favorite_and_question_snapshot) ... ok
+test_exact22_id_revision_and_approved_payload_delta_only (test_data09_final_audit.Data09FinalTests.test_exact22_id_revision_and_approved_payload_delta_only) ... ok
+test_final_audit_rejects_observed_bad_explanations_and_duplicate_choices (test_data09_final_audit.Data09FinalTests.test_final_audit_rejects_observed_bad_explanations_and_duplicate_choices) ... ok
+test_immutable22_and_deterministic_strict23_reconstruction (test_data09_final_audit.Data09FinalTests.test_immutable22_and_deterministic_strict23_reconstruction) ... ok
+test_known_causal_tense_aspect_and_context_regressions (test_data09_final_audit.Data09FinalTests.test_known_causal_tense_aspect_and_context_regressions) ... ok
+test_no_answer_or_choice_id_change_to_inflight_questions (test_data09_final_audit.Data09FinalTests.test_no_answer_or_choice_id_change_to_inflight_questions) ... ok
+test_sample_draw_and_editorial_coverage_are_fixed_and_honest (test_data09_final_audit.Data09FinalTests.test_sample_draw_and_editorial_coverage_are_fixed_and_honest) ... ok
+test_sibling_gender_context_is_visible_in_standalone_questions (test_data09_final_audit.Data09FinalTests.test_sibling_gender_context_is_visible_in_standalone_questions) ... ok
+test_strict_gate_rejects_no_revision_and_bad_reference_and_input (test_data09_final_audit.Data09FinalTests.test_strict_gate_rejects_no_revision_and_bad_reference_and_input) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 16.794s
+
+OK

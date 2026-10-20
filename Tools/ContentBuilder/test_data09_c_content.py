@@ -20,20 +20,24 @@ from test_lookup_sql import user
 from prepare_data09_c import REUSED, authored, prepare
 from types import SimpleNamespace
 
-SOURCE=Path(os.environ.get('DATA09_C_SOURCE',ROOT/'Content/production.json'))
-BUNDLE=Path(os.environ.get('DATA09_C_BUNDLE',ROOT/'Resources/content.sqlite'))
+SOURCE=Path(os.environ.get('DATA09_C_SOURCE',ROOT/'Tests/Fixtures/content-v22-production.json.gz'))
+BUNDLE=Path(os.environ.get('DATA09_C_BUNDLE',ROOT/'Tests/Fixtures/content-v22-production.sqlite'))
 
 
 class Data09BatchCTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
+        global SOURCE
+        cls.released_source=tempfile.TemporaryDirectory()
+        if SOURCE.suffix=='.gz':
+            raw=gzip.decompress(SOURCE.read_bytes());SOURCE=Path(cls.released_source.name)/'content22.json';SOURCE.write_bytes(raw)
         cls.source=json.loads(SOURCE.read_text())
         cls.registry=json.loads((ROOT/'Content/data09-c-ids.json').read_text())
         cls.approved=set(json.loads((ROOT/'Content/data09-c-revised-ids.json').read_text()))
         cls.old=sqlite3.connect(ROOT/'Tests/Fixtures/content-v21-production.sqlite')
         cls.db=sqlite3.connect(BUNDLE.resolve().as_uri()+'?mode=ro',uri=True)
     @classmethod
-    def tearDownClass(cls):cls.db.close();cls.old.close()
+    def tearDownClass(cls):cls.db.close();cls.old.close();cls.released_source.cleanup()
 
     def test_strict21_to22_rebuild_all_rows_and_original21_bytes(self):
         self.assertEqual(hashlib.sha256((ROOT/'Tests/Fixtures/content-v21-production.sqlite').read_bytes()).hexdigest(),'0f53e4d93340d9ddc410d17a6cdd4aa1c3f4f69b2089e60b26a390cb9bdff009')

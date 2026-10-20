@@ -1,0 +1,582 @@
+{
+  "random_samples": [
+    {
+      "batch": "A",
+      "table": "grammar",
+      "id": "39d90697-78fd-4a3b-847c-b90d5ff07e64",
+      "review_note_ko": "목적/원인 및 명사 수혜 위하다 대조, 위한 수식형 확인.",
+      "result": "AI_REVIEWED_NO_ADDITIONAL_FINDING",
+      "human_review": "NOT TESTED"
+    },
+    {
+      "batch": "A",
+      "table": "grammar",
+      "id": "0ae7131c-e497-4b82-8286-59c84d5c9e9d",
+      "review_note_ko": "필요조건과 충분조건·의무를 구별; 부정 일본어 번역 범위 확인.",
+      "result": "AI_REVIEWED_NO_ADDITIONAL_FINDING",
+      "human_review": "NOT TESTED"
+    },
+    {
+      "batch": "A",
+      "table": "grammar",
+      "id": "e7ab89e5-358e-461a-893d-d87d057bc9ed",
+      "review_note_ko": "게 되다 상황 귀결이 화자 의지 부재를 반드시 뜻하지 않음 확인.",
+      "result": "AI_REVIEWED_NO_ADDITIONAL_FINDING",
+      "human_review": "NOT TESTED"
+    },
+    {
+      "batch": "A",
+      "table": "examples",
+      "id": "0898a2dd-62d3-4bb3-a1a6-44307042f988",
+      "review_note_ko": "静かなので 원인과 산책 습관 시제 일치.",
+      "result": "AI_REVIEWED_NO_ADDITIONAL_FINDING",
+      "human_review": "NOT TESTED"
+    },
+    {
+      "batch": "A",
+      "table": "examples",
+      "id": "e5e8323f-adc9-4c29-8183-7472425dd97e",
+      "review_note_ko": "거든 미확정 조건·저에게도 수혜/추가 대조.",
+      "result": "AI_REVIEWED_NO_ADDITIONAL_FINDING",
+      "human_review": "NOT TESTED"
+    },
+    {
+      "batch": "A",
+      "table": "examples",
+      "id": "7422d569-b6d3-4360-8601-0a6488f36183",
+      "review_note_ko": "늦은 종료가 긴 회의를 뜻하지 않는 F01 원문 문맥 확인.",
+      "result": "AI_REVIEWED_NO_ADDITIONAL_FINDING",
+      "human_review": "NOT TESTED"
+    },
+    {
+      "batch": "A",
+      "table": "examples",
+      "id": "55908a7d-22da-4208-8a02-2c268cfe67fa",
+      "review_note_ko": "부정 방침과 하겠어요 의지 유지.",
+      "result": "AI_REVIEWED_NO_ADDITIONAL_FINDING",
+      "human_review": "NOT TESTED"
+    },
+    {
+      "batch": "A",
+      "table": "examples",
+      "id": "0f1d8f3f-ac81-4ca0-871c-35380e360346",
+      "review_note_ko": "대안 대신과 잠정 의도 까 하다, 버스 타다 생략 자연스러움 확인.",
+      "result": "AI_REVIEWED_NO_ADDITIONAL_FINDING",
+      "human_review": "NOT TESTED"
+    },
+    {
+      "batch": "A",
+      "table": "examples",
+      "id": "73997df3-be1f-4aa1-a8af-b3d6aef64cfe",
+      "review_note_ko": "상태형용사 안전하다면·시도해보다 결합 확인.",
+      "result": "AI_REVIEWED_NO_ADDITIONAL_FINDING",
+      "human_review": "NOT TESTED"
+    },
+    {
+      "batch": "A",
+      "table": "questions",
+      "id": "f6449d8e-0a19-47ac-8e7c-d353b832d39e",
+      "review_note_ko": "듣기 ㄷ유지·들기 다른 기본형·으기 오형 구별.",
+      "result": "AI_REVIEWED_NO_ADDITIONAL_FINDING",
+      "human_review": "NOT TESTED"
+    },
+    {
+      "batch": "A",
+      "table": "questions",
+      "id": "b6cf6f21-00fe-4151-85aa-b1a9ea05293b",
+      "review_note_ko": "주어가 다른 바람에 가능; 앞사람의 낙상 여부 미단정.",
+      "result": "AI_REVIEWED_NO_ADDITIONAL_FINDING",
+      "human_review": "NOT TESTED"
+    },
+    {
+      "batch": "A",
+      "table": "questions",
+      "id": "676d29ca-f656-4257-abb9-08fe2542286e",
+      "review_note_ko": "휴일이라면 명사 결합, 과거 사실로 자동 단정하지 않음.",
+      "result": "AI_REVIEWED_NO_ADDITIONAL_FINDING",
+      "human_review": "NOT TESTED"
+    },
+    {
+      "batch": "A",
+      "table": "questions",
+      "id": "6006d7ce-8d51-4aa5-aa15-29b905b6df84",
+      "review_note_ko": "서로 이해하다 목적, 동의/대화회피 오답은 문장에 없음.",
+      "result": "AI_REVIEWED_NO_ADDITIONAL_FINDING",
+      "human_review": "NOT TESTED"
+    },
+    {
+      "batch": "A",
+      "table": "questions",
+      "id": "bd54dfe8-301c-4ce4-a3cd-5465025cbffc",
+      "review_note_ko": "려면 의도 실현조건과 완료/금지 오답 구별.",
+      "result": "AI_REVIEWED_NO_ADDITIONAL_FINDING",
+      "human_review": "NOT TESTED"
+    },
+    {
+      "batch": "A",
+      "table": "questions",
+      "id": "47172967-077c-4e74-b838-a78dae9226ba",
+      "review_note_ko": "살게 ㄹ보존·사게 다른 기본형·불필요 으 삽입 구별.",
+      "result": "AI_REVIEWED_NO_ADDITIONAL_FINDING",
+      "human_review": "NOT TESTED"
+    },
+    {
+      "batch": "B",
+      "table": "grammar",
+      "id": "782eb56e-972c-4c6e-81a7-911d094caac1",
+      "review_note_ko": "대신 대체와 보상 두 기능·형용사와 과거 수식 평가 범위 제한 확인.",
+      "result": "AI_REVIEWED_NO_ADDITIONAL_FINDING",
+      "human_review": "NOT TESTED"
+    },
+    {
+      "batch": "B",
+      "table": "grammar",
+      "id": "d14e4b1a-a765-440b-b8fa-4ec1b97d0a40",
+      "review_note_ko": "배경/대조 V/A/N 및 존경 결합 확인.",
+      "result": "AI_REVIEWED_NO_ADDITIONAL_FINDING",
+      "human_review": "NOT TESTED"
+    },
+    {
+      "batch": "B",
+      "table": "grammar",
+      "id": "453d0f13-3727-4335-8f6a-ddff70f570ac",
+      "review_note_ko": "F06 수정 후 때절 시간어/문맥·을의 비미래 확인.",
+      "result": "AI_REVIEWED_NO_ADDITIONAL_FINDING",
+      "human_review": "NOT TESTED"
+    },
+    {
+      "batch": "B",
+      "table": "examples",
+      "id": "f527a5e2-ccf5-4182-bdbd-1c205e45948b",
+      "review_note_ko": "열자마자 즉시 순서와 다른 주어 허용·일본어 동작 일치.",
+      "result": "AI_REVIEWED_NO_ADDITIONAL_FINDING",
+      "human_review": "NOT TESTED"
+    },
+    {
+      "batch": "B",
+      "table": "examples",
+      "id": "aeacbb0b-4caf-4e08-9d91-7aa99d4f4715",
+      "review_note_ko": "가다가 귀가 도중 중단·친구 만남 시점 확인.",
+      "result": "AI_REVIEWED_NO_ADDITIONAL_FINDING",
+      "human_review": "NOT TESTED"
+    },
+    {
+      "batch": "B",
+      "table": "examples",
+      "id": "4fad7565-85c3-419f-a528-c530e4888746",
+      "review_note_ko": "쉬는 대신 토요일 근무의 보상·기로 결정 구별.",
+      "result": "AI_REVIEWED_NO_ADDITIONAL_FINDING",
+      "human_review": "NOT TESTED"
+    },
+    {
+      "batch": "B",
+      "table": "examples",
+      "id": "1de2044b-6aa7-4b37-84dc-b183b1ecdebc",
+      "review_note_ko": "미래 예정에서도 자마자 선행시제 무중첩 확인.",
+      "result": "AI_REVIEWED_NO_ADDITIONAL_FINDING",
+      "human_review": "NOT TESTED"
+    },
+    {
+      "batch": "B",
+      "table": "examples",
+      "id": "f9259d1c-5e0d-4944-bc84-47605750e2b1",
+      "review_note_ko": "작은데 상태 수식과 용량 대조 자연스러움 확인.",
+      "result": "AI_REVIEWED_NO_ADDITIONAL_FINDING",
+      "human_review": "NOT TESTED"
+    },
+    {
+      "batch": "B",
+      "table": "examples",
+      "id": "13c0812c-02b2-47c3-bac9-3bc73ed0d8e0",
+      "review_note_ko": "는 동안 겹치는 시간 안 완료행위와 일본어 間に 대응.",
+      "result": "AI_REVIEWED_NO_ADDITIONAL_FINDING",
+      "human_review": "NOT TESTED"
+    },
+    {
+      "batch": "B",
+      "table": "questions",
+      "id": "df26401d-b0b6-4943-92d6-d572f4f2ffcf",
+      "review_note_ko": "다 보면 전망/다 보니 경험발견, 계획만이라는 오답 불가.",
+      "result": "AI_REVIEWED_NO_ADDITIONAL_FINDING",
+      "human_review": "NOT TESTED"
+    },
+    {
+      "batch": "B",
+      "table": "questions",
+      "id": "5ecbf86b-0c14-4c89-8c8b-8847a12e253c",
+      "review_note_ko": "중인데 요청의 배경이며 금지·참석경험 아님.",
+      "result": "AI_REVIEWED_NO_ADDITIONAL_FINDING",
+      "human_review": "NOT TESTED"
+    },
+    {
+      "batch": "B",
+      "table": "questions",
+      "id": "2219a7e2-6073-4de0-b25a-d601563875a6",
+      "review_note_ko": "양보/허가 되다 생략 의미 동일 아님·과거양보 허용.",
+      "result": "AI_REVIEWED_NO_ADDITIONAL_FINDING",
+      "human_review": "NOT TESTED"
+    },
+    {
+      "batch": "B",
+      "table": "questions",
+      "id": "0257c319-f11e-4f2e-bc13-0563e0d6ea30",
+      "review_note_ko": "만들다→만드는 ㄹ탈락·만들은 비표준 과거형 구별.",
+      "result": "AI_REVIEWED_NO_ADDITIONAL_FINDING",
+      "human_review": "NOT TESTED"
+    },
+    {
+      "batch": "B",
+      "table": "questions",
+      "id": "08a02a3d-bf86-44b8-90a6-d6d504610bad",
+      "review_note_ko": "열었더니 실제 경험 후 발견과 미래가정/금지 구별.",
+      "result": "AI_REVIEWED_NO_ADDITIONAL_FINDING",
+      "human_review": "NOT TESTED"
+    },
+    {
+      "batch": "B",
+      "table": "questions",
+      "id": "41ec951c-7b0f-4bdf-8d69-23bb166dd087",
+      "review_note_ko": "자마자 직후와 지속기간·망설임 오답 구별.",
+      "result": "AI_REVIEWED_NO_ADDITIONAL_FINDING",
+      "human_review": "NOT TESTED"
+    },
+    {
+      "batch": "C",
+      "table": "grammar",
+      "id": "f5fae1c3-9c30-4fe3-a9ed-6936aed2183a",
+      "review_note_ko": "지요 공유인식/확인·처음발견 네요 대조·억양/상대 배려 확인.",
+      "result": "AI_REVIEWED_NO_ADDITIONAL_FINDING",
+      "human_review": "NOT TESTED"
+    },
+    {
+      "batch": "C",
+      "table": "grammar",
+      "id": "bd26d280-1967-4d90-81f5-95b3c2e3db59",
+      "review_note_ko": "간접질문 회화 냐고와 높임 보고 물으셨어요 구별.",
+      "result": "AI_REVIEWED_NO_ADDITIONAL_FINDING",
+      "human_review": "NOT TESTED"
+    },
+    {
+      "batch": "C",
+      "table": "grammar",
+      "id": "b3c47e9e-b16e-4feb-bb5c-4cc4e49b5bf3",
+      "review_note_ko": "상대 부탁/화자 자원 및 주실래요 높임·공식장면 범위 확인.",
+      "result": "AI_REVIEWED_NO_ADDITIONAL_FINDING",
+      "human_review": "NOT TESTED"
+    },
+    {
+      "batch": "C",
+      "table": "examples",
+      "id": "626e6f81-489c-4387-8c18-aae7180b9451",
+      "review_note_ko": "바쁠수록 바쁜 정도와 식사 방침 관계·일본어 의도 자연스러움 확인.",
+      "result": "AI_REVIEWED_NO_ADDITIONAL_FINDING",
+      "human_review": "NOT TESTED"
+    },
+    {
+      "batch": "C",
+      "table": "examples",
+      "id": "db24b1fd-eb0a-4cec-abb2-232aec2882ef",
+      "review_note_ko": "꺼져 있다 증거와 쉬나 보다 추론, 휴가 사실 확정하지 않음.",
+      "result": "AI_REVIEWED_NO_ADDITIONAL_FINDING",
+      "human_review": "NOT TESTED"
+    },
+    {
+      "batch": "C",
+      "table": "examples",
+      "id": "13c2dbc3-cc3d-4dbd-8301-ca650351d6d4",
+      "review_note_ko": "사진으로만 과거 경험과 지금 넓네요 발견·더 비교 의미 보존.",
+      "result": "AI_REVIEWED_NO_ADDITIONAL_FINDING",
+      "human_review": "NOT TESTED"
+    },
+    {
+      "batch": "C",
+      "table": "examples",
+      "id": "19d9989a-49e1-48c1-895e-da74b7eff969",
+      "review_note_ko": "들었는데 배경·간단하네요 지금 반응, surprise 필수 아님.",
+      "result": "AI_REVIEWED_NO_ADDITIONAL_FINDING",
+      "human_review": "NOT TESTED"
+    },
+    {
+      "batch": "C",
+      "table": "examples",
+      "id": "01c9e0b5-2264-4d0d-abac-d916158b8379",
+      "review_note_ko": "끝나면 선행 조건과 화자의 연락 약속 게요 확인.",
+      "result": "AI_REVIEWED_NO_ADDITIONAL_FINDING",
+      "human_review": "NOT TESTED"
+    },
+    {
+      "batch": "C",
+      "table": "examples",
+      "id": "4b645e53-bbe4-41b5-bc69-cce23a7dbd7f",
+      "review_note_ko": "내일 할 것 예정 명사화와 과거 적었어요 주절 시제 공존.",
+      "result": "AI_REVIEWED_NO_ADDITIONAL_FINDING",
+      "human_review": "NOT TESTED"
+    },
+    {
+      "batch": "C",
+      "table": "questions",
+      "id": "884a303c-9c7e-4737-b344-ce3c0ae709fc",
+      "review_note_ko": "우산 관찰에서 비 그침 추론; 방송출처·날씨 통제 오답 불가.",
+      "result": "AI_REVIEWED_NO_ADDITIONAL_FINDING",
+      "human_review": "NOT TESTED"
+    },
+    {
+      "batch": "C",
+      "table": "questions",
+      "id": "28b245a8-9a6e-4543-bc15-8e448bd85760",
+      "review_note_ko": "없나 보다 추론/없다고 발언출처 구별; 주어 생략 문법성 확인.",
+      "result": "AI_REVIEWED_NO_ADDITIONAL_FINDING",
+      "human_review": "NOT TESTED"
+    },
+    {
+      "batch": "C",
+      "table": "questions",
+      "id": "5ec4a014-a2e0-4f83-891e-8b66813f2911",
+      "review_note_ko": "자고 공동제안/으라고 상대지시 발화행위 보존.",
+      "result": "AI_REVIEWED_NO_ADDITIONAL_FINDING",
+      "human_review": "NOT TESTED"
+    },
+    {
+      "batch": "C",
+      "table": "questions",
+      "id": "e5fdc264-a4d9-45b7-92b3-6f56eb35333d",
+      "review_note_ko": "오는 사람 대상 수식/온다는 소식 내용 인용 수식 대조.",
+      "result": "AI_REVIEWED_NO_ADDITIONAL_FINDING",
+      "human_review": "NOT TESTED"
+    },
+    {
+      "batch": "C",
+      "table": "questions",
+      "id": "3fdb2d0a-da90-4602-a426-fda731b2d146",
+      "review_note_ko": "갈게요 약속/갈지도 가능성, 확률이 약속 강화 아님.",
+      "result": "AI_REVIEWED_NO_ADDITIONAL_FINDING",
+      "human_review": "NOT TESTED"
+    },
+    {
+      "batch": "C",
+      "table": "questions",
+      "id": "3030d2f6-07db-48e2-aa2e-c77546d52b7b",
+      "review_note_ko": "보다 대상비교/수록 정도연동, 시간순서·일회미래 오답 확인.",
+      "result": "AI_REVIEWED_NO_ADDITIONAL_FINDING",
+      "human_review": "NOT TESTED"
+    }
+  ],
+  "high_risk": [
+    {
+      "key": "A02",
+      "grammar_id": "4168b8b7-98df-431a-a90c-d83945f3df76",
+      "example_id": "1a2deca8-c232-486f-a4e2-0ea14d35f837",
+      "question_id": "ea9329cb-1694-43ff-9ab4-abeaba6a4439",
+      "fields": "form_ko + usage_constraints_ja + confusion_ja; first example; one selected question with all choices/rationale",
+      "note_ko": "느라고 동작·기본 동일주어·주로 부정 결과의 범위를 검토; 예외를 절대 금지로 가르치지 않음.",
+      "result": "AI_REVIEWED_NO_ADDITIONAL_FINDING",
+      "human_review": "NOT TESTED"
+    },
+    {
+      "key": "A06",
+      "grammar_id": "0ae7131c-e497-4b82-8286-59c84d5c9e9d",
+      "example_id": "6b2057c6-4e9f-422f-9537-122a5305433a",
+      "question_id": "c21bc3a5-4c56-44c1-b59a-50549178fb64",
+      "fields": "form_ko + usage_constraints_ja + confusion_ja; first example; one selected question with all choices/rationale",
+      "note_ko": "아/어야 필요 조건과 이미 배운 의무 해야 하다 구별; 필요와 충분을 혼동하지 않음.",
+      "result": "AI_REVIEWED_NO_ADDITIONAL_FINDING",
+      "human_review": "NOT TESTED"
+    },
+    {
+      "key": "A07",
+      "grammar_id": "50b9f4ff-e592-4d4d-8057-a4e26a7bc2ad",
+      "example_id": "dbc105af-c0ef-4b25-9ea6-d52469022a92",
+      "question_id": "be71737c-46e5-4f2f-bbe6-56ccc3f854bb",
+      "fields": "form_ko + usage_constraints_ja + confusion_ja; first example; one selected question with all choices/rationale",
+      "note_ko": "V현재 ㄴ/는다면·A다면·N이라면, 살다 ㄹ 탈락과 반사실 단정 금지 확인.",
+      "result": "AI_REVIEWED_NO_ADDITIONAL_FINDING",
+      "human_review": "NOT TESTED"
+    },
+    {
+      "key": "A09",
+      "grammar_id": "4dd04c0c-5449-4d0f-a3cd-f0701ccf5897",
+      "example_id": "dfec6526-bec1-4ceb-8edb-86127e7141fe",
+      "question_id": "22d4ae81-013d-4ab7-8f32-dabcb8206249",
+      "fields": "form_ko + usage_constraints_ja + confusion_ja; first example; one selected question with all choices/rationale",
+      "note_ko": "듣다→들으려면, 살다→살려면와 의도/조건 구분; 들려면 어원 설명 F02 수정.",
+      "result": "AI_REVIEWED_NO_ADDITIONAL_FINDING",
+      "human_review": "NOT TESTED"
+    },
+    {
+      "key": "A16",
+      "grammar_id": "71950d57-960d-45a6-a4e6-e492e4c01a50",
+      "example_id": "1951f0ac-ec8b-4030-b63a-9f827f73baab",
+      "question_id": "6b85d579-329e-4d6e-8fc9-51b22e2926d1",
+      "fields": "form_ko + usage_constraints_ja + confusion_ja; first example; one selected question with all choices/rationale",
+      "note_ko": "ㄹ까 봐 우려와 질문·기대 가능성 구분; 의도치 않은 사건 미발생 범위 확인.",
+      "result": "AI_REVIEWED_NO_ADDITIONAL_FINDING",
+      "human_review": "NOT TESTED"
+    },
+    {
+      "key": "A18",
+      "grammar_id": "f527297e-94dd-472b-928e-7bc3900b2dae",
+      "example_id": "e01fb416-fe86-47f5-912a-54cc4aba842c",
+      "question_id": "7bfa18dd-27af-4cd4-ac3c-c530229bdb5a",
+      "fields": "form_ko + usage_constraints_ja + confusion_ja; first example; one selected question with all choices/rationale",
+      "note_ko": "필요 없다 불필요/금지 차이·명사 일 필요 확인; 신청 자체를 회원 주체처럼 읽는 E3 F05 수정.",
+      "result": "AI_REVIEWED_NO_ADDITIONAL_FINDING",
+      "human_review": "NOT TESTED"
+    },
+    {
+      "key": "B01",
+      "grammar_id": "453d0f13-3727-4335-8f6a-ddff70f570ac",
+      "example_id": "e647ae37-6205-4df6-bd52-bf5f564deecb",
+      "question_id": "3d6a5756-0c83-4df2-be46-797d4990bbc4",
+      "fields": "form_ko + usage_constraints_ja + confusion_ja; first example; one selected question with all choices/rationale",
+      "note_ko": "ㄹ 때 ㄹ이 항상 미래가 아님·듣다/춥다 활용 확인; 주절만으로 시간 판단하던 F06 수정.",
+      "result": "AI_REVIEWED_NO_ADDITIONAL_FINDING",
+      "human_review": "NOT TESTED"
+    },
+    {
+      "key": "B06",
+      "grammar_id": "172590f5-9c3c-4fd9-9196-f1811ac4880e",
+      "example_id": "6649660c-0674-426f-9336-c7fc3dade3ef",
+      "question_id": "532d4e63-0fac-4eb9-b4ad-1d8ab56882a5",
+      "fields": "form_ko + usage_constraints_ja + confusion_ja; first example; one selected question with all choices/rationale",
+      "note_ko": "자동/타동 결과상태·진행과 고 있다의 유지상태 예외 재검토; F07 장면·해설 보완.",
+      "result": "AI_REVIEWED_NO_ADDITIONAL_FINDING",
+      "human_review": "NOT TESTED"
+    },
+    {
+      "key": "B08",
+      "grammar_id": "f3e5c2de-6721-46ce-af18-1a5c458bcac8",
+      "example_id": "7bca453b-049a-4305-beaa-d7a84e46c0a7",
+      "question_id": "85c0092f-a78b-42d1-9158-db412cc95463",
+      "fields": "form_ko + usage_constraints_ja + confusion_ja; first example; one selected question with all choices/rationale",
+      "note_ko": "허가 아어도되다와 양보 구별; 듣다/덥다·부정·이미 성립한 사건 범위 확인.",
+      "result": "AI_REVIEWED_NO_ADDITIONAL_FINDING",
+      "human_review": "NOT TESTED"
+    },
+    {
+      "key": "B11",
+      "grammar_id": "11d06a0a-c142-4856-815d-e63d0158c8dd",
+      "example_id": "58b1696a-eee0-4d4a-ab9d-3f92d45d73df",
+      "question_id": "eecb72fe-2408-4f9c-a4b1-aeac694d5f8c",
+      "fields": "form_ko + usage_constraints_ja + confusion_ja; first example; one selected question with all choices/rationale",
+      "note_ko": "더니 관찰한 타인 변화 기본 범위와 자기 과거 결과 구별; 동생 성별 장면 F13 명시.",
+      "result": "AI_REVIEWED_NO_ADDITIONAL_FINDING",
+      "human_review": "NOT TESTED"
+    },
+    {
+      "key": "B12",
+      "grammar_id": "f65f7148-511f-4c51-9472-7ba0dd29957d",
+      "example_id": "0fb6125e-6309-4e18-ad75-6a9ed5e7f05d",
+      "question_id": "45f6b691-f52f-4d6d-97bd-6e4e9c91bbea",
+      "fields": "form_ko + usage_constraints_ja + confusion_ja; first example; one selected question with all choices/rationale",
+      "note_ko": "았었더니 자기 경험 후 발견과 일반조건 구별; 며칠 일찍 잤다 일본어 수량 범위 F08 수정.",
+      "result": "AI_REVIEWED_NO_ADDITIONAL_FINDING",
+      "human_review": "NOT TESTED"
+    },
+    {
+      "key": "B14",
+      "grammar_id": "894c1244-bc9d-4a06-95bd-dff4f3c2cbb1",
+      "example_id": "68c05edd-b6f3-4e5b-958a-c0e0029b0fcd",
+      "question_id": "868bb90a-aed9-4979-8a94-d483f0b8576c",
+      "fields": "form_ko + usage_constraints_ja + confusion_ja; first example; one selected question with all choices/rationale",
+      "note_ko": "ㄹ 뻔하다 사건이 일어나지 않은 근접 과거·하마터면·부정 특수 범위 제외 확인.",
+      "result": "AI_REVIEWED_NO_ADDITIONAL_FINDING",
+      "human_review": "NOT TESTED"
+    },
+    {
+      "key": "C01",
+      "grammar_id": "31239c2c-43e2-4c94-8db8-e3777ef8cc10",
+      "example_id": "c4935e25-5f72-4fa6-8a9c-1cb6d7a158e3",
+      "question_id": "705fbfb7-cc15-4d04-b65c-8445167f338e",
+      "fields": "form_ko + usage_constraints_ja + confusion_ja; first example; one selected question with all choices/rationale",
+      "note_ko": "V현재 는/과거 은/미래 을, A은·N인·있는없는, 살다/듣다/돕다·피동 생성 범위 제외 확인.",
+      "result": "AI_REVIEWED_NO_ADDITIONAL_FINDING",
+      "human_review": "NOT TESTED"
+    },
+    {
+      "key": "C06",
+      "grammar_id": "e4d0935d-a2ae-4207-8583-bcb93de194bd",
+      "example_id": "4aa0b2a6-e99e-4ced-b24e-f2992336668e",
+      "question_id": "74ead026-4789-4d6e-a52b-021b971c0c17",
+      "fields": "form_ko + usage_constraints_ja + confusion_ja; first example; one selected question with all choices/rationale",
+      "note_ko": "평서 Vㄴ는다고/A다고/N이라고·과거/미래 인용, 살다 ㄹ탈락·보고자 시점·높임 확인.",
+      "result": "AI_REVIEWED_NO_ADDITIONAL_FINDING",
+      "human_review": "NOT TESTED"
+    },
+    {
+      "key": "C08",
+      "grammar_id": "600d5cb2-aad4-414b-893a-3bb1f970909f",
+      "example_id": "8fbe7abb-edc4-499c-919e-5e7685bd0797",
+      "question_id": "668ffc96-a596-4ce3-af0b-4db1465bae65",
+      "fields": "form_ko + usage_constraints_ja + confusion_ja; first example; one selected question with all choices/rationale",
+      "note_ko": "명령/요청 으라고·지말라고와 평서 부정 구분; 들으라고·만들라고·원발화 존대 처리 확인.",
+      "result": "AI_REVIEWED_NO_ADDITIONAL_FINDING",
+      "human_review": "NOT TESTED"
+    },
+    {
+      "key": "C10",
+      "grammar_id": "bd26d280-1967-4d90-81f5-95b3c2e3db59",
+      "example_id": "b3a4918e-06ec-4c12-9edc-d80d0599c82f",
+      "question_id": "61e0b3c4-c68f-41cc-9703-f8bae22b32e2",
+      "fields": "form_ko + usage_constraints_ja + confusion_ja; first example; one selected question with all choices/rationale",
+      "note_ko": "냐고 회화형/느냐고 긴형·사느냐고, 물으셨어요 높임·반말 직접질문 혼동 방지 확인.",
+      "result": "AI_REVIEWED_NO_ADDITIONAL_FINDING",
+      "human_review": "NOT TESTED"
+    },
+    {
+      "key": "C11",
+      "grammar_id": "f0acd94a-696c-4cbe-8d11-df2f2ea31f08",
+      "example_id": "f0862d44-2640-48c6-bfb7-77cb68a75dec",
+      "question_id": "0fb2d055-3178-4039-9213-844602dc2451",
+      "fields": "form_ko + usage_constraints_ja + confusion_ja; first example; one selected question with all choices/rationale",
+      "note_ko": "달라고/주라고 원의뢰자·행위자·수혜자 구분 및 Q별 장면 확인; 동생 성별 F13 명시.",
+      "result": "AI_REVIEWED_NO_ADDITIONAL_FINDING",
+      "human_review": "NOT TESTED"
+    },
+    {
+      "key": "C18",
+      "grammar_id": "34a56baf-0b84-4263-ab82-14942a47beca",
+      "example_id": "13c2dbc3-cc3d-4dbd-8301-ca650351d6d4",
+      "question_id": "a58affb5-8829-4ed6-a0f1-bda4c387d92e",
+      "fields": "form_ko + usage_constraints_ja + confusion_ja; first example; one selected question with all choices/rationale",
+      "note_ko": "네요 새 정보 반응은 칭찬에 한정 안 됨; 멀다→머네요 ㄹ탈락·닫았네요 결과 인식 확인.",
+      "result": "AI_REVIEWED_NO_ADDITIONAL_FINDING",
+      "human_review": "NOT TESTED"
+    }
+  ],
+  "high_risk_counts": {
+    "grammar": 18,
+    "example_placements": 18,
+    "questions": 18
+  },
+  "random_counts": {
+    "grammar": 9,
+    "examples": 18,
+    "questions": 18
+  },
+  "count_policy": "Samples may overlap full review and each other; never added as new content or independent reviewer.",
+  "additional_findings": 0,
+  "independent_human_review": "NOT TESTED",
+  "followup_standalone_questions": [
+    {
+      "key": "B03",
+      "question_number": 3,
+      "note_ko": "카드/예문 Note가 표시되지 않는 독립 문항에서도 동생을 남동생 장면으로 지정. 한국어 동생 자체의 성별 비지정 의미를 유지하고 선택지의 행위자·수혜자 정답은 그대로.",
+      "result": "AI_REVIEWED",
+      "human_review": "NOT TESTED"
+    },
+    {
+      "key": "C11",
+      "question_number": 1,
+      "note_ko": "카드/예문 Note가 표시되지 않는 독립 문항에서도 동생을 남동생 장면으로 지정. 한국어 동생 자체의 성별 비지정 의미를 유지하고 선택지의 행위자·수혜자 정답은 그대로.",
+      "result": "AI_REVIEWED",
+      "human_review": "NOT TESTED"
+    },
+    {
+      "key": "C11",
+      "question_number": 3,
+      "note_ko": "카드/예문 Note가 표시되지 않는 독립 문항에서도 동생을 남동생 장면으로 지정. 한국어 동생 자체의 성별 비지정 의미를 유지하고 선택지의 행위자·수혜자 정답은 그대로.",
+      "result": "AI_REVIEWED",
+      "human_review": "NOT TESTED"
+    }
+  ]
+}

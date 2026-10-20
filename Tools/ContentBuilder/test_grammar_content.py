@@ -25,7 +25,7 @@ class GrammarContentTests(unittest.TestCase):
         for name in ['user-schema-v1']+[f'user-migration-v{i}' for i in range(2,7)]:db.executescript((ROOT/f'Resources/{name}.sql').read_text())
         return db
     def test_production_counts_versions_and_preserved_old_content(self):
-        self.assertEqual(self.db.execute('SELECT schema_version,content_version,min_reader_version FROM content_metadata').fetchone(),(4,22,7))
+        self.assertEqual(self.db.execute('SELECT schema_version,content_version,min_reader_version FROM content_metadata').fetchone(),(4,23,7))
         for table,n in [('grammar',96),('grammar_examples',389),('questions',3553),('vocabulary',2287),('examples',4813),('courses',8),('lessons',103)]:self.assertEqual(self.db.execute('SELECT COUNT(*) FROM '+table).fetchone()[0],n)
         with sqlite3.connect(ROOT/'Tests/Fixtures/content-v7-production.sqlite') as old:
             before,after=signatures(old),signatures(self.db)

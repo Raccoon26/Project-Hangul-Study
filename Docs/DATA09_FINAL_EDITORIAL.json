@@ -1,0 +1,1147 @@
+{
+  "stage": "DATA-09-5",
+  "method": "assistant full separate Korean/Japanese reread from actual Content22 DB, then corrections and further risk/sample reread; no external dictionary/native/teacher certification",
+  "grammar": 54,
+  "new_examples": 216,
+  "reused_examples": 4,
+  "questions": 216,
+  "choices": 648,
+  "findings": 13,
+  "patched_fields": 31,
+  "records": [
+    {
+      "key": "A01",
+      "grammar_id": "da6206fe-cb6b-4842-8943-da3c54c07370",
+      "example_ids": [
+        "7422d569-b6d3-4360-8601-0a6488f36183",
+        "0898a2dd-62d3-4bb3-a1a6-44307042f988",
+        "f278e474-9479-449b-bdfb-c5ab89033adb",
+        "b663db5d-67b8-48bf-b513-8cc05389ad58"
+      ],
+      "question_ids": [
+        "1f2ffb56-ec8d-4069-afce-1795480eb86a",
+        "f6449d8e-0a19-47ac-8e7c-d353b832d39e",
+        "c492b81f-4cfd-43de-b37b-9ade11008755",
+        "04550416-de56-400e-8f93-2290bdd99ecf"
+      ],
+      "korean_self_review": "REVIEWED_BY_AI",
+      "japanese_self_review": "REVIEWED_BY_AI",
+      "form_meaning_constraints_tense_irregular_register": "원인과 목적 구별, 명사/용언 결합·과거·청유 제약 검토; Q3 원인 지속시간 단정 F01 수정.",
+      "questions_review": "4 tasks / 3 choices each; answer, both distractors and rationale reread for specified scene; grammatical but wrong-function distractors distinguished",
+      "independent_native_teacher_review": "NOT TESTED"
+    },
+    {
+      "key": "A02",
+      "grammar_id": "4168b8b7-98df-431a-a90c-d83945f3df76",
+      "example_ids": [
+        "1a2deca8-c232-486f-a4e2-0ea14d35f837",
+        "e6cb145f-9b36-4b11-8520-711012c7c351",
+        "988b5004-47a5-423b-8293-8d78e0b80208",
+        "f70c3954-2ba9-4217-bef7-0d2e6694e3bf"
+      ],
+      "question_ids": [
+        "2c45473b-2945-4cb0-8a58-0db119d8e6e8",
+        "ea9329cb-1694-43ff-9ab4-abeaba6a4439",
+        "810c2c40-b5b7-4ecb-8234-fb9c306a62fa",
+        "cf78e1d8-8f2a-4866-bd1f-031245e4b86e"
+      ],
+      "korean_self_review": "REVIEWED_BY_AI",
+      "japanese_self_review": "REVIEWED_BY_AI",
+      "form_meaning_constraints_tense_irregular_register": "느라고 동작·기본 동일주어·주로 부정 결과의 범위를 검토; 예외를 절대 금지로 가르치지 않음.",
+      "questions_review": "4 tasks / 3 choices each; answer, both distractors and rationale reread for specified scene; grammatical but wrong-function distractors distinguished",
+      "independent_native_teacher_review": "NOT TESTED"
+    },
+    {
+      "key": "A03",
+      "grammar_id": "645acca8-db1f-4482-9b4c-88d637445e2d",
+      "example_ids": [
+        "fd872237-0882-4381-aef5-19048cb4e7fd",
+        "e80227c5-8573-4f18-820e-819b4528693d",
+        "9a630149-a6a7-4233-b3ff-1c44424de134",
+        "9674482d-4109-43d2-aee0-f3222eb32809"
+      ],
+      "question_ids": [
+        "d6d03557-c5d0-47dc-8c75-9a2a98f8f26a",
+        "200bad7b-0599-453e-bf3c-ce9c71110045",
+        "b6cf6f21-00fe-4151-85aa-b1a9ea05293b",
+        "d9f63e6f-15ac-4511-9037-aca169adbba9"
+      ],
+      "korean_self_review": "REVIEWED_BY_AI",
+      "japanese_self_review": "REVIEWED_BY_AI",
+      "form_meaning_constraints_tense_irregular_register": "는 바람에 원치 않은 결과 중심의 교육 범위 확인; 동작 현재 수식과 실제 사건 과거 구분.",
+      "questions_review": "4 tasks / 3 choices each; answer, both distractors and rationale reread for specified scene; grammatical but wrong-function distractors distinguished",
+      "independent_native_teacher_review": "NOT TESTED"
+    },
+    {
+      "key": "A04",
+      "grammar_id": "400d4fa2-b300-406c-9425-c7bb1a125c9d",
+      "example_ids": [
+        "048b2a98-90fb-4cbe-a26f-6b5b16e12004",
+        "c3d14171-c5f2-436d-9395-1aaba255af37",
+        "35f27acd-3bd4-4cfb-a5d7-8cffc12a2052",
+        "2ec64364-7e37-44a0-9835-a22ef0400de2"
+      ],
+      "question_ids": [
+        "00092dab-6e63-4697-ad5c-b1c9d90d9927",
+        "08c82de4-6aed-403f-8b47-187c0149b108",
+        "cbbcdb8e-0799-45ba-af96-bc04279fdd45",
+        "be15bf49-2a32-4919-b016-836f4cbb4332"
+      ],
+      "korean_self_review": "REVIEWED_BY_AI",
+      "japanese_self_review": "REVIEWED_BY_AI",
+      "form_meaning_constraints_tense_irregular_register": "아/어지다 상태 변화와 수동 생성의 차이, 바쁘다/춥다/다르다 활용 확인.",
+      "questions_review": "4 tasks / 3 choices each; answer, both distractors and rationale reread for specified scene; grammatical but wrong-function distractors distinguished",
+      "independent_native_teacher_review": "NOT TESTED"
+    },
+    {
+      "key": "A05",
+      "grammar_id": "e7ab89e5-358e-461a-893d-d87d057bc9ed",
+      "example_ids": [
+        "2060317e-b0a6-4674-92eb-d2b8f215a26a",
+        "a5dc80b5-7dce-409d-adc0-51a4c0eea57d",
+        "ccaac2fd-bcd2-4e3e-a7f4-3c53607c9dbd",
+        "e2119465-2b81-40d8-af96-c8c0076b8cbe"
+      ],
+      "question_ids": [
+        "67a06fb6-e476-436a-8fa9-7d683c1579b6",
+        "47172967-077c-4e74-b838-a78dae9226ba",
+        "5e43f883-6df9-4127-a8bb-4ebef6a7dc10",
+        "acdb06d8-3e1d-4bf3-9efd-b3ced4e33404"
+      ],
+      "korean_self_review": "REVIEWED_BY_AI",
+      "japanese_self_review": "REVIEWED_BY_AI",
+      "form_meaning_constraints_tense_irregular_register": "게 되다 상황적 귀결과 의도·강제 사역의 차이, 됐어요 시점 확인.",
+      "questions_review": "4 tasks / 3 choices each; answer, both distractors and rationale reread for specified scene; grammatical but wrong-function distractors distinguished",
+      "independent_native_teacher_review": "NOT TESTED"
+    },
+    {
+      "key": "A06",
+      "grammar_id": "0ae7131c-e497-4b82-8286-59c84d5c9e9d",
+      "example_ids": [
+        "6b2057c6-4e9f-422f-9537-122a5305433a",
+        "210f2ef2-a720-42df-9d51-f7c1ec1db14a",
+        "dc373b98-9a77-4cdd-85d7-900aee0257c2",
+        "0fd6ada2-9de2-4ef9-8025-20ce614f93f2"
+      ],
+      "question_ids": [
+        "e02cfb23-4c9b-4ef3-a632-efaed5c24f07",
+        "c21bc3a5-4c56-44c1-b59a-50549178fb64",
+        "ff50d99a-2000-4290-acda-7d7807b378d7",
+        "d4446c65-ffa4-4e91-a6be-13cc806cb63a"
+      ],
+      "korean_self_review": "REVIEWED_BY_AI",
+      "japanese_self_review": "REVIEWED_BY_AI",
+      "form_meaning_constraints_tense_irregular_register": "아/어야 필요 조건과 이미 배운 의무 해야 하다 구별; 필요와 충분을 혼동하지 않음.",
+      "questions_review": "4 tasks / 3 choices each; answer, both distractors and rationale reread for specified scene; grammatical but wrong-function distractors distinguished",
+      "independent_native_teacher_review": "NOT TESTED"
+    },
+    {
+      "key": "A07",
+      "grammar_id": "50b9f4ff-e592-4d4d-8057-a4e26a7bc2ad",
+      "example_ids": [
+        "dbc105af-c0ef-4b25-9ea6-d52469022a92",
+        "b34a3c99-0644-41e9-aacc-12db8a9e13f1",
+        "73997df3-be1f-4aa1-a8af-b3d6aef64cfe",
+        "4f4143eb-652a-42ba-b606-3e3d9811f428"
+      ],
+      "question_ids": [
+        "6c497dfc-7e05-4cc1-9996-9ab3d79ac6f1",
+        "be71737c-46e5-4f2f-bbe6-56ccc3f854bb",
+        "1892a669-26b4-4aaa-b7c3-41ba4b890db6",
+        "676d29ca-f656-4257-abb9-08fe2542286e"
+      ],
+      "korean_self_review": "REVIEWED_BY_AI",
+      "japanese_self_review": "REVIEWED_BY_AI",
+      "form_meaning_constraints_tense_irregular_register": "V현재 ㄴ/는다면·A다면·N이라면, 살다 ㄹ 탈락과 반사실 단정 금지 확인.",
+      "questions_review": "4 tasks / 3 choices each; answer, both distractors and rationale reread for specified scene; grammatical but wrong-function distractors distinguished",
+      "independent_native_teacher_review": "NOT TESTED"
+    },
+    {
+      "key": "A08",
+      "grammar_id": "7fb56c6c-79b1-4837-94e6-a65dd45ab62d",
+      "example_ids": [
+        "fcd7725d-c235-4412-95e2-49664cb54874",
+        "f3ca3fca-05ba-4bd4-b31c-35fce217a119",
+        "6bda9fe6-0ce5-434a-a38a-2e223ba2325b",
+        "e5e8323f-adc9-4c29-8183-7472425dd97e"
+      ],
+      "question_ids": [
+        "9323197e-6968-435b-99d2-76466eb8f8b5",
+        "44d5fd34-cbf0-4d28-9bf6-c109444a4622",
+        "dd988256-27d6-49db-92a4-15d1246d4448",
+        "35501b00-7f3d-4974-829b-7fd2fdc06503"
+      ],
+      "korean_self_review": "REVIEWED_BY_AI",
+      "japanese_self_review": "REVIEWED_BY_AI",
+      "form_meaning_constraints_tense_irregular_register": "조건 거든과 문말 거든요 구분; 이유 니까를 이미 성립한 사실로 한정한 F03 수정.",
+      "questions_review": "4 tasks / 3 choices each; answer, both distractors and rationale reread for specified scene; grammatical but wrong-function distractors distinguished",
+      "independent_native_teacher_review": "NOT TESTED"
+    },
+    {
+      "key": "A09",
+      "grammar_id": "4dd04c0c-5449-4d0f-a3cd-f0701ccf5897",
+      "example_ids": [
+        "dfec6526-bec1-4ceb-8edb-86127e7141fe",
+        "d3f0461f-1187-40f1-9450-abaef261b747",
+        "03bb7e92-396b-4af8-8ba9-74f0fca6cdae",
+        "b497c2c9-7261-42cb-af6e-cdae69c1d60d"
+      ],
+      "question_ids": [
+        "bd54dfe8-301c-4ce4-a3cd-5465025cbffc",
+        "22d4ae81-013d-4ab7-8f32-dabcb8206249",
+        "fe40962a-76b2-4767-b178-8165fa214545",
+        "e4719653-d428-4020-9dcb-8ca1ff2d3a70"
+      ],
+      "korean_self_review": "REVIEWED_BY_AI",
+      "japanese_self_review": "REVIEWED_BY_AI",
+      "form_meaning_constraints_tense_irregular_register": "듣다→들으려면, 살다→살려면와 의도/조건 구분; 들려면 어원 설명 F02 수정.",
+      "questions_review": "4 tasks / 3 choices each; answer, both distractors and rationale reread for specified scene; grammatical but wrong-function distractors distinguished",
+      "independent_native_teacher_review": "NOT TESTED"
+    },
+    {
+      "key": "A10",
+      "grammar_id": "39d90697-78fd-4a3b-847c-b90d5ff07e64",
+      "example_ids": [
+        "6a5297b3-71f9-4e77-9f18-223adb922bb7",
+        "7bf1cead-f741-44a5-90db-bde2458fd2cd",
+        "8d430202-1525-4277-956d-6db5f0fcddaf",
+        "9c7006ec-100f-4a27-b2d5-448297ba90eb"
+      ],
+      "question_ids": [
+        "92651ec7-4b13-4145-9dbf-caf59ca37536",
+        "59ec3976-efc1-4e8d-ab9d-4abed53bd85a",
+        "6006d7ce-8d51-4aa5-aa15-29b905b6df84",
+        "14fe0c5f-7713-4b34-a2a2-59643647059a"
+      ],
+      "korean_self_review": "REVIEWED_BY_AI",
+      "japanese_self_review": "REVIEWED_BY_AI",
+      "form_meaning_constraints_tense_irregular_register": "의지적 목적/명사 수혜와 원인 때문에 구별; 기 위한/N위한 수식형을 동일 단위로 설명.",
+      "questions_review": "4 tasks / 3 choices each; answer, both distractors and rationale reread for specified scene; grammatical but wrong-function distractors distinguished",
+      "independent_native_teacher_review": "NOT TESTED"
+    },
+    {
+      "key": "A11",
+      "grammar_id": "76c32b94-218c-4167-9dc0-0e5e848766bd",
+      "example_ids": [
+        "8860465b-fbe2-4973-85ab-1b7d6408319d",
+        "9b35c8be-4539-4c65-a0c9-a2af3b398bb6",
+        "0f799bec-c974-4c3a-a0ba-25cfe7fdb2fe",
+        "19b64e6a-75cb-43e3-91d1-dfd90f1a40ea"
+      ],
+      "question_ids": [
+        "9904d1d0-99d4-4e57-adf5-9f8506a3b844",
+        "9d282998-790e-4c22-891a-077386a68aba",
+        "69ecb1c2-051e-4d4d-bc3b-c97f4da296f9",
+        "35102f48-782e-4980-8d15-23aa3fba5096"
+      ],
+      "korean_self_review": "REVIEWED_BY_AI",
+      "japanese_self_review": "REVIEWED_BY_AI",
+      "form_meaning_constraints_tense_irregular_register": "목표 도록의 서로 다른 주어·부정·가능 결합 확인; 정도/시간 종점 용법은 범위 밖.",
+      "questions_review": "4 tasks / 3 choices each; answer, both distractors and rationale reread for specified scene; grammatical but wrong-function distractors distinguished",
+      "independent_native_teacher_review": "NOT TESTED"
+    },
+    {
+      "key": "A12",
+      "grammar_id": "549f297e-3b2e-4de2-b170-de5015d0d77b",
+      "example_ids": [
+        "4a0951a2-ac23-4700-82b4-0d78d82a0049",
+        "cf0acf18-b82c-4a89-9c51-39f6e9d00e99",
+        "55908a7d-22da-4208-8a02-2c268cfe67fa",
+        "163e1642-5c47-45c0-9ab7-bd5ef601e179"
+      ],
+      "question_ids": [
+        "605924e3-bfba-468c-8613-e944c3bf54fd",
+        "2bf5298b-3fa5-453c-8746-64c8e4592e0f",
+        "e3667ce7-1116-4a5a-90ea-33ac8e63c2de",
+        "38617461-48f1-46a0-a07f-0c6a0ab209ce"
+      ],
+      "korean_self_review": "REVIEWED_BY_AI",
+      "japanese_self_review": "REVIEWED_BY_AI",
+      "form_meaning_constraints_tense_irregular_register": "도록 하다 지시/자기 방침의 행위자·높임·딱딱한 Register 확인; 상태형용사 기계 결합 금지.",
+      "questions_review": "4 tasks / 3 choices each; answer, both distractors and rationale reread for specified scene; grammatical but wrong-function distractors distinguished",
+      "independent_native_teacher_review": "NOT TESTED"
+    },
+    {
+      "key": "A13",
+      "grammar_id": "d46e4c1d-f809-43eb-a867-f9a3220fb93a",
+      "example_ids": [
+        "0c5f488c-eb4d-46a7-a88b-0ec549350944",
+        "12fe4014-de25-42fc-8e24-7c579a3297ad",
+        "3bc4dfac-cad2-4570-bad6-e92770f81665",
+        "7ef38f85-c076-4c52-a42b-0b26f5396fd0"
+      ],
+      "question_ids": [
+        "4540b2ee-a01a-46aa-9954-e651e3c697e1",
+        "fa1cc415-111d-4441-84d7-24210ca16da2",
+        "670a345e-dac4-4fcd-abec-5774f520ded8",
+        "8ee7028f-967c-44ba-a6fa-3fbb9d66ee6e"
+      ],
+      "korean_self_review": "REVIEWED_BY_AI",
+      "japanese_self_review": "REVIEWED_BY_AI",
+      "form_meaning_constraints_tense_irregular_register": "기로 하다 부정 결정·합의와 희망/계획 차이, 돕기에서 불규칙 변화 없음 확인.",
+      "questions_review": "4 tasks / 3 choices each; answer, both distractors and rationale reread for specified scene; grammatical but wrong-function distractors distinguished",
+      "independent_native_teacher_review": "NOT TESTED"
+    },
+    {
+      "key": "A14",
+      "grammar_id": "6f229752-cc5f-4de7-b098-3e9f0c135bf9",
+      "example_ids": [
+        "da7f8642-2aec-4a32-a78f-01e266caae02",
+        "0f1d8f3f-ac81-4ca0-871c-35380e360346",
+        "78155bb9-033f-4c53-88a8-b93ed0f67513",
+        "99d9477b-8c46-401d-9b04-010af774f8f9"
+      ],
+      "question_ids": [
+        "1f682d5a-dd83-488e-bf4f-183730c97873",
+        "dd5ad836-6d03-4752-93c1-8513334f8b3e",
+        "e6fe46a4-018e-4cb0-acf3-8b6c763c621b",
+        "b3cc3a18-510d-43c2-bf54-979fdc114687"
+      ],
+      "korean_self_review": "REVIEWED_BY_AI",
+      "japanese_self_review": "REVIEWED_BY_AI",
+      "form_meaning_constraints_tense_irregular_register": "ㄹ까 하다 잠정 의도와 상대에게 직접 묻는 까요 구분; ㄹ 유지·듣다 불규칙 확인.",
+      "questions_review": "4 tasks / 3 choices each; answer, both distractors and rationale reread for specified scene; grammatical but wrong-function distractors distinguished",
+      "independent_native_teacher_review": "NOT TESTED"
+    },
+    {
+      "key": "A15",
+      "grammar_id": "d940b512-3a3a-4108-b561-fa33dfd93222",
+      "example_ids": [
+        "e15243bc-8229-498e-8f77-567eb5a9f05f",
+        "ce185332-96f7-488b-ba6c-64b6929856e3",
+        "1b108526-27cb-4b62-897b-0bc2222b037f",
+        "8dc15558-2563-43e2-a46d-e22c5740a517"
+      ],
+      "question_ids": [
+        "b475b11d-57fb-4898-928b-8d012edf73d9",
+        "4cb2ca5b-3ab9-42c0-95e4-94d2492b36fc",
+        "af4d2b98-ce9d-4887-990b-d2f7879bf55d",
+        "5f6ca191-7941-4917-909e-13248527ab13"
+      ],
+      "korean_self_review": "REVIEWED_BY_AI",
+      "japanese_self_review": "REVIEWED_BY_AI",
+      "form_meaning_constraints_tense_irregular_register": "아/어야겠다 판단 후 결심과 타인의 의무 구분; 보조 겠을 확정 미래로 번역하지 않음.",
+      "questions_review": "4 tasks / 3 choices each; answer, both distractors and rationale reread for specified scene; grammatical but wrong-function distractors distinguished",
+      "independent_native_teacher_review": "NOT TESTED"
+    },
+    {
+      "key": "A16",
+      "grammar_id": "71950d57-960d-45a6-a4e6-e492e4c01a50",
+      "example_ids": [
+        "1951f0ac-ec8b-4030-b63a-9f827f73baab",
+        "44ee0119-f68a-47e0-847a-501bc898fe2a",
+        "da8bb03c-3e77-430a-ab20-6fd2c7998dd8",
+        "bfc4c726-77a6-4801-9200-e85fa2018543"
+      ],
+      "question_ids": [
+        "911192f7-7cae-4271-a69a-21c46b8b1547",
+        "6b85d579-329e-4d6e-8fc9-51b22e2926d1",
+        "8f541af7-c400-4a85-9e1e-6ea6f7d84def",
+        "96fd5bea-80a1-44d4-9003-52df2f6bfa2d"
+      ],
+      "korean_self_review": "REVIEWED_BY_AI",
+      "japanese_self_review": "REVIEWED_BY_AI",
+      "form_meaning_constraints_tense_irregular_register": "ㄹ까 봐 우려와 질문·기대 가능성 구분; 의도치 않은 사건 미발생 범위 확인.",
+      "questions_review": "4 tasks / 3 choices each; answer, both distractors and rationale reread for specified scene; grammatical but wrong-function distractors distinguished",
+      "independent_native_teacher_review": "NOT TESTED"
+    },
+    {
+      "key": "A17",
+      "grammar_id": "4310e69f-27bc-49bb-92a3-08f592427316",
+      "example_ids": [
+        "0c8a8524-dd62-4cc9-9f40-df7e982c9001",
+        "1f53230b-8f69-47ef-be4c-0d5b243395bb",
+        "14f7f5ce-e6cd-4272-8092-c9a06c608c60",
+        "5fbfa1d2-c4cb-4cc4-82e9-cf84dd5b1a77"
+      ],
+      "question_ids": [
+        "46667a3d-3be7-4966-a856-d401184b2284",
+        "4e089f65-e0d9-4271-bc0f-94a8fa027647",
+        "f7070634-02a4-4b7a-8e4d-99c750e33cbc",
+        "820f85b8-4453-4d55-acfc-e74aeacde150"
+      ],
+      "korean_self_review": "REVIEWED_BY_AI",
+      "japanese_self_review": "REVIEWED_BY_AI",
+      "form_meaning_constraints_tense_irregular_register": "다 보면 반복 과정과 결과 전망; 면을 일회성 조건으로 축소한 F04 수정.",
+      "questions_review": "4 tasks / 3 choices each; answer, both distractors and rationale reread for specified scene; grammatical but wrong-function distractors distinguished",
+      "independent_native_teacher_review": "NOT TESTED"
+    },
+    {
+      "key": "A18",
+      "grammar_id": "f527297e-94dd-472b-928e-7bc3900b2dae",
+      "example_ids": [
+        "e01fb416-fe86-47f5-912a-54cc4aba842c",
+        "e7edc87f-3f6f-4400-80d8-4fe2363de93d",
+        "60c04685-ab57-4e3b-b41f-91989f23c53d",
+        "6b036676-1952-4864-8317-71dfb4b8b62e"
+      ],
+      "question_ids": [
+        "7a50e7af-a597-4fcf-9e6d-fa5f53beba5e",
+        "7bfa18dd-27af-4cd4-ac3c-c530229bdb5a",
+        "5b470839-f906-4bf7-844f-58e062656d1e",
+        "eac2f71f-ce6c-42b2-87f9-acb7806e6b31"
+      ],
+      "korean_self_review": "REVIEWED_BY_AI",
+      "japanese_self_review": "REVIEWED_BY_AI",
+      "form_meaning_constraints_tense_irregular_register": "필요 없다 불필요/금지 차이·명사 일 필요 확인; 신청 자체를 회원 주체처럼 읽는 E3 F05 수정.",
+      "questions_review": "4 tasks / 3 choices each; answer, both distractors and rationale reread for specified scene; grammatical but wrong-function distractors distinguished",
+      "independent_native_teacher_review": "NOT TESTED"
+    },
+    {
+      "key": "B01",
+      "grammar_id": "453d0f13-3727-4335-8f6a-ddff70f570ac",
+      "example_ids": [
+        "e647ae37-6205-4df6-bd52-bf5f564deecb",
+        "c64a3f34-3148-4d1f-b008-4f0272bd92a2",
+        "4c86b91d-fa04-4af9-b449-8230e8946b28",
+        "fa349938-8c0a-48e8-a712-77667cb30b6a"
+      ],
+      "question_ids": [
+        "b89661fe-3f61-413f-a863-150249daf24e",
+        "3d6a5756-0c83-4df2-be46-797d4990bbc4",
+        "c6e0d329-b840-405a-a15e-865874a19f61",
+        "11186a29-e06e-4a21-a9bd-8ae5f48ab6ff"
+      ],
+      "korean_self_review": "REVIEWED_BY_AI",
+      "japanese_self_review": "REVIEWED_BY_AI",
+      "form_meaning_constraints_tense_irregular_register": "ㄹ 때 ㄹ이 항상 미래가 아님·듣다/춥다 활용 확인; 주절만으로 시간 판단하던 F06 수정.",
+      "questions_review": "4 tasks / 3 choices each; answer, both distractors and rationale reread for specified scene; grammatical but wrong-function distractors distinguished",
+      "independent_native_teacher_review": "NOT TESTED"
+    },
+    {
+      "key": "B02",
+      "grammar_id": "58303aa2-5451-40ec-8345-6b7cc14fa1aa",
+      "example_ids": [
+        "9cfd212c-44ca-4cc7-bd48-cdc1be06501e",
+        "59e1cab8-b2ac-417a-be78-7d8dd974a7c5",
+        "40feac11-9f93-4dfd-9937-853e6e6bb039",
+        "d1f7289d-3207-4e38-b773-818982b028a4"
+      ],
+      "question_ids": [
+        "63a33a72-9b9d-43a4-9885-fe2de44b56fc",
+        "3744c3bd-2c81-4d04-9df3-4b0119a45078",
+        "c883f1d6-2037-423a-a48f-6f2d09b2cca9",
+        "35dbd06f-f6a5-4fdf-a38c-002870366ba8"
+      ],
+      "korean_self_review": "REVIEWED_BY_AI",
+      "japanese_self_review": "REVIEWED_BY_AI",
+      "form_meaning_constraints_tense_irregular_register": "고 나서 순서와 단순 고 연결 구분; 선행 완료와 후행 행동·반복 가능성 확인.",
+      "questions_review": "4 tasks / 3 choices each; answer, both distractors and rationale reread for specified scene; grammatical but wrong-function distractors distinguished",
+      "independent_native_teacher_review": "NOT TESTED"
+    },
+    {
+      "key": "B03",
+      "grammar_id": "971d0ccc-242f-464d-90e9-775c19b88c94",
+      "example_ids": [
+        "13c0812c-02b2-47c3-bac9-3bc73ed0d8e0",
+        "3a42e720-fe5c-444d-81b1-3079e6e130b3",
+        "1d81974c-9e04-4c46-a375-0b91048a024e",
+        "9948b97b-992b-431b-8373-f626f01e4b2e"
+      ],
+      "question_ids": [
+        "107d416c-37fe-478b-8dfc-ddb42c833e65",
+        "a2519b5a-e16b-4cc9-8510-b740da8bfe1b",
+        "441ada66-b3f8-4558-b92b-7151cb97b38e",
+        "f36cd527-d690-4e54-844a-d1a5180e56e1"
+      ],
+      "korean_self_review": "REVIEWED_BY_AI",
+      "japanese_self_review": "REVIEWED_BY_AI",
+      "form_meaning_constraints_tense_irregular_register": "는 동안/N동안 시간 겹침과 전후 관계 구분; 동생 성별은 예문 장면으로 F13 명시.",
+      "questions_review": "4 tasks / 3 choices each; answer, both distractors and rationale reread for specified scene; grammatical but wrong-function distractors distinguished",
+      "independent_native_teacher_review": "NOT TESTED"
+    },
+    {
+      "key": "B04",
+      "grammar_id": "d41f1600-e5aa-40da-b23e-7c51a40d726b",
+      "example_ids": [
+        "f527a5e2-ccf5-4182-bdbd-1c205e45948b",
+        "6d400bc6-0022-414b-816b-2d4fb50b46f4",
+        "ef0d6c4d-307c-4238-8841-f4acb1139fd9",
+        "1de2044b-6aa7-4b37-84dc-b183b1ecdebc"
+      ],
+      "question_ids": [
+        "41ec951c-7b0f-4bdf-8d69-23bb166dd087",
+        "ae0d313e-398e-400b-bb1f-2e3b966f7205",
+        "dfe453ad-9e9b-462a-90fe-d61b9a96bd74",
+        "c2c5592a-081e-4190-876c-d4e0db3e06ac"
+      ],
+      "korean_self_review": "REVIEWED_BY_AI",
+      "japanese_self_review": "REVIEWED_BY_AI",
+      "form_meaning_constraints_tense_irregular_register": "자마자 즉시 연속과 막연한 이후 구분; 선행 과거 중첩 없이 주절 시제 사용 확인.",
+      "questions_review": "4 tasks / 3 choices each; answer, both distractors and rationale reread for specified scene; grammatical but wrong-function distractors distinguished",
+      "independent_native_teacher_review": "NOT TESTED"
+    },
+    {
+      "key": "B05",
+      "grammar_id": "ec8a7395-00b1-494a-bada-a5f767a3e66e",
+      "example_ids": [
+        "c8b4025b-4f84-49dc-8351-8a5baa2713e0",
+        "aeacbb0b-4caf-4e08-9d91-7aa99d4f4715",
+        "d9054cf2-270b-46a8-9d58-2308fd916186",
+        "694ce968-1740-4293-833d-d7e59ff861bf"
+      ],
+      "question_ids": [
+        "4dff9ea5-38bf-40b7-9f02-d47e9edc903d",
+        "ab2a8a5e-a28e-4e36-8376-3a5894481355",
+        "1000b335-b3cd-476e-8f85-20f9bdef23f6",
+        "2a843edd-514e-44cf-8fd7-ee07b023e057"
+      ],
+      "korean_self_review": "REVIEWED_BY_AI",
+      "japanese_self_review": "REVIEWED_BY_AI",
+      "form_meaning_constraints_tense_irregular_register": "다가 중단/전환과 두 동작 완료 순서 구분; 기본 동일주어 조건과 인과 전용과 구분.",
+      "questions_review": "4 tasks / 3 choices each; answer, both distractors and rationale reread for specified scene; grammatical but wrong-function distractors distinguished",
+      "independent_native_teacher_review": "NOT TESTED"
+    },
+    {
+      "key": "B06",
+      "grammar_id": "172590f5-9c3c-4fd9-9196-f1811ac4880e",
+      "example_ids": [
+        "6649660c-0674-426f-9336-c7fc3dade3ef",
+        "5ded2755-e15e-4785-86c3-2fc30567200c",
+        "9e35044d-c860-449e-a86f-c4b19b0b008b",
+        "73a1e41a-e079-42a0-9cec-3770f0c0ab9f"
+      ],
+      "question_ids": [
+        "2cae9d7d-be29-425d-ade9-285563e0f2ad",
+        "532d4e63-0fac-4eb9-b4ad-1d8ab56882a5",
+        "870789bb-d9ad-44ed-9382-de7579b8b8ac",
+        "af4b49b0-4e59-4389-9415-81ac20c176d3"
+      ],
+      "korean_self_review": "REVIEWED_BY_AI",
+      "japanese_self_review": "REVIEWED_BY_AI",
+      "form_meaning_constraints_tense_irregular_register": "자동/타동 결과상태·진행과 고 있다의 유지상태 예외 재검토; F07 장면·해설 보완.",
+      "questions_review": "4 tasks / 3 choices each; answer, both distractors and rationale reread for specified scene; grammatical but wrong-function distractors distinguished",
+      "independent_native_teacher_review": "NOT TESTED"
+    },
+    {
+      "key": "B07",
+      "grammar_id": "d14e4b1a-a765-440b-b8fa-4ec1b97d0a40",
+      "example_ids": [
+        "7685a2e0-37dc-44c5-81a8-586b8795f729",
+        "f9259d1c-5e0d-4944-bc84-47605750e2b1",
+        "4625a0c8-be80-46d1-b377-4edfa8c497a1",
+        "9f4aaae7-e0a8-495c-abab-02571b8a8b5e"
+      ],
+      "question_ids": [
+        "5b3ccad3-68ed-4eca-92a6-53588782789d",
+        "a26a54bd-4c5b-4396-8efe-6ca2db91b0f9",
+        "5ecbf86b-0c14-4c89-8c8b-8847a12e253c",
+        "d6edb2c4-9403-4f8c-a9ae-99123ff20bf9"
+      ],
+      "korean_self_review": "REVIEWED_BY_AI",
+      "japanese_self_review": "REVIEWED_BY_AI",
+      "form_meaning_constraints_tense_irregular_register": "배경/대조/말걸기와 단순 원인의 차이, V는데/A은데/N인데 결합·ㄹ탈락 확인.",
+      "questions_review": "4 tasks / 3 choices each; answer, both distractors and rationale reread for specified scene; grammatical but wrong-function distractors distinguished",
+      "independent_native_teacher_review": "NOT TESTED"
+    },
+    {
+      "key": "B08",
+      "grammar_id": "f3e5c2de-6721-46ce-af18-1a5c458bcac8",
+      "example_ids": [
+        "7bca453b-049a-4305-beaa-d7a84e46c0a7",
+        "6f237554-8f42-48ec-b823-94fad062a7a0",
+        "1a497007-3fc1-471f-89b6-be038219a556",
+        "4c04fdb9-44a6-463d-af27-6aaebab392c6"
+      ],
+      "question_ids": [
+        "074598a2-553a-4bb9-aa5f-645389cf4d6d",
+        "85c0092f-a78b-42d1-9158-db412cc95463",
+        "aac6b9bb-0e7c-4baf-9353-707e12a3bec7",
+        "2219a7e2-6073-4de0-b25a-d601563875a6"
+      ],
+      "korean_self_review": "REVIEWED_BY_AI",
+      "japanese_self_review": "REVIEWED_BY_AI",
+      "form_meaning_constraints_tense_irregular_register": "허가 아어도되다와 양보 구별; 듣다/덥다·부정·이미 성립한 사건 범위 확인.",
+      "questions_review": "4 tasks / 3 choices each; answer, both distractors and rationale reread for specified scene; grammatical but wrong-function distractors distinguished",
+      "independent_native_teacher_review": "NOT TESTED"
+    },
+    {
+      "key": "B09",
+      "grammar_id": "40f95bb3-8746-47cf-9a49-023cecc3345b",
+      "example_ids": [
+        "77460630-cca9-4c17-966a-80c960a13b08",
+        "43c602ce-b1c9-4f42-87da-fde9b8589799",
+        "c7428455-3513-4d08-9a78-983156372abe",
+        "2aa98370-24cc-4923-85cc-7f5e143da634"
+      ],
+      "question_ids": [
+        "3ca1dfc2-7105-4abc-9bdb-97a9548c437c",
+        "4a9c6f2e-f24c-44ae-9d0e-7fbafd86cd48",
+        "7b1aab6f-8c22-4db7-a928-af8f0ce4ae07",
+        "1428325c-7ac2-4fec-8887-2742f5434e34"
+      ],
+      "korean_self_review": "REVIEWED_BY_AI",
+      "japanese_self_review": "REVIEWED_BY_AI",
+      "form_meaning_constraints_tense_irregular_register": "기는 하지만 인정/유보, 기는 했지만/았기는하지만 시제 위치, 멀기는 ㄹ 보존 확인.",
+      "questions_review": "4 tasks / 3 choices each; answer, both distractors and rationale reread for specified scene; grammatical but wrong-function distractors distinguished",
+      "independent_native_teacher_review": "NOT TESTED"
+    },
+    {
+      "key": "B10",
+      "grammar_id": "74fbc968-1127-454f-9097-d1917f7094a8",
+      "example_ids": [
+        "7b6b0769-be27-4e5d-9e6f-66df24beafb9",
+        "d229e488-bf55-4832-afa5-fdb5899b9734",
+        "5196ab94-3adf-40a9-b19b-9da124b5633c",
+        "601ff5a4-b7bc-4437-a6a7-ef521b76dfb2"
+      ],
+      "question_ids": [
+        "f9925d17-5aa0-4648-8aae-f0f31125b775",
+        "7d2b5b45-83f4-4bdd-8ad3-14a087f0197b",
+        "eeced911-ae35-4977-b4a5-5422b21fe57a",
+        "d84d0dfa-f6c5-43ae-87b8-bcc436fa0a8f"
+      ],
+      "korean_self_review": "REVIEWED_BY_AI",
+      "japanese_self_review": "REVIEWED_BY_AI",
+      "form_meaning_constraints_tense_irregular_register": "이라도 차선/최소 선택 교육 범위로 한정; 신분 양보/부사 뒤 라도는 미해결 유지. F11 으니 선행 부담 제거.",
+      "questions_review": "4 tasks / 3 choices each; answer, both distractors and rationale reread for specified scene; grammatical but wrong-function distractors distinguished",
+      "independent_native_teacher_review": "NOT TESTED"
+    },
+    {
+      "key": "B11",
+      "grammar_id": "11d06a0a-c142-4856-815d-e63d0158c8dd",
+      "example_ids": [
+        "58b1696a-eee0-4d4a-ab9d-3f92d45d73df",
+        "9c2c74f1-a7c1-40cb-857b-69ddc3b4bab8",
+        "5af40738-2100-48d0-9e01-c95d3194a972",
+        "d852700f-e282-4d53-867c-149dd3adbd19"
+      ],
+      "question_ids": [
+        "1a614c75-ee61-4892-bd3c-fddc58f31667",
+        "eecb72fe-2408-4f9c-a4b1-aeac694d5f8c",
+        "2823a7d3-3ea7-4f73-9426-f80ad333a09b",
+        "240d2d9f-d921-4fec-87f6-1d166f90654d"
+      ],
+      "korean_self_review": "REVIEWED_BY_AI",
+      "japanese_self_review": "REVIEWED_BY_AI",
+      "form_meaning_constraints_tense_irregular_register": "더니 관찰한 타인 변화 기본 범위와 자기 과거 결과 구별; 동생 성별 장면 F13 명시.",
+      "questions_review": "4 tasks / 3 choices each; answer, both distractors and rationale reread for specified scene; grammatical but wrong-function distractors distinguished",
+      "independent_native_teacher_review": "NOT TESTED"
+    },
+    {
+      "key": "B12",
+      "grammar_id": "f65f7148-511f-4c51-9472-7ba0dd29957d",
+      "example_ids": [
+        "0fb6125e-6309-4e18-ad75-6a9ed5e7f05d",
+        "054d5d2a-93bf-4a7f-b0c8-5316599f6f4e",
+        "ed4e4624-33a1-49ff-8b27-c7b1d794991c",
+        "4383dee5-791c-4590-9284-66a7c54a0cf5"
+      ],
+      "question_ids": [
+        "25bad65a-6c22-46ca-a487-b99d4ac43a10",
+        "45f6b691-f52f-4d6d-97bd-6e4e9c91bbea",
+        "08a02a3d-bf86-44b8-90a6-d6d504610bad",
+        "b35d16b9-4215-4cd6-99cf-3d00af2c3968"
+      ],
+      "korean_self_review": "REVIEWED_BY_AI",
+      "japanese_self_review": "REVIEWED_BY_AI",
+      "form_meaning_constraints_tense_irregular_register": "았었더니 자기 경험 후 발견과 일반조건 구별; 며칠 일찍 잤다 일본어 수량 범위 F08 수정.",
+      "questions_review": "4 tasks / 3 choices each; answer, both distractors and rationale reread for specified scene; grammatical but wrong-function distractors distinguished",
+      "independent_native_teacher_review": "NOT TESTED"
+    },
+    {
+      "key": "B13",
+      "grammar_id": "17659b43-e2b7-4290-91b8-82446e05f9cb",
+      "example_ids": [
+        "99dd0526-a3cd-4667-b288-c76423e8d331",
+        "37f4140f-4294-4cc6-9e8b-cfd9d34754c7",
+        "1af2baac-0018-40cc-a376-09ecfba4618a",
+        "08f30694-f5be-4eae-b519-6fe110f9da92"
+      ],
+      "question_ids": [
+        "e1233b76-a081-4d49-8736-8a703c44252c",
+        "492c38c4-6542-4fb9-b3b9-872f48602c4c",
+        "e0e87fcb-df4f-4701-862e-b635f5bb8184",
+        "df26401d-b0b6-4943-92d6-d572f4f2ffcf"
+      ],
+      "korean_self_review": "REVIEWED_BY_AI",
+      "japanese_self_review": "REVIEWED_BY_AI",
+      "form_meaning_constraints_tense_irregular_register": "다 보니 실제 누적 발견과 다 보면 전망 구분; 보니 단순 보다 원형과 혼동하지 않음.",
+      "questions_review": "4 tasks / 3 choices each; answer, both distractors and rationale reread for specified scene; grammatical but wrong-function distractors distinguished",
+      "independent_native_teacher_review": "NOT TESTED"
+    },
+    {
+      "key": "B14",
+      "grammar_id": "894c1244-bc9d-4a06-95bd-dff4f3c2cbb1",
+      "example_ids": [
+        "68c05edd-b6f3-4e5b-958a-c0e0029b0fcd",
+        "b39b5d90-2fbf-4e9d-b679-ae4e5196d6e7",
+        "ffb6a6fd-061a-44f9-a22f-10e488c3f823",
+        "5c8c7053-c60c-48d4-a0e4-45d5154492f8"
+      ],
+      "question_ids": [
+        "e27a9ec0-d8b4-41a8-8d82-c18be5666ed6",
+        "868bb90a-aed9-4979-8a94-d483f0b8576c",
+        "9d860f7b-605e-44ab-96b8-648601431d02",
+        "0ebaad64-ca05-409d-9700-d22b07674b0b"
+      ],
+      "korean_self_review": "REVIEWED_BY_AI",
+      "japanese_self_review": "REVIEWED_BY_AI",
+      "form_meaning_constraints_tense_irregular_register": "ㄹ 뻔하다 사건이 일어나지 않은 근접 과거·하마터면·부정 특수 범위 제외 확인.",
+      "questions_review": "4 tasks / 3 choices each; answer, both distractors and rationale reread for specified scene; grammatical but wrong-function distractors distinguished",
+      "independent_native_teacher_review": "NOT TESTED"
+    },
+    {
+      "key": "B15",
+      "grammar_id": "54eb6883-e365-406c-9568-7078e72c0b10",
+      "example_ids": [
+        "348e03d8-94fd-433b-a4dd-1f200635dec8",
+        "f1dcb7a1-7682-43f8-98c5-a986cd2ab2d2",
+        "34555496-7ee6-4f4b-b11c-f314ba85c611",
+        "faeee2ee-c12a-4229-ba2d-1b47757d07a2"
+      ],
+      "question_ids": [
+        "2127a1da-42ce-4059-8268-d637ba147c3b",
+        "817da5fe-3abe-4a35-bb0b-c4d6a59d84cf",
+        "dd7b157c-b699-4f4d-909d-6fe9a6f07e17",
+        "8c052bd5-ee34-4f85-8237-594d07f6cc04"
+      ],
+      "korean_self_review": "REVIEWED_BY_AI",
+      "japanese_self_review": "REVIEWED_BY_AI",
+      "form_meaning_constraints_tense_irregular_register": "고 나서야/은 뒤에야 최초 인식 시점 강조와 단순 순서 차이, 기존 예문 재사용 2건 확인.",
+      "questions_review": "4 tasks / 3 choices each; answer, both distractors and rationale reread for specified scene; grammatical but wrong-function distractors distinguished",
+      "independent_native_teacher_review": "NOT TESTED"
+    },
+    {
+      "key": "B16",
+      "grammar_id": "35a30485-766a-4146-aad0-88646020e192",
+      "example_ids": [
+        "ce984fd2-38c9-4fd3-a335-74b46eb7a342",
+        "c5097585-2c8c-47de-9bcc-91b43d218e8a",
+        "b30245f9-0ae0-42ac-8825-ed961e5069c9",
+        "bf1fcf8e-f29a-493f-911a-333e2de4db25"
+      ],
+      "question_ids": [
+        "2fe42a59-805f-4c6f-9097-f00388190558",
+        "8a50c8a0-151a-4645-a9b7-f292a5d24c4d",
+        "c1149059-3635-448f-a4c7-d67c5ba1396b",
+        "5b6e01fb-1646-4d13-8223-2f19e4090af8"
+      ],
+      "korean_self_review": "REVIEWED_BY_AI",
+      "japanese_self_review": "REVIEWED_BY_AI",
+      "form_meaning_constraints_tense_irregular_register": "는/은 편이다 경향·상대 평가와 추측 구분; Q4 지금 문맥 F09·동생 성별 F13 보완.",
+      "questions_review": "4 tasks / 3 choices each; answer, both distractors and rationale reread for specified scene; grammatical but wrong-function distractors distinguished",
+      "independent_native_teacher_review": "NOT TESTED"
+    },
+    {
+      "key": "B17",
+      "grammar_id": "782eb56e-972c-4c6e-81a7-911d094caac1",
+      "example_ids": [
+        "a6352c1b-7e6f-48d2-996a-80656f620b4b",
+        "dd7f4788-bcec-4fc2-be36-606e9590ded7",
+        "4fad7565-85c3-419f-a528-c530e4888746",
+        "cd8bdcd8-2053-4466-9524-1da622626d25"
+      ],
+      "question_ids": [
+        "00d364bf-2ef4-42b6-b4cf-dbdce8b03a72",
+        "9e7d8cd6-06de-47ea-b164-0cd9425bbfb6",
+        "8e88d6af-55bc-4066-a449-4b9ee5a4b607",
+        "8fb68828-382e-4531-a65d-3e595dd15c81"
+      ],
+      "korean_self_review": "REVIEWED_BY_AI",
+      "japanese_self_review": "REVIEWED_BY_AI",
+      "form_meaning_constraints_tense_irregular_register": "는 대신/N대신 대체·보상 조건과 단순 동시/대조 구분; 명사 뒤 에 생략 범위 확인.",
+      "questions_review": "4 tasks / 3 choices each; answer, both distractors and rationale reread for specified scene; grammatical but wrong-function distractors distinguished",
+      "independent_native_teacher_review": "NOT TESTED"
+    },
+    {
+      "key": "B18",
+      "grammar_id": "754881ff-3e7d-4743-8de8-ab6f63b1a9a4",
+      "example_ids": [
+        "ec2ce1f6-3931-4627-b785-a6757241c192",
+        "26f01ffb-c07c-4079-93e5-b904e2e641aa",
+        "47ef709e-304f-42f9-b71d-4e15eaa34cbc",
+        "6d88c52b-3d5e-44ba-9953-fdf967bc8d96"
+      ],
+      "question_ids": [
+        "347b16b6-b145-419e-99f1-8bfb8be81f07",
+        "0257c319-f11e-4f2e-bc13-0563e0d6ea30",
+        "5cc52d58-0cb5-4365-8c4a-6739916d7dfb",
+        "f8d4ef35-d7ab-41d8-990f-6750a7a68e5f"
+      ],
+      "korean_self_review": "REVIEWED_BY_AI",
+      "japanese_self_review": "REVIEWED_BY_AI",
+      "form_meaning_constraints_tense_irregular_register": "는 김에 진행/예정 기회 활용과 무관한 추가행동 구분; 일본어 어색한 시점 표현 F10 수정.",
+      "questions_review": "4 tasks / 3 choices each; answer, both distractors and rationale reread for specified scene; grammatical but wrong-function distractors distinguished",
+      "independent_native_teacher_review": "NOT TESTED"
+    },
+    {
+      "key": "C01",
+      "grammar_id": "31239c2c-43e2-4c94-8db8-e3777ef8cc10",
+      "example_ids": [
+        "c4935e25-5f72-4fa6-8a9c-1cb6d7a158e3",
+        "4cf82e55-6fd1-493a-9fa2-65b8e23016dc",
+        "c4a926e2-06fc-4038-9239-5b90e7c69462",
+        "3bae7c1a-e4c3-4c63-8edd-b38ed04a9fc1"
+      ],
+      "question_ids": [
+        "26d1f1a3-99bc-49f6-a990-41a43d47129b",
+        "705fbfb7-cc15-4d04-b65c-8445167f338e",
+        "2cafed4a-8d4a-4fa7-af57-ccb14c46f90d",
+        "287bd966-e245-4a84-87ea-00fbf4d6376d"
+      ],
+      "korean_self_review": "REVIEWED_BY_AI",
+      "japanese_self_review": "REVIEWED_BY_AI",
+      "form_meaning_constraints_tense_irregular_register": "V현재 는/과거 은/미래 을, A은·N인·있는없는, 살다/듣다/돕다·피동 생성 범위 제외 확인.",
+      "questions_review": "4 tasks / 3 choices each; answer, both distractors and rationale reread for specified scene; grammatical but wrong-function distractors distinguished",
+      "independent_native_teacher_review": "NOT TESTED"
+    },
+    {
+      "key": "C02",
+      "grammar_id": "3213bc29-b278-4331-8a9d-383e0101653b",
+      "example_ids": [
+        "9556acc8-8f09-438f-a395-d3bdcfa2e449",
+        "6ab8b2a1-721e-4ba0-b228-8ae1cdf54728",
+        "4b645e53-bbe4-41b5-bc69-cce23a7dbd7f",
+        "0ff5d796-6ec2-4963-a0af-5a23a63bf969"
+      ],
+      "question_ids": [
+        "67ac26af-3ce3-494b-92fd-0390f48bbbc1",
+        "4e582b23-7758-4012-b4b4-ac7e72ac610d",
+        "372e979d-c7e4-485c-b4b6-e00160d40c54",
+        "3e5ccc9f-e2c0-4b4f-901e-ca23055a53a3"
+      ],
+      "korean_self_review": "REVIEWED_BY_AI",
+      "japanese_self_review": "REVIEWED_BY_AI",
+      "form_meaning_constraints_tense_irregular_register": "것 명사화 시점/게건걸 축약과 기·인용 수식 구분; 명사화만으로 복잡한 부정 논리 해결 주장 안 함.",
+      "questions_review": "4 tasks / 3 choices each; answer, both distractors and rationale reread for specified scene; grammatical but wrong-function distractors distinguished",
+      "independent_native_teacher_review": "NOT TESTED"
+    },
+    {
+      "key": "C03",
+      "grammar_id": "c02c5bd8-8dc1-4e6c-ab6d-d756ddd32c6f",
+      "example_ids": [
+        "db24b1fd-eb0a-4cec-abb2-232aec2882ef",
+        "f06ef567-1dd8-4c81-bc6f-f9692e4591f8",
+        "a78e0ca2-4c1d-4423-8212-7bb14af1aac2",
+        "6c156447-467c-4ad7-9b7b-ece637a8e463"
+      ],
+      "question_ids": [
+        "74c59fe5-24b6-40b1-8b38-7b3f7f3cc5c5",
+        "bfb4a66c-dcc3-40c2-b37f-662931dd056f",
+        "884a303c-9c7e-4737-b344-ce3c0ae709fc",
+        "28b245a8-9a6e-4543-bc15-8e448bd85760"
+      ],
+      "korean_self_review": "REVIEWED_BY_AI",
+      "japanese_self_review": "REVIEWED_BY_AI",
+      "form_meaning_constraints_tense_irregular_register": "관찰 근거 추론과 의도/단정 차이, V나보다/A은가보다와 회화 변이 허용 확인.",
+      "questions_review": "4 tasks / 3 choices each; answer, both distractors and rationale reread for specified scene; grammatical but wrong-function distractors distinguished",
+      "independent_native_teacher_review": "NOT TESTED"
+    },
+    {
+      "key": "C04",
+      "grammar_id": "445b7ded-b9dc-434e-b8fb-7ed4d253bc64",
+      "example_ids": [
+        "c31e0fb3-fc98-49a6-8eb7-34fa962ddafb",
+        "d497105b-9baa-4247-ba8b-eee18e9e791d",
+        "44a5fbc1-fcf6-461a-92ae-43146504e86f",
+        "b491701b-6da2-4ea2-a4de-681e64b2302a"
+      ],
+      "question_ids": [
+        "b79b9182-c440-4917-a8a1-843576e10092",
+        "bbcd6d86-83de-4e77-b6be-69cdff38f037",
+        "20ea5bf1-87a2-4f8d-a938-3ed180ae6449",
+        "3fdb2d0a-da90-4602-a426-fda731b2d146"
+      ],
+      "korean_self_review": "REVIEWED_BY_AI",
+      "japanese_self_review": "REVIEWED_BY_AI",
+      "form_meaning_constraints_tense_irregular_register": "가능성 을지도모르다와 질문 을지모르다 구별; 수치 확률/비교 확신도 보장하지 않음.",
+      "questions_review": "4 tasks / 3 choices each; answer, both distractors and rationale reread for specified scene; grammatical but wrong-function distractors distinguished",
+      "independent_native_teacher_review": "NOT TESTED"
+    },
+    {
+      "key": "C05",
+      "grammar_id": "2a7b0e46-86f5-49fa-ac87-de9e3de87e3a",
+      "example_ids": [
+        "8457da67-3335-491e-811c-80f43e6aee5d",
+        "529ff9a8-2593-4494-9e12-a75b336b620a",
+        "e3d2f388-1ed0-44a7-83da-5f975f0c6243",
+        "3f3c9fd9-a472-450f-8a05-b61b5e730557"
+      ],
+      "question_ids": [
+        "9c89c3df-0093-4ee2-b1e9-e1449d2f2908",
+        "4637641d-695b-4bbb-be5b-586c82ddc9e8",
+        "716e1416-02bd-43bf-9a78-7cf18f5b55d8",
+        "556afe57-fa89-406f-9850-144c6208fe94"
+      ],
+      "korean_self_review": "REVIEWED_BY_AI",
+      "japanese_self_review": "REVIEWED_BY_AI",
+      "form_meaning_constraints_tense_irregular_register": "간접의문 현재/과거/미래와 직접 질문 인용 구분; 학습자 텍스트 내부 P25/P26 F12 제거.",
+      "questions_review": "4 tasks / 3 choices each; answer, both distractors and rationale reread for specified scene; grammatical but wrong-function distractors distinguished",
+      "independent_native_teacher_review": "NOT TESTED"
+    },
+    {
+      "key": "C06",
+      "grammar_id": "e4d0935d-a2ae-4207-8583-bcb93de194bd",
+      "example_ids": [
+        "4aa0b2a6-e99e-4ced-b24e-f2992336668e",
+        "24c0e34a-caea-4953-a6e7-b267e4e3dab0",
+        "1fe1cf79-be82-46b7-a5bc-a02c910723e3",
+        "b9ea56cd-8841-496e-a1c6-1e73c0be2e83"
+      ],
+      "question_ids": [
+        "6f6d1da9-9667-4b9d-abcd-3cb1208d9b22",
+        "74ead026-4789-4d6e-a52b-021b971c0c17",
+        "6d0b5105-5b6b-4e3d-841a-7329a6a24665",
+        "5f7e9815-039d-4753-841a-9dc78f496823"
+      ],
+      "korean_self_review": "REVIEWED_BY_AI",
+      "japanese_self_review": "REVIEWED_BY_AI",
+      "form_meaning_constraints_tense_irregular_register": "평서 Vㄴ는다고/A다고/N이라고·과거/미래 인용, 살다 ㄹ탈락·보고자 시점·높임 확인.",
+      "questions_review": "4 tasks / 3 choices each; answer, both distractors and rationale reread for specified scene; grammatical but wrong-function distractors distinguished",
+      "independent_native_teacher_review": "NOT TESTED"
+    },
+    {
+      "key": "C07",
+      "grammar_id": "2d9cbb5e-ac05-4cbc-a52b-975c19d77210",
+      "example_ids": [
+        "80edd77f-6fe1-46cd-a802-b9de559ec905",
+        "39552f2b-d6a9-40f4-bc0b-131c1108e350",
+        "74b0d780-3bc8-4ab8-b14b-62ab96ef17b5",
+        "feec8f08-e7c8-4db4-bec1-b8f5be0d6404"
+      ],
+      "question_ids": [
+        "0d997c6d-638b-4b85-b8a5-4e3e38a966fd",
+        "ab477020-38e9-4af0-ba97-a59e0317c444",
+        "9f5a2069-c1ea-4df9-8ddf-063fb486ca6d",
+        "e5fdc264-a4d9-45b7-92b3-6f56eb35333d"
+      ],
+      "korean_self_review": "REVIEWED_BY_AI",
+      "japanese_self_review": "REVIEWED_BY_AI",
+      "form_meaning_constraints_tense_irregular_register": "내용 인용 수식과 사람 자체의 일반 관형 구분; 명사/과거형·인용 진위 비보장 확인.",
+      "questions_review": "4 tasks / 3 choices each; answer, both distractors and rationale reread for specified scene; grammatical but wrong-function distractors distinguished",
+      "independent_native_teacher_review": "NOT TESTED"
+    },
+    {
+      "key": "C08",
+      "grammar_id": "600d5cb2-aad4-414b-893a-3bb1f970909f",
+      "example_ids": [
+        "8fbe7abb-edc4-499c-919e-5e7685bd0797",
+        "de3d11a3-7d5f-453c-993b-4b4521eb49fd",
+        "dafc7af5-f2e5-4941-9f78-7fc81513bca5",
+        "e1d464c3-ff98-4e2a-8eed-5ca0ca7ebe86"
+      ],
+      "question_ids": [
+        "b80f5a3c-ff90-4d28-8d33-7b1ac016d719",
+        "668ffc96-a596-4ce3-af0b-4db1465bae65",
+        "655a8deb-3368-44b4-8307-9d86f4ed845c",
+        "1bd9085a-8642-445f-946d-7fc0c757c4c4"
+      ],
+      "korean_self_review": "REVIEWED_BY_AI",
+      "japanese_self_review": "REVIEWED_BY_AI",
+      "form_meaning_constraints_tense_irregular_register": "명령/요청 으라고·지말라고와 평서 부정 구분; 들으라고·만들라고·원발화 존대 처리 확인.",
+      "questions_review": "4 tasks / 3 choices each; answer, both distractors and rationale reread for specified scene; grammatical but wrong-function distractors distinguished",
+      "independent_native_teacher_review": "NOT TESTED"
+    },
+    {
+      "key": "C09",
+      "grammar_id": "29c75088-07da-46d2-ac0b-495e520234ad",
+      "example_ids": [
+        "ab2fca1c-c0b4-475a-99cf-73ffdea28120",
+        "c81dbfdf-95dd-4f0d-8551-34e0e8af8d35",
+        "8f01229d-09fa-4bdb-bedc-4af51c05bdaa",
+        "5c2aed61-5991-447b-8af3-9ac6292e07c7"
+      ],
+      "question_ids": [
+        "c32b9b24-b1c9-42c0-aa5e-a18d9bd9e530",
+        "30fe7bbf-2ab9-4471-a8d9-749e1b958b0e",
+        "49f6ebd5-1ac5-4b34-a14a-505c4efb06cc",
+        "5ec4a014-a2e0-4f83-891e-8b66813f2911"
+      ],
+      "korean_self_review": "REVIEWED_BY_AI",
+      "japanese_self_review": "REVIEWED_BY_AI",
+      "form_meaning_constraints_tense_irregular_register": "자고/지말자고 공동제안과 일방 지시 구분; 제안 시점은 후속 했다에서 표현 확인.",
+      "questions_review": "4 tasks / 3 choices each; answer, both distractors and rationale reread for specified scene; grammatical but wrong-function distractors distinguished",
+      "independent_native_teacher_review": "NOT TESTED"
+    },
+    {
+      "key": "C10",
+      "grammar_id": "bd26d280-1967-4d90-81f5-95b3c2e3db59",
+      "example_ids": [
+        "b3a4918e-06ec-4c12-9edc-d80d0599c82f",
+        "a048b8f8-e1fb-49a8-9990-924c67f7b060",
+        "a41b12a1-617b-4f66-a461-c9db15030584",
+        "554330cc-6807-49ef-8d6a-a30e004be7ca"
+      ],
+      "question_ids": [
+        "3b547956-06ca-4bc1-b220-632f21403c95",
+        "61e0b3c4-c68f-41cc-9703-f8bae22b32e2",
+        "0c2500c6-efdf-42ed-89a9-faf92f298c1b",
+        "0a7dfbee-a97b-4fa4-9d8b-a22f1a459c09"
+      ],
+      "korean_self_review": "REVIEWED_BY_AI",
+      "japanese_self_review": "REVIEWED_BY_AI",
+      "form_meaning_constraints_tense_irregular_register": "냐고 회화형/느냐고 긴형·사느냐고, 물으셨어요 높임·반말 직접질문 혼동 방지 확인.",
+      "questions_review": "4 tasks / 3 choices each; answer, both distractors and rationale reread for specified scene; grammatical but wrong-function distractors distinguished",
+      "independent_native_teacher_review": "NOT TESTED"
+    },
+    {
+      "key": "C11",
+      "grammar_id": "f0acd94a-696c-4cbe-8d11-df2f2ea31f08",
+      "example_ids": [
+        "f0862d44-2640-48c6-bfb7-77cb68a75dec",
+        "87c3a220-a73d-486d-93bf-32235c3a78ec",
+        "0cc5c3ea-5d55-4892-ba1e-64d9b24a5715",
+        "daa55408-8366-4084-a45d-9c3e5a47b440"
+      ],
+      "question_ids": [
+        "0fb2d055-3178-4039-9213-844602dc2451",
+        "1b80d7a7-c76a-4cba-96e8-fffc79c364b3",
+        "9f6b9202-3632-41ba-b171-14cc2c4abf30",
+        "176dabd7-79bb-4860-b6a6-f8f952ba1a47"
+      ],
+      "korean_self_review": "REVIEWED_BY_AI",
+      "japanese_self_review": "REVIEWED_BY_AI",
+      "form_meaning_constraints_tense_irregular_register": "달라고/주라고 원의뢰자·행위자·수혜자 구분 및 Q별 장면 확인; 동생 성별 F13 명시.",
+      "questions_review": "4 tasks / 3 choices each; answer, both distractors and rationale reread for specified scene; grammatical but wrong-function distractors distinguished",
+      "independent_native_teacher_review": "NOT TESTED"
+    },
+    {
+      "key": "C12",
+      "grammar_id": "68c3a2a7-5f4e-4236-9474-380202f6bbeb",
+      "example_ids": [
+        "e332bdef-c112-4368-9c60-3eb58ab777c6",
+        "4b1ad35d-86fd-4602-8489-cd6054095833",
+        "d139f939-875f-40ba-89a4-80cbc3ae5a65",
+        "4e6950fb-7967-4b41-8a50-210618846fd9"
+      ],
+      "question_ids": [
+        "1c969ef8-7147-42e4-bbf5-647e6a20f419",
+        "e7e90db1-6599-4902-9e23-abcfc96e3f0d",
+        "00bf7de7-a395-4c45-9bc9-aeb49df0b67e",
+        "f2bc8b3e-6b54-4612-b273-463efe73d93e"
+      ],
+      "korean_self_review": "REVIEWED_BY_AI",
+      "japanese_self_review": "REVIEWED_BY_AI",
+      "form_meaning_constraints_tense_irregular_register": "같이 제안/제가 자원/제삼자 가능성 질문 주어별 차이, 들을까요·도울까요 확인.",
+      "questions_review": "4 tasks / 3 choices each; answer, both distractors and rationale reread for specified scene; grammatical but wrong-function distractors distinguished",
+      "independent_native_teacher_review": "NOT TESTED"
+    },
+    {
+      "key": "C13",
+      "grammar_id": "c931b72d-27f5-446c-ab2f-d85c4b46b4b9",
+      "example_ids": [
+        "fd0125ce-cdd7-4992-b48c-fc74c14f1d7d",
+        "fd4a4541-68af-4042-a628-df7ee1e60c47",
+        "a2ad57ba-19cd-43a5-9007-65c413f9bb7a",
+        "d3922b02-7f92-41f9-a918-737e2e816e15"
+      ],
+      "question_ids": [
+        "81b69e0c-c1c1-4a92-8bc4-549979662241",
+        "a4e708e8-fb13-40b1-9f8f-46694130b0e9",
+        "76821c97-b20f-4afd-89e3-c5952c87dd74",
+        "a86c905f-d0d9-49e2-948b-296968e088ac"
+      ],
+      "korean_self_review": "REVIEWED_BY_AI",
+      "japanese_self_review": "REVIEWED_BY_AI",
+      "form_meaning_constraints_tense_irregular_register": "ㄹ래요 의향·선택/권유의 Register와 게요 응답 차이, 상급자에 의향 강요 가능성 확인.",
+      "questions_review": "4 tasks / 3 choices each; answer, both distractors and rationale reread for specified scene; grammatical but wrong-function distractors distinguished",
+      "independent_native_teacher_review": "NOT TESTED"
+    },
+    {
+      "key": "C14",
+      "grammar_id": "b3c47e9e-b16e-4feb-bb5c-4cc4e49b5bf3",
+      "example_ids": [
+        "6144d085-8c44-4c44-864c-31d703221650",
+        "b3f9d1cd-3512-4311-96e3-1eacec798aad",
+        "1e4071c3-68a3-4284-8452-955cea5cd519",
+        "50dfd4eb-032d-44d9-98ea-7b9115e7c5c1"
+      ],
+      "question_ids": [
+        "30c06307-1594-4a82-9d3e-f2446e983ff4",
+        "fb660779-766a-448a-96c1-105b7521c3ff",
+        "ce1506c8-a7d8-4eda-934a-51eea6728f05",
+        "02c88ae9-a796-4d10-85a2-29da2e477013"
+      ],
+      "korean_self_review": "REVIEWED_BY_AI",
+      "japanese_self_review": "REVIEWED_BY_AI",
+      "form_meaning_constraints_tense_irregular_register": "줄래요/주실래요 상대행동 요청과 제가 줄까요 자원 구분; 돕다·듣다·높임·부담 확인.",
+      "questions_review": "4 tasks / 3 choices each; answer, both distractors and rationale reread for specified scene; grammatical but wrong-function distractors distinguished",
+      "independent_native_teacher_review": "NOT TESTED"
+    },
+    {
+      "key": "C15",
+      "grammar_id": "0b6da528-99a6-4f2f-8708-686b052e3213",
+      "example_ids": [
+        "01c9e0b5-2264-4d0d-abac-d916158b8379",
+        "baf8e086-193d-4b55-856d-2d3601bad896",
+        "c07a004f-b4f4-4273-a67d-18ae7474e1a0",
+        "ee2038db-5f1b-4789-bf37-bf795a15eeff"
+      ],
+      "question_ids": [
+        "84c1a7bf-9958-425c-b551-c4f5a506b4ca",
+        "b29343e4-2cfb-4241-9837-6b94317dad21",
+        "7bdd5e84-8933-4cd2-bdba-73e11220dcf9",
+        "8fd43e40-eac7-4c81-b66f-e34b68b1d551"
+      ],
+      "korean_self_review": "REVIEWED_BY_AI",
+      "japanese_self_review": "REVIEWED_BY_AI",
+      "form_meaning_constraints_tense_irregular_register": "ㄹ게요 화자 약속/응답, 제삼자 예측과 구분; 도울게요 표기·께요 오답 확인.",
+      "questions_review": "4 tasks / 3 choices each; answer, both distractors and rationale reread for specified scene; grammatical but wrong-function distractors distinguished",
+      "independent_native_teacher_review": "NOT TESTED"
+    },
+    {
+      "key": "C16",
+      "grammar_id": "f5fae1c3-9c30-4fe3-a9ed-6936aed2183a",
+      "example_ids": [
+        "a4118606-cc3b-4e86-885e-fe7c981f860d",
+        "e0481c9e-c1fd-4115-982c-b28f8b8c876f",
+        "1b60f0cb-d2eb-423c-a6b8-ccf5861073f3",
+        "06ac8037-c7b4-40e5-8a01-1dcdafa5374c"
+      ],
+      "question_ids": [
+        "d40b7661-a4cd-4ebb-a065-512e7e907b16",
+        "d65767bc-e4a0-49e3-9ec2-1763def4da8a",
+        "f579f74a-a1bc-42cc-936c-49cefc5ef3c2",
+        "fb2041f6-97aa-42a7-916a-26655fe56142"
+      ],
+      "korean_self_review": "REVIEWED_BY_AI",
+      "japanese_self_review": "REVIEWED_BY_AI",
+      "form_meaning_constraints_tense_irregular_register": "지요/죠 공유 인식과 네요 새인식 구분; 학생이지요·세시지요·기다리셨지요 높임 확인.",
+      "questions_review": "4 tasks / 3 choices each; answer, both distractors and rationale reread for specified scene; grammatical but wrong-function distractors distinguished",
+      "independent_native_teacher_review": "NOT TESTED"
+    },
+    {
+      "key": "C17",
+      "grammar_id": "7d214986-8d9d-4f84-9af5-de0234f136d5",
+      "example_ids": [
+        "0199bdbc-bb88-4469-afa5-f8cd588c7d89",
+        "7bb574e9-df93-4f52-b44f-f43c80e487f9",
+        "626e6f81-489c-4387-8c18-aae7180b9451",
+        "bda5a286-da3c-4286-95e0-0878066124b1"
+      ],
+      "question_ids": [
+        "7cfbc32c-9db4-4b08-b99f-a3fa7c13c589",
+        "243e124b-d373-4ecd-949c-9dae3828ea47",
+        "1d5dca48-7690-4bd9-866d-047b5c3d96d6",
+        "3030d2f6-07db-48e2-aa2e-c77546d52b7b"
+      ],
+      "korean_self_review": "REVIEWED_BY_AI",
+      "japanese_self_review": "REVIEWED_BY_AI",
+      "form_meaning_constraints_tense_irregular_register": "을수록 비례·정도와 보다 단순비교/다보면 전망 구분; 들을수록 붙여쓰기 확인.",
+      "questions_review": "4 tasks / 3 choices each; answer, both distractors and rationale reread for specified scene; grammatical but wrong-function distractors distinguished",
+      "independent_native_teacher_review": "NOT TESTED"
+    },
+    {
+      "key": "C18",
+      "grammar_id": "34a56baf-0b84-4263-ab82-14942a47beca",
+      "example_ids": [
+        "13c2dbc3-cc3d-4dbd-8301-ca650351d6d4",
+        "e67f5eeb-5c8b-4259-849c-cd7d23e553a0",
+        "aa213445-2fd4-4f63-8ded-e8ee9305f888",
+        "19d9989a-49e1-48c1-895e-da74b7eff969"
+      ],
+      "question_ids": [
+        "6d34f82c-8b2b-4640-8a77-0754ecb2896a",
+        "a58affb5-8829-4ed6-a0f1-bda4c387d92e",
+        "f1a48206-803b-4006-abaf-40c1e9f8f983",
+        "c5afade3-d59b-4825-a131-cff7e41b99df"
+      ],
+      "korean_self_review": "REVIEWED_BY_AI",
+      "japanese_self_review": "REVIEWED_BY_AI",
+      "form_meaning_constraints_tense_irregular_register": "네요 새 정보 반응은 칭찬에 한정 안 됨; 멀다→머네요 ㄹ탈락·닫았네요 결과 인식 확인.",
+      "questions_review": "4 tasks / 3 choices each; answer, both distractors and rationale reread for specified scene; grammatical but wrong-function distractors distinguished",
+      "independent_native_teacher_review": "NOT TESTED"
+    }
+  ]
+}
