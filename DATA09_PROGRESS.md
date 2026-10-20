@@ -501,3 +501,8 @@ native 회귀2개를 추가했다(전체139정의). 실제54개 카드/6단원/�
 최종 Content24/Schema4/reader7/UserProgress10, Vocabulary2,287/Meaning2,420/Example4,813(문장4,800+발음13)/Grammar96(入門22/初級20/初中級54)/Question3,553(Grammar300)/Listening1,936/Course8/Lesson103. 신규 수량54/216/216과 목표45~60/180~300/180~300, 장기350~500 유지. content_items15,941·tags103·content_links6,499·grammar_examples389. 단원 태그나 재사용 관계를 신규 문법/예문/문제로 합산하지 않는다.
 
 Source SHA `081ed35c7cd78345af1c1793fc450acaa2931f173cef00aaa960c8ef42318540`, DB SHA `56a7fa8b5358e254eeb324e706860d150d20c8ec013ba0b6f602cf14d93cceff`. [결과](Docs/DATA09_INTEGRATION_RESULTS.json), [전체 로그](Docs/DATA09_INTEGRATION_TEST_LOG.txt), [전용 로그](Docs/DATA09_INTEGRATION_FOCUSED_LOG.txt), [19 기준 실제 재구성](Docs/DATA09_INTEGRATION_RECONSTRUCTION19.json), [23 기준 실제 재구성](Docs/DATA09_INTEGRATION_RECONSTRUCTION23.json), [수량·배치](Docs/DATA09_INTEGRATION_COUNTS.json), [성능](Docs/DATA09_INTEGRATION_PERFORMANCE.json), [범위·미검증](Docs/DATA09_INTEGRATION.md). 상위 상태/콘텐츠/릴리스 문서와 AGENTS를 실제24 및 미완료 gate에 맞췄다. **DATA09-6에서 종료하며 DATA09-7/DATA10은 시작하지 않았다.**
+
+
+### 12.6 Git 전달
+
+통합/검증 commit `dc3809e04154e30d6e548439f6fe41033fd576dd`를 `data09-6/production-integration`에 정상 push하고 [PR #15](https://github.com/Raccoon26/Project-Hangul-Study/pull/15)를 main 대상으로 생성했다. 최대 신규 blob18,841,600 bytes로 일반 Git push 성공. Content 원본·기존 fixture 보존, force push/이력 재작성/LFS 전환0. 초기 unittest subtest의 행끝 공백1개는 원시 로그 보존을 위해 그대로 두고 해당 원시 로그를 제외한 소스/문서 whitespace 검사를 수행했다. GitHub 등록 check0개이므로 로컬 portable PASS를 GitHub CI/native 실행으로 표현하지 않는다. 최종 전달 문서 commit과 main merge SHA/상태는 해당 PR head/merge 기록 및 최종 응답을 따른다. 이번은 DATA09-6에서 종료한다.
