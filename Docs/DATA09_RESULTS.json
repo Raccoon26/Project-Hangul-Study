@@ -1,0 +1,101 @@
+{
+  "stage": "DATA-09-1",
+  "date_jst": "2026-10-20",
+  "scope": "analysis/design only; user explicit request overrides prior DATA09 hold only within this scope",
+  "base_commit": "87be2a152495b7d0d195ec318092a35b982b2bc6",
+  "branch": "data09-1/grammar-analysis",
+  "environment": {
+    "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+    "python": "3.12.14",
+    "sqlite": "3.53.1",
+    "available_commands": {
+      "python3": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "xcodebuild": null,
+      "swift": null
+    }
+  },
+  "production_changes": 0,
+  "versions": {
+    "content": 19,
+    "schema": 4,
+    "min_reader": 7,
+    "user_progress": 10
+  },
+  "grammar": {
+    "existing": 42,
+    "by_level": {
+      "intro": 22,
+      "beginner": 20,
+      "lower_intermediate": 0
+    },
+    "new_approved": 0,
+    "proposed": 54,
+    "long_term_target": [
+      350,
+      500
+    ]
+  },
+  "candidate_categories": {
+    "missing_grammar": 147,
+    "level_mismatch_candidate": 8,
+    "review_only": 8
+  },
+  "tests": {
+    "strict": {
+      "status": "PASS",
+      "errors": 0,
+      "warnings": 10,
+      "exit_code": 0
+    },
+    "grammar_regression": {
+      "status": "PASS",
+      "executed": 9,
+      "passed": 9,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "seconds": 31.101,
+      "exit_code": 0
+    },
+    "plan_reference_checks": {
+      "status": "PASS",
+      "checks": 1129,
+      "exit_code": 0,
+      "note": "structural checks, not extra unittest cases or language certification"
+    },
+    "full_portable": {
+      "status": "NOT RERUN",
+      "historical_data08_passed": 301
+    },
+    "native": {
+      "status": "BLOCKED",
+      "executed": 0,
+      "historical_definitions": 137
+    },
+    "independent_human_language_review": {
+      "status": "NOT TESTED",
+      "executed": 0
+    }
+  },
+  "data08_readiness": "B—Conditional unchanged",
+  "future_authoring": "NOT STARTED",
+  "limits": [
+    "163-row review is not complete parsing of all1821 examples",
+    "8 level mismatch candidates are editorial sequencing concerns, not confirmed Level errors",
+    "25 proposed units have no related example in original163 candidate set",
+    "54 proposals are not language-certified or runtime-conjugation supported",
+    "Original complete DEV/DATA task specifications remain unavailable"
+  ],
+  "evidence_sha256": {
+    "DATA09_PROGRESS.md": "3faf3e5124fb7a05210a46b09bd50e3d0a50079f44000e704e66904a26067f9f",
+    "Docs/DATA09_BASELINE.json": "fe023cbbf733011429d434ad3941770e2bb7fa7420a37bfe181f03a5bebfa0e7",
+    "Docs/DATA09_DESIGN.md": "28cbe5e273a2aa8cd4ab6d9fb8b7899e165ffedb0673a8bc266460cda5f68fec",
+    "Docs/DATA09_EXISTING_GRAMMAR.md": "ef85eae4d4833769fb99aadb26d0eba0c5947a39afcacaf635a78ac6ee3a126b",
+    "Docs/DATA09_GRAMMAR_PLAN.json": "8a9bc55dc783a3b36efe58ecc84c35ac56430a2b8d0a8e050cf237c316595a7f",
+    "Docs/DATA09_GRAMMAR_TEST_LOG.txt": "0a88ad2c739d85f1da5df73f23bfb6af21a3a4c23bbcf342b70712876106fae5",
+    "Docs/DATA09_PLAN_CHECKS.json": "7df7949de42a752d8e9fff812dd32285cee0928dca445c121723d98264fa3c24",
+    "Docs/DATA09_PREREQUISITE_AUDIT.json": "fdff87bf7e2f89a7627b4d14cdcdcf61a8df36213a5280e160e149554363a7d2",
+    "Docs/DATA09_PREREQUISITE_AUDIT.md": "c980a3c7825c07544292f840b085306020527992941e155f67ce5919b9981deb",
+    "Docs/DATA09_VALIDATION.json": "ca79d7b8107fab99cfe61dfb23c4558a1f942eb9bf697b69446a698505103181"
+  }
+}

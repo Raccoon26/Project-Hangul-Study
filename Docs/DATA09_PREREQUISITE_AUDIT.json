@@ -1,0 +1,3304 @@
+{
+  "stage": "DATA-09-1",
+  "scope": "all 163 archived regex candidates, reread Korean and Japanese by assistant against current read-only DB; not an exhaustive audit of all 1821 examples",
+  "source_report": "Docs/DATA08_FINAL_GRAMMAR.json",
+  "counts": {
+    "missing_grammar": 147,
+    "level_mismatch_candidate": 8,
+    "review_only": 8
+  },
+  "count_policy": "one primary category per unique Example ID; multiple construction references remain separate tags",
+  "level_policy": "level_mismatch_candidate is provisional editorial sequencing/load concern, not an official TOPIK judgement or a confirmed wrong Level; no levels changed",
+  "review_only_policy": "original regex hit is insufficient or already mentioned by an existing unit; this does not certify all other constructions in the sentence are taught",
+  "production_changes": 0,
+  "independent_human_review": "NOT TESTED",
+  "records": [
+    {
+      "index": 1,
+      "example_id": "00af92cf-0d96-4d71-9e69-bf375ca33980",
+      "korean": "멀리 떨어져 있어도 자주 통화해서 그나마 다행이에요.",
+      "japanese": "離れていても、よく電話できるのがせめてもの救いです。",
+      "source_features": [
+        "concession_even_if_candidate"
+      ],
+      "evidence_span": "떨어져 있어도",
+      "primary_category": "missing_grammar",
+      "reason_ko": "떨어진 결과 상태와 양보가 결합한다. 기존 허가 설명으로 대체할 수 없다.",
+      "related_plan_keys": [
+        "P31",
+        "P04"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 2,
+      "example_id": "01833473-053d-4240-bb1a-3c7d838bb8be",
+      "korean": "아직 결과가 없어서 실패라고 단정할 수 없어요.",
+      "japanese": "まだ結果が出ていないので、失敗だとは断定できません。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "실패라고",
+      "primary_category": "missing_grammar",
+      "reason_ko": "명사 서술을 단정하다의 내용으로 인용하며 장소·방향의 로가 아니다.",
+      "related_plan_keys": [
+        "P19"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 3,
+      "example_id": "024f3358-36ac-4459-9a2d-6958344a4c47",
+      "korean": "한 사람이 모든 결정을 주도하지 않도록 해요.",
+      "japanese": "一人がすべての決定を主導しないようにしましょう。",
+      "source_features": [
+        "purpose_or_prevention"
+      ],
+      "evidence_span": "주도하지 않도록 해요",
+      "primary_category": "missing_grammar",
+      "reason_ko": "부정적 결과 방지와 행동 방침이 결합한다. 역할·지시 강도를 함께 설명한다.",
+      "related_plan_keys": [
+        "P37",
+        "P38"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 4,
+      "example_id": "03998159-20df-4927-873a-2a87c59bbdda",
+      "korean": "동료는 일이 많다고 불평했어요.",
+      "japanese": "同僚は仕事が多いと不平を言っていました。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "많다고",
+      "primary_category": "missing_grammar",
+      "reason_ko": "형용사 현재 인용이며 단순 이유 접속이 아니다.",
+      "related_plan_keys": [
+        "P19"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 5,
+      "example_id": "05611109-c05e-4cda-b537-bc701d60071e",
+      "korean": "비슷한 이름 때문에 하마터면 다른 사람에게 보낼 뻔했어요.",
+      "japanese": "名前が似ていて、危うく別の人に送るところでした。",
+      "source_features": [
+        "near_miss"
+      ],
+      "evidence_span": "보낼 뻔했어요",
+      "primary_category": "missing_grammar",
+      "reason_ko": "실제 오발송은 발생하지 않은 근접 과거다. 하마터면 어휘 Note만으로 문형 학습을 대체하지 않는다.",
+      "related_plan_keys": [
+        "P41"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 6,
+      "example_id": "05bf65b8-64dd-4557-b30b-5a7cfb006ee3",
+      "korean": "새 팀에서 소외되지 않도록 서로 챙겨요.",
+      "japanese": "新しいチームで誰も孤立しないよう、お互いに気を配っています。",
+      "source_features": [
+        "purpose_or_prevention"
+      ],
+      "evidence_span": "소외되지 않도록",
+      "primary_category": "missing_grammar",
+      "reason_ko": "방지할 목표 상태를 설명한다. 서로의 행동과 소외되는 주체를 구별한다.",
+      "related_plan_keys": [
+        "P37"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 7,
+      "example_id": "06d37bf4-f131-414b-b101-2e61c57cf437",
+      "korean": "같은 실수를 반복하지 않겠다고 다짐했어요.",
+      "japanese": "同じ失敗を繰り返さないと心に誓いました。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "않겠다고",
+      "primary_category": "missing_grammar",
+      "reason_ko": "부정 의지의 인용이다. 고 싶다나 미래 계획만으로 인용 활용을 학습했다고 보지 않는다.",
+      "related_plan_keys": [
+        "P19"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 8,
+      "example_id": "0b68c5fb-1b72-4a00-93bc-4458c3d51ea5",
+      "korean": "다른 방법도 있다고 넌지시 알려 줬어요.",
+      "japanese": "別の方法もあると、それとなく伝えました。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "있다고",
+      "primary_category": "missing_grammar",
+      "reason_ko": "존재 서술 인용은 있다는 것과 달리 여기서 전달 동사의 내용절이다.",
+      "related_plan_keys": [
+        "P19"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 9,
+      "example_id": "0cad3cc8-0c02-4236-8236-69fbcf0e721f",
+      "korean": "한 번 실패했다고 자신을 무능하다고 여기지 마세요.",
+      "japanese": "一度失敗したからといって、自分を無能だと思わないでください。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "실패했다고",
+      "primary_category": "level_mismatch_candidate",
+      "reason_ko": "실패를 인용한 단순 보고가 아니라 이유로 일반화하지 말라는 생략적 논리다. 부정 명령·자기평가까지 겹쳐 초기 초중급 배치보다 부담이 크다.",
+      "related_plan_keys": [
+        "P34",
+        "P19"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "late lower_intermediate / intermediate calibration review; no reassignment",
+      "scanner_disposition": "causal/generalization use, not a simple reported quotation",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 10,
+      "example_id": "0d4d4af7-4c8c-4bdc-8396-98c1b927871b",
+      "korean": "아직 잘 모르겠다는 점에서는 저도 마찬가지예요.",
+      "japanese": "まだよく分からないという点では、私も同じです。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "모르겠다는 점",
+      "primary_category": "missing_grammar",
+      "reason_ko": "잘 알지 못함을 완곡하게 드러내는 모르겠다의 인용 수식이다. 겠을 여기서 실행 의지로 번역하지 않고 추상 명사 점과 연결한다.",
+      "related_plan_keys": [
+        "P20",
+        "P03"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 11,
+      "example_id": "0d5ea834-3f3f-4285-acfe-81b9d785ee35",
+      "korean": "단지 가격이 싸다는 이유만으로 고르지는 마세요.",
+      "japanese": "単に値段が安いという理由だけで選ばないでください。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "싸다는 이유만으로",
+      "primary_category": "missing_grammar",
+      "reason_ko": "형용사 인용 수식이다. 제한 만/으로와 부정 명령의 범위를 별도 확인한다.",
+      "related_plan_keys": [
+        "P20"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 12,
+      "example_id": "111fa8ab-aaac-436a-885b-cfb1c7e26247",
+      "korean": "선택지는 많아 보여도 사실상 하나뿐이에요.",
+      "japanese": "選択肢は多く見えても、実際には一つしかありません。",
+      "source_features": [
+        "concession_even_if_candidate"
+      ],
+      "evidence_span": "보여도",
+      "primary_category": "missing_grammar",
+      "reason_ko": "상태 양보다. 하나뿐의 한정도 문장 전체 이해 확인 대상이다.",
+      "related_plan_keys": [
+        "P31"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 13,
+      "example_id": "1169ec07-c52c-477b-b37a-21e269063d0b",
+      "korean": "조금씩이라도 부지런히 연습할 생각이에요.",
+      "japanese": "少しずつでも、こまめに練習するつもりです。",
+      "source_features": [
+        "concession_even_if_candidate"
+      ],
+      "evidence_span": "조금씩이라도",
+      "primary_category": "missing_grammar",
+      "reason_ko": "최소한의 정도·양보를 나타내며 동사 아/어도와 동일 결합형으로 취급하지 않는다.",
+      "related_plan_keys": [
+        "P32"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 14,
+      "example_id": "145726a1-e54a-4088-99a3-64174b3d7875",
+      "korean": "짧은 답장 때문에 화가 났다고 오해받았어요.",
+      "japanese": "短い返事のせいで、怒っていると誤解されました。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "화가 났다고",
+      "primary_category": "missing_grammar",
+      "reason_ko": "과거 내용 인용이며 오해받다의 피동 의미를 보존한다.",
+      "related_plan_keys": [
+        "P19"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 15,
+      "example_id": "157096b6-50eb-4162-a216-da694949d556",
+      "korean": "같은 실수를 반복하지 않도록 반성했어요.",
+      "japanese": "同じ失敗を繰り返さないよう反省しました。",
+      "source_features": [
+        "purpose_or_prevention"
+      ],
+      "evidence_span": "반복하지 않도록",
+      "primary_category": "missing_grammar",
+      "reason_ko": "재발 방지의 목표다. 단순 목적 기 위해와 행위 주체를 대조한다.",
+      "related_plan_keys": [
+        "P37"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 16,
+      "example_id": "1665a361-77c8-4aaf-8604-233dff8c76ff",
+      "korean": "그때는 제 선택이 옳다고 확신했어요.",
+      "japanese": "あのときは、自分の選択が正しいと確信していました。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "옳다고",
+      "primary_category": "missing_grammar",
+      "reason_ko": "형용사 기본형 옳다의 내용 인용이다. ㄹ을 기계적으로 탈락시키지 않는다.",
+      "related_plan_keys": [
+        "P19"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 17,
+      "example_id": "1788aa40-b14b-49e9-9ed1-49a683ecbc91",
+      "korean": "손님을 위한 자리가 마련됐어요.",
+      "japanese": "お客さんのための席が用意されました。",
+      "source_features": [
+        "purpose_for"
+      ],
+      "evidence_span": "손님을 위한",
+      "primary_category": "missing_grammar",
+      "reason_ko": "명사 목적·수혜 대상+위하다의 관형형이다. 동사 기 위해의 오탐으로 세지 않는다.",
+      "related_plan_keys": [
+        "P39"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 18,
+      "example_id": "1b1db0f8-1cf0-4ddb-8c48-8e6606b5fa2a",
+      "korean": "약속한 원칙은 상황이 바뀌어도 지키려고 해요.",
+      "japanese": "決めた原則は、状況が変わっても守るようにしています。",
+      "source_features": [
+        "concession_even_if_candidate"
+      ],
+      "evidence_span": "바뀌어도",
+      "primary_category": "missing_grammar",
+      "reason_ko": "상황 변화에도 원칙을 지킨다는 양보다. 기존 의도 려고 하다와 함께 재사용 가능하다.",
+      "related_plan_keys": [
+        "P31"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 19,
+      "example_id": "1dbf80aa-4ef2-4e67-9f5a-ccc2253908a3",
+      "korean": "무료로 볼 수 있어도 저작권이 없는 것은 아니에요.",
+      "japanese": "無料で見られても、著作権がないわけではありません。",
+      "source_features": [
+        "concession_even_if_candidate"
+      ],
+      "evidence_span": "있어도",
+      "primary_category": "missing_grammar",
+      "reason_ko": "양보와 없는 것은 아니다의 부정 범위가 결합한다. 순수 양보 첫 예시로 바로 채택하지 않는다.",
+      "related_plan_keys": [
+        "P31",
+        "P03"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 20,
+      "example_id": "21fbd184-5853-468a-b106-8e779f3bac87",
+      "korean": "설명이 맞다는 사실이 실험으로 증명됐어요.",
+      "japanese": "説明が正しいことが、実験で証明されました。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "맞다는 사실",
+      "primary_category": "missing_grammar",
+      "reason_ko": "서술 인용이 사실을 수식한다. 실험 증명의 주체를 일본어에서 바꾸지 않는다.",
+      "related_plan_keys": [
+        "P20"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 21,
+      "example_id": "2289959c-023c-481c-a3b3-2ef37c256862",
+      "korean": "결과가 불확실해도 준비는 할 수 있어요.",
+      "japanese": "結果が不確かでも、準備はできます。",
+      "source_features": [
+        "concession_even_if_candidate"
+      ],
+      "evidence_span": "불확실해도",
+      "primary_category": "missing_grammar",
+      "reason_ko": "상태 양보+기존 가능 수 있다의 조합이다.",
+      "related_plan_keys": [
+        "P31"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 22,
+      "example_id": "23051279-c557-45fe-9e4d-3d8fd5d72a58",
+      "korean": "학생들은 환경을 지키기 위한 활동을 펼쳤어요.",
+      "japanese": "学生たちは、環境を守るための活動を行いました。",
+      "source_features": [
+        "purpose_for"
+      ],
+      "evidence_span": "지키기 위한",
+      "primary_category": "missing_grammar",
+      "reason_ko": "동작 목적이 활동을 수식한다. 기 위해/기 위한을 별도 신규 문법으로 중복 집계하지 않는다.",
+      "related_plan_keys": [
+        "P39"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 23,
+      "example_id": "2621cbd0-d19e-4132-8956-9a5a5b90be56",
+      "korean": "나이가 많아도 새로운 일에 도전할 수 있어요.",
+      "japanese": "年齢が高くても、新しいことに挑戦できます。",
+      "source_features": [
+        "concession_even_if_candidate"
+      ],
+      "evidence_span": "많아도",
+      "primary_category": "missing_grammar",
+      "reason_ko": "형용사 상태 양보다. 능력·가능의 후절과 구별한다.",
+      "related_plan_keys": [
+        "P31"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 24,
+      "example_id": "274998f2-f826-479a-a62d-f97e17d48eab",
+      "korean": "실패를 통해 조금 더 성장했다고 느껴요.",
+      "japanese": "失敗を通して、少し成長したと感じます。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "성장했다고",
+      "primary_category": "missing_grammar",
+      "reason_ko": "과거 행동·변화 내용을 느끼다에 연결한 인용이다.",
+      "related_plan_keys": [
+        "P19"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 25,
+      "example_id": "27e54c68-2e32-4f69-bf98-221c62ad7834",
+      "korean": "문제는 기다린다고 저절로 해결되지 않아요.",
+      "japanese": "問題は、待っていれば自然に解決するわけではありません。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "기다린다고",
+      "primary_category": "level_mismatch_candidate",
+      "reason_ko": "기다린다는 발언 보고가 아닌 조건·이유를 인정해도 결과를 보장하지 않는 뜻이다. 저절로+부정의 범위를 함께 확인해야 한다.",
+      "related_plan_keys": [
+        "P34"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "late lower_intermediate / intermediate calibration review; no reassignment",
+      "scanner_disposition": "causal/generalization use, not a simple reported quotation",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 26,
+      "example_id": "290d8ed4-e306-4e70-bbfa-d9024363e19b",
+      "korean": "계획은 좋았지만 비용 문제라는 벽에 부딪혔어요.",
+      "japanese": "計画はよかったのですが、費用という壁にぶつかりました。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "문제라는 벽",
+      "primary_category": "missing_grammar",
+      "reason_ko": "명사 인용 수식과 벽의 비유가 결합한다. 비유 해설 없이 초기에 정답 문제로 재사용하지 않는다.",
+      "related_plan_keys": [
+        "P20"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 27,
+      "example_id": "2e1e1670-fdba-48cb-9052-e6ab8afb10ef",
+      "korean": "친구들은 모두 좋은 경험이었다고 입을 모았어요.",
+      "japanese": "友達はみんな、よい経験だったと口をそろえました。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "경험이었다고",
+      "primary_category": "missing_grammar",
+      "reason_ko": "명사 과거 인용이다. 입을 모으다의 회화 표현과 별도 층위로 설명한다.",
+      "related_plan_keys": [
+        "P19"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 28,
+      "example_id": "3001ced8-2226-4af5-b68d-c78935499a77",
+      "korean": "어려움에 맞설 때 혼자가 아니라는 게 힘이 됐어요.",
+      "japanese": "困難に立ち向かうとき、一人ではないことが支えになりました。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "아니라는 게",
+      "primary_category": "missing_grammar",
+      "reason_ko": "명사 부정 인용 수식+것이 축약이다. 맞설 때의 시간절도 선행 필요다.",
+      "related_plan_keys": [
+        "P20",
+        "P03",
+        "P09"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 29,
+      "example_id": "316fa145-33a9-438d-8bf4-3e94d577b366",
+      "korean": "저에게는 사소해도 다른 사람에게는 중요할 수 있어요.",
+      "japanese": "私にはささいなことでも、ほかの人には大切かもしれません。",
+      "source_features": [
+        "concession_even_if_candidate"
+      ],
+      "evidence_span": "사소해도",
+      "primary_category": "missing_grammar",
+      "reason_ko": "두 사람의 평가 차이를 나타내는 양보다.",
+      "related_plan_keys": [
+        "P31"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 30,
+      "example_id": "323d87f9-3bf9-4460-a553-382c57d1bb9c",
+      "korean": "일어날 수 있도록 친구에게 손을 내밀었어요.",
+      "japanese": "立てるように、友達に手を差し出しました。",
+      "source_features": [
+        "purpose_or_prevention"
+      ],
+      "evidence_span": "일어날 수 있도록",
+      "primary_category": "missing_grammar",
+      "reason_ko": "가능한 상태를 목표로 삼는다. 주절 주체와 목표 상태의 주체가 다르다.",
+      "related_plan_keys": [
+        "P37"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 31,
+      "example_id": "328eb81c-5b3a-4ce5-bfb1-878cdea8d099",
+      "korean": "잠을 자고 나니 머리가 헝클어졌어요.",
+      "japanese": "寝て起きると、髪がぼさぼさになっていました。",
+      "source_features": [
+        "proposal_quote"
+      ],
+      "evidence_span": "자고 나니",
+      "primary_category": "review_only",
+      "reason_ko": "자다+고이며 청유 인용 자고가 아니다. 고 나니의 결과 발견은 관련 고 나서와 별도로 후속 확인한다.",
+      "related_plan_keys": [
+        "P10"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "false or already-covered primary match; secondary gaps remain possible",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 32,
+      "example_id": "3390dec4-9be0-4046-85a1-018399a58de9",
+      "korean": "자립한다는 것이 모든 도움을 거절한다는 뜻은 아니에요.",
+      "japanese": "自立することは、すべての助けを断るという意味ではありません。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "자립한다는 것이",
+      "primary_category": "missing_grammar",
+      "reason_ko": "인용 수식 명사화가 주어가 된다. 뜻은 아니다의 부정 범위도 확인한다.",
+      "related_plan_keys": [
+        "P20",
+        "P03"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 33,
+      "example_id": "33983055-ba18-41e2-b681-69df3140e7fd",
+      "korean": "부모님이라도 아이의 모든 선택에 간섭하지 마세요.",
+      "japanese": "親であっても、子供のすべての選択に干渉しないでください。",
+      "source_features": [
+        "concession_even_if_candidate"
+      ],
+      "evidence_span": "부모님이라도",
+      "primary_category": "missing_grammar",
+      "reason_ko": "명사 신분의 양보다. 최소 대안 선택 의미와 예시를 구분한다.",
+      "related_plan_keys": [
+        "P32"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 34,
+      "example_id": "36e950f3-1e1d-4aa0-9e7f-61e1c433cc33",
+      "korean": "짧은 발표라도 준비가 결코 쉽지 않아요.",
+      "japanese": "短い発表でも、準備は決して簡単ではありません。",
+      "source_features": [
+        "concession_even_if_candidate"
+      ],
+      "evidence_span": "발표라도",
+      "primary_category": "missing_grammar",
+      "reason_ko": "작은 범위의 명사 조건 양보와 결코 부정의 결합이다.",
+      "related_plan_keys": [
+        "P32"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 35,
+      "example_id": "3867c99b-9f03-4b73-ba44-d90b9132988d",
+      "korean": "친구에게 충분히 쉬라고 권했어요.",
+      "japanese": "友達に、十分休むよう勧めました。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "쉬라고",
+      "primary_category": "missing_grammar",
+      "reason_ko": "쉬다 명령·권유의 인용이며 명사 라고가 아니다.",
+      "related_plan_keys": [
+        "P21"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 36,
+      "example_id": "3a70de45-23eb-408a-8917-f6beeebf4762",
+      "korean": "수업에 뒤처지지 않도록 꾸준히 공부해요.",
+      "japanese": "授業についていけなくならないよう、こつこつ勉強しています。",
+      "source_features": [
+        "purpose_or_prevention"
+      ],
+      "evidence_span": "뒤처지지 않도록",
+      "primary_category": "missing_grammar",
+      "reason_ko": "실패 상태 방지 목표를 나타낸다.",
+      "related_plan_keys": [
+        "P37"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 37,
+      "example_id": "3b67e8a5-be40-4291-adb1-46099db6d1be",
+      "korean": "이용 약관이 바뀌었다는 안내를 받았어요.",
+      "japanese": "利用規約が変わったという案内を受け取りました。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "바뀌었다는 안내",
+      "primary_category": "missing_grammar",
+      "reason_ko": "과거 변화의 인용 수식이다. 안내 자체를 주어로 바꾸지 않는다.",
+      "related_plan_keys": [
+        "P20"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 38,
+      "example_id": "3b9a926f-7e99-4aff-bd42-79d8e65c5958",
+      "korean": "음식이 맛있다고 소문이 나서 손님이 늘었어요.",
+      "japanese": "料理がおいしいと評判になり、お客さんが増えました。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "맛있다고",
+      "primary_category": "missing_grammar",
+      "reason_ko": "있다 계열 형용사의 내용 인용이다. 소문이 나다와 결합한다.",
+      "related_plan_keys": [
+        "P19"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 39,
+      "example_id": "3c63f9df-0819-4a32-ae5b-2102bdc9478e",
+      "korean": "직접 겪은 뒤에야 그 말이 가슴에 와닿았어요.",
+      "japanese": "自分で経験して初めて、その言葉が胸に響きました。",
+      "source_features": [
+        "only_after_emphasis"
+      ],
+      "evidence_span": "겪은 뒤에야",
+      "primary_category": "missing_grammar",
+      "reason_ko": "뒤에+야로 그 이후에야 처음 알게 된 시점을 강조한다. 기존 후에만으로 강조까지 배웠다고 보지 않는다.",
+      "related_plan_keys": [
+        "P45"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 40,
+      "example_id": "3f4fc3c2-31a6-4eeb-b5e0-5586e40a08c5",
+      "korean": "조건이 유리하다고 바로 결정하지는 마세요.",
+      "japanese": "条件が有利だからといって、すぐには決めないでください。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "유리하다고",
+      "primary_category": "missing_grammar",
+      "reason_ko": "유리하다는 사실만으로 결정하지 말라는 이유 일반화 부정이다. 단순 인용이라고 설명하지 않는다.",
+      "related_plan_keys": [
+        "P34"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "causal/generalization use, not a simple reported quotation",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 41,
+      "example_id": "3ffe3dfb-4b4c-4945-b234-a67d42b9d18b",
+      "korean": "올해도 어김없이 봄꽃이 피었어요.",
+      "japanese": "今年も変わらず、春の花が咲きました。",
+      "source_features": [
+        "concession_even_if_candidate"
+      ],
+      "evidence_span": "올해도",
+      "primary_category": "review_only",
+      "reason_ko": "올해+도 안의 해도에 정규식이 적중했다. 올해는 양보 동사 어간이 아니며 기존 도의 추가 의미로 검토한다.",
+      "related_plan_keys": [],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "false or already-covered primary match; secondary gaps remain possible",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 42,
+      "example_id": "40d689e7-0ebf-4b48-8130-4b2927bac68d",
+      "korean": "확고한 원칙이 있어도 다른 의견은 들어봐요.",
+      "japanese": "確固とした原則があっても、別の意見は聞いてみましょう。",
+      "source_features": [
+        "concession_even_if_candidate"
+      ],
+      "evidence_span": "있어도",
+      "primary_category": "missing_grammar",
+      "reason_ko": "원칙이 존재해도 다른 의견을 듣는 양보다.",
+      "related_plan_keys": [
+        "P31"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 43,
+      "example_id": "41fdee06-df37-49bf-a5b5-fd6dc2e14789",
+      "korean": "우리는 서로 동의하고 반말하기로 했어요.",
+      "japanese": "私たちはお互いに同意して、ため口で話すことにしました。",
+      "source_features": [
+        "decision_agreement"
+      ],
+      "evidence_span": "반말하기로 했어요",
+      "primary_category": "missing_grammar",
+      "reason_ko": "상호 동의를 거친 결정을 나타낸다. 반말 register는 어휘 Note와 재사용한다.",
+      "related_plan_keys": [
+        "P07"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 44,
+      "example_id": "44ea10ac-4044-428c-8e4b-8133d732ac0a",
+      "korean": "상황이 불리해도 끝까지 해 보겠어요.",
+      "japanese": "状況が不利でも、最後までやってみます。",
+      "source_features": [
+        "concession_even_if_candidate"
+      ],
+      "evidence_span": "불리해도",
+      "primary_category": "missing_grammar",
+      "reason_ko": "상태 양보와 의지 겠의 결합이다.",
+      "related_plan_keys": [
+        "P31"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 45,
+      "example_id": "498d61d1-d209-452f-b604-91c7118e0b49",
+      "korean": "문제를 알렸다는 이유만으로 직원을 해고해서는 안 돼요.",
+      "japanese": "問題を伝えたという理由だけで、職員を解雇してはいけません。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "알렸다는 이유만으로",
+      "primary_category": "level_mismatch_candidate",
+      "reason_ko": "인용 수식·이유 한정·해서는 안 되다의 금지가 함께 있다. 기존 면 안 되다만으로 이 복합 문장을 선행 완료로 볼 수 없다.",
+      "related_plan_keys": [
+        "P20"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "late lower_intermediate / intermediate calibration review; no reassignment",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 46,
+      "example_id": "4b1634f5-2d65-4cd9-b46e-f8c51ff5cc68",
+      "korean": "옳다고 생각한 일을 끝까지 해 봤어요.",
+      "japanese": "正しいと思ったことを、最後までやってみました。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "옳다고 생각한 일",
+      "primary_category": "missing_grammar",
+      "reason_ko": "판단 내용 인용과 완료 관형절을 겹쳐 쓴다.",
+      "related_plan_keys": [
+        "P19",
+        "P01"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 47,
+      "example_id": "4c8ee8b4-37b6-4f37-9848-a643848ab3e7",
+      "korean": "귀가 얇다고 느끼면 결정 전에 한번 더 생각해 봐요.",
+      "japanese": "人の話に流されやすいと感じたら、決める前にもう一度考えてみましょう。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "얇다고",
+      "primary_category": "missing_grammar",
+      "reason_ko": "관용적 귀가 얇다의 내용 인용이다. 어휘 비유와 인용 형태의 이해를 각각 확인한다.",
+      "related_plan_keys": [
+        "P19"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 48,
+      "example_id": "4e45a5a1-d10a-4baa-b8ca-6d416a3be936",
+      "korean": "바쁘다는 이유만 내세우고 약속을 미루고 싶지 않아요.",
+      "japanese": "忙しいという理由ばかり挙げて、約束を先延ばしにしたくありません。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "바쁘다는 이유",
+      "primary_category": "missing_grammar",
+      "reason_ko": "형용사 인용 수식이다. 이유를 내세우다의 Collocation을 유지한다.",
+      "related_plan_keys": [
+        "P20"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 49,
+      "example_id": "50b137e6-a460-464f-a08f-99d5b84312dd",
+      "korean": "친구는 자기 말만 맞다고 우겼어요.",
+      "japanese": "友達は、自分の言うことだけが正しいと言い張りました。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "맞다고",
+      "primary_category": "missing_grammar",
+      "reason_ko": "맞다의 서술 내용 인용이다. 우기다의 부정적 뉘앙스를 보존한다.",
+      "related_plan_keys": [
+        "P19"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 50,
+      "example_id": "538c86ab-4dc6-4474-8e9f-70d5b165c62a",
+      "korean": "보상보다 배우고 싶다는 마음이 더 큰 동기였어요.",
+      "japanese": "報酬より、学びたい気持ちが大きな動機でした。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "싶다는 마음",
+      "primary_category": "missing_grammar",
+      "reason_ko": "희망 보조 형용사 싶다 뒤의 인용 수식이다.",
+      "related_plan_keys": [
+        "P20"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 51,
+      "example_id": "5402d8db-3215-460d-a9af-7b8bc672b671",
+      "korean": "이유를 물어도 그는 끝까지 입을 다물었어요.",
+      "japanese": "理由を尋ねても、彼は最後まで口を閉ざしました。",
+      "source_features": [
+        "concession_even_if_candidate"
+      ],
+      "evidence_span": "물어도",
+      "primary_category": "missing_grammar",
+      "reason_ko": "묻다 ㄷ불규칙의 양보형이다. 문형과 개별 활용을 따로 검수한다.",
+      "related_plan_keys": [
+        "P31"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 52,
+      "example_id": "546d8f87-b3cb-46d5-bf0d-177c8b040dbe",
+      "korean": "방법은 달라도 돕고 싶다는 뜻은 맞아요.",
+      "japanese": "方法は違っても、助けたいという気持ちは一致しています。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote",
+        "concession_even_if_candidate"
+      ],
+      "evidence_span": "달라도",
+      "primary_category": "missing_grammar",
+      "reason_ko": "양보와 싶다는 인용 수식이 같은 문장에 있다. 두 특징을 한 예문 두 개로 집계하지 않는다.",
+      "related_plan_keys": [
+        "P31",
+        "P20"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 53,
+      "example_id": "551d238f-c2e2-4fdb-8935-14e8bc5ca332",
+      "korean": "올해는 가족과 더 자주 만나겠다고 다짐해요.",
+      "japanese": "今年は家族ともっと頻繁に会おうと心に誓います。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "만나겠다고",
+      "primary_category": "missing_grammar",
+      "reason_ko": "만나다+의지 겠의 인용이다.",
+      "related_plan_keys": [
+        "P19"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 54,
+      "example_id": "578f1b6f-e421-46fb-bb97-206868c86206",
+      "korean": "화가 났다는 이유로 모든 행동이 정당한 건 아니에요.",
+      "japanese": "腹が立ったからといって、どんな行動も正当になるわけではありません。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "났다는 이유로",
+      "primary_category": "missing_grammar",
+      "reason_ko": "인용 이유 수식과 모든 행동에 대한 부정 범위를 구별한다.",
+      "related_plan_keys": [
+        "P20",
+        "P03"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 55,
+      "example_id": "5b758c3e-3151-481b-bc13-61799eb4225d",
+      "korean": "함께 지내다 보면 서로의 습관을 자연히 알게 돼요.",
+      "japanese": "一緒に過ごしていると、おのずとお互いの習慣が分かってきます。",
+      "source_features": [
+        "gradual_experience_condition"
+      ],
+      "evidence_span": "지내다 보면",
+      "primary_category": "missing_grammar",
+      "reason_ko": "반복 생활의 장기 결과다. 알게 돼요의 변화·귀결도 설명 대상이다.",
+      "related_plan_keys": [
+        "P44",
+        "P06"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 56,
+      "example_id": "5cc49845-dcbe-4a41-959b-f441f249845d",
+      "korean": "비가 온다고 가정하고 계획을 세웠어요.",
+      "japanese": "雨が降ると仮定して、計画を立てました。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "온다고",
+      "primary_category": "missing_grammar",
+      "reason_ko": "가정의 내용절이다. V현재 온다고와 완료 온을 구별한다.",
+      "related_plan_keys": [
+        "P19"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 57,
+      "example_id": "5dc3e8a2-ed19-4486-bb03-f896d34c7b11",
+      "korean": "같은 실수를 하지 않도록 경험을 되새겨요.",
+      "japanese": "同じ失敗をしないよう、経験を心に刻み直します。",
+      "source_features": [
+        "purpose_or_prevention"
+      ],
+      "evidence_span": "하지 않도록",
+      "primary_category": "missing_grammar",
+      "reason_ko": "부정 목표다. 경험을 되새기는 목적과 금지 명령을 혼동하지 않는다.",
+      "related_plan_keys": [
+        "P37"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 58,
+      "example_id": "5f006780-734f-427d-b970-c5daa1e6cb9e",
+      "korean": "설명서에는 인체에 무해한 재료라고 쓰여 있어요.",
+      "japanese": "説明書には、人体に無害な材料だと書いてあります。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "재료라고 쓰여 있어요",
+      "primary_category": "missing_grammar",
+      "reason_ko": "명사 내용 인용과 기록된 결과 상태가 결합한다.",
+      "related_plan_keys": [
+        "P19",
+        "P04"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 59,
+      "example_id": "61539795-6460-44be-8f05-ee9e54cbbce5",
+      "korean": "잠깐 쉬고 이야기로 다시 되돌아와요.",
+      "japanese": "少し休んでから、話に戻りましょう。",
+      "source_features": [
+        "decision_agreement"
+      ],
+      "evidence_span": "이야기로",
+      "primary_category": "review_only",
+      "reason_ko": "이야기+로를 기로 결정형으로 잘못 잡았다. 화제 방향의 로 용법은 기존 수단 로의 범위를 넘어 추가 설명 검토가 필요하다.",
+      "related_plan_keys": [],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "false or already-covered primary match; secondary gaps remain possible",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 60,
+      "example_id": "616eaefd-6316-4b71-9772-d33698ab2498",
+      "korean": "의견이 달라도 댓글은 정중하게 써요.",
+      "japanese": "意見が違っても、コメントは丁寧に書きます。",
+      "source_features": [
+        "concession_even_if_candidate"
+      ],
+      "evidence_span": "달라도",
+      "primary_category": "missing_grammar",
+      "reason_ko": "의견 차이에 대한 양보다. 정중하게의 부사형은 P08과 연계 가능하다.",
+      "related_plan_keys": [
+        "P31"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 61,
+      "example_id": "61cb4435-8160-4d50-9de7-8ca393658682",
+      "korean": "시간 안에 끝낼 수 있다고 장담했어요.",
+      "japanese": "時間内に終えられると、自信をもって言いました。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "있다고",
+      "primary_category": "missing_grammar",
+      "reason_ko": "수 있다 가능 구문 전체를 장담하다의 내용으로 인용한다.",
+      "related_plan_keys": [
+        "P19"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 62,
+      "example_id": "621ad70c-a493-4f47-bf89-873f62d55673",
+      "korean": "이번 규칙에는 예외를 두지 않기로 했어요.",
+      "japanese": "今回の規則には、例外を設けないことにしました。",
+      "source_features": [
+        "decision_agreement"
+      ],
+      "evidence_span": "않기로 했어요",
+      "primary_category": "missing_grammar",
+      "reason_ko": "부정 행동에 대한 결정이다. 안 되다의 금지와 다르다.",
+      "related_plan_keys": [
+        "P07"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 63,
+      "example_id": "6270bb13-690c-4763-a821-c2f05c3e290d",
+      "korean": "설명을 들어도 아직 납득되지 않아요.",
+      "japanese": "説明を聞いても、まだ納得がいきません。",
+      "source_features": [
+        "concession_even_if_candidate"
+      ],
+      "evidence_span": "들어도",
+      "primary_category": "missing_grammar",
+      "reason_ko": "듣다 ㄷ불규칙의 양보형이다.",
+      "related_plan_keys": [
+        "P31"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 64,
+      "example_id": "62c0e171-d7f4-46a6-aba9-50a49bf62df1",
+      "korean": "몇 번 실패했어도 포기하지 않고 끝내 해냈어요.",
+      "japanese": "何度か失敗しても諦めず、ついにやり遂げました。",
+      "source_features": [
+        "concession_even_if_candidate"
+      ],
+      "evidence_span": "실패했어도",
+      "primary_category": "missing_grammar",
+      "reason_ko": "과거 양보다. 일본어의 시제 해석·이미 일어난 실패인지 문맥 보정을 검토하되 자동 오류로 확정하지 않는다.",
+      "related_plan_keys": [
+        "P31"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 65,
+      "example_id": "632c367a-b7b3-4941-8144-706eb26dd0ed",
+      "korean": "의견이 달라도 다투지 않고 이야기할 수 있어요.",
+      "japanese": "意見が違っても、けんかせずに話せます。",
+      "source_features": [
+        "concession_even_if_candidate"
+      ],
+      "evidence_span": "달라도",
+      "primary_category": "missing_grammar",
+      "reason_ko": "의견 차이에도 가능한 행동을 이어 준다.",
+      "related_plan_keys": [
+        "P31"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 66,
+      "example_id": "6606bf6d-0db0-42f1-91ac-bb142a443e95",
+      "korean": "사람들 앞에서 말다툼하지 않기로 했어요.",
+      "japanese": "人前で口げんかしないことにしました。",
+      "source_features": [
+        "decision_agreement"
+      ],
+      "evidence_span": "말다툼하지 않기로",
+      "primary_category": "missing_grammar",
+      "reason_ko": "금지 명령이 아니라 본인·상호 합의의 부정 결정이다.",
+      "related_plan_keys": [
+        "P07"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 67,
+      "example_id": "681032a9-268c-4da7-a097-20a09579a6f1",
+      "korean": "저는 회의에서 반대한다는 입장을 밝혔어요.",
+      "japanese": "私は会議で、反対する立場を明らかにしました。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "반대한다는 입장",
+      "primary_category": "missing_grammar",
+      "reason_ko": "행위 서술의 현재 인용 수식이다.",
+      "related_plan_keys": [
+        "P20"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 68,
+      "example_id": "68aa70de-9e0f-4fac-979b-2f2ae3217e6f",
+      "korean": "잠깐 웃더니 이내 진지한 표정으로 돌아왔어요.",
+      "japanese": "少し笑った後、すぐに真剣な表情に戻りました。",
+      "source_features": [
+        "observed_sequence"
+      ],
+      "evidence_span": "웃더니",
+      "primary_category": "missing_grammar",
+      "reason_ko": "타인의 관찰된 행동 변화다. 자신의 과거 행동 결과 았/었더니와 분리한다.",
+      "related_plan_keys": [
+        "P42"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 69,
+      "example_id": "68f6bc43-8daf-43b9-b217-2bd229624919",
+      "korean": "비용을 반씩 부담하기로 합의했어요.",
+      "japanese": "費用を半分ずつ負担することで合意しました。",
+      "source_features": [
+        "decision_agreement"
+      ],
+      "evidence_span": "부담하기로 합의했어요",
+      "primary_category": "missing_grammar",
+      "reason_ko": "하다 대신 합의하다를 쓴 결정·합의다. 기로 하다의 생산적 확장으로 다룬다.",
+      "related_plan_keys": [
+        "P07"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 70,
+      "example_id": "6bd9295a-4257-4715-bdba-dbb08627a171",
+      "korean": "어린이가 유해한 정보에 노출되지 않도록 주의해요.",
+      "japanese": "子供が有害な情報にさらされないよう、気をつけています。",
+      "source_features": [
+        "purpose_or_prevention"
+      ],
+      "evidence_span": "노출되지 않도록",
+      "primary_category": "missing_grammar",
+      "reason_ko": "피동 상태를 방지할 목표다. 피동 자체의 생성은 별도 범위로 남긴다.",
+      "related_plan_keys": [
+        "P37"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 71,
+      "example_id": "6c71d1a2-d010-41b3-a90f-2e1df4e79a0d",
+      "korean": "생각이 달라도 서로 존중해야 해요.",
+      "japanese": "考えが違っても、お互いを尊重する必要があります。",
+      "source_features": [
+        "concession_even_if_candidate"
+      ],
+      "evidence_span": "달라도",
+      "primary_category": "missing_grammar",
+      "reason_ko": "양보와 기존 의무 해야 하다를 결합한다.",
+      "related_plan_keys": [
+        "P31"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 72,
+      "example_id": "6cb23565-5862-4713-aa1c-15c43151aaaa",
+      "korean": "한계를 넘고 싶어도 몸에 무리가 되면 쉬어야 해요.",
+      "japanese": "限界を超えたくても、体に負担がかかるなら休む必要があります。",
+      "source_features": [
+        "concession_even_if_candidate"
+      ],
+      "evidence_span": "싶어도",
+      "primary_category": "missing_grammar",
+      "reason_ko": "희망 상태를 양보하고 다른 조건에서 쉬어야 함을 말한다.",
+      "related_plan_keys": [
+        "P31"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 73,
+      "example_id": "6dc3d223-b9a8-41fe-99c5-a9db77eca5a0",
+      "korean": "공용 컴퓨터에서는 자동으로 로그인하지 않도록 설정했어요.",
+      "japanese": "共用のパソコンでは、自動でログインしないように設定しました。",
+      "source_features": [
+        "purpose_or_prevention"
+      ],
+      "evidence_span": "로그인하지 않도록",
+      "primary_category": "missing_grammar",
+      "reason_ko": "자동 동작을 하지 않게 하는 설정의 목표다.",
+      "related_plan_keys": [
+        "P37"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 74,
+      "example_id": "6e0b21f8-08b1-4e5d-8209-67664d05e206",
+      "korean": "무슨 계기로 이 일을 시작하셨나요?",
+      "japanese": "何をきっかけに、この仕事を始められたのですか。",
+      "source_features": [
+        "decision_agreement"
+      ],
+      "evidence_span": "계기로",
+      "primary_category": "review_only",
+      "reason_ko": "계기+로를 결정형 기로로 잘못 잡았다. 시작하셨나요의 존경·질문 형태는 요청 세요와 동일 학습으로 처리하지 않고 보류한다.",
+      "related_plan_keys": [],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "false or already-covered primary match; secondary gaps remain possible",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 75,
+      "example_id": "6e4aaf26-39ee-49f7-bf64-cfd8f1d09c2c",
+      "korean": "모두 참석한다고 가정하면 의자가 더 필요해요.",
+      "japanese": "全員が参加すると仮定すれば、椅子がもっと必要です。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "참석한다고",
+      "primary_category": "missing_grammar",
+      "reason_ko": "가정하다에 동작 내용을 인용한다. 모두 참석한다는 가정은 사실 확인이 아니다.",
+      "related_plan_keys": [
+        "P19"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 76,
+      "example_id": "6e7db1af-628f-479f-a1e0-3372c0831ac3",
+      "korean": "설명을 들어도 의문이 남아서 찜찜했어요.",
+      "japanese": "説明を聞いても疑問が残り、引っ掛かりを感じました。",
+      "source_features": [
+        "concession_even_if_candidate"
+      ],
+      "evidence_span": "들어도",
+      "primary_category": "missing_grammar",
+      "reason_ko": "듣다의 양보형이며 의문이 남는 결과다.",
+      "related_plan_keys": [
+        "P31"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 77,
+      "example_id": "71db4fde-b118-4c5b-a2d5-22784a19a0e4",
+      "korean": "작은 도움이라도 보람이 있어요.",
+      "japanese": "小さな手助けでも、やりがいがあります。",
+      "source_features": [
+        "concession_even_if_candidate"
+      ],
+      "evidence_span": "도움이라도",
+      "primary_category": "missing_grammar",
+      "reason_ko": "작은 규모여도 가치 있다는 명사 양보다.",
+      "related_plan_keys": [
+        "P32"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 78,
+      "example_id": "763a75f8-2356-437a-99af-48999d3fe232",
+      "korean": "친구와 함께 마라톤에 도전하기로 했어요.",
+      "japanese": "友達と一緒に、マラソンに挑戦することにしました。",
+      "source_features": [
+        "decision_agreement"
+      ],
+      "evidence_span": "도전하기로 했어요",
+      "primary_category": "missing_grammar",
+      "reason_ko": "희망이 아니라 친구와 정한 계획이다.",
+      "related_plan_keys": [
+        "P07"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 79,
+      "example_id": "765bd5fb-88fe-465e-b738-0e2a93279eb5",
+      "korean": "실수했다고 속상한 건 당연하지만 너무 자책하지 마세요.",
+      "japanese": "失敗して落ち込むのは当然ですが、自分を責めすぎないでください。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "실수했다고",
+      "primary_category": "level_mismatch_candidate",
+      "reason_ko": "이유로 감정과 자기비난을 일반화하지 않는 복합 부정 문맥이다. 속상한 건의 명사화와 당연하지만까지 있어 초기 초중급 대표 예문으로는 부담이 크다.",
+      "related_plan_keys": [
+        "P34",
+        "P03"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "late lower_intermediate / intermediate calibration review; no reassignment",
+      "scanner_disposition": "causal/generalization use, not a simple reported quotation",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 80,
+      "example_id": "76b516af-3b16-4045-8d01-d1e101f6832c",
+      "korean": "선배는 처음부터 무리하지 말라고 조언했어요.",
+      "japanese": "先輩は、初めから無理をしないよう助言しました。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "무리하지 말라고",
+      "primary_category": "missing_grammar",
+      "reason_ko": "금지 원문 지 마세요의 간접 인용이다.",
+      "related_plan_keys": [
+        "P21"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 81,
+      "example_id": "76c15fc5-8892-41a8-8582-0a7b492d4f51",
+      "korean": "하마터면 약속을 잊을 뻔했어요.",
+      "japanese": "危うく約束を忘れるところでした。",
+      "source_features": [
+        "near_miss"
+      ],
+      "evidence_span": "잊을 뻔했어요",
+      "primary_category": "missing_grammar",
+      "reason_ko": "잊지 않은 근접 사건이다. 실제로 잊었다는 뜻으로 번역하지 않는다.",
+      "related_plan_keys": [
+        "P41"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 82,
+      "example_id": "77314712-46fb-44f4-ab90-ab301af3b4f6",
+      "korean": "사고를 막기 위해 안전 교육을 강화했어요.",
+      "japanese": "事故を防ぐため、安全教育を強化しました。",
+      "source_features": [
+        "purpose_for"
+      ],
+      "evidence_span": "막기 위해",
+      "primary_category": "missing_grammar",
+      "reason_ko": "예방 목적을 동사 명사화 뒤에 연결한다.",
+      "related_plan_keys": [
+        "P39"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 83,
+      "example_id": "7b4dd97e-2ddf-476a-ab5b-334e5e8f2e41",
+      "korean": "준비가 미흡해도 고칠 시간이 있으니 괜찮아요.",
+      "japanese": "準備が不十分でも、直す時間があるので大丈夫です。",
+      "source_features": [
+        "concession_even_if_candidate"
+      ],
+      "evidence_span": "미흡해도",
+      "primary_category": "missing_grammar",
+      "reason_ko": "상태 양보와 기존 이유 니까의 축약 으니가 결합한다. 축약 범위는 추가 검토한다.",
+      "related_plan_keys": [
+        "P31"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 84,
+      "example_id": "8141ea0a-b82f-4d32-9059-8c2025d92656",
+      "korean": "며칠 쉬었더니 운동하려는 마음이 약해졌어요.",
+      "japanese": "何日か休んだら、運動しようという気持ちが弱くなりました。",
+      "source_features": [
+        "observed_sequence"
+      ],
+      "evidence_span": "쉬었더니",
+      "primary_category": "missing_grammar",
+      "reason_ko": "자신의 과거 경험 뒤에 느낀 결과다. 운동하려는의 의도 관형형도 별도 보완 필요하다.",
+      "related_plan_keys": [
+        "P43",
+        "P01"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 85,
+      "example_id": "83bd63c0-f02f-4682-b4bf-ef6a833008ee",
+      "korean": "한 사람이 모든 부담을 떠안지 않도록 나눠요.",
+      "japanese": "一人がすべての負担を抱えないよう、分けましょう。",
+      "source_features": [
+        "purpose_or_prevention"
+      ],
+      "evidence_span": "떠안지 않도록",
+      "primary_category": "missing_grammar",
+      "reason_ko": "한 사람에게 부담이 몰리지 않을 목표다.",
+      "related_plan_keys": [
+        "P37"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 86,
+      "example_id": "83ccfa12-e048-4b6a-b056-daffa1a1becb",
+      "korean": "바쁘다는 핑계를 대고 연락을 미뤘어요.",
+      "japanese": "忙しいことを口実に、連絡を後回しにしました。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "바쁘다는 핑계",
+      "primary_category": "missing_grammar",
+      "reason_ko": "형용사 인용 수식이며 핑계를 대다의 Collocation이다.",
+      "related_plan_keys": [
+        "P20"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 87,
+      "example_id": "83f63295-c73e-4551-bef8-a7ca89bdd6d5",
+      "korean": "대답하기 어려워서 다른 이야기로 말을 돌렸어요.",
+      "japanese": "答えにくくて、別の話題にそらしました。",
+      "source_features": [
+        "decision_agreement"
+      ],
+      "evidence_span": "이야기로",
+      "primary_category": "review_only",
+      "reason_ko": "이야기+로의 오탐이다. 대답하기 어렵다의 기 명사화와 방향 로 의미는 부차적인 보완 대상으로 남긴다.",
+      "related_plan_keys": [
+        "P02"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "false or already-covered primary match; secondary gaps remain possible",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 88,
+      "example_id": "8ce76227-7d8d-41e9-b78d-d79bb0b74fe5",
+      "korean": "잠시 다른 이야기로 화제를 전환해도 될까요?",
+      "japanese": "少し、別の話題に切り替えてもいいですか。",
+      "source_features": [
+        "decision_agreement",
+        "concession_even_if_candidate"
+      ],
+      "evidence_span": "이야기로 화제를 전환해도 될까요",
+      "primary_category": "review_only",
+      "reason_ko": "기로는 명사 오탐이고 해도는 기존 허가다. 될까요의 정중한 질문 기능을 추가 검토하며 일반 양보 신설 근거로 삼지 않는다.",
+      "related_plan_keys": [
+        "P14"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "false or already-covered primary match; secondary gaps remain possible",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 89,
+      "example_id": "8e0c2adb-928f-40e1-bd6b-2155189f3b51",
+      "korean": "날씨를 탓해도 이미 지난 일은 바뀌지 않아요.",
+      "japanese": "天気のせいにしても、過ぎたことは変わりません。",
+      "source_features": [
+        "concession_even_if_candidate"
+      ],
+      "evidence_span": "탓해도",
+      "primary_category": "missing_grammar",
+      "reason_ko": "행동 양보와 지난 일의 완료 관형절이 결합한다.",
+      "related_plan_keys": [
+        "P31",
+        "P01"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 90,
+      "example_id": "912efa77-e5df-4b6f-929c-96e3edd70f63",
+      "korean": "나이가 많다는 이유로 후보에서 배제하지 마세요.",
+      "japanese": "年齢が高いという理由で、候補から外さないでください。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "많다는 이유",
+      "primary_category": "missing_grammar",
+      "reason_ko": "형용사 인용 수식과 이유에 따른 배제 부정이다.",
+      "related_plan_keys": [
+        "P20"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 91,
+      "example_id": "91b30253-3950-4ce4-ae8f-d254b3ef97ec",
+      "korean": "수수하지만 오래 보아도 질리지 않는 디자인이에요.",
+      "japanese": "地味ですが、長く見ても飽きのこないデザインです。",
+      "source_features": [
+        "concession_even_if_candidate"
+      ],
+      "evidence_span": "보아도",
+      "primary_category": "missing_grammar",
+      "reason_ko": "양보와 질리지 않는의 부정 관형절이 결합한다.",
+      "related_plan_keys": [
+        "P31",
+        "P01"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 92,
+      "example_id": "921833c5-4b7e-4286-be33-32f80f5be6c0",
+      "korean": "비슷한 두 표현을 혼동하지 않도록 비교해요.",
+      "japanese": "似た二つの表現を混同しないよう、比べます。",
+      "source_features": [
+        "purpose_or_prevention"
+      ],
+      "evidence_span": "혼동하지 않도록",
+      "primary_category": "missing_grammar",
+      "reason_ko": "비교의 목적이 아니라 혼동 방지의 결과 목표를 중심으로 설명한다.",
+      "related_plan_keys": [
+        "P37"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 93,
+      "example_id": "92585cbe-3e12-4e65-9f14-b8ae44cf2228",
+      "korean": "막상 일을 시작하니 준비가 부족했다는 걸 실감해요.",
+      "japanese": "いざ仕事を始めると、準備が足りなかったことを実感します。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "부족했다는 걸",
+      "primary_category": "missing_grammar",
+      "reason_ko": "과거 인용 수식+것을 축약이다. 시작하니의 발견 용법은 추가 보류한다.",
+      "related_plan_keys": [
+        "P20",
+        "P03"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 94,
+      "example_id": "96d66b97-0c86-42c3-aba8-bdf0efe235f3",
+      "korean": "자신이 맡지 않아도 될 일까지 떠안았어요.",
+      "japanese": "自分が担当しなくてもよい仕事まで、抱え込んでしまいました。",
+      "source_features": [
+        "concession_even_if_candidate"
+      ],
+      "evidence_span": "않아도 될 일",
+      "primary_category": "review_only",
+      "reason_ko": "기존 의무·허가 설명에 이미 제시된 부정 허가의 조합이다. 현재 양보 스캐너의 예외가 누락됐으며 관형형 될의 보완은 따로 남긴다.",
+      "related_plan_keys": [
+        "P01"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "false or already-covered primary match; secondary gaps remain possible",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 95,
+      "example_id": "97a97def-1aad-4f2d-ae28-9a4c78be1dd1",
+      "korean": "정답이라는 확신이 없어서 다시 확인했어요.",
+      "japanese": "正解だという確信がなく、もう一度確認しました。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "정답이라는 확신",
+      "primary_category": "missing_grammar",
+      "reason_ko": "명사 인용 수식이며 확신의 내용이다.",
+      "related_plan_keys": [
+        "P20"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 96,
+      "example_id": "9f40b580-37aa-4636-a058-624fbaa2f2b5",
+      "korean": "문제를 외면해도 저절로 해결되지는 않아요.",
+      "japanese": "問題から目を背けても、自然には解決しません。",
+      "source_features": [
+        "concession_even_if_candidate"
+      ],
+      "evidence_span": "외면해도",
+      "primary_category": "missing_grammar",
+      "reason_ko": "행동 양보와 결과 부정을 나타낸다.",
+      "related_plan_keys": [
+        "P31"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 97,
+      "example_id": "9fd5fae7-6c87-4485-b202-7fa854549b9f",
+      "korean": "오래 고민한 끝에 혼자 여행하기로 결심했어요.",
+      "japanese": "長く悩んだ末に、一人で旅行することを決心しました。",
+      "source_features": [
+        "decision_agreement"
+      ],
+      "evidence_span": "여행하기로 결심했어요",
+      "primary_category": "missing_grammar",
+      "reason_ko": "결정형의 실제 서술어 결합이다. 고민한 끝에는 별도의 후속 문형 공백으로 남긴다.",
+      "related_plan_keys": [
+        "P07"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 98,
+      "example_id": "a04d2c56-9363-421f-829d-b601cd6b6cf2",
+      "korean": "한 번 실패했다고 꿈을 단념하지는 마세요.",
+      "japanese": "一度失敗したからといって、夢を諦めないでください。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "실패했다고",
+      "primary_category": "missing_grammar",
+      "reason_ko": "고의 발언 보고가 아니라 부정 명령의 원인 일반화 거절이다. P34 후반으로 배치한다.",
+      "related_plan_keys": [
+        "P34"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "causal/generalization use, not a simple reported quotation",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 99,
+      "example_id": "a1ab2490-38ee-44f7-98da-f6827640b945",
+      "korean": "위험하다는 말을 듣고 즉시 밖으로 나갔어요.",
+      "japanese": "危険だと聞いて、直ちに外へ出ました。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "위험하다는 말",
+      "primary_category": "missing_grammar",
+      "reason_ko": "형용사 인용 수식 뒤의 듣고는 별도 기존 접속형이다.",
+      "related_plan_keys": [
+        "P20"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 100,
+      "example_id": "a6dbcab3-dba4-488d-82a9-269b0a6bede5",
+      "korean": "설명을 거듭 들어도 아직 헷갈려요.",
+      "japanese": "説明を繰り返し聞いても、まだ混乱します。",
+      "source_features": [
+        "concession_even_if_candidate"
+      ],
+      "evidence_span": "들어도",
+      "primary_category": "missing_grammar",
+      "reason_ko": "듣다 ㄷ불규칙의 반복 경험 양보다.",
+      "related_plan_keys": [
+        "P31"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 101,
+      "example_id": "ac16095a-4ea0-4db8-887c-8cea6a429dfa",
+      "korean": "자기 생각에만 갇히지 않도록 다른 의견도 들어요.",
+      "japanese": "自分の考えだけにとらわれないよう、別の意見も聞きます。",
+      "source_features": [
+        "purpose_or_prevention"
+      ],
+      "evidence_span": "갇히지 않도록",
+      "primary_category": "missing_grammar",
+      "reason_ko": "비유적 상태 고착을 방지하는 목표다.",
+      "related_plan_keys": [
+        "P37"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 102,
+      "example_id": "b02d8dbd-a04b-48bb-8609-db335164d7e4",
+      "korean": "작은 불편이라도 차분하게 목소리를 내 보세요.",
+      "japanese": "小さな不便でも、落ち着いて意見を伝えてみてください。",
+      "source_features": [
+        "concession_even_if_candidate"
+      ],
+      "evidence_span": "불편이라도",
+      "primary_category": "missing_grammar",
+      "reason_ko": "규모가 작더라도 의견을 표현하라는 명사 양보다.",
+      "related_plan_keys": [
+        "P32"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 103,
+      "example_id": "b097f117-cd4e-4f80-a1cb-974d5be3284f",
+      "korean": "짧게라도 매일 연습하니 효과를 봤어요.",
+      "japanese": "短くても毎日練習すると、効果が出ました。",
+      "source_features": [
+        "concession_even_if_candidate"
+      ],
+      "evidence_span": "짧게라도",
+      "primary_category": "missing_grammar",
+      "reason_ko": "A게 부사형에 라도가 더해진 최소 정도다. 명사 뒤 결합만 가르친 후 응용 예로 검토한다.",
+      "related_plan_keys": [
+        "P32",
+        "P08"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 104,
+      "example_id": "b1366a16-bb2a-42b2-bc3d-02a22422a22e",
+      "korean": "주민들이 공원을 청소하기로 뜻을 모았어요.",
+      "japanese": "住民たちは、公園を掃除しようと意見をまとめました。",
+      "source_features": [
+        "decision_agreement"
+      ],
+      "evidence_span": "청소하기로 뜻을 모았어요",
+      "primary_category": "missing_grammar",
+      "reason_ko": "기로 합의의 Collocation이며 청유 인용 자고와 표면형이 다르다.",
+      "related_plan_keys": [
+        "P07"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 105,
+      "example_id": "b143f993-b03c-476b-883d-36492178586a",
+      "korean": "평가가 불공정하다고 느껴서 설명을 요청했어요.",
+      "japanese": "評価が不公正だと感じ、説明を求めました。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "불공정하다고",
+      "primary_category": "missing_grammar",
+      "reason_ko": "자신이 느낀 평가 내용을 인용한다.",
+      "related_plan_keys": [
+        "P19"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 106,
+      "example_id": "b2b5443e-09a0-4491-9541-abccd92409a0",
+      "korean": "그는 소문이 사실이라는 말을 부인했어요.",
+      "japanese": "彼は、そのうわさが事実だという話を否定しました。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "사실이라는 말",
+      "primary_category": "missing_grammar",
+      "reason_ko": "명사 인용 수식이다. 부정의 대상은 소문 내용인지 발언인지 구분한다.",
+      "related_plan_keys": [
+        "P20"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 107,
+      "example_id": "b4dbfe77-c1c1-4a36-bc31-e25cb885d002",
+      "korean": "아직 경험이 부족해도 성실해서 미더운 동료예요.",
+      "japanese": "まだ経験は浅くても、誠実で信頼できる同僚です。",
+      "source_features": [
+        "concession_even_if_candidate"
+      ],
+      "evidence_span": "부족해도",
+      "primary_category": "missing_grammar",
+      "reason_ko": "상태 양보와 미덥다 활용이 결합한다. 불규칙 검수는 문형 등록으로 대신하지 않는다.",
+      "related_plan_keys": [
+        "P31"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 108,
+      "example_id": "b72cce78-319d-485c-8b8c-4c5b369a67a9",
+      "korean": "제가 늦는다고 대신 말을 전해 주실래요?",
+      "japanese": "私が遅れると、代わりに伝えていただけますか。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "늦는다고",
+      "primary_category": "missing_grammar",
+      "reason_ko": "현재 동사 인용이다. 후절 전해 주실래요의 높임·요청도 선행 보완 대상이다.",
+      "related_plan_keys": [
+        "P19",
+        "P16"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 109,
+      "example_id": "b89df3bf-8ed0-4e5b-811b-747943bd3b2a",
+      "korean": "이번에는 약속을 어기지 않겠다고 다짐했어요.",
+      "japanese": "今度は約束を破らないと、心に誓いました。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "않겠다고",
+      "primary_category": "missing_grammar",
+      "reason_ko": "부정 의지 인용이다. 약속과 다짐의 일본어 register를 유지한다.",
+      "related_plan_keys": [
+        "P19"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 110,
+      "example_id": "bb866d07-1842-49d2-9b3f-c2c4e59b7b07",
+      "korean": "그는 더 많은 시간이 필요하다고 주장했어요.",
+      "japanese": "彼は、もっと時間が必要だと主張しました。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "필요하다고",
+      "primary_category": "missing_grammar",
+      "reason_ko": "필요하다 상태 내용을 주장하다에 인용한다.",
+      "related_plan_keys": [
+        "P19"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 111,
+      "example_id": "be5613ef-88c1-423a-93de-a4589f1ec33e",
+      "korean": "개인적인 사진까지 다른 사람에게 공유될까 봐 걱정돼요.",
+      "japanese": "個人的な写真まで、ほかの人と共有されてしまわないか心配です。",
+      "source_features": [
+        "worry_about_possibility"
+      ],
+      "evidence_span": "공유될까 봐",
+      "primary_category": "missing_grammar",
+      "reason_ko": "원치 않는 피동 사건의 가능성을 걱정한다. 질문 까요가 아니다.",
+      "related_plan_keys": [
+        "P40"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 112,
+      "example_id": "bf0cbb3e-9512-468b-906f-a5deac21bef9",
+      "korean": "눈길을 끄는 제목이라도 내용을 확인해야 해요.",
+      "japanese": "目を引く見出しでも、内容を確かめる必要があります。",
+      "source_features": [
+        "concession_even_if_candidate"
+      ],
+      "evidence_span": "제목이라도",
+      "primary_category": "missing_grammar",
+      "reason_ko": "명사 양보와 눈길을 끄는 관형절을 함께 확인한다.",
+      "related_plan_keys": [
+        "P32",
+        "P01"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 113,
+      "example_id": "bff33442-6b43-4687-8dbf-83798e6e7888",
+      "korean": "멀리 살아도 영상 통화로 자주 소통해요.",
+      "japanese": "離れて暮らしていても、ビデオ通話でよくやり取りします。",
+      "source_features": [
+        "concession_even_if_candidate"
+      ],
+      "evidence_span": "살아도",
+      "primary_category": "missing_grammar",
+      "reason_ko": "살다의 양보형이다. 시제나 거리 정보를 일본어에 더하지 않는다.",
+      "related_plan_keys": [
+        "P31"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 114,
+      "example_id": "c106101b-698b-473d-8e19-27a9802fd969",
+      "korean": "도움이 필요하다는 신호를 그냥 지나치지 마세요.",
+      "japanese": "助けを求めるサインを、そのまま見過ごさないでください。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "필요하다는 신호",
+      "primary_category": "missing_grammar",
+      "reason_ko": "형용사 인용 수식으로 신호의 내용을 말한다.",
+      "related_plan_keys": [
+        "P20"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 115,
+      "example_id": "c235d904-d54e-4db2-83c1-f806b6e36ab4",
+      "korean": "참석자들이 시간이 부족했다고 입을 모았어요.",
+      "japanese": "参加者は、時間が足りなかったと口をそろえました。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "부족했다고",
+      "primary_category": "missing_grammar",
+      "reason_ko": "과거 상태의 인용이다. 후회나 원인을 임의로 보태지 않는다.",
+      "related_plan_keys": [
+        "P19"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 116,
+      "example_id": "c31a9da6-60e9-46c7-a6e5-8d5e13eb5cf8",
+      "korean": "이번에는 누구를 위한 행사를 기획하고 있나요?",
+      "japanese": "今回は、誰のための行事を企画していますか。",
+      "source_features": [
+        "purpose_for"
+      ],
+      "evidence_span": "누구를 위한 행사",
+      "primary_category": "missing_grammar",
+      "reason_ko": "명사 수혜 대상 위하다의 수식형이며 기 위해의 다른 allomorph로 중복 등록하지 않는다.",
+      "related_plan_keys": [
+        "P39"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 117,
+      "example_id": "c4001ebf-8cc8-406c-b0dd-16937faa1eec",
+      "korean": "오래 서 있었더니 다리에 힘이 빠졌어요.",
+      "japanese": "長い間立っていたので、脚に力が入らなくなりました。",
+      "source_features": [
+        "observed_sequence"
+      ],
+      "evidence_span": "서 있었더니",
+      "primary_category": "missing_grammar",
+      "reason_ko": "자신의 과거 결과 상태 경험 뒤의 신체 변화를 말한다.",
+      "related_plan_keys": [
+        "P43",
+        "P04"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 118,
+      "example_id": "c42ec7be-322f-4d3c-874d-f543b84576fa",
+      "korean": "바쁘다고 제 일을 동료에게 떠넘기고 싶지 않아요.",
+      "japanese": "忙しいからといって、自分の仕事を同僚に押し付けたくありません。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "바쁘다고",
+      "primary_category": "missing_grammar",
+      "reason_ko": "이유를 핑계로 행동하지 않겠다는 생략적 고 구문이다. 단순 전달 인용 문제로 채택하지 않는다.",
+      "related_plan_keys": [
+        "P34"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "causal/generalization use, not a simple reported quotation",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 119,
+      "example_id": "c69be139-ae8b-4fa2-a45b-58537400de77",
+      "korean": "여러 번 해 보고 나서야 요령을 터득했어요.",
+      "japanese": "何度もやってみて、ようやくこつをつかみました。",
+      "source_features": [
+        "only_after_emphasis"
+      ],
+      "evidence_span": "해 보고 나서야",
+      "primary_category": "missing_grammar",
+      "reason_ko": "시도 보다+완료 나서+강조 야의 복합이다. 요령을 얻은 시점에 초점을 맞춘다.",
+      "related_plan_keys": [
+        "P45",
+        "P10"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 120,
+      "example_id": "c75a98bf-e4fd-45ce-b850-a178cbb84c8a",
+      "korean": "그는 개인 정보를 더 달라는 요구를 거부했어요.",
+      "japanese": "彼は、個人情報をもっと出してほしいという要求を拒否しました。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "더 달라는 요구",
+      "primary_category": "missing_grammar",
+      "reason_ko": "원래 요청의 수혜자 관점을 담은 간접 요청 수식이다. 단순 명령 라고와 구별한다.",
+      "related_plan_keys": [
+        "P24"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 121,
+      "example_id": "c7917010-6d42-4569-b3d9-d26ed99b216c",
+      "korean": "작은 차이라도 간과하면 결과가 달라질 수 있어요.",
+      "japanese": "小さな違いでも見落とせば、結果が変わることがあります。",
+      "source_features": [
+        "concession_even_if_candidate"
+      ],
+      "evidence_span": "차이라도",
+      "primary_category": "missing_grammar",
+      "reason_ko": "작은 차이여도 조건부 결과가 달라지는 명사 양보다.",
+      "related_plan_keys": [
+        "P32"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 122,
+      "example_id": "ca948222-f5d9-4f39-8437-c76270cd4979",
+      "korean": "다른 사람이 자고 있으니 목소리를 낮춰 주세요.",
+      "japanese": "ほかの人が寝ているので、声を小さくしてください。",
+      "source_features": [
+        "proposal_quote"
+      ],
+      "evidence_span": "자고 있으니",
+      "primary_category": "review_only",
+      "reason_ko": "자다+고 있다의 진행이다. 청유 인용이 아니며 으니 이유 축약·문맥은 별도 보완 대상으로 남긴다.",
+      "related_plan_keys": [],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "false or already-covered primary match; secondary gaps remain possible",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 123,
+      "example_id": "cb4aabca-b120-4983-a957-ca410956937f",
+      "korean": "오해받지 않도록 이유를 먼저 설명했어요.",
+      "japanese": "誤解されないように、先に理由を説明しました。",
+      "source_features": [
+        "purpose_or_prevention"
+      ],
+      "evidence_span": "오해받지 않도록",
+      "primary_category": "missing_grammar",
+      "reason_ko": "타인에게 오해받는 결과를 방지할 목표다.",
+      "related_plan_keys": [
+        "P37"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 124,
+      "example_id": "cb58e710-7d9e-4f89-926a-407bdf5417e9",
+      "korean": "대답을 안 했다고 무례한 건 아니에요.",
+      "japanese": "返事をしなかったからといって、無礼だとは限りません。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "안 했다고",
+      "primary_category": "level_mismatch_candidate",
+      "reason_ko": "이유에 따른 성격 일반화를 부정하는 축약 문맥이다. 부정 행동+명사화+부분 부정의 누적으로 초기 초중급보다 높은 배치 검토가 필요하다.",
+      "related_plan_keys": [
+        "P34",
+        "P03"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "late lower_intermediate / intermediate calibration review; no reassignment",
+      "scanner_disposition": "causal/generalization use, not a simple reported quotation",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 125,
+      "example_id": "cb73b4f7-ee86-41c8-b4e8-e6a6fcb0c33a",
+      "korean": "실수해도 너무 걱정하지 말고 기운을 내세요.",
+      "japanese": "失敗しても心配しすぎず、元気を出してください。",
+      "source_features": [
+        "concession_even_if_candidate"
+      ],
+      "evidence_span": "실수해도",
+      "primary_category": "missing_grammar",
+      "reason_ko": "양보와 금지 말다의 고 연결이다. 지 마세요의 말다와 관련해 설명한다.",
+      "related_plan_keys": [
+        "P31"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 126,
+      "example_id": "cbba4966-cb5a-4135-8886-9c5c738801d7",
+      "korean": "도움을 요청하는 것이 무능하다는 뜻은 아니에요.",
+      "japanese": "助けを求めることは、無能だという意味ではありません。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "무능하다는 뜻",
+      "primary_category": "missing_grammar",
+      "reason_ko": "기존 어휘 뜻을 지닌 명사가 인용절에 수식된다. 요청하는 것의 명사화도 필요하다.",
+      "related_plan_keys": [
+        "P03",
+        "P20"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 127,
+      "example_id": "cc95650e-eddc-44a7-b094-5eb818625017",
+      "korean": "천연 재료라고 반드시 무해한 것은 아니에요.",
+      "japanese": "天然の材料だからといって、必ず無害とは限りません。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "재료라고",
+      "primary_category": "level_mismatch_candidate",
+      "reason_ko": "명사 내용 전달이 아니라 천연이라는 이유만으로 안전하다고 일반화할 수 없다는 논리다. 반드시·부분 부정의 범위를 함께 검토한다.",
+      "related_plan_keys": [
+        "P34",
+        "P03"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "late lower_intermediate / intermediate calibration review; no reassignment",
+      "scanner_disposition": "causal/generalization use, not a simple reported quotation",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 128,
+      "example_id": "d030d8b1-0a40-4ec2-adce-ef0bcfdbaf03",
+      "korean": "편지를 읽고 나서야 속마음을 알았어요.",
+      "japanese": "手紙を読んで初めて、本音が分かりました。",
+      "source_features": [
+        "only_after_emphasis"
+      ],
+      "evidence_span": "읽고 나서야",
+      "primary_category": "missing_grammar",
+      "reason_ko": "단순 읽은 후가 아니라 그때 처음 이해한 시점을 강조한다.",
+      "related_plan_keys": [
+        "P45",
+        "P10"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 129,
+      "example_id": "d12d1eba-9fd0-4542-b4bf-6006958e3a89",
+      "korean": "회의 시간을 바꾸자고 제안했어요.",
+      "japanese": "会議の時間を変えようと提案しました。",
+      "source_features": [
+        "proposal_quote"
+      ],
+      "evidence_span": "바꾸자고",
+      "primary_category": "missing_grammar",
+      "reason_ko": "실제 공동 제안 인용의 적중 사례다. 잠을 자고의 오탐 두 건과 구별한다.",
+      "related_plan_keys": [
+        "P22"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 130,
+      "example_id": "d1580697-1d15-4f12-98fa-b4bfadec0a42",
+      "korean": "개인 정보가 유출됐다는 소식을 들었어요.",
+      "japanese": "個人情報が流出したという知らせを聞きました。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "유출됐다는 소식",
+      "primary_category": "missing_grammar",
+      "reason_ko": "과거 피동 사실을 인용 수식한다. 피동 활용 자체의 자동 지원은 주장하지 않는다.",
+      "related_plan_keys": [
+        "P20"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 131,
+      "example_id": "d5edc8b5-749b-4df2-a59f-1a1eaeb6ff18",
+      "korean": "알림이 밤에는 울리지 않도록 설정해 주세요.",
+      "japanese": "夜には通知音が鳴らないよう、設定してください。",
+      "source_features": [
+        "purpose_or_prevention"
+      ],
+      "evidence_span": "울리지 않도록",
+      "primary_category": "missing_grammar",
+      "reason_ko": "원치 않는 자동 동작을 방지할 설정이다.",
+      "related_plan_keys": [
+        "P37"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 132,
+      "example_id": "d686c7a7-34b5-4d69-b146-87f97b1ebd5f",
+      "korean": "당분간은 공부에 전념하기로 했어요.",
+      "japanese": "当分は、勉強に専念することにしました。",
+      "source_features": [
+        "decision_agreement"
+      ],
+      "evidence_span": "전념하기로 했어요",
+      "primary_category": "missing_grammar",
+      "reason_ko": "일정 기간 집중하겠다는 결정이다.",
+      "related_plan_keys": [
+        "P07"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 133,
+      "example_id": "d6d47e5c-790a-4913-9f8d-05c89f65c53b",
+      "korean": "지금 출발하는 게 낫다고 판단했어요.",
+      "japanese": "今出発したほうがよいと判断しました。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "낫다고",
+      "primary_category": "missing_grammar",
+      "reason_ko": "판단 내용 인용과 출발하는 게 명사화가 겹친다. 는 게 낫다의 조언 문형은 후속 공백으로 명시한다.",
+      "related_plan_keys": [
+        "P19",
+        "P03"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 134,
+      "example_id": "d847a2f1-0351-488d-80f6-f5dd7dd419e1",
+      "korean": "연락을 못 했더니 친구가 서운해했어요.",
+      "japanese": "連絡できずにいたら、友達が寂しがっていました。",
+      "source_features": [
+        "observed_sequence"
+      ],
+      "evidence_span": "못 했더니",
+      "primary_category": "missing_grammar",
+      "reason_ko": "못 부정의 과거 경험 뒤 타인의 반응을 관찰한다. 서운해하다의 감정 외현화는 별도 공백이다.",
+      "related_plan_keys": [
+        "P43"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 135,
+      "example_id": "d84bfc3e-ab1a-40cd-b3de-1566a2f33b92",
+      "korean": "사소한 실수라도 바로 고치려고 해요.",
+      "japanese": "ささいな失敗でも、すぐに直そうとしています。",
+      "source_features": [
+        "concession_even_if_candidate"
+      ],
+      "evidence_span": "실수라도",
+      "primary_category": "missing_grammar",
+      "reason_ko": "작은 실수여도 바로 고친다는 명사 양보다.",
+      "related_plan_keys": [
+        "P32"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 136,
+      "example_id": "d9e5aa6c-5281-4638-aeb6-465e8977acec",
+      "korean": "작은 목표라도 이루면 성취감을 느껴요.",
+      "japanese": "小さな目標でも、達成すると達成感を覚えます。",
+      "source_features": [
+        "concession_even_if_candidate"
+      ],
+      "evidence_span": "목표라도",
+      "primary_category": "missing_grammar",
+      "reason_ko": "작은 목표에도 성취감이 있다는 명사 양보다.",
+      "related_plan_keys": [
+        "P32"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 137,
+      "example_id": "da119135-5b15-401d-a6c8-cc5d760b3e3f",
+      "korean": "무사히 도착했다는 연락에 안도했어요.",
+      "japanese": "無事に着いたという連絡に、ほっとしました。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "도착했다는 연락",
+      "primary_category": "missing_grammar",
+      "reason_ko": "과거 내용의 인용 수식이다.",
+      "related_plan_keys": [
+        "P20"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 138,
+      "example_id": "da312b90-abd7-4a90-9e67-7277eedc17fc",
+      "korean": "화려하지 않아도 소박한 식사가 마음에 들었어요.",
+      "japanese": "華やかではなくても、素朴な食事が気に入りました。",
+      "source_features": [
+        "concession_even_if_candidate"
+      ],
+      "evidence_span": "않아도",
+      "primary_category": "missing_grammar",
+      "reason_ko": "상태 부정 양보다. 되다가 없는 일반 양보이므로 부정 허가와 구별한다.",
+      "related_plan_keys": [
+        "P31"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 139,
+      "example_id": "dd23ca3e-a553-42ef-9fbf-cb0176d7bb46",
+      "korean": "친구는 기다리라는 말투 때문에 기분이 상했어요.",
+      "japanese": "友達は、待つように言われたときの口調に気を悪くしました。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "기다리라는 말투",
+      "primary_category": "missing_grammar",
+      "reason_ko": "명령 인용의 관형형이다. 명사 (이)라는와 구별한다.",
+      "related_plan_keys": [
+        "P21"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 140,
+      "example_id": "dd9b836c-36d8-4142-b900-3610f55a3c96",
+      "korean": "현장에 들어가기 전에 안전 규정을 준수하겠다고 약속했어요.",
+      "japanese": "現場に入る前に、安全規則を守ると約束しました。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "준수하겠다고",
+      "primary_category": "missing_grammar",
+      "reason_ko": "의지·약속의 내용을 인용한다. 기존 전에와 함께 사용할 수 있다.",
+      "related_plan_keys": [
+        "P19"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 141,
+      "example_id": "e050a7c3-5d4f-4ceb-af34-d252a2fdbb57",
+      "korean": "잘될 거라고 막연히 생각했어요.",
+      "japanese": "うまくいくだろうと、漠然と考えていました。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "잘될 거라고",
+      "primary_category": "missing_grammar",
+      "reason_ko": "예상 미래의 인용이다. 미래 인용을 별도 신규 단위로 부풀리지 않고 P19 안에서 다룬다.",
+      "related_plan_keys": [
+        "P19"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 142,
+      "example_id": "e13a2e04-e3bc-49bb-9536-83b67d77e11c",
+      "korean": "사생활에는 간섭하지 않고 필요한 일만 돕기로 했어요.",
+      "japanese": "私生活には干渉せず、必要なことだけを手伝うことにしました。",
+      "source_features": [
+        "decision_agreement"
+      ],
+      "evidence_span": "돕기로 했어요",
+      "primary_category": "missing_grammar",
+      "reason_ko": "기 결정형 앞에서는 돕기의 ㅂ을 바꾸지 않는다. 기존 의도와 구별한다.",
+      "related_plan_keys": [
+        "P07"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 143,
+      "example_id": "e14da8b6-c51e-4cbb-80f4-bb0a43134253",
+      "korean": "마감이 다급해도 확인할 시간은 남겨 둬요.",
+      "japanese": "締め切りが迫っても、確認する時間は残しておきます。",
+      "source_features": [
+        "concession_even_if_candidate"
+      ],
+      "evidence_span": "다급해도",
+      "primary_category": "missing_grammar",
+      "reason_ko": "상태 양보와 남겨 두다의 결과 유지가 결합한다. 부가 문형은 별도 검토한다.",
+      "related_plan_keys": [
+        "P31"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 144,
+      "example_id": "e2ab0196-64d5-4899-a773-30eefdcb9cb9",
+      "korean": "회의 내용이 밖으로 유출되지 않도록 조심해요.",
+      "japanese": "会議の内容が外に漏れないよう、気をつけています。",
+      "source_features": [
+        "purpose_or_prevention"
+      ],
+      "evidence_span": "유출되지 않도록",
+      "primary_category": "missing_grammar",
+      "reason_ko": "수동 결과의 방지 목표다.",
+      "related_plan_keys": [
+        "P37"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 145,
+      "example_id": "e61e414f-b288-49c7-81cb-2fb03c7d253a",
+      "korean": "동료가 선뜻 도움을 주겠다고 했어요.",
+      "japanese": "同僚がためらわずに、手伝うと言ってくれました。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "주겠다고",
+      "primary_category": "missing_grammar",
+      "reason_ko": "도움 제공 의지의 인용이며 자기 희망 고 싶다와 다르다.",
+      "related_plan_keys": [
+        "P19"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 146,
+      "example_id": "e924b3eb-e177-4f6a-a3ec-6e21ffc28ee4",
+      "korean": "한 사람에게 과중한 책임을 맡기지 않도록 해요.",
+      "japanese": "一人に重すぎる責任を負わせないようにしましょう。",
+      "source_features": [
+        "purpose_or_prevention"
+      ],
+      "evidence_span": "맡기지 않도록 해요",
+      "primary_category": "missing_grammar",
+      "reason_ko": "행동 방침의 지시·합의다. 목적절만으로 주체와 register가 모두 설명되지는 않는다.",
+      "related_plan_keys": [
+        "P37",
+        "P38"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 147,
+      "example_id": "ea25c8f1-bf83-41fa-ada4-73d5a0c4484a",
+      "korean": "몇 달 연습하더니 이제 제법 잘하네요.",
+      "japanese": "何か月か練習して、今ではなかなか上手ですね。",
+      "source_features": [
+        "observed_sequence"
+      ],
+      "evidence_span": "연습하더니",
+      "primary_category": "missing_grammar",
+      "reason_ko": "타인의 반복된 활동을 관찰한 뒤 평가한다. 후절 네요 감탄은 별도 후속 검토한다.",
+      "related_plan_keys": [
+        "P42"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 148,
+      "example_id": "ea8d3ba9-5c5d-4f1d-a69d-2b9e4f5e4f0f",
+      "korean": "아침부터 부지런히 움직였더니 준비가 끝났어요.",
+      "japanese": "朝からせっせと動いたら、準備が終わりました。",
+      "source_features": [
+        "observed_sequence"
+      ],
+      "evidence_span": "움직였더니",
+      "primary_category": "missing_grammar",
+      "reason_ko": "자신의 실제 선행 활동 후 결과다. P42와 기계적으로 교체하지 않는다.",
+      "related_plan_keys": [
+        "P43"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 149,
+      "example_id": "eabf81ea-ad02-4e4d-9cc3-b01876489972",
+      "korean": "눈에 보이는 성과가 없다고 노력이 사라지는 건 아니에요.",
+      "japanese": "目に見える成果がなくても、努力が消えるわけではありません。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "없다고",
+      "primary_category": "level_mismatch_candidate",
+      "reason_ko": "성과 없음이라는 이유를 인정해도 노력 가치가 소멸하지 않는다는 논리다. 양보·명사화·부정 범위가 얽혀 상위 초중급/중급 배치 검토가 필요하다.",
+      "related_plan_keys": [
+        "P34",
+        "P03"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "late lower_intermediate / intermediate calibration review; no reassignment",
+      "scanner_disposition": "causal/generalization use, not a simple reported quotation",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 150,
+      "example_id": "f0695f23-19bd-4005-b961-cef0e8125c75",
+      "korean": "중요한 내용이 누락되지 않도록 확인해요.",
+      "japanese": "大事な内容が抜けないように確認します。",
+      "source_features": [
+        "purpose_or_prevention"
+      ],
+      "evidence_span": "누락되지 않도록",
+      "primary_category": "missing_grammar",
+      "reason_ko": "빠짐 방지의 결과 목표다.",
+      "related_plan_keys": [
+        "P37"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 151,
+      "example_id": "f1028ea3-c59c-494d-bc64-8a75e22caf92",
+      "korean": "그는 남의 일을 쉽게 말해서 입이 가볍다는 소리를 들어요.",
+      "japanese": "彼は人のことを気軽に話すので、口が軽いと言われています。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "가볍다는 소리",
+      "primary_category": "missing_grammar",
+      "reason_ko": "관용적 입이 가볍다의 인용 수식이다. 인격 평가 register와 어휘 Note를 확인한다.",
+      "related_plan_keys": [
+        "P20"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 152,
+      "example_id": "f1274874-037d-4ebf-bc69-d95b8c536a11",
+      "korean": "첨부된 사진이 흐릿해서 다시 보내 달라고 했어요.",
+      "japanese": "添付の写真がぼやけていたので、再送をお願いしました。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "보내 달라고",
+      "primary_category": "missing_grammar",
+      "reason_ko": "화자에게 보내 달라는 요청의 간접 인용이다. 주라고로 바꾸면 수혜자가 달라질 수 있다.",
+      "related_plan_keys": [
+        "P24"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 153,
+      "example_id": "f29b64aa-5bee-44df-ab5d-84b335a20bdc",
+      "korean": "평가가 실적에만 치우치지 않도록 기준을 바꿨어요.",
+      "japanese": "評価が実績だけに偏らないよう、基準を変えました。",
+      "source_features": [
+        "purpose_or_prevention"
+      ],
+      "evidence_span": "치우치지 않도록",
+      "primary_category": "missing_grammar",
+      "reason_ko": "평가 편향 상태를 방지할 목표다.",
+      "related_plan_keys": [
+        "P37"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 154,
+      "example_id": "fa7c0452-efa1-4441-9c23-c2c6956d512d",
+      "korean": "한 번의 실수로 능력이 없다고 단정하지 마세요.",
+      "japanese": "一度の失敗で、能力がないと決めつけないでください。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "없다고",
+      "primary_category": "missing_grammar",
+      "reason_ko": "능력 없음이라는 판단 내용의 인용이다. 단정하지 말라는 명령이 뒤따른다.",
+      "related_plan_keys": [
+        "P19"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 155,
+      "example_id": "fb1d25e1-1d2d-4371-8573-08a367fc0240",
+      "korean": "도움을 받으면 고맙다고 말하는 건 당연해요.",
+      "japanese": "助けてもらったら、お礼を言うのは当然です。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "고맙다고",
+      "primary_category": "missing_grammar",
+      "reason_ko": "감사 감정 서술의 인용이다. 말하는 건의 명사화와 섞어서 등록하지 않는다.",
+      "related_plan_keys": [
+        "P19",
+        "P03"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 156,
+      "example_id": "fb6cea0a-e8aa-4f49-9eb5-9318a629d14d",
+      "korean": "오해가 없도록 짧은 설명을 덧붙였어요.",
+      "japanese": "誤解がないよう、短い説明を付け加えました。",
+      "source_features": [
+        "purpose_or_prevention"
+      ],
+      "evidence_span": "없도록",
+      "primary_category": "missing_grammar",
+      "reason_ko": "존재 부정 없다 뒤에 도록을 연결한다. 기계적으로 않도록만 허용하지 않는다.",
+      "related_plan_keys": [
+        "P37"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 157,
+      "example_id": "fcf5e9be-9685-4676-ab92-28d63039a0a1",
+      "korean": "의견이 같지 않아도 감정에는 공감을 표현할 수 있어요.",
+      "japanese": "意見が同じでなくても、気持ちに共感を示すことはできます。",
+      "source_features": [
+        "concession_even_if_candidate"
+      ],
+      "evidence_span": "않아도",
+      "primary_category": "missing_grammar",
+      "reason_ko": "의견의 동일성을 부정하는 상태 양보다.",
+      "related_plan_keys": [
+        "P31"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 158,
+      "example_id": "fd0edba7-d4cc-47b3-ac22-2f6a012af47b",
+      "korean": "담당자가 오해를 풀기 위해 해명했어요.",
+      "japanese": "担当者が誤解を解くために、事情を説明しました。",
+      "source_features": [
+        "purpose_for"
+      ],
+      "evidence_span": "풀기 위해",
+      "primary_category": "missing_grammar",
+      "reason_ko": "목적을 나타내는 동사 기 명사화 구문이다.",
+      "related_plan_keys": [
+        "P39"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 159,
+      "example_id": "fd6138b4-034a-4670-83e9-640f33514868",
+      "korean": "목적이 좋다고 모든 수단이 괜찮은 건 아니에요.",
+      "japanese": "目的がよいからといって、どんな手段でも許されるわけではありません。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "좋다고",
+      "primary_category": "level_mismatch_candidate",
+      "reason_ko": "목적이 좋다는 이유로 수단을 모두 정당화하지 않는 논리다. 모든·부정의 범위를 다루는 상위 배치 검토가 필요하다.",
+      "related_plan_keys": [
+        "P34",
+        "P03"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "late lower_intermediate / intermediate calibration review; no reassignment",
+      "scanner_disposition": "causal/generalization use, not a simple reported quotation",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 160,
+      "example_id": "fd778fdc-4876-4804-b562-5a4e945ad72b",
+      "korean": "이 문서는 담당자만 열람하도록 정했어요.",
+      "japanese": "この文書は、担当者だけが閲覧できるように決めました。",
+      "source_features": [
+        "purpose_or_prevention"
+      ],
+      "evidence_span": "열람하도록 정했어요",
+      "primary_category": "missing_grammar",
+      "reason_ko": "행동 가능·방침을 정한 구문이다. 일본어 できる와 실제 허가/설정의 의미 범위를 검토한다.",
+      "related_plan_keys": [
+        "P37"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 161,
+      "example_id": "fd870e88-9ca9-4643-8804-3fec9549c67d",
+      "korean": "재량이 있어도 정해진 기준은 지켜야 해요.",
+      "japanese": "裁量があっても、決められた基準は守る必要があります。",
+      "source_features": [
+        "concession_even_if_candidate"
+      ],
+      "evidence_span": "있어도",
+      "primary_category": "missing_grammar",
+      "reason_ko": "재량이 존재해도 지켜야 하는 기준이 있다는 양보다.",
+      "related_plan_keys": [
+        "P31"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 162,
+      "example_id": "fe03aad8-87f6-4c49-8195-7676dd2e0f6e",
+      "korean": "결과만 보고 판단이 그르다고 할 수는 없어요.",
+      "japanese": "結果だけを見て、判断が間違っているとは言えません。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "그르다고",
+      "primary_category": "missing_grammar",
+      "reason_ko": "그르다 상태 판단의 내용 인용이다. 할 수는 없다의 대비를 보존한다.",
+      "related_plan_keys": [
+        "P19"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    },
+    {
+      "index": 163,
+      "example_id": "fe783f83-f811-4b6a-888f-b76179dfaeae",
+      "korean": "친하다는 이유만으로 제 편을 들 필요는 없어요.",
+      "japanese": "親しいからというだけで、私の味方をする必要はありません。",
+      "source_features": [
+        "indirect_declarative_or_noun_quote"
+      ],
+      "evidence_span": "친하다는 이유만으로",
+      "primary_category": "missing_grammar",
+      "reason_ko": "이유의 인용 수식과 불필요 필요는 없다를 함께 설명한다. 금지로 번역하지 않는다.",
+      "related_plan_keys": [
+        "P20",
+        "P50"
+      ],
+      "level_in_production": "lower_intermediate",
+      "proposed_level_action": "retain current level; prerequisites still require review",
+      "scanner_disposition": "actual construction gap",
+      "reuse_approved": false,
+      "human_reviewed": false
+    }
+  ]
+}

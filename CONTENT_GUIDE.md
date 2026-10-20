@@ -1,3 +1,5 @@
+> **DATA-09-1 분석·설계 (2026-10-20 JST):** 현재 Production은 Content19/Schema4/reader7/UserProgress10, Grammar42(入門22/初級20/初中級0)로 동일하다. 기존42개·후보163개를 조사하고 初中級54개 교육 단위를 설계했다. 신규 Production0, DATA08 B—Conditional·native/사람 검수 gate 유지. 현재 요청의 분석 범위만 진행했으며 아래 DATA08 결과는 당시 이력이다. [DATA09_PROGRESS](DATA09_PROGRESS.md), [설계](Docs/DATA09_DESIGN.md).
+
 # DATA-08-8 최종 확인 — Content19 / Schema4 / reader7 / UserProgress10
 
 **수량·Source/DB 통합 목표 달성, 전체 완료 판정은 B—Conditional 유지. DATA-09 미착수.** 신규 Vocabulary **911개(일반 어휘807 + 표현104)** / 고유 신규 문장 Example **1,821개**. 일반 어휘만 세어도 목표800~1,200 범위에 들며, 예문 목표1,300~2,000도 충족한다. 기존 예문1개 재사용은 신규 수에 포함하지 않았다.
