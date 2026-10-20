@@ -1,0 +1,284 @@
+{
+  "environment": {
+    "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+    "python": "3.12.14",
+    "sqlite": "3.53.1"
+  },
+  "scope": "Warm connections;30 repetitions;actual extracted Swift repository SQL, separate user10 SQLite, Python socket forbidden. No iPhone launch/UI/frame timing/VoiceOver/RAM or 3–10-minute measurement.",
+  "versions": {
+    "19": {
+      "core": {
+        "bundle_bytes": 17932288,
+        "counts": {
+          "vocabulary": 2287,
+          "listening": 1936,
+          "questions": 3337,
+          "srs_rows": 2287
+        },
+        "queries": {
+          "home_refresh_summary_and_resume_sql": {
+            "median_ms": 4.7283,
+            "p95_ms": 8.7069,
+            "max_ms": 16.5459,
+            "result_rows": 9
+          },
+          "home_summary_resume_first_curriculum_pages": {
+            "median_ms": 1.7058,
+            "p95_ms": 2.0505,
+            "max_ms": 2.3313,
+            "result_rows": 448
+          },
+          "ko_search": {
+            "median_ms": 0.583,
+            "p95_ms": 0.6321,
+            "max_ms": 1.0124,
+            "result_rows": 1
+          },
+          "ja_search": {
+            "median_ms": 0.6025,
+            "p95_ms": 0.6577,
+            "max_ms": 0.839,
+            "result_rows": 1
+          },
+          "broad_search": {
+            "median_ms": 3.4413,
+            "p95_ms": 3.8284,
+            "max_ms": 3.971,
+            "result_rows": 30
+          },
+          "no_match": {
+            "median_ms": 0.5718,
+            "p95_ms": 0.5987,
+            "max_ms": 0.6255,
+            "result_rows": 0
+          },
+          "srs_due20_and_card_headers": {
+            "median_ms": 0.6495,
+            "p95_ms": 0.9336,
+            "max_ms": 1.017,
+            "result_rows": 20
+          },
+          "vocabulary_first20": {
+            "median_ms": 0.694,
+            "p95_ms": 1.1755,
+            "max_ms": 1.2782,
+            "result_rows": 20
+          },
+          "authored_lesson20_query": {
+            "median_ms": 0.122,
+            "p95_ms": 0.1614,
+            "max_ms": 0.3241,
+            "result_rows": 20
+          },
+          "set20_membership_and_session_commit_sql": {
+            "median_ms": 0.9945,
+            "p95_ms": 1.3824,
+            "max_ms": 1.4644,
+            "result_rows": 20
+          }
+        }
+      },
+      "grammar": {
+        "status": "N/A: DATA09 cohort not in Content19"
+      }
+    },
+    "23": {
+      "core": {
+        "bundle_bytes": 18812928,
+        "counts": {
+          "vocabulary": 2287,
+          "listening": 1936,
+          "questions": 3553,
+          "srs_rows": 2287
+        },
+        "queries": {
+          "home_refresh_summary_and_resume_sql": {
+            "median_ms": 4.5531,
+            "p95_ms": 5.7603,
+            "max_ms": 8.0605,
+            "result_rows": 9
+          },
+          "home_summary_resume_first_curriculum_pages": {
+            "median_ms": 2.1367,
+            "p95_ms": 2.7856,
+            "max_ms": 4.5431,
+            "result_rows": 502
+          },
+          "ko_search": {
+            "median_ms": 0.7023,
+            "p95_ms": 0.9429,
+            "max_ms": 1.0962,
+            "result_rows": 1
+          },
+          "ja_search": {
+            "median_ms": 0.697,
+            "p95_ms": 1.1284,
+            "max_ms": 1.2219,
+            "result_rows": 1
+          },
+          "broad_search": {
+            "median_ms": 4.4995,
+            "p95_ms": 5.2648,
+            "max_ms": 5.3895,
+            "result_rows": 30
+          },
+          "no_match": {
+            "median_ms": 0.7214,
+            "p95_ms": 1.0095,
+            "max_ms": 1.8483,
+            "result_rows": 0
+          },
+          "srs_due20_and_card_headers": {
+            "median_ms": 0.7896,
+            "p95_ms": 1.112,
+            "max_ms": 1.9713,
+            "result_rows": 20
+          },
+          "vocabulary_first20": {
+            "median_ms": 0.8155,
+            "p95_ms": 1.1048,
+            "max_ms": 2.0088,
+            "result_rows": 20
+          },
+          "authored_lesson20_query": {
+            "median_ms": 0.1497,
+            "p95_ms": 0.3522,
+            "max_ms": 0.4553,
+            "result_rows": 20
+          },
+          "set20_membership_and_session_commit_sql": {
+            "median_ms": 1.2574,
+            "p95_ms": 1.607,
+            "max_ms": 1.6251,
+            "result_rows": 20
+          }
+        }
+      },
+      "grammar": {
+        "grammar_catalog": {
+          "median_ms": 0.6008,
+          "p95_ms": 0.7721,
+          "max_ms": 1.0073,
+          "result_rows": 18
+        },
+        "full_card_with_examples_quiz_comparisons_prerequisites_related": {
+          "median_ms": 1.5471,
+          "p95_ms": 2.137,
+          "max_ms": 3.0076,
+          "result_rows": 45
+        },
+        "grammar_srs_due20_headers": {
+          "median_ms": 1.579,
+          "p95_ms": 2.8699,
+          "max_ms": 3.8477,
+          "result_rows": 20
+        },
+        "grammar_session3_commit_sql": {
+          "median_ms": 0.0832,
+          "p95_ms": 0.2061,
+          "max_ms": 0.2237,
+          "result_rows": 3
+        }
+      }
+    },
+    "24": {
+      "core": {
+        "bundle_bytes": 18841600,
+        "counts": {
+          "vocabulary": 2287,
+          "listening": 1936,
+          "questions": 3553,
+          "srs_rows": 2287
+        },
+        "queries": {
+          "home_refresh_summary_and_resume_sql": {
+            "median_ms": 4.6502,
+            "p95_ms": 7.7807,
+            "max_ms": 24.2437,
+            "result_rows": 9
+          },
+          "home_summary_resume_first_curriculum_pages": {
+            "median_ms": 3.1056,
+            "p95_ms": 3.9547,
+            "max_ms": 4.2284,
+            "result_rows": 502
+          },
+          "ko_search": {
+            "median_ms": 1.0211,
+            "p95_ms": 1.3804,
+            "max_ms": 1.4875,
+            "result_rows": 1
+          },
+          "ja_search": {
+            "median_ms": 1.056,
+            "p95_ms": 1.1069,
+            "max_ms": 1.1249,
+            "result_rows": 1
+          },
+          "broad_search": {
+            "median_ms": 5.6632,
+            "p95_ms": 6.1627,
+            "max_ms": 6.2458,
+            "result_rows": 30
+          },
+          "no_match": {
+            "median_ms": 1.0047,
+            "p95_ms": 1.0738,
+            "max_ms": 1.0928,
+            "result_rows": 0
+          },
+          "srs_due20_and_card_headers": {
+            "median_ms": 1.1404,
+            "p95_ms": 1.2364,
+            "max_ms": 1.342,
+            "result_rows": 20
+          },
+          "vocabulary_first20": {
+            "median_ms": 1.0247,
+            "p95_ms": 1.201,
+            "max_ms": 1.7611,
+            "result_rows": 20
+          },
+          "authored_lesson20_query": {
+            "median_ms": 0.2385,
+            "p95_ms": 0.2832,
+            "max_ms": 0.4234,
+            "result_rows": 20
+          },
+          "set20_membership_and_session_commit_sql": {
+            "median_ms": 1.5733,
+            "p95_ms": 2.7741,
+            "max_ms": 3.813,
+            "result_rows": 20
+          }
+        }
+      },
+      "grammar": {
+        "grammar_catalog": {
+          "median_ms": 0.831,
+          "p95_ms": 0.9404,
+          "max_ms": 1.3169,
+          "result_rows": 18
+        },
+        "full_card_with_examples_quiz_comparisons_prerequisites_related": {
+          "median_ms": 2.0018,
+          "p95_ms": 2.1516,
+          "max_ms": 2.89,
+          "result_rows": 47
+        },
+        "grammar_srs_due20_headers": {
+          "median_ms": 2.0888,
+          "p95_ms": 2.2862,
+          "max_ms": 2.2962,
+          "result_rows": 20
+        },
+        "grammar_session3_commit_sql": {
+          "median_ms": 0.1245,
+          "p95_ms": 0.177,
+          "max_ms": 0.306,
+          "result_rows": 3
+        }
+      }
+    }
+  }
+}

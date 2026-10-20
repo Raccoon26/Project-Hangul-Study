@@ -1,0 +1,53 @@
+{
+  "metadata": [
+    4,
+    24,
+    7
+  ],
+  "integrity_check": [
+    [
+      "ok"
+    ]
+  ],
+  "foreign_key_check": [],
+  "counts": {
+    "vocabulary": 2287,
+    "meanings": 2420,
+    "examples": 4813,
+    "grammar": 96,
+    "questions": 3553,
+    "listening_items": 1936,
+    "courses": 8,
+    "lessons": 103,
+    "content_items": 15941
+  },
+  "levels": {
+    "vocabulary": {
+      "beginner": 800,
+      "intro": 306,
+      "lower_intermediate": 1181
+    },
+    "examples": {
+      "beginner": 1577,
+      "intro": 659,
+      "lower_intermediate": 2577
+    },
+    "grammar": {
+      "beginner": 20,
+      "intro": 22,
+      "lower_intermediate": 54
+    },
+    "questions": {
+      "beginner": 134,
+      "hangul": 59,
+      "intro": 156,
+      "lower_intermediate": 3204
+    },
+    "listening_items": {
+      "beginner": 79,
+      "intro": 34,
+      "lower_intermediate": 1823
+    }
+  },
+  "inactive_content_items": 0
+}

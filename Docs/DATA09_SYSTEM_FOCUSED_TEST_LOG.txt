@@ -1,0 +1,11 @@
+test_all_grammar_lessons_have_bounded_unique_members_and_active_parents (test_data09_system_audit.Data09SystemAuditTests.test_all_grammar_lessons_have_bounded_unique_members_and_active_parents) ... ok
+test_all_grammar_questions_have_one_target_one_answer_and_real_examples (test_data09_system_audit.Data09SystemAuditTests.test_all_grammar_questions_have_one_target_one_answer_and_real_examples) ... ok
+test_grammar_quiz_event_ids_are_idempotent_in_real_statistics_sql (test_data09_system_audit.Data09SystemAuditTests.test_grammar_quiz_event_ids_are_idempotent_in_real_statistics_sql) ... ok
+test_grammar_review_question_snapshot_and_wrong_choice_survive_new_content_and_reopen (test_data09_system_audit.Data09SystemAuditTests.test_grammar_review_question_snapshot_and_wrong_choice_survive_new_content_and_reopen) ... ok
+test_late_grammar_answer_failure_rolls_back_answer_event_statistics_and_resume (test_data09_system_audit.Data09SystemAuditTests.test_late_grammar_answer_failure_rolls_back_answer_event_statistics_and_resume) ... ok
+test_native_gates_cover_stale_action_wrong_answer_and_no_double_completion (test_data09_system_audit.Data09SystemAuditTests.test_native_gates_cover_stale_action_wrong_answer_and_no_double_completion) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.071s
+
+OK

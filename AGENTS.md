@@ -106,3 +106,11 @@
 - DATA09 시작 전19와 실제 직전23 원본/DB는 별도 불변 fixture다. 현재23을19로 재명명하지 않는다.19→24/23→24 strict와 전체 DB byte 재구성을 유지하며, 다음 실제 콘텐츠 변경은 현재24를 먼저 보존한다. final22→23 정확한 gate는23fixture에 고정했고 새23→24 gate가 Unit6개·기존107endpoint revision을 전부 검증한다. prepare_data09_integration은 동결23+고정 manifest로 같은24만 재현한다.
 - 선행 설명 프리뷰/사전 조회를 학습 완료·SRS 등록으로 세지 않는다. GrammarSession 질문 snapshot·선택/페이지/seed/order/ContentVersion과 Vocabulary set membership을 재작성하지 않는다. 예문 learning_point_ja는 reader→비영속 Example→학습/사전 화면까지 전달한다. 입력 연습은 실제 검수 문항이 있는 어휘에서만 노출하고 새54문형 전체 자동 생성으로 표현하지 않는다.
 - 최신 근거는 DATA09_PROGRESS §12/Docs/DATA09_INTEGRATION_*다. 최종 portable359 PASS·전용13/조회4와 SQL보존·오프라인/warm 성능 측정은 native 검증이 아니다.139 XCTest 실행0·iOS/접근성/기기 메모리/실제3~10분 BLOCKED, 독립 사람/사전 NOT TESTED, 기존 native P1/B—Conditional/미해결36건 유지. 다음 단계/DATA10은 자동 시작하지 않는다.
+
+
+## DATA-09-7 현재 시스템 감사 기준
+
+- 명시 요청으로 확인 가능한 DEV/DATA 계약을 감사했다. 현재 Content24/Schema4/reader7/UserProgress10·Source/DB/ID/revision·기존 순서/진도는 불변이다. 감사/테스트 보강만으로 버전을 올리거나 fixture/Production을 다시 배포하지 않는다. 다음 실제 콘텐츠 변경은 현재24를 먼저 보존한다.
+- 최신 근거는 DATA09_PROGRESS §13 / Docs/DATA09_SYSTEM_REVIEW.md·RESULTS.json이다. 전체 portable365 PASS와 SQL 전3,553문제/4,813예문 도달은 Swift/UI 실행 증거가 아니다. native141정의/실행0(이번2추가)·Xcode/기기/실제 설정/구매/광고 BLOCKED, 독립 사람/사전 NOT TESTED·B—Conditional 유지.
+- DATA08 P1 세 건은 현행 SQL/corpus/source 회귀10개 PASS이나 native 확인 gate는 남는다. 새 런타임 P0/P1 재현/수정0을 전체 앱 crash/grade/UI 무결성 보장으로 표현하지 않는다. 신규6portable·18레슨/오답/중복 native2개 회귀를 보존한다.
+- 후행 선행참조12개는 선택적 page0 설명 프리뷰이며 session/lesson 순서를 바꾸거나 숙달로 기록하지 않는다. 후보163건120해결/7조건부/36미해결·Level8미해결 및 확인 불가능한 옛 완전 명세를 자동 완료 처리하지 않는다. 다음 단계/DATA10은 자동 시작하지 않는다.

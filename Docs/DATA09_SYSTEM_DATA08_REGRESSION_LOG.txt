@@ -1,0 +1,15 @@
+test_all_deferred_completes_without_counting_learning_or_deleting_any_row (test_data08_system_audit.Data08SystemAuditTests.test_all_deferred_completes_without_counting_learning_or_deleting_any_row) ... ok
+test_defer_keeps_srs_events_membership_and_cold_cursor_for_both_skills_and_practice (test_data08_system_audit.Data08SystemAuditTests.test_defer_keeps_srs_events_membership_and_cold_cursor_for_both_skills_and_practice) ... ok
+test_defer_rolls_back_metadata_if_session_save_fails (test_data08_system_audit.Data08SystemAuditTests.test_defer_rolls_back_metadata_if_session_save_fails) ... ok
+test_entitlement_and_frequency_sample_bytes_are_untouched_by_content_and_defer (test_data08_system_audit.Data08SystemAuditTests.test_entitlement_and_frequency_sample_bytes_are_untouched_by_content_and_defer) ... ok
+test_legacy_active_review_retirement_reproducer_is_real (test_data08_system_audit.Data08SystemAuditTests.test_legacy_active_review_retirement_reproducer_is_real) ... ok
+test_listening_inactive_prefix_no_longer_starves_later_active_items (test_data08_system_audit.Data08SystemAuditTests.test_listening_inactive_prefix_no_longer_starves_later_active_items) ... ok
+test_monetization_storage_is_independent_of_content_and_user_metadata (test_data08_system_audit.Data08SystemAuditTests.test_monetization_storage_is_independent_of_content_and_user_metadata) ... ok
+test_production_dictation_period_omission_bug_and_narrow_new_policy (test_data08_system_audit.Data08SystemAuditTests.test_production_dictation_period_omission_bug_and_narrow_new_policy) ... ok
+test_recovery_guard_and_no_srs_mutation_in_repository_or_error_ui (test_data08_system_audit.Data08SystemAuditTests.test_recovery_guard_and_no_srs_mutation_in_repository_or_error_ui) ... ok
+test_release_scoped_quarantine_cannot_starve_later_due_and_retries_next_version (test_data08_system_audit.Data08SystemAuditTests.test_release_scoped_quarantine_cannot_starve_later_due_and_retries_next_version) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.126s
+
+OK

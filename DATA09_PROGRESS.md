@@ -1,3 +1,11 @@
+# DATA-09-7 / 요구사항·시스템 회귀 감사 — 현재 Production
+
+**Content24 / Schema4 / reader7 / UserProgress10 유지.** 전체 portable **365/365 PASS**(415.721초, 실패·오류·skip0), DATA08 P1 전용10/10·새 문법 회귀6/6 PASS(전체와 중복). 실제 SQL로 전3,553문제/4,813예문 도달·누락0,96문법/93선행 edge 순환0·후행 참조12개는 선택적 설명 프리뷰로 지원한다. 새 런타임 P0/P1 재현0·수정0, Source/DB/ID/revision 변경0. 신규54문법/216고유예문/216문제·장기350~500 목표 유지.
+
+19/23→24 strict 오류0/기존경고10·DB byte 재현·기존 Progress/SRS/session/통계 보존 회귀 PASS. **Xcode/Swift 없음: iOS Build·141정의 XCTest(기존139+이번2)/실행0·기기/음성/접근성/메모리/3~10분/StoreKit/AdMob BLOCKED**, 독립 사람·외부사전 NOT TESTED, 옛 원래 명세 전체 UNVERIFIABLE. native P1 확인 gate·선행 미해결36건·B—Conditional 유지. [상세 감사](Docs/DATA09_SYSTEM_REVIEW.md), [실행 결과](Docs/DATA09_SYSTEM_RESULTS.json), [누적 §13](DATA09_PROGRESS.md). 이번 DATA09-7에서 종료하며 다음 단계는 시작하지 않았다. 아래 수량·‘현재’·검사는 당시 이력이다.
+
+---
+
 # DATA-09 진행 기록
 
 # DATA-09-6 / Production·Curriculum 통합 — 현재 Production
@@ -506,3 +514,39 @@ Source SHA `081ed35c7cd78345af1c1793fc450acaa2931f173cef00aaa960c8ef42318540`, D
 ### 12.6 Git 전달
 
 통합/검증 commit `dc3809e04154e30d6e548439f6fe41033fd576dd`를 `data09-6/production-integration`에 정상 push하고 [PR #15](https://github.com/Raccoon26/Project-Hangul-Study/pull/15)를 main 대상으로 생성했다. 최대 신규 blob18,841,600 bytes로 일반 Git push 성공. Content 원본·기존 fixture 보존, force push/이력 재작성/LFS 전환0. 초기 unittest subtest의 행끝 공백1개는 원시 로그 보존을 위해 그대로 두고 해당 원시 로그를 제외한 소스/문서 whitespace 검사를 수행했다. GitHub 등록 check0개이므로 로컬 portable PASS를 GitHub CI/native 실행으로 표현하지 않는다. 최종 전달 문서 commit과 main merge SHA/상태는 해당 PR head/merge 기록 및 최종 응답을 따른다. 이번은 DATA09-6에서 종료한다.
+
+
+## 13. DATA-09-7 / 요구사항·전체 모듈 회귀 감사
+
+### 13.1 시작·명세·실제 범위
+
+2026-10-20 UTC. fetch 후 main `fcb7897b8bf78ce138e1941d9e678d9c22128aed`와 origin/main 일치·미커밋 변경0을 확인하고 `data09-7/system-audit`에서 작업했다. 기존 DEV01~14/DATA01~08와 DATA09 문서·코드·현재 Production을 대조했다. 원래 DEV01~14/DATA01~07 완전 명세는 현재 tracked 경로 및 접근 가능한 Git history의 SPEC/REQUIREMENT 이름에서 찾지 못했다. 사후 STATUS/REVIEW21개를 원래 전체 요청으로 오인하지 않으며 확인 불가능한 원래 세부 수락조건은 UNVERIFIABLE이다. [요구 대조표](Docs/DATA09_SYSTEM_REVIEW.md), [원문 요청](Docs/DATA09_SYSTEM_REQUEST.md), [경로/해시·실제 SQL 감사](Docs/DATA09_SYSTEM_AUDIT.json).
+
+이번은 상태·연결 회귀 감사다. runtime 코드·Production Source/DB·ID/revision·level·lesson/order 변경0이다. Content24/Schema4/reader7/UserProgress10, 신규54G/216고유E/216Q·기존4예문 재사용·DATA08 신규911V/1,821고유문장 및 장기350~500을 유지한다. 전체 Vocabulary2,287/Meaning2,420/Example4,813/Grammar96/Question3,553/Listening1,936/Course8/Lesson103, Source25테이블66,094행·비활성0. Level 집계는 [COUNTS](Docs/DATA09_SYSTEM_COUNTS.json).
+
+### 13.2 전수 연결·오류·기존 P1 추적
+
+Content→Curriculum→Vocabulary→Grammar→Conjugation/입력→Listening→SRS→Search→Statistics/UserProgress의 실제 repository SQL을 조회했다. 전3,553문제/4,813예문 도달·누락0,300문법 문항의 단일 target/choice/실제 예문 관계,96문법/30레슨의 고유 bounded membership을 확인했다. 어휘2,287한국어 검색·72일본어뜻 표본,96문법의 한일192검색도 PASS다. 이것은 Swift 엔진/UI를 실행한 E2E가 아니다.
+
+96문법/93선행 edge 순환·자기참조·잘못된 target0. 실제 curriculum ordinal 기준 후행 참조12개는 설명 프리뷰로 확인할 수 있다. 기존 snapshot/lesson순서를 재작성하지 않았다. 선행163후보의120해결/7조건부/36미해결·Level검토8미해결은 새 언어 재분류 없이 유지하며 전체 선행 숙달/최적 순서 완료로 주장하지 않는다.
+
+DATA08 P1-01 unavailable 복습 보류: 원SRS/due/review_items/events 유지·완료/보류 구분·cold reopen/rollback·release별 재확인 PASS. P1-02 끝 .!? 생략: 현1,850dictation corpus/현재 source route PASS, DATA08 영향1,821개 유지·일반 입력 정규화 불변. P1-03 listening45due/첫25retire→두번째 page15active 도달·원SRS45보존/나머지5pending SQL PASS. 세 건의 native API/UI/실제 Swift grading 확인은 여전히 BLOCKED다. 전용10/10(0.126초)은 전체 suite와 중복이다.
+
+새 런타임 P0/P1 재현0·수정0이다. 새 portable6개는 전300문항/30레슨, 잘못 선택한 문항 snapshot의 cold reopen/새 콘텐츠 보존, 늦은 저장 실패 시 답안·이벤트·통계·Resume timestamp 동시 rollback, UUID 중복 거부/통계 불변과 native guard 소스 계약을 보강했다. native2개(18신규 레슨 전체 실제 Quiz→회독/SRS→Resume·오답/중복 Progress)는 작성했지만 실행0이다.
+
+부분 구현/위험은 보고서에 유지했다: 일반 Validator 전체 prerequisite cycle gate 없음(현재 DAG 별도 검사), 고정 회독 retire 자동대체 없음, 새54문형 전체 직접입력/듣기 생성 없음,9형 외 활용/ㅎ사전 override·자유작문/상위과정/검증 녹음/혼합 scheduler/원격 update 부분. 실제 Dead Button/crash/audio/기기 메모리·오프라인/3~10분은 미실행이다.
+
+### 13.3 실제 실행 결과·한계
+
+- **PASS** `sh Tools/verify.sh --portable`: **365/365,415.721초,실패0/오류0/skip0,exit0**. Python Unit/SQL Integration/Regression이며 Swift XCTest가 아니다. 전용6/6(0.071초)·기존P1 10/10은 포함된 검사로 중복 가산하지 않는다. [전체 로그](Docs/DATA09_SYSTEM_TEST_LOG.txt), [결과](Docs/DATA09_SYSTEM_RESULTS.json).
+- **PASS** 현재19→24/23→24 strict rebuild:0errors/기존10warnings, DB byte 일치. DATA08 구조0errors/5warnings, DATA09 계약0/0, integrity ok/FK0. user1~10 migration·진행중 다종 snapshot/선택·Favorites/Difficult/SRS·통계·Resume·socket 금지 Offline SQL·15k규모 회귀 재실행. 실제 개인진도·Swift Codable·UserDefaults/Keychain은 이 SQL fixture 실행으로 인증하지 않는다.
+- **FAIL→수정** 새 전용 초기6개 중1ERROR는 exposed_at 누락 fixture CHECK 위반. 실제 노출 상태로 수정·constraint 유지. 추가 audit 초기 learning_order 조회 오류는 실제 lesson/item ordinal로 수정. 초기 원시 로그 보존, 앱 버그 수정 수에 넣지 않는다.
+- **PASS(로컬 SQL 측정)** warm30회 p95 Home7.7807ms/Search넓은검색6.1627ms/Grammar catalog0.9404ms/fullcard2.1516ms/SRS20 headers2.2862ms/3개 session commit0.1770ms. [실측](Docs/DATA09_SYSTEM_PERFORMANCE.json). Python SQLite/공유 Linux이며 iPhone 성능/메모리/학습시간 보장이 아니다.
+- **PASS(소스·저장 경계)** 광고/구매/설정4파일은 시작 commit과 byte 동일. remove_ads·Keychain/빈도/preferences key는 Content Version 독립. 기존 monetization checker/회귀 유지. opaque cache SQL 검사를 실제 권한 실행으로 표현하지 않는다.
+- **BLOCKED** Linux에 xcodebuild/swift 없음. iOS Debug/Release/SDK resolve·141정의 XCTest(기존139+이번2) 실행0·실기기 Resume/비행기/TTS/Audio interruption·IME/접근성/메모리/3~10분·AdMob/StoreKit/Keychain/UserDefaults 미실행. **NOT TESTED** 독립 원어민·교사/외부 사전. **UNVERIFIABLE** 미확보 옛 전체 원래 명세.
+
+### 13.4 보존·Git·종료
+
+Source SHA `081ed35c7cd78345af1c1793fc450acaa2931f173cef00aaa960c8ef42318540`, bundle SHA `56a7fa8b5358e254eeb324e706860d150d20c8ec013ba0b6f602cf14d93cceff`를 전체 검사 후에도 확인했다. 기존 원본/DB/fixture/ID/미완료 gate를 보존하고 감사만으로 Content/Schema Version을 올리지 않았다. 기존 명시적 위임에 따라 정상 commit/push/PR/merge로 전달하며 최종 SHA/PR/clean main은 Git 및 최종 응답이 기준이다. Force push/이력 재작성0.
+
+이번 범위의 미수정 재현 P0/P1 0과 iOS/native P1 확인 미완료를 구분한다. B—Conditional·선행36건·독립 사람 NOT TESTED를 유지한다. **DATA-09-7에서 종료하며 다음 단계/DATA10은 시작하지 않았다.**
