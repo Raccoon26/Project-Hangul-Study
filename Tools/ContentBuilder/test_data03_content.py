@@ -48,7 +48,7 @@ class Data03ContentTests(unittest.TestCase):
                         self.assertEqual(current[:2]+current[3:-1],row[:2]+row[3:-1])
                         continue
                     self.assertEqual(self.db.execute('SELECT * FROM '+table+' WHERE id=?', [row[0]]).fetchone(), row)
-        self.assertEqual(self.db.execute('SELECT schema_version,content_version,min_reader_version,is_fixture FROM content_metadata').fetchone(), (4,22,7,0))
+        self.assertEqual(self.db.execute('SELECT schema_version,content_version,min_reader_version,is_fixture FROM content_metadata').fetchone(), (4,23,7,0))
         with sqlite3.connect(ROOT/'Resources/content.sqlite') as bundle:
             self.assertEqual(signatures(bundle), signatures(self.db))
 

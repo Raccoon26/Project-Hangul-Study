@@ -1,0 +1,99 @@
+{
+  "content_version": 23,
+  "schema_version": 4,
+  "min_reader_version": 7,
+  "user_progress_version": 10,
+  "counts": {
+    "content_items": 15935,
+    "hangul": 55,
+    "content_links": 6425,
+    "courses": 8,
+    "learner_notes": 531,
+    "questions": 3553,
+    "question_choices": 1476,
+    "lessons": 103,
+    "lesson_items": 1191,
+    "sources": 22,
+    "item_sources": 15501,
+    "pronunciation_rules": 36,
+    "pronunciation_presentations": 36,
+    "content_audio": 36,
+    "examples": 4813,
+    "pronunciation_examples": 13,
+    "audio_questions": 3,
+    "tags": 97,
+    "vocabulary": 2287,
+    "item_tags": 4507,
+    "meanings": 2420,
+    "vocabulary_examples": 4514,
+    "grammar": 96,
+    "grammar_examples": 389,
+    "listening_items": 1936
+  },
+  "levels": {
+    "grammar": {
+      "beginner": 20,
+      "intro": 22,
+      "lower_intermediate": 54
+    },
+    "examples": {
+      "beginner": 1577,
+      "intro": 659,
+      "lower_intermediate": 2577
+    },
+    "questions": {
+      "beginner": 134,
+      "hangul": 59,
+      "intro": 156,
+      "lower_intermediate": 3204
+    },
+    "vocabulary": {
+      "beginner": 800,
+      "intro": 306,
+      "lower_intermediate": 1181
+    }
+  },
+  "new": {
+    "grammar": 54,
+    "examples": 216,
+    "questions": 216
+  },
+  "quantity_delta_this_stage": 0,
+  "patch_fields": 31,
+  "revision_ids": 25,
+  "source_tables": 25,
+  "source_rows": 65983,
+  "known_failure_full_production_scan": {
+    "会議が長引いたこと": [],
+    "들리다等と混同": [],
+    "一回限りの条件-(으)면": [],
+    "後件の時制で全体の時を判断": [],
+    "すでに行う行為": [],
+    "P25とP26": [],
+    "何日か早く寝たら": []
+  },
+  "broader_context_triggers": {
+    "必ず": 179,
+    "常に": 25,
+    "だけ": 362,
+    "동생": 65,
+    "으니": 87,
+    "는 게 낫": 4,
+    "달라는": 3,
+    "기다리라는": 2
+  },
+  "trigger_policy": "Review triggers include legitimate limited-scope prose and incorrect distractors; reviewed in full cohort/163 decisions, never blanket replacement.",
+  "integrity": [
+    [
+      "ok"
+    ]
+  ],
+  "foreign_keys": [],
+  "source_sha256": "c8a74e3b61809aabe5d2dd88768446f986792f2585d40ef78327c50b2b6c5b1e",
+  "database_sha256": "0a4051d3c5423441b50348935d64559504f1553a55fd3ea472c84b40c9ebc025",
+  "native_tools": {
+    "xcodebuild": null,
+    "swift": null
+  },
+  "independent_native_teacher_review": "NOT TESTED"
+}

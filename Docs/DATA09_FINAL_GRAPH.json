@@ -1,0 +1,9 @@
+{
+  "grammar_nodes": 96,
+  "checked_nodes": 96,
+  "prerequisite_edges": 73,
+  "cycles": 0,
+  "missing_grammar_targets": 0,
+  "relationships_changed_this_stage": 0,
+  "scope": "Graph integrity only; incidental forms and educational mastery/order still require review."
+}

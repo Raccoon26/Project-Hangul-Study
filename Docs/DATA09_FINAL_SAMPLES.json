@@ -1,0 +1,233 @@
+{
+  "seed": 20261020095,
+  "source_content_version": 22,
+  "selection": "random.Random(seed), registry order, 3 grammar / 6 examples / 6 questions per batch; no redraw",
+  "independent_human_review": "NOT TESTED",
+  "records": [
+    {
+      "batch": "A",
+      "table": "grammar",
+      "id": "39d90697-78fd-4a3b-847c-b90d5ff07e64"
+    },
+    {
+      "batch": "A",
+      "table": "grammar",
+      "id": "0ae7131c-e497-4b82-8286-59c84d5c9e9d"
+    },
+    {
+      "batch": "A",
+      "table": "grammar",
+      "id": "e7ab89e5-358e-461a-893d-d87d057bc9ed"
+    },
+    {
+      "batch": "A",
+      "table": "examples",
+      "id": "0898a2dd-62d3-4bb3-a1a6-44307042f988"
+    },
+    {
+      "batch": "A",
+      "table": "examples",
+      "id": "e5e8323f-adc9-4c29-8183-7472425dd97e"
+    },
+    {
+      "batch": "A",
+      "table": "examples",
+      "id": "7422d569-b6d3-4360-8601-0a6488f36183"
+    },
+    {
+      "batch": "A",
+      "table": "examples",
+      "id": "55908a7d-22da-4208-8a02-2c268cfe67fa"
+    },
+    {
+      "batch": "A",
+      "table": "examples",
+      "id": "0f1d8f3f-ac81-4ca0-871c-35380e360346"
+    },
+    {
+      "batch": "A",
+      "table": "examples",
+      "id": "73997df3-be1f-4aa1-a8af-b3d6aef64cfe"
+    },
+    {
+      "batch": "A",
+      "table": "questions",
+      "id": "f6449d8e-0a19-47ac-8e7c-d353b832d39e"
+    },
+    {
+      "batch": "A",
+      "table": "questions",
+      "id": "b6cf6f21-00fe-4151-85aa-b1a9ea05293b"
+    },
+    {
+      "batch": "A",
+      "table": "questions",
+      "id": "676d29ca-f656-4257-abb9-08fe2542286e"
+    },
+    {
+      "batch": "A",
+      "table": "questions",
+      "id": "6006d7ce-8d51-4aa5-aa15-29b905b6df84"
+    },
+    {
+      "batch": "A",
+      "table": "questions",
+      "id": "bd54dfe8-301c-4ce4-a3cd-5465025cbffc"
+    },
+    {
+      "batch": "A",
+      "table": "questions",
+      "id": "47172967-077c-4e74-b838-a78dae9226ba"
+    },
+    {
+      "batch": "B",
+      "table": "grammar",
+      "id": "782eb56e-972c-4c6e-81a7-911d094caac1"
+    },
+    {
+      "batch": "B",
+      "table": "grammar",
+      "id": "d14e4b1a-a765-440b-b8fa-4ec1b97d0a40"
+    },
+    {
+      "batch": "B",
+      "table": "grammar",
+      "id": "453d0f13-3727-4335-8f6a-ddff70f570ac"
+    },
+    {
+      "batch": "B",
+      "table": "examples",
+      "id": "f527a5e2-ccf5-4182-bdbd-1c205e45948b"
+    },
+    {
+      "batch": "B",
+      "table": "examples",
+      "id": "aeacbb0b-4caf-4e08-9d91-7aa99d4f4715"
+    },
+    {
+      "batch": "B",
+      "table": "examples",
+      "id": "4fad7565-85c3-419f-a528-c530e4888746"
+    },
+    {
+      "batch": "B",
+      "table": "examples",
+      "id": "1de2044b-6aa7-4b37-84dc-b183b1ecdebc"
+    },
+    {
+      "batch": "B",
+      "table": "examples",
+      "id": "f9259d1c-5e0d-4944-bc84-47605750e2b1"
+    },
+    {
+      "batch": "B",
+      "table": "examples",
+      "id": "13c0812c-02b2-47c3-bac9-3bc73ed0d8e0"
+    },
+    {
+      "batch": "B",
+      "table": "questions",
+      "id": "df26401d-b0b6-4943-92d6-d572f4f2ffcf"
+    },
+    {
+      "batch": "B",
+      "table": "questions",
+      "id": "5ecbf86b-0c14-4c89-8c8b-8847a12e253c"
+    },
+    {
+      "batch": "B",
+      "table": "questions",
+      "id": "2219a7e2-6073-4de0-b25a-d601563875a6"
+    },
+    {
+      "batch": "B",
+      "table": "questions",
+      "id": "0257c319-f11e-4f2e-bc13-0563e0d6ea30"
+    },
+    {
+      "batch": "B",
+      "table": "questions",
+      "id": "08a02a3d-bf86-44b8-90a6-d6d504610bad"
+    },
+    {
+      "batch": "B",
+      "table": "questions",
+      "id": "41ec951c-7b0f-4bdf-8d69-23bb166dd087"
+    },
+    {
+      "batch": "C",
+      "table": "grammar",
+      "id": "f5fae1c3-9c30-4fe3-a9ed-6936aed2183a"
+    },
+    {
+      "batch": "C",
+      "table": "grammar",
+      "id": "bd26d280-1967-4d90-81f5-95b3c2e3db59"
+    },
+    {
+      "batch": "C",
+      "table": "grammar",
+      "id": "b3c47e9e-b16e-4feb-bb5c-4cc4e49b5bf3"
+    },
+    {
+      "batch": "C",
+      "table": "examples",
+      "id": "626e6f81-489c-4387-8c18-aae7180b9451"
+    },
+    {
+      "batch": "C",
+      "table": "examples",
+      "id": "db24b1fd-eb0a-4cec-abb2-232aec2882ef"
+    },
+    {
+      "batch": "C",
+      "table": "examples",
+      "id": "13c2dbc3-cc3d-4dbd-8301-ca650351d6d4"
+    },
+    {
+      "batch": "C",
+      "table": "examples",
+      "id": "19d9989a-49e1-48c1-895e-da74b7eff969"
+    },
+    {
+      "batch": "C",
+      "table": "examples",
+      "id": "01c9e0b5-2264-4d0d-abac-d916158b8379"
+    },
+    {
+      "batch": "C",
+      "table": "examples",
+      "id": "4b645e53-bbe4-41b5-bc69-cce23a7dbd7f"
+    },
+    {
+      "batch": "C",
+      "table": "questions",
+      "id": "884a303c-9c7e-4737-b344-ce3c0ae709fc"
+    },
+    {
+      "batch": "C",
+      "table": "questions",
+      "id": "28b245a8-9a6e-4543-bc15-8e448bd85760"
+    },
+    {
+      "batch": "C",
+      "table": "questions",
+      "id": "5ec4a014-a2e0-4f83-891e-8b66813f2911"
+    },
+    {
+      "batch": "C",
+      "table": "questions",
+      "id": "e5fdc264-a4d9-45b7-92b3-6f56eb35333d"
+    },
+    {
+      "batch": "C",
+      "table": "questions",
+      "id": "3fdb2d0a-da90-4602-a426-fda731b2d146"
+    },
+    {
+      "batch": "C",
+      "table": "questions",
+      "id": "3030d2f6-07db-48e2-aa2e-c77546d52b7b"
+    }
+  ]
+}

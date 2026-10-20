@@ -21,7 +21,7 @@ class Data07Tests(unittest.TestCase):
   # Cumulative Content13 -> current; DATA07's exact cohort remains checked below.
   for t,delta in [('vocabulary',1361),('meanings',1438),('examples',2937),('grammar',54),('questions',3211),('listening_items',1825),('grammar_examples',294),('learner_notes',350)]:
    self.assertEqual(self.c.execute('SELECT COUNT(*) FROM '+t).fetchone()[0]-self.old.execute('SELECT COUNT(*) FROM '+t).fetchone()[0],delta,t)
-  self.assertEqual(self.c.execute('SELECT schema_version,content_version,min_reader_version,is_fixture FROM content_metadata').fetchone(),(4,22,7,0))
+  self.assertEqual(self.c.execute('SELECT schema_version,content_version,min_reader_version,is_fixture FROM content_metadata').fetchone(),(4,23,7,0))
  def test_old_payloads_and_only_reviewed_endpoint_revision_changes(self):
   a,b=signatures(self.old),signatures(self.c);approved=set(json.loads((ROOT/'Content/data07-revised-ids.json').read_text()))
   subsequent=set(json.loads((ROOT/'Content/data08-a-revised-ids.json').read_text()))

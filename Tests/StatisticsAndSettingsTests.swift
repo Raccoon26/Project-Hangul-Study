@@ -39,7 +39,7 @@ final class StatisticsAndSettingsTests: XCTestCase {
         let savedPreferences = defaults.data(forKey:LearningPreferencesStore.key)
         let content = try SQLiteContentRepository(url:XCTUnwrap(Bundle.main.url(forResource:"content",withExtension:"sqlite")),allowFixture:false)
         let metadata = try await content.metadata()
-        XCTAssertEqual(metadata.contentVersion,22)
+        XCTAssertEqual(metadata.contentVersion,23)
         let courses = try await content.courses()
         let integrated = try XCTUnwrap(courses.first { $0.title == "初中級・会話と現代生活" })
         _ = try await content.lessonSteps(for:try XCTUnwrap(integrated.lessons.first).id)
