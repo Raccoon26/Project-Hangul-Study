@@ -114,3 +114,11 @@
 - 최신 근거는 DATA09_PROGRESS §13 / Docs/DATA09_SYSTEM_REVIEW.md·RESULTS.json이다. 전체 portable365 PASS와 SQL 전3,553문제/4,813예문 도달은 Swift/UI 실행 증거가 아니다. native141정의/실행0(이번2추가)·Xcode/기기/실제 설정/구매/광고 BLOCKED, 독립 사람/사전 NOT TESTED·B—Conditional 유지.
 - DATA08 P1 세 건은 현행 SQL/corpus/source 회귀10개 PASS이나 native 확인 gate는 남는다. 새 런타임 P0/P1 재현/수정0을 전체 앱 crash/grade/UI 무결성 보장으로 표현하지 않는다. 신규6portable·18레슨/오답/중복 native2개 회귀를 보존한다.
 - 후행 선행참조12개는 선택적 page0 설명 프리뷰이며 session/lesson 순서를 바꾸거나 숙달로 기록하지 않는다. 후보163건120해결/7조건부/36미해결·Level8미해결 및 확인 불가능한 옛 완전 명세를 자동 완료 처리하지 않는다. 다음 단계/DATA10은 자동 시작하지 않는다.
+
+
+## DATA-09-8 최종 종료·후속 작업 기준
+
+- 현재 Content24/Schema4/reader7/UserProgress10, 신규 Grammar54·별도 고정Expression0·고유Example216·GrammarQuestion216이다. Vocabulary expression 전체163/DATA08신규104/DATA09추가0을 구분하고 이형태·재사용Example4개를 신규로 더하지 않는다. 장기Grammar/Expressions350~500을 유지한다.
+- 최신 근거는 Docs/DATA09_CLOSEOUT.md·RESULTS.json / DATA09_PROGRESS §14다. 이번365 portable PASS·580구조/보존점검·31테이블/스키마/전체행/SHA 재현을 native/사람 승인으로 표현하지 않는다. iOS/XCTest141정의·실행0/기기 BLOCKED, 독립 사람/사전 NOT TESTED, Release B—Conditional과 native P1 gate를 유지한다.
+- Source/Bundle/과거fixture95파일 byte를 보존했고 이번 Content/Schema/ID/revision 변경0이다. canonical Source/Bundle/fixture 추적을 유지하며 새 candidate/빌드 결과만 임시·기존 ignore를 쓴다. 현재50/100MiB 초과blob0으로 LFS는 불필요하다. 다음 실제 콘텐츠 변경은 현재24를 previous로 먼저 보존하고 재구성 SHA 불일치 시 원인을 별도 보고한다. 원본 삭제·샘플 축소·이력 재작성·force push는 금지한다.
+- 선행163건120해결/7조건부/36미해결(Level8포함)·후행preview12개를 숙달/재사용 일괄 승인으로 바꾸지 않는다. 다음 공백/부분 구현은 현재 종료 보고에서 확인하고 DATA10을 자동 시작하지 않는다.

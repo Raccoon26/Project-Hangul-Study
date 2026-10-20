@@ -1,3 +1,11 @@
+# DATA-09-8 / 최종 종료 — 현재 Production
+
+**Content24 / Schema4 / reader7 / UserProgress10 유지.** 신규 Grammar54·별도 고정Expression0·고유Example216·GrammarQuestion216(각Batch18/0/72/72), 기존Example4재사용 제외. 전체Vocabulary2,287/Meaning2,420/Example4,813/Grammar96/Question3,553/Listening1,936. Vocabulary expression 전체163개 중 DATA08 신규104개이며 DATA09 추가0이다. 장기Grammar/Expressions350~500 유지.
+
+Source→임시SQLite 재구성: **31테이블 전체 행/스키마/참조·SHA 일치**, Source25테이블66,094행·기존원본/Bundle/fixture95파일 byte 보존, Validator0errors/기존10warnings. 이번 portable **365/365 PASS(405.161초,실패/오류/skip0)**·종료점검580 PASS·전3,553문제/4,813예문 도달. 선행163건120해결/7조건부/36미해결(Level8포함) 유지. **iOS Build/XCTest141정의·실행0/기기 BLOCKED, 독립 사람·사전 NOT TESTED, Release B—Conditional**, native P1 gate 유지. 이번 runtime 수정/데이터변경0·SHA불일치0. [최종보고](Docs/DATA09_CLOSEOUT.md), [실행결과](Docs/DATA09_CLOSEOUT_RESULTS.json), [누적§14](DATA09_PROGRESS.md). DATA10 미착수. 아래 ‘현재’·검사는 당시 이력이다.
+
+---
+
 # DATA-09-7 / 요구사항·시스템 회귀 감사 — 현재 Production
 
 **Content24 / Schema4 / reader7 / UserProgress10 유지.** 전체 portable **365/365 PASS**(415.721초, 실패·오류·skip0), DATA08 P1 전용10/10·새 문법 회귀6/6 PASS(전체와 중복). 실제 SQL로 전3,553문제/4,813예문 도달·누락0,96문법/93선행 edge 순환0·후행 참조12개는 선택적 설명 프리뷰로 지원한다. 새 런타임 P0/P1 재현0·수정0, Source/DB/ID/revision 변경0. 신규54문법/216고유예문/216문제·장기350~500 목표 유지.
@@ -554,3 +562,42 @@ Source SHA `081ed35c7cd78345af1c1793fc450acaa2931f173cef00aaa960c8ef42318540`, b
 ### 13.5 Git 전달 기록
 
 검증된 감사/회귀 commit `4e25c574a5fe019bcb71338a85be9a34cf307f35`를 `data09-7/system-audit`로 정상 push했다. 전달 PR은 [#16](https://github.com/Raccoon26/Project-Hangul-Study/pull/16)이다. GitHub status check 등록은 없으므로 원격 CI PASS로 표현하지 않고 보존한 로컬365 PASS만 근거로 삼는다. 이 기록 추가는 문서만 변경하며 실행 코드/검증 입력은 불변이다. 사용자 위임에 따라 정상 merge로 전달하며 최종 merge SHA·상태·clean main 일치는 해당 PR/Git과 최종 응답이 기준이다.
+
+
+## 14. DATA-09-8 / 최종 종료·재구성·Git 전달
+
+### 14.1 기준선·Batch·품질·목표 재확인
+
+2026-10-20 UTC, clean main/origin/main `542816ccf1a8ce25a8a4865cbd8f2a7fcb73c03e`에서 fetch 후 `data09-8/final-closeout`으로 작업했다. Content19의 Grammar42부터 A20=60/B21=78/C22=96/교정23=96/통합24=96/시스템24까지 실제 fixture·현재 DB와 당시 수량 보고서를 대조했다. 신규 각18G/72E/72Q, 누적54G/216고유E/216Q로45~60/180~300/180~300 목표를 충족한다. 기존 예문4개 재사용은 신규에서 제외하고 장기350~500 목표를 유지한다.
+
+54개는 생산적인 문법 구조·종결어미다. 별도 고정 Expression0, 신규 Vocabulary0이며 **현재 Vocabulary expression 전체163개 / DATA08 신규104개 / DATA09 추가0**을 구분했다. DATA09-5의 AI 전수54문법/216신규예문/216문제·648선택지, 고위험18문법 및 관련18예문배치·18문제, 무작위9문법/18예문/18문제 검수와25ID/31필드 교정 기록을 현재 본문·회귀와 대조했다. 표본을 중복 가산하거나 독립 사람 승인으로 표현하지 않는다.
+
+6단계의 예문 Note 누락 수정, 단원·선행 preview 및 관련 사전·실제 검수 입력 진입 보완과7단계의 snapshot/오답/중복/rollback 회귀를 보존했다. 이번 runtime 수정0·Production 변경0이다.
+
+### 14.2 전체 수량·선행163건·남은 공백
+
+현재 Content24/Schema4/reader7/UserProgress10. Vocabulary2,287/Meaning2,420/Example4,813(문장4,800+발음13)/Grammar96/Question3,553(Grammar300)/Listening1,936/Course8/Lesson103, Source25테이블66,094행이다. Level별 전수 집계는 [최종표](Docs/DATA09_CLOSEOUT.md)와 [실제 집계](Docs/DATA09_CLOSEOUT.json)에 있다. 入門 V306/M327/E659/G22/Q156/L34, 初級800/847/1,577/20/134/79, 初中級1,181/1,246/2,577/54/3,204/1,823, 한글Question59이며 상위는 각각0이다.
+
+선행163건의 index·원Example 한일 원문·지원Grammar ID를 현재 DB에 재대조했다. 기존120해결/7조건부/36미해결을 유지한다. 원부족147=120/4/23, Level8=0/0/8, 단순검토8=0/3/5다. 해결은 AI 설명 coverage 판단이며 숙달·사람 승인·새 재사용 승인이 아니다. 현재96문법/93선행edge 순환0, 후행참조12개는 선택적 설명 preview로 지원하며 기존 lesson/session 순서를 재작성하지 않는다.
+
+선행 미해결36건(Level8포함), 장기Grammar 부족254~404개, 중급 이상/검증 녹음0, 추가 authored 입력·듣기와 통합 교육 순서·독립 검수 공백을 남긴다.
+
+### 14.3 재구성·보존·대용량 검사
+
+기존 Importer에 Source를 넣고 실제 previous23으로 `/tmp/data09-8-rebuilt.sqlite`를 새로 만들었다. **31테이블의 모든 열·중복 포함 행/파생 검색·sqlite_stat1/schema/index/trigger SQL/table_xinfo/FK/index metadata와 binary SHA가 일치**한다. integrity ok/FK0, strict0errors/기존10warnings,4.0429초다. 원본/Resources/과거 fixture95파일을 baseline Git byte와 대조해 보존했다. 이번 버전/ID/revision/배치 변경·Bundle 교체0이며 다음 실제 콘텐츠 변경은 현재24를 먼저 보존한다.
+
+Source SHA `081ed35c7cd78345af1c1793fc450acaa2931f173cef00aaa960c8ef42318540`, Bundle/재구성 SHA는 모두 `56a7fa8b5358e254eeb324e706860d150d20c8ec013ba0b6f602cf14d93cceff`로 **불일치 없음**. Python3.12.14/SQLite3.53.1/Linux에서 재현했다. 다른 환경에서 SHA가 다르면 논리 행/schema와 별도로 원인을 보고해야 한다. [Importer 결과](Docs/DATA09_CLOSEOUT_BUILD.json), [전체 비교](Docs/DATA09_CLOSEOUT.json).
+
+접근 가능한 전체 Git refs의 blob 중50MiB/100MiB 초과0, 최대18,841,600bytes다. canonical Source17,472,029bytes·Bundle18,841,600bytes와 DDL/Importer/ID·fixture를 계속 추적한다. 새 candidate/빌드 결과만 임시·기존 ignore를 쓴다. LFS 불필요, 기존 파일 삭제·범용 ignore·이력 재작성·force push0. 과거 대용량 오류 원문은 없어 당시 원인을 추측하지 않는다.
+
+### 14.4 최종 실행·호환성·미검증 gate
+
+- **PASS** 이번 `sh Tools/verify.sh --portable`: **365/365,405.161초,failures/errors/skipped0,exit0**. [전체 원시 로그](Docs/DATA09_CLOSEOUT_TEST_LOG.txt). 종료580점검은 unittest와 별개로 합산하지 않는다. [실제 결과](Docs/DATA09_CLOSEOUT_RESULTS.json).
+- **PASS** 종료580/580, Source/DB/SHA·fixture 보존·전3,553문제/4,813예문 도달·96문법 한일 검색192건. DATA08 구조0errors/5warnings·DATA09 계약0/0, strict 기존10warnings 유지. 모든 Batch/교정/통합/시스템 회귀를 재실행했다.
+- **PASS(임시 SQL·소스 범위)** UserProgress1~10 additive migration·Content19/23→24 디스크 교체, 기존 Progress/Favorites/Difficult/SRS due·다종 snapshot/선택·통계/Resume·socket 금지 Offline·15k규모·광고/구매 저장 독립성 회귀. 개인 진도·Swift Codable·실제 UserDefaults/Keychain·기기 Offline을 이 검사로 인증하지 않는다.
+- **BLOCKED** xcodebuild/swift 없음. iOS Debug/Release/device Build·SDK/type-check·XCTest141정의/실행0, 기기3~10분·음성/중단/강제종료·접근성/메모리·StoreKit/AdMob/권한 미실행. **NOT TESTED** 독립 원어민·교사/외부 사전. **UNVERIFIABLE** 미확보 DEV01~14/DATA01~07 원래 완전 명세.
+- 이번 FAIL0·새 runtime 수정0·실행 범위에서 미수정으로 재현된 P0/P1=0. DATA08 P1 세 건의 코드수정/SQL·corpus PASS/native BLOCKED와 DATA09 통합 native gate를 유지하며 iOS 전체의 P0/P1 부재를 보장하지 않는다. **Release B—Conditional 유지**.
+
+### 14.5 Git·종료
+
+PROJECT_STATUS/CONTENT_GUIDE/DATA_PROGRESS/RELEASE_CHECKLIST/AGENTS/DATA09_PROGRESS를 실제 상태와 검증 한계로 갱신했다. 수량·품질·재현 명령·버그·다음 공백·원본/대용량 정책은 [최종 보고](Docs/DATA09_CLOSEOUT.md)에 있다. 이번 명시 지시에 따라 정상 commit/push/PR과 검증 후 main merge·원격 동기화를 수행한다. 실제 최종 SHA·PR 상태는 Git/PR과 최종 응답이 기준이다. Force Push 금지. **DATA09-8에서 종료하고 DATA10은 자동 시작하지 않는다.**

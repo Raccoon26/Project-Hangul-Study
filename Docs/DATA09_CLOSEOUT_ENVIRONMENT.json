@@ -1,0 +1,17 @@
+{
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+  "python": "3.12.14",
+  "sqlite": "3.53.1",
+  "native": {
+    "xcodebuild": {
+      "path": null,
+      "status": "BLOCKED",
+      "reason": "Executable not installed; iOS build/test not started"
+    },
+    "swift": {
+      "path": null,
+      "status": "BLOCKED",
+      "reason": "Executable not installed; iOS build/test not started"
+    }
+  }
+}

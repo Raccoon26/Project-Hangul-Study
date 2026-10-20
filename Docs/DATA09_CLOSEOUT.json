@@ -1,0 +1,3593 @@
+{
+  "stage": "DATA-09-8",
+  "status": "PASS",
+  "baseline_commit": "542816ccf1a8ce25a8a4865cbd8f2a7fcb73c03e",
+  "metadata": {
+    "schema_version": 4,
+    "content_version": 24,
+    "min_reader_version": 7,
+    "dataset_id": "ko-ja-core",
+    "is_fixture": 0,
+    "source_locale": "ja",
+    "target_locale": "ko"
+  },
+  "source_sha256": "081ed35c7cd78345af1c1793fc450acaa2931f173cef00aaa960c8ef42318540",
+  "bundle_sha256": "56a7fa8b5358e254eeb324e706860d150d20c8ec013ba0b6f602cf14d93cceff",
+  "rebuilt_sha256": "56a7fa8b5358e254eeb324e706860d150d20c8ec013ba0b6f602cf14d93cceff",
+  "sha_mismatch_investigation": null,
+  "reconstruction_tables": {
+    "audio_questions": {
+      "rows": 3,
+      "equal": true
+    },
+    "conjugations": {
+      "rows": 0,
+      "equal": true
+    },
+    "content_aliases": {
+      "rows": 0,
+      "equal": true
+    },
+    "content_audio": {
+      "rows": 36,
+      "equal": true
+    },
+    "content_items": {
+      "rows": 15941,
+      "equal": true
+    },
+    "content_links": {
+      "rows": 6499,
+      "equal": true
+    },
+    "content_metadata": {
+      "rows": 1,
+      "equal": true
+    },
+    "courses": {
+      "rows": 8,
+      "equal": true
+    },
+    "examples": {
+      "rows": 4813,
+      "equal": true
+    },
+    "grammar": {
+      "rows": 96,
+      "equal": true
+    },
+    "grammar_examples": {
+      "rows": 389,
+      "equal": true
+    },
+    "hangul": {
+      "rows": 55,
+      "equal": true
+    },
+    "item_sources": {
+      "rows": 15507,
+      "equal": true
+    },
+    "item_tags": {
+      "rows": 4525,
+      "equal": true
+    },
+    "learner_notes": {
+      "rows": 531,
+      "equal": true
+    },
+    "lesson_items": {
+      "rows": 1191,
+      "equal": true
+    },
+    "lessons": {
+      "rows": 103,
+      "equal": true
+    },
+    "listening_items": {
+      "rows": 1936,
+      "equal": true
+    },
+    "meanings": {
+      "rows": 2420,
+      "equal": true
+    },
+    "media_assets": {
+      "rows": 0,
+      "equal": true
+    },
+    "pronunciation_examples": {
+      "rows": 13,
+      "equal": true
+    },
+    "pronunciation_presentations": {
+      "rows": 36,
+      "equal": true
+    },
+    "pronunciation_rules": {
+      "rows": 36,
+      "equal": true
+    },
+    "question_choices": {
+      "rows": 1476,
+      "equal": true
+    },
+    "questions": {
+      "rows": 3553,
+      "equal": true
+    },
+    "sources": {
+      "rows": 23,
+      "equal": true
+    },
+    "sqlite_stat1": {
+      "rows": 43,
+      "equal": true
+    },
+    "tags": {
+      "rows": 103,
+      "equal": true
+    },
+    "vocabulary": {
+      "rows": 2287,
+      "equal": true
+    },
+    "vocabulary_examples": {
+      "rows": 4514,
+      "equal": true
+    },
+    "vocabulary_search": {
+      "rows": 4707,
+      "equal": true
+    }
+  },
+  "schema_equal": true,
+  "integrity": {
+    "bundle": {
+      "integrity_check": [
+        [
+          "ok"
+        ]
+      ],
+      "foreign_key_check": []
+    },
+    "rebuilt": {
+      "integrity_check": [
+        [
+          "ok"
+        ]
+      ],
+      "foreign_key_check": []
+    }
+  },
+  "validation": {
+    "error_count": 0,
+    "warning_count": 10,
+    "errors": [],
+    "warnings": [
+      {
+        "code": "short_sentence",
+        "location": "production.json:examples[1]",
+        "message": "korean: single-character sentence needs review"
+      },
+      {
+        "code": "short_sentence",
+        "location": "production.json:examples[1]",
+        "message": "japanese: single-character sentence needs review"
+      },
+      {
+        "code": "short_sentence",
+        "location": "production.json:examples[2]",
+        "message": "korean: single-character sentence needs review"
+      },
+      {
+        "code": "short_sentence",
+        "location": "production.json:examples[2]",
+        "message": "japanese: single-character sentence needs review"
+      },
+      {
+        "code": "short_sentence",
+        "location": "production.json:examples[3]",
+        "message": "korean: single-character sentence needs review"
+      },
+      {
+        "code": "duplicate_headword_candidate",
+        "location": "저",
+        "message": "[\"9b45d39c-a966-41da-bc64-973bd8767c94\", \"ea0ec264-a477-4945-9fb2-92629e759e5f\"]"
+      },
+      {
+        "code": "duplicate_headword_candidate",
+        "location": "차",
+        "message": "[\"e80b26ff-6c6f-4004-99a7-d784495483a3\", \"58ee8623-b923-44c3-9ab3-3f12d0c24230\"]"
+      },
+      {
+        "code": "duplicate_headword_candidate",
+        "location": "일",
+        "message": "[\"1b74ab03-9ce3-454b-914b-5f14f32f1395\", \"fef18457-1e05-435b-8939-4ef1a49fa0cd\"]"
+      },
+      {
+        "code": "duplicate_headword_candidate",
+        "location": "쓰다",
+        "message": "[\"d7632872-1ba0-4930-9e6f-ead30910d5a7\", \"707d6ce7-4939-4d70-b143-6458c44d362f\"]"
+      },
+      {
+        "code": "duplicate_headword_candidate",
+        "location": "적다",
+        "message": "[\"7ed9cfb9-b5ef-441d-9607-a4d60f44eb7e\", \"f211c5be-f0e5-48c1-8e43-f3e850327e1b\"]"
+      }
+    ],
+    "details_limit": 200
+  },
+  "build_seconds": 4.0429,
+  "source_tables": 25,
+  "source_rows": 66094,
+  "counts": {
+    "audio_questions": 3,
+    "conjugations": 0,
+    "content_aliases": 0,
+    "content_audio": 36,
+    "content_items": 15941,
+    "content_links": 6499,
+    "content_metadata": 1,
+    "courses": 8,
+    "examples": 4813,
+    "grammar": 96,
+    "grammar_examples": 389,
+    "hangul": 55,
+    "item_sources": 15507,
+    "item_tags": 4525,
+    "learner_notes": 531,
+    "lesson_items": 1191,
+    "lessons": 103,
+    "listening_items": 1936,
+    "meanings": 2420,
+    "media_assets": 0,
+    "pronunciation_examples": 13,
+    "pronunciation_presentations": 36,
+    "pronunciation_rules": 36,
+    "question_choices": 1476,
+    "questions": 3553,
+    "sources": 23,
+    "sqlite_stat1": 43,
+    "tags": 103,
+    "vocabulary": 2287,
+    "vocabulary_examples": 4514,
+    "vocabulary_search": 4707
+  },
+  "levels": {
+    "hangul": {
+      "vocabulary": 0,
+      "meanings": 0,
+      "examples": 0,
+      "grammar": 0,
+      "questions": 59,
+      "listening_items": 0,
+      "courses": 1,
+      "lessons": 12
+    },
+    "intro": {
+      "vocabulary": 306,
+      "meanings": 327,
+      "examples": 659,
+      "grammar": 22,
+      "questions": 156,
+      "listening_items": 34,
+      "courses": 2,
+      "lessons": 20
+    },
+    "beginner": {
+      "vocabulary": 800,
+      "meanings": 847,
+      "examples": 1577,
+      "grammar": 20,
+      "questions": 134,
+      "listening_items": 79,
+      "courses": 1,
+      "lessons": 6
+    },
+    "lower_intermediate": {
+      "vocabulary": 1181,
+      "meanings": 1246,
+      "examples": 2577,
+      "grammar": 54,
+      "questions": 3204,
+      "listening_items": 1823,
+      "courses": 4,
+      "lessons": 65
+    },
+    "intermediate": {
+      "vocabulary": 0,
+      "meanings": 0,
+      "examples": 0,
+      "grammar": 0,
+      "questions": 0,
+      "listening_items": 0,
+      "courses": 0,
+      "lessons": 0
+    },
+    "upper_intermediate": {
+      "vocabulary": 0,
+      "meanings": 0,
+      "examples": 0,
+      "grammar": 0,
+      "questions": 0,
+      "listening_items": 0,
+      "courses": 0,
+      "lessons": 0
+    },
+    "advanced": {
+      "vocabulary": 0,
+      "meanings": 0,
+      "examples": 0,
+      "grammar": 0,
+      "questions": 0,
+      "listening_items": 0,
+      "courses": 0,
+      "lessons": 0
+    },
+    "master": {
+      "vocabulary": 0,
+      "meanings": 0,
+      "examples": 0,
+      "grammar": 0,
+      "questions": 0,
+      "listening_items": 0,
+      "courses": 0,
+      "lessons": 0
+    },
+    "maintenance": {
+      "vocabulary": 0,
+      "meanings": 0,
+      "examples": 0,
+      "grammar": 0,
+      "questions": 0,
+      "listening_items": 0,
+      "courses": 0,
+      "lessons": 0
+    }
+  },
+  "batches": {
+    "A": {
+      "grammar": 18,
+      "fixed_expressions": 0,
+      "new_unique_examples": 72,
+      "grammar_questions": 72
+    },
+    "B": {
+      "grammar": 18,
+      "fixed_expressions": 0,
+      "new_unique_examples": 72,
+      "grammar_questions": 72
+    },
+    "C": {
+      "grammar": 18,
+      "fixed_expressions": 0,
+      "new_unique_examples": 72,
+      "grammar_questions": 72
+    }
+  },
+  "data09": {
+    "grammar": 54,
+    "fixed_expressions": 0,
+    "unique_examples": 216,
+    "grammar_questions": 216,
+    "vocabulary_expression_delta": 0,
+    "existing_vocabulary_expressions": 163,
+    "classification_basis": "All54 are productive grammar structures/endings in grammar table, per final Batch reviews; no new fixed vocabulary expressions. Draft pedagogical_type labels are not runtime item counts."
+  },
+  "stages": [
+    {
+      "stage": 1,
+      "content_version": 19,
+      "actual_counts": {
+        "grammar": 42,
+        "examples": 4597,
+        "questions": 3337,
+        "vocabulary": 2287,
+        "meanings": 2420,
+        "listening_items": 1936
+      },
+      "evidence": "Docs/DATA09_BASELINE.json",
+      "sha256": "fe023cbbf733011429d434ad3941770e2bb7fa7420a37bfe181f03a5bebfa0e7"
+    },
+    {
+      "stage": 2,
+      "content_version": 20,
+      "actual_counts": {
+        "grammar": 60,
+        "examples": 4669,
+        "questions": 3409,
+        "vocabulary": 2287,
+        "meanings": 2420,
+        "listening_items": 1936
+      },
+      "evidence": "Docs/DATA09_A_COUNTS.json",
+      "sha256": "54589b9059e5484f95a3f0b29b1de5ce3a9ac7213bc5f4423d918a2f0cf1f09c"
+    },
+    {
+      "stage": 3,
+      "content_version": 21,
+      "actual_counts": {
+        "grammar": 78,
+        "examples": 4741,
+        "questions": 3481,
+        "vocabulary": 2287,
+        "meanings": 2420,
+        "listening_items": 1936
+      },
+      "evidence": "Docs/DATA09_B_COUNTS.json",
+      "sha256": "bfb9406368d0940361296492f569a9d92529bd5a30a31c59f53573d75207a0cf"
+    },
+    {
+      "stage": 4,
+      "content_version": 22,
+      "actual_counts": {
+        "grammar": 96,
+        "examples": 4813,
+        "questions": 3553,
+        "vocabulary": 2287,
+        "meanings": 2420,
+        "listening_items": 1936
+      },
+      "evidence": "Docs/DATA09_C_COUNTS.json",
+      "sha256": "b5cc1ef632acb7e150d72730774a4af87effe76b0772d559483a045dda7d7965"
+    },
+    {
+      "stage": 5,
+      "content_version": 23,
+      "actual_counts": {
+        "grammar": 96,
+        "examples": 4813,
+        "questions": 3553,
+        "vocabulary": 2287,
+        "meanings": 2420,
+        "listening_items": 1936
+      },
+      "evidence": "Docs/DATA09_FINAL_COUNTS.json",
+      "sha256": "ef12a023a9928904394006d1f4f915d8e68bb2f7eab228c6d3bd7094954d1877"
+    },
+    {
+      "stage": 6,
+      "content_version": 24,
+      "actual_counts": {
+        "grammar": 96,
+        "examples": 4813,
+        "questions": 3553,
+        "vocabulary": 2287,
+        "meanings": 2420,
+        "listening_items": 1936
+      },
+      "evidence": "Docs/DATA09_INTEGRATION_COUNTS.json",
+      "sha256": "39ff76aa88251e598f721220aaf03a4ae6a00ec4599f2b5e321650c1baec2e54"
+    },
+    {
+      "stage": 7,
+      "content_version": 24,
+      "actual_counts": {
+        "grammar": 96,
+        "examples": 4813,
+        "questions": 3553,
+        "vocabulary": 2287,
+        "meanings": 2420,
+        "listening_items": 1936
+      },
+      "evidence": "Docs/DATA09_SYSTEM_RESULTS.json",
+      "sha256": "f1b414ace9dbc0785c3dfb65e1f0bb0419359f0621a95e9b05e383cee2eb642a"
+    }
+  ],
+  "prerequisites": {
+    "count": 163,
+    "counts": {
+      "resolved": 120,
+      "unresolved": 36,
+      "pedagogically_allowable": 7
+    },
+    "prior_evidence_sha256": "10333d900c495f8253b4e97edef054a3c0b2afc2eb2713e6279da6df56c9b472",
+    "policy": "Sentence/cited-function self-review including explicitly identified secondary constructions; resolved means construction explanation coverage, not independent human approval/mastery/automatic link or placement. Conditional allowable is not a new approved grammar unit. No original Example/Level/link mutation.",
+    "current_dag": {
+      "nodes": 96,
+      "edges": 93,
+      "acyclic": true,
+      "forward_or_same_order": [
+        {
+          "grammar_id": "35a30485-766a-4146-aad0-88646020e192",
+          "prerequisite_id": "31239c2c-43e2-4c94-8db8-e3777ef8cc10",
+          "curriculum_order": [
+            58,
+            0
+          ],
+          "prerequisite_order": [
+            59,
+            0
+          ]
+        },
+        {
+          "grammar_id": "35a30485-766a-4146-aad0-88646020e192",
+          "prerequisite_id": "3213bc29-b278-4331-8a9d-383e0101653b",
+          "curriculum_order": [
+            58,
+            0
+          ],
+          "prerequisite_order": [
+            59,
+            1
+          ]
+        },
+        {
+          "grammar_id": "39d90697-78fd-4a3b-847c-b90d5ff07e64",
+          "prerequisite_id": "31239c2c-43e2-4c94-8db8-e3777ef8cc10",
+          "curriculum_order": [
+            50,
+            0
+          ],
+          "prerequisite_order": [
+            59,
+            0
+          ]
+        },
+        {
+          "grammar_id": "453d0f13-3727-4335-8f6a-ddff70f570ac",
+          "prerequisite_id": "31239c2c-43e2-4c94-8db8-e3777ef8cc10",
+          "curriculum_order": [
+            53,
+            0
+          ],
+          "prerequisite_order": [
+            59,
+            0
+          ]
+        },
+        {
+          "grammar_id": "54eb6883-e365-406c-9568-7078e72c0b10",
+          "prerequisite_id": "31239c2c-43e2-4c94-8db8-e3777ef8cc10",
+          "curriculum_order": [
+            57,
+            2
+          ],
+          "prerequisite_order": [
+            59,
+            0
+          ]
+        },
+        {
+          "grammar_id": "74fbc968-1127-454f-9097-d1917f7094a8",
+          "prerequisite_id": "31239c2c-43e2-4c94-8db8-e3777ef8cc10",
+          "curriculum_order": [
+            56,
+            0
+          ],
+          "prerequisite_order": [
+            59,
+            0
+          ]
+        },
+        {
+          "grammar_id": "754881ff-3e7d-4743-8de8-ab6f63b1a9a4",
+          "prerequisite_id": "31239c2c-43e2-4c94-8db8-e3777ef8cc10",
+          "curriculum_order": [
+            58,
+            2
+          ],
+          "prerequisite_order": [
+            59,
+            0
+          ]
+        },
+        {
+          "grammar_id": "7779f2ed-308d-46aa-9df6-bd6001fe88fa",
+          "prerequisite_id": "f635b8cc-1c6a-415e-96cc-a450a8ff357f",
+          "curriculum_order": [
+            2,
+            0
+          ],
+          "prerequisite_order": [
+            2,
+            0
+          ]
+        },
+        {
+          "grammar_id": "782eb56e-972c-4c6e-81a7-911d094caac1",
+          "prerequisite_id": "31239c2c-43e2-4c94-8db8-e3777ef8cc10",
+          "curriculum_order": [
+            58,
+            1
+          ],
+          "prerequisite_order": [
+            59,
+            0
+          ]
+        },
+        {
+          "grammar_id": "971d0ccc-242f-464d-90e9-775c19b88c94",
+          "prerequisite_id": "31239c2c-43e2-4c94-8db8-e3777ef8cc10",
+          "curriculum_order": [
+            53,
+            2
+          ],
+          "prerequisite_order": [
+            59,
+            0
+          ]
+        },
+        {
+          "grammar_id": "d14e4b1a-a765-440b-b8fa-4ec1b97d0a40",
+          "prerequisite_id": "31239c2c-43e2-4c94-8db8-e3777ef8cc10",
+          "curriculum_order": [
+            55,
+            0
+          ],
+          "prerequisite_order": [
+            59,
+            0
+          ]
+        },
+        {
+          "grammar_id": "f527297e-94dd-472b-928e-7bc3900b2dae",
+          "prerequisite_id": "453d0f13-3727-4335-8f6a-ddff70f570ac",
+          "curriculum_order": [
+            52,
+            2
+          ],
+          "prerequisite_order": [
+            53,
+            0
+          ]
+        }
+      ],
+      "policy": "Optional explanation previews support forward references without rewriting lesson/session order. Not evidence all incidental grammar is mastered; previous163 audit remains120 resolved/7 conditional/36 unresolved incl8 level concerns."
+    }
+  },
+  "preserved_artifacts": [
+    {
+      "path": "Content/ContentPackageValidator.swift",
+      "bytes": 1240,
+      "sha256": "25feabdeb546adb0c7d10063c3d6800a700a9056f9a864bd4c59c413a030ca0b"
+    },
+    {
+      "path": "Content/content-schema-v1.sql",
+      "bytes": 5581,
+      "sha256": "524f4a72f8039ddcfedee75cae0ed9c92e49620cf8bebe57f909b70a5aecc839"
+    },
+    {
+      "path": "Content/content-schema-v2.sql",
+      "bytes": 8169,
+      "sha256": "91db6a316dc6c67b5f4dd67970184872d5c985dd07dd59ba3cfd17dc90fadcf7"
+    },
+    {
+      "path": "Content/content-schema-v3.sql",
+      "bytes": 9172,
+      "sha256": "0fbc1c202d8b63c2d64932d7c582731896b7a177e908d55ede7b52f2680f9749"
+    },
+    {
+      "path": "Content/content-schema-v4.sql",
+      "bytes": 9803,
+      "sha256": "1baf27e22565000820598a5fa0a594b6631c77a321811284d41bae89d144413a"
+    },
+    {
+      "path": "Content/data01-ids.json",
+      "bytes": 154396,
+      "sha256": "6ad548ced0f314903b31ef2afdef7b6561311b7690930e228e5278ff9c8b1685"
+    },
+    {
+      "path": "Content/data02-ids.json",
+      "bytes": 123864,
+      "sha256": "b04cbddd1c9b58b46edaa8ec3be015f4d45509d759aff9e535a96522796b91f8"
+    },
+    {
+      "path": "Content/data03-ids.json",
+      "bytes": 128873,
+      "sha256": "31e78f406f52dc0a8424e760c62b54af6bed7929ce3ace0eaabe8510a1b9539a"
+    },
+    {
+      "path": "Content/data04-ids.json",
+      "bytes": 15512,
+      "sha256": "642d4868dee9f421c3e56f883d1c3f724d76ed07fdd6b3e1235fb471a24fe6e2"
+    },
+    {
+      "path": "Content/data04-revised-ids.json",
+      "bytes": 549,
+      "sha256": "3fcccb6e94da85dd12c3d79748f3c89eb4f04af645e3dc2562e2499193e097a8"
+    },
+    {
+      "path": "Content/data05-ids.json",
+      "bytes": 91078,
+      "sha256": "fe2156cfb55db3df5c1b95577c196a2eaa77117edb0ccd1d82a89cd4913759e7"
+    },
+    {
+      "path": "Content/data05-revised-ids.json",
+      "bytes": 339,
+      "sha256": "b0922e17d5b84831739e100defbb6da6b132a72af6ea700028bd0672f256c596"
+    },
+    {
+      "path": "Content/data06-ids.json",
+      "bytes": 20579,
+      "sha256": "bacbc2639a90f31ca0e831fd291f8826188fb6de9f18584617b5391fee48a0ab"
+    },
+    {
+      "path": "Content/data06-revised-ids.json",
+      "bytes": 3363,
+      "sha256": "231b4c575915bc82157b438b9cd7fb77a68c7c4c561c2a32e9fe3185194506c7"
+    },
+    {
+      "path": "Content/data07-ids.json",
+      "bytes": 248229,
+      "sha256": "b655e8be09e7319e7a1472f9123efb038ef7a212e31ed4afe5c8ee94c87a18f5"
+    },
+    {
+      "path": "Content/data07-revised-ids.json",
+      "bytes": 1263,
+      "sha256": "ac5d63f3703ff685ad123174c1d3c35bd3f3e8ba8eb454851a25acf8f20d18d0"
+    },
+    {
+      "path": "Content/data08-a-ids.json",
+      "bytes": 175529,
+      "sha256": "15d0f5fb32fb42d76fcf308cc065d6b158ee73bbc2877440c4f73ff461f3e775"
+    },
+    {
+      "path": "Content/data08-a-revised-ids.json",
+      "bytes": 969,
+      "sha256": "0916fc96729b25cea1156dad64721e3b3303dabc82b7e79713687407600104f7"
+    },
+    {
+      "path": "Content/data08-b-ids.json",
+      "bytes": 196760,
+      "sha256": "cae3935d5c3287314d5343a2399a9b34d8ef200e25033a4c3cafc7dc8a9fd566"
+    },
+    {
+      "path": "Content/data08-b-revised-ids.json",
+      "bytes": 1179,
+      "sha256": "77836fb0bbff7e46e39e75d4ef286ff12ba13d36c1e134a96d53029a3b00540c"
+    },
+    {
+      "path": "Content/data08-c-ids.json",
+      "bytes": 241593,
+      "sha256": "26892e43bffa172328ccb5f603a1e4d59820144187b93a8f8085ba912cf396a4"
+    },
+    {
+      "path": "Content/data08-c-revised-ids.json",
+      "bytes": 1935,
+      "sha256": "9287793b45d03fd8b4475a061ea3ec72357e5de5fb3d2c940f0ea3bf7467eed6"
+    },
+    {
+      "path": "Content/data08-final-revised-ids.json",
+      "bytes": 1683,
+      "sha256": "24387ce198033dc6e8587ab3a51edff3bf96c90dd4d512e885ca0c29f8108f2d"
+    },
+    {
+      "path": "Content/data08-integration-ids.json",
+      "bytes": 782159,
+      "sha256": "a50f840478f2a0d82ff5af640aca075ef3240c3dbe85821ff714db9542f85f3a"
+    },
+    {
+      "path": "Content/data08-integration-revised-ids.json",
+      "bytes": 114789,
+      "sha256": "f9a57937b3efe2f0ffb4d313646531e677e83d999dc92f80561bc0cc62c4cbe2"
+    },
+    {
+      "path": "Content/data09-a-ids.json",
+      "bytes": 10138,
+      "sha256": "7fad6665da6a57f67b78a2ac4d35610649b31574bc44ebd6fd8e6a058e7afadc"
+    },
+    {
+      "path": "Content/data09-a-revised-ids.json",
+      "bytes": 507,
+      "sha256": "4a654eafde5f4707f7632fe8c5ab48017b6b978ef87a42975330d887183167b1"
+    },
+    {
+      "path": "Content/data09-b-ids.json",
+      "bytes": 10138,
+      "sha256": "26ea6c7c619e46e507a1710509bbf5f3ab550e17e9144e08fadb3a762bc1debb"
+    },
+    {
+      "path": "Content/data09-b-revised-ids.json",
+      "bytes": 927,
+      "sha256": "17dae31c32434ec90bf25030fa9ec596db9dce3835ccefdcddcb0d73adaaf033"
+    },
+    {
+      "path": "Content/data09-c-ids.json",
+      "bytes": 10138,
+      "sha256": "9450a39e79f82bcf4ffe7c8f72068756fe4850c3412848f9b70e29f44add8bd6"
+    },
+    {
+      "path": "Content/data09-c-revised-ids.json",
+      "bytes": 507,
+      "sha256": "df23aec522ed822bcc4199ef9c39a3c1bf14d64c701a39ed8abe407a3c12029a"
+    },
+    {
+      "path": "Content/data09-final-corrections.json",
+      "bytes": 21595,
+      "sha256": "d393c26d1cc9305254b6a48b24c7f89d8be289cccaf3f4c0354755dcdece377f"
+    },
+    {
+      "path": "Content/data09-final-revised-ids.json",
+      "bytes": 1053,
+      "sha256": "5bebc50f93ad7b7d5f39d95d6077cc6bac8c8f064e051108644d1022854fbc1d"
+    },
+    {
+      "path": "Content/data09-integration-ids.json",
+      "bytes": 30116,
+      "sha256": "487315e1f8f92419b947af92666d14cebda249005d4fca58513ff21f9bab2e9d"
+    },
+    {
+      "path": "Content/data09-integration-revised-ids.json",
+      "bytes": 4497,
+      "sha256": "b2f83107305e3425d7c4d910f095c822a21938c7c1050bdd3390dc90b0bb80ed"
+    },
+    {
+      "path": "Content/dev08-revised-ids.json",
+      "bytes": 969,
+      "sha256": "342225bd3572c18f4b8197a282ccfa53a5d8dab7a7fed807c889393a8e365ce9"
+    },
+    {
+      "path": "Content/dev09-revised-ids.json",
+      "bytes": 1011,
+      "sha256": "c74a95409f0fbb2c5b1947d74bd0fd15722e7fc6de8ffc1c3db2a6fae80b3750"
+    },
+    {
+      "path": "Content/fixture.json",
+      "bytes": 5441,
+      "sha256": "9a7924a97ebcaf8e2da6137454b11bf6fe4373a5f77afd91393fb1ac87cfa275"
+    },
+    {
+      "path": "Content/grammar-seed-ids.json",
+      "bytes": 4115,
+      "sha256": "9fff248f94b4066f434e509a6f54744334ee9d6350a37517c114f5128db1950d"
+    },
+    {
+      "path": "Content/hangul-ids.json",
+      "bytes": 7793,
+      "sha256": "99f365d2b4d18d5e4af1c08dcd4c6cfa813f513dd8f0629bfa3a7920b3910f8f"
+    },
+    {
+      "path": "Content/hangul-production.json",
+      "bytes": 154931,
+      "sha256": "5775ba1b72c0fb5dc3cecef0040c4b6acd5879a5d65880aa47c6773ef50d09c7"
+    },
+    {
+      "path": "Content/listening-ids.json",
+      "bytes": 1011,
+      "sha256": "7a400aaed71ad995aa0dae171d14b2748d6681cdced05a5896588d83ee3bbf84"
+    },
+    {
+      "path": "Content/production-drill-ids.json",
+      "bytes": 2061,
+      "sha256": "ba02c86fef6a145b549f98e4a9fb08590b687ea5b4040c57dde8063bd43ec900"
+    },
+    {
+      "path": "Content/production-empty.json",
+      "bytes": 226,
+      "sha256": "fdadf8cf0a5c0af3cca4de10ca3d06b05811eac5173142234a9999d9e1768703"
+    },
+    {
+      "path": "Content/production.json",
+      "bytes": 17472029,
+      "sha256": "081ed35c7cd78345af1c1793fc450acaa2931f173cef00aaa960c8ef42318540"
+    },
+    {
+      "path": "Content/pronunciation-ids.json",
+      "bytes": 5846,
+      "sha256": "2412bab433608c207101e7bd7f69eaa2af138ba1b297283885e98cabee247bf5"
+    },
+    {
+      "path": "Resources/.content-pcb7fgvn.sqlite",
+      "bytes": 7426048,
+      "sha256": "764a6d38259f37fdcb2ee26070fd33a8f005e88eb844dc8eee8e227b16923a6d"
+    },
+    {
+      "path": "Resources/Info.plist",
+      "bytes": 6672,
+      "sha256": "d84af086fe7f0ee19ac91df9bac7656dcd0477f6f3ee273ed8e3976226506ca3"
+    },
+    {
+      "path": "Resources/PrivacyInfo.xcprivacy",
+      "bytes": 816,
+      "sha256": "f953ba99994eddf8fe1c7d1723ca44a2da3df5ac96b05f09f375fa3d76f465cc"
+    },
+    {
+      "path": "Resources/content-fixture.sqlite",
+      "bytes": 290816,
+      "sha256": "c25941cafc110010e93a9bebe471e0f2b5787d902be68368872fc23e88090a0b"
+    },
+    {
+      "path": "Resources/content.sqlite",
+      "bytes": 18841600,
+      "sha256": "56a7fa8b5358e254eeb324e706860d150d20c8ec013ba0b6f602cf14d93cceff"
+    },
+    {
+      "path": "Resources/ja.lproj/Localizable.strings",
+      "bytes": 283,
+      "sha256": "8923a1e2215af51aea4cbf82ca8ed72de2ce6be2be0c01aa64cb5da09b78a167"
+    },
+    {
+      "path": "Resources/user-migration-v10.sql",
+      "bytes": 337,
+      "sha256": "d9b5a4ca24d15953488600704e52da456115a099e2469e689b749ee5df3c492b"
+    },
+    {
+      "path": "Resources/user-migration-v2.sql",
+      "bytes": 386,
+      "sha256": "3f3360c0811d1fc00876f26aa45b52a58626eddbee034f2999c553bc3f3cc10f"
+    },
+    {
+      "path": "Resources/user-migration-v3.sql",
+      "bytes": 1295,
+      "sha256": "1d785636d52c46ce1ce0c35dc8593d83047281e7f5a124954733beca7665e12a"
+    },
+    {
+      "path": "Resources/user-migration-v4.sql",
+      "bytes": 1762,
+      "sha256": "bd84209415ac94cff7f12efc485682b6f9485f5c54dbcc47dd788dd99f435b1c"
+    },
+    {
+      "path": "Resources/user-migration-v5.sql",
+      "bytes": 1592,
+      "sha256": "9321d5f4c83c0955c90539d3e3a468e846b795bf213831cf90a32b58b324f528"
+    },
+    {
+      "path": "Resources/user-migration-v6.sql",
+      "bytes": 944,
+      "sha256": "123bc45faf7a474e1082c612cece86b9de2e1d7723e7566fdc1488ea18e962c2"
+    },
+    {
+      "path": "Resources/user-migration-v7.sql",
+      "bytes": 290,
+      "sha256": "032714a875c128f87657377d845371ae1d1860d6aadfed71ec5220e79d0523e9"
+    },
+    {
+      "path": "Resources/user-migration-v8.sql",
+      "bytes": 1140,
+      "sha256": "97d45df22186192c8e1f42e7e1d4d490ce6736c9f38fbef8b609faa9e942db4e"
+    },
+    {
+      "path": "Resources/user-migration-v9.sql",
+      "bytes": 605,
+      "sha256": "62d8c0062da3161789540612d9bf4655eb3099be350e1849926cd1d41432536a"
+    },
+    {
+      "path": "Resources/user-schema-v1.sql",
+      "bytes": 2634,
+      "sha256": "659998190192d6c4741041eea0e1822bc898d86ff97d6cb80b0ff89874baf7c4"
+    },
+    {
+      "path": "Tests/Fixtures/content-v1.sqlite",
+      "bytes": 237568,
+      "sha256": "c94e449f65101f76356207637a131a4e0f74c78837f40ac2d543be6de893a122"
+    },
+    {
+      "path": "Tests/Fixtures/content-v10-production.sqlite",
+      "bytes": 4366336,
+      "sha256": "9c584bd0f7b4b213a1b8120fed77fe6b1ad0d3a08e5649f07ee067973351d8d0"
+    },
+    {
+      "path": "Tests/Fixtures/content-v10-repaired-production.sqlite",
+      "bytes": 4366336,
+      "sha256": "9723ef633343ec8cc83c68f85deb30dff36b03206b5a4435a3e159dbb9a7a9c6"
+    },
+    {
+      "path": "Tests/Fixtures/content-v11-production.sqlite",
+      "bytes": 4603904,
+      "sha256": "2cc1dcb0cde3f12deabcdc349fc18e0239c90c14405826d054d1f1eecfe47c51"
+    },
+    {
+      "path": "Tests/Fixtures/content-v12-production.sqlite",
+      "bytes": 5332992,
+      "sha256": "061bbf97d84f6c8e53e332b0a3eb3c197784ab38094041c459f2540818017ed2"
+    },
+    {
+      "path": "Tests/Fixtures/content-v13-production.sqlite",
+      "bytes": 5558272,
+      "sha256": "0b36d3da9f39f2784ca5fd54ce0842458323e6bd81ed212b745c3d9e381969f7"
+    },
+    {
+      "path": "Tests/Fixtures/content-v14-production.sqlite",
+      "bytes": 7426048,
+      "sha256": "9293e75ee0161f8fa7688d6ea500f314c8d93fc3f6c9e0284bbf43afec622ac5"
+    },
+    {
+      "path": "Tests/Fixtures/content-v15-production.sqlite",
+      "bytes": 8736768,
+      "sha256": "b4459a400dae7e7b5572688db928a7b550d865f9cf1b3dfd8cd22a86d5d6f75d"
+    },
+    {
+      "path": "Tests/Fixtures/content-v16-production.json.gz",
+      "bytes": 1280583,
+      "sha256": "34a1c7c381f1a21ed929e42fe198cc1f5684ab09381e53d1dfff91a073168636"
+    },
+    {
+      "path": "Tests/Fixtures/content-v16-production.sqlite",
+      "bytes": 10072064,
+      "sha256": "112d3662f79a72ca61ad7140a5d937396c0bc9f71180dd5f35a403a040a91f29"
+    },
+    {
+      "path": "Tests/Fixtures/content-v17-production.json.gz",
+      "bytes": 1490580,
+      "sha256": "3c57b04e4e67877f5ac14dde03e3f39cca7dc05e6d04ebfbff37038ac5a4702c"
+    },
+    {
+      "path": "Tests/Fixtures/content-v17-production.sqlite",
+      "bytes": 11677696,
+      "sha256": "836dec2fac50508a177010dbf8f83a74a9e4660c8c42c1f08a75bd9207f286c6"
+    },
+    {
+      "path": "Tests/Fixtures/content-v18-production.json.gz",
+      "bytes": 1491183,
+      "sha256": "ebb6ada94564ee7dcabce4e1eacb9bb94f6d5f51147f026e9e1b5e0084b41d98"
+    },
+    {
+      "path": "Tests/Fixtures/content-v18-production.sqlite",
+      "bytes": 11685888,
+      "sha256": "3235c21699bb297a4447f0ce2068a2e949db136a2c4e08ca70d7a737a07308e3"
+    },
+    {
+      "path": "Tests/Fixtures/content-v19-production.json.gz",
+      "bytes": 2323869,
+      "sha256": "0d958a41a03a5adf319bde346cc2161a3d85bd7d1df40af48a4a5f3d92c79217"
+    },
+    {
+      "path": "Tests/Fixtures/content-v19-production.sqlite",
+      "bytes": 17932288,
+      "sha256": "57aeaf918d5eaaec3bbfaed02f87c5452cca8264540b923a70448b781adbe9e5"
+    },
+    {
+      "path": "Tests/Fixtures/content-v2-production.sqlite",
+      "bytes": 290816,
+      "sha256": "5e8d4e5c57329ce329bb8c5d8da42ffa21c3bd30da297331fb6a73a96d7565a0"
+    },
+    {
+      "path": "Tests/Fixtures/content-v20-production.json.gz",
+      "bytes": 2370375,
+      "sha256": "106cf9d45fd34f33f98169c2d12f4a04f9aa3358607fce967538e6ca5357c2ec"
+    },
+    {
+      "path": "Tests/Fixtures/content-v20-production.sqlite",
+      "bytes": 18194432,
+      "sha256": "c7b48bc8b27b7d436fadd41429d9dabf85acf615b632d8cc9a87ca5d6bc39886"
+    },
+    {
+      "path": "Tests/Fixtures/content-v21-production.json.gz",
+      "bytes": 2414109,
+      "sha256": "3b099240e7c1c286305309bfc3553f5db69d9a5836b2775416e9670cd14eddf9"
+    },
+    {
+      "path": "Tests/Fixtures/content-v21-production.sqlite",
+      "bytes": 18509824,
+      "sha256": "0f53e4d93340d9ddc410d17a6cdd4aa1c3f4f69b2089e60b26a390cb9bdff009"
+    },
+    {
+      "path": "Tests/Fixtures/content-v22-production.json.gz",
+      "bytes": 2459174,
+      "sha256": "0fe3a99e06dcd1ddac09e1386312df701ea709cc63049cf4c575cfa4fa3bf0eb"
+    },
+    {
+      "path": "Tests/Fixtures/content-v22-production.sqlite",
+      "bytes": 18812928,
+      "sha256": "22c3257b4204309158dfdea0f0bfd7d870fa0c540bd21ee7f240673df052e0f4"
+    },
+    {
+      "path": "Tests/Fixtures/content-v23-production.json.gz",
+      "bytes": 2459556,
+      "sha256": "8931631b4a66846b0f2146697cb4ba31226e579ec6b9f4929a00fd563aaf3761"
+    },
+    {
+      "path": "Tests/Fixtures/content-v23-production.sqlite",
+      "bytes": 18812928,
+      "sha256": "0a4051d3c5423441b50348935d64559504f1553a55fd3ea472c84b40c9ebc025"
+    },
+    {
+      "path": "Tests/Fixtures/content-v3-production.sqlite",
+      "bytes": 450560,
+      "sha256": "c0396985debf7545e19e5ee0cad942f9649856a7055bcdf9e3d02a2e52cd3f2a"
+    },
+    {
+      "path": "Tests/Fixtures/content-v4-production.sqlite",
+      "bytes": 602112,
+      "sha256": "5ca932b0bc36d9cbafc9bb923fed9d67b0eb39fe80f635fc6632a59d7924a515"
+    },
+    {
+      "path": "Tests/Fixtures/content-v5-production.sqlite",
+      "bytes": 1728512,
+      "sha256": "90b962bde235b0c21fdc4b608d5c0fb3190dae3b6b03deaa6913deae55d54e42"
+    },
+    {
+      "path": "Tests/Fixtures/content-v6-production.sqlite",
+      "bytes": 2965504,
+      "sha256": "8ae761833ebc7b71387795716e11c599ab6b52c1042f4a135ef4129b8126d913"
+    },
+    {
+      "path": "Tests/Fixtures/content-v7-production.sqlite",
+      "bytes": 4141056,
+      "sha256": "01aa1204e42ef8fe145aa7cc2275c07810e4f6587749a2be498a06a2e69fe1b2"
+    },
+    {
+      "path": "Tests/Fixtures/content-v8-production.sqlite",
+      "bytes": 4222976,
+      "sha256": "a08fd61a32540a2e713b59b1a6c40a70668dd7aee47c840658dff36a99ccfee5"
+    },
+    {
+      "path": "Tests/Fixtures/content-v9-production.sqlite",
+      "bytes": 4292608,
+      "sha256": "0254c48c50847445808386e315a5b8ef6ab1049399b1fb125e1192cc62922745"
+    },
+    {
+      "path": "Tests/Fixtures/source-v1.json",
+      "bytes": 5439,
+      "sha256": "f58e81df24b22f52c9ca339e3589d2df11c843fe2404fd7e3eaeefda95be6827"
+    }
+  ],
+  "git_sizes": {
+    "reachable_blob_count": 880,
+    "over50MiB": [],
+    "over100MiB": [],
+    "largest": [
+      {
+        "oid": "152b9eff6864cb8044f34ac82bb37e7e7dc9d53f",
+        "bytes": 18841600,
+        "path": "Resources/content.sqlite"
+      },
+      {
+        "oid": "e4a0a2fea7b092e780370bd0f3ab1460c011dc50",
+        "bytes": 18812928,
+        "path": "Tests/Fixtures/content-v22-production.sqlite"
+      },
+      {
+        "oid": "17f2ea87217285281fce1bf833e9d90b1e37e8f5",
+        "bytes": 18812928,
+        "path": "Tests/Fixtures/content-v23-production.sqlite"
+      },
+      {
+        "oid": "7ad568ee125f58c724736f68fa05a8b4a7eb04bf",
+        "bytes": 18509824,
+        "path": "Tests/Fixtures/content-v21-production.sqlite"
+      },
+      {
+        "oid": "6a46344f8a83661176115fa7c3a6d951ac0b30ad",
+        "bytes": 18194432,
+        "path": "Tests/Fixtures/content-v20-production.sqlite"
+      },
+      {
+        "oid": "112e8814b7cecc1720651d6825eac941d1a322a8",
+        "bytes": 17932288,
+        "path": "Tests/Fixtures/content-v19-production.sqlite"
+      },
+      {
+        "oid": "13de34e8907989f3e303d5f3a8ae7b88cbde5e91",
+        "bytes": 17472029,
+        "path": "Content/production.json"
+      },
+      {
+        "oid": "f8afd35c533ed988812d6a9c7b130db82bb26ee4",
+        "bytes": 17452706,
+        "path": "Content/production.json"
+      },
+      {
+        "oid": "07bc4baaad003e96bc4f9e3d5900074ee565b33f",
+        "bytes": 17451198,
+        "path": "Content/production.json"
+      },
+      {
+        "oid": "47e5a85c33fb789628cc5e01f430ec9165095b06",
+        "bytes": 17177529,
+        "path": "Content/production.json"
+      },
+      {
+        "oid": "3abf0eaf247fecd76f2c2fc3963638ac1b8cccdb",
+        "bytes": 16906708,
+        "path": "Content/production.json"
+      },
+      {
+        "oid": "c21af94202bb7f2b10fbd8939e408f0ed7b1b868",
+        "bytes": 16638955,
+        "path": "Content/production.json"
+      }
+    ],
+    "largest_working_tracked_files": [
+      {
+        "path": "Resources/content.sqlite",
+        "bytes": 18841600
+      },
+      {
+        "path": "Tests/Fixtures/content-v22-production.sqlite",
+        "bytes": 18812928
+      },
+      {
+        "path": "Tests/Fixtures/content-v23-production.sqlite",
+        "bytes": 18812928
+      },
+      {
+        "path": "Tests/Fixtures/content-v21-production.sqlite",
+        "bytes": 18509824
+      },
+      {
+        "path": "Tests/Fixtures/content-v20-production.sqlite",
+        "bytes": 18194432
+      },
+      {
+        "path": "Tests/Fixtures/content-v19-production.sqlite",
+        "bytes": 17932288
+      },
+      {
+        "path": "Content/production.json",
+        "bytes": 17472029
+      },
+      {
+        "path": "Tests/Fixtures/content-v18-production.sqlite",
+        "bytes": 11685888
+      },
+      {
+        "path": "Tests/Fixtures/content-v17-production.sqlite",
+        "bytes": 11677696
+      },
+      {
+        "path": "Tests/Fixtures/content-v16-production.sqlite",
+        "bytes": 10072064
+      },
+      {
+        "path": "Tests/Fixtures/content-v15-production.sqlite",
+        "bytes": 8736768
+      },
+      {
+        "path": "Resources/.content-pcb7fgvn.sqlite",
+        "bytes": 7426048
+      }
+    ]
+  },
+  "routing": {
+    "vocabulary_cards": 2287,
+    "meaning_examples": 2420,
+    "reachable_examples": 4813,
+    "unreachable_examples": 0,
+    "published_production_guard_checked": 1227,
+    "typed_dictionary": 2383,
+    "generic_courses": 3,
+    "generic_lessons": 73,
+    "generic_steps_by_kind": {
+      "note": 3,
+      "question": 90,
+      "hangul": 55,
+      "pronunciation": 36,
+      "vocabulary": 911
+    },
+    "grammar_lessons": 30,
+    "grammar_cards": 96,
+    "production_entries": 612,
+    "production_questions": 1227,
+    "listening_items": 1936,
+    "listening_questions": 1936,
+    "listening_batches": 104,
+    "routed_questions": 3553,
+    "unrouted_questions": 0,
+    "korean_headword_queries": 2287,
+    "japanese_meaning_queries": 72,
+    "data08_current_editorial_payload_hash_matches": 911,
+    "data08_sentence_first_meaning_matches": 581
+  },
+  "native": {
+    "status": "BLOCKED",
+    "definitions": 141,
+    "executed": 0
+  },
+  "independent_human_review": "NOT TESTED",
+  "checks": [
+    {
+      "check": "All table names including derived tables",
+      "status": "PASS"
+    },
+    {
+      "check": "All columns and duplicate multiplicities: audio_questions",
+      "status": "PASS"
+    },
+    {
+      "check": "table_xinfo: audio_questions",
+      "status": "PASS"
+    },
+    {
+      "check": "foreign_key_list: audio_questions",
+      "status": "PASS"
+    },
+    {
+      "check": "index_list: audio_questions",
+      "status": "PASS"
+    },
+    {
+      "check": "All columns and duplicate multiplicities: conjugations",
+      "status": "PASS"
+    },
+    {
+      "check": "table_xinfo: conjugations",
+      "status": "PASS"
+    },
+    {
+      "check": "foreign_key_list: conjugations",
+      "status": "PASS"
+    },
+    {
+      "check": "index_list: conjugations",
+      "status": "PASS"
+    },
+    {
+      "check": "All columns and duplicate multiplicities: content_aliases",
+      "status": "PASS"
+    },
+    {
+      "check": "table_xinfo: content_aliases",
+      "status": "PASS"
+    },
+    {
+      "check": "foreign_key_list: content_aliases",
+      "status": "PASS"
+    },
+    {
+      "check": "index_list: content_aliases",
+      "status": "PASS"
+    },
+    {
+      "check": "All columns and duplicate multiplicities: content_audio",
+      "status": "PASS"
+    },
+    {
+      "check": "table_xinfo: content_audio",
+      "status": "PASS"
+    },
+    {
+      "check": "foreign_key_list: content_audio",
+      "status": "PASS"
+    },
+    {
+      "check": "index_list: content_audio",
+      "status": "PASS"
+    },
+    {
+      "check": "All columns and duplicate multiplicities: content_items",
+      "status": "PASS"
+    },
+    {
+      "check": "table_xinfo: content_items",
+      "status": "PASS"
+    },
+    {
+      "check": "foreign_key_list: content_items",
+      "status": "PASS"
+    },
+    {
+      "check": "index_list: content_items",
+      "status": "PASS"
+    },
+    {
+      "check": "All columns and duplicate multiplicities: content_links",
+      "status": "PASS"
+    },
+    {
+      "check": "table_xinfo: content_links",
+      "status": "PASS"
+    },
+    {
+      "check": "foreign_key_list: content_links",
+      "status": "PASS"
+    },
+    {
+      "check": "index_list: content_links",
+      "status": "PASS"
+    },
+    {
+      "check": "All columns and duplicate multiplicities: content_metadata",
+      "status": "PASS"
+    },
+    {
+      "check": "table_xinfo: content_metadata",
+      "status": "PASS"
+    },
+    {
+      "check": "foreign_key_list: content_metadata",
+      "status": "PASS"
+    },
+    {
+      "check": "index_list: content_metadata",
+      "status": "PASS"
+    },
+    {
+      "check": "All columns and duplicate multiplicities: courses",
+      "status": "PASS"
+    },
+    {
+      "check": "table_xinfo: courses",
+      "status": "PASS"
+    },
+    {
+      "check": "foreign_key_list: courses",
+      "status": "PASS"
+    },
+    {
+      "check": "index_list: courses",
+      "status": "PASS"
+    },
+    {
+      "check": "All columns and duplicate multiplicities: examples",
+      "status": "PASS"
+    },
+    {
+      "check": "table_xinfo: examples",
+      "status": "PASS"
+    },
+    {
+      "check": "foreign_key_list: examples",
+      "status": "PASS"
+    },
+    {
+      "check": "index_list: examples",
+      "status": "PASS"
+    },
+    {
+      "check": "All columns and duplicate multiplicities: grammar",
+      "status": "PASS"
+    },
+    {
+      "check": "table_xinfo: grammar",
+      "status": "PASS"
+    },
+    {
+      "check": "foreign_key_list: grammar",
+      "status": "PASS"
+    },
+    {
+      "check": "index_list: grammar",
+      "status": "PASS"
+    },
+    {
+      "check": "All columns and duplicate multiplicities: grammar_examples",
+      "status": "PASS"
+    },
+    {
+      "check": "table_xinfo: grammar_examples",
+      "status": "PASS"
+    },
+    {
+      "check": "foreign_key_list: grammar_examples",
+      "status": "PASS"
+    },
+    {
+      "check": "index_list: grammar_examples",
+      "status": "PASS"
+    },
+    {
+      "check": "All columns and duplicate multiplicities: hangul",
+      "status": "PASS"
+    },
+    {
+      "check": "table_xinfo: hangul",
+      "status": "PASS"
+    },
+    {
+      "check": "foreign_key_list: hangul",
+      "status": "PASS"
+    },
+    {
+      "check": "index_list: hangul",
+      "status": "PASS"
+    },
+    {
+      "check": "All columns and duplicate multiplicities: item_sources",
+      "status": "PASS"
+    },
+    {
+      "check": "table_xinfo: item_sources",
+      "status": "PASS"
+    },
+    {
+      "check": "foreign_key_list: item_sources",
+      "status": "PASS"
+    },
+    {
+      "check": "index_list: item_sources",
+      "status": "PASS"
+    },
+    {
+      "check": "All columns and duplicate multiplicities: item_tags",
+      "status": "PASS"
+    },
+    {
+      "check": "table_xinfo: item_tags",
+      "status": "PASS"
+    },
+    {
+      "check": "foreign_key_list: item_tags",
+      "status": "PASS"
+    },
+    {
+      "check": "index_list: item_tags",
+      "status": "PASS"
+    },
+    {
+      "check": "All columns and duplicate multiplicities: learner_notes",
+      "status": "PASS"
+    },
+    {
+      "check": "table_xinfo: learner_notes",
+      "status": "PASS"
+    },
+    {
+      "check": "foreign_key_list: learner_notes",
+      "status": "PASS"
+    },
+    {
+      "check": "index_list: learner_notes",
+      "status": "PASS"
+    },
+    {
+      "check": "All columns and duplicate multiplicities: lesson_items",
+      "status": "PASS"
+    },
+    {
+      "check": "table_xinfo: lesson_items",
+      "status": "PASS"
+    },
+    {
+      "check": "foreign_key_list: lesson_items",
+      "status": "PASS"
+    },
+    {
+      "check": "index_list: lesson_items",
+      "status": "PASS"
+    },
+    {
+      "check": "All columns and duplicate multiplicities: lessons",
+      "status": "PASS"
+    },
+    {
+      "check": "table_xinfo: lessons",
+      "status": "PASS"
+    },
+    {
+      "check": "foreign_key_list: lessons",
+      "status": "PASS"
+    },
+    {
+      "check": "index_list: lessons",
+      "status": "PASS"
+    },
+    {
+      "check": "All columns and duplicate multiplicities: listening_items",
+      "status": "PASS"
+    },
+    {
+      "check": "table_xinfo: listening_items",
+      "status": "PASS"
+    },
+    {
+      "check": "foreign_key_list: listening_items",
+      "status": "PASS"
+    },
+    {
+      "check": "index_list: listening_items",
+      "status": "PASS"
+    },
+    {
+      "check": "All columns and duplicate multiplicities: meanings",
+      "status": "PASS"
+    },
+    {
+      "check": "table_xinfo: meanings",
+      "status": "PASS"
+    },
+    {
+      "check": "foreign_key_list: meanings",
+      "status": "PASS"
+    },
+    {
+      "check": "index_list: meanings",
+      "status": "PASS"
+    },
+    {
+      "check": "All columns and duplicate multiplicities: media_assets",
+      "status": "PASS"
+    },
+    {
+      "check": "table_xinfo: media_assets",
+      "status": "PASS"
+    },
+    {
+      "check": "foreign_key_list: media_assets",
+      "status": "PASS"
+    },
+    {
+      "check": "index_list: media_assets",
+      "status": "PASS"
+    },
+    {
+      "check": "All columns and duplicate multiplicities: pronunciation_examples",
+      "status": "PASS"
+    },
+    {
+      "check": "table_xinfo: pronunciation_examples",
+      "status": "PASS"
+    },
+    {
+      "check": "foreign_key_list: pronunciation_examples",
+      "status": "PASS"
+    },
+    {
+      "check": "index_list: pronunciation_examples",
+      "status": "PASS"
+    },
+    {
+      "check": "All columns and duplicate multiplicities: pronunciation_presentations",
+      "status": "PASS"
+    },
+    {
+      "check": "table_xinfo: pronunciation_presentations",
+      "status": "PASS"
+    },
+    {
+      "check": "foreign_key_list: pronunciation_presentations",
+      "status": "PASS"
+    },
+    {
+      "check": "index_list: pronunciation_presentations",
+      "status": "PASS"
+    },
+    {
+      "check": "All columns and duplicate multiplicities: pronunciation_rules",
+      "status": "PASS"
+    },
+    {
+      "check": "table_xinfo: pronunciation_rules",
+      "status": "PASS"
+    },
+    {
+      "check": "foreign_key_list: pronunciation_rules",
+      "status": "PASS"
+    },
+    {
+      "check": "index_list: pronunciation_rules",
+      "status": "PASS"
+    },
+    {
+      "check": "All columns and duplicate multiplicities: question_choices",
+      "status": "PASS"
+    },
+    {
+      "check": "table_xinfo: question_choices",
+      "status": "PASS"
+    },
+    {
+      "check": "foreign_key_list: question_choices",
+      "status": "PASS"
+    },
+    {
+      "check": "index_list: question_choices",
+      "status": "PASS"
+    },
+    {
+      "check": "All columns and duplicate multiplicities: questions",
+      "status": "PASS"
+    },
+    {
+      "check": "table_xinfo: questions",
+      "status": "PASS"
+    },
+    {
+      "check": "foreign_key_list: questions",
+      "status": "PASS"
+    },
+    {
+      "check": "index_list: questions",
+      "status": "PASS"
+    },
+    {
+      "check": "All columns and duplicate multiplicities: sources",
+      "status": "PASS"
+    },
+    {
+      "check": "table_xinfo: sources",
+      "status": "PASS"
+    },
+    {
+      "check": "foreign_key_list: sources",
+      "status": "PASS"
+    },
+    {
+      "check": "index_list: sources",
+      "status": "PASS"
+    },
+    {
+      "check": "All columns and duplicate multiplicities: sqlite_stat1",
+      "status": "PASS"
+    },
+    {
+      "check": "table_xinfo: sqlite_stat1",
+      "status": "PASS"
+    },
+    {
+      "check": "foreign_key_list: sqlite_stat1",
+      "status": "PASS"
+    },
+    {
+      "check": "index_list: sqlite_stat1",
+      "status": "PASS"
+    },
+    {
+      "check": "All columns and duplicate multiplicities: tags",
+      "status": "PASS"
+    },
+    {
+      "check": "table_xinfo: tags",
+      "status": "PASS"
+    },
+    {
+      "check": "foreign_key_list: tags",
+      "status": "PASS"
+    },
+    {
+      "check": "index_list: tags",
+      "status": "PASS"
+    },
+    {
+      "check": "All columns and duplicate multiplicities: vocabulary",
+      "status": "PASS"
+    },
+    {
+      "check": "table_xinfo: vocabulary",
+      "status": "PASS"
+    },
+    {
+      "check": "foreign_key_list: vocabulary",
+      "status": "PASS"
+    },
+    {
+      "check": "index_list: vocabulary",
+      "status": "PASS"
+    },
+    {
+      "check": "All columns and duplicate multiplicities: vocabulary_examples",
+      "status": "PASS"
+    },
+    {
+      "check": "table_xinfo: vocabulary_examples",
+      "status": "PASS"
+    },
+    {
+      "check": "foreign_key_list: vocabulary_examples",
+      "status": "PASS"
+    },
+    {
+      "check": "index_list: vocabulary_examples",
+      "status": "PASS"
+    },
+    {
+      "check": "All columns and duplicate multiplicities: vocabulary_search",
+      "status": "PASS"
+    },
+    {
+      "check": "table_xinfo: vocabulary_search",
+      "status": "PASS"
+    },
+    {
+      "check": "foreign_key_list: vocabulary_search",
+      "status": "PASS"
+    },
+    {
+      "check": "index_list: vocabulary_search",
+      "status": "PASS"
+    },
+    {
+      "check": "Complete schema/index/trigger SQL",
+      "status": "PASS"
+    },
+    {
+      "check": "bundle integrity/FK",
+      "status": "PASS"
+    },
+    {
+      "check": "rebuilt integrity/FK",
+      "status": "PASS"
+    },
+    {
+      "check": "Byte-exact SHA including Importer report",
+      "status": "PASS"
+    },
+    {
+      "check": "Strict previous23 Validator errors0/warnings10",
+      "status": "PASS"
+    },
+    {
+      "check": "Current routing and DATA09 contracts errors0",
+      "status": "PASS"
+    },
+    {
+      "check": "No inaccessible questions/examples",
+      "status": "PASS"
+    },
+    {
+      "check": "Batch a new disjoint IDs",
+      "status": "PASS"
+    },
+    {
+      "check": "Batch a 18/72/72 present",
+      "status": "PASS"
+    },
+    {
+      "check": "Batch b new disjoint IDs",
+      "status": "PASS"
+    },
+    {
+      "check": "Batch b 18/72/72 present",
+      "status": "PASS"
+    },
+    {
+      "check": "Batch c new disjoint IDs",
+      "status": "PASS"
+    },
+    {
+      "check": "Batch c 18/72/72 present",
+      "status": "PASS"
+    },
+    {
+      "check": "Content19 delta exactly DATA09 grammar",
+      "status": "PASS"
+    },
+    {
+      "check": "Content19 delta exactly DATA09 examples",
+      "status": "PASS"
+    },
+    {
+      "check": "Content19 delta exactly DATA09 questions",
+      "status": "PASS"
+    },
+    {
+      "check": "Unreduced DATA09 targets",
+      "status": "PASS"
+    },
+    {
+      "check": "All Content19 Stable ID/kind/created_at preserved",
+      "status": "PASS"
+    },
+    {
+      "check": "All Content19 vocabulary sort keys preserved",
+      "status": "PASS"
+    },
+    {
+      "check": "All Content19 old lesson membership/order preserved",
+      "status": "PASS"
+    },
+    {
+      "check": "All Content19 listening order preserved",
+      "status": "PASS"
+    },
+    {
+      "check": "No DATA09 vocabulary additions or deletions",
+      "status": "PASS"
+    },
+    {
+      "check": "No DATA09 meanings additions or deletions",
+      "status": "PASS"
+    },
+    {
+      "check": "No DATA09 listening_items additions or deletions",
+      "status": "PASS"
+    },
+    {
+      "check": "Stage1 actual42Grammar",
+      "status": "PASS"
+    },
+    {
+      "check": "Stage2 archived counts vs actual20",
+      "status": "PASS"
+    },
+    {
+      "check": "Stage3 archived counts vs actual21",
+      "status": "PASS"
+    },
+    {
+      "check": "Stage4 archived counts vs actual22",
+      "status": "PASS"
+    },
+    {
+      "check": "Stage5 archived counts vs actual23",
+      "status": "PASS"
+    },
+    {
+      "check": "Stage6 archived counts vs actual24",
+      "status": "PASS"
+    },
+    {
+      "check": "Stage7 actual counts",
+      "status": "PASS"
+    },
+    {
+      "check": "163 original candidates exactly once",
+      "status": "PASS"
+    },
+    {
+      "check": "Prior candidate classifications120/7/36 preserved",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 1",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 1",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 2",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 2",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 3",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 3",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 4",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 4",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 5",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 5",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 6",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 6",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 7",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 7",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 8",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 8",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 9",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 9",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 10",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 10",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 11",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 11",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 12",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 12",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 13",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 13",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 14",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 14",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 15",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 15",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 16",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 16",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 17",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 17",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 18",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 18",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 19",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 19",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 20",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 20",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 21",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 21",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 22",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 22",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 23",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 23",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 24",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 24",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 25",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 25",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 26",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 26",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 27",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 27",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 28",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 28",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 29",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 29",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 30",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 30",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 31",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 31",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 32",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 32",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 33",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 33",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 34",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 34",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 35",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 35",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 36",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 36",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 37",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 37",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 38",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 38",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 39",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 39",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 40",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 40",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 41",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 41",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 42",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 42",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 43",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 43",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 44",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 44",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 45",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 45",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 46",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 46",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 47",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 47",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 48",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 48",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 49",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 49",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 50",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 50",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 51",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 51",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 52",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 52",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 53",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 53",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 54",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 54",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 55",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 55",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 56",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 56",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 57",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 57",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 58",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 58",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 59",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 59",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 60",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 60",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 61",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 61",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 62",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 62",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 63",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 63",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 64",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 64",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 65",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 65",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 66",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 66",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 67",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 67",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 68",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 68",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 69",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 69",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 70",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 70",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 71",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 71",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 72",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 72",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 73",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 73",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 74",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 74",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 75",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 75",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 76",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 76",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 77",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 77",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 78",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 78",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 79",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 79",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 80",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 80",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 81",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 81",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 82",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 82",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 83",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 83",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 84",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 84",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 85",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 85",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 86",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 86",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 87",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 87",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 88",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 88",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 89",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 89",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 90",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 90",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 91",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 91",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 92",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 92",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 93",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 93",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 94",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 94",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 95",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 95",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 96",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 96",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 97",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 97",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 98",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 98",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 99",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 99",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 100",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 100",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 101",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 101",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 102",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 102",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 103",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 103",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 104",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 104",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 105",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 105",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 106",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 106",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 107",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 107",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 108",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 108",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 109",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 109",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 110",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 110",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 111",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 111",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 112",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 112",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 113",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 113",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 114",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 114",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 115",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 115",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 116",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 116",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 117",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 117",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 118",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 118",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 119",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 119",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 120",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 120",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 121",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 121",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 122",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 122",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 123",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 123",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 124",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 124",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 125",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 125",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 126",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 126",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 127",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 127",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 128",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 128",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 129",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 129",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 130",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 130",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 131",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 131",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 132",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 132",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 133",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 133",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 134",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 134",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 135",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 135",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 136",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 136",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 137",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 137",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 138",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 138",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 139",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 139",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 140",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 140",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 141",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 141",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 142",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 142",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 143",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 143",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 144",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 144",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 145",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 145",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 146",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 146",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 147",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 147",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 148",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 148",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 149",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 149",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 150",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 150",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 151",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 151",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 152",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 152",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 153",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 153",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 154",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 154",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 155",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 155",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 156",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 156",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 157",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 157",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 158",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 158",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 159",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 159",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 160",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 160",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 161",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 161",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 162",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 162",
+      "status": "PASS"
+    },
+    {
+      "check": "Original prerequisite Example retained 163",
+      "status": "PASS"
+    },
+    {
+      "check": "Supporting grammar references 163",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Content/ContentPackageValidator.swift",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Content/content-schema-v1.sql",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Content/content-schema-v2.sql",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Content/content-schema-v3.sql",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Content/content-schema-v4.sql",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Content/data01-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Content/data02-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Content/data03-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Content/data04-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Content/data04-revised-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Content/data05-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Content/data05-revised-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Content/data06-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Content/data06-revised-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Content/data07-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Content/data07-revised-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Content/data08-a-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Content/data08-a-revised-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Content/data08-b-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Content/data08-b-revised-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Content/data08-c-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Content/data08-c-revised-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Content/data08-final-revised-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Content/data08-integration-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Content/data08-integration-revised-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Content/data09-a-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Content/data09-a-revised-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Content/data09-b-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Content/data09-b-revised-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Content/data09-c-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Content/data09-c-revised-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Content/data09-final-corrections.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Content/data09-final-revised-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Content/data09-integration-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Content/data09-integration-revised-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Content/dev08-revised-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Content/dev09-revised-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Content/fixture.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Content/grammar-seed-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Content/hangul-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Content/hangul-production.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Content/listening-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Content/production-drill-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Content/production-empty.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Content/production.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Content/pronunciation-ids.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Resources/.content-pcb7fgvn.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Resources/Info.plist",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Resources/PrivacyInfo.xcprivacy",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Resources/content-fixture.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Resources/content.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Resources/ja.lproj/Localizable.strings",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Resources/user-migration-v10.sql",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Resources/user-migration-v2.sql",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Resources/user-migration-v3.sql",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Resources/user-migration-v4.sql",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Resources/user-migration-v5.sql",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Resources/user-migration-v6.sql",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Resources/user-migration-v7.sql",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Resources/user-migration-v8.sql",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Resources/user-migration-v9.sql",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Resources/user-schema-v1.sql",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Tests/Fixtures/content-v1.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Tests/Fixtures/content-v10-production.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Tests/Fixtures/content-v10-repaired-production.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Tests/Fixtures/content-v11-production.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Tests/Fixtures/content-v12-production.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Tests/Fixtures/content-v13-production.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Tests/Fixtures/content-v14-production.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Tests/Fixtures/content-v15-production.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Tests/Fixtures/content-v16-production.json.gz",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Tests/Fixtures/content-v16-production.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Tests/Fixtures/content-v17-production.json.gz",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Tests/Fixtures/content-v17-production.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Tests/Fixtures/content-v18-production.json.gz",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Tests/Fixtures/content-v18-production.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Tests/Fixtures/content-v19-production.json.gz",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Tests/Fixtures/content-v19-production.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Tests/Fixtures/content-v2-production.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Tests/Fixtures/content-v20-production.json.gz",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Tests/Fixtures/content-v20-production.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Tests/Fixtures/content-v21-production.json.gz",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Tests/Fixtures/content-v21-production.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Tests/Fixtures/content-v22-production.json.gz",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Tests/Fixtures/content-v22-production.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Tests/Fixtures/content-v23-production.json.gz",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Tests/Fixtures/content-v23-production.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Tests/Fixtures/content-v3-production.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Tests/Fixtures/content-v4-production.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Tests/Fixtures/content-v5-production.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Tests/Fixtures/content-v6-production.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Tests/Fixtures/content-v7-production.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Tests/Fixtures/content-v8-production.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Tests/Fixtures/content-v9-production.sqlite",
+      "status": "PASS"
+    },
+    {
+      "check": "Protected artifact unchanged: Tests/Fixtures/source-v1.json",
+      "status": "PASS"
+    },
+    {
+      "check": "No GitHub100MiB reachable blob",
+      "status": "PASS"
+    }
+  ],
+  "limitation": "Read-only DB/SQL/archives evidence; not Swift/iOS or language certification."
+}
