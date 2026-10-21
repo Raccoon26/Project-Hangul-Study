@@ -13,6 +13,9 @@ protocol ContentRepository: Sendable {
     func listeningBatches(level: LearningLevel, after: Int) async throws -> [(Int,Int)]
     func listeningBatchIDs(level: LearningLevel, batch: Int) async throws -> [ContentID]
     func listeningQuestions(level: LearningLevel?, ids: [ContentID]?) async throws -> [ListeningQuestion]
+    func listeningCourses(level: LearningLevel) async throws -> [Course]
+    func listeningLessonIDs(lesson: ContentID) async throws -> [ContentID]
+    func listeningContext(source: ContentID) async throws -> ListeningContext
     func productionVocabulary(after: String) async throws -> [(ContentID,String)]
     func productionQuestions(id: ContentID) async throws -> [ProductionQuestion]
     func grammarLessons(level: LearningLevel, after: Int, limit: Int) async throws -> [GrammarLesson]

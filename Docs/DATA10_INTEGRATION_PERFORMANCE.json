@@ -1,0 +1,146 @@
+{
+  "scope": "Cloud Python/SQLite warm queries, not Swift/UI/device startup, RSS or real 3-10 minute timing",
+  "repeats": 40,
+  "samples": {
+    "v28_search_의견": {
+      "p50_ms": 0.7208,
+      "p95_ms": 0.8127,
+      "max_ms": 1.0096,
+      "rows": 2
+    },
+    "v28_catalog_batch103": {
+      "p50_ms": 0.0777,
+      "p95_ms": 0.1253,
+      "max_ms": 0.1579,
+      "rows": 20
+    },
+    "v28_curriculum_listening_page": {
+      "p50_ms": 0.1171,
+      "p95_ms": 0.14,
+      "max_ms": 0.2055,
+      "rows": 200
+    },
+    "v29_search_의견": {
+      "p50_ms": 0.71,
+      "p95_ms": 0.8156,
+      "max_ms": 0.9827,
+      "rows": 2
+    },
+    "v29_catalog_batch103": {
+      "p50_ms": 0.0769,
+      "p95_ms": 0.1075,
+      "max_ms": 0.1148,
+      "rows": 20
+    },
+    "v29_curriculum_listening_page": {
+      "p50_ms": 0.114,
+      "p95_ms": 0.1408,
+      "max_ms": 0.1899,
+      "rows": 200
+    },
+    "v29_typed_courses": {
+      "p50_ms": 1.1013,
+      "p95_ms": 1.2672,
+      "max_ms": 1.3861,
+      "rows": 3
+    },
+    "v29_lesson_five_ids": {
+      "p50_ms": 0.0692,
+      "p95_ms": 0.0988,
+      "max_ms": 0.2017,
+      "rows": 5
+    },
+    "v29_session_five_question_rows": {
+      "p50_ms": 0.0316,
+      "p95_ms": 0.0577,
+      "max_ms": 0.1113,
+      "rows": 5
+    },
+    "home_summary_user360_due": {
+      "p50_ms": 0.2132,
+      "p95_ms": 0.2965,
+      "max_ms": 0.4063,
+      "rows": 1
+    },
+    "srs_due_page20_user360": {
+      "p50_ms": 0.0768,
+      "p95_ms": 0.1704,
+      "max_ms": 0.2753,
+      "rows": 20
+    },
+    "resume_lesson_snapshot": {
+      "p50_ms": 0.0693,
+      "p95_ms": 0.1486,
+      "max_ms": 0.3245,
+      "rows": 1
+    },
+    "statistics": {
+      "p50_ms": 0.0502,
+      "p95_ms": 0.0779,
+      "max_ms": 0.1337,
+      "rows": 1
+    },
+    "maintenance": {
+      "p50_ms": 0.0862,
+      "p95_ms": 0.1344,
+      "max_ms": 0.171,
+      "rows": 0
+    }
+  },
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "sqlite": "3.53.1",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+  "compile_options": [
+    "ATOMIC_INTRINSICS=1",
+    "COMPILER=gcc-14.2.0",
+    "DEFAULT_AUTOVACUUM",
+    "DEFAULT_CACHE_SIZE=-2000",
+    "DEFAULT_FILE_FORMAT=4",
+    "DEFAULT_JOURNAL_SIZE_LIMIT=-1",
+    "DEFAULT_MMAP_SIZE=0",
+    "DEFAULT_PAGE_SIZE=4096",
+    "DEFAULT_PCACHE_INITSZ=20",
+    "DEFAULT_RECURSIVE_TRIGGERS",
+    "DEFAULT_SECTOR_SIZE=4096",
+    "DEFAULT_SYNCHRONOUS=2",
+    "DEFAULT_WAL_AUTOCHECKPOINT=1000",
+    "DEFAULT_WAL_SYNCHRONOUS=2",
+    "DEFAULT_WORKER_THREADS=0",
+    "DIRECT_OVERFLOW_READ",
+    "ENABLE_FTS3",
+    "ENABLE_FTS3_PARENTHESIS",
+    "ENABLE_FTS4",
+    "ENABLE_FTS5",
+    "ENABLE_LOAD_EXTENSION",
+    "ENABLE_MATH_FUNCTIONS",
+    "ENABLE_RTREE",
+    "ENABLE_UPDATE_DELETE_LIMIT",
+    "MALLOC_SOFT_LIMIT=1024",
+    "MAX_ATTACHED=10",
+    "MAX_COLUMN=2000",
+    "MAX_COMPOUND_SELECT=500",
+    "MAX_DEFAULT_PAGE_SIZE=8192",
+    "MAX_EXPR_DEPTH=1000",
+    "MAX_FUNCTION_ARG=1000",
+    "MAX_LENGTH=1000000000",
+    "MAX_LIKE_PATTERN_LENGTH=50000",
+    "MAX_MMAP_SIZE=1099511627776",
+    "MAX_PAGE_COUNT=0xfffffffe",
+    "MAX_PAGE_SIZE=65536",
+    "MAX_SQL_LENGTH=1000000000",
+    "MAX_TRIGGER_DEPTH=1000",
+    "MAX_VARIABLE_NUMBER=250000",
+    "MAX_VDBE_OP=250000000",
+    "MAX_WORKER_THREADS=0",
+    "MUTEX_PTHREADS",
+    "SOUNDEX",
+    "SYSTEM_MALLOC",
+    "TEMP_STORE=3",
+    "THREADSAFE=1",
+    "USE_URI"
+  ],
+  "bundle_bytes": {
+    "28": 20037632,
+    "29": 20279296
+  }
+}

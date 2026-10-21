@@ -18,7 +18,7 @@ class Data04Tests(unittest.TestCase):
    self.assertEqual(report['validation']['error_count'],0);self.assertEqual(report['validation']['warning_count'],10)
    self.assertNotIn('duplicate_grammar_candidate',[w['code'] for w in report['validation']['warnings']])
    with sqlite3.connect(p) as rebuilt:self.assertEqual(signatures(rebuilt),signatures(self.db))
-  self.assertEqual(self.db.execute('SELECT schema_version,content_version,min_reader_version,is_fixture FROM content_metadata').fetchone(),(4,28,7,0))
+  self.assertEqual(self.db.execute('SELECT schema_version,content_version,min_reader_version,is_fixture FROM content_metadata').fetchone(),(4,29,7,0))
  def test_exact_delta_and_old_ids_payloads_membership_are_preserved(self):
   baseline=sqlite3.connect(ROOT/'Tests/Fixtures/content-v11-production.sqlite');self.addCleanup(baseline.close)
   # Pin this historical v10→v11 gate; DATA-05 tests strictly gate v11→current.
@@ -76,7 +76,7 @@ class Data04Tests(unittest.TestCase):
     target=self.db.execute("SELECT target_id FROM content_links WHERE source_id=? AND relation='question_target'",[x['question_id']]).fetchone()[0]
     q=next(q for q in self.db.execute(query,[target]) if q['id']==x['question_id']);self.assertIn(expected[x['form']],json.loads(q['answer_json'])['accepted'])
     self.assertEqual(self.db.execute("SELECT target_id FROM content_links WHERE source_id=? AND relation='prerequisite'",[q['id']]).fetchone()[0],x['grammar_id'])
-   listen=re.findall(r'"""(.*?)"""',(ROOT/'Repositories/SQLiteListening.swift').read_text(),re.S)[0]
+   listen=next(q for q in re.findall(r'"""(.*?)"""',(ROOT/'Repositories/SQLiteListening.swift').read_text(),re.S) if q.strip().startswith('SELECT q.*,l.id'))
    for x in self.ids['listening']:
     rows=self.db.execute(listen+' AND l.id IN (?) ORDER BY l.learning_order,l.id LIMIT 20',[x['id']]).fetchall();self.assertEqual(len(rows),1)
     self.assertIsNotNone(self.db.execute('SELECT 1 FROM grammar_examples WHERE grammar_id=? AND example_id=?',[x['grammar_id'],x['example_id']]).fetchone())

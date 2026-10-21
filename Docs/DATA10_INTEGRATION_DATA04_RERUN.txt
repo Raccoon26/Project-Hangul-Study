@@ -1,0 +1,15 @@
+test_all_new_lessons_are_reachable_with_bounded_actual_queries (test_data04_content.Data04Tests.test_all_new_lessons_are_reachable_with_bounded_actual_queries) ... ok
+test_direct_input_and_listening_use_existing_sources_and_queries (test_data04_content.Data04Tests.test_direct_input_and_listening_use_existing_sources_and_queries) ... ok
+test_exact_delta_and_old_ids_payloads_membership_are_preserved (test_data04_content.Data04Tests.test_exact_delta_and_old_ids_payloads_membership_are_preserved) ... ok
+test_existing_progress_disk_survives_content_replacement_and_new_due_enrollment (test_data04_content.Data04Tests.test_existing_progress_disk_survives_content_replacement_and_new_due_enrollment) ... ok
+test_legacy_header_repair_is_hash_locked_and_preserves_all_semantics (test_data04_content.Data04Tests.test_legacy_header_repair_is_hash_locked_and_preserves_all_semantics) ... ok
+test_new_card_examples_questions_and_comparison_contract (test_data04_content.Data04Tests.test_new_card_examples_questions_and_comparison_contract) ... ok
+test_new_grammar_invalid_contracts_are_rejected (test_data04_content.Data04Tests.test_new_grammar_invalid_contracts_are_rejected) ... ok
+test_rebuild_with_strict_previous_release_gate (test_data04_content.Data04Tests.test_rebuild_with_strict_previous_release_gate) ... ok
+test_schema_header_matches_metadata_and_bad_ddl_is_rejected (test_data04_content.Data04Tests.test_schema_header_matches_metadata_and_bad_ddl_is_rejected) ... ok
+test_spacing_only_grammar_duplicate_still_reported (test_data04_content.Data04Tests.test_spacing_only_grammar_duplicate_still_reported) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 28.416s
+
+OK

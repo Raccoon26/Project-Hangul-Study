@@ -1,0 +1,17 @@
+{
+  "reachable_blobs": 1129,
+  "largest_reachable_bytes": 20037632,
+  "reachable_over_50_MiB": 0,
+  "reachable_over_100_MiB": 0,
+  "largest_working_file": [
+    20279296,
+    "Resources/content.sqlite"
+  ],
+  "working_over_50_MiB": [],
+  "working_over_100_MiB": [],
+  "git_lfs_required": false,
+  "source_and_bundle_tracked": [
+    "Content/production.json",
+    "Resources/content.sqlite"
+  ]
+}

@@ -11,6 +11,14 @@
 - force push, 파괴적 reset/clean, 이력 재작성, 기존 Production/fixture 삭제, 데이터 축소를 통한 전달 우회를 금지한다. Xcode/Simulator 유무는 환경별로 다시 확인한다. Cloud portable PASS를 Mac native PASS로 바꾸지 않으며 설치되지 않은 native/실기기 gate는 BLOCKED로 유지한다.
 - Python/SQLite 버전과 `PRAGMA compile_options`도 확인한다. DATA10-1 당시 배포24는 SQLite3.53.1의31테이블이다. Mac SQLite3.44.0의 ENABLE_STAT4 재구성은 같은31테이블의 행이 일치해도 추가 sqlite_stat4 때문에32테이블·SHA가 다르다(`Docs/DATA10_REBUILD_COMPARISON.json`). 이를 byte-exact PASS로 표시하거나 시스템 통계 테이블을 임의 삭제/검사 완화해 맞추지 않는다. 임시 재구성만 비교하고 Production을 보존하며, 실제 후속 배포 전 동일 writer 버전/compile profile의 재현 환경을 확인한다.
 
+## DATA-10-6 통합 현재 기준
+
+- 현재 Content29/Schema4/reader7/UserProgress10이다. DATA10 신규180원문/360문항은 그대로이며 기존 ID를 참조하는3코스/72레슨/6Unit·레슨당5문항을 추가했다. 신규 UUID81개·membership360·Grammar180/Vocabulary180 관계이며 수량에 신규 원문/문항으로 더하지 않는다. 기존103레슨/코스0~7·모든 learning_order와20문항 연습번호를 보존했다.
+- 실제 직전28 source.gz/DB와110과거파일 byte를 보존했다. A/B/C/final exact gate는25/26/27/28fixture로 고정하고 integration이28→29의81UUID와747승인endpoint revision을 검사한다. 본문/정답/기존 membership 변경0이다. prepare_data10_integration은 동결28+manifest에서29만 재현하며 후속 Production을 덮어쓰는 importer가 아니다. 다음 실제 변경은 현재29를 먼저 보존한다.
+- listeningCourses/listeningLessonIDs는 기존 테이블을 읽는 typed 경로다. 일반 courses/curriculum lessonIDs는 grammar/listening 레슨을 제외해 LessonStep의 unsupported kind 진입을 막는다. 새 scope lesson:lower_intermediate:<UUID>와 Home Resume의 lessonID 복원, membership 순서 snapshot·active-first 보존을 유지한다. result 이후에만 Example learning point/사전 참조를 생성한다. 원문 단위 SRS 병합·선행 자동 잠금/미수록 문형의 일괄 해결로 해석하지 않는다.
+- SRS는 Listening ID/skill 기준이며 같은 원문 두 task의2개 SRS는 기존 계약이다. nonreview 재연습은 기존 due를 재설정하지 않고 retry는 first-pass/SRS 승급으로 세지 않는다. 재생완료/판정/다음 이동은 transactional 저장, 미제출 입력 초안은 기존 @State로 화면 종료·프로세스 종료 시 영속 저장하지 않는다(P2). 저장된 판정·heard/위치의 보존과 구분한다.
+- 최종 portable 418/418 PASS (544.580초, failures/errors/skipped0, exit0). 최신 DATA10_PROGRESS §6/Docs/DATA10_INTEGRATION_*를 따른다. strict previous28 오류0/기존10경고·Source70,823행/31테이블·전체행/schema/index/byte 재현은 iOS 실행이 아니다. Cloud Xcode/Swift 없음·148native정의/실행0 BLOCKED, 이전Mac137PASS/5FAIL·활용P1·구매cache 및 기기/사람 gate·Release B—Conditional을 유지한다. 신규12계열27원문·기존163건36미해결, 전TTS/검증녹음0·독립 사람/검청 NOT TESTED 유지. 다음 단계는 명시 요청 전 시작하지 않는다.
+
 ## DATA-10-5 전체 QA 현재 기준
 
 - 현재 Content28/Schema4/reader7/UserProgress10·신규180원문/360문제·전체L2,296/E4,993/Q3,913/V2,287/G96이다. 신규/삭제ID0, 본문188필드/175payload ID·179revision+1(Example 종속Listening4포함)만 Content/data10-final-corrections.json·revised-ids 원장에 따라 교정했다. 기존27 source.gz/DB 및106과거파일 byte 보존·UserProgress/관계/배치/순서 불변. 다음 실제 변경은 현재28을 먼저 보존한다.

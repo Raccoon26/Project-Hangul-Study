@@ -41,12 +41,20 @@ struct ListeningBatchView: View {
     let services: AppContainer
     let level: LearningLevel
     @State private var batches: [Batch] = []
+    @State private var courses: [Course] = []
     @State private var busy = false
     @State private var more = true
     @State private var error: String?
     private struct Batch: Identifiable { let id: Int; let count: Int }
     var body: some View {
         List {
+            if !courses.isEmpty {
+                Section("短いレッスン") {
+                    ForEach(courses) { course in
+                        NavigationLink(course.title) { ListeningCourseView(services:services,course:course,level:level) }
+                    }
+                }
+            }
             ForEach(batches) { batch in
                 NavigationLink("練習 \(batch.id+1) · \(batch.count)問") {
                     ListeningStudyView(services:services,level:level,batch:batch.id)
@@ -61,9 +69,69 @@ struct ListeningBatchView: View {
         guard !busy else { return }; busy = true; error = nil
         defer { busy = false }
         do {
+            if batches.isEmpty { courses = try await services.content.listeningCourses(level:level) }
             let rows = try await services.content.listeningBatches(level:level,after:batches.last?.id ?? -1)
             batches += rows.map { Batch(id:$0.0,count:$0.1) }; more = rows.count == 30
         } catch { self.error = LearningErrorMessage.message(for: error) }
+    }
+}
+@MainActor
+struct ListeningCourseView: View {
+    let services: AppContainer
+    let course: Course
+    let level: LearningLevel
+    @State private var completed: Set<ContentID> = []
+    @State private var error: String?
+    var body: some View {
+        List {
+            Text(course.description)
+            Text("まず内容理解、別の機会に書き取り等へ。1回5問でも途中で止められます。文法・単語の説明は解答後に確認できます。3〜10分を目安に、無理なく区切ってください。")
+                .font(.footnote).foregroundStyle(.secondary)
+            NavigationLink("先に文法を復習する") { GrammarCatalogView(services:services,level:level) }
+            ForEach(course.lessons) { lesson in
+                NavigationLink {
+                    ListeningStudyView(services:services,level:level,lessonID:lesson.id)
+                } label: {
+                    HStack {
+                        Text(lesson.title + " · \(lesson.itemCount)問")
+                        Spacer()
+                        if completed.contains(lesson.id) { Text("確認済み").font(.caption) }
+                    }.frame(minHeight:44)
+                }
+            }
+            if let error = error { Text(error) }
+        }.navigationTitle(course.title).task {
+            do {
+                var done: Set<ContentID> = []
+                for lesson in course.lessons {
+                    let ids = try await services.content.listeningLessonIDs(lesson:lesson.id)
+                    let counts = try await services.progress.curriculumCounts(ids:ids,kind:"listening")
+                    if counts.0 == ids.count { done.insert(lesson.id) }
+                }
+                completed = done; error = nil
+            } catch { self.error = LearningErrorMessage.message(for:error) }
+        }
+    }
+}
+@MainActor
+private struct ListeningFeedbackContextView: View {
+    let services: AppContainer
+    let source: ContentID
+    @State private var context: ListeningContext?
+    @State private var error: String?
+    var body: some View {
+        VStack(alignment:.leading,spacing:16) {
+            if let context = context {
+                if let point = context.learningPoint { Text(point).foregroundStyle(.secondary) }
+                ForEach(context.references) { entry in
+                    NavigationLink(entry.title + " · " + entry.meaning) { LookupDetailView(services:services,reference:entry.reference) }
+                }
+            }
+            if let error = error { Text(error) }
+        }.task {
+            do { context = try await services.content.listeningContext(source:source); error = nil }
+            catch { self.error = LearningErrorMessage.message(for:error) }
+        }
     }
 }
 @MainActor
@@ -72,6 +140,7 @@ struct ListeningStudyView: View {
     let level: LearningLevel?
     var batch = 0
     var resumeScope: String? = nil
+    var lessonID: ContentID? = nil
     @EnvironmentObject private var audio: KoreanAudioService
     @Environment(\.scenePhase) private var scenePhase
     @FocusState private var focused: Bool
@@ -82,7 +151,7 @@ struct ListeningStudyView: View {
     @State private var empty = false
     @State private var playback: Playback?
     private struct Playback { let question: ContentID; let speed: AudioSpeed; let revision: Int }
-    private var scope: String { resumeScope ?? (level.map { "practice:"+$0.rawValue+":\(batch)" } ?? "review") }
+    private var scope: String { resumeScope ?? (lessonID.map { "lesson:"+(level?.rawValue ?? LearningLevel.lowerIntermediate.rawValue)+":"+$0.rawValue } ?? (level.map { "practice:"+$0.rawValue+":\(batch)" } ?? "review")) }
     var body: some View {
         ScrollView {
             VStack(alignment:.leading,spacing:24) {
@@ -125,6 +194,7 @@ struct ListeningStudyView: View {
                             if q.task == .dictation { Text("入力した答え："+(s.answer ?? "")) }
                             else if let correct = q.choices.first(where: { $0.id == q.correctID }) { Text("正解："+correct.text) }
                             Text(q.explanation).foregroundStyle(.secondary)
+                            ListeningFeedbackContextView(services:services,source:q.sourceID).id(q.id)
                         }
                     }
                 } else if empty {
@@ -195,7 +265,16 @@ struct ListeningStudyView: View {
             let saved = try await services.progress.activeListening(scope:scope)
             if let saved = saved { session = saved } else {
                 var questions: [ListeningQuestion] = []
-                if let level = level {
+                if let lessonID = lessonID {
+                    let ids = try await services.content.listeningLessonIDs(lesson:lessonID)
+                    let rows = try await services.content.listeningQuestions(level:level,ids:ids)
+                    let byID = Dictionary(uniqueKeysWithValues:rows.map { ($0.itemID,$0) })
+                    guard ids.count == rows.count else { throw GrammarError.changedContent }
+                    questions = try ids.map { id in
+                        guard let question = byID[id] else { throw GrammarError.changedContent }
+                        return question
+                    }
+                } else if let level = level {
                     let ids = try await services.content.listeningBatchIDs(level:level,batch:batch)
                     questions = try await services.content.listeningQuestions(level:level,ids:ids)
                 } else {

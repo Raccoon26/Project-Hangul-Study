@@ -1,6 +1,53 @@
 import Foundation
 
 extension SQLiteContentRepository {
+    func listeningCourses(level: LearningLevel) async throws -> [Course] {
+        try db.query("""
+        SELECT c.* FROM courses c JOIN content_items ci ON ci.id=c.id
+        WHERE ci.is_active=1 AND ci.level=? AND EXISTS(
+          SELECT 1 FROM lessons l JOIN content_items li ON li.id=l.id
+          JOIN lesson_items m ON m.lesson_id=l.id JOIN listening_items a ON a.id=m.content_id
+          JOIN content_items ai ON ai.id=a.id WHERE l.course_id=c.id AND li.is_active=1 AND ai.is_active=1)
+        ORDER BY c.ordinal,c.id LIMIT 30
+        """, [.text(level.rawValue)]).map { row in
+            let id = try row.text("id")
+            let lessons = try db.query("""
+            SELECT l.id,l.title_ja,COUNT(*) AS item_count FROM lessons l
+            JOIN content_items ci ON ci.id=l.id JOIN lesson_items m ON m.lesson_id=l.id
+            JOIN listening_items a ON a.id=m.content_id JOIN content_items ai ON ai.id=a.id
+            WHERE l.course_id=? AND ci.is_active=1 AND ai.is_active=1
+            GROUP BY l.id ORDER BY l.ordinal,l.id LIMIT 100
+            """, [.text(id)]).map {
+                Lesson(id:ContentID(rawValue:try $0.text("id")),title:try $0.text("title_ja"),itemCount:try $0.integer("item_count"))
+            }
+            return Course(id:ContentID(rawValue:id),title:try row.text("title_ja"),description:try row.text("description_ja"),lessons:lessons)
+        }
+    }
+    func listeningLessonIDs(lesson: ContentID) async throws -> [ContentID] {
+        let rows = try db.query("""
+        SELECT a.id FROM lesson_items m JOIN lessons l ON l.id=m.lesson_id
+        JOIN courses c ON c.id=l.course_id JOIN content_items ci ON ci.id=c.id
+        JOIN content_items li ON li.id=l.id JOIN listening_items a ON a.id=m.content_id
+        JOIN content_items ai ON ai.id=a.id WHERE m.lesson_id=?
+        AND ci.is_active=1 AND li.is_active=1 AND ai.is_active=1 ORDER BY m.ordinal LIMIT 21
+        """, [.text(lesson.rawValue)])
+        guard !rows.isEmpty, rows.count <= 20 else { throw GrammarError.changedContent }
+        return try rows.map { ContentID(rawValue:try $0.text("id")) }
+    }
+    func listeningContext(source: ContentID) async throws -> ListeningContext {
+        let point = try db.query("SELECT e.learning_point_ja FROM examples e JOIN content_items i ON i.id=e.id WHERE e.id=? AND i.is_active=1", [.text(source.rawValue)]).first?["learning_point_ja"]?.string
+        let rows = try db.query("""
+        SELECT i.id,i.kind FROM content_links l JOIN content_items i ON i.id=l.target_id
+        WHERE l.source_id=? AND l.relation IN ('prerequisite','related')
+        AND i.is_active=1 AND i.kind IN ('grammar','vocabulary') ORDER BY i.kind,i.id LIMIT 20
+        """, [.text(source.rawValue)])
+        var references: [LookupEntry] = []
+        for row in rows {
+            guard let kind = LookupKind(rawValue:try row.text("kind")) else { continue }
+            if let entry = try await lookupEntry(LookupReference(contentID:ContentID(rawValue:try row.text("id")),kind:kind)) { references.append(entry) }
+        }
+        return ListeningContext(learningPoint:point,references:references)
+    }
     func listeningBatches(level: LearningLevel, after: Int) async throws -> [(Int,Int)] {
         guard try db.query("PRAGMA user_version").first?.integer("user_version") == 4 else { return [] }
         return try db.query("SELECT l.learning_order/20 AS batch,COUNT(*) AS n FROM listening_items l JOIN content_items i ON i.id=l.id WHERE i.is_active=1 AND i.level=? AND l.learning_order/20>? GROUP BY l.learning_order/20 ORDER BY batch LIMIT 30",[.text(level.rawValue),.integer(Int64(after))]).map { (try $0.integer("batch"),try $0.integer("n")) }
