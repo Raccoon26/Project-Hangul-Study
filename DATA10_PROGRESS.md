@@ -296,3 +296,8 @@ A/B/C exact gate는25/26/27fixture에 고정, final27→28이 명시188필드/17
 ### 5.6 Git 전달
 
 diff·원본/fixture·대용량을 확인하고 정상 Commit/Push/main PR·필수 검사/mergeability를 확인한다. 이전 사용자 위임/AGENTS에 따라 정상 병합 후 fetch/ff-only로 main=origin/main·clean을 대조한다. 최종 PR/merge SHA는 Git/PR과 최종 응답이 기준이다. 접근 가능한1,078blob·현재파일의50/100MiB초과0, 최대20,037,632bytes로 LFS는 불필요하다. main protection API403을 보호없음으로 해석하지 않으며 rulesets=[]/Actions workflows0은 CI PASS가 아니다. Force Push/이력 재작성/기존 원본 삭제0, 자기 SHA를 위한 재귀 commit은 하지 않는다. 이번 QA에서 종료하며 다음 단계는 시작하지 않는다.
+
+
+### 5.7 실제 Commit/Push/PR 전달
+
+검증된 코드·교정 Source/Bundle·fixture·검수/검사 기록 commit `6cd189ecb9c0941d21169d63ad368bf2d69d4d0b`를 `codex/data10-5-listening-qa`로 정상 push했고 [PR #22](https://github.com/Raccoon26/Project-Hangul-Study/pull/22)을 생성했다. ls-remote/PR의 head와 로컬 commit이 일치한다. PR은 MERGEABLE/CLEAN·statusCheckRollup=[]이며 `gh pr checks --required`는 no checks reported(exit1)다. 원격 CI PASS가 아니라 로컬403PASS·strict/byte재현·정적회귀/AI검수 범위가 실행 근거다. 보호메타403을 보호없음으로 해석하거나 admin/force로 우회하지 않는다. 이 인계 보충은 문서만 바꾸고 검증된 Source/DB/코드/테스트는 불변이다. 이전 위임에 따라 보충commit을 정상 push한 후 최신head를 확인해 정상 병합·main fetch/ff-only와 origin/main 전체SHA/clean을 대조한다. 최종 merge SHA·상태는 해당PR/Git·최종응답을 기준으로 하며 자기SHA를 위한 재귀commit은 하지 않는다. DATA10-5 QA에서 종료하고 다음 단계는 시작하지 않는다.
