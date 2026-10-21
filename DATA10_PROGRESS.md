@@ -359,3 +359,10 @@ Curriculum 初中級→듣기/듣기 Catalog→단계별 목록에서 전용 코
 최종 전체 portable **418/418 PASS (544.580초, failures/errors/skipped0, exit0)**. strict previous28·전체31테이블/Source70,823행/schema/index/byte 재현 PASS, iOS Build/XCTest/Simulator BLOCKED·독립 사람/TTS 검청 NOT TESTED를 구분한다. [원시 최종 로그](Docs/DATA10_INTEGRATION_PORTABLE_TEST_LOG.txt), [원시 최초 실패 로그](Docs/DATA10_INTEGRATION_PORTABLE_INITIAL.txt), [검사 원장](Docs/DATA10_INTEGRATION_TEST_RESULTS.json). 최초 FAIL을 지우거나 후보/전용 검사 수를418개에 중복 합산하지 않는다. 변경 전28 및 최종29의 별도 strict 재구성과 byte 비교, 110개 과거 파일 보존, 전체 행·참조를 확인했다.
 
 [Git 크기 사전 점검](Docs/DATA10_INTEGRATION_GIT_SIZE.json): 접근 가능한1,129blob/현재 보호 경로의50·100MiB 초과0, 현재 최대20,279,296bytes, 원본·번들·fixture 추적 유지. LFS 불필요·force push/이력 재작성0. 보호 API403은 권한 제한이며 보호없음으로 해석하지 않는다. rulesets=[]/Actions workflows0은 원격 CI PASS가 아니다. 최종 PR의 checks/mergeability와 정상 병합·main 전체SHA/clean을 별도 확인한다.
+
+
+### 6.7 실제 GitHub 전달
+
+검증된 Source/Bundle·불변28fixture·코스/참조·runtime/회귀·기록 commit `638d46a256344bae543368c90d21dd0498dea864`를 `codex/data10-6-listening-integration`에 일반 push했고 [PR #23](https://github.com/Raccoon26/Project-Hangul-Study/pull/23)을 생성했다. ls-remote/PR head와 로컬SHA 일치, main 대상 MERGEABLE/CLEAN·statusCheckRollup=[] 확인. `gh pr checks --required`는 no checks reported(exit1)로 원격 CI PASS가 아니다. 실행 근거는 로컬418PASS·strict/전행/byte 재현·정적/SQL/AI검수이며 Native/사람 gate는 유지한다.
+
+이 인계 문서 보충은 검증된 코드/Source/Bundle/테스트를 바꾸지 않는다. 보충commit을 정상 push하고 최신head/checks/mergeability를 다시 확인한 후 기존 위임/정책에 따라 admin/force 우회 없는 정상 병합을 수행한다. 이후 fetch/ff-only로 main=origin/main 전체SHA/clean 및 배포 Source/Bundle hash를 확인한다. 최종 merge SHA와 상태는 Git/PR·최종 응답이 기준이며 자기SHA를 기록하려고 문서commit을 반복하지 않는다. DATA10-6에서 종료하고 다음 단계는 시작하지 않는다.
