@@ -1,0 +1,108 @@
+{
+  "recorded_at_utc": "2026-10-21T08:07:59.560679+00:00",
+  "scope": "DATA10-6 Cloud portable/SQLite/static contracts; not native certification",
+  "command": "PATH=/tmp/hangul-content-writer-gcc/bin:$PATH sh Tools/verify.sh --portable",
+  "portable": {
+    "status": "PASS",
+    "executed": 418,
+    "passed": 418,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "seconds": 544.58,
+    "exit_code": 0
+  },
+  "initial_full": {
+    "status": "FAIL",
+    "executed": 418,
+    "passed": 414,
+    "failed": 1,
+    "errors": 3,
+    "seconds": 552.02,
+    "exit_code": 1,
+    "causes": [
+      "Legacy total courses expectation omitted three newly approved courses",
+      "Two legacy tests selected first SQL instead of listening query",
+      "Legacy SQL preparation test routed new examples query to user DB"
+    ],
+    "log": "Docs/DATA10_INTEGRATION_PORTABLE_INITIAL.txt"
+  },
+  "candidate_initial": {
+    "executed": 15,
+    "passed": 14,
+    "failed": 1,
+    "seconds": 21.829,
+    "cause": "Test wrongly assumed Grammar question_target instead of Listening questions.listening_id FK"
+  },
+  "candidate_final": {
+    "status": "PASS",
+    "executed": 15,
+    "passed": 15,
+    "failed": 0,
+    "errors": 0,
+    "seconds": 21.958
+  },
+  "content_metadata": {
+    "schema_version": 4,
+    "content_version": 29,
+    "min_reader_version": 7,
+    "dataset_id": "ko-ja-core",
+    "is_fixture": 0,
+    "source_locale": "ja",
+    "target_locale": "ko"
+  },
+  "source_sha256": "85a6a592256db104bf5e072bef95455cba37e7f1f2ed92f5686e1ef83223e965",
+  "bundle_sha256": "228d5572391d4c56509f83c57415c9b76b69c82ce2e7e48ebea82af97630b4af",
+  "strict_previous28": {
+    "status": "PASS",
+    "errors": 0,
+    "warnings": 10,
+    "new_warnings": 0
+  },
+  "reconstruction": {
+    "status": "PASS",
+    "tables": 31,
+    "source_rows": 70823,
+    "all_rows_equal": true,
+    "schema_and_indexes_equal": true,
+    "byte_equal": true
+  },
+  "native": {
+    "status": "BLOCKED",
+    "reason": "Linux Cloud, xcodebuild and swift commands absent (exit127)",
+    "authored_methods": 148,
+    "executed_methods": 0,
+    "new_authored_methods": 3,
+    "builds_executed": 0,
+    "simulator_executed": 0,
+    "previous_mac": {
+      "executed": 142,
+      "passed": 137,
+      "failed": 5,
+      "scope": "Historical Content24, not rerun/cleared by this Cloud result"
+    }
+  },
+  "independent_human_review": "NOT TESTED",
+  "actual_tts_audition": "NOT TESTED",
+  "verified_recordings": 0,
+  "device_audio_background_voiceover_offline_memory_micro_session": "BLOCKED",
+  "real_admob_storekit_entitlement_restore": "BLOCKED",
+  "monetization_static": {
+    "release_ads": "disabled: production IDs absent",
+    "product_id": "remove_ads"
+  },
+  "release": "B—Conditional",
+  "remaining": [
+    "Prior native conjugation 되다/뵈다 P1 and five prior Mac failures require native rerun",
+    "Prior preplay disclosure P1 static fix awaits VoiceOver/device verification",
+    "Unsubmitted TextField draft persistence P2 remains unsupported",
+    "Old163 prerequisites120resolved/7conditional/36unresolved (8level concerns)",
+    "New12 surface families/27 originals still need preview/teacher review"
+  ],
+  "git_preflight": {
+    "main_protection_metadata": "403 integration access denied; not treated as no protection",
+    "rulesets": [],
+    "actions_workflows": 0,
+    "force_push": false
+  }
+}

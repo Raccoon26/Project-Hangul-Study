@@ -65,7 +65,7 @@ actor SQLiteContentRepository: ContentRepository {
         }
     }
     func courses() async throws -> [Course] {
-        try db.query("SELECT c.* FROM courses c JOIN content_items i ON i.id=c.id WHERE i.is_active=1 AND NOT EXISTS(SELECT 1 FROM lessons l JOIN lesson_items li ON li.lesson_id=l.id JOIN grammar g ON g.id=li.content_id WHERE l.course_id=c.id) ORDER BY c.ordinal,c.id").map { row in
+        try db.query("SELECT c.* FROM courses c JOIN content_items i ON i.id=c.id WHERE i.is_active=1 AND NOT EXISTS(SELECT 1 FROM lessons l JOIN lesson_items li ON li.lesson_id=l.id JOIN content_items typed ON typed.id=li.content_id WHERE l.course_id=c.id AND typed.kind IN ('grammar','listening')) ORDER BY c.ordinal,c.id").map { row in
             let courseID = try row.text("id")
             let lessons = try db.query("""
             SELECT l.id,l.title_ja,(SELECT COUNT(*) FROM lesson_items li JOIN content_items ci ON ci.id=li.content_id

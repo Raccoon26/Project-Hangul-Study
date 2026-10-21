@@ -8,7 +8,7 @@ class ListeningTests(unittest.TestCase):
  def setUpClass(cls):
   cls.source=json.loads((ROOT/'Content/production.json').read_text())
   cls.code=(ROOT/'Repositories/SQLiteListening.swift').read_text()
-  cls.content_sql=re.findall(r'"""(.*?)"""',cls.code,re.S)[0]
+  cls.content_sql=next(q for q in re.findall(r'"""(.*?)"""',cls.code,re.S) if q.strip().startswith('SELECT q.*,l.id'))
   cls.sql=re.findall(r'"([^"\n]+)"',cls.code)
  def query(self,prefix):return next(q for q in self.sql if q.startswith(prefix))
  def user(self):
@@ -17,7 +17,7 @@ class ListeningTests(unittest.TestCase):
   return db
  def test_source_levels_tasks_and_no_sentence_duplication(self):
   db=sqlite3.connect(ROOT/'Resources/content.sqlite');db.row_factory=sqlite3.Row
-  self.assertEqual(tuple(db.execute('SELECT schema_version,content_version,min_reader_version FROM content_metadata').fetchone()),(4,28,7))
+  self.assertEqual(tuple(db.execute('SELECT schema_version,content_version,min_reader_version FROM content_metadata').fetchone()),(4,29,7))
   self.assertEqual(db.execute('SELECT COUNT(*) FROM listening_items').fetchone()[0],2296)
   self.assertEqual(db.execute('SELECT COUNT(*) FROM examples').fetchone()[0],4993)
   for level in ['intro','beginner']:
@@ -84,9 +84,10 @@ class ListeningTests(unittest.TestCase):
   self.assertIn('INDEX',str(db.execute('EXPLAIN QUERY PLAN '+self.query('SELECT content_id FROM srs_state WHERE skill='),['calendar_steps',1,100]).fetchall()));db.close()
  def test_all_new_sql_prepares(self):
   user=self.user();content=sqlite3.connect(ROOT/'Resources/content.sqlite')
-  for sql in self.sql:
+  for sql in self.sql+re.findall(r'"""(.*?)"""',self.code,re.S):
+   sql=sql.strip()
    if sql.startswith(('SELECT ','INSERT ','UPDATE ')):
-    db=content if ('FROM question_choices' in sql or 'FROM listening_items' in sql) else user;db.execute('EXPLAIN '+sql,[None]*sql.count('?'))
+    db=content if sql in self.code.split('extension SQLiteProgressRepository')[0] else user;db.execute('EXPLAIN '+sql,[None]*sql.count('?'))
   user.close();content.close()
 
  def test_batch_pagination_is_bounded_and_editorial_order_stable(self):

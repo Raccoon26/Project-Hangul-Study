@@ -8,15 +8,19 @@ from prepare_data10_final import prepare,BASE_SHA
 from audit_data10_final import audit,registries,view_contract,norm
 from test_data05_content import query
 from test_lookup_sql import user
-SOURCE=Path(os.environ.get('DATA10_QA_SOURCE',ROOT/'Content/production.json'))
-BUNDLE=Path(os.environ.get('DATA10_QA_BUNDLE',ROOT/'Resources/content.sqlite'))
+SOURCE=Path(os.environ.get('DATA10_QA_SOURCE',ROOT/'Tests/Fixtures/content-v28-production.json.gz'))
+BUNDLE=Path(os.environ.get('DATA10_QA_BUNDLE',ROOT/'Tests/Fixtures/content-v28-production.sqlite'))
 class Data10FinalTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
+        global SOURCE
+        cls.released_source=tempfile.TemporaryDirectory()
+        if SOURCE.suffix=='.gz':
+            raw=gzip.decompress(SOURCE.read_bytes());SOURCE=Path(cls.released_source.name)/'content28.json';SOURCE.write_bytes(raw)
         cls.src=json.loads(SOURCE.read_text());cls.t=cls.src['tables'];cls.items=registries();cls.by={r['key']:r for r in cls.items};cls.e={r['id']:r for r in cls.t['examples']};cls.q={r['id']:r for r in cls.t['questions']}
         cls.oldsrc=json.loads(gzip.decompress((ROOT/'Tests/Fixtures/content-v27-production.json.gz').read_bytes()));cls.db=sqlite3.connect(BUNDLE);cls.old=sqlite3.connect(ROOT/'Tests/Fixtures/content-v27-production.sqlite');cls.manifest=json.loads((ROOT/'Content/data10-final-corrections.json').read_text());cls.revised=set(json.loads((ROOT/'Content/data10-final-revised-ids.json').read_text()))
     @classmethod
-    def tearDownClass(cls):cls.db.close();cls.old.close()
+    def tearDownClass(cls):cls.db.close();cls.old.close();cls.released_source.cleanup()
     def test_frozen27_and_deterministic_strict28_byte_reconstruction(self):
         self.assertEqual(hashlib.sha256(gzip.decompress((ROOT/'Tests/Fixtures/content-v27-production.json.gz').read_bytes())).hexdigest(),BASE_SHA)
         self.assertEqual(hashlib.sha256((ROOT/'Tests/Fixtures/content-v27-production.sqlite').read_bytes()).hexdigest(),'a937df17bfb88b69504811048c2660086af174dc7633d04f852a3ce10236b48c')

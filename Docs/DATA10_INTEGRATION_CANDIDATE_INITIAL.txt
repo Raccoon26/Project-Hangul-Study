@@ -1,0 +1,28 @@
+test_ads_purchase_entitlement_and_user_migration_sources_are_unchanged (test_data10_integration.Data10IntegrationTests.test_ads_purchase_entitlement_and_user_migration_sources_are_unchanged) ... ok
+test_all150_dictations_keep_canonical_answers_and_general_input_policy (test_data10_integration.Data10IntegrationTests.test_all150_dictations_keep_canonical_answers_and_general_input_policy) ... ok
+test_all180_origins_two_tasks_and_no_old1936_content_recount_or_audio_claim (test_data10_integration.Data10IntegrationTests.test_all180_origins_two_tasks_and_no_old1936_content_recount_or_audio_claim) ... ok
+test_all360_question_example_grammar_vocabulary_chains_and_reviewed_surface_forms (test_data10_integration.Data10IntegrationTests.test_all360_question_example_grammar_vocabulary_chains_and_reviewed_surface_forms) ... FAIL
+test_all_three_courses72_small_lessons_reachable_via_actual_typed_sql (test_data10_integration.Data10IntegrationTests.test_all_three_courses72_small_lessons_reachable_via_actual_typed_sql) ... ok
+test_disk28_update_keeps_every_user_table_bytes_snapshot_due_settings_and_favorites (test_data10_integration.Data10IntegrationTests.test_disk28_update_keeps_every_user_table_bytes_snapshot_due_settings_and_favorites) ... ok
+test_duplicate_attempt_and_srs_keys_rollback_without_losing_prior_due (test_data10_integration.Data10IntegrationTests.test_duplicate_attempt_and_srs_keys_rollback_without_losing_prior_due) ... ok
+test_frozen28_strict29_reproduction_all31_tables_schema_and_bytes (test_data10_integration.Data10IntegrationTests.test_frozen28_strict29_reproduction_all31_tables_schema_and_bytes) ... ok
+test_generic_lesson_engine_cannot_receive_listening_or_grammar_courses (test_data10_integration.Data10IntegrationTests.test_generic_lesson_engine_cannot_receive_listening_or_grammar_courses) ... ok
+test_new_lesson_resume_scope_retry_stats_and_completed_counts_use_saved_sql (test_data10_integration.Data10IntegrationTests.test_new_lesson_resume_scope_retry_stats_and_completed_counts_use_saved_sql) ... ok
+test_offline_queries_search_stats_and_maintenance_without_network (test_data10_integration.Data10IntegrationTests.test_offline_queries_search_stats_and_maintenance_without_network) ... ok
+test_old20_question_batches_and_order_unchanged_alongside_new_five_question_scopes (test_data10_integration.Data10IntegrationTests.test_old20_question_batches_and_order_unchanged_alongside_new_five_question_scopes) ... ok
+test_only_explicit747_endpoint_revisions_no_payload_or_existing_membership_changes (test_data10_integration.Data10IntegrationTests.test_only_explicit747_endpoint_revisions_no_payload_or_existing_membership_changes) ... ok
+test_post_answer_context_and_audio_completion_stop_background_source_guards (test_data10_integration.Data10IntegrationTests.test_post_answer_context_and_audio_completion_stop_background_source_guards) ... ok
+test_strict_rejects_missing_id_unrevised_relation_and_dangling_reference (test_data10_integration.Data10IntegrationTests.test_strict_rejects_missing_id_unrevised_relation_and_dangling_reference) ... ok
+
+======================================================================
+FAIL: test_all360_question_example_grammar_vocabulary_chains_and_reviewed_surface_forms (test_data10_integration.Data10IntegrationTests.test_all360_question_example_grammar_vocabulary_chains_and_reviewed_surface_forms)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/Project-Hangul-Study/Tools/ContentBuilder/test_data10_integration.py", line 76, in test_all360_question_example_grammar_vocabulary_chains_and_reviewed_surface_forms
+    self.assertEqual(self.db.execute("SELECT COUNT(*) FROM content_links WHERE source_id=? AND target_id=? AND relation='question_target'",[rows[0][0],lid]).fetchone()[0],1)
+AssertionError: 0 != 1
+
+----------------------------------------------------------------------
+Ran 15 tests in 21.829s
+
+FAILED (failures=1)

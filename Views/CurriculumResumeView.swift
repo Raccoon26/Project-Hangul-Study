@@ -23,7 +23,7 @@ struct CurriculumResumeView: View {
                 case "production": ProductionStudyView(services:services,id:ContentID(rawValue:route.target))
                 case "listening":
                     let parts = route.target.split(separator:":").map(String.init)
-                    ListeningStudyView(services:services,level:parts.count >= 2 ? LearningLevel(rawValue:parts[1]) : nil,batch:parts.count >= 3 ? (Int(parts[2]) ?? 0) : 0,resumeScope:route.target)
+                    ListeningStudyView(services:services,level:parts.count >= 2 ? LearningLevel(rawValue:parts[1]) : nil,batch:parts.count >= 3 ? (Int(parts[2]) ?? 0) : 0,resumeScope:route.target,lessonID:parts.count == 3 && parts[0] == "lesson" ? ContentID(rawValue:parts[2]) : nil)
                 case "lesson":
                     if let course = course { LessonFlowView(services:services,course:course,start:index) } else { waiting }
                 default:

@@ -1,3 +1,15 @@
+# DATA-10-6 / Listening·Dictation Production 통합 — Content29
+
+**Content29 / Schema4 / reader7 / UserProgress10.** DATA10 신규180원문/360문항을 기존 ID로 初中級3코스·72레슨·6Unit에 배치했다. 레슨당5문항, 내용이해 후 별도 기회에 받아쓰기 등으로 이어지며 기존20문항 연습번호·순서·active snapshot은 보존한다. 해답 후 원문 learning point와 기존 Grammar180참조(77고유)·Vocabulary180참조(130고유)를 사전에 연결했다. 전용 듣기 엔진·SRS·Home Resume를 재사용하고 일반 LessonStep 경로와 구분했다.
+
+전체 V2,287/M2,420/E4,993/G96/Q3,913/L2,296, Course11/Lesson175. 본문·정답·기존 배치 변경0, 신규 배치ID81개와 승인된 관계 끝점747개 revision+1만 반영했다. 실제 직전28 source/DB와110과거파일 byte 보존, strict previous28 오류0/기존경고10·Source70,823행/전31테이블·schema/index/byte 재현 일치. 신규 원문·문항 수를 관계/레슨 수로 부풀리지 않는다.
+
+최종 전체 portable **418/418 PASS (544.580초, failures/errors/skipped0, exit0)**. strict previous28·전체31테이블/Source70,823행/schema/index/byte 재현 PASS, iOS Build/XCTest/Simulator BLOCKED·독립 사람/TTS 검청 NOT TESTED를 구분한다.
+
+검사 결과는 [DATA10_PROGRESS §6](DATA10_PROGRESS.md)·[통합 보고](Docs/DATA10_INTEGRATION_REVIEW.md)·[실행 원장](Docs/DATA10_INTEGRATION_TEST_RESULTS.json)을 따른다. Cloud iOS Build/Simulator·XCTest148정의·실행0 **BLOCKED**, 독립 사람/TTS 검청 **NOT TESTED**, 검증녹음0·기존 native5FAIL/활용P1·미제출 입력 초안 저장P2·선행163후보36미해결/신규12계열27원문 확인 필요 유지. **Release B—Conditional**. DATA10-7/다음 단계는 시작하지 않는다. 아래 '현재'·수량·버전은 각 단계 당시의 이력이다.
+
+---
+
 # DATA-10-5 / Listening·Dictation 전체 QA — Content28
 
 **Content28 / Schema4 / reader7 / UserProgress10**, 기존 수량/ID 불변: DATA10 신규180원문/360문제, 전체 Listening2,296/Example4,993/Question3,913/Vocabulary2,287/Grammar96. A~C 전180한일 원문·360문항·630선택지·150accepted를 AI가 별도 재독했다. 독립 원어민·교사/실제TTS 검청 NOT TESTED, 검증 녹음0 유지.

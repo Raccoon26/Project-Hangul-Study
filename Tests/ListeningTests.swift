@@ -468,4 +468,103 @@ final class ListeningTests: XCTestCase {
         XCTAssertEqual(tasks,["comprehension":60,"dictation":60])
     }
 
+    // Authored in Cloud; these require Xcode and are not portable PASS evidence.
+    func testDATA10IntegratedCoursesReachAll360AndFeedbackReferences() async throws {
+        let content = try SQLiteContentRepository(url:XCTUnwrap(Bundle.main.url(forResource:"content",withExtension:"sqlite")),allowFixture:false)
+        let courses = try await content.listeningCourses(level:.lowerIntermediate)
+        XCTAssertEqual(courses.count,3)
+        var seen = Set<ContentID>(), sources = Set<ContentID>()
+        for course in courses {
+            XCTAssertEqual(course.lessons.count,24)
+            for lesson in course.lessons {
+                let ids = try await content.listeningLessonIDs(lesson:lesson.id)
+                XCTAssertEqual(ids.count,5)
+                let questions = try await content.listeningQuestions(level:.lowerIntermediate,ids:ids)
+                XCTAssertEqual(questions.map(\.itemID),ids)
+                XCTAssertEqual(Set(questions.map(\.sourceID)).count,5)
+                for q in questions {
+                    XCTAssertTrue(seen.insert(q.itemID).inserted); sources.insert(q.sourceID)
+                    let context = try await content.listeningContext(source:q.sourceID)
+                    XCTAssertEqual(context.references.count,2)
+                    XCTAssertEqual(Set(context.references.map(\.reference.kind)),Set([LookupKind.grammar,.vocabulary]))
+                    XCTAssertFalse(context.learningPoint?.isEmpty ?? true)
+                    XCTAssertEqual(q.judge(q.correctID ?? q.transcript),.correct)
+                    try q.validate()
+                }
+            }
+        }
+        XCTAssertEqual(seen.count,360); XCTAssertEqual(sources.count,180)
+        let generic = try await content.courses()
+        XCTAssertTrue(Set(generic.map(\.id)).isDisjoint(with:courses.map(\.id)))
+    }
+    func testDATA10LessonPartialColdResumeContentUpdateRetryAndNoDoubleSRS() async throws {
+        let content = try SQLiteContentRepository(url:XCTUnwrap(Bundle.main.url(forResource:"content",withExtension:"sqlite")),allowFixture:false)
+        let courses = try await content.listeningCourses(level:.lowerIntermediate)
+        let lesson = try XCTUnwrap(courses.first?.lessons.first)
+        let ids = try await content.listeningLessonIDs(lesson:lesson.id)
+        let questions = try await content.listeningQuestions(level:.lowerIntermediate,ids:ids)
+        let metadata = try await content.metadata()
+        let folder = FileManager.default.temporaryDirectory.appendingPathComponent(UUID().uuidString)
+        try FileManager.default.createDirectory(at:folder,withIntermediateDirectories:true)
+        defer { try? FileManager.default.removeItem(at:folder) }
+        let schema = try String(contentsOf:XCTUnwrap(Bundle.main.url(forResource:"user-schema-v1",withExtension:"sql")),encoding:.utf8)
+        let path = folder.appendingPathComponent("user.sqlite")
+        let repo = try SQLiteProgressRepository(url:path,schema:schema,datasetID:"ko-ja-core")
+        let scope = "lesson:lower_intermediate:"+lesson.id.rawValue
+        var s = try await repo.beginListening(scope:scope,questions:questions,version:metadata.contentVersion,review:false)
+        let q = try XCTUnwrap(s.current)
+        s = try await repo.updateListening(s,action:.played(.slow),now:Date())
+        let stale = s
+        let wrong = try XCTUnwrap(q.choices.first(where:{$0.id != q.correctID})).id
+        s = try await repo.updateListening(s,action:.submit(wrong),now:Date())
+        do { _ = try await repo.updateListening(stale,action:.submit(wrong),now:Date()); XCTFail("duplicate accepted") } catch {}
+        let dueBefore = try await repo.reviewState(for:q.itemID,skill:"listening")
+        let cold = try SQLiteProgressRepository(url:path,schema:schema,datasetID:"ko-ja-core")
+        let restored = try await cold.beginListening(scope:scope,questions:Array(questions.reversed()),version:metadata.contentVersion+1,review:false)
+        XCTAssertEqual(restored.id,s.id); XCTAssertEqual(restored.contentVersion,metadata.contentVersion)
+        XCTAssertEqual(restored.questions.map(\.id),s.questions.map(\.id))
+        XCTAssertEqual(restored.questions.first?.choices,s.questions.first?.choices)
+        XCTAssertEqual(restored.retry,[0]); XCTAssertTrue(restored.heard)
+        XCTAssertEqual(restored.result,.incorrect); XCTAssertEqual(restored.slowCount,1)
+        let route = try await cold.curriculumResume(); XCTAssertEqual(route?.target,scope)
+        s = try await cold.updateListening(restored,action:.next,now:Date())
+        while !s.completed {
+            let item = try XCTUnwrap(s.current)
+            s = try await cold.updateListening(s,action:.played(.normal),now:Date())
+            s = try await cold.updateListening(s,action:.submit(item.correctID ?? item.transcript),now:Date())
+            s = try await cold.updateListening(s,action:.next,now:Date())
+        }
+        XCTAssertEqual(s.correct,4); XCTAssertEqual(s.wrong,1); XCTAssertEqual(s.retrySuccess,1)
+        let dueAfter = try await cold.reviewState(for:q.itemID,skill:"listening")
+        XCTAssertEqual(dueBefore?.nextReviewAt,dueAfter?.nextReviewAt)
+        let counts = try await cold.curriculumCounts(ids:ids,kind:"listening"); XCTAssertEqual(counts.0,5)
+        let active = try await cold.activeListening(scope:scope); XCTAssertNil(active)
+        var repeatSession = try await cold.beginListening(scope:scope,questions:questions,version:metadata.contentVersion,review:false)
+        let first = try XCTUnwrap(repeatSession.current)
+        repeatSession = try await cold.updateListening(repeatSession,action:.played(.normal),now:Date())
+        _ = try await cold.updateListening(repeatSession,action:.submit(first.correctID ?? first.transcript),now:Date())
+        let afterPractice = try await cold.reviewState(for:q.itemID,skill:"listening")
+        XCTAssertEqual(afterPractice?.nextReviewAt,dueBefore?.nextReviewAt)
+    }
+    func testDATA10IntegratedDictationSpacingPunctuationAndSavedHeardState() async throws {
+        let content = try SQLiteContentRepository(url:XCTUnwrap(Bundle.main.url(forResource:"content",withExtension:"sqlite")),allowFixture:false)
+        let courses = try await content.listeningCourses(level:.lowerIntermediate)
+        let course = try XCTUnwrap(courses.last)
+        let lesson = try XCTUnwrap(course.lessons.last)
+        let ids = try await content.listeningLessonIDs(lesson:lesson.id)
+        let questions = try await content.listeningQuestions(level:.lowerIntermediate,ids:ids)
+        for q in questions {
+            XCTAssertEqual(q.task,.dictation)
+            XCTAssertEqual(q.judge(q.transcript),.correct)
+            XCTAssertEqual(q.judge(String(q.transcript.dropLast())),.correct)
+            XCTAssertEqual(q.judge(q.transcript.replacingOccurrences(of:" ",with:"")),.spacing)
+            XCTAssertEqual(q.judge(q.transcript+"틀린 내용"),.incorrect)
+            var s = session([q]); XCTAssertThrowsError(try s.apply(.submit(q.transcript),at:Date()))
+            try s.apply(.played(.slow),at:Date())
+            s = try JSONDecoder().decode(ListeningSession.self,from:JSONEncoder().encode(s))
+            XCTAssertTrue(s.heard); XCTAssertEqual(s.slowCount,1)
+            try s.apply(.submit(q.transcript),at:Date()); XCTAssertEqual(s.result,.correct)
+        }
+    }
+
 }

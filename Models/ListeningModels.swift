@@ -1,6 +1,10 @@
 import Foundation
 
 enum ListeningTask: String, Codable, Sendable { case meaning, korean, dictation, comprehension }
+struct ListeningContext: Sendable {
+    let learningPoint: String?
+    let references: [LookupEntry]
+}
 struct ListeningQuestion: Codable, Identifiable, Sendable {
     let id: ContentID
     let itemID: ContentID

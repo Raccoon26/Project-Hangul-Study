@@ -301,3 +301,68 @@ diff·원본/fixture·대용량을 확인하고 정상 Commit/Push/main PR·필�
 ### 5.7 실제 Commit/Push/PR 전달
 
 검증된 코드·교정 Source/Bundle·fixture·검수/검사 기록 commit `6cd189ecb9c0941d21169d63ad368bf2d69d4d0b`를 `codex/data10-5-listening-qa`로 정상 push했고 [PR #22](https://github.com/Raccoon26/Project-Hangul-Study/pull/22)을 생성했다. ls-remote/PR의 head와 로컬 commit이 일치한다. PR은 MERGEABLE/CLEAN·statusCheckRollup=[]이며 `gh pr checks --required`는 no checks reported(exit1)다. 원격 CI PASS가 아니라 로컬403PASS·strict/byte재현·정적회귀/AI검수 범위가 실행 근거다. 보호메타403을 보호없음으로 해석하거나 admin/force로 우회하지 않는다. 이 인계 보충은 문서만 바꾸고 검증된 Source/DB/코드/테스트는 불변이다. 이전 위임에 따라 보충commit을 정상 push한 후 최신head를 확인해 정상 병합·main fetch/ff-only와 origin/main 전체SHA/clean을 대조한다. 최종 merge SHA·상태는 해당PR/Git·최종응답을 기준으로 하며 자기SHA를 위한 재귀commit은 하지 않는다. DATA10-5 QA에서 종료하고 다음 단계는 시작하지 않는다.
+
+
+## 6. DATA-10-6 — Listening/Dictation Production·Curriculum 통합 (2026-10-21)
+
+### 6.1 시작 상태와 버전 보존
+
+최신 main/origin/main `d76f0b89c38c892005de68aef206229234d141c9` clean·ahead/behind0/0, 지정 remote·ADMIN·기본 main을 확인하고 `codex/data10-6-listening-integration`에서 시작했다. Content28/Schema4/reader7/UserProgress10·전180원문/360문항 QA 기록이 실제 기준이다. 실제 직전28 source.gz/DB를 신규 불변 fixture로 보존했고 과거110개 Source/Resources/fixture 파일 byte를 대조했다. Source25테이블69,787행·DB31테이블의 변경 전28도 strict previous27로 SHA까지 재현했다.
+
+처음 writer 설치는 Python 설정이 없는 clang을 선택해 실패했다. 설치된 GCC14의 CC/LDSHARED override를 새 격리 디렉터리에 적용해 SQLite3.53.1/STAT4 없음·기존 동일 writer profile을 구성했다. 시스템 Python/DDL/Validator/통계 배치를 수정하지 않았다. [환경](Docs/DATA10_INTEGRATION_ENVIRONMENT.json), [변경 전 strict 재현](Docs/DATA10_INTEGRATION_PREFLIGHT28.json), [writer 정책](Docs/DATA10_WRITER.md).
+
+후보 Content29를 /tmp에 준비해 strict `--previous content-v28-production.sqlite --production` **오류0/기존경고10**을 통과했다. Schema4/reader7/UserProgress10 유지. 경고는 기존 한 글자 발음 예문5개·동형 표제어 후보5개로 신규 경고0이다. 기존27 미래 stamp를 보존하고 metadata 단조 후행08:00:02Z를 사용했으며 실제 시간은 별도 recorded_at_utc다. 다음 실제 변경은29를 먼저 보존한다.
+
+### 6.2 실제 배치·원문 참조와 수량
+
+신규 원문/문항 추가0, DATA10 누적 **180고유원문/360문항**·전체 목표150~250/300~500 충족 유지. 기존 원문 ID를 재사용하는 **3코스/72레슨/6Unit, 각5문항**을 추가했다. A/B/C 각24레슨이며 내용이해12개 후 별도 기회에 두 번째 과제12개를 배치한다. 같은 원문의 두 과제를 같은 레슨에 넣지 않았다. 기존103레슨·코스0~7·learning_order·20문항 배치103~120/부분 구간·session snapshot/선택지 순서·Vocabulary set membership 변경0이다.
+
+신규 stable UUID81개는 고정 manifest에 발급 후 보존했다. lesson membership360·원문별 기존Grammar1개와Vocabulary1개(각180관계/고유77·130)를 추가했고 모든 관계 끝점 **747개**(L360/E180/G77/V130)만 승인 목록에 따라 revision+1/updated_at 갱신했다. 본문·정답·선택지/accepted 변경0, ID 삭제0이다. [고정 배치/관찰 형태](Content/data10-integration-ids.json), [승인revision](Content/data10-integration-revised-ids.json).
+
+전체 **Vocabulary2,287 / Meaning2,420 / Example4,993 / Grammar96 / Question3,913 / Listening2,296 / Course11 / Lesson175**, source25테이블 **70,823행**, SQLite31테이블이다. level 분포와 전체 source/DB 행·schema/index·重複포함 byte 대조는 [수량/보존](Docs/DATA10_INTEGRATION_COUNTS.json)에 있다. 신규81개 배치 entity/360관계를 원문·문항 수로 합산하지 않는다.
+
+初中級 Vocabulary1,181 / Example2,757 / Grammar54 / Question3,564 / Listening2,183. 入門306/659/22/156/34, 初級800/1,577/20/134/79, 한글 문항59개다. 모든 듣기 단일화자TTS/검증녹음0, 실제검청·독립 사람 NOT TESTED 유지.
+
+### 6.3 실제 엔진·Resume·정답 공개 경로
+
+Curriculum 初中級→듣기/듣기 Catalog→단계별 목록에서 전용 코스에 접근한다. `listeningCourses/listeningLessonIDs`가 기존 Course/Lesson 테이블을 읽고 ListeningStudyView/기존 ListeningSession 엔진에5문항을 전달한다. 일반 courses/curriculum lessonIDs에서 typed grammar/listening 레슨을 제외해 지원하지 않는 LessonStep kind 경로를 막았다. generic 初中級47레슨은 이전대로다.
+
+해답 판정 후에만 Example learning_point_ja와 Grammar/Vocabulary 사전 링크를 생성한다. 기존 Grammar 학습·퀴즈/SRS, Vocabulary 회독/활용/문장 생성·Search/Favorites 화면을 재사용한다. 선택지·Transcript·번역/정답의 재생 전 노출 guard는 유지했다. 새로운 문항 유형·강제 선행 잠금·Listening Favorites/Transcript 검색은 추가하지 않았다.
+
+새 scope `lesson:lower_intermediate:<stable lesson UUID>`의 Home Resume 파싱/lessonID 복원, active snapshot 우선 로드, membership 순서로 snapshot 구성을 연결했다. ContentVersion·choice order·heard·feedback·retry/position·기존 SRS due를 갱신 콘텐츠로 덮어쓰지 않는다. 같은 Listening ID/skill PK1개이며 두 task의 같은 source에 SRS2개가 생기는 기존 정책을 유지한다. retry를 first-pass 정답/SRS 승급으로 세지 않고 nonreview 재연습으로 due를 초기화하지 않는다.
+
+재생완료·판정·다음 이동은 기존 transaction 즉시 저장을 사용한다. SQL에서 partial/완료 구분·retry 집계·중복PK/rollback·Resume를 확인했다. 미제출 입력 초안은 기존 @State뿐이라 화면/프로세스 종료 후 영속 복원되지 않는 **P2 한계**를 별도 기록한다. 판정·학습 위치 저장과 구분하며 초안 저장을 완료로 표시하지 않는다. 실제 background 복귀·audio interruption/stop/normal/slow·VoiceOver/IME·기기3~10분은 BLOCKED다.
+
+### 6.4 검증 범위·발견/수정·성능
+
+**INTEGRATION-L01/P2 수정**: A41의 머리 참조는 사전 기본 뜻「頭」를 표시하지만 원문은 머리카락 자르기 문맥이다. 같은 기존 어휘의 머리카락 의미까지 변경하는 대신, 명확한 기존 동사 `자르다 / 切る`(관찰형 자르지)로 새 참조만 교정하고 회귀 assertion을 추가했다. 원문·기존 어휘/뜻/ID는 보존했다. 최종28→29 후보를 다시 생성해15/15 PASS(21.958초) 후 반영했다.
+
+전용 candidate 최초15개는14PASS/1FAIL(21.829초): 검사에서 Grammar용 question_target 관계를 듣기에 가정했다. 실제 듣기 FK인 questions.listening_id를 검사하도록 바로잡았으며 데이터/Validator 완화0이다. 최종 **15/15 PASS(21.958초)**. [최초 로그](Docs/DATA10_INTEGRATION_CANDIDATE_INITIAL.txt), [최종 로그](Docs/DATA10_INTEGRATION_CANDIDATE_FINAL.txt).
+
+전용 검사는 실제28 freeze/strict29 결정적 재현·81새ID/747승인fingerprint·기존본문/배치 보존·3/72/360 도달·180G/180V 형태/참조·old1936와 새원문 구분·기존20문항 번호·전체사용자SQLite byte/snapshot/due/즐겨찾기/설정/통계/Resume·새scope와partial/완료/retry집계·SRS PK/rollback·해답후context/Audio guard정적·150canonical accepted·거부검사·network차단SQL·monetization/migration source불변을 포함한다. Python SQL/opaque JSON/정적검사는 Swift actor/Codable/실제UI 실행이 아니다.
+
+전체 최초 실행418개는414PASS/1FAIL/3ERROR(552.020초,exit1)였다. 코스 전체 기대값8→11은 기존8개 제목/순서를 보존하면서 승인된3개를 뒤에 추가하도록 갱신했다. 전체 portable 최초 실행에서 구검사3개 오류를 발견했다. 2개는 '파일 첫 SQL=듣기 조회' 가정, 1개는 examples 조회를 UserProgress DB로 분류한 오류였다. 실제 SQL prefix/repository extension으로 query·DB를 선택하고 multiline SQL 준비 검사도 보강했다. 초기 로그를 보존한다. 최종 전체 portable **418/418 PASS (544.580초, failures/errors/skipped0, exit0)**. strict previous28·전체31테이블/Source70,823행/schema/index/byte 재현 PASS, iOS Build/XCTest/Simulator BLOCKED·독립 사람/TTS 검청 NOT TESTED를 구분한다. native3개 메서드 추가(현재148정의/실행0): 모든360실제문항/180참조, 5문항세션 cold Resume/ContentVersion보존/CAS/retry/반복연습due, 실제dictation 채점을 작성했다. Xcode/Swift exit127로 Build/XCTest/Simulator **BLOCKED**다.
+
+[40회 warm SQL 측정](Docs/DATA10_INTEGRATION_PERFORMANCE.json): network socket 금지·이전28/현재29 search/catalog/curriculum과 현재 Home/SRS/Resume/5문항/통계/유지학습을 실행했다. search p95 0.8127→0.8156ms, 3코스1.2672ms·5문항0.0577ms·Home0.2965ms·SRS20개0.1704ms. 실제 Swift 생성·UI startup·RAM·학습3~10분 인증은 아니다. DB20,037,632→20,279,296bytes, 소량 지연 차이의 OS noise를 고려하고 원시 값을 그대로 보존한다.
+
+### 6.5 남은 gate / Release B—Conditional
+
+이번은 기존180개 한일 언어 QA를 보존하고 새참조180G/180V·코스 문구·불규칙 관찰형을 AI로 재확인한 통합 단계다. 독립 원어민·교사/외부 사전·TTS 검청 NOT TESTED, 검증녹음0이다. 기존163후보120해결/7조건부/36미해결(Level8), 신규12계열/27원문의 사전 설명/교사 확인 필요는 참조 배치만으로 해결되지 않는다.
+
+이전 Mac142실행137PASS/5FAIL(되다/뵈다 활용 P1·StoreKit cold cache 원인미확정·cohort/course 가정 실패)을 유지하고 이번 Cloud 실행으로 덮어쓰지 않는다. DATA10-5 노출P1은 코드/정적PASS·실제VoiceOver대기, 이번 새runtime P0/P1 재현0은 전체앱 무결성 보장이 아니다. 판정 전 입력 초안 영속화P2·실기기 audio/interrupt/offline/background/IME/VoiceOver/Dynamic Type/RAM/실제3~10분·실제 AdMob/StoreKit 권한은 미실행이다. monetization/migration 파일 byte불변·정적검사/SQLite보존을 실제 권한 복원 PASS로 주장하지 않는다. **Release B—Conditional**.
+
+[통합 상세/재현](Docs/DATA10_INTEGRATION_REVIEW.md), [실행 결과](Docs/DATA10_INTEGRATION_TEST_RESULTS.json). Production 원본/번들/모든과거fixture 추적을 유지하고50/100MiB크기를 확인한 후 정상 Commit/Push/PR/필수체크/mergeability·병합·main동기화를 수행한다. Force Push/이력 재작성/원본삭제0. 최종 Git/PR/SHA는 다음 전달 기록과 Git/PR·최종응답을 따른다. DATA10-6에서 종료하며 다음 단계를 시작하지 않는다.
+
+
+### 6.6 최종 자동 검사와 Git 사전 점검
+
+최종 전체 portable **418/418 PASS (544.580초, failures/errors/skipped0, exit0)**. strict previous28·전체31테이블/Source70,823행/schema/index/byte 재현 PASS, iOS Build/XCTest/Simulator BLOCKED·독립 사람/TTS 검청 NOT TESTED를 구분한다. [원시 최종 로그](Docs/DATA10_INTEGRATION_PORTABLE_TEST_LOG.txt), [원시 최초 실패 로그](Docs/DATA10_INTEGRATION_PORTABLE_INITIAL.txt), [검사 원장](Docs/DATA10_INTEGRATION_TEST_RESULTS.json). 최초 FAIL을 지우거나 후보/전용 검사 수를418개에 중복 합산하지 않는다. 변경 전28 및 최종29의 별도 strict 재구성과 byte 비교, 110개 과거 파일 보존, 전체 행·참조를 확인했다.
+
+[Git 크기 사전 점검](Docs/DATA10_INTEGRATION_GIT_SIZE.json): 접근 가능한1,129blob/현재 보호 경로의50·100MiB 초과0, 현재 최대20,279,296bytes, 원본·번들·fixture 추적 유지. LFS 불필요·force push/이력 재작성0. 보호 API403은 권한 제한이며 보호없음으로 해석하지 않는다. rulesets=[]/Actions workflows0은 원격 CI PASS가 아니다. 최종 PR의 checks/mergeability와 정상 병합·main 전체SHA/clean을 별도 확인한다.
+
+
+### 6.7 실제 GitHub 전달
+
+검증된 Source/Bundle·불변28fixture·코스/참조·runtime/회귀·기록 commit `638d46a256344bae543368c90d21dd0498dea864`를 `codex/data10-6-listening-integration`에 일반 push했고 [PR #23](https://github.com/Raccoon26/Project-Hangul-Study/pull/23)을 생성했다. ls-remote/PR head와 로컬SHA 일치, main 대상 MERGEABLE/CLEAN·statusCheckRollup=[] 확인. `gh pr checks --required`는 no checks reported(exit1)로 원격 CI PASS가 아니다. 실행 근거는 로컬418PASS·strict/전행/byte 재현·정적/SQL/AI검수이며 Native/사람 gate는 유지한다.
+
+이 인계 문서 보충은 검증된 코드/Source/Bundle/테스트를 바꾸지 않는다. 보충commit을 정상 push하고 최신head/checks/mergeability를 다시 확인한 후 기존 위임/정책에 따라 admin/force 우회 없는 정상 병합을 수행한다. 이후 fetch/ff-only로 main=origin/main 전체SHA/clean 및 배포 Source/Bundle hash를 확인한다. 최종 merge SHA와 상태는 Git/PR·최종 응답이 기준이며 자기SHA를 기록하려고 문서commit을 반복하지 않는다. DATA10-6에서 종료하고 다음 단계는 시작하지 않는다.

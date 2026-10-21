@@ -5,7 +5,7 @@ extension SQLiteContentRepository {
         guard ["vocabulary","grammar","listening","lesson"].contains(kind) else { throw GrammarError.invalidState }
         // Content membership is queried in bounded pages, never copied into preferences.
         let actual = kind
-        return try db.query("SELECT id FROM content_items WHERE is_active=1 AND level=? AND kind=? AND id>? AND (?!='lesson' OR NOT EXISTS(SELECT 1 FROM lesson_items li JOIN grammar g ON g.id=li.content_id WHERE li.lesson_id=content_items.id)) ORDER BY id LIMIT 200",[.text(level.rawValue),.text(actual),.text(after),.text(kind)]).map { ContentID(rawValue:try $0.text("id")) }
+        return try db.query("SELECT id FROM content_items WHERE is_active=1 AND level=? AND kind=? AND id>? AND (?!='lesson' OR NOT EXISTS(SELECT 1 FROM lesson_items li JOIN content_items typed ON typed.id=li.content_id WHERE li.lesson_id=content_items.id AND typed.kind IN ('grammar','listening'))) ORDER BY id LIMIT 200",[.text(level.rawValue),.text(actual),.text(after),.text(kind)]).map { ContentID(rawValue:try $0.text("id")) }
     }
     func curriculumProduction(level: LearningLevel, after: String) async throws -> [(ContentID,String)] {
         try db.query("SELECT DISTINCT v.id,v.headword FROM vocabulary v JOIN content_items i ON i.id=v.id JOIN content_links l ON l.target_id=v.id JOIN questions q ON q.id=l.source_id JOIN content_items qi ON qi.id=q.id WHERE i.is_active=1 AND qi.is_active=1 AND i.level=? AND v.id>? AND l.relation='question_target' AND q.question_type='text_input' AND json_extract(q.rubric_json,'$.production')=1 ORDER BY v.id LIMIT 30",[.text(level.rawValue),.text(after)]).map { (ContentID(rawValue:try $0.text("id")),try $0.text("headword")) }
