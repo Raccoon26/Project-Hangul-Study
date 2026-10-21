@@ -7,8 +7,8 @@ from prepare_data10_c import prepare,BASE_SHA
 from validator import signatures,ValidationError
 from test_data05_content import query
 from test_lookup_sql import user
-SOURCE=Path(os.environ.get('DATA10_C_SOURCE',ROOT/'Content/production.json'))
-BUNDLE=Path(os.environ.get('DATA10_C_BUNDLE',ROOT/'Resources/content.sqlite'))
+SOURCE=Path(os.environ.get('DATA10_C_SOURCE',ROOT/'Tests/Fixtures/content-v27-production.json.gz'))
+BUNDLE=Path(os.environ.get('DATA10_C_BUNDLE',ROOT/'Tests/Fixtures/content-v27-production.sqlite'))
 norm=lambda s:' '.join(unicodedata.normalize('NFC',s).split())
 compact=lambda s:''.join(norm(s).split()).rstrip('.!?')
 

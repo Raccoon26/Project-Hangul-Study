@@ -1,7 +1,7 @@
 {
   "metadata": {
     "schema_version": 4,
-    "content_version": 27,
+    "content_version": 28,
     "min_reader_version": 7,
     "dataset_id": "ko-ja-core",
     "is_fixture": 0,
@@ -147015,12 +147015,12 @@
       {
         "id": "0b7ad6a0-87a2-4c5b-bbf2-9dc604610d06",
         "kind": "example",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-20T12:23:57Z",
-        "updated_at": "2026-10-20T12:23:57Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "ac24c1de-fed8-4550-8515-d403a380b824",
@@ -147115,12 +147115,12 @@
       {
         "id": "1155aa20-658b-4c03-8641-7c90185d8622",
         "kind": "example",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-20T12:23:57Z",
-        "updated_at": "2026-10-20T12:23:57Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "5d4a3171-db9c-406a-b9ac-37da74e9004c",
@@ -147735,22 +147735,22 @@
       {
         "id": "12f4f916-629a-4279-9fc3-6b2316700ded",
         "kind": "listening",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-20T12:23:57Z",
-        "updated_at": "2026-10-20T12:23:57Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "0caad5d4-2658-45dc-a334-d2c3526ccc07",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-20T12:23:57Z",
-        "updated_at": "2026-10-20T12:23:57Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "636e42b6-58cf-4fe9-9ed0-be30f8e44a96",
@@ -147935,22 +147935,22 @@
       {
         "id": "58d92f47-59b0-4e21-b9b7-d16f86215a67",
         "kind": "listening",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-20T12:23:57Z",
-        "updated_at": "2026-10-20T12:23:57Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "a742ac54-f6af-4c14-81d6-0b1e28ddcb78",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-20T12:23:57Z",
-        "updated_at": "2026-10-20T12:23:57Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "d8ffda42-b2e9-422b-ad5b-11cf8b101a7a",
@@ -148025,12 +148025,12 @@
       {
         "id": "8c6f7e91-5eb5-4443-8e3e-bec72fa3491e",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-20T12:23:57Z",
-        "updated_at": "2026-10-20T12:23:57Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "2fe8dcbb-3d26-4ad8-a596-3ec6113f0470",
@@ -148705,12 +148705,12 @@
       {
         "id": "234c6c3b-5739-494e-9f89-4a1a693b2a67",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-20T12:23:57Z",
-        "updated_at": "2026-10-20T12:23:57Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "b05ffad4-98ed-4118-bdd7-8b78791b1d2e",
@@ -148725,12 +148725,12 @@
       {
         "id": "8d4844cb-aadf-4b54-aad2-1c452f8e9484",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-20T12:23:57Z",
-        "updated_at": "2026-10-20T12:23:57Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "99f50a03-a157-429f-a0a8-ce83cdc3ab63",
@@ -148745,12 +148745,12 @@
       {
         "id": "3ee0e4f0-4151-47d2-a5ed-58db0cbf237c",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-20T12:23:57Z",
-        "updated_at": "2026-10-20T12:23:57Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "e840686a-267e-46f0-b44b-2775a9b7e7c9",
@@ -148765,12 +148765,12 @@
       {
         "id": "c1f7402a-c19a-4bc6-938d-11124c1c955a",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-20T12:23:57Z",
-        "updated_at": "2026-10-20T12:23:57Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "c9801c52-3e17-426b-9e7d-e10c690837df",
@@ -148785,12 +148785,12 @@
       {
         "id": "5a606cab-5a7a-4548-9ea1-2a2d95ea8f95",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-20T12:23:57Z",
-        "updated_at": "2026-10-20T12:23:57Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "90e1a192-681b-4b24-847d-af9c7f0fa44b",
@@ -148905,12 +148905,12 @@
       {
         "id": "c9b9cfea-d54c-4c5c-a981-af782b9d8a45",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-20T12:23:57Z",
-        "updated_at": "2026-10-20T12:23:57Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "488479ce-1fdc-4242-8102-dae226450e16",
@@ -148925,32 +148925,32 @@
       {
         "id": "488803bd-3f1b-48e6-baef-fdad0456d769",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-20T12:23:57Z",
-        "updated_at": "2026-10-20T12:23:57Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "49634577-1309-4a8a-8406-3a9e36fa8c85",
         "kind": "listening",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-20T12:23:57Z",
-        "updated_at": "2026-10-20T12:23:57Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "8f1bca53-229f-4d1f-80e1-bbaadebdd55f",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-20T12:23:57Z",
-        "updated_at": "2026-10-20T12:23:57Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "70969846-3ec1-402e-9abe-e6c55ac25ddf",
@@ -148965,12 +148965,12 @@
       {
         "id": "b99eb2bb-42b4-486f-abdb-c19ccf3554a2",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-20T12:23:57Z",
-        "updated_at": "2026-10-20T12:23:57Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "05b91264-de4a-4067-ac39-2ceabfbec9cc",
@@ -148985,12 +148985,12 @@
       {
         "id": "5e2bfb2f-f0ed-4fde-975a-43111cff00ad",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-20T12:23:57Z",
-        "updated_at": "2026-10-20T12:23:57Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "6e2b0408-8bd2-468f-bcb6-cba57206f47d",
@@ -149105,12 +149105,12 @@
       {
         "id": "80ef5671-5b5b-489b-8198-bd45c9f8e234",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-20T12:23:57Z",
-        "updated_at": "2026-10-20T12:23:57Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "71786b9b-76e1-4993-85d2-dadaa6de1b85",
@@ -149125,32 +149125,32 @@
       {
         "id": "670a7f4f-ac20-4b97-bc0d-92e30b82cb71",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-20T12:23:57Z",
-        "updated_at": "2026-10-20T12:23:57Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "9b81000a-74a0-4860-a4f5-db3f44b4dd67",
         "kind": "listening",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-20T12:23:57Z",
-        "updated_at": "2026-10-20T12:23:57Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "71894d20-3604-4eec-8c86-cf980f97e44d",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-20T12:23:57Z",
-        "updated_at": "2026-10-20T12:23:57Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "3ba985c2-ddb9-4470-a73d-a09ab0a5a40a",
@@ -149165,12 +149165,12 @@
       {
         "id": "a199a01a-c8fd-473e-bdc4-83bb2b695d7a",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-20T12:23:57Z",
-        "updated_at": "2026-10-20T12:23:57Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "c8d9e1d5-992b-4af4-87b0-6807899bfcd6",
@@ -149185,12 +149185,12 @@
       {
         "id": "ebf72d25-878c-4bfb-8059-d943db74c3f6",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-20T12:23:57Z",
-        "updated_at": "2026-10-20T12:23:57Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "6636ccd9-98fe-4590-9097-f32b7b647fc5",
@@ -149305,12 +149305,12 @@
       {
         "id": "f68dd3c1-d016-463b-b133-c4a8ecb470d5",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-20T12:23:57Z",
-        "updated_at": "2026-10-20T12:23:57Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "e099c0de-d2eb-425a-af8e-b083af9f8e95",
@@ -149325,12 +149325,12 @@
       {
         "id": "30f372c7-584b-4b3f-aece-5c44f08c74e9",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-20T12:23:57Z",
-        "updated_at": "2026-10-20T12:23:57Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "780a34ad-35d0-4c0f-8b83-27ae423d6489",
@@ -149345,12 +149345,12 @@
       {
         "id": "51bc8c7c-1904-4611-9d2e-c84b1c1eb544",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-20T12:23:57Z",
-        "updated_at": "2026-10-20T12:23:57Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "016845a6-b6cf-4b13-a77e-493b2893955a",
@@ -149365,12 +149365,12 @@
       {
         "id": "16e359f2-a44b-4b1a-bdfa-27e31eafd444",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-20T12:23:57Z",
-        "updated_at": "2026-10-20T12:23:57Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "f131f5de-04c7-4c51-b433-86207e95afb3",
@@ -149385,12 +149385,12 @@
       {
         "id": "b1082ee1-2a89-4568-b075-816a4b526b74",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-20T12:23:57Z",
-        "updated_at": "2026-10-20T12:23:57Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "92b79b64-08c6-44e9-a45c-7f4372fa954f",
@@ -149505,12 +149505,12 @@
       {
         "id": "ae930c85-febe-488a-ac46-33e5564a8f11",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-20T12:23:57Z",
-        "updated_at": "2026-10-20T12:23:57Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "57f1fbf1-3fe9-4fad-87d3-6c73bd1e3c6e",
@@ -149525,12 +149525,12 @@
       {
         "id": "4f9463ce-884f-418c-9bf2-9cd873a61d17",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-20T12:23:57Z",
-        "updated_at": "2026-10-20T12:23:57Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "e4b5bf6c-71c8-4f1c-8980-369eb6b8242c",
@@ -149545,12 +149545,12 @@
       {
         "id": "80fe15af-b2e2-4333-81cf-d9552a99c6e8",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-20T12:23:57Z",
-        "updated_at": "2026-10-20T12:23:57Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "3578def7-c630-4eb1-8882-7fab57f6cdb0",
@@ -149565,12 +149565,12 @@
       {
         "id": "edc4bd45-00fe-4069-bf50-15d93367cd96",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-20T12:23:57Z",
-        "updated_at": "2026-10-20T12:23:57Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "8ae42303-fe4e-49e1-8287-557ee8cc3b15",
@@ -149585,12 +149585,12 @@
       {
         "id": "7ce01108-9045-4f76-b2d3-a80c5244277a",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-20T12:23:57Z",
-        "updated_at": "2026-10-20T12:23:57Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "3908106d-3525-49ee-be65-a1c7c9740536",
@@ -149705,12 +149705,12 @@
       {
         "id": "f14916a6-76ce-4ee9-8bcb-4adbfd8c8c1c",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-20T12:23:57Z",
-        "updated_at": "2026-10-20T12:23:57Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "694a91a8-27e0-4d94-b682-e54f02d4d2f9",
@@ -149725,12 +149725,12 @@
       {
         "id": "be6cf936-45bf-4b1f-9670-7d5ab8543358",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-20T12:23:57Z",
-        "updated_at": "2026-10-20T12:23:57Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "e569c692-995e-4c55-8de9-f779ec2bd739",
@@ -149745,12 +149745,12 @@
       {
         "id": "d0e44794-c42e-4e3d-959f-dfd0b4c735ea",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-20T12:23:57Z",
-        "updated_at": "2026-10-20T12:23:57Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "10f85dd3-88ed-49f6-b745-43d449103c5d",
@@ -149765,12 +149765,12 @@
       {
         "id": "65e0e8f6-a6f3-45ee-b8f0-4cb80a45cabd",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-20T12:23:57Z",
-        "updated_at": "2026-10-20T12:23:57Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "6c5bb5b2-8f23-4fd4-9424-859af9df938b",
@@ -149785,12 +149785,12 @@
       {
         "id": "56fea544-4d65-4453-b4e0-f0ccca23b769",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-20T12:23:57Z",
-        "updated_at": "2026-10-20T12:23:57Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "1d448be6-cf7d-4ec0-98f4-97f0ab39ac76",
@@ -149945,12 +149945,12 @@
       {
         "id": "69d006d7-eeaf-4e5d-8ef6-09a26ccc1fbc",
         "kind": "example",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "966055c6-1c95-49d3-bf5e-85b1341a1e2a",
@@ -150095,12 +150095,12 @@
       {
         "id": "8e8d9f90-47a4-491e-bc96-837d7cafe8fc",
         "kind": "example",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "b78858c2-d094-459b-aff5-5521d01232a9",
@@ -150415,12 +150415,12 @@
       {
         "id": "ce092019-2771-4cfa-a5be-9be8fdaf29ac",
         "kind": "example",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "a1ebc1b3-acb8-4099-9365-0f26725b5764",
@@ -150445,22 +150445,22 @@
       {
         "id": "8a06011f-eac9-4c25-9e65-66fb4fb9778a",
         "kind": "example",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "cd856993-3bec-4778-b0f9-37449225dc9c",
         "kind": "example",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "d0fa11e0-62a9-47bc-a27e-d7ddde948700",
@@ -150595,12 +150595,12 @@
       {
         "id": "da34c26e-9e9a-4444-9ed5-96c7c1724260",
         "kind": "listening",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "74bbdb03-fe8c-475c-bab8-f6a85654e975",
@@ -150895,22 +150895,22 @@
       {
         "id": "4eff8690-af59-4126-a24a-9f8c42c40ee7",
         "kind": "listening",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "9fc85e01-8523-44dc-a5bf-77cc3d826b08",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "cabf3400-1759-49bc-9465-17d17939954f",
@@ -151085,12 +151085,12 @@
       {
         "id": "97e4f909-235b-4f7b-9196-e581ab7e03d0",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "2edb8401-b7d0-45f5-a5f8-4faa40dc4f17",
@@ -151425,12 +151425,12 @@
       {
         "id": "6bd81610-6164-40c1-a2f6-1a0695311ef0",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "b7984ebc-4be4-492f-918a-b2f969a7743a",
@@ -151535,22 +151535,22 @@
       {
         "id": "66810330-e57c-41de-8c9c-9bc31eb97bda",
         "kind": "listening",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "661bbf58-3507-4123-a42d-861b887d1915",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "7f2337a2-a277-45f5-9383-3b9e70c1b41f",
@@ -151595,12 +151595,12 @@
       {
         "id": "1484f88b-f246-4082-ac9f-00172cbaef37",
         "kind": "listening",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "325a3152-46e8-410d-8718-e34f9a4b7290",
@@ -151615,22 +151615,22 @@
       {
         "id": "ddc20913-710c-45ca-a0d4-473f86e48a09",
         "kind": "listening",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "a272330a-7bdf-428f-8aae-b8188ff5eded",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "ca300e49-aca1-4817-b2b3-726894107ad4",
@@ -151705,12 +151705,12 @@
       {
         "id": "c7aace22-f0b3-42ae-95fc-1632922f8094",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "45c20266-d976-42de-86df-0d6b7c72e0bd",
@@ -151725,12 +151725,12 @@
       {
         "id": "b4f94a89-a1b7-48e2-9803-6c929b60da49",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "c2f4501d-2b84-4dce-a94a-5f5fdcd2b9ac",
@@ -151745,12 +151745,12 @@
       {
         "id": "703ef160-940a-49db-95f3-fe3b5d76c187",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "e41d69c0-dbe3-482f-8e4e-3ef225ebe620",
@@ -151765,12 +151765,12 @@
       {
         "id": "6aa6092b-18f6-4e24-a564-d74b36de2e61",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "795fee5a-bd17-4943-8a35-aa45d3878df7",
@@ -151785,32 +151785,32 @@
       {
         "id": "eab681bd-36d6-4361-bb7b-7d3db025827d",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "2af314d6-2bb3-45f1-a40f-2f78777afb58",
         "kind": "listening",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "0eeaea87-f00b-4bfd-8248-90f1a4c06f5d",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "60bc3875-3ebe-4345-9788-771e3eb5ca72",
@@ -151825,12 +151825,12 @@
       {
         "id": "4ad3fb46-358d-47aa-b267-8bd1463e3b3f",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "2dc67fae-09ea-4bae-8483-9dc29b0f7a9a",
@@ -151845,12 +151845,12 @@
       {
         "id": "3dbfa2fd-6dd8-4ec2-a448-593bcff0dd71",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "41a46d45-df3b-49b2-8555-1d0c6788670a",
@@ -151865,12 +151865,12 @@
       {
         "id": "821c94a4-83ed-4819-8bea-f2dfa367cd56",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "483d341c-a29c-429e-a1f9-4425c0a9acdc",
@@ -151885,12 +151885,12 @@
       {
         "id": "024185e5-8f3a-42fd-b733-d0caa1adc3e1",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "8062f0c9-3283-4b4b-8625-e9e6f28ee7b7",
@@ -151905,12 +151905,12 @@
       {
         "id": "b91bf749-df26-46f6-bbd7-3177f8d1bd0c",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "a0293221-b085-4682-9118-fec853dcdac5",
@@ -151925,12 +151925,12 @@
       {
         "id": "76ad8ade-fab1-470e-96c4-9deb96b28d8e",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "b10e09fe-2eb9-4ee4-8743-25d352627a33",
@@ -151945,12 +151945,12 @@
       {
         "id": "b432b266-5e9f-4492-be8e-90938cd389d1",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "abe7fe82-85bc-4e11-8c14-e207b84008b5",
@@ -151965,12 +151965,12 @@
       {
         "id": "1c635a86-f6ac-46d8-85a4-0731aaf2cf7d",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "c1d1fee1-8e77-4e29-9446-b64ea53ee9a3",
@@ -151985,12 +151985,12 @@
       {
         "id": "257a515f-699c-44ef-b124-3ea609ee6556",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "b10c9eba-7108-4ef6-8ebe-49227c9e3fdc",
@@ -152005,12 +152005,12 @@
       {
         "id": "55f3514f-6dbb-4a11-87c3-65e126836e67",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "9a3ad714-464a-4295-8a63-228ebcc31c2f",
@@ -152025,12 +152025,12 @@
       {
         "id": "480e373f-13ba-4f59-8e26-d71b689fe43c",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "cba85348-723c-473e-80ba-031d1b077ae6",
@@ -152045,12 +152045,12 @@
       {
         "id": "87953131-c91d-4316-8ebb-fdd367e56eda",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "a68570be-eb88-4f77-9cc2-d461f2505c5d",
@@ -152065,12 +152065,12 @@
       {
         "id": "a9dd2cf6-8a61-4d23-85e7-8ccab6fbb6f1",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "2cea6312-c214-49ea-81c4-7128bd6ea8d0",
@@ -152085,32 +152085,32 @@
       {
         "id": "ce8a06b6-6919-4dec-8051-d5f85c7707b2",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "4571996c-494c-48f4-acf3-3704138159ed",
         "kind": "listening",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "d04fdec6-c6b7-4db3-b15e-633602fca7fc",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "26807fa9-e5c4-46d2-b818-d9cb3e39a863",
@@ -152125,12 +152125,12 @@
       {
         "id": "021703d2-8493-4988-b887-4e538ef670ae",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "e7072607-3278-4581-8e56-41721e1aadb3",
@@ -152145,12 +152145,12 @@
       {
         "id": "2b8847f9-f0bb-410b-9e75-0c1e043ddff6",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "c1c73425-f3ba-44c7-9747-f70dead49cf0",
@@ -152165,12 +152165,12 @@
       {
         "id": "55ff1bcc-ab9e-4a0f-8342-ea2c16194cdf",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "fddb79e9-b37e-4a2e-9e6f-c299a70e07b2",
@@ -152185,12 +152185,12 @@
       {
         "id": "37522eea-1fdf-4f67-bdfa-190ca29fda14",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "761c1af3-159b-4e92-b027-791e246b5a72",
@@ -152205,12 +152205,12 @@
       {
         "id": "32c67582-22d7-4247-9c1c-c88588b15dd0",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "271cb325-f959-49a6-ab7e-4a4f9b6ae981",
@@ -152225,12 +152225,12 @@
       {
         "id": "524fbd4d-138b-457d-a528-00fb22b1c3a2",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "0edeebed-dbc7-4443-926e-836210c1f43d",
@@ -152245,12 +152245,12 @@
       {
         "id": "05a9b92e-f10b-4b7d-b767-399ef6404df2",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "a4aa67f2-4220-49d6-9b3e-5a75e339e825",
@@ -152265,12 +152265,12 @@
       {
         "id": "1fee26c8-ac04-40b1-a2eb-f136ef8efcfb",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "44c35b26-b9c7-4deb-adde-f77769458003",
@@ -152285,12 +152285,12 @@
       {
         "id": "a92d9944-5f54-44e7-8b89-c066f8d85db5",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "8266aadd-c3b5-494a-a14b-eefc9dc8e0b6",
@@ -152305,12 +152305,12 @@
       {
         "id": "6000ab99-4f7b-4695-b112-c17cae074bab",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "b8b2cc04-bfa0-4b9c-bc91-e6d03d8d11bf",
@@ -152325,12 +152325,12 @@
       {
         "id": "3a43ecf2-b694-43cd-a55a-6c35956d0e0e",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "9187ac6c-08ed-4c7e-86d4-95493e65f9c8",
@@ -152345,12 +152345,12 @@
       {
         "id": "b587aaec-66c9-4550-9a0a-14fab7635481",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "6f1098b2-a25a-40c0-9200-36e84abde80c",
@@ -152365,12 +152365,12 @@
       {
         "id": "f1872cd9-d95c-436e-9a72-6b06dbf773ae",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "97d1aacd-f07e-48a0-a54a-b4d51b3b9392",
@@ -152385,12 +152385,12 @@
       {
         "id": "9d4f9ec3-22bf-4f93-9712-24058e838d34",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "4bdf7342-b725-4ddd-80d2-ab063344acad",
@@ -152405,12 +152405,12 @@
       {
         "id": "ee8b5e2f-8eb6-4641-a9ac-6e8cbf1cc59f",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "597010b4-238d-40aa-9b1b-2cfe7e525496",
@@ -152425,12 +152425,12 @@
       {
         "id": "f5efa0b2-f32a-4115-b3b7-27261b9843d3",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "9b340b58-2428-495f-8b69-e7e5fda3a411",
@@ -152445,12 +152445,12 @@
       {
         "id": "c6c2f11c-d779-44a9-a322-3df3948b98e4",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "def23eb3-bb04-47e1-92a4-eb48ebd0db72",
@@ -152465,12 +152465,12 @@
       {
         "id": "1e1482cb-8672-4989-acb6-b4e98b4fe302",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "3e87ed9f-62ff-43b9-b921-d081aba8edf4",
@@ -152485,12 +152485,12 @@
       {
         "id": "15ad829c-af1c-4709-ba51-a26f3052210e",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "5b3b9af1-1e2a-44f3-a64b-fb98d0722b08",
@@ -152505,12 +152505,12 @@
       {
         "id": "8decc924-d51e-4f4b-b8b2-01d755a856bc",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "d6aff3c7-3139-49dc-99d0-e0413bd50589",
@@ -152525,12 +152525,12 @@
       {
         "id": "f3ef6d00-2b05-4045-b6fb-3ac1910f900b",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "986442ca-ffa4-489b-a471-f599ed331d2b",
@@ -152545,12 +152545,12 @@
       {
         "id": "62cefb8d-92a3-43c0-8c51-56fcbb39b95a",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "4ed738d0-80aa-4cf7-b326-df8377f1314c",
@@ -152565,12 +152565,12 @@
       {
         "id": "39bb840d-f3d7-4359-a1cc-917d1a5bbe77",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "f3019897-6ea3-44f7-ab4a-6f03bc592d5e",
@@ -152585,12 +152585,12 @@
       {
         "id": "c1b16bfe-33e7-4fc5-a30d-81beb54774d0",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "fe0b8c1d-ea98-40ed-a589-15ec20b056e4",
@@ -152605,12 +152605,12 @@
       {
         "id": "ade13d51-5f6d-48ef-848a-7d971aaafe65",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "edaedcae-5e30-40c5-aa43-ef9ebe1610be",
@@ -152625,12 +152625,12 @@
       {
         "id": "7bb73bf0-3c7d-4e6a-9ee7-658a92be989b",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "2cce0644-3c7f-4e03-a6fa-6f7140dae470",
@@ -152645,12 +152645,12 @@
       {
         "id": "701ddb4a-243d-4cfc-9860-dc88f3a566e3",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "06d23e03-9bac-404d-ac24-f99de1425fbd",
@@ -152665,12 +152665,12 @@
       {
         "id": "ddbd84ca-4f68-4d26-816b-1f1a7b61d93a",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "36d281e3-bf50-49cd-a730-d76240911a39",
@@ -152685,12 +152685,12 @@
       {
         "id": "1386a97b-719b-498b-a5b8-8431ac82202b",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "1c017e16-318e-42ca-bc88-bed0e552793e",
@@ -152705,12 +152705,12 @@
       {
         "id": "efd6a570-0422-4937-9564-d1617032c803",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "7aa0cef3-4ca9-4246-9fb7-6f8467d097e5",
@@ -152725,32 +152725,32 @@
       {
         "id": "3e8fa3fb-bdac-471c-84ea-75a1850804f8",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "ffe5489c-75c2-4b22-80cc-f5f1eda86a29",
         "kind": "listening",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "4bb8b3a1-2361-4584-a741-507b2926be0b",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "af94aaad-40e9-495e-b0e5-5cb1a418d3e0",
@@ -152765,12 +152765,12 @@
       {
         "id": "ff037745-4dbe-47f4-8a47-2f29d5bbe078",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "879be6cb-050c-40a4-81c9-3e81e77880ba",
@@ -152785,52 +152785,52 @@
       {
         "id": "b48c9719-58ac-4b67-9b14-d2077e9627d7",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "da74a7a7-32a8-41d1-8eef-584779c4599c",
         "kind": "listening",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "02ba3602-9ab8-44bf-bbf7-b53985f06150",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "74307daf-4aa6-4931-bebd-4c412ef48391",
         "kind": "listening",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "18daf667-79c3-4f53-b038-6ab4c736b9e5",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "3d81ec02-587e-4d21-8c25-b84aef2473eb",
@@ -152845,12 +152845,12 @@
       {
         "id": "2f41e164-0039-4914-939b-4acfa896594d",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "e80ed0c0-9e25-4c66-b262-e165eaccbc84",
@@ -152865,12 +152865,12 @@
       {
         "id": "5f579b53-8780-4b54-8d3b-908c6883730e",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "79014042-9ca0-4c49-bf63-4c1c0a13475f",
@@ -152885,12 +152885,12 @@
       {
         "id": "b6b07571-b34f-4d4b-8d1e-5660210ae229",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T02:11:06Z",
-        "updated_at": "2026-10-21T02:11:06Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "767d88f3-1296-4b74-883b-69baf4b8c504",
@@ -154705,12 +154705,12 @@
       {
         "id": "e3e63965-4924-43c7-b058-7e9bb657f378",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T08:00:00Z",
-        "updated_at": "2026-10-21T08:00:00Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "a049dedc-5769-4b11-80b8-80dd4b5247d7",
@@ -154725,12 +154725,12 @@
       {
         "id": "201babb7-b07a-4eff-98bc-32a6f151c877",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T08:00:00Z",
-        "updated_at": "2026-10-21T08:00:00Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "ef98e324-b8b0-453d-9ba4-c8da98695e91",
@@ -154745,12 +154745,12 @@
       {
         "id": "e5f4a243-0179-4267-8fa6-f75256040250",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T08:00:00Z",
-        "updated_at": "2026-10-21T08:00:00Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "8d2d6e31-d38b-45e2-ad67-52118b9793b9",
@@ -154765,12 +154765,12 @@
       {
         "id": "1dfa8746-ff8b-4a31-a9cc-a17c7cb16329",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T08:00:00Z",
-        "updated_at": "2026-10-21T08:00:00Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "59504fb7-671e-4c52-bbb1-aeb3148b3fd9",
@@ -154785,12 +154785,12 @@
       {
         "id": "338166dd-8c76-4dfa-9b4c-5c1ec92e54db",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T08:00:00Z",
-        "updated_at": "2026-10-21T08:00:00Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "a3bce876-53bd-4142-a26b-c50d89f7bc80",
@@ -154805,12 +154805,12 @@
       {
         "id": "81e0e40d-53ec-4ef6-a5d5-4c2f31748e3b",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T08:00:00Z",
-        "updated_at": "2026-10-21T08:00:00Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "a61e430a-9b48-4f3c-9c1f-2aaef3fc7825",
@@ -154825,12 +154825,12 @@
       {
         "id": "d6b375e4-0c57-4145-9186-b188ebd5f80c",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T08:00:00Z",
-        "updated_at": "2026-10-21T08:00:00Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "b394ecb5-6ed8-4a5a-9c1c-d63facbda796",
@@ -154845,12 +154845,12 @@
       {
         "id": "f55ff8b0-917b-4e7d-b795-1e06ede5f322",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T08:00:00Z",
-        "updated_at": "2026-10-21T08:00:00Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "7847e9b6-7395-4b74-b10d-13c2144cf93f",
@@ -154865,12 +154865,12 @@
       {
         "id": "dbf836e0-d08a-44e9-804e-03191e2341aa",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T08:00:00Z",
-        "updated_at": "2026-10-21T08:00:00Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "9fe9105d-fbfa-4f86-b465-e1dc54a6848c",
@@ -154885,12 +154885,12 @@
       {
         "id": "6e7423db-765f-425b-ac42-97fe182af894",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T08:00:00Z",
-        "updated_at": "2026-10-21T08:00:00Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "5b746832-e2d9-4087-99e3-1ef7008254b6",
@@ -154905,12 +154905,12 @@
       {
         "id": "6f88dd65-6e3e-45d4-befb-78a8204da24e",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T08:00:00Z",
-        "updated_at": "2026-10-21T08:00:00Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "4b273c6c-14f8-4caf-9a0c-406469a1aa7c",
@@ -154925,12 +154925,12 @@
       {
         "id": "972fddb8-4852-4b8f-b78c-284421866265",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T08:00:00Z",
-        "updated_at": "2026-10-21T08:00:00Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "9ad25ffe-f39d-4fbc-81bb-b53bd98ab36f",
@@ -154945,12 +154945,12 @@
       {
         "id": "3d107a1b-b02b-4456-94ff-2b264981379f",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T08:00:00Z",
-        "updated_at": "2026-10-21T08:00:00Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "6c6ac31f-3e0e-4391-af83-198185fe54da",
@@ -154965,12 +154965,12 @@
       {
         "id": "9367050b-1dbe-4609-9f73-cfe3b4acbabc",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T08:00:00Z",
-        "updated_at": "2026-10-21T08:00:00Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "d89fe37e-9b50-4774-8f17-e1d964ea3cf7",
@@ -154985,12 +154985,12 @@
       {
         "id": "5b1ae8f1-17f4-4949-8da4-c1ada069d3c9",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T08:00:00Z",
-        "updated_at": "2026-10-21T08:00:00Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "a4aa18e4-a5a8-43bc-8d9d-c20f41951558",
@@ -155005,12 +155005,12 @@
       {
         "id": "7b377081-68b9-4f73-be7d-780b5ff55578",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T08:00:00Z",
-        "updated_at": "2026-10-21T08:00:00Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "9def18a1-63cc-49d2-809e-8c30a5a46a54",
@@ -155025,12 +155025,12 @@
       {
         "id": "9ad597c2-a70f-49ed-8a7d-963c3c18e4cb",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T08:00:00Z",
-        "updated_at": "2026-10-21T08:00:00Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "cfe06ebf-23c1-404e-8311-88ec7e831953",
@@ -155045,12 +155045,12 @@
       {
         "id": "2aa2d295-f79c-4f50-ae08-6fb59c30f545",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T08:00:00Z",
-        "updated_at": "2026-10-21T08:00:00Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "505427e1-d5fe-434d-9f34-6ac17a01f26f",
@@ -155065,12 +155065,12 @@
       {
         "id": "da818468-864e-4b63-9e1a-f38999b7e5b9",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T08:00:00Z",
-        "updated_at": "2026-10-21T08:00:00Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "14c93d67-268a-4a01-b0d4-123db48180e1",
@@ -155085,12 +155085,12 @@
       {
         "id": "9f606ee5-957f-4d5e-ab1f-96e6d30fce2b",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T08:00:00Z",
-        "updated_at": "2026-10-21T08:00:00Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "d7981b90-5544-4926-aa6a-f6a6925aa681",
@@ -155105,12 +155105,12 @@
       {
         "id": "ab6e0731-f5de-468c-aaab-2804a68a50db",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T08:00:00Z",
-        "updated_at": "2026-10-21T08:00:00Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "c4196b65-ec64-4002-b7d3-366a48dfaece",
@@ -155125,12 +155125,12 @@
       {
         "id": "0dd4f613-9ef3-4cc1-8932-a6bcdf30cc8f",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T08:00:00Z",
-        "updated_at": "2026-10-21T08:00:00Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "da393cd8-f035-4892-a9ac-a4863406673f",
@@ -155145,12 +155145,12 @@
       {
         "id": "2fa3296a-f55b-4a16-8906-5ed2b3a6d5af",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T08:00:00Z",
-        "updated_at": "2026-10-21T08:00:00Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "38ba7bbe-def9-4819-b512-31ef1c4de6e7",
@@ -155165,12 +155165,12 @@
       {
         "id": "86594886-69f8-40e0-be0d-c751bcd248cc",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T08:00:00Z",
-        "updated_at": "2026-10-21T08:00:00Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "109ea5a3-f4df-4929-a9a3-c280cb234766",
@@ -155185,12 +155185,12 @@
       {
         "id": "b7b967f9-ac37-4d17-9254-659cb917b642",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T08:00:00Z",
-        "updated_at": "2026-10-21T08:00:00Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "ae88b6b1-aad6-44cb-a80e-51424e8ddf6b",
@@ -155205,12 +155205,12 @@
       {
         "id": "d659cc7e-cad5-4867-bc3f-d537e357ded7",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T08:00:00Z",
-        "updated_at": "2026-10-21T08:00:00Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "58422384-e608-4153-9bfe-14893b86329d",
@@ -155225,12 +155225,12 @@
       {
         "id": "872ac960-feff-4d2d-b5e7-941ed5607fea",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T08:00:00Z",
-        "updated_at": "2026-10-21T08:00:00Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "cee33baf-4ccc-42b4-a4ea-27a20dcefab6",
@@ -155245,12 +155245,12 @@
       {
         "id": "f2282448-a106-44cd-8157-13973f10e1b3",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T08:00:00Z",
-        "updated_at": "2026-10-21T08:00:00Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "b970bef9-3e6e-4730-b3bc-13e38f8ac7b7",
@@ -155265,12 +155265,12 @@
       {
         "id": "164f721b-877d-4440-8f10-4de51a9b1a1b",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T08:00:00Z",
-        "updated_at": "2026-10-21T08:00:00Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "c9e25018-31d7-4932-a596-3dfaa9fcfbcd",
@@ -155285,12 +155285,12 @@
       {
         "id": "5a256961-f8cc-473f-ad79-48f3e83c76d1",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T08:00:00Z",
-        "updated_at": "2026-10-21T08:00:00Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "58190dc4-9f3d-4d13-adf9-d9ca15aaa689",
@@ -155305,12 +155305,12 @@
       {
         "id": "010f68e7-ebe3-4c8f-a48e-bbdbd913ca8e",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T08:00:00Z",
-        "updated_at": "2026-10-21T08:00:00Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "57febf13-6f19-4da0-a2bf-7e9c358088a7",
@@ -155325,12 +155325,12 @@
       {
         "id": "f23d0dee-4bbc-4fa3-b6ba-dabe25a29f9f",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T08:00:00Z",
-        "updated_at": "2026-10-21T08:00:00Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "88642816-e4a4-4d3c-90e6-695eda623c95",
@@ -155345,12 +155345,12 @@
       {
         "id": "c78774b7-2c60-4fba-b83f-a1a89e93d275",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T08:00:00Z",
-        "updated_at": "2026-10-21T08:00:00Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "4880e6f3-9ee8-4d86-b51f-51f808923235",
@@ -155365,12 +155365,12 @@
       {
         "id": "c57291cd-0fb8-4774-8848-a00b56d48357",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T08:00:00Z",
-        "updated_at": "2026-10-21T08:00:00Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "5773c17d-d006-457d-8b8e-47c763e0029d",
@@ -155385,12 +155385,12 @@
       {
         "id": "7dda8728-d1cc-46ba-b59b-530f3d3d8aad",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T08:00:00Z",
-        "updated_at": "2026-10-21T08:00:00Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "209e49dd-8e00-49cb-ad90-ad945eebd0f5",
@@ -155405,12 +155405,12 @@
       {
         "id": "a5b90d1d-0b6d-488d-82c8-4316ce8046ca",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T08:00:00Z",
-        "updated_at": "2026-10-21T08:00:00Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "58f31d44-313c-4f13-b1f9-5133109aeba1",
@@ -155425,12 +155425,12 @@
       {
         "id": "11548e8b-1070-499a-9cfc-086616c6c48f",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T08:00:00Z",
-        "updated_at": "2026-10-21T08:00:00Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "79c32f4c-94d4-41ad-8e38-715b4c7369b1",
@@ -155445,12 +155445,12 @@
       {
         "id": "48917a45-5634-4fde-92e6-ae87c5d8cbf2",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T08:00:00Z",
-        "updated_at": "2026-10-21T08:00:00Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "2a23d905-d369-436e-8383-6a057a73b1ea",
@@ -155465,12 +155465,12 @@
       {
         "id": "8936d903-9d5e-4342-9511-47ca2f1de3e5",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T08:00:00Z",
-        "updated_at": "2026-10-21T08:00:00Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "042065b7-19cf-4898-9913-9b8ab15674c6",
@@ -155485,12 +155485,12 @@
       {
         "id": "cb39c243-0fff-4ce7-a4ec-f62b137be242",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T08:00:00Z",
-        "updated_at": "2026-10-21T08:00:00Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "d62fc27c-6a0c-433f-b0c6-c28a742a7389",
@@ -155505,12 +155505,12 @@
       {
         "id": "dd079be5-624f-4090-ac12-08895ec0c196",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T08:00:00Z",
-        "updated_at": "2026-10-21T08:00:00Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "30d7c30c-fdda-46c1-96da-4fedbb79d045",
@@ -155525,12 +155525,12 @@
       {
         "id": "995db743-cc7a-4730-8d5c-8fe193629a08",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T08:00:00Z",
-        "updated_at": "2026-10-21T08:00:00Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "3595a228-6f70-4415-94f6-6661c4cf54da",
@@ -155545,12 +155545,12 @@
       {
         "id": "28859146-84a9-49c9-9223-986b4a203200",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T08:00:00Z",
-        "updated_at": "2026-10-21T08:00:00Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "029924ce-fbf2-46e0-93e2-458ca6a62a8c",
@@ -155565,12 +155565,12 @@
       {
         "id": "d2ed07f5-d0c4-4f22-8022-86d6fefefa85",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T08:00:00Z",
-        "updated_at": "2026-10-21T08:00:00Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "6fa981e1-d3a3-4eb8-9517-4299babe884f",
@@ -155585,12 +155585,12 @@
       {
         "id": "da0c577a-3ecc-4d16-a84e-1eb48983c8ad",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T08:00:00Z",
-        "updated_at": "2026-10-21T08:00:00Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "5ff90863-14a7-44cf-99a0-fdc6e6c8b757",
@@ -155605,12 +155605,12 @@
       {
         "id": "b2f8b21d-74fa-4bc7-b754-baed51bc804c",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T08:00:00Z",
-        "updated_at": "2026-10-21T08:00:00Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "571f0e72-477a-408e-bd01-380969e668e0",
@@ -155625,12 +155625,12 @@
       {
         "id": "ef06dd7b-6c75-499c-90f3-920532ee9aa9",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T08:00:00Z",
-        "updated_at": "2026-10-21T08:00:00Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "23240a74-733d-42ed-8610-1a97d9177dcc",
@@ -155645,12 +155645,12 @@
       {
         "id": "5926bb30-36f5-423b-b788-59d856d7ad02",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T08:00:00Z",
-        "updated_at": "2026-10-21T08:00:00Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "39778dd4-aaf1-4c24-8de3-34a2ce7ab1a6",
@@ -155665,12 +155665,12 @@
       {
         "id": "14eac1e9-ad0b-4aa4-af1f-f838527a5cc8",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T08:00:00Z",
-        "updated_at": "2026-10-21T08:00:00Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "1db83379-3f10-4125-966a-0011b38e2ee2",
@@ -155685,12 +155685,12 @@
       {
         "id": "01703be1-f632-485c-84a3-3f1e81877a7e",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T08:00:00Z",
-        "updated_at": "2026-10-21T08:00:00Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "2982bf50-d0f1-4ae6-a926-054c70bfde5c",
@@ -155705,12 +155705,12 @@
       {
         "id": "e00b4d97-697e-4fb8-9202-3d650af3eeac",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T08:00:00Z",
-        "updated_at": "2026-10-21T08:00:00Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "bc803b89-e25f-4b3b-bccf-28202abc6a75",
@@ -155725,12 +155725,12 @@
       {
         "id": "408fae50-27b2-4c30-a5f8-babb7b5d7ad8",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T08:00:00Z",
-        "updated_at": "2026-10-21T08:00:00Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "0286a3ec-0a98-4262-974a-d59f499162d2",
@@ -155745,12 +155745,12 @@
       {
         "id": "398b0396-ef5c-454a-b886-8f06f31a1085",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T08:00:00Z",
-        "updated_at": "2026-10-21T08:00:00Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "6d6ac67e-1721-4834-85f0-83a5cfa221ac",
@@ -155765,12 +155765,12 @@
       {
         "id": "1c8ed4d8-9958-4cf9-9e64-01e2e4e0f845",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T08:00:00Z",
-        "updated_at": "2026-10-21T08:00:00Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "a2519684-ca83-448e-9dee-de7dc6d42da9",
@@ -155785,12 +155785,12 @@
       {
         "id": "b6b74371-3b6f-4bd9-8efa-771a267940b6",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T08:00:00Z",
-        "updated_at": "2026-10-21T08:00:00Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "434307c9-5237-4b29-be98-844e9a177321",
@@ -155805,12 +155805,12 @@
       {
         "id": "22f6ebfb-cf4f-4677-b299-f4daa3f47750",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T08:00:00Z",
-        "updated_at": "2026-10-21T08:00:00Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "977703d9-41fd-4d91-8974-70fd3b0771f2",
@@ -155825,12 +155825,12 @@
       {
         "id": "fd7ea9b2-11b3-4221-b246-e9e1df5ad6aa",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T08:00:00Z",
-        "updated_at": "2026-10-21T08:00:00Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "5ae3c197-4825-4f3b-96e5-b4bc1bcc86bb",
@@ -155845,12 +155845,12 @@
       {
         "id": "4688956b-2a75-49bb-b2e1-b94aff197020",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T08:00:00Z",
-        "updated_at": "2026-10-21T08:00:00Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "8798e271-2068-4fa6-902c-427b21de7cb0",
@@ -155865,12 +155865,12 @@
       {
         "id": "3b7b1fba-a89c-4233-bb5c-ab53a9639ba3",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T08:00:00Z",
-        "updated_at": "2026-10-21T08:00:00Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       },
       {
         "id": "049f676f-cadb-44f1-a75f-0f9bfc07b944",
@@ -155885,12 +155885,12 @@
       {
         "id": "ae747e25-7fd7-4ebe-b230-f336350de4fc",
         "kind": "question",
-        "revision": 1,
+        "revision": 2,
         "is_active": 1,
         "level": "lower_intermediate",
         "difficulty": null,
         "created_at": "2026-10-21T08:00:00Z",
-        "updated_at": "2026-10-21T08:00:00Z"
+        "updated_at": "2026-10-21T08:00:01Z"
       }
     ],
     "hangul": [
@@ -239521,7 +239521,7 @@
         "answer_schema_version": 1,
         "prompt_ja": "代わりに会う日時として何を提案していますか。",
         "prompt_ko": null,
-        "explanation_ja": "금요일 저녁は都合が悪く、토요일 점심が代案です。",
+        "explanation_ja": "금요일 저녁は都合が悪く、토요일 점심が代案です。취소하는 대신は約束そのものを取りやめず、日時を変えて会うという提案です。",
         "answer_json": "{\"correct_choice_ids\": [\"a\"]}",
         "rubric_json": "{\"listening_task\": \"comprehension\"}",
         "listening_id": "12f4f916-629a-4279-9fc3-6b2316700ded",
@@ -239651,7 +239651,7 @@
         "answer_schema_version": 1,
         "prompt_ja": "地下鉄を勧める理由は何ですか。",
         "prompt_ko": null,
-        "explanation_ja": "理由は출근 시간이라 길이 막힌다는ことです。料金については述べていません。",
+        "explanation_ja": "理由は출근 시간이라 길이 막힌다는ことです。돌아가도は遠回りでもよいという譲歩です。料金については述べていません。",
         "answer_json": "{\"correct_choice_ids\": [\"b\"]}",
         "rubric_json": "{\"listening_task\": \"comprehension\"}",
         "listening_id": "58d92f47-59b0-4e21-b9b7-d16f86215a67",
@@ -239701,7 +239701,7 @@
         "question_type": "listening_choice",
         "direction": "ko_ja",
         "answer_schema_version": 1,
-        "prompt_ja": "二人はどうするつもりですか。",
+        "prompt_ja": "話し手はどのように移動しようとしていますか。",
         "prompt_ko": null,
         "explanation_ja": "한 대 보내고は列車を一本見送る意味です。移動を中止する話ではありません。",
         "answer_json": "{\"correct_choice_ids\": [\"c\"]}",
@@ -240143,7 +240143,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点も入力し、最後の句点は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "저녁을 만들게요は話し手の申し出、사다 주세요は相手への買い物の依頼です。",
         "answer_json": "{\"accepted\": [\"오늘은 제가 저녁을 만들게요. 집에 오실 때 두부만 사다 주세요.\"]}",
@@ -240156,7 +240156,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点も入力し、最後の句点は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "널 테니까の主語は話し手です。相手には먼저 나가세요と言っています。",
         "answer_json": "{\"accepted\": [\"세탁기가 아직 돌아가고 있어요. 빨래가 끝나면 제가 널 테니까 먼저 나가세요.\"]}",
@@ -240169,7 +240169,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点も入力し、最後の句点は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "나중에と지금を対比し、책상만の「机だけ」を聞き取ります。",
         "answer_json": "{\"accepted\": [\"옆집 아기가 자고 있대요. 청소기는 나중에 돌리고 지금은 책상만 정리해요.\"]}",
@@ -240182,7 +240182,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点も入力し、最後の句点は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "국は내일、볶음밥は오늘 저녁と、食べる日が異なります。",
         "answer_json": "{\"accepted\": [\"냉장고에 있는 국은 내일 먹을 거예요. 오늘 저녁에는 남은 밥으로 볶음밥을 해 먹어요.\"]}",
@@ -240195,7 +240195,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点も入力し、最後の句点は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "明かりがつかない場所は현관ですが、新しい전구の場所は서랍です。",
         "answer_json": "{\"accepted\": [\"현관 불이 안 켜져요. 새 전구는 서랍에 있으니까 퇴근하면 갈아 줄 수 있어요?\"]}",
@@ -240273,7 +240273,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点も入力し、最後の句点は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "두 시は元の約束、세 시は変更の提案です。늦춰서は遅らせることです。",
         "answer_json": "{\"accepted\": [\"내일 두 시에 만나기로 했는데 회의가 생겼어요. 한 시간 늦춰서 세 시에 만날 수 있을까요?\"]}",
@@ -240286,7 +240286,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点も入力し、最後の句点は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "工事の説明だけでなく、서점 안で待つという新しい場所を聞き取ります。",
         "answer_json": "{\"accepted\": [\"오늘 약속 장소 앞에서 공사를 해요. 건너편 서점 안에서 기다릴 테니까 그쪽으로 와 주세요.\"]}",
@@ -240299,9 +240299,9 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点も入力し、最後の句点は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
-        "explanation_ja": "금요일 저녁は都合が悪く、토요일 점심が代案です。",
+        "explanation_ja": "금요일 저녁は都合が悪く、토요일 점심が代案です。취소하는 대신は約束そのものを取りやめず、日時を変えて会うという提案です。",
         "answer_json": "{\"accepted\": [\"금요일 저녁에는 야근을 해야 해요. 저녁 약속을 취소하는 대신 토요일 점심에 만나면 어때요?\"]}",
         "rubric_json": "{\"listening_task\": \"dictation\"}",
         "listening_id": "49634577-1309-4a8a-8406-3a9e36fa8c85",
@@ -240312,7 +240312,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点も入力し、最後の句点は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "먼저 들어가 계시면で、外で待たずに入っていてほしいと伝えます。",
         "answer_json": "{\"accepted\": [\"버스를 놓쳐서 십 분쯤 늦을 것 같아요. 식당에 먼저 들어가 계시면 도착해서 연락할게요.\"]}",
@@ -240325,7 +240325,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点も入力し、最後の句点は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "산책은 다음에と오늘은を区別し、今日の代案を答えます。",
         "answer_json": "{\"accepted\": [\"비가 많이 와서 오늘 산책은 어려울 것 같아요. 산책은 다음에 하고 오늘은 역 앞 카페에서 볼까요?\"]}",
@@ -240403,7 +240403,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点も入力し、最後の句点は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "안 서요を聞き落とさず、次の停留所で降りるという手順を選びます。",
         "answer_json": "{\"accepted\": [\"이 버스는 시장 앞에는 안 서요. 다음 정류장에서 내려서 길을 건너면 시장 입구가 보여요.\"]}",
@@ -240416,7 +240416,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点も入力し、最後の句点は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "급행と일반 열차を対比しています。目的の駅に止まるのは普通列車です。",
         "answer_json": "{\"accepted\": [\"급행열차는 박물관역에 서지 않아요. 거기서 내리실 분은 다음에 오는 일반 열차를 타셔야 해요.\"]}",
@@ -240429,10 +240429,10 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点も入力し、最後の句点は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
-        "explanation_ja": "理由は출근 시간이라 길이 막힌다는ことです。料金については述べていません。",
-        "answer_json": "{\"accepted\": [\"지금 가면 출근 시간이라 길이 많이 막혀요. 조금 돌아가더라도 지하철로 가는 게 낫겠어요.\"]}",
+        "explanation_ja": "理由は출근 시간이라 길이 막힌다는ことです。돌아가도は遠回りでもよいという譲歩です。料金については述べていません。",
+        "answer_json": "{\"accepted\": [\"지금 가면 출근 시간이라 길이 많이 막혀요. 조금 돌아가도 지하철로 가는 게 낫겠어요.\"]}",
         "rubric_json": "{\"listening_task\": \"dictation\"}",
         "listening_id": "9b81000a-74a0-4860-a4f5-db3f44b4dd67",
         "topik_level": null
@@ -240442,7 +240442,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点も入力し、最後の句点は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "먼저 사세요と도착하면の条件を区別して、先の行動を答えます。",
         "answer_json": "{\"accepted\": [\"공항버스 표는 창구에서 먼저 사세요. 짐은 버스가 도착하면 기사님께 보여 드리면 돼요.\"]}",
@@ -240455,7 +240455,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点も入力し、最後の句点は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "나가지 말고は「出ないで」。指示された経路は지하 통로です。",
         "answer_json": "{\"accepted\": [\"출구가 반대쪽에 있어요. 개찰구를 다시 나가지 말고 지하 통로를 따라가세요.\"]}",
@@ -240533,7 +240533,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点も入力し、最後の句点は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "色は変えずにサイズだけ한 치수 크게する希望です。",
         "answer_json": "{\"accepted\": [\"이 옷은 색이 마음에 드는데 조금 작아요. 같은 색으로 한 치수 큰 걸 입어 봐도 될까요?\"]}",
@@ -240546,7 +240546,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点も入力し、最後の句点は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "가격표を取る依頼と、상자는 필요 없다는包装方法の希望を区別します。",
         "answer_json": "{\"accepted\": [\"선물할 거라서 가격표는 떼어 주세요. 포장 상자는 필요 없고 종이봉투에만 넣어 주세요.\"]}",
@@ -240559,7 +240559,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点も入力し、最後の句点は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "환불보다는と교환하고 싶어요から、返金ではなく交換を希望すると分かります。",
         "answer_json": "{\"accepted\": [\"어제 산 우산이 잘 안 펴져요. 환불보다는 같은 제품으로 교환하고 싶어요.\"]}",
@@ -240572,7 +240572,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点も入力し、最後の句点は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "있으면という条件の後に、집으로 배송してほしいと依頼しています。",
         "answer_json": "{\"accepted\": [\"이 신발은 매장에 제 사이즈가 없네요. 다른 지점에 있으면 집으로 배송해 주실 수 있나요?\"]}",
@@ -240585,7 +240585,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点も入力し、最後の句点は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "하나만は現在の在庫、두 개は希望の数です。入荷は내일です。",
         "answer_json": "{\"accepted\": [\"진열된 컵은 하나만 남아 있어요. 두 개 필요하시면 내일 새로 들어올 때 다시 오셔야 해요.\"]}",
@@ -240663,7 +240663,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点も入力し、最後の句点は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "전체 길이を大きく変えず、앞머리만を整える依頼です。",
         "answer_json": "{\"accepted\": [\"머리는 너무 짧게 자르지 말아 주세요. 앞머리만 눈에 닿지 않을 정도로 다듬어 주세요.\"]}",
@@ -240676,7 +240676,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点も入力し、最後の句点は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "早く受け取れると確約しているのではなく、접수할 때相談するよう案内しています。",
         "answer_json": "{\"accepted\": [\"세탁물은 오늘 맡기시면 금요일에 찾으실 수 있어요. 더 빨리 필요하시면 접수할 때 말씀해 주세요.\"]}",
@@ -240689,7 +240689,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点も入力し、最後の句点は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "이유は貸出冊数の上限です。延滞や罰金については述べていません。",
         "answer_json": "{\"accepted\": [\"책을 더 빌리고 싶으시면 먼저 반납해 주세요. 지금은 빌릴 수 있는 권수를 다 채우셨어요.\"]}",
@@ -240702,7 +240702,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点も入力し、最後の句点は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "사흘 정도は目安です。来店の合図は끝나면 보내는 문자です。",
         "answer_json": "{\"accepted\": [\"수리하는 데 사흘 정도 걸려요. 끝나면 문자로 알려 드릴 테니까 그때 찾으러 오세요.\"]}",
@@ -240715,7 +240715,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点も入力し、最後の句点は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "기다리셔야 할 수도は可能性です。방문 전에 전화するよう勧めています。",
         "answer_json": "{\"accepted\": [\"예약 없이 오시면 기다리셔야 할 수도 있어요. 방문 전에 전화하시면 빈 시간을 확인해 드릴게요.\"]}",
@@ -240793,7 +240793,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点も入力し、最後の句点は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "자리를 봐 주다はここでは席を確保して見ていてもらうことです。",
         "answer_json": "{\"accepted\": [\"제가 잠깐 전화를 해야 해서요. 이 자리 좀 봐 주실 수 있을까요? 금방 돌아올게요.\"]}",
@@ -240806,7 +240806,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点も入力し、最後の句点は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "오늘까지が元の期限です。내일 오전까지 보내도の可否を尋ねています。",
         "answer_json": "{\"accepted\": [\"자료를 오늘까지 보내 달라고 하셨죠? 아직 확인할 게 남아서 내일 오전까지 보내도 괜찮을까요?\"]}",
@@ -240819,7 +240819,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点も入力し、最後の句点は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "문까지만で手伝いの範囲を限定し、その後は自分で行うと伝えます。",
         "answer_json": "{\"accepted\": [\"무거운 상자라 혼자 들기 어렵네요. 문까지만 같이 옮겨 주시면 그다음은 제가 할게요.\"]}",
@@ -240832,7 +240832,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点も入力し、最後の句点は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "못 가요は欠席の連絡です。저 없이 시작してほしいと依頼しています。",
         "answer_json": "{\"accepted\": [\"오늘은 아이를 돌봐야 해서 모임에 못 가요. 다음에는 꼭 갈 테니까 오늘은 저 없이 시작해 주세요.\"]}",
@@ -240845,7 +240845,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点も入力し、最後の句点は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "내일は断り、모레は代案です。빌려 드리다の貸す側は話し手です。",
         "answer_json": "{\"accepted\": [\"차를 빌려 드리고 싶은데 내일은 제가 써야 해요. 모레는 괜찮으니까 날짜를 바꿀 수 있으면 말씀해 주세요.\"]}",
@@ -241185,7 +241185,7 @@
         "answer_schema_version": 1,
         "prompt_ja": "実際に食べた後、何を基準に選ぼうと思いましたか。",
         "prompt_ko": null,
-        "explanation_ja": "以前の価格による判断と実食後の好みを区別します。高価な菓子が誰にとってもまずいという主張ではありません。 正解の手がかり：「제 입에는 덜 단 과자가 더 잘 맞는」。「値段の高さだけ」：値段だけで選ぶ以前の判断が変わっています。「箱の大きさだけ」：箱の大きさは判断基準として挙げていません。",
+        "explanation_ja": "以前の価格による判断と実食後の好みを区別します。편이에요は傾向を述べる表現で、推測ではありません。高価な菓子が誰にとってもまずいという主張ではありません。 正解の手がかり：「제 입에는 덜 단 과자가 더 잘 맞는」。「値段の高さだけ」：値段だけで選ぶ以前の判断が変わっています。「箱の大きさだけ」：箱の大きさは判断基準として挙げていません。",
         "answer_json": "{\"correct_choice_ids\": [\"c\"]}",
         "rubric_json": "{\"listening_task\": \"comprehension\"}",
         "listening_id": "4eff8690-af59-4126-a24a-9f8c42c40ee7",
@@ -241523,7 +241523,7 @@
         "answer_schema_version": 1,
         "prompt_ja": "読書会への参加について、どの説明が合っていますか。",
         "prompt_ko": null,
-        "explanation_ja": "나가 볼까 해요はまだ仮の意向です。평일 저녁이라면は参加できそうな条件を示します。 正解の手がかり：「모임이 평일 저녁이라면」。「毎週末の参加をすでに約束している」：平日夜の条件を考えており、毎週末の参加の約束ではありません。「仕事を辞めて参加すると決めている」：仕事の後で行く予定なので、退職の決定ではありません。",
+        "explanation_ja": "나가 볼까 해요はまだ仮の意向です。평일 저녁이라면は参加できそうな条件を示します。 正解の手がかり：「모임이 평일 저녁이라면」。「毎週末の参加をすでに約束している」：平日夜の条件を考えており、毎週末の参加の約束ではありません。「仕事を辞めて参加すると決めている」：仕事の後に行けそうかを考えており、退職を決めたわけではありません。",
         "answer_json": "{\"correct_choice_ids\": [\"b\"]}",
         "rubric_json": "{\"listening_task\": \"comprehension\"}",
         "listening_id": "c660197b-bdd6-48cb-8481-94d92a5e3a4d",
@@ -241601,7 +241601,7 @@
         "answer_schema_version": 1,
         "prompt_ja": "話し手が今、考えを整理しているのはなぜですか。",
         "prompt_ko": null,
-        "explanation_ja": "일하게 됐어요は決まった変化、싶으냐고は希望を尋ねられたことの引用です。担当する仕事はまだ説明されていません。 正解の手がかり：「어떤 일을 하고 싶냐고 물어서」。「来月の異動を取り消したいから」：異動取消しでなく、新しい仕事の希望を整理しています。「以前の担当者が仕事を辞めたから」：以前の担当者が退職したとは述べていません。",
+        "explanation_ja": "일하게 됐어요は決まった変化、하고 싶냐고は会話で希望を尋ねられたことを引用する形です。担当する仕事はまだ示されていません。 正解の手がかり：「어떤 일을 하고 싶냐고 물어서」。「来月の異動を取り消したいから」：異動取消しでなく、新しい仕事の希望を整理しています。「以前の担当者が仕事を辞めたから」：以前の担当者が退職したとは述べていません。",
         "answer_json": "{\"correct_choice_ids\": [\"b\"]}",
         "rubric_json": "{\"listening_task\": \"comprehension\"}",
         "listening_id": "66810330-e57c-41de-8c9c-9bc31eb97bda",
@@ -241653,7 +241653,7 @@
         "answer_schema_version": 1,
         "prompt_ja": "話し手は同僚にまず何を尋ねるつもりですか。",
         "prompt_ko": null,
-        "explanation_ja": "모른다고はチーム長の説明、도와주라고は同僚への支援を求める指示です。責める前に事情を知ろうとしています。 正解の手がかり：「먼저 불편한 점을 물어보려고」。「規則を知らない理由だけ」：なぜ規則を知らないかだけでなく、困りごとを知ろうとしています。「規則を作り直す日程」：規則を改訂する日程は尋ねようとしていません。",
+        "explanation_ja": "모른다고はチーム長の説明、도와주라고は同僚への支援を求める指示です。指示した人はチーム長、助けを受ける人は同僚です。話し手は困りごとを聞く予定です。 正解の手がかり：「먼저 불편한 점을 물어보려고」。「規則を知らない理由だけ」：なぜ規則を知らないかだけでなく、困りごとを知ろうとしています。「規則を作り直す日程」：規則を改訂する日程は尋ねようとしていません。",
         "answer_json": "{\"correct_choice_ids\": [\"c\"]}",
         "rubric_json": "{\"listening_task\": \"comprehension\"}",
         "listening_id": "ddc20913-710c-45ca-a0d4-473f86e48a09",
@@ -241703,7 +241703,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "길을 잃을까 봐は心配、마음이 놓이네요は助けを受けて今感じた安心を表します。",
         "answer_json": "{\"accepted\": [\"처음 가는 곳이라 길을 잃을까 봐 걱정했어요. 친구가 입구까지 마중을 나와 줘서 마음이 놓이네요.\"]}",
@@ -241716,7 +241716,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "느라고は待たせた原因です。미안한 마음에から、次は先に着こうとする気持ちを読み取ります。",
         "answer_json": "{\"accepted\": [\"동아리 일을 마무리하느라고 친구를 오래 기다리게 했어요. 미안한 마음에 다음에는 제가 먼저 도착하려고 해요.\"]}",
@@ -241729,7 +241729,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "긴장되기는 하지만は緊張を認めても伝える意志はあるという対比です。말해 볼게요は自分の行動の約束です。",
         "answer_json": "{\"accepted\": [\"발표할 생각을 하면 긴장되기는 하지만 준비한 내용은 꼭 전하고 싶어요. 첫 문장만 천천히 말해 볼게요.\"]}",
@@ -241742,7 +241742,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "내릴 뻔했어요は置いたまま降りる直前だったという意味です。まだ動揺していても財布は手元に戻っています。",
         "answer_json": "{\"accepted\": [\"지갑을 버스에 두고 내릴 뻔했어요. 기사님이 불러 주셔서 찾았는데 아직도 가슴이 두근거리네요.\"]}",
@@ -241755,7 +241755,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "가라앉다と가벼워지다の気持ちの変化を追います。解決策をもらったとは述べていません。",
         "answer_json": "{\"accepted\": [\"혼자 고민할 때는 기분이 점점 가라앉았어요. 친구가 제 이야기를 듣는 동안 마음이 조금 가벼워졌어요.\"]}",
@@ -241768,10 +241768,10 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "형이…했다고は兄の報告です。전해 달라고は話し手から兄への依頼で、両親は知らせを受け取る人です。",
-        "answer_json": "{\"accepted\": [\"형이 시험에 붙었다고 했어요. 저는 기뻐서 부모님께도 이 소식을 전해 달라고 부탁했어요.\"]}",
+        "answer_json": "{\"accepted\": [\"형이 시험에 붙었다고 했어요. 저는 기뻐서 형에게 부모님께도 이 소식을 전해 달라고 부탁했어요.\"]}",
         "rubric_json": "{\"listening_task\": \"dictation\"}",
         "listening_id": "2af314d6-2bb3-45f1-a40f-2f78777afb58",
         "topik_level": null
@@ -241781,7 +241781,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "말할 필요가 없어요は明るく振る舞う義務を否定しています。話すこと自体を禁止してはいません。",
         "answer_json": "{\"accepted\": [\"속상할 때는 꼭 밝게 말할 필요가 없어요. 저는 잠깐 조용히 쉬면 다시 이야기할 힘이 나요.\"]}",
@@ -241794,7 +241794,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "많을수록は人数と不安の関係、편이에요は自分の傾向です。모임自体を避けるという話ではありません。",
         "answer_json": "{\"accepted\": [\"사람이 많을수록 저는 마음이 불안해지는 편이에요. 그래서 모임에 일찍 가서 조용한 자리를 골라요.\"]}",
@@ -241807,7 +241807,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "대신は方法の代案です。참여하자고は話し手も含む参加の呼びかけで、参加を断る表現ではありません。",
         "answer_json": "{\"accepted\": [\"직접 모이는 대신 온라인으로 의견을 나누면 좋겠어요. 멀리 사는 분들도 참여하자고 말씀드리고 싶어요.\"]}",
@@ -241820,7 +241820,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "삼십 분이라도は最低限の代案です。안건 하나만とあるので全議題を終える提案ではありません。",
         "answer_json": "{\"accepted\": [\"긴 회의가 어렵다면 삼십 분이라도 이야기하면 좋겠어요. 중요한 안건 하나만 먼저 정리할까요?\"]}",
@@ -241833,7 +241833,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "써 보지 않은は未経験の方法を修飾し、좋은지 나쁜지 모르겠어요は判断を保留しています。",
         "answer_json": "{\"accepted\": [\"아직 써 보지 않은 방법이 좋은지 나쁜지 모르겠어요. 작은 일부터 시험해 본 다음에 결정하고 싶어요.\"]}",
@@ -241846,7 +241846,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "주말이라면が参加の条件です。참여할래요は自分の意向で、平日の参加を約束していません。",
         "answer_json": "{\"accepted\": [\"봉사 활동이 주말이라면 저도 참여할래요. 평일에는 일을 쉬기 어려워서 날짜를 먼저 알고 싶어요.\"]}",
@@ -241859,7 +241859,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "内容への感謝と言い方への負担は両立します。맞아도は指摘が正しい場合にも成り立つ対比です。",
         "answer_json": "{\"accepted\": [\"실수한 것을 바로 알려 주는 건 고마운 일이에요. 다만 내용이 맞아도 말투가 너무 강하면 듣기 어려워요.\"]}",
@@ -241872,7 +241872,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "오른다는 이야기は伝聞内容を修飾します。未確認の話と正式な案内を区別して聞きます。",
         "answer_json": "{\"accepted\": [\"다음 달부터 수업료가 오른다는 이야기를 들었는데 아직 안내문은 못 봤어요. 확인하기 전에는 다른 분들께 확정된 일처럼 말하지 않으려고 해요.\"]}",
@@ -241885,7 +241885,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "있거든は相手に時間がある場合の依頼です。反対意見も求めており、賛成だけを期待してはいません。",
         "answer_json": "{\"accepted\": [\"시간이 있거든 제가 쓴 제안서를 읽어 주실래요? 찬성하지 않는 부분도 편하게 알려 주시면 좋겠어요.\"]}",
@@ -241898,7 +241898,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "위해は読み手を意識した目的です。겠지요は必要性について相手に同意を求めています。",
         "answer_json": "{\"accepted\": [\"이 안내문은 처음 오는 사람들을 위해 쉽게 써야겠지요? 어려운 말을 줄이고 필요한 정보부터 보여 주면 좋겠어요.\"]}",
@@ -241911,7 +241911,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "꺼져 있고/잠겨 있어요は現在の状態、닫았나 봐요はその状態に基づく推測です。閉店理由までは分かりません。",
         "answer_json": "{\"accepted\": [\"가게 불이 꺼져 있고 문도 잠겨 있어요. 오늘은 일찍 문을 닫았나 봐요. 다른 곳에 가 보는 게 좋겠어요.\"]}",
@@ -241924,7 +241924,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "막힐지도は可能性であり、すでに渋滞しているという報告ではありません。早く出るのは列車に間に合うためです。",
         "answer_json": "{\"accepted\": [\"퇴근 시간에는 길이 막힐지도 몰라요. 기차를 놓칠까 봐 평소보다 일찍 출발하려고 해요.\"]}",
@@ -241937,7 +241937,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "멈추더니は以前に観察した様子と今日の変化をつなぎます。練習量は観察からの推測です。",
         "answer_json": "{\"accepted\": [\"지난달에는 그 가수가 높은 음에서 자주 멈추더니 오늘은 끝까지 편하게 부르네요. 연습을 많이 했을 것 같아요.\"]}",
@@ -241950,7 +241950,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "끝나는지は未確認の情報です。購入を急ぐべきか判断するための先行条件を聞き取ります。",
         "answer_json": "{\"accepted\": [\"할인이 언제 끝나는지 아직 몰라요. 오늘 꼭 사야 하는지 판단하려면 기간부터 확인해야 해요.\"]}",
@@ -241963,9 +241963,9 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
-        "explanation_ja": "以前の価格による判断と実食後の好みを区別します。高価な菓子が誰にとってもまずいという主張ではありません。",
+        "explanation_ja": "以前の価格による判断と実食後の好みを区別します。편이에요は傾向を述べる表現で、推測ではありません。高価な菓子が誰にとってもまずいという主張ではありません。",
         "answer_json": "{\"accepted\": [\"가격이 비쌀수록 맛도 좋다고 생각했어요. 그런데 직접 먹어 보니 제 입에는 덜 단 과자가 더 잘 맞는 편이에요.\"]}",
         "rubric_json": "{\"listening_task\": \"dictation\"}",
         "listening_id": "4571996c-494c-48f4-acf3-3704138159ed",
@@ -241976,7 +241976,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "편리하기는 하지만は長所を認めた上での判断です。現時点での切替えと次回の比較を区別します。",
         "answer_json": "{\"accepted\": [\"새 프로그램이 편리하기는 하지만 지금 하는 일에는 꼭 바꿀 필요가 없어요. 다음 작업을 시작할 때 다시 비교해 보려고 해요.\"]}",
@@ -241989,7 +241989,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "것は遅れたという事実をまとめます。その理由を聞く前の性急な人物評価を避けたい意図です。",
         "answer_json": "{\"accepted\": [\"늦게 왔다는 것만으로 무책임하다고 판단하고 싶지는 않아요. 무슨 일이 있었는지 먼저 들어 봐야겠어요.\"]}",
@@ -242002,7 +242002,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "때문에は集中できなかった原因、끝나고 나서は場所を探した順序を表します。授業中に移動したとは言っていません。",
         "answer_json": "{\"accepted\": [\"옆방 소음 때문에 온라인 수업에 집중하기 어려웠어요. 수업이 끝나고 나서 조용한 장소를 찾아봤어요.\"]}",
@@ -242015,7 +242015,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "꺼지는 바람에は予想外の不都合な原因です。켜고 나서야は再起動が済むまでリンクを開けなかったことを示します。",
         "answer_json": "{\"accepted\": [\"컴퓨터가 갑자기 꺼지는 바람에 회의에 늦게 들어갔어요. 다시 켜고 나서야 회의 링크를 열 수 있었어요.\"]}",
@@ -242028,7 +242028,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "電話対応が遅刻の理由です。연락드릴게요は今後の対応の約束で、すでに連絡したという意味ではありません。",
         "answer_json": "{\"accepted\": [\"급한 전화를 받느라고 약속 시간을 놓쳤어요. 기다리게 해서 죄송해요. 다음에는 늦기 전에 연락드릴게요.\"]}",
@@ -242041,7 +242041,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "이해하려면は目的に必要な方法、주도록は答える時間を確保するという目標です。",
         "answer_json": "{\"accepted\": [\"상대의 생각을 이해하려면 이유부터 물어보는 게 좋아요. 대답할 시간을 충분히 주도록 질문을 짧게 해 보세요.\"]}",
@@ -242054,7 +242054,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "적다 보니はすでに得た発見、기록하다 보면は継続した場合に期待する結果です。原因はまだ特定していません。",
         "answer_json": "{\"accepted\": [\"회의 내용을 계속 적다 보니 같은 문제가 자주 나오는 걸 알았어요. 이렇게 기록하다 보면 원인을 찾는 데 도움이 될 것 같아요.\"]}",
@@ -242067,7 +242067,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "보냈더니は自分の行動の後に得た結果です。予定変更を頼まれたのではなく、説明の後で変更してもらっています。",
         "answer_json": "{\"accepted\": [\"이유를 자세히 써서 메일을 보냈더니 선생님이 일정을 바꿔 주셨어요. 설명을 듣고 사정을 이해해 주셨네요.\"]}",
@@ -242080,7 +242080,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "먼저라고は担当者の説明、들어가지 말라고は入らないようにという指示の引用です。",
         "answer_json": "{\"accepted\": [\"담당자가 안전 확인이 먼저라고 했어요. 바닥이 마를 때까지 안으로 들어가지 말라고 안내했어요.\"]}",
@@ -242093,7 +242093,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "나오자마자は話合いの時点、갖게 됐어요はその結果決まった変更です。",
         "answer_json": "{\"accepted\": [\"설문 결과가 나오자마자 팀에서 일정을 다시 논의했어요. 의견이 많아서 준비 기간을 일주일 더 갖게 됐어요.\"]}",
@@ -242106,7 +242106,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "요리하다가는作業の中断、열려 있어요は現在の結果状態です。今しているのは電話だと決めつけません。",
         "answer_json": "{\"accepted\": [\"요리하다가 전화를 오래 받았어요. 냄비가 타서 지금 부엌 창문이 열려 있어요.\"]}",
@@ -242119,7 +242119,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "듣고 나서야は説明を聞くまでは気づかなかったことを示します。물어봐야겠어요は経験から決めた今後の対応です。",
         "answer_json": "{\"accepted\": [\"친구의 설명을 듣고 나서야 제가 오해했다는 걸 알았어요. 앞으로는 결론을 내리기 전에 한 번 더 물어봐야겠어요.\"]}",
@@ -242132,7 +242132,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "적어지다は選択肢の減少です。오히려は減ったことで予想に反して気が楽になったという反応を示します。",
         "answer_json": "{\"accepted\": [\"선택할 수 있는 물건이 적어지니까 오히려 마음이 편해졌어요. 저는 종류가 많을수록 결정하는 데 시간이 더 걸려요.\"]}",
@@ -242145,7 +242145,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "도와주라고では助けを受けるのは同僚です。팀장님を手伝うよう頼まれたのではありません。",
         "answer_json": "{\"accepted\": [\"자료를 고치는 김에 동료의 파일도 확인했어요. 팀장님이 동료를 도와주라고 하셔서 빠진 내용을 함께 채웠어요.\"]}",
@@ -242158,7 +242158,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "어렵다는 말は受けた意見です。예를 넣었더니の結果が質問の減少で、説明内容を削ったとは述べていません。",
         "answer_json": "{\"accepted\": [\"설명이 어렵다는 말을 듣고 예를 더 넣었더니 질문이 줄었어요. 내용을 빼기보다 구체적으로 보여 주는 게 도움이 됐어요.\"]}",
@@ -242171,7 +242171,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "役割分担の後の変化を聞きます。같은 일을 두 번 하지 않아도は作業の重複がなくなったことです。",
         "answer_json": "{\"accepted\": [\"역할을 나누고 나서 준비가 훨씬 빨라졌어요. 서로 할 일을 알게 되니 같은 일을 두 번 하지 않아도 되네요.\"]}",
@@ -242184,7 +242184,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "나올 뻔했어요は実際の紛失とは区別します。그 뒤로는以降の習慣に注目します。",
         "answer_json": "{\"accepted\": [\"지난번에 계산할 때 휴대전화를 두고 나올 뻔했어요. 그 뒤로는 가게를 나서기 전에 주머니를 꼭 확인해요.\"]}",
@@ -242197,7 +242197,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "짧은 메시지만の만は限られた情報を示します。会話は意図を確かめる助けで、文字での連絡を全面否定していません。",
         "answer_json": "{\"accepted\": [\"집에서 일하는 동안 짧은 메시지만 보고 오해한 적이 있어요. 직접 이야기하다 보면 글로는 몰랐던 뜻이 보이기도 해요.\"]}",
@@ -242210,7 +242210,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "하더니は観察した同僚の変化です。대신は発言する同僚と記録する自分の役割の分担を表します。",
         "answer_json": "{\"accepted\": [\"처음에는 동료가 회의에서 조용히 듣기만 하더니 요즘은 질문도 많이 해요. 저는 질문하는 대신 메모를 맡아서 의견을 정리하고 있어요.\"]}",
@@ -242223,7 +242223,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "쓰다 보니は継続から得た発見、적는 것은行動を名詞のまとまりとして述べています。",
         "answer_json": "{\"accepted\": [\"짧게라도 일기를 계속 쓰다 보니 제가 언제 지치는지 알게 됐어요. 제 기분을 적는 것이 쉬는 시간을 정하는 데 도움이 돼요.\"]}",
@@ -242236,7 +242236,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "냈더니は提出後に受け取った反応です。確認メッセージが来たので、別の電話は不要だったと説明しています。",
         "answer_json": "{\"accepted\": [\"신청서를 온라인으로 냈더니 바로 확인 문자가 왔어요. 따로 전화할 필요가 없어서 생각보다 간단했어요.\"]}",
@@ -242249,7 +242249,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "간 김에は帰省の機会を利用した行動です。도서관이 생겼다고は近所の人から聞いた情報です。",
         "answer_json": "{\"accepted\": [\"고향에 간 김에 예전 집 근처를 걸어 봤어요. 이웃분이 도서관이 생겼다고 해서 들러 보기도 했어요.\"]}",
@@ -242262,7 +242262,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "편인데は自分の傾向、다르기는 하지만は違いを認めた上での経験です。どちらかが全面的に従ったとは述べていません。",
         "answer_json": "{\"accepted\": [\"저는 미리 계획하는 편인데 친구는 그날 정하는 걸 좋아해요. 다르기는 하지만 함께 여행하면서 서로 맞추는 방법을 배웠어요.\"]}",
@@ -242275,7 +242275,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "달라도は意見の違いがあっても傾聴する態度です。편해졌어요はその経験を通じた話し手の変化です。",
         "answer_json": "{\"accepted\": [\"새 팀에서는 의견이 달라도 끝까지 들어 줬어요. 처음에는 긴장했지만 그런 경험 덕분에 말하는 게 편해졌어요.\"]}",
@@ -242288,7 +242288,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "위해は学習目的、듣기로 했어요は受講の決定です。受講開始日をすでに決めたとは限りません。",
         "answer_json": "{\"accepted\": [\"회사 자료를 읽기 위해 저녁 한국어 수업을 듣기로 했어요. 이번 달에는 먼저 수업 시간부터 확인할 거예요.\"]}",
@@ -242301,7 +242301,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "나가 볼까 해요はまだ仮の意向です。평일 저녁이라면は参加できそうな条件を示します。",
         "answer_json": "{\"accepted\": [\"다음 달에는 독서 모임에 나가 볼까 해요. 모임이 평일 저녁이라면 일 끝나고 갈 수 있을 것 같아요.\"]}",
@@ -242314,7 +242314,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "않도록は目標、생각하도록 하겠어요は自分の行動方針です。必需品も買わないという計画ではありません。",
         "answer_json": "{\"accepted\": [\"월말에 돈이 부족하지 않도록 이번 달부터 지출을 적으려고 해요. 비싼 물건은 바로 사지 말고 하루 더 생각하도록 하겠어요.\"]}",
@@ -242327,7 +242327,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "끝날지 몰라서는未確認の将来情報です。旅行を中止したのではなく、日程を決める前の確認を考えています。",
         "answer_json": "{\"accepted\": [\"가족 일정이 언제 끝날지 몰라서 여행 날짜는 아직 못 정했어요. 오늘 저녁에 먼저 확인해 봐야겠어요.\"]}",
@@ -242340,7 +242340,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "만나려면は実現したい条件、잡아야は案内に先立つ必要条件です。予約済みという話ではありません。",
         "answer_json": "{\"accepted\": [\"다음 주에 모두 만나려면 회의실을 먼저 예약해야 해요. 자리를 잡아야 정확한 시간을 안내할 수 있어요.\"]}",
@@ -242353,7 +242353,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "이야기할까요は提案、앉을래요は自分の希望です。静かな店を選ぶ理由は前回の聞こえにくさです。",
         "answer_json": "{\"accepted\": [\"이번에는 조용한 카페에서 이야기할까요? 저는 창가에 앉을래요. 지난번에는 음악 소리가 커서 잘 안 들렸어요.\"]}",
@@ -242366,7 +242366,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "지칠까 봐は疲れることへの心配、무리하지 말라고は友達の助言の引用です。行先を増やす計画ではありません。",
         "answer_json": "{\"accepted\": [\"일정이 너무 많으면 지칠까 봐 걱정돼요. 친구도 무리하지 말라고 해서 하루에 한 곳만 가려고 해요.\"]}",
@@ -242379,9 +242379,9 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
-        "explanation_ja": "일하게 됐어요は決まった変化、싶으냐고は希望を尋ねられたことの引用です。担当する仕事はまだ説明されていません。",
+        "explanation_ja": "일하게 됐어요は決まった変化、하고 싶냐고は会話で希望を尋ねられたことを引用する形です。担当する仕事はまだ示されていません。",
         "answer_json": "{\"accepted\": [\"다음 달부터 다른 부서에서 일하게 됐어요. 새 담당자가 어떤 일을 하고 싶냐고 물어서 제 생각을 정리하는 중이에요.\"]}",
         "rubric_json": "{\"listening_task\": \"dictation\"}",
         "listening_id": "ffe5489c-75c2-4b22-80cc-f5f1eda86a29",
@@ -242392,7 +242392,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "결정하고 싶은데は意見の対比、달라도は違いがあっても取る態度です。相手が即決に賛成したとは言っていません。",
         "answer_json": "{\"accepted\": [\"저는 빠르게 결정하고 싶은데 동료는 더 알아보자고 해요. 생각이 달라도 먼저 상대의 이유를 끝까지 들어 보려고 해요.\"]}",
@@ -242405,7 +242405,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "나눠 하자고は話し手の対案です。週末にまとめる案と平日に分ける案を区別します。",
         "answer_json": "{\"accepted\": [\"주말에 일하자는 의견이 나왔지만 저는 평일에 나눠 하자고 했어요. 하루에 몰아서 하는 대신 조금씩 준비하면 좋겠어요.\"]}",
@@ -242418,10 +242418,10 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "설명해 주실래요は再説明の依頼です。말씀드릴게요は確認後に自分の意見を伝える約束で、賛成の約束ではありません。",
-        "answer_json": "{\"accepted\": [\"제가 이해한 내용이 맞는지 한 번만 더 설명해 주실래요? 바로 반대하기보다는 설명을 듣고 제 의견을 말씀드릴게요.\"]}",
+        "answer_json": "{\"accepted\": [\"제가 이해한 내용이 맞는지 한 번만 더 설명해 주실래요? 바로 반대하는 대신 설명을 듣고 제 의견을 말씀드릴게요.\"]}",
         "rubric_json": "{\"listening_task\": \"dictation\"}",
         "listening_id": "da74a7a7-32a8-41d1-8eef-584779c4599c",
         "topik_level": null
@@ -242431,9 +242431,9 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
-        "explanation_ja": "모른다고はチーム長の説明、도와주라고は同僚への支援を求める指示です。責める前に事情を知ろうとしています。",
+        "explanation_ja": "모른다고はチーム長の説明、도와주라고は同僚への支援を求める指示です。指示した人はチーム長、助けを受ける人は同僚です。話し手は困りごとを聞く予定です。",
         "answer_json": "{\"accepted\": [\"팀장님은 새 동료가 규칙을 잘 모른다고 하셨어요. 저에게 그 동료를 도와주라고 하셔서 먼저 불편한 점을 물어보려고 해요.\"]}",
         "rubric_json": "{\"listening_task\": \"dictation\"}",
         "listening_id": "74307daf-4aa6-4931-bebd-4c412ef48391",
@@ -242444,7 +242444,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "같지요は共通認識の確認です。速さの利点は認めつつ、予算との両立も調べようとしています。",
         "answer_json": "{\"accepted\": [\"비용을 줄여야 한다는 점은 우리 생각이 같지요? 새 장비가 빠르기는 하지만 지금 예산으로 살 수 있는지도 함께 봐요.\"]}",
@@ -242457,7 +242457,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "어렵거든は条件、십 분이라도は短時間の代案です。すべての問題を一度で解決するという提案ではありません。",
         "answer_json": "{\"accepted\": [\"오늘 길게 만나기 어렵거든 전화로 십 분이라도 이야기해요. 저는 서로 오해한 부분만 먼저 확인하고 싶어요.\"]}",
@@ -242470,7 +242470,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "길어질수록は程度の変化、쉬고 나서야は落ち着くために休憩が必要だった経験です。次も声を上げる方針ではありません。",
         "answer_json": "{\"accepted\": [\"이야기가 길어질수록 서로 목소리가 커졌어요. 잠깐 쉬고 나서야 차분하게 들을 수 있어서 다음에는 먼저 쉬자고 하려고 해요.\"]}",
@@ -243263,7 +243263,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "「안쪽」は入口から見て奥側。「-려면」は目的を実現するための条件です。",
         "answer_json": "{\"accepted\": [\"도서관 창가 쪽은 공사 중입니다. 조용히 공부하려면 안쪽 열람실을 이용해 주세요.\"]}",
@@ -243276,7 +243276,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "「-아도」は雨でも実施すること、「대신」は集合場所の変更を示します。",
         "answer_json": "{\"accepted\": [\"내일 체육 수업은 비가 와도 취소하지 않습니다. 운동장 대신 강당으로 모이세요.\"]}",
@@ -243289,7 +243289,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "「-을 때까지」は仮の証明書を使う期間の終点です。",
         "answer_json": "{\"accepted\": [\"학생증을 잃어버린 분은 사무실에 알려 주세요. 새 학생증이 나올 때까지 임시 출입증을 드립니다.\"]}",
@@ -243302,7 +243302,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "「-고 나서」は提出が先、確認メッセージを待つのが後という順序です。",
         "answer_json": "{\"accepted\": [\"이번 주 동아리 신청은 인터넷으로만 받습니다. 신청서를 내고 나서 확인 문자를 기다려 주세요.\"]}",
@@ -243315,7 +243315,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "「입다」は衣服、「신다」は履物に使います。「-어야 하다」は義務です。",
         "answer_json": "{\"accepted\": [\"실험실에 들어갈 때는 긴 바지를 입어야 합니다. 안전을 위해 샌들도 신지 마세요.\"]}",
@@ -243328,7 +243328,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "「자기 차례」は自分の番。掲示の確認と待機のタイミングを聞き分けます。",
         "answer_json": "{\"accepted\": [\"발표 순서는 게시판에 붙였습니다. 자기 차례가 되기 전에 교실 앞에서 기다려 주세요.\"]}",
@@ -243341,7 +243341,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "「젖어 있다」はぬれた結果の状態。学生に拭くよう頼んでいるのではありません。",
         "answer_json": "{\"accepted\": [\"급식실 바닥이 젖어 있으니 천천히 걸으세요. 물은 직원이 곧 닦을 예정입니다.\"]}",
@@ -243354,7 +243354,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "「말씀드리다」は相手を立てて伝える表現。連絡する対象が限定されています。",
         "answer_json": "{\"accepted\": [\"오늘 보충 수업은 평소보다 늦게 끝납니다. 학교 버스를 타는 학생은 먼저 선생님께 말씀드리세요.\"]}",
@@ -243367,7 +243367,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "ここでの「이름」はファイル名です。氏名だけを書けばよいという意味ではありません。",
         "answer_json": "{\"accepted\": [\"과제 파일의 이름에는 반과 번호를 써 주세요. 반과 번호가 없으면 누구의 과제인지 확인하기 어렵습니다.\"]}",
@@ -243380,7 +243380,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "「-자마자」は終了直後。次の利用者がいることが返却を急ぐ理由です。",
         "answer_json": "{\"accepted\": [\"미술실에서 빌린 가위는 수업이 끝나자마자 돌려주세요. 다음 반도 같은 도구를 사용합니다.\"]}",
@@ -243393,7 +243393,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "「잠겨 있다」は施錠された状態。「-만」は鍵を借りられる人を限定します。",
         "answer_json": "{\"accepted\": [\"회의실 문이 잠겨 있으면 안내 데스크에 문의하세요. 열쇠는 담당 직원만 빌릴 수 있습니다.\"]}",
@@ -243406,7 +243406,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "「-아 주실래요?」は丁寧な依頼。清掃の担当を頼んでいるのではありません。",
         "answer_json": "{\"accepted\": [\"내일 아침에는 건물 입구를 청소합니다. 출근하실 때 옆문을 이용해 주실래요?\"]}",
@@ -243419,7 +243419,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "「-만」と「-면 되다」が必要な持ち物を絞っています。資料の印刷は不要です。",
         "answer_json": "{\"accepted\": [\"회의 자료는 화면으로 볼 예정입니다. 메모할 종이만 가져오시면 됩니다.\"]}",
@@ -243432,7 +243432,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "「-아야」は発送に必要な条件。住所変更そのものと確認作業を区別します。",
         "answer_json": "{\"accepted\": [\"배송 주소가 바뀐 고객에게는 확인 전화를 해 주세요. 주소를 확인해야 물건을 보낼 수 있습니다.\"]}",
@@ -243445,7 +243445,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "「-는지 확인하다」は状態の確認。「마지막으로 나가는 분」は消灯担当になる人です。",
         "answer_json": "{\"accepted\": [\"퇴근 전에 창문이 닫혀 있는지 확인해 주세요. 마지막으로 나가는 분은 불도 꺼 주세요.\"]}",
@@ -243458,7 +243458,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "「-ㄹ게요」は自分の引き受け、「-아 주실래요?」は相手への依頼です。",
         "answer_json": "{\"accepted\": [\"새로 온 직원에게는 제가 창고 위치를 알려 줄게요. 그동안 주문 내용을 확인해 주실래요?\"]}",
@@ -243471,7 +243471,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "「-까지」は提出期限。集約・共有の午後と混同しないようにします。",
         "answer_json": "{\"accepted\": [\"이번 주 보고서는 금요일 오전까지 보내 주세요. 오후에는 내용을 모아서 팀 전체에 공유하겠습니다.\"]}",
@@ -243484,7 +243484,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "「들다」は持ち上げること。二つの条件文で安全上の助言と手助けを示します。",
         "answer_json": "{\"accepted\": [\"상자가 무거우면 혼자 들지 마세요. 함께 옮길 사람이 필요하면 저를 불러 주세요.\"]}",
@@ -243497,7 +243497,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "「그대로」は変更なし。「-는데」は場所と時間の変更状況を対比します。",
         "answer_json": "{\"accepted\": [\"연수 장소는 그대로인데 시작 시간이 바뀌었습니다. 안내 문자를 다시 읽어 보세요.\"]}",
@@ -243510,7 +243510,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "「그전에」は昼休みの点検より前。点検中に印刷する指示ではありません。",
         "answer_json": "{\"accepted\": [\"인쇄기는 점심시간에 점검할 예정입니다. 급한 자료는 그전에 인쇄하세요.\"]}",
@@ -243523,7 +243523,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "「당기다」と「밀다」は逆の動作。話し手の思い違いが二文目で分かります。",
         "answer_json": "{\"accepted\": [\"이 문은 손잡이를 당겨야 열려요. 미는 문이 아닌데 제가 계속 밀었네요.\"]}",
@@ -243536,7 +243536,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "「작년」と「올해」、二色の対応を聞き分けます。図の提示は不要な音声問題です。",
         "answer_json": "{\"accepted\": [\"이 표에서 파란 선은 작년 판매량이에요. 올해 판매량을 보려면 빨간 선을 보세요.\"]}",
@@ -243549,7 +243549,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "「-ㄹ수록」は進行に伴う増加。「앞부분」と「뒤」の構成を聞き取ります。",
         "answer_json": "{\"accepted\": [\"이 책은 앞부분에서 기본 표현을 설명해요. 뒤로 갈수록 실제 대화 예문이 많아져요.\"]}",
@@ -243562,7 +243562,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "「켜져 있다」は点灯状態。消灯が取り出しを許可する合図です。",
         "answer_json": "{\"accepted\": [\"빨간 불이 켜져 있는 동안에는 문을 열지 마세요. 불이 꺼지면 안에 있는 물건을 꺼내도 됩니다.\"]}",
@@ -243575,7 +243575,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "「-ㄹ 필요가 없다」は不要という意味で、毎日の水やりを義務にしていません。",
         "answer_json": "{\"accepted\": [\"화분에는 매일 물을 줄 필요가 없어요. 흙이 말랐을 때 조금씩 주세요.\"]}",
@@ -243588,7 +243588,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "「뜻이 아니다」で誤解を否定し、後の文で正しい意味を説明します。",
         "answer_json": "{\"accepted\": [\"이 표시는 길이 막혔다는 뜻이 아니에요. 앞에 학교가 있으니 속도를 줄이라는 뜻이에요.\"]}",
@@ -243601,7 +243601,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "「포함되어 있다」は含まれた状態。「따로 내다」は別払いです。",
         "answer_json": "{\"accepted\": [\"참가비에는 점심값이 포함되어 있어요. 하지만 집에서 행사장까지 가는 교통비는 따로 내야 해요.\"]}",
@@ -243614,7 +243614,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "「-만」は消える範囲の限定。「길게 누르다」は長押しです。",
         "answer_json": "{\"accepted\": [\"이 단추를 누르면 화면만 꺼져요. 기계를 완전히 끄려면 옆에 있는 단추를 길게 누르세요.\"]}",
@@ -243627,7 +243627,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "「-기 위해서」は目的。記入する書類の用途を説明しています。",
         "answer_json": "{\"accepted\": [\"방문 기록에 이름을 쓰는 건 출입한 사람을 확인하기 위해서예요. 물건을 주문하는 신청서는 아니에요.\"]}",
@@ -243640,7 +243640,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "「-지는 않다」は「すぐ開く」を否定。表示が消えるまでの待ち時間があります。",
         "answer_json": "{\"accepted\": [\"세탁이 끝나도 문이 바로 열리지는 않아요. 잠깐 기다리면 잠금 표시가 사라져요.\"]}",
@@ -243653,7 +243653,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "「대신」は長所と負担の対応。課題の少なさと自習量を混同しません。",
         "answer_json": "{\"accepted\": [\"이 강의는 설명이 자세한 대신 과제가 많아요. 다른 강의는 과제가 적지만 스스로 공부할 부분이 많아요.\"]}",
@@ -243666,7 +243666,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "「서랍이 있다」が右の机の利点。広さだけで優劣を決めていません。",
         "answer_json": "{\"accepted\": [\"왼쪽 책상은 넓지만 서랍이 없어요. 오른쪽 책상은 조금 좁아도 서랍이 있어서 정리하기 편해요.\"]}",
@@ -243679,7 +243679,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "「눈에 띄다」は目につくという表現。電子版の利点は更新の速さです。",
         "answer_json": "{\"accepted\": [\"종이 안내문은 눈에 잘 띄는데 내용을 고치기 어려워요. 인터넷 안내문은 바뀐 내용을 바로 올릴 수 있어요.\"]}",
@@ -243692,7 +243692,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "「-기는 하지만」は利点を認めた上での問題提示。荷物が入ることを優先しています。",
         "answer_json": "{\"accepted\": [\"작은 가방은 가볍기는 하지만 책이 다 안 들어가요. 무거워도 큰 가방을 가져가는 게 낫겠어요.\"]}",
@@ -243705,7 +243705,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "「다만」は別の考慮点の追加。直接会う利点とオンラインの利点が異なります。",
         "answer_json": "{\"accepted\": [\"온라인 회의는 이동 시간이 들지 않아요. 다만 직접 만나면 표정을 보기 쉬워서 오해가 줄어들어요.\"]}",
@@ -243718,7 +243718,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "「잘 안」は起こりにくさ。「피하다」は避けることで、雨の日の用途を比べています。",
         "answer_json": "{\"accepted\": [\"이 신발은 비가 와도 물이 잘 안 들어와요. 저 신발은 가볍지만 비 오는 날에는 피하는 게 좋겠어요.\"]}",
@@ -243731,7 +243731,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "「-다는 장점」は利点の内容。人数の少なさは朝の授業の特徴です。",
         "answer_json": "{\"accepted\": [\"아침 수업은 사람이 적어서 질문하기 편해요. 저녁 수업은 사람이 많아도 퇴근 후에 들을 수 있다는 장점이 있어요.\"]}",
@@ -243744,7 +243744,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "「돌아가다」はここでは遠回り。短さより重い荷物での歩きやすさを優先します。",
         "answer_json": "{\"accepted\": [\"첫 번째 길은 짧지만 계단이 많아요. 짐이 무거우니 조금 돌아가도 두 번째 길로 가죠.\"]}",
@@ -243757,7 +243757,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "「자리를 차지하다」は場所を取る。座り心地と部屋への適性を分けています。",
         "answer_json": "{\"accepted\": [\"새 의자는 등받이가 높아서 편해요. 그런데 자리를 많이 차지하니 작은 방에는 예전 의자가 더 맞겠어요.\"]}",
@@ -243770,7 +243770,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "「요점」は要点。記録と説明のしやすさを両立する順序を提案しています。",
         "answer_json": "{\"accepted\": [\"메시지로 설명하면 기록이 남아요. 복잡한 내용은 전화로 먼저 이야기하고 요점을 글로 보내는 게 좋겠어요.\"]}",
@@ -243783,7 +243783,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "「맞춰 보다」は照合してみること。名札をすべて捨てる必要はありません。",
         "answer_json": "{\"accepted\": [\"이름표가 서로 바뀐 것 같아요. 명단과 이름을 하나씩 맞춰 보면 금방 찾을 수 있을 거예요.\"]}",
@@ -243796,7 +243796,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "「그래도」は最初の対策後も改善しない場合。二段階の対応を聞き取ります。",
         "answer_json": "{\"accepted\": [\"노트북 화면이 너무 어두워서 글씨가 안 보여요. 밝기를 조금 올려 보고 그래도 안 보이면 자리를 옮길게요.\"]}",
@@ -243809,7 +243809,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "「모자라다」は不足。「-ㄹ까요?」で購入以外の解決策への意見を求めます。",
         "answer_json": "{\"accepted\": [\"준비한 접시가 모자라네요. 일회용 접시를 사는 대신 옆 사무실에서 빌려 볼까요?\"]}",
@@ -243822,7 +243822,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "「이전 것」は誤送信したファイル。「-아 달라고」は受け手に削除を頼む引用です。",
         "answer_json": "{\"accepted\": [\"잘못된 파일을 보냈어요. 바로 새 파일을 보내고 이전 것은 지워 달라고 부탁해야겠어요.\"]}",
@@ -243835,7 +243835,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "「-는 대신」は一つの行動を別の行動に替えること。安全に取り出す方法の提案です。",
         "answer_json": "{\"accepted\": [\"책장 뒤로 카드가 떨어졌어요. 책장을 혼자 옮기는 대신 긴 자로 꺼내 보는 게 안전하겠어요.\"]}",
@@ -243848,7 +243848,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "「-부터」は対応の出発点。「열리다」は画面が開くという自動詞です。",
         "answer_json": "{\"accepted\": [\"신청 화면이 열리지 않아요. 인터넷 연결부터 확인하고 다시 해 볼게요.\"]}",
@@ -243861,7 +243861,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "「부분을 나누다」は読む範囲の分担。読後の共有まで含む提案です。",
         "answer_json": "{\"accepted\": [\"자료가 많아서 한 사람이 다 읽기 어렵겠어요. 부분을 나누어 읽은 뒤에 중요한 내용을 같이 정리하죠.\"]}",
@@ -243874,7 +243874,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "「다치다」はけがをするという自動詞。事故前の予防を判断しています。",
         "answer_json": "{\"accepted\": [\"의자가 흔들려서 앉기 불안해요. 다친 사람이 생기기 전에 다른 의자로 바꿔야겠어요.\"]}",
@@ -243887,7 +243887,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "「-는 김에」は整理の機会を利用した追加作業。「겉」は箱の外側です。",
         "answer_json": "{\"accepted\": [\"상자에 내용이 적혀 있지 않아서 찾는 데 오래 걸려요. 오늘 정리하는 김에 겉에 이름도 쓸게요.\"]}",
@@ -243900,7 +243900,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "「문의가 들어오다」は問い合わせが来ること。繰り返す問題への対策です。",
         "answer_json": "{\"accepted\": [\"비슷한 문의가 계속 들어오네요. 자주 묻는 질문을 모아서 안내문을 만들면 어떨까요?\"]}",
@@ -243913,7 +243913,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "「-ㄹ까요?」は場所変更の提案。通行人への注意ではありません。",
         "answer_json": "{\"accepted\": [\"여기는 사람들이 자주 지나가네요. 중요한 이야기는 좀 더 조용한 곳에서 할까요?\"]}",
@@ -243926,7 +243926,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "「놓치다」は聞き逃すこと。「그 부분만」で依頼する範囲を限定します。",
         "answer_json": "{\"accepted\": [\"설명은 잘 들었는데 마지막 부분을 놓쳤어요. 그 부분만 한 번 더 말씀해 주실래요?\"]}",
@@ -243939,7 +243939,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "「-을 것 같다」は見込み。方法を否定せず、説明の改善を提案しています。",
         "answer_json": "{\"accepted\": [\"이 방법도 괜찮지만 처음 쓰는 사람에게는 어려울 것 같아요. 설명에 그림을 하나 넣으면 어떨까요?\"]}",
@@ -243952,7 +243952,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "「의견부터」はまず意見を聞くこと。即決より幅広い意見を求める意図です。",
         "answer_json": "{\"accepted\": [\"오늘은 바로 결정하지 않고 의견부터 듣고 싶어요. 다른 생각이 있으면 편하게 말씀해 주세요.\"]}",
@@ -243965,7 +243965,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "「-지 않으셔도 되다」は返答を急がなくてよいという許可。返答自体は求めています。",
         "answer_json": "{\"accepted\": [\"지금 바로 답하지 않으셔도 돼요. 내용을 천천히 읽어 보신 뒤에 알려 주세요.\"]}",
@@ -243978,7 +243978,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "感謝の後に次回の改善を提案しています。作業未完了の催促ではありません。",
         "answer_json": "{\"accepted\": [\"도와주셔서 일은 끝났어요. 다음에는 시작하기 전에 역할을 나누면 더 편할 것 같아요.\"]}",
@@ -243991,7 +243991,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "「-자는 거예요」は提案の意図の説明。費用確認と反対を区別します。",
         "answer_json": "{\"accepted\": [\"그 제안을 반대하는 건 아니에요. 비용이 얼마나 드는지 먼저 알아보자는 거예요.\"]}",
@@ -244004,7 +244004,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "「-을 필요는 없다」は全部読む必要がないという意味。「-만」で確認箇所を絞ります。",
         "answer_json": "{\"accepted\": [\"자료를 전부 읽을 필요는 없어요. 표시한 부분만 확인해 주시면 돼요.\"]}",
@@ -244017,7 +244017,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "「따지다」はここでは責任を問いただすこと。共同確認を求める意図です。",
         "answer_json": "{\"accepted\": [\"제가 틀렸을지도 모르니까 함께 확인해 봐요. 누구의 잘못인지 따지려는 건 아니에요.\"]}",
@@ -244030,7 +244030,7 @@
         "question_type": "listening_input",
         "direction": "ko_ko",
         "answer_schema_version": 1,
-        "prompt_ja": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
+        "prompt_ja": "聞こえた内容を韓国語で入力してください。数字もハングルで書いてください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。",
         "prompt_ko": null,
         "explanation_ja": "「여쭤보다」は尋ねる謙譲表現。経験の確認は助言の重複を避けるためです。",
         "answer_json": "{\"accepted\": [\"먼저 해 보신 방법을 알려 주실래요? 같은 방법을 다시 권하지 않으려고 여쭤보는 거예요.\"]}",
@@ -255054,7 +255054,7 @@
         "question_id": "97e4f909-235b-4f7b-9196-e581ab7e03d0",
         "choice_id": "c",
         "ordinal": 2,
-        "text": "床が乾くまで安全を確認する必要があるから"
+        "text": "安全を優先し、床が乾くのを待つよう案内されたから"
       },
       {
         "question_id": "d27677ec-a122-48aa-9003-e8ec294d04c3",
@@ -379775,8 +379775,8 @@
       {
         "id": "0b7ad6a0-87a2-4c5b-bbf2-9dc604610d06",
         "korean": "금요일 저녁에는 야근을 해야 해요. 저녁 약속을 취소하는 대신 토요일 점심에 만나면 어때요?",
-        "japanese": "金曜の夜は残業をしなければなりません。夕食の約束を取りやめて、その代わりに土曜の昼に会うのはどうですか。",
-        "learning_point_ja": "금요일 저녁は都合が悪く、토요일 점심が代案です。"
+        "japanese": "金曜の夜は残業をしなければなりません。約束そのものを取りやめる代わりに、土曜の昼に会うのはどうですか。",
+        "learning_point_ja": "금요일 저녁は都合が悪く、토요일 점심が代案です。취소하는 대신は約束そのものを取りやめず、日時を変えて会うという提案です。"
       },
       {
         "id": "ac24c1de-fed8-4550-8515-d403a380b824",
@@ -379834,9 +379834,9 @@
       },
       {
         "id": "1155aa20-658b-4c03-8641-7c90185d8622",
-        "korean": "지금 가면 출근 시간이라 길이 많이 막혀요. 조금 돌아가더라도 지하철로 가는 게 낫겠어요.",
+        "korean": "지금 가면 출근 시간이라 길이 많이 막혀요. 조금 돌아가도 지하철로 가는 게 낫겠어요.",
         "japanese": "今行くと通勤時間なので道がとても混みます。少し遠回りでも地下鉄で行くほうがよさそうです。",
-        "learning_point_ja": "理由は출근 시간이라 길이 막힌다는ことです。料金については述べていません。"
+        "learning_point_ja": "理由は출근 시간이라 길이 막힌다는ことです。돌아가도は遠回りでもよいという譲歩です。料金については述べていません。"
       },
       {
         "id": "5d4a3171-db9c-406a-b9ac-37da74e9004c",
@@ -380092,7 +380092,7 @@
       },
       {
         "id": "69d006d7-eeaf-4e5d-8ef6-09a26ccc1fbc",
-        "korean": "형이 시험에 붙었다고 했어요. 저는 기뻐서 부모님께도 이 소식을 전해 달라고 부탁했어요.",
+        "korean": "형이 시험에 붙었다고 했어요. 저는 기뻐서 형에게 부모님께도 이 소식을 전해 달라고 부탁했어요.",
         "japanese": "兄が試験に受かったと言っていました。うれしくて、両親にもこの知らせを伝えてほしいと兄に頼みました。",
         "learning_point_ja": "형이…했다고は兄の報告です。전해 달라고は話し手から兄への依頼で、両親は知らせを受け取る人です。"
       },
@@ -380183,8 +380183,8 @@
       {
         "id": "8e8d9f90-47a4-491e-bc96-837d7cafe8fc",
         "korean": "가격이 비쌀수록 맛도 좋다고 생각했어요. 그런데 직접 먹어 보니 제 입에는 덜 단 과자가 더 잘 맞는 편이에요.",
-        "japanese": "値段が高いほど味もよいと思っていました。でも実際に食べてみると、私の好みには甘さ控えめのお菓子のほうが合うようです。",
-        "learning_point_ja": "以前の価格による判断と実食後の好みを区別します。高価な菓子が誰にとってもまずいという主張ではありません。"
+        "japanese": "値段が高いほど味もよいと思っていました。でも実際に食べてみると、私にはどちらかというと甘さ控えめのお菓子のほうが合います。",
+        "learning_point_ja": "以前の価格による判断と実食後の好みを区別します。편이에요は傾向を述べる表現で、推測ではありません。高価な菓子が誰にとってもまずいという主張ではありません。"
       },
       {
         "id": "b78858c2-d094-459b-aff5-5521d01232a9",
@@ -380376,7 +380376,7 @@
         "id": "ce092019-2771-4cfa-a5be-9be8fdaf29ac",
         "korean": "다음 달부터 다른 부서에서 일하게 됐어요. 새 담당자가 어떤 일을 하고 싶냐고 물어서 제 생각을 정리하는 중이에요.",
         "japanese": "来月から別の部署で働くことになりました。新しい担当者にどんな仕事をしたいか尋ねられたので、自分の考えを整理しています。",
-        "learning_point_ja": "일하게 됐어요は決まった変化、싶으냐고は希望を尋ねられたことの引用です。担当する仕事はまだ説明されていません。"
+        "learning_point_ja": "일하게 됐어요は決まった変化、하고 싶냐고は会話で希望を尋ねられたことを引用する形です。担当する仕事はまだ示されていません。"
       },
       {
         "id": "a1ebc1b3-acb8-4099-9365-0f26725b5764",
@@ -380392,15 +380392,15 @@
       },
       {
         "id": "8a06011f-eac9-4c25-9e65-66fb4fb9778a",
-        "korean": "제가 이해한 내용이 맞는지 한 번만 더 설명해 주실래요? 바로 반대하기보다는 설명을 듣고 제 의견을 말씀드릴게요.",
-        "japanese": "私の理解が合っているか、もう一度だけ説明していただけますか。すぐに反対するより、説明を聞いてから私の意見をお伝えします。",
+        "korean": "제가 이해한 내용이 맞는지 한 번만 더 설명해 주실래요? 바로 반대하는 대신 설명을 듣고 제 의견을 말씀드릴게요.",
+        "japanese": "私の理解が合っているか、もう一度だけ説明していただけますか。すぐには反対せず、説明を聞いてから私の意見をお伝えします。",
         "learning_point_ja": "설명해 주실래요は再説明の依頼です。말씀드릴게요は確認後に自分の意見を伝える約束で、賛成の約束ではありません。"
       },
       {
         "id": "cd856993-3bec-4778-b0f9-37449225dc9c",
         "korean": "팀장님은 새 동료가 규칙을 잘 모른다고 하셨어요. 저에게 그 동료를 도와주라고 하셔서 먼저 불편한 점을 물어보려고 해요.",
-        "japanese": "チーム長は、新しい同僚が規則をよく知らないと言っていました。私にその同僚を手伝うように言われたので、まず困っている点を尋ねようと思います。",
-        "learning_point_ja": "모른다고はチーム長の説明、도와주라고は同僚への支援を求める指示です。責める前に事情を知ろうとしています。"
+        "japanese": "チーム長は、新しい同僚が規則をよく知らないと言っていました。私はその同僚を手伝うように言われたので、まず困っている点を尋ねようと思います。",
+        "learning_point_ja": "모른다고はチーム長の説明、도와주라고は同僚への支援を求める指示です。指示した人はチーム長、助けを受ける人は同僚です。話し手は困りごとを聞く予定です。"
       },
       {
         "id": "d0fa11e0-62a9-47bc-a27e-d7ddde948700",
@@ -491411,7 +491411,7 @@
         "id": "12f4f916-629a-4279-9fc3-6b2316700ded",
         "audio_asset_id": null,
         "transcript_ko": null,
-        "explanation_ja": "금요일 저녁は都合が悪く、토요일 점심が代案です。",
+        "explanation_ja": "금요일 저녁は都合が悪く、토요일 점심が代案です。취소하는 대신は約束そのものを取りやめず、日時を変えて会うという提案です。",
         "source_example_id": "0b7ad6a0-87a2-4c5b-bbf2-9dc604610d06",
         "audio_mode": "tts",
         "learning_order": 2072
@@ -491501,7 +491501,7 @@
         "id": "58d92f47-59b0-4e21-b9b7-d16f86215a67",
         "audio_asset_id": null,
         "transcript_ko": null,
-        "explanation_ja": "理由は출근 시간이라 길이 막힌다는ことです。料金については述べていません。",
+        "explanation_ja": "理由は출근 시간이라 길이 막힌다는ことです。돌아가도は遠回りでもよいという譲歩です。料金については述べていません。",
         "source_example_id": "1155aa20-658b-4c03-8641-7c90185d8622",
         "audio_mode": "tts",
         "learning_order": 2082
@@ -491951,7 +491951,7 @@
         "id": "49634577-1309-4a8a-8406-3a9e36fa8c85",
         "audio_asset_id": null,
         "transcript_ko": null,
-        "explanation_ja": "금요일 저녁は都合が悪く、토요일 점심が代案です。",
+        "explanation_ja": "금요일 저녁は都合が悪く、토요일 점심が代案です。취소하는 대신は約束そのものを取りやめず、日時を変えて会うという提案です。",
         "source_example_id": "0b7ad6a0-87a2-4c5b-bbf2-9dc604610d06",
         "audio_mode": "tts",
         "learning_order": 2132
@@ -492041,7 +492041,7 @@
         "id": "9b81000a-74a0-4860-a4f5-db3f44b4dd67",
         "audio_asset_id": null,
         "transcript_ko": null,
-        "explanation_ja": "理由は출근 시간이라 길이 막힌다는ことです。料金については述べていません。",
+        "explanation_ja": "理由は출근 시간이라 길이 막힌다는ことです。돌아가도は遠回りでもよいという譲歩です。料金については述べていません。",
         "source_example_id": "1155aa20-658b-4c03-8641-7c90185d8622",
         "audio_mode": "tts",
         "learning_order": 2142
@@ -492563,7 +492563,7 @@
         "id": "4eff8690-af59-4126-a24a-9f8c42c40ee7",
         "audio_asset_id": null,
         "transcript_ko": null,
-        "explanation_ja": "以前の価格による判断と実食後の好みを区別します。高価な菓子が誰にとってもまずいという主張ではありません。",
+        "explanation_ja": "以前の価格による判断と実食後の好みを区別します。편이에요は傾向を述べる表現で、推測ではありません。高価な菓子が誰にとってもまずいという主張ではありません。",
         "source_example_id": "8e8d9f90-47a4-491e-bc96-837d7cafe8fc",
         "audio_mode": "tts",
         "learning_order": 2200
@@ -492851,7 +492851,7 @@
         "id": "66810330-e57c-41de-8c9c-9bc31eb97bda",
         "audio_asset_id": null,
         "transcript_ko": null,
-        "explanation_ja": "일하게 됐어요は決まった変化、싶으냐고は希望を尋ねられたことの引用です。担当する仕事はまだ説明されていません。",
+        "explanation_ja": "일하게 됐어요は決まった変化、하고 싶냐고は会話で希望を尋ねられたことを引用する形です。担当する仕事はまだ示されていません。",
         "source_example_id": "ce092019-2771-4cfa-a5be-9be8fdaf29ac",
         "audio_mode": "tts",
         "learning_order": 2232
@@ -492887,7 +492887,7 @@
         "id": "ddc20913-710c-45ca-a0d4-473f86e48a09",
         "audio_asset_id": null,
         "transcript_ko": null,
-        "explanation_ja": "모른다고はチーム長の説明、도와주라고は同僚への支援を求める指示です。責める前に事情を知ろうとしています。",
+        "explanation_ja": "모른다고はチーム長の説明、도와주라고は同僚への支援を求める指示です。指示した人はチーム長、助けを受ける人は同僚です。話し手は困りごとを聞く予定です。",
         "source_example_id": "cd856993-3bec-4778-b0f9-37449225dc9c",
         "audio_mode": "tts",
         "learning_order": 2236
@@ -493103,7 +493103,7 @@
         "id": "4571996c-494c-48f4-acf3-3704138159ed",
         "audio_asset_id": null,
         "transcript_ko": null,
-        "explanation_ja": "以前の価格による判断と実食後の好みを区別します。高価な菓子が誰にとってもまずいという主張ではありません。",
+        "explanation_ja": "以前の価格による判断と実食後の好みを区別します。편이에요は傾向を述べる表現で、推測ではありません。高価な菓子が誰にとってもまずいという主張ではありません。",
         "source_example_id": "8e8d9f90-47a4-491e-bc96-837d7cafe8fc",
         "audio_mode": "tts",
         "learning_order": 2260
@@ -493391,7 +493391,7 @@
         "id": "ffe5489c-75c2-4b22-80cc-f5f1eda86a29",
         "audio_asset_id": null,
         "transcript_ko": null,
-        "explanation_ja": "일하게 됐어요は決まった変化、싶으냐고は希望を尋ねられたことの引用です。担当する仕事はまだ説明されていません。",
+        "explanation_ja": "일하게 됐어요は決まった変化、하고 싶냐고は会話で希望を尋ねられたことを引用する形です。担当する仕事はまだ示されていません。",
         "source_example_id": "ce092019-2771-4cfa-a5be-9be8fdaf29ac",
         "audio_mode": "tts",
         "learning_order": 2292
@@ -493427,7 +493427,7 @@
         "id": "74307daf-4aa6-4931-bebd-4c412ef48391",
         "audio_asset_id": null,
         "transcript_ko": null,
-        "explanation_ja": "모른다고はチーム長の説明、도와주라고は同僚への支援を求める指示です。責める前に事情を知ろうとしています。",
+        "explanation_ja": "모른다고はチーム長の説明、도와주라고は同僚への支援を求める指示です。指示した人はチーム長、助けを受ける人は同僚です。話し手は困りごとを聞く予定です。",
         "source_example_id": "cd856993-3bec-4778-b0f9-37449225dc9c",
         "audio_mode": "tts",
         "learning_order": 2296

@@ -57,6 +57,11 @@ struct ListeningSession: Codable, Sendable {
     var slowCount = 0
     var current: ListeningQuestion? { questions.indices.contains(position) ? questions[position] : nil }
     var completed: Bool { current == nil }
+    // Do not create answer choices in the visual or accessibility tree until
+    // a complete playback has been saved for this question (including Resume).
+    var revealsChoices: Bool {
+        heard && result == nil && current != nil && current?.task != .dictation
+    }
     mutating func apply(_ action: ListeningAction, at now: Date) throws {
         try validate()
         guard let q = current else { throw GrammarError.invalidState }

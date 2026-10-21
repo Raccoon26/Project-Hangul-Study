@@ -1,0 +1,1 @@
+{"cohort": {"originals": 180, "listening": 360, "questions": 360, "choices": 630, "accepted": 150, "tasks": {"comprehension": 180, "dictation": 150, "meaning": 18, "korean": 12}}, "patch_fields": 188, "payload_ids": 175, "revised_ids": 179, "protected": 106}

@@ -106,10 +106,10 @@ struct ListeningStudyView: View {
                                     .autocorrectionDisabled().textInputAutocapitalization(.never)
                                     .submitLabel(.done).onSubmit { submit(input) }
                                     .accessibilityLabel("聞こえた韓国語を入力")
-                                Text("句点は不要です。単語の間の空白も確認してください。")
+                                Text("文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。単語の間の空白も確認してください。")
                                     .font(.footnote).foregroundStyle(.secondary)
                                 if input.count > 500 { Text("500文字以内で入力してください。") }
-                            } else {
+                            } else if s.revealsChoices {
                                 ForEach(q.choices) { choice in
                                     Button { submit(choice.id) } label: {
                                         Text(choice.text).frame(maxWidth:.infinity,alignment:.leading).frame(minHeight:44)

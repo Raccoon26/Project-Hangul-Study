@@ -1,0 +1,1952 @@
+{
+  "scope": "All180 source-level/prerequisite AI reread with existing96 Grammar; not all-token mastery certification",
+  "selected_records": [
+    {
+      "key": "A01",
+      "example_id": "689644a6-f088-43bf-8466-c099473ebe4f",
+      "grammar_id": "0b6da528-99a6-4f2f-8708-686b052e3213",
+      "pattern": "-(으)ㄹ게요（약속·응답）",
+      "observed_form_ko": "만들게요",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "A02",
+      "example_id": "f08a572e-3866-4239-910a-0a4da4987bce",
+      "grammar_id": "cdae82b2-3b2a-4f9d-a3f6-c72767b97803",
+      "pattern": "-고 있다（進行）",
+      "observed_form_ko": "돌아가고 있어요",
+      "grammar_level": "beginner",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "A03",
+      "example_id": "75a60c3e-0a4e-4c93-8aed-e58f67bc8d4d",
+      "grammar_id": "cdae82b2-3b2a-4f9d-a3f6-c72767b97803",
+      "pattern": "-고 있다（進行）",
+      "observed_form_ko": "자고 있대요",
+      "grammar_level": "beginner",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "A04",
+      "example_id": "1d62912e-9629-422f-a08d-034ca3a222f6",
+      "grammar_id": "1734a471-0e5b-4500-956c-dfa22926d2e9",
+      "pattern": "-(으)ㄹ 거예요（予定）",
+      "observed_form_ko": "먹을 거예요",
+      "grammar_level": "beginner",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "A05",
+      "example_id": "7d888398-ebca-4d73-8299-6bb5448c2ebb",
+      "grammar_id": "9ab75790-f386-4770-89c4-fd3909f97436",
+      "pattern": "-(으)면",
+      "observed_form_ko": "퇴근하면",
+      "grammar_level": "beginner",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "A06",
+      "example_id": "387cf86b-76d7-4f5d-af98-a50fd77e85f2",
+      "grammar_id": "25dc9c13-05b1-4d9b-bb5b-5d1643f9a591",
+      "pattern": "-아 / 어야 하다",
+      "observed_form_ko": "나가야 해서",
+      "grammar_level": "beginner",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "A07",
+      "example_id": "1e645c7a-7e10-4c2c-84b4-c8b63dc9c014",
+      "grammar_id": "89a0c275-28c3-4698-9ec7-69c3fe1fcdf4",
+      "pattern": "-아 / 어도 되다",
+      "observed_form_ko": "사지 않아도 돼요",
+      "grammar_level": "beginner",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "A08",
+      "example_id": "04ba7508-ff52-41f3-bf15-285f87408a87",
+      "grammar_id": "92cf69c3-2bda-453a-8b5f-47f1e4902f2a",
+      "pattern": "-기 전에",
+      "observed_form_ko": "비가 오기 전에",
+      "grammar_level": "beginner",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "A09",
+      "example_id": "55a1449c-3168-48a4-a808-383193fbbe7a",
+      "grammar_id": "0b6da528-99a6-4f2f-8708-686b052e3213",
+      "pattern": "-(으)ㄹ게요（약속·응답）",
+      "observed_form_ko": "묶어 둘게요",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "A10",
+      "example_id": "d5c4f6f4-c7e4-40a7-9e0f-a95c4bd1f3c6",
+      "grammar_id": "f0acd94a-696c-4cbe-8d11-df2f2ea31f08",
+      "pattern": "-아/어 달라고 / -아/어 주라고 하다（수혜자）",
+      "observed_form_ko": "놓아 달라고",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "A11",
+      "example_id": "3de46329-fa3b-4a27-aa79-ac297d924a42",
+      "grammar_id": "d46e4c1d-f809-43eb-a867-f9a3220fb93a",
+      "pattern": "-기로 하다",
+      "observed_form_ko": "만나기로 했는데",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "A12",
+      "example_id": "c6e8ef28-2388-460c-ac55-aff9404eac90",
+      "grammar_id": "9aaced5c-d486-4f21-8084-c62276df062c",
+      "pattern": "-아 / 어 주세요",
+      "observed_form_ko": "와 주세요",
+      "grammar_level": "intro",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "A13",
+      "example_id": "0b7ad6a0-87a2-4c5b-bbf2-9dc604610d06",
+      "grammar_id": "782eb56e-972c-4c6e-81a7-911d094caac1",
+      "pattern": "-는 대신(에) / N 대신(에)",
+      "observed_form_ko": "취소하는 대신",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "A14",
+      "example_id": "ac24c1de-fed8-4550-8515-d403a380b824",
+      "grammar_id": "9ab75790-f386-4770-89c4-fd3909f97436",
+      "pattern": "-(으)면",
+      "observed_form_ko": "들어가 계시면",
+      "grammar_level": "beginner",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "A15",
+      "example_id": "5752204c-6e25-449e-b417-ecdf2ca28d86",
+      "grammar_id": "68c3a2a7-5f4e-4236-9474-380202f6bbeb",
+      "pattern": "-(으)ㄹ까요?（제안·의견 묻기）",
+      "observed_form_ko": "볼까요",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "A16",
+      "example_id": "2495ebc0-9193-4eac-ba49-0610780112ae",
+      "grammar_id": "e4d0935d-a2ae-4207-8583-bcb93de194bd",
+      "pattern": "-(ㄴ/는)다고 / -다고 / N(이)라고 하다（평서 인용）",
+      "observed_form_ko": "쓸 수 없대요",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "A17",
+      "example_id": "4e45011a-aa33-4f8f-ab06-2b6ede5089c7",
+      "grammar_id": "f61328b6-5449-4cd0-825f-c3a54906a4b1",
+      "pattern": "이 / 가 아니다",
+      "observed_form_ko": "화요일이 아니라",
+      "grammar_level": "intro",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "A18",
+      "example_id": "a3731a18-f1dc-4121-9445-98b69108a20d",
+      "grammar_id": "d46e4c1d-f809-43eb-a867-f9a3220fb93a",
+      "pattern": "-기로 하다",
+      "observed_form_ko": "만나기로 했지만",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "A19",
+      "example_id": "599126a6-53ab-415e-be9c-27d3dfa97d9d",
+      "grammar_id": "919c26fd-b810-4c62-9f0c-2a25f7a30ca7",
+      "pattern": "-(으)니까",
+      "observed_form_ko": "그대로니까",
+      "grammar_level": "beginner",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "A20",
+      "example_id": "9de7f16d-8a54-4870-b52a-910b56214b27",
+      "grammar_id": "cc45a574-10b5-47b3-9302-bdd0468ad221",
+      "pattern": "-고",
+      "observed_form_ko": "정하고",
+      "grammar_level": "beginner",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "A21",
+      "example_id": "af345f1b-3cc7-46c3-88c9-8420d9330da8",
+      "grammar_id": "9ab75790-f386-4770-89c4-fd3909f97436",
+      "pattern": "-(으)면",
+      "observed_form_ko": "건너면",
+      "grammar_level": "beginner",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "A22",
+      "example_id": "fcb0171c-c0d7-483a-a829-20798c6ab59f",
+      "grammar_id": "b8314a89-448e-4d2e-8aea-1fb8625311ce",
+      "pattern": "-지 않다",
+      "observed_form_ko": "서지 않아요",
+      "grammar_level": "intro",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "A23",
+      "example_id": "1155aa20-658b-4c03-8641-7c90185d8622",
+      "grammar_id": "f3e5c2de-6721-46ce-af18-1a5c458bcac8",
+      "pattern": "-아/어도（양보）",
+      "observed_form_ko": "돌아가도",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "A24",
+      "example_id": "5d4a3171-db9c-406a-b9ac-37da74e9004c",
+      "grammar_id": "9ab75790-f386-4770-89c4-fd3909f97436",
+      "pattern": "-(으)면",
+      "observed_form_ko": "도착하면",
+      "grammar_level": "beginner",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "A25",
+      "example_id": "4a827148-507e-42cf-85b2-63b057cfde1f",
+      "grammar_id": "377e3a8a-5815-4d20-9418-b909dce54143",
+      "pattern": "-지 마세요",
+      "observed_form_ko": "나가지 말고",
+      "grammar_level": "beginner",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "A26",
+      "example_id": "b97afbd7-6351-43bb-a026-353e04005f10",
+      "grammar_id": "93796ac0-18d5-4363-a562-26e6fff959b4",
+      "pattern": "-(으)ㄴ 후에",
+      "observed_form_ko": "충전하신 뒤에",
+      "grammar_level": "beginner",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "A27",
+      "example_id": "c2ed1078-298f-4a8f-ad08-1fcf5fa06b86",
+      "grammar_id": "cc45a574-10b5-47b3-9302-bdd0468ad221",
+      "pattern": "-고",
+      "observed_form_ko": "보내고",
+      "grammar_level": "beginner",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "A28",
+      "example_id": "fc090027-31ea-475d-8f32-79ab422805ce",
+      "grammar_id": "0b6da528-99a6-4f2f-8708-686b052e3213",
+      "pattern": "-(으)ㄹ게요（약속·응답）",
+      "observed_form_ko": "걸어갈게요",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "A29",
+      "example_id": "98ebff49-0c09-4790-9add-00943a83b8c7",
+      "grammar_id": "9ab75790-f386-4770-89c4-fd3909f97436",
+      "pattern": "-(으)면",
+      "observed_form_ko": "타시면",
+      "grammar_level": "beginner",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "A30",
+      "example_id": "c5e2884a-438d-40a7-910d-cc31ce8e3004",
+      "grammar_id": "2a7b0e46-86f5-49fa-ac87-de9e3de87e3a",
+      "pattern": "-는지 / -(으)ㄴ지 / -(으)ㄹ지 알다·모르다",
+      "observed_form_ko": "끝날지 몰라서",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "A31",
+      "example_id": "b0ff4d0a-8da9-4d61-a365-bdb881f3ee0c",
+      "grammar_id": "89a0c275-28c3-4698-9ec7-69c3fe1fcdf4",
+      "pattern": "-아 / 어도 되다",
+      "observed_form_ko": "입어 봐도 될까요",
+      "grammar_level": "beginner",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "A32",
+      "example_id": "953682da-9544-4681-9bd5-06321fea2c72",
+      "grammar_id": "175390c0-2ef1-40f2-93a8-a528e1f75dd7",
+      "pattern": "만",
+      "observed_form_ko": "종이봉투에만",
+      "grammar_level": "intro",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "A33",
+      "example_id": "860b02bf-e4d4-46e9-b697-bad3fbdb8196",
+      "grammar_id": "66f56006-dd56-4cc4-bdcb-38f1c17c0036",
+      "pattern": "보다（比較）",
+      "observed_form_ko": "환불보다는",
+      "grammar_level": "beginner",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "A34",
+      "example_id": "003666d4-e6d6-46d6-befe-a9e94f44c7dd",
+      "grammar_id": "9ab75790-f386-4770-89c4-fd3909f97436",
+      "pattern": "-(으)면",
+      "observed_form_ko": "있으면",
+      "grammar_level": "beginner",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "A35",
+      "example_id": "34071687-8d40-474b-83a7-da8d8dfbd633",
+      "grammar_id": "453d0f13-3727-4335-8f6a-ddff70f570ac",
+      "pattern": "-(으)ㄹ 때",
+      "observed_form_ko": "들어올 때",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "A36",
+      "example_id": "904f37fb-d533-4eca-b220-2a165f452521",
+      "grammar_id": "b85e6804-85a2-495d-8781-e885ee9468a2",
+      "pattern": "-(으)ㄹ 수 있다 / 없다",
+      "observed_form_ko": "쓸 수 없어요",
+      "grammar_level": "beginner",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "A37",
+      "example_id": "d6faae97-7b9a-4fa6-9a2e-8a9147cddf48",
+      "grammar_id": "377e3a8a-5815-4d20-9418-b909dce54143",
+      "pattern": "-지 마세요",
+      "observed_form_ko": "버리지 말고",
+      "grammar_level": "beginner",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "A38",
+      "example_id": "7d8c05f9-428f-4dd7-a9b7-215bb51e5d78",
+      "grammar_id": "f3e5c2de-6721-46ce-af18-1a5c458bcac8",
+      "pattern": "-아/어도（양보）",
+      "observed_form_ko": "비싸도",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "A39",
+      "example_id": "c844885d-8cf7-47d2-a332-76fd221f6d90",
+      "grammar_id": "f331886b-4670-4a73-a700-b0f0f036b1a4",
+      "pattern": "-았 / 었어요",
+      "observed_form_ko": "이미 했고",
+      "grammar_level": "intro",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "A40",
+      "example_id": "18762f66-8c77-401d-af96-e16f0528e3c8",
+      "grammar_id": "9aaced5c-d486-4f21-8084-c62276df062c",
+      "pattern": "-아 / 어 주세요",
+      "observed_form_ko": "싸 주세요",
+      "grammar_level": "intro",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "A41",
+      "example_id": "ca718b83-370a-4947-bc31-755505662e48",
+      "grammar_id": "377e3a8a-5815-4d20-9418-b909dce54143",
+      "pattern": "-지 마세요",
+      "observed_form_ko": "자르지 말아 주세요",
+      "grammar_level": "beginner",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "A42",
+      "example_id": "9400bbcc-57f2-4a63-b117-6467a210f989",
+      "grammar_id": "9ab75790-f386-4770-89c4-fd3909f97436",
+      "pattern": "-(으)면",
+      "observed_form_ko": "맡기시면",
+      "grammar_level": "beginner",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "A43",
+      "example_id": "9f646982-0f6e-4772-a90e-a6ef228e7fbc",
+      "grammar_id": "893f53f1-ebaa-48d0-82ab-aadd66e84d80",
+      "pattern": "-고 싶다",
+      "observed_form_ko": "빌리고 싶으시면",
+      "grammar_level": "beginner",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "A44",
+      "example_id": "97c4240b-7a66-4672-be22-bf48da92954a",
+      "grammar_id": "9ab75790-f386-4770-89c4-fd3909f97436",
+      "pattern": "-(으)면",
+      "observed_form_ko": "끝나면",
+      "grammar_level": "beginner",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "A45",
+      "example_id": "6efd1b4a-f475-41b4-9572-c6a12256816c",
+      "grammar_id": "25dc9c13-05b1-4d9b-bb5b-5d1643f9a591",
+      "pattern": "-아 / 어야 하다",
+      "observed_form_ko": "기다리셔야 할 수도",
+      "grammar_level": "beginner",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "A46",
+      "example_id": "77aca458-4d71-4ec1-9ab2-86a606c2e577",
+      "grammar_id": "9ab75790-f386-4770-89c4-fd3909f97436",
+      "pattern": "-(으)면",
+      "observed_form_ko": "계산하시면",
+      "grammar_level": "beginner",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "A47",
+      "example_id": "94e2ef9e-92e6-4449-8d7a-bb069e35b07c",
+      "grammar_id": "b85e6804-85a2-495d-8781-e885ee9468a2",
+      "pattern": "-(으)ㄹ 수 있다 / 없다",
+      "observed_form_ko": "들어가실 수 없어요",
+      "grammar_level": "beginner",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "A48",
+      "example_id": "c2b165a8-8c60-4639-9ec7-48cbd96defd7",
+      "grammar_id": "f3e5c2de-6721-46ce-af18-1a5c458bcac8",
+      "pattern": "-아/어도（양보）",
+      "observed_form_ko": "고르셔도",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "A49",
+      "example_id": "16aa438f-d48d-4078-aabe-2e849cce76a1",
+      "grammar_id": "31239c2c-43e2-4c94-8db8-e3777ef8cc10",
+      "pattern": "-는 / -(으)ㄴ / -(으)ㄹ + N（관형형）",
+      "observed_form_ko": "같은 색",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "A50",
+      "example_id": "c928ef23-dc1e-4b68-99c9-3a7edc414fd5",
+      "grammar_id": "7779f2ed-308d-46aa-9df6-bd6001fe88fa",
+      "pattern": "-(으)려고 하다",
+      "observed_form_ko": "맡기려고요",
+      "grammar_level": "beginner",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "A51",
+      "example_id": "6a05bbac-f78c-4efc-a9bc-c45a941d6b7b",
+      "grammar_id": "0b6da528-99a6-4f2f-8708-686b052e3213",
+      "pattern": "-(으)ㄹ게요（약속·응답）",
+      "observed_form_ko": "돌아올게요",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "A52",
+      "example_id": "8fc86d5d-832c-4179-b848-d513f7db0306",
+      "grammar_id": "f0acd94a-696c-4cbe-8d11-df2f2ea31f08",
+      "pattern": "-아/어 달라고 / -아/어 주라고 하다（수혜자）",
+      "observed_form_ko": "보내 달라고 하셨죠",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "A53",
+      "example_id": "29348d62-2a30-42de-b73a-b56af4dac606",
+      "grammar_id": "0b6da528-99a6-4f2f-8708-686b052e3213",
+      "pattern": "-(으)ㄹ게요（약속·응답）",
+      "observed_form_ko": "제가 할게요",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "A54",
+      "example_id": "06e816ab-fdaf-4795-88aa-df016982223e",
+      "grammar_id": "25dc9c13-05b1-4d9b-bb5b-5d1643f9a591",
+      "pattern": "-아 / 어야 하다",
+      "observed_form_ko": "돌봐야 해서",
+      "grammar_level": "beginner",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "A55",
+      "example_id": "1701ca0e-7b2d-4a12-b728-c646f6ffaee5",
+      "grammar_id": "893f53f1-ebaa-48d0-82ab-aadd66e84d80",
+      "pattern": "-고 싶다",
+      "observed_form_ko": "빌려 드리고 싶은데",
+      "grammar_level": "beginner",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "A56",
+      "example_id": "4730d587-0890-4ff4-add1-67e6623088ed",
+      "grammar_id": "0b6da528-99a6-4f2f-8708-686b052e3213",
+      "pattern": "-(으)ㄹ게요（약속·응답）",
+      "observed_form_ko": "전화할게요",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "A57",
+      "example_id": "c4693812-857b-4a19-be9f-7849c0eb1872",
+      "grammar_id": "29c75088-07da-46d2-ac0b-495e520234ad",
+      "pattern": "-자고 / -지 말자고 하다（권유 인용）",
+      "observed_form_ko": "가자고 해 주셔서",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "A58",
+      "example_id": "da8bca54-db6c-46e7-9b98-05a03c51875f",
+      "grammar_id": "89a0c275-28c3-4698-9ec7-69c3fe1fcdf4",
+      "pattern": "-아 / 어도 되다",
+      "observed_form_ko": "열어도 괜찮을까요",
+      "grammar_level": "beginner",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "A59",
+      "example_id": "990ce76e-024d-443a-8c81-91419f485ddf",
+      "grammar_id": "2d9cbb5e-ac05-4cbc-a52b-975c19d77210",
+      "pattern": "-(ㄴ/는)다는 / -다는 / N(이)라는 + N（인용 수식）",
+      "observed_form_ko": "해야 한다는 건",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "A60",
+      "example_id": "faa4afbe-69a3-4717-b88f-406d20d8d361",
+      "grammar_id": "29c75088-07da-46d2-ac0b-495e520234ad",
+      "pattern": "-자고 / -지 말자고 하다（권유 인용）",
+      "observed_form_ko": "쓰자고 해 줘서",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "B01",
+      "example_id": "ab5c091e-72cd-4450-b904-5943d87fce1a",
+      "grammar_id": "71950d57-960d-45a6-a4e6-e492e4c01a50",
+      "pattern": "-(으)ㄹ까 봐",
+      "observed_form_ko": "길을 잃을까 봐",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "B02",
+      "example_id": "add54a55-5fe0-4c31-b588-dd97cfa90594",
+      "grammar_id": "4168b8b7-98df-431a-a90c-d83945f3df76",
+      "pattern": "-느라고",
+      "observed_form_ko": "마무리하느라고",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "B03",
+      "example_id": "5dbb845c-3d2f-4021-8711-7c88874ab83f",
+      "grammar_id": "40f95bb3-8746-47cf-9a49-023cecc3345b",
+      "pattern": "-기는 하지만",
+      "observed_form_ko": "긴장되기는 하지만",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "B04",
+      "example_id": "8d79eab1-1ba0-487f-922a-2cc09a0acb6e",
+      "grammar_id": "894c1244-bc9d-4a06-95bd-dff4f3c2cbb1",
+      "pattern": "-(으)ㄹ 뻔하다",
+      "observed_form_ko": "내릴 뻔했어요",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "B05",
+      "example_id": "fc668a1c-2988-4fcb-8597-1ec860491106",
+      "grammar_id": "400d4fa2-b300-406c-9425-c7bb1a125c9d",
+      "pattern": "-아/어지다（상태 변화）",
+      "observed_form_ko": "가벼워졌어요",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "B06",
+      "example_id": "69d006d7-eeaf-4e5d-8ef6-09a26ccc1fbc",
+      "grammar_id": "e4d0935d-a2ae-4207-8583-bcb93de194bd",
+      "pattern": "-(ㄴ/는)다고 / -다고 / N(이)라고 하다（평서 인용）",
+      "observed_form_ko": "붙었다고 했어요",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "B07",
+      "example_id": "966055c6-1c95-49d3-bf5e-85b1341a1e2a",
+      "grammar_id": "f527297e-94dd-472b-928e-7bc3900b2dae",
+      "pattern": "-(으)ㄹ 필요가 있다 / 없다",
+      "observed_form_ko": "말할 필요가 없어요",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "B08",
+      "example_id": "4a3f3f15-7755-4bac-aff8-5053ff16bf82",
+      "grammar_id": "35a30485-766a-4146-aad0-88646020e192",
+      "pattern": "-(으)ㄴ/는 편이다",
+      "observed_form_ko": "불안해지는 편이에요",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "B09",
+      "example_id": "deb37da7-20db-479a-bb62-81273a828bc7",
+      "grammar_id": "782eb56e-972c-4c6e-81a7-911d094caac1",
+      "pattern": "-는 대신(에) / N 대신(에)",
+      "observed_form_ko": "모이는 대신",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "B10",
+      "example_id": "cf0d5e54-ea48-4a20-bdd4-5f389053c3d1",
+      "grammar_id": "74fbc968-1127-454f-9097-d1917f7094a8",
+      "pattern": "N(이)라도（차선·최소 선택）",
+      "observed_form_ko": "삼십 분이라도",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "B11",
+      "example_id": "5708e45f-e875-4fa1-a612-2c0470623186",
+      "grammar_id": "31239c2c-43e2-4c94-8db8-e3777ef8cc10",
+      "pattern": "-는 / -(으)ㄴ / -(으)ㄹ + N（관형형）",
+      "observed_form_ko": "써 보지 않은 방법",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "B12",
+      "example_id": "5e39b48c-6d54-4dd2-838a-ac3a4d5a3094",
+      "grammar_id": "50b9f4ff-e592-4d4d-8057-a4e26a7bc2ad",
+      "pattern": "-(ㄴ/는)다면 / -다면 / N(이)라면",
+      "observed_form_ko": "주말이라면",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "B13",
+      "example_id": "3c1d8d31-92fb-412f-86bb-e66ee1bf61c0",
+      "grammar_id": "f3e5c2de-6721-46ce-af18-1a5c458bcac8",
+      "pattern": "-아/어도（양보）",
+      "observed_form_ko": "맞아도",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "B14",
+      "example_id": "1f9a9c63-3724-4c9f-b568-32265b4c7aa8",
+      "grammar_id": "d14e4b1a-a765-440b-b8fa-4ec1b97d0a40",
+      "pattern": "-(으)ㄴ/는데（배경·대조）",
+      "observed_form_ko": "들었는데",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "B15",
+      "example_id": "f911d313-7809-4430-8087-6d4eeca2fa95",
+      "grammar_id": "7fb56c6c-79b1-4837-94e6-a65dd45ab62d",
+      "pattern": "-거든（조건）",
+      "observed_form_ko": "시간이 있거든",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "B16",
+      "example_id": "3217c93b-3911-4020-af3f-5d0c2aef99b2",
+      "grammar_id": "39d90697-78fd-4a3b-847c-b90d5ff07e64",
+      "pattern": "-기 위해(서) / N을·를 위해(서)",
+      "observed_form_ko": "사람들을 위해",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "B17",
+      "example_id": "9dca4e8c-23c3-4309-9147-33743fbd48e7",
+      "grammar_id": "172590f5-9c3c-4fd9-9196-f1811ac4880e",
+      "pattern": "-아/어 있다（결과 상태）",
+      "observed_form_ko": "잠겨 있어요",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "B18",
+      "example_id": "e233db05-8090-4bdc-a365-bd5e28bcde71",
+      "grammar_id": "445b7ded-b9dc-434e-b8fb-7ed4d253bc64",
+      "pattern": "-(으)ㄹ지도 모르다",
+      "observed_form_ko": "막힐지도 몰라요",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "B19",
+      "example_id": "7ba653f6-ec66-48d7-8806-072a9786fed4",
+      "grammar_id": "11d06a0a-c142-4856-815d-e63d0158c8dd",
+      "pattern": "-더니（관찰·변화）",
+      "observed_form_ko": "멈추더니",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "B20",
+      "example_id": "1de99988-0f8d-45d7-a14b-e766dc69ae4c",
+      "grammar_id": "4dd04c0c-5449-4d0f-a3cd-f0701ccf5897",
+      "pattern": "-(으)려면",
+      "observed_form_ko": "판단하려면",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "B21",
+      "example_id": "8e8d9f90-47a4-491e-bc96-837d7cafe8fc",
+      "grammar_id": "35a30485-766a-4146-aad0-88646020e192",
+      "pattern": "-(으)ㄴ/는 편이다",
+      "observed_form_ko": "잘 맞는 편이에요",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "B22",
+      "example_id": "b78858c2-d094-459b-aff5-5521d01232a9",
+      "grammar_id": "40f95bb3-8746-47cf-9a49-023cecc3345b",
+      "pattern": "-기는 하지만",
+      "observed_form_ko": "편리하기는 하지만",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "B23",
+      "example_id": "363b3c32-980e-4d3d-a1b3-d22c7a9654d6",
+      "grammar_id": "d940b512-3a3a-4108-b561-fa33dfd93222",
+      "pattern": "-아/어야겠다",
+      "observed_form_ko": "들어 봐야겠어요",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "B24",
+      "example_id": "d747457d-2b02-4787-b5de-89613f0d2d16",
+      "grammar_id": "da6206fe-cb6b-4842-8943-da3c54c07370",
+      "pattern": "-기 때문에 / N 때문에",
+      "observed_form_ko": "소음 때문에",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "B25",
+      "example_id": "77e1e9c3-2d7e-44d6-a2bd-e81d0c213374",
+      "grammar_id": "645acca8-db1f-4482-9b4c-88d637445e2d",
+      "pattern": "-는 바람에",
+      "observed_form_ko": "꺼지는 바람에",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "B26",
+      "example_id": "ac0b4371-e1a5-4c5f-b6ee-a2196ea8a536",
+      "grammar_id": "4168b8b7-98df-431a-a90c-d83945f3df76",
+      "pattern": "-느라고",
+      "observed_form_ko": "받느라고",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "B27",
+      "example_id": "2915ccab-23c1-4917-ad20-591c6b8051d2",
+      "grammar_id": "76c32b94-218c-4167-9dc0-0e5e848766bd",
+      "pattern": "-도록（목표）",
+      "observed_form_ko": "주도록",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "B28",
+      "example_id": "3793717f-a5fa-4bc1-aebe-6867aca82b31",
+      "grammar_id": "4310e69f-27bc-49bb-92a3-08f592427316",
+      "pattern": "-다 보면",
+      "observed_form_ko": "기록하다 보면",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "B29",
+      "example_id": "6f529367-7d85-45ff-80c2-5f6c7f74e07b",
+      "grammar_id": "f65f7148-511f-4c51-9472-7ba0dd29957d",
+      "pattern": "-았/었더니（경험·발견）",
+      "observed_form_ko": "보냈더니",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "B30",
+      "example_id": "b4740ba0-19bb-405f-bd2b-6cc1070113cc",
+      "grammar_id": "600d5cb2-aad4-414b-893a-3bb1f970909f",
+      "pattern": "-(으)라고 / -지 말라고 하다（명령·요청 인용）",
+      "observed_form_ko": "들어가지 말라고",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "B31",
+      "example_id": "abc42122-2979-4ff4-a798-0272c4f19dc1",
+      "grammar_id": "e7ab89e5-358e-461a-893d-d87d057bc9ed",
+      "pattern": "-게 되다",
+      "observed_form_ko": "갖게 됐어요",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "B32",
+      "example_id": "bcfc0a58-cdcc-4017-9d90-065dc2595f1a",
+      "grammar_id": "ec8a7395-00b1-494a-bada-a5f767a3e66e",
+      "pattern": "-다가（중단·전환）",
+      "observed_form_ko": "요리하다가",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "B33",
+      "example_id": "09df48a9-d547-4630-b0b4-9707979525f4",
+      "grammar_id": "d940b512-3a3a-4108-b561-fa33dfd93222",
+      "pattern": "-아/어야겠다",
+      "observed_form_ko": "물어봐야겠어요",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "B34",
+      "example_id": "1cb00bfa-808d-44f5-acd6-3047c3eb98cb",
+      "grammar_id": "7d214986-8d9d-4f84-9af5-de0234f136d5",
+      "pattern": "-(으)ㄹ수록",
+      "observed_form_ko": "많을수록",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "B35",
+      "example_id": "fceeda08-c328-4983-ad4e-eb1827e8a9ed",
+      "grammar_id": "754881ff-3e7d-4743-8de8-ab6f63b1a9a4",
+      "pattern": "-는 김에",
+      "observed_form_ko": "고치는 김에",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "B36",
+      "example_id": "7d9b31b1-d119-4489-a012-d12058224882",
+      "grammar_id": "f65f7148-511f-4c51-9472-7ba0dd29957d",
+      "pattern": "-았/었더니（경험·발견）",
+      "observed_form_ko": "넣었더니",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "B37",
+      "example_id": "75ef8e41-728d-4f72-be88-13e751673c99",
+      "grammar_id": "58303aa2-5451-40ec-8345-6b7cc14fa1aa",
+      "pattern": "-고 나서",
+      "observed_form_ko": "나누고 나서",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "B38",
+      "example_id": "a24fe4a1-4d6e-4be5-8db3-7025f911bb37",
+      "grammar_id": "894c1244-bc9d-4a06-95bd-dff4f3c2cbb1",
+      "pattern": "-(으)ㄹ 뻔하다",
+      "observed_form_ko": "나올 뻔했어요",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "B39",
+      "example_id": "db0b2ce3-37f4-4eb2-9dd9-dc6d550f9284",
+      "grammar_id": "502b2304-463f-4c29-9919-96630599383c",
+      "pattern": "-(으)ㄴ 적이 있다 / 없다",
+      "observed_form_ko": "오해한 적이 있어요",
+      "grammar_level": "beginner",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "B40",
+      "example_id": "c975114d-050b-49a1-9774-4367262cd081",
+      "grammar_id": "782eb56e-972c-4c6e-81a7-911d094caac1",
+      "pattern": "-는 대신(에) / N 대신(에)",
+      "observed_form_ko": "질문하는 대신",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "B41",
+      "example_id": "228b67c5-fb73-4e86-913b-d50eda88d47b",
+      "grammar_id": "17659b43-e2b7-4290-91b8-82446e05f9cb",
+      "pattern": "-다 보니(까)",
+      "observed_form_ko": "쓰다 보니",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "B42",
+      "example_id": "e34cba40-f4fe-40db-a797-472d33a9d697",
+      "grammar_id": "f65f7148-511f-4c51-9472-7ba0dd29957d",
+      "pattern": "-았/었더니（경험·발견）",
+      "observed_form_ko": "냈더니",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "B43",
+      "example_id": "32442864-dfc4-449f-b670-cd1aab9e7291",
+      "grammar_id": "754881ff-3e7d-4743-8de8-ab6f63b1a9a4",
+      "pattern": "-는 김에",
+      "observed_form_ko": "간 김에",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "B44",
+      "example_id": "454feab7-e043-4dba-84a9-d7b07f423626",
+      "grammar_id": "35a30485-766a-4146-aad0-88646020e192",
+      "pattern": "-(으)ㄴ/는 편이다",
+      "observed_form_ko": "계획하는 편인데",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "B45",
+      "example_id": "0863f59d-f894-427c-9dfa-e335673f009a",
+      "grammar_id": "f3e5c2de-6721-46ce-af18-1a5c458bcac8",
+      "pattern": "-아/어도（양보）",
+      "observed_form_ko": "달라도",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "B46",
+      "example_id": "35328fc7-22b6-4220-91d0-ef914491538f",
+      "grammar_id": "d46e4c1d-f809-43eb-a867-f9a3220fb93a",
+      "pattern": "-기로 하다",
+      "observed_form_ko": "듣기로 했어요",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "B47",
+      "example_id": "ecb12df9-1ba9-4d78-9dbb-aefb4ef2c84b",
+      "grammar_id": "6f229752-cc5f-4de7-b098-3e9f0c135bf9",
+      "pattern": "-(으)ㄹ까 하다（잠정 의도）",
+      "observed_form_ko": "나가 볼까 해요",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "B48",
+      "example_id": "cc8a3c83-7fcb-4fc3-81b9-603fcb610a6c",
+      "grammar_id": "549f297e-3b2e-4de2-b170-de5015d0d77b",
+      "pattern": "-도록 하다（지시·방침）",
+      "observed_form_ko": "생각하도록 하겠어요",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "B49",
+      "example_id": "fd762c61-72ed-437e-9527-3a53f4ffd324",
+      "grammar_id": "2a7b0e46-86f5-49fa-ac87-de9e3de87e3a",
+      "pattern": "-는지 / -(으)ㄴ지 / -(으)ㄹ지 알다·모르다",
+      "observed_form_ko": "끝날지 몰라서",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "B50",
+      "example_id": "b48ada16-64d6-4d0e-9c9b-b4e2002667ad",
+      "grammar_id": "0ae7131c-e497-4b82-8286-59c84d5c9e9d",
+      "pattern": "-아/어야（필요 조건）",
+      "observed_form_ko": "자리를 잡아야",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "B51",
+      "example_id": "100484ed-4b06-467f-8ff3-4d36d5f0ff6e",
+      "grammar_id": "68c3a2a7-5f4e-4236-9474-380202f6bbeb",
+      "pattern": "-(으)ㄹ까요?（제안·의견 묻기）",
+      "observed_form_ko": "이야기할까요",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "B52",
+      "example_id": "bfaddd5e-597a-4908-9f49-0beaf7766906",
+      "grammar_id": "71950d57-960d-45a6-a4e6-e492e4c01a50",
+      "pattern": "-(으)ㄹ까 봐",
+      "observed_form_ko": "지칠까 봐",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "B53",
+      "example_id": "ce092019-2771-4cfa-a5be-9be8fdaf29ac",
+      "grammar_id": "bd26d280-1967-4d90-81f5-95b3c2e3db59",
+      "pattern": "-(느)냐고 / -(으)냐고 / N(이)냐고 묻다（의문 인용）",
+      "observed_form_ko": "싶냐고 물어서",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "B54",
+      "example_id": "a1ebc1b3-acb8-4099-9365-0f26725b5764",
+      "grammar_id": "f3e5c2de-6721-46ce-af18-1a5c458bcac8",
+      "pattern": "-아/어도（양보）",
+      "observed_form_ko": "달라도",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "B55",
+      "example_id": "32c3d95f-92e0-48d6-888e-a9ebe1f26ac1",
+      "grammar_id": "782eb56e-972c-4c6e-81a7-911d094caac1",
+      "pattern": "-는 대신(에) / N 대신(에)",
+      "observed_form_ko": "하는 대신",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "B56",
+      "example_id": "8a06011f-eac9-4c25-9e65-66fb4fb9778a",
+      "grammar_id": "782eb56e-972c-4c6e-81a7-911d094caac1",
+      "pattern": "-는 대신(에) / N 대신(에)",
+      "observed_form_ko": "반대하는 대신",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "B57",
+      "example_id": "cd856993-3bec-4778-b0f9-37449225dc9c",
+      "grammar_id": "600d5cb2-aad4-414b-893a-3bb1f970909f",
+      "pattern": "-(으)라고 / -지 말라고 하다（명령·요청 인용）",
+      "observed_form_ko": "도와주라고",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "B58",
+      "example_id": "d0fa11e0-62a9-47bc-a27e-d7ddde948700",
+      "grammar_id": "40f95bb3-8746-47cf-9a49-023cecc3345b",
+      "pattern": "-기는 하지만",
+      "observed_form_ko": "빠르기는 하지만",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "B59",
+      "example_id": "caefc05e-8b7a-40ce-af65-5c32d7631996",
+      "grammar_id": "7fb56c6c-79b1-4837-94e6-a65dd45ab62d",
+      "pattern": "-거든（조건）",
+      "observed_form_ko": "어렵거든",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "B60",
+      "example_id": "46d55ece-6ef7-45be-985e-e5cf918590bb",
+      "grammar_id": "54eb6883-e365-406c-9568-7078e72c0b10",
+      "pattern": "-고 나서야 / -(으)ㄴ 뒤에야",
+      "observed_form_ko": "쉬고 나서야",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "C01",
+      "example_id": "767d88f3-1296-4b74-883b-69baf4b8c504",
+      "grammar_id": "4dd04c0c-5449-4d0f-a3cd-f0701ccf5897",
+      "pattern": "-(으)려면",
+      "observed_form_ko": "공부하려면",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "C02",
+      "example_id": "5b5ad44c-09cf-4d2a-80ff-72c4735dc53e",
+      "grammar_id": "f3e5c2de-6721-46ce-af18-1a5c458bcac8",
+      "pattern": "-아/어도（양보）",
+      "observed_form_ko": "비가 와도",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "C03",
+      "example_id": "f8c70a62-9aaa-4fb7-b981-6433e6c747cd",
+      "grammar_id": "453d0f13-3727-4335-8f6a-ddff70f570ac",
+      "pattern": "-(으)ㄹ 때",
+      "observed_form_ko": "나올 때",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "C04",
+      "example_id": "f92b2e5f-c178-4f44-84c9-943812644858",
+      "grammar_id": "58303aa2-5451-40ec-8345-6b7cc14fa1aa",
+      "pattern": "-고 나서",
+      "observed_form_ko": "내고 나서",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "C05",
+      "example_id": "97648526-0dd7-4f89-b102-c6a1f9cc44ac",
+      "grammar_id": "25dc9c13-05b1-4d9b-bb5b-5d1643f9a591",
+      "pattern": "-아 / 어야 하다",
+      "observed_form_ko": "입어야 합니다",
+      "grammar_level": "beginner",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "C06",
+      "example_id": "021917ac-29ad-46c1-8490-3a5db09c5c45",
+      "grammar_id": "92cf69c3-2bda-453a-8b5f-47f1e4902f2a",
+      "pattern": "-기 전에",
+      "observed_form_ko": "되기 전에",
+      "grammar_level": "beginner",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "C07",
+      "example_id": "a71d4d4f-2162-4af6-989f-47f972d6d5dc",
+      "grammar_id": "172590f5-9c3c-4fd9-9196-f1811ac4880e",
+      "pattern": "-아/어 있다（결과 상태）",
+      "observed_form_ko": "젖어 있으니",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "C08",
+      "example_id": "cde2203a-8985-4618-8798-9bc44712c698",
+      "grammar_id": "66f56006-dd56-4cc4-bdcb-38f1c17c0036",
+      "pattern": "보다（比較）",
+      "observed_form_ko": "평소보다",
+      "grammar_level": "beginner",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "C09",
+      "example_id": "78c8b5f6-ed2b-4a61-9a10-f2ca51c48ace",
+      "grammar_id": "9ab75790-f386-4770-89c4-fd3909f97436",
+      "pattern": "-(으)면",
+      "observed_form_ko": "번호가 없으면",
+      "grammar_level": "beginner",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "C10",
+      "example_id": "ff0b157f-c89d-478f-8e5e-b17378c150b1",
+      "grammar_id": "d41f1600-e5aa-40da-b23e-7c51a40d726b",
+      "pattern": "-자마자",
+      "observed_form_ko": "끝나자마자",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "C11",
+      "example_id": "ad95ec11-51cc-4db1-a1f0-2f0bc34e16fa",
+      "grammar_id": "175390c0-2ef1-40f2-93a8-a528e1f75dd7",
+      "pattern": "만",
+      "observed_form_ko": "직원만",
+      "grammar_level": "intro",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "C12",
+      "example_id": "0cfc1cec-f69d-4e35-a719-9b64251f3937",
+      "grammar_id": "b3c47e9e-b16e-4feb-bb5c-4cc4e49b5bf3",
+      "pattern": "-아/어 줄래요? / -아/어 주실래요?（부탁）",
+      "observed_form_ko": "이용해 주실래요",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "C13",
+      "example_id": "33553d89-2d0d-44de-bcfb-31bef0c915e9",
+      "grammar_id": "175390c0-2ef1-40f2-93a8-a528e1f75dd7",
+      "pattern": "만",
+      "observed_form_ko": "종이만",
+      "grammar_level": "intro",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "C14",
+      "example_id": "540421e9-3be6-4c67-bdff-b27aba2ebf4a",
+      "grammar_id": "0ae7131c-e497-4b82-8286-59c84d5c9e9d",
+      "pattern": "-아/어야（필요 조건）",
+      "observed_form_ko": "확인해야",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "C15",
+      "example_id": "b79564d8-d62f-4e74-b20a-d655012bc81c",
+      "grammar_id": "2a7b0e46-86f5-49fa-ac87-de9e3de87e3a",
+      "pattern": "-는지 / -(으)ㄴ지 / -(으)ㄹ지 알다·모르다",
+      "observed_form_ko": "있는지",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "C16",
+      "example_id": "51b35456-ad48-41ea-a206-1ad4a646e5ec",
+      "grammar_id": "0b6da528-99a6-4f2f-8708-686b052e3213",
+      "pattern": "-(으)ㄹ게요（약속·응답）",
+      "observed_form_ko": "알려 줄게요",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "C17",
+      "example_id": "ee01df9a-1c18-4074-9c14-62eefb30dd63",
+      "grammar_id": "c920d60c-c5d3-4e2a-b86b-faf321a27c29",
+      "pattern": "까지",
+      "observed_form_ko": "오전까지",
+      "grammar_level": "intro",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "C18",
+      "example_id": "4404701a-7b05-4721-987b-2190762a2526",
+      "grammar_id": "377e3a8a-5815-4d20-9418-b909dce54143",
+      "pattern": "-지 마세요",
+      "observed_form_ko": "들지 마세요",
+      "grammar_level": "beginner",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "C19",
+      "example_id": "3cca1d43-5141-4e69-8d24-ec689a625685",
+      "grammar_id": "e8ce5b27-35a6-4135-8014-47881cdd7f9a",
+      "pattern": "-아 / 어 보다",
+      "observed_form_ko": "읽어 보세요",
+      "grammar_level": "beginner",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "C20",
+      "example_id": "d1776428-f7ef-4af6-b1c7-1bd6933acec4",
+      "grammar_id": "12b936fe-6229-4b30-b94f-2d47383010f2",
+      "pattern": "-(으)세요（依頼・勧め）",
+      "observed_form_ko": "인쇄하세요",
+      "grammar_level": "intro",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "C21",
+      "example_id": "b940403d-4c24-4ce1-9b97-37756e025497",
+      "grammar_id": "0ae7131c-e497-4b82-8286-59c84d5c9e9d",
+      "pattern": "-아/어야（필요 조건）",
+      "observed_form_ko": "당겨야",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "C22",
+      "example_id": "8d3b9c52-0f47-411b-8640-700e80e45e69",
+      "grammar_id": "4dd04c0c-5449-4d0f-a3cd-f0701ccf5897",
+      "pattern": "-(으)려면",
+      "observed_form_ko": "보려면",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "C23",
+      "example_id": "686b4f0b-e28d-403b-9023-d57278d0bea1",
+      "grammar_id": "7d214986-8d9d-4f84-9af5-de0234f136d5",
+      "pattern": "-(으)ㄹ수록",
+      "observed_form_ko": "갈수록",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "C24",
+      "example_id": "2e369d88-cece-4b20-9a79-cc2398673fc2",
+      "grammar_id": "971d0ccc-242f-464d-90e9-775c19b88c94",
+      "pattern": "-는 동안 / N 동안",
+      "observed_form_ko": "있는 동안",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "C25",
+      "example_id": "5e4b7cb3-093f-41d2-83b8-2ecc9ad085b1",
+      "grammar_id": "f527297e-94dd-472b-928e-7bc3900b2dae",
+      "pattern": "-(으)ㄹ 필요가 있다 / 없다",
+      "observed_form_ko": "줄 필요가 없어요",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "C26",
+      "example_id": "68b52fb6-64b8-45a2-8eca-55b88d05c46c",
+      "grammar_id": "2d9cbb5e-ac05-4cbc-a52b-975c19d77210",
+      "pattern": "-(ㄴ/는)다는 / -다는 / N(이)라는 + N（인용 수식）",
+      "observed_form_ko": "막혔다는 뜻",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "C27",
+      "example_id": "e27084d3-171b-4dac-a3df-56ba8a6a94ab",
+      "grammar_id": "172590f5-9c3c-4fd9-9196-f1811ac4880e",
+      "pattern": "-아/어 있다（결과 상태）",
+      "observed_form_ko": "포함되어 있어요",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "C28",
+      "example_id": "af559e2c-a9c2-4826-bd77-57bec7d29f82",
+      "grammar_id": "4dd04c0c-5449-4d0f-a3cd-f0701ccf5897",
+      "pattern": "-(으)려면",
+      "observed_form_ko": "끄려면",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "C29",
+      "example_id": "978b1531-b981-4955-a930-9d60b838dd9b",
+      "grammar_id": "39d90697-78fd-4a3b-847c-b90d5ff07e64",
+      "pattern": "-기 위해(서) / N을·를 위해(서)",
+      "observed_form_ko": "확인하기 위해서",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "C30",
+      "example_id": "af6a99e2-2b2b-4b89-afba-71be7d31d82b",
+      "grammar_id": "f3e5c2de-6721-46ce-af18-1a5c458bcac8",
+      "pattern": "-아/어도（양보）",
+      "observed_form_ko": "끝나도",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "C31",
+      "example_id": "fb762e34-797a-46b3-bdb1-f80fe4d65f8f",
+      "grammar_id": "782eb56e-972c-4c6e-81a7-911d094caac1",
+      "pattern": "-는 대신(에) / N 대신(에)",
+      "observed_form_ko": "자세한 대신",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "C32",
+      "example_id": "158ccc3f-c004-439f-b262-e7663dd6fc06",
+      "grammar_id": "f3e5c2de-6721-46ce-af18-1a5c458bcac8",
+      "pattern": "-아/어도（양보）",
+      "observed_form_ko": "좁아도",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "C33",
+      "example_id": "61bb284d-b696-47d7-8ee0-67ff163e9fe6",
+      "grammar_id": "b85e6804-85a2-495d-8781-e885ee9468a2",
+      "pattern": "-(으)ㄹ 수 있다 / 없다",
+      "observed_form_ko": "올릴 수 있어요",
+      "grammar_level": "beginner",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "C34",
+      "example_id": "cf0d0b61-c146-464c-b208-7d813e02b752",
+      "grammar_id": "40f95bb3-8746-47cf-9a49-023cecc3345b",
+      "pattern": "-기는 하지만",
+      "observed_form_ko": "가볍기는 하지만",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "C35",
+      "example_id": "e66a8b8d-787d-49c0-9d84-270a73940c96",
+      "grammar_id": "9ab75790-f386-4770-89c4-fd3909f97436",
+      "pattern": "-(으)면",
+      "observed_form_ko": "만나면",
+      "grammar_level": "beginner",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "C36",
+      "example_id": "b63e5004-9142-46b0-bd87-c9d0238c9f44",
+      "grammar_id": "f3e5c2de-6721-46ce-af18-1a5c458bcac8",
+      "pattern": "-아/어도（양보）",
+      "observed_form_ko": "비가 와도",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "C37",
+      "example_id": "251335b1-4493-493b-8509-3f8529a0c5e1",
+      "grammar_id": "2d9cbb5e-ac05-4cbc-a52b-975c19d77210",
+      "pattern": "-(ㄴ/는)다는 / -다는 / N(이)라는 + N（인용 수식）",
+      "observed_form_ko": "들을 수 있다는 장점",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "C38",
+      "example_id": "e9ddda7a-d5e0-4ccd-b346-f3c9ff17722f",
+      "grammar_id": "f5fae1c3-9c30-4fe3-a9ed-6936aed2183a",
+      "pattern": "-지요 / -죠（공유·확인）",
+      "observed_form_ko": "가죠",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "C39",
+      "example_id": "d622fc86-0d87-4280-8e78-b5d291233a58",
+      "grammar_id": "701ca81c-0e04-466d-add4-42b94643fd87",
+      "pattern": "-아 / 어서",
+      "observed_form_ko": "높아서",
+      "grammar_level": "beginner",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "C40",
+      "example_id": "3934ca50-b01a-4d68-916e-26d7603e1ba4",
+      "grammar_id": "cc45a574-10b5-47b3-9302-bdd0468ad221",
+      "pattern": "-고",
+      "observed_form_ko": "이야기하고",
+      "grammar_level": "beginner",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "C41",
+      "example_id": "fedb6916-22e4-4bb9-959b-4b4a957ceb55",
+      "grammar_id": "eef9130b-15eb-4138-ab8b-dcda74c864b1",
+      "pattern": "-는 / -(으)ㄴ 것 같다（現在の推測）",
+      "observed_form_ko": "바뀐 것 같아요",
+      "grammar_level": "beginner",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "C42",
+      "example_id": "06663d83-5699-4be4-b67d-4cb37b4bdc52",
+      "grammar_id": "0b6da528-99a6-4f2f-8708-686b052e3213",
+      "pattern": "-(으)ㄹ게요（약속·응답）",
+      "observed_form_ko": "옮길게요",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "C43",
+      "example_id": "496d7bd8-fe2b-4752-8d6d-564494f84a0d",
+      "grammar_id": "68c3a2a7-5f4e-4236-9474-380202f6bbeb",
+      "pattern": "-(으)ㄹ까요?（제안·의견 묻기）",
+      "observed_form_ko": "빌려 볼까요",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "C44",
+      "example_id": "70333de1-3280-4df8-bbc7-62489a25e11b",
+      "grammar_id": "f0acd94a-696c-4cbe-8d11-df2f2ea31f08",
+      "pattern": "-아/어 달라고 / -아/어 주라고 하다（수혜자）",
+      "observed_form_ko": "지워 달라고",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "C45",
+      "example_id": "079d4342-aaa8-43fc-ba01-d8c6d474486f",
+      "grammar_id": "782eb56e-972c-4c6e-81a7-911d094caac1",
+      "pattern": "-는 대신(에) / N 대신(에)",
+      "observed_form_ko": "옮기는 대신",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "C46",
+      "example_id": "b29086c8-eb89-44aa-833b-5fcebeb0b686",
+      "grammar_id": "5901d23d-d80d-4c73-9c69-5b65cb3d3edf",
+      "pattern": "부터",
+      "observed_form_ko": "연결부터",
+      "grammar_level": "intro",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "C47",
+      "example_id": "fc61cf47-0896-48b4-9549-3c82956a6f29",
+      "grammar_id": "93796ac0-18d5-4363-a562-26e6fff959b4",
+      "pattern": "-(으)ㄴ 후에",
+      "observed_form_ko": "읽은 뒤에",
+      "grammar_level": "beginner",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "C48",
+      "example_id": "5bab6a76-9187-4c98-9ec6-e6ccfb6ce347",
+      "grammar_id": "d940b512-3a3a-4108-b561-fa33dfd93222",
+      "pattern": "-아/어야겠다",
+      "observed_form_ko": "바꿔야겠어요",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "C49",
+      "example_id": "cba30e86-858f-482f-9678-c7e3ffad2f0d",
+      "grammar_id": "754881ff-3e7d-4743-8de8-ab6f63b1a9a4",
+      "pattern": "-는 김에",
+      "observed_form_ko": "정리하는 김에",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "C50",
+      "example_id": "2ffec44f-1270-4636-a410-7091593d6c08",
+      "grammar_id": "68c3a2a7-5f4e-4236-9474-380202f6bbeb",
+      "pattern": "-(으)ㄹ까요?（제안·의견 묻기）",
+      "observed_form_ko": "어떨까요",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "C51",
+      "example_id": "76ef3df5-b1cf-4ee8-bf57-98b8dccbbd1d",
+      "grammar_id": "68c3a2a7-5f4e-4236-9474-380202f6bbeb",
+      "pattern": "-(으)ㄹ까요?（제안·의견 묻기）",
+      "observed_form_ko": "할까요",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "C52",
+      "example_id": "ed330b36-9294-4e43-9ed2-ba0c3d385f71",
+      "grammar_id": "b3c47e9e-b16e-4feb-bb5c-4cc4e49b5bf3",
+      "pattern": "-아/어 줄래요? / -아/어 주실래요?（부탁）",
+      "observed_form_ko": "말씀해 주실래요",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "C53",
+      "example_id": "b3868cdf-57e9-456e-8b78-69c950ce7972",
+      "grammar_id": "68c3a2a7-5f4e-4236-9474-380202f6bbeb",
+      "pattern": "-(으)ㄹ까요?（제안·의견 묻기）",
+      "observed_form_ko": "어떨까요",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "C54",
+      "example_id": "776e92d6-cce7-43ee-93d9-07753d63d10e",
+      "grammar_id": "893f53f1-ebaa-48d0-82ab-aadd66e84d80",
+      "pattern": "-고 싶다",
+      "observed_form_ko": "듣고 싶어요",
+      "grammar_level": "beginner",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "C55",
+      "example_id": "04fe74ab-29f4-4463-8feb-9bd8c15b18c0",
+      "grammar_id": "89a0c275-28c3-4698-9ec7-69c3fe1fcdf4",
+      "pattern": "-아 / 어도 되다",
+      "observed_form_ko": "않으셔도 돼요",
+      "grammar_level": "beginner",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "C56",
+      "example_id": "fa92d66f-127a-4816-8c43-f58bd1c44b06",
+      "grammar_id": "92cf69c3-2bda-453a-8b5f-47f1e4902f2a",
+      "pattern": "-기 전에",
+      "observed_form_ko": "시작하기 전에",
+      "grammar_level": "beginner",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "C57",
+      "example_id": "1c5e8ff9-5374-423c-978b-2eec75226175",
+      "grammar_id": "3213bc29-b278-4331-8a9d-383e0101653b",
+      "pattern": "-는 것 / -(으)ㄴ 것 / -(으)ㄹ 것（명사화）",
+      "observed_form_ko": "반대하는 건",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "C58",
+      "example_id": "1b69d947-e59d-4331-938e-16bfab92109c",
+      "grammar_id": "f527297e-94dd-472b-928e-7bc3900b2dae",
+      "pattern": "-(으)ㄹ 필요가 있다 / 없다",
+      "observed_form_ko": "읽을 필요는 없어요",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "C59",
+      "example_id": "f94ed9fd-40dd-48f2-b551-c0a1243f6cdf",
+      "grammar_id": "445b7ded-b9dc-434e-b8fb-7ed4d253bc64",
+      "pattern": "-(으)ㄹ지도 모르다",
+      "observed_form_ko": "틀렸을지도 모르니까",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    },
+    {
+      "key": "C60",
+      "example_id": "87463b58-7ec9-463a-ad85-095a9eb814b4",
+      "grammar_id": "b3c47e9e-b16e-4feb-bb5c-4cc4e49b5bf3",
+      "pattern": "-아/어 줄래요? / -아/어 주실래요?（부탁）",
+      "observed_form_ko": "알려 주실래요",
+      "grammar_level": "lower_intermediate",
+      "source_level": "lower_intermediate",
+      "review": "One AI-selected prerequisite receipt; finite/connected/contracted/honorific forms are contextually compared, not a parser proof of every construction. No new runtime prerequisite or mastery gate."
+    }
+  ],
+  "unique_selected_grammar": 77,
+  "surface_families_requiring_preview": [
+    {
+      "family": "-(으)ㄹ 테니(까)",
+      "status": "UNCATALOGUED_PREVIEW",
+      "item_keys": [
+        "A02",
+        "A12",
+        "A44",
+        "A48",
+        "A54"
+      ],
+      "teacher_review": "NOT TESTED",
+      "runtime_enforced": false
+    },
+    {
+      "family": "-아/어 두다",
+      "status": "UNCATALOGUED_PREVIEW",
+      "item_keys": [
+        "A09",
+        "A47",
+        "A58"
+      ],
+      "teacher_review": "NOT TESTED",
+      "runtime_enforced": false
+    },
+    {
+      "family": "quotative contraction -대요/-다니까",
+      "status": "CONTRACTION_PREVIEW",
+      "item_keys": [
+        "A03",
+        "A10",
+        "A16",
+        "A27"
+      ],
+      "teacher_review": "NOT TESTED",
+      "runtime_enforced": false
+    },
+    {
+      "family": "future/perfect conjecture -(으)ㄹ 것 같다",
+      "status": "COMPOSITIONAL_PREVIEW",
+      "item_keys": [
+        "A14",
+        "A15",
+        "B19",
+        "B28",
+        "B47",
+        "C53",
+        "C56"
+      ],
+      "teacher_review": "NOT TESTED",
+      "runtime_enforced": false
+    },
+    {
+      "family": "-(으)ㄹ 정도로",
+      "status": "UNCATALOGUED_PREVIEW",
+      "item_keys": [
+        "A41"
+      ],
+      "teacher_review": "NOT TESTED",
+      "runtime_enforced": false
+    },
+    {
+      "family": "-(으)ㄹ 수도 있다",
+      "status": "COMPOSITIONAL_PREVIEW",
+      "item_keys": [
+        "A45"
+      ],
+      "teacher_review": "NOT TESTED",
+      "runtime_enforced": false
+    },
+    {
+      "family": "-아/어 주시겠어요",
+      "status": "REGISTER_VARIANT_PREVIEW",
+      "item_keys": [
+        "A49"
+      ],
+      "teacher_review": "NOT TESTED",
+      "runtime_enforced": false
+    },
+    {
+      "family": "retrospective -던",
+      "status": "UNCATALOGUED_PREVIEW",
+      "item_keys": [
+        "B39"
+      ],
+      "teacher_review": "NOT TESTED",
+      "runtime_enforced": false
+    },
+    {
+      "family": "-기도 하다",
+      "status": "UNCATALOGUED_PREVIEW",
+      "item_keys": [
+        "B39",
+        "B43"
+      ],
+      "teacher_review": "NOT TESTED",
+      "runtime_enforced": false
+    },
+    {
+      "family": "-군요",
+      "status": "UNCATALOGUED_PREVIEW",
+      "item_keys": [
+        "A49"
+      ],
+      "teacher_review": "NOT TESTED",
+      "runtime_enforced": false
+    },
+    {
+      "family": "-는 중이다",
+      "status": "UNCATALOGUED_PREVIEW",
+      "item_keys": [
+        "B53"
+      ],
+      "teacher_review": "NOT TESTED",
+      "runtime_enforced": false
+    },
+    {
+      "family": "quoted adnominal command/proposal -라는/-자는",
+      "status": "COMPOSITIONAL_PREVIEW",
+      "item_keys": [
+        "C26",
+        "C57"
+      ],
+      "teacher_review": "NOT TESTED",
+      "runtime_enforced": false
+    }
+  ],
+  "simplified_unregistered": [
+    {
+      "key": "A23",
+      "before": "-더라도",
+      "after": "-아/어도"
+    },
+    {
+      "key": "B56",
+      "before": "-기보다는",
+      "after": "-는 대신"
+    }
+  ],
+  "old163_unchanged": {
+    "resolved": 120,
+    "conditional": 7,
+    "unresolved": 36,
+    "level_concerns_in_unresolved": 8
+  },
+  "independent_human_review": "NOT TESTED"
+}

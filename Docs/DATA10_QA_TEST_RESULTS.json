@@ -1,0 +1,247 @@
+{
+  "stage": "DATA-10-5",
+  "recorded_at_utc": "2026-10-21T04:02:36.707486+00:00",
+  "client_date_jst": "2026-10-21",
+  "base_commit": "f7d1835a8ce1b073a65e8a21d8b27f6e4eb523a9",
+  "branch": "codex/data10-5-listening-qa",
+  "metadata": {
+    "schema_version": 4,
+    "content_version": 28,
+    "min_reader_version": 7,
+    "dataset_id": "ko-ja-core",
+    "is_fixture": 0,
+    "source_locale": "ja",
+    "target_locale": "ko"
+  },
+  "source_sha256": "521f047d3bb9fbb4056c651c6d6e561d18db79f3072f2f46acf6a76ff447ba36",
+  "bundle_sha256": "a9f1f5459597203d07a62a6a70fdf41db5f77b943c29e45ea5921c9c503ba8ad",
+  "cohort": {
+    "originals": 180,
+    "listening": 360,
+    "questions": 360,
+    "choices": 630,
+    "accepted": 150,
+    "tasks": {
+      "comprehension": 180,
+      "dictation": 150,
+      "meaning": 18,
+      "korean": 12
+    }
+  },
+  "production": {
+    "content_items": 16841,
+    "courses": 8,
+    "questions": 3913,
+    "lessons": 103,
+    "examples": 4993,
+    "vocabulary": 2287,
+    "meanings": 2420,
+    "grammar": 96,
+    "listening_items": 2296
+  },
+  "levels": {
+    "vocabulary": {
+      "beginner": 800,
+      "intro": 306,
+      "lower_intermediate": 1181
+    },
+    "examples": {
+      "beginner": 1577,
+      "intro": 659,
+      "lower_intermediate": 2757
+    },
+    "grammar": {
+      "beginner": 20,
+      "intro": 22,
+      "lower_intermediate": 54
+    },
+    "questions": {
+      "beginner": 134,
+      "hangul": 59,
+      "intro": 156,
+      "lower_intermediate": 3564
+    },
+    "listening_items": {
+      "beginner": 79,
+      "intro": 34,
+      "lower_intermediate": 2183
+    }
+  },
+  "validator": {
+    "status": "PASS_MECHANICAL",
+    "strict_previous_version": 27,
+    "errors": 0,
+    "warnings": 10,
+    "integrity": "ok",
+    "foreign_keys": 0,
+    "new_language_certified_by_validator": false
+  },
+  "reconstruction": {
+    "tables": {
+      "audio_questions": true,
+      "conjugations": true,
+      "content_aliases": true,
+      "content_audio": true,
+      "content_items": true,
+      "content_links": true,
+      "content_metadata": true,
+      "courses": true,
+      "examples": true,
+      "grammar": true,
+      "grammar_examples": true,
+      "hangul": true,
+      "item_sources": true,
+      "item_tags": true,
+      "learner_notes": true,
+      "lesson_items": true,
+      "lessons": true,
+      "listening_items": true,
+      "meanings": true,
+      "media_assets": true,
+      "pronunciation_examples": true,
+      "pronunciation_presentations": true,
+      "pronunciation_rules": true,
+      "question_choices": true,
+      "questions": true,
+      "sources": true,
+      "sqlite_stat1": true,
+      "tags": true,
+      "vocabulary": true,
+      "vocabulary_examples": true,
+      "vocabulary_search": true
+    },
+    "all_tables_equal": true,
+    "schema_equal": true,
+    "byte_equal": true
+  },
+  "preservation": {
+    "entities": 16841,
+    "inserted": 0,
+    "deleted": 0,
+    "payload_ids": 175,
+    "revision_ids": 179,
+    "revision_only_dependents": 4,
+    "source_fields": 188,
+    "protected_files": 106,
+    "user_progress_schema": 10,
+    "user_progress_rewritten": false
+  },
+  "portable": {
+    "status": "PASS",
+    "command": "sh Tools/verify.sh --portable",
+    "executed": 403,
+    "passed": 403,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "seconds": 477.897,
+    "exit_code": 0,
+    "unique_count_excludes_repeated_targeted_runs": true
+  },
+  "candidate_runs": [
+    {
+      "log": "Docs/DATA10_QA_CANDIDATE_TEST_LOG.txt",
+      "executed": 12,
+      "passed": 10,
+      "failures": 1,
+      "errors": 1,
+      "seconds": 28.969,
+      "exit_code": 1,
+      "status": "FAIL"
+    },
+    {
+      "log": "Docs/DATA10_QA_FINAL_CANDIDATE_TEST_LOG.txt",
+      "executed": 12,
+      "passed": 12,
+      "failures": 0,
+      "errors": 0,
+      "seconds": 29.605,
+      "exit_code": 0,
+      "status": "PASS"
+    }
+  ],
+  "ui": {
+    "issue": "QA-UI01/P1 preplay choice/translation/transcript-text exposure from disabled-only buttons",
+    "fix": "Conditionally create choices after persisted completed playback; no new Codable storage field",
+    "verification": "PASS_STATIC_SOURCE and authored native regression; not dynamic iOS/VoiceOver execution",
+    "remaining": "Native/device gate BLOCKED",
+    "punctuation_hint": "Corrected internal vs terminal punctuation guidance"
+  },
+  "language": {
+    "status": "AI_SELF_REVIEWED",
+    "originals": 180,
+    "translations": 180,
+    "questions": 360,
+    "choices": 630,
+    "accepted": 150,
+    "non_template_issue_groups": 10,
+    "shared_dictation_instruction_rows": 150,
+    "additional_new_samples": 18,
+    "old_sample_originals": 12,
+    "old_near_pairs": 4,
+    "old1936_language_full_review": false,
+    "independent_human_review": "NOT TESTED",
+    "external_dictionary_full_review": "NOT TESTED",
+    "actual_tts_audition": "NOT TESTED"
+  },
+  "old_listening": {
+    "count": 1936,
+    "dictation": 1850,
+    "dictation_percent": 95.558,
+    "complete_normalized_duplicate_source_task_groups": 0,
+    "educational_near_duplicate_pair": 1
+  },
+  "combined_listening": {
+    "count": 2296,
+    "sources": 2116,
+    "dictation": 2000,
+    "dictation_percent": 87.108,
+    "verified_recordings": 0,
+    "audio_mode": "single speaker TTS"
+  },
+  "prerequisites": {
+    "selected_receipts": 180,
+    "unique_existing_grammar": 77,
+    "historical54_forms_rechecked": true,
+    "preview_families": 12,
+    "preview_originals": 27,
+    "prior163": {
+      "resolved": 120,
+      "conditional": 7,
+      "unresolved": 36,
+      "level_concerns_in_unresolved": 8
+    },
+    "automatic_prerequisite_gate_implemented": false
+  },
+  "native": {
+    "status": "BLOCKED",
+    "defined": 145,
+    "executed_here": 0,
+    "new_methods": 1,
+    "reason": "Linux xcodebuild/swift absent",
+    "last_mac_executed": 142,
+    "last_mac_passed": 137,
+    "last_mac_failed": 5
+  },
+  "remaining_known_gates": [
+    "QA-UI01 code/static regression passed, dynamic native/VoiceOver pending",
+    "Existing 되다/뵈다 contraction P1; 꿰다 expectation review",
+    "StoreKit cold entitlement cache root cause unconfirmed",
+    "DATA06 cohort/Pronunciation course assumption3methods",
+    "Independent teacher/native review and actual TTS/device/offline/audio interruption/IME/memory/3-10min/ad/purchase rights NOT TESTED"
+  ],
+  "release": "B—Conditional",
+  "git": {
+    "force_push": false,
+    "original_source_deleted": false,
+    "history_rewritten": false,
+    "over50MiB": 0,
+    "over100MiB": 0,
+    "lfs_needed": false,
+    "branch_protection_read": "403 Resource not accessible by integration, not inferred absent",
+    "rulesets": [],
+    "actions_workflows": 0,
+    "delivery": "Normal commit/push/PR/server merge according to prior authorization and AGENTS; final PR and Git main sync are authoritative, no recursive self-SHA commit"
+  },
+  "next_stage_started": false
+}

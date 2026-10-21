@@ -1,3 +1,13 @@
+# DATA-10-5 / Listening·Dictation 전체 QA — Content28
+
+**Content28 / Schema4 / reader7 / UserProgress10**, 기존 수량/ID 불변: DATA10 신규180원문/360문제, 전체 Listening2,296/Example4,993/Question3,913/Vocabulary2,287/Grammar96. A~C 전180한일 원문·360문항·630선택지·150accepted를 AI가 별도 재독했다. 독립 원어민·교사/실제TTS 검청 NOT TESTED, 검증 녹음0 유지.
+
+재생 전 선택지를 disabled만 하던 구조를 재생 완료 후 조건부 생성으로 고치고, 내부 문장부호 안내·언어/문항10유형·신규150문항의 숫자 한글 입력 안내를 교정했다. 기존27 원본/DB fixture 보존·188본문필드/179ID revision+1(종속4포함), 신규/삭제ID0·UserProgress/학습순서/관계 불변. strict previous27 오류0/기존경고10·Source69,787행/전31테이블/schema/index/byte 재현 일치. 후보12/12 PASS, 최종 portable **403/403 PASS (477.897초, failures/errors/skipped0, exit0)**.
+
+기존1,936개 받아쓰기95.558%·합산87.108%, 선행 검토12계열27원문·기존163후보36미해결 유지. UI/VoiceOver는 정적 회귀와 실제 실행을 구분한다. Cloud iOS Build/XCTest145정의·실행0 BLOCKED·이전Mac5FAIL/활용P1·독립 사람/기기 gate가 남아 **Release B—Conditional** 유지. [DATA10_PROGRESS §5](DATA10_PROGRESS.md), [QA보고](Docs/DATA10_QA_REVIEW.md), [학습경로 검토](Docs/DATA10_QA_LEARNING_PATH.md), [검사결과](Docs/DATA10_QA_TEST_RESULTS.json). 다음 단계는 시작하지 않는다. 아래 버전·현재·검사 표현은 각 단계 당시 이력이다.
+
+---
+
 # DATA-10-4 / 最終 Listening Batch C — Content27
 
 **Content27 / Schema4 / reader7 / UserProgress10.** 학교·직장 안내/설명/비교/문제해결/의도 각10개, 신규 원문60·내용이해60/받아쓰기60=120문제를 반영했다. A/B/C 각60/120, DATA10 누적 **신규180원문/360문제**로 전체 목표150~250/300~500 충족. Content24 대비 실제 새ID 집합으로 검증했고 기존 예문/1,936듣기·추가참조·선택지 중복 계산0이다. 전체 Example4,993/Listening2,296/Question3,913, Vocabulary2,287/Meaning2,420/Grammar96 불변.
