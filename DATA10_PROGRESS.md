@@ -245,3 +245,59 @@ SQLiteListening bounded warm120조회/2,400행 median0.294ms/max12.188ms. Python
 ### 4.6 실제 Commit/Push/PR 전달
 
 검증한 원본/Bundle/fixture·원고·검수/회귀/기록 commit `dd247c92119867cf3408b4e6f57005348cf62677`를 `codex/data10-4-listening-batch-c`로 정상 push했고 [PR #21](https://github.com/Raccoon26/Project-Hangul-Study/pull/21)을 생성했다. 원격 head와 local commit이 일치한다. PR 조회는 MERGEABLE/CLEAN·statusCheckRollup=[]이며 `gh pr checks --required`는 no checks reported(exit1)였다. CI PASS라는 뜻은 아니며 실제 검증은 portable391PASS/strict·byte재현/AI검수 범위다. 보호메타403을 보호없음으로 해석하거나 admin/force로 우회하지 않는다. 이 보충은 문서만 변경하고 검증된 Source/Bundle/테스트를 바꾸지 않는다. 보충commit push 후 최신 head를 다시 확인해 정상 merge하고, main fetch/ff-only·origin/main 전체SHA/clean을 대조한다. 최종 merge SHA·상태는 PR/Git과 최종 응답이 기준이며 자기 SHA를 위한 사후commit을 반복하지 않는다. 이 마지막 Batch에서 종료한다.
+
+
+## 5. DATA-10-5 / Listening·Dictation 전체 QA (2026-10-21 JST)
+
+### 5.1 시작 상태와 검수 범위
+
+main=origin/main `f7d1835a8ce1b073a65e8a21d8b27f6e4eb523a9`(PR21)을 fetch해 일치·clean·미커밋0을 확인하고 `codex/data10-5-listening-qa`에서 작업했다. gh Raccoon26/ADMIN/default main·origin, 상태/가이드/출시/AGENTS/누적 기록과 실제 Source/DB/View/모델/Audio/Reader/Validator를 대조했다. Python3.12.14/SQLite3.53.1/Linux, Xcode/Swift 없음. 기존27을 byte 그대로 재구성한 뒤 실제 원본/DB를 불변 fixture에 보존했다.
+
+A~C **180한국어·180일본어/360문항·해설·정답/630선택지/150accepted 전수 AI 별도 재독**. 자연스러움·활용·조사·띄어쓰기·Level·높임·시제·범위·인용 수혜자·화자 의도·정답 유일성/오답 타당성·반복/선행 문법을 확인했다. batch별6개씩 무작위18원문 재감사와 고위험 집중 검토, 기존 Level별4개씩12원문/근접4쌍의 추가 AI 표본을 구분한다. 독립 사람·교사/전수 외부사전·실제TTS 검청 **NOT TESTED**, 검증 녹음0 유지. 기계 Validator는 언어·교육 타당성 인증이 아니다.
+
+[전체QA보고](Docs/DATA10_QA_REVIEW.md), [실제180/360 payload](Docs/DATA10_QA_ITEMS.md), [AI원장](Docs/DATA10_QA_EDITORIAL.json), [별도표본](Docs/DATA10_QA_SAMPLES.json), [선행 검토](Docs/DATA10_QA_PREREQUISITES.json), [기존 기계분석](Docs/DATA10_QA_CORPUS_ANALYSIS.json), [기존 언어표본](Docs/DATA10_QA_OLD_SAMPLES.json).
+
+### 5.2 재생 전 UI·VoiceOver 노출과 안내 수정
+
+**QA-UI01/P1**: 기존 선택지는 재생 전에도 Text를 생성하고 disabled만 해 정답 문장/번역을 미리 읽을 수 있는 구조였다. `s.revealsChoices`의 heard/result/current/task 조건 아래에서만 보기를 생성하도록 고쳤다. result 뒤 Transcript/번역/정답/해설, 들은 뒤 Resume의 heard=true·다음 문항의 heard=false를 유지한다. 계산 속성만 추가해 Codable 저장 필드/UserProgress 변경0이다. 실제 VoiceOver로 관찰한 결과가 아니라 소스에서 발견·수정한 구조이며, 정적 회귀 PASS와 native 동적 확인 **BLOCKED**를 구분한다.
+
+Audio 성공 시에만 완료 카운트를 올리고 stop/실패/화면 종료 시 미완료로 남는 경로, 오류 문구·접근성 라벨을 점검했다. 전체2,296 prompt의 전체 원문/번역 exact 포함0은 기계 확인이며 의미상 모든 힌트 부재의 증명은 아니다. 질문은 재생 전에 볼 수 있다. **QA-UI02/P2**: `句点は不要です`를 문중 부호 필수/문말 ASCII .!? 생략이라는 실제 계약으로 바꿨다.
+
+### 5.3 언어·문항 교정과 accepted
+
+언어/문항10유형을 교정했다. A13 취소/대안의 일본어 범위, A23 미수록 -더라도→기존 -아/어도, A27 근거 없는 二人 전제, B06 형/부모님의 인용 역할, B21 편이다의 경향/추측, B30 건조/안전확인의 정답 범위, B47 잠정 의향 해설, B53 싶냐고의 잔존 설명, B56 -기보다는→-는 대신, B57 일본어 수동태/비난 의도 과잉 설명이다. [명시 before/after](Content/data10-final-corrections.json).
+
+현행 Validator는 canonical 원문/끝부호 변형만 허용하므로 `두 시/2시` 같은 숫자 변환은 미지원이다. 신규150prompt에 숫자도 한글로 쓰도록 명시했고 Validator/일반 입력 채점을 완화하지 않았다. accepted는 정확한 원문1개씩이며 한국어가 바뀐3항목도 맞췄다. 문중 부호·단어·철자는 오답, spacing은 별도다.
+
+총188본문 필드/175payload ID·179revision+1(종속 Listening revision-only4포함), 신규/삭제ID0이다. 정답 choice ID/순서·관계·배치·기존 UserProgress는 그대로다. 공통 안내150개를150개의 서로 다른 제품 버그로 세지 않는다.
+
+### 5.4 기존1,936과 교육적 경로·남은 선행 조건
+
+기존 TTS1,936(고유source1,936)은 의미32/한국어27/받아쓰기1,850/내용이해27, 入門34/初級79/初中級1,823이다. 받아쓰기95.558%, 初中級 중1,822개가 받아쓰기다. 신규360은 source180·내용180/받아쓰기150/의미18/한국어12, 합산2,296/source2,116·받아쓰기2,000(87.108%)/내용207/의미50/한국어39다. 기존 원문8~35자/평균21.745, 신규36~78자/평균52.444, 전단일화자TTS·검증 녹음0이다.
+
+완전 source+task 중복0, 신규 전체 원문/문장 조각 반복0이다. 기존 예문과 겹치는 한 조각 `금방 돌아올게요`는 A51 전체 맥락과 구분했다. 기존 근접4쌍 중 돌아보며/되돌아보며는 의미가 가까운 어휘별 예문, 나머지3쌍은 장소·형용사·부사의 최소대립이다. ID를 합치거나 삭제하지 않았다. 기존1,936개 언어를 전수 재검수했다고 주장하지 않는다.
+
+기존 Grammar 선택참조180/고유77ID와 B의54관찰 형태를 현재 본문과 대조했으나 미수록/변형12계열·27원문은 사전 설명/교사 확인이 필요하다. 기존163후보 모두 기존 듣기 source에 포함되며120해결/7조건부/36미해결(Level우려8포함)을 유지한다.
+
+[권고 경로](Docs/DATA10_QA_LEARNING_PATH.md)는 기존96Grammar/初中級3코스18레슨6Unit 복습→A103~105/B109~111/C115~117 내용이해→결과 후 사전/문법·기존 단문 보충→다음 기회에 A106~108/B112~114/C118~120의 두 번째 과제다. 20문항 상한·부분 중단/Resume를 유지하며 실제3~10분 완료를 보장하지 않는다. 새 추천/주제UI·선행 자동 잠금·원문SRS 병합·듣기Favorites를 구현한 것이 아니다. 현행 Favorites는 Vocabulary/Grammar만 지원한다.
+
+### 5.5 버전·보존·실제 검사
+
+Content28/Schema4/reader7/UserProgress10. 전체 V2,287/M2,420/E4,993/G96/Q3,913/L2,296/content_items16,841/Course8/Lesson103 불변, DATA10 신규180/360·목표150~250/300~500 충족 유지. 기존27의08:00:00Z batch stamp는 실제 QA 시각보다 미래인 메타데이터로 보존했다. created_at을 고치지 않고 이번 revision metadata는 단조 후행08:00:01Z를 사용했으며 실제 QA 시각은 별도 recorded_at_utc다.
+
+A/B/C exact gate는25/26/27fixture에 고정, final27→28이 명시188필드/179revision만 허용한다. 기존106파일 byte·원본/fixture 보존, Source25테이블69,787행/DB31테이블 schema/index·중복 포함 전행·byte SHA 재구성 일치, strict previous27 오류0/기존10경고·integrity ok/FK0. 기존1,936의 E/L/Q fingerprint 및 모든 Stable ID/kind/created_at/순서가 보존됐다.
+
+최초 후보12개는10PASS/1FAIL/1ERROR(28.969초). 검사 코드가 문중 마침표만 가정해 `?` 경계를 놓쳤고, Favorites에 미지원 listening 유형을 넣은 fixture 오류가 있었다. 문중 .!? 경계와 지원 Vocabulary favorite로 고쳐 규칙 완화 없이 최종 후보12/12 PASS(29.605초,exit0). 초기 로그를 보존한다.
+
+새 portable12개는 strict/명시delta·전체 행·교정 회귀·150accepted·UI 생성/guard 제거 거부·숫자/동의어/누출/중복/미증가revision 거부·이전1,936 불변·실제360 offline bounded 조회·27→28디스크 교체/SRS due/기존Favorites/사용자byte·선행/AI범위를 검사한다. Python/opaque SQL JSON은 Swift Codable/실기기 인증이 아니다.
+
+최종 전체 portable **403/403 PASS (477.897초, failures/errors/skipped0, exit0)**. Source SHA `521f047d3bb9fbb4056c651c6d6e561d18db79f3072f2f46acf6a76ff447ba36`, Bundle/재구성 SHA `a9f1f5459597203d07a62a6a70fdf41db5f77b943c29e45ea5921c9c503ba8ad`. [원시 로그](Docs/DATA10_QA_PORTABLE_TEST_LOG.txt), [실제 결과](Docs/DATA10_QA_TEST_RESULTS.json), [수량/보존](Docs/DATA10_QA_COUNTS.json). 추가 native1메서드·현재145정의/실행0, Xcode/Swift가 없어 iOS Build/XCTest·실제 UI/VoiceOver **BLOCKED**다. 이전 Mac142실행137PASS/5FAIL·활용P1/구매cache/cohort/course 가정은 미해결이다. 새 노출P1은 코드수정/정적PASS·native 확인 대기다. 독립 사람/TTS·기기Offline/음성중단/접근성/메모리/IME/3~10분·실제 광고/구매 권한은 미완료, **Release B—Conditional**·검증 녹음0을 유지한다.
+
+### 5.6 Git 전달
+
+diff·원본/fixture·대용량을 확인하고 정상 Commit/Push/main PR·필수 검사/mergeability를 확인한다. 이전 사용자 위임/AGENTS에 따라 정상 병합 후 fetch/ff-only로 main=origin/main·clean을 대조한다. 최종 PR/merge SHA는 Git/PR과 최종 응답이 기준이다. 접근 가능한1,078blob·현재파일의50/100MiB초과0, 최대20,037,632bytes로 LFS는 불필요하다. main protection API403을 보호없음으로 해석하지 않으며 rulesets=[]/Actions workflows0은 CI PASS가 아니다. Force Push/이력 재작성/기존 원본 삭제0, 자기 SHA를 위한 재귀 commit은 하지 않는다. 이번 QA에서 종료하며 다음 단계는 시작하지 않는다.
+
+
+### 5.7 실제 Commit/Push/PR 전달
+
+검증된 코드·교정 Source/Bundle·fixture·검수/검사 기록 commit `6cd189ecb9c0941d21169d63ad368bf2d69d4d0b`를 `codex/data10-5-listening-qa`로 정상 push했고 [PR #22](https://github.com/Raccoon26/Project-Hangul-Study/pull/22)을 생성했다. ls-remote/PR의 head와 로컬 commit이 일치한다. PR은 MERGEABLE/CLEAN·statusCheckRollup=[]이며 `gh pr checks --required`는 no checks reported(exit1)다. 원격 CI PASS가 아니라 로컬403PASS·strict/byte재현·정적회귀/AI검수 범위가 실행 근거다. 보호메타403을 보호없음으로 해석하거나 admin/force로 우회하지 않는다. 이 인계 보충은 문서만 바꾸고 검증된 Source/DB/코드/테스트는 불변이다. 이전 위임에 따라 보충commit을 정상 push한 후 최신head를 확인해 정상 병합·main fetch/ff-only와 origin/main 전체SHA/clean을 대조한다. 최종 merge SHA·상태는 해당PR/Git·최종응답을 기준으로 하며 자기SHA를 위한 재귀commit은 하지 않는다. DATA10-5 QA에서 종료하고 다음 단계는 시작하지 않는다.

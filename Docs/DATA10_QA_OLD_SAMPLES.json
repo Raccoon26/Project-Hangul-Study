@@ -1,0 +1,233 @@
+{
+  "scope": "12 stratified old-source AI spot checks +4 lexical near-pairs (shortlist target<=10; only4 scored>=0.82); not all1936 language review",
+  "seed": 20261021105,
+  "old_samples": [
+    {
+      "id": "b9b87c1d-3684-4e08-b22e-86de2ed53f09",
+      "source_example_id": "8ff949b1-952e-46d0-9394-e9e425fc5df3",
+      "korean": "내일 다시 만나요.",
+      "japanese": "明日また会いましょう。",
+      "level": "intro",
+      "task": "korean",
+      "prompt_ja": "音声で実際に聞こえた韓国語を選んでください。",
+      "ai_review": "KO/JA sample reread: no new definite translation/spelling defect found; isolated-sentence context and level remain internal editorial judgments."
+    },
+    {
+      "id": "9da4d3a1-0e4b-4264-bb81-e874fa296c70",
+      "source_example_id": "b003660f-c794-49c0-8422-bc5ac3ac1fb0",
+      "korean": "공책에 단어를 써요.",
+      "japanese": "ノートに単語を書きます。",
+      "level": "intro",
+      "task": "korean",
+      "prompt_ja": "音声で実際に聞こえた韓国語を選んでください。",
+      "ai_review": "KO/JA sample reread: no new definite translation/spelling defect found; isolated-sentence context and level remain internal editorial judgments."
+    },
+    {
+      "id": "bf3cb197-58ca-4071-99c5-1afbd499c5ac",
+      "source_example_id": "e7238095-3b6e-468f-934d-df69802aabaf",
+      "korean": "다음 역에서 내려요.",
+      "japanese": "次の駅で降ります。",
+      "level": "intro",
+      "task": "korean",
+      "prompt_ja": "音声で実際に聞こえた韓国語を選んでください。",
+      "ai_review": "KO/JA sample reread: no new definite translation/spelling defect found; isolated-sentence context and level remain internal editorial judgments."
+    },
+    {
+      "id": "60fc8f95-d34b-4296-8147-a63de1d04421",
+      "source_example_id": "70f92a9f-bee8-478e-81b6-8273b991bfb3",
+      "korean": "가족과 같이 살아요.",
+      "japanese": "家族と一緒に住んでいます。",
+      "level": "intro",
+      "task": "korean",
+      "prompt_ja": "音声で実際に聞こえた韓国語を選んでください。",
+      "ai_review": "KO/JA sample reread: no new definite translation/spelling defect found; isolated-sentence context and level remain internal editorial judgments."
+    },
+    {
+      "id": "e943fab2-c339-44a9-bb5e-7fc181745800",
+      "source_example_id": "81c96070-ce4d-46d5-967b-efa66b58ec8b",
+      "korean": "결과를 보고 실망했어요.",
+      "japanese": "結果を見てがっかりしました。",
+      "level": "beginner",
+      "task": "comprehension",
+      "prompt_ja": "結果を見て、どんな気持ちになりましたか？",
+      "ai_review": "KO/JA sample reread: no new definite translation/spelling defect found; isolated-sentence context and level remain internal editorial judgments."
+    },
+    {
+      "id": "810ae83c-800a-47c5-9495-f56bfc17aa70",
+      "source_example_id": "f1002b11-a4ee-45bc-a0e8-c1d0dd61955d",
+      "korean": "감기가 다 나았어요.",
+      "japanese": "風邪がすっかり治りました。",
+      "level": "beginner",
+      "task": "dictation",
+      "prompt_ja": "聞こえた文を韓国語で入力してください。",
+      "ai_review": "KO/JA sample reread: no new definite translation/spelling defect found; isolated-sentence context and level remain internal editorial judgments."
+    },
+    {
+      "id": "084103b4-36aa-4734-b924-fd5a64a3a0f8",
+      "source_example_id": "24ae8d95-7d12-4cf4-bdee-769cfdf98539",
+      "korean": "날씨가 갑자기 바뀌었어요.",
+      "japanese": "天気が急に変わりました。",
+      "level": "beginner",
+      "task": "meaning",
+      "prompt_ja": "音声を聞いて、文の意味を選んでください。",
+      "ai_review": "KO/JA sample reread: no new definite translation/spelling defect found; isolated-sentence context and level remain internal editorial judgments."
+    },
+    {
+      "id": "e1ab11a1-ce35-4336-844d-03ad4ce33373",
+      "source_example_id": "f5e32285-c5f9-474c-8f68-0d16272ecdee",
+      "korean": "전화번호를 적어 주세요.",
+      "japanese": "電話番号を書いてください。",
+      "level": "beginner",
+      "task": "meaning",
+      "prompt_ja": "音声を聞いて、文の意味を選んでください。",
+      "ai_review": "KO/JA sample reread: no new definite translation/spelling defect found; isolated-sentence context and level remain internal editorial judgments."
+    },
+    {
+      "id": "0aab5686-655f-4fa1-a1eb-f1d372e74fe6",
+      "source_example_id": "49b64034-9caf-42ec-9e86-78ed2ea39f39",
+      "korean": "궁금한 점은 차례차례 질문해 주세요.",
+      "japanese": "疑問点は、順番に質問してください。",
+      "level": "lower_intermediate",
+      "task": "dictation",
+      "prompt_ja": "音声を聞いて、韓国語の文を書いてください。",
+      "ai_review": "KO/JA sample reread: no new definite translation/spelling defect found; isolated-sentence context and level remain internal editorial judgments."
+    },
+    {
+      "id": "bbc75788-74a2-4c54-9739-778f371d856a",
+      "source_example_id": "13f52360-014a-45d4-9c0f-711b666b089c",
+      "korean": "아직 누가 갈지는 결정되지 않았어요.",
+      "japanese": "まだ誰が行くかは決まっていません。",
+      "level": "lower_intermediate",
+      "task": "dictation",
+      "prompt_ja": "音声を聞いて、韓国語の文を書いてください。",
+      "ai_review": "KO/JA sample reread: no new definite translation/spelling defect found; isolated-sentence context and level remain internal editorial judgments."
+    },
+    {
+      "id": "02d2b630-8c45-4819-b5e2-74edccf0ea20",
+      "source_example_id": "e6994754-b273-4ace-b4b8-9255fcef46e2",
+      "korean": "닭고기는 속까지 충분히 익혀야 해요.",
+      "japanese": "鶏肉は中まで十分に火を通す必要があります。",
+      "level": "lower_intermediate",
+      "task": "dictation",
+      "prompt_ja": "音声を聞いて、韓国語の文を書いてください。",
+      "ai_review": "KO/JA sample reread: no new definite translation/spelling defect found; isolated-sentence context and level remain internal editorial judgments."
+    },
+    {
+      "id": "2612a969-51cf-4751-9891-deed1de2c028",
+      "source_example_id": "79f1fead-fa43-41e0-85f3-eab2bedbd54e",
+      "korean": "두 약속이 겹쳐서 어느 쪽으로 가야 할지 난감해요.",
+      "japanese": "二つの約束が重なり、どちらに行くか困っています。",
+      "level": "lower_intermediate",
+      "task": "dictation",
+      "prompt_ja": "音声を聞いて、韓国語の文を書いてください。",
+      "ai_review": "KO/JA sample reread: no new definite translation/spelling defect found; isolated-sentence context and level remain internal editorial judgments."
+    }
+  ],
+  "near_candidates_ge082": 4,
+  "near10": [
+    {
+      "a": {
+        "id": "b4794c03-9ee3-4f12-9da3-fb0eadd5060b",
+        "source_example_id": "21a83ce4-1a1d-4130-ac30-8f2a5cee227b",
+        "korean": "한 해를 돌아보며 배운 점을 적었어요.",
+        "japanese": "一年を振り返り、学んだことを書きました。",
+        "level": "lower_intermediate",
+        "task": "dictation",
+        "prompt_ja": "音声を聞いて、韓国語の文を書いてください。"
+      },
+      "b": {
+        "id": "a8d12992-a845-470e-9522-e0695f6c1af4",
+        "source_example_id": "a8c40f3b-d90a-4403-9429-d60034902106",
+        "korean": "한 해를 되돌아보며 배운 점을 적었어요.",
+        "japanese": "一年を振り返って、学んだことを書きました。",
+        "level": "lower_intermediate",
+        "task": "dictation",
+        "prompt_ja": "音声を聞いて、韓国語の文を書いてください。"
+      },
+      "ratio": 0.9677,
+      "ai_review": "Semantically near-duplicate retrospective sentence for 돌아보다/되돌아보다; preserves separate lexical relations/IDs, editorial consolidation not performed.",
+      "independent_human_review": "NOT TESTED"
+    },
+    {
+      "a": {
+        "id": "9c643250-16a6-4a37-903c-b71d020cd6d4",
+        "source_example_id": "0b6d6adc-ce09-4f9f-9eb9-f7ee580e0faa",
+        "korean": "식당에서 친구를 만나요.",
+        "japanese": "食堂で友達に会います。",
+        "level": "intro",
+        "task": "korean",
+        "prompt_ja": "聞こえた韓国語を選んでください。"
+      },
+      "b": {
+        "id": "597d7650-d7d7-42b0-80aa-63dd8b408a5e",
+        "source_example_id": "19d43df5-adb5-4338-b456-f0a7437c9703",
+        "korean": "역에서 친구를 만나요.",
+        "japanese": "駅で友達に会います。",
+        "level": "intro",
+        "task": "korean",
+        "prompt_ja": "聞こえた韓国語を選んでください。"
+      },
+      "ratio": 0.8421,
+      "ai_review": "Location minimal pair: 식당/역; useful elementary contrast but limited listening comprehension breadth.",
+      "independent_human_review": "NOT TESTED"
+    },
+    {
+      "a": {
+        "id": "e642166f-18c3-40b9-abf0-28f84113534d",
+        "source_example_id": "0c3b5190-ad52-4ab6-8e11-42a12131220d",
+        "korean": "너무 바빠서 여태 점심도 못 먹었어요.",
+        "japanese": "忙しすぎて、今まで昼食も取れませんでした。",
+        "level": "lower_intermediate",
+        "task": "dictation",
+        "prompt_ja": "音声を聞いて、韓国語の文を書いてください。"
+      },
+      "b": {
+        "id": "2c9266be-68f6-4259-b13f-b37623f294b2",
+        "source_example_id": "2523b45c-ae5b-45a3-9163-698a1e7f32af",
+        "korean": "너무 바빠서 심지어 점심도 못 먹었어요.",
+        "japanese": "忙しすぎて、昼食さえ取れませんでした。",
+        "level": "lower_intermediate",
+        "task": "dictation",
+        "prompt_ja": "音声を聞いて、韓国語の文を書いてください。"
+      },
+      "ratio": 0.8387,
+      "ai_review": "Same syntactic frame with different focus: 여태 emphasizes elapsed time, 심지어 adds an unexpected extreme. Standalone context limits this distinction; not mechanically identical.",
+      "independent_human_review": "NOT TESTED"
+    },
+    {
+      "a": {
+        "id": "d029299f-92f7-42d7-ab30-34b0e94007d5",
+        "source_example_id": "0613633a-865b-4d99-950b-6147a0837dc7",
+        "korean": "국이 뜨거워요.",
+        "japanese": "スープが熱いです。",
+        "level": "intro",
+        "task": "meaning",
+        "prompt_ja": "聞こえた文の意味を選んでください。"
+      },
+      "b": {
+        "id": "15526c68-f89c-4ecc-a004-2fcf63887fec",
+        "source_example_id": "0ae1f9c4-938c-4f30-b0a7-3316b16895b0",
+        "korean": "국이 싱거워요.",
+        "japanese": "スープの味が薄いです。",
+        "level": "beginner",
+        "task": "korean",
+        "prompt_ja": "聞こえた韓国語を選んでください。"
+      },
+      "ratio": 0.8333,
+      "ai_review": "국 + adjective minimal pair contrasts temperature vs taste; intentional lexical contrast, not the same meaning.",
+      "independent_human_review": "NOT TESTED"
+    }
+  ],
+  "old_listening_sources_in_prior163": 163,
+  "prior163_status_in_old": {
+    "resolved": 120,
+    "unresolved": 36,
+    "pedagogically_allowable": 7
+  },
+  "remaining_prior163_status": {
+    "resolved": 120,
+    "conditional": 7,
+    "unresolved": 36
+  },
+  "independent_human_review": "NOT TESTED"
+}

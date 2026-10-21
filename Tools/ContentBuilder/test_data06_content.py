@@ -21,7 +21,7 @@ class Data06Tests(unittest.TestCase):
   for table,old,new in [('listening_items',31,2296),('questions',262,3913),('content_items',4503,16841),('examples',1876,4993),('vocabulary',926,2287),('grammar',42,96)]:
    self.assertEqual(self.old.execute('SELECT COUNT(*) FROM '+table).fetchone()[0],old)
    self.assertEqual(self.db.execute('SELECT COUNT(*) FROM '+table).fetchone()[0],new)
-  self.assertEqual(self.db.execute('SELECT schema_version,content_version,min_reader_version,is_fixture FROM content_metadata').fetchone(),(4,27,7,0))
+  self.assertEqual(self.db.execute('SELECT schema_version,content_version,min_reader_version,is_fixture FROM content_metadata').fetchone(),(4,28,7,0))
   self.assertEqual(self.db.execute('PRAGMA foreign_key_check').fetchall(),[])
  def test_existing_payloads_stable_ids_orders_and_only_approved_revisions(self):
   approved=set(json.loads((ROOT/'Content/data06-revised-ids.json').read_text()));a,b=signatures(self.old),signatures(self.db)

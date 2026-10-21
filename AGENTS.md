@@ -11,6 +11,15 @@
 - force push, 파괴적 reset/clean, 이력 재작성, 기존 Production/fixture 삭제, 데이터 축소를 통한 전달 우회를 금지한다. Xcode/Simulator 유무는 환경별로 다시 확인한다. Cloud portable PASS를 Mac native PASS로 바꾸지 않으며 설치되지 않은 native/실기기 gate는 BLOCKED로 유지한다.
 - Python/SQLite 버전과 `PRAGMA compile_options`도 확인한다. DATA10-1 당시 배포24는 SQLite3.53.1의31테이블이다. Mac SQLite3.44.0의 ENABLE_STAT4 재구성은 같은31테이블의 행이 일치해도 추가 sqlite_stat4 때문에32테이블·SHA가 다르다(`Docs/DATA10_REBUILD_COMPARISON.json`). 이를 byte-exact PASS로 표시하거나 시스템 통계 테이블을 임의 삭제/검사 완화해 맞추지 않는다. 임시 재구성만 비교하고 Production을 보존하며, 실제 후속 배포 전 동일 writer 버전/compile profile의 재현 환경을 확인한다.
 
+## DATA-10-5 전체 QA 현재 기준
+
+- 현재 Content28/Schema4/reader7/UserProgress10·신규180원문/360문제·전체L2,296/E4,993/Q3,913/V2,287/G96이다. 신규/삭제ID0, 본문188필드/175payload ID·179revision+1(Example 종속Listening4포함)만 Content/data10-final-corrections.json·revised-ids 원장에 따라 교정했다. 기존27 source.gz/DB 및106과거파일 byte 보존·UserProgress/관계/배치/순서 불변. 다음 실제 변경은 현재28을 먼저 보존한다.
+- prepare_data10_final은 고정27→28만 재현한다. A/B/C exact gate는25/26/27 fixture, final이 전체delta/구행/179승인revision을 검사한다. 27의 미래editorial stamp는 created_at을 재작성하지 않고 보존했으며 이번metadata는 단조후행08:00:01Z·실제QA기록시간은 recorded_at_utc로 구분한다.
+- Listening 선택지는 disabled만 하지 않고 s.revealsChoices(heard/result/current/task) 아래에서 생성한다. 성공적 재생완료가 저장되기 전 보기 Text·번역/한국어정답을 UI/접근성 트리에 만들지 않는다. result 후 Transcript·정답·해설, 들은 뒤 Resume의 heard=true와 다음 문항의 heard=false를 유지한다. computed property는 새 Codable/DB필드가 아니다. 실제VoiceOver gate와 정적source회귀를 구분한다.
+- 신규150Dictation은 canonical 한글원문1개·숫자도한글로 입력, 문중부호필수/문말ASCII .!?생략·spacing warning 구분이다. digit/synonym 정규화로 Validator/일반입력을 완화하지 않는다. 전TTS·검증녹음0·독립 사람/TTS검청 NOT TESTED를 유지한다.
+- 최신 DATA10_PROGRESS §5/Docs/DATA10_QA_*다. 전180한일/360Q/630선택지/150accepted AI재독·18추가표본, 기존1,936 기계분석+12언어표본/4근접쌍만 재독했다. 기존언어전수/사람검수로 주장하지 않는다. 기존163건120해결/7조건부/36미해결(Level8포함) 및 신규12계열27원문의 사전설명/교사확인 필요를 보존한다. 권고경로는 새추천/주제UI·원문SRS병합·선행자동잠금 구현이 아니다.
+- 후보12PASS·전체 portable 403/403 PASS (477.897초, failures/errors/skipped0, exit0). UI노출P1 코드수정/정적PASS는 native·실기기확인대기, Cloud iOS Build/145XCTest정의·실행0 BLOCKED·이전Mac5FAIL/활용P1·구매cache/기기gate·Release B—Conditional 유지. 이번 QA에서 종료하며 다음 단계를 자동 시작하지 않는다.
+
 ## DATA-10-4 最終 Listening Batch C 현재 기준
 
 - 명시 요청으로 Content27/Schema4/reader7/UserProgress10, C 신규60원문/120문제(내용60/받아쓰기60)를 반영했다. 학교·직장 안내/설명/비교/문제해결/의도 각10원문. DATA10 A/B/C 누적180원문/360문제는 Content24 대비 실제 새ID와 대조했고 전체 목표150~250/300~500을 충족한다. 기존1,936듣기/예문/추가참조/선택지를 원문으로 중복 계산하지 않는다. 이 Batch에서 종료한다.

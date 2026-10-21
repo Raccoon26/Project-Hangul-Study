@@ -1,0 +1,51 @@
+{
+  "scope": "all reachable refs plus current reviewable files before commit",
+  "reachable_blobs": 1078,
+  "reachable_over50MiB": [],
+  "reachable_over100MiB": [],
+  "working_over50MiB": [],
+  "working_over100MiB": [],
+  "largest": [
+    {
+      "path": "Resources/content.sqlite",
+      "bytes": 20037632
+    },
+    {
+      "path": "Tests/Fixtures/content-v27-production.sqlite",
+      "bytes": 20025344
+    },
+    {
+      "path": "Tests/Fixtures/content-v26-production.sqlite",
+      "bytes": 19603456
+    },
+    {
+      "path": "Tests/Fixtures/content-v25-production.sqlite",
+      "bytes": 19214336
+    },
+    {
+      "path": "Tests/Fixtures/content-v24-production.sqlite",
+      "bytes": 18841600
+    },
+    {
+      "path": "Tests/Fixtures/content-v22-production.sqlite",
+      "bytes": 18812928
+    },
+    {
+      "path": "Tests/Fixtures/content-v23-production.sqlite",
+      "bytes": 18812928
+    },
+    {
+      "path": "Content/production.json",
+      "bytes": 18696813
+    },
+    {
+      "path": "Tests/Fixtures/content-v21-production.sqlite",
+      "bytes": 18509824
+    },
+    {
+      "path": "Tests/Fixtures/content-v20-production.sqlite",
+      "bytes": 18194432
+    }
+  ],
+  "lfs_needed": false
+}

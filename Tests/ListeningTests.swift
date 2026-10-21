@@ -8,6 +8,28 @@ final class ListeningTests: XCTestCase {
     private func session(_ questions: [ListeningQuestion]) -> ListeningSession {
         ListeningSession(id:UUID(),scope:"test",questions:questions,contentVersion:10,isReview:false,startedAt:Date(),updatedAt:Date())
     }
+    func testDATA10ChoicesWaitForCompletedPlaybackAndSurviveResume() throws {
+        for task in [ListeningTask.meaning,.korean,.comprehension] {
+            var s = session([question(task),question(task)])
+            XCTAssertFalse(s.revealsChoices)
+            XCTAssertThrowsError(try s.apply(.submit("a"),at:Date()))
+            let initial = try JSONDecoder().decode(ListeningSession.self,from:JSONEncoder().encode(s))
+            XCTAssertFalse(initial.revealsChoices)
+            // Starting, stopping or failing audio does not apply .played.
+            XCTAssertFalse(s.heard)
+            try s.apply(.played(.normal),at:Date())
+            XCTAssertTrue(s.revealsChoices)
+            s = try JSONDecoder().decode(ListeningSession.self,from:JSONEncoder().encode(s))
+            XCTAssertTrue(s.revealsChoices)
+            try s.apply(.submit("a"),at:Date())
+            XCTAssertFalse(s.revealsChoices)
+            try s.apply(.next,at:Date())
+            XCTAssertFalse(s.revealsChoices)
+        }
+        var dictation = session([question()])
+        try dictation.apply(.played(.normal),at:Date())
+        XCTAssertFalse(dictation.revealsChoices)
+    }
     func testAllChoiceTasksAndDictationReuse() throws {
         for task in [ListeningTask.meaning,.korean,.comprehension] {
             let q = question(task); try q.validate()
