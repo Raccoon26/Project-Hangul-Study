@@ -11,6 +11,15 @@
 - force push, 파괴적 reset/clean, 이력 재작성, 기존 Production/fixture 삭제, 데이터 축소를 통한 전달 우회를 금지한다. Xcode/Simulator 유무는 환경별로 다시 확인한다. Cloud portable PASS를 Mac native PASS로 바꾸지 않으며 설치되지 않은 native/실기기 gate는 BLOCKED로 유지한다.
 - Python/SQLite 버전과 `PRAGMA compile_options`도 확인한다. DATA10-1 당시 배포24는 SQLite3.53.1의31테이블이다. Mac SQLite3.44.0의 ENABLE_STAT4 재구성은 같은31테이블의 행이 일치해도 추가 sqlite_stat4 때문에32테이블·SHA가 다르다(`Docs/DATA10_REBUILD_COMPARISON.json`). 이를 byte-exact PASS로 표시하거나 시스템 통계 테이블을 임의 삭제/검사 완화해 맞추지 않는다. 임시 재구성만 비교하고 Production을 보존하며, 실제 후속 배포 전 동일 writer 버전/compile profile의 재현 환경을 확인한다.
 
+## DATA-10-3 Listening Batch B 현재 기준
+
+- 명시 요청으로 Content26/Schema4/reader7/UserProgress10에 신규 상황60개·내용이해60/받아쓰기60을 반영했다. 감정8/의견8/판단7/이유7/결과7/경험8/계획8/의견차이7이며 DATA10 누적120원문/240문제다. 전체 목표150~250/300~500을 유지한다. 다음 Batch는 자동 시작하지 않는다.
+- 실제 직전25 source.gz/DB fixture를 보존했다. A 정확한24→25 gate는 frozen25에 고정하고 B25→26 gate가 기존16,241개 fingerprint·본문/ID/revision/order/membership 불변과 신규300UUID를 검사한다. 기존 revision 승인 목록은 빈 배열이다. 다음 실제 변경은 현재26을 previous로 먼저 보존한다. prepare_data10_b는 고정25→26만 재현하는 도구이며 후속 Production을 덮어쓰는 importer가 아니다.
+- 신규 source60/추가 참조60/Listening120/Question120을 구분한다. learning_order2180~2299(batch109~114), source 두유형은3구간 차이다. 기존 번호·부분구간·session snapshot을 재작성하지 않는다. 원문 단위 SRS 병합·새 topic UI를 구현했다고 주장하지 않는다.
+- 전단일화자TTS/녹음0이며 인용도 같은 TTS로 읽는다. 다화자 실녹음/목소리·재생을 가장하지 않는다. prompt_ko=null, Transcript는 기존 result 이후 생성한다. Dictation accepted는 정확한 원문1개, 끝 .!? 생략과 내부부호/철자·spacing을 구분하고 일반 입력을 완화하지 않는다.
+- 최신 근거는 DATA10_PROGRESS §3 / Docs/DATA10_B_*다. 54문법 재사용은 AI 문맥 용례 매핑이며 기존 Grammar 관계/선행163건의 일괄 해결/재사용 승인으로 해석하지 않는다. 한일/문제 AI 자체 검수와 독립 사람·실제TTS 검청 NOT TESTED를 구분한다.
+- 최종 portable382 PASS/Source68,586행/31테이블·SHA 재현은 iOS 실행이 아니다. 현재Cloud Build/XCTest143정의·실행0 BLOCKED, 이전Mac의142실행137PASS/5FAIL은 역사 근거로 유지하며 활용P1·구매cache 등 미해결 gate/Release B—Conditional을 보존한다. 다음 Mac은 최신main과 환경을 동기화하고 실제 native 결과로만 상태를 바꾼다.
+
 ## DATA-10-2 Listening Batch A 현재 기준
 
 - 명시 요청으로 初中級 신규 상황60개/문제120개를 Content25에 추가한다. 의미18/한국어12/받아쓰기30/내용이해60, 전TTS이며 녹음0이다. 일상·약속변경·교통·쇼핑·서비스·부탁/거절 각10원문. 기존 원문 source 재사용0, 신규 원문마다 Example1/Listening2/Question2이며 원문 수에 내부 문장/오답/반복 참조를 합산하지 않는다. 전체 DATA10 목표150~250/300~500은 유지한다.

@@ -18,19 +18,23 @@ from validator import signatures
 from test_data05_content import query
 from test_lookup_sql import user
 
-SOURCE=Path(os.environ.get('DATA10_A_SOURCE',ROOT/'Content/production.json'))
-BUNDLE=Path(os.environ.get('DATA10_A_BUNDLE',ROOT/'Resources/content.sqlite'))
+SOURCE=Path(os.environ.get('DATA10_A_SOURCE',ROOT/'Tests/Fixtures/content-v25-production.json.gz'))
+BUNDLE=Path(os.environ.get('DATA10_A_BUNDLE',ROOT/'Tests/Fixtures/content-v25-production.sqlite'))
 norm=lambda s:' '.join(unicodedata.normalize('NFC',s).split())
 
 
 class Data10ATests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
+        global SOURCE
+        cls.released_source=tempfile.TemporaryDirectory()
+        if SOURCE.suffix=='.gz':
+            raw=gzip.decompress(SOURCE.read_bytes());SOURCE=Path(cls.released_source.name)/'content25.json';SOURCE.write_bytes(raw)
         cls.source=json.loads(SOURCE.read_text());cls.t=cls.source['tables']
         cls.manifest=json.loads((ROOT/'Content/data10-a-authoring.json').read_text());cls.items=cls.manifest['items']
         cls.db=sqlite3.connect(BUNDLE);cls.old=sqlite3.connect(ROOT/'Tests/Fixtures/content-v24-production.sqlite')
     @classmethod
-    def tearDownClass(cls):cls.db.close();cls.old.close()
+    def tearDownClass(cls):cls.db.close();cls.old.close();cls.released_source.cleanup()
 
     def test_immutable24_and_deterministic25_strict_rebuild(self):
         self.assertEqual(hashlib.sha256(gzip.decompress((ROOT/'Tests/Fixtures/content-v24-production.json.gz').read_bytes())).hexdigest(),BASE_SHA)

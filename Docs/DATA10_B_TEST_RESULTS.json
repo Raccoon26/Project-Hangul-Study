@@ -1,0 +1,276 @@
+{
+  "stage": "DATA-10-3",
+  "recorded_at_utc": "2026-10-21T02:41:45.314662+00:00",
+  "client_date_jst": "2026-10-21",
+  "base_commit": "238b6452d9a69d61f9e187c6176cd76bb240b098",
+  "branch": "codex/data10-3-listening-batch-b",
+  "metadata": {
+    "schema_version": 4,
+    "content_version": 26,
+    "min_reader_version": 7,
+    "dataset_id": "ko-ja-core",
+    "is_fixture": 0,
+    "source_locale": "ja",
+    "target_locale": "ko"
+  },
+  "source_sha256": "012c199f219662b7832a84ef2f815307bd38ebb47e52ff6f31806dadbdd57d3f",
+  "bundle_sha256": "47517c77f9dc02d3643000a8ce429cf7a655c2bddf45e5bf1f52b8e3fd9cd801",
+  "new": {
+    "originals": 60,
+    "examples": 60,
+    "listening": 120,
+    "questions": 120,
+    "choices": 180,
+    "dictation": 60,
+    "comprehension": 60,
+    "reused_old_sources": 0,
+    "extra_new_source_references": 60,
+    "tts": 120,
+    "verified_recordings": 0
+  },
+  "cumulative_data10": {
+    "originals": 120,
+    "questions": 240
+  },
+  "remaining_to_goal": {
+    "originals": [
+      30,
+      130
+    ],
+    "questions": [
+      60,
+      260
+    ]
+  },
+  "production": {
+    "content_items": 16541,
+    "hangul": 55,
+    "content_links": 6739,
+    "courses": 8,
+    "learner_notes": 531,
+    "questions": 3793,
+    "question_choices": 1926,
+    "lessons": 103,
+    "lesson_items": 1191,
+    "sources": 25,
+    "item_sources": 16107,
+    "pronunciation_rules": 36,
+    "pronunciation_presentations": 36,
+    "content_audio": 36,
+    "examples": 4933,
+    "pronunciation_examples": 13,
+    "audio_questions": 3,
+    "tags": 103,
+    "vocabulary": 2287,
+    "item_tags": 4525,
+    "meanings": 2420,
+    "vocabulary_examples": 4514,
+    "grammar": 96,
+    "grammar_examples": 389,
+    "listening_items": 2176
+  },
+  "domains": {
+    "emotions": 8,
+    "opinion": 8,
+    "judgment": 7,
+    "reason": 7,
+    "result": 7,
+    "experience": 8,
+    "plan": 8,
+    "disagreement": 7
+  },
+  "listening_focus": {
+    "reason": 9,
+    "speaker_intent": 11,
+    "main_point": 8,
+    "detail": 9,
+    "change": 5,
+    "judgment": 2,
+    "condition": 3,
+    "evidence": 1,
+    "plan": 5,
+    "sequence": 2,
+    "result": 4,
+    "purpose": 1
+  },
+  "grammar_reuse": {
+    "existing_data09_grammar": 54,
+    "scope": "AI-reviewed contextual occurrence mapping; no runtime Grammar relation/revision or prerequisite approval change"
+  },
+  "portable": {
+    "command": "sh Tools/verify.sh --portable",
+    "executed": 382,
+    "passed": 382,
+    "seconds": 578.139,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "exit_code": 0,
+    "log": "Docs/DATA10_B_PORTABLE_TEST_LOG.txt"
+  },
+  "candidate": {
+    "initial_tests": 9,
+    "initial_seconds": 18.647,
+    "initial_exit": 0,
+    "final_tests": 9,
+    "final_seconds": 19.094,
+    "final_exit": 0,
+    "scope": "Final common dictation prompt reviewed and retested before final promotion; included methods in final382"
+  },
+  "targeted": {
+    "query6": "PASS/0.086seconds",
+    "cumulative1": "PASS/7.166seconds",
+    "counting": "Subsets, not additional unique tests"
+  },
+  "initial_attempts": [
+    {
+      "status": "INTERRUPTED",
+      "observed_failures": 5,
+      "exit_code": 130,
+      "complete": false,
+      "reason": "Stale Content25/level/count live expectations",
+      "log": "Docs/DATA10_B_INTERRUPTED_PORTABLE_LOG.txt"
+    },
+    {
+      "status": "FAIL",
+      "executed": 382,
+      "passed": 381,
+      "failures": 1,
+      "errors": 0,
+      "skips": 0,
+      "seconds": 514.289,
+      "exit_code": 1,
+      "reason": "Content13->current cumulative delta still25; corrected to actual26 deltas3057Examples/3451Questions/2065Listening",
+      "log": "Docs/DATA10_B_PRELIMINARY_PORTABLE_LOG.txt"
+    }
+  ],
+  "validation": {
+    "errors": 0,
+    "existing_warnings": 10,
+    "previous_version": 25
+  },
+  "reconstruction": {
+    "all31_tables_equal": true,
+    "tables": {
+      "audio_questions": true,
+      "conjugations": true,
+      "content_aliases": true,
+      "content_audio": true,
+      "content_items": true,
+      "content_links": true,
+      "content_metadata": true,
+      "courses": true,
+      "examples": true,
+      "grammar": true,
+      "grammar_examples": true,
+      "hangul": true,
+      "item_sources": true,
+      "item_tags": true,
+      "learner_notes": true,
+      "lesson_items": true,
+      "lessons": true,
+      "listening_items": true,
+      "meanings": true,
+      "media_assets": true,
+      "pronunciation_examples": true,
+      "pronunciation_presentations": true,
+      "pronunciation_rules": true,
+      "question_choices": true,
+      "questions": true,
+      "sources": true,
+      "sqlite_stat1": true,
+      "tags": true,
+      "vocabulary": true,
+      "vocabulary_examples": true,
+      "vocabulary_search": true
+    },
+    "schema_equal": true,
+    "bundle_sha256": "47517c77f9dc02d3643000a8ce429cf7a655c2bddf45e5bf1f52b8e3fd9cd801",
+    "rebuilt_sha256": "47517c77f9dc02d3643000a8ce429cf7a655c2bddf45e5bf1f52b8e3fd9cd801",
+    "byte_equal": true
+  },
+  "preservation": {
+    "existing_entities": 16241,
+    "new_uuid_entities": 300,
+    "old_revision_changes": 0,
+    "old_payload_order_membership_changes": 0,
+    "baseline_protected_files": 99,
+    "source_tables": 25,
+    "source_rows": 68586,
+    "actual_previous25_saved": true,
+    "old_a_exact_gate": "frozen25"
+  },
+  "quality": {
+    "review": "AI separate Korean/Japanese and all questions/choices/accepted",
+    "scope": {
+      "originals": 60,
+      "translations": 60,
+      "questions": 120,
+      "choices": 180,
+      "accepted": 60
+    },
+    "authoring_fields_corrected": 15,
+    "shared_prompt_template_corrected": 1,
+    "shared_prompt_outputs": 60,
+    "independent_human_review": "NOT TESTED",
+    "actual_tts_audition": "NOT TESTED",
+    "exact_normalized_duplicate_count": 0,
+    "near_candidate_pairs_reread": 180,
+    "semantic_overlap": "Common constructions/topics explicitly noted; no universal paraphrase/originality certificate"
+  },
+  "build": {
+    "status": "BLOCKED",
+    "reason": "Cloud Linux; xcodebuild/swift absent"
+  },
+  "native": {
+    "status": "BLOCKED",
+    "defined": 143,
+    "new_methods": 1,
+    "executed": 0,
+    "real_device": "BLOCKED",
+    "historical_mac": {
+      "evidence": "Docs/DATA10_A_TEST_RESULTS.json",
+      "executed": 142,
+      "passed": 137,
+      "failed": 5,
+      "failed_methods": [
+        "-[HangulStudyTests.ListeningTests testData06RealItemsGradingAndAudioPolicy]",
+        "-[HangulStudyTests.PronunciationTests testListeningGateAndPronunciationProgressReopen]",
+        "-[HangulStudyTests.PronunciationTests testPronunciationCourseQueriesAndQuizAnswers]",
+        "-[HangulStudyTests.ReleaseAuditTests testConjugationOeContractsToWaeAndWaeStaysWae]",
+        "-[HangulStudyTests.StoreKitPurchaseTests testLocalNonConsumablePurchaseColdEntitlementAndRestore]"
+      ],
+      "note": "Historical Mac execution; failures remain open, not current Cloud test results"
+    }
+  },
+  "runtime_changes": 0,
+  "release": "B—Conditional",
+  "verified_inputs": {
+    "Content/production.json": "012c199f219662b7832a84ef2f815307bd38ebb47e52ff6f31806dadbdd57d3f",
+    "Resources/content.sqlite": "47517c77f9dc02d3643000a8ce429cf7a655c2bddf45e5bf1f52b8e3fd9cd801",
+    "Content/data10-b-authoring.json": "4500071285123be2f57df560b10ddcd3ed61f50a556b1e00b2c204b532d637cb",
+    "Content/data10-b-revised-ids.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "Tools/ContentBuilder/prepare_data10_b.py": "5db1d62f3fc674a04a49205bdd18e40857db7fbe73f6b3e2a66291ee3c783e9b",
+    "Tools/ContentBuilder/audit_data10_b.py": "e290aab0aa0de36feb9d87edef4072e22df6227b4198558f1e9066b70fc4f931",
+    "Tools/ContentBuilder/test_data10_b_content.py": "d14d0ee251a77198f95aca85ae9d092f5fede854ebacce1afd688877fabcd841",
+    "Tools/ContentBuilder/test_data10_a_content.py": "38db84b37e6f59e01154efb47f02f7d5e08861b224948a371daeaafd769b8ca3",
+    "Tests/ListeningTests.swift": "d6d051e118b417ff3084ee6dcc99acc052381d95f4e920e61c7aeb064a49ba7b",
+    "Tests/StatisticsAndSettingsTests.swift": "fabc24c33a9e1c3264853799f26aaae3d2b4f37e16279b09edd7b94040c4f2bd",
+    "Tools/verify.sh": "775f9d6da6e1027353f8c5ad4355b7a1c9243c41c3bd7e78861f17710321c788"
+  },
+  "git": {
+    "force_push": false,
+    "initial_clean": true,
+    "main_protection_query": "HTTP403; cannot infer protection absent",
+    "rulesets": [],
+    "actions_workflows": 0,
+    "delivery": "Ordinary push/PR/server-enforced merge; final SHA and state in Git/PR/final response",
+    "validated_commit": "2c9fd5d7d7a0bc611f6105fdf2ec307160962e0b",
+    "pr": 20,
+    "pr_url": "https://github.com/Raccoon26/Project-Hangul-Study/pull/20",
+    "observed_status_checks": [],
+    "required_check_cli": "no checks reported / exit1; not CI PASS",
+    "push": "PASS"
+  },
+  "next_batch_started": false
+}

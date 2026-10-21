@@ -1,0 +1,6 @@
+test_strict_import_exact_delta_and_schema_unchanged (test_data07_content.Data07Tests.test_strict_import_exact_delta_and_schema_unchanged) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 7.166s
+
+OK

@@ -1,0 +1,493 @@
+{
+  "scope": "Editorial occurrence mapping of54 existing DATA09 structures in natural utterances, not runtime prerequisite approval or auto-graded conjugation support. No old Grammar endpoints/relations revised.",
+  "count": 54,
+  "independent_human_review": "NOT TESTED",
+  "records": [
+    {
+      "grammar_key": "A01",
+      "grammar_id": "da6206fe-cb6b-4842-8943-da3c54c07370",
+      "pattern": "-기 때문에 / N 때문에",
+      "item_key": "B24",
+      "example_id": "d747457d-2b02-4787-b5de-89613f0d2d16",
+      "observed_form_ko": "소음 때문에",
+      "result": "AI_CONTEXT_REVIEWED"
+    },
+    {
+      "grammar_key": "A02",
+      "grammar_id": "4168b8b7-98df-431a-a90c-d83945f3df76",
+      "pattern": "-느라고",
+      "item_key": "B02",
+      "example_id": "add54a55-5fe0-4c31-b588-dd97cfa90594",
+      "observed_form_ko": "마무리하느라고",
+      "result": "AI_CONTEXT_REVIEWED"
+    },
+    {
+      "grammar_key": "A03",
+      "grammar_id": "645acca8-db1f-4482-9b4c-88d637445e2d",
+      "pattern": "-는 바람에",
+      "item_key": "B25",
+      "example_id": "77e1e9c3-2d7e-44d6-a2bd-e81d0c213374",
+      "observed_form_ko": "꺼지는 바람에",
+      "result": "AI_CONTEXT_REVIEWED"
+    },
+    {
+      "grammar_key": "A04",
+      "grammar_id": "400d4fa2-b300-406c-9425-c7bb1a125c9d",
+      "pattern": "-아/어지다（상태 변화）",
+      "item_key": "B05",
+      "example_id": "fc668a1c-2988-4fcb-8597-1ec860491106",
+      "observed_form_ko": "가벼워졌어요",
+      "result": "AI_CONTEXT_REVIEWED"
+    },
+    {
+      "grammar_key": "A05",
+      "grammar_id": "e7ab89e5-358e-461a-893d-d87d057bc9ed",
+      "pattern": "-게 되다",
+      "item_key": "B31",
+      "example_id": "abc42122-2979-4ff4-a798-0272c4f19dc1",
+      "observed_form_ko": "갖게 됐어요",
+      "result": "AI_CONTEXT_REVIEWED"
+    },
+    {
+      "grammar_key": "A06",
+      "grammar_id": "0ae7131c-e497-4b82-8286-59c84d5c9e9d",
+      "pattern": "-아/어야（필요 조건）",
+      "item_key": "B50",
+      "example_id": "b48ada16-64d6-4d0e-9c9b-b4e2002667ad",
+      "observed_form_ko": "자리를 잡아야",
+      "result": "AI_CONTEXT_REVIEWED"
+    },
+    {
+      "grammar_key": "A07",
+      "grammar_id": "50b9f4ff-e592-4d4d-8057-a4e26a7bc2ad",
+      "pattern": "-(ㄴ/는)다면 / -다면 / N(이)라면",
+      "item_key": "B12",
+      "example_id": "5e39b48c-6d54-4dd2-838a-ac3a4d5a3094",
+      "observed_form_ko": "주말이라면",
+      "result": "AI_CONTEXT_REVIEWED"
+    },
+    {
+      "grammar_key": "A08",
+      "grammar_id": "7fb56c6c-79b1-4837-94e6-a65dd45ab62d",
+      "pattern": "-거든（조건）",
+      "item_key": "B15",
+      "example_id": "f911d313-7809-4430-8087-6d4eeca2fa95",
+      "observed_form_ko": "시간이 있거든",
+      "result": "AI_CONTEXT_REVIEWED"
+    },
+    {
+      "grammar_key": "A09",
+      "grammar_id": "4dd04c0c-5449-4d0f-a3cd-f0701ccf5897",
+      "pattern": "-(으)려면",
+      "item_key": "B20",
+      "example_id": "1de99988-0f8d-45d7-a14b-e766dc69ae4c",
+      "observed_form_ko": "판단하려면",
+      "result": "AI_CONTEXT_REVIEWED"
+    },
+    {
+      "grammar_key": "A10",
+      "grammar_id": "39d90697-78fd-4a3b-847c-b90d5ff07e64",
+      "pattern": "-기 위해(서) / N을·를 위해(서)",
+      "item_key": "B16",
+      "example_id": "3217c93b-3911-4020-af3f-5d0c2aef99b2",
+      "observed_form_ko": "사람들을 위해",
+      "result": "AI_CONTEXT_REVIEWED"
+    },
+    {
+      "grammar_key": "A11",
+      "grammar_id": "76c32b94-218c-4167-9dc0-0e5e848766bd",
+      "pattern": "-도록（목표）",
+      "item_key": "B27",
+      "example_id": "2915ccab-23c1-4917-ad20-591c6b8051d2",
+      "observed_form_ko": "주도록",
+      "result": "AI_CONTEXT_REVIEWED"
+    },
+    {
+      "grammar_key": "A12",
+      "grammar_id": "549f297e-3b2e-4de2-b170-de5015d0d77b",
+      "pattern": "-도록 하다（지시·방침）",
+      "item_key": "B48",
+      "example_id": "cc8a3c83-7fcb-4fc3-81b9-603fcb610a6c",
+      "observed_form_ko": "생각하도록 하겠어요",
+      "result": "AI_CONTEXT_REVIEWED"
+    },
+    {
+      "grammar_key": "A13",
+      "grammar_id": "d46e4c1d-f809-43eb-a867-f9a3220fb93a",
+      "pattern": "-기로 하다",
+      "item_key": "B46",
+      "example_id": "35328fc7-22b6-4220-91d0-ef914491538f",
+      "observed_form_ko": "듣기로 했어요",
+      "result": "AI_CONTEXT_REVIEWED"
+    },
+    {
+      "grammar_key": "A14",
+      "grammar_id": "6f229752-cc5f-4de7-b098-3e9f0c135bf9",
+      "pattern": "-(으)ㄹ까 하다（잠정 의도）",
+      "item_key": "B47",
+      "example_id": "ecb12df9-1ba9-4d78-9dbb-aefb4ef2c84b",
+      "observed_form_ko": "나가 볼까 해요",
+      "result": "AI_CONTEXT_REVIEWED"
+    },
+    {
+      "grammar_key": "A15",
+      "grammar_id": "d940b512-3a3a-4108-b561-fa33dfd93222",
+      "pattern": "-아/어야겠다",
+      "item_key": "B33",
+      "example_id": "09df48a9-d547-4630-b0b4-9707979525f4",
+      "observed_form_ko": "물어봐야겠어요",
+      "result": "AI_CONTEXT_REVIEWED"
+    },
+    {
+      "grammar_key": "A16",
+      "grammar_id": "71950d57-960d-45a6-a4e6-e492e4c01a50",
+      "pattern": "-(으)ㄹ까 봐",
+      "item_key": "B01",
+      "example_id": "ab5c091e-72cd-4450-b904-5943d87fce1a",
+      "observed_form_ko": "길을 잃을까 봐",
+      "result": "AI_CONTEXT_REVIEWED"
+    },
+    {
+      "grammar_key": "A17",
+      "grammar_id": "4310e69f-27bc-49bb-92a3-08f592427316",
+      "pattern": "-다 보면",
+      "item_key": "B28",
+      "example_id": "3793717f-a5fa-4bc1-aebe-6867aca82b31",
+      "observed_form_ko": "기록하다 보면",
+      "result": "AI_CONTEXT_REVIEWED"
+    },
+    {
+      "grammar_key": "A18",
+      "grammar_id": "f527297e-94dd-472b-928e-7bc3900b2dae",
+      "pattern": "-(으)ㄹ 필요가 있다 / 없다",
+      "item_key": "B07",
+      "example_id": "966055c6-1c95-49d3-bf5e-85b1341a1e2a",
+      "observed_form_ko": "말할 필요가 없어요",
+      "result": "AI_CONTEXT_REVIEWED"
+    },
+    {
+      "grammar_key": "B01",
+      "grammar_id": "453d0f13-3727-4335-8f6a-ddff70f570ac",
+      "pattern": "-(으)ㄹ 때",
+      "item_key": "B07",
+      "example_id": "966055c6-1c95-49d3-bf5e-85b1341a1e2a",
+      "observed_form_ko": "속상할 때",
+      "result": "AI_CONTEXT_REVIEWED"
+    },
+    {
+      "grammar_key": "B02",
+      "grammar_id": "58303aa2-5451-40ec-8345-6b7cc14fa1aa",
+      "pattern": "-고 나서",
+      "item_key": "B24",
+      "example_id": "d747457d-2b02-4787-b5de-89613f0d2d16",
+      "observed_form_ko": "끝나고 나서",
+      "result": "AI_CONTEXT_REVIEWED"
+    },
+    {
+      "grammar_key": "B03",
+      "grammar_id": "971d0ccc-242f-464d-90e9-775c19b88c94",
+      "pattern": "-는 동안 / N 동안",
+      "item_key": "B05",
+      "example_id": "fc668a1c-2988-4fcb-8597-1ec860491106",
+      "observed_form_ko": "듣는 동안",
+      "result": "AI_CONTEXT_REVIEWED"
+    },
+    {
+      "grammar_key": "B04",
+      "grammar_id": "d41f1600-e5aa-40da-b23e-7c51a40d726b",
+      "pattern": "-자마자",
+      "item_key": "B31",
+      "example_id": "abc42122-2979-4ff4-a798-0272c4f19dc1",
+      "observed_form_ko": "나오자마자",
+      "result": "AI_CONTEXT_REVIEWED"
+    },
+    {
+      "grammar_key": "B05",
+      "grammar_id": "ec8a7395-00b1-494a-bada-a5f767a3e66e",
+      "pattern": "-다가（중단·전환）",
+      "item_key": "B32",
+      "example_id": "bcfc0a58-cdcc-4017-9d90-065dc2595f1a",
+      "observed_form_ko": "요리하다가",
+      "result": "AI_CONTEXT_REVIEWED"
+    },
+    {
+      "grammar_key": "B06",
+      "grammar_id": "172590f5-9c3c-4fd9-9196-f1811ac4880e",
+      "pattern": "-아/어 있다（결과 상태）",
+      "item_key": "B17",
+      "example_id": "9dca4e8c-23c3-4309-9147-33743fbd48e7",
+      "observed_form_ko": "잠겨 있어요",
+      "result": "AI_CONTEXT_REVIEWED"
+    },
+    {
+      "grammar_key": "B07",
+      "grammar_id": "d14e4b1a-a765-440b-b8fa-4ec1b97d0a40",
+      "pattern": "-(으)ㄴ/는데（배경·대조）",
+      "item_key": "B14",
+      "example_id": "1f9a9c63-3724-4c9f-b568-32265b4c7aa8",
+      "observed_form_ko": "들었는데",
+      "result": "AI_CONTEXT_REVIEWED"
+    },
+    {
+      "grammar_key": "B08",
+      "grammar_id": "f3e5c2de-6721-46ce-af18-1a5c458bcac8",
+      "pattern": "-아/어도（양보）",
+      "item_key": "B13",
+      "example_id": "3c1d8d31-92fb-412f-86bb-e66ee1bf61c0",
+      "observed_form_ko": "맞아도",
+      "result": "AI_CONTEXT_REVIEWED"
+    },
+    {
+      "grammar_key": "B09",
+      "grammar_id": "40f95bb3-8746-47cf-9a49-023cecc3345b",
+      "pattern": "-기는 하지만",
+      "item_key": "B03",
+      "example_id": "5dbb845c-3d2f-4021-8711-7c88874ab83f",
+      "observed_form_ko": "긴장되기는 하지만",
+      "result": "AI_CONTEXT_REVIEWED"
+    },
+    {
+      "grammar_key": "B10",
+      "grammar_id": "74fbc968-1127-454f-9097-d1917f7094a8",
+      "pattern": "N(이)라도（차선·최소 선택）",
+      "item_key": "B10",
+      "example_id": "cf0d5e54-ea48-4a20-bdd4-5f389053c3d1",
+      "observed_form_ko": "삼십 분이라도",
+      "result": "AI_CONTEXT_REVIEWED"
+    },
+    {
+      "grammar_key": "B11",
+      "grammar_id": "11d06a0a-c142-4856-815d-e63d0158c8dd",
+      "pattern": "-더니（관찰·변화）",
+      "item_key": "B19",
+      "example_id": "7ba653f6-ec66-48d7-8806-072a9786fed4",
+      "observed_form_ko": "멈추더니",
+      "result": "AI_CONTEXT_REVIEWED"
+    },
+    {
+      "grammar_key": "B12",
+      "grammar_id": "f65f7148-511f-4c51-9472-7ba0dd29957d",
+      "pattern": "-았/었더니（경험·발견）",
+      "item_key": "B29",
+      "example_id": "6f529367-7d85-45ff-80c2-5f6c7f74e07b",
+      "observed_form_ko": "보냈더니",
+      "result": "AI_CONTEXT_REVIEWED"
+    },
+    {
+      "grammar_key": "B13",
+      "grammar_id": "17659b43-e2b7-4290-91b8-82446e05f9cb",
+      "pattern": "-다 보니(까)",
+      "item_key": "B28",
+      "example_id": "3793717f-a5fa-4bc1-aebe-6867aca82b31",
+      "observed_form_ko": "적다 보니",
+      "result": "AI_CONTEXT_REVIEWED"
+    },
+    {
+      "grammar_key": "B14",
+      "grammar_id": "894c1244-bc9d-4a06-95bd-dff4f3c2cbb1",
+      "pattern": "-(으)ㄹ 뻔하다",
+      "item_key": "B04",
+      "example_id": "8d79eab1-1ba0-487f-922a-2cc09a0acb6e",
+      "observed_form_ko": "내릴 뻔했어요",
+      "result": "AI_CONTEXT_REVIEWED"
+    },
+    {
+      "grammar_key": "B15",
+      "grammar_id": "54eb6883-e365-406c-9568-7078e72c0b10",
+      "pattern": "-고 나서야 / -(으)ㄴ 뒤에야",
+      "item_key": "B25",
+      "example_id": "77e1e9c3-2d7e-44d6-a2bd-e81d0c213374",
+      "observed_form_ko": "켜고 나서야",
+      "result": "AI_CONTEXT_REVIEWED"
+    },
+    {
+      "grammar_key": "B16",
+      "grammar_id": "35a30485-766a-4146-aad0-88646020e192",
+      "pattern": "-(으)ㄴ/는 편이다",
+      "item_key": "B08",
+      "example_id": "4a3f3f15-7755-4bac-aff8-5053ff16bf82",
+      "observed_form_ko": "불안해지는 편이에요",
+      "result": "AI_CONTEXT_REVIEWED"
+    },
+    {
+      "grammar_key": "B17",
+      "grammar_id": "782eb56e-972c-4c6e-81a7-911d094caac1",
+      "pattern": "-는 대신(에) / N 대신(에)",
+      "item_key": "B09",
+      "example_id": "deb37da7-20db-479a-bb62-81273a828bc7",
+      "observed_form_ko": "모이는 대신",
+      "result": "AI_CONTEXT_REVIEWED"
+    },
+    {
+      "grammar_key": "B18",
+      "grammar_id": "754881ff-3e7d-4743-8de8-ab6f63b1a9a4",
+      "pattern": "-는 김에",
+      "item_key": "B35",
+      "example_id": "fceeda08-c328-4983-ad4e-eb1827e8a9ed",
+      "observed_form_ko": "고치는 김에",
+      "result": "AI_CONTEXT_REVIEWED"
+    },
+    {
+      "grammar_key": "C01",
+      "grammar_id": "31239c2c-43e2-4c94-8db8-e3777ef8cc10",
+      "pattern": "-는 / -(으)ㄴ / -(으)ㄹ + N（관형형）",
+      "item_key": "B11",
+      "example_id": "5708e45f-e875-4fa1-a612-2c0470623186",
+      "observed_form_ko": "써 보지 않은 방법",
+      "result": "AI_CONTEXT_REVIEWED"
+    },
+    {
+      "grammar_key": "C02",
+      "grammar_id": "3213bc29-b278-4331-8a9d-383e0101653b",
+      "pattern": "-는 것 / -(으)ㄴ 것 / -(으)ㄹ 것（명사화）",
+      "item_key": "B13",
+      "example_id": "3c1d8d31-92fb-412f-86bb-e66ee1bf61c0",
+      "observed_form_ko": "실수한 것을",
+      "result": "AI_CONTEXT_REVIEWED"
+    },
+    {
+      "grammar_key": "C03",
+      "grammar_id": "c02c5bd8-8dc1-4e6c-ab6d-d756ddd32c6f",
+      "pattern": "-나 보다 / -(으)ㄴ가 보다（추론）",
+      "item_key": "B17",
+      "example_id": "9dca4e8c-23c3-4309-9147-33743fbd48e7",
+      "observed_form_ko": "닫았나 봐요",
+      "result": "AI_CONTEXT_REVIEWED"
+    },
+    {
+      "grammar_key": "C04",
+      "grammar_id": "445b7ded-b9dc-434e-b8fb-7ed4d253bc64",
+      "pattern": "-(으)ㄹ지도 모르다",
+      "item_key": "B18",
+      "example_id": "e233db05-8090-4bdc-a365-bd5e28bcde71",
+      "observed_form_ko": "막힐지도 몰라요",
+      "result": "AI_CONTEXT_REVIEWED"
+    },
+    {
+      "grammar_key": "C05",
+      "grammar_id": "2a7b0e46-86f5-49fa-ac87-de9e3de87e3a",
+      "pattern": "-는지 / -(으)ㄴ지 / -(으)ㄹ지 알다·모르다",
+      "item_key": "B11",
+      "example_id": "5708e45f-e875-4fa1-a612-2c0470623186",
+      "observed_form_ko": "좋은지 나쁜지 모르겠어요",
+      "result": "AI_CONTEXT_REVIEWED"
+    },
+    {
+      "grammar_key": "C06",
+      "grammar_id": "e4d0935d-a2ae-4207-8583-bcb93de194bd",
+      "pattern": "-(ㄴ/는)다고 / -다고 / N(이)라고 하다（평서 인용）",
+      "item_key": "B06",
+      "example_id": "69d006d7-eeaf-4e5d-8ef6-09a26ccc1fbc",
+      "observed_form_ko": "붙었다고 했어요",
+      "result": "AI_CONTEXT_REVIEWED"
+    },
+    {
+      "grammar_key": "C07",
+      "grammar_id": "2d9cbb5e-ac05-4cbc-a52b-975c19d77210",
+      "pattern": "-(ㄴ/는)다는 / -다는 / N(이)라는 + N（인용 수식）",
+      "item_key": "B14",
+      "example_id": "1f9a9c63-3724-4c9f-b568-32265b4c7aa8",
+      "observed_form_ko": "오른다는 이야기",
+      "result": "AI_CONTEXT_REVIEWED"
+    },
+    {
+      "grammar_key": "C08",
+      "grammar_id": "600d5cb2-aad4-414b-893a-3bb1f970909f",
+      "pattern": "-(으)라고 / -지 말라고 하다（명령·요청 인용）",
+      "item_key": "B30",
+      "example_id": "b4740ba0-19bb-405f-bd2b-6cc1070113cc",
+      "observed_form_ko": "들어가지 말라고",
+      "result": "AI_CONTEXT_REVIEWED"
+    },
+    {
+      "grammar_key": "C09",
+      "grammar_id": "29c75088-07da-46d2-ac0b-495e520234ad",
+      "pattern": "-자고 / -지 말자고 하다（권유 인용）",
+      "item_key": "B09",
+      "example_id": "deb37da7-20db-479a-bb62-81273a828bc7",
+      "observed_form_ko": "참여하자고",
+      "result": "AI_CONTEXT_REVIEWED"
+    },
+    {
+      "grammar_key": "C10",
+      "grammar_id": "bd26d280-1967-4d90-81f5-95b3c2e3db59",
+      "pattern": "-(느)냐고 / -(으)냐고 / N(이)냐고 묻다（의문 인용）",
+      "item_key": "B53",
+      "example_id": "ce092019-2771-4cfa-a5be-9be8fdaf29ac",
+      "observed_form_ko": "싶냐고 물어서",
+      "result": "AI_CONTEXT_REVIEWED"
+    },
+    {
+      "grammar_key": "C11",
+      "grammar_id": "f0acd94a-696c-4cbe-8d11-df2f2ea31f08",
+      "pattern": "-아/어 달라고 / -아/어 주라고 하다（수혜자）",
+      "item_key": "B06",
+      "example_id": "69d006d7-eeaf-4e5d-8ef6-09a26ccc1fbc",
+      "observed_form_ko": "전해 달라고",
+      "result": "AI_CONTEXT_REVIEWED"
+    },
+    {
+      "grammar_key": "C12",
+      "grammar_id": "68c3a2a7-5f4e-4236-9474-380202f6bbeb",
+      "pattern": "-(으)ㄹ까요?（제안·의견 묻기）",
+      "item_key": "B10",
+      "example_id": "cf0d5e54-ea48-4a20-bdd4-5f389053c3d1",
+      "observed_form_ko": "정리할까요",
+      "result": "AI_CONTEXT_REVIEWED"
+    },
+    {
+      "grammar_key": "C13",
+      "grammar_id": "c931b72d-27f5-446c-ab2f-d85c4b46b4b9",
+      "pattern": "-(으)ㄹ래요（의향·선택）",
+      "item_key": "B12",
+      "example_id": "5e39b48c-6d54-4dd2-838a-ac3a4d5a3094",
+      "observed_form_ko": "참여할래요",
+      "result": "AI_CONTEXT_REVIEWED"
+    },
+    {
+      "grammar_key": "C14",
+      "grammar_id": "b3c47e9e-b16e-4feb-bb5c-4cc4e49b5bf3",
+      "pattern": "-아/어 줄래요? / -아/어 주실래요?（부탁）",
+      "item_key": "B15",
+      "example_id": "f911d313-7809-4430-8087-6d4eeca2fa95",
+      "observed_form_ko": "읽어 주실래요",
+      "result": "AI_CONTEXT_REVIEWED"
+    },
+    {
+      "grammar_key": "C15",
+      "grammar_id": "0b6da528-99a6-4f2f-8708-686b052e3213",
+      "pattern": "-(으)ㄹ게요（약속·응답）",
+      "item_key": "B03",
+      "example_id": "5dbb845c-3d2f-4021-8711-7c88874ab83f",
+      "observed_form_ko": "말해 볼게요",
+      "result": "AI_CONTEXT_REVIEWED"
+    },
+    {
+      "grammar_key": "C16",
+      "grammar_id": "f5fae1c3-9c30-4fe3-a9ed-6936aed2183a",
+      "pattern": "-지요 / -죠（공유·확인）",
+      "item_key": "B16",
+      "example_id": "3217c93b-3911-4020-af3f-5d0c2aef99b2",
+      "observed_form_ko": "써야겠지요",
+      "result": "AI_CONTEXT_REVIEWED"
+    },
+    {
+      "grammar_key": "C17",
+      "grammar_id": "7d214986-8d9d-4f84-9af5-de0234f136d5",
+      "pattern": "-(으)ㄹ수록",
+      "item_key": "B08",
+      "example_id": "4a3f3f15-7755-4bac-aff8-5053ff16bf82",
+      "observed_form_ko": "많을수록",
+      "result": "AI_CONTEXT_REVIEWED"
+    },
+    {
+      "grammar_key": "C18",
+      "grammar_id": "34a56baf-0b84-4263-ab82-14942a47beca",
+      "pattern": "-네요（새로운 인식·반응）",
+      "item_key": "B01",
+      "example_id": "ab5c091e-72cd-4450-b904-5943d87fce1a",
+      "observed_form_ko": "놓이네요",
+      "result": "AI_CONTEXT_REVIEWED"
+    }
+  ]
+}
