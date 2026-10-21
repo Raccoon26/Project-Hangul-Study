@@ -205,3 +205,38 @@ AI 자체 검수이며 독립 원어민·교사/전수 외부사전·실제 TTS 
 ### 3.6 Git/PR 전달 기록
 
 검증한 콘텐츠/원고/검사/기록 commit `2c9fd5d7d7a0bc611f6105fdf2ec307160962e0b`를 `codex/data10-3-listening-batch-b`로 정상 push했고 [PR #20](https://github.com/Raccoon26/Project-Hangul-Study/pull/20)을 생성했다. GitHub 조회상 MERGEABLE, statusCheckRollup=[]이며 `gh pr checks --required`는 no checks reported(exit1)였다. 원격 CI PASS로 표현하지 않고 로컬382 PASS만 실행 근거로 삼는다. 보호 메타403을 우회하거나 admin/force merge하지 않으며 정상 server merge로 전달한다. 이 보충은 문서만 바꾸고 검증한 입력은 불변이다. 최종 merge SHA·상태·main=origin/main/clean 여부는 해당 PR/Git과 최종 응답이 기준이다. 다음 환경은 fetch로 최신 main을 받아 DATA10_PROGRESS §3와 남은 native/사람 gate를 먼저 확인한다.
+
+
+## 4. DATA-10-4 / 最終 Listening Batch C (2026-10-21 JST)
+
+### 4.1 시작 상태·실제 목표 대조
+
+Cloud main/origin/main `a9ec0a450e1c40e0bd3b608ec2059499c27e762e`(PR20)을 fetch해 일치·clean/미커밋0을 확인했다. origin/gh Raccoon26·ADMIN/default main을 확인했고 `codex/data10-4-listening-batch-c`에서 작업했다. A60/120+B60/120의 실제 원문120/문제240, Content26의 Source/DB와 과거 기록을 대조했다. 원본26을 byte 그대로 source.gz/SQLite fixture에 보존하고 writer26 재현을 선행했다.
+
+마지막 C60원문/120문제(내용이해60/받아쓰기60), 학교안내·직장안내·설명·비교·문제해결·의도 각10/20. 전체 **신규180원문/360문제**로 목표150~250/300~500을 충족한다. Content24 대비 새 Example180/Listening360/Question360 ID집합과 A/B/C 고정manifest의 일치를 확인했고 기존 듣기1,936/예문·추가참조·선택지·내부문장 중복 계산0이다.
+
+### 4.2 승인 원본·배치·음성
+
+Content27/Schema4/reader7/UserProgress10. 전체 V2,287/M2,420/E4,993/G96/Q3,913/L2,296/content_items16,841/Course8/Lesson103. Listening 入門34/初級79/初中級2,183, 전체 유형 meaning50/korean39/dictation2,000/comprehension207. 새 learning_order2300~2419(batch115~120)의6구간 각20문제로 실제 SQL 목록에서 도달했다. 기존 순서/부분구간/UserProgress·B session snapshot/SRS due/설정 opaque행을 보존했다. source 두유형은3구간 차이며 원문 단위 SRS 자동 병합을 구현하지 않았다.
+
+신규120·전체2,296은 단일화자TTS/검증녹음0. 다화자 재생 가장0. prompt_ko=null, result 뒤 Transcript/번역/해설 생성. Dictation accepted는 원문1개씩, 끝 .!? 생략만 허용하며 내부부호/철자오류와 spacing warning을 구별한다. 기존 채점/일반입력·광고/구매·진도 런타임 변경0.
+
+### 4.3 실제 검수·발견·수정
+
+전60한국어/60일본어/120질문·해설·정답/180선택지/60accepted를 AI가 별도 재독했다. 한일 조사·활용·띄어쓰기·높임/시제/부정·범위·화자의도와 오답의 타당성을 대조했다. 후보 중133편집 이벤트/114고유필드를 교정했으며 Production133버그라는 뜻이 아니다. C09파일명 지시대상, 요청형/미수록 보조표현 단순화, C05/C23의 의미중복·부자연스러운 오답을 수정했다. 첫 후보8PASS/1FAIL 이후 정답근거 인용문 잔존을 전수 검색해 **C20/C49/C54 세 건**을 고쳤고 prepare의 literal근거/구별 선택지 gate를 보강했다. 승인 전 기존 Production 변경0·UUID 재발급0. 초기도구의 version assertion/어휘컬럼 오류도 수정했으며 초기 실패를 PASS로 기록하지 않는다.
+
+기존4,933예문과 Batch내 완전중복0. 근접180후보를 실제 재독하고 공통어구와 새 문맥을 구분했다. 원문은2문장/38~63자/평균48.9자. 기존Grammar40개에 대한60선택참조·Vocabulary literal receipt를 남겼지만 lexical-only2/변형·확장3개를 구분했고 모든 토큰/부수문형의 선행 숙달을 인증하지 않는다. 원래163건120해결/7조건부/36미해결(Level8포함)과 Grammar ID/revision/관계 불변. 독립 원어민/교사·전수 외부사전·실제TTS 검청은 **NOT TESTED**다.
+
+[전수 payload](Docs/DATA10_C_ITEMS.md), [AI검수](Docs/DATA10_C_SELF_REVIEW.json), [교정](Docs/DATA10_C_EDITORIAL_CORRECTIONS.json), [중복](Docs/DATA10_C_SIMILARITY.json), [선행/한계](Docs/DATA10_C_PREREQUISITES.json), [전체보고](Docs/DATA10_C_REVIEW.md).
+
+### 4.4 검사·보존·잔여 gate
+
+후보 첫9개8PASS/1FAIL(17.332초), 두 번째도1FAIL(18.016초,쓰기 전 중단으로 수정 미반영), 세 번째9PASS(17.383초), 최종 선택지 다듬기 후9/9PASS(18.145초). 초기 로그를 보존한다. 최종 portable **391/391 PASS (466.416초, failures/errors/skipped0, exit0)**. Source25테이블69,787행/31테이블 전체행·schema/index/byte SHA 재현 일치, strict previous26 오류0/기존경고10·integrity ok/FK0. 기존16,541개 fingerprint/ID/revision/payload/order/membership 및103기존파일 byte 보존, 신규300UUID/기존revision변경0.
+
+Source SHA `88e9599648182e2fd4372eecb738da60321913632cae32e0e25922048f5aef8b`, Bundle/재구성 SHA `a937df17bfb88b69504811048c2660086af174dc7633d04f852a3ce10236b48c`. 재구성 불일치0. B25→26 정확한 gate를 frozen26으로 고정했다. 신규C portable9개/실제 native1개를 추가했으며 native는 현재144정의·실행0/BLOCKED. 후보/별도검사를 전체 고유 수에 중복 가산하지 않는다. [결과](Docs/DATA10_C_TEST_RESULTS.json), [원시 전체로그](Docs/DATA10_C_PORTABLE_TEST_LOG.txt), [수량/보존](Docs/DATA10_C_COUNTS.json).
+
+SQLiteListening bounded warm120조회/2,400행 median0.294ms/max12.188ms. Python/SQL로 실제 iPhone cold실행·RAM·음성·3~10분·저장/Resume를 검증한 것은 아니다. 현재Cloud Xcode/Swift없음·iOS Build BLOCKED, 이전Mac142실행137PASS/5FAIL(활용P1·cold Purchase cache·cohort/course 가정) 미해결 유지. 독립 사람/TTS·기기Offline/VoiceOver·광고/StoreKit 실제 권한 gate는 남고 **Release B—Conditional**이다. 이번 런타임 수정0/기존 gate 해결0.
+
+### 4.5 Git 전달
+
+일반 commit/push·main대상PR·필수 checks/mergeability 확인·정상merge 후 fetch/ff-only하여 main=origin/main 전체SHA와clean을 확인한다. Force Push/원본삭제/이력재작성0. 접근 가능한1,028blob과 현재파일 모두50/100MiB초과0·현재최대20,025,344bytes로 LFS는 불필요하다. main protection 조회403은 보호없음으로 해석하지 않으며 rulesets=[]/Actions workflows0은 CI PASS가 아니다. 최종 PR·merge SHA는 Git/PR과 최종 응답이 기준이다. 이번 마지막 Batch에서 종료하고 후속 단계는 자동 시작하지 않는다.

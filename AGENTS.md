@@ -11,6 +11,15 @@
 - force push, 파괴적 reset/clean, 이력 재작성, 기존 Production/fixture 삭제, 데이터 축소를 통한 전달 우회를 금지한다. Xcode/Simulator 유무는 환경별로 다시 확인한다. Cloud portable PASS를 Mac native PASS로 바꾸지 않으며 설치되지 않은 native/실기기 gate는 BLOCKED로 유지한다.
 - Python/SQLite 버전과 `PRAGMA compile_options`도 확인한다. DATA10-1 당시 배포24는 SQLite3.53.1의31테이블이다. Mac SQLite3.44.0의 ENABLE_STAT4 재구성은 같은31테이블의 행이 일치해도 추가 sqlite_stat4 때문에32테이블·SHA가 다르다(`Docs/DATA10_REBUILD_COMPARISON.json`). 이를 byte-exact PASS로 표시하거나 시스템 통계 테이블을 임의 삭제/검사 완화해 맞추지 않는다. 임시 재구성만 비교하고 Production을 보존하며, 실제 후속 배포 전 동일 writer 버전/compile profile의 재현 환경을 확인한다.
 
+## DATA-10-4 最終 Listening Batch C 현재 기준
+
+- 명시 요청으로 Content27/Schema4/reader7/UserProgress10, C 신규60원문/120문제(내용60/받아쓰기60)를 반영했다. 학교·직장 안내/설명/비교/문제해결/의도 각10원문. DATA10 A/B/C 누적180원문/360문제는 Content24 대비 실제 새ID와 대조했고 전체 목표150~250/300~500을 충족한다. 기존1,936듣기/예문/추가참조/선택지를 원문으로 중복 계산하지 않는다. 이 Batch에서 종료한다.
+- 현재 E4,993/L2,296/Q3,913/V2,287/G96. 실제 직전26 source.gz/DB fixture와103과거파일 byte 보존, 기존16,541개 fingerprint/ID/revision/order/membership 불변·신규300UUID·기존revision승인목록[]이다. A/B exact gate는25/26 fixture로 고정하고 C26→27 gate가 전체 보존을 검사한다. prepare_data10_c는 고정26→27만 재현하며 후속 Source를 덮어쓰는 importer가 아니다. 다음 실제 변경은 현재27을 먼저 보존한다.
+- 새 learning_order2300~2419(batch115~120), 각20문항/같은 source 두유형3구간 차이. 기존 부분구간/진행중 snapshot을 재작성하지 않는다. source별 SRS 병합·새 주제 UI를 구현한 것이 아니다. 원문은2문장/38~63자이고 실제3~10분 측정은 남는다.
+- 전단일화자TTS/녹음0·실제검청 NOT TESTED. prompt_ko=null/result 이후 Transcript, accepted 정확한원문1개·끝 .!? 생략/문중부호·철자/spacing 구분·일반입력 불변을 지킨다. 다화자 실녹음·재생을 가장하지 않는다.
+- 최신 DATA10_PROGRESS §4 / Docs/DATA10_C_*에 AI 한일/문항 전수·근접180쌍·133편집이벤트/114고유필드·후보 인용문3건 교정과 초기 실패를 기록했다. Grammar40개/선택참조60은 lexical-only/변형5행의 한계를 포함하며 모든 선행 숙달·54문형 강제재사용·163후보 일괄해결로 해석하지 않는다. 독립 사람/교사·TTS NOT TESTED 유지.
+- 최종 portable 391/391 PASS (466.416초, failures/errors/skipped0, exit0), Source69,787행/31테이블·SHA 재현은 iOS 실행이 아니다. Cloud Xcode/Swift 없음·Build/144 XCTest실행0 BLOCKED, 이전Mac142실행137PASS/5FAIL·활용P1/구매cache·기기검증 gate 및 Release B—Conditional을 유지한다. 다음 환경은 fetch/main동기화 후 실제 native 결과로만 갱신한다.
+
 ## DATA-10-3 Listening Batch B 현재 기준
 
 - 명시 요청으로 Content26/Schema4/reader7/UserProgress10에 신규 상황60개·내용이해60/받아쓰기60을 반영했다. 감정8/의견8/판단7/이유7/결과7/경험8/계획8/의견차이7이며 DATA10 누적120원문/240문제다. 전체 목표150~250/300~500을 유지한다. 다음 Batch는 자동 시작하지 않는다.

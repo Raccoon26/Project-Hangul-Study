@@ -7,18 +7,22 @@ from prepare_data10_b import prepare,BASE_SHA
 from validator import signatures,ValidationError
 from test_data05_content import query
 from test_lookup_sql import user
-SOURCE=Path(os.environ.get('DATA10_B_SOURCE',ROOT/'Content/production.json'))
-BUNDLE=Path(os.environ.get('DATA10_B_BUNDLE',ROOT/'Resources/content.sqlite'))
+SOURCE=Path(os.environ.get('DATA10_B_SOURCE',ROOT/'Tests/Fixtures/content-v26-production.json.gz'))
+BUNDLE=Path(os.environ.get('DATA10_B_BUNDLE',ROOT/'Tests/Fixtures/content-v26-production.sqlite'))
 norm=lambda s:' '.join(unicodedata.normalize('NFC',s).split())
 compact=lambda s:''.join(norm(s).split()).rstrip('.!?')
 
 class Data10BTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
+        global SOURCE
+        cls.released_source=tempfile.TemporaryDirectory()
+        if SOURCE.suffix=='.gz':
+            raw=gzip.decompress(SOURCE.read_bytes());SOURCE=Path(cls.released_source.name)/'content26.json';SOURCE.write_bytes(raw)
         cls.source=json.loads(SOURCE.read_text());cls.t=cls.source['tables'];cls.items=json.loads((ROOT/'Content/data10-b-authoring.json').read_text())['items']
         cls.db=sqlite3.connect(BUNDLE);cls.old=sqlite3.connect(ROOT/'Tests/Fixtures/content-v25-production.sqlite')
     @classmethod
-    def tearDownClass(cls):cls.db.close();cls.old.close()
+    def tearDownClass(cls):cls.db.close();cls.old.close();cls.released_source.cleanup()
 
     def test_frozen25_and_deterministic26_strict_reconstruction(self):
         self.assertEqual(hashlib.sha256(gzip.decompress((ROOT/'Tests/Fixtures/content-v25-production.json.gz').read_bytes())).hexdigest(),BASE_SHA)

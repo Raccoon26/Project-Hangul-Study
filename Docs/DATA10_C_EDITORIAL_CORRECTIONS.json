@@ -1,0 +1,1537 @@
+{
+  "scope": "Separate AI reread of authored draft, not independent human review",
+  "corrections": [
+    {
+      "key": "C09",
+      "field": "korean",
+      "before": "과제 파일의 이름에는 반과 번호를 써 주세요. 이름이 없으면 누구의 과제인지 확인하기 어렵습니다.",
+      "after": "과제 파일의 이름에는 반과 번호를 써 주세요. 반과 번호가 없으면 누구의 과제인지 확인하기 어렵습니다.",
+      "reason": "AI separate Korean/Japanese/prerequisite/answer reread; not independent human approval"
+    },
+    {
+      "key": "C09",
+      "field": "japanese",
+      "before": "課題ファイルの名前にはクラスと出席番号を書いてください。ファイル名が付いていないと誰の課題か確認するのが難しいです。",
+      "after": "課題ファイルの名前にはクラスと出席番号を書いてください。クラスと番号がないと誰の課題か確認するのが難しいです。",
+      "reason": "AI separate Korean/Japanese/prerequisite/answer reread; not independent human approval"
+    },
+    {
+      "key": "C12",
+      "field": "korean",
+      "before": "내일 아침에는 건물 입구를 청소합니다. 출근하실 때 옆문을 이용해 주시겠어요?",
+      "after": "내일 아침에는 건물 입구를 청소합니다. 출근하실 때 옆문을 이용해 주실래요?",
+      "reason": "AI separate Korean/Japanese/prerequisite/answer reread; not independent human approval"
+    },
+    {
+      "key": "C12",
+      "field": "comprehension.correct_evidence_ko",
+      "before": "옆문을 이용해 주시겠어요",
+      "after": "옆문을 이용해 주실래요",
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C12",
+      "field": "learning_point_ja",
+      "before": "「-아 주시겠어요?」は丁寧な依頼。清掃の担当を頼んでいるのではありません。",
+      "after": "「-아 주실래요?」は丁寧な依頼。清掃の担当を頼んでいるのではありません。",
+      "reason": "AI separate Korean/Japanese/prerequisite/answer reread; not independent human approval"
+    },
+    {
+      "key": "C21",
+      "field": "korean",
+      "before": "이 문은 손잡이를 당겨야 열려요. 미는 문인 줄 알고 계속 밀었네요.",
+      "after": "이 문은 손잡이를 당겨야 열려요. 미는 문이 아닌데 제가 계속 밀었네요.",
+      "reason": "AI separate Korean/Japanese/prerequisite/answer reread; not independent human approval"
+    },
+    {
+      "key": "C21",
+      "field": "japanese",
+      "before": "このドアは取っ手を引かないと開きません。押して開けるドアだと思って、ずっと押していました。",
+      "after": "このドアは取っ手を引かないと開きません。押して開けるドアではないのに、私はずっと押していましたね。",
+      "reason": "AI separate Korean/Japanese/prerequisite/answer reread; not independent human approval"
+    },
+    {
+      "key": "C24",
+      "field": "korean",
+      "before": "빨간 불이 켜져 있는 동안에는 문을 열지 마세요. 불이 꺼지고 나면 안에 있는 물건을 꺼내도 됩니다.",
+      "after": "빨간 불이 켜져 있는 동안에는 문을 열지 마세요. 불이 꺼지면 안에 있는 물건을 꺼내도 됩니다.",
+      "reason": "AI separate Korean/Japanese/prerequisite/answer reread; not independent human approval"
+    },
+    {
+      "key": "C24",
+      "field": "comprehension.correct_evidence_ko",
+      "before": "불이 꺼지고 나면",
+      "after": "불이 꺼지면",
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C34",
+      "field": "korean",
+      "before": "작은 가방은 가볍기는 하지만 책이 다 안 들어가요. 무겁더라도 큰 가방을 가져가는 게 낫겠어요.",
+      "after": "작은 가방은 가볍기는 하지만 책이 다 안 들어가요. 무거워도 큰 가방을 가져가는 게 낫겠어요.",
+      "reason": "AI separate Korean/Japanese/prerequisite/answer reread; not independent human approval"
+    },
+    {
+      "key": "C38",
+      "field": "korean",
+      "before": "첫 번째 길은 짧지만 계단이 많아요. 짐이 무거우니 조금 돌아가더라도 두 번째 길로 가죠.",
+      "after": "첫 번째 길은 짧지만 계단이 많아요. 짐이 무거우니 조금 돌아가도 두 번째 길로 가죠.",
+      "reason": "AI separate Korean/Japanese/prerequisite/answer reread; not independent human approval"
+    },
+    {
+      "key": "C45",
+      "field": "korean",
+      "before": "책장 뒤로 카드가 떨어졌어요. 책장을 혼자 움직이기보다는 긴 자로 꺼내 보는 게 안전하겠어요.",
+      "after": "책장 뒤로 카드가 떨어졌어요. 책장을 혼자 옮기는 대신 긴 자로 꺼내 보는 게 안전하겠어요.",
+      "reason": "AI separate Korean/Japanese/prerequisite/answer reread; not independent human approval"
+    },
+    {
+      "key": "C45",
+      "field": "japanese",
+      "before": "カードが本棚の後ろに落ちました。一人で本棚を動かすより、長い定規で取り出してみるほうが安全そうです。",
+      "after": "カードが本棚の後ろに落ちました。一人で本棚を動かす代わりに、長い定規で取り出してみるほうが安全そうです。",
+      "reason": "AI separate Korean/Japanese/prerequisite/answer reread; not independent human approval"
+    },
+    {
+      "key": "C45",
+      "field": "learning_point_ja",
+      "before": "「-기보다는」は二つの行動の比較。安全に取り出す方法の提案です。",
+      "after": "「-는 대신」は一つの行動を別の行動に替えること。安全に取り出す方法の提案です。",
+      "reason": "AI separate Korean/Japanese/prerequisite/answer reread; not independent human approval"
+    },
+    {
+      "key": "C54",
+      "field": "korean",
+      "before": "오늘은 결정을 내리기보다 의견을 듣고 싶어요. 다른 생각이 있으면 편하게 말씀해 주세요.",
+      "after": "오늘은 바로 결정하지 않고 의견부터 듣고 싶어요. 다른 생각이 있으면 편하게 말씀해 주세요.",
+      "reason": "AI separate Korean/Japanese/prerequisite/answer reread; not independent human approval"
+    },
+    {
+      "key": "C54",
+      "field": "japanese",
+      "before": "今日は決定を下すよりも意見を聞きたいです。別の考えがあれば気軽にお話しください。",
+      "after": "今日はすぐに決めず、まず意見を聞きたいです。別の考えがあれば気軽にお話しください。",
+      "reason": "AI separate Korean/Japanese/prerequisite/answer reread; not independent human approval"
+    },
+    {
+      "key": "C54",
+      "field": "learning_point_ja",
+      "before": "「결정을 내리다」は決定すること。即決より幅広い意見を求める意図です。",
+      "after": "「의견부터」はまず意見を聞くこと。即決より幅広い意見を求める意図です。",
+      "reason": "AI separate Korean/Japanese/prerequisite/answer reread; not independent human approval"
+    },
+    {
+      "key": "C58",
+      "field": "korean",
+      "before": "자료를 전부 읽으라는 뜻은 아니에요. 표시해 둔 부분만 확인해 주시면 돼요.",
+      "after": "자료를 전부 읽을 필요는 없어요. 표시해 둔 부분만 확인해 주시면 돼요.",
+      "reason": "AI separate Korean/Japanese/prerequisite/answer reread; not independent human approval"
+    },
+    {
+      "key": "C58",
+      "field": "japanese",
+      "before": "資料を全部読むという意味ではありません。印を付けておいた部分だけご確認いただければ大丈夫です。",
+      "after": "資料を全部読む必要はありません。印を付けておいた部分だけご確認いただければ大丈夫です。",
+      "reason": "AI separate Korean/Japanese/prerequisite/answer reread; not independent human approval"
+    },
+    {
+      "key": "C58",
+      "field": "learning_point_ja",
+      "before": "「-라는 뜻은 아니다」は指示の範囲の訂正。「-만」で確認箇所を絞ります。",
+      "after": "「-을 필요는 없다」は全部読む必要がないという意味。「-만」で確認箇所を絞ります。",
+      "reason": "AI separate Korean/Japanese/prerequisite/answer reread; not independent human approval"
+    },
+    {
+      "key": "C59",
+      "field": "korean",
+      "before": "제가 틀렸을 수도 있으니 함께 확인해 봐요. 누구의 잘못인지 따지려는 건 아니에요.",
+      "after": "제가 틀렸을지도 모르니까 함께 확인해 봐요. 누구의 잘못인지 따지려는 건 아니에요.",
+      "reason": "AI separate Korean/Japanese/prerequisite/answer reread; not independent human approval"
+    },
+    {
+      "key": "C01",
+      "field": "comprehension.distractors",
+      "before": [
+        "窓側の席",
+        "図書館の入口"
+      ],
+      "after": [
+        "窓側の席",
+        "入口近くの席"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C01",
+      "field": "comprehension.distractor_explanations_ja",
+      "before": [
+        "窓側は工事中で、案内先ではありません。",
+        "入口で勉強するようには言っていません。"
+      ],
+      "after": [
+        "窓側は工事中で、案内先ではありません。",
+        "奥ではなく入口側を選ぶのは案内と異なります。"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C03",
+      "field": "comprehension.distractors",
+      "before": [
+        "新しい図書カード",
+        "教室の鍵"
+      ],
+      "after": [
+        "新しい図書カード",
+        "新しい学生証だけ"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C03",
+      "field": "comprehension.distractor_explanations_ja",
+      "before": [
+        "図書カードの案内ではありません。",
+        "鍵を渡すとは言っていません。"
+      ],
+      "after": [
+        "図書カードの案内ではありません。",
+        "新しい学生証ができるまでの仮の入館証を聞いています。"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C05",
+      "field": "comprehension.distractors",
+      "before": [
+        "長ズボンとサンダルを着用する",
+        "サンダルを履かなければ、短パンでもよい"
+      ],
+      "after": [
+        "長ズボンとサンダルを着用する",
+        "長ズボンならサンダルでもよい"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C05",
+      "field": "comprehension.distractor_explanations_ja",
+      "before": [
+        "サンダルは禁止されています。",
+        "長ズボンの着用が必要です。"
+      ],
+      "after": [
+        "サンダルは禁止されています。",
+        "長ズボンに加え、サンダルを履かないことも必要です。"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C09",
+      "field": "comprehension.distractors",
+      "before": [
+        "ファイルを小さくするため",
+        "提出期限を延ばすため"
+      ],
+      "after": [
+        "ファイルを小さくするため",
+        "提出した順番を分かるようにするため"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C09",
+      "field": "comprehension.distractor_explanations_ja",
+      "before": [
+        "容量を減らす話ではありません。",
+        "期限の変更は述べていません。"
+      ],
+      "after": [
+        "容量を減らす話ではありません。",
+        "提出順ではなく、誰の課題かを確認するためです。"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C10",
+      "field": "comprehension.distractors",
+      "before": [
+        "次の日の授業の前",
+        "次のクラスの授業が終わった後"
+      ],
+      "after": [
+        "次の日の授業の前",
+        "次の授業が始まってから"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C10",
+      "field": "comprehension.distractor_explanations_ja",
+      "before": [
+        "翌日では次のクラスが使えません。",
+        "次のクラスが使う前に返す必要があります。"
+      ],
+      "after": [
+        "翌日では次のクラスが使えません。",
+        "次のクラスも使うので、今の授業の直後に返します。"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C11",
+      "field": "comprehension.distractors",
+      "before": [
+        "会議に参加する人全員",
+        "受付を通った来客全員"
+      ],
+      "after": [
+        "会議に参加する人全員",
+        "会議の予約をした人全員"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C11",
+      "field": "comprehension.distractor_explanations_ja",
+      "before": [
+        "参加者全員に貸し出すとは言っていません。",
+        "受付を通るだけでは借りられません。"
+      ],
+      "after": [
+        "参加者全員に貸し出すとは言っていません。",
+        "予約者全員ではなく担当職員だけです。"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C12",
+      "field": "comprehension.distractors",
+      "before": [
+        "入口を清掃すること",
+        "翌日は出勤しないこと"
+      ],
+      "after": [
+        "入口を清掃すること",
+        "正面入口で清掃が終わるまで待つこと"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C12",
+      "field": "comprehension.distractor_explanations_ja",
+      "before": [
+        "清掃を手伝う依頼ではありません。",
+        "出勤をやめるようには言っていません。"
+      ],
+      "after": [
+        "清掃を手伝う依頼ではありません。",
+        "待つのではなく横の入口を使う依頼です。"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C13",
+      "field": "comprehension.distractors",
+      "before": [
+        "印刷した会議資料",
+        "会議室の画面"
+      ],
+      "after": [
+        "印刷した会議資料",
+        "配布用に印刷した資料とメモ用の紙"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C13",
+      "field": "comprehension.distractor_explanations_ja",
+      "before": [
+        "資料は画面で見る予定です。",
+        "画面を持参する指示ではありません。"
+      ],
+      "after": [
+        "資料は画面で見る予定です。",
+        "持参するのはメモ用の紙だけで、資料は画面で見ます。"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C14",
+      "field": "comprehension.distractors",
+      "before": [
+        "商品を全部交換する",
+        "お客様から電話が来るまで何もしない"
+      ],
+      "after": [
+        "商品を全部交換する",
+        "変更前の住所にすぐ送る"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C14",
+      "field": "comprehension.distractor_explanations_ja",
+      "before": [
+        "交換の指示はありません。",
+        "担当者から確認の電話をする指示です。"
+      ],
+      "after": [
+        "交換の指示はありません。",
+        "発送前に住所を確認する必要があります。"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C15",
+      "field": "comprehension.distractors",
+      "before": [
+        "最初に出勤する人",
+        "窓を開けたお客様"
+      ],
+      "after": [
+        "最初に出勤する人",
+        "窓を最後に閉めた人"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C15",
+      "field": "comprehension.distractor_explanations_ja",
+      "before": [
+        "出勤時の話ではありません。",
+        "来客や開けた人に限定していません。"
+      ],
+      "after": [
+        "出勤時の話ではありません。",
+        "窓を閉めた人ではなく最後に退出する人です。"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C16",
+      "field": "comprehension.distractors",
+      "before": [
+        "新しい職員への倉庫の案内",
+        "倉庫の移動"
+      ],
+      "after": [
+        "新しい職員への倉庫の案内",
+        "新しい職員から注文を聞く"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C16",
+      "field": "comprehension.distractor_explanations_ja",
+      "before": [
+        "倉庫を案内するのは話し手です。",
+        "倉庫を移す話ではありません。"
+      ],
+      "after": [
+        "倉庫を案内するのは話し手です。",
+        "注文内容の確認を頼んでいます。新しい職員への案内は話し手が行います。"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C18",
+      "field": "comprehension.distractors",
+      "before": [
+        "一人ですぐに持ち上げる",
+        "箱をその場で開ける"
+      ],
+      "after": [
+        "一人ですぐに持ち上げる",
+        "重い箱を一人で急いで運ぶ"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C18",
+      "field": "comprehension.distractor_explanations_ja",
+      "before": [
+        "一人で持つことを止めています。",
+        "開封の指示はありません。"
+      ],
+      "after": [
+        "一人で持つことを止めています。",
+        "重いときは一人で持たないよう注意しています。"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C19",
+      "field": "comprehension.distractors",
+      "before": [
+        "会場",
+        "研修を受ける人"
+      ],
+      "after": [
+        "会場",
+        "研修の日付"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C19",
+      "field": "comprehension.distractor_explanations_ja",
+      "before": [
+        "場所はそのままです。",
+        "参加者の変更には触れていません。"
+      ],
+      "after": [
+        "場所はそのままです。",
+        "変更されたのは開始時刻で、日付変更は述べていません。"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C21",
+      "field": "comprehension.distractors",
+      "before": [
+        "ドアを押し続ける",
+        "取っ手を上に持ち上げる"
+      ],
+      "after": [
+        "ドアを押し続ける",
+        "押しながら取っ手を引く"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C21",
+      "field": "comprehension.distractor_explanations_ja",
+      "before": [
+        "押すのは話し手が勘違いしていた動作です。",
+        "持ち上げる操作は述べていません。"
+      ],
+      "after": [
+        "押すのは話し手が勘違いしていた動作です。",
+        "押す操作の追加ではなく、取っ手を引く必要があります。"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C22",
+      "field": "comprehension.distractors",
+      "before": [
+        "青い線",
+        "赤と青を合わせた線"
+      ],
+      "after": [
+        "青い線",
+        "青い線と赤い線の両方"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C22",
+      "field": "comprehension.distractor_explanations_ja",
+      "before": [
+        "青い線は去年の販売量です。",
+        "二つを合わせるとは言っていません。"
+      ],
+      "after": [
+        "青い線は去年の販売量です。",
+        "今年だけを示すのは赤い線で、青い線は去年です。"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C23",
+      "field": "comprehension.distractors",
+      "before": [
+        "基本表現だけの説明",
+        "本の使い方への質問"
+      ],
+      "after": [
+        "基本表現だけの説明",
+        "基本表現の説明"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C23",
+      "field": "comprehension.distractor_explanations_ja",
+      "before": [
+        "基本表現の説明は前半です。",
+        "質問が増えるとは述べていません。"
+      ],
+      "after": [
+        "基本表現の説明は前半です。",
+        "基本表現は前半で、後ろほど増えるのは会話例です。"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C27",
+      "field": "comprehension.distractors",
+      "before": [
+        "昼食代",
+        "参加費そのもの"
+      ],
+      "after": [
+        "昼食代",
+        "昼食代と交通費の両方"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C27",
+      "field": "comprehension.distractor_explanations_ja",
+      "before": [
+        "昼食代は参加費に含まれています。",
+        "参加費とは別の費用を聞いています。"
+      ],
+      "after": [
+        "昼食代は参加費に含まれています。",
+        "昼食代は参加費に含まれ、別払いなのは交通費です。"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C28",
+      "field": "comprehension.distractors",
+      "before": [
+        "最初のボタンを短く押す",
+        "画面を二回押す"
+      ],
+      "after": [
+        "最初のボタンを短く押す",
+        "横のボタンを短く押す"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C28",
+      "field": "comprehension.distractor_explanations_ja",
+      "before": [
+        "最初のボタンでは画面しか消えません。",
+        "画面を押す操作は説明していません。"
+      ],
+      "after": [
+        "最初のボタンでは画面しか消えません。",
+        "横のボタンは長く押す必要があります。"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C29",
+      "field": "comprehension.distractors",
+      "before": [
+        "商品を注文するため",
+        "商品の代金を払うため"
+      ],
+      "after": [
+        "商品を注文するため",
+        "商品の受け取りを確認するため"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C29",
+      "field": "comprehension.distractor_explanations_ja",
+      "before": [
+        "注文用の申込書ではないと言っています。",
+        "支払いのための書類ではありません。"
+      ],
+      "after": [
+        "注文用の申込書ではないと言っています。",
+        "商品の受け取りではなく出入りした人の確認です。"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C31",
+      "field": "comprehension.distractors",
+      "before": [
+        "課題も自習する部分も少ない",
+        "説明が詳しく、課題が多い"
+      ],
+      "after": [
+        "課題も自習する部分も少ない",
+        "課題は多いが、自習する部分は少ない"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C31",
+      "field": "comprehension.distractor_explanations_ja",
+      "before": [
+        "自習する部分は多いと言っています。",
+        "それは最初の講義の説明です。"
+      ],
+      "after": [
+        "自習する部分は多いと言っています。",
+        "もう一方の講義は課題が少なく、自習する部分が多いです。"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C32",
+      "field": "comprehension.distractors",
+      "before": [
+        "左より広いから",
+        "物を置けないから"
+      ],
+      "after": [
+        "左より広いから",
+        "引き出しがないから"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C32",
+      "field": "comprehension.distractor_explanations_ja",
+      "before": [
+        "右の机は少し狭いと述べています。",
+        "物を置けないとは言っていません。"
+      ],
+      "after": [
+        "右の机は少し狭いと述べています。",
+        "右の机は引き出しがあることが整理しやすい理由です。"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C33",
+      "field": "comprehension.distractors",
+      "before": [
+        "内容を変えなくてもよい",
+        "紙より必ず目立つ"
+      ],
+      "after": [
+        "内容を変えなくてもよい",
+        "紙より内容を直しにくい"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C33",
+      "field": "comprehension.distractor_explanations_ja",
+      "before": [
+        "変更不要とは述べていません。",
+        "目につきやすさは紙の特徴として述べています。"
+      ],
+      "after": [
+        "変更不要とは述べていません。",
+        "すぐに変更を載せられる点がインターネットの利点です。"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C34",
+      "field": "comprehension.distractors",
+      "before": [
+        "軽い小さいかばん",
+        "何も入れないかばん"
+      ],
+      "after": [
+        "軽い小さいかばん",
+        "本を入れず、小さいかばんを持つ"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C34",
+      "field": "comprehension.distractor_explanations_ja",
+      "before": [
+        "小さいかばんには本が全部入りません。",
+        "本を持っていく前提の比較です。"
+      ],
+      "after": [
+        "小さいかばんには本が全部入りません。",
+        "本を入れる必要があるため、大きいかばんを選ぼうとしています。"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C36",
+      "field": "comprehension.distractors",
+      "before": [
+        "軽い、あの靴",
+        "どちらも同じ程度に向いている"
+      ],
+      "after": [
+        "軽い、あの靴",
+        "どちらも雨の日には避けるべき"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C36",
+      "field": "comprehension.distractor_explanations_ja",
+      "before": [
+        "あの靴は雨の日には避けたほうがよいと言っています。",
+        "雨への適性に違いがある説明です。"
+      ],
+      "after": [
+        "あの靴は雨の日には避けたほうがよいと言っています。",
+        "この靴は雨でも水が入りにくいと説明しています。"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C37",
+      "field": "comprehension.distractors",
+      "before": [
+        "朝より人数が少ない",
+        "必ず質問の時間が長い"
+      ],
+      "after": [
+        "朝より人数が少ない",
+        "朝の授業より質問しやすい"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C37",
+      "field": "comprehension.distractor_explanations_ja",
+      "before": [
+        "夜の授業は人数が多いと述べています。",
+        "質問時間の長さには触れていません。"
+      ],
+      "after": [
+        "夜の授業は人数が多いと述べています。",
+        "質問しやすいのは人数の少ない朝の授業です。"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C38",
+      "field": "comprehension.distractors",
+      "before": [
+        "二つ目の道が最短だから",
+        "階段を上る練習がしたいから"
+      ],
+      "after": [
+        "二つ目の道が最短だから",
+        "二つ目の道のほうが短いから"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C38",
+      "field": "comprehension.distractor_explanations_ja",
+      "before": [
+        "短いのは一つ目で、二つ目は遠回りです。",
+        "階段の練習が目的ではありません。"
+      ],
+      "after": [
+        "短いのは一つ目で、二つ目は遠回りです。",
+        "二つ目は遠回りでもよいとして選んでいます。"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C39",
+      "field": "comprehension.distractors",
+      "before": [
+        "新しい椅子",
+        "どちらも置いてはいけない"
+      ],
+      "after": [
+        "新しい椅子",
+        "どちらも同じくらい合う"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C39",
+      "field": "comprehension.distractor_explanations_ja",
+      "before": [
+        "新しい椅子は場所を取るため、小部屋には以前の椅子を勧めています。",
+        "両方禁止とは述べていません。"
+      ],
+      "after": [
+        "新しい椅子は場所を取るため、小部屋には以前の椅子を勧めています。",
+        "小さい部屋には以前の椅子のほうが合うと判断しています。"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C41",
+      "field": "comprehension.distractors",
+      "before": [
+        "名札をすべて捨てる",
+        "名簿の名前を書き換える"
+      ],
+      "after": [
+        "名札をすべて捨てる",
+        "名簿を見ずに名札の並びを変える"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C41",
+      "field": "comprehension.distractor_explanations_ja",
+      "before": [
+        "捨てずに照合する提案です。",
+        "名簿を変更する話ではありません。"
+      ],
+      "after": [
+        "捨てずに照合する提案です。",
+        "名簿との照合が提案されている確認方法です。"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C42",
+      "field": "comprehension.distractors",
+      "before": [
+        "すぐに席を移る",
+        "文字をすべて消す"
+      ],
+      "after": [
+        "すぐに席を移る",
+        "先に席を移ってから明るさを上げる"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C42",
+      "field": "comprehension.distractor_explanations_ja",
+      "before": [
+        "移動は明るくしても見えない場合です。",
+        "文字を消すとは言っていません。"
+      ],
+      "after": [
+        "移動は明るくしても見えない場合です。",
+        "先に明るさを上げ、改善しなければ席を移ります。"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C43",
+      "field": "comprehension.distractors",
+      "before": [
+        "使い捨ての皿を買う",
+        "皿を使わずに食事をやめる"
+      ],
+      "after": [
+        "使い捨ての皿を買う",
+        "隣の事務所へ皿を貸す"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C43",
+      "field": "comprehension.distractor_explanations_ja",
+      "before": [
+        "購入の代わりに借りる提案です。",
+        "食事を中止する話ではありません。"
+      ],
+      "after": [
+        "購入の代わりに借りる提案です。",
+        "隣から借りるのであって、貸す提案ではありません。"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C44",
+      "field": "comprehension.distractors",
+      "before": [
+        "新しいファイルを送らないこと",
+        "前のファイルを全員に転送すること"
+      ],
+      "after": [
+        "新しいファイルを送らないこと",
+        "前のファイルも保存しておくこと"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C44",
+      "field": "comprehension.distractor_explanations_ja",
+      "before": [
+        "新しいファイルは話し手が送る予定です。",
+        "転送ではなく削除を頼みます。"
+      ],
+      "after": [
+        "新しいファイルは話し手が送る予定です。",
+        "前のものは削除するよう依頼する予定です。"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C45",
+      "field": "comprehension.distractors",
+      "before": [
+        "一人で本棚を動かす",
+        "本棚を倒す"
+      ],
+      "after": [
+        "一人で本棚を動かす",
+        "一人で本棚をすぐに移動する"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C45",
+      "field": "comprehension.distractor_explanations_ja",
+      "before": [
+        "一人で動かす方法より定規を勧めています。",
+        "倒す方法は提案していません。"
+      ],
+      "after": [
+        "一人で動かす方法より定規を勧めています。",
+        "本棚を一人で動かす代わりに定規を使う提案です。"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C46",
+      "field": "comprehension.distractors",
+      "before": [
+        "申し込みの合計人数",
+        "提出した書類の名前"
+      ],
+      "after": [
+        "申し込みの合計人数",
+        "申し込み画面の入力内容"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C46",
+      "field": "comprehension.distractor_explanations_ja",
+      "before": [
+        "人数の確認は述べていません。",
+        "ファイル名を確認する話ではありません。"
+      ],
+      "after": [
+        "人数の確認は述べていません。",
+        "画面が開かないので、まず接続を確認します。"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C47",
+      "field": "comprehension.distractors",
+      "before": [
+        "一人が全部読む",
+        "読む前に資料をすべて捨てる"
+      ],
+      "after": [
+        "一人が全部読む",
+        "全員が同じ範囲を読む"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C47",
+      "field": "comprehension.distractor_explanations_ja",
+      "before": [
+        "一人では難しいので分担を提案しています。",
+        "廃棄の提案ではありません。"
+      ],
+      "after": [
+        "一人では難しいので分担を提案しています。",
+        "同じ範囲ではなく、部分を分担して読みます。"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C48",
+      "field": "comprehension.distractors",
+      "before": [
+        "すでにけがをした人を探すため",
+        "椅子の色をそろえるため"
+      ],
+      "after": [
+        "すでにけがをした人を探すため",
+        "椅子が重くて運べないため"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C48",
+      "field": "comprehension.distractor_explanations_ja",
+      "before": [
+        "けが人が出る前の予防です。",
+        "色の問題ではありません。"
+      ],
+      "after": [
+        "けが人が出る前の予防です。",
+        "重さではなく、ぐらついて危険なことが問題です。"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C49",
+      "field": "comprehension.distractors",
+      "before": [
+        "箱の中身をすべて捨てる",
+        "書いてある名前を消す"
+      ],
+      "after": [
+        "箱の中身をすべて捨てる",
+        "箱の外側にある名前を消す"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C49",
+      "field": "comprehension.distractor_explanations_ja",
+      "before": [
+        "中身の廃棄は述べていません。",
+        "今は内容が書かれていないので、書き加えます。"
+      ],
+      "after": [
+        "中身の廃棄は述べていません。",
+        "今は内容が書かれていないので名前を書き加えます。"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C50",
+      "field": "comprehension.distractors",
+      "before": [
+        "問い合わせを一切受け付けない",
+        "質問を毎回別の人に隠す"
+      ],
+      "after": [
+        "問い合わせを一切受け付けない",
+        "質問ごとに毎回別の案内を作る"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C50",
+      "field": "comprehension.distractor_explanations_ja",
+      "before": [
+        "受付をやめるとは言っていません。",
+        "質問を隠す提案ではありません。"
+      ],
+      "after": [
+        "受付をやめるとは言っていません。",
+        "よくある質問を集めた案内を作る提案です。"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C51",
+      "field": "comprehension.distractors",
+      "before": [
+        "通行人全員に話を聞かせること",
+        "大事な話をやめて帰ること"
+      ],
+      "after": [
+        "通行人全員に話を聞かせること",
+        "今の場所で話を続けること"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C51",
+      "field": "comprehension.distractor_explanations_ja",
+      "before": [
+        "人通りを避け、静かな場所を提案しています。",
+        "話そのものを中止する提案ではありません。"
+      ],
+      "after": [
+        "人通りを避け、静かな場所を提案しています。",
+        "より静かな場所で話すことを提案しています。"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C52",
+      "field": "comprehension.distractors",
+      "before": [
+        "最初から全部説明し直してもらう",
+        "説明をすぐに終わりにしてもらう"
+      ],
+      "after": [
+        "最初から全部説明し直してもらう",
+        "最後の部分は説明しないでもらう"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C52",
+      "field": "comprehension.distractor_explanations_ja",
+      "before": [
+        "依頼は最後の部分だけです。",
+        "終了ではなく一部の繰り返しを頼んでいます。"
+      ],
+      "after": [
+        "依頼は最後の部分だけです。",
+        "最後の部分をもう一度説明してほしいという依頼です。"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C53",
+      "field": "comprehension.distractors",
+      "before": [
+        "説明を全部削除する",
+        "初めて使う人を参加させない"
+      ],
+      "after": [
+        "説明を全部削除する",
+        "方法をすべて別のものに変える"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C53",
+      "field": "comprehension.distractor_explanations_ja",
+      "before": [
+        "説明を消すのではなく図を加えます。",
+        "参加制限の話ではありません。"
+      ],
+      "after": [
+        "説明を消すのではなく図を加えます。",
+        "方法を全面的に変えるのでなく説明に図を加える提案です。"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C56",
+      "field": "comprehension.distractors",
+      "before": [
+        "終わった作業を最初からやり直す",
+        "今後は誰にも手伝ってもらわない"
+      ],
+      "after": [
+        "終わった作業を最初からやり直す",
+        "作業が終わってから役割を分ける"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C56",
+      "field": "comprehension.distractor_explanations_ja",
+      "before": [
+        "作業は終了しており、次回の提案です。",
+        "協力を断る意図ではありません。"
+      ],
+      "after": [
+        "作業は終了しており、次回の提案です。",
+        "次回は始める前に役割を分ける提案です。"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C18",
+      "field": "comprehension.distractors",
+      "before": [
+        "一人ですぐに持ち上げる",
+        "重い箱を一人で急いで運ぶ"
+      ],
+      "after": [
+        "一人で持ち上げてから人を呼ぶ",
+        "重い箱を一人で急いで運ぶ"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C18",
+      "field": "comprehension.distractor_explanations_ja",
+      "before": [
+        "一人で持つことを止めています。",
+        "重いときは一人で持たないよう注意しています。"
+      ],
+      "after": [
+        "一人で持ち上げる前に助けを呼ぶ案内です。",
+        "重いときは一人で持たないよう注意しています。"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C38",
+      "field": "comprehension.distractors",
+      "before": [
+        "二つ目の道が最短だから",
+        "二つ目の道のほうが短いから"
+      ],
+      "after": [
+        "二つ目の道のほうが短いから",
+        "荷物を持たずに歩くから"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C38",
+      "field": "comprehension.distractor_explanations_ja",
+      "before": [
+        "短いのは一つ目で、二つ目は遠回りです。",
+        "二つ目は遠回りでもよいとして選んでいます。"
+      ],
+      "after": [
+        "短いのは一つ目で、二つ目は遠回りです。",
+        "重い荷物を持って歩くための選択です。"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C45",
+      "field": "comprehension.distractors",
+      "before": [
+        "一人で本棚を動かす",
+        "一人で本棚をすぐに移動する"
+      ],
+      "after": [
+        "一人で本棚を動かす",
+        "二人で本棚を倒す"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C45",
+      "field": "comprehension.distractor_explanations_ja",
+      "before": [
+        "一人で動かす方法より定規を勧めています。",
+        "本棚を一人で動かす代わりに定規を使う提案です。"
+      ],
+      "after": [
+        "一人で動かす方法の代わりに定規を勧めています。",
+        "二人で倒す方法は提案していません。"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C49",
+      "field": "comprehension.distractors",
+      "before": [
+        "箱の中身をすべて捨てる",
+        "箱の外側にある名前を消す"
+      ],
+      "after": [
+        "名前を書かず、箱の場所だけ覚える",
+        "箱の外側にある名前を消す"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C49",
+      "field": "comprehension.distractor_explanations_ja",
+      "before": [
+        "中身の廃棄は述べていません。",
+        "今は内容が書かれていないので名前を書き加えます。"
+      ],
+      "after": [
+        "名前を書き、探しやすくする予定です。",
+        "今は内容が書かれていないので名前を書き加えます。"
+      ],
+      "reason": "AI answer plausibility and text evidence review"
+    },
+    {
+      "key": "C06",
+      "field": "korean",
+      "before": "발표 순서는 게시판에 붙여 놓았습니다. 자기 차례가 되기 전에 교실 앞에서 기다려 주세요.",
+      "after": "발표 순서는 게시판에 붙였습니다. 자기 차례가 되기 전에 교실 앞에서 기다려 주세요.",
+      "reason": "Second prerequisite/register reread; simplify uncatalogued auxiliary or request form"
+    },
+    {
+      "key": "C20",
+      "field": "korean",
+      "before": "인쇄기는 점심시간에 점검할 예정입니다. 급한 자료는 그전에 인쇄해 두세요.",
+      "after": "인쇄기는 점심시간에 점검할 예정입니다. 급한 자료는 그전에 인쇄하세요.",
+      "reason": "Second prerequisite/register reread; simplify uncatalogued auxiliary or request form"
+    },
+    {
+      "key": "C20",
+      "field": "japanese",
+      "before": "プリンターは昼休みに点検する予定です。急ぎの資料はその前に印刷しておいてください。",
+      "after": "プリンターは昼休みに点検する予定です。急ぎの資料はその前に印刷してください。",
+      "reason": "Second prerequisite/register reread; simplify uncatalogued auxiliary or request form"
+    },
+    {
+      "key": "C20",
+      "field": "learning_point_ja",
+      "before": "「그전에」は昼休みの点検より前。「-아 두다」は後に備えた準備です。",
+      "after": "「그전에」は昼休みの点検より前。点検中に印刷する指示ではありません。",
+      "reason": "Second prerequisite/register reread; simplify uncatalogued auxiliary or request form"
+    },
+    {
+      "key": "C49",
+      "field": "korean",
+      "before": "상자에 내용이 적혀 있지 않아서 찾는 데 오래 걸려요. 오늘 정리하는 김에 겉에 이름도 써 둘게요.",
+      "after": "상자에 내용이 적혀 있지 않아서 찾는 데 오래 걸려요. 오늘 정리하는 김에 겉에 이름도 쓸게요.",
+      "reason": "Second prerequisite/register reread; simplify uncatalogued auxiliary or request form"
+    },
+    {
+      "key": "C58",
+      "field": "korean",
+      "before": "자료를 전부 읽을 필요는 없어요. 표시해 둔 부분만 확인해 주시면 돼요.",
+      "after": "자료를 전부 읽을 필요는 없어요. 표시한 부분만 확인해 주시면 돼요.",
+      "reason": "Second prerequisite/register reread; simplify uncatalogued auxiliary or request form"
+    },
+    {
+      "key": "C58",
+      "field": "comprehension.correct_evidence_ko",
+      "before": "표시해 둔 부분만",
+      "after": "표시한 부분만",
+      "reason": "Match simplified source literally"
+    },
+    {
+      "key": "C60",
+      "field": "korean",
+      "before": "먼저 해 보신 방법을 알려 주시겠어요? 같은 방법을 다시 권하지 않으려고 여쭤보는 거예요.",
+      "after": "먼저 해 보신 방법을 알려 주실래요? 같은 방법을 다시 권하지 않으려고 여쭤보는 거예요.",
+      "reason": "Second prerequisite/register reread; simplify uncatalogued auxiliary or request form"
+    },
+    {
+      "key": "C52",
+      "field": "korean",
+      "before": "설명은 잘 들었는데 마지막 부분을 놓쳤어요. 그 부분만 한 번 더 말씀해 주실 수 있을까요?",
+      "after": "설명은 잘 들었는데 마지막 부분을 놓쳤어요. 그 부분만 한 번 더 말씀해 주실래요?",
+      "reason": "Second prerequisite/register reread; simplify uncatalogued auxiliary or request form"
+    },
+    {
+      "key": "C20",
+      "field": "comprehension.correct_evidence_ko",
+      "before": "그전에 인쇄해 두세요",
+      "after": "그전에 인쇄하세요",
+      "reason": "Candidate test exposed stale literal evidence after simplification; full same-type audit found three rows before promotion"
+    },
+    {
+      "key": "C49",
+      "field": "comprehension.correct_evidence_ko",
+      "before": "겉에 이름도 써 둘게요",
+      "after": "겉에 이름도 쓸게요",
+      "reason": "Candidate test exposed stale literal evidence after simplification; full same-type audit found three rows before promotion"
+    },
+    {
+      "key": "C54",
+      "field": "comprehension.correct_evidence_ko",
+      "before": "의견을 듣고 싶어요",
+      "after": "의견부터 듣고 싶어요",
+      "reason": "Candidate test exposed stale literal evidence after simplification; full same-type audit found three rows before promotion"
+    },
+    {
+      "key": "C05",
+      "field": "comprehension.distractors",
+      "before": [
+        "長ズボンとサンダルを着用する",
+        "長ズボンならサンダルでもよい"
+      ],
+      "after": [
+        "短パンと運動靴を着用する",
+        "長ズボンならサンダルでもよい"
+      ],
+      "reason": "Final full-payload reread: remove semantically redundant or implausible alternatives while retaining one uniquely supported answer"
+    },
+    {
+      "key": "C05",
+      "field": "comprehension.distractor_explanations_ja",
+      "before": [
+        "サンダルは禁止されています。",
+        "長ズボンに加え、サンダルを履かないことも必要です。"
+      ],
+      "after": [
+        "サンダルでなくても、長ズボンの着用が必要です。",
+        "長ズボンに加え、サンダルを履かないことも必要です。"
+      ],
+      "reason": "Final full-payload reread: remove semantically redundant or implausible alternatives while retaining one uniquely supported answer"
+    },
+    {
+      "key": "C23",
+      "field": "comprehension.distractors",
+      "before": [
+        "基本表現だけの説明",
+        "基本表現の説明"
+      ],
+      "after": [
+        "基本表現だけの説明",
+        "会話と関係のない例文"
+      ],
+      "reason": "Final full-payload reread: remove semantically redundant or implausible alternatives while retaining one uniquely supported answer"
+    },
+    {
+      "key": "C23",
+      "field": "comprehension.distractor_explanations_ja",
+      "before": [
+        "基本表現の説明は前半です。",
+        "基本表現は前半で、後ろほど増えるのは会話例です。"
+      ],
+      "after": [
+        "基本表現の説明は前半です。",
+        "後ろに増えるのは実際の会話の例文です。"
+      ],
+      "reason": "Final full-payload reread: remove semantically redundant or implausible alternatives while retaining one uniquely supported answer"
+    },
+    {
+      "key": "C34",
+      "field": "comprehension.distractors",
+      "before": [
+        "軽い小さいかばん",
+        "本を入れず、小さいかばんを持つ"
+      ],
+      "after": [
+        "軽い小さいかばん",
+        "本が全部入る小さいかばん"
+      ],
+      "reason": "Final full-payload reread: remove semantically redundant or implausible alternatives while retaining one uniquely supported answer"
+    },
+    {
+      "key": "C34",
+      "field": "comprehension.distractor_explanations_ja",
+      "before": [
+        "小さいかばんには本が全部入りません。",
+        "本を入れる必要があるため、大きいかばんを選ぼうとしています。"
+      ],
+      "after": [
+        "小さいかばんには本が全部入りません。",
+        "小さいかばんには本が全部入らないため、大きいものを選びます。"
+      ],
+      "reason": "Final full-payload reread: remove semantically redundant or implausible alternatives while retaining one uniquely supported answer"
+    },
+    {
+      "key": "C41",
+      "field": "comprehension.distractors",
+      "before": [
+        "名札をすべて捨てる",
+        "名簿を見ずに名札の並びを変える"
+      ],
+      "after": [
+        "名簿を見ずに名前を書き直す",
+        "名簿を見ずに名札の並びを変える"
+      ],
+      "reason": "Final full-payload reread: remove semantically redundant or implausible alternatives while retaining one uniquely supported answer"
+    },
+    {
+      "key": "C41",
+      "field": "comprehension.distractor_explanations_ja",
+      "before": [
+        "捨てずに照合する提案です。",
+        "名簿との照合が提案されている確認方法です。"
+      ],
+      "after": [
+        "まず名簿と名前を照合する提案で、確認せず書き直す話ではありません。",
+        "名簿との照合が提案されている確認方法です。"
+      ],
+      "reason": "Final full-payload reread: remove semantically redundant or implausible alternatives while retaining one uniquely supported answer"
+    },
+    {
+      "key": "C45",
+      "field": "comprehension.distractors",
+      "before": [
+        "一人で本棚を動かす",
+        "二人で本棚を倒す"
+      ],
+      "after": [
+        "一人で本棚を動かす",
+        "二人で本棚を動かす"
+      ],
+      "reason": "Final full-payload reread: remove semantically redundant or implausible alternatives while retaining one uniquely supported answer"
+    },
+    {
+      "key": "C45",
+      "field": "comprehension.distractor_explanations_ja",
+      "before": [
+        "一人で動かす方法の代わりに定規を勧めています。",
+        "二人で倒す方法は提案していません。"
+      ],
+      "after": [
+        "一人で動かす方法の代わりに定規を勧めています。",
+        "二人で動かす方法ではなく、定規で取り出す方法を勧めています。"
+      ],
+      "reason": "Final full-payload reread: remove semantically redundant or implausible alternatives while retaining one uniquely supported answer"
+    }
+  ],
+  "count": 133
+}
