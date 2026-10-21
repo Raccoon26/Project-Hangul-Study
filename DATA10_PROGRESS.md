@@ -201,3 +201,7 @@ AI 자체 검수이며 독립 원어민·교사/전수 외부사전·실제 TTS 
 ### 3.5 Git 전달
 
 실제 Source/Bundle/fixture·검수 원고·검사와 diff/파일크기를 확인한 후 일반 Commit/Push·main PR·필수 checks/mergeability 확인·정상 merge를 진행한다. Force Push·이력 재작성·기존 원본 삭제0. 최종 PR/merge SHA와 clean main=origin/main의 전체 SHA는 실제 Git/PR과 최종 응답을 기준으로 확인하며 자기 merge SHA 때문에 재귀 커밋하지 않는다. 다음 환경도 fetch 후 최신 main에서 시작한다.
+
+### 3.6 Git/PR 전달 기록
+
+검증한 콘텐츠/원고/검사/기록 commit `2c9fd5d7d7a0bc611f6105fdf2ec307160962e0b`를 `codex/data10-3-listening-batch-b`로 정상 push했고 [PR #20](https://github.com/Raccoon26/Project-Hangul-Study/pull/20)을 생성했다. GitHub 조회상 MERGEABLE, statusCheckRollup=[]이며 `gh pr checks --required`는 no checks reported(exit1)였다. 원격 CI PASS로 표현하지 않고 로컬382 PASS만 실행 근거로 삼는다. 보호 메타403을 우회하거나 admin/force merge하지 않으며 정상 server merge로 전달한다. 이 보충은 문서만 바꾸고 검증한 입력은 불변이다. 최종 merge SHA·상태·main=origin/main/clean 여부는 해당 PR/Git과 최종 응답이 기준이다. 다음 환경은 fetch로 최신 main을 받아 DATA10_PROGRESS §3와 남은 native/사람 gate를 먼저 확인한다.

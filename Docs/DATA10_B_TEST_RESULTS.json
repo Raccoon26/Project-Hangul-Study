@@ -264,7 +264,13 @@
     "main_protection_query": "HTTP403; cannot infer protection absent",
     "rulesets": [],
     "actions_workflows": 0,
-    "delivery": "Ordinary push/PR/server-enforced merge; final SHA and state in Git/PR/final response"
+    "delivery": "Ordinary push/PR/server-enforced merge; final SHA and state in Git/PR/final response",
+    "validated_commit": "2c9fd5d7d7a0bc611f6105fdf2ec307160962e0b",
+    "pr": 20,
+    "pr_url": "https://github.com/Raccoon26/Project-Hangul-Study/pull/20",
+    "observed_status_checks": [],
+    "required_check_cli": "no checks reported / exit1; not CI PASS",
+    "push": "PASS"
   },
   "next_batch_started": false
 }
