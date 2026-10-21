@@ -22,9 +22,9 @@ class Data05Tests(unittest.TestCase):
    path=Path(tmp)/'bundle.sqlite';r=build(ROOT/'Content/production.json',path,ROOT/'Tests/Fixtures/content-v11-production.sqlite',production=True)
    self.assertEqual(r['validation']['error_count'],0);self.assertEqual(r['validation']['warning_count'],10)
    with sqlite3.connect(path) as new:self.assertEqual(signatures(new),signatures(self.db))
-  for table,before,after in [('vocabulary',726,2287),('meanings',772,2420),('examples',1537,4873),('grammar',42,96),('questions',250,3673),('listening_items',27,2056),('content_items',3700,16241)]:
+  for table,before,after in [('vocabulary',726,2287),('meanings',772,2420),('examples',1537,4933),('grammar',42,96),('questions',250,3793),('listening_items',27,2176),('content_items',3700,16541)]:
    self.assertEqual(self.old.execute('SELECT COUNT(*) FROM '+table).fetchone()[0],before);self.assertEqual(self.db.execute('SELECT COUNT(*) FROM '+table).fetchone()[0],after)
-  self.assertEqual(self.db.execute('SELECT schema_version,content_version,min_reader_version,is_fixture FROM content_metadata').fetchone(),(4,25,7,0))
+  self.assertEqual(self.db.execute('SELECT schema_version,content_version,min_reader_version,is_fixture FROM content_metadata').fetchone(),(4,26,7,0))
   self.assertEqual(self.db.execute('PRAGMA user_version').fetchone()[0],4)
  def test_all_existing_payloads_ids_membership_and_approved_relation_revisions(self):
   historical=sqlite3.connect(ROOT/'Tests/Fixtures/content-v12-production.sqlite')

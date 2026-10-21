@@ -157,3 +157,47 @@ native 실패5개는 DATA10-1과 동일한 DATA06 cohort 가정1, 발음 course 
 [PR #19](https://github.com/Raccoon26/Project-Hangul-Study/pull/19)를 생성하고 채팅에 연결했다. 최초 head는 위 제작 commit, MERGEABLE/CLEAN·statusCheckRollup=[]였다. `gh pr checks --required`는 no checks reported(exit1), 규칙/Actions workflow0으로 **필수 원격 검사가 없는 상태이며 CI PASS가 아니다**. 최종 portable373 PASS·3build PASS·native137/142와 명령65/기존5실패·B—Conditional을 PR 본문에 명시했다.
 
 이 인계 보충은 문서·전달 근거만 추가하고 검증한 Source/Bundle/코드/테스트를 바꾸지 않는다. 보충 commit 정상 push 후 최신 head의 검사/mergeability를 확인해 user 위임대로 정상 merge한다. 실패한 필수 CI나 admin/force로 우회하지 않는다. 병합 후 로컬 main을 fetch/ff-only하고 origin/main과 전체SHA·clean 상태를 대조하며 최종 실제 merge SHA는 PR/Git·최종 응답을 따른다. DATA10-2에서 종료하고 다음 단계는 시작하지 않는다.
+
+## 3. DATA-10-3 / 初中級 Listening Batch B (2026-10-21 JST)
+
+### 3.1 最新 main 동기화·환경 인계
+
+Cloud `/workspace/Project-Hangul-Study`의 시작 clean main을 fetch하고 PR19 병합 main `238b6452d9a69d61f9e187c6176cd76bb240b098`으로 ff-only 동기화했다. origin fetch/push는 지정 `Raccoon26/Project-Hangul-Study`, gh 인증 Raccoon26/HTTPS·repo 기본main·viewerPermission ADMIN을 확인했다. 토큰 원문 기록0. `codex/data10-3-listening-batch-b`에서 작업했고 다른 환경의 미커밋 파일을 가져오거나 동시에 수정하지 않았다. 기존 미커밋0, 삭제/stash/force/reset0이다.
+
+Python3.12.14/SQLite3.53.1/Linux이며 xcodebuild/swift는 없다. 기존25 Source/Bundle SHA와 DATA10_PROGRESS §1~2·관련 상태/검수·실제 엔진/DB를 대조했다. 추가 설치 없이 Cloud writer로 current25 전체 byte 재현을 먼저 확인했다. Mac의 과거142실행137PASS/5FAIL을 이번 Cloud의 실행/PASS로 복사하지 않는다. 실제 직전25는 새 불변 source.gz/DB fixture에 보존했다.
+
+main protection 조회는 이번 토큰에서 HTTP403(Resource not accessible by integration)이어서 보호 없음으로 단정하지 않는다. rulesets=[]/Actions workflows0을 조회했다. 마지막 PR의 실제 필수 checks/mergeability와 정상 server merge를 확인하며 admin/force 우회하지 않는다.
+
+### 3.2 실제 신규 콘텐츠·배치·문법 재사용
+
+Content25→26, Schema4/reader7/UserProgress10 유지. 신규 상황60/내용이해60·받아쓰기60=120문제, Example60/Listening120/Question120·300UUID와 provenance source1개를 반영한다. 기존 source 재사용0, 신규 원문의 추가 참조60이며 문장·선택지·반복 source를 신규 원문으로 더하지 않는다. 감정8/의견8/판단7/이유7/결과7/경험8/계획8/의견차이7원문이다. 내용이해의 편집 초점12종은 핵심·세부·화자 의도·판단 근거·원인/결과·순서/조건/변화 등을 포함하며 전부 기존 comprehension 채점 엔진을 쓴다.
+
+전체 Example4,873→4,933/Listening2,056→2,176/Question3,673→3,793/content_items16,241→16,541. V2,287/M2,420/G96/Course8/Lesson103은 불변이다. Listening은 入門34/初級79/初中級2,063, 전유형 의미50/한국어39/받아쓰기1,940/내용147이다. 새 learning_order2180~2299(batch109~114, 화면練習110~115),20문제씩6구간이다. 같은 원문의 두 유형은3구간 차이로 배치하고 기존 부분구간/순서/세션은 재작성하지 않았다. 기존 typed 목록의 실제 bounded SQL로120문항 모두 도달했다. 원문 단위 SRS 병합/새 topic UI는 구현하지 않았다.
+
+DATA09 初中級54개 문법 모두에 자연스럽게 쓰인 형태와 기존 Grammar ID를 [용례표](Docs/DATA10_B_GRAMMAR_REUSE.json)에 기록했다. 필요조건/의무, 부사 대신/문법 -는 대신, 인용수혜자·추측과 확정·과거발견과 미래기대를 구분했다. 이는 편집상 실제 용례 재사용이며 새 grammar_examples/prerequisite·자동활용 지원 관계를 추가한 것은 아니다. 기존 Grammar endpoint/revision과163후보120해결/7조건부/36미해결(Level8포함)을 유지한다.
+
+DATA10 누적120원문/240문제, 전체목표150~250/300~500 유지·남은30~130/60~260이다. 다음 Batch는 자동 시작하지 않는다.
+
+### 3.3 언어 Self Review·중복·Transcript/채점
+
+AI가60한국어/60일본어를 별도로 재독하고120prompt/해설/정답,180선택지,60정확한 accepted를 전수 확인했다. 각 객관식에 한국어 정답 근거와 두 오답 각각의 일본어 이유를 넣었고 a/b/c 정답은각20개다. [원고15필드 교정](Docs/DATA10_B_EDITORIAL_CORRECTIONS.json)과 공통 Dictation안내1곳을 수정했다. 후자는 실제 기존 채점이 허용하는 끝 .!? 생략을 정확히 안내하며 내부부호/철자/내용 차이는 허용하지 않는다. 채점 엔진·일반 ProductionAnswer·기존 질문은 변경하지 않았다.
+
+기존4,873예문 전체(원래1,936TTS 및 A60원문 포함)와 B내 NFC/공백/종결부호 제거 한국어·한일쌍 완전 중복0. 가까운 후보는 bigram Jaccard 상위8→SequenceMatcher 상위3과 실제 문맥을 재독했다. 의미상 모든 paraphrase 부재나 외부 언어 품질 인증으로 표현하지 않는다. [실제60/120앱 payload](Docs/DATA10_B_ITEMS.md), [항목별 자체 검수](Docs/DATA10_B_SELF_REVIEW.json), [중복근거](Docs/DATA10_B_SIMILARITY.json).
+
+전120항목은 한 화자의 시스템TTS, 녹음0이다. 보고/인용도 같은 음성의 연속 발화이며 다화자 녹음/서로 다른 목소리 재생을 가장하지 않았다. audio_asset_id/transcript_ko=null, source Example을 재사용한다. prompt_ko=null, transcript/번역/피드백은 기존 View의 result 이후에만 생성된다. 소스 검사를 실기기/VoiceOver 누출 검사 완료로 바꾸지 않는다. accepted는 정확한 원문1개씩이고 끝 .!?만 생략 가능하며 NFC/spacing/오답을 구분하는 기존 정책이다. 입력은100자 이하의2~3문장이고 실제3~10분 측정은 하지 않았다.
+
+AI 자체 검수이며 독립 원어민·교사/전수 외부사전·실제 TTS 검청은 NOT TESTED다. Level은 내부 初中級 기준이고 공인 TOPIK·빈도·전문가 인증이 아니다. 외부 대본/녹음 복사0·자체 저작 provenance를 명시한다.
+
+### 3.4 실제 검사·보존·미완료 gate
+
+- 후보 전용9/9 PASS(18.647초). 최종 공통 안내 교정 후 후보9/9 PASS(19.094초). strict25→26 오류0/기존10경고, source25테이블68,586행·integrity ok/FK0. 전31테이블의 중복 포함 전행/schema/index·SHA 재구성 일치. 기존16,241개 fingerprint/payload/ID/revision/order/membership 보존, 기존99파일의 당시byte는 current25 source/DB snapshot과 나머지 실제파일로 보호했다.
+- 처음 전체 시도는 live25 기대값의5FAIL 관찰 후 중단(exit130), 완료/PASS로 계산하지 않는다. 두 번째 전체382개는381PASS/누적delta기대값1FAIL(514.289초,errors/skip0,exit1). 실제26의 증가량으로 누적 기대값을 갱신했고 그 회귀1/1 PASS(7.166초), 쿼리6/6 PASS(0.086초)다. A exact24→25는 frozen25에 유지했다. 검사/Validator를 삭제·완화하지 않았으며 원시 초기 로그를 보존한다.
+- 최종 Source SHA `012c199f219662b7832a84ef2f815307bd38ebb47e52ff6f31806dadbdd57d3f`, Bundle/재구성 SHA `47517c77f9dc02d3643000a8ce429cf7a655c2bddf45e5bf1f52b8e3fd9cd801`. 재구성 불일치0이다.
+- **최종 portable382/382 PASS,578.139초,failures/errors/skipped0,exit0**. [전체 원시 로그](Docs/DATA10_B_PORTABLE_TEST_LOG.txt), [실제 결과](Docs/DATA10_B_TEST_RESULTS.json). 최종 입력 기준 전체를 재실행했으며 전용/targeted 수를 중복 가산하지 않는다.
+- 새 portable9개는 strict/ID/전체행·중복·54용례·유일정답/오답근거·Offline bounded 조회·A snapshot/기존SRS/UserProgress·잘못된 accepted/Transcript/참조 거부를 검사한다. 임시 UserProgress/opaque JSON·SQL은 실제 개인 진도·Swift Codable·설정/Keychain 실행 인증이 아니다.
+- 새 native1메서드(총143정의)는120문항/60source·정답/모든오답·Dictation/spacing/내부부호·played gate를 작성했다. 현재 Cloud build/XCTest 실행0/BLOCKED. 과거 Mac142실행137PASS/기존5FAIL(활용P1·구매cache·cohort/course 가정 등)과 DATA08 P1다섯 메서드 PASS는 역사기록으로 보존한다. 미수정 gate를 이번에 해결로 바꾸지 않는다.
+- 실제 iOS/TTS·오디오중단/기기Offline/VoiceOver·메모리/즉시저장·Resume·광고/StoreKit은 BLOCKED 또는 미실행이다. 독립 사람/사전 NOT TESTED, Release B—Conditional 유지. 이번 runtime 코드 수정0이며 다음 단계는 시작하지 않는다.
+
+### 3.5 Git 전달
+
+실제 Source/Bundle/fixture·검수 원고·검사와 diff/파일크기를 확인한 후 일반 Commit/Push·main PR·필수 checks/mergeability 확인·정상 merge를 진행한다. Force Push·이력 재작성·기존 원본 삭제0. 최종 PR/merge SHA와 clean main=origin/main의 전체 SHA는 실제 Git/PR과 최종 응답을 기준으로 확인하며 자기 merge SHA 때문에 재귀 커밋하지 않는다. 다음 환경도 fetch 후 최신 main에서 시작한다.

@@ -1,0 +1,751 @@
+{
+  "metadata": {
+    "schema_version": 4,
+    "content_version": 26,
+    "min_reader_version": 7,
+    "dataset_id": "ko-ja-core",
+    "is_fixture": 0,
+    "source_locale": "ja",
+    "target_locale": "ko"
+  },
+  "source_sha256": "3c9be3eeb00f1f92418f3c1f82cffacd2e1d33ee4a0339db069f038373ed5fe3",
+  "bundle_sha256": "db66125e4dcab0b9d84ca516e93c11b43ed0cdc47ea107b5212a134a16256f8f",
+  "source_tables": 25,
+  "source_rows": 68586,
+  "production": {
+    "content_items": 16541,
+    "hangul": 55,
+    "content_links": 6739,
+    "courses": 8,
+    "learner_notes": 531,
+    "questions": 3793,
+    "question_choices": 1926,
+    "lessons": 103,
+    "lesson_items": 1191,
+    "sources": 25,
+    "item_sources": 16107,
+    "pronunciation_rules": 36,
+    "pronunciation_presentations": 36,
+    "content_audio": 36,
+    "examples": 4933,
+    "pronunciation_examples": 13,
+    "audio_questions": 3,
+    "tags": 103,
+    "vocabulary": 2287,
+    "item_tags": 4525,
+    "meanings": 2420,
+    "vocabulary_examples": 4514,
+    "grammar": 96,
+    "grammar_examples": 389,
+    "listening_items": 2176
+  },
+  "table_deltas": {
+    "content_items": {
+      "before": 16241,
+      "after": 16541,
+      "added": 300,
+      "source_equal": true,
+      "removed_or_changed": 0
+    },
+    "hangul": {
+      "before": 55,
+      "after": 55,
+      "added": 0,
+      "source_equal": true,
+      "removed_or_changed": 0
+    },
+    "content_links": {
+      "before": 6619,
+      "after": 6739,
+      "added": 120,
+      "source_equal": true,
+      "removed_or_changed": 0
+    },
+    "courses": {
+      "before": 8,
+      "after": 8,
+      "added": 0,
+      "source_equal": true,
+      "removed_or_changed": 0
+    },
+    "learner_notes": {
+      "before": 531,
+      "after": 531,
+      "added": 0,
+      "source_equal": true,
+      "removed_or_changed": 0
+    },
+    "questions": {
+      "before": 3673,
+      "after": 3793,
+      "added": 120,
+      "source_equal": true,
+      "removed_or_changed": 0
+    },
+    "question_choices": {
+      "before": 1746,
+      "after": 1926,
+      "added": 180,
+      "source_equal": true,
+      "removed_or_changed": 0
+    },
+    "lessons": {
+      "before": 103,
+      "after": 103,
+      "added": 0,
+      "source_equal": true,
+      "removed_or_changed": 0
+    },
+    "lesson_items": {
+      "before": 1191,
+      "after": 1191,
+      "added": 0,
+      "source_equal": true,
+      "removed_or_changed": 0
+    },
+    "sources": {
+      "before": 24,
+      "after": 25,
+      "added": 1,
+      "source_equal": true,
+      "removed_or_changed": 0
+    },
+    "item_sources": {
+      "before": 15807,
+      "after": 16107,
+      "added": 300,
+      "source_equal": true,
+      "removed_or_changed": 0
+    },
+    "pronunciation_rules": {
+      "before": 36,
+      "after": 36,
+      "added": 0,
+      "source_equal": true,
+      "removed_or_changed": 0
+    },
+    "pronunciation_presentations": {
+      "before": 36,
+      "after": 36,
+      "added": 0,
+      "source_equal": true,
+      "removed_or_changed": 0
+    },
+    "content_audio": {
+      "before": 36,
+      "after": 36,
+      "added": 0,
+      "source_equal": true,
+      "removed_or_changed": 0
+    },
+    "examples": {
+      "before": 4873,
+      "after": 4933,
+      "added": 60,
+      "source_equal": true,
+      "removed_or_changed": 0
+    },
+    "pronunciation_examples": {
+      "before": 13,
+      "after": 13,
+      "added": 0,
+      "source_equal": true,
+      "removed_or_changed": 0
+    },
+    "audio_questions": {
+      "before": 3,
+      "after": 3,
+      "added": 0,
+      "source_equal": true,
+      "removed_or_changed": 0
+    },
+    "tags": {
+      "before": 103,
+      "after": 103,
+      "added": 0,
+      "source_equal": true,
+      "removed_or_changed": 0
+    },
+    "vocabulary": {
+      "before": 2287,
+      "after": 2287,
+      "added": 0,
+      "source_equal": true,
+      "removed_or_changed": 0
+    },
+    "item_tags": {
+      "before": 4525,
+      "after": 4525,
+      "added": 0,
+      "source_equal": true,
+      "removed_or_changed": 0
+    },
+    "meanings": {
+      "before": 2420,
+      "after": 2420,
+      "added": 0,
+      "source_equal": true,
+      "removed_or_changed": 0
+    },
+    "vocabulary_examples": {
+      "before": 4514,
+      "after": 4514,
+      "added": 0,
+      "source_equal": true,
+      "removed_or_changed": 0
+    },
+    "grammar": {
+      "before": 96,
+      "after": 96,
+      "added": 0,
+      "source_equal": true,
+      "removed_or_changed": 0
+    },
+    "grammar_examples": {
+      "before": 389,
+      "after": 389,
+      "added": 0,
+      "source_equal": true,
+      "removed_or_changed": 0
+    },
+    "listening_items": {
+      "before": 2056,
+      "after": 2176,
+      "added": 120,
+      "source_equal": true,
+      "removed_or_changed": 0
+    }
+  },
+  "existing_entities": 16241,
+  "changed_existing_fingerprints": [],
+  "removed_ids": [],
+  "new_entities": 300,
+  "protected25_and_older": {
+    "Content/ContentPackageValidator.swift": {
+      "sha256": "25feabdeb546adb0c7d10063c3d6800a700a9056f9a864bd4c59c413a030ca0b",
+      "preserved": true
+    },
+    "Content/content-schema-v1.sql": {
+      "sha256": "524f4a72f8039ddcfedee75cae0ed9c92e49620cf8bebe57f909b70a5aecc839",
+      "preserved": true
+    },
+    "Content/content-schema-v2.sql": {
+      "sha256": "91db6a316dc6c67b5f4dd67970184872d5c985dd07dd59ba3cfd17dc90fadcf7",
+      "preserved": true
+    },
+    "Content/content-schema-v3.sql": {
+      "sha256": "0fbc1c202d8b63c2d64932d7c582731896b7a177e908d55ede7b52f2680f9749",
+      "preserved": true
+    },
+    "Content/content-schema-v4.sql": {
+      "sha256": "1baf27e22565000820598a5fa0a594b6631c77a321811284d41bae89d144413a",
+      "preserved": true
+    },
+    "Content/data01-ids.json": {
+      "sha256": "6ad548ced0f314903b31ef2afdef7b6561311b7690930e228e5278ff9c8b1685",
+      "preserved": true
+    },
+    "Content/data02-ids.json": {
+      "sha256": "b04cbddd1c9b58b46edaa8ec3be015f4d45509d759aff9e535a96522796b91f8",
+      "preserved": true
+    },
+    "Content/data03-ids.json": {
+      "sha256": "31e78f406f52dc0a8424e760c62b54af6bed7929ce3ace0eaabe8510a1b9539a",
+      "preserved": true
+    },
+    "Content/data04-ids.json": {
+      "sha256": "642d4868dee9f421c3e56f883d1c3f724d76ed07fdd6b3e1235fb471a24fe6e2",
+      "preserved": true
+    },
+    "Content/data04-revised-ids.json": {
+      "sha256": "3fcccb6e94da85dd12c3d79748f3c89eb4f04af645e3dc2562e2499193e097a8",
+      "preserved": true
+    },
+    "Content/data05-ids.json": {
+      "sha256": "fe2156cfb55db3df5c1b95577c196a2eaa77117edb0ccd1d82a89cd4913759e7",
+      "preserved": true
+    },
+    "Content/data05-revised-ids.json": {
+      "sha256": "b0922e17d5b84831739e100defbb6da6b132a72af6ea700028bd0672f256c596",
+      "preserved": true
+    },
+    "Content/data06-ids.json": {
+      "sha256": "bacbc2639a90f31ca0e831fd291f8826188fb6de9f18584617b5391fee48a0ab",
+      "preserved": true
+    },
+    "Content/data06-revised-ids.json": {
+      "sha256": "231b4c575915bc82157b438b9cd7fb77a68c7c4c561c2a32e9fe3185194506c7",
+      "preserved": true
+    },
+    "Content/data07-ids.json": {
+      "sha256": "b655e8be09e7319e7a1472f9123efb038ef7a212e31ed4afe5c8ee94c87a18f5",
+      "preserved": true
+    },
+    "Content/data07-revised-ids.json": {
+      "sha256": "ac5d63f3703ff685ad123174c1d3c35bd3f3e8ba8eb454851a25acf8f20d18d0",
+      "preserved": true
+    },
+    "Content/data08-a-ids.json": {
+      "sha256": "15d0f5fb32fb42d76fcf308cc065d6b158ee73bbc2877440c4f73ff461f3e775",
+      "preserved": true
+    },
+    "Content/data08-a-revised-ids.json": {
+      "sha256": "0916fc96729b25cea1156dad64721e3b3303dabc82b7e79713687407600104f7",
+      "preserved": true
+    },
+    "Content/data08-b-ids.json": {
+      "sha256": "cae3935d5c3287314d5343a2399a9b34d8ef200e25033a4c3cafc7dc8a9fd566",
+      "preserved": true
+    },
+    "Content/data08-b-revised-ids.json": {
+      "sha256": "77836fb0bbff7e46e39e75d4ef286ff12ba13d36c1e134a96d53029a3b00540c",
+      "preserved": true
+    },
+    "Content/data08-c-ids.json": {
+      "sha256": "26892e43bffa172328ccb5f603a1e4d59820144187b93a8f8085ba912cf396a4",
+      "preserved": true
+    },
+    "Content/data08-c-revised-ids.json": {
+      "sha256": "9287793b45d03fd8b4475a061ea3ec72357e5de5fb3d2c940f0ea3bf7467eed6",
+      "preserved": true
+    },
+    "Content/data08-final-revised-ids.json": {
+      "sha256": "24387ce198033dc6e8587ab3a51edff3bf96c90dd4d512e885ca0c29f8108f2d",
+      "preserved": true
+    },
+    "Content/data08-integration-ids.json": {
+      "sha256": "a50f840478f2a0d82ff5af640aca075ef3240c3dbe85821ff714db9542f85f3a",
+      "preserved": true
+    },
+    "Content/data08-integration-revised-ids.json": {
+      "sha256": "f9a57937b3efe2f0ffb4d313646531e677e83d999dc92f80561bc0cc62c4cbe2",
+      "preserved": true
+    },
+    "Content/data09-a-ids.json": {
+      "sha256": "7fad6665da6a57f67b78a2ac4d35610649b31574bc44ebd6fd8e6a058e7afadc",
+      "preserved": true
+    },
+    "Content/data09-a-revised-ids.json": {
+      "sha256": "4a654eafde5f4707f7632fe8c5ab48017b6b978ef87a42975330d887183167b1",
+      "preserved": true
+    },
+    "Content/data09-b-ids.json": {
+      "sha256": "26ea6c7c619e46e507a1710509bbf5f3ab550e17e9144e08fadb3a762bc1debb",
+      "preserved": true
+    },
+    "Content/data09-b-revised-ids.json": {
+      "sha256": "17dae31c32434ec90bf25030fa9ec596db9dce3835ccefdcddcb0d73adaaf033",
+      "preserved": true
+    },
+    "Content/data09-c-ids.json": {
+      "sha256": "9450a39e79f82bcf4ffe7c8f72068756fe4850c3412848f9b70e29f44add8bd6",
+      "preserved": true
+    },
+    "Content/data09-c-revised-ids.json": {
+      "sha256": "df23aec522ed822bcc4199ef9c39a3c1bf14d64c701a39ed8abe407a3c12029a",
+      "preserved": true
+    },
+    "Content/data09-final-corrections.json": {
+      "sha256": "d393c26d1cc9305254b6a48b24c7f89d8be289cccaf3f4c0354755dcdece377f",
+      "preserved": true
+    },
+    "Content/data09-final-revised-ids.json": {
+      "sha256": "5bebc50f93ad7b7d5f39d95d6077cc6bac8c8f064e051108644d1022854fbc1d",
+      "preserved": true
+    },
+    "Content/data09-integration-ids.json": {
+      "sha256": "487315e1f8f92419b947af92666d14cebda249005d4fca58513ff21f9bab2e9d",
+      "preserved": true
+    },
+    "Content/data09-integration-revised-ids.json": {
+      "sha256": "b2f83107305e3425d7c4d910f095c822a21938c7c1050bdd3390dc90b0bb80ed",
+      "preserved": true
+    },
+    "Content/data10-a-authoring.json": {
+      "sha256": "727d0d2aa85b5d8a38eaa844fd359c6d316bba74b20dae78b14393ab6c433696",
+      "preserved": true
+    },
+    "Content/data10-a-revised-ids.json": {
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "preserved": true
+    },
+    "Content/dev08-revised-ids.json": {
+      "sha256": "342225bd3572c18f4b8197a282ccfa53a5d8dab7a7fed807c889393a8e365ce9",
+      "preserved": true
+    },
+    "Content/dev09-revised-ids.json": {
+      "sha256": "c74a95409f0fbb2c5b1947d74bd0fd15722e7fc6de8ffc1c3db2a6fae80b3750",
+      "preserved": true
+    },
+    "Content/fixture.json": {
+      "sha256": "9a7924a97ebcaf8e2da6137454b11bf6fe4373a5f77afd91393fb1ac87cfa275",
+      "preserved": true
+    },
+    "Content/grammar-seed-ids.json": {
+      "sha256": "9fff248f94b4066f434e509a6f54744334ee9d6350a37517c114f5128db1950d",
+      "preserved": true
+    },
+    "Content/hangul-ids.json": {
+      "sha256": "99f365d2b4d18d5e4af1c08dcd4c6cfa813f513dd8f0629bfa3a7920b3910f8f",
+      "preserved": true
+    },
+    "Content/hangul-production.json": {
+      "sha256": "5775ba1b72c0fb5dc3cecef0040c4b6acd5879a5d65880aa47c6773ef50d09c7",
+      "preserved": true
+    },
+    "Content/listening-ids.json": {
+      "sha256": "7a400aaed71ad995aa0dae171d14b2748d6681cdced05a5896588d83ee3bbf84",
+      "preserved": true
+    },
+    "Content/production-drill-ids.json": {
+      "sha256": "ba02c86fef6a145b549f98e4a9fb08590b687ea5b4040c57dde8063bd43ec900",
+      "preserved": true
+    },
+    "Content/production-empty.json": {
+      "sha256": "fdadf8cf0a5c0af3cca4de10ca3d06b05811eac5173142234a9999d9e1768703",
+      "preserved": true
+    },
+    "Content/production.json": {
+      "sha256": "ddb21c13e12624da2f208d3f842309ab79a075b986cea832424857cdae763941",
+      "preserved": true
+    },
+    "Content/pronunciation-ids.json": {
+      "sha256": "2412bab433608c207101e7bd7f69eaa2af138ba1b297283885e98cabee247bf5",
+      "preserved": true
+    },
+    "Resources/.content-pcb7fgvn.sqlite": {
+      "sha256": "764a6d38259f37fdcb2ee26070fd33a8f005e88eb844dc8eee8e227b16923a6d",
+      "preserved": true
+    },
+    "Resources/Info.plist": {
+      "sha256": "d84af086fe7f0ee19ac91df9bac7656dcd0477f6f3ee273ed8e3976226506ca3",
+      "preserved": true
+    },
+    "Resources/PrivacyInfo.xcprivacy": {
+      "sha256": "f953ba99994eddf8fe1c7d1723ca44a2da3df5ac96b05f09f375fa3d76f465cc",
+      "preserved": true
+    },
+    "Resources/content-fixture.sqlite": {
+      "sha256": "c25941cafc110010e93a9bebe471e0f2b5787d902be68368872fc23e88090a0b",
+      "preserved": true
+    },
+    "Resources/content.sqlite": {
+      "sha256": "01652666fc34cbc2d69a2d8a82f8aca778b20045b629df7d8623ee3e87a64500",
+      "preserved": true
+    },
+    "Resources/ja.lproj/Localizable.strings": {
+      "sha256": "8923a1e2215af51aea4cbf82ca8ed72de2ce6be2be0c01aa64cb5da09b78a167",
+      "preserved": true
+    },
+    "Resources/user-migration-v10.sql": {
+      "sha256": "d9b5a4ca24d15953488600704e52da456115a099e2469e689b749ee5df3c492b",
+      "preserved": true
+    },
+    "Resources/user-migration-v2.sql": {
+      "sha256": "3f3360c0811d1fc00876f26aa45b52a58626eddbee034f2999c553bc3f3cc10f",
+      "preserved": true
+    },
+    "Resources/user-migration-v3.sql": {
+      "sha256": "1d785636d52c46ce1ce0c35dc8593d83047281e7f5a124954733beca7665e12a",
+      "preserved": true
+    },
+    "Resources/user-migration-v4.sql": {
+      "sha256": "bd84209415ac94cff7f12efc485682b6f9485f5c54dbcc47dd788dd99f435b1c",
+      "preserved": true
+    },
+    "Resources/user-migration-v5.sql": {
+      "sha256": "9321d5f4c83c0955c90539d3e3a468e846b795bf213831cf90a32b58b324f528",
+      "preserved": true
+    },
+    "Resources/user-migration-v6.sql": {
+      "sha256": "123bc45faf7a474e1082c612cece86b9de2e1d7723e7566fdc1488ea18e962c2",
+      "preserved": true
+    },
+    "Resources/user-migration-v7.sql": {
+      "sha256": "032714a875c128f87657377d845371ae1d1860d6aadfed71ec5220e79d0523e9",
+      "preserved": true
+    },
+    "Resources/user-migration-v8.sql": {
+      "sha256": "97d45df22186192c8e1f42e7e1d4d490ce6736c9f38fbef8b609faa9e942db4e",
+      "preserved": true
+    },
+    "Resources/user-migration-v9.sql": {
+      "sha256": "62d8c0062da3161789540612d9bf4655eb3099be350e1849926cd1d41432536a",
+      "preserved": true
+    },
+    "Resources/user-schema-v1.sql": {
+      "sha256": "659998190192d6c4741041eea0e1822bc898d86ff97d6cb80b0ff89874baf7c4",
+      "preserved": true
+    },
+    "Tests/Fixtures/content-v1.sqlite": {
+      "sha256": "c94e449f65101f76356207637a131a4e0f74c78837f40ac2d543be6de893a122",
+      "preserved": true
+    },
+    "Tests/Fixtures/content-v10-production.sqlite": {
+      "sha256": "9c584bd0f7b4b213a1b8120fed77fe6b1ad0d3a08e5649f07ee067973351d8d0",
+      "preserved": true
+    },
+    "Tests/Fixtures/content-v10-repaired-production.sqlite": {
+      "sha256": "9723ef633343ec8cc83c68f85deb30dff36b03206b5a4435a3e159dbb9a7a9c6",
+      "preserved": true
+    },
+    "Tests/Fixtures/content-v11-production.sqlite": {
+      "sha256": "2cc1dcb0cde3f12deabcdc349fc18e0239c90c14405826d054d1f1eecfe47c51",
+      "preserved": true
+    },
+    "Tests/Fixtures/content-v12-production.sqlite": {
+      "sha256": "061bbf97d84f6c8e53e332b0a3eb3c197784ab38094041c459f2540818017ed2",
+      "preserved": true
+    },
+    "Tests/Fixtures/content-v13-production.sqlite": {
+      "sha256": "0b36d3da9f39f2784ca5fd54ce0842458323e6bd81ed212b745c3d9e381969f7",
+      "preserved": true
+    },
+    "Tests/Fixtures/content-v14-production.sqlite": {
+      "sha256": "9293e75ee0161f8fa7688d6ea500f314c8d93fc3f6c9e0284bbf43afec622ac5",
+      "preserved": true
+    },
+    "Tests/Fixtures/content-v15-production.sqlite": {
+      "sha256": "b4459a400dae7e7b5572688db928a7b550d865f9cf1b3dfd8cd22a86d5d6f75d",
+      "preserved": true
+    },
+    "Tests/Fixtures/content-v16-production.json.gz": {
+      "sha256": "34a1c7c381f1a21ed929e42fe198cc1f5684ab09381e53d1dfff91a073168636",
+      "preserved": true
+    },
+    "Tests/Fixtures/content-v16-production.sqlite": {
+      "sha256": "112d3662f79a72ca61ad7140a5d937396c0bc9f71180dd5f35a403a040a91f29",
+      "preserved": true
+    },
+    "Tests/Fixtures/content-v17-production.json.gz": {
+      "sha256": "3c57b04e4e67877f5ac14dde03e3f39cca7dc05e6d04ebfbff37038ac5a4702c",
+      "preserved": true
+    },
+    "Tests/Fixtures/content-v17-production.sqlite": {
+      "sha256": "836dec2fac50508a177010dbf8f83a74a9e4660c8c42c1f08a75bd9207f286c6",
+      "preserved": true
+    },
+    "Tests/Fixtures/content-v18-production.json.gz": {
+      "sha256": "ebb6ada94564ee7dcabce4e1eacb9bb94f6d5f51147f026e9e1b5e0084b41d98",
+      "preserved": true
+    },
+    "Tests/Fixtures/content-v18-production.sqlite": {
+      "sha256": "3235c21699bb297a4447f0ce2068a2e949db136a2c4e08ca70d7a737a07308e3",
+      "preserved": true
+    },
+    "Tests/Fixtures/content-v19-production.json.gz": {
+      "sha256": "0d958a41a03a5adf319bde346cc2161a3d85bd7d1df40af48a4a5f3d92c79217",
+      "preserved": true
+    },
+    "Tests/Fixtures/content-v19-production.sqlite": {
+      "sha256": "57aeaf918d5eaaec3bbfaed02f87c5452cca8264540b923a70448b781adbe9e5",
+      "preserved": true
+    },
+    "Tests/Fixtures/content-v2-production.sqlite": {
+      "sha256": "5e8d4e5c57329ce329bb8c5d8da42ffa21c3bd30da297331fb6a73a96d7565a0",
+      "preserved": true
+    },
+    "Tests/Fixtures/content-v20-production.json.gz": {
+      "sha256": "106cf9d45fd34f33f98169c2d12f4a04f9aa3358607fce967538e6ca5357c2ec",
+      "preserved": true
+    },
+    "Tests/Fixtures/content-v20-production.sqlite": {
+      "sha256": "c7b48bc8b27b7d436fadd41429d9dabf85acf615b632d8cc9a87ca5d6bc39886",
+      "preserved": true
+    },
+    "Tests/Fixtures/content-v21-production.json.gz": {
+      "sha256": "3b099240e7c1c286305309bfc3553f5db69d9a5836b2775416e9670cd14eddf9",
+      "preserved": true
+    },
+    "Tests/Fixtures/content-v21-production.sqlite": {
+      "sha256": "0f53e4d93340d9ddc410d17a6cdd4aa1c3f4f69b2089e60b26a390cb9bdff009",
+      "preserved": true
+    },
+    "Tests/Fixtures/content-v22-production.json.gz": {
+      "sha256": "0fe3a99e06dcd1ddac09e1386312df701ea709cc63049cf4c575cfa4fa3bf0eb",
+      "preserved": true
+    },
+    "Tests/Fixtures/content-v22-production.sqlite": {
+      "sha256": "22c3257b4204309158dfdea0f0bfd7d870fa0c540bd21ee7f240673df052e0f4",
+      "preserved": true
+    },
+    "Tests/Fixtures/content-v23-production.json.gz": {
+      "sha256": "8931631b4a66846b0f2146697cb4ba31226e579ec6b9f4929a00fd563aaf3761",
+      "preserved": true
+    },
+    "Tests/Fixtures/content-v23-production.sqlite": {
+      "sha256": "0a4051d3c5423441b50348935d64559504f1553a55fd3ea472c84b40c9ebc025",
+      "preserved": true
+    },
+    "Tests/Fixtures/content-v24-production.json.gz": {
+      "sha256": "ade82f86b3559adc368967ee7b54b6de74fb7b45c64968dcabcf34fda282bbdf",
+      "preserved": true
+    },
+    "Tests/Fixtures/content-v24-production.sqlite": {
+      "sha256": "56a7fa8b5358e254eeb324e706860d150d20c8ec013ba0b6f602cf14d93cceff",
+      "preserved": true
+    },
+    "Tests/Fixtures/content-v3-production.sqlite": {
+      "sha256": "c0396985debf7545e19e5ee0cad942f9649856a7055bcdf9e3d02a2e52cd3f2a",
+      "preserved": true
+    },
+    "Tests/Fixtures/content-v4-production.sqlite": {
+      "sha256": "5ca932b0bc36d9cbafc9bb923fed9d67b0eb39fe80f635fc6632a59d7924a515",
+      "preserved": true
+    },
+    "Tests/Fixtures/content-v5-production.sqlite": {
+      "sha256": "90b962bde235b0c21fdc4b608d5c0fb3190dae3b6b03deaa6913deae55d54e42",
+      "preserved": true
+    },
+    "Tests/Fixtures/content-v6-production.sqlite": {
+      "sha256": "8ae761833ebc7b71387795716e11c599ab6b52c1042f4a135ef4129b8126d913",
+      "preserved": true
+    },
+    "Tests/Fixtures/content-v7-production.sqlite": {
+      "sha256": "01aa1204e42ef8fe145aa7cc2275c07810e4f6587749a2be498a06a2e69fe1b2",
+      "preserved": true
+    },
+    "Tests/Fixtures/content-v8-production.sqlite": {
+      "sha256": "a08fd61a32540a2e713b59b1a6c40a70668dd7aee47c840658dff36a99ccfee5",
+      "preserved": true
+    },
+    "Tests/Fixtures/content-v9-production.sqlite": {
+      "sha256": "0254c48c50847445808386e315a5b8ef6ab1049399b1fb125e1192cc62922745",
+      "preserved": true
+    },
+    "Tests/Fixtures/source-v1.json": {
+      "sha256": "f58e81df24b22f52c9ca339e3589d2df11c843fe2404fd7e3eaeefda95be6827",
+      "preserved": true
+    }
+  },
+  "new": {
+    "originals": 60,
+    "examples": 60,
+    "listening": 120,
+    "questions": 120,
+    "choices": 180,
+    "dictation": 60,
+    "comprehension": 60,
+    "reused_old_sources": 0,
+    "extra_new_source_references": 60,
+    "tts": 120,
+    "verified_recordings": 0
+  },
+  "domains": {
+    "emotions": 8,
+    "opinion": 8,
+    "judgment": 7,
+    "reason": 7,
+    "result": 7,
+    "experience": 8,
+    "plan": 8,
+    "disagreement": 7
+  },
+  "listening_focus": {
+    "reason": 9,
+    "speaker_intent": 11,
+    "main_point": 8,
+    "detail": 9,
+    "change": 5,
+    "judgment": 2,
+    "condition": 3,
+    "evidence": 1,
+    "plan": 5,
+    "sequence": 2,
+    "result": 4,
+    "purpose": 1
+  },
+  "task_levels": {
+    "intro": {
+      "before": {
+        "comprehension": 4,
+        "dictation": 3,
+        "korean": 23,
+        "meaning": 4
+      },
+      "after": {
+        "comprehension": 4,
+        "dictation": 3,
+        "korean": 23,
+        "meaning": 4
+      }
+    },
+    "beginner": {
+      "before": {
+        "comprehension": 22,
+        "dictation": 25,
+        "korean": 4,
+        "meaning": 28
+      },
+      "after": {
+        "comprehension": 22,
+        "dictation": 25,
+        "korean": 4,
+        "meaning": 28
+      }
+    },
+    "lower_intermediate": {
+      "before": {
+        "comprehension": 61,
+        "dictation": 1852,
+        "korean": 12,
+        "meaning": 18
+      },
+      "after": {
+        "comprehension": 121,
+        "dictation": 1912,
+        "korean": 12,
+        "meaning": 18
+      }
+    }
+  },
+  "grammar_reuse": 54,
+  "reconstruction": {
+    "all31_tables_equal": true,
+    "tables": {
+      "audio_questions": true,
+      "conjugations": true,
+      "content_aliases": true,
+      "content_audio": true,
+      "content_items": true,
+      "content_links": true,
+      "content_metadata": true,
+      "courses": true,
+      "examples": true,
+      "grammar": true,
+      "grammar_examples": true,
+      "hangul": true,
+      "item_sources": true,
+      "item_tags": true,
+      "learner_notes": true,
+      "lesson_items": true,
+      "lessons": true,
+      "listening_items": true,
+      "meanings": true,
+      "media_assets": true,
+      "pronunciation_examples": true,
+      "pronunciation_presentations": true,
+      "pronunciation_rules": true,
+      "question_choices": true,
+      "questions": true,
+      "sources": true,
+      "sqlite_stat1": true,
+      "tags": true,
+      "vocabulary": true,
+      "vocabulary_examples": true,
+      "vocabulary_search": true
+    },
+    "schema_equal": true,
+    "bundle_sha256": "db66125e4dcab0b9d84ca516e93c11b43ed0cdc47ea107b5212a134a16256f8f",
+    "rebuilt_sha256": "db66125e4dcab0b9d84ca516e93c11b43ed0cdc47ea107b5212a134a16256f8f",
+    "byte_equal": true
+  },
+  "integrity": [
+    [
+      "ok"
+    ]
+  ],
+  "foreign_keys": [],
+  "native_definitions": 143,
+  "limitations": "SQL/AI review only; native/audio/independent teacher verification not executed here. Last Mac known5failed methods remain separate historical evidence."
+}

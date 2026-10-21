@@ -1,0 +1,14 @@
+test_60_novel_situations_domains_and54_grammar_context_occurrences (test_data10_b_content.Data10BTests.test_60_novel_situations_domains_and54_grammar_context_occurrences) ... ok
+test_every_old_payload_revision_membership_and_exact300_new_ids (test_data10_b_content.Data10BTests.test_every_old_payload_revision_membership_and_exact300_new_ids) ... ok
+test_frozen25_and_deterministic26_strict_reconstruction (test_data10_b_content.Data10BTests.test_frozen25_and_deterministic26_strict_reconstruction) ... ok
+test_full_source_database_rows_counts_and_integrity (test_data10_b_content.Data10BTests.test_full_source_database_rows_counts_and_integrity) ... ok
+test_questions_unique_answer_individual_wrong_feedback_and_exact_dictation (test_data10_b_content.Data10BTests.test_questions_unique_answer_individual_wrong_feedback_and_exact_dictation) ... ok
+test_real_offline_sql_pages120_ids_and_no_repeated_source_within_page (test_data10_b_content.Data10BTests.test_real_offline_sql_pages120_ids_and_no_repeated_source_within_page) ... ok
+test_review_transcript_release_tts_and_narrow_dictation_contract (test_data10_b_content.Data10BTests.test_review_transcript_release_tts_and_narrow_dictation_contract) ... ok
+test_upgrade_keeps_batch_a_snapshot_due_and_all_user_tables (test_data10_b_content.Data10BTests.test_upgrade_keeps_batch_a_snapshot_due_and_all_user_tables) ... ok
+test_validator_rejects_bad_accepted_leaked_transcript_and_missing_example (test_data10_b_content.Data10BTests.test_validator_rejects_bad_accepted_leaked_transcript_and_missing_example) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 19.094s
+
+OK

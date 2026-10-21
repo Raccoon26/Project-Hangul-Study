@@ -1,0 +1,1816 @@
+{
+  "batch": "DATA10-B",
+  "reviewer": "assistant AI self review; not independent native/teacher",
+  "reviewed_at_utc": "2026-10-21T02:30:17.950669+00:00",
+  "scope": {
+    "originals": 60,
+    "translations": 60,
+    "questions": 120,
+    "choices": 180,
+    "accepted_answers": 60
+  },
+  "independent_human_review": "NOT TESTED",
+  "actual_tts_audition": "NOT TESTED",
+  "items": [
+    {
+      "key": "B01",
+      "example_id": "ab5c091e-72cd-4450-b904-5943d87fce1a",
+      "result": "AI_SELF_REVIEWED",
+      "korean": "문법·조사·활용·띄어쓰기·지시대상·존대·상황의 자연스러움 별도 재독",
+      "japanese": "번역·시제·인용 대상/수혜자·추측/사실·의도 차이를 별도 재독",
+      "focus": "reason",
+      "correct": "友達が入口まで迎えに来てくれたから",
+      "correct_evidence_ko": "입구까지 마중을 나와 줘서",
+      "wrong_option_review": [
+        {
+          "text": "以前にも同じ場所へ行ったことがあるから",
+          "reason_ja": "初めて行く場所と言っており、再訪ではありません。"
+        },
+        {
+          "text": "行く予定を取りやめたから",
+          "reason_ja": "予定を取りやめたのではなく迎えを受けています。"
+        }
+      ],
+      "language_note": "길을 잃을까 봐は心配、마음이 놓이네요は助けを受けて今感じた安心を表します。",
+      "dictation_accepted": [
+        "처음 가는 곳이라 길을 잃을까 봐 걱정했어요. 친구가 입구까지 마중을 나와 줘서 마음이 놓이네요."
+      ],
+      "tts": "single Korean system TTS; no recording/multi-speaker attribution",
+      "transcript": "prompt_ko=null; transcript/translation/feedback only after result in existing view",
+      "grammar_keys": [
+        "A16",
+        "C18"
+      ]
+    },
+    {
+      "key": "B02",
+      "example_id": "add54a55-5fe0-4c31-b588-dd97cfa90594",
+      "result": "AI_SELF_REVIEWED",
+      "korean": "문법·조사·활용·띄어쓰기·지시대상·존대·상황의 자연스러움 별도 재독",
+      "japanese": "번역·시제·인용 대상/수혜자·추측/사실·의도 차이를 별도 재독",
+      "focus": "speaker_intent",
+      "correct": "友達を待たせて申し訳なく思っているから",
+      "correct_evidence_ko": "미안한 마음에",
+      "wrong_option_review": [
+        {
+          "text": "サークルの仕事がなくなったから",
+          "reason_ja": "仕事がなくなったとは述べていません。"
+        },
+        {
+          "text": "友達に早く来るよう頼まれたから",
+          "reason_ja": "友達に指示されたのではなく自分から考えています。"
+        }
+      ],
+      "language_note": "느라고は待たせた原因です。미안한 마음에から、次は先に着こうとする気持ちを読み取ります。",
+      "dictation_accepted": [
+        "동아리 일을 마무리하느라고 친구를 오래 기다리게 했어요. 미안한 마음에 다음에는 제가 먼저 도착하려고 해요."
+      ],
+      "tts": "single Korean system TTS; no recording/multi-speaker attribution",
+      "transcript": "prompt_ko=null; transcript/translation/feedback only after result in existing view",
+      "grammar_keys": [
+        "A02"
+      ]
+    },
+    {
+      "key": "B03",
+      "example_id": "5dbb845c-3d2f-4021-8711-7c88874ab83f",
+      "result": "AI_SELF_REVIEWED",
+      "korean": "문법·조사·활용·띄어쓰기·지시대상·존대·상황의 자연스러움 별도 재독",
+      "japanese": "번역·시제·인용 대상/수혜자·추측/사실·의도 차이를 별도 재독",
+      "focus": "main_point",
+      "correct": "緊張していても、最初はゆっくり話してみる",
+      "correct_evidence_ko": "첫 문장만 천천히 말해 볼게요",
+      "wrong_option_review": [
+        {
+          "text": "準備した内容を話さずに終える",
+          "reason_ja": "準備した内容は伝えたいと言っています。"
+        },
+        {
+          "text": "緊張がなくなるまで発表を断る",
+          "reason_ja": "緊張していても試す意向で、辞退の話ではありません。"
+        }
+      ],
+      "language_note": "긴장되기는 하지만は緊張を認めても伝える意志はあるという対比です。말해 볼게요は自分の行動の約束です。",
+      "dictation_accepted": [
+        "발표할 생각을 하면 긴장되기는 하지만 준비한 내용은 꼭 전하고 싶어요. 첫 문장만 천천히 말해 볼게요."
+      ],
+      "tts": "single Korean system TTS; no recording/multi-speaker attribution",
+      "transcript": "prompt_ko=null; transcript/translation/feedback only after result in existing view",
+      "grammar_keys": [
+        "B09",
+        "C15"
+      ]
+    },
+    {
+      "key": "B04",
+      "example_id": "8d79eab1-1ba0-487f-922a-2cc09a0acb6e",
+      "result": "AI_SELF_REVIEWED",
+      "korean": "문법·조사·활용·띄어쓰기·지시대상·존대·상황의 자연스러움 별도 재독",
+      "japanese": "번역·시제·인용 대상/수혜자·추측/사실·의도 차이를 별도 재독",
+      "focus": "detail",
+      "correct": "運転手に声をかけられて取り戻せた",
+      "correct_evidence_ko": "불러 주셔서 찾았는데",
+      "wrong_option_review": [
+        {
+          "text": "バスの中に残ったままである",
+          "reason_ja": "찾았는데から財布は戻ったと分かります。"
+        },
+        {
+          "text": "家に置いてきたことが分かった",
+          "reason_ja": "バスに置いて降りかけたので、自宅にあったのではありません。"
+        }
+      ],
+      "language_note": "내릴 뻔했어요は置いたまま降りる直前だったという意味です。まだ動揺していても財布は手元に戻っています。",
+      "dictation_accepted": [
+        "지갑을 버스에 두고 내릴 뻔했어요. 기사님이 불러 주셔서 찾았는데 아직도 가슴이 두근거리네요."
+      ],
+      "tts": "single Korean system TTS; no recording/multi-speaker attribution",
+      "transcript": "prompt_ko=null; transcript/translation/feedback only after result in existing view",
+      "grammar_keys": [
+        "B14",
+        "C18"
+      ]
+    },
+    {
+      "key": "B05",
+      "example_id": "fc668a1c-2988-4fcb-8597-1ec860491106",
+      "result": "AI_SELF_REVIEWED",
+      "korean": "문법·조사·활용·띄어쓰기·지시대상·존대·상황의 자연스러움 별도 재독",
+      "japanese": "번역·시제·인용 대상/수혜자·추측/사실·의도 차이를 별도 재독",
+      "focus": "change",
+      "correct": "少し楽になった",
+      "correct_evidence_ko": "마음이 조금 가벼워졌어요",
+      "wrong_option_review": [
+        {
+          "text": "さらに沈んだ",
+          "reason_ja": "話す前は沈んでいましたが、聞いてもらう間に楽になりました。"
+        },
+        {
+          "text": "何も感じなくなった",
+          "reason_ja": "気が楽になったという具体的な変化があります。"
+        }
+      ],
+      "language_note": "가라앉다と가벼워지다の気持ちの変化を追います。解決策をもらったとは述べていません。",
+      "dictation_accepted": [
+        "혼자 고민할 때는 기분이 점점 가라앉았어요. 친구가 제 이야기를 듣는 동안 마음이 조금 가벼워졌어요."
+      ],
+      "tts": "single Korean system TTS; no recording/multi-speaker attribution",
+      "transcript": "prompt_ko=null; transcript/translation/feedback only after result in existing view",
+      "grammar_keys": [
+        "A04",
+        "B03"
+      ]
+    },
+    {
+      "key": "B06",
+      "example_id": "69d006d7-eeaf-4e5d-8ef6-09a26ccc1fbc",
+      "result": "AI_SELF_REVIEWED",
+      "korean": "문법·조사·활용·띄어쓰기·지시대상·존대·상황의 자연스러움 별도 재독",
+      "japanese": "번역·시제·인용 대상/수혜자·추측/사실·의도 차이를 별도 재독",
+      "focus": "detail",
+      "correct": "合格の知らせを両親にも伝えること",
+      "correct_evidence_ko": "부모님께도 이 소식을 전해 달라고",
+      "wrong_option_review": [
+        {
+          "text": "両親に試験の申込みを頼むこと",
+          "reason_ja": "頼んだのは申込みではなく合格の知らせです。"
+        },
+        {
+          "text": "両親の代わりに試験を受けること",
+          "reason_ja": "誰かの代わりに受験する話はしていません。"
+        }
+      ],
+      "language_note": "형이…했다고は兄の報告です。전해 달라고は話し手から兄への依頼で、両親は知らせを受け取る人です。",
+      "dictation_accepted": [
+        "형이 시험에 붙었다고 했어요. 저는 기뻐서 부모님께도 이 소식을 전해 달라고 부탁했어요."
+      ],
+      "tts": "single Korean system TTS; no recording/multi-speaker attribution",
+      "transcript": "prompt_ko=null; transcript/translation/feedback only after result in existing view",
+      "grammar_keys": [
+        "C06",
+        "C11"
+      ]
+    },
+    {
+      "key": "B07",
+      "example_id": "966055c6-1c95-49d3-bf5e-85b1341a1e2a",
+      "result": "AI_SELF_REVIEWED",
+      "korean": "문법·조사·활용·띄어쓰기·지시대상·존대·상황의 자연스러움 별도 재독",
+      "japanese": "번역·시제·인용 대상/수혜자·추측/사실·의도 차이를 별도 재독",
+      "focus": "main_point",
+      "correct": "少し静かに休む",
+      "correct_evidence_ko": "잠깐 조용히 쉬면",
+      "wrong_option_review": [
+        {
+          "text": "無理に明るく話し続ける",
+          "reason_ja": "明るく話す必要はないと言っています。"
+        },
+        {
+          "text": "もう誰とも話さないと決める",
+          "reason_ja": "また話す元気が出るので、永久に話さない決定ではありません。"
+        }
+      ],
+      "language_note": "말할 필요가 없어요は明るく振る舞う義務を否定しています。話すこと自体を禁止してはいません。",
+      "dictation_accepted": [
+        "속상할 때는 꼭 밝게 말할 필요가 없어요. 저는 잠깐 조용히 쉬면 다시 이야기할 힘이 나요."
+      ],
+      "tts": "single Korean system TTS; no recording/multi-speaker attribution",
+      "transcript": "prompt_ko=null; transcript/translation/feedback only after result in existing view",
+      "grammar_keys": [
+        "B01",
+        "A18"
+      ]
+    },
+    {
+      "key": "B08",
+      "example_id": "4a3f3f15-7755-4bac-aff8-5053ff16bf82",
+      "result": "AI_SELF_REVIEWED",
+      "korean": "문법·조사·활용·띄어쓰기·지시대상·존대·상황의 자연스러움 별도 재독",
+      "japanese": "번역·시제·인용 대상/수혜자·추측/사실·의도 차이를 별도 재독",
+      "focus": "speaker_intent",
+      "correct": "静かな席を選ぶため",
+      "correct_evidence_ko": "조용한 자리를 골라요",
+      "wrong_option_review": [
+        {
+          "text": "参加者全員を迎えるため",
+          "reason_ja": "全員を迎えるのが目的とは述べていません。"
+        },
+        {
+          "text": "集まりを早く終わらせるため",
+          "reason_ja": "会を早く終えるのではなく静かな席を選びます。"
+        }
+      ],
+      "language_note": "많을수록は人数と不安の関係、편이에요は自分の傾向です。모임自体を避けるという話ではありません。",
+      "dictation_accepted": [
+        "사람이 많을수록 저는 마음이 불안해지는 편이에요. 그래서 모임에 일찍 가서 조용한 자리를 골라요."
+      ],
+      "tts": "single Korean system TTS; no recording/multi-speaker attribution",
+      "transcript": "prompt_ko=null; transcript/translation/feedback only after result in existing view",
+      "grammar_keys": [
+        "C17",
+        "B16"
+      ]
+    },
+    {
+      "key": "B09",
+      "example_id": "deb37da7-20db-479a-bb62-81273a828bc7",
+      "result": "AI_SELF_REVIEWED",
+      "korean": "문법·조사·활용·띄어쓰기·지시대상·존대·상황의 자연스러움 별도 재독",
+      "japanese": "번역·시제·인용 대상/수혜자·추측/사실·의도 차이를 별도 재독",
+      "focus": "speaker_intent",
+      "correct": "遠くに住む人も参加しやすくすること",
+      "correct_evidence_ko": "멀리 사는 분들도 참여하자고",
+      "wrong_option_review": [
+        {
+          "text": "近くに住む人の参加を断ること",
+          "reason_ja": "遠方の人も含めたいので、近くの人を断る提案ではありません。"
+        },
+        {
+          "text": "意見を集めること自体をやめること",
+          "reason_ja": "オンラインで意見を交わしたいと述べています。"
+        }
+      ],
+      "language_note": "대신は方法の代案です。참여하자고は話し手も含む参加の呼びかけで、参加を断る表現ではありません。",
+      "dictation_accepted": [
+        "직접 모이는 대신 온라인으로 의견을 나누면 좋겠어요. 멀리 사는 분들도 참여하자고 말씀드리고 싶어요."
+      ],
+      "tts": "single Korean system TTS; no recording/multi-speaker attribution",
+      "transcript": "prompt_ko=null; transcript/translation/feedback only after result in existing view",
+      "grammar_keys": [
+        "B17",
+        "C09"
+      ]
+    },
+    {
+      "key": "B10",
+      "example_id": "cf0d5e54-ea48-4a20-bdd4-5f389053c3d1",
+      "result": "AI_SELF_REVIEWED",
+      "korean": "문법·조사·활용·띄어쓰기·지시대상·존대·상황의 자연스러움 별도 재독",
+      "japanese": "번역·시제·인용 대상/수혜자·추측/사실·의도 차이를 별도 재독",
+      "focus": "main_point",
+      "correct": "重要な議題を一つ整理する",
+      "correct_evidence_ko": "중요한 안건 하나만",
+      "wrong_option_review": [
+        {
+          "text": "すべての議題を終わらせる",
+          "reason_ja": "하나만なので全議題ではありません。"
+        },
+        {
+          "text": "次の会議の日程だけ決める",
+          "reason_ja": "日程だけを決めるのでなく議題を整理する提案です。"
+        }
+      ],
+      "language_note": "삼십 분이라도は最低限の代案です。안건 하나만とあるので全議題を終える提案ではありません。",
+      "dictation_accepted": [
+        "긴 회의가 어렵다면 삼십 분이라도 이야기하면 좋겠어요. 중요한 안건 하나만 먼저 정리할까요?"
+      ],
+      "tts": "single Korean system TTS; no recording/multi-speaker attribution",
+      "transcript": "prompt_ko=null; transcript/translation/feedback only after result in existing view",
+      "grammar_keys": [
+        "B10",
+        "C12"
+      ]
+    },
+    {
+      "key": "B11",
+      "example_id": "5708e45f-e875-4fa1-a612-2c0470623186",
+      "result": "AI_SELF_REVIEWED",
+      "korean": "문법·조사·활용·띄어쓰기·지시대상·존대·상황의 자연스러움 별도 재독",
+      "japanese": "번역·시제·인용 대상/수혜자·추측/사실·의도 차이를 별도 재독",
+      "focus": "judgment",
+      "correct": "小さく試してから判断したい",
+      "correct_evidence_ko": "시험해 본 다음에 결정하고 싶어요",
+      "wrong_option_review": [
+        {
+          "text": "試す前からよくないと決めている",
+          "reason_ja": "よいか悪いかまだ分からないので、悪いと断定していません。"
+        },
+        {
+          "text": "どんな仕事にもすぐ使いたい",
+          "reason_ja": "小さなことから試す段階で、全面採用ではありません。"
+        }
+      ],
+      "language_note": "써 보지 않은は未経験の方法を修飾し、좋은지 나쁜지 모르겠어요は判断を保留しています。",
+      "dictation_accepted": [
+        "아직 써 보지 않은 방법이 좋은지 나쁜지 모르겠어요. 작은 일부터 시험해 본 다음에 결정하고 싶어요."
+      ],
+      "tts": "single Korean system TTS; no recording/multi-speaker attribution",
+      "transcript": "prompt_ko=null; transcript/translation/feedback only after result in existing view",
+      "grammar_keys": [
+        "C01",
+        "C05"
+      ]
+    },
+    {
+      "key": "B12",
+      "example_id": "5e39b48c-6d54-4dd2-838a-ac3a4d5a3094",
+      "result": "AI_SELF_REVIEWED",
+      "korean": "문법·조사·활용·띄어쓰기·지시대상·존대·상황의 자연스러움 별도 재독",
+      "japanese": "번역·시제·인용 대상/수혜자·추측/사실·의도 차이를 별도 재독",
+      "focus": "condition",
+      "correct": "活動が週末にある場合",
+      "correct_evidence_ko": "주말이라면 저도 참여할래요",
+      "wrong_option_review": [
+        {
+          "text": "活動が平日の昼にある場合",
+          "reason_ja": "平日は仕事を休みにくいと言っています。"
+        },
+        {
+          "text": "日程を知らせてもらえない場合",
+          "reason_ja": "まず日程を知りたいので、知らせ不要ではありません。"
+        }
+      ],
+      "language_note": "주말이라면が参加の条件です。참여할래요は自分の意向で、平日の参加を約束していません。",
+      "dictation_accepted": [
+        "봉사 활동이 주말이라면 저도 참여할래요. 평일에는 일을 쉬기 어려워서 날짜를 먼저 알고 싶어요."
+      ],
+      "tts": "single Korean system TTS; no recording/multi-speaker attribution",
+      "transcript": "prompt_ko=null; transcript/translation/feedback only after result in existing view",
+      "grammar_keys": [
+        "A07",
+        "C13"
+      ]
+    },
+    {
+      "key": "B13",
+      "example_id": "3c1d8d31-92fb-412f-86bb-e66ee1bf61c0",
+      "result": "AI_SELF_REVIEWED",
+      "korean": "문법·조사·활용·띄어쓰기·지시대상·존대·상황의 자연스러움 별도 재독",
+      "japanese": "번역·시제·인용 대상/수혜자·추측/사실·의도 차이를 별도 재독",
+      "focus": "main_point",
+      "correct": "間違いを伝えるときの言い方",
+      "correct_evidence_ko": "말투가 너무 강하면 듣기 어려워요",
+      "wrong_option_review": [
+        {
+          "text": "間違いを知らせるまでの長い待ち時間",
+          "reason_ja": "すぐ知らせてもらえることには感謝しています。"
+        },
+        {
+          "text": "間違いを指摘しないこと",
+          "reason_ja": "指摘自体でなく、きつい言い方への要望です。"
+        }
+      ],
+      "language_note": "内容への感謝と言い方への負担は両立します。맞아도は指摘が正しい場合にも成り立つ対比です。",
+      "dictation_accepted": [
+        "실수한 것을 바로 알려 주는 건 고마운 일이에요. 다만 내용이 맞아도 말투가 너무 강하면 듣기 어려워요."
+      ],
+      "tts": "single Korean system TTS; no recording/multi-speaker attribution",
+      "transcript": "prompt_ko=null; transcript/translation/feedback only after result in existing view",
+      "grammar_keys": [
+        "C02",
+        "B08"
+      ]
+    },
+    {
+      "key": "B14",
+      "example_id": "1f9a9c63-3724-4c9f-b568-32265b4c7aa8",
+      "result": "AI_SELF_REVIEWED",
+      "korean": "문법·조사·활용·띄어쓰기·지시대상·존대·상황의 자연스러움 별도 재독",
+      "japanese": "번역·시제·인용 대상/수혜자·추측/사실·의도 차이를 별도 재독",
+      "focus": "reason",
+      "correct": "正式な案内をまだ確認していないから",
+      "correct_evidence_ko": "아직 안내문은 못 봤어요",
+      "wrong_option_review": [
+        {
+          "text": "値下げが決定したと知っているから",
+          "reason_ja": "値下げが決まったとは述べていません。"
+        },
+        {
+          "text": "来月は授業がないから",
+          "reason_ja": "来月の授業がなくなるとは述べていません。"
+        }
+      ],
+      "language_note": "오른다는 이야기は伝聞内容を修飾します。未確認の話と正式な案内を区別して聞きます。",
+      "dictation_accepted": [
+        "다음 달부터 수업료가 오른다는 이야기를 들었는데 아직 안내문은 못 봤어요. 확인하기 전에는 다른 분들께 확정된 일처럼 말하지 않으려고 해요."
+      ],
+      "tts": "single Korean system TTS; no recording/multi-speaker attribution",
+      "transcript": "prompt_ko=null; transcript/translation/feedback only after result in existing view",
+      "grammar_keys": [
+        "C07",
+        "B07"
+      ]
+    },
+    {
+      "key": "B15",
+      "example_id": "f911d313-7809-4430-8087-6d4eeca2fa95",
+      "result": "AI_SELF_REVIEWED",
+      "korean": "문법·조사·활용·띄어쓰기·지시대상·존대·상황의 자연스러움 별도 재독",
+      "japanese": "번역·시제·인용 대상/수혜자·추측/사실·의도 차이를 별도 재독",
+      "focus": "speaker_intent",
+      "correct": "提案書を読み、反対する部分も伝えること",
+      "correct_evidence_ko": "찬성하지 않는 부분도",
+      "wrong_option_review": [
+        {
+          "text": "提案書に必ず賛成すること",
+          "reason_ja": "反対する部分も聞きたいので、必ず賛成する必要はありません。"
+        },
+        {
+          "text": "反対する部分を黙って削除すること",
+          "reason_ja": "知らせてほしいので、黙って削除する依頼ではありません。"
+        }
+      ],
+      "language_note": "있거든は相手に時間がある場合の依頼です。反対意見も求めており、賛成だけを期待してはいません。",
+      "dictation_accepted": [
+        "시간이 있거든 제가 쓴 제안서를 읽어 주실래요? 찬성하지 않는 부분도 편하게 알려 주시면 좋겠어요."
+      ],
+      "tts": "single Korean system TTS; no recording/multi-speaker attribution",
+      "transcript": "prompt_ko=null; transcript/translation/feedback only after result in existing view",
+      "grammar_keys": [
+        "A08",
+        "C14"
+      ]
+    },
+    {
+      "key": "B16",
+      "example_id": "3217c93b-3911-4020-af3f-5d0c2aef99b2",
+      "result": "AI_SELF_REVIEWED",
+      "korean": "문법·조사·활용·띄어쓰기·지시대상·존대·상황의 자연스러움 별도 재독",
+      "japanese": "번역·시제·인용 대상/수혜자·추측/사실·의도 차이를 별도 재독",
+      "focus": "main_point",
+      "correct": "難しい言葉を減らして必要な情報を先に示す",
+      "correct_evidence_ko": "어려운 말을 줄이고 필요한 정보부터",
+      "wrong_option_review": [
+        {
+          "text": "詳しい専門用語を先に並べる",
+          "reason_ja": "難しい言葉は減らしたいと述べています。"
+        },
+        {
+          "text": "初めて来る人への情報を省く",
+          "reason_ja": "初めて来る人のための情報を示す方針です。"
+        }
+      ],
+      "language_note": "위해は読み手を意識した目的です。겠지요は必要性について相手に同意を求めています。",
+      "dictation_accepted": [
+        "이 안내문은 처음 오는 사람들을 위해 쉽게 써야겠지요? 어려운 말을 줄이고 필요한 정보부터 보여 주면 좋겠어요."
+      ],
+      "tts": "single Korean system TTS; no recording/multi-speaker attribution",
+      "transcript": "prompt_ko=null; transcript/translation/feedback only after result in existing view",
+      "grammar_keys": [
+        "A10",
+        "C16"
+      ]
+    },
+    {
+      "key": "B17",
+      "example_id": "9dca4e8c-23c3-4309-9147-33743fbd48e7",
+      "result": "AI_SELF_REVIEWED",
+      "korean": "문법·조사·활용·띄어쓰기·지시대상·존대·상황의 자연스러움 별도 재독",
+      "japanese": "번역·시제·인용 대상/수혜자·추측/사실·의도 차이를 별도 재독",
+      "focus": "evidence",
+      "correct": "明かりが消え、ドアに鍵がかかっていること",
+      "correct_evidence_ko": "불이 꺼져 있고 문도 잠겨 있어요",
+      "wrong_option_review": [
+        {
+          "text": "店員から休みだと聞いたこと",
+          "reason_ja": "店員から聞いたという情報はありません。"
+        },
+        {
+          "text": "閉店時間を案内で確かめたこと",
+          "reason_ja": "案内で時刻を確認したのでなく、見た状態からの推測です。"
+        }
+      ],
+      "language_note": "꺼져 있고/잠겨 있어요は現在の状態、닫았나 봐요はその状態に基づく推測です。閉店理由までは分かりません。",
+      "dictation_accepted": [
+        "가게 불이 꺼져 있고 문도 잠겨 있어요. 오늘은 일찍 문을 닫았나 봐요. 다른 곳에 가 보는 게 좋겠어요."
+      ],
+      "tts": "single Korean system TTS; no recording/multi-speaker attribution",
+      "transcript": "prompt_ko=null; transcript/translation/feedback only after result in existing view",
+      "grammar_keys": [
+        "B06",
+        "C03"
+      ]
+    },
+    {
+      "key": "B18",
+      "example_id": "e233db05-8090-4bdc-a365-bd5e28bcde71",
+      "result": "AI_SELF_REVIEWED",
+      "korean": "문법·조사·활용·띄어쓰기·지시대상·존대·상황의 자연스러움 별도 재독",
+      "japanese": "번역·시제·인용 대상/수혜자·추측/사실·의도 차이를 별도 재독",
+      "focus": "reason",
+      "correct": "渋滞で列車に乗り遅れるのが心配だから",
+      "correct_evidence_ko": "기차를 놓칠까 봐",
+      "wrong_option_review": [
+        {
+          "text": "列車の出発が早まったと連絡されたから",
+          "reason_ja": "列車の出発時刻が変わったとは言っていません。"
+        },
+        {
+          "text": "帰宅時間の道路は必ず空いているから",
+          "reason_ja": "渋滞する可能性を心配しており、必ず空いているわけではありません。"
+        }
+      ],
+      "language_note": "막힐지도は可能性であり、すでに渋滞しているという報告ではありません。早く出るのは列車に間に合うためです。",
+      "dictation_accepted": [
+        "퇴근 시간에는 길이 막힐지도 몰라요. 기차를 놓칠까 봐 평소보다 일찍 출발하려고 해요."
+      ],
+      "tts": "single Korean system TTS; no recording/multi-speaker attribution",
+      "transcript": "prompt_ko=null; transcript/translation/feedback only after result in existing view",
+      "grammar_keys": [
+        "C04",
+        "A16"
+      ]
+    },
+    {
+      "key": "B19",
+      "example_id": "7ba653f6-ec66-48d7-8806-072a9786fed4",
+      "result": "AI_SELF_REVIEWED",
+      "korean": "문법·조사·활용·띄어쓰기·지시대상·존대·상황의 자연스러움 별도 재독",
+      "japanese": "번역·시제·인용 대상/수혜자·추측/사실·의도 차이를 별도 재독",
+      "focus": "change",
+      "correct": "高い音でも最後まで楽に歌っている",
+      "correct_evidence_ko": "오늘은 끝까지 편하게 부르네요",
+      "wrong_option_review": [
+        {
+          "text": "高い音の前で毎回やめている",
+          "reason_ja": "今日は最後まで歌っており、毎回やめるのは以前の観察です。"
+        },
+        {
+          "text": "先月より短い曲だけを歌っている",
+          "reason_ja": "曲の長さを短くしたという情報はありません。"
+        }
+      ],
+      "language_note": "멈추더니は以前に観察した様子と今日の変化をつなぎます。練習量は観察からの推測です。",
+      "dictation_accepted": [
+        "지난달에는 그 가수가 높은 음에서 자주 멈추더니 오늘은 끝까지 편하게 부르네요. 연습을 많이 했을 것 같아요."
+      ],
+      "tts": "single Korean system TTS; no recording/multi-speaker attribution",
+      "transcript": "prompt_ko=null; transcript/translation/feedback only after result in existing view",
+      "grammar_keys": [
+        "B11",
+        "C18"
+      ]
+    },
+    {
+      "key": "B20",
+      "example_id": "1de99988-0f8d-45d7-a14b-e766dc69ae4c",
+      "result": "AI_SELF_REVIEWED",
+      "korean": "문법·조사·활용·띄어쓰기·지시대상·존대·상황의 자연스러움 별도 재독",
+      "japanese": "번역·시제·인용 대상/수혜자·추측/사실·의도 차이를 별도 재독",
+      "focus": "detail",
+      "correct": "割引がいつまで続くか",
+      "correct_evidence_ko": "기간부터 확인해야 해요",
+      "wrong_option_review": [
+        {
+          "text": "割引後の値段だけ",
+          "reason_ja": "値段だけでなく割引の終了時期を知りたいと言っています。"
+        },
+        {
+          "text": "店の閉店時刻",
+          "reason_ja": "店の閉店時刻と割引期間を混同しています。"
+        }
+      ],
+      "language_note": "끝나는지は未確認の情報です。購入を急ぐべきか判断するための先行条件を聞き取ります。",
+      "dictation_accepted": [
+        "할인이 언제 끝나는지 아직 몰라요. 오늘 꼭 사야 하는지 판단하려면 기간부터 확인해야 해요."
+      ],
+      "tts": "single Korean system TTS; no recording/multi-speaker attribution",
+      "transcript": "prompt_ko=null; transcript/translation/feedback only after result in existing view",
+      "grammar_keys": [
+        "C05",
+        "A09"
+      ]
+    },
+    {
+      "key": "B21",
+      "example_id": "8e8d9f90-47a4-491e-bc96-837d7cafe8fc",
+      "result": "AI_SELF_REVIEWED",
+      "korean": "문법·조사·활용·띄어쓰기·지시대상·존대·상황의 자연스러움 별도 재독",
+      "japanese": "번역·시제·인용 대상/수혜자·추측/사실·의도 차이를 별도 재독",
+      "focus": "judgment",
+      "correct": "自分に合う甘さ",
+      "correct_evidence_ko": "제 입에는 덜 단 과자가 더 잘 맞는",
+      "wrong_option_review": [
+        {
+          "text": "値段の高さだけ",
+          "reason_ja": "値段だけで選ぶ以前の判断が変わっています。"
+        },
+        {
+          "text": "箱の大きさだけ",
+          "reason_ja": "箱の大きさは判断基準として挙げていません。"
+        }
+      ],
+      "language_note": "以前の価格による判断と実食後の好みを区別します。高価な菓子が誰にとってもまずいという主張ではありません。",
+      "dictation_accepted": [
+        "가격이 비쌀수록 맛도 좋다고 생각했어요. 그런데 직접 먹어 보니 제 입에는 덜 단 과자가 더 잘 맞는 편이에요."
+      ],
+      "tts": "single Korean system TTS; no recording/multi-speaker attribution",
+      "transcript": "prompt_ko=null; transcript/translation/feedback only after result in existing view",
+      "grammar_keys": [
+        "C17",
+        "B16"
+      ]
+    },
+    {
+      "key": "B22",
+      "example_id": "b78858c2-d094-459b-aff5-5521d01232a9",
+      "result": "AI_SELF_REVIEWED",
+      "korean": "문법·조사·활용·띄어쓰기·지시대상·존대·상황의 자연스러움 별도 재독",
+      "japanese": "번역·시제·인용 대상/수혜자·추측/사실·의도 차이를 별도 재독",
+      "focus": "plan",
+      "correct": "今は切り替えず、次の作業のときに再検討する",
+      "correct_evidence_ko": "다음 작업을 시작할 때 다시 비교해",
+      "wrong_option_review": [
+        {
+          "text": "便利なので今すぐ全部切り替える",
+          "reason_ja": "今は必ずしも変える必要がないと判断しています。"
+        },
+        {
+          "text": "今後も新しいソフトを一切比較しない",
+          "reason_ja": "次の作業で比較する予定なので、永久に比較しないのではありません。"
+        }
+      ],
+      "language_note": "편리하기는 하지만は長所を認めた上での判断です。現時点での切替えと次回の比較を区別します。",
+      "dictation_accepted": [
+        "새 프로그램이 편리하기는 하지만 지금 하는 일에는 꼭 바꿀 필요가 없어요. 다음 작업을 시작할 때 다시 비교해 보려고 해요."
+      ],
+      "tts": "single Korean system TTS; no recording/multi-speaker attribution",
+      "transcript": "prompt_ko=null; transcript/translation/feedback only after result in existing view",
+      "grammar_keys": [
+        "B09",
+        "A18"
+      ]
+    },
+    {
+      "key": "B23",
+      "example_id": "363b3c32-980e-4d3d-a1b3-d22c7a9654d6",
+      "result": "AI_SELF_REVIEWED",
+      "korean": "문법·조사·활용·띄어쓰기·지시대상·존대·상황의 자연스러움 별도 재독",
+      "japanese": "번역·시제·인용 대상/수혜자·추측/사실·의도 차이를 별도 재독",
+      "focus": "speaker_intent",
+      "correct": "遅れた事情を聞く",
+      "correct_evidence_ko": "무슨 일이 있었는지 먼저 들어 봐야겠어요",
+      "wrong_option_review": [
+        {
+          "text": "無責任だと皆に伝える",
+          "reason_ja": "無責任とすぐ判断したくないと言っています。"
+        },
+        {
+          "text": "遅れた理由を聞かずに決めつける",
+          "reason_ja": "事情を聞いてから考える意向に反します。"
+        }
+      ],
+      "language_note": "것は遅れたという事実をまとめます。その理由を聞く前の性急な人物評価を避けたい意図です。",
+      "dictation_accepted": [
+        "늦게 왔다는 것만으로 무책임하다고 판단하고 싶지는 않아요. 무슨 일이 있었는지 먼저 들어 봐야겠어요."
+      ],
+      "tts": "single Korean system TTS; no recording/multi-speaker attribution",
+      "transcript": "prompt_ko=null; transcript/translation/feedback only after result in existing view",
+      "grammar_keys": [
+        "C02",
+        "C05"
+      ]
+    },
+    {
+      "key": "B24",
+      "example_id": "d747457d-2b02-4787-b5de-89613f0d2d16",
+      "result": "AI_SELF_REVIEWED",
+      "korean": "문법·조사·활용·띄어쓰기·지시대상·존대·상황의 자연스러움 별도 재독",
+      "japanese": "번역·시제·인용 대상/수혜자·추측/사실·의도 차이를 별도 재독",
+      "focus": "sequence",
+      "correct": "オンライン授業が終わった後",
+      "correct_evidence_ko": "수업이 끝나고 나서",
+      "wrong_option_review": [
+        {
+          "text": "オンライン授業が始まる前",
+          "reason_ja": "끝나고 나서は終了後で、授業前ではありません。"
+        },
+        {
+          "text": "授業の途中で音がした直後",
+          "reason_ja": "授業中の移動ではなく、終了後に探しました。"
+        }
+      ],
+      "language_note": "때문에は集中できなかった原因、끝나고 나서は場所を探した順序を表します。授業中に移動したとは言っていません。",
+      "dictation_accepted": [
+        "옆방 소음 때문에 온라인 수업에 집중하기 어려웠어요. 수업이 끝나고 나서 조용한 장소를 찾아봤어요."
+      ],
+      "tts": "single Korean system TTS; no recording/multi-speaker attribution",
+      "transcript": "prompt_ko=null; transcript/translation/feedback only after result in existing view",
+      "grammar_keys": [
+        "A01",
+        "B02"
+      ]
+    },
+    {
+      "key": "B25",
+      "example_id": "77e1e9c3-2d7e-44d6-a2bd-e81d0c213374",
+      "result": "AI_SELF_REVIEWED",
+      "korean": "문법·조사·활용·띄어쓰기·지시대상·존대·상황의 자연스러움 별도 재독",
+      "japanese": "번역·시제·인용 대상/수혜자·추측/사실·의도 차이를 별도 재독",
+      "focus": "reason",
+      "correct": "パソコンが急に切れたこと",
+      "correct_evidence_ko": "컴퓨터가 갑자기 꺼지는 바람에",
+      "wrong_option_review": [
+        {
+          "text": "会議のリンクを誰にもらうか迷ったこと",
+          "reason_ja": "リンクを誰にもらうかは理由に挙げていません。"
+        },
+        {
+          "text": "会議の日を忘れていたこと",
+          "reason_ja": "会議を忘れたのではなくパソコンの不調です。"
+        }
+      ],
+      "language_note": "꺼지는 바람에は予想外の不都合な原因です。켜고 나서야は再起動が済むまでリンクを開けなかったことを示します。",
+      "dictation_accepted": [
+        "컴퓨터가 갑자기 꺼지는 바람에 회의에 늦게 들어갔어요. 다시 켜고 나서야 회의 링크를 열 수 있었어요."
+      ],
+      "tts": "single Korean system TTS; no recording/multi-speaker attribution",
+      "transcript": "prompt_ko=null; transcript/translation/feedback only after result in existing view",
+      "grammar_keys": [
+        "A03",
+        "B15"
+      ]
+    },
+    {
+      "key": "B26",
+      "example_id": "ac0b4371-e1a5-4c5f-b6ee-a2196ea8a536",
+      "result": "AI_SELF_REVIEWED",
+      "korean": "문법·조사·활용·띄어쓰기·지시대상·존대·상황의 자연스러움 별도 재독",
+      "japanese": "번역·시제·인용 대상/수혜자·추측/사실·의도 차이를 별도 재독",
+      "focus": "speaker_intent",
+      "correct": "遅れる前に連絡すること",
+      "correct_evidence_ko": "늦기 전에 연락드릴게요",
+      "wrong_option_review": [
+        {
+          "text": "約束の時間を知らせないこと",
+          "reason_ja": "今後は連絡する約束で、知らせない方針ではありません。"
+        },
+        {
+          "text": "電話が来たら毎回約束を取り消すこと",
+          "reason_ja": "遅れる前の連絡で、電話が来るたび取り消す約束ではありません。"
+        }
+      ],
+      "language_note": "電話対応が遅刻の理由です。연락드릴게요は今後の対応の約束で、すでに連絡したという意味ではありません。",
+      "dictation_accepted": [
+        "급한 전화를 받느라고 약속 시간을 놓쳤어요. 기다리게 해서 죄송해요. 다음에는 늦기 전에 연락드릴게요."
+      ],
+      "tts": "single Korean system TTS; no recording/multi-speaker attribution",
+      "transcript": "prompt_ko=null; transcript/translation/feedback only after result in existing view",
+      "grammar_keys": [
+        "A02",
+        "C15"
+      ]
+    },
+    {
+      "key": "B27",
+      "example_id": "2915ccab-23c1-4917-ad20-591c6b8051d2",
+      "result": "AI_SELF_REVIEWED",
+      "korean": "문법·조사·활용·띄어쓰기·지시대상·존대·상황의 자연스러움 별도 재독",
+      "japanese": "번역·시제·인용 대상/수혜자·추측/사실·의도 차이를 별도 재독",
+      "focus": "speaker_intent",
+      "correct": "相手が十分に答える時間を持てるようにすること",
+      "correct_evidence_ko": "대답할 시간을 충분히 주도록",
+      "wrong_option_review": [
+        {
+          "text": "相手が理由を説明できないようにすること",
+          "reason_ja": "相手の説明を妨げるのとは反対に、答える時間を取ります。"
+        },
+        {
+          "text": "こちらの意見だけを長く話すこと",
+          "reason_ja": "相手の考えを知りたいので、自分だけ話すのではありません。"
+        }
+      ],
+      "language_note": "이해하려면は目的に必要な方法、주도록は答える時間を確保するという目標です。",
+      "dictation_accepted": [
+        "상대의 생각을 이해하려면 이유부터 물어보는 게 좋아요. 대답할 시간을 충분히 주도록 질문을 짧게 해 보세요."
+      ],
+      "tts": "single Korean system TTS; no recording/multi-speaker attribution",
+      "transcript": "prompt_ko=null; transcript/translation/feedback only after result in existing view",
+      "grammar_keys": [
+        "A09",
+        "A11"
+      ]
+    },
+    {
+      "key": "B28",
+      "example_id": "3793717f-a5fa-4bc1-aebe-6867aca82b31",
+      "result": "AI_SELF_REVIEWED",
+      "korean": "문법·조사·활용·띄어쓰기·지시대상·존대·상황의 자연스러움 별도 재독",
+      "japanese": "번역·시제·인용 대상/수혜자·추측/사실·의도 차이를 별도 재독",
+      "focus": "detail",
+      "correct": "同じ問題がよく出てくること",
+      "correct_evidence_ko": "같은 문제가 자주 나오는 걸 알았어요",
+      "wrong_option_review": [
+        {
+          "text": "問題の原因がすべて解決したこと",
+          "reason_ja": "原因を見つける助けになりそうという段階で、全解決ではありません。"
+        },
+        {
+          "text": "会議を開く必要がないこと",
+          "reason_ja": "会議が不要になったという話はありません。"
+        }
+      ],
+      "language_note": "적다 보니はすでに得た発見、기록하다 보면は継続した場合に期待する結果です。原因はまだ特定していません。",
+      "dictation_accepted": [
+        "회의 내용을 계속 적다 보니 같은 문제가 자주 나오는 걸 알았어요. 이렇게 기록하다 보면 원인을 찾는 데 도움이 될 것 같아요."
+      ],
+      "tts": "single Korean system TTS; no recording/multi-speaker attribution",
+      "transcript": "prompt_ko=null; transcript/translation/feedback only after result in existing view",
+      "grammar_keys": [
+        "B13",
+        "A17"
+      ]
+    },
+    {
+      "key": "B29",
+      "example_id": "6f529367-7d85-45ff-80c2-5f6c7f74e07b",
+      "result": "AI_SELF_REVIEWED",
+      "korean": "문법·조사·활용·띄어쓰기·지시대상·존대·상황의 자연스러움 별도 재독",
+      "japanese": "번역·시제·인용 대상/수혜자·추측/사실·의도 차이를 별도 재독",
+      "focus": "result",
+      "correct": "先生が日程を変えてくれた",
+      "correct_evidence_ko": "선생님이 일정을 바꿔 주셨어요",
+      "wrong_option_review": [
+        {
+          "text": "先生からメールを書き直すよう頼まれた",
+          "reason_ja": "メールの書き直しを求められたとは述べていません。"
+        },
+        {
+          "text": "先生が予定どおりにすることを決めた",
+          "reason_ja": "日程を変えてもらったので、予定どおりではありません。"
+        }
+      ],
+      "language_note": "보냈더니は自分の行動の後に得た結果です。予定変更を頼まれたのではなく、説明の後で変更してもらっています。",
+      "dictation_accepted": [
+        "이유를 자세히 써서 메일을 보냈더니 선생님이 일정을 바꿔 주셨어요. 설명을 듣고 사정을 이해해 주셨네요."
+      ],
+      "tts": "single Korean system TTS; no recording/multi-speaker attribution",
+      "transcript": "prompt_ko=null; transcript/translation/feedback only after result in existing view",
+      "grammar_keys": [
+        "B12",
+        "C18"
+      ]
+    },
+    {
+      "key": "B30",
+      "example_id": "b4740ba0-19bb-405f-bd2b-6cc1070113cc",
+      "result": "AI_SELF_REVIEWED",
+      "korean": "문법·조사·활용·띄어쓰기·지시대상·존대·상황의 자연스러움 별도 재독",
+      "japanese": "번역·시제·인용 대상/수혜자·추측/사실·의도 차이를 별도 재독",
+      "focus": "reason",
+      "correct": "床が乾くまで安全を確認する必要があるから",
+      "correct_evidence_ko": "바닥이 마를 때까지",
+      "wrong_option_review": [
+        {
+          "text": "安全確認がすでに終わったから",
+          "reason_ja": "安全確認が先で、すでに終わったとは言っていません。"
+        },
+        {
+          "text": "担当者が鍵を持って戻るのを待つから",
+          "reason_ja": "制限の条件は床が乾くまでで、鍵を待つことではありません。"
+        }
+      ],
+      "language_note": "먼저라고は担当者の説明、들어가지 말라고は入らないようにという指示の引用です。",
+      "dictation_accepted": [
+        "담당자가 안전 확인이 먼저라고 했어요. 바닥이 마를 때까지 안으로 들어가지 말라고 안내했어요."
+      ],
+      "tts": "single Korean system TTS; no recording/multi-speaker attribution",
+      "transcript": "prompt_ko=null; transcript/translation/feedback only after result in existing view",
+      "grammar_keys": [
+        "C06",
+        "C08"
+      ]
+    },
+    {
+      "key": "B31",
+      "example_id": "abc42122-2979-4ff4-a798-0272c4f19dc1",
+      "result": "AI_SELF_REVIEWED",
+      "korean": "문법·조사·활용·띄어쓰기·지시대상·존대·상황의 자연스러움 별도 재독",
+      "japanese": "번역·시제·인용 대상/수혜자·추측/사실·의도 차이를 별도 재독",
+      "focus": "change",
+      "correct": "準備期間が一週間延びた",
+      "correct_evidence_ko": "준비 기간을 일주일 더 갖게 됐어요",
+      "wrong_option_review": [
+        {
+          "text": "準備期間が一週間短くなった",
+          "reason_ja": "더は追加を表し、短縮ではありません。"
+        },
+        {
+          "text": "アンケートを取りやめた",
+          "reason_ja": "アンケートの結果を受けて日程を再検討しました。"
+        }
+      ],
+      "language_note": "나오자마자は話合いの時点、갖게 됐어요はその結果決まった変更です。",
+      "dictation_accepted": [
+        "설문 결과가 나오자마자 팀에서 일정을 다시 논의했어요. 의견이 많아서 준비 기간을 일주일 더 갖게 됐어요."
+      ],
+      "tts": "single Korean system TTS; no recording/multi-speaker attribution",
+      "transcript": "prompt_ko=null; transcript/translation/feedback only after result in existing view",
+      "grammar_keys": [
+        "B04",
+        "A05"
+      ]
+    },
+    {
+      "key": "B32",
+      "example_id": "bcfc0a58-cdcc-4017-9d90-065dc2595f1a",
+      "result": "AI_SELF_REVIEWED",
+      "korean": "문법·조사·활용·띄어쓰기·지시대상·존대·상황의 자연스러움 별도 재독",
+      "japanese": "번역·시제·인용 대상/수혜자·추측/사실·의도 차이를 별도 재독",
+      "focus": "reason",
+      "correct": "鍋を焦がしてしまったから",
+      "correct_evidence_ko": "냄비가 타서",
+      "wrong_option_review": [
+        {
+          "text": "電話の声を外に聞かせるため",
+          "reason_ja": "窓を開けた理由は焦がしたことで、電話の声ではありません。"
+        },
+        {
+          "text": "料理を冷やして食べるため",
+          "reason_ja": "料理を冷やすためとは述べていません。"
+        }
+      ],
+      "language_note": "요리하다가는作業の中断、열려 있어요は現在の結果状態です。今しているのは電話だと決めつけません。",
+      "dictation_accepted": [
+        "요리하다가 전화를 오래 받았어요. 냄비가 타서 지금 부엌 창문이 열려 있어요."
+      ],
+      "tts": "single Korean system TTS; no recording/multi-speaker attribution",
+      "transcript": "prompt_ko=null; transcript/translation/feedback only after result in existing view",
+      "grammar_keys": [
+        "B05",
+        "B06"
+      ]
+    },
+    {
+      "key": "B33",
+      "example_id": "09df48a9-d547-4630-b0b4-9707979525f4",
+      "result": "AI_SELF_REVIEWED",
+      "korean": "문법·조사·활용·띄어쓰기·지시대상·존대·상황의 자연스러움 별도 재독",
+      "japanese": "번역·시제·인용 대상/수혜자·추측/사실·의도 차이를 별도 재독",
+      "focus": "speaker_intent",
+      "correct": "結論を出す前にもう一度尋ねる",
+      "correct_evidence_ko": "결론을 내리기 전에 한 번 더 물어봐야겠어요",
+      "wrong_option_review": [
+        {
+          "text": "自分の判断を相手に必ず認めさせる",
+          "reason_ja": "相手を従わせるのでなく、自分の誤解を避ける意向です。"
+        },
+        {
+          "text": "説明を聞かずに結論を出す",
+          "reason_ja": "説明を聞いた経験から、確認を増やす方針です。"
+        }
+      ],
+      "language_note": "듣고 나서야は説明を聞くまでは気づかなかったことを示します。물어봐야겠어요は経験から決めた今後の対応です。",
+      "dictation_accepted": [
+        "친구의 설명을 듣고 나서야 제가 오해했다는 걸 알았어요. 앞으로는 결론을 내리기 전에 한 번 더 물어봐야겠어요."
+      ],
+      "tts": "single Korean system TTS; no recording/multi-speaker attribution",
+      "transcript": "prompt_ko=null; transcript/translation/feedback only after result in existing view",
+      "grammar_keys": [
+        "B15",
+        "A15"
+      ]
+    },
+    {
+      "key": "B34",
+      "example_id": "1cb00bfa-808d-44f5-acd6-3047c3eb98cb",
+      "result": "AI_SELF_REVIEWED",
+      "korean": "문법·조사·활용·띄어쓰기·지시대상·존대·상황의 자연스러움 별도 재독",
+      "japanese": "번역·시제·인용 대상/수혜자·추측/사실·의도 차이를 별도 재독",
+      "focus": "change",
+      "correct": "かえって気が楽になった",
+      "correct_evidence_ko": "오히려 마음이 편해졌어요",
+      "wrong_option_review": [
+        {
+          "text": "選べないほど不安になった",
+          "reason_ja": "少なくなって気が楽になったので、不安が強まったのではありません。"
+        },
+        {
+          "text": "決めるのに以前より時間がかかった",
+          "reason_ja": "時間がかかるのは種類が多い場合の話です。"
+        }
+      ],
+      "language_note": "적어지다は選択肢の減少です。오히려は減ったことで予想に反して気が楽になったという反応を示します。",
+      "dictation_accepted": [
+        "선택할 수 있는 물건이 적어지니까 오히려 마음이 편해졌어요. 저는 종류가 많을수록 결정하는 데 시간이 더 걸려요."
+      ],
+      "tts": "single Korean system TTS; no recording/multi-speaker attribution",
+      "transcript": "prompt_ko=null; transcript/translation/feedback only after result in existing view",
+      "grammar_keys": [
+        "A04",
+        "C17"
+      ]
+    },
+    {
+      "key": "B35",
+      "example_id": "fceeda08-c328-4983-ad4e-eb1827e8a9ed",
+      "result": "AI_SELF_REVIEWED",
+      "korean": "문법·조사·활용·띄어쓰기·지시대상·존대·상황의 자연스러움 별도 재독",
+      "japanese": "번역·시제·인용 대상/수혜자·추측/사실·의도 차이를 별도 재독",
+      "focus": "detail",
+      "correct": "同僚",
+      "correct_evidence_ko": "동료를 도와주라고",
+      "wrong_option_review": [
+        {
+          "text": "チーム長",
+          "reason_ja": "指示したのはチーム長ですが、助ける相手は同僚です。"
+        },
+        {
+          "text": "資料の作成を頼んだ客",
+          "reason_ja": "客を手伝うという情報はありません。"
+        }
+      ],
+      "language_note": "도와주라고では助けを受けるのは同僚です。팀장님を手伝うよう頼まれたのではありません。",
+      "dictation_accepted": [
+        "자료를 고치는 김에 동료의 파일도 확인했어요. 팀장님이 동료를 도와주라고 하셔서 빠진 내용을 함께 채웠어요."
+      ],
+      "tts": "single Korean system TTS; no recording/multi-speaker attribution",
+      "transcript": "prompt_ko=null; transcript/translation/feedback only after result in existing view",
+      "grammar_keys": [
+        "B18",
+        "C11"
+      ]
+    },
+    {
+      "key": "B36",
+      "example_id": "7d9b31b1-d119-4489-a012-d12058224882",
+      "result": "AI_SELF_REVIEWED",
+      "korean": "문법·조사·활용·띄어쓰기·지시대상·존대·상황의 자연스러움 별도 재독",
+      "japanese": "번역·시제·인용 대상/수혜자·추측/사실·의도 차이를 별도 재독",
+      "focus": "result",
+      "correct": "説明に例を増やしたこと",
+      "correct_evidence_ko": "예를 더 넣었더니 질문이 줄었어요",
+      "wrong_option_review": [
+        {
+          "text": "説明の内容をすべて省いたこと",
+          "reason_ja": "内容を抜くより例を入れたことが役立ちました。"
+        },
+        {
+          "text": "質問を受け付けなくしたこと",
+          "reason_ja": "質問を断ったのではなく、分かりやすくして質問が減りました。"
+        }
+      ],
+      "language_note": "어렵다는 말は受けた意見です。예를 넣었더니の結果が質問の減少で、説明内容を削ったとは述べていません。",
+      "dictation_accepted": [
+        "설명이 어렵다는 말을 듣고 예를 더 넣었더니 질문이 줄었어요. 내용을 빼기보다 구체적으로 보여 주는 게 도움이 됐어요."
+      ],
+      "tts": "single Korean system TTS; no recording/multi-speaker attribution",
+      "transcript": "prompt_ko=null; transcript/translation/feedback only after result in existing view",
+      "grammar_keys": [
+        "B12",
+        "C07"
+      ]
+    },
+    {
+      "key": "B37",
+      "example_id": "75ef8e41-728d-4f72-be88-13e751673c99",
+      "result": "AI_SELF_REVIEWED",
+      "korean": "문법·조사·활용·띄어쓰기·지시대상·존대·상황의 자연스러움 별도 재독",
+      "japanese": "번역·시제·인용 대상/수혜자·추측/사실·의도 차이를 별도 재독",
+      "focus": "result",
+      "correct": "同じ作業を重ねてすること",
+      "correct_evidence_ko": "같은 일을 두 번 하지 않아도",
+      "wrong_option_review": [
+        {
+          "text": "準備に参加する人の数",
+          "reason_ja": "参加者が減ったとは述べていません。"
+        },
+        {
+          "text": "準備する物の種類",
+          "reason_ja": "物の種類ではなく、重複作業が減った話です。"
+        }
+      ],
+      "language_note": "役割分担の後の変化を聞きます。같은 일을 두 번 하지 않아도は作業の重複がなくなったことです。",
+      "dictation_accepted": [
+        "역할을 나누고 나서 준비가 훨씬 빨라졌어요. 서로 할 일을 알게 되니 같은 일을 두 번 하지 않아도 되네요."
+      ],
+      "tts": "single Korean system TTS; no recording/multi-speaker attribution",
+      "transcript": "prompt_ko=null; transcript/translation/feedback only after result in existing view",
+      "grammar_keys": [
+        "B02",
+        "C18"
+      ]
+    },
+    {
+      "key": "B38",
+      "example_id": "a24fe4a1-4d6e-4be5-8db3-7025f911bb37",
+      "result": "AI_SELF_REVIEWED",
+      "korean": "문법·조사·활용·띄어쓰기·지시대상·존대·상황의 자연스러움 별도 재독",
+      "japanese": "번역·시제·인용 대상/수혜자·추측/사실·의도 차이를 별도 재독",
+      "focus": "change",
+      "correct": "店を出る前にポケットを確かめる",
+      "correct_evidence_ko": "나서기 전에 주머니를 꼭 확인해요",
+      "wrong_option_review": [
+        {
+          "text": "会計の前に必ず電話をかける",
+          "reason_ja": "会計前に電話するという習慣はありません。"
+        },
+        {
+          "text": "店には携帯電話を持っていかない",
+          "reason_ja": "携帯電話を持っていかないのでなく、出る前に確認します。"
+        }
+      ],
+      "language_note": "나올 뻔했어요は実際の紛失とは区別します。그 뒤로는以降の習慣に注目します。",
+      "dictation_accepted": [
+        "지난번에 계산할 때 휴대전화를 두고 나올 뻔했어요. 그 뒤로는 가게를 나서기 전에 주머니를 꼭 확인해요."
+      ],
+      "tts": "single Korean system TTS; no recording/multi-speaker attribution",
+      "transcript": "prompt_ko=null; transcript/translation/feedback only after result in existing view",
+      "grammar_keys": [
+        "B14",
+        "B01"
+      ]
+    },
+    {
+      "key": "B39",
+      "example_id": "db0b2ce3-37f4-4eb2-9dd9-dc6d550f9284",
+      "result": "AI_SELF_REVIEWED",
+      "korean": "문법·조사·활용·띄어쓰기·지시대상·존대·상황의 자연스러움 별도 재독",
+      "japanese": "번역·시제·인용 대상/수혜자·추측/사실·의도 차이를 별도 재독",
+      "focus": "main_point",
+      "correct": "文字だけでは分からなかった意図に気づけること",
+      "correct_evidence_ko": "글로는 몰랐던 뜻이 보이기도",
+      "wrong_option_review": [
+        {
+          "text": "どんな記録も残さずに済むこと",
+          "reason_ja": "記録を残さないことを目的にしていません。"
+        },
+        {
+          "text": "短いメッセージを必ず誤解せず読めること",
+          "reason_ja": "直接話す利点であり、短文を必ず誤解しないという保証ではありません。"
+        }
+      ],
+      "language_note": "짧은 메시지만の만は限られた情報を示します。会話は意図を確かめる助けで、文字での連絡を全面否定していません。",
+      "dictation_accepted": [
+        "집에서 일하는 동안 짧은 메시지만 보고 오해한 적이 있어요. 직접 이야기하다 보면 글로는 몰랐던 뜻이 보이기도 해요."
+      ],
+      "tts": "single Korean system TTS; no recording/multi-speaker attribution",
+      "transcript": "prompt_ko=null; transcript/translation/feedback only after result in existing view",
+      "grammar_keys": [
+        "B03",
+        "A17"
+      ]
+    },
+    {
+      "key": "B40",
+      "example_id": "c975114d-050b-49a1-9774-4367262cd081",
+      "result": "AI_SELF_REVIEWED",
+      "korean": "문법·조사·활용·띄어쓰기·지시대상·존대·상황의 자연스러움 별도 재독",
+      "japanese": "번역·시제·인용 대상/수혜자·추측/사실·의도 차이를 별도 재독",
+      "focus": "detail",
+      "correct": "メモを取り、意見を整理すること",
+      "correct_evidence_ko": "질문하는 대신 메모를 맡아서",
+      "wrong_option_review": [
+        {
+          "text": "同僚に代わって質問を全部すること",
+          "reason_ja": "質問を多くするのは同僚で、自分は記録します。"
+        },
+        {
+          "text": "会議では聞くだけで何も記録しないこと",
+          "reason_ja": "メモを担当しているので、何も記録しないわけではありません。"
+        }
+      ],
+      "language_note": "하더니は観察した同僚の変化です。대신は発言する同僚と記録する自分の役割の分担を表します。",
+      "dictation_accepted": [
+        "처음에는 동료가 회의에서 조용히 듣기만 하더니 요즘은 질문도 많이 해요. 저는 질문하는 대신 메모를 맡아서 의견을 정리하고 있어요."
+      ],
+      "tts": "single Korean system TTS; no recording/multi-speaker attribution",
+      "transcript": "prompt_ko=null; transcript/translation/feedback only after result in existing view",
+      "grammar_keys": [
+        "B11",
+        "B17"
+      ]
+    },
+    {
+      "key": "B41",
+      "example_id": "228b67c5-fb73-4e86-913b-d50eda88d47b",
+      "result": "AI_SELF_REVIEWED",
+      "korean": "문법·조사·활용·띄어쓰기·지시대상·존대·상황의 자연스러움 별도 재독",
+      "japanese": "번역·시제·인용 대상/수혜자·추측/사실·의도 차이를 별도 재독",
+      "focus": "result",
+      "correct": "疲れるときに気づき、休む時間を決めること",
+      "correct_evidence_ko": "쉬는 시간을 정하는 데 도움이 돼요",
+      "wrong_option_review": [
+        {
+          "text": "仕事の量を必ず増やすこと",
+          "reason_ja": "仕事を増やすためとは述べていません。"
+        },
+        {
+          "text": "他人の気持ちを正確に決めつけること",
+          "reason_ja": "自分の気分の記録で、他人の心の断定ではありません。"
+        }
+      ],
+      "language_note": "쓰다 보니は継続から得た発見、적는 것은行動を名詞のまとまりとして述べています。",
+      "dictation_accepted": [
+        "짧게라도 일기를 계속 쓰다 보니 제가 언제 지치는지 알게 됐어요. 제 기분을 적는 것이 쉬는 시간을 정하는 데 도움이 돼요."
+      ],
+      "tts": "single Korean system TTS; no recording/multi-speaker attribution",
+      "transcript": "prompt_ko=null; transcript/translation/feedback only after result in existing view",
+      "grammar_keys": [
+        "B13",
+        "C02"
+      ]
+    },
+    {
+      "key": "B42",
+      "example_id": "e34cba40-f4fe-40db-a797-472d33a9d697",
+      "result": "AI_SELF_REVIEWED",
+      "korean": "문법·조사·활용·띄어쓰기·지시대상·존대·상황의 자연스러움 별도 재독",
+      "japanese": "번역·시제·인용 대상/수혜자·추측/사실·의도 차이를 별도 재독",
+      "focus": "detail",
+      "correct": "別に電話をかけること",
+      "correct_evidence_ko": "따로 전화할 필요가 없어서",
+      "wrong_option_review": [
+        {
+          "text": "申込書を提出すること",
+          "reason_ja": "申込書はオンラインで提出しています。"
+        },
+        {
+          "text": "確認メッセージを受け取ること",
+          "reason_ja": "確認メッセージは実際に受け取りました。"
+        }
+      ],
+      "language_note": "냈더니は提出後に受け取った反応です。確認メッセージが来たので、別の電話は不要だったと説明しています。",
+      "dictation_accepted": [
+        "신청서를 온라인으로 냈더니 바로 확인 문자가 왔어요. 따로 전화할 필요가 없어서 생각보다 간단했어요."
+      ],
+      "tts": "single Korean system TTS; no recording/multi-speaker attribution",
+      "transcript": "prompt_ko=null; transcript/translation/feedback only after result in existing view",
+      "grammar_keys": [
+        "B12",
+        "A18"
+      ]
+    },
+    {
+      "key": "B43",
+      "example_id": "32442864-dfc4-449f-b670-cd1aab9e7291",
+      "result": "AI_SELF_REVIEWED",
+      "korean": "문법·조사·활용·띄어쓰기·지시대상·존대·상황의 자연스러움 별도 재독",
+      "japanese": "번역·시제·인용 대상/수혜자·추측/사실·의도 차이를 별도 재독",
+      "focus": "reason",
+      "correct": "近所の人から新しくできたと聞いたこと",
+      "correct_evidence_ko": "이웃분이 도서관이 생겼다고 해서",
+      "wrong_option_review": [
+        {
+          "text": "図書館だけを目的に故郷へ帰ったこと",
+          "reason_ja": "帰省のついでに近所で聞いたので、図書館だけが目的ではありません。"
+        },
+        {
+          "text": "以前から毎日図書館へ通っていたこと",
+          "reason_ja": "以前から通っていたとは述べていません。"
+        }
+      ],
+      "language_note": "간 김에は帰省の機会を利用した行動です。도서관이 생겼다고は近所の人から聞いた情報です。",
+      "dictation_accepted": [
+        "고향에 간 김에 예전 집 근처를 걸어 봤어요. 이웃분이 도서관이 생겼다고 해서 들러 보기도 했어요."
+      ],
+      "tts": "single Korean system TTS; no recording/multi-speaker attribution",
+      "transcript": "prompt_ko=null; transcript/translation/feedback only after result in existing view",
+      "grammar_keys": [
+        "B18",
+        "C06"
+      ]
+    },
+    {
+      "key": "B44",
+      "example_id": "454feab7-e043-4dba-84a9-d7b07f423626",
+      "result": "AI_SELF_REVIEWED",
+      "korean": "문법·조사·활용·띄어쓰기·지시대상·존대·상황의 자연스러움 별도 재독",
+      "japanese": "번역·시제·인용 대상/수혜자·추측/사실·의도 차이를 별도 재독",
+      "focus": "main_point",
+      "correct": "互いの違いに合わせる方法",
+      "correct_evidence_ko": "서로 맞추는 방법을 배웠어요",
+      "wrong_option_review": [
+        {
+          "text": "計画を立てるのは必ず間違いだということ",
+          "reason_ja": "事前計画を必ず間違いと判断したのではありません。"
+        },
+        {
+          "text": "友達の希望を一切聞かない方法",
+          "reason_ja": "互いに合わせる経験で、相手を無視する方法ではありません。"
+        }
+      ],
+      "language_note": "편인데は自分の傾向、다르기는 하지만は違いを認めた上での経験です。どちらかが全面的に従ったとは述べていません。",
+      "dictation_accepted": [
+        "저는 미리 계획하는 편인데 친구는 그날 정하는 걸 좋아해요. 다르기는 하지만 함께 여행하면서 서로 맞추는 방법을 배웠어요."
+      ],
+      "tts": "single Korean system TTS; no recording/multi-speaker attribution",
+      "transcript": "prompt_ko=null; transcript/translation/feedback only after result in existing view",
+      "grammar_keys": [
+        "B16",
+        "B09"
+      ]
+    },
+    {
+      "key": "B45",
+      "example_id": "0863f59d-f894-427c-9dfa-e335673f009a",
+      "result": "AI_SELF_REVIEWED",
+      "korean": "문법·조사·활용·띄어쓰기·지시대상·존대·상황의 자연스러움 별도 재독",
+      "japanese": "번역·시제·인용 대상/수혜자·추측/사실·의도 차이를 별도 재독",
+      "focus": "reason",
+      "correct": "違う意見でも最後まで聞いてもらえたから",
+      "correct_evidence_ko": "의견이 달라도 끝까지 들어 줬어요",
+      "wrong_option_review": [
+        {
+          "text": "全員がいつも同じ意見だったから",
+          "reason_ja": "意見が違う場合も聞いてもらったと述べています。"
+        },
+        {
+          "text": "自分だけが会議に出るようになったから",
+          "reason_ja": "自分だけが会議に出るようになった話ではありません。"
+        }
+      ],
+      "language_note": "달라도は意見の違いがあっても傾聴する態度です。편해졌어요はその経験を通じた話し手の変化です。",
+      "dictation_accepted": [
+        "새 팀에서는 의견이 달라도 끝까지 들어 줬어요. 처음에는 긴장했지만 그런 경험 덕분에 말하는 게 편해졌어요."
+      ],
+      "tts": "single Korean system TTS; no recording/multi-speaker attribution",
+      "transcript": "prompt_ko=null; transcript/translation/feedback only after result in existing view",
+      "grammar_keys": [
+        "B08",
+        "A04"
+      ]
+    },
+    {
+      "key": "B46",
+      "example_id": "35328fc7-22b6-4220-91d0-ef914491538f",
+      "result": "AI_SELF_REVIEWED",
+      "korean": "문법·조사·활용·띄어쓰기·지시대상·존대·상황의 자연스러움 별도 재독",
+      "japanese": "번역·시제·인용 대상/수혜자·추측/사실·의도 차이를 별도 재독",
+      "focus": "purpose",
+      "correct": "会社の資料を読むこと",
+      "correct_evidence_ko": "회사 자료를 읽기 위해",
+      "wrong_option_review": [
+        {
+          "text": "韓国語を教える仕事を始めること",
+          "reason_ja": "教える仕事を始めるのが目的ではありません。"
+        },
+        {
+          "text": "会社の会議時間を変えること",
+          "reason_ja": "授業時間は確認しますが、会社の会議を変える話ではありません。"
+        }
+      ],
+      "language_note": "위해は学習目的、듣기로 했어요は受講の決定です。受講開始日をすでに決めたとは限りません。",
+      "dictation_accepted": [
+        "회사 자료를 읽기 위해 저녁 한국어 수업을 듣기로 했어요. 이번 달에는 먼저 수업 시간부터 확인할 거예요."
+      ],
+      "tts": "single Korean system TTS; no recording/multi-speaker attribution",
+      "transcript": "prompt_ko=null; transcript/translation/feedback only after result in existing view",
+      "grammar_keys": [
+        "A10",
+        "A13"
+      ]
+    },
+    {
+      "key": "B47",
+      "example_id": "ecb12df9-1ba9-4d78-9dbb-aefb4ef2c84b",
+      "result": "AI_SELF_REVIEWED",
+      "korean": "문법·조사·활용·띄어쓰기·지시대상·존대·상황의 자연스러움 별도 재독",
+      "japanese": "번역·시제·인용 대상/수혜자·추측/사실·의도 차이를 별도 재독",
+      "focus": "condition",
+      "correct": "平日の夜なら行けそうだと考えている",
+      "correct_evidence_ko": "모임이 평일 저녁이라면",
+      "wrong_option_review": [
+        {
+          "text": "毎週末の参加をすでに約束している",
+          "reason_ja": "平日夜の条件を考えており、毎週末の参加の約束ではありません。"
+        },
+        {
+          "text": "仕事を辞めて参加すると決めている",
+          "reason_ja": "仕事の後で行く予定なので、退職の決定ではありません。"
+        }
+      ],
+      "language_note": "나가 볼까 해요はまだ仮の意向です。평일 저녁이라면は参加できそうな条件を示します。",
+      "dictation_accepted": [
+        "다음 달에는 독서 모임에 나가 볼까 해요. 모임이 평일 저녁이라면 일 끝나고 갈 수 있을 것 같아요."
+      ],
+      "tts": "single Korean system TTS; no recording/multi-speaker attribution",
+      "transcript": "prompt_ko=null; transcript/translation/feedback only after result in existing view",
+      "grammar_keys": [
+        "A14",
+        "A07"
+      ]
+    },
+    {
+      "key": "B48",
+      "example_id": "cc8a3c83-7fcb-4fc3-81b9-603fcb610a6c",
+      "result": "AI_SELF_REVIEWED",
+      "korean": "문법·조사·활용·띄어쓰기·지시대상·존대·상황의 자연스러움 별도 재독",
+      "japanese": "번역·시제·인용 대상/수혜자·추측/사실·의도 차이를 별도 재독",
+      "focus": "plan",
+      "correct": "すぐに買わず、もう一日考える",
+      "correct_evidence_ko": "하루 더 생각하도록 하겠어요",
+      "wrong_option_review": [
+        {
+          "text": "月末まで何も考えない",
+          "reason_ja": "買う前にもう一日考える方針で、月末まで放置しません。"
+        },
+        {
+          "text": "毎回友達に買ってもらう",
+          "reason_ja": "友達に購入を頼む話ではありません。"
+        }
+      ],
+      "language_note": "않도록は目標、생각하도록 하겠어요は自分の行動方針です。必需品も買わないという計画ではありません。",
+      "dictation_accepted": [
+        "월말에 돈이 부족하지 않도록 이번 달부터 지출을 적으려고 해요. 비싼 물건은 바로 사지 말고 하루 더 생각하도록 하겠어요."
+      ],
+      "tts": "single Korean system TTS; no recording/multi-speaker attribution",
+      "transcript": "prompt_ko=null; transcript/translation/feedback only after result in existing view",
+      "grammar_keys": [
+        "A11",
+        "A12"
+      ]
+    },
+    {
+      "key": "B49",
+      "example_id": "fd762c61-72ed-437e-9527-3a53f4ffd324",
+      "result": "AI_SELF_REVIEWED",
+      "korean": "문법·조사·활용·띄어쓰기·지시대상·존대·상황의 자연스러움 별도 재독",
+      "japanese": "번역·시제·인용 대상/수혜자·추측/사실·의도 차이를 별도 재독",
+      "focus": "sequence",
+      "correct": "家族の予定を確認する",
+      "correct_evidence_ko": "오늘 저녁에 먼저 확인해 봐야겠어요",
+      "wrong_option_review": [
+        {
+          "text": "旅行の予約をすべて取り消す",
+          "reason_ja": "日程が未定なだけで、全予約を取り消すとは言っていません。"
+        },
+        {
+          "text": "家族に何も言わず出発する",
+          "reason_ja": "家族の予定を確認しようとしています。"
+        }
+      ],
+      "language_note": "끝날지 몰라서는未確認の将来情報です。旅行を中止したのではなく、日程を決める前の確認を考えています。",
+      "dictation_accepted": [
+        "가족 일정이 언제 끝날지 몰라서 여행 날짜는 아직 못 정했어요. 오늘 저녁에 먼저 확인해 봐야겠어요."
+      ],
+      "tts": "single Korean system TTS; no recording/multi-speaker attribution",
+      "transcript": "prompt_ko=null; transcript/translation/feedback only after result in existing view",
+      "grammar_keys": [
+        "C05",
+        "A15"
+      ]
+    },
+    {
+      "key": "B50",
+      "example_id": "b48ada16-64d6-4d0e-9c9b-b4e2002667ad",
+      "result": "AI_SELF_REVIEWED",
+      "korean": "문법·조사·활용·띄어쓰기·지시대상·존대·상황의 자연스러움 별도 재독",
+      "japanese": "번역·시제·인용 대상/수혜자·추측/사실·의도 차이를 별도 재독",
+      "focus": "condition",
+      "correct": "会議室を確保すること",
+      "correct_evidence_ko": "자리를 잡아야 정확한 시간을",
+      "wrong_option_review": [
+        {
+          "text": "全員が会議を終えること",
+          "reason_ja": "会議の終了ではなく、開催場所の確保が先です。"
+        },
+        {
+          "text": "次の週になるまで待つこと",
+          "reason_ja": "来週まで待つのでなく、先に予約する必要があります。"
+        }
+      ],
+      "language_note": "만나려면は実現したい条件、잡아야は案内に先立つ必要条件です。予約済みという話ではありません。",
+      "dictation_accepted": [
+        "다음 주에 모두 만나려면 회의실을 먼저 예약해야 해요. 자리를 잡아야 정확한 시간을 안내할 수 있어요."
+      ],
+      "tts": "single Korean system TTS; no recording/multi-speaker attribution",
+      "transcript": "prompt_ko=null; transcript/translation/feedback only after result in existing view",
+      "grammar_keys": [
+        "A09",
+        "A06"
+      ]
+    },
+    {
+      "key": "B51",
+      "example_id": "100484ed-4b06-467f-8ff3-4d36d5f0ff6e",
+      "result": "AI_SELF_REVIEWED",
+      "korean": "문법·조사·활용·띄어쓰기·지시대상·존대·상황의 자연스러움 별도 재독",
+      "japanese": "번역·시제·인용 대상/수혜자·추측/사실·의도 차이를 별도 재독",
+      "focus": "detail",
+      "correct": "静かなカフェ",
+      "correct_evidence_ko": "조용한 카페에서 이야기할까요",
+      "wrong_option_review": [
+        {
+          "text": "音楽の大きな店",
+          "reason_ja": "前回の音楽が大きかった経験から静かな店を提案しています。"
+        },
+        {
+          "text": "すでに満席の会議室",
+          "reason_ja": "満席の会議室の話はありません。"
+        }
+      ],
+      "language_note": "이야기할까요は提案、앉을래요は自分の希望です。静かな店を選ぶ理由は前回の聞こえにくさです。",
+      "dictation_accepted": [
+        "이번에는 조용한 카페에서 이야기할까요? 저는 창가에 앉을래요. 지난번에는 음악 소리가 커서 잘 안 들렸어요."
+      ],
+      "tts": "single Korean system TTS; no recording/multi-speaker attribution",
+      "transcript": "prompt_ko=null; transcript/translation/feedback only after result in existing view",
+      "grammar_keys": [
+        "C12",
+        "C13"
+      ]
+    },
+    {
+      "key": "B52",
+      "example_id": "bfaddd5e-597a-4908-9f49-0beaf7766906",
+      "result": "AI_SELF_REVIEWED",
+      "korean": "문법·조사·활용·띄어쓰기·지시대상·존대·상황의 자연스러움 별도 재독",
+      "japanese": "번역·시제·인용 대상/수혜자·추측/사실·의도 차이를 별도 재독",
+      "focus": "plan",
+      "correct": "一日に行く場所を一か所にする",
+      "correct_evidence_ko": "하루에 한 곳만 가려고 해요",
+      "wrong_option_review": [
+        {
+          "text": "一日の行先をできるだけ増やす",
+          "reason_ja": "行先を増やすと疲れそうなので、一か所に絞ります。"
+        },
+        {
+          "text": "友達の予定を全部取り消す",
+          "reason_ja": "自分の予定の調整で、友達の全予定を取り消す話ではありません。"
+        }
+      ],
+      "language_note": "지칠까 봐は疲れることへの心配、무리하지 말라고は友達の助言の引用です。行先を増やす計画ではありません。",
+      "dictation_accepted": [
+        "일정이 너무 많으면 지칠까 봐 걱정돼요. 친구도 무리하지 말라고 해서 하루에 한 곳만 가려고 해요."
+      ],
+      "tts": "single Korean system TTS; no recording/multi-speaker attribution",
+      "transcript": "prompt_ko=null; transcript/translation/feedback only after result in existing view",
+      "grammar_keys": [
+        "A16",
+        "C08"
+      ]
+    },
+    {
+      "key": "B53",
+      "example_id": "ce092019-2771-4cfa-a5be-9be8fdaf29ac",
+      "result": "AI_SELF_REVIEWED",
+      "korean": "문법·조사·활용·띄어쓰기·지시대상·존대·상황의 자연스러움 별도 재독",
+      "japanese": "번역·시제·인용 대상/수혜자·추측/사실·의도 차이를 별도 재독",
+      "focus": "reason",
+      "correct": "新しい担当者に仕事の希望を尋ねられたから",
+      "correct_evidence_ko": "어떤 일을 하고 싶냐고 물어서",
+      "wrong_option_review": [
+        {
+          "text": "来月の異動を取り消したいから",
+          "reason_ja": "異動取消しでなく、新しい仕事の希望を整理しています。"
+        },
+        {
+          "text": "以前の担当者が仕事を辞めたから",
+          "reason_ja": "以前の担当者が退職したとは述べていません。"
+        }
+      ],
+      "language_note": "일하게 됐어요は決まった変化、싶으냐고は希望を尋ねられたことの引用です。担当する仕事はまだ説明されていません。",
+      "dictation_accepted": [
+        "다음 달부터 다른 부서에서 일하게 됐어요. 새 담당자가 어떤 일을 하고 싶냐고 물어서 제 생각을 정리하는 중이에요."
+      ],
+      "tts": "single Korean system TTS; no recording/multi-speaker attribution",
+      "transcript": "prompt_ko=null; transcript/translation/feedback only after result in existing view",
+      "grammar_keys": [
+        "A05",
+        "C10"
+      ]
+    },
+    {
+      "key": "B54",
+      "example_id": "a1ebc1b3-acb8-4099-9365-0f26725b5764",
+      "result": "AI_SELF_REVIEWED",
+      "korean": "문법·조사·활용·띄어쓰기·지시대상·존대·상황의 자연스러움 별도 재독",
+      "japanese": "번역·시제·인용 대상/수혜자·추측/사실·의도 차이를 별도 재독",
+      "focus": "speaker_intent",
+      "correct": "まず同僚の理由を最後まで聞く",
+      "correct_evidence_ko": "상대의 이유를 끝까지 들어 보려고",
+      "wrong_option_review": [
+        {
+          "text": "同僚も即決に賛成したと考える",
+          "reason_ja": "同僚は追加の調査を提案しており、即決に同意していません。"
+        },
+        {
+          "text": "理由を聞かずに一人で決める",
+          "reason_ja": "まず理由を聞く方針に反します。"
+        }
+      ],
+      "language_note": "결정하고 싶은데は意見の対比、달라도は違いがあっても取る態度です。相手が即決に賛成したとは言っていません。",
+      "dictation_accepted": [
+        "저는 빠르게 결정하고 싶은데 동료는 더 알아보자고 해요. 생각이 달라도 먼저 상대의 이유를 끝까지 들어 보려고 해요."
+      ],
+      "tts": "single Korean system TTS; no recording/multi-speaker attribution",
+      "transcript": "prompt_ko=null; transcript/translation/feedback only after result in existing view",
+      "grammar_keys": [
+        "B07",
+        "B08"
+      ]
+    },
+    {
+      "key": "B55",
+      "example_id": "32c3d95f-92e0-48d6-888e-a9ebe1f26ac1",
+      "result": "AI_SELF_REVIEWED",
+      "korean": "문법·조사·활용·띄어쓰기·지시대상·존대·상황의 자연스러움 별도 재독",
+      "japanese": "번역·시제·인용 대상/수혜자·추측/사실·의도 차이를 별도 재독",
+      "focus": "main_point",
+      "correct": "平日に分けて少しずつ準備する",
+      "correct_evidence_ko": "평일에 나눠 하자고",
+      "wrong_option_review": [
+        {
+          "text": "週末の一日ですべて準備する",
+          "reason_ja": "週末の案に対する話し手の対案は平日への分散です。"
+        },
+        {
+          "text": "準備を誰も担当しないことにする",
+          "reason_ja": "少しずつ準備するので、担当なしではありません。"
+        }
+      ],
+      "language_note": "나눠 하자고は話し手の対案です。週末にまとめる案と平日に分ける案を区別します。",
+      "dictation_accepted": [
+        "주말에 일하자는 의견이 나왔지만 저는 평일에 나눠 하자고 했어요. 하루에 몰아서 하는 대신 조금씩 준비하면 좋겠어요."
+      ],
+      "tts": "single Korean system TTS; no recording/multi-speaker attribution",
+      "transcript": "prompt_ko=null; transcript/translation/feedback only after result in existing view",
+      "grammar_keys": [
+        "C09",
+        "B17"
+      ]
+    },
+    {
+      "key": "B56",
+      "example_id": "8a06011f-eac9-4c25-9e65-66fb4fb9778a",
+      "result": "AI_SELF_REVIEWED",
+      "korean": "문법·조사·활용·띄어쓰기·지시대상·존대·상황의 자연스러움 별도 재독",
+      "japanese": "번역·시제·인용 대상/수혜자·추측/사실·의도 차이를 별도 재독",
+      "focus": "speaker_intent",
+      "correct": "自分の理解が合っているか、説明を聞いて確かめたいから",
+      "correct_evidence_ko": "제가 이해한 내용이 맞는지",
+      "wrong_option_review": [
+        {
+          "text": "自分の意見を今後も伝えたくないから",
+          "reason_ja": "説明後に自分の意見を伝える約束があります。"
+        },
+        {
+          "text": "すでに相手の提案に賛成したから",
+          "reason_ja": "確認の依頼であって、すでに賛成したわけではありません。"
+        }
+      ],
+      "language_note": "설명해 주실래요は再説明の依頼です。말씀드릴게요は確認後に自分の意見を伝える約束で、賛成の約束ではありません。",
+      "dictation_accepted": [
+        "제가 이해한 내용이 맞는지 한 번만 더 설명해 주실래요? 바로 반대하기보다는 설명을 듣고 제 의견을 말씀드릴게요."
+      ],
+      "tts": "single Korean system TTS; no recording/multi-speaker attribution",
+      "transcript": "prompt_ko=null; transcript/translation/feedback only after result in existing view",
+      "grammar_keys": [
+        "C14",
+        "C15"
+      ]
+    },
+    {
+      "key": "B57",
+      "example_id": "cd856993-3bec-4778-b0f9-37449225dc9c",
+      "result": "AI_SELF_REVIEWED",
+      "korean": "문법·조사·활용·띄어쓰기·지시대상·존대·상황의 자연스러움 별도 재독",
+      "japanese": "번역·시제·인용 대상/수혜자·추측/사실·의도 차이를 별도 재독",
+      "focus": "plan",
+      "correct": "困っていること",
+      "correct_evidence_ko": "먼저 불편한 점을 물어보려고",
+      "wrong_option_review": [
+        {
+          "text": "規則を知らない理由だけ",
+          "reason_ja": "なぜ規則を知らないかだけでなく、困りごとを知ろうとしています。"
+        },
+        {
+          "text": "規則を作り直す日程",
+          "reason_ja": "規則を改訂する日程は尋ねようとしていません。"
+        }
+      ],
+      "language_note": "모른다고はチーム長の説明、도와주라고は同僚への支援を求める指示です。責める前に事情を知ろうとしています。",
+      "dictation_accepted": [
+        "팀장님은 새 동료가 규칙을 잘 모른다고 하셨어요. 저에게 그 동료를 도와주라고 하셔서 먼저 불편한 점을 물어보려고 해요."
+      ],
+      "tts": "single Korean system TTS; no recording/multi-speaker attribution",
+      "transcript": "prompt_ko=null; transcript/translation/feedback only after result in existing view",
+      "grammar_keys": [
+        "C06",
+        "C11"
+      ]
+    },
+    {
+      "key": "B58",
+      "example_id": "d0fa11e0-62a9-47bc-a27e-d7ddde948700",
+      "result": "AI_SELF_REVIEWED",
+      "korean": "문법·조사·활용·띄어쓰기·지시대상·존대·상황의 자연스러움 별도 재독",
+      "japanese": "번역·시제·인용 대상/수혜자·추측/사실·의도 차이를 별도 재독",
+      "focus": "detail",
+      "correct": "今の予算で買えるか",
+      "correct_evidence_ko": "지금 예산으로 살 수 있는지도",
+      "wrong_option_review": [
+        {
+          "text": "今までよりどれだけ速いかだけ",
+          "reason_ja": "速さの利点は認めていますが、予算も見たいと言っています。"
+        },
+        {
+          "text": "新しい機器を何台注文したか",
+          "reason_ja": "台数を注文済みとは述べていません。"
+        }
+      ],
+      "language_note": "같지요は共通認識の確認です。速さの利点は認めつつ、予算との両立も調べようとしています。",
+      "dictation_accepted": [
+        "비용을 줄여야 한다는 점은 우리 생각이 같지요? 새 장비가 빠르기는 하지만 지금 예산으로 살 수 있는지도 함께 봐요."
+      ],
+      "tts": "single Korean system TTS; no recording/multi-speaker attribution",
+      "transcript": "prompt_ko=null; transcript/translation/feedback only after result in existing view",
+      "grammar_keys": [
+        "C16",
+        "B09"
+      ]
+    },
+    {
+      "key": "B59",
+      "example_id": "caefc05e-8b7a-40ce-af65-5c32d7631996",
+      "result": "AI_SELF_REVIEWED",
+      "korean": "문법·조사·활용·띄어쓰기·지시대상·존대·상황의 자연스러움 별도 재독",
+      "japanese": "번역·시제·인용 대상/수혜자·추측/사실·의도 차이를 별도 재독",
+      "focus": "speaker_intent",
+      "correct": "互いに誤解した部分を確認する",
+      "correct_evidence_ko": "서로 오해한 부분만 먼저 확인",
+      "wrong_option_review": [
+        {
+          "text": "すべての問題を十分で解決する",
+          "reason_ja": "まず誤解した部分に限る提案で、全解決の約束ではありません。"
+        },
+        {
+          "text": "次に会う場所だけを決める",
+          "reason_ja": "電話で確認したいのは会場でなく誤解です。"
+        }
+      ],
+      "language_note": "어렵거든は条件、십 분이라도は短時間の代案です。すべての問題を一度で解決するという提案ではありません。",
+      "dictation_accepted": [
+        "오늘 길게 만나기 어렵거든 전화로 십 분이라도 이야기해요. 저는 서로 오해한 부분만 먼저 확인하고 싶어요."
+      ],
+      "tts": "single Korean system TTS; no recording/multi-speaker attribution",
+      "transcript": "prompt_ko=null; transcript/translation/feedback only after result in existing view",
+      "grammar_keys": [
+        "A08",
+        "B10"
+      ]
+    },
+    {
+      "key": "B60",
+      "example_id": "46d55ece-6ef7-45be-985e-e5cf918590bb",
+      "result": "AI_SELF_REVIEWED",
+      "korean": "문법·조사·활용·띄어쓰기·지시대상·존대·상황의 자연스러움 별도 재독",
+      "japanese": "번역·시제·인용 대상/수혜자·추측/사실·의도 차이를 별도 재독",
+      "focus": "plan",
+      "correct": "先に少し休むことを提案する",
+      "correct_evidence_ko": "다음에는 먼저 쉬자고 하려고 해요",
+      "wrong_option_review": [
+        {
+          "text": "さらに声を大きくして話し続ける",
+          "reason_ja": "声を上げ続けるのでなく、先に休む提案を考えています。"
+        },
+        {
+          "text": "相手の話を聞くのを完全にやめる",
+          "reason_ja": "落ち着いて聞くための休憩で、聞くのを永久にやめるのではありません。"
+        }
+      ],
+      "language_note": "길어질수록は程度の変化、쉬고 나서야は落ち着くために休憩が必要だった経験です。次も声を上げる方針ではありません。",
+      "dictation_accepted": [
+        "이야기가 길어질수록 서로 목소리가 커졌어요. 잠깐 쉬고 나서야 차분하게 들을 수 있어서 다음에는 먼저 쉬자고 하려고 해요."
+      ],
+      "tts": "single Korean system TTS; no recording/multi-speaker attribution",
+      "transcript": "prompt_ko=null; transcript/translation/feedback only after result in existing view",
+      "grammar_keys": [
+        "C17",
+        "B15"
+      ]
+    }
+  ],
+  "final_shared_prompt_review": "聞こえた内容を韓国語で入力してください。文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。"
+}

@@ -1,0 +1,106 @@
+{"release_ads": "disabled: production IDs absent", "product_id": "remove_ads"}
+test_dangling_reference_rejected (test_builder.BuilderTests.test_dangling_reference_rejected) ... ok
+test_dataset_or_version_downgrade_rejected (test_builder.BuilderTests.test_dataset_or_version_downgrade_rejected) ... ok
+test_duplicate_id_rejected (test_builder.BuilderTests.test_duplicate_id_rejected) ... ok
+test_empty_production_package (test_builder.BuilderTests.test_empty_production_package) ... ok
+test_failed_import_preserves_previous_output (test_builder.BuilderTests.test_failed_import_preserves_previous_output) ... ok
+test_fixture_forbidden_in_production (test_builder.BuilderTests.test_fixture_forbidden_in_production) ... ok
+test_fixture_integrity_and_relations (test_builder.BuilderTests.test_fixture_integrity_and_relations) ... ok
+test_future_reader_rejected (test_builder.BuilderTests.test_future_reader_rejected) ... ok
+test_invalid_id_rejected (test_builder.BuilderTests.test_invalid_id_rejected) ... ok
+test_removal_rejected_but_tombstone_allowed (test_builder.BuilderTests.test_removal_rejected_but_tombstone_allowed) ... ok
+test_revision_required (test_builder.BuilderTests.test_revision_required) ... ok
+test_unknown_table_rejected (test_builder.BuilderTests.test_unknown_table_rejected) ... ok
+test_user_schema_and_no_content_fk (test_builder.BuilderTests.test_user_schema_and_no_content_fk) ... ok
+test_wrong_kind_rejected (test_builder.BuilderTests.test_wrong_kind_rejected) ... ok
+test_all_production_membership_paged_by_level_without_orphans (test_curriculum_sql.CurriculumSQLTests.test_all_production_membership_paged_by_level_without_orphans) ... FAIL
+test_completion_not_exposure_skip_or_mastery (test_curriculum_sql.CurriculumSQLTests.test_completion_not_exposure_skip_or_mastery) ... ok
+test_continue_routes_cover_modules_and_completed_sessions_drop_out (test_curriculum_sql.CurriculumSQLTests.test_continue_routes_cover_modules_and_completed_sessions_drop_out) ... ok
+test_curriculum_production_filter_uses_real_active_question_targets (test_curriculum_sql.CurriculumSQLTests.test_curriculum_production_filter_uses_real_active_question_targets) ... ok
+test_listening_completion_waits_for_full_session_and_deduplicates_repeats (test_curriculum_sql.CurriculumSQLTests.test_listening_completion_waits_for_full_session_and_deduplicates_repeats) ... ok
+test_profile_skip_replacement_and_diagnostic_never_mutate_learning_tables (test_curriculum_sql.CurriculumSQLTests.test_profile_skip_replacement_and_diagnostic_never_mutate_learning_tables) ... ok
+test_actual_swift_keyset_pagination_and_intro_filter (test_data01_content.Data01ContentTests.test_actual_swift_keyset_pagination_and_intro_filter) ... ok
+test_all_existing_content_payloads_and_relationships_preserved (test_data01_content.Data01ContentTests.test_all_existing_content_payloads_and_relationships_preserved) ... ok
+test_bundled_database_matches_validated_source (test_data01_content.Data01ContentTests.test_bundled_database_matches_validated_source) ... ok
+test_duplicate_candidates_are_explicitly_reviewed_not_discarded (test_data01_content.Data01ContentTests.test_duplicate_candidates_are_explicitly_reviewed_not_discarded) ... ok
+test_every_word_and_every_sense_has_reviewed_examples (test_data01_content.Data01ContentTests.test_every_word_and_every_sense_has_reviewed_examples) ... ok
+test_irregular_metadata_without_invented_pronunciation_or_rank (test_data01_content.Data01ContentTests.test_irregular_metadata_without_invented_pronunciation_or_rank) ... ok
+test_korean_japanese_and_secondary_meaning_prefix_search (test_data01_content.Data01ContentTests.test_korean_japanese_and_secondary_meaning_prefix_search) ... ok
+test_malformed_data01_rows_rejected_by_existing_validator (test_data01_content.Data01ContentTests.test_malformed_data01_rows_rejected_by_existing_validator) ... ok
+test_notes_tags_and_sentence_deduplication (test_data01_content.Data01ContentTests.test_notes_tags_and_sentence_deduplication) ... ok
+test_part_of_speech_query_and_targeted_taxonomy (test_data01_content.Data01ContentTests.test_part_of_speech_query_and_targeted_taxonomy) ... ok
+test_release_counts_versions_and_integrity (test_data01_content.Data01ContentTests.test_release_counts_versions_and_integrity) ... FAIL
+test_stable_uuid_registry_matches_database_and_reordered_source (test_data01_content.Data01ContentTests.test_stable_uuid_registry_matches_database_and_reordered_source) ... ok
+test_actual_prefix_search_in_both_languages_and_secondary_senses (test_data02_content.Data02ContentTests.test_actual_prefix_search_in_both_languages_and_secondary_senses) ... ok
+test_all_new_ids_meanings_examples_notes_are_real_bundle_content (test_data02_content.Data02ContentTests.test_all_new_ids_meanings_examples_notes_are_real_bundle_content) ... ok
+test_duplicate_review_and_unique_sentence_pairs (test_data02_content.Data02ContentTests.test_duplicate_review_and_unique_sentence_pairs) ... ok
+test_irregulars_and_unknown_metadata_are_not_inferred_ranks (test_data02_content.Data02ContentTests.test_irregulars_and_unknown_metadata_are_not_inferred_ranks) ... ok
+test_level_keyset_queries_and_new_pos_balance (test_data02_content.Data02ContentTests.test_level_keyset_queries_and_new_pos_balance) ... ok
+test_release_counts_and_no_existing_payload_or_relationship_changed (test_data02_content.Data02ContentTests.test_release_counts_and_no_existing_payload_or_relationship_changed) ... FAIL
+test_v5_progress_and_srs_survive_real_content_replacement_and_new_ids_enroll (test_data02_content.Data02ContentTests.test_v5_progress_and_srs_survive_real_content_replacement_and_new_ids_enroll) ... ok
+test_actual_prefix_search_secondary_sense_and_intentional_homograph (test_data03_content.Data03ContentTests.test_actual_prefix_search_secondary_sense_and_intentional_homograph) ... ok
+test_every_new_uuid_sense_example_and_note_is_in_production (test_data03_content.Data03ContentTests.test_every_new_uuid_sense_example_and_note_is_in_production) ... ok
+test_level_keyset_and_editorial_order_append_without_old_reordering (test_data03_content.Data03ContentTests.test_level_keyset_and_editorial_order_append_without_old_reordering) ... ok
+test_polysemy_irregulars_and_typed_relations (test_data03_content.Data03ContentTests.test_polysemy_irregulars_and_typed_relations) ... ok
+test_v6_content_replacement_preserves_both_batches_pass_and_srs_and_new_due (test_data03_content.Data03ContentTests.test_v6_content_replacement_preserves_both_batches_pass_and_srs_and_new_due) ... ok
+test_v6_payloads_ids_revisions_relationships_and_sort_keys_unchanged (test_data03_content.Data03ContentTests.test_v6_payloads_ids_revisions_relationships_and_sort_keys_unchanged) ... FAIL
+test_all_new_lessons_are_reachable_with_bounded_actual_queries (test_data04_content.Data04Tests.test_all_new_lessons_are_reachable_with_bounded_actual_queries) ... ok
+test_direct_input_and_listening_use_existing_sources_and_queries (test_data04_content.Data04Tests.test_direct_input_and_listening_use_existing_sources_and_queries) ... ok
+test_exact_delta_and_old_ids_payloads_membership_are_preserved (test_data04_content.Data04Tests.test_exact_delta_and_old_ids_payloads_membership_are_preserved) ... ok
+test_existing_progress_disk_survives_content_replacement_and_new_due_enrollment (test_data04_content.Data04Tests.test_existing_progress_disk_survives_content_replacement_and_new_due_enrollment) ... ok
+test_legacy_header_repair_is_hash_locked_and_preserves_all_semantics (test_data04_content.Data04Tests.test_legacy_header_repair_is_hash_locked_and_preserves_all_semantics) ... ok
+test_new_card_examples_questions_and_comparison_contract (test_data04_content.Data04Tests.test_new_card_examples_questions_and_comparison_contract) ... ok
+test_new_grammar_invalid_contracts_are_rejected (test_data04_content.Data04Tests.test_new_grammar_invalid_contracts_are_rejected) ... ok
+test_rebuild_with_strict_previous_release_gate (test_data04_content.Data04Tests.test_rebuild_with_strict_previous_release_gate) ... FAIL
+test_schema_header_matches_metadata_and_bad_ddl_is_rejected (test_data04_content.Data04Tests.test_schema_header_matches_metadata_and_bad_ddl_is_rejected) ... ok
+test_spacing_only_grammar_duplicate_still_reported (test_data04_content.Data04Tests.test_spacing_only_grammar_duplicate_still_reported) ... ok
+test_actual_production_grammar_listening_relationships (test_data05_content.Data05Tests.test_actual_production_grammar_listening_relationships) ... ok
+test_all_existing_payloads_ids_membership_and_approved_relation_revisions (test_data05_content.Data05Tests.test_all_existing_payloads_ids_membership_and_approved_relation_revisions) ... ok
+test_all_new_cards_meanings_notes_and_examples_through_actual_queries (test_data05_content.Data05Tests.test_all_new_cards_meanings_notes_and_examples_through_actual_queries) ... ok
+test_new_bad_references_and_translations_rejected (test_data05_content.Data05Tests.test_new_bad_references_and_translations_rejected) ... ok
+test_new_listening_resume_attempt_identity_and_skill_isolation (test_data05_content.Data05Tests.test_new_listening_resume_attempt_identity_and_skill_isolation) ... ok
+test_new_set_and_srs_storage_resume_and_old_schedules_preserved (test_data05_content.Data05Tests.test_new_set_and_srs_storage_resume_and_old_schedules_preserved) ... ok
+test_retired_vocabulary_cannot_leak_into_active_production_pool (test_data05_content.Data05Tests.test_retired_vocabulary_cannot_leak_into_active_production_pool) ... ok
+test_search_level_pos_and_bounded_set_selection (test_data05_content.Data05Tests.test_search_level_pos_and_bounded_set_selection) ... ok
+test_strict_previous_release_gate_and_exact_delta (test_data05_content.Data05Tests.test_strict_previous_release_gate_and_exact_delta) ... Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/__main__.py", line 18, in <module>
+    main(module=None)
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/main.py", line 105, in __init__
+    self.runTests()
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/main.py", line 281, in runTests
+    self.result = testRunner.run(self.test)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/runner.py", line 240, in run
+    test(result)
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/suite.py", line 122, in run
+    test(result)
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/suite.py", line 122, in run
+    test(result)
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/suite.py", line 122, in run
+    test(result)
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/case.py", line 690, in __call__
+    return self.run(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/case.py", line 634, in run
+    self._callTestMethod(testMethod)
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/case.py", line 589, in _callTestMethod
+    if method() is not None:
+       ^^^^^^^^
+  File "/workspace/Project-Hangul-Study/Tools/ContentBuilder/test_data05_content.py", line 24, in test_strict_previous_release_gate_and_exact_delta
+    with sqlite3.connect(path) as new:self.assertEqual(signatures(new),signatures(self.db))
+                                                                       ^^^^^^^^^^^^^^^^^^^
+  File "/workspace/Project-Hangul-Study/Tools/ContentBuilder/validator.py", line 284, in signatures
+    if owner in owners: owners[owner].update(encoded)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

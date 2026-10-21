@@ -1,0 +1,11 @@
+test_all_production_membership_paged_by_level_without_orphans (test_curriculum_sql.CurriculumSQLTests.test_all_production_membership_paged_by_level_without_orphans) ... ok
+test_completion_not_exposure_skip_or_mastery (test_curriculum_sql.CurriculumSQLTests.test_completion_not_exposure_skip_or_mastery) ... ok
+test_continue_routes_cover_modules_and_completed_sessions_drop_out (test_curriculum_sql.CurriculumSQLTests.test_continue_routes_cover_modules_and_completed_sessions_drop_out) ... ok
+test_curriculum_production_filter_uses_real_active_question_targets (test_curriculum_sql.CurriculumSQLTests.test_curriculum_production_filter_uses_real_active_question_targets) ... ok
+test_listening_completion_waits_for_full_session_and_deduplicates_repeats (test_curriculum_sql.CurriculumSQLTests.test_listening_completion_waits_for_full_session_and_deduplicates_repeats) ... ok
+test_profile_skip_replacement_and_diagnostic_never_mutate_learning_tables (test_curriculum_sql.CurriculumSQLTests.test_profile_skip_replacement_and_diagnostic_never_mutate_learning_tables) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.086s
+
+OK

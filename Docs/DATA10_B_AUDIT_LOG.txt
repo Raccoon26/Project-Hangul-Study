@@ -1,0 +1,1 @@
+{"new": {"originals": 60, "examples": 60, "listening": 120, "questions": 120, "choices": 180, "dictation": 60, "comprehension": 60, "reused_old_sources": 0, "extra_new_source_references": 60, "tts": 120, "verified_recordings": 0}, "preserved": 99, "existing_entities": 16241, "source_rows": 68586, "native_definitions": 143}

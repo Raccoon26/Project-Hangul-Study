@@ -17,9 +17,9 @@ class ListeningTests(unittest.TestCase):
   return db
  def test_source_levels_tasks_and_no_sentence_duplication(self):
   db=sqlite3.connect(ROOT/'Resources/content.sqlite');db.row_factory=sqlite3.Row
-  self.assertEqual(tuple(db.execute('SELECT schema_version,content_version,min_reader_version FROM content_metadata').fetchone()),(4,25,7))
-  self.assertEqual(db.execute('SELECT COUNT(*) FROM listening_items').fetchone()[0],2056)
-  self.assertEqual(db.execute('SELECT COUNT(*) FROM examples').fetchone()[0],4873)
+  self.assertEqual(tuple(db.execute('SELECT schema_version,content_version,min_reader_version FROM content_metadata').fetchone()),(4,26,7))
+  self.assertEqual(db.execute('SELECT COUNT(*) FROM listening_items').fetchone()[0],2176)
+  self.assertEqual(db.execute('SELECT COUNT(*) FROM examples').fetchone()[0],4933)
   for level in ['intro','beginner']:
    rows=db.execute(self.content_sql+' AND i.level=? ORDER BY l.learning_order,l.id LIMIT 20',[level]).fetchall();self.assertEqual(len(rows),20)
    tasks=[json.loads(r['rubric_json'])['listening_task'] for r in rows]

@@ -1,0 +1,1517 @@
+{
+  "baseline_examples": 4873,
+  "baseline_listening": 2056,
+  "new_originals": 60,
+  "duplicate_korean_or_spacing_or_terminal_punctuation": 0,
+  "duplicate_ko_ja_pairs": 0,
+  "method": "Exact normalized keys against ALL4873 oldExamples incl1936 originalTTS and60BatchA; bigram-Jaccard shortlist8 then SequenceMatcher top3, AI review, not exhaustive semantic equivalence proof",
+  "records": [
+    {
+      "key": "B01",
+      "example_id": "ab5c091e-72cd-4450-b904-5943d87fce1a",
+      "nearest": [
+        {
+          "example_id": "4c05d3f4-c97a-4bb2-b3b3-3374e9daf922",
+          "korean": "처음 가는 곳이라 조금 망설여져요.",
+          "japanese": "初めて行く場所なので少しためらいます。",
+          "ratio": 0.2963
+        },
+        {
+          "example_id": "fe407d83-6d4c-4707-9d3e-e7cc6cc56d24",
+          "korean": "친구가 옆에 있어서 마음을 놓았어요.",
+          "japanese": "友達がそばにいたので、安心しました。",
+          "ratio": 0.2909
+        },
+        {
+          "example_id": "0f673910-ea44-4e04-96cf-5d1b022e6755",
+          "korean": "친구가 길을 건너와서 인사했어요.",
+          "japanese": "友達が道を渡ってきて挨拶しました。",
+          "ratio": 0.2222
+        }
+      ],
+      "review": "AI reread: shared everyday expressions/topics do not duplicate the entire situation or targeted information; exact/spacing/terminal punctuation checks passed. No semantic originality certificate."
+    },
+    {
+      "key": "B02",
+      "example_id": "add54a55-5fe0-4c31-b588-dd97cfa90594",
+      "nearest": [
+        {
+          "example_id": "875c5be0-bffc-4efd-a693-fc9cde420eeb",
+          "korean": "친구에게 미안한 마음이 들어요.",
+          "japanese": "友達に申し訳なく思います。",
+          "ratio": 0.3051
+        },
+        {
+          "example_id": "5eddc1bc-8a36-4dea-98be-c95087992d8e",
+          "korean": "친구를 기다리고 있어요.",
+          "japanese": "友達を待っています。",
+          "ratio": 0.2857
+        },
+        {
+          "example_id": "57c79282-8972-4871-a6ad-031c6515e38a",
+          "korean": "저녁을 먹기 전에 이 일을 마무리하고 싶어요.",
+          "japanese": "夕食を取る前に、この仕事を仕上げたいです。",
+          "ratio": 0.2812
+        }
+      ],
+      "review": "AI reread: shared everyday expressions/topics do not duplicate the entire situation or targeted information; exact/spacing/terminal punctuation checks passed. No semantic originality certificate."
+    },
+    {
+      "key": "B03",
+      "example_id": "5dbb845c-3d2f-4021-8711-7c88874ab83f",
+      "nearest": [
+        {
+          "example_id": "bd4b9ef8-9457-4092-8c99-4d4efb616995",
+          "korean": "보내기 전에 내용을 조금 수정하고 싶어요.",
+          "japanese": "送る前に内容を少し修正したいです。",
+          "ratio": 0.2712
+        },
+        {
+          "example_id": "ecc8ec41-489b-48e0-8a9d-6feb6d4aebd5",
+          "korean": "졸업하면 취직하고 싶어요.",
+          "japanese": "卒業したら就職したいです。",
+          "ratio": 0.2642
+        },
+        {
+          "example_id": "6eb1c82c-4b13-4c7b-a48e-54c65c58df13",
+          "korean": "천천히 말해 주세요.",
+          "japanese": "ゆっくり話してください。",
+          "ratio": 0.24
+        }
+      ],
+      "review": "AI reread: shared everyday expressions/topics do not duplicate the entire situation or targeted information; exact/spacing/terminal punctuation checks passed. No semantic originality certificate."
+    },
+    {
+      "key": "B04",
+      "example_id": "8d79eab1-1ba0-487f-922a-2cc09a0acb6e",
+      "nearest": [
+        {
+          "example_id": "5472de83-3e83-4efd-b0ef-a9ac9e9229dc",
+          "korean": "지갑을 잃어버려서 경찰에 신고했어요.",
+          "japanese": "財布をなくしたので警察に届け出ました。",
+          "ratio": 0.3214
+        },
+        {
+          "example_id": "5c8c7053-c60c-48d4-a0e4-45d5154492f8",
+          "korean": "급하게 나오다가 지갑을 두고 올 뻔했어요.",
+          "japanese": "急いで出てきて、財布を置いてくるところでした。",
+          "ratio": 0.3158
+        },
+        {
+          "example_id": "bd162a54-8f31-43bc-8f41-8808c64ce89c",
+          "korean": "지갑을 두고 와서 집으로 되돌아왔어요.",
+          "japanese": "財布を置いてきたので、家に戻ってきました。",
+          "ratio": 0.25
+        }
+      ],
+      "review": "AI reread: shared everyday expressions/topics do not duplicate the entire situation or targeted information; exact/spacing/terminal punctuation checks passed. No semantic originality certificate."
+    },
+    {
+      "key": "B05",
+      "example_id": "fc668a1c-2988-4fcb-8597-1ec860491106",
+      "nearest": [
+        {
+          "example_id": "37f4140f-4294-4cc6-9e8b-cfd9d34754c7",
+          "korean": "친구의 이야기를 듣다 보니 제 걱정이 작게 느껴졌어요.",
+          "japanese": "友人の話を聞いているうちに、自分の心配が小さく感じられました。",
+          "ratio": 0.3438
+        },
+        {
+          "example_id": "96f44136-bb7c-4cfb-a95d-00f9d16c2b9a",
+          "korean": "속을 털어놓고 나니 마음이 가벼워졌어요.",
+          "japanese": "本音を打ち明けると、気持ちが軽くなりました。",
+          "ratio": 0.339
+        },
+        {
+          "example_id": "e7070667-3ad3-40ad-977c-b61955b76222",
+          "korean": "한참 걷고 나니 흥분이 조금 가라앉았어요.",
+          "japanese": "しばらく歩くと、興奮が少し収まりました。",
+          "ratio": 0.3051
+        }
+      ],
+      "review": "AI reread: shared everyday expressions/topics do not duplicate the entire situation or targeted information; exact/spacing/terminal punctuation checks passed. No semantic originality certificate."
+    },
+    {
+      "key": "B06",
+      "example_id": "69d006d7-eeaf-4e5d-8ef6-09a26ccc1fbc",
+      "nearest": [
+        {
+          "example_id": "104cb6de-81dc-4ac1-bc40-ef8887510f73",
+          "korean": "친구에게 소식을 전달했어요.",
+          "japanese": "友達に知らせを伝えました。",
+          "ratio": 0.3673
+        },
+        {
+          "example_id": "973d2f6a-bacd-4cce-b172-2b77e06ade3b",
+          "korean": "친구에게 소식을 전해요.",
+          "japanese": "友達に知らせを伝えます。",
+          "ratio": 0.2979
+        },
+        {
+          "example_id": "44ce0828-9996-41d2-a65d-30a2b361f49e",
+          "korean": "부모님께 용돈을 받았어요.",
+          "japanese": "両親からお小遣いをもらいました。",
+          "ratio": 0.2917
+        }
+      ],
+      "review": "AI reread: shared everyday expressions/topics do not duplicate the entire situation or targeted information; exact/spacing/terminal punctuation checks passed. No semantic originality certificate."
+    },
+    {
+      "key": "B07",
+      "example_id": "966055c6-1c95-49d3-bf5e-85b1341a1e2a",
+      "nearest": [
+        {
+          "example_id": "e332bdef-c112-4368-9c60-3eb58ab777c6",
+          "korean": "잠깐 쉰 후에 다시 이야기할까요?",
+          "japanese": "少し休んでから、もう一度話しましょうか。",
+          "ratio": 0.3673
+        },
+        {
+          "example_id": "60c04685-ab57-4e3b-b41f-91989f23c53d",
+          "korean": "이 프로그램에 신청할 때는 회원일 필요가 없어요.",
+          "japanese": "このプログラムに申し込むときは、会員である必要はありません。",
+          "ratio": 0.3214
+        },
+        {
+          "example_id": "5722ad12-ca6c-4222-a41b-4679d1759017",
+          "korean": "다시 이야기할 기회가 마련되면 좋겠어요.",
+          "japanese": "もう一度話す機会ができるといいですね。",
+          "ratio": 0.2642
+        }
+      ],
+      "review": "AI reread: shared everyday expressions/topics do not duplicate the entire situation or targeted information; exact/spacing/terminal punctuation checks passed. No semantic originality certificate."
+    },
+    {
+      "key": "B08",
+      "example_id": "4a3f3f15-7755-4bac-aff8-5053ff16bf82",
+      "nearest": [
+        {
+          "example_id": "82483b6a-5165-4e4a-a7d5-054401c60902",
+          "korean": "시험 전에는 마음이 불안해요.",
+          "japanese": "試験の前は落ち着きません。",
+          "ratio": 0.3019
+        },
+        {
+          "example_id": "6c156447-467c-4ad7-9b7b-ece637a8e463",
+          "korean": "자료를 찾는 사람이 많아요. 중요한 자료인가 봐요.",
+          "japanese": "資料を探している人が多いです。大切な資料のようです。",
+          "ratio": 0.2903
+        },
+        {
+          "example_id": "ce984fd2-38c9-4fd3-a335-74b46eb7a342",
+          "korean": "저는 약속 장소에 조금 일찍 도착하는 편이에요.",
+          "japanese": "私は待ち合わせ場所に、少し早めに着くほうです。",
+          "ratio": 0.2333
+        }
+      ],
+      "review": "AI reread: shared everyday expressions/topics do not duplicate the entire situation or targeted information; exact/spacing/terminal punctuation checks passed. No semantic originality certificate."
+    },
+    {
+      "key": "B09",
+      "example_id": "deb37da7-20db-479a-bb62-81273a828bc7",
+      "nearest": [
+        {
+          "example_id": "c21648d5-3fe1-48cc-ab26-e036510bce7d",
+          "korean": "저도 이 일에 참여하고 싶어요.",
+          "japanese": "私もこの仕事に関わりたいです。",
+          "ratio": 0.2909
+        },
+        {
+          "example_id": "9814d015-2795-4aa6-907f-a57d9889a775",
+          "korean": "조금만 더 시간이 있으면 좋겠어요. 아쉬워요.",
+          "japanese": "もう少し時間があればいいのに。残念です。",
+          "ratio": 0.2903
+        },
+        {
+          "example_id": "177684ac-334d-4778-80bd-42f4cb0d6071",
+          "korean": "아직 미흡한 점이 많아서 의견을 더 듣고 싶어요.",
+          "japanese": "まだ至らない点が多く、もっと意見を聞きたいです。",
+          "ratio": 0.2903
+        }
+      ],
+      "review": "AI reread: shared everyday expressions/topics do not duplicate the entire situation or targeted information; exact/spacing/terminal punctuation checks passed. No semantic originality certificate."
+    },
+    {
+      "key": "B10",
+      "example_id": "cf0d5e54-ea48-4a20-bdd4-5f389053c3d1",
+      "nearest": [
+        {
+          "example_id": "5722ad12-ca6c-4222-a41b-4679d1759017",
+          "korean": "다시 이야기할 기회가 마련되면 좋겠어요.",
+          "japanese": "もう一度話す機会ができるといいですね。",
+          "ratio": 0.3214
+        },
+        {
+          "example_id": "c81dbfdf-95dd-4f0d-8551-34e0e8af8d35",
+          "korean": "동료가 회의 전에 잠깐 이야기하자고 했어요.",
+          "japanese": "同僚が、会議の前に少し話そうと言いました。",
+          "ratio": 0.2807
+        },
+        {
+          "example_id": "9814d015-2795-4aa6-907f-a57d9889a775",
+          "korean": "조금만 더 시간이 있으면 좋겠어요. 아쉬워요.",
+          "japanese": "もう少し時間があればいいのに。残念です。",
+          "ratio": 0.2759
+        }
+      ],
+      "review": "AI reread: shared everyday expressions/topics do not duplicate the entire situation or targeted information; exact/spacing/terminal punctuation checks passed. No semantic originality certificate."
+    },
+    {
+      "key": "B11",
+      "example_id": "5708e45f-e875-4fa1-a612-2c0470623186",
+      "nearest": [
+        {
+          "example_id": "0e780a12-819e-4f06-89f7-bbb989fb3bc4",
+          "korean": "작은 목표부터 이루고 싶어요.",
+          "japanese": "小さな目標から達成したいです。",
+          "ratio": 0.3019
+        },
+        {
+          "example_id": "ae0537c2-38e5-4aab-b952-377204105046",
+          "korean": "친구와 좋은 관계를 유지하고 싶어요.",
+          "japanese": "友達と良い関係を保ちたいです。",
+          "ratio": 0.2857
+        },
+        {
+          "example_id": "dd81c3c5-3a21-4724-b780-2d260254a9e1",
+          "korean": "서로에게 이로운 방향으로 결정하고 싶어요.",
+          "japanese": "お互いのためになる方向で、決めたいです。",
+          "ratio": 0.2712
+        }
+      ],
+      "review": "AI reread: shared everyday expressions/topics do not duplicate the entire situation or targeted information; exact/spacing/terminal punctuation checks passed. No semantic originality certificate."
+    },
+    {
+      "key": "B12",
+      "example_id": "5e39b48c-6d54-4dd2-838a-ac3a4d5a3094",
+      "nearest": [
+        {
+          "example_id": "c39709db-fd83-43d8-8bf8-ca700b95de3a",
+          "korean": "이번 주말에는 색다른 음식을 먹어 보고 싶어요.",
+          "japanese": "今週末は、いつもと一味違う料理を食べてみたいです。",
+          "ratio": 0.3729
+        },
+        {
+          "example_id": "4f4143eb-652a-42ba-b606-3e3d9811f428",
+          "korean": "오늘이 휴일이라면 조금 더 쉬고 싶어요.",
+          "japanese": "今日が休日なら、もう少し休みたいです。",
+          "ratio": 0.3214
+        },
+        {
+          "example_id": "36fa2e85-19b3-4f57-8093-9a67f34d812e",
+          "korean": "그 말이 나온 맥락을 먼저 이해하고 싶어요.",
+          "japanese": "その発言が出た経緯を、まず理解したいです。",
+          "ratio": 0.3158
+        }
+      ],
+      "review": "AI reread: shared everyday expressions/topics do not duplicate the entire situation or targeted information; exact/spacing/terminal punctuation checks passed. No semantic originality certificate."
+    },
+    {
+      "key": "B13",
+      "example_id": "3c1d8d31-92fb-412f-86bb-e66ee1bf61c0",
+      "nearest": [
+        {
+          "example_id": "5be973c1-3cae-478f-abfc-ed4d54c8df4b",
+          "korean": "예산을 너무 적게 책정하면 계획을 실행하기 어려워요.",
+          "japanese": "予算を少なく設定しすぎると、計画を実行しにくくなります。",
+          "ratio": 0.3125
+        },
+        {
+          "example_id": "4a6195fc-b5a6-465f-b717-304ccc9e41bb",
+          "korean": "선택지가 너무 많으면 오히려 고르기 어려워요.",
+          "japanese": "選択肢が多すぎると、かえって選びにくいです。",
+          "ratio": 0.2951
+        },
+        {
+          "example_id": "25a893f1-8d32-464b-bda0-fed84f0956da",
+          "korean": "레몬이 너무 셔서 그냥 먹기 어려워요.",
+          "japanese": "レモンは酸っぱすぎてそのまま食べるのは難しいです。",
+          "ratio": 0.2807
+        }
+      ],
+      "review": "AI reread: shared everyday expressions/topics do not duplicate the entire situation or targeted information; exact/spacing/terminal punctuation checks passed. No semantic originality certificate."
+    },
+    {
+      "key": "B14",
+      "example_id": "1f9a9c63-3724-4c9f-b568-32265b4c7aa8",
+      "nearest": [
+        {
+          "example_id": "fee50b0a-afae-4411-8912-08aa7edbbd62",
+          "korean": "확신이 서기 전에는 약속하지 않으려고 해요.",
+          "japanese": "確信が持てるまでは、約束しないようにしています。",
+          "ratio": 0.3377
+        },
+        {
+          "example_id": "0399a167-33bf-44d0-a50b-0f3a81764c65",
+          "korean": "확실히 모르는 일에는 말을 보태지 않으려고 해요.",
+          "japanese": "よく知らないことには、口を挟まないようにしています。",
+          "ratio": 0.2785
+        },
+        {
+          "example_id": "c5d6705f-cd45-4ca7-92b9-b03261bb6f33",
+          "korean": "다른 사람에게만 의지하지 않으려고 해요.",
+          "japanese": "ほかの人にばかり頼らないようにしています。",
+          "ratio": 0.2632
+        }
+      ],
+      "review": "AI reread: shared everyday expressions/topics do not duplicate the entire situation or targeted information; exact/spacing/terminal punctuation checks passed. No semantic originality certificate."
+    },
+    {
+      "key": "B15",
+      "example_id": "f911d313-7809-4430-8087-6d4eeca2fa95",
+      "nearest": [
+        {
+          "example_id": "6bda9fe6-0ce5-434a-a38a-2e223ba2325b",
+          "korean": "시간이 남거든 이 부분도 확인해 주세요.",
+          "japanese": "時間が余ったら、この部分も確認してください。",
+          "ratio": 0.3509
+        },
+        {
+          "example_id": "9814d015-2795-4aa6-907f-a57d9889a775",
+          "korean": "조금만 더 시간이 있으면 좋겠어요. 아쉬워요.",
+          "japanese": "もう少し時間があればいいのに。残念です。",
+          "ratio": 0.3
+        },
+        {
+          "example_id": "bf5e4027-82d5-4aae-87d2-82a60037a5be",
+          "korean": "아직 시간이 있어요.",
+          "japanese": "まだ時間があります。",
+          "ratio": 0.2449
+        }
+      ],
+      "review": "AI reread: shared everyday expressions/topics do not duplicate the entire situation or targeted information; exact/spacing/terminal punctuation checks passed. No semantic originality certificate."
+    },
+    {
+      "key": "B16",
+      "example_id": "3217c93b-3911-4020-af3f-5d0c2aef99b2",
+      "nearest": [
+        {
+          "example_id": "8d430202-1525-4277-956d-6db5f0fcddaf",
+          "korean": "이 안내문은 손님들을 위한 거예요.",
+          "japanese": "この案内文は、お客さんのためのものです。",
+          "ratio": 0.3
+        },
+        {
+          "example_id": "c4743b6c-a5cb-4927-ade3-e8ca54169ae1",
+          "korean": "처음 수강하는 사람도 쉽게 따라올 수 있어요.",
+          "japanese": "初めて受講する人も、無理なくついてこられます。",
+          "ratio": 0.2812
+        },
+        {
+          "example_id": "d852700f-e282-4d53-867c-149dd3adbd19",
+          "korean": "처음에는 사무실이 조용하더니 지금은 사람들이 많아졌어요.",
+          "japanese": "初めは事務所が静かだったのですが、今は人が増えました。",
+          "ratio": 0.2535
+        }
+      ],
+      "review": "AI reread: shared everyday expressions/topics do not duplicate the entire situation or targeted information; exact/spacing/terminal punctuation checks passed. No semantic originality certificate."
+    },
+    {
+      "key": "B17",
+      "example_id": "9dca4e8c-23c3-4309-9147-33743fbd48e7",
+      "nearest": [
+        {
+          "example_id": "db24b1fd-eb0a-4cec-abb2-232aec2882ef",
+          "korean": "가게 불이 꺼져 있어요. 오늘은 쉬나 봐요.",
+          "japanese": "店の明かりが消えています。今日は休みのようです。",
+          "ratio": 0.5517
+        },
+        {
+          "example_id": "e67f5eeb-5c8b-4259-849c-cd7d23e553a0",
+          "korean": "벌써 문을 닫았네요. 다른 가게로 가요.",
+          "japanese": "もう閉まっていますね。別の店に行きましょう。",
+          "ratio": 0.386
+        },
+        {
+          "example_id": "a78e0ca2-4c1d-4423-8212-7bb14af1aac2",
+          "korean": "사람들이 우산을 접고 있어요. 비가 그쳤나 봐요.",
+          "japanese": "人々が傘を畳んでいます。雨がやんだようです。",
+          "ratio": 0.2951
+        }
+      ],
+      "review": "AI reread: shared everyday expressions/topics do not duplicate the entire situation or targeted information; exact/spacing/terminal punctuation checks passed. No semantic originality certificate.",
+      "context_overlap_note_ko": "가게 불/휴점 추론이라는 C03 공통 맥락은 있다. 새 원문은 잠긴 문이라는 추가 관찰과 이른 폐점 추론/다른 가게 선택을 담고, 두 관찰 단서를 듣게 한다. 공통 상황 부재를 주장하지 않는다."
+    },
+    {
+      "key": "B18",
+      "example_id": "e233db05-8090-4bdc-a365-bd5e28bcde71",
+      "nearest": [
+        {
+          "example_id": "c31e0fb3-fc98-49a6-8eb7-34fa962ddafb",
+          "korean": "주말에는 이 길이 막힐지도 몰라요.",
+          "japanese": "週末は、この道が混むかもしれません。",
+          "ratio": 0.44
+        },
+        {
+          "example_id": "1e2b95f9-5722-4d00-971a-1c189eb665ff",
+          "korean": "어차피 길이 막히니 조금 일찍 출발해요.",
+          "japanese": "どうせ道が混むので、少し早く出発しましょう。",
+          "ratio": 0.3462
+        },
+        {
+          "example_id": "1951f0ac-ec8b-4030-b63a-9f827f73baab",
+          "korean": "버스를 놓칠까 봐 조금 일찍 나왔어요.",
+          "japanese": "バスに乗り遅れないか心配で、少し早く出ました。",
+          "ratio": 0.3137
+        }
+      ],
+      "review": "AI reread: shared everyday expressions/topics do not duplicate the entire situation or targeted information; exact/spacing/terminal punctuation checks passed. No semantic originality certificate."
+    },
+    {
+      "key": "B19",
+      "example_id": "7ba653f6-ec66-48d7-8806-072a9786fed4",
+      "nearest": [
+        {
+          "example_id": "2b4a19bc-5277-4e03-bed2-2e66b3784009",
+          "korean": "오늘은 왠지 좋은 일이 생길 것 같아요.",
+          "japanese": "今日は、なんだかいいことがありそうです。",
+          "ratio": 0.3
+        },
+        {
+          "example_id": "b62419e3-f371-4258-a6e0-7bfa357d34d6",
+          "korean": "오늘은 어쩐지 좋은 일이 생길 것 같아요.",
+          "japanese": "今日はなんとなくいいことがありそうです。",
+          "ratio": 0.2951
+        },
+        {
+          "example_id": "b00de581-8cd9-4e0e-a0da-0d509a3d0268",
+          "korean": "오늘은 옷을 많이 빨래했어요.",
+          "japanese": "今日は服をたくさん洗濯しました。",
+          "ratio": 0.2807
+        }
+      ],
+      "review": "AI reread: shared everyday expressions/topics do not duplicate the entire situation or targeted information; exact/spacing/terminal punctuation checks passed. No semantic originality certificate."
+    },
+    {
+      "key": "B20",
+      "example_id": "1de99988-0f8d-45d7-a14b-e766dc69ae4c",
+      "nearest": [
+        {
+          "example_id": "80ff852b-4568-4bde-ae64-aef85d76450e",
+          "korean": "승인하기 전에 예산을 확인해야 해요.",
+          "japanese": "承認する前に、予算を確認する必要があります。",
+          "ratio": 0.3396
+        },
+        {
+          "example_id": "a56449c6-774c-4ec1-99f1-854e38c0a778",
+          "korean": "개인 정보 처리 지침을 준수하는지 확인해요.",
+          "japanese": "個人情報の取り扱い指針を守っているか、確認します。",
+          "ratio": 0.3214
+        },
+        {
+          "example_id": "d9a2c15f-da65-454a-9054-acb93dc16afc",
+          "korean": "예외를 정하기 전에 원칙부터 확인해요.",
+          "japanese": "例外を決める前に、まず原則を確認します。",
+          "ratio": 0.2963
+        }
+      ],
+      "review": "AI reread: shared everyday expressions/topics do not duplicate the entire situation or targeted information; exact/spacing/terminal punctuation checks passed. No semantic originality certificate."
+    },
+    {
+      "key": "B21",
+      "example_id": "8e8d9f90-47a4-491e-bc96-837d7cafe8fc",
+      "nearest": [
+        {
+          "example_id": "c93e10ff-e85c-4b6f-8238-66605a09aff4",
+          "korean": "직접 만나 보니 제 편견이 사라졌어요.",
+          "japanese": "実際に会ってみると、自分の偏見がなくなりました。",
+          "ratio": 0.2712
+        },
+        {
+          "example_id": "1bbc9e7a-bbbc-4fd7-af69-e511593178d0",
+          "korean": "가격이 비싸서 망설이고 있어요.",
+          "japanese": "値段が高くて迷っています。",
+          "ratio": 0.2456
+        },
+        {
+          "example_id": "e43454d8-29ae-457e-a254-ec943027683c",
+          "korean": "가격이 비싸서 구매를 주저했어요.",
+          "japanese": "値段が高くて購入をためらいました。",
+          "ratio": 0.2414
+        }
+      ],
+      "review": "AI reread: shared everyday expressions/topics do not duplicate the entire situation or targeted information; exact/spacing/terminal punctuation checks passed. No semantic originality certificate."
+    },
+    {
+      "key": "B22",
+      "example_id": "b78858c2-d094-459b-aff5-5521d01232a9",
+      "nearest": [
+        {
+          "example_id": "60c04685-ab57-4e3b-b41f-91989f23c53d",
+          "korean": "이 프로그램에 신청할 때는 회원일 필요가 없어요.",
+          "japanese": "このプログラムに申し込むときは、会員である必要はありません。",
+          "ratio": 0.3429
+        },
+        {
+          "example_id": "0399a167-33bf-44d0-a50b-0f3a81764c65",
+          "korean": "확실히 모르는 일에는 말을 보태지 않으려고 해요.",
+          "japanese": "よく知らないことには、口を挟まないようにしています。",
+          "ratio": 0.2857
+        },
+        {
+          "example_id": "55f35bab-f707-441e-81fc-489bcef2ae4d",
+          "korean": "지금 수업을 시작해요.",
+          "japanese": "今から授業を始めます。",
+          "ratio": 0.2712
+        }
+      ],
+      "review": "AI reread: shared everyday expressions/topics do not duplicate the entire situation or targeted information; exact/spacing/terminal punctuation checks passed. No semantic originality certificate."
+    },
+    {
+      "key": "B23",
+      "example_id": "363b3c32-980e-4d3d-a1b3-d22c7a9654d6",
+      "nearest": [
+        {
+          "example_id": "14514dd3-b958-442c-b297-f09f787eba8e",
+          "korean": "실적만으로 사람의 가치를 판단하고 싶지 않아요.",
+          "japanese": "実績だけで、人の価値を判断したくありません。",
+          "ratio": 0.381
+        },
+        {
+          "example_id": "f01c928d-4c58-4d26-9df2-916b79614339",
+          "korean": "고작 한 번의 실패로 모든 걸 포기하고 싶지는 않아요.",
+          "japanese": "たった一度の失敗で、すべてを諦めたくはありません。",
+          "ratio": 0.2812
+        },
+        {
+          "example_id": "effbe916-f231-49cd-afc2-aa5f06673217",
+          "korean": "무슨 일이 있어요?",
+          "japanese": "何かあったのですか。",
+          "ratio": 0.28
+        }
+      ],
+      "review": "AI reread: shared everyday expressions/topics do not duplicate the entire situation or targeted information; exact/spacing/terminal punctuation checks passed. No semantic originality certificate."
+    },
+    {
+      "key": "B24",
+      "example_id": "d747457d-2b02-4787-b5de-89613f0d2d16",
+      "nearest": [
+        {
+          "example_id": "cb4eda59-a1e8-4db7-b285-36683863a4e2",
+          "korean": "기차 안에서는 인터넷에 접속하기 어려웠어요.",
+          "japanese": "列車の中では、インターネットに接続するのが難しかったです。",
+          "ratio": 0.3279
+        },
+        {
+          "example_id": "63ef78b7-d163-47e2-8951-6109bcd520ad",
+          "korean": "그 방법은 생각보다 실행하기 어려웠어요.",
+          "japanese": "その方法は、思ったより実行するのが難しかったです。",
+          "ratio": 0.2712
+        },
+        {
+          "example_id": "6a5297b3-71f9-4e77-9f18-223adb922bb7",
+          "korean": "면접을 준비하기 위해 회사 정보를 찾아봤어요.",
+          "japanese": "面接に備えるため、会社について調べました。",
+          "ratio": 0.2623
+        }
+      ],
+      "review": "AI reread: shared everyday expressions/topics do not duplicate the entire situation or targeted information; exact/spacing/terminal punctuation checks passed. No semantic originality certificate."
+    },
+    {
+      "key": "B25",
+      "example_id": "77e1e9c3-2d7e-44d6-a2bd-e81d0c213374",
+      "nearest": [
+        {
+          "example_id": "e80227c5-8573-4f18-820e-819b4528693d",
+          "korean": "컴퓨터가 갑자기 꺼지는 바람에 글을 다시 썼어요.",
+          "japanese": "パソコンが突然落ちたため、文章を書き直しました。",
+          "ratio": 0.4839
+        },
+        {
+          "example_id": "9a630149-a6a7-4233-b3ff-1c44424de134",
+          "korean": "앞사람이 갑자기 멈추는 바람에 저도 넘어졌어요.",
+          "japanese": "前の人が急に止まったため、私も転んでしまいました。",
+          "ratio": 0.3226
+        },
+        {
+          "example_id": "fd872237-0882-4381-aef5-19048cb4e7fd",
+          "korean": "버스를 놓치는 바람에 약속에 늦었어요.",
+          "japanese": "バスに乗り遅れたため、約束の時間に遅れました。",
+          "ratio": 0.3103
+        }
+      ],
+      "review": "AI reread: shared everyday expressions/topics do not duplicate the entire situation or targeted information; exact/spacing/terminal punctuation checks passed. No semantic originality certificate.",
+      "context_overlap_note_ko": "컴퓨터가 꺼지는 바람에라는 결합은 기존 예문과 공유한다. 기존 글 재작성과 달리 회의 지각/재시작 후 링크 접근이라는 새 정보·순서를 구성한다."
+    },
+    {
+      "key": "B26",
+      "example_id": "ac0b4371-e1a5-4c5f-b6ee-a2196ea8a536",
+      "nearest": [
+        {
+          "example_id": "10ffcb09-3bda-47dd-bbe8-4346fa315b73",
+          "korean": "늦은 시간에 전화해서 죄송해요.",
+          "japanese": "遅い時間に電話してすみません。",
+          "ratio": 0.2807
+        },
+        {
+          "example_id": "1603b4db-597a-471a-8e09-faf3a2f2e5ad",
+          "korean": "약속 시간을 한 시간 앞당겼어요.",
+          "japanese": "約束の時間を一時間早めました。",
+          "ratio": 0.2456
+        },
+        {
+          "example_id": "6efd1b4a-f475-41b4-9572-c6a12256816c",
+          "korean": "예약 없이 오시면 기다리셔야 할 수도 있어요. 방문 전에 전화하시면 빈 시간을 확인해 드릴게요.",
+          "japanese": "予約なしでいらっしゃると、お待ちいただく場合があります。来店前に電話していただければ、空いている時間をお調べします。",
+          "ratio": 0.241
+        }
+      ],
+      "review": "AI reread: shared everyday expressions/topics do not duplicate the entire situation or targeted information; exact/spacing/terminal punctuation checks passed. No semantic originality certificate."
+    },
+    {
+      "key": "B27",
+      "example_id": "2915ccab-23c1-4917-ad20-591c6b8051d2",
+      "nearest": [
+        {
+          "example_id": "c7197ec2-652f-4a12-9c10-e3bc629c4be6",
+          "korean": "상대방의 입장도 생각해 보세요.",
+          "japanese": "相手の立場も考えてみてください。",
+          "ratio": 0.3103
+        },
+        {
+          "example_id": "e30ae75f-faca-402e-a3dc-0e1fb0349bc8",
+          "korean": "이해하지 못하면 다시 물어보세요.",
+          "japanese": "理解できなければもう一度聞いてください。",
+          "ratio": 0.3051
+        },
+        {
+          "example_id": "312aa9b7-5b4c-43a8-bf23-97f4001604ab",
+          "korean": "시간이 있으니 충분히 생각해 보세요.",
+          "japanese": "時間があるので十分に考えてみてください。",
+          "ratio": 0.3
+        }
+      ],
+      "review": "AI reread: shared everyday expressions/topics do not duplicate the entire situation or targeted information; exact/spacing/terminal punctuation checks passed. No semantic originality certificate."
+    },
+    {
+      "key": "B28",
+      "example_id": "3793717f-a5fa-4bc1-aebe-6867aca82b31",
+      "nearest": [
+        {
+          "example_id": "19b64e6a-75cb-43e3-91d1-dfd90f1a40ea",
+          "korean": "문제가 다시 생기지 않도록 원인을 확인했어요.",
+          "japanese": "同じ問題が再び起きないように、原因を確認しました。",
+          "ratio": 0.2609
+        },
+        {
+          "example_id": "0724bc14-120f-44d8-a82b-5e2d51cc34de",
+          "korean": "밖에 비가 오는 것 같아요.",
+          "japanese": "外は雨が降っているようです。",
+          "ratio": 0.2333
+        },
+        {
+          "example_id": "28a94f24-e340-418e-9605-b6734838e0ac",
+          "korean": "회의 내내 그 문제를 줄곧 생각했어요.",
+          "japanese": "会議の間、ずっとその問題を考えていました。",
+          "ratio": 0.2154
+        }
+      ],
+      "review": "AI reread: shared everyday expressions/topics do not duplicate the entire situation or targeted information; exact/spacing/terminal punctuation checks passed. No semantic originality certificate."
+    },
+    {
+      "key": "B29",
+      "example_id": "6f529367-7d85-45ff-80c2-5f6c7f74e07b",
+      "nearest": [
+        {
+          "example_id": "8b1e8d20-3b77-4d85-af84-02c2769e4978",
+          "korean": "선생님이 학생들을 격려해 주셨어요.",
+          "japanese": "先生が学生たちを励ましてくださいました。",
+          "ratio": 0.3051
+        },
+        {
+          "example_id": "7a887234-b87d-4ef9-b8b2-5d28c8128f1f",
+          "korean": "설명을 듣고 이해했어요.",
+          "japanese": "説明を聞いて理解しました。",
+          "ratio": 0.2963
+        },
+        {
+          "example_id": "41f1ce6f-2b30-4400-933c-906b481ed317",
+          "korean": "선생님이 사전 사용을 허락하셨어요.",
+          "japanese": "先生が辞書の使用を許可してくださいました。",
+          "ratio": 0.2712
+        }
+      ],
+      "review": "AI reread: shared everyday expressions/topics do not duplicate the entire situation or targeted information; exact/spacing/terminal punctuation checks passed. No semantic originality certificate."
+    },
+    {
+      "key": "B30",
+      "example_id": "b4740ba0-19bb-405f-bd2b-6cc1070113cc",
+      "nearest": [
+        {
+          "example_id": "e101c40a-a0f4-4651-adfe-88aa48637262",
+          "korean": "새 담당자가 업무를 인수했어요.",
+          "japanese": "新しい担当者が業務を引き継ぎました。",
+          "ratio": 0.3019
+        },
+        {
+          "example_id": "e1d464c3-ff98-4e2a-8eed-5ca0ca7ebe86",
+          "korean": "친구가 저에게 먼저 가라고 했어요.",
+          "japanese": "友人は私に、先に行くように言いました。",
+          "ratio": 0.2963
+        },
+        {
+          "example_id": "de3d11a3-7d5f-453c-993b-4b4521eb49fd",
+          "korean": "동료가 저에게 자료를 먼저 보내라고 했어요.",
+          "japanese": "同僚は私に、先に資料を送るように言いました。",
+          "ratio": 0.2759
+        }
+      ],
+      "review": "AI reread: shared everyday expressions/topics do not duplicate the entire situation or targeted information; exact/spacing/terminal punctuation checks passed. No semantic originality certificate."
+    },
+    {
+      "key": "B31",
+      "example_id": "abc42122-2979-4ff4-a798-0272c4f19dc1",
+      "nearest": [
+        {
+          "example_id": "1b108526-27cb-4b62-897b-0bc2222b037f",
+          "korean": "내일 일정이 많아서 오늘 미리 준비해야겠어요.",
+          "japanese": "明日は予定が多いので、今日のうちに準備しておこうと思います。",
+          "ratio": 0.3175
+        },
+        {
+          "example_id": "3396e768-0146-4310-8638-ba528e3a74de",
+          "korean": "결과가 나오기 전에는 마음을 놓을 수 없어요.",
+          "japanese": "結果が出るまでは安心できません。",
+          "ratio": 0.2903
+        },
+        {
+          "example_id": "1600905f-996d-48c3-acfd-846c0b45af24",
+          "korean": "의견이 너무 많아서 주제의 범위를 좁혔어요.",
+          "japanese": "意見が多すぎたので、テーマの範囲を絞りました。",
+          "ratio": 0.2903
+        }
+      ],
+      "review": "AI reread: shared everyday expressions/topics do not duplicate the entire situation or targeted information; exact/spacing/terminal punctuation checks passed. No semantic originality certificate."
+    },
+    {
+      "key": "B32",
+      "example_id": "bcfc0a58-cdcc-4017-9d90-065dc2595f1a",
+      "nearest": [
+        {
+          "example_id": "087e5196-08fe-4aa4-b069-69d466684782",
+          "korean": "문이 열려 있어요.",
+          "japanese": "ドアが開いています。",
+          "ratio": 0.359
+        },
+        {
+          "example_id": "76ccb844-9028-47f4-8b38-8a20b00fe9c2",
+          "korean": "가게가 아직 열려 있어요.",
+          "japanese": "店はまだ開いています。",
+          "ratio": 0.3333
+        },
+        {
+          "example_id": "abd19319-d03a-4b51-871c-774767bd391d",
+          "korean": "바빠서 전화를 못 받았어요.",
+          "japanese": "忙しくて電話に出られませんでした。",
+          "ratio": 0.3256
+        }
+      ],
+      "review": "AI reread: shared everyday expressions/topics do not duplicate the entire situation or targeted information; exact/spacing/terminal punctuation checks passed. No semantic originality certificate."
+    },
+    {
+      "key": "B33",
+      "example_id": "09df48a9-d547-4630-b0b4-9707979525f4",
+      "nearest": [
+        {
+          "example_id": "7545f1cc-f4c3-4a41-aeec-49eb31e0b538",
+          "korean": "친구의 설명을 유심히 듣고 질문했어요.",
+          "japanese": "友達の説明を注意深く聞き、質問しました。",
+          "ratio": 0.3548
+        },
+        {
+          "example_id": "faeee2ee-c12a-4229-ba2d-1b47757d07a2",
+          "korean": "친구의 설명을 들은 뒤에야 오해가 풀렸어요.",
+          "japanese": "友人の説明を聞いてやっと、誤解が解けました。",
+          "ratio": 0.3438
+        },
+        {
+          "example_id": "ea129411-3894-4700-a713-9d0e07b8f3c0",
+          "korean": "서로의 의견을 듣고 결론을 내렸어요.",
+          "japanese": "お互いの意見を聞いて、結論を出しました。",
+          "ratio": 0.3279
+        }
+      ],
+      "review": "AI reread: shared everyday expressions/topics do not duplicate the entire situation or targeted information; exact/spacing/terminal punctuation checks passed. No semantic originality certificate.",
+      "context_overlap_note_ko": "친구 설명 뒤 오해가 풀리는 공통 주제는 있다. 새 문항은 결론 전 재확인하겠다는 화자의 후속 의도를 평가한다."
+    },
+    {
+      "key": "B34",
+      "example_id": "1cb00bfa-808d-44f5-acd6-3047c3eb98cb",
+      "nearest": [
+        {
+          "example_id": "89823727-0679-445b-98ac-be44b3c25167",
+          "korean": "서로 원하는 조건이 달라서 협상하는 데 시간이 걸려요.",
+          "japanese": "互いの希望条件が違い、交渉には時間がかかっています。",
+          "ratio": 0.3478
+        },
+        {
+          "example_id": "10b0787d-f96e-4554-9aad-3cb23eceb53e",
+          "korean": "용량이 큰 파일은 전송하는 데 시간이 걸려요.",
+          "japanese": "容量の大きいファイルは、送信に時間がかかります。",
+          "ratio": 0.3077
+        },
+        {
+          "example_id": "757a4001-67a9-45b6-9f8f-7d9a5c22d9d4",
+          "korean": "흔들리는 마음을 다잡는 데 시간이 필요했어요.",
+          "japanese": "揺れる気持ちを立て直すには、時間が必要でした。",
+          "ratio": 0.303
+        }
+      ],
+      "review": "AI reread: shared everyday expressions/topics do not duplicate the entire situation or targeted information; exact/spacing/terminal punctuation checks passed. No semantic originality certificate."
+    },
+    {
+      "key": "B35",
+      "example_id": "fceeda08-c328-4983-ad4e-eb1827e8a9ed",
+      "nearest": [
+        {
+          "example_id": "87c3a220-a73d-486d-93bf-32235c3a78ec",
+          "korean": "엄마가 저에게 동생의 숙제를 도와 주라고 했어요.",
+          "japanese": "母が私に、弟の宿題を手伝ってあげるように言いました。",
+          "ratio": 0.3333
+        },
+        {
+          "example_id": "9ef6939a-b78a-4d82-add6-051175951368",
+          "korean": "자료를 배포하기 전에 저작권을 확인했어요.",
+          "japanese": "資料を配布する前に、著作権を確認しました。",
+          "ratio": 0.2812
+        },
+        {
+          "example_id": "1a2deca8-c232-486f-a4e2-0ea14d35f837",
+          "korean": "자료를 찾느라고 동료의 전화를 못 받았어요.",
+          "japanese": "資料を探すのにかかりきりで、同僚の電話に出られませんでした。",
+          "ratio": 0.2812
+        }
+      ],
+      "review": "AI reread: shared everyday expressions/topics do not duplicate the entire situation or targeted information; exact/spacing/terminal punctuation checks passed. No semantic originality certificate.",
+      "context_overlap_note_ko": "주라고의 제3자 수혜 구조를 재사용한다. 새 상황은 동료 파일 보완과 팀장 지시다. B57과도 도움이라는 주제를 공유하지만 B57은 새 동료에게 먼저 물을 내용을 평가한다."
+    },
+    {
+      "key": "B36",
+      "example_id": "7d9b31b1-d119-4489-a012-d12058224882",
+      "nearest": [
+        {
+          "example_id": "4383dee5-791c-4590-9284-66a7c54a0cf5",
+          "korean": "직접 설명을 들었더니 걱정이 줄었어요.",
+          "japanese": "直接説明を聞いたところ、心配が減りました。",
+          "ratio": 0.3385
+        },
+        {
+          "example_id": "99fd077b-04dc-47ed-9af8-4b08801b2426",
+          "korean": "설명을 듣고 불안이 어느 정도 해소됐어요.",
+          "japanese": "説明を聞いて、不安がある程度和らぎました。",
+          "ratio": 0.3333
+        },
+        {
+          "example_id": "c4b9984d-f31b-4980-ab7b-089b8cb0a619",
+          "korean": "제 설명이 도움이 됐어요?",
+          "japanese": "私の説明は役に立ちましたか。",
+          "ratio": 0.3051
+        }
+      ],
+      "review": "AI reread: shared everyday expressions/topics do not duplicate the entire situation or targeted information; exact/spacing/terminal punctuation checks passed. No semantic originality certificate."
+    },
+    {
+      "key": "B37",
+      "example_id": "75ef8e41-728d-4f72-be88-13e751673c99",
+      "nearest": [
+        {
+          "example_id": "01639c05-0a81-43d8-b429-5dbeaefb609c",
+          "korean": "그 사람은 일을 여간 꼼꼼하게 하지 않아요.",
+          "japanese": "あの人は、並外れて念入りに仕事をします。",
+          "ratio": 0.2712
+        },
+        {
+          "example_id": "c6111148-e1a7-4d5e-bb74-36cf6fab89c3",
+          "korean": "계획대로 착실히 준비하면 무리하지 않아도 돼요.",
+          "japanese": "計画どおりに着実に準備すれば、無理をしなくても済みます。",
+          "ratio": 0.2581
+        },
+        {
+          "example_id": "4d820eec-24a7-4b1d-9928-ac22e0237d0c",
+          "korean": "무리한 요구에는 응하지 않아도 돼요.",
+          "japanese": "無理な要求には応じなくてもかまいません。",
+          "ratio": 0.2456
+        }
+      ],
+      "review": "AI reread: shared everyday expressions/topics do not duplicate the entire situation or targeted information; exact/spacing/terminal punctuation checks passed. No semantic originality certificate."
+    },
+    {
+      "key": "B38",
+      "example_id": "a24fe4a1-4d6e-4be5-8db3-7025f911bb37",
+      "nearest": [
+        {
+          "example_id": "3f4252ce-baf7-49d5-b6d8-5f7c0ca55e8b",
+          "korean": "물건을 인수하기 전에 상태를 확인해요.",
+          "japanese": "品物を受け取る前に、状態を確認します。",
+          "ratio": 0.2712
+        },
+        {
+          "example_id": "d9a2c15f-da65-454a-9054-acb93dc16afc",
+          "korean": "예외를 정하기 전에 원칙부터 확인해요.",
+          "japanese": "例外を決める前に、まず原則を確認します。",
+          "ratio": 0.2712
+        },
+        {
+          "example_id": "5c8c7053-c60c-48d4-a0e4-45d5154492f8",
+          "korean": "급하게 나오다가 지갑을 두고 올 뻔했어요.",
+          "japanese": "急いで出てきて、財布を置いてくるところでした。",
+          "ratio": 0.2667
+        }
+      ],
+      "review": "AI reread: shared everyday expressions/topics do not duplicate the entire situation or targeted information; exact/spacing/terminal punctuation checks passed. No semantic originality certificate.",
+      "context_overlap_note_ko": "B04와 거의 잃을 뻔한 경험 모티프를 공유한다. 버스/지갑 회수 뒤 감정과 달리 계산대/전화 경험 이후 확인 습관을 평가한다."
+    },
+    {
+      "key": "B39",
+      "example_id": "db0b2ce3-37f4-4eb2-9dd9-dc6d550f9284",
+      "nearest": [
+        {
+          "example_id": "4aa7284d-b1ff-457b-ad40-7a6ca8cf1b3e",
+          "korean": "한국에서 일한 경험이 있어요.",
+          "japanese": "韓国で働いた経験があります。",
+          "ratio": 0.2667
+        },
+        {
+          "example_id": "2aa98370-24cc-4923-85cc-7f5e143da634",
+          "korean": "저도 신입이기는 하지만 이 업무는 해 본 적이 있어요.",
+          "japanese": "私も新人ではありますが、この業務はやったことがあります。",
+          "ratio": 0.2609
+        },
+        {
+          "example_id": "823b7ad6-43f3-4bf2-a0a6-2c50f5a55bcc",
+          "korean": "전공과 다른 분야에서 일하고 있어요.",
+          "japanese": "専攻とは違う分野で働いています。",
+          "ratio": 0.254
+        }
+      ],
+      "review": "AI reread: shared everyday expressions/topics do not duplicate the entire situation or targeted information; exact/spacing/terminal punctuation checks passed. No semantic originality certificate."
+    },
+    {
+      "key": "B40",
+      "example_id": "c975114d-050b-49a1-9774-4367262cd081",
+      "nearest": [
+        {
+          "example_id": "d852700f-e282-4d53-867c-149dd3adbd19",
+          "korean": "처음에는 사무실이 조용하더니 지금은 사람들이 많아졌어요.",
+          "japanese": "初めは事務所が静かだったのですが、今は人が増えました。",
+          "ratio": 0.35
+        },
+        {
+          "example_id": "c860c7cb-8497-431c-8dc6-cb88c483b7b9",
+          "korean": "동료가 회의 중에 불쑥 질문해서 놀랐어요.",
+          "japanese": "会議中に同僚が突然質問したので、驚きました。",
+          "ratio": 0.3333
+        },
+        {
+          "example_id": "5139b6a0-493a-486b-97f4-8a0f0849cec7",
+          "korean": "자료가 많아서 정리하는 일이 여간 어렵지 않았어요.",
+          "japanese": "資料が多く、整理するのは非常に大変でした。",
+          "ratio": 0.2632
+        }
+      ],
+      "review": "AI reread: shared everyday expressions/topics do not duplicate the entire situation or targeted information; exact/spacing/terminal punctuation checks passed. No semantic originality certificate."
+    },
+    {
+      "key": "B41",
+      "example_id": "228b67c5-fb73-4e86-913b-d50eda88d47b",
+      "nearest": [
+        {
+          "example_id": "86a71f42-0f33-4bf4-b93a-c88070f7ecd1",
+          "korean": "작은 인사도 소속감을 주는 데 도움이 돼요.",
+          "japanese": "ちょっとした挨拶も、仲間だと感じてもらうのに役立ちます。",
+          "ratio": 0.303
+        },
+        {
+          "example_id": "08f30694-f5be-4eae-b519-6fe110f9da92",
+          "korean": "함께 일하다 보니 서로의 장점을 알게 됐어요.",
+          "japanese": "一緒に働いているうちに、お互いの長所が分かるようになりました。",
+          "ratio": 0.2687
+        },
+        {
+          "example_id": "73b92ccb-4d33-4e0d-b1d9-708d11b2796f",
+          "korean": "일과 쉬는 시간을 구분하고 싶어요.",
+          "japanese": "働く時間と休む時間を分けたいです。",
+          "ratio": 0.254
+        }
+      ],
+      "review": "AI reread: shared everyday expressions/topics do not duplicate the entire situation or targeted information; exact/spacing/terminal punctuation checks passed. No semantic originality certificate."
+    },
+    {
+      "key": "B42",
+      "example_id": "e34cba40-f4fe-40db-a797-472d33a9d697",
+      "nearest": [
+        {
+          "example_id": "70d5fdd7-67ac-45ae-857e-05e5dea6e891",
+          "korean": "회의 방식을 온라인으로 전환했어요.",
+          "japanese": "会議の方式をオンラインに切り替えました。",
+          "ratio": 0.3103
+        },
+        {
+          "example_id": "0e5d0f9b-da83-4db9-9297-b5a365ce9b17",
+          "korean": "다시 확인할 필요가 있어요.",
+          "japanese": "もう一度確認する必要があります。",
+          "ratio": 0.2963
+        },
+        {
+          "example_id": "60c04685-ab57-4e3b-b41f-91989f23c53d",
+          "korean": "이 프로그램에 신청할 때는 회원일 필요가 없어요.",
+          "japanese": "このプログラムに申し込むときは、会員である必要はありません。",
+          "ratio": 0.2857
+        }
+      ],
+      "review": "AI reread: shared everyday expressions/topics do not duplicate the entire situation or targeted information; exact/spacing/terminal punctuation checks passed. No semantic originality certificate."
+    },
+    {
+      "key": "B43",
+      "example_id": "32442864-dfc4-449f-b670-cd1aab9e7291",
+      "nearest": [
+        {
+          "example_id": "8c1a262d-bb7f-457b-a786-2a4c1d89fcf5",
+          "korean": "이 도서관은 누구나 이용할 수 있어요.",
+          "japanese": "この図書館は誰でも利用できます。",
+          "ratio": 0.2545
+        },
+        {
+          "example_id": "0ede3d6a-de2e-4ebb-a047-4b738a85aecc",
+          "korean": "오랜만에 고향에 가서 변화를 실감했어요.",
+          "japanese": "久しぶりに故郷に行き、変化を実感しました。",
+          "ratio": 0.2456
+        },
+        {
+          "example_id": "4c86b91d-fa04-4af9-b449-8230e8946b28",
+          "korean": "학생일 때는 도서관에서 자주 공부했어요.",
+          "japanese": "学生のときは、図書館でよく勉強していました。",
+          "ratio": 0.2456
+        }
+      ],
+      "review": "AI reread: shared everyday expressions/topics do not duplicate the entire situation or targeted information; exact/spacing/terminal punctuation checks passed. No semantic originality certificate."
+    },
+    {
+      "key": "B44",
+      "example_id": "454feab7-e043-4dba-84a9-d7b07f423626",
+      "nearest": [
+        {
+          "example_id": "9fee0702-9a93-4745-b0aa-249d24fc6f78",
+          "korean": "저는 친구들과 어울리는 걸 좋아해요.",
+          "japanese": "私は友達と一緒に過ごすのが好きです。",
+          "ratio": 0.303
+        },
+        {
+          "example_id": "43853749-6622-430f-a756-11f57dabedcf",
+          "korean": "여러 난관이 있었지만 함께 방법을 찾았어요.",
+          "japanese": "いくつもの難関がありましたが、一緒に方法を探しました。",
+          "ratio": 0.2609
+        },
+        {
+          "example_id": "2aa98370-24cc-4923-85cc-7f5e143da634",
+          "korean": "저도 신입이기는 하지만 이 업무는 해 본 적이 있어요.",
+          "japanese": "私も新人ではありますが、この業務はやったことがあります。",
+          "ratio": 0.25
+        }
+      ],
+      "review": "AI reread: shared everyday expressions/topics do not duplicate the entire situation or targeted information; exact/spacing/terminal punctuation checks passed. No semantic originality certificate."
+    },
+    {
+      "key": "B45",
+      "example_id": "0863f59d-f894-427c-9dfa-e335673f009a",
+      "nearest": [
+        {
+          "example_id": "a9750260-37a6-4d0a-b647-adfc7a564eda",
+          "korean": "처음에는 낯설었지만 이내 편해졌어요.",
+          "japanese": "初めは慣れませんでしたが、間もなく居心地がよくなりました。",
+          "ratio": 0.3607
+        },
+        {
+          "example_id": "2a681835-cd05-45b2-81b4-521344dc57ea",
+          "korean": "처음에는 실패했지만 다시 해 봤어요.",
+          "japanese": "最初は失敗しましたが、もう一度やってみました。",
+          "ratio": 0.3333
+        },
+        {
+          "example_id": "ba08d2f8-c8c9-4752-88ec-2f1614562d64",
+          "korean": "처음에는 힘들었지만 서서히 익숙해졌어요.",
+          "japanese": "初めは大変でしたが、徐々に慣れました。",
+          "ratio": 0.3175
+        }
+      ],
+      "review": "AI reread: shared everyday expressions/topics do not duplicate the entire situation or targeted information; exact/spacing/terminal punctuation checks passed. No semantic originality certificate."
+    },
+    {
+      "key": "B46",
+      "example_id": "35328fc7-22b6-4220-91d0-ef914491538f",
+      "nearest": [
+        {
+          "example_id": "418abdfc-ba3d-408f-a059-7214c3bccdf4",
+          "korean": "한국어 수업을 신청했어요.",
+          "japanese": "韓国語の授業に申し込みました。",
+          "ratio": 0.3333
+        },
+        {
+          "example_id": "0c37c2a8-223e-479e-bd0e-dbaace24e70a",
+          "korean": "인수인계 자료를 읽고 질문을 정리했어요.",
+          "japanese": "引き継ぎ資料を読んで、質問をまとめました。",
+          "ratio": 0.2667
+        },
+        {
+          "example_id": "12fe4014-de25-42fc-8e24-7c579a3297ad",
+          "korean": "저녁에는 업무 메시지를 보내지 않기로 했어요.",
+          "japanese": "夜は仕事のメッセージを送らないことにしました。",
+          "ratio": 0.2581
+        }
+      ],
+      "review": "AI reread: shared everyday expressions/topics do not duplicate the entire situation or targeted information; exact/spacing/terminal punctuation checks passed. No semantic originality certificate."
+    },
+    {
+      "key": "B47",
+      "example_id": "ecb12df9-1ba9-4d78-9dbb-aefb4ef2c84b",
+      "nearest": [
+        {
+          "example_id": "30b6f270-c004-4483-b817-95452f7a7b49",
+          "korean": "다음 달에 이사를 해요.",
+          "japanese": "来月引っ越しをします。",
+          "ratio": 0.25
+        },
+        {
+          "example_id": "eff48613-9b5e-4528-88c0-86ebff254dbe",
+          "korean": "다음 달에 휴가를 내요.",
+          "japanese": "来月休暇を取ります。",
+          "ratio": 0.25
+        },
+        {
+          "example_id": "0b7ad6a0-87a2-4c5b-bbf2-9dc604610d06",
+          "korean": "금요일 저녁에는 야근을 해야 해요. 저녁 약속을 취소하는 대신 토요일 점심에 만나면 어때요?",
+          "japanese": "金曜の夜は残業をしなければなりません。夕食の約束を取りやめて、その代わりに土曜の昼に会うのはどうですか。",
+          "ratio": 0.2338
+        }
+      ],
+      "review": "AI reread: shared everyday expressions/topics do not duplicate the entire situation or targeted information; exact/spacing/terminal punctuation checks passed. No semantic originality certificate."
+    },
+    {
+      "key": "B48",
+      "example_id": "cc8a3c83-7fcb-4fc3-81b9-603fcb610a6c",
+      "nearest": [
+        {
+          "example_id": "7ddb32b8-5088-4803-afd7-08aae36d8a18",
+          "korean": "조급하게 결정하지 말고 하루 더 생각해 봐요.",
+          "japanese": "焦って決めず、もう一日考えてみましょう。",
+          "ratio": 0.2941
+        },
+        {
+          "example_id": "55908a7d-22da-4208-8a02-2c268cfe67fa",
+          "korean": "같은 실수를 반복하지 않도록 하겠어요.",
+          "japanese": "同じ失敗を繰り返さないようにします。",
+          "ratio": 0.2727
+        },
+        {
+          "example_id": "c5d6705f-cd45-4ca7-92b9-b03261bb6f33",
+          "korean": "다른 사람에게만 의지하지 않으려고 해요.",
+          "japanese": "ほかの人にばかり頼らないようにしています。",
+          "ratio": 0.2687
+        }
+      ],
+      "review": "AI reread: shared everyday expressions/topics do not duplicate the entire situation or targeted information; exact/spacing/terminal punctuation checks passed. No semantic originality certificate."
+    },
+    {
+      "key": "B49",
+      "example_id": "fd762c61-72ed-437e-9527-3a53f4ffd324",
+      "nearest": [
+        {
+          "example_id": "1b108526-27cb-4b62-897b-0bc2222b037f",
+          "korean": "내일 일정이 많아서 오늘 미리 준비해야겠어요.",
+          "japanese": "明日は予定が多いので、今日のうちに準備しておこうと思います。",
+          "ratio": 0.3667
+        },
+        {
+          "example_id": "6bfa78a9-776b-45b0-a4dc-176e9870bafb",
+          "korean": "여행 날짜를 결정했어요.",
+          "japanese": "旅行の日程を決めました。",
+          "ratio": 0.3137
+        },
+        {
+          "example_id": "c5e2884a-438d-40a7-910d-cc31ce8e3004",
+          "korean": "돌아오는 표는 아직 안 샀어요. 일이 언제 끝날지 몰라서 역에 도착한 뒤에 사려고요.",
+          "japanese": "帰りの切符はまだ買っていません。仕事がいつ終わるか分からないので、駅に着いてから買うつもりです。",
+          "ratio": 0.2933
+        }
+      ],
+      "review": "AI reread: shared everyday expressions/topics do not duplicate the entire situation or targeted information; exact/spacing/terminal punctuation checks passed. No semantic originality certificate."
+    },
+    {
+      "key": "B50",
+      "example_id": "b48ada16-64d6-4d0e-9c9b-b4e2002667ad",
+      "nearest": [
+        {
+          "example_id": "3de46329-fa3b-4a27-aa79-ac297d924a42",
+          "korean": "내일 두 시에 만나기로 했는데 회의가 생겼어요. 한 시간 늦춰서 세 시에 만날 수 있을까요?",
+          "japanese": "明日二時に会う約束でしたが、会議が入りました。一時間遅らせて三時に会えますか。",
+          "ratio": 0.3333
+        },
+        {
+          "example_id": "fb8fcab8-6997-49a2-be9e-d5f516f21cba",
+          "korean": "사실을 먼저 확인해야 해요.",
+          "japanese": "まず事実を確認しなければなりません。",
+          "ratio": 0.3019
+        },
+        {
+          "example_id": "3ba499ff-1271-4d88-87af-32cb1187c109",
+          "korean": "예약을 하루 더 연장할 수 있어요?",
+          "japanese": "予約をもう一日延長できますか。",
+          "ratio": 0.2909
+        }
+      ],
+      "review": "AI reread: shared everyday expressions/topics do not duplicate the entire situation or targeted information; exact/spacing/terminal punctuation checks passed. No semantic originality certificate."
+    },
+    {
+      "key": "B51",
+      "example_id": "100484ed-4b06-467f-8ff3-4d36d5f0ff6e",
+      "nearest": [
+        {
+          "example_id": "7444cade-21a7-4dd7-a6b7-78f4f441c403",
+          "korean": "한적한 카페에서 친구와 오래 이야기했어요.",
+          "japanese": "静かなカフェで、友達とゆっくり話しました。",
+          "ratio": 0.3125
+        },
+        {
+          "example_id": "1b45e24d-3e1f-4091-961b-ecfc5ab282a2",
+          "korean": "이곳에서는 자유롭게 이야기할 수 있어요.",
+          "japanese": "ここでは自由に話せます。",
+          "ratio": 0.2857
+        },
+        {
+          "example_id": "67f1c366-8521-4156-87bc-385a88976091",
+          "korean": "차분한 분위기에서 이야기하고 싶어요.",
+          "japanese": "落ち着いた雰囲気で話したいです。",
+          "ratio": 0.2581
+        }
+      ],
+      "review": "AI reread: shared everyday expressions/topics do not duplicate the entire situation or targeted information; exact/spacing/terminal punctuation checks passed. No semantic originality certificate."
+    },
+    {
+      "key": "B52",
+      "example_id": "bfaddd5e-597a-4908-9f49-0beaf7766906",
+      "nearest": [
+        {
+          "example_id": "d1f7289d-3207-4e38-b773-818982b028a4",
+          "korean": "이 방을 다 정리하고 나서 잠깐 쉬려고 해요.",
+          "japanese": "この部屋を全部片付けてから、少し休むつもりです。",
+          "ratio": 0.3158
+        },
+        {
+          "example_id": "76b516af-3b16-4045-8d01-d1e101f6832c",
+          "korean": "선배는 처음부터 무리하지 말라고 조언했어요.",
+          "japanese": "先輩は、初めから無理をしないよう助言しました。",
+          "ratio": 0.2712
+        },
+        {
+          "example_id": "4a6195fc-b5a6-465f-b717-304ccc9e41bb",
+          "korean": "선택지가 너무 많으면 오히려 고르기 어려워요.",
+          "japanese": "選択肢が多すぎると、かえって選びにくいです。",
+          "ratio": 0.2712
+        }
+      ],
+      "review": "AI reread: shared everyday expressions/topics do not duplicate the entire situation or targeted information; exact/spacing/terminal punctuation checks passed. No semantic originality certificate."
+    },
+    {
+      "key": "B53",
+      "example_id": "ce092019-2771-4cfa-a5be-9be8fdaf29ac",
+      "nearest": [
+        {
+          "example_id": "2296b22a-81ee-4d8e-9b7d-b693ba5f9ebe",
+          "korean": "다음 달부터 이 제도가 다른 부서에도 도입돼요.",
+          "japanese": "来月から、この制度がほかの部署にも導入されます。",
+          "ratio": 0.3333
+        },
+        {
+          "example_id": "ccaac2fd-bcd2-4e3e-a7f4-3c53607c9dbd",
+          "korean": "일 때문에 다음 달부터 혼자 살게 됐어요.",
+          "japanese": "仕事の都合で、来月から一人で暮らすことになりました。",
+          "ratio": 0.2857
+        },
+        {
+          "example_id": "fb0ec6b4-bf0f-45f9-9daa-c35a199a0429",
+          "korean": "담당자와 이야기하고 싶어요.",
+          "japanese": "担当者と話したいです。",
+          "ratio": 0.2712
+        }
+      ],
+      "review": "AI reread: shared everyday expressions/topics do not duplicate the entire situation or targeted information; exact/spacing/terminal punctuation checks passed. No semantic originality certificate."
+    },
+    {
+      "key": "B54",
+      "example_id": "a1ebc1b3-acb8-4099-9365-0f26725b5764",
+      "nearest": [
+        {
+          "example_id": "2c9b72a9-94c4-40e3-988a-2a4319fb4cf9",
+          "korean": "되도록 상대의 말을 끝까지 들으려고 해요.",
+          "japanese": "できるだけ相手の話を最後まで聞くようにしています。",
+          "ratio": 0.3692
+        },
+        {
+          "example_id": "8ede9a5d-81c9-45c7-9510-078813568147",
+          "korean": "선입견 없이 상대의 말을 들으려고 해요.",
+          "japanese": "先入観を持たずに、相手の話を聞こうとしています。",
+          "ratio": 0.2812
+        },
+        {
+          "example_id": "0c1b5527-f5ae-43e3-bfd0-7fc1333347f9",
+          "korean": "저와 친구는 생각이 달라요.",
+          "japanese": "私と友達は考えが違います。",
+          "ratio": 0.2712
+        }
+      ],
+      "review": "AI reread: shared everyday expressions/topics do not duplicate the entire situation or targeted information; exact/spacing/terminal punctuation checks passed. No semantic originality certificate."
+    },
+    {
+      "key": "B55",
+      "example_id": "32c3d95f-92e0-48d6-888e-a9ebe1f26ac1",
+      "nearest": [
+        {
+          "example_id": "9640d761-ec7b-4466-8b22-0f5ee4c1c61d",
+          "korean": "혼자 고민하는 것보다 머리를 맞대면 좋겠어요.",
+          "japanese": "一人で悩むより、一緒に知恵を出し合えるといいです。",
+          "ratio": 0.2941
+        },
+        {
+          "example_id": "4f7a4d80-fa9c-4791-896c-cedff6a08b2e",
+          "korean": "서로에게 조금 더 너그러워지면 좋겠어요.",
+          "japanese": "お互いにもう少し寛大になれるといいですね。",
+          "ratio": 0.2424
+        },
+        {
+          "example_id": "8c3bdb8f-3afe-49e2-889f-9f50bfc9b283",
+          "korean": "가게에서 주말에 일할 사람을 고용했어요.",
+          "japanese": "店では、週末に働く人を雇いました。",
+          "ratio": 0.2424
+        }
+      ],
+      "review": "AI reread: shared everyday expressions/topics do not duplicate the entire situation or targeted information; exact/spacing/terminal punctuation checks passed. No semantic originality certificate."
+    },
+    {
+      "key": "B56",
+      "example_id": "8a06011f-eac9-4c25-9e65-66fb4fb9778a",
+      "nearest": [
+        {
+          "example_id": "b3f9d1cd-3512-4311-96e3-1eacec798aad",
+          "korean": "이 부분을 한 번 더 설명해 주실래요?",
+          "japanese": "この部分を、もう一度説明していただけますか。",
+          "ratio": 0.3607
+        },
+        {
+          "example_id": "b72cce78-319d-485c-8b8c-4c5b369a67a9",
+          "korean": "제가 늦는다고 대신 말을 전해 주실래요?",
+          "japanese": "私が遅れると、代わりに伝えていただけますか。",
+          "ratio": 0.254
+        },
+        {
+          "example_id": "4c288515-7059-4c2d-b4c3-1a3f251df455",
+          "korean": "불평만 하기보다 구체적인 개선점을 말해 주세요.",
+          "japanese": "不満を言うだけでなく、具体的な改善点を伝えてください。",
+          "ratio": 0.2388
+        }
+      ],
+      "review": "AI reread: shared everyday expressions/topics do not duplicate the entire situation or targeted information; exact/spacing/terminal punctuation checks passed. No semantic originality certificate.",
+      "context_overlap_note_ko": "한 번 더 설명해 주실래요 요청은 기존 문법 예문과 공유한다. 새 원문은 바로 반대하지 않고 이해 확인 뒤 의견을 전하는 순서를 구성한다."
+    },
+    {
+      "key": "B57",
+      "example_id": "cd856993-3bec-4778-b0f9-37449225dc9c",
+      "nearest": [
+        {
+          "example_id": "87c3a220-a73d-486d-93bf-32235c3a78ec",
+          "korean": "엄마가 저에게 동생의 숙제를 도와 주라고 했어요.",
+          "japanese": "母が私に、弟の宿題を手伝ってあげるように言いました。",
+          "ratio": 0.3714
+        },
+        {
+          "example_id": "de3d11a3-7d5f-453c-993b-4b4521eb49fd",
+          "korean": "동료가 저에게 자료를 먼저 보내라고 했어요.",
+          "japanese": "同僚は私に、先に資料を送るように言いました。",
+          "ratio": 0.3529
+        },
+        {
+          "example_id": "6369c86b-65a8-45e6-b99d-f6eab8c28753",
+          "korean": "그동안 도와주셔서 감사해요.",
+          "japanese": "これまで助けてくださってありがとうございます。",
+          "ratio": 0.2903
+        }
+      ],
+      "review": "AI reread: shared everyday expressions/topics do not duplicate the entire situation or targeted information; exact/spacing/terminal punctuation checks passed. No semantic originality certificate."
+    },
+    {
+      "key": "B58",
+      "example_id": "d0fa11e0-62a9-47bc-a27e-d7ddde948700",
+      "nearest": [
+        {
+          "example_id": "d0110106-9e5f-4481-b290-d4d11e9632c2",
+          "korean": "우리 생각이 같아요.",
+          "japanese": "私たちの考えは同じです。",
+          "ratio": 0.2545
+        },
+        {
+          "example_id": "c7428455-3513-4d08-9a78-983156372abe",
+          "korean": "그 식당은 멀기는 하지만 음식이 아주 맛있어요.",
+          "japanese": "その食堂は遠いことは遠いですが、料理がとてもおいしいです。",
+          "ratio": 0.2424
+        },
+        {
+          "example_id": "77460630-cca9-4c17-966a-80c960a13b08",
+          "korean": "이 방은 좁기는 하지만 창문이 커서 답답하지 않아요.",
+          "japanese": "この部屋は狭いことは狭いですが、窓が大きいので窮屈には感じません。",
+          "ratio": 0.2353
+        }
+      ],
+      "review": "AI reread: shared everyday expressions/topics do not duplicate the entire situation or targeted information; exact/spacing/terminal punctuation checks passed. No semantic originality certificate."
+    },
+    {
+      "key": "B59",
+      "example_id": "caefc05e-8b7a-40ce-af65-5c32d7631996",
+      "nearest": [
+        {
+          "example_id": "2529732c-adff-4150-b92d-f4659e857e3f",
+          "korean": "어머니와 전화로 이야기해요.",
+          "japanese": "母と電話で話します。",
+          "ratio": 0.3214
+        },
+        {
+          "example_id": "67f1c366-8521-4156-87bc-385a88976091",
+          "korean": "차분한 분위기에서 이야기하고 싶어요.",
+          "japanese": "落ち着いた雰囲気で話したいです。",
+          "ratio": 0.3
+        },
+        {
+          "example_id": "fb0ec6b4-bf0f-45f9-9daa-c35a199a0429",
+          "korean": "담당자와 이야기하고 싶어요.",
+          "japanese": "担当者と話したいです。",
+          "ratio": 0.2857
+        }
+      ],
+      "review": "AI reread: shared everyday expressions/topics do not duplicate the entire situation or targeted information; exact/spacing/terminal punctuation checks passed. No semantic originality certificate."
+    },
+    {
+      "key": "B60",
+      "example_id": "46d55ece-6ef7-45be-985e-e5cf918590bb",
+      "nearest": [
+        {
+          "example_id": "26cbf029-689c-4524-b354-9692c5db2205",
+          "korean": "목소리를 높이지 말고 차분하게 말해요.",
+          "japanese": "声を荒らげず、落ち着いて話しましょう。",
+          "ratio": 0.2985
+        },
+        {
+          "example_id": "0199bdbc-bb88-4469-afa5-f8cd588c7d89",
+          "korean": "자주 이야기할수록 서로를 더 잘 이해하게 돼요.",
+          "japanese": "よく話すほど、お互いをよりよく理解するようになります。",
+          "ratio": 0.2857
+        },
+        {
+          "example_id": "d1f7289d-3207-4e38-b773-818982b028a4",
+          "korean": "이 방을 다 정리하고 나서 잠깐 쉬려고 해요.",
+          "japanese": "この部屋を全部片付けてから、少し休むつもりです。",
+          "ratio": 0.2647
+        }
+      ],
+      "review": "AI reread: shared everyday expressions/topics do not duplicate the entire situation or targeted information; exact/spacing/terminal punctuation checks passed. No semantic originality certificate."
+    }
+  ],
+  "ai_nearest_candidate_pairs_reread": 180
+}
