@@ -1,0 +1,2108 @@
+{
+  "batch": "DATA10-C",
+  "content_version": 27,
+  "created_at": "2026-10-21T08:00:00Z",
+  "source_id": "12f96685-d5b4-4427-9dba-1d805dea6af4",
+  "items": [
+    {
+      "key": "C01",
+      "domain": "school_notice",
+      "korean": "도서관 창가 쪽은 공사 중입니다. 조용히 공부하려면 안쪽 열람실을 이용해 주세요.",
+      "japanese": "図書館の窓側は工事中です。静かに勉強したい方は奥の閲覧室をご利用ください。",
+      "learning_point_ja": "「안쪽」は入口から見て奥側。「-려면」は目的を実現するための条件です。",
+      "grammar_keys": [
+        "4dd04c0c-5449-4d0f-a3cd-f0701ccf5897"
+      ],
+      "listening_focus": "location",
+      "example_id": "767d88f3-1296-4b74-883b-69baf4b8c504",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "6e1a3cb1-4674-4436-a8db-67373bf4b14b",
+          "question_id": "d47659a5-b7c1-45d6-b14b-43f782c7061f",
+          "prompt_ja": "静かに勉強したい人は、どこを使うよう案内されていますか。",
+          "correct": "奥の閲覧室",
+          "distractors": [
+            "窓側の席",
+            "入口近くの席"
+          ],
+          "correct_evidence_ko": "안쪽 열람실을 이용해 주세요",
+          "distractor_explanations_ja": [
+            "窓側は工事中で、案内先ではありません。",
+            "奥ではなく入口側を選ぶのは案内と異なります。"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "13cf3a1c-15a8-49ea-8426-49567ac78f91",
+          "question_id": "e3e63965-4924-43c7-b058-7e9bb657f378"
+        }
+      ]
+    },
+    {
+      "key": "C02",
+      "domain": "school_notice",
+      "korean": "내일 체육 수업은 비가 와도 취소하지 않습니다. 운동장 대신 강당으로 모이세요.",
+      "japanese": "明日の体育の授業は雨でも中止しません。運動場ではなく講堂に集まってください。",
+      "learning_point_ja": "「-아도」は雨でも実施すること、「대신」は集合場所の変更を示します。",
+      "grammar_keys": [
+        "f3e5c2de-6721-46ce-af18-1a5c458bcac8"
+      ],
+      "listening_focus": "change",
+      "example_id": "5b5ad44c-09cf-4d2a-80ff-72c4735dc53e",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "b088e99c-5045-4b8b-8cff-4ce62c9e075d",
+          "question_id": "feb7a097-8a74-43a2-8ab6-fe2ef6b5173a",
+          "prompt_ja": "雨が降った場合、体育の授業はどうなりますか。",
+          "correct": "講堂で行う",
+          "distractors": [
+            "中止になる",
+            "運動場で行う"
+          ],
+          "correct_evidence_ko": "운동장 대신 강당으로 모이세요",
+          "distractor_explanations_ja": [
+            "「취소하지 않습니다」と中止を否定しています。",
+            "運動場の代わりに講堂へ集まる案内です。"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "a049dedc-5769-4b11-80b8-80dd4b5247d7",
+          "question_id": "201babb7-b07a-4eff-98bc-32a6f151c877"
+        }
+      ]
+    },
+    {
+      "key": "C03",
+      "domain": "school_notice",
+      "korean": "학생증을 잃어버린 분은 사무실에 알려 주세요. 새 학생증이 나올 때까지 임시 출입증을 드립니다.",
+      "japanese": "学生証をなくした方は事務室にお知らせください。新しい学生証ができるまで仮の入館証をお渡しします。",
+      "learning_point_ja": "「-을 때까지」は仮の証明書を使う期間の終点です。",
+      "grammar_keys": [
+        "453d0f13-3727-4335-8f6a-ddff70f570ac"
+      ],
+      "listening_focus": "procedure",
+      "example_id": "f8c70a62-9aaa-4fb7-b981-6433e6c747cd",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "e1cf335b-efd4-4d96-b825-2f32bf872e94",
+          "question_id": "fa5c1169-5247-452f-97df-1b04b72f5685",
+          "prompt_ja": "新しい学生証ができるまで、何をもらえますか。",
+          "correct": "仮の入館証",
+          "distractors": [
+            "新しい図書カード",
+            "新しい学生証だけ"
+          ],
+          "correct_evidence_ko": "임시 출입증을 드립니다",
+          "distractor_explanations_ja": [
+            "図書カードの案内ではありません。",
+            "新しい学生証ができるまでの仮の入館証を聞いています。"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "ef98e324-b8b0-453d-9ba4-c8da98695e91",
+          "question_id": "e5f4a243-0179-4267-8fa6-f75256040250"
+        }
+      ]
+    },
+    {
+      "key": "C04",
+      "domain": "school_notice",
+      "korean": "이번 주 동아리 신청은 인터넷으로만 받습니다. 신청서를 내고 나서 확인 문자를 기다려 주세요.",
+      "japanese": "今週のサークルの申し込みはインターネットでのみ受け付けます。申込書を提出した後、確認のメッセージをお待ちください。",
+      "learning_point_ja": "「-고 나서」は提出が先、確認メッセージを待つのが後という順序です。",
+      "grammar_keys": [
+        "58303aa2-5451-40ec-8345-6b7cc14fa1aa"
+      ],
+      "listening_focus": "sequence",
+      "example_id": "f92b2e5f-c178-4f44-84c9-943812644858",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "cf20be6f-8464-46f6-a861-72eae93608c2",
+          "question_id": "8aa73236-399d-4652-b42f-03f5437a92e2",
+          "prompt_ja": "申込書を提出した後は、何をしますか。",
+          "correct": "確認のメッセージを待つ",
+          "distractors": [
+            "事務室で紙を受け取る",
+            "もう一度申し込む"
+          ],
+          "correct_evidence_ko": "확인 문자를 기다려 주세요",
+          "distractor_explanations_ja": [
+            "受付はインターネットのみで、紙を取りに行く案内はありません。",
+            "再申し込みではなく確認を待ちます。"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "8d2d6e31-d38b-45e2-ad67-52118b9793b9",
+          "question_id": "1dfa8746-ff8b-4a31-a9cc-a17c7cb16329"
+        }
+      ]
+    },
+    {
+      "key": "C05",
+      "domain": "school_notice",
+      "korean": "실험실에 들어갈 때는 긴 바지를 입어야 합니다. 안전을 위해 샌들도 신지 마세요.",
+      "japanese": "実験室に入るときは長ズボンを着用しなければなりません。安全のため、サンダルも履かないでください。",
+      "learning_point_ja": "「입다」は衣服、「신다」は履物に使います。「-어야 하다」は義務です。",
+      "grammar_keys": [
+        "25dc9c13-05b1-4d9b-bb5b-5d1643f9a591"
+      ],
+      "listening_focus": "constraint",
+      "example_id": "97648526-0dd7-4f89-b102-c6a1f9cc44ac",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "28faab93-bd3b-464f-9d92-fddfd5f7cd81",
+          "question_id": "0429c40b-91c8-4db1-9341-77ef2d14a41c",
+          "prompt_ja": "実験室に入るときの服装として、正しいものはどれですか。",
+          "correct": "長ズボンを着用し、サンダルは履かない",
+          "distractors": [
+            "短パンと運動靴を着用する",
+            "長ズボンならサンダルでもよい"
+          ],
+          "correct_evidence_ko": "긴 바지를 입어야 합니다",
+          "distractor_explanations_ja": [
+            "サンダルでなくても、長ズボンの着用が必要です。",
+            "長ズボンに加え、サンダルを履かないことも必要です。"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "59504fb7-671e-4c52-bbb1-aeb3148b3fd9",
+          "question_id": "338166dd-8c76-4dfa-9b4c-5c1ec92e54db"
+        }
+      ]
+    },
+    {
+      "key": "C06",
+      "domain": "school_notice",
+      "korean": "발표 순서는 게시판에 붙였습니다. 자기 차례가 되기 전에 교실 앞에서 기다려 주세요.",
+      "japanese": "発表の順番は掲示板に貼ってあります。自分の番になる前に教室の前でお待ちください。",
+      "learning_point_ja": "「자기 차례」は自分の番。掲示の確認と待機のタイミングを聞き分けます。",
+      "grammar_keys": [
+        "92cf69c3-2bda-453a-8b5f-47f1e4902f2a"
+      ],
+      "listening_focus": "timing",
+      "example_id": "021917ac-29ad-46c1-8490-3a5db09c5c45",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "20c0335a-07ae-4161-b9d4-e84ce67f4a9a",
+          "question_id": "070d19a6-ba7f-487c-b996-2d4a8910dcda",
+          "prompt_ja": "いつ教室の前で待つように言っていますか。",
+          "correct": "自分の発表の番が来る前",
+          "distractors": [
+            "自分の発表が終わった後",
+            "全員の発表が終わるまで"
+          ],
+          "correct_evidence_ko": "자기 차례가 되기 전에",
+          "distractor_explanations_ja": [
+            "終わった後ではなく、番になる前です。",
+            "全員の終了を待つ指示ではありません。"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "a3bce876-53bd-4142-a26b-c50d89f7bc80",
+          "question_id": "81e0e40d-53ec-4ef6-a5d5-4c2f31748e3b"
+        }
+      ]
+    },
+    {
+      "key": "C07",
+      "domain": "school_notice",
+      "korean": "급식실 바닥이 젖어 있으니 천천히 걸으세요. 물은 직원이 곧 닦을 예정입니다.",
+      "japanese": "給食室の床がぬれているので、ゆっくり歩いてください。床の水は職員がまもなく拭く予定です。",
+      "learning_point_ja": "「젖어 있다」はぬれた結果の状態。学生に拭くよう頼んでいるのではありません。",
+      "grammar_keys": [
+        "172590f5-9c3c-4fd9-9196-f1811ac4880e"
+      ],
+      "listening_focus": "safety",
+      "example_id": "a71d4d4f-2162-4af6-989f-47f972d6d5dc",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "a34daca5-899b-439d-8978-71678e8ef0a2",
+          "question_id": "93a944a9-53fd-4b60-a255-fea081271b10",
+          "prompt_ja": "学生に求めていることは何ですか。",
+          "correct": "ゆっくり歩くこと",
+          "distractors": [
+            "床の水を拭くこと",
+            "給食室の外で待つこと"
+          ],
+          "correct_evidence_ko": "천천히 걸으세요",
+          "distractor_explanations_ja": [
+            "水を拭くのは職員です。",
+            "外で待機する指示はありません。"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "a61e430a-9b48-4f3c-9c1f-2aaef3fc7825",
+          "question_id": "d6b375e4-0c57-4145-9186-b188ebd5f80c"
+        }
+      ]
+    },
+    {
+      "key": "C08",
+      "domain": "school_notice",
+      "korean": "오늘 보충 수업은 평소보다 늦게 끝납니다. 학교 버스를 타는 학생은 먼저 선생님께 말씀드리세요.",
+      "japanese": "今日の補習はいつもより遅く終わります。スクールバスを利用する生徒は、先に先生に申し出てください。",
+      "learning_point_ja": "「말씀드리다」は相手を立てて伝える表現。連絡する対象が限定されています。",
+      "grammar_keys": [
+        "66f56006-dd56-4cc4-bdcb-38f1c17c0036"
+      ],
+      "listening_focus": "audience",
+      "example_id": "cde2203a-8985-4618-8798-9bc44712c698",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "2b319e25-ec41-49f5-aa4c-20a1b4925f3e",
+          "question_id": "ee4531fc-dfb9-43e5-ab36-5083a36c9d90",
+          "prompt_ja": "先に先生へ申し出る必要があるのは誰ですか。",
+          "correct": "スクールバスを利用する生徒",
+          "distractors": [
+            "補習に参加する先生",
+            "いつも歩いて帰る生徒"
+          ],
+          "correct_evidence_ko": "학교 버스를 타는 학생",
+          "distractor_explanations_ja": [
+            "連絡を求めている相手は生徒です。",
+            "徒歩の生徒についての指示ではありません。"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "b394ecb5-6ed8-4a5a-9c1c-d63facbda796",
+          "question_id": "f55ff8b0-917b-4e7d-b795-1e06ede5f322"
+        }
+      ]
+    },
+    {
+      "key": "C09",
+      "domain": "school_notice",
+      "korean": "과제 파일의 이름에는 반과 번호를 써 주세요. 반과 번호가 없으면 누구의 과제인지 확인하기 어렵습니다.",
+      "japanese": "課題ファイルの名前にはクラスと出席番号を書いてください。クラスと番号がないと誰の課題か確認するのが難しいです。",
+      "learning_point_ja": "ここでの「이름」はファイル名です。氏名だけを書けばよいという意味ではありません。",
+      "grammar_keys": [
+        "9ab75790-f386-4770-89c4-fd3909f97436"
+      ],
+      "listening_focus": "reason",
+      "example_id": "78c8b5f6-ed2b-4a61-9a10-f2ca51c48ace",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "325d3bcb-7644-4b90-9b3d-388552943dbe",
+          "question_id": "08dc4820-a2fc-40ca-bbcc-2d47f14db262",
+          "prompt_ja": "ファイル名にクラスと番号を書く理由は何ですか。",
+          "correct": "誰の課題か確認しやすくするため",
+          "distractors": [
+            "ファイルを小さくするため",
+            "提出した順番を分かるようにするため"
+          ],
+          "correct_evidence_ko": "누구의 과제인지 확인하기 어렵습니다",
+          "distractor_explanations_ja": [
+            "容量を減らす話ではありません。",
+            "提出順ではなく、誰の課題かを確認するためです。"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "7847e9b6-7395-4b74-b10d-13c2144cf93f",
+          "question_id": "dbf836e0-d08a-44e9-804e-03191e2341aa"
+        }
+      ]
+    },
+    {
+      "key": "C10",
+      "domain": "school_notice",
+      "korean": "미술실에서 빌린 가위는 수업이 끝나자마자 돌려주세요. 다음 반도 같은 도구를 사용합니다.",
+      "japanese": "美術室で借りたはさみは授業が終わったらすぐに返してください。次のクラスも同じ道具を使います。",
+      "learning_point_ja": "「-자마자」は終了直後。次の利用者がいることが返却を急ぐ理由です。",
+      "grammar_keys": [
+        "d41f1600-e5aa-40da-b23e-7c51a40d726b"
+      ],
+      "listening_focus": "timing",
+      "example_id": "ff0b157f-c89d-478f-8e5e-b17378c150b1",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "aafd25d1-88b4-4b35-bf4b-81a95c47ed59",
+          "question_id": "d2230d61-20d2-445f-95c1-975dde8fa992",
+          "prompt_ja": "はさみはいつ返しますか。",
+          "correct": "授業が終わったらすぐ",
+          "distractors": [
+            "次の日の授業の前",
+            "次の授業が始まってから"
+          ],
+          "correct_evidence_ko": "수업이 끝나자마자 돌려주세요",
+          "distractor_explanations_ja": [
+            "翌日では次のクラスが使えません。",
+            "次のクラスも使うので、今の授業の直後に返します。"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "9fe9105d-fbfa-4f86-b465-e1dc54a6848c",
+          "question_id": "6e7423db-765f-425b-ac42-97fe182af894"
+        }
+      ]
+    },
+    {
+      "key": "C11",
+      "domain": "work_notice",
+      "korean": "회의실 문이 잠겨 있으면 안내 데스크에 문의하세요. 열쇠는 담당 직원만 빌릴 수 있습니다.",
+      "japanese": "会議室のドアに鍵が掛かっていたら、受付にお問い合わせください。鍵を借りられるのは担当職員だけです。",
+      "learning_point_ja": "「잠겨 있다」は施錠された状態。「-만」は鍵を借りられる人を限定します。",
+      "grammar_keys": [
+        "175390c0-2ef1-40f2-93a8-a528e1f75dd7"
+      ],
+      "listening_focus": "constraint",
+      "example_id": "ad95ec11-51cc-4db1-a1f0-2f0bc34e16fa",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "5cca75b6-2f0d-4a98-b84e-1b0267397aaf",
+          "question_id": "27b13d50-fd89-410a-b821-9dedc9900d64",
+          "prompt_ja": "鍵を借りられるのは誰ですか。",
+          "correct": "担当職員だけ",
+          "distractors": [
+            "会議に参加する人全員",
+            "会議の予約をした人全員"
+          ],
+          "correct_evidence_ko": "담당 직원만 빌릴 수 있습니다",
+          "distractor_explanations_ja": [
+            "参加者全員に貸し出すとは言っていません。",
+            "予約者全員ではなく担当職員だけです。"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "5b746832-e2d9-4087-99e3-1ef7008254b6",
+          "question_id": "6f88dd65-6e3e-45d4-befb-78a8204da24e"
+        }
+      ]
+    },
+    {
+      "key": "C12",
+      "domain": "work_notice",
+      "korean": "내일 아침에는 건물 입구를 청소합니다. 출근하실 때 옆문을 이용해 주실래요?",
+      "japanese": "明日の朝は建物の入口を清掃します。出勤の際は横の入口をご利用いただけますか。",
+      "learning_point_ja": "「-아 주실래요?」は丁寧な依頼。清掃の担当を頼んでいるのではありません。",
+      "grammar_keys": [
+        "b3c47e9e-b16e-4feb-bb5c-4cc4e49b5bf3"
+      ],
+      "listening_focus": "request",
+      "example_id": "0cfc1cec-f69d-4e35-a719-9b64251f3937",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "385ac94a-9613-4309-b77e-43e126929d19",
+          "question_id": "432383d2-a72a-4a59-9054-8af8852432c4",
+          "prompt_ja": "話し手は出勤する人に何を頼んでいますか。",
+          "correct": "横の入口を使うこと",
+          "distractors": [
+            "入口を清掃すること",
+            "正面入口で清掃が終わるまで待つこと"
+          ],
+          "correct_evidence_ko": "옆문을 이용해 주실래요",
+          "distractor_explanations_ja": [
+            "清掃を手伝う依頼ではありません。",
+            "待つのではなく横の入口を使う依頼です。"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "4b273c6c-14f8-4caf-9a0c-406469a1aa7c",
+          "question_id": "972fddb8-4852-4b8f-b78c-284421866265"
+        }
+      ]
+    },
+    {
+      "key": "C13",
+      "domain": "work_notice",
+      "korean": "회의 자료는 화면으로 볼 예정입니다. 메모할 종이만 가져오시면 됩니다.",
+      "japanese": "会議資料は画面で見る予定です。メモ用の紙だけお持ちいただければ大丈夫です。",
+      "learning_point_ja": "「-만」と「-면 되다」が必要な持ち物を絞っています。資料の印刷は不要です。",
+      "grammar_keys": [
+        "175390c0-2ef1-40f2-93a8-a528e1f75dd7"
+      ],
+      "listening_focus": "detail",
+      "example_id": "33553d89-2d0d-44de-bcfb-31bef0c915e9",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "f15eff9c-9498-4be6-88fc-149f6585a932",
+          "question_id": "e36ca87d-094c-4711-9532-d8146d67f1a6",
+          "prompt_ja": "参加者が持ってくるものは何ですか。",
+          "correct": "メモ用の紙",
+          "distractors": [
+            "印刷した会議資料",
+            "配布用に印刷した資料とメモ用の紙"
+          ],
+          "correct_evidence_ko": "메모할 종이만 가져오시면 됩니다",
+          "distractor_explanations_ja": [
+            "資料は画面で見る予定です。",
+            "持参するのはメモ用の紙だけで、資料は画面で見ます。"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "9ad25ffe-f39d-4fbc-81bb-b53bd98ab36f",
+          "question_id": "3d107a1b-b02b-4456-94ff-2b264981379f"
+        }
+      ]
+    },
+    {
+      "key": "C14",
+      "domain": "work_notice",
+      "korean": "배송 주소가 바뀐 고객에게는 확인 전화를 해 주세요. 주소를 확인해야 물건을 보낼 수 있습니다.",
+      "japanese": "配送先が変わったお客様には確認のお電話をしてください。住所を確認してからでないと商品を送れません。",
+      "learning_point_ja": "「-아야」は発送に必要な条件。住所変更そのものと確認作業を区別します。",
+      "grammar_keys": [
+        "0ae7131c-e497-4b82-8286-59c84d5c9e9d"
+      ],
+      "listening_focus": "condition",
+      "example_id": "540421e9-3be6-4c67-bdff-b27aba2ebf4a",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "1eadfc88-2d74-4241-aa8e-2a101cbded48",
+          "question_id": "104cef13-db6a-4b73-b683-d8dd48691061",
+          "prompt_ja": "商品を送る前に必要なことは何ですか。",
+          "correct": "変更後の住所を確認する",
+          "distractors": [
+            "商品を全部交換する",
+            "変更前の住所にすぐ送る"
+          ],
+          "correct_evidence_ko": "주소를 확인해야",
+          "distractor_explanations_ja": [
+            "交換の指示はありません。",
+            "発送前に住所を確認する必要があります。"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "6c6ac31f-3e0e-4391-af83-198185fe54da",
+          "question_id": "9367050b-1dbe-4609-9f73-cfe3b4acbabc"
+        }
+      ]
+    },
+    {
+      "key": "C15",
+      "domain": "work_notice",
+      "korean": "퇴근 전에 창문이 닫혀 있는지 확인해 주세요. 마지막으로 나가는 분은 불도 꺼 주세요.",
+      "japanese": "退勤前に窓が閉まっているかご確認ください。最後に退出する方は電気も消してください。",
+      "learning_point_ja": "「-는지 확인하다」は状態の確認。「마지막으로 나가는 분」は消灯担当になる人です。",
+      "grammar_keys": [
+        "2a7b0e46-86f5-49fa-ac87-de9e3de87e3a"
+      ],
+      "listening_focus": "audience",
+      "example_id": "b79564d8-d62f-4e74-b20a-d655012bc81c",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "908ac696-8be5-4b11-8577-062350072dd4",
+          "question_id": "88576273-260c-4720-a742-3c8b6779f284",
+          "prompt_ja": "電気を消すよう頼まれているのは誰ですか。",
+          "correct": "最後に退出する人",
+          "distractors": [
+            "最初に出勤する人",
+            "窓を最後に閉めた人"
+          ],
+          "correct_evidence_ko": "마지막으로 나가는 분",
+          "distractor_explanations_ja": [
+            "出勤時の話ではありません。",
+            "窓を閉めた人ではなく最後に退出する人です。"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "d89fe37e-9b50-4774-8f17-e1d964ea3cf7",
+          "question_id": "5b1ae8f1-17f4-4949-8da4-c1ada069d3c9"
+        }
+      ]
+    },
+    {
+      "key": "C16",
+      "domain": "work_notice",
+      "korean": "새로 온 직원에게는 제가 창고 위치를 알려 줄게요. 그동안 주문 내용을 확인해 주실래요?",
+      "japanese": "新しく来た職員には私が倉庫の場所を教えます。その間、注文内容を確認してもらえますか。",
+      "learning_point_ja": "「-ㄹ게요」は自分の引き受け、「-아 주실래요?」は相手への依頼です。",
+      "grammar_keys": [
+        "0b6da528-99a6-4f2f-8708-686b052e3213"
+      ],
+      "listening_focus": "roles",
+      "example_id": "51b35456-ad48-41ea-a206-1ad4a646e5ec",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "c484aafc-84f0-4a5b-9822-7f95577bdd08",
+          "question_id": "aa3405c9-4dde-409a-bceb-5eb2f4df2ce0",
+          "prompt_ja": "話し手が相手に頼んでいる仕事は何ですか。",
+          "correct": "注文内容の確認",
+          "distractors": [
+            "新しい職員への倉庫の案内",
+            "新しい職員から注文を聞く"
+          ],
+          "correct_evidence_ko": "주문 내용을 확인해 주실래요",
+          "distractor_explanations_ja": [
+            "倉庫を案内するのは話し手です。",
+            "注文内容の確認を頼んでいます。新しい職員への案内は話し手が行います。"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "a4aa18e4-a5a8-43bc-8d9d-c20f41951558",
+          "question_id": "7b377081-68b9-4f73-be7d-780b5ff55578"
+        }
+      ]
+    },
+    {
+      "key": "C17",
+      "domain": "work_notice",
+      "korean": "이번 주 보고서는 금요일 오전까지 보내 주세요. 오후에는 내용을 모아서 팀 전체에 공유하겠습니다.",
+      "japanese": "今週の報告書は金曜日の午前中までにお送りください。午後に内容をまとめてチーム全体で共有します。",
+      "learning_point_ja": "「-까지」は提出期限。集約・共有の午後と混同しないようにします。",
+      "grammar_keys": [
+        "c920d60c-c5d3-4e2a-b86b-faf321a27c29"
+      ],
+      "listening_focus": "deadline",
+      "example_id": "ee01df9a-1c18-4074-9c14-62eefb30dd63",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "f660a508-9c2a-49af-9835-ffa8fa8d5703",
+          "question_id": "373cbd58-ee18-4e47-a2df-90923c9cd50e",
+          "prompt_ja": "報告書の提出期限はいつですか。",
+          "correct": "金曜日の午前中",
+          "distractors": [
+            "金曜日の午後",
+            "来週の金曜日"
+          ],
+          "correct_evidence_ko": "금요일 오전까지 보내 주세요",
+          "distractor_explanations_ja": [
+            "午後はまとめて共有する時間です。",
+            "今週の報告書の期限を案内しています。"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "9def18a1-63cc-49d2-809e-8c30a5a46a54",
+          "question_id": "9ad597c2-a70f-49ed-8a7d-963c3c18e4cb"
+        }
+      ]
+    },
+    {
+      "key": "C18",
+      "domain": "work_notice",
+      "korean": "상자가 무거우면 혼자 들지 마세요. 함께 옮길 사람이 필요하면 저를 불러 주세요.",
+      "japanese": "箱が重かったら一人で持たないでください。一緒に運ぶ人が必要なら私を呼んでください。",
+      "learning_point_ja": "「들다」は持ち上げること。二つの条件文で安全上の助言と手助けを示します。",
+      "grammar_keys": [
+        "377e3a8a-5815-4d20-9418-b909dce54143"
+      ],
+      "listening_focus": "safety",
+      "example_id": "4404701a-7b05-4721-987b-2190762a2526",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "c3c8c404-dde0-4323-aab0-0d08de18cfbb",
+          "question_id": "93835420-40af-4ae6-9451-320fbe6b5719",
+          "prompt_ja": "重い箱を運ぶ手助けが必要なら、どうしますか。",
+          "correct": "話し手を呼ぶ",
+          "distractors": [
+            "一人で持ち上げてから人を呼ぶ",
+            "重い箱を一人で急いで運ぶ"
+          ],
+          "correct_evidence_ko": "저를 불러 주세요",
+          "distractor_explanations_ja": [
+            "一人で持ち上げる前に助けを呼ぶ案内です。",
+            "重いときは一人で持たないよう注意しています。"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "cfe06ebf-23c1-404e-8311-88ec7e831953",
+          "question_id": "2aa2d295-f79c-4f50-ae08-6fb59c30f545"
+        }
+      ]
+    },
+    {
+      "key": "C19",
+      "domain": "work_notice",
+      "korean": "연수 장소는 그대로인데 시작 시간이 바뀌었습니다. 안내 문자를 다시 읽어 보세요.",
+      "japanese": "研修の場所はそのままですが、開始時刻が変わりました。案内のメッセージをもう一度読んでみてください。",
+      "learning_point_ja": "「그대로」は変更なし。「-는데」は場所と時間の変更状況を対比します。",
+      "grammar_keys": [
+        "e8ce5b27-35a6-4135-8014-47881cdd7f9a"
+      ],
+      "listening_focus": "change",
+      "example_id": "3cca1d43-5141-4e69-8d24-ec689a625685",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "45ed594a-62b0-4b21-a9a3-2f0ec01edfb3",
+          "question_id": "d5f8f1c7-9bb6-4b7b-a949-a9171cf1f27c",
+          "prompt_ja": "研修について変更されたのは何ですか。",
+          "correct": "開始時刻",
+          "distractors": [
+            "会場",
+            "研修の日付"
+          ],
+          "correct_evidence_ko": "시작 시간이 바뀌었습니다",
+          "distractor_explanations_ja": [
+            "場所はそのままです。",
+            "変更されたのは開始時刻で、日付変更は述べていません。"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "505427e1-d5fe-434d-9f34-6ac17a01f26f",
+          "question_id": "da818468-864e-4b63-9e1a-f38999b7e5b9"
+        }
+      ]
+    },
+    {
+      "key": "C20",
+      "domain": "work_notice",
+      "korean": "인쇄기는 점심시간에 점검할 예정입니다. 급한 자료는 그전에 인쇄하세요.",
+      "japanese": "プリンターは昼休みに点検する予定です。急ぎの資料はその前に印刷してください。",
+      "learning_point_ja": "「그전에」は昼休みの点検より前。点検中に印刷する指示ではありません。",
+      "grammar_keys": [
+        "92cf69c3-2bda-453a-8b5f-47f1e4902f2a"
+      ],
+      "listening_focus": "preparation",
+      "example_id": "d1776428-f7ef-4af6-b1c7-1bd6933acec4",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "fb93598e-31f1-40e9-ab0f-448900361a0b",
+          "question_id": "2c281ce0-82f0-402f-9917-f1d91c8183f6",
+          "prompt_ja": "急ぎの資料はいつ印刷しておきますか。",
+          "correct": "昼休みの点検が始まる前",
+          "distractors": [
+            "点検している最中",
+            "昼休みが終わった後"
+          ],
+          "correct_evidence_ko": "그전에 인쇄하세요",
+          "distractor_explanations_ja": [
+            "点検中に印刷する指示ではありません。",
+            "急ぎの資料は点検前に準備します。"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "14c93d67-268a-4a01-b0d4-123db48180e1",
+          "question_id": "9f606ee5-957f-4d5e-ab1f-96e6d30fce2b"
+        }
+      ]
+    },
+    {
+      "key": "C21",
+      "domain": "explanation",
+      "korean": "이 문은 손잡이를 당겨야 열려요. 미는 문이 아닌데 제가 계속 밀었네요.",
+      "japanese": "このドアは取っ手を引かないと開きません。押して開けるドアではないのに、私はずっと押していましたね。",
+      "learning_point_ja": "「당기다」と「밀다」は逆の動作。話し手の思い違いが二文目で分かります。",
+      "grammar_keys": [
+        "0ae7131c-e497-4b82-8286-59c84d5c9e9d"
+      ],
+      "listening_focus": "mechanism",
+      "example_id": "b940403d-4c24-4ce1-9b97-37756e025497",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "8959565f-5174-4821-b16f-af8a60401a3c",
+          "question_id": "ea35c30b-8503-4c99-9cd8-7ebe15f489ad",
+          "prompt_ja": "ドアを開けるには、どうしますか。",
+          "correct": "取っ手を引く",
+          "distractors": [
+            "ドアを押し続ける",
+            "押しながら取っ手を引く"
+          ],
+          "correct_evidence_ko": "손잡이를 당겨야 열려요",
+          "distractor_explanations_ja": [
+            "押すのは話し手が勘違いしていた動作です。",
+            "押す操作の追加ではなく、取っ手を引く必要があります。"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "d7981b90-5544-4926-aa6a-f6a6925aa681",
+          "question_id": "ab6e0731-f5de-468c-aaab-2804a68a50db"
+        }
+      ]
+    },
+    {
+      "key": "C22",
+      "domain": "explanation",
+      "korean": "이 표에서 파란 선은 작년 판매량이에요. 올해 판매량을 보려면 빨간 선을 보세요.",
+      "japanese": "この表の青い線は去年の販売量です。今年の販売量を見たい場合は赤い線を見てください。",
+      "learning_point_ja": "「작년」と「올해」、二色の対応を聞き分けます。図の提示は不要な音声問題です。",
+      "grammar_keys": [
+        "4dd04c0c-5449-4d0f-a3cd-f0701ccf5897"
+      ],
+      "listening_focus": "mapping",
+      "example_id": "8d3b9c52-0f47-411b-8640-700e80e45e69",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "0f0ad3fa-7f2a-4cfc-bbbf-304555c90328",
+          "question_id": "72f5f857-a8ca-4f6f-a3a8-05abbfded713",
+          "prompt_ja": "今年の販売量を示すのはどの線ですか。",
+          "correct": "赤い線",
+          "distractors": [
+            "青い線",
+            "青い線と赤い線の両方"
+          ],
+          "correct_evidence_ko": "올해 판매량을 보려면 빨간 선",
+          "distractor_explanations_ja": [
+            "青い線は去年の販売量です。",
+            "今年だけを示すのは赤い線で、青い線は去年です。"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "c4196b65-ec64-4002-b7d3-366a48dfaece",
+          "question_id": "0dd4f613-9ef3-4cc1-8932-a6bcdf30cc8f"
+        }
+      ]
+    },
+    {
+      "key": "C23",
+      "domain": "explanation",
+      "korean": "이 책은 앞부분에서 기본 표현을 설명해요. 뒤로 갈수록 실제 대화 예문이 많아져요.",
+      "japanese": "この本は前半で基本表現を説明しています。後ろに進むほど実際の会話の例文が多くなります。",
+      "learning_point_ja": "「-ㄹ수록」は進行に伴う増加。「앞부분」と「뒤」の構成を聞き取ります。",
+      "grammar_keys": [
+        "7d214986-8d9d-4f84-9af5-de0234f136d5"
+      ],
+      "listening_focus": "structure",
+      "example_id": "686b4f0b-e28d-403b-9023-d57278d0bea1",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "340cfb42-bfbd-47d8-a361-58da018a77e7",
+          "question_id": "c33a1e5a-1ea5-41d0-990b-9f8dcce192f1",
+          "prompt_ja": "この本は後ろへ進むほど、何が多くなりますか。",
+          "correct": "実際の会話の例文",
+          "distractors": [
+            "基本表現だけの説明",
+            "会話と関係のない例文"
+          ],
+          "correct_evidence_ko": "실제 대화 예문이 많아져요",
+          "distractor_explanations_ja": [
+            "基本表現の説明は前半です。",
+            "後ろに増えるのは実際の会話の例文です。"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "da393cd8-f035-4892-a9ac-a4863406673f",
+          "question_id": "2fa3296a-f55b-4a16-8906-5ed2b3a6d5af"
+        }
+      ]
+    },
+    {
+      "key": "C24",
+      "domain": "explanation",
+      "korean": "빨간 불이 켜져 있는 동안에는 문을 열지 마세요. 불이 꺼지면 안에 있는 물건을 꺼내도 됩니다.",
+      "japanese": "赤いランプがついている間は扉を開けないでください。ランプが消えた後なら中の物を取り出してもかまいません。",
+      "learning_point_ja": "「켜져 있다」は点灯状態。消灯が取り出しを許可する合図です。",
+      "grammar_keys": [
+        "971d0ccc-242f-464d-90e9-775c19b88c94"
+      ],
+      "listening_focus": "condition",
+      "example_id": "2e369d88-cece-4b20-9a79-cc2398673fc2",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "ac6a1aa1-e3a1-4724-a9fa-bf752b832551",
+          "question_id": "3a56a096-3120-41a4-8de7-cc8abcfb2855",
+          "prompt_ja": "中の物を取り出してよいのはいつですか。",
+          "correct": "赤いランプが消えた後",
+          "distractors": [
+            "赤いランプがついている間",
+            "赤いランプがついた直後"
+          ],
+          "correct_evidence_ko": "불이 꺼지면",
+          "distractor_explanations_ja": [
+            "点灯中は扉を開けてはいけません。",
+            "点灯直後ではなく消灯後です。"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "38ba7bbe-def9-4819-b512-31ef1c4de6e7",
+          "question_id": "86594886-69f8-40e0-be0d-c751bcd248cc"
+        }
+      ]
+    },
+    {
+      "key": "C25",
+      "domain": "explanation",
+      "korean": "화분에는 매일 물을 줄 필요가 없어요. 흙이 말랐을 때 조금씩 주세요.",
+      "japanese": "鉢植えには毎日水をやる必要はありません。土が乾いたときに少しずつやってください。",
+      "learning_point_ja": "「-ㄹ 필요가 없다」は不要という意味で、毎日の水やりを義務にしていません。",
+      "grammar_keys": [
+        "f527297e-94dd-472b-928e-7bc3900b2dae"
+      ],
+      "listening_focus": "frequency",
+      "example_id": "5e4b7cb3-093f-41d2-83b8-2ecc9ad085b1",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "d1422248-7f3f-41f2-9d07-a39dadd438ce",
+          "question_id": "adedd72d-eca5-4734-a612-3a078ad71ad4",
+          "prompt_ja": "鉢植えの水やりは、どうしますか。",
+          "correct": "土が乾いたときに少しずつやる",
+          "distractors": [
+            "毎日たくさんやる",
+            "土がぬれているときだけやる"
+          ],
+          "correct_evidence_ko": "흙이 말랐을 때 조금씩",
+          "distractor_explanations_ja": [
+            "毎日は不要で、量も少しずつです。",
+            "乾いたときが水やりの目安です。"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "109ea5a3-f4df-4929-a9a3-c280cb234766",
+          "question_id": "b7b967f9-ac37-4d17-9254-659cb917b642"
+        }
+      ]
+    },
+    {
+      "key": "C26",
+      "domain": "explanation",
+      "korean": "이 표시는 길이 막혔다는 뜻이 아니에요. 앞에 학교가 있으니 속도를 줄이라는 뜻이에요.",
+      "japanese": "この標識は通行止めという意味ではありません。この先に学校があるので速度を落とすようにという意味です。",
+      "learning_point_ja": "「뜻이 아니다」で誤解を否定し、後の文で正しい意味を説明します。",
+      "grammar_keys": [
+        "2d9cbb5e-ac05-4cbc-a52b-975c19d77210"
+      ],
+      "listening_focus": "meaning",
+      "example_id": "68b52fb6-64b8-45a2-8eca-55b88d05c46c",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "3fb83a74-6435-47a3-be1e-a4e645fb29e8",
+          "question_id": "e73ef506-f63e-45f9-a466-13c812c5db02",
+          "prompt_ja": "標識は何を伝えていますか。",
+          "correct": "学校があるので速度を落とすこと",
+          "distractors": [
+            "道が通れないこと",
+            "学校の中を通ること"
+          ],
+          "correct_evidence_ko": "속도를 줄이라는 뜻",
+          "distractor_explanations_ja": [
+            "通行止めという意味は明確に否定しています。",
+            "校内を通る案内ではありません。"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "ae88b6b1-aad6-44cb-a80e-51424e8ddf6b",
+          "question_id": "d659cc7e-cad5-4867-bc3f-d537e357ded7"
+        }
+      ]
+    },
+    {
+      "key": "C27",
+      "domain": "explanation",
+      "korean": "참가비에는 점심값이 포함되어 있어요. 하지만 집에서 행사장까지 가는 교통비는 따로 내야 해요.",
+      "japanese": "参加費には昼食代が含まれています。ただし、自宅から会場までの交通費は別に払わなければなりません。",
+      "learning_point_ja": "「포함되어 있다」は含まれた状態。「따로 내다」は別払いです。",
+      "grammar_keys": [
+        "172590f5-9c3c-4fd9-9196-f1811ac4880e"
+      ],
+      "listening_focus": "inclusion",
+      "example_id": "e27084d3-171b-4dac-a3df-56ba8a6a94ab",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "7b3f31c7-1029-4f8e-af22-1723a9880ca7",
+          "question_id": "be912877-b267-4fd5-9ecb-946bdd0c8451",
+          "prompt_ja": "参加費と別に払う必要があるのは何ですか。",
+          "correct": "自宅から会場までの交通費",
+          "distractors": [
+            "昼食代",
+            "昼食代と交通費の両方"
+          ],
+          "correct_evidence_ko": "교통비는 따로 내야 해요",
+          "distractor_explanations_ja": [
+            "昼食代は参加費に含まれています。",
+            "昼食代は参加費に含まれ、別払いなのは交通費です。"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "58422384-e608-4153-9bfe-14893b86329d",
+          "question_id": "872ac960-feff-4d2d-b5e7-941ed5607fea"
+        }
+      ]
+    },
+    {
+      "key": "C28",
+      "domain": "explanation",
+      "korean": "이 단추를 누르면 화면만 꺼져요. 기계를 완전히 끄려면 옆에 있는 단추를 길게 누르세요.",
+      "japanese": "このボタンを押すと画面だけが消えます。機械の電源を完全に切るには横のボタンを長押ししてください。",
+      "learning_point_ja": "「-만」は消える範囲の限定。「길게 누르다」は長押しです。",
+      "grammar_keys": [
+        "4dd04c0c-5449-4d0f-a3cd-f0701ccf5897"
+      ],
+      "listening_focus": "procedure",
+      "example_id": "af559e2c-a9c2-4826-bd77-57bec7d29f82",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "51f3e703-d97a-46a9-a097-982d9cf25bc6",
+          "question_id": "e59a0078-a93f-42d5-be63-e2d8e88e6702",
+          "prompt_ja": "機械の電源を完全に切るには、どうしますか。",
+          "correct": "横のボタンを長押しする",
+          "distractors": [
+            "最初のボタンを短く押す",
+            "横のボタンを短く押す"
+          ],
+          "correct_evidence_ko": "옆에 있는 단추를 길게 누르세요",
+          "distractor_explanations_ja": [
+            "最初のボタンでは画面しか消えません。",
+            "横のボタンは長く押す必要があります。"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "cee33baf-4ccc-42b4-a4ea-27a20dcefab6",
+          "question_id": "f2282448-a106-44cd-8157-13973f10e1b3"
+        }
+      ]
+    },
+    {
+      "key": "C29",
+      "domain": "explanation",
+      "korean": "방문 기록에 이름을 쓰는 건 출입한 사람을 확인하기 위해서예요. 물건을 주문하는 신청서는 아니에요.",
+      "japanese": "訪問記録に名前を書くのは、出入りした人を確認するためです。商品を注文する申込書ではありません。",
+      "learning_point_ja": "「-기 위해서」は目的。記入する書類の用途を説明しています。",
+      "grammar_keys": [
+        "39d90697-78fd-4a3b-847c-b90d5ff07e64"
+      ],
+      "listening_focus": "purpose",
+      "example_id": "978b1531-b981-4955-a930-9d60b838dd9b",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "0619da31-afda-4bb3-8d06-7e95f8a54c0e",
+          "question_id": "40d4e860-a04c-4370-ab42-0efd05142e55",
+          "prompt_ja": "訪問記録に名前を書く目的は何ですか。",
+          "correct": "出入りした人を確認するため",
+          "distractors": [
+            "商品を注文するため",
+            "商品の受け取りを確認するため"
+          ],
+          "correct_evidence_ko": "출입한 사람을 확인하기 위해서",
+          "distractor_explanations_ja": [
+            "注文用の申込書ではないと言っています。",
+            "商品の受け取りではなく出入りした人の確認です。"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "b970bef9-3e6e-4730-b3bc-13e38f8ac7b7",
+          "question_id": "164f721b-877d-4440-8f10-4de51a9b1a1b"
+        }
+      ]
+    },
+    {
+      "key": "C30",
+      "domain": "explanation",
+      "korean": "세탁이 끝나도 문이 바로 열리지는 않아요. 잠깐 기다리면 잠금 표시가 사라져요.",
+      "japanese": "洗濯が終わっても、扉はすぐには開きません。少し待つとロックの表示が消えます。",
+      "learning_point_ja": "「-지는 않다」は「すぐ開く」を否定。表示が消えるまでの待ち時間があります。",
+      "grammar_keys": [
+        "f3e5c2de-6721-46ce-af18-1a5c458bcac8"
+      ],
+      "listening_focus": "sequence",
+      "example_id": "af6a99e2-2b2b-4b89-afba-71be7d31d82b",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "991a5452-575a-4fe4-be63-35cd0d9e6750",
+          "question_id": "14d309e0-cd74-4512-b0a1-ed79bb836d5a",
+          "prompt_ja": "洗濯が終わった直後は、どうすればよいですか。",
+          "correct": "少し待つ",
+          "distractors": [
+            "すぐに強く扉を引く",
+            "もう一度洗濯を始める"
+          ],
+          "correct_evidence_ko": "잠깐 기다리면",
+          "distractor_explanations_ja": [
+            "扉はすぐには開きません。",
+            "洗濯をやり直す指示ではありません。"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "c9e25018-31d7-4932-a596-3dfaa9fcfbcd",
+          "question_id": "5a256961-f8cc-473f-ad79-48f3e83c76d1"
+        }
+      ]
+    },
+    {
+      "key": "C31",
+      "domain": "comparison",
+      "korean": "이 강의는 설명이 자세한 대신 과제가 많아요. 다른 강의는 과제가 적지만 스스로 공부할 부분이 많아요.",
+      "japanese": "この講義は説明が詳しい代わりに課題が多いです。もう一方の講義は課題が少ないですが、自分で勉強する部分が多いです。",
+      "learning_point_ja": "「대신」は長所と負担の対応。課題の少なさと自習量を混同しません。",
+      "grammar_keys": [
+        "782eb56e-972c-4c6e-81a7-911d094caac1"
+      ],
+      "listening_focus": "tradeoff",
+      "example_id": "fb762e34-797a-46b3-bdb1-f80fe4d65f8f",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "dad1f8bd-552f-41dd-846c-ac0cba9323b6",
+          "question_id": "0b95a202-2fa6-4b68-bb27-3daf06dec1de",
+          "prompt_ja": "もう一方の講義の特徴は何ですか。",
+          "correct": "課題は少ないが、自習する部分が多い",
+          "distractors": [
+            "課題も自習する部分も少ない",
+            "課題は多いが、自習する部分は少ない"
+          ],
+          "correct_evidence_ko": "스스로 공부할 부분이 많아요",
+          "distractor_explanations_ja": [
+            "自習する部分は多いと言っています。",
+            "もう一方の講義は課題が少なく、自習する部分が多いです。"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "58190dc4-9f3d-4d13-adf9-d9ca15aaa689",
+          "question_id": "010f68e7-ebe3-4c8f-a48e-bbdbd913ca8e"
+        }
+      ]
+    },
+    {
+      "key": "C32",
+      "domain": "comparison",
+      "korean": "왼쪽 책상은 넓지만 서랍이 없어요. 오른쪽 책상은 조금 좁아도 서랍이 있어서 정리하기 편해요.",
+      "japanese": "左の机は広いですが引き出しがありません。右の机は少し狭くても引き出しがあるので整理しやすいです。",
+      "learning_point_ja": "「서랍이 있다」が右の机の利点。広さだけで優劣を決めていません。",
+      "grammar_keys": [
+        "f3e5c2de-6721-46ce-af18-1a5c458bcac8"
+      ],
+      "listening_focus": "advantage",
+      "example_id": "158ccc3f-c004-439f-b262-e7663dd6fc06",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "2d20e480-5b89-4666-a967-539b6eb4efa8",
+          "question_id": "875adf06-3a66-44e7-a025-b0015aeeeb84",
+          "prompt_ja": "右の机は、なぜ整理しやすいのですか。",
+          "correct": "引き出しがあるから",
+          "distractors": [
+            "左より広いから",
+            "引き出しがないから"
+          ],
+          "correct_evidence_ko": "서랍이 있어서",
+          "distractor_explanations_ja": [
+            "右の机は少し狭いと述べています。",
+            "右の机は引き出しがあることが整理しやすい理由です。"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "57febf13-6f19-4da0-a2bf-7e9c358088a7",
+          "question_id": "f23d0dee-4bbc-4fa3-b6ba-dabe25a29f9f"
+        }
+      ]
+    },
+    {
+      "key": "C33",
+      "domain": "comparison",
+      "korean": "종이 안내문은 눈에 잘 띄는데 내용을 고치기 어려워요. 인터넷 안내문은 바뀐 내용을 바로 올릴 수 있어요.",
+      "japanese": "紙の案内は目につきやすいですが、内容を直すのが難しいです。インターネットの案内は変更内容をすぐに掲載できます。",
+      "learning_point_ja": "「눈에 띄다」は目につくという表現。電子版の利点は更新の速さです。",
+      "grammar_keys": [
+        "b85e6804-85a2-495d-8781-e885ee9468a2"
+      ],
+      "listening_focus": "advantage",
+      "example_id": "61bb284d-b696-47d7-8ee0-67ff163e9fe6",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "deb7ec4c-fb71-49b5-a4b6-63b0990e5f85",
+          "question_id": "3303971b-f435-4699-9df5-e1a3bbbb73b8",
+          "prompt_ja": "インターネットの案内の利点は何ですか。",
+          "correct": "変更内容をすぐに載せられる",
+          "distractors": [
+            "内容を変えなくてもよい",
+            "紙より内容を直しにくい"
+          ],
+          "correct_evidence_ko": "바뀐 내용을 바로 올릴 수 있어요",
+          "distractor_explanations_ja": [
+            "変更不要とは述べていません。",
+            "すぐに変更を載せられる点がインターネットの利点です。"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "88642816-e4a4-4d3c-90e6-695eda623c95",
+          "question_id": "c78774b7-2c60-4fba-b83f-a1a89e93d275"
+        }
+      ]
+    },
+    {
+      "key": "C34",
+      "domain": "comparison",
+      "korean": "작은 가방은 가볍기는 하지만 책이 다 안 들어가요. 무거워도 큰 가방을 가져가는 게 낫겠어요.",
+      "japanese": "小さいかばんは軽いことは軽いですが、本が全部入りません。重くても大きいかばんを持っていくほうがよさそうです。",
+      "learning_point_ja": "「-기는 하지만」は利点を認めた上での問題提示。荷物が入ることを優先しています。",
+      "grammar_keys": [
+        "40f95bb3-8746-47cf-9a49-023cecc3345b"
+      ],
+      "listening_focus": "choice",
+      "example_id": "cf0d0b61-c146-464c-b208-7d813e02b752",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "e5fecede-2285-46d1-8f15-d52d13d65d95",
+          "question_id": "a17b06a9-fb5f-4f81-85e6-b039416a27ed",
+          "prompt_ja": "話し手はどちらのかばんを持っていこうとしていますか。",
+          "correct": "本が入る大きいかばん",
+          "distractors": [
+            "軽い小さいかばん",
+            "本が全部入る小さいかばん"
+          ],
+          "correct_evidence_ko": "큰 가방을 가져가는 게 낫겠어요",
+          "distractor_explanations_ja": [
+            "小さいかばんには本が全部入りません。",
+            "小さいかばんには本が全部入らないため、大きいものを選びます。"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "4880e6f3-9ee8-4d86-b51f-51f808923235",
+          "question_id": "c57291cd-0fb8-4774-8848-a00b56d48357"
+        }
+      ]
+    },
+    {
+      "key": "C35",
+      "domain": "comparison",
+      "korean": "온라인 회의는 이동 시간이 들지 않아요. 다만 직접 만나면 표정을 보기 쉬워서 오해가 줄어들어요.",
+      "japanese": "オンライン会議は移動時間がかかりません。ただ、直接会うと表情が分かりやすいので誤解が減ります。",
+      "learning_point_ja": "「다만」は別の考慮点の追加。直接会う利点とオンラインの利点が異なります。",
+      "grammar_keys": [
+        "9ab75790-f386-4770-89c4-fd3909f97436"
+      ],
+      "listening_focus": "reason",
+      "example_id": "e66a8b8d-787d-49c0-9d84-270a73940c96",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "3af12889-6dbf-4f86-bd36-e5312bd14772",
+          "question_id": "c8c9324f-3ecd-4c01-8559-c748c4db8f3c",
+          "prompt_ja": "直接会うと誤解が減るのは、なぜですか。",
+          "correct": "表情が分かりやすいから",
+          "distractors": [
+            "移動時間がかからないから",
+            "会議が必ず短くなるから"
+          ],
+          "correct_evidence_ko": "표정을 보기 쉬워서",
+          "distractor_explanations_ja": [
+            "移動時間がかからないのはオンライン会議です。",
+            "会議の長さは比較していません。"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "5773c17d-d006-457d-8b8e-47c763e0029d",
+          "question_id": "7dda8728-d1cc-46ba-b59b-530f3d3d8aad"
+        }
+      ]
+    },
+    {
+      "key": "C36",
+      "domain": "comparison",
+      "korean": "이 신발은 비가 와도 물이 잘 안 들어와요. 저 신발은 가볍지만 비 오는 날에는 피하는 게 좋겠어요.",
+      "japanese": "この靴は雨でも水が入りにくいです。あの靴は軽いですが、雨の日には避けたほうがよさそうです。",
+      "learning_point_ja": "「잘 안」は起こりにくさ。「피하다」は避けることで、雨の日の用途を比べています。",
+      "grammar_keys": [
+        "f3e5c2de-6721-46ce-af18-1a5c458bcac8"
+      ],
+      "listening_focus": "suitability",
+      "example_id": "b63e5004-9142-46b0-bd87-c9d0238c9f44",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "52e77508-f877-4c34-811b-48bf1834fc26",
+          "question_id": "c1e9ef2f-1476-4c64-9a13-0b52ed3eab11",
+          "prompt_ja": "雨の日に向いていると説明しているのはどの靴ですか。",
+          "correct": "水が入りにくい、この靴",
+          "distractors": [
+            "軽い、あの靴",
+            "どちらも雨の日には避けるべき"
+          ],
+          "correct_evidence_ko": "물이 잘 안 들어와요",
+          "distractor_explanations_ja": [
+            "あの靴は雨の日には避けたほうがよいと言っています。",
+            "この靴は雨でも水が入りにくいと説明しています。"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "209e49dd-8e00-49cb-ad90-ad945eebd0f5",
+          "question_id": "a5b90d1d-0b6d-488d-82c8-4316ce8046ca"
+        }
+      ]
+    },
+    {
+      "key": "C37",
+      "domain": "comparison",
+      "korean": "아침 수업은 사람이 적어서 질문하기 편해요. 저녁 수업은 사람이 많아도 퇴근 후에 들을 수 있다는 장점이 있어요.",
+      "japanese": "朝の授業は人が少なくて質問しやすいです。夜の授業は人が多くても退勤後に受けられるという利点があります。",
+      "learning_point_ja": "「-다는 장점」は利点の内容。人数の少なさは朝の授業の特徴です。",
+      "grammar_keys": [
+        "2d9cbb5e-ac05-4cbc-a52b-975c19d77210"
+      ],
+      "listening_focus": "advantage",
+      "example_id": "251335b1-4493-493b-8509-3f8529a0c5e1",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "c925e330-ca52-45ab-8b92-60afb9026ee5",
+          "question_id": "009562a3-cec9-4a6a-b4a8-a51d072454c0",
+          "prompt_ja": "夜の授業の利点は何ですか。",
+          "correct": "仕事が終わってから受けられる",
+          "distractors": [
+            "朝より人数が少ない",
+            "朝の授業より質問しやすい"
+          ],
+          "correct_evidence_ko": "퇴근 후에 들을 수 있다는 장점",
+          "distractor_explanations_ja": [
+            "夜の授業は人数が多いと述べています。",
+            "質問しやすいのは人数の少ない朝の授業です。"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "58f31d44-313c-4f13-b1f9-5133109aeba1",
+          "question_id": "11548e8b-1070-499a-9cfc-086616c6c48f"
+        }
+      ]
+    },
+    {
+      "key": "C38",
+      "domain": "comparison",
+      "korean": "첫 번째 길은 짧지만 계단이 많아요. 짐이 무거우니 조금 돌아가도 두 번째 길로 가죠.",
+      "japanese": "一つ目の道は短いですが階段が多いです。荷物が重いので、少し遠回りでも二つ目の道で行きましょう。",
+      "learning_point_ja": "「돌아가다」はここでは遠回り。短さより重い荷物での歩きやすさを優先します。",
+      "grammar_keys": [
+        "f5fae1c3-9c30-4fe3-a9ed-6936aed2183a"
+      ],
+      "listening_focus": "choice",
+      "example_id": "e9ddda7a-d5e0-4ccd-b346-f3c9ff17722f",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "bdaa3b7f-bd20-42d7-bb0c-dbd3f90eeaa2",
+          "question_id": "969bc362-a768-4f82-8a73-9ea72c83e0f5",
+          "prompt_ja": "二つ目の道を選ぶのは、なぜですか。",
+          "correct": "荷物が重く、一つ目の道には階段が多いから",
+          "distractors": [
+            "二つ目の道のほうが短いから",
+            "荷物を持たずに歩くから"
+          ],
+          "correct_evidence_ko": "짐이 무거우니",
+          "distractor_explanations_ja": [
+            "短いのは一つ目で、二つ目は遠回りです。",
+            "重い荷物を持って歩くための選択です。"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "79c32f4c-94d4-41ad-8e38-715b4c7369b1",
+          "question_id": "48917a45-5634-4fde-92e6-ae87c5d8cbf2"
+        }
+      ]
+    },
+    {
+      "key": "C39",
+      "domain": "comparison",
+      "korean": "새 의자는 등받이가 높아서 편해요. 그런데 자리를 많이 차지하니 작은 방에는 예전 의자가 더 맞겠어요.",
+      "japanese": "新しい椅子は背もたれが高くて快適です。でも場所を取るので、小さい部屋には以前の椅子のほうが合いそうです。",
+      "learning_point_ja": "「자리를 차지하다」は場所を取る。座り心地と部屋への適性を分けています。",
+      "grammar_keys": [
+        "66f56006-dd56-4cc4-bdcb-38f1c17c0036"
+      ],
+      "listening_focus": "suitability",
+      "example_id": "d622fc86-0d87-4280-8e78-b5d291233a58",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "82c9224e-cc9a-49ab-b242-fc5fa0784745",
+          "question_id": "cf02395d-443a-45d2-ac82-f96e8fc25365",
+          "prompt_ja": "小さい部屋には、どちらの椅子が合いそうですか。",
+          "correct": "以前の椅子",
+          "distractors": [
+            "新しい椅子",
+            "どちらも同じくらい合う"
+          ],
+          "correct_evidence_ko": "예전 의자가 더 맞겠어요",
+          "distractor_explanations_ja": [
+            "新しい椅子は場所を取るため、小部屋には以前の椅子を勧めています。",
+            "小さい部屋には以前の椅子のほうが合うと判断しています。"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "2a23d905-d369-436e-8383-6a057a73b1ea",
+          "question_id": "8936d903-9d5e-4342-9511-47ca2f1de3e5"
+        }
+      ]
+    },
+    {
+      "key": "C40",
+      "domain": "comparison",
+      "korean": "메시지로 설명하면 기록이 남아요. 복잡한 내용은 전화로 먼저 이야기하고 요점을 글로 보내는 게 좋겠어요.",
+      "japanese": "メッセージで説明すると記録が残ります。複雑な内容は先に電話で話し、要点を文章で送るのがよさそうです。",
+      "learning_point_ja": "「요점」は要点。記録と説明のしやすさを両立する順序を提案しています。",
+      "grammar_keys": [
+        "cc45a574-10b5-47b3-9302-bdd0468ad221"
+      ],
+      "listening_focus": "sequence",
+      "example_id": "3934ca50-b01a-4d68-916e-26d7603e1ba4",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "245ef777-bf8d-489a-821c-c7749bd7c097",
+          "question_id": "e778c0f9-38c1-48f1-b052-0686cc3fa61a",
+          "prompt_ja": "複雑な内容を伝えるとき、どの順序を提案していますか。",
+          "correct": "電話で話してから要点を文章で送る",
+          "distractors": [
+            "文章だけ送り、電話はしない",
+            "要点を送ってから初めて電話する"
+          ],
+          "correct_evidence_ko": "전화로 먼저 이야기하고",
+          "distractor_explanations_ja": [
+            "先に電話で話すことを提案しています。",
+            "電話を先にする順序が逆です。"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "042065b7-19cf-4898-9913-9b8ab15674c6",
+          "question_id": "cb39c243-0fff-4ce7-a4ec-f62b137be242"
+        }
+      ]
+    },
+    {
+      "key": "C41",
+      "domain": "problem_solving",
+      "korean": "이름표가 서로 바뀐 것 같아요. 명단과 이름을 하나씩 맞춰 보면 금방 찾을 수 있을 거예요.",
+      "japanese": "名札が入れ替わってしまったようです。名簿と名前を一つずつ照らし合わせれば、すぐに見つけられると思います。",
+      "learning_point_ja": "「맞춰 보다」は照合してみること。名札をすべて捨てる必要はありません。",
+      "grammar_keys": [
+        "eef9130b-15eb-4138-ab8b-dcda74c864b1"
+      ],
+      "listening_focus": "solution",
+      "example_id": "fedb6916-22e4-4bb9-959b-4b4a957ceb55",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "f24f43db-0354-4cdc-8f58-e6f8accf1608",
+          "question_id": "886d6bf6-71d5-4a91-903d-6d9b4a938ff0",
+          "prompt_ja": "名札の問題を解決するために、何を提案していますか。",
+          "correct": "名簿と名前を一つずつ照合する",
+          "distractors": [
+            "名簿を見ずに名前を書き直す",
+            "名簿を見ずに名札の並びを変える"
+          ],
+          "correct_evidence_ko": "명단과 이름을 하나씩 맞춰 보면",
+          "distractor_explanations_ja": [
+            "まず名簿と名前を照合する提案で、確認せず書き直す話ではありません。",
+            "名簿との照合が提案されている確認方法です。"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "d62fc27c-6a0c-433f-b0c6-c28a742a7389",
+          "question_id": "dd079be5-624f-4090-ac12-08895ec0c196"
+        }
+      ]
+    },
+    {
+      "key": "C42",
+      "domain": "problem_solving",
+      "korean": "노트북 화면이 너무 어두워서 글씨가 안 보여요. 밝기를 조금 올려 보고 그래도 안 보이면 자리를 옮길게요.",
+      "japanese": "ノートパソコンの画面が暗すぎて文字が見えません。明るさを少し上げてみて、それでも見えなければ席を移ります。",
+      "learning_point_ja": "「그래도」は最初の対策後も改善しない場合。二段階の対応を聞き取ります。",
+      "grammar_keys": [
+        "0b6da528-99a6-4f2f-8708-686b052e3213"
+      ],
+      "listening_focus": "sequence",
+      "example_id": "06663d83-5699-4be4-b67d-4cb37b4bdc52",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "0739f930-a9e5-447f-8e93-401f55a789e0",
+          "question_id": "1cf1a4a2-52b1-4300-99b7-6ee9ca8770a6",
+          "prompt_ja": "最初に何を試しますか。",
+          "correct": "画面を少し明るくする",
+          "distractors": [
+            "すぐに席を移る",
+            "先に席を移ってから明るさを上げる"
+          ],
+          "correct_evidence_ko": "밝기를 조금 올려 보고",
+          "distractor_explanations_ja": [
+            "移動は明るくしても見えない場合です。",
+            "先に明るさを上げ、改善しなければ席を移ります。"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "30d7c30c-fdda-46c1-96da-4fedbb79d045",
+          "question_id": "995db743-cc7a-4730-8d5c-8fe193629a08"
+        }
+      ]
+    },
+    {
+      "key": "C43",
+      "domain": "problem_solving",
+      "korean": "준비한 접시가 모자라네요. 일회용 접시를 사는 대신 옆 사무실에서 빌려 볼까요?",
+      "japanese": "用意した皿が足りませんね。使い捨ての皿を買う代わりに、隣の事務所で借りてみませんか。",
+      "learning_point_ja": "「모자라다」は不足。「-ㄹ까요?」で購入以外の解決策への意見を求めます。",
+      "grammar_keys": [
+        "68c3a2a7-5f4e-4236-9474-380202f6bbeb"
+      ],
+      "listening_focus": "proposal",
+      "example_id": "496d7bd8-fe2b-4752-8d6d-564494f84a0d",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "54629949-63e6-4763-b83f-56091bb2775d",
+          "question_id": "226c5d30-cd4f-45ff-8118-5154f5f4217e",
+          "prompt_ja": "話し手が提案している解決策は何ですか。",
+          "correct": "隣の事務所で皿を借りる",
+          "distractors": [
+            "使い捨ての皿を買う",
+            "隣の事務所へ皿を貸す"
+          ],
+          "correct_evidence_ko": "옆 사무실에서 빌려 볼까요",
+          "distractor_explanations_ja": [
+            "購入の代わりに借りる提案です。",
+            "隣から借りるのであって、貸す提案ではありません。"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "3595a228-6f70-4415-94f6-6661c4cf54da",
+          "question_id": "28859146-84a9-49c9-9223-986b4a203200"
+        }
+      ]
+    },
+    {
+      "key": "C44",
+      "domain": "problem_solving",
+      "korean": "잘못된 파일을 보냈어요. 바로 새 파일을 보내고 이전 것은 지워 달라고 부탁해야겠어요.",
+      "japanese": "間違ったファイルを送ってしまいました。すぐに新しいファイルを送り、前のものは消してもらうようお願いしないといけません。",
+      "learning_point_ja": "「이전 것」は誤送信したファイル。「-아 달라고」は受け手に削除を頼む引用です。",
+      "grammar_keys": [
+        "f0acd94a-696c-4cbe-8d11-df2f2ea31f08"
+      ],
+      "listening_focus": "repair",
+      "example_id": "70333de1-3280-4df8-bbc7-62489a25e11b",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "780d1209-2a62-428f-aed5-895225ff912f",
+          "question_id": "c453811b-12f3-4f80-b15d-0f2c4cd28b7d",
+          "prompt_ja": "相手に何を頼もうとしていますか。",
+          "correct": "前に送ったファイルを削除すること",
+          "distractors": [
+            "新しいファイルを送らないこと",
+            "前のファイルも保存しておくこと"
+          ],
+          "correct_evidence_ko": "이전 것은 지워 달라고",
+          "distractor_explanations_ja": [
+            "新しいファイルは話し手が送る予定です。",
+            "前のものは削除するよう依頼する予定です。"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "029924ce-fbf2-46e0-93e2-458ca6a62a8c",
+          "question_id": "d2ed07f5-d0c4-4f22-8022-86d6fefefa85"
+        }
+      ]
+    },
+    {
+      "key": "C45",
+      "domain": "problem_solving",
+      "korean": "책장 뒤로 카드가 떨어졌어요. 책장을 혼자 옮기는 대신 긴 자로 꺼내 보는 게 안전하겠어요.",
+      "japanese": "カードが本棚の後ろに落ちました。一人で本棚を動かす代わりに、長い定規で取り出してみるほうが安全そうです。",
+      "learning_point_ja": "「-는 대신」は一つの行動を別の行動に替えること。安全に取り出す方法の提案です。",
+      "grammar_keys": [
+        "782eb56e-972c-4c6e-81a7-911d094caac1"
+      ],
+      "listening_focus": "solution",
+      "example_id": "079d4342-aaa8-43fc-ba01-d8c6d474486f",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "4855e59b-0b97-450e-a033-e30058254eb2",
+          "question_id": "5d63e64e-c038-4e49-9b1c-807cf45eedfc",
+          "prompt_ja": "安全そうな方法として、何を勧めていますか。",
+          "correct": "長い定規でカードを取り出してみる",
+          "distractors": [
+            "一人で本棚を動かす",
+            "二人で本棚を動かす"
+          ],
+          "correct_evidence_ko": "긴 자로 꺼내 보는 게 안전하겠어요",
+          "distractor_explanations_ja": [
+            "一人で動かす方法の代わりに定規を勧めています。",
+            "二人で動かす方法ではなく、定規で取り出す方法を勧めています。"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "6fa981e1-d3a3-4eb8-9517-4299babe884f",
+          "question_id": "da0c577a-3ecc-4d16-a84e-1eb48983c8ad"
+        }
+      ]
+    },
+    {
+      "key": "C46",
+      "domain": "problem_solving",
+      "korean": "신청 화면이 열리지 않아요. 인터넷 연결부터 확인하고 다시 해 볼게요.",
+      "japanese": "申し込み画面が開きません。まずインターネットの接続を確認してから、もう一度やってみます。",
+      "learning_point_ja": "「-부터」は対応の出発点。「열리다」は画面が開くという自動詞です。",
+      "grammar_keys": [
+        "5901d23d-d80d-4c73-9c69-5b65cb3d3edf"
+      ],
+      "listening_focus": "first_step",
+      "example_id": "b29086c8-eb89-44aa-833b-5fcebeb0b686",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "38d7b660-23fd-4b2e-a17d-a179a5d7093e",
+          "question_id": "447b2d72-9917-45a2-89d5-57c97f09eaeb",
+          "prompt_ja": "まず何を確認しますか。",
+          "correct": "インターネットの接続",
+          "distractors": [
+            "申し込みの合計人数",
+            "申し込み画面の入力内容"
+          ],
+          "correct_evidence_ko": "인터넷 연결부터 확인하고",
+          "distractor_explanations_ja": [
+            "人数の確認は述べていません。",
+            "画面が開かないので、まず接続を確認します。"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "5ff90863-14a7-44cf-99a0-fdc6e6c8b757",
+          "question_id": "b2f8b21d-74fa-4bc7-b754-baed51bc804c"
+        }
+      ]
+    },
+    {
+      "key": "C47",
+      "domain": "problem_solving",
+      "korean": "자료가 많아서 한 사람이 다 읽기 어렵겠어요. 부분을 나누어 읽은 뒤에 중요한 내용을 같이 정리하죠.",
+      "japanese": "資料が多いので、一人で全部読むのは難しそうです。分担して読んだ後で、大事な内容を一緒にまとめましょう。",
+      "learning_point_ja": "「부분을 나누다」は読む範囲の分担。読後の共有まで含む提案です。",
+      "grammar_keys": [
+        "93796ac0-18d5-4363-a562-26e6fff959b4"
+      ],
+      "listening_focus": "collaboration",
+      "example_id": "fc61cf47-0896-48b4-9549-3c82956a6f29",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "1ed16b94-a2c4-411c-9cb9-0821a5ae0adc",
+          "question_id": "95001e8d-89be-4882-94aa-dba2595156bf",
+          "prompt_ja": "資料をどのように読むことを提案していますか。",
+          "correct": "範囲を分担して読む",
+          "distractors": [
+            "一人が全部読む",
+            "全員が同じ範囲を読む"
+          ],
+          "correct_evidence_ko": "부분을 나누어 읽은 뒤에",
+          "distractor_explanations_ja": [
+            "一人では難しいので分担を提案しています。",
+            "同じ範囲ではなく、部分を分担して読みます。"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "571f0e72-477a-408e-bd01-380969e668e0",
+          "question_id": "ef06dd7b-6c75-499c-90f3-920532ee9aa9"
+        }
+      ]
+    },
+    {
+      "key": "C48",
+      "domain": "problem_solving",
+      "korean": "의자가 흔들려서 앉기 불안해요. 다친 사람이 생기기 전에 다른 의자로 바꿔야겠어요.",
+      "japanese": "椅子がぐらついて座るのが不安です。けがをする人が出る前に、別の椅子に替えなければと思います。",
+      "learning_point_ja": "「다치다」はけがをするという自動詞。事故前の予防を判断しています。",
+      "grammar_keys": [
+        "d940b512-3a3a-4108-b561-fa33dfd93222"
+      ],
+      "listening_focus": "prevention",
+      "example_id": "5bab6a76-9187-4c98-9ec6-e6ccfb6ce347",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "2db0aa27-7db8-4402-a0cc-96d8c860db49",
+          "question_id": "5bfd09a9-d119-44bb-8075-a0e5a0d35332",
+          "prompt_ja": "椅子を替えようとしている理由は何ですか。",
+          "correct": "けがを防ぐため",
+          "distractors": [
+            "すでにけがをした人を探すため",
+            "椅子が重くて運べないため"
+          ],
+          "correct_evidence_ko": "다친 사람이 생기기 전에",
+          "distractor_explanations_ja": [
+            "けが人が出る前の予防です。",
+            "重さではなく、ぐらついて危険なことが問題です。"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "23240a74-733d-42ed-8610-1a97d9177dcc",
+          "question_id": "5926bb30-36f5-423b-b788-59d856d7ad02"
+        }
+      ]
+    },
+    {
+      "key": "C49",
+      "domain": "problem_solving",
+      "korean": "상자에 내용이 적혀 있지 않아서 찾는 데 오래 걸려요. 오늘 정리하는 김에 겉에 이름도 쓸게요.",
+      "japanese": "箱に中身が書いていないので、探すのに時間がかかります。今日整理するついでに、外側に名前も書いておきます。",
+      "learning_point_ja": "「-는 김에」は整理の機会を利用した追加作業。「겉」は箱の外側です。",
+      "grammar_keys": [
+        "754881ff-3e7d-4743-8de8-ab6f63b1a9a4"
+      ],
+      "listening_focus": "improvement",
+      "example_id": "cba30e86-858f-482f-9678-c7e3ffad2f0d",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "423b841f-3185-413d-bce9-0c62728277b5",
+          "question_id": "de9ba6e4-3e05-4b23-b8cd-95d0dce08f95",
+          "prompt_ja": "整理するついでに、何をしますか。",
+          "correct": "箱の外側に名前を書く",
+          "distractors": [
+            "名前を書かず、箱の場所だけ覚える",
+            "箱の外側にある名前を消す"
+          ],
+          "correct_evidence_ko": "겉에 이름도 쓸게요",
+          "distractor_explanations_ja": [
+            "名前を書き、探しやすくする予定です。",
+            "今は内容が書かれていないので名前を書き加えます。"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "39778dd4-aaf1-4c24-8de3-34a2ce7ab1a6",
+          "question_id": "14eac1e9-ad0b-4aa4-af1f-f838527a5cc8"
+        }
+      ]
+    },
+    {
+      "key": "C50",
+      "domain": "problem_solving",
+      "korean": "비슷한 문의가 계속 들어오네요. 자주 묻는 질문을 모아서 안내문을 만들면 어떨까요?",
+      "japanese": "似た問い合わせが続いていますね。よくある質問をまとめて案内を作ったらどうでしょうか。",
+      "learning_point_ja": "「문의가 들어오다」は問い合わせが来ること。繰り返す問題への対策です。",
+      "grammar_keys": [
+        "68c3a2a7-5f4e-4236-9474-380202f6bbeb"
+      ],
+      "listening_focus": "proposal",
+      "example_id": "2ffec44f-1270-4636-a410-7091593d6c08",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "8928237c-2dc2-49d6-a057-97faef886df5",
+          "question_id": "c0140766-9040-409b-99dd-5e0d9cebe45b",
+          "prompt_ja": "繰り返す問い合わせへの対策は何ですか。",
+          "correct": "よくある質問をまとめた案内を作る",
+          "distractors": [
+            "問い合わせを一切受け付けない",
+            "質問ごとに毎回別の案内を作る"
+          ],
+          "correct_evidence_ko": "질문을 모아서 안내문을 만들면",
+          "distractor_explanations_ja": [
+            "受付をやめるとは言っていません。",
+            "よくある質問を集めた案内を作る提案です。"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "1db83379-3f10-4125-966a-0011b38e2ee2",
+          "question_id": "01703be1-f632-485c-84a3-3f1e81877a7e"
+        }
+      ]
+    },
+    {
+      "key": "C51",
+      "domain": "speaker_intent",
+      "korean": "여기는 사람들이 자주 지나가네요. 중요한 이야기는 좀 더 조용한 곳에서 할까요?",
+      "japanese": "ここは人がよく通りますね。大事な話はもう少し静かな所でしましょうか。",
+      "learning_point_ja": "「-ㄹ까요?」は場所変更の提案。通行人への注意ではありません。",
+      "grammar_keys": [
+        "68c3a2a7-5f4e-4236-9474-380202f6bbeb"
+      ],
+      "listening_focus": "intent",
+      "example_id": "76ef3df5-b1cf-4ee8-bf57-98b8dccbbd1d",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "30556b01-db9c-4b82-919b-35d2eb705f44",
+          "question_id": "70a3cd6e-2d5f-4739-8e02-e45658f8b800",
+          "prompt_ja": "話し手は何を提案していますか。",
+          "correct": "静かな場所へ移って話すこと",
+          "distractors": [
+            "通行人全員に話を聞かせること",
+            "今の場所で話を続けること"
+          ],
+          "correct_evidence_ko": "좀 더 조용한 곳에서 할까요",
+          "distractor_explanations_ja": [
+            "人通りを避け、静かな場所を提案しています。",
+            "より静かな場所で話すことを提案しています。"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "2982bf50-d0f1-4ae6-a926-054c70bfde5c",
+          "question_id": "e00b4d97-697e-4fb8-9202-3d650af3eeac"
+        }
+      ]
+    },
+    {
+      "key": "C52",
+      "domain": "speaker_intent",
+      "korean": "설명은 잘 들었는데 마지막 부분을 놓쳤어요. 그 부분만 한 번 더 말씀해 주실래요?",
+      "japanese": "説明はよく聞けたのですが、最後の部分を聞き逃しました。その部分だけもう一度お話しいただけますか。",
+      "learning_point_ja": "「놓치다」は聞き逃すこと。「그 부분만」で依頼する範囲を限定します。",
+      "grammar_keys": [
+        "b3c47e9e-b16e-4feb-bb5c-4cc4e49b5bf3"
+      ],
+      "listening_focus": "request",
+      "example_id": "ed330b36-9294-4e43-9ed2-ba0c3d385f71",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "7aef27ad-64d6-4152-826c-3323bf0bd409",
+          "question_id": "1b3c3da0-372f-40d9-9e63-8d216e97afb7",
+          "prompt_ja": "話し手が求めていることは何ですか。",
+          "correct": "最後の部分だけもう一度説明してもらう",
+          "distractors": [
+            "最初から全部説明し直してもらう",
+            "最後の部分は説明しないでもらう"
+          ],
+          "correct_evidence_ko": "그 부분만 한 번 더",
+          "distractor_explanations_ja": [
+            "依頼は最後の部分だけです。",
+            "最後の部分をもう一度説明してほしいという依頼です。"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "bc803b89-e25f-4b3b-bccf-28202abc6a75",
+          "question_id": "408fae50-27b2-4c30-a5f8-babb7b5d7ad8"
+        }
+      ]
+    },
+    {
+      "key": "C53",
+      "domain": "speaker_intent",
+      "korean": "이 방법도 괜찮지만 처음 쓰는 사람에게는 어려울 것 같아요. 설명에 그림을 하나 넣으면 어떨까요?",
+      "japanese": "この方法もよいですが、初めて使う人には難しそうです。説明に図を一つ入れたらどうでしょうか。",
+      "learning_point_ja": "「-을 것 같다」は見込み。方法を否定せず、説明の改善を提案しています。",
+      "grammar_keys": [
+        "68c3a2a7-5f4e-4236-9474-380202f6bbeb"
+      ],
+      "listening_focus": "suggestion",
+      "example_id": "b3868cdf-57e9-456e-8b78-69c950ce7972",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "6752e65d-251d-4343-b681-241c638542e4",
+          "question_id": "eb685e73-dc75-4948-b6c8-381d27900904",
+          "prompt_ja": "話し手は説明をどう改善しようとしていますか。",
+          "correct": "図を一つ加える",
+          "distractors": [
+            "説明を全部削除する",
+            "方法をすべて別のものに変える"
+          ],
+          "correct_evidence_ko": "설명에 그림을 하나 넣으면",
+          "distractor_explanations_ja": [
+            "説明を消すのではなく図を加えます。",
+            "方法を全面的に変えるのでなく説明に図を加える提案です。"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "0286a3ec-0a98-4262-974a-d59f499162d2",
+          "question_id": "398b0396-ef5c-454a-b886-8f06f31a1085"
+        }
+      ]
+    },
+    {
+      "key": "C54",
+      "domain": "speaker_intent",
+      "korean": "오늘은 바로 결정하지 않고 의견부터 듣고 싶어요. 다른 생각이 있으면 편하게 말씀해 주세요.",
+      "japanese": "今日はすぐに決めず、まず意見を聞きたいです。別の考えがあれば気軽にお話しください。",
+      "learning_point_ja": "「의견부터」はまず意見を聞くこと。即決より幅広い意見を求める意図です。",
+      "grammar_keys": [
+        "893f53f1-ebaa-48d0-82ab-aadd66e84d80"
+      ],
+      "listening_focus": "intent",
+      "example_id": "776e92d6-cce7-43ee-93d9-07753d63d10e",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "bcdaec4b-883f-49c6-9e02-4ef067f01bce",
+          "question_id": "3478fc47-efa3-4a4a-9948-24c3735314ec",
+          "prompt_ja": "今日、話し手が主にしたいことは何ですか。",
+          "correct": "ほかの人の意見を聞く",
+          "distractors": [
+            "すぐに最終決定する",
+            "違う意見を言わないように頼む"
+          ],
+          "correct_evidence_ko": "의견부터 듣고 싶어요",
+          "distractor_explanations_ja": [
+            "今日は決定より意見を聞きたいと言っています。",
+            "別の考えを気軽に言ってほしいと促しています。"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "6d6ac67e-1721-4834-85f0-83a5cfa221ac",
+          "question_id": "1c8ed4d8-9958-4cf9-9e64-01e2e4e0f845"
+        }
+      ]
+    },
+    {
+      "key": "C55",
+      "domain": "speaker_intent",
+      "korean": "지금 바로 답하지 않으셔도 돼요. 내용을 천천히 읽어 보신 뒤에 알려 주세요.",
+      "japanese": "今すぐお返事いただかなくても大丈夫です。内容をゆっくりお読みになってからお知らせください。",
+      "learning_point_ja": "「-지 않으셔도 되다」は返答を急がなくてよいという許可。返答自体は求めています。",
+      "grammar_keys": [
+        "89a0c275-28c3-4698-9ec7-69c3fe1fcdf4"
+      ],
+      "listening_focus": "consideration",
+      "example_id": "04fe74ab-29f4-4463-8feb-9bd8c15b18c0",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "3afb819b-ebec-47a5-b565-13600e5aad2e",
+          "question_id": "60e1dc28-5bb9-451c-a230-3dda369c29ba",
+          "prompt_ja": "話し手の意図に合うものはどれですか。",
+          "correct": "内容を読む時間を取ってから返事をしてほしい",
+          "distractors": [
+            "内容を読まず今すぐ答えてほしい",
+            "返事は一切しないでほしい"
+          ],
+          "correct_evidence_ko": "읽어 보신 뒤에 알려 주세요",
+          "distractor_explanations_ja": [
+            "即答しなくてもよいと明言しています。",
+            "読んだ後には知らせてほしいと言っています。"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "a2519684-ca83-448e-9dee-de7dc6d42da9",
+          "question_id": "b6b74371-3b6f-4bd9-8efa-771a267940b6"
+        }
+      ]
+    },
+    {
+      "key": "C56",
+      "domain": "speaker_intent",
+      "korean": "도와주셔서 일은 끝났어요. 다음에는 시작하기 전에 역할을 나누면 더 편할 것 같아요.",
+      "japanese": "手伝っていただいたおかげで作業は終わりました。次は始める前に役割を分けると、もっとやりやすいと思います。",
+      "learning_point_ja": "感謝の後に次回の改善を提案しています。作業未完了の催促ではありません。",
+      "grammar_keys": [
+        "92cf69c3-2bda-453a-8b5f-47f1e4902f2a"
+      ],
+      "listening_focus": "attitude",
+      "example_id": "fa92d66f-127a-4816-8c43-f58bd1c44b06",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "4c9f803c-612c-4a94-87b9-8c69d1c3a196",
+          "question_id": "c8ebf6cc-5e99-4f32-bb7e-2e88b11e8716",
+          "prompt_ja": "話し手は次回に向けて何を提案していますか。",
+          "correct": "開始前に役割を分ける",
+          "distractors": [
+            "終わった作業を最初からやり直す",
+            "作業が終わってから役割を分ける"
+          ],
+          "correct_evidence_ko": "시작하기 전에 역할을 나누면",
+          "distractor_explanations_ja": [
+            "作業は終了しており、次回の提案です。",
+            "次回は始める前に役割を分ける提案です。"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "434307c9-5237-4b29-be98-844e9a177321",
+          "question_id": "22f6ebfb-cf4f-4677-b299-f4daa3f47750"
+        }
+      ]
+    },
+    {
+      "key": "C57",
+      "domain": "speaker_intent",
+      "korean": "그 제안을 반대하는 건 아니에요. 비용이 얼마나 드는지 먼저 알아보자는 거예요.",
+      "japanese": "その提案に反対しているわけではありません。費用がどのくらいかかるか、まず調べようということです。",
+      "learning_point_ja": "「-자는 거예요」は提案の意図の説明。費用確認と反対を区別します。",
+      "grammar_keys": [
+        "29c75088-07da-46d2-ac0b-495e520234ad"
+      ],
+      "listening_focus": "clarification",
+      "example_id": "1c5e8ff9-5374-423c-978b-2eec75226175",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "bc1a6e14-b88f-4033-8662-1b505f86062d",
+          "question_id": "47fa2cd9-893e-45f1-8443-aa6e1b320646",
+          "prompt_ja": "話し手の意図は何ですか。",
+          "correct": "まず費用を調べたい",
+          "distractors": [
+            "提案を全面的に否定したい",
+            "費用を確認せず決めたい"
+          ],
+          "correct_evidence_ko": "먼저 알아보자는 거예요",
+          "distractor_explanations_ja": [
+            "反対しているのではないと明言しています。",
+            "先に調べようと提案しています。"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "977703d9-41fd-4d91-8974-70fd3b0771f2",
+          "question_id": "fd7ea9b2-11b3-4221-b246-e9e1df5ad6aa"
+        }
+      ]
+    },
+    {
+      "key": "C58",
+      "domain": "speaker_intent",
+      "korean": "자료를 전부 읽을 필요는 없어요. 표시한 부분만 확인해 주시면 돼요.",
+      "japanese": "資料を全部読む必要はありません。印を付けておいた部分だけご確認いただければ大丈夫です。",
+      "learning_point_ja": "「-을 필요는 없다」は全部読む必要がないという意味。「-만」で確認箇所を絞ります。",
+      "grammar_keys": [
+        "f527297e-94dd-472b-928e-7bc3900b2dae"
+      ],
+      "listening_focus": "clarification",
+      "example_id": "1b69d947-e59d-4331-938e-16bfab92109c",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "015b707a-6b75-4065-a705-7c7cede95240",
+          "question_id": "afe3743a-84ff-4a1e-84e5-f29098143a73",
+          "prompt_ja": "どの部分を確認すればよいですか。",
+          "correct": "印の付いた部分だけ",
+          "distractors": [
+            "資料全体",
+            "印のない部分だけ"
+          ],
+          "correct_evidence_ko": "표시한 부분만",
+          "distractor_explanations_ja": [
+            "全部読む指示ではないと言っています。",
+            "確認するのは印を付けた部分です。"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "5ae3c197-4825-4f3b-96e5-b4bc1bcc86bb",
+          "question_id": "4688956b-2a75-49bb-b2e1-b94aff197020"
+        }
+      ]
+    },
+    {
+      "key": "C59",
+      "domain": "speaker_intent",
+      "korean": "제가 틀렸을지도 모르니까 함께 확인해 봐요. 누구의 잘못인지 따지려는 건 아니에요.",
+      "japanese": "私が間違っているかもしれないので、一緒に確認してみましょう。誰のせいか責めようとしているわけではありません。",
+      "learning_point_ja": "「따지다」はここでは責任を問いただすこと。共同確認を求める意図です。",
+      "grammar_keys": [
+        "445b7ded-b9dc-434e-b8fb-7ed4d253bc64"
+      ],
+      "listening_focus": "intent",
+      "example_id": "f94ed9fd-40dd-48f2-b551-c0a1243f6cdf",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "ad4e1c1f-dbc3-4f27-9979-a30a2384d4a8",
+          "question_id": "4c4f94fb-cfe3-4a38-8e86-e50b76684b33",
+          "prompt_ja": "話し手は何をしようとしていますか。",
+          "correct": "一緒に内容を確認する",
+          "distractors": [
+            "相手だけの責任を追及する",
+            "自分は絶対に正しいと主張する"
+          ],
+          "correct_evidence_ko": "함께 확인해 봐요",
+          "distractor_explanations_ja": [
+            "誰の過ちか追及する意図を否定しています。",
+            "自分が間違っている可能性を認めています。"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "8798e271-2068-4fa6-902c-427b21de7cb0",
+          "question_id": "3b7b1fba-a89c-4233-bb5c-ab53a9639ba3"
+        }
+      ]
+    },
+    {
+      "key": "C60",
+      "domain": "speaker_intent",
+      "korean": "먼저 해 보신 방법을 알려 주실래요? 같은 방법을 다시 권하지 않으려고 여쭤보는 거예요.",
+      "japanese": "すでに試した方法を教えていただけますか。同じ方法をまた勧めないようにお尋ねしているんです。",
+      "learning_point_ja": "「여쭤보다」は尋ねる謙譲表現。経験の確認は助言の重複を避けるためです。",
+      "grammar_keys": [
+        "7779f2ed-308d-46aa-9df6-bd6001fe88fa"
+      ],
+      "listening_focus": "purpose",
+      "example_id": "87463b58-7ec9-463a-ad85-095a9eb814b4",
+      "tasks": [
+        {
+          "task": "comprehension",
+          "listening_id": "6ddc50bb-9034-4663-9a72-628bec9c2a7a",
+          "question_id": "55d2b590-95dc-4948-a6d1-c41e0986f3db",
+          "prompt_ja": "試した方法を尋ねるのは、なぜですか。",
+          "correct": "同じ方法をもう一度勧めないため",
+          "distractors": [
+            "相手の努力を否定するため",
+            "すべての方法を最初からやらせるため"
+          ],
+          "correct_evidence_ko": "같은 방법을 다시 권하지 않으려고",
+          "distractor_explanations_ja": [
+            "努力の否定ではなく助言の重複を避けるためです。",
+            "同じ方法を繰り返し勧めない意図です。"
+          ]
+        },
+        {
+          "task": "dictation",
+          "listening_id": "049f676f-cadb-44f1-a75f-0f9bfc07b944",
+          "question_id": "ae747e25-7fd7-4ebe-b230-f336350de4fc"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1455 @@
+{
+  "batch": "DATA10-C",
+  "reviewer": "assistant AI self review; not independent native/teacher",
+  "scope": {
+    "originals": 60,
+    "translations": 60,
+    "questions": 120,
+    "choices": 180,
+    "accepted_answers": 60
+  },
+  "independent_human_review": "NOT TESTED",
+  "actual_tts_audition": "NOT TESTED",
+  "items": [
+    {
+      "key": "C01",
+      "example_id": "767d88f3-1296-4b74-883b-69baf4b8c504",
+      "result": "AI_SELF_REVIEWED",
+      "korean_review": "Separate reread of spelling/particles/conjugation/register and referents; see per-item note and editorial corrections",
+      "japanese_review": "Separate reread of tense, scope, intention, accurate translation and all choices",
+      "learning_point_ja": "「안쪽」は入口から見て奥側。「-려면」は目的を実現するための条件です。",
+      "focus": "location",
+      "correct": "奥の閲覧室",
+      "evidence": "안쪽 열람실을 이용해 주세요",
+      "distractors": [
+        "窓側の席",
+        "入口近くの席"
+      ],
+      "wrong_reasons": [
+        "窓側は工事中で、案内先ではありません。",
+        "奥ではなく入口側を選ぶのは案内と異なります。"
+      ],
+      "accepted": [
+        "도서관 창가 쪽은 공사 중입니다. 조용히 공부하려면 안쪽 열람실을 이용해 주세요."
+      ],
+      "dictation_policy": "NFC/whitespace normalization; final ASCII .!? omission accepted; internal punctuation remains required; spacing-warning is separate, generic ProductionAnswer unchanged",
+      "remaining": "Independent teacher, actual TTS audition, native/iPhone gates NOT TESTED/BLOCKED"
+    },
+    {
+      "key": "C02",
+      "example_id": "5b5ad44c-09cf-4d2a-80ff-72c4735dc53e",
+      "result": "AI_SELF_REVIEWED",
+      "korean_review": "Separate reread of spelling/particles/conjugation/register and referents; see per-item note and editorial corrections",
+      "japanese_review": "Separate reread of tense, scope, intention, accurate translation and all choices",
+      "learning_point_ja": "「-아도」は雨でも実施すること、「대신」は集合場所の変更を示します。",
+      "focus": "change",
+      "correct": "講堂で行う",
+      "evidence": "운동장 대신 강당으로 모이세요",
+      "distractors": [
+        "中止になる",
+        "運動場で行う"
+      ],
+      "wrong_reasons": [
+        "「취소하지 않습니다」と中止を否定しています。",
+        "運動場の代わりに講堂へ集まる案内です。"
+      ],
+      "accepted": [
+        "내일 체육 수업은 비가 와도 취소하지 않습니다. 운동장 대신 강당으로 모이세요."
+      ],
+      "dictation_policy": "NFC/whitespace normalization; final ASCII .!? omission accepted; internal punctuation remains required; spacing-warning is separate, generic ProductionAnswer unchanged",
+      "remaining": "Independent teacher, actual TTS audition, native/iPhone gates NOT TESTED/BLOCKED"
+    },
+    {
+      "key": "C03",
+      "example_id": "f8c70a62-9aaa-4fb7-b981-6433e6c747cd",
+      "result": "AI_SELF_REVIEWED",
+      "korean_review": "Separate reread of spelling/particles/conjugation/register and referents; see per-item note and editorial corrections",
+      "japanese_review": "Separate reread of tense, scope, intention, accurate translation and all choices",
+      "learning_point_ja": "「-을 때까지」は仮の証明書を使う期間の終点です。",
+      "focus": "procedure",
+      "correct": "仮の入館証",
+      "evidence": "임시 출입증을 드립니다",
+      "distractors": [
+        "新しい図書カード",
+        "新しい学生証だけ"
+      ],
+      "wrong_reasons": [
+        "図書カードの案内ではありません。",
+        "新しい学生証ができるまでの仮の入館証を聞いています。"
+      ],
+      "accepted": [
+        "학생증을 잃어버린 분은 사무실에 알려 주세요. 새 학생증이 나올 때까지 임시 출입증을 드립니다."
+      ],
+      "dictation_policy": "NFC/whitespace normalization; final ASCII .!? omission accepted; internal punctuation remains required; spacing-warning is separate, generic ProductionAnswer unchanged",
+      "remaining": "Independent teacher, actual TTS audition, native/iPhone gates NOT TESTED/BLOCKED"
+    },
+    {
+      "key": "C04",
+      "example_id": "f92b2e5f-c178-4f44-84c9-943812644858",
+      "result": "AI_SELF_REVIEWED",
+      "korean_review": "Separate reread of spelling/particles/conjugation/register and referents; see per-item note and editorial corrections",
+      "japanese_review": "Separate reread of tense, scope, intention, accurate translation and all choices",
+      "learning_point_ja": "「-고 나서」は提出が先、確認メッセージを待つのが後という順序です。",
+      "focus": "sequence",
+      "correct": "確認のメッセージを待つ",
+      "evidence": "확인 문자를 기다려 주세요",
+      "distractors": [
+        "事務室で紙を受け取る",
+        "もう一度申し込む"
+      ],
+      "wrong_reasons": [
+        "受付はインターネットのみで、紙を取りに行く案内はありません。",
+        "再申し込みではなく確認を待ちます。"
+      ],
+      "accepted": [
+        "이번 주 동아리 신청은 인터넷으로만 받습니다. 신청서를 내고 나서 확인 문자를 기다려 주세요."
+      ],
+      "dictation_policy": "NFC/whitespace normalization; final ASCII .!? omission accepted; internal punctuation remains required; spacing-warning is separate, generic ProductionAnswer unchanged",
+      "remaining": "Independent teacher, actual TTS audition, native/iPhone gates NOT TESTED/BLOCKED"
+    },
+    {
+      "key": "C05",
+      "example_id": "97648526-0dd7-4f89-b102-c6a1f9cc44ac",
+      "result": "AI_SELF_REVIEWED",
+      "korean_review": "Separate reread of spelling/particles/conjugation/register and referents; see per-item note and editorial corrections",
+      "japanese_review": "Separate reread of tense, scope, intention, accurate translation and all choices",
+      "learning_point_ja": "「입다」は衣服、「신다」は履物に使います。「-어야 하다」は義務です。",
+      "focus": "constraint",
+      "correct": "長ズボンを着用し、サンダルは履かない",
+      "evidence": "긴 바지를 입어야 합니다",
+      "distractors": [
+        "短パンと運動靴を着用する",
+        "長ズボンならサンダルでもよい"
+      ],
+      "wrong_reasons": [
+        "サンダルでなくても、長ズボンの着用が必要です。",
+        "長ズボンに加え、サンダルを履かないことも必要です。"
+      ],
+      "accepted": [
+        "실험실에 들어갈 때는 긴 바지를 입어야 합니다. 안전을 위해 샌들도 신지 마세요."
+      ],
+      "dictation_policy": "NFC/whitespace normalization; final ASCII .!? omission accepted; internal punctuation remains required; spacing-warning is separate, generic ProductionAnswer unchanged",
+      "remaining": "Independent teacher, actual TTS audition, native/iPhone gates NOT TESTED/BLOCKED"
+    },
+    {
+      "key": "C06",
+      "example_id": "021917ac-29ad-46c1-8490-3a5db09c5c45",
+      "result": "AI_SELF_REVIEWED",
+      "korean_review": "Separate reread of spelling/particles/conjugation/register and referents; see per-item note and editorial corrections",
+      "japanese_review": "Separate reread of tense, scope, intention, accurate translation and all choices",
+      "learning_point_ja": "「자기 차례」は自分の番。掲示の確認と待機のタイミングを聞き分けます。",
+      "focus": "timing",
+      "correct": "自分の発表の番が来る前",
+      "evidence": "자기 차례가 되기 전에",
+      "distractors": [
+        "自分の発表が終わった後",
+        "全員の発表が終わるまで"
+      ],
+      "wrong_reasons": [
+        "終わった後ではなく、番になる前です。",
+        "全員の終了を待つ指示ではありません。"
+      ],
+      "accepted": [
+        "발표 순서는 게시판에 붙였습니다. 자기 차례가 되기 전에 교실 앞에서 기다려 주세요."
+      ],
+      "dictation_policy": "NFC/whitespace normalization; final ASCII .!? omission accepted; internal punctuation remains required; spacing-warning is separate, generic ProductionAnswer unchanged",
+      "remaining": "Independent teacher, actual TTS audition, native/iPhone gates NOT TESTED/BLOCKED"
+    },
+    {
+      "key": "C07",
+      "example_id": "a71d4d4f-2162-4af6-989f-47f972d6d5dc",
+      "result": "AI_SELF_REVIEWED",
+      "korean_review": "Separate reread of spelling/particles/conjugation/register and referents; see per-item note and editorial corrections",
+      "japanese_review": "Separate reread of tense, scope, intention, accurate translation and all choices",
+      "learning_point_ja": "「젖어 있다」はぬれた結果の状態。学生に拭くよう頼んでいるのではありません。",
+      "focus": "safety",
+      "correct": "ゆっくり歩くこと",
+      "evidence": "천천히 걸으세요",
+      "distractors": [
+        "床の水を拭くこと",
+        "給食室の外で待つこと"
+      ],
+      "wrong_reasons": [
+        "水を拭くのは職員です。",
+        "外で待機する指示はありません。"
+      ],
+      "accepted": [
+        "급식실 바닥이 젖어 있으니 천천히 걸으세요. 물은 직원이 곧 닦을 예정입니다."
+      ],
+      "dictation_policy": "NFC/whitespace normalization; final ASCII .!? omission accepted; internal punctuation remains required; spacing-warning is separate, generic ProductionAnswer unchanged",
+      "remaining": "Independent teacher, actual TTS audition, native/iPhone gates NOT TESTED/BLOCKED"
+    },
+    {
+      "key": "C08",
+      "example_id": "cde2203a-8985-4618-8798-9bc44712c698",
+      "result": "AI_SELF_REVIEWED",
+      "korean_review": "Separate reread of spelling/particles/conjugation/register and referents; see per-item note and editorial corrections",
+      "japanese_review": "Separate reread of tense, scope, intention, accurate translation and all choices",
+      "learning_point_ja": "「말씀드리다」は相手を立てて伝える表現。連絡する対象が限定されています。",
+      "focus": "audience",
+      "correct": "スクールバスを利用する生徒",
+      "evidence": "학교 버스를 타는 학생",
+      "distractors": [
+        "補習に参加する先生",
+        "いつも歩いて帰る生徒"
+      ],
+      "wrong_reasons": [
+        "連絡を求めている相手は生徒です。",
+        "徒歩の生徒についての指示ではありません。"
+      ],
+      "accepted": [
+        "오늘 보충 수업은 평소보다 늦게 끝납니다. 학교 버스를 타는 학생은 먼저 선생님께 말씀드리세요."
+      ],
+      "dictation_policy": "NFC/whitespace normalization; final ASCII .!? omission accepted; internal punctuation remains required; spacing-warning is separate, generic ProductionAnswer unchanged",
+      "remaining": "Independent teacher, actual TTS audition, native/iPhone gates NOT TESTED/BLOCKED"
+    },
+    {
+      "key": "C09",
+      "example_id": "78c8b5f6-ed2b-4a61-9a10-f2ca51c48ace",
+      "result": "AI_SELF_REVIEWED",
+      "korean_review": "Separate reread of spelling/particles/conjugation/register and referents; see per-item note and editorial corrections",
+      "japanese_review": "Separate reread of tense, scope, intention, accurate translation and all choices",
+      "learning_point_ja": "ここでの「이름」はファイル名です。氏名だけを書けばよいという意味ではありません。",
+      "focus": "reason",
+      "correct": "誰の課題か確認しやすくするため",
+      "evidence": "누구의 과제인지 확인하기 어렵습니다",
+      "distractors": [
+        "ファイルを小さくするため",
+        "提出した順番を分かるようにするため"
+      ],
+      "wrong_reasons": [
+        "容量を減らす話ではありません。",
+        "提出順ではなく、誰の課題かを確認するためです。"
+      ],
+      "accepted": [
+        "과제 파일의 이름에는 반과 번호를 써 주세요. 반과 번호가 없으면 누구의 과제인지 확인하기 어렵습니다."
+      ],
+      "dictation_policy": "NFC/whitespace normalization; final ASCII .!? omission accepted; internal punctuation remains required; spacing-warning is separate, generic ProductionAnswer unchanged",
+      "remaining": "Independent teacher, actual TTS audition, native/iPhone gates NOT TESTED/BLOCKED"
+    },
+    {
+      "key": "C10",
+      "example_id": "ff0b157f-c89d-478f-8e5e-b17378c150b1",
+      "result": "AI_SELF_REVIEWED",
+      "korean_review": "Separate reread of spelling/particles/conjugation/register and referents; see per-item note and editorial corrections",
+      "japanese_review": "Separate reread of tense, scope, intention, accurate translation and all choices",
+      "learning_point_ja": "「-자마자」は終了直後。次の利用者がいることが返却を急ぐ理由です。",
+      "focus": "timing",
+      "correct": "授業が終わったらすぐ",
+      "evidence": "수업이 끝나자마자 돌려주세요",
+      "distractors": [
+        "次の日の授業の前",
+        "次の授業が始まってから"
+      ],
+      "wrong_reasons": [
+        "翌日では次のクラスが使えません。",
+        "次のクラスも使うので、今の授業の直後に返します。"
+      ],
+      "accepted": [
+        "미술실에서 빌린 가위는 수업이 끝나자마자 돌려주세요. 다음 반도 같은 도구를 사용합니다."
+      ],
+      "dictation_policy": "NFC/whitespace normalization; final ASCII .!? omission accepted; internal punctuation remains required; spacing-warning is separate, generic ProductionAnswer unchanged",
+      "remaining": "Independent teacher, actual TTS audition, native/iPhone gates NOT TESTED/BLOCKED"
+    },
+    {
+      "key": "C11",
+      "example_id": "ad95ec11-51cc-4db1-a1f0-2f0bc34e16fa",
+      "result": "AI_SELF_REVIEWED",
+      "korean_review": "Separate reread of spelling/particles/conjugation/register and referents; see per-item note and editorial corrections",
+      "japanese_review": "Separate reread of tense, scope, intention, accurate translation and all choices",
+      "learning_point_ja": "「잠겨 있다」は施錠された状態。「-만」は鍵を借りられる人を限定します。",
+      "focus": "constraint",
+      "correct": "担当職員だけ",
+      "evidence": "담당 직원만 빌릴 수 있습니다",
+      "distractors": [
+        "会議に参加する人全員",
+        "会議の予約をした人全員"
+      ],
+      "wrong_reasons": [
+        "参加者全員に貸し出すとは言っていません。",
+        "予約者全員ではなく担当職員だけです。"
+      ],
+      "accepted": [
+        "회의실 문이 잠겨 있으면 안내 데스크에 문의하세요. 열쇠는 담당 직원만 빌릴 수 있습니다."
+      ],
+      "dictation_policy": "NFC/whitespace normalization; final ASCII .!? omission accepted; internal punctuation remains required; spacing-warning is separate, generic ProductionAnswer unchanged",
+      "remaining": "Independent teacher, actual TTS audition, native/iPhone gates NOT TESTED/BLOCKED"
+    },
+    {
+      "key": "C12",
+      "example_id": "0cfc1cec-f69d-4e35-a719-9b64251f3937",
+      "result": "AI_SELF_REVIEWED",
+      "korean_review": "Separate reread of spelling/particles/conjugation/register and referents; see per-item note and editorial corrections",
+      "japanese_review": "Separate reread of tense, scope, intention, accurate translation and all choices",
+      "learning_point_ja": "「-아 주실래요?」は丁寧な依頼。清掃の担当を頼んでいるのではありません。",
+      "focus": "request",
+      "correct": "横の入口を使うこと",
+      "evidence": "옆문을 이용해 주실래요",
+      "distractors": [
+        "入口を清掃すること",
+        "正面入口で清掃が終わるまで待つこと"
+      ],
+      "wrong_reasons": [
+        "清掃を手伝う依頼ではありません。",
+        "待つのではなく横の入口を使う依頼です。"
+      ],
+      "accepted": [
+        "내일 아침에는 건물 입구를 청소합니다. 출근하실 때 옆문을 이용해 주실래요?"
+      ],
+      "dictation_policy": "NFC/whitespace normalization; final ASCII .!? omission accepted; internal punctuation remains required; spacing-warning is separate, generic ProductionAnswer unchanged",
+      "remaining": "Independent teacher, actual TTS audition, native/iPhone gates NOT TESTED/BLOCKED"
+    },
+    {
+      "key": "C13",
+      "example_id": "33553d89-2d0d-44de-bcfb-31bef0c915e9",
+      "result": "AI_SELF_REVIEWED",
+      "korean_review": "Separate reread of spelling/particles/conjugation/register and referents; see per-item note and editorial corrections",
+      "japanese_review": "Separate reread of tense, scope, intention, accurate translation and all choices",
+      "learning_point_ja": "「-만」と「-면 되다」が必要な持ち物を絞っています。資料の印刷は不要です。",
+      "focus": "detail",
+      "correct": "メモ用の紙",
+      "evidence": "메모할 종이만 가져오시면 됩니다",
+      "distractors": [
+        "印刷した会議資料",
+        "配布用に印刷した資料とメモ用の紙"
+      ],
+      "wrong_reasons": [
+        "資料は画面で見る予定です。",
+        "持参するのはメモ用の紙だけで、資料は画面で見ます。"
+      ],
+      "accepted": [
+        "회의 자료는 화면으로 볼 예정입니다. 메모할 종이만 가져오시면 됩니다."
+      ],
+      "dictation_policy": "NFC/whitespace normalization; final ASCII .!? omission accepted; internal punctuation remains required; spacing-warning is separate, generic ProductionAnswer unchanged",
+      "remaining": "Independent teacher, actual TTS audition, native/iPhone gates NOT TESTED/BLOCKED"
+    },
+    {
+      "key": "C14",
+      "example_id": "540421e9-3be6-4c67-bdff-b27aba2ebf4a",
+      "result": "AI_SELF_REVIEWED",
+      "korean_review": "Separate reread of spelling/particles/conjugation/register and referents; see per-item note and editorial corrections",
+      "japanese_review": "Separate reread of tense, scope, intention, accurate translation and all choices",
+      "learning_point_ja": "「-아야」は発送に必要な条件。住所変更そのものと確認作業を区別します。",
+      "focus": "condition",
+      "correct": "変更後の住所を確認する",
+      "evidence": "주소를 확인해야",
+      "distractors": [
+        "商品を全部交換する",
+        "変更前の住所にすぐ送る"
+      ],
+      "wrong_reasons": [
+        "交換の指示はありません。",
+        "発送前に住所を確認する必要があります。"
+      ],
+      "accepted": [
+        "배송 주소가 바뀐 고객에게는 확인 전화를 해 주세요. 주소를 확인해야 물건을 보낼 수 있습니다."
+      ],
+      "dictation_policy": "NFC/whitespace normalization; final ASCII .!? omission accepted; internal punctuation remains required; spacing-warning is separate, generic ProductionAnswer unchanged",
+      "remaining": "Independent teacher, actual TTS audition, native/iPhone gates NOT TESTED/BLOCKED"
+    },
+    {
+      "key": "C15",
+      "example_id": "b79564d8-d62f-4e74-b20a-d655012bc81c",
+      "result": "AI_SELF_REVIEWED",
+      "korean_review": "Separate reread of spelling/particles/conjugation/register and referents; see per-item note and editorial corrections",
+      "japanese_review": "Separate reread of tense, scope, intention, accurate translation and all choices",
+      "learning_point_ja": "「-는지 확인하다」は状態の確認。「마지막으로 나가는 분」は消灯担当になる人です。",
+      "focus": "audience",
+      "correct": "最後に退出する人",
+      "evidence": "마지막으로 나가는 분",
+      "distractors": [
+        "最初に出勤する人",
+        "窓を最後に閉めた人"
+      ],
+      "wrong_reasons": [
+        "出勤時の話ではありません。",
+        "窓を閉めた人ではなく最後に退出する人です。"
+      ],
+      "accepted": [
+        "퇴근 전에 창문이 닫혀 있는지 확인해 주세요. 마지막으로 나가는 분은 불도 꺼 주세요."
+      ],
+      "dictation_policy": "NFC/whitespace normalization; final ASCII .!? omission accepted; internal punctuation remains required; spacing-warning is separate, generic ProductionAnswer unchanged",
+      "remaining": "Independent teacher, actual TTS audition, native/iPhone gates NOT TESTED/BLOCKED"
+    },
+    {
+      "key": "C16",
+      "example_id": "51b35456-ad48-41ea-a206-1ad4a646e5ec",
+      "result": "AI_SELF_REVIEWED",
+      "korean_review": "Separate reread of spelling/particles/conjugation/register and referents; see per-item note and editorial corrections",
+      "japanese_review": "Separate reread of tense, scope, intention, accurate translation and all choices",
+      "learning_point_ja": "「-ㄹ게요」は自分の引き受け、「-아 주실래요?」は相手への依頼です。",
+      "focus": "roles",
+      "correct": "注文内容の確認",
+      "evidence": "주문 내용을 확인해 주실래요",
+      "distractors": [
+        "新しい職員への倉庫の案内",
+        "新しい職員から注文を聞く"
+      ],
+      "wrong_reasons": [
+        "倉庫を案内するのは話し手です。",
+        "注文内容の確認を頼んでいます。新しい職員への案内は話し手が行います。"
+      ],
+      "accepted": [
+        "새로 온 직원에게는 제가 창고 위치를 알려 줄게요. 그동안 주문 내용을 확인해 주실래요?"
+      ],
+      "dictation_policy": "NFC/whitespace normalization; final ASCII .!? omission accepted; internal punctuation remains required; spacing-warning is separate, generic ProductionAnswer unchanged",
+      "remaining": "Independent teacher, actual TTS audition, native/iPhone gates NOT TESTED/BLOCKED"
+    },
+    {
+      "key": "C17",
+      "example_id": "ee01df9a-1c18-4074-9c14-62eefb30dd63",
+      "result": "AI_SELF_REVIEWED",
+      "korean_review": "Separate reread of spelling/particles/conjugation/register and referents; see per-item note and editorial corrections",
+      "japanese_review": "Separate reread of tense, scope, intention, accurate translation and all choices",
+      "learning_point_ja": "「-까지」は提出期限。集約・共有の午後と混同しないようにします。",
+      "focus": "deadline",
+      "correct": "金曜日の午前中",
+      "evidence": "금요일 오전까지 보내 주세요",
+      "distractors": [
+        "金曜日の午後",
+        "来週の金曜日"
+      ],
+      "wrong_reasons": [
+        "午後はまとめて共有する時間です。",
+        "今週の報告書の期限を案内しています。"
+      ],
+      "accepted": [
+        "이번 주 보고서는 금요일 오전까지 보내 주세요. 오후에는 내용을 모아서 팀 전체에 공유하겠습니다."
+      ],
+      "dictation_policy": "NFC/whitespace normalization; final ASCII .!? omission accepted; internal punctuation remains required; spacing-warning is separate, generic ProductionAnswer unchanged",
+      "remaining": "Independent teacher, actual TTS audition, native/iPhone gates NOT TESTED/BLOCKED"
+    },
+    {
+      "key": "C18",
+      "example_id": "4404701a-7b05-4721-987b-2190762a2526",
+      "result": "AI_SELF_REVIEWED",
+      "korean_review": "Separate reread of spelling/particles/conjugation/register and referents; see per-item note and editorial corrections",
+      "japanese_review": "Separate reread of tense, scope, intention, accurate translation and all choices",
+      "learning_point_ja": "「들다」は持ち上げること。二つの条件文で安全上の助言と手助けを示します。",
+      "focus": "safety",
+      "correct": "話し手を呼ぶ",
+      "evidence": "저를 불러 주세요",
+      "distractors": [
+        "一人で持ち上げてから人を呼ぶ",
+        "重い箱を一人で急いで運ぶ"
+      ],
+      "wrong_reasons": [
+        "一人で持ち上げる前に助けを呼ぶ案内です。",
+        "重いときは一人で持たないよう注意しています。"
+      ],
+      "accepted": [
+        "상자가 무거우면 혼자 들지 마세요. 함께 옮길 사람이 필요하면 저를 불러 주세요."
+      ],
+      "dictation_policy": "NFC/whitespace normalization; final ASCII .!? omission accepted; internal punctuation remains required; spacing-warning is separate, generic ProductionAnswer unchanged",
+      "remaining": "Independent teacher, actual TTS audition, native/iPhone gates NOT TESTED/BLOCKED"
+    },
+    {
+      "key": "C19",
+      "example_id": "3cca1d43-5141-4e69-8d24-ec689a625685",
+      "result": "AI_SELF_REVIEWED",
+      "korean_review": "Separate reread of spelling/particles/conjugation/register and referents; see per-item note and editorial corrections",
+      "japanese_review": "Separate reread of tense, scope, intention, accurate translation and all choices",
+      "learning_point_ja": "「그대로」は変更なし。「-는데」は場所と時間の変更状況を対比します。",
+      "focus": "change",
+      "correct": "開始時刻",
+      "evidence": "시작 시간이 바뀌었습니다",
+      "distractors": [
+        "会場",
+        "研修の日付"
+      ],
+      "wrong_reasons": [
+        "場所はそのままです。",
+        "変更されたのは開始時刻で、日付変更は述べていません。"
+      ],
+      "accepted": [
+        "연수 장소는 그대로인데 시작 시간이 바뀌었습니다. 안내 문자를 다시 읽어 보세요."
+      ],
+      "dictation_policy": "NFC/whitespace normalization; final ASCII .!? omission accepted; internal punctuation remains required; spacing-warning is separate, generic ProductionAnswer unchanged",
+      "remaining": "Independent teacher, actual TTS audition, native/iPhone gates NOT TESTED/BLOCKED"
+    },
+    {
+      "key": "C20",
+      "example_id": "d1776428-f7ef-4af6-b1c7-1bd6933acec4",
+      "result": "AI_SELF_REVIEWED",
+      "korean_review": "Separate reread of spelling/particles/conjugation/register and referents; see per-item note and editorial corrections",
+      "japanese_review": "Separate reread of tense, scope, intention, accurate translation and all choices",
+      "learning_point_ja": "「그전에」は昼休みの点検より前。点検中に印刷する指示ではありません。",
+      "focus": "preparation",
+      "correct": "昼休みの点検が始まる前",
+      "evidence": "그전에 인쇄하세요",
+      "distractors": [
+        "点検している最中",
+        "昼休みが終わった後"
+      ],
+      "wrong_reasons": [
+        "点検中に印刷する指示ではありません。",
+        "急ぎの資料は点検前に準備します。"
+      ],
+      "accepted": [
+        "인쇄기는 점심시간에 점검할 예정입니다. 급한 자료는 그전에 인쇄하세요."
+      ],
+      "dictation_policy": "NFC/whitespace normalization; final ASCII .!? omission accepted; internal punctuation remains required; spacing-warning is separate, generic ProductionAnswer unchanged",
+      "remaining": "Independent teacher, actual TTS audition, native/iPhone gates NOT TESTED/BLOCKED"
+    },
+    {
+      "key": "C21",
+      "example_id": "b940403d-4c24-4ce1-9b97-37756e025497",
+      "result": "AI_SELF_REVIEWED",
+      "korean_review": "Separate reread of spelling/particles/conjugation/register and referents; see per-item note and editorial corrections",
+      "japanese_review": "Separate reread of tense, scope, intention, accurate translation and all choices",
+      "learning_point_ja": "「당기다」と「밀다」は逆の動作。話し手の思い違いが二文目で分かります。",
+      "focus": "mechanism",
+      "correct": "取っ手を引く",
+      "evidence": "손잡이를 당겨야 열려요",
+      "distractors": [
+        "ドアを押し続ける",
+        "押しながら取っ手を引く"
+      ],
+      "wrong_reasons": [
+        "押すのは話し手が勘違いしていた動作です。",
+        "押す操作の追加ではなく、取っ手を引く必要があります。"
+      ],
+      "accepted": [
+        "이 문은 손잡이를 당겨야 열려요. 미는 문이 아닌데 제가 계속 밀었네요."
+      ],
+      "dictation_policy": "NFC/whitespace normalization; final ASCII .!? omission accepted; internal punctuation remains required; spacing-warning is separate, generic ProductionAnswer unchanged",
+      "remaining": "Independent teacher, actual TTS audition, native/iPhone gates NOT TESTED/BLOCKED"
+    },
+    {
+      "key": "C22",
+      "example_id": "8d3b9c52-0f47-411b-8640-700e80e45e69",
+      "result": "AI_SELF_REVIEWED",
+      "korean_review": "Separate reread of spelling/particles/conjugation/register and referents; see per-item note and editorial corrections",
+      "japanese_review": "Separate reread of tense, scope, intention, accurate translation and all choices",
+      "learning_point_ja": "「작년」と「올해」、二色の対応を聞き分けます。図の提示は不要な音声問題です。",
+      "focus": "mapping",
+      "correct": "赤い線",
+      "evidence": "올해 판매량을 보려면 빨간 선",
+      "distractors": [
+        "青い線",
+        "青い線と赤い線の両方"
+      ],
+      "wrong_reasons": [
+        "青い線は去年の販売量です。",
+        "今年だけを示すのは赤い線で、青い線は去年です。"
+      ],
+      "accepted": [
+        "이 표에서 파란 선은 작년 판매량이에요. 올해 판매량을 보려면 빨간 선을 보세요."
+      ],
+      "dictation_policy": "NFC/whitespace normalization; final ASCII .!? omission accepted; internal punctuation remains required; spacing-warning is separate, generic ProductionAnswer unchanged",
+      "remaining": "Independent teacher, actual TTS audition, native/iPhone gates NOT TESTED/BLOCKED"
+    },
+    {
+      "key": "C23",
+      "example_id": "686b4f0b-e28d-403b-9023-d57278d0bea1",
+      "result": "AI_SELF_REVIEWED",
+      "korean_review": "Separate reread of spelling/particles/conjugation/register and referents; see per-item note and editorial corrections",
+      "japanese_review": "Separate reread of tense, scope, intention, accurate translation and all choices",
+      "learning_point_ja": "「-ㄹ수록」は進行に伴う増加。「앞부분」と「뒤」の構成を聞き取ります。",
+      "focus": "structure",
+      "correct": "実際の会話の例文",
+      "evidence": "실제 대화 예문이 많아져요",
+      "distractors": [
+        "基本表現だけの説明",
+        "会話と関係のない例文"
+      ],
+      "wrong_reasons": [
+        "基本表現の説明は前半です。",
+        "後ろに増えるのは実際の会話の例文です。"
+      ],
+      "accepted": [
+        "이 책은 앞부분에서 기본 표현을 설명해요. 뒤로 갈수록 실제 대화 예문이 많아져요."
+      ],
+      "dictation_policy": "NFC/whitespace normalization; final ASCII .!? omission accepted; internal punctuation remains required; spacing-warning is separate, generic ProductionAnswer unchanged",
+      "remaining": "Independent teacher, actual TTS audition, native/iPhone gates NOT TESTED/BLOCKED"
+    },
+    {
+      "key": "C24",
+      "example_id": "2e369d88-cece-4b20-9a79-cc2398673fc2",
+      "result": "AI_SELF_REVIEWED",
+      "korean_review": "Separate reread of spelling/particles/conjugation/register and referents; see per-item note and editorial corrections",
+      "japanese_review": "Separate reread of tense, scope, intention, accurate translation and all choices",
+      "learning_point_ja": "「켜져 있다」は点灯状態。消灯が取り出しを許可する合図です。",
+      "focus": "condition",
+      "correct": "赤いランプが消えた後",
+      "evidence": "불이 꺼지면",
+      "distractors": [
+        "赤いランプがついている間",
+        "赤いランプがついた直後"
+      ],
+      "wrong_reasons": [
+        "点灯中は扉を開けてはいけません。",
+        "点灯直後ではなく消灯後です。"
+      ],
+      "accepted": [
+        "빨간 불이 켜져 있는 동안에는 문을 열지 마세요. 불이 꺼지면 안에 있는 물건을 꺼내도 됩니다."
+      ],
+      "dictation_policy": "NFC/whitespace normalization; final ASCII .!? omission accepted; internal punctuation remains required; spacing-warning is separate, generic ProductionAnswer unchanged",
+      "remaining": "Independent teacher, actual TTS audition, native/iPhone gates NOT TESTED/BLOCKED"
+    },
+    {
+      "key": "C25",
+      "example_id": "5e4b7cb3-093f-41d2-83b8-2ecc9ad085b1",
+      "result": "AI_SELF_REVIEWED",
+      "korean_review": "Separate reread of spelling/particles/conjugation/register and referents; see per-item note and editorial corrections",
+      "japanese_review": "Separate reread of tense, scope, intention, accurate translation and all choices",
+      "learning_point_ja": "「-ㄹ 필요가 없다」は不要という意味で、毎日の水やりを義務にしていません。",
+      "focus": "frequency",
+      "correct": "土が乾いたときに少しずつやる",
+      "evidence": "흙이 말랐을 때 조금씩",
+      "distractors": [
+        "毎日たくさんやる",
+        "土がぬれているときだけやる"
+      ],
+      "wrong_reasons": [
+        "毎日は不要で、量も少しずつです。",
+        "乾いたときが水やりの目安です。"
+      ],
+      "accepted": [
+        "화분에는 매일 물을 줄 필요가 없어요. 흙이 말랐을 때 조금씩 주세요."
+      ],
+      "dictation_policy": "NFC/whitespace normalization; final ASCII .!? omission accepted; internal punctuation remains required; spacing-warning is separate, generic ProductionAnswer unchanged",
+      "remaining": "Independent teacher, actual TTS audition, native/iPhone gates NOT TESTED/BLOCKED"
+    },
+    {
+      "key": "C26",
+      "example_id": "68b52fb6-64b8-45a2-8eca-55b88d05c46c",
+      "result": "AI_SELF_REVIEWED",
+      "korean_review": "Separate reread of spelling/particles/conjugation/register and referents; see per-item note and editorial corrections",
+      "japanese_review": "Separate reread of tense, scope, intention, accurate translation and all choices",
+      "learning_point_ja": "「뜻이 아니다」で誤解を否定し、後の文で正しい意味を説明します。",
+      "focus": "meaning",
+      "correct": "学校があるので速度を落とすこと",
+      "evidence": "속도를 줄이라는 뜻",
+      "distractors": [
+        "道が通れないこと",
+        "学校の中を通ること"
+      ],
+      "wrong_reasons": [
+        "通行止めという意味は明確に否定しています。",
+        "校内を通る案内ではありません。"
+      ],
+      "accepted": [
+        "이 표시는 길이 막혔다는 뜻이 아니에요. 앞에 학교가 있으니 속도를 줄이라는 뜻이에요."
+      ],
+      "dictation_policy": "NFC/whitespace normalization; final ASCII .!? omission accepted; internal punctuation remains required; spacing-warning is separate, generic ProductionAnswer unchanged",
+      "remaining": "Independent teacher, actual TTS audition, native/iPhone gates NOT TESTED/BLOCKED"
+    },
+    {
+      "key": "C27",
+      "example_id": "e27084d3-171b-4dac-a3df-56ba8a6a94ab",
+      "result": "AI_SELF_REVIEWED",
+      "korean_review": "Separate reread of spelling/particles/conjugation/register and referents; see per-item note and editorial corrections",
+      "japanese_review": "Separate reread of tense, scope, intention, accurate translation and all choices",
+      "learning_point_ja": "「포함되어 있다」は含まれた状態。「따로 내다」は別払いです。",
+      "focus": "inclusion",
+      "correct": "自宅から会場までの交通費",
+      "evidence": "교통비는 따로 내야 해요",
+      "distractors": [
+        "昼食代",
+        "昼食代と交通費の両方"
+      ],
+      "wrong_reasons": [
+        "昼食代は参加費に含まれています。",
+        "昼食代は参加費に含まれ、別払いなのは交通費です。"
+      ],
+      "accepted": [
+        "참가비에는 점심값이 포함되어 있어요. 하지만 집에서 행사장까지 가는 교통비는 따로 내야 해요."
+      ],
+      "dictation_policy": "NFC/whitespace normalization; final ASCII .!? omission accepted; internal punctuation remains required; spacing-warning is separate, generic ProductionAnswer unchanged",
+      "remaining": "Independent teacher, actual TTS audition, native/iPhone gates NOT TESTED/BLOCKED"
+    },
+    {
+      "key": "C28",
+      "example_id": "af559e2c-a9c2-4826-bd77-57bec7d29f82",
+      "result": "AI_SELF_REVIEWED",
+      "korean_review": "Separate reread of spelling/particles/conjugation/register and referents; see per-item note and editorial corrections",
+      "japanese_review": "Separate reread of tense, scope, intention, accurate translation and all choices",
+      "learning_point_ja": "「-만」は消える範囲の限定。「길게 누르다」は長押しです。",
+      "focus": "procedure",
+      "correct": "横のボタンを長押しする",
+      "evidence": "옆에 있는 단추를 길게 누르세요",
+      "distractors": [
+        "最初のボタンを短く押す",
+        "横のボタンを短く押す"
+      ],
+      "wrong_reasons": [
+        "最初のボタンでは画面しか消えません。",
+        "横のボタンは長く押す必要があります。"
+      ],
+      "accepted": [
+        "이 단추를 누르면 화면만 꺼져요. 기계를 완전히 끄려면 옆에 있는 단추를 길게 누르세요."
+      ],
+      "dictation_policy": "NFC/whitespace normalization; final ASCII .!? omission accepted; internal punctuation remains required; spacing-warning is separate, generic ProductionAnswer unchanged",
+      "remaining": "Independent teacher, actual TTS audition, native/iPhone gates NOT TESTED/BLOCKED"
+    },
+    {
+      "key": "C29",
+      "example_id": "978b1531-b981-4955-a930-9d60b838dd9b",
+      "result": "AI_SELF_REVIEWED",
+      "korean_review": "Separate reread of spelling/particles/conjugation/register and referents; see per-item note and editorial corrections",
+      "japanese_review": "Separate reread of tense, scope, intention, accurate translation and all choices",
+      "learning_point_ja": "「-기 위해서」は目的。記入する書類の用途を説明しています。",
+      "focus": "purpose",
+      "correct": "出入りした人を確認するため",
+      "evidence": "출입한 사람을 확인하기 위해서",
+      "distractors": [
+        "商品を注文するため",
+        "商品の受け取りを確認するため"
+      ],
+      "wrong_reasons": [
+        "注文用の申込書ではないと言っています。",
+        "商品の受け取りではなく出入りした人の確認です。"
+      ],
+      "accepted": [
+        "방문 기록에 이름을 쓰는 건 출입한 사람을 확인하기 위해서예요. 물건을 주문하는 신청서는 아니에요."
+      ],
+      "dictation_policy": "NFC/whitespace normalization; final ASCII .!? omission accepted; internal punctuation remains required; spacing-warning is separate, generic ProductionAnswer unchanged",
+      "remaining": "Independent teacher, actual TTS audition, native/iPhone gates NOT TESTED/BLOCKED"
+    },
+    {
+      "key": "C30",
+      "example_id": "af6a99e2-2b2b-4b89-afba-71be7d31d82b",
+      "result": "AI_SELF_REVIEWED",
+      "korean_review": "Separate reread of spelling/particles/conjugation/register and referents; see per-item note and editorial corrections",
+      "japanese_review": "Separate reread of tense, scope, intention, accurate translation and all choices",
+      "learning_point_ja": "「-지는 않다」は「すぐ開く」を否定。表示が消えるまでの待ち時間があります。",
+      "focus": "sequence",
+      "correct": "少し待つ",
+      "evidence": "잠깐 기다리면",
+      "distractors": [
+        "すぐに強く扉を引く",
+        "もう一度洗濯を始める"
+      ],
+      "wrong_reasons": [
+        "扉はすぐには開きません。",
+        "洗濯をやり直す指示ではありません。"
+      ],
+      "accepted": [
+        "세탁이 끝나도 문이 바로 열리지는 않아요. 잠깐 기다리면 잠금 표시가 사라져요."
+      ],
+      "dictation_policy": "NFC/whitespace normalization; final ASCII .!? omission accepted; internal punctuation remains required; spacing-warning is separate, generic ProductionAnswer unchanged",
+      "remaining": "Independent teacher, actual TTS audition, native/iPhone gates NOT TESTED/BLOCKED"
+    },
+    {
+      "key": "C31",
+      "example_id": "fb762e34-797a-46b3-bdb1-f80fe4d65f8f",
+      "result": "AI_SELF_REVIEWED",
+      "korean_review": "Separate reread of spelling/particles/conjugation/register and referents; see per-item note and editorial corrections",
+      "japanese_review": "Separate reread of tense, scope, intention, accurate translation and all choices",
+      "learning_point_ja": "「대신」は長所と負担の対応。課題の少なさと自習量を混同しません。",
+      "focus": "tradeoff",
+      "correct": "課題は少ないが、自習する部分が多い",
+      "evidence": "스스로 공부할 부분이 많아요",
+      "distractors": [
+        "課題も自習する部分も少ない",
+        "課題は多いが、自習する部分は少ない"
+      ],
+      "wrong_reasons": [
+        "自習する部分は多いと言っています。",
+        "もう一方の講義は課題が少なく、自習する部分が多いです。"
+      ],
+      "accepted": [
+        "이 강의는 설명이 자세한 대신 과제가 많아요. 다른 강의는 과제가 적지만 스스로 공부할 부분이 많아요."
+      ],
+      "dictation_policy": "NFC/whitespace normalization; final ASCII .!? omission accepted; internal punctuation remains required; spacing-warning is separate, generic ProductionAnswer unchanged",
+      "remaining": "Independent teacher, actual TTS audition, native/iPhone gates NOT TESTED/BLOCKED"
+    },
+    {
+      "key": "C32",
+      "example_id": "158ccc3f-c004-439f-b262-e7663dd6fc06",
+      "result": "AI_SELF_REVIEWED",
+      "korean_review": "Separate reread of spelling/particles/conjugation/register and referents; see per-item note and editorial corrections",
+      "japanese_review": "Separate reread of tense, scope, intention, accurate translation and all choices",
+      "learning_point_ja": "「서랍이 있다」が右の机の利点。広さだけで優劣を決めていません。",
+      "focus": "advantage",
+      "correct": "引き出しがあるから",
+      "evidence": "서랍이 있어서",
+      "distractors": [
+        "左より広いから",
+        "引き出しがないから"
+      ],
+      "wrong_reasons": [
+        "右の机は少し狭いと述べています。",
+        "右の机は引き出しがあることが整理しやすい理由です。"
+      ],
+      "accepted": [
+        "왼쪽 책상은 넓지만 서랍이 없어요. 오른쪽 책상은 조금 좁아도 서랍이 있어서 정리하기 편해요."
+      ],
+      "dictation_policy": "NFC/whitespace normalization; final ASCII .!? omission accepted; internal punctuation remains required; spacing-warning is separate, generic ProductionAnswer unchanged",
+      "remaining": "Independent teacher, actual TTS audition, native/iPhone gates NOT TESTED/BLOCKED"
+    },
+    {
+      "key": "C33",
+      "example_id": "61bb284d-b696-47d7-8ee0-67ff163e9fe6",
+      "result": "AI_SELF_REVIEWED",
+      "korean_review": "Separate reread of spelling/particles/conjugation/register and referents; see per-item note and editorial corrections",
+      "japanese_review": "Separate reread of tense, scope, intention, accurate translation and all choices",
+      "learning_point_ja": "「눈에 띄다」は目につくという表現。電子版の利点は更新の速さです。",
+      "focus": "advantage",
+      "correct": "変更内容をすぐに載せられる",
+      "evidence": "바뀐 내용을 바로 올릴 수 있어요",
+      "distractors": [
+        "内容を変えなくてもよい",
+        "紙より内容を直しにくい"
+      ],
+      "wrong_reasons": [
+        "変更不要とは述べていません。",
+        "すぐに変更を載せられる点がインターネットの利点です。"
+      ],
+      "accepted": [
+        "종이 안내문은 눈에 잘 띄는데 내용을 고치기 어려워요. 인터넷 안내문은 바뀐 내용을 바로 올릴 수 있어요."
+      ],
+      "dictation_policy": "NFC/whitespace normalization; final ASCII .!? omission accepted; internal punctuation remains required; spacing-warning is separate, generic ProductionAnswer unchanged",
+      "remaining": "Independent teacher, actual TTS audition, native/iPhone gates NOT TESTED/BLOCKED"
+    },
+    {
+      "key": "C34",
+      "example_id": "cf0d0b61-c146-464c-b208-7d813e02b752",
+      "result": "AI_SELF_REVIEWED",
+      "korean_review": "Separate reread of spelling/particles/conjugation/register and referents; see per-item note and editorial corrections",
+      "japanese_review": "Separate reread of tense, scope, intention, accurate translation and all choices",
+      "learning_point_ja": "「-기는 하지만」は利点を認めた上での問題提示。荷物が入ることを優先しています。",
+      "focus": "choice",
+      "correct": "本が入る大きいかばん",
+      "evidence": "큰 가방을 가져가는 게 낫겠어요",
+      "distractors": [
+        "軽い小さいかばん",
+        "本が全部入る小さいかばん"
+      ],
+      "wrong_reasons": [
+        "小さいかばんには本が全部入りません。",
+        "小さいかばんには本が全部入らないため、大きいものを選びます。"
+      ],
+      "accepted": [
+        "작은 가방은 가볍기는 하지만 책이 다 안 들어가요. 무거워도 큰 가방을 가져가는 게 낫겠어요."
+      ],
+      "dictation_policy": "NFC/whitespace normalization; final ASCII .!? omission accepted; internal punctuation remains required; spacing-warning is separate, generic ProductionAnswer unchanged",
+      "remaining": "Independent teacher, actual TTS audition, native/iPhone gates NOT TESTED/BLOCKED"
+    },
+    {
+      "key": "C35",
+      "example_id": "e66a8b8d-787d-49c0-9d84-270a73940c96",
+      "result": "AI_SELF_REVIEWED",
+      "korean_review": "Separate reread of spelling/particles/conjugation/register and referents; see per-item note and editorial corrections",
+      "japanese_review": "Separate reread of tense, scope, intention, accurate translation and all choices",
+      "learning_point_ja": "「다만」は別の考慮点の追加。直接会う利点とオンラインの利点が異なります。",
+      "focus": "reason",
+      "correct": "表情が分かりやすいから",
+      "evidence": "표정을 보기 쉬워서",
+      "distractors": [
+        "移動時間がかからないから",
+        "会議が必ず短くなるから"
+      ],
+      "wrong_reasons": [
+        "移動時間がかからないのはオンライン会議です。",
+        "会議の長さは比較していません。"
+      ],
+      "accepted": [
+        "온라인 회의는 이동 시간이 들지 않아요. 다만 직접 만나면 표정을 보기 쉬워서 오해가 줄어들어요."
+      ],
+      "dictation_policy": "NFC/whitespace normalization; final ASCII .!? omission accepted; internal punctuation remains required; spacing-warning is separate, generic ProductionAnswer unchanged",
+      "remaining": "Independent teacher, actual TTS audition, native/iPhone gates NOT TESTED/BLOCKED"
+    },
+    {
+      "key": "C36",
+      "example_id": "b63e5004-9142-46b0-bd87-c9d0238c9f44",
+      "result": "AI_SELF_REVIEWED",
+      "korean_review": "Separate reread of spelling/particles/conjugation/register and referents; see per-item note and editorial corrections",
+      "japanese_review": "Separate reread of tense, scope, intention, accurate translation and all choices",
+      "learning_point_ja": "「잘 안」は起こりにくさ。「피하다」は避けることで、雨の日の用途を比べています。",
+      "focus": "suitability",
+      "correct": "水が入りにくい、この靴",
+      "evidence": "물이 잘 안 들어와요",
+      "distractors": [
+        "軽い、あの靴",
+        "どちらも雨の日には避けるべき"
+      ],
+      "wrong_reasons": [
+        "あの靴は雨の日には避けたほうがよいと言っています。",
+        "この靴は雨でも水が入りにくいと説明しています。"
+      ],
+      "accepted": [
+        "이 신발은 비가 와도 물이 잘 안 들어와요. 저 신발은 가볍지만 비 오는 날에는 피하는 게 좋겠어요."
+      ],
+      "dictation_policy": "NFC/whitespace normalization; final ASCII .!? omission accepted; internal punctuation remains required; spacing-warning is separate, generic ProductionAnswer unchanged",
+      "remaining": "Independent teacher, actual TTS audition, native/iPhone gates NOT TESTED/BLOCKED"
+    },
+    {
+      "key": "C37",
+      "example_id": "251335b1-4493-493b-8509-3f8529a0c5e1",
+      "result": "AI_SELF_REVIEWED",
+      "korean_review": "Separate reread of spelling/particles/conjugation/register and referents; see per-item note and editorial corrections",
+      "japanese_review": "Separate reread of tense, scope, intention, accurate translation and all choices",
+      "learning_point_ja": "「-다는 장점」は利点の内容。人数の少なさは朝の授業の特徴です。",
+      "focus": "advantage",
+      "correct": "仕事が終わってから受けられる",
+      "evidence": "퇴근 후에 들을 수 있다는 장점",
+      "distractors": [
+        "朝より人数が少ない",
+        "朝の授業より質問しやすい"
+      ],
+      "wrong_reasons": [
+        "夜の授業は人数が多いと述べています。",
+        "質問しやすいのは人数の少ない朝の授業です。"
+      ],
+      "accepted": [
+        "아침 수업은 사람이 적어서 질문하기 편해요. 저녁 수업은 사람이 많아도 퇴근 후에 들을 수 있다는 장점이 있어요."
+      ],
+      "dictation_policy": "NFC/whitespace normalization; final ASCII .!? omission accepted; internal punctuation remains required; spacing-warning is separate, generic ProductionAnswer unchanged",
+      "remaining": "Independent teacher, actual TTS audition, native/iPhone gates NOT TESTED/BLOCKED"
+    },
+    {
+      "key": "C38",
+      "example_id": "e9ddda7a-d5e0-4ccd-b346-f3c9ff17722f",
+      "result": "AI_SELF_REVIEWED",
+      "korean_review": "Separate reread of spelling/particles/conjugation/register and referents; see per-item note and editorial corrections",
+      "japanese_review": "Separate reread of tense, scope, intention, accurate translation and all choices",
+      "learning_point_ja": "「돌아가다」はここでは遠回り。短さより重い荷物での歩きやすさを優先します。",
+      "focus": "choice",
+      "correct": "荷物が重く、一つ目の道には階段が多いから",
+      "evidence": "짐이 무거우니",
+      "distractors": [
+        "二つ目の道のほうが短いから",
+        "荷物を持たずに歩くから"
+      ],
+      "wrong_reasons": [
+        "短いのは一つ目で、二つ目は遠回りです。",
+        "重い荷物を持って歩くための選択です。"
+      ],
+      "accepted": [
+        "첫 번째 길은 짧지만 계단이 많아요. 짐이 무거우니 조금 돌아가도 두 번째 길로 가죠."
+      ],
+      "dictation_policy": "NFC/whitespace normalization; final ASCII .!? omission accepted; internal punctuation remains required; spacing-warning is separate, generic ProductionAnswer unchanged",
+      "remaining": "Independent teacher, actual TTS audition, native/iPhone gates NOT TESTED/BLOCKED"
+    },
+    {
+      "key": "C39",
+      "example_id": "d622fc86-0d87-4280-8e78-b5d291233a58",
+      "result": "AI_SELF_REVIEWED",
+      "korean_review": "Separate reread of spelling/particles/conjugation/register and referents; see per-item note and editorial corrections",
+      "japanese_review": "Separate reread of tense, scope, intention, accurate translation and all choices",
+      "learning_point_ja": "「자리를 차지하다」は場所を取る。座り心地と部屋への適性を分けています。",
+      "focus": "suitability",
+      "correct": "以前の椅子",
+      "evidence": "예전 의자가 더 맞겠어요",
+      "distractors": [
+        "新しい椅子",
+        "どちらも同じくらい合う"
+      ],
+      "wrong_reasons": [
+        "新しい椅子は場所を取るため、小部屋には以前の椅子を勧めています。",
+        "小さい部屋には以前の椅子のほうが合うと判断しています。"
+      ],
+      "accepted": [
+        "새 의자는 등받이가 높아서 편해요. 그런데 자리를 많이 차지하니 작은 방에는 예전 의자가 더 맞겠어요."
+      ],
+      "dictation_policy": "NFC/whitespace normalization; final ASCII .!? omission accepted; internal punctuation remains required; spacing-warning is separate, generic ProductionAnswer unchanged",
+      "remaining": "Independent teacher, actual TTS audition, native/iPhone gates NOT TESTED/BLOCKED"
+    },
+    {
+      "key": "C40",
+      "example_id": "3934ca50-b01a-4d68-916e-26d7603e1ba4",
+      "result": "AI_SELF_REVIEWED",
+      "korean_review": "Separate reread of spelling/particles/conjugation/register and referents; see per-item note and editorial corrections",
+      "japanese_review": "Separate reread of tense, scope, intention, accurate translation and all choices",
+      "learning_point_ja": "「요점」は要点。記録と説明のしやすさを両立する順序を提案しています。",
+      "focus": "sequence",
+      "correct": "電話で話してから要点を文章で送る",
+      "evidence": "전화로 먼저 이야기하고",
+      "distractors": [
+        "文章だけ送り、電話はしない",
+        "要点を送ってから初めて電話する"
+      ],
+      "wrong_reasons": [
+        "先に電話で話すことを提案しています。",
+        "電話を先にする順序が逆です。"
+      ],
+      "accepted": [
+        "메시지로 설명하면 기록이 남아요. 복잡한 내용은 전화로 먼저 이야기하고 요점을 글로 보내는 게 좋겠어요."
+      ],
+      "dictation_policy": "NFC/whitespace normalization; final ASCII .!? omission accepted; internal punctuation remains required; spacing-warning is separate, generic ProductionAnswer unchanged",
+      "remaining": "Independent teacher, actual TTS audition, native/iPhone gates NOT TESTED/BLOCKED"
+    },
+    {
+      "key": "C41",
+      "example_id": "fedb6916-22e4-4bb9-959b-4b4a957ceb55",
+      "result": "AI_SELF_REVIEWED",
+      "korean_review": "Separate reread of spelling/particles/conjugation/register and referents; see per-item note and editorial corrections",
+      "japanese_review": "Separate reread of tense, scope, intention, accurate translation and all choices",
+      "learning_point_ja": "「맞춰 보다」は照合してみること。名札をすべて捨てる必要はありません。",
+      "focus": "solution",
+      "correct": "名簿と名前を一つずつ照合する",
+      "evidence": "명단과 이름을 하나씩 맞춰 보면",
+      "distractors": [
+        "名簿を見ずに名前を書き直す",
+        "名簿を見ずに名札の並びを変える"
+      ],
+      "wrong_reasons": [
+        "まず名簿と名前を照合する提案で、確認せず書き直す話ではありません。",
+        "名簿との照合が提案されている確認方法です。"
+      ],
+      "accepted": [
+        "이름표가 서로 바뀐 것 같아요. 명단과 이름을 하나씩 맞춰 보면 금방 찾을 수 있을 거예요."
+      ],
+      "dictation_policy": "NFC/whitespace normalization; final ASCII .!? omission accepted; internal punctuation remains required; spacing-warning is separate, generic ProductionAnswer unchanged",
+      "remaining": "Independent teacher, actual TTS audition, native/iPhone gates NOT TESTED/BLOCKED"
+    },
+    {
+      "key": "C42",
+      "example_id": "06663d83-5699-4be4-b67d-4cb37b4bdc52",
+      "result": "AI_SELF_REVIEWED",
+      "korean_review": "Separate reread of spelling/particles/conjugation/register and referents; see per-item note and editorial corrections",
+      "japanese_review": "Separate reread of tense, scope, intention, accurate translation and all choices",
+      "learning_point_ja": "「그래도」は最初の対策後も改善しない場合。二段階の対応を聞き取ります。",
+      "focus": "sequence",
+      "correct": "画面を少し明るくする",
+      "evidence": "밝기를 조금 올려 보고",
+      "distractors": [
+        "すぐに席を移る",
+        "先に席を移ってから明るさを上げる"
+      ],
+      "wrong_reasons": [
+        "移動は明るくしても見えない場合です。",
+        "先に明るさを上げ、改善しなければ席を移ります。"
+      ],
+      "accepted": [
+        "노트북 화면이 너무 어두워서 글씨가 안 보여요. 밝기를 조금 올려 보고 그래도 안 보이면 자리를 옮길게요."
+      ],
+      "dictation_policy": "NFC/whitespace normalization; final ASCII .!? omission accepted; internal punctuation remains required; spacing-warning is separate, generic ProductionAnswer unchanged",
+      "remaining": "Independent teacher, actual TTS audition, native/iPhone gates NOT TESTED/BLOCKED"
+    },
+    {
+      "key": "C43",
+      "example_id": "496d7bd8-fe2b-4752-8d6d-564494f84a0d",
+      "result": "AI_SELF_REVIEWED",
+      "korean_review": "Separate reread of spelling/particles/conjugation/register and referents; see per-item note and editorial corrections",
+      "japanese_review": "Separate reread of tense, scope, intention, accurate translation and all choices",
+      "learning_point_ja": "「모자라다」は不足。「-ㄹ까요?」で購入以外の解決策への意見を求めます。",
+      "focus": "proposal",
+      "correct": "隣の事務所で皿を借りる",
+      "evidence": "옆 사무실에서 빌려 볼까요",
+      "distractors": [
+        "使い捨ての皿を買う",
+        "隣の事務所へ皿を貸す"
+      ],
+      "wrong_reasons": [
+        "購入の代わりに借りる提案です。",
+        "隣から借りるのであって、貸す提案ではありません。"
+      ],
+      "accepted": [
+        "준비한 접시가 모자라네요. 일회용 접시를 사는 대신 옆 사무실에서 빌려 볼까요?"
+      ],
+      "dictation_policy": "NFC/whitespace normalization; final ASCII .!? omission accepted; internal punctuation remains required; spacing-warning is separate, generic ProductionAnswer unchanged",
+      "remaining": "Independent teacher, actual TTS audition, native/iPhone gates NOT TESTED/BLOCKED"
+    },
+    {
+      "key": "C44",
+      "example_id": "70333de1-3280-4df8-bbc7-62489a25e11b",
+      "result": "AI_SELF_REVIEWED",
+      "korean_review": "Separate reread of spelling/particles/conjugation/register and referents; see per-item note and editorial corrections",
+      "japanese_review": "Separate reread of tense, scope, intention, accurate translation and all choices",
+      "learning_point_ja": "「이전 것」は誤送信したファイル。「-아 달라고」は受け手に削除を頼む引用です。",
+      "focus": "repair",
+      "correct": "前に送ったファイルを削除すること",
+      "evidence": "이전 것은 지워 달라고",
+      "distractors": [
+        "新しいファイルを送らないこと",
+        "前のファイルも保存しておくこと"
+      ],
+      "wrong_reasons": [
+        "新しいファイルは話し手が送る予定です。",
+        "前のものは削除するよう依頼する予定です。"
+      ],
+      "accepted": [
+        "잘못된 파일을 보냈어요. 바로 새 파일을 보내고 이전 것은 지워 달라고 부탁해야겠어요."
+      ],
+      "dictation_policy": "NFC/whitespace normalization; final ASCII .!? omission accepted; internal punctuation remains required; spacing-warning is separate, generic ProductionAnswer unchanged",
+      "remaining": "Independent teacher, actual TTS audition, native/iPhone gates NOT TESTED/BLOCKED"
+    },
+    {
+      "key": "C45",
+      "example_id": "079d4342-aaa8-43fc-ba01-d8c6d474486f",
+      "result": "AI_SELF_REVIEWED",
+      "korean_review": "Separate reread of spelling/particles/conjugation/register and referents; see per-item note and editorial corrections",
+      "japanese_review": "Separate reread of tense, scope, intention, accurate translation and all choices",
+      "learning_point_ja": "「-는 대신」は一つの行動を別の行動に替えること。安全に取り出す方法の提案です。",
+      "focus": "solution",
+      "correct": "長い定規でカードを取り出してみる",
+      "evidence": "긴 자로 꺼내 보는 게 안전하겠어요",
+      "distractors": [
+        "一人で本棚を動かす",
+        "二人で本棚を動かす"
+      ],
+      "wrong_reasons": [
+        "一人で動かす方法の代わりに定規を勧めています。",
+        "二人で動かす方法ではなく、定規で取り出す方法を勧めています。"
+      ],
+      "accepted": [
+        "책장 뒤로 카드가 떨어졌어요. 책장을 혼자 옮기는 대신 긴 자로 꺼내 보는 게 안전하겠어요."
+      ],
+      "dictation_policy": "NFC/whitespace normalization; final ASCII .!? omission accepted; internal punctuation remains required; spacing-warning is separate, generic ProductionAnswer unchanged",
+      "remaining": "Independent teacher, actual TTS audition, native/iPhone gates NOT TESTED/BLOCKED"
+    },
+    {
+      "key": "C46",
+      "example_id": "b29086c8-eb89-44aa-833b-5fcebeb0b686",
+      "result": "AI_SELF_REVIEWED",
+      "korean_review": "Separate reread of spelling/particles/conjugation/register and referents; see per-item note and editorial corrections",
+      "japanese_review": "Separate reread of tense, scope, intention, accurate translation and all choices",
+      "learning_point_ja": "「-부터」は対応の出発点。「열리다」は画面が開くという自動詞です。",
+      "focus": "first_step",
+      "correct": "インターネットの接続",
+      "evidence": "인터넷 연결부터 확인하고",
+      "distractors": [
+        "申し込みの合計人数",
+        "申し込み画面の入力内容"
+      ],
+      "wrong_reasons": [
+        "人数の確認は述べていません。",
+        "画面が開かないので、まず接続を確認します。"
+      ],
+      "accepted": [
+        "신청 화면이 열리지 않아요. 인터넷 연결부터 확인하고 다시 해 볼게요."
+      ],
+      "dictation_policy": "NFC/whitespace normalization; final ASCII .!? omission accepted; internal punctuation remains required; spacing-warning is separate, generic ProductionAnswer unchanged",
+      "remaining": "Independent teacher, actual TTS audition, native/iPhone gates NOT TESTED/BLOCKED"
+    },
+    {
+      "key": "C47",
+      "example_id": "fc61cf47-0896-48b4-9549-3c82956a6f29",
+      "result": "AI_SELF_REVIEWED",
+      "korean_review": "Separate reread of spelling/particles/conjugation/register and referents; see per-item note and editorial corrections",
+      "japanese_review": "Separate reread of tense, scope, intention, accurate translation and all choices",
+      "learning_point_ja": "「부분을 나누다」は読む範囲の分担。読後の共有まで含む提案です。",
+      "focus": "collaboration",
+      "correct": "範囲を分担して読む",
+      "evidence": "부분을 나누어 읽은 뒤에",
+      "distractors": [
+        "一人が全部読む",
+        "全員が同じ範囲を読む"
+      ],
+      "wrong_reasons": [
+        "一人では難しいので分担を提案しています。",
+        "同じ範囲ではなく、部分を分担して読みます。"
+      ],
+      "accepted": [
+        "자료가 많아서 한 사람이 다 읽기 어렵겠어요. 부분을 나누어 읽은 뒤에 중요한 내용을 같이 정리하죠."
+      ],
+      "dictation_policy": "NFC/whitespace normalization; final ASCII .!? omission accepted; internal punctuation remains required; spacing-warning is separate, generic ProductionAnswer unchanged",
+      "remaining": "Independent teacher, actual TTS audition, native/iPhone gates NOT TESTED/BLOCKED"
+    },
+    {
+      "key": "C48",
+      "example_id": "5bab6a76-9187-4c98-9ec6-e6ccfb6ce347",
+      "result": "AI_SELF_REVIEWED",
+      "korean_review": "Separate reread of spelling/particles/conjugation/register and referents; see per-item note and editorial corrections",
+      "japanese_review": "Separate reread of tense, scope, intention, accurate translation and all choices",
+      "learning_point_ja": "「다치다」はけがをするという自動詞。事故前の予防を判断しています。",
+      "focus": "prevention",
+      "correct": "けがを防ぐため",
+      "evidence": "다친 사람이 생기기 전에",
+      "distractors": [
+        "すでにけがをした人を探すため",
+        "椅子が重くて運べないため"
+      ],
+      "wrong_reasons": [
+        "けが人が出る前の予防です。",
+        "重さではなく、ぐらついて危険なことが問題です。"
+      ],
+      "accepted": [
+        "의자가 흔들려서 앉기 불안해요. 다친 사람이 생기기 전에 다른 의자로 바꿔야겠어요."
+      ],
+      "dictation_policy": "NFC/whitespace normalization; final ASCII .!? omission accepted; internal punctuation remains required; spacing-warning is separate, generic ProductionAnswer unchanged",
+      "remaining": "Independent teacher, actual TTS audition, native/iPhone gates NOT TESTED/BLOCKED"
+    },
+    {
+      "key": "C49",
+      "example_id": "cba30e86-858f-482f-9678-c7e3ffad2f0d",
+      "result": "AI_SELF_REVIEWED",
+      "korean_review": "Separate reread of spelling/particles/conjugation/register and referents; see per-item note and editorial corrections",
+      "japanese_review": "Separate reread of tense, scope, intention, accurate translation and all choices",
+      "learning_point_ja": "「-는 김에」は整理の機会を利用した追加作業。「겉」は箱の外側です。",
+      "focus": "improvement",
+      "correct": "箱の外側に名前を書く",
+      "evidence": "겉에 이름도 쓸게요",
+      "distractors": [
+        "名前を書かず、箱の場所だけ覚える",
+        "箱の外側にある名前を消す"
+      ],
+      "wrong_reasons": [
+        "名前を書き、探しやすくする予定です。",
+        "今は内容が書かれていないので名前を書き加えます。"
+      ],
+      "accepted": [
+        "상자에 내용이 적혀 있지 않아서 찾는 데 오래 걸려요. 오늘 정리하는 김에 겉에 이름도 쓸게요."
+      ],
+      "dictation_policy": "NFC/whitespace normalization; final ASCII .!? omission accepted; internal punctuation remains required; spacing-warning is separate, generic ProductionAnswer unchanged",
+      "remaining": "Independent teacher, actual TTS audition, native/iPhone gates NOT TESTED/BLOCKED"
+    },
+    {
+      "key": "C50",
+      "example_id": "2ffec44f-1270-4636-a410-7091593d6c08",
+      "result": "AI_SELF_REVIEWED",
+      "korean_review": "Separate reread of spelling/particles/conjugation/register and referents; see per-item note and editorial corrections",
+      "japanese_review": "Separate reread of tense, scope, intention, accurate translation and all choices",
+      "learning_point_ja": "「문의가 들어오다」は問い合わせが来ること。繰り返す問題への対策です。",
+      "focus": "proposal",
+      "correct": "よくある質問をまとめた案内を作る",
+      "evidence": "질문을 모아서 안내문을 만들면",
+      "distractors": [
+        "問い合わせを一切受け付けない",
+        "質問ごとに毎回別の案内を作る"
+      ],
+      "wrong_reasons": [
+        "受付をやめるとは言っていません。",
+        "よくある質問を集めた案内を作る提案です。"
+      ],
+      "accepted": [
+        "비슷한 문의가 계속 들어오네요. 자주 묻는 질문을 모아서 안내문을 만들면 어떨까요?"
+      ],
+      "dictation_policy": "NFC/whitespace normalization; final ASCII .!? omission accepted; internal punctuation remains required; spacing-warning is separate, generic ProductionAnswer unchanged",
+      "remaining": "Independent teacher, actual TTS audition, native/iPhone gates NOT TESTED/BLOCKED"
+    },
+    {
+      "key": "C51",
+      "example_id": "76ef3df5-b1cf-4ee8-bf57-98b8dccbbd1d",
+      "result": "AI_SELF_REVIEWED",
+      "korean_review": "Separate reread of spelling/particles/conjugation/register and referents; see per-item note and editorial corrections",
+      "japanese_review": "Separate reread of tense, scope, intention, accurate translation and all choices",
+      "learning_point_ja": "「-ㄹ까요?」は場所変更の提案。通行人への注意ではありません。",
+      "focus": "intent",
+      "correct": "静かな場所へ移って話すこと",
+      "evidence": "좀 더 조용한 곳에서 할까요",
+      "distractors": [
+        "通行人全員に話を聞かせること",
+        "今の場所で話を続けること"
+      ],
+      "wrong_reasons": [
+        "人通りを避け、静かな場所を提案しています。",
+        "より静かな場所で話すことを提案しています。"
+      ],
+      "accepted": [
+        "여기는 사람들이 자주 지나가네요. 중요한 이야기는 좀 더 조용한 곳에서 할까요?"
+      ],
+      "dictation_policy": "NFC/whitespace normalization; final ASCII .!? omission accepted; internal punctuation remains required; spacing-warning is separate, generic ProductionAnswer unchanged",
+      "remaining": "Independent teacher, actual TTS audition, native/iPhone gates NOT TESTED/BLOCKED"
+    },
+    {
+      "key": "C52",
+      "example_id": "ed330b36-9294-4e43-9ed2-ba0c3d385f71",
+      "result": "AI_SELF_REVIEWED",
+      "korean_review": "Separate reread of spelling/particles/conjugation/register and referents; see per-item note and editorial corrections",
+      "japanese_review": "Separate reread of tense, scope, intention, accurate translation and all choices",
+      "learning_point_ja": "「놓치다」は聞き逃すこと。「그 부분만」で依頼する範囲を限定します。",
+      "focus": "request",
+      "correct": "最後の部分だけもう一度説明してもらう",
+      "evidence": "그 부분만 한 번 더",
+      "distractors": [
+        "最初から全部説明し直してもらう",
+        "最後の部分は説明しないでもらう"
+      ],
+      "wrong_reasons": [
+        "依頼は最後の部分だけです。",
+        "最後の部分をもう一度説明してほしいという依頼です。"
+      ],
+      "accepted": [
+        "설명은 잘 들었는데 마지막 부분을 놓쳤어요. 그 부분만 한 번 더 말씀해 주실래요?"
+      ],
+      "dictation_policy": "NFC/whitespace normalization; final ASCII .!? omission accepted; internal punctuation remains required; spacing-warning is separate, generic ProductionAnswer unchanged",
+      "remaining": "Independent teacher, actual TTS audition, native/iPhone gates NOT TESTED/BLOCKED"
+    },
+    {
+      "key": "C53",
+      "example_id": "b3868cdf-57e9-456e-8b78-69c950ce7972",
+      "result": "AI_SELF_REVIEWED",
+      "korean_review": "Separate reread of spelling/particles/conjugation/register and referents; see per-item note and editorial corrections",
+      "japanese_review": "Separate reread of tense, scope, intention, accurate translation and all choices",
+      "learning_point_ja": "「-을 것 같다」は見込み。方法を否定せず、説明の改善を提案しています。",
+      "focus": "suggestion",
+      "correct": "図を一つ加える",
+      "evidence": "설명에 그림을 하나 넣으면",
+      "distractors": [
+        "説明を全部削除する",
+        "方法をすべて別のものに変える"
+      ],
+      "wrong_reasons": [
+        "説明を消すのではなく図を加えます。",
+        "方法を全面的に変えるのでなく説明に図を加える提案です。"
+      ],
+      "accepted": [
+        "이 방법도 괜찮지만 처음 쓰는 사람에게는 어려울 것 같아요. 설명에 그림을 하나 넣으면 어떨까요?"
+      ],
+      "dictation_policy": "NFC/whitespace normalization; final ASCII .!? omission accepted; internal punctuation remains required; spacing-warning is separate, generic ProductionAnswer unchanged",
+      "remaining": "Independent teacher, actual TTS audition, native/iPhone gates NOT TESTED/BLOCKED"
+    },
+    {
+      "key": "C54",
+      "example_id": "776e92d6-cce7-43ee-93d9-07753d63d10e",
+      "result": "AI_SELF_REVIEWED",
+      "korean_review": "Separate reread of spelling/particles/conjugation/register and referents; see per-item note and editorial corrections",
+      "japanese_review": "Separate reread of tense, scope, intention, accurate translation and all choices",
+      "learning_point_ja": "「의견부터」はまず意見を聞くこと。即決より幅広い意見を求める意図です。",
+      "focus": "intent",
+      "correct": "ほかの人の意見を聞く",
+      "evidence": "의견부터 듣고 싶어요",
+      "distractors": [
+        "すぐに最終決定する",
+        "違う意見を言わないように頼む"
+      ],
+      "wrong_reasons": [
+        "今日は決定より意見を聞きたいと言っています。",
+        "別の考えを気軽に言ってほしいと促しています。"
+      ],
+      "accepted": [
+        "오늘은 바로 결정하지 않고 의견부터 듣고 싶어요. 다른 생각이 있으면 편하게 말씀해 주세요."
+      ],
+      "dictation_policy": "NFC/whitespace normalization; final ASCII .!? omission accepted; internal punctuation remains required; spacing-warning is separate, generic ProductionAnswer unchanged",
+      "remaining": "Independent teacher, actual TTS audition, native/iPhone gates NOT TESTED/BLOCKED"
+    },
+    {
+      "key": "C55",
+      "example_id": "04fe74ab-29f4-4463-8feb-9bd8c15b18c0",
+      "result": "AI_SELF_REVIEWED",
+      "korean_review": "Separate reread of spelling/particles/conjugation/register and referents; see per-item note and editorial corrections",
+      "japanese_review": "Separate reread of tense, scope, intention, accurate translation and all choices",
+      "learning_point_ja": "「-지 않으셔도 되다」は返答を急がなくてよいという許可。返答自体は求めています。",
+      "focus": "consideration",
+      "correct": "内容を読む時間を取ってから返事をしてほしい",
+      "evidence": "읽어 보신 뒤에 알려 주세요",
+      "distractors": [
+        "内容を読まず今すぐ答えてほしい",
+        "返事は一切しないでほしい"
+      ],
+      "wrong_reasons": [
+        "即答しなくてもよいと明言しています。",
+        "読んだ後には知らせてほしいと言っています。"
+      ],
+      "accepted": [
+        "지금 바로 답하지 않으셔도 돼요. 내용을 천천히 읽어 보신 뒤에 알려 주세요."
+      ],
+      "dictation_policy": "NFC/whitespace normalization; final ASCII .!? omission accepted; internal punctuation remains required; spacing-warning is separate, generic ProductionAnswer unchanged",
+      "remaining": "Independent teacher, actual TTS audition, native/iPhone gates NOT TESTED/BLOCKED"
+    },
+    {
+      "key": "C56",
+      "example_id": "fa92d66f-127a-4816-8c43-f58bd1c44b06",
+      "result": "AI_SELF_REVIEWED",
+      "korean_review": "Separate reread of spelling/particles/conjugation/register and referents; see per-item note and editorial corrections",
+      "japanese_review": "Separate reread of tense, scope, intention, accurate translation and all choices",
+      "learning_point_ja": "感謝の後に次回の改善を提案しています。作業未完了の催促ではありません。",
+      "focus": "attitude",
+      "correct": "開始前に役割を分ける",
+      "evidence": "시작하기 전에 역할을 나누면",
+      "distractors": [
+        "終わった作業を最初からやり直す",
+        "作業が終わってから役割を分ける"
+      ],
+      "wrong_reasons": [
+        "作業は終了しており、次回の提案です。",
+        "次回は始める前に役割を分ける提案です。"
+      ],
+      "accepted": [
+        "도와주셔서 일은 끝났어요. 다음에는 시작하기 전에 역할을 나누면 더 편할 것 같아요."
+      ],
+      "dictation_policy": "NFC/whitespace normalization; final ASCII .!? omission accepted; internal punctuation remains required; spacing-warning is separate, generic ProductionAnswer unchanged",
+      "remaining": "Independent teacher, actual TTS audition, native/iPhone gates NOT TESTED/BLOCKED"
+    },
+    {
+      "key": "C57",
+      "example_id": "1c5e8ff9-5374-423c-978b-2eec75226175",
+      "result": "AI_SELF_REVIEWED",
+      "korean_review": "Separate reread of spelling/particles/conjugation/register and referents; see per-item note and editorial corrections",
+      "japanese_review": "Separate reread of tense, scope, intention, accurate translation and all choices",
+      "learning_point_ja": "「-자는 거예요」は提案の意図の説明。費用確認と反対を区別します。",
+      "focus": "clarification",
+      "correct": "まず費用を調べたい",
+      "evidence": "먼저 알아보자는 거예요",
+      "distractors": [
+        "提案を全面的に否定したい",
+        "費用を確認せず決めたい"
+      ],
+      "wrong_reasons": [
+        "反対しているのではないと明言しています。",
+        "先に調べようと提案しています。"
+      ],
+      "accepted": [
+        "그 제안을 반대하는 건 아니에요. 비용이 얼마나 드는지 먼저 알아보자는 거예요."
+      ],
+      "dictation_policy": "NFC/whitespace normalization; final ASCII .!? omission accepted; internal punctuation remains required; spacing-warning is separate, generic ProductionAnswer unchanged",
+      "remaining": "Independent teacher, actual TTS audition, native/iPhone gates NOT TESTED/BLOCKED"
+    },
+    {
+      "key": "C58",
+      "example_id": "1b69d947-e59d-4331-938e-16bfab92109c",
+      "result": "AI_SELF_REVIEWED",
+      "korean_review": "Separate reread of spelling/particles/conjugation/register and referents; see per-item note and editorial corrections",
+      "japanese_review": "Separate reread of tense, scope, intention, accurate translation and all choices",
+      "learning_point_ja": "「-을 필요는 없다」は全部読む必要がないという意味。「-만」で確認箇所を絞ります。",
+      "focus": "clarification",
+      "correct": "印の付いた部分だけ",
+      "evidence": "표시한 부분만",
+      "distractors": [
+        "資料全体",
+        "印のない部分だけ"
+      ],
+      "wrong_reasons": [
+        "全部読む指示ではないと言っています。",
+        "確認するのは印を付けた部分です。"
+      ],
+      "accepted": [
+        "자료를 전부 읽을 필요는 없어요. 표시한 부분만 확인해 주시면 돼요."
+      ],
+      "dictation_policy": "NFC/whitespace normalization; final ASCII .!? omission accepted; internal punctuation remains required; spacing-warning is separate, generic ProductionAnswer unchanged",
+      "remaining": "Independent teacher, actual TTS audition, native/iPhone gates NOT TESTED/BLOCKED"
+    },
+    {
+      "key": "C59",
+      "example_id": "f94ed9fd-40dd-48f2-b551-c0a1243f6cdf",
+      "result": "AI_SELF_REVIEWED",
+      "korean_review": "Separate reread of spelling/particles/conjugation/register and referents; see per-item note and editorial corrections",
+      "japanese_review": "Separate reread of tense, scope, intention, accurate translation and all choices",
+      "learning_point_ja": "「따지다」はここでは責任を問いただすこと。共同確認を求める意図です。",
+      "focus": "intent",
+      "correct": "一緒に内容を確認する",
+      "evidence": "함께 확인해 봐요",
+      "distractors": [
+        "相手だけの責任を追及する",
+        "自分は絶対に正しいと主張する"
+      ],
+      "wrong_reasons": [
+        "誰の過ちか追及する意図を否定しています。",
+        "自分が間違っている可能性を認めています。"
+      ],
+      "accepted": [
+        "제가 틀렸을지도 모르니까 함께 확인해 봐요. 누구의 잘못인지 따지려는 건 아니에요."
+      ],
+      "dictation_policy": "NFC/whitespace normalization; final ASCII .!? omission accepted; internal punctuation remains required; spacing-warning is separate, generic ProductionAnswer unchanged",
+      "remaining": "Independent teacher, actual TTS audition, native/iPhone gates NOT TESTED/BLOCKED"
+    },
+    {
+      "key": "C60",
+      "example_id": "87463b58-7ec9-463a-ad85-095a9eb814b4",
+      "result": "AI_SELF_REVIEWED",
+      "korean_review": "Separate reread of spelling/particles/conjugation/register and referents; see per-item note and editorial corrections",
+      "japanese_review": "Separate reread of tense, scope, intention, accurate translation and all choices",
+      "learning_point_ja": "「여쭤보다」は尋ねる謙譲表現。経験の確認は助言の重複を避けるためです。",
+      "focus": "purpose",
+      "correct": "同じ方法をもう一度勧めないため",
+      "evidence": "같은 방법을 다시 권하지 않으려고",
+      "distractors": [
+        "相手の努力を否定するため",
+        "すべての方法を最初からやらせるため"
+      ],
+      "wrong_reasons": [
+        "努力の否定ではなく助言の重複を避けるためです。",
+        "同じ方法を繰り返し勧めない意図です。"
+      ],
+      "accepted": [
+        "먼저 해 보신 방법을 알려 주실래요? 같은 방법을 다시 권하지 않으려고 여쭤보는 거예요."
+      ],
+      "dictation_policy": "NFC/whitespace normalization; final ASCII .!? omission accepted; internal punctuation remains required; spacing-warning is separate, generic ProductionAnswer unchanged",
+      "remaining": "Independent teacher, actual TTS audition, native/iPhone gates NOT TESTED/BLOCKED"
+    }
+  ]
+}

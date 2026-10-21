@@ -246,7 +246,7 @@ final class ListeningTests: XCTestCase {
                 after = try XCTUnwrap(batches.last).0
             }
         }
-        XCTAssertEqual(checked,1940)
+        XCTAssertEqual(checked,2000)
     }
 
     func testDATA08UnavailableListeningDueIsReleaseScopedAndPreservesSnapshots() async throws {
@@ -339,6 +339,61 @@ final class ListeningTests: XCTestCase {
         let content = try SQLiteContentRepository(url:XCTUnwrap(Bundle.main.url(forResource:"content",withExtension:"sqlite")),allowFixture:false)
         var tasks = [String:Int](), sources = [ContentID:Int](), seen = Set<ContentID>()
         for batch in 109...114 {
+            let ids = try await content.listeningBatchIDs(level:.lowerIntermediate,batch:batch)
+            let questions = try await content.listeningQuestions(level:.lowerIntermediate,ids:ids)
+            XCTAssertEqual(questions.count,20)
+            XCTAssertEqual(Set(questions.map(\.sourceID)).count,20)
+            for q in questions {
+                try q.validate()
+                XCTAssertTrue(seen.insert(q.itemID).inserted)
+                tasks[q.task.rawValue,default:0] += 1
+                sources[q.sourceID,default:0] += 1
+                XCTAssertFalse(q.recordingRequired)
+                XCTAssertNil(q.recording)
+                XCTAssertTrue(AudioPolicy.permitsTTS(q.audio))
+                XCTAssertEqual(q.level,.lowerIntermediate)
+                if q.task == .dictation {
+                    XCTAssertEqual(q.accepted,[q.transcript])
+                    XCTAssertEqual(q.judge(q.transcript),.correct)
+                    var omitted = q.transcript
+                    while let last = omitted.last, ".!?".contains(last) { omitted.removeLast() }
+                    XCTAssertEqual(q.judge(omitted),.correct)
+                    XCTAssertEqual(q.judge(q.transcript.replacingOccurrences(of:" ",with:"")),.spacing)
+                    if let boundary = q.transcript.firstIndex(where:{ ".!?".contains($0) }) {
+                        var changed = q.transcript
+                        changed.replaceSubrange(boundary...boundary,with:",")
+                        XCTAssertEqual(q.judge(changed),.incorrect)
+                    }
+                } else {
+                    XCTAssertEqual(q.choices.count,3)
+                    let correct = try XCTUnwrap(q.correctID)
+                    XCTAssertEqual(q.judge(correct),.correct)
+                    for c in q.choices where c.id != correct { XCTAssertEqual(q.judge(c.id),.incorrect) }
+                    let text = try XCTUnwrap(q.choices.first(where:{$0.id == correct})).text
+                    if q.task == .meaning { XCTAssertEqual(text,q.translation) }
+                    if q.task == .korean { XCTAssertEqual(text,q.transcript) }
+                }
+                var state = session([q])
+                let answer: String
+                if q.task == .dictation { answer = q.transcript }
+                else { answer = try XCTUnwrap(q.correctID) }
+                XCTAssertThrowsError(try state.apply(.submit(answer),at:Date()))
+                try state.apply(.played(.normal),at:Date())
+                try state.apply(.submit(answer),at:Date())
+                XCTAssertEqual(state.result,.correct)
+                try state.apply(.next,at:Date())
+                XCTAssertTrue(state.completed)
+            }
+        }
+        XCTAssertEqual(seen.count,120)
+        XCTAssertEqual(sources.count,60)
+        XCTAssertTrue(sources.values.allSatisfy({$0 == 2}))
+        XCTAssertEqual(tasks,["comprehension":60,"dictation":60])
+    }
+    func testDATA10CBatchAll120QuestionsUseRealGradingAndPlayedGate() async throws {
+        let content = try SQLiteContentRepository(url:XCTUnwrap(Bundle.main.url(forResource:"content",withExtension:"sqlite")),allowFixture:false)
+        var tasks = [String:Int](), sources = [ContentID:Int](), seen = Set<ContentID>()
+        for batch in 115...120 {
             let ids = try await content.listeningBatchIDs(level:.lowerIntermediate,batch:batch)
             let questions = try await content.listeningQuestions(level:.lowerIntermediate,ids:ids)
             XCTAssertEqual(questions.count,20)

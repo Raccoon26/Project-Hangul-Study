@@ -1,0 +1,103 @@
+{
+  "scope": "all reachable refs plus current tracked/untracked reviewable files (before commit)",
+  "reachable_blob_count": 1028,
+  "over50MiB": [],
+  "over100MiB": [],
+  "largest": [
+    {
+      "oid": "5412aed1ad1863d437620923ad350b2eef8a1d70",
+      "bytes": 19603456,
+      "path": "Resources/content.sqlite"
+    },
+    {
+      "oid": "55df96f2718f6514ec14e0651b0d90db66b3d081",
+      "bytes": 19214336,
+      "path": "Tests/Fixtures/content-v25-production.sqlite"
+    },
+    {
+      "oid": "152b9eff6864cb8044f34ac82bb37e7e7dc9d53f",
+      "bytes": 18841600,
+      "path": "Tests/Fixtures/content-v24-production.sqlite"
+    },
+    {
+      "oid": "e4a0a2fea7b092e780370bd0f3ab1460c011dc50",
+      "bytes": 18812928,
+      "path": "Tests/Fixtures/content-v22-production.sqlite"
+    },
+    {
+      "oid": "17f2ea87217285281fce1bf833e9d90b1e37e8f5",
+      "bytes": 18812928,
+      "path": "Tests/Fixtures/content-v23-production.sqlite"
+    },
+    {
+      "oid": "7ad568ee125f58c724736f68fa05a8b4a7eb04bf",
+      "bytes": 18509824,
+      "path": "Tests/Fixtures/content-v21-production.sqlite"
+    },
+    {
+      "oid": "f56da799431fae1e017188147192650c24b56a40",
+      "bytes": 18288424,
+      "path": "Content/production.json"
+    },
+    {
+      "oid": "6a46344f8a83661176115fa7c3a6d951ac0b30ad",
+      "bytes": 18194432,
+      "path": "Tests/Fixtures/content-v20-production.sqlite"
+    },
+    {
+      "oid": "112e8814b7cecc1720651d6825eac941d1a322a8",
+      "bytes": 17932288,
+      "path": "Tests/Fixtures/content-v19-production.sqlite"
+    },
+    {
+      "oid": "11213912dfb5a5a3673f077629ead32176b1b83a",
+      "bytes": 17869441,
+      "path": "Content/production.json"
+    }
+  ],
+  "working_files_largest": [
+    {
+      "path": "Resources/content.sqlite",
+      "bytes": 20025344
+    },
+    {
+      "path": "Tests/Fixtures/content-v26-production.sqlite",
+      "bytes": 19603456
+    },
+    {
+      "path": "Tests/Fixtures/content-v25-production.sqlite",
+      "bytes": 19214336
+    },
+    {
+      "path": "Tests/Fixtures/content-v24-production.sqlite",
+      "bytes": 18841600
+    },
+    {
+      "path": "Tests/Fixtures/content-v22-production.sqlite",
+      "bytes": 18812928
+    },
+    {
+      "path": "Tests/Fixtures/content-v23-production.sqlite",
+      "bytes": 18812928
+    },
+    {
+      "path": "Content/production.json",
+      "bytes": 18687004
+    },
+    {
+      "path": "Tests/Fixtures/content-v21-production.sqlite",
+      "bytes": 18509824
+    },
+    {
+      "path": "Tests/Fixtures/content-v20-production.sqlite",
+      "bytes": 18194432
+    },
+    {
+      "path": "Tests/Fixtures/content-v19-production.sqlite",
+      "bytes": 17932288
+    }
+  ],
+  "working_over50MiB": [],
+  "working_over100MiB": [],
+  "lfs_needed": false
+}

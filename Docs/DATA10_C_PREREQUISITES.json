@@ -1,0 +1,1814 @@
+{
+  "scope": "60 situations: one selected pre-existing grammatical/lexical reference each, manually checked surface forms; no runtime Grammar changes",
+  "grammar_records": [
+    {
+      "key": "C01",
+      "example_id": "767d88f3-1296-4b74-883b-69baf4b8c504",
+      "grammar_id": "4dd04c0c-5449-4d0f-a3cd-f0701ccf5897",
+      "pattern": "-(으)려면",
+      "observed_form_ko": "공부하려면",
+      "review": "AI contextual reread; literal observation is not a morphological parser or mastery gate"
+    },
+    {
+      "key": "C02",
+      "example_id": "5b5ad44c-09cf-4d2a-80ff-72c4735dc53e",
+      "grammar_id": "f3e5c2de-6721-46ce-af18-1a5c458bcac8",
+      "pattern": "-아/어도（양보）",
+      "observed_form_ko": "비가 와도",
+      "review": "AI contextual reread; literal observation is not a morphological parser or mastery gate"
+    },
+    {
+      "key": "C03",
+      "example_id": "f8c70a62-9aaa-4fb7-b981-6433e6c747cd",
+      "grammar_id": "453d0f13-3727-4335-8f6a-ddff70f570ac",
+      "pattern": "-(으)ㄹ 때",
+      "observed_form_ko": "나올 때",
+      "review": "AI contextual reread; literal observation is not a morphological parser or mastery gate"
+    },
+    {
+      "key": "C04",
+      "example_id": "f92b2e5f-c178-4f44-84c9-943812644858",
+      "grammar_id": "58303aa2-5451-40ec-8345-6b7cc14fa1aa",
+      "pattern": "-고 나서",
+      "observed_form_ko": "내고 나서",
+      "review": "AI contextual reread; literal observation is not a morphological parser or mastery gate"
+    },
+    {
+      "key": "C05",
+      "example_id": "97648526-0dd7-4f89-b102-c6a1f9cc44ac",
+      "grammar_id": "25dc9c13-05b1-4d9b-bb5b-5d1643f9a591",
+      "pattern": "-아 / 어야 하다",
+      "observed_form_ko": "입어야 합니다",
+      "review": "AI contextual reread; literal observation is not a morphological parser or mastery gate"
+    },
+    {
+      "key": "C06",
+      "example_id": "021917ac-29ad-46c1-8490-3a5db09c5c45",
+      "grammar_id": "92cf69c3-2bda-453a-8b5f-47f1e4902f2a",
+      "pattern": "-기 전에",
+      "observed_form_ko": "되기 전에",
+      "review": "AI contextual reread; literal observation is not a morphological parser or mastery gate"
+    },
+    {
+      "key": "C07",
+      "example_id": "a71d4d4f-2162-4af6-989f-47f972d6d5dc",
+      "grammar_id": "172590f5-9c3c-4fd9-9196-f1811ac4880e",
+      "pattern": "-아/어 있다（결과 상태）",
+      "observed_form_ko": "젖어 있으니",
+      "review": "AI contextual reread; literal observation is not a morphological parser or mastery gate"
+    },
+    {
+      "key": "C08",
+      "example_id": "cde2203a-8985-4618-8798-9bc44712c698",
+      "grammar_id": "66f56006-dd56-4cc4-bdcb-38f1c17c0036",
+      "pattern": "보다（比較）",
+      "observed_form_ko": "평소보다",
+      "review": "AI contextual reread; literal observation is not a morphological parser or mastery gate"
+    },
+    {
+      "key": "C09",
+      "example_id": "78c8b5f6-ed2b-4a61-9a10-f2ca51c48ace",
+      "grammar_id": "9ab75790-f386-4770-89c4-fd3909f97436",
+      "pattern": "-(으)면",
+      "observed_form_ko": "번호가 없으면",
+      "review": "AI contextual reread; literal observation is not a morphological parser or mastery gate"
+    },
+    {
+      "key": "C10",
+      "example_id": "ff0b157f-c89d-478f-8e5e-b17378c150b1",
+      "grammar_id": "d41f1600-e5aa-40da-b23e-7c51a40d726b",
+      "pattern": "-자마자",
+      "observed_form_ko": "끝나자마자",
+      "review": "AI contextual reread; literal observation is not a morphological parser or mastery gate"
+    },
+    {
+      "key": "C11",
+      "example_id": "ad95ec11-51cc-4db1-a1f0-2f0bc34e16fa",
+      "grammar_id": "175390c0-2ef1-40f2-93a8-a528e1f75dd7",
+      "pattern": "만",
+      "observed_form_ko": "직원만",
+      "review": "AI contextual reread; literal observation is not a morphological parser or mastery gate"
+    },
+    {
+      "key": "C12",
+      "example_id": "0cfc1cec-f69d-4e35-a719-9b64251f3937",
+      "grammar_id": "b3c47e9e-b16e-4feb-bb5c-4cc4e49b5bf3",
+      "pattern": "-아/어 줄래요? / -아/어 주실래요?（부탁）",
+      "observed_form_ko": "이용해 주실래요",
+      "review": "AI contextual reread; literal observation is not a morphological parser or mastery gate"
+    },
+    {
+      "key": "C13",
+      "example_id": "33553d89-2d0d-44de-bcfb-31bef0c915e9",
+      "grammar_id": "175390c0-2ef1-40f2-93a8-a528e1f75dd7",
+      "pattern": "만",
+      "observed_form_ko": "종이만",
+      "review": "AI contextual reread; literal observation is not a morphological parser or mastery gate"
+    },
+    {
+      "key": "C14",
+      "example_id": "540421e9-3be6-4c67-bdff-b27aba2ebf4a",
+      "grammar_id": "0ae7131c-e497-4b82-8286-59c84d5c9e9d",
+      "pattern": "-아/어야（필요 조건）",
+      "observed_form_ko": "확인해야",
+      "review": "AI contextual reread; literal observation is not a morphological parser or mastery gate"
+    },
+    {
+      "key": "C15",
+      "example_id": "b79564d8-d62f-4e74-b20a-d655012bc81c",
+      "grammar_id": "2a7b0e46-86f5-49fa-ac87-de9e3de87e3a",
+      "pattern": "-는지 / -(으)ㄴ지 / -(으)ㄹ지 알다·모르다",
+      "observed_form_ko": "있는지",
+      "review": "AI contextual reread; literal observation is not a morphological parser or mastery gate"
+    },
+    {
+      "key": "C16",
+      "example_id": "51b35456-ad48-41ea-a206-1ad4a646e5ec",
+      "grammar_id": "0b6da528-99a6-4f2f-8708-686b052e3213",
+      "pattern": "-(으)ㄹ게요（약속·응답）",
+      "observed_form_ko": "알려 줄게요",
+      "review": "AI contextual reread; literal observation is not a morphological parser or mastery gate"
+    },
+    {
+      "key": "C17",
+      "example_id": "ee01df9a-1c18-4074-9c14-62eefb30dd63",
+      "grammar_id": "c920d60c-c5d3-4e2a-b86b-faf321a27c29",
+      "pattern": "까지",
+      "observed_form_ko": "오전까지",
+      "review": "AI contextual reread; literal observation is not a morphological parser or mastery gate"
+    },
+    {
+      "key": "C18",
+      "example_id": "4404701a-7b05-4721-987b-2190762a2526",
+      "grammar_id": "377e3a8a-5815-4d20-9418-b909dce54143",
+      "pattern": "-지 마세요",
+      "observed_form_ko": "들지 마세요",
+      "review": "AI contextual reread; literal observation is not a morphological parser or mastery gate"
+    },
+    {
+      "key": "C19",
+      "example_id": "3cca1d43-5141-4e69-8d24-ec689a625685",
+      "grammar_id": "e8ce5b27-35a6-4135-8014-47881cdd7f9a",
+      "pattern": "-아 / 어 보다",
+      "observed_form_ko": "읽어 보세요",
+      "review": "AI contextual reread; literal observation is not a morphological parser or mastery gate"
+    },
+    {
+      "key": "C20",
+      "example_id": "d1776428-f7ef-4af6-b1c7-1bd6933acec4",
+      "grammar_id": "92cf69c3-2bda-453a-8b5f-47f1e4902f2a",
+      "pattern": "-기 전에",
+      "observed_form_ko": "그전에",
+      "review": "Lexical before/comparison context only; not an instance of the full cited pattern. Explicitly excluded from grammar-instance count."
+    },
+    {
+      "key": "C21",
+      "example_id": "b940403d-4c24-4ce1-9b97-37756e025497",
+      "grammar_id": "0ae7131c-e497-4b82-8286-59c84d5c9e9d",
+      "pattern": "-아/어야（필요 조건）",
+      "observed_form_ko": "당겨야",
+      "review": "AI contextual reread; literal observation is not a morphological parser or mastery gate"
+    },
+    {
+      "key": "C22",
+      "example_id": "8d3b9c52-0f47-411b-8640-700e80e45e69",
+      "grammar_id": "4dd04c0c-5449-4d0f-a3cd-f0701ccf5897",
+      "pattern": "-(으)려면",
+      "observed_form_ko": "보려면",
+      "review": "AI contextual reread; literal observation is not a morphological parser or mastery gate"
+    },
+    {
+      "key": "C23",
+      "example_id": "686b4f0b-e28d-403b-9023-d57278d0bea1",
+      "grammar_id": "7d214986-8d9d-4f84-9af5-de0234f136d5",
+      "pattern": "-(으)ㄹ수록",
+      "observed_form_ko": "갈수록",
+      "review": "AI contextual reread; literal observation is not a morphological parser or mastery gate"
+    },
+    {
+      "key": "C24",
+      "example_id": "2e369d88-cece-4b20-9a79-cc2398673fc2",
+      "grammar_id": "971d0ccc-242f-464d-90e9-775c19b88c94",
+      "pattern": "-는 동안 / N 동안",
+      "observed_form_ko": "있는 동안",
+      "review": "AI contextual reread; literal observation is not a morphological parser or mastery gate"
+    },
+    {
+      "key": "C25",
+      "example_id": "5e4b7cb3-093f-41d2-83b8-2ecc9ad085b1",
+      "grammar_id": "f527297e-94dd-472b-928e-7bc3900b2dae",
+      "pattern": "-(으)ㄹ 필요가 있다 / 없다",
+      "observed_form_ko": "줄 필요가 없어요",
+      "review": "AI contextual reread; literal observation is not a morphological parser or mastery gate"
+    },
+    {
+      "key": "C26",
+      "example_id": "68b52fb6-64b8-45a2-8eca-55b88d05c46c",
+      "grammar_id": "2d9cbb5e-ac05-4cbc-a52b-975c19d77210",
+      "pattern": "-(ㄴ/는)다는 / -다는 / N(이)라는 + N（인용 수식）",
+      "observed_form_ko": "막혔다는 뜻",
+      "review": "AI contextual reread; literal observation is not a morphological parser or mastery gate"
+    },
+    {
+      "key": "C27",
+      "example_id": "e27084d3-171b-4dac-a3df-56ba8a6a94ab",
+      "grammar_id": "172590f5-9c3c-4fd9-9196-f1811ac4880e",
+      "pattern": "-아/어 있다（결과 상태）",
+      "observed_form_ko": "포함되어 있어요",
+      "review": "AI contextual reread; literal observation is not a morphological parser or mastery gate"
+    },
+    {
+      "key": "C28",
+      "example_id": "af559e2c-a9c2-4826-bd77-57bec7d29f82",
+      "grammar_id": "4dd04c0c-5449-4d0f-a3cd-f0701ccf5897",
+      "pattern": "-(으)려면",
+      "observed_form_ko": "끄려면",
+      "review": "AI contextual reread; literal observation is not a morphological parser or mastery gate"
+    },
+    {
+      "key": "C29",
+      "example_id": "978b1531-b981-4955-a930-9d60b838dd9b",
+      "grammar_id": "39d90697-78fd-4a3b-847c-b90d5ff07e64",
+      "pattern": "-기 위해(서) / N을·를 위해(서)",
+      "observed_form_ko": "확인하기 위해서",
+      "review": "AI contextual reread; literal observation is not a morphological parser or mastery gate"
+    },
+    {
+      "key": "C30",
+      "example_id": "af6a99e2-2b2b-4b89-afba-71be7d31d82b",
+      "grammar_id": "f3e5c2de-6721-46ce-af18-1a5c458bcac8",
+      "pattern": "-아/어도（양보）",
+      "observed_form_ko": "끝나도",
+      "review": "AI contextual reread; literal observation is not a morphological parser or mastery gate"
+    },
+    {
+      "key": "C31",
+      "example_id": "fb762e34-797a-46b3-bdb1-f80fe4d65f8f",
+      "grammar_id": "782eb56e-972c-4c6e-81a7-911d094caac1",
+      "pattern": "-는 대신(에) / N 대신(에)",
+      "observed_form_ko": "자세한 대신",
+      "review": "AI contextual reread; literal observation is not a morphological parser or mastery gate"
+    },
+    {
+      "key": "C32",
+      "example_id": "158ccc3f-c004-439f-b262-e7663dd6fc06",
+      "grammar_id": "f3e5c2de-6721-46ce-af18-1a5c458bcac8",
+      "pattern": "-아/어도（양보）",
+      "observed_form_ko": "좁아도",
+      "review": "AI contextual reread; literal observation is not a morphological parser or mastery gate"
+    },
+    {
+      "key": "C33",
+      "example_id": "61bb284d-b696-47d7-8ee0-67ff163e9fe6",
+      "grammar_id": "b85e6804-85a2-495d-8781-e885ee9468a2",
+      "pattern": "-(으)ㄹ 수 있다 / 없다",
+      "observed_form_ko": "올릴 수 있어요",
+      "review": "AI contextual reread; literal observation is not a morphological parser or mastery gate"
+    },
+    {
+      "key": "C34",
+      "example_id": "cf0d0b61-c146-464c-b208-7d813e02b752",
+      "grammar_id": "40f95bb3-8746-47cf-9a49-023cecc3345b",
+      "pattern": "-기는 하지만",
+      "observed_form_ko": "가볍기는 하지만",
+      "review": "AI contextual reread; literal observation is not a morphological parser or mastery gate"
+    },
+    {
+      "key": "C35",
+      "example_id": "e66a8b8d-787d-49c0-9d84-270a73940c96",
+      "grammar_id": "9ab75790-f386-4770-89c4-fd3909f97436",
+      "pattern": "-(으)면",
+      "observed_form_ko": "만나면",
+      "review": "AI contextual reread; literal observation is not a morphological parser or mastery gate"
+    },
+    {
+      "key": "C36",
+      "example_id": "b63e5004-9142-46b0-bd87-c9d0238c9f44",
+      "grammar_id": "f3e5c2de-6721-46ce-af18-1a5c458bcac8",
+      "pattern": "-아/어도（양보）",
+      "observed_form_ko": "비가 와도",
+      "review": "AI contextual reread; literal observation is not a morphological parser or mastery gate"
+    },
+    {
+      "key": "C37",
+      "example_id": "251335b1-4493-493b-8509-3f8529a0c5e1",
+      "grammar_id": "2d9cbb5e-ac05-4cbc-a52b-975c19d77210",
+      "pattern": "-(ㄴ/는)다는 / -다는 / N(이)라는 + N（인용 수식）",
+      "observed_form_ko": "들을 수 있다는 장점",
+      "review": "AI contextual reread; literal observation is not a morphological parser or mastery gate"
+    },
+    {
+      "key": "C38",
+      "example_id": "e9ddda7a-d5e0-4ccd-b346-f3c9ff17722f",
+      "grammar_id": "f5fae1c3-9c30-4fe3-a9ed-6936aed2183a",
+      "pattern": "-지요 / -죠（공유·확인）",
+      "observed_form_ko": "가죠",
+      "review": "AI contextual reread; literal observation is not a morphological parser or mastery gate"
+    },
+    {
+      "key": "C39",
+      "example_id": "d622fc86-0d87-4280-8e78-b5d291233a58",
+      "grammar_id": "66f56006-dd56-4cc4-bdcb-38f1c17c0036",
+      "pattern": "보다（比較）",
+      "observed_form_ko": "의자가 더",
+      "review": "Lexical before/comparison context only; not an instance of the full cited pattern. Explicitly excluded from grammar-instance count."
+    },
+    {
+      "key": "C40",
+      "example_id": "3934ca50-b01a-4d68-916e-26d7603e1ba4",
+      "grammar_id": "cc45a574-10b5-47b3-9302-bdd0468ad221",
+      "pattern": "-고",
+      "observed_form_ko": "이야기하고",
+      "review": "AI contextual reread; literal observation is not a morphological parser or mastery gate"
+    },
+    {
+      "key": "C41",
+      "example_id": "fedb6916-22e4-4bb9-959b-4b4a957ceb55",
+      "grammar_id": "eef9130b-15eb-4138-ab8b-dcda74c864b1",
+      "pattern": "-는 / -(으)ㄴ 것 같다（現在の推測）",
+      "observed_form_ko": "바뀐 것 같아요",
+      "review": "AI contextual reread; literal observation is not a morphological parser or mastery gate"
+    },
+    {
+      "key": "C42",
+      "example_id": "06663d83-5699-4be4-b67d-4cb37b4bdc52",
+      "grammar_id": "0b6da528-99a6-4f2f-8708-686b052e3213",
+      "pattern": "-(으)ㄹ게요（약속·응답）",
+      "observed_form_ko": "옮길게요",
+      "review": "AI contextual reread; literal observation is not a morphological parser or mastery gate"
+    },
+    {
+      "key": "C43",
+      "example_id": "496d7bd8-fe2b-4752-8d6d-564494f84a0d",
+      "grammar_id": "68c3a2a7-5f4e-4236-9474-380202f6bbeb",
+      "pattern": "-(으)ㄹ까요?（제안·의견 묻기）",
+      "observed_form_ko": "빌려 볼까요",
+      "review": "AI contextual reread; literal observation is not a morphological parser or mastery gate"
+    },
+    {
+      "key": "C44",
+      "example_id": "70333de1-3280-4df8-bbc7-62489a25e11b",
+      "grammar_id": "f0acd94a-696c-4cbe-8d11-df2f2ea31f08",
+      "pattern": "-아/어 달라고 / -아/어 주라고 하다（수혜자）",
+      "observed_form_ko": "지워 달라고",
+      "review": "AI contextual reread; literal observation is not a morphological parser or mastery gate"
+    },
+    {
+      "key": "C45",
+      "example_id": "079d4342-aaa8-43fc-ba01-d8c6d474486f",
+      "grammar_id": "782eb56e-972c-4c6e-81a7-911d094caac1",
+      "pattern": "-는 대신(에) / N 대신(에)",
+      "observed_form_ko": "옮기는 대신",
+      "review": "AI contextual reread; literal observation is not a morphological parser or mastery gate"
+    },
+    {
+      "key": "C46",
+      "example_id": "b29086c8-eb89-44aa-833b-5fcebeb0b686",
+      "grammar_id": "5901d23d-d80d-4c73-9c69-5b65cb3d3edf",
+      "pattern": "부터",
+      "observed_form_ko": "연결부터",
+      "review": "AI contextual reread; literal observation is not a morphological parser or mastery gate"
+    },
+    {
+      "key": "C47",
+      "example_id": "fc61cf47-0896-48b4-9549-3c82956a6f29",
+      "grammar_id": "93796ac0-18d5-4363-a562-26e6fff959b4",
+      "pattern": "-(으)ㄴ 후에",
+      "observed_form_ko": "읽은 뒤에",
+      "review": "Temporal 뒤에 synonym of 후에; does not assert separate Grammar coverage."
+    },
+    {
+      "key": "C48",
+      "example_id": "5bab6a76-9187-4c98-9ec6-e6ccfb6ce347",
+      "grammar_id": "d940b512-3a3a-4108-b561-fa33dfd93222",
+      "pattern": "-아/어야겠다",
+      "observed_form_ko": "바꿔야겠어요",
+      "review": "AI contextual reread; literal observation is not a morphological parser or mastery gate"
+    },
+    {
+      "key": "C49",
+      "example_id": "cba30e86-858f-482f-9678-c7e3ffad2f0d",
+      "grammar_id": "754881ff-3e7d-4743-8de8-ab6f63b1a9a4",
+      "pattern": "-는 김에",
+      "observed_form_ko": "정리하는 김에",
+      "review": "AI contextual reread; literal observation is not a morphological parser or mastery gate"
+    },
+    {
+      "key": "C50",
+      "example_id": "2ffec44f-1270-4636-a410-7091593d6c08",
+      "grammar_id": "68c3a2a7-5f4e-4236-9474-380202f6bbeb",
+      "pattern": "-(으)ㄹ까요?（제안·의견 묻기）",
+      "observed_form_ko": "어떨까요",
+      "review": "AI contextual reread; literal observation is not a morphological parser or mastery gate"
+    },
+    {
+      "key": "C51",
+      "example_id": "76ef3df5-b1cf-4ee8-bf57-98b8dccbbd1d",
+      "grammar_id": "68c3a2a7-5f4e-4236-9474-380202f6bbeb",
+      "pattern": "-(으)ㄹ까요?（제안·의견 묻기）",
+      "observed_form_ko": "할까요",
+      "review": "AI contextual reread; literal observation is not a morphological parser or mastery gate"
+    },
+    {
+      "key": "C52",
+      "example_id": "ed330b36-9294-4e43-9ed2-ba0c3d385f71",
+      "grammar_id": "b3c47e9e-b16e-4feb-bb5c-4cc4e49b5bf3",
+      "pattern": "-아/어 줄래요? / -아/어 주실래요?（부탁）",
+      "observed_form_ko": "말씀해 주실래요",
+      "review": "AI contextual reread; literal observation is not a morphological parser or mastery gate"
+    },
+    {
+      "key": "C53",
+      "example_id": "b3868cdf-57e9-456e-8b78-69c950ce7972",
+      "grammar_id": "68c3a2a7-5f4e-4236-9474-380202f6bbeb",
+      "pattern": "-(으)ㄹ까요?（제안·의견 묻기）",
+      "observed_form_ko": "어떨까요",
+      "review": "AI contextual reread; literal observation is not a morphological parser or mastery gate"
+    },
+    {
+      "key": "C54",
+      "example_id": "776e92d6-cce7-43ee-93d9-07753d63d10e",
+      "grammar_id": "893f53f1-ebaa-48d0-82ab-aadd66e84d80",
+      "pattern": "-고 싶다",
+      "observed_form_ko": "듣고 싶어요",
+      "review": "AI contextual reread; literal observation is not a morphological parser or mastery gate"
+    },
+    {
+      "key": "C55",
+      "example_id": "04fe74ab-29f4-4463-8feb-9bd8c15b18c0",
+      "grammar_id": "89a0c275-28c3-4698-9ec7-69c3fe1fcdf4",
+      "pattern": "-아 / 어도 되다",
+      "observed_form_ko": "않으셔도 돼요",
+      "review": "AI contextual reread; literal observation is not a morphological parser or mastery gate"
+    },
+    {
+      "key": "C56",
+      "example_id": "fa92d66f-127a-4816-8c43-f58bd1c44b06",
+      "grammar_id": "92cf69c3-2bda-453a-8b5f-47f1e4902f2a",
+      "pattern": "-기 전에",
+      "observed_form_ko": "시작하기 전에",
+      "review": "AI contextual reread; literal observation is not a morphological parser or mastery gate"
+    },
+    {
+      "key": "C57",
+      "example_id": "1c5e8ff9-5374-423c-978b-2eec75226175",
+      "grammar_id": "29c75088-07da-46d2-ac0b-495e520234ad",
+      "pattern": "-자고 / -지 말자고 하다（권유 인용）",
+      "observed_form_ko": "알아보자는",
+      "review": "Adnominal quotation 자는 from 자고 하다; compositional extension, not a separate taught pattern."
+    },
+    {
+      "key": "C58",
+      "example_id": "1b69d947-e59d-4331-938e-16bfab92109c",
+      "grammar_id": "f527297e-94dd-472b-928e-7bc3900b2dae",
+      "pattern": "-(으)ㄹ 필요가 있다 / 없다",
+      "observed_form_ko": "읽을 필요는 없어요",
+      "review": "AI contextual reread; literal observation is not a morphological parser or mastery gate"
+    },
+    {
+      "key": "C59",
+      "example_id": "f94ed9fd-40dd-48f2-b551-c0a1243f6cdf",
+      "grammar_id": "445b7ded-b9dc-434e-b8fb-7ed4d253bc64",
+      "pattern": "-(으)ㄹ지도 모르다",
+      "observed_form_ko": "틀렸을지도 모르니까",
+      "review": "AI contextual reread; literal observation is not a morphological parser or mastery gate"
+    },
+    {
+      "key": "C60",
+      "example_id": "87463b58-7ec9-463a-ad85-095a9eb814b4",
+      "grammar_id": "7779f2ed-308d-46aa-9df6-bd6001fe88fa",
+      "pattern": "-(으)려고 하다",
+      "observed_form_ko": "권하지 않으려고",
+      "review": "Purpose connective -(으)려고 without 하다; compositional use, not a claim of planned-intention construction."
+    }
+  ],
+  "unique_referenced_grammar": 40,
+  "explicit_extension_or_lexical_only": [
+    "C20",
+    "C39",
+    "C47",
+    "C57",
+    "C60"
+  ],
+  "remaining_level_caveat": "Productive future conjecture -을 것 같다, -(으)ㄹ 예정이다, honorific variants and contextual nouns are not proof of full prerequisite coverage. AI LI judgment only; independent teacher check NOT TESTED. No advanced structure introduced just for coverage.",
+  "vocabulary_receipts": [
+    {
+      "key": "C01",
+      "existing_literal_lemmas": [
+        {
+          "id": "c1bdd866-d3c4-4d45-becc-64de26822527",
+          "lemma": "도서관",
+          "level": "intro"
+        },
+        {
+          "id": "4eb3f805-8135-49a3-8c4e-460512b7ce4f",
+          "lemma": "공부",
+          "level": "intro"
+        },
+        {
+          "id": "4eaee077-4ee0-4302-89a0-8a7f3727bfdb",
+          "lemma": "조용히",
+          "level": "beginner"
+        },
+        {
+          "id": "fdc24219-f733-4550-9512-1b3734405e2d",
+          "lemma": "창가",
+          "level": "beginner"
+        }
+      ],
+      "limitation": "Substring receipts only; particles/conjugations are not tokenized and complete lexical coverage is not certified. Japanese translation and individual note support context-specific nouns."
+    },
+    {
+      "key": "C02",
+      "existing_literal_lemmas": [
+        {
+          "id": "53075425-8bb3-4553-a1fc-c8f3f9e10e2c",
+          "lemma": "내일",
+          "level": "intro"
+        },
+        {
+          "id": "7fffeafa-d6aa-46e4-954e-048399f79950",
+          "lemma": "수업",
+          "level": "intro"
+        },
+        {
+          "id": "bf7be98a-58bd-4584-8373-8f38d625e998",
+          "lemma": "운동",
+          "level": "intro"
+        },
+        {
+          "id": "5d434b01-fa5b-49be-a73a-469e51a425aa",
+          "lemma": "대신",
+          "level": "beginner"
+        }
+      ],
+      "limitation": "Substring receipts only; particles/conjugations are not tokenized and complete lexical coverage is not certified. Japanese translation and individual note support context-specific nouns."
+    },
+    {
+      "key": "C03",
+      "existing_literal_lemmas": [
+        {
+          "id": "06c1d885-8813-474e-93cc-6b5fbbab7eca",
+          "lemma": "학생",
+          "level": "intro"
+        },
+        {
+          "id": "6c37b533-d31f-4df1-a3d1-e2792fc9be0f",
+          "lemma": "사무실",
+          "level": "beginner"
+        }
+      ],
+      "limitation": "Substring receipts only; particles/conjugations are not tokenized and complete lexical coverage is not certified. Japanese translation and individual note support context-specific nouns."
+    },
+    {
+      "key": "C04",
+      "existing_literal_lemmas": [
+        {
+          "id": "b1df3ff9-8281-48be-9c5e-7d520585a449",
+          "lemma": "동아리",
+          "level": "beginner"
+        },
+        {
+          "id": "21553f51-196e-4aad-b7a4-c4f288635b2f",
+          "lemma": "신청서",
+          "level": "lower_intermediate"
+        }
+      ],
+      "limitation": "Substring receipts only; particles/conjugations are not tokenized and complete lexical coverage is not certified. Japanese translation and individual note support context-specific nouns."
+    },
+    {
+      "key": "C05",
+      "existing_literal_lemmas": [],
+      "limitation": "Substring receipts only; particles/conjugations are not tokenized and complete lexical coverage is not certified. Japanese translation and individual note support context-specific nouns."
+    },
+    {
+      "key": "C06",
+      "existing_literal_lemmas": [
+        {
+          "id": "5f6691e2-5750-4ce9-935f-1b68aef5b8d4",
+          "lemma": "교실",
+          "level": "beginner"
+        },
+        {
+          "id": "ec8ba1dd-60c7-47e2-af69-3ee5026d7b01",
+          "lemma": "차례",
+          "level": "beginner"
+        },
+        {
+          "id": "0721ef88-cd14-4d40-a93e-303c2d528b79",
+          "lemma": "순서",
+          "level": "lower_intermediate"
+        }
+      ],
+      "limitation": "Substring receipts only; particles/conjugations are not tokenized and complete lexical coverage is not certified. Japanese translation and individual note support context-specific nouns."
+    },
+    {
+      "key": "C07",
+      "existing_literal_lemmas": [
+        {
+          "id": "308a16a9-bcad-4e12-9e6c-8ace4b976976",
+          "lemma": "천천히",
+          "level": "intro"
+        },
+        {
+          "id": "70316911-1bbc-4d1e-b888-50f1920bd8db",
+          "lemma": "바닥",
+          "level": "beginner"
+        }
+      ],
+      "limitation": "Substring receipts only; particles/conjugations are not tokenized and complete lexical coverage is not certified. Japanese translation and individual note support context-specific nouns."
+    },
+    {
+      "key": "C08",
+      "existing_literal_lemmas": [
+        {
+          "id": "17f33b9b-d0e0-47b3-a17a-064bdb1d17e8",
+          "lemma": "학교",
+          "level": "intro"
+        },
+        {
+          "id": "06aa64f8-7b97-4554-8e24-5d293f07b2f1",
+          "lemma": "오늘",
+          "level": "intro"
+        },
+        {
+          "id": "06c1d885-8813-474e-93cc-6b5fbbab7eca",
+          "lemma": "학생",
+          "level": "intro"
+        },
+        {
+          "id": "a350d481-c04b-4ba3-8688-887b92827662",
+          "lemma": "선생님",
+          "level": "intro"
+        },
+        {
+          "id": "7fffeafa-d6aa-46e4-954e-048399f79950",
+          "lemma": "수업",
+          "level": "intro"
+        },
+        {
+          "id": "1c18bffa-f8ca-4012-9069-2a6b562867d5",
+          "lemma": "버스",
+          "level": "intro"
+        },
+        {
+          "id": "ea5bda06-a0b7-4f37-a227-489cd0e97b50",
+          "lemma": "보다",
+          "level": "intro"
+        },
+        {
+          "id": "686383a7-9181-47e4-9253-12e4d3f3ec13",
+          "lemma": "먼저",
+          "level": "intro"
+        }
+      ],
+      "limitation": "Substring receipts only; particles/conjugations are not tokenized and complete lexical coverage is not certified. Japanese translation and individual note support context-specific nouns."
+    },
+    {
+      "key": "C09",
+      "existing_literal_lemmas": [
+        {
+          "id": "1f749772-13cf-4d65-aedd-703a9b89d576",
+          "lemma": "이름",
+          "level": "intro"
+        },
+        {
+          "id": "ddadde97-c840-442c-84b9-11dbcd3464ce",
+          "lemma": "누구",
+          "level": "intro"
+        },
+        {
+          "id": "a55c0227-183c-4904-95a3-ad6f7f27ca0c",
+          "lemma": "과제",
+          "level": "beginner"
+        },
+        {
+          "id": "c23774ac-a043-4979-bdbf-a3b2612c974a",
+          "lemma": "파일",
+          "level": "beginner"
+        }
+      ],
+      "limitation": "Substring receipts only; particles/conjugations are not tokenized and complete lexical coverage is not certified. Japanese translation and individual note support context-specific nouns."
+    },
+    {
+      "key": "C10",
+      "existing_literal_lemmas": [
+        {
+          "id": "7fffeafa-d6aa-46e4-954e-048399f79950",
+          "lemma": "수업",
+          "level": "intro"
+        },
+        {
+          "id": "a4f84ed4-5e00-426b-a6a4-68dd227c1baa",
+          "lemma": "다음",
+          "level": "beginner"
+        },
+        {
+          "id": "dc650c53-4583-4a11-a182-74218af05d68",
+          "lemma": "가위",
+          "level": "beginner"
+        }
+      ],
+      "limitation": "Substring receipts only; particles/conjugations are not tokenized and complete lexical coverage is not certified. Japanese translation and individual note support context-specific nouns."
+    },
+    {
+      "key": "C11",
+      "existing_literal_lemmas": [
+        {
+          "id": "7b3aad74-a092-4eda-9eb7-404ce69abfee",
+          "lemma": "열쇠",
+          "level": "intro"
+        },
+        {
+          "id": "ca71597b-99bf-4f2a-80ab-7c32ba8d4038",
+          "lemma": "회의",
+          "level": "beginner"
+        },
+        {
+          "id": "61e9afa7-b97f-47ba-95bc-f0286ef8ebc9",
+          "lemma": "담당",
+          "level": "lower_intermediate"
+        },
+        {
+          "id": "f4d5b05e-c0b1-4ee9-beab-1eb6f849e897",
+          "lemma": "안내",
+          "level": "lower_intermediate"
+        }
+      ],
+      "limitation": "Substring receipts only; particles/conjugations are not tokenized and complete lexical coverage is not certified. Japanese translation and individual note support context-specific nouns."
+    },
+    {
+      "key": "C12",
+      "existing_literal_lemmas": [
+        {
+          "id": "7dc903fe-6633-4e23-a0f8-4f656dbfb913",
+          "lemma": "청소",
+          "level": "intro"
+        },
+        {
+          "id": "53075425-8bb3-4553-a1fc-c8f3f9e10e2c",
+          "lemma": "내일",
+          "level": "intro"
+        },
+        {
+          "id": "0762154b-09da-4788-8b89-fd17df46b76b",
+          "lemma": "아침",
+          "level": "intro"
+        },
+        {
+          "id": "a87ed67b-5cc6-4834-aff2-0ef6a072a980",
+          "lemma": "입구",
+          "level": "beginner"
+        },
+        {
+          "id": "1b7f773c-0b33-4c78-a8ca-c736bce02e71",
+          "lemma": "건물",
+          "level": "beginner"
+        }
+      ],
+      "limitation": "Substring receipts only; particles/conjugations are not tokenized and complete lexical coverage is not certified. Japanese translation and individual note support context-specific nouns."
+    },
+    {
+      "key": "C13",
+      "existing_literal_lemmas": [
+        {
+          "id": "ca71597b-99bf-4f2a-80ab-7c32ba8d4038",
+          "lemma": "회의",
+          "level": "beginner"
+        },
+        {
+          "id": "85484adb-c195-4700-aa6d-b4a909ea5c0e",
+          "lemma": "화면",
+          "level": "beginner"
+        },
+        {
+          "id": "96e44cb7-194e-4fb5-95b8-c755fddb64b2",
+          "lemma": "자료",
+          "level": "beginner"
+        }
+      ],
+      "limitation": "Substring receipts only; particles/conjugations are not tokenized and complete lexical coverage is not certified. Japanese translation and individual note support context-specific nouns."
+    },
+    {
+      "key": "C14",
+      "existing_literal_lemmas": [
+        {
+          "id": "2b8cf1f5-ae73-4511-99e5-ad3084ff6da7",
+          "lemma": "물건",
+          "level": "intro"
+        },
+        {
+          "id": "aeeea568-9814-4cb3-b549-dfe302d9d3ba",
+          "lemma": "주소",
+          "level": "beginner"
+        },
+        {
+          "id": "19b25d25-f4bf-4bd9-aedd-9c67fe795221",
+          "lemma": "배송",
+          "level": "lower_intermediate"
+        }
+      ],
+      "limitation": "Substring receipts only; particles/conjugations are not tokenized and complete lexical coverage is not certified. Japanese translation and individual note support context-specific nouns."
+    },
+    {
+      "key": "C15",
+      "existing_literal_lemmas": [
+        {
+          "id": "6d07a440-6ac9-4d34-8393-66ddac63d163",
+          "lemma": "창문",
+          "level": "intro"
+        }
+      ],
+      "limitation": "Substring receipts only; particles/conjugations are not tokenized and complete lexical coverage is not certified. Japanese translation and individual note support context-specific nouns."
+    },
+    {
+      "key": "C16",
+      "existing_literal_lemmas": [
+        {
+          "id": "61108b42-e7aa-4c6d-8729-ae7729a35cb3",
+          "lemma": "동안",
+          "level": "beginner"
+        },
+        {
+          "id": "bbd07950-7a66-4f03-a1ca-ce65cf10f184",
+          "lemma": "내용",
+          "level": "beginner"
+        },
+        {
+          "id": "03568120-2750-460f-9de5-fc60400138c5",
+          "lemma": "새로",
+          "level": "beginner"
+        },
+        {
+          "id": "9014d5b2-e083-457e-ba51-15e7305bd222",
+          "lemma": "그동안",
+          "level": "lower_intermediate"
+        }
+      ],
+      "limitation": "Substring receipts only; particles/conjugations are not tokenized and complete lexical coverage is not certified. Japanese translation and individual note support context-specific nouns."
+    },
+    {
+      "key": "C17",
+      "existing_literal_lemmas": [
+        {
+          "id": "fd463440-f466-4edd-a320-379340d44e6b",
+          "lemma": "금요일",
+          "level": "intro"
+        },
+        {
+          "id": "62b09369-d99f-4ed0-ada6-721d3515c188",
+          "lemma": "오전",
+          "level": "intro"
+        },
+        {
+          "id": "9ad113a6-33b0-40f1-9cb7-40d119434e0d",
+          "lemma": "오후",
+          "level": "intro"
+        },
+        {
+          "id": "bbd07950-7a66-4f03-a1ca-ce65cf10f184",
+          "lemma": "내용",
+          "level": "beginner"
+        },
+        {
+          "id": "5d60594f-44f7-4fb0-b1bb-6ab030d2d9eb",
+          "lemma": "보고서",
+          "level": "beginner"
+        }
+      ],
+      "limitation": "Substring receipts only; particles/conjugations are not tokenized and complete lexical coverage is not certified. Japanese translation and individual note support context-specific nouns."
+    },
+    {
+      "key": "C18",
+      "existing_literal_lemmas": [
+        {
+          "id": "090db94a-98a0-4f3a-af22-f8529040daf3",
+          "lemma": "사람",
+          "level": "intro"
+        },
+        {
+          "id": "be0d83bf-a03a-4625-813f-928941c1ebd6",
+          "lemma": "함께",
+          "level": "intro"
+        },
+        {
+          "id": "a8cc3f19-24bc-42de-85a1-f6a524a9a394",
+          "lemma": "상자",
+          "level": "beginner"
+        },
+        {
+          "id": "5b851ed8-e2e6-432b-b519-257f4d12c639",
+          "lemma": "필요",
+          "level": "lower_intermediate"
+        }
+      ],
+      "limitation": "Substring receipts only; particles/conjugations are not tokenized and complete lexical coverage is not certified. Japanese translation and individual note support context-specific nouns."
+    },
+    {
+      "key": "C19",
+      "existing_literal_lemmas": [
+        {
+          "id": "a458bf4e-7c72-43d9-b504-ed0fb7fe7fdc",
+          "lemma": "시간",
+          "level": "intro"
+        },
+        {
+          "id": "97ba1052-4cac-4a73-b21a-fb221e902e5c",
+          "lemma": "다시",
+          "level": "intro"
+        },
+        {
+          "id": "f4d5b05e-c0b1-4ee9-beab-1eb6f849e897",
+          "lemma": "안내",
+          "level": "lower_intermediate"
+        }
+      ],
+      "limitation": "Substring receipts only; particles/conjugations are not tokenized and complete lexical coverage is not certified. Japanese translation and individual note support context-specific nouns."
+    },
+    {
+      "key": "C20",
+      "existing_literal_lemmas": [
+        {
+          "id": "4ecee4f7-6e9a-4624-a6c2-fdf90fb31d27",
+          "lemma": "점심",
+          "level": "intro"
+        },
+        {
+          "id": "a458bf4e-7c72-43d9-b504-ed0fb7fe7fdc",
+          "lemma": "시간",
+          "level": "intro"
+        },
+        {
+          "id": "96e44cb7-194e-4fb5-95b8-c755fddb64b2",
+          "lemma": "자료",
+          "level": "beginner"
+        },
+        {
+          "id": "890884a5-0a4b-451f-928a-22c07edf1e47",
+          "lemma": "점검",
+          "level": "lower_intermediate"
+        }
+      ],
+      "limitation": "Substring receipts only; particles/conjugations are not tokenized and complete lexical coverage is not certified. Japanese translation and individual note support context-specific nouns."
+    },
+    {
+      "key": "C21",
+      "existing_literal_lemmas": [
+        {
+          "id": "7ed3a12f-5996-436c-bd33-d9cb8ed2fbbe",
+          "lemma": "계속",
+          "level": "beginner"
+        }
+      ],
+      "limitation": "Substring receipts only; particles/conjugations are not tokenized and complete lexical coverage is not certified. Japanese translation and individual note support context-specific nouns."
+    },
+    {
+      "key": "C22",
+      "existing_literal_lemmas": [],
+      "limitation": "Substring receipts only; particles/conjugations are not tokenized and complete lexical coverage is not certified. Japanese translation and individual note support context-specific nouns."
+    },
+    {
+      "key": "C23",
+      "existing_literal_lemmas": [
+        {
+          "id": "9c0f07c2-e720-4393-8621-06d534f4085a",
+          "lemma": "대화",
+          "level": "beginner"
+        },
+        {
+          "id": "19ac0198-6391-4835-b7a6-22b2c4a123f6",
+          "lemma": "설명",
+          "level": "beginner"
+        },
+        {
+          "id": "76b1d823-5e48-4f9d-a29b-5ea384982c5d",
+          "lemma": "표현",
+          "level": "lower_intermediate"
+        }
+      ],
+      "limitation": "Substring receipts only; particles/conjugations are not tokenized and complete lexical coverage is not certified. Japanese translation and individual note support context-specific nouns."
+    },
+    {
+      "key": "C24",
+      "existing_literal_lemmas": [
+        {
+          "id": "2b8cf1f5-ae73-4511-99e5-ad3084ff6da7",
+          "lemma": "물건",
+          "level": "intro"
+        },
+        {
+          "id": "61108b42-e7aa-4c6d-8729-ae7729a35cb3",
+          "lemma": "동안",
+          "level": "beginner"
+        }
+      ],
+      "limitation": "Substring receipts only; particles/conjugations are not tokenized and complete lexical coverage is not certified. Japanese translation and individual note support context-specific nouns."
+    },
+    {
+      "key": "C25",
+      "existing_literal_lemmas": [
+        {
+          "id": "bf3bc071-b18c-49f7-acad-2be120eb7989",
+          "lemma": "조금",
+          "level": "intro"
+        },
+        {
+          "id": "c754e80e-e5c2-4572-9139-e9f3396fab84",
+          "lemma": "매일",
+          "level": "intro"
+        },
+        {
+          "id": "3606fece-509f-4604-a8b7-5d33729cf169",
+          "lemma": "조금씩",
+          "level": "beginner"
+        },
+        {
+          "id": "5b851ed8-e2e6-432b-b519-257f4d12c639",
+          "lemma": "필요",
+          "level": "lower_intermediate"
+        }
+      ],
+      "limitation": "Substring receipts only; particles/conjugations are not tokenized and complete lexical coverage is not certified. Japanese translation and individual note support context-specific nouns."
+    },
+    {
+      "key": "C26",
+      "existing_literal_lemmas": [
+        {
+          "id": "17f33b9b-d0e0-47b3-a17a-064bdb1d17e8",
+          "lemma": "학교",
+          "level": "intro"
+        }
+      ],
+      "limitation": "Substring receipts only; particles/conjugations are not tokenized and complete lexical coverage is not certified. Japanese translation and individual note support context-specific nouns."
+    },
+    {
+      "key": "C27",
+      "existing_literal_lemmas": [
+        {
+          "id": "4ecee4f7-6e9a-4624-a6c2-fdf90fb31d27",
+          "lemma": "점심",
+          "level": "intro"
+        },
+        {
+          "id": "317e44d0-ae08-4d2b-bc91-a68cfd76631b",
+          "lemma": "따로",
+          "level": "beginner"
+        },
+        {
+          "id": "67a54077-e98e-4bf4-a2e3-8cee463142d0",
+          "lemma": "행사",
+          "level": "beginner"
+        }
+      ],
+      "limitation": "Substring receipts only; particles/conjugations are not tokenized and complete lexical coverage is not certified. Japanese translation and individual note support context-specific nouns."
+    },
+    {
+      "key": "C28",
+      "existing_literal_lemmas": [
+        {
+          "id": "21f38c3f-9d90-4062-b2bb-0f30bbd29e5a",
+          "lemma": "완전히",
+          "level": "beginner"
+        },
+        {
+          "id": "85484adb-c195-4700-aa6d-b4a909ea5c0e",
+          "lemma": "화면",
+          "level": "beginner"
+        },
+        {
+          "id": "6e0e22af-31e1-4948-a851-19c6b825ee97",
+          "lemma": "단추",
+          "level": "beginner"
+        }
+      ],
+      "limitation": "Substring receipts only; particles/conjugations are not tokenized and complete lexical coverage is not certified. Japanese translation and individual note support context-specific nouns."
+    },
+    {
+      "key": "C29",
+      "existing_literal_lemmas": [
+        {
+          "id": "090db94a-98a0-4f3a-af22-f8529040daf3",
+          "lemma": "사람",
+          "level": "intro"
+        },
+        {
+          "id": "1f749772-13cf-4d65-aedd-703a9b89d576",
+          "lemma": "이름",
+          "level": "intro"
+        },
+        {
+          "id": "2b8cf1f5-ae73-4511-99e5-ad3084ff6da7",
+          "lemma": "물건",
+          "level": "intro"
+        },
+        {
+          "id": "21553f51-196e-4aad-b7a4-c4f288635b2f",
+          "lemma": "신청서",
+          "level": "lower_intermediate"
+        }
+      ],
+      "limitation": "Substring receipts only; particles/conjugations are not tokenized and complete lexical coverage is not certified. Japanese translation and individual note support context-specific nouns."
+    },
+    {
+      "key": "C30",
+      "existing_literal_lemmas": [
+        {
+          "id": "4d331614-f4c8-4708-9473-abb8e985e628",
+          "lemma": "바로",
+          "level": "intro"
+        },
+        {
+          "id": "af71ed7b-3392-4f9a-8325-486d051cff9c",
+          "lemma": "잠깐",
+          "level": "beginner"
+        }
+      ],
+      "limitation": "Substring receipts only; particles/conjugations are not tokenized and complete lexical coverage is not certified. Japanese translation and individual note support context-specific nouns."
+    },
+    {
+      "key": "C31",
+      "existing_literal_lemmas": [
+        {
+          "id": "4eb3f805-8135-49a3-8c4e-460512b7ce4f",
+          "lemma": "공부",
+          "level": "intro"
+        },
+        {
+          "id": "a55c0227-183c-4904-95a3-ad6f7f27ca0c",
+          "lemma": "과제",
+          "level": "beginner"
+        },
+        {
+          "id": "d459ecea-bec0-41d9-b07e-8ede5dbd49d7",
+          "lemma": "스스로",
+          "level": "beginner"
+        },
+        {
+          "id": "19ac0198-6391-4835-b7a6-22b2c4a123f6",
+          "lemma": "설명",
+          "level": "beginner"
+        },
+        {
+          "id": "5d434b01-fa5b-49be-a73a-469e51a425aa",
+          "lemma": "대신",
+          "level": "beginner"
+        }
+      ],
+      "limitation": "Substring receipts only; particles/conjugations are not tokenized and complete lexical coverage is not certified. Japanese translation and individual note support context-specific nouns."
+    },
+    {
+      "key": "C32",
+      "existing_literal_lemmas": [
+        {
+          "id": "ef9c458c-4a24-4cd5-8954-c978408af6f6",
+          "lemma": "책상",
+          "level": "intro"
+        },
+        {
+          "id": "3088c346-ace8-4160-90b8-b193e68e0483",
+          "lemma": "오른쪽",
+          "level": "intro"
+        },
+        {
+          "id": "5b3e3514-c527-46ec-89e5-1d03ad6449e0",
+          "lemma": "왼쪽",
+          "level": "intro"
+        },
+        {
+          "id": "bf3bc071-b18c-49f7-acad-2be120eb7989",
+          "lemma": "조금",
+          "level": "intro"
+        },
+        {
+          "id": "7a38c798-52c5-4929-8017-59f065ab6543",
+          "lemma": "서랍",
+          "level": "beginner"
+        }
+      ],
+      "limitation": "Substring receipts only; particles/conjugations are not tokenized and complete lexical coverage is not certified. Japanese translation and individual note support context-specific nouns."
+    },
+    {
+      "key": "C33",
+      "existing_literal_lemmas": [
+        {
+          "id": "4d331614-f4c8-4708-9473-abb8e985e628",
+          "lemma": "바로",
+          "level": "intro"
+        },
+        {
+          "id": "bbd07950-7a66-4f03-a1ca-ce65cf10f184",
+          "lemma": "내용",
+          "level": "beginner"
+        },
+        {
+          "id": "f4d5b05e-c0b1-4ee9-beab-1eb6f849e897",
+          "lemma": "안내",
+          "level": "lower_intermediate"
+        }
+      ],
+      "limitation": "Substring receipts only; particles/conjugations are not tokenized and complete lexical coverage is not certified. Japanese translation and individual note support context-specific nouns."
+    },
+    {
+      "key": "C34",
+      "existing_literal_lemmas": [
+        {
+          "id": "168d9edb-dd5f-4ee9-9d92-6365f9bbe037",
+          "lemma": "가방",
+          "level": "intro"
+        }
+      ],
+      "limitation": "Substring receipts only; particles/conjugations are not tokenized and complete lexical coverage is not certified. Japanese translation and individual note support context-specific nouns."
+    },
+    {
+      "key": "C35",
+      "existing_literal_lemmas": [
+        {
+          "id": "a458bf4e-7c72-43d9-b504-ed0fb7fe7fdc",
+          "lemma": "시간",
+          "level": "intro"
+        },
+        {
+          "id": "ca71597b-99bf-4f2a-80ab-7c32ba8d4038",
+          "lemma": "회의",
+          "level": "beginner"
+        },
+        {
+          "id": "67ec9a70-21b8-4922-9301-b91d332d5cff",
+          "lemma": "직접",
+          "level": "beginner"
+        },
+        {
+          "id": "1538aa47-cf10-4052-b979-1913f3026f0d",
+          "lemma": "오해",
+          "level": "lower_intermediate"
+        }
+      ],
+      "limitation": "Substring receipts only; particles/conjugations are not tokenized and complete lexical coverage is not certified. Japanese translation and individual note support context-specific nouns."
+    },
+    {
+      "key": "C36",
+      "existing_literal_lemmas": [
+        {
+          "id": "d01ea179-e5e8-4b3e-976d-a6507016c77b",
+          "lemma": "신발",
+          "level": "intro"
+        }
+      ],
+      "limitation": "Substring receipts only; particles/conjugations are not tokenized and complete lexical coverage is not certified. Japanese translation and individual note support context-specific nouns."
+    },
+    {
+      "key": "C37",
+      "existing_literal_lemmas": [
+        {
+          "id": "090db94a-98a0-4f3a-af22-f8529040daf3",
+          "lemma": "사람",
+          "level": "intro"
+        },
+        {
+          "id": "0762154b-09da-4788-8b89-fd17df46b76b",
+          "lemma": "아침",
+          "level": "intro"
+        },
+        {
+          "id": "f409f81c-2cde-4c04-bb72-19bc3e829eb2",
+          "lemma": "저녁",
+          "level": "intro"
+        },
+        {
+          "id": "7fffeafa-d6aa-46e4-954e-048399f79950",
+          "lemma": "수업",
+          "level": "intro"
+        },
+        {
+          "id": "7af61ee9-b068-4f2b-8616-c91181852a9c",
+          "lemma": "있다",
+          "level": "intro"
+        },
+        {
+          "id": "643bbeeb-8ade-4996-aa04-868486acae98",
+          "lemma": "질문",
+          "level": "beginner"
+        },
+        {
+          "id": "f31abef6-82a5-4782-8f98-1effd1ab9b60",
+          "lemma": "장점",
+          "level": "lower_intermediate"
+        }
+      ],
+      "limitation": "Substring receipts only; particles/conjugations are not tokenized and complete lexical coverage is not certified. Japanese translation and individual note support context-specific nouns."
+    },
+    {
+      "key": "C38",
+      "existing_literal_lemmas": [
+        {
+          "id": "bf3bc071-b18c-49f7-acad-2be120eb7989",
+          "lemma": "조금",
+          "level": "intro"
+        },
+        {
+          "id": "b8716586-bed8-4739-95ff-db4911291cbe",
+          "lemma": "계단",
+          "level": "beginner"
+        }
+      ],
+      "limitation": "Substring receipts only; particles/conjugations are not tokenized and complete lexical coverage is not certified. Japanese translation and individual note support context-specific nouns."
+    },
+    {
+      "key": "C39",
+      "existing_literal_lemmas": [
+        {
+          "id": "9859b333-0a4c-40bc-b12e-61a9b052aac4",
+          "lemma": "의자",
+          "level": "intro"
+        },
+        {
+          "id": "4f75de17-cc6f-43d6-9f8c-08eda89d9209",
+          "lemma": "많이",
+          "level": "intro"
+        }
+      ],
+      "limitation": "Substring receipts only; particles/conjugations are not tokenized and complete lexical coverage is not certified. Japanese translation and individual note support context-specific nouns."
+    },
+    {
+      "key": "C40",
+      "existing_literal_lemmas": [
+        {
+          "id": "686383a7-9181-47e4-9253-12e4d3f3ec13",
+          "lemma": "먼저",
+          "level": "intro"
+        },
+        {
+          "id": "6e7c3176-59a8-4cc5-9a7a-de26c2cf84ad",
+          "lemma": "이야기",
+          "level": "beginner"
+        },
+        {
+          "id": "bbd07950-7a66-4f03-a1ca-ce65cf10f184",
+          "lemma": "내용",
+          "level": "beginner"
+        },
+        {
+          "id": "19ac0198-6391-4835-b7a6-22b2c4a123f6",
+          "lemma": "설명",
+          "level": "beginner"
+        },
+        {
+          "id": "acb58381-7dc7-4b6e-b747-e41692d7c380",
+          "lemma": "요점",
+          "level": "lower_intermediate"
+        }
+      ],
+      "limitation": "Substring receipts only; particles/conjugations are not tokenized and complete lexical coverage is not certified. Japanese translation and individual note support context-specific nouns."
+    },
+    {
+      "key": "C41",
+      "existing_literal_lemmas": [
+        {
+          "id": "1f749772-13cf-4d65-aedd-703a9b89d576",
+          "lemma": "이름",
+          "level": "intro"
+        },
+        {
+          "id": "e5722fa2-1d1a-4053-81d2-a8352749ce6e",
+          "lemma": "하나",
+          "level": "intro"
+        },
+        {
+          "id": "ef7d70d1-04f8-4712-820b-cdea6fc04416",
+          "lemma": "서로",
+          "level": "beginner"
+        },
+        {
+          "id": "d2251478-f975-4660-8e79-2b2c221e8285",
+          "lemma": "금방",
+          "level": "beginner"
+        },
+        {
+          "id": "2f631e8a-5f4e-4dfa-80c9-3748a7b53000",
+          "lemma": "하나씩",
+          "level": "beginner"
+        }
+      ],
+      "limitation": "Substring receipts only; particles/conjugations are not tokenized and complete lexical coverage is not certified. Japanese translation and individual note support context-specific nouns."
+    },
+    {
+      "key": "C42",
+      "existing_literal_lemmas": [
+        {
+          "id": "bf3bc071-b18c-49f7-acad-2be120eb7989",
+          "lemma": "조금",
+          "level": "intro"
+        },
+        {
+          "id": "00ec58e9-258f-4bb2-a6e2-f969cb91d891",
+          "lemma": "너무",
+          "level": "intro"
+        },
+        {
+          "id": "85484adb-c195-4700-aa6d-b4a909ea5c0e",
+          "lemma": "화면",
+          "level": "beginner"
+        }
+      ],
+      "limitation": "Substring receipts only; particles/conjugations are not tokenized and complete lexical coverage is not certified. Japanese translation and individual note support context-specific nouns."
+    },
+    {
+      "key": "C43",
+      "existing_literal_lemmas": [
+        {
+          "id": "6929a6e3-66bd-4272-8f02-efbe34fcaeb3",
+          "lemma": "준비",
+          "level": "intro"
+        },
+        {
+          "id": "ae13bdb7-3d91-41a2-be9b-588ceac62265",
+          "lemma": "접시",
+          "level": "intro"
+        },
+        {
+          "id": "6c37b533-d31f-4df1-a3d1-e2792fc9be0f",
+          "lemma": "사무실",
+          "level": "beginner"
+        },
+        {
+          "id": "5d434b01-fa5b-49be-a73a-469e51a425aa",
+          "lemma": "대신",
+          "level": "beginner"
+        }
+      ],
+      "limitation": "Substring receipts only; particles/conjugations are not tokenized and complete lexical coverage is not certified. Japanese translation and individual note support context-specific nouns."
+    },
+    {
+      "key": "C44",
+      "existing_literal_lemmas": [
+        {
+          "id": "4d331614-f4c8-4708-9473-abb8e985e628",
+          "lemma": "바로",
+          "level": "intro"
+        },
+        {
+          "id": "eb108395-4d44-4f82-a419-afcd0442ace7",
+          "lemma": "부탁",
+          "level": "beginner"
+        },
+        {
+          "id": "c23774ac-a043-4979-bdbf-a3b2612c974a",
+          "lemma": "파일",
+          "level": "beginner"
+        }
+      ],
+      "limitation": "Substring receipts only; particles/conjugations are not tokenized and complete lexical coverage is not certified. Japanese translation and individual note support context-specific nouns."
+    },
+    {
+      "key": "C45",
+      "existing_literal_lemmas": [
+        {
+          "id": "0b6cc418-6938-4e0d-abaf-62c452b6e6e0",
+          "lemma": "카드",
+          "level": "beginner"
+        },
+        {
+          "id": "5d434b01-fa5b-49be-a73a-469e51a425aa",
+          "lemma": "대신",
+          "level": "beginner"
+        }
+      ],
+      "limitation": "Substring receipts only; particles/conjugations are not tokenized and complete lexical coverage is not certified. Japanese translation and individual note support context-specific nouns."
+    },
+    {
+      "key": "C46",
+      "existing_literal_lemmas": [
+        {
+          "id": "97ba1052-4cac-4a73-b21a-fb221e902e5c",
+          "lemma": "다시",
+          "level": "intro"
+        },
+        {
+          "id": "85484adb-c195-4700-aa6d-b4a909ea5c0e",
+          "lemma": "화면",
+          "level": "beginner"
+        }
+      ],
+      "limitation": "Substring receipts only; particles/conjugations are not tokenized and complete lexical coverage is not certified. Japanese translation and individual note support context-specific nouns."
+    },
+    {
+      "key": "C47",
+      "existing_literal_lemmas": [
+        {
+          "id": "090db94a-98a0-4f3a-af22-f8529040daf3",
+          "lemma": "사람",
+          "level": "intro"
+        },
+        {
+          "id": "c80246c7-a2d0-4888-be31-c1ab70be39f8",
+          "lemma": "같이",
+          "level": "intro"
+        },
+        {
+          "id": "bbd07950-7a66-4f03-a1ca-ce65cf10f184",
+          "lemma": "내용",
+          "level": "beginner"
+        },
+        {
+          "id": "96e44cb7-194e-4fb5-95b8-c755fddb64b2",
+          "lemma": "자료",
+          "level": "beginner"
+        }
+      ],
+      "limitation": "Substring receipts only; particles/conjugations are not tokenized and complete lexical coverage is not certified. Japanese translation and individual note support context-specific nouns."
+    },
+    {
+      "key": "C48",
+      "existing_literal_lemmas": [
+        {
+          "id": "090db94a-98a0-4f3a-af22-f8529040daf3",
+          "lemma": "사람",
+          "level": "intro"
+        },
+        {
+          "id": "9859b333-0a4c-40bc-b12e-61a9b052aac4",
+          "lemma": "의자",
+          "level": "intro"
+        },
+        {
+          "id": "937e058a-3ff8-4e49-b63a-41770d7f5481",
+          "lemma": "기기",
+          "level": "lower_intermediate"
+        }
+      ],
+      "limitation": "Substring receipts only; particles/conjugations are not tokenized and complete lexical coverage is not certified. Japanese translation and individual note support context-specific nouns."
+    },
+    {
+      "key": "C49",
+      "existing_literal_lemmas": [
+        {
+          "id": "1f749772-13cf-4d65-aedd-703a9b89d576",
+          "lemma": "이름",
+          "level": "intro"
+        },
+        {
+          "id": "06aa64f8-7b97-4554-8e24-5d293f07b2f1",
+          "lemma": "오늘",
+          "level": "intro"
+        },
+        {
+          "id": "bbd07950-7a66-4f03-a1ca-ce65cf10f184",
+          "lemma": "내용",
+          "level": "beginner"
+        },
+        {
+          "id": "a8cc3f19-24bc-42de-85a1-f6a524a9a394",
+          "lemma": "상자",
+          "level": "beginner"
+        }
+      ],
+      "limitation": "Substring receipts only; particles/conjugations are not tokenized and complete lexical coverage is not certified. Japanese translation and individual note support context-specific nouns."
+    },
+    {
+      "key": "C50",
+      "existing_literal_lemmas": [
+        {
+          "id": "561201d7-3c33-47d7-b9e8-068ab1e2f76f",
+          "lemma": "자주",
+          "level": "intro"
+        },
+        {
+          "id": "643bbeeb-8ade-4996-aa04-868486acae98",
+          "lemma": "질문",
+          "level": "beginner"
+        },
+        {
+          "id": "7ed3a12f-5996-436c-bd33-d9cb8ed2fbbe",
+          "lemma": "계속",
+          "level": "beginner"
+        },
+        {
+          "id": "f4d5b05e-c0b1-4ee9-beab-1eb6f849e897",
+          "lemma": "안내",
+          "level": "lower_intermediate"
+        }
+      ],
+      "limitation": "Substring receipts only; particles/conjugations are not tokenized and complete lexical coverage is not certified. Japanese translation and individual note support context-specific nouns."
+    },
+    {
+      "key": "C51",
+      "existing_literal_lemmas": [
+        {
+          "id": "090db94a-98a0-4f3a-af22-f8529040daf3",
+          "lemma": "사람",
+          "level": "intro"
+        },
+        {
+          "id": "abd2a5a7-adab-42ea-ae28-2e87b0a9b785",
+          "lemma": "여기",
+          "level": "intro"
+        },
+        {
+          "id": "561201d7-3c33-47d7-b9e8-068ab1e2f76f",
+          "lemma": "자주",
+          "level": "intro"
+        },
+        {
+          "id": "6e7c3176-59a8-4cc5-9a7a-de26c2cf84ad",
+          "lemma": "이야기",
+          "level": "beginner"
+        }
+      ],
+      "limitation": "Substring receipts only; particles/conjugations are not tokenized and complete lexical coverage is not certified. Japanese translation and individual note support context-specific nouns."
+    },
+    {
+      "key": "C52",
+      "existing_literal_lemmas": [
+        {
+          "id": "19ac0198-6391-4835-b7a6-22b2c4a123f6",
+          "lemma": "설명",
+          "level": "beginner"
+        }
+      ],
+      "limitation": "Substring receipts only; particles/conjugations are not tokenized and complete lexical coverage is not certified. Japanese translation and individual note support context-specific nouns."
+    },
+    {
+      "key": "C53",
+      "existing_literal_lemmas": [
+        {
+          "id": "090db94a-98a0-4f3a-af22-f8529040daf3",
+          "lemma": "사람",
+          "level": "intro"
+        },
+        {
+          "id": "e5722fa2-1d1a-4053-81d2-a8352749ce6e",
+          "lemma": "하나",
+          "level": "intro"
+        },
+        {
+          "id": "9fbc9062-f048-4dae-98d9-f0271c3b7e49",
+          "lemma": "처음",
+          "level": "beginner"
+        },
+        {
+          "id": "ef2f4f30-9762-4931-8acb-ddd313a94b3e",
+          "lemma": "방법",
+          "level": "beginner"
+        },
+        {
+          "id": "19ac0198-6391-4835-b7a6-22b2c4a123f6",
+          "lemma": "설명",
+          "level": "beginner"
+        }
+      ],
+      "limitation": "Substring receipts only; particles/conjugations are not tokenized and complete lexical coverage is not certified. Japanese translation and individual note support context-specific nouns."
+    },
+    {
+      "key": "C54",
+      "existing_literal_lemmas": [
+        {
+          "id": "06aa64f8-7b97-4554-8e24-5d293f07b2f1",
+          "lemma": "오늘",
+          "level": "intro"
+        },
+        {
+          "id": "4d331614-f4c8-4708-9473-abb8e985e628",
+          "lemma": "바로",
+          "level": "intro"
+        },
+        {
+          "id": "c7ce5768-5af0-49ff-951b-2749dfb06ee1",
+          "lemma": "의견",
+          "level": "beginner"
+        },
+        {
+          "id": "6d7e58eb-fd60-4ace-94da-da7706cd819e",
+          "lemma": "생각",
+          "level": "beginner"
+        }
+      ],
+      "limitation": "Substring receipts only; particles/conjugations are not tokenized and complete lexical coverage is not certified. Japanese translation and individual note support context-specific nouns."
+    },
+    {
+      "key": "C55",
+      "existing_literal_lemmas": [
+        {
+          "id": "f9b5e625-9aaf-46a1-8d05-a8b1f959830f",
+          "lemma": "지금",
+          "level": "intro"
+        },
+        {
+          "id": "308a16a9-bcad-4e12-9e6c-8ace4b976976",
+          "lemma": "천천히",
+          "level": "intro"
+        },
+        {
+          "id": "4d331614-f4c8-4708-9473-abb8e985e628",
+          "lemma": "바로",
+          "level": "intro"
+        },
+        {
+          "id": "bbd07950-7a66-4f03-a1ca-ce65cf10f184",
+          "lemma": "내용",
+          "level": "beginner"
+        }
+      ],
+      "limitation": "Substring receipts only; particles/conjugations are not tokenized and complete lexical coverage is not certified. Japanese translation and individual note support context-specific nouns."
+    },
+    {
+      "key": "C56",
+      "existing_literal_lemmas": [
+        {
+          "id": "a4f84ed4-5e00-426b-a6a4-68dd227c1baa",
+          "lemma": "다음",
+          "level": "beginner"
+        },
+        {
+          "id": "fc49ba5d-c34c-4075-af15-c27b301d1eea",
+          "lemma": "역할",
+          "level": "lower_intermediate"
+        }
+      ],
+      "limitation": "Substring receipts only; particles/conjugations are not tokenized and complete lexical coverage is not certified. Japanese translation and individual note support context-specific nouns."
+    },
+    {
+      "key": "C57",
+      "existing_literal_lemmas": [
+        {
+          "id": "d0c2cddd-5ef1-4584-ad81-ce77072c5ee2",
+          "lemma": "얼마",
+          "level": "intro"
+        },
+        {
+          "id": "686383a7-9181-47e4-9253-12e4d3f3ec13",
+          "lemma": "먼저",
+          "level": "intro"
+        },
+        {
+          "id": "ad02aea5-7b71-400e-aa34-b263ec2bc94c",
+          "lemma": "비용",
+          "level": "beginner"
+        },
+        {
+          "id": "36238514-8f36-4322-9821-1f7d9333a673",
+          "lemma": "반대",
+          "level": "lower_intermediate"
+        }
+      ],
+      "limitation": "Substring receipts only; particles/conjugations are not tokenized and complete lexical coverage is not certified. Japanese translation and individual note support context-specific nouns."
+    },
+    {
+      "key": "C58",
+      "existing_literal_lemmas": [
+        {
+          "id": "96e44cb7-194e-4fb5-95b8-c755fddb64b2",
+          "lemma": "자료",
+          "level": "beginner"
+        },
+        {
+          "id": "5b851ed8-e2e6-432b-b519-257f4d12c639",
+          "lemma": "필요",
+          "level": "lower_intermediate"
+        }
+      ],
+      "limitation": "Substring receipts only; particles/conjugations are not tokenized and complete lexical coverage is not certified. Japanese translation and individual note support context-specific nouns."
+    },
+    {
+      "key": "C59",
+      "existing_literal_lemmas": [
+        {
+          "id": "cd5a0e5b-3360-4b74-b22e-2811548ea8dd",
+          "lemma": "지도",
+          "level": "intro"
+        },
+        {
+          "id": "ddadde97-c840-442c-84b9-11dbcd3464ce",
+          "lemma": "누구",
+          "level": "intro"
+        },
+        {
+          "id": "be0d83bf-a03a-4625-813f-928941c1ebd6",
+          "lemma": "함께",
+          "level": "intro"
+        }
+      ],
+      "limitation": "Substring receipts only; particles/conjugations are not tokenized and complete lexical coverage is not certified. Japanese translation and individual note support context-specific nouns."
+    },
+    {
+      "key": "C60",
+      "existing_literal_lemmas": [
+        {
+          "id": "97ba1052-4cac-4a73-b21a-fb221e902e5c",
+          "lemma": "다시",
+          "level": "intro"
+        },
+        {
+          "id": "686383a7-9181-47e4-9253-12e4d3f3ec13",
+          "lemma": "먼저",
+          "level": "intro"
+        },
+        {
+          "id": "ef2f4f30-9762-4931-8acb-ddd313a94b3e",
+          "lemma": "방법",
+          "level": "beginner"
+        }
+      ],
+      "limitation": "Substring receipts only; particles/conjugations are not tokenized and complete lexical coverage is not certified. Japanese translation and individual note support context-specific nouns."
+    }
+  ]
+}

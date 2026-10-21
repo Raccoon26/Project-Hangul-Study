@@ -1,3 +1,13 @@
+# DATA-10-4 / 最終 Listening Batch C — Content27
+
+**Content27 / Schema4 / reader7 / UserProgress10.** 학교·직장 안내/설명/비교/문제해결/의도 각10개, 신규 원문60·내용이해60/받아쓰기60=120문제를 반영했다. A/B/C 각60/120, DATA10 누적 **신규180원문/360문제**로 전체 목표150~250/300~500 충족. Content24 대비 실제 새ID 집합으로 검증했고 기존 예문/1,936듣기·추가참조·선택지 중복 계산0이다. 전체 Example4,993/Listening2,296/Question3,913, Vocabulary2,287/Meaning2,420/Grammar96 불변.
+
+전60한일/120문제·180선택지·60accepted AI 별도 재독, 완전중복0/근접180쌍 재감사. 후보 인용문3건 등 교정을 기록했다. 기존16,541개 fingerprint/ID/revision/순서·103보호파일 보존, frozen26·strict previous26 오류0/기존경고10·Source69,787행/전31테이블·schema/index·재구성SHA 일치. 최종 portable **391/391 PASS (466.416초, failures/errors/skipped0, exit0)**. 모든신규·전체듣기는 단일화자TTS/검증녹음0, 실제TTS 검청·독립 사람/교사 NOT TESTED.
+
+현재Cloud iOS Build/XCTest144정의·실행0 BLOCKED, 이전Mac의142실행137PASS/기존5FAIL과 실제 활용P1·구매cache gate를 유지한다. **Release B—Conditional**, 기기Offline/VoiceOver/음성중단/3~10분·메모리/실제권한은 미검증이다. [DATA10_PROGRESS §4](DATA10_PROGRESS.md), [검수·한계](Docs/DATA10_C_REVIEW.md), [실제수량](Docs/DATA10_C_COUNTS.json), [실행결과](Docs/DATA10_C_TEST_RESULTS.json). 이 마지막 Batch에서 종료하며 다음 단계는 자동 시작하지 않는다. 아래 버전·‘현재’·검사 표현은 각 단계 당시 이력이다.
+
+---
+
 # DATA-10-3 / 初中級 Listening Batch B — Content26
 
 **Content26 / Schema4 / reader7 / UserProgress10.** 감정·의견·판단·이유·결과·경험·계획·의견차이의 신규 상황60개/문제120개(내용이해60·받아쓰기60)를 반영했다. DATA09 初中級54문법의 실제 자연스러운 용례를 편집상 재사용했고 기존Grammar ID/revision/관계는 바꾸지 않았다. 기존4,873예문 전체와 완전 중복0, 전단일화자TTS·녹음0·다화자 재생 가장0이다. 전체 Example4,933/Listening2,176/Question3,793, Vocabulary2,287/Grammar96 불변.

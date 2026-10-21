@@ -1,0 +1,10 @@
+{
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+  "python": "3.12.14",
+  "sqlite": "3.53.1",
+  "xcodebuild": null,
+  "swift": null,
+  "base_commit": "a9ec0a450e1c40e0bd3b608ec2059499c27e762e",
+  "preflight26_sha_equal": true,
+  "native": "BLOCKED; absent Xcode/Swift; 144 methods authored, 0 executed here; last Mac5 failures remain"
+}

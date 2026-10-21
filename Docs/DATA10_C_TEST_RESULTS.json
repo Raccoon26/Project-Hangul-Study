@@ -1,0 +1,249 @@
+{
+  "stage": "DATA-10-4",
+  "recorded_at_utc": "2026-10-21T03:11:37.790074+00:00",
+  "client_date_jst": "2026-10-21",
+  "base_commit": "a9ec0a450e1c40e0bd3b608ec2059499c27e762e",
+  "branch": "codex/data10-4-listening-batch-c",
+  "metadata": {
+    "schema_version": 4,
+    "content_version": 27,
+    "min_reader_version": 7,
+    "dataset_id": "ko-ja-core",
+    "is_fixture": 0,
+    "source_locale": "ja",
+    "target_locale": "ko"
+  },
+  "source_sha256": "88e9599648182e2fd4372eecb738da60321913632cae32e0e25922048f5aef8b",
+  "bundle_sha256": "a937df17bfb88b69504811048c2660086af174dc7633d04f852a3ce10236b48c",
+  "new": {
+    "originals": 60,
+    "examples": 60,
+    "listening": 120,
+    "questions": 120,
+    "choices": 180,
+    "dictation": 60,
+    "comprehension": 60,
+    "reused_old_sources": 0,
+    "extra_new_source_references": 60,
+    "tts": 120,
+    "verified_recordings": 0
+  },
+  "cumulative_data10": {
+    "originals": 180,
+    "questions": 360,
+    "listening": 360,
+    "old_sources_recounted": 0,
+    "goal_originals": [
+      150,
+      250
+    ],
+    "goal_questions": [
+      300,
+      500
+    ],
+    "within_target": true
+  },
+  "production": {
+    "content_items": 16841,
+    "hangul": 55,
+    "content_links": 6859,
+    "courses": 8,
+    "learner_notes": 531,
+    "questions": 3913,
+    "question_choices": 2106,
+    "lessons": 103,
+    "lesson_items": 1191,
+    "sources": 26,
+    "item_sources": 16407,
+    "pronunciation_rules": 36,
+    "pronunciation_presentations": 36,
+    "content_audio": 36,
+    "examples": 4993,
+    "pronunciation_examples": 13,
+    "audio_questions": 3,
+    "tags": 103,
+    "vocabulary": 2287,
+    "item_tags": 4525,
+    "meanings": 2420,
+    "vocabulary_examples": 4514,
+    "grammar": 96,
+    "grammar_examples": 389,
+    "listening_items": 2296
+  },
+  "entity_levels": {
+    "vocabulary": {
+      "beginner": 800,
+      "intro": 306,
+      "lower_intermediate": 1181
+    },
+    "examples": {
+      "beginner": 1577,
+      "intro": 659,
+      "lower_intermediate": 2757
+    },
+    "grammar": {
+      "beginner": 20,
+      "intro": 22,
+      "lower_intermediate": 54
+    },
+    "questions": {
+      "beginner": 134,
+      "hangul": 59,
+      "intro": 156,
+      "lower_intermediate": 3564
+    },
+    "listening_items": {
+      "beginner": 79,
+      "intro": 34,
+      "lower_intermediate": 2183
+    }
+  },
+  "validator": {
+    "status": "PASS",
+    "strict_previous_version": 26,
+    "errors": 0,
+    "warnings": 10,
+    "warning_detail": "5 old short Korean/Japanese syllable notices +5 old homograph candidates; no new warnings",
+    "integrity": "ok",
+    "foreign_keys": 0
+  },
+  "reconstruction": {
+    "all31_tables_equal": true,
+    "tables": {
+      "audio_questions": true,
+      "conjugations": true,
+      "content_aliases": true,
+      "content_audio": true,
+      "content_items": true,
+      "content_links": true,
+      "content_metadata": true,
+      "courses": true,
+      "examples": true,
+      "grammar": true,
+      "grammar_examples": true,
+      "hangul": true,
+      "item_sources": true,
+      "item_tags": true,
+      "learner_notes": true,
+      "lesson_items": true,
+      "lessons": true,
+      "listening_items": true,
+      "meanings": true,
+      "media_assets": true,
+      "pronunciation_examples": true,
+      "pronunciation_presentations": true,
+      "pronunciation_rules": true,
+      "question_choices": true,
+      "questions": true,
+      "sources": true,
+      "sqlite_stat1": true,
+      "tags": true,
+      "vocabulary": true,
+      "vocabulary_examples": true,
+      "vocabulary_search": true
+    },
+    "schema_equal": true,
+    "bundle_sha256": "a937df17bfb88b69504811048c2660086af174dc7633d04f852a3ce10236b48c",
+    "rebuilt_sha256": "a937df17bfb88b69504811048c2660086af174dc7633d04f852a3ce10236b48c",
+    "byte_equal": true
+  },
+  "preservation": {
+    "old_fingerprints": 16541,
+    "changed_existing": 0,
+    "removed": 0,
+    "protected_files": 103,
+    "new_uuid": 300,
+    "revised_ids": []
+  },
+  "portable": {
+    "status": "PASS",
+    "command": "sh Tools/verify.sh --portable",
+    "executed": 391,
+    "passed": 391,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "seconds": 466.416,
+    "exit_code": 0,
+    "unique_count_excludes_candidate_repeats": true
+  },
+  "candidate_runs": [
+    {
+      "log": "Docs/DATA10_C_CANDIDATE_TEST_LOG.txt",
+      "executed": 9,
+      "passed": 8,
+      "failed": 1,
+      "seconds": 17.332,
+      "exit_code": 1,
+      "status": "FAIL"
+    },
+    {
+      "log": "Docs/DATA10_C_SECOND_CANDIDATE_TEST_LOG.txt",
+      "executed": 9,
+      "passed": 8,
+      "failed": 1,
+      "seconds": 18.016,
+      "exit_code": 1,
+      "status": "FAIL"
+    },
+    {
+      "log": "Docs/DATA10_C_THIRD_CANDIDATE_TEST_LOG.txt",
+      "executed": 9,
+      "passed": 9,
+      "failed": 0,
+      "seconds": 17.383,
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "log": "Docs/DATA10_C_FINAL_CANDIDATE_TEST_LOG.txt",
+      "executed": 9,
+      "passed": 9,
+      "failed": 0,
+      "seconds": 18.145,
+      "exit_code": 0,
+      "status": "PASS"
+    }
+  ],
+  "native": {
+    "status": "BLOCKED",
+    "defined": 144,
+    "executed_here": 0,
+    "reason": "Linux xcodebuild/swift absent",
+    "last_mac": {
+      "executed": 142,
+      "passed": 137,
+      "failed": 5,
+      "reference": "Docs/DATA10_A_TEST_RESULTS.json"
+    },
+    "new_native_authored": 1
+  },
+  "independent_human_review": "NOT TESTED",
+  "actual_tts_audition": "NOT TESTED",
+  "real_device_offline_voiceover_audio_interrupt_memory_3_to_10_min": "NOT TESTED",
+  "runtime_code_changes": 0,
+  "new_runtime_P0_P1_reproduced_in_this_scope": 0,
+  "remaining_known_native_gates": [
+    "DATA06 cohort test assumption",
+    "Pronunciation courses.last assumption:2methods",
+    "P1:되다/뵈다 contraction plus 꿰다 expected-value review",
+    "StoreKit cold entitlement cache:root cause unconfirmed"
+  ],
+  "prerequisite163": {
+    "resolved": 120,
+    "conditional": 7,
+    "unresolved": 36,
+    "level_concerns_in_unresolved": 8
+  },
+  "release": "B—Conditional",
+  "git_policy": {
+    "force_push": false,
+    "source_deleted": false,
+    "history_rewritten": false,
+    "main_protection_read": "403 Resource not accessible by integration; protection not inferred absent",
+    "rulesets": [],
+    "actions_workflows": 0,
+    "delivery": "Normal push/PR/merge; final commit/PR/merge SHA and exact main sync in Git/PR and final response, no recursive self-SHA commit"
+  },
+  "limitations": "SQL, Python corpus and static source checks are not native Swift execution, independent human review, actual TTS audition or device verification."
+}

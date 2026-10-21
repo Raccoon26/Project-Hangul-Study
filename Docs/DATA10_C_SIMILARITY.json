@@ -1,0 +1,1569 @@
+{
+  "scope": "60 new vs4933 old, including A/B; NFC/whitespace/terminal punctuation exact checks; bigram top8 then SequenceMatcher top3 for separate AI reread, not semantic uniqueness proof",
+  "exact_duplicate_count": 0,
+  "within_batch_duplicate_count": 0,
+  "records": [
+    {
+      "key": "C01",
+      "korean": "도서관 창가 쪽은 공사 중입니다. 조용히 공부하려면 안쪽 열람실을 이용해 주세요.",
+      "japanese": "図書館の窓側は工事中です。静かに勉強したい方は奥の閲覧室をご利用ください。",
+      "nearest": [
+        {
+          "id": "b45561c2-347d-4aca-9372-ed6414385f2d",
+          "korean": "도서관은 조용해요.",
+          "japanese": "図書館は静かです。",
+          "ratio": 0.381
+        },
+        {
+          "id": "84f6da35-df85-4962-90c6-438b20393ea4",
+          "korean": "도서관에서는 조용히 해요.",
+          "japanese": "図書館では静かにします。",
+          "ratio": 0.3556
+        },
+        {
+          "id": "7ca1a1da-d9c3-4835-aa7a-438dde5d45d0",
+          "korean": "취소 사실을 참석자에게 미리 통보해 주세요.",
+          "japanese": "中止になったことを、参加者にあらかじめ通知してください。",
+          "ratio": 0.2692
+        }
+      ],
+      "ai_pair_review": "Shared wording/topic only; nearest full texts do not express the same situation, question evidence and task. All three displayed KO/JA pairs separately reread by AI."
+    },
+    {
+      "key": "C02",
+      "korean": "내일 체육 수업은 비가 와도 취소하지 않습니다. 운동장 대신 강당으로 모이세요.",
+      "japanese": "明日の体育の授業は雨でも中止しません。運動場ではなく講堂に集まってください。",
+      "nearest": [
+        {
+          "id": "8812c64a-9097-4870-a33f-23585a69ecdb",
+          "korean": "내일은 비가 와요.",
+          "japanese": "明日は雨が降ります。",
+          "ratio": 0.35
+        },
+        {
+          "id": "0d8b1e46-712b-4ecb-a569-d181a5204a50",
+          "korean": "내일은 수업에 지각하지 마세요.",
+          "japanese": "明日は授業に遅刻しないでください。",
+          "ratio": 0.3478
+        },
+        {
+          "id": "54927a68-da76-40b7-8cf5-a135f8903c47",
+          "korean": "수업은 작은 모임으로 이뤄져요.",
+          "japanese": "授業は少人数のグループで行われます。",
+          "ratio": 0.3043
+        }
+      ],
+      "ai_pair_review": "Shared wording/topic only; nearest full texts do not express the same situation, question evidence and task. All three displayed KO/JA pairs separately reread by AI."
+    },
+    {
+      "key": "C03",
+      "korean": "학생증을 잃어버린 분은 사무실에 알려 주세요. 새 학생증이 나올 때까지 임시 출입증을 드립니다.",
+      "japanese": "学生証をなくした方は事務室にお知らせください。新しい学生証ができるまで仮の入館証をお渡しします。",
+      "nearest": [
+        {
+          "id": "a29ce230-20ca-44cd-b5b6-327f12610795",
+          "korean": "영수증을 잃어버렸어요.",
+          "japanese": "レシートをなくしました。",
+          "ratio": 0.24
+        },
+        {
+          "id": "87afe7d9-d441-4900-bc5a-b24a1316e0ee",
+          "korean": "사용 방법을 알려 주세요.",
+          "japanese": "使い方を教えてください。",
+          "ratio": 0.24
+        },
+        {
+          "id": "0a75d193-6ed4-46aa-ab71-808bd41025de",
+          "korean": "반품 방법을 알려 주세요.",
+          "japanese": "返品の方法を教えてください。",
+          "ratio": 0.24
+        }
+      ],
+      "ai_pair_review": "Shared wording/topic only; nearest full texts do not express the same situation, question evidence and task. All three displayed KO/JA pairs separately reread by AI."
+    },
+    {
+      "key": "C04",
+      "korean": "이번 주 동아리 신청은 인터넷으로만 받습니다. 신청서를 내고 나서 확인 문자를 기다려 주세요.",
+      "japanese": "今週のサークルの申し込みはインターネットでのみ受け付けます。申込書を提出した後、確認のメッセージをお待ちください。",
+      "nearest": [
+        {
+          "id": "53d2cd87-8bd5-40f2-9d9f-ad442e004b24",
+          "korean": "오 분만 기다려 주세요.",
+          "japanese": "5分だけ待ってください。",
+          "ratio": 0.2917
+        },
+        {
+          "id": "a713cfc0-ffe9-4312-9267-c55c85a067de",
+          "korean": "거기서 기다려 주세요.",
+          "japanese": "そこで待っていてください。",
+          "ratio": 0.2917
+        },
+        {
+          "id": "010d8663-f6b8-48b4-8ab7-8466edc20ef8",
+          "korean": "하루만 기다려 주세요.",
+          "japanese": "一日だけ待ってください。",
+          "ratio": 0.2917
+        }
+      ],
+      "ai_pair_review": "Shared wording/topic only; nearest full texts do not express the same situation, question evidence and task. All three displayed KO/JA pairs separately reread by AI."
+    },
+    {
+      "key": "C05",
+      "korean": "실험실에 들어갈 때는 긴 바지를 입어야 합니다. 안전을 위해 샌들도 신지 마세요.",
+      "japanese": "実験室に入るときは長ズボンを着用しなければなりません。安全のため、サンダルも履かないでください。",
+      "nearest": [
+        {
+          "id": "d3f52cd8-be7f-4905-b3b3-ba7d627a710e",
+          "korean": "길을 건널 때는 휴대 전화에 한눈을 팔지 마세요.",
+          "japanese": "道を渡るときは、携帯電話に気を取られないでください。",
+          "ratio": 0.3077
+        },
+        {
+          "id": "376ce5e1-c0cd-4b29-91e7-8ea8946106d9",
+          "korean": "안전을 위해 일정 변경이 불가피해요.",
+          "japanese": "安全のため、日程の変更は避けられません。",
+          "ratio": 0.25
+        },
+        {
+          "id": "5a9cf017-03c3-4a87-aff2-72ce738c8c94",
+          "korean": "교실에 들어가요.",
+          "japanese": "教室に入ります。",
+          "ratio": 0.25
+        }
+      ],
+      "ai_pair_review": "Shared wording/topic only; nearest full texts do not express the same situation, question evidence and task. All three displayed KO/JA pairs separately reread by AI."
+    },
+    {
+      "key": "C06",
+      "korean": "발표 순서는 게시판에 붙였습니다. 자기 차례가 되기 전에 교실 앞에서 기다려 주세요.",
+      "japanese": "発表の順番は掲示板に貼ってあります。自分の番になる前に教室の前でお待ちください。",
+      "nearest": [
+        {
+          "id": "a713cfc0-ffe9-4312-9267-c55c85a067de",
+          "korean": "거기서 기다려 주세요.",
+          "japanese": "そこで待っていてください。",
+          "ratio": 0.3636
+        },
+        {
+          "id": "a8c2fdd1-a18c-4213-8f41-b79a9585ffe3",
+          "korean": "학교 앞에서 기다려요.",
+          "japanese": "学校の前で待っています。",
+          "ratio": 0.3636
+        },
+        {
+          "id": "fcd7725d-c235-4412-95e2-49664cb54874",
+          "korean": "먼저 도착하거든 입구에서 기다려 주세요.",
+          "japanese": "先に着いたら、入り口で待っていてください。",
+          "ratio": 0.3077
+        }
+      ],
+      "ai_pair_review": "Shared wording/topic only; nearest full texts do not express the same situation, question evidence and task. All three displayed KO/JA pairs separately reread by AI."
+    },
+    {
+      "key": "C07",
+      "korean": "급식실 바닥이 젖어 있으니 천천히 걸으세요. 물은 직원이 곧 닦을 예정입니다.",
+      "japanese": "給食室の床がぬれているので、ゆっくり歩いてください。床の水は職員がまもなく拭く予定です。",
+      "nearest": [
+        {
+          "id": "8e196c2f-d994-4cf9-973f-dd2af33ba942",
+          "korean": "바닥이 젖어 있으니 조심하세요.",
+          "japanese": "床がぬれているので気を付けてください。",
+          "ratio": 0.4444
+        },
+        {
+          "id": "212d1f78-c98d-4146-b96e-a90745e5bced",
+          "korean": "급하지 않으니까 천천히 하세요.",
+          "japanese": "急ぎではないのでゆっくりやってください。",
+          "ratio": 0.3556
+        },
+        {
+          "id": "8942279a-6b37-406c-84fd-4ff77ba16736",
+          "korean": "시간이 있으니까 천천히 이야기해요.",
+          "japanese": "時間があるのでゆっくり話しましょう。",
+          "ratio": 0.3404
+        }
+      ],
+      "ai_pair_review": "Wet-floor warning overlaps a short existing sentence; new canteen setting, slow-walk instruction and staff-cleanup fact support a distinct comprehension task."
+    },
+    {
+      "key": "C08",
+      "korean": "오늘 보충 수업은 평소보다 늦게 끝납니다. 학교 버스를 타는 학생은 먼저 선생님께 말씀드리세요.",
+      "japanese": "今日の補習はいつもより遅く終わります。スクールバスを利用する生徒は、先に先生に申し出てください。",
+      "nearest": [
+        {
+          "id": "2fae687b-adc4-44bd-9394-8933758602ac",
+          "korean": "조퇴하기 전에 선생님께 말씀드려요.",
+          "japanese": "早退する前に、先生にお伝えします。",
+          "ratio": 0.2909
+        },
+        {
+          "id": "6eb6ba11-7425-41ef-b185-8cfbbeddc578",
+          "korean": "이번 일은 선생님께 부탁드리려고 해요.",
+          "japanese": "今回のことは、先生にお願いしようと思っています。",
+          "ratio": 0.2857
+        },
+        {
+          "id": "5d4a3171-db9c-406a-b9ac-37da74e9004c",
+          "korean": "공항버스 표는 창구에서 먼저 사세요. 짐은 버스가 도착하면 기사님께 보여 드리면 돼요.",
+          "japanese": "空港バスの切符は窓口で先に買ってください。荷物はバスが着いたら運転手さんに見せれば大丈夫です。",
+          "ratio": 0.2632
+        }
+      ],
+      "ai_pair_review": "Shared wording/topic only; nearest full texts do not express the same situation, question evidence and task. All three displayed KO/JA pairs separately reread by AI."
+    },
+    {
+      "key": "C09",
+      "korean": "과제 파일의 이름에는 반과 번호를 써 주세요. 반과 번호가 없으면 누구의 과제인지 확인하기 어렵습니다.",
+      "japanese": "課題ファイルの名前にはクラスと出席番号を書いてください。クラスと番号がないと誰の課題か確認するのが難しいです。",
+      "nearest": [
+        {
+          "id": "c2718f19-8e20-423f-9be6-7e0c19069718",
+          "korean": "이름을 위에 써 주세요.",
+          "japanese": "名前を上に書いてください。",
+          "ratio": 0.2692
+        },
+        {
+          "id": "f7b3622b-816b-4f24-86e8-a3435b18352c",
+          "korean": "여기에 이름을 써 주세요.",
+          "japanese": "ここに名前を書いてください。",
+          "ratio": 0.2264
+        },
+        {
+          "id": "afdff558-754e-4195-85c7-c0b80540be54",
+          "korean": "전화번호를 알려 주세요.",
+          "japanese": "電話番号を教えてください。",
+          "ratio": 0.2264
+        }
+      ],
+      "ai_pair_review": "Shared wording/topic only; nearest full texts do not express the same situation, question evidence and task. All three displayed KO/JA pairs separately reread by AI."
+    },
+    {
+      "key": "C10",
+      "korean": "미술실에서 빌린 가위는 수업이 끝나자마자 돌려주세요. 다음 반도 같은 도구를 사용합니다.",
+      "japanese": "美術室で借りたはさみは授業が終わったらすぐに返してください。次のクラスも同じ道具を使います。",
+      "nearest": [
+        {
+          "id": "1de2044b-6aa7-4b37-84dc-b183b1ecdebc",
+          "korean": "수업이 끝나자마자 도서관에 갈 거예요.",
+          "japanese": "授業が終わったらすぐに、図書館へ行くつもりです。",
+          "ratio": 0.3333
+        },
+        {
+          "id": "4751f8ac-c0bc-4ad8-af50-2dace596310d",
+          "korean": "수업이 끝나면 요점을 세 줄로 정리해요.",
+          "japanese": "授業が終わったら、要点を三行にまとめます。",
+          "ratio": 0.2593
+        },
+        {
+          "id": "76130389-5040-407d-9952-10e222a56641",
+          "korean": "펜 좀 빌려 주세요.",
+          "japanese": "ペンをちょっと貸してください。",
+          "ratio": 0.2222
+        }
+      ],
+      "ai_pair_review": "Shared wording/topic only; nearest full texts do not express the same situation, question evidence and task. All three displayed KO/JA pairs separately reread by AI."
+    },
+    {
+      "key": "C11",
+      "korean": "회의실 문이 잠겨 있으면 안내 데스크에 문의하세요. 열쇠는 담당 직원만 빌릴 수 있습니다.",
+      "japanese": "会議室のドアに鍵が掛かっていたら、受付にお問い合わせください。鍵を借りられるのは担当職員だけです。",
+      "nearest": [
+        {
+          "id": "9f646982-0f6e-4772-a90e-a6ef228e7fbc",
+          "korean": "책을 더 빌리고 싶으시면 먼저 반납해 주세요. 지금은 빌릴 수 있는 권수를 다 채우셨어요.",
+          "japanese": "さらに本を借りたい場合は、先に返却してください。今は貸出可能な冊数の上限に達しています。",
+          "ratio": 0.274
+        },
+        {
+          "id": "32ed14b1-b169-4679-ab1c-51a18a13a3b3",
+          "korean": "자세한 내용은 전화로 문의하세요.",
+          "japanese": "詳しい内容は電話でお問い合わせください。",
+          "ratio": 0.2353
+        },
+        {
+          "id": "24c158fc-63b4-406e-9264-f59fc0f103dc",
+          "korean": "갑자기 추워질 수 있으니 추위에 대비하세요.",
+          "japanese": "急に寒くなることもあるので、寒さに備えてください。",
+          "ratio": 0.2182
+        }
+      ],
+      "ai_pair_review": "Shared wording/topic only; nearest full texts do not express the same situation, question evidence and task. All three displayed KO/JA pairs separately reread by AI."
+    },
+    {
+      "key": "C12",
+      "korean": "내일 아침에는 건물 입구를 청소합니다. 출근하실 때 옆문을 이용해 주실래요?",
+      "japanese": "明日の朝は建物の入口を清掃します。出勤の際は横の入口をご利用いただけますか。",
+      "nearest": [
+        {
+          "id": "66f490ca-4edf-4f91-ac3f-63b926aae1c4",
+          "korean": "내일 아침에 출국해요.",
+          "japanese": "明日の朝、出国します。",
+          "ratio": 0.3902
+        },
+        {
+          "id": "123530d6-9ef5-4bc4-b50c-13e597bc806d",
+          "korean": "아침에는 물을 마셔요.",
+          "japanese": "朝は水を飲みます。",
+          "ratio": 0.3415
+        },
+        {
+          "id": "b72cce78-319d-485c-8b8c-4c5b369a67a9",
+          "korean": "제가 늦는다고 대신 말을 전해 주실래요?",
+          "japanese": "私が遅れると、代わりに伝えていただけますか。",
+          "ratio": 0.3333
+        }
+      ],
+      "ai_pair_review": "Shared wording/topic only; nearest full texts do not express the same situation, question evidence and task. All three displayed KO/JA pairs separately reread by AI."
+    },
+    {
+      "key": "C13",
+      "korean": "회의 자료는 화면으로 볼 예정입니다. 메모할 종이만 가져오시면 됩니다.",
+      "japanese": "会議資料は画面で見る予定です。メモ用の紙だけお持ちいただければ大丈夫です。",
+      "nearest": [
+        {
+          "id": "5c69fae6-3058-434d-9c0a-18a00ab3d40c",
+          "korean": "회의 자료를 이메일로 보냈어요.",
+          "japanese": "会議の資料をメールで送りました。",
+          "ratio": 0.2326
+        },
+        {
+          "id": "e9334c1a-f671-4313-aa25-653721e50c25",
+          "korean": "회의 자료는 팀 전체에 공유됐어요.",
+          "japanese": "会議の資料は、チーム全体で共有されました。",
+          "ratio": 0.2273
+        },
+        {
+          "id": "6444db88-2443-481f-8d30-40ce8669d73f",
+          "korean": "주소가 모두 입력되면 다음 화면으로 넘어가요.",
+          "japanese": "住所がすべて入力されると、次の画面に進みます。",
+          "ratio": 0.2041
+        }
+      ],
+      "ai_pair_review": "Shared wording/topic only; nearest full texts do not express the same situation, question evidence and task. All three displayed KO/JA pairs separately reread by AI."
+    },
+    {
+      "key": "C14",
+      "korean": "배송 주소가 바뀐 고객에게는 확인 전화를 해 주세요. 주소를 확인해야 물건을 보낼 수 있습니다.",
+      "japanese": "配送先が変わったお客様には確認のお電話をしてください。住所を確認してからでないと商品を送れません。",
+      "nearest": [
+        {
+          "id": "6254c999-17f4-4cf3-ba1f-c56a185956af",
+          "korean": "주소를 다시 확인해 주세요.",
+          "japanese": "住所をもう一度確認してください。",
+          "ratio": 0.32
+        },
+        {
+          "id": "dd57548c-000c-44dd-b4a2-98789436b3ac",
+          "korean": "주소를 꼼꼼히 확인해 주세요.",
+          "japanese": "住所をよく確認してください。",
+          "ratio": 0.3137
+        },
+        {
+          "id": "1fe5dcb5-93ac-44f0-9cbd-c4cbf1f505cf",
+          "korean": "수하물 무게를 확인해 주세요.",
+          "japanese": "荷物の重さを確認してください。",
+          "ratio": 0.2745
+        }
+      ],
+      "ai_pair_review": "Shared wording/topic only; nearest full texts do not express the same situation, question evidence and task. All three displayed KO/JA pairs separately reread by AI."
+    },
+    {
+      "key": "C15",
+      "korean": "퇴근 전에 창문이 닫혀 있는지 확인해 주세요. 마지막으로 나가는 분은 불도 꺼 주세요.",
+      "japanese": "退勤前に窓が閉まっているかご確認ください。最後に退出する方は電気も消してください。",
+      "nearest": [
+        {
+          "id": "11ac8c83-3a53-4553-9781-477dde0bf6bd",
+          "korean": "수정 사항이 반영됐는지 확인해 주세요.",
+          "japanese": "修正点が反映されているか、確認してください。",
+          "ratio": 0.3529
+        },
+        {
+          "id": "13b10a40-6686-43ed-9729-3d9364a40c1f",
+          "korean": "이름이 제대로 등록됐는지 확인해 주세요.",
+          "japanese": "名前が正しく登録されたか確認してください。",
+          "ratio": 0.3462
+        },
+        {
+          "id": "6254c999-17f4-4cf3-ba1f-c56a185956af",
+          "korean": "주소를 다시 확인해 주세요.",
+          "japanese": "住所をもう一度確認してください。",
+          "ratio": 0.2609
+        }
+      ],
+      "ai_pair_review": "Shared wording/topic only; nearest full texts do not express the same situation, question evidence and task. All three displayed KO/JA pairs separately reread by AI."
+    },
+    {
+      "key": "C16",
+      "korean": "새로 온 직원에게는 제가 창고 위치를 알려 줄게요. 그동안 주문 내용을 확인해 주실래요?",
+      "japanese": "新しく来た職員には私が倉庫の場所を教えます。その間、注文内容を確認してもらえますか。",
+      "nearest": [
+        {
+          "id": "b72cce78-319d-485c-8b8c-4c5b369a67a9",
+          "korean": "제가 늦는다고 대신 말을 전해 주실래요?",
+          "japanese": "私が遅れると、代わりに伝えていただけますか。",
+          "ratio": 0.3462
+        },
+        {
+          "id": "bf0cbb3e-9512-468b-906f-a5deac21bef9",
+          "korean": "눈길을 끄는 제목이라도 내용을 확인해야 해요.",
+          "japanese": "目を引く見出しでも、内容を確かめる必要があります。",
+          "ratio": 0.3273
+        },
+        {
+          "id": "dd63bd3f-3c72-4514-9a36-17b702b737f1",
+          "korean": "첨부 파일의 내용을 확인해 주세요.",
+          "japanese": "添付ファイルの内容を確認してください。",
+          "ratio": 0.32
+        }
+      ],
+      "ai_pair_review": "Shared wording/topic only; nearest full texts do not express the same situation, question evidence and task. All three displayed KO/JA pairs separately reread by AI."
+    },
+    {
+      "key": "C17",
+      "korean": "이번 주 보고서는 금요일 오전까지 보내 주세요. 오후에는 내용을 모아서 팀 전체에 공유하겠습니다.",
+      "japanese": "今週の報告書は金曜日の午前中までにお送りください。午後に内容をまとめてチーム全体で共有します。",
+      "nearest": [
+        {
+          "id": "ee7fe3f1-725a-4c1f-9f10-392926a09ffb",
+          "korean": "금요일까지 기다려 주세요.",
+          "japanese": "金曜日まで待ってください。",
+          "ratio": 0.3077
+        },
+        {
+          "id": "8fc86d5d-832c-4179-b848-d513f7db0306",
+          "korean": "자료를 오늘까지 보내 달라고 하셨죠? 아직 확인할 게 남아서 내일 오전까지 보내도 괜찮을까요?",
+          "japanese": "資料を今日までに送ってほしいとおっしゃいましたよね。まだ確認することが残っているので、明日の午前までに送っても大丈夫ですか。",
+          "ratio": 0.275
+        },
+        {
+          "id": "e9334c1a-f671-4313-aa25-653721e50c25",
+          "korean": "회의 자료는 팀 전체에 공유됐어요.",
+          "japanese": "会議の資料は、チーム全体で共有されました。",
+          "ratio": 0.2545
+        }
+      ],
+      "ai_pair_review": "Shared wording/topic only; nearest full texts do not express the same situation, question evidence and task. All three displayed KO/JA pairs separately reread by AI."
+    },
+    {
+      "key": "C18",
+      "korean": "상자가 무거우면 혼자 들지 마세요. 함께 옮길 사람이 필요하면 저를 불러 주세요.",
+      "japanese": "箱が重かったら一人で持たないでください。一緒に運ぶ人が必要なら私を呼んでください。",
+      "nearest": [
+        {
+          "id": "950e161e-3a36-48fe-a511-f4157154af12",
+          "korean": "부당한 대우를 받으면 혼자 참지 마세요.",
+          "japanese": "不当な扱いを受けたら、一人で我慢しないでください。",
+          "ratio": 0.3265
+        },
+        {
+          "id": "3b10b880-51c1-43a6-bc8b-3c23a67444e2",
+          "korean": "상대가 싫어하면 더 권하지 마세요.",
+          "japanese": "相手が嫌がったら、それ以上勧めないでください。",
+          "ratio": 0.2979
+        },
+        {
+          "id": "aa0c288d-af47-4857-95fc-a7b71a1b04e1",
+          "korean": "이 상자는 버리지 마세요.",
+          "japanese": "この箱は捨てないでください。",
+          "ratio": 0.2791
+        }
+      ],
+      "ai_pair_review": "Shared wording/topic only; nearest full texts do not express the same situation, question evidence and task. All three displayed KO/JA pairs separately reread by AI."
+    },
+    {
+      "key": "C19",
+      "korean": "연수 장소는 그대로인데 시작 시간이 바뀌었습니다. 안내 문자를 다시 읽어 보세요.",
+      "japanese": "研修の場所はそのままですが、開始時刻が変わりました。案内のメッセージをもう一度読んでみてください。",
+      "nearest": [
+        {
+          "id": "7e87039f-8714-46d7-bbbf-7b34351eb551",
+          "korean": "약속 시간이 바뀌었어요.",
+          "japanese": "約束の時間が変わりました。",
+          "ratio": 0.3636
+        },
+        {
+          "id": "4f89f042-b8e1-4da3-99d0-7ef0fcbfeb04",
+          "korean": "설명을 제대로 읽어 보세요.",
+          "japanese": "説明をきちんと読んでみてください。",
+          "ratio": 0.3111
+        },
+        {
+          "id": "ab1190c1-0648-4c8f-b80e-9ac7a0535f6b",
+          "korean": "서두르지 말고 안내문을 찬찬히 읽어 보세요.",
+          "japanese": "急がず、案内文を落ち着いて丁寧に読んでください。",
+          "ratio": 0.3077
+        }
+      ],
+      "ai_pair_review": "Shared wording/topic only; nearest full texts do not express the same situation, question evidence and task. All three displayed KO/JA pairs separately reread by AI."
+    },
+    {
+      "key": "C20",
+      "korean": "인쇄기는 점심시간에 점검할 예정입니다. 급한 자료는 그전에 인쇄하세요.",
+      "japanese": "プリンターは昼休みに点検する予定です。急ぎの資料はその前に印刷してください。",
+      "nearest": [
+        {
+          "id": "6f93bdf7-f4ba-41a5-b4de-c26de9d7ee62",
+          "korean": "출국하기 전에 여권을 확인하세요.",
+          "japanese": "出国する前にパスポートを確認してください。",
+          "ratio": 0.3111
+        },
+        {
+          "id": "8fc805a6-110d-44c0-8116-759799411d77",
+          "korean": "긴급한 상황에는 이 번호로 전화하세요.",
+          "japanese": "緊急の場合は、この番号に電話してください。",
+          "ratio": 0.2979
+        },
+        {
+          "id": "f78be0f2-4b78-4e50-9c9c-f5dc0284aa31",
+          "korean": "원하는 시간을 선택하세요.",
+          "japanese": "希望する時間を選んでください。",
+          "ratio": 0.2857
+        }
+      ],
+      "ai_pair_review": "Shared wording/topic only; nearest full texts do not express the same situation, question evidence and task. All three displayed KO/JA pairs separately reread by AI."
+    },
+    {
+      "key": "C21",
+      "korean": "이 문은 손잡이를 당겨야 열려요. 미는 문이 아닌데 제가 계속 밀었네요.",
+      "japanese": "このドアは取っ手を引かないと開きません。押して開けるドアではないのに、私はずっと押していましたね。",
+      "nearest": [
+        {
+          "id": "3b89fd53-b391-47bd-addb-2ebd7c39a88f",
+          "korean": "비가 계속 와요.",
+          "japanese": "雨がずっと降っています。",
+          "ratio": 0.2286
+        },
+        {
+          "id": "b3d1ff47-9ef7-4f9d-8d52-5d1651f95518",
+          "korean": "제가 한 일이 아닌데 혼나서 억울해요.",
+          "japanese": "私がしたことではないのに叱られて悔しいです。",
+          "ratio": 0.2273
+        },
+        {
+          "id": "087e5196-08fe-4aa4-b069-69d466684782",
+          "korean": "문이 열려 있어요.",
+          "japanese": "ドアが開いています。",
+          "ratio": 0.2222
+        }
+      ],
+      "ai_pair_review": "Shared wording/topic only; nearest full texts do not express the same situation, question evidence and task. All three displayed KO/JA pairs separately reread by AI."
+    },
+    {
+      "key": "C22",
+      "korean": "이 표에서 파란 선은 작년 판매량이에요. 올해 판매량을 보려면 빨간 선을 보세요.",
+      "japanese": "この表の青い線は去年の販売量です。今年の販売量を見たい場合は赤い線を見てください。",
+      "nearest": [
+        {
+          "id": "03bb7e92-396b-4af8-8ba9-74f0fca6cdae",
+          "korean": "비용을 줄이려면 먼저 지출을 기록해 보세요.",
+          "japanese": "費用を減らすには、まず支出を記録してみてください。",
+          "ratio": 0.2745
+        },
+        {
+          "id": "3158151b-df9c-4e0d-bb63-f46c6beba212",
+          "korean": "사진을 보고 색을 비교해 보세요.",
+          "japanese": "写真を見て色を比べてみてください。",
+          "ratio": 0.2609
+        },
+        {
+          "id": "0a68fb9b-153e-4f53-9b75-10f409ae4b70",
+          "korean": "화면을 보세요.",
+          "japanese": "画面を見てください。",
+          "ratio": 0.2564
+        }
+      ],
+      "ai_pair_review": "Shared wording/topic only; nearest full texts do not express the same situation, question evidence and task. All three displayed KO/JA pairs separately reread by AI."
+    },
+    {
+      "key": "C23",
+      "korean": "이 책은 앞부분에서 기본 표현을 설명해요. 뒤로 갈수록 실제 대화 예문이 많아져요.",
+      "japanese": "この本は前半で基本表現を説明しています。後ろに進むほど実際の会話の例文が多くなります。",
+      "nearest": [
+        {
+          "id": "70af8c28-69ae-4941-86bb-f60a27fd9385",
+          "korean": "배운 표현을 실제로 써 봤어요.",
+          "japanese": "習った表現を実際に使ってみました。",
+          "ratio": 0.2609
+        },
+        {
+          "id": "3f82f9ce-2200-4e0c-bff2-9433adef0a90",
+          "korean": "이 제품의 특징을 설명해 주세요.",
+          "japanese": "この製品の特徴を説明してください。",
+          "ratio": 0.2553
+        },
+        {
+          "id": "9c64ccf2-6a82-4fe3-8773-1249562898fb",
+          "korean": "새로운 표현을 대화 속에서 익혀요.",
+          "japanese": "新しい表現を会話の中で身につけます。",
+          "ratio": 0.25
+        }
+      ],
+      "ai_pair_review": "Shared wording/topic only; nearest full texts do not express the same situation, question evidence and task. All three displayed KO/JA pairs separately reread by AI."
+    },
+    {
+      "key": "C24",
+      "korean": "빨간 불이 켜져 있는 동안에는 문을 열지 마세요. 불이 꺼지면 안에 있는 물건을 꺼내도 됩니다.",
+      "japanese": "赤いランプがついている間は扉を開けないでください。ランプが消えた後なら中の物を取り出してもかまいません。",
+      "nearest": [
+        {
+          "id": "dff0b469-d616-4b10-acee-d27d18b1cc78",
+          "korean": "학교 안에서는 뛰지 마세요.",
+          "japanese": "校内では走らないでください。",
+          "ratio": 0.2857
+        },
+        {
+          "id": "6be3ee03-f57a-4cb3-9e4b-c6cf86358b4a",
+          "korean": "질문을 한꺼번에 하지 마세요.",
+          "japanese": "質問を一度にしないでください。",
+          "ratio": 0.24
+        },
+        {
+          "id": "e7ba1f52-7bf4-4064-8121-7ae2be085e75",
+          "korean": "걱정하지 마세요. 저는 괜찮아요.",
+          "japanese": "心配しないでください。私は大丈夫です。",
+          "ratio": 0.2308
+        }
+      ],
+      "ai_pair_review": "Shared wording/topic only; nearest full texts do not express the same situation, question evidence and task. All three displayed KO/JA pairs separately reread by AI."
+    },
+    {
+      "key": "C25",
+      "korean": "화분에는 매일 물을 줄 필요가 없어요. 흙이 말랐을 때 조금씩 주세요.",
+      "japanese": "鉢植えには毎日水をやる必要はありません。土が乾いたときに少しずつやってください。",
+      "nearest": [
+        {
+          "id": "60c04685-ab57-4e3b-b41f-91989f23c53d",
+          "korean": "이 프로그램에 신청할 때는 회원일 필요가 없어요.",
+          "japanese": "このプログラムに申し込むときは、会員である必要はありません。",
+          "ratio": 0.375
+        },
+        {
+          "id": "e7edc87f-3f6f-4400-80d8-4fe2363de93d",
+          "korean": "이미 예약했기 때문에 줄을 설 필요가 없어요.",
+          "japanese": "もう予約してあるので、列に並ぶ必要はありません。",
+          "ratio": 0.3478
+        },
+        {
+          "id": "c659d552-caeb-404d-9544-6cc6c37d338d",
+          "korean": "매일 조금씩 읽어요.",
+          "japanese": "毎日少しずつ読みます。",
+          "ratio": 0.3333
+        }
+      ],
+      "ai_pair_review": "Shared wording/topic only; nearest full texts do not express the same situation, question evidence and task. All three displayed KO/JA pairs separately reread by AI."
+    },
+    {
+      "key": "C26",
+      "korean": "이 표시는 길이 막혔다는 뜻이 아니에요. 앞에 학교가 있으니 속도를 줄이라는 뜻이에요.",
+      "japanese": "この標識は通行止めという意味ではありません。この先に学校があるので速度を落とすようにという意味です。",
+      "nearest": [
+        {
+          "id": "50fc6dfd-04f4-4db3-9b90-d7ddcbed29fe",
+          "korean": "장난이 아니라 진심으로 하는 말이에요.",
+          "japanese": "冗談ではなく、本心から言っています。",
+          "ratio": 0.3077
+        },
+        {
+          "id": "9e7b2888-9539-494a-a18d-6c9568896ea8",
+          "korean": "그 이야기는 사실이 아니에요.",
+          "japanese": "その話は事実ではありません。",
+          "ratio": 0.2917
+        },
+        {
+          "id": "cbba4966-cb5a-4135-8886-9c5c738801d7",
+          "korean": "도움을 요청하는 것이 무능하다는 뜻은 아니에요.",
+          "japanese": "助けを求めることは、無能だという意味ではありません。",
+          "ratio": 0.2857
+        }
+      ],
+      "ai_pair_review": "Shared wording/topic only; nearest full texts do not express the same situation, question evidence and task. All three displayed KO/JA pairs separately reread by AI."
+    },
+    {
+      "key": "C27",
+      "korean": "참가비에는 점심값이 포함되어 있어요. 하지만 집에서 행사장까지 가는 교통비는 따로 내야 해요.",
+      "japanese": "参加費には昼食代が含まれています。ただし、自宅から会場までの交通費は別に払わなければなりません。",
+      "nearest": [
+        {
+          "id": "da7f8642-2aec-4a32-a78f-01e266caae02",
+          "korean": "주말에는 집에서 쉴까 해요.",
+          "japanese": "週末は、家で休もうかと思います。",
+          "ratio": 0.3137
+        },
+        {
+          "id": "27ea43a6-5202-4cd3-a75d-d8c9f33a6e16",
+          "korean": "아침 식사도 포함되어 있어요.",
+          "japanese": "朝食も含まれています。",
+          "ratio": 0.2692
+        },
+        {
+          "id": "db0b2ce3-37f4-4eb2-9dd9-dc6d550f9284",
+          "korean": "집에서 일하는 동안 짧은 메시지만 보고 오해한 적이 있어요. 직접 이야기하다 보면 글로는 몰랐던 뜻이 보이기도 해요.",
+          "japanese": "在宅勤務中に、短いメッセージだけを読んで誤解したことがあります。直接話していると、文字だけでは分からなかった意図が見えてくることもあります。",
+          "ratio": 0.25
+        }
+      ],
+      "ai_pair_review": "Shared wording/topic only; nearest full texts do not express the same situation, question evidence and task. All three displayed KO/JA pairs separately reread by AI."
+    },
+    {
+      "key": "C28",
+      "korean": "이 단추를 누르면 화면만 꺼져요. 기계를 완전히 끄려면 옆에 있는 단추를 길게 누르세요.",
+      "japanese": "このボタンを押すと画面だけが消えます。機械の電源を完全に切るには横のボタンを長押ししてください。",
+      "nearest": [
+        {
+          "id": "0a493507-06cf-4e8e-b62a-f87ed5ceca8c",
+          "korean": "이 버튼을 누르면 화면이 다른 모드로 전환돼요.",
+          "japanese": "このボタンを押すと、画面が別のモードに切り替わります。",
+          "ratio": 0.2545
+        },
+        {
+          "id": "9fb4643c-0de1-4966-9087-3974048337cb",
+          "korean": "목이 마르면 물을 드세요.",
+          "japanese": "喉が渇いたら水を飲んでください。",
+          "ratio": 0.2174
+        },
+        {
+          "id": "2427ff74-9cb4-4a7c-af38-e68418177ec4",
+          "korean": "버튼을 누르면 불이 켜져요.",
+          "japanese": "ボタンを押すと明かりがつきます。",
+          "ratio": 0.2128
+        }
+      ],
+      "ai_pair_review": "Shared wording/topic only; nearest full texts do not express the same situation, question evidence and task. All three displayed KO/JA pairs separately reread by AI."
+    },
+    {
+      "key": "C29",
+      "korean": "방문 기록에 이름을 쓰는 건 출입한 사람을 확인하기 위해서예요. 물건을 주문하는 신청서는 아니에요.",
+      "japanese": "訪問記録に名前を書くのは、出入りした人を確認するためです。商品を注文する申込書ではありません。",
+      "nearest": [
+        {
+          "id": "4c5daba5-f648-439c-af7f-8c8f86812f2d",
+          "korean": "중요한 문서를 전송할 때는 받는 사람을 확인하세요.",
+          "japanese": "重要な書類を送信するときは、宛先を確認してください。",
+          "ratio": 0.2857
+        },
+        {
+          "id": "6f93bdf7-f4ba-41a5-b4de-c26de9d7ee62",
+          "korean": "출국하기 전에 여권을 확인하세요.",
+          "japanese": "出国する前にパスポートを確認してください。",
+          "ratio": 0.25
+        },
+        {
+          "id": "80ff852b-4568-4bde-ae64-aef85d76450e",
+          "korean": "승인하기 전에 예산을 확인해야 해요.",
+          "japanese": "承認する前に、予算を確認する必要があります。",
+          "ratio": 0.2456
+        }
+      ],
+      "ai_pair_review": "Shared wording/topic only; nearest full texts do not express the same situation, question evidence and task. All three displayed KO/JA pairs separately reread by AI."
+    },
+    {
+      "key": "C30",
+      "korean": "세탁이 끝나도 문이 바로 열리지는 않아요. 잠깐 기다리면 잠금 표시가 사라져요.",
+      "japanese": "洗濯が終わっても、扉はすぐには開きません。少し待つとロックの表示が消えます。",
+      "nearest": [
+        {
+          "id": "0e743171-f03f-4df3-b87b-08a21c4984d5",
+          "korean": "첨부 파일이 열리지 않아요.",
+          "japanese": "添付ファイルが開きません。",
+          "ratio": 0.3182
+        },
+        {
+          "id": "9f40b580-37aa-4636-a058-624fbaa2f2b5",
+          "korean": "문제를 외면해도 저절로 해결되지는 않아요.",
+          "japanese": "問題から目を背けても、自然には解決しません。",
+          "ratio": 0.2745
+        },
+        {
+          "id": "b1e55bd5-9f0e-4467-afed-f55bf5738d28",
+          "korean": "한 번의 실패가 끝을 의미하지는 않아요.",
+          "japanese": "一度の失敗が終わりを意味するわけではありません。",
+          "ratio": 0.2449
+        }
+      ],
+      "ai_pair_review": "Shared wording/topic only; nearest full texts do not express the same situation, question evidence and task. All three displayed KO/JA pairs separately reread by AI."
+    },
+    {
+      "key": "C31",
+      "korean": "이 강의는 설명이 자세한 대신 과제가 많아요. 다른 강의는 과제가 적지만 스스로 공부할 부분이 많아요.",
+      "japanese": "この講義は説明が詳しい代わりに課題が多いです。もう一方の講義は課題が少ないですが、自分で勉強する部分が多いです。",
+      "nearest": [
+        {
+          "id": "baf8e086-193d-4b55-856d-2d3601bad896",
+          "korean": "짐이 많아요. 제가 문을 열게요.",
+          "japanese": "荷物が多いです。私がドアを開けますね。",
+          "ratio": 0.2909
+        },
+        {
+          "id": "c2ed1078-298f-4a8f-ad08-1fcf5fa06b86",
+          "korean": "이번 열차는 사람이 너무 많아요. 다음 열차가 곧 온다니까 한 대 보내고 타요.",
+          "japanese": "今度の列車は人が多すぎます。次の列車がすぐ来るそうなので、一本見送って乗りましょう。",
+          "ratio": 0.274
+        },
+        {
+          "id": "d42b0466-8ee3-4b92-90f3-1e67fc1532ee",
+          "korean": "이 메모로 자세한 설명을 대신할게요.",
+          "japanese": "このメモを詳しい説明の代わりにします。",
+          "ratio": 0.2456
+        }
+      ],
+      "ai_pair_review": "Shared wording/topic only; nearest full texts do not express the same situation, question evidence and task. All three displayed KO/JA pairs separately reread by AI."
+    },
+    {
+      "key": "C32",
+      "korean": "왼쪽 책상은 넓지만 서랍이 없어요. 오른쪽 책상은 조금 좁아도 서랍이 있어서 정리하기 편해요.",
+      "japanese": "左の机は広いですが引き出しがありません。右の机は少し狭くても引き出しがあるので整理しやすいです。",
+      "nearest": [
+        {
+          "id": "a17f5363-a005-4321-9cf3-4af9d141a94c",
+          "korean": "이 책상은 조금 낮아요.",
+          "japanese": "この机は少し低いです。",
+          "ratio": 0.3333
+        },
+        {
+          "id": "ed9d085c-4d2a-473f-b815-f6f2d924aeff",
+          "korean": "책상 위에 책이 있어요.",
+          "japanese": "机の上に本があります。",
+          "ratio": 0.2917
+        },
+        {
+          "id": "21c39a00-e6db-474f-9302-478d397e2642",
+          "korean": "오른쪽에 화장실이 있어요.",
+          "japanese": "右側にトイレがあります。",
+          "ratio": 0.28
+        }
+      ],
+      "ai_pair_review": "Shared wording/topic only; nearest full texts do not express the same situation, question evidence and task. All three displayed KO/JA pairs separately reread by AI."
+    },
+    {
+      "key": "C33",
+      "korean": "종이 안내문은 눈에 잘 띄는데 내용을 고치기 어려워요. 인터넷 안내문은 바뀐 내용을 바로 올릴 수 있어요.",
+      "japanese": "紙の案内は目につきやすいですが、内容を直すのが難しいです。インターネットの案内は変更内容をすぐに掲載できます。",
+      "nearest": [
+        {
+          "id": "535cba68-6a73-40a8-87b4-efca2c300ce7",
+          "korean": "잘못 알려진 내용을 바로잡았어요.",
+          "japanese": "誤って伝わった内容を訂正しました。",
+          "ratio": 0.3158
+        },
+        {
+          "id": "ca57ebfe-9182-44e4-80c4-f9dfa948d7da",
+          "korean": "인터넷으로 신청할 수 있어요.",
+          "japanese": "インターネットで申し込めます。",
+          "ratio": 0.2909
+        },
+        {
+          "id": "cb4eda59-a1e8-4db7-b285-36683863a4e2",
+          "korean": "기차 안에서는 인터넷에 접속하기 어려웠어요.",
+          "japanese": "列車の中では、インターネットに接続するのが難しかったです。",
+          "ratio": 0.2581
+        }
+      ],
+      "ai_pair_review": "Shared wording/topic only; nearest full texts do not express the same situation, question evidence and task. All three displayed KO/JA pairs separately reread by AI."
+    },
+    {
+      "key": "C34",
+      "korean": "작은 가방은 가볍기는 하지만 책이 다 안 들어가요. 무거워도 큰 가방을 가져가는 게 낫겠어요.",
+      "japanese": "小さいかばんは軽いことは軽いですが、本が全部入りません。重くても大きいかばんを持っていくほうがよさそうです。",
+      "nearest": [
+        {
+          "id": "281b294a-2eec-4daf-97a5-b90c631d6717",
+          "korean": "이 가방은 작지만 많이 들어가요.",
+          "japanese": "このかばんは小さいですが、たくさん入ります。",
+          "ratio": 0.3922
+        },
+        {
+          "id": "1155aa20-658b-4c03-8641-7c90185d8622",
+          "korean": "지금 가면 출근 시간이라 길이 많이 막혀요. 조금 돌아가더라도 지하철로 가는 게 낫겠어요.",
+          "japanese": "今行くと通勤時間なので道がとても混みます。少し遠回りでも地下鉄で行くほうがよさそうです。",
+          "ratio": 0.32
+        },
+        {
+          "id": "c7428455-3513-4d08-9a78-983156372abe",
+          "korean": "그 식당은 멀기는 하지만 음식이 아주 맛있어요.",
+          "japanese": "その食堂は遠いことは遠いですが、料理がとてもおいしいです。",
+          "ratio": 0.3158
+        }
+      ],
+      "ai_pair_review": "Old small-bag example says it holds much; new source has insufficient book capacity and chooses a large bag, a different proposition."
+    },
+    {
+      "key": "C35",
+      "korean": "온라인 회의는 이동 시간이 들지 않아요. 다만 직접 만나면 표정을 보기 쉬워서 오해가 줄어들어요.",
+      "japanese": "オンライン会議は移動時間がかかりません。ただ、直接会うと表情が分かりやすいので誤解が減ります。",
+      "nearest": [
+        {
+          "id": "37b67da7-62e8-44f5-8114-21d0fdc15711",
+          "korean": "시간이 지나면서 차츰 익숙해졌어요.",
+          "japanese": "時間がたつにつれて少しずつ慣れました。",
+          "ratio": 0.3636
+        },
+        {
+          "id": "20aa6053-cc63-46e8-ad18-7993e340b8c1",
+          "korean": "방학이 끝나면 자유 시간이 줄어들 거예요.",
+          "japanese": "休みが終われば、自由な時間が減るでしょう。",
+          "ratio": 0.2807
+        },
+        {
+          "id": "9814d015-2795-4aa6-907f-a57d9889a775",
+          "korean": "조금만 더 시간이 있으면 좋겠어요. 아쉬워요.",
+          "japanese": "もう少し時間があればいいのに。残念です。",
+          "ratio": 0.2712
+        }
+      ],
+      "ai_pair_review": "Shared wording/topic only; nearest full texts do not express the same situation, question evidence and task. All three displayed KO/JA pairs separately reread by AI."
+    },
+    {
+      "key": "C36",
+      "korean": "이 신발은 비가 와도 물이 잘 안 들어와요. 저 신발은 가볍지만 비 오는 날에는 피하는 게 좋겠어요.",
+      "japanese": "この靴は雨でも水が入りにくいです。あの靴は軽いですが、雨の日には避けたほうがよさそうです。",
+      "nearest": [
+        {
+          "id": "0863f59d-f894-427c-9dfa-e335673f009a",
+          "korean": "새 팀에서는 의견이 달라도 끝까지 들어 줬어요. 처음에는 긴장했지만 그런 경험 덕분에 말하는 게 편해졌어요.",
+          "japanese": "新しいチームでは、意見が違っても最後まで聞いてくれました。最初は緊張しましたが、そうした経験のおかげで話すのが楽になりました。",
+          "ratio": 0.3333
+        },
+        {
+          "id": "9dca4e8c-23c3-4309-9147-33743fbd48e7",
+          "korean": "가게 불이 꺼져 있고 문도 잠겨 있어요. 오늘은 일찍 문을 닫았나 봐요. 다른 곳에 가 보는 게 좋겠어요.",
+          "japanese": "店の明かりが消えていて、ドアにも鍵がかかっています。今日は早く閉めたようです。他の店に行ってみるのがよさそうです。",
+          "ratio": 0.325
+        },
+        {
+          "id": "314d70fa-9fc6-41eb-88e0-01d33b5e1478",
+          "korean": "변명하기 전에 먼저 사과하는 게 좋겠어요.",
+          "japanese": "言い訳する前に、まず謝ったほうがよさそうです。",
+          "ratio": 0.2857
+        }
+      ],
+      "ai_pair_review": "Shared wording/topic only; nearest full texts do not express the same situation, question evidence and task. All three displayed KO/JA pairs separately reread by AI."
+    },
+    {
+      "key": "C37",
+      "korean": "아침 수업은 사람이 적어서 질문하기 편해요. 저녁 수업은 사람이 많아도 퇴근 후에 들을 수 있다는 장점이 있어요.",
+      "japanese": "朝の授業は人が少なくて質問しやすいです。夜の授業は人が多くても退勤後に受けられるという利点があります。",
+      "nearest": [
+        {
+          "id": "1cb00bfa-808d-44f5-acd6-3047c3eb98cb",
+          "korean": "선택할 수 있는 물건이 적어지니까 오히려 마음이 편해졌어요. 저는 종류가 많을수록 결정하는 데 시간이 더 걸려요.",
+          "japanese": "選べる品物が少なくなって、かえって気が楽になりました。私は種類が多いほど、決めるのに時間がかかります。",
+          "ratio": 0.3226
+        },
+        {
+          "id": "39d8b5eb-39cf-4fde-a146-b303de32915a",
+          "korean": "그분은 책임감이 있어서 믿을 수 있어요.",
+          "japanese": "その方は責任感があるので信頼できます。",
+          "ratio": 0.2903
+        },
+        {
+          "id": "aee68514-1a32-4343-939e-69ea33112793",
+          "korean": "그 친구는 발이 넓어서 아는 사람이 많아요.",
+          "japanese": "その友達は顔が広くて知り合いが多いです。",
+          "ratio": 0.2857
+        }
+      ],
+      "ai_pair_review": "Shared wording/topic only; nearest full texts do not express the same situation, question evidence and task. All three displayed KO/JA pairs separately reread by AI."
+    },
+    {
+      "key": "C38",
+      "korean": "첫 번째 길은 짧지만 계단이 많아요. 짐이 무거우니 조금 돌아가도 두 번째 길로 가죠.",
+      "japanese": "一つ目の道は短いですが階段が多いです。荷物が重いので、少し遠回りでも二つ目の道で行きましょう。",
+      "nearest": [
+        {
+          "id": "1155aa20-658b-4c03-8641-7c90185d8622",
+          "korean": "지금 가면 출근 시간이라 길이 많이 막혀요. 조금 돌아가더라도 지하철로 가는 게 낫겠어요.",
+          "japanese": "今行くと通勤時間なので道がとても混みます。少し遠回りでも地下鉄で行くほうがよさそうです。",
+          "ratio": 0.3662
+        },
+        {
+          "id": "5728ccb1-c364-4037-95ed-2242f58979a9",
+          "korean": "계단이 너무 많아요.",
+          "japanese": "階段がとても多いです。",
+          "ratio": 0.2857
+        },
+        {
+          "id": "baf8e086-193d-4b55-856d-2d3601bad896",
+          "korean": "짐이 많아요. 제가 문을 열게요.",
+          "japanese": "荷物が多いです。私がドアを開けますね。",
+          "ratio": 0.2553
+        }
+      ],
+      "ai_pair_review": "A/B has detour by subway due to traffic; this is stairs and heavy luggage, with different cause and option."
+    },
+    {
+      "key": "C39",
+      "korean": "새 의자는 등받이가 높아서 편해요. 그런데 자리를 많이 차지하니 작은 방에는 예전 의자가 더 맞겠어요.",
+      "japanese": "新しい椅子は背もたれが高くて快適です。でも場所を取るので、小さい部屋には以前の椅子のほうが合いそうです。",
+      "nearest": [
+        {
+          "id": "8e8d9f90-47a4-491e-bc96-837d7cafe8fc",
+          "korean": "가격이 비쌀수록 맛도 좋다고 생각했어요. 그런데 직접 먹어 보니 제 입에는 덜 단 과자가 더 잘 맞는 편이에요.",
+          "japanese": "値段が高いほど味もよいと思っていました。でも実際に食べてみると、私の好みには甘さ控えめのお菓子のほうが合うようです。",
+          "ratio": 0.3256
+        },
+        {
+          "id": "aace5a20-fde4-49f9-9e93-73e6474dc9ba",
+          "korean": "건물 모퉁이에 작은 의자가 있어요.",
+          "japanese": "建物の角に小さな椅子があります。",
+          "ratio": 0.2857
+        },
+        {
+          "id": "c9f91e27-dcca-47a2-8ecf-989f9c0feefc",
+          "korean": "편의점이 가까워서 편해요.",
+          "japanese": "コンビニが近いので便利です。",
+          "ratio": 0.2642
+        }
+      ],
+      "ai_pair_review": "Shared wording/topic only; nearest full texts do not express the same situation, question evidence and task. All three displayed KO/JA pairs separately reread by AI."
+    },
+    {
+      "key": "C40",
+      "korean": "메시지로 설명하면 기록이 남아요. 복잡한 내용은 전화로 먼저 이야기하고 요점을 글로 보내는 게 좋겠어요.",
+      "japanese": "メッセージで説明すると記録が残ります。複雑な内容は先に電話で話し、要点を文章で送るのがよさそうです。",
+      "nearest": [
+        {
+          "id": "314d70fa-9fc6-41eb-88e0-01d33b5e1478",
+          "korean": "변명하기 전에 먼저 사과하는 게 좋겠어요.",
+          "japanese": "言い訳する前に、まず謝ったほうがよさそうです。",
+          "ratio": 0.4262
+        },
+        {
+          "id": "32ed14b1-b169-4679-ab1c-51a18a13a3b3",
+          "korean": "자세한 내용은 전화로 문의하세요.",
+          "japanese": "詳しい内容は電話でお問い合わせください。",
+          "ratio": 0.3103
+        },
+        {
+          "id": "db0b2ce3-37f4-4eb2-9dd9-dc6d550f9284",
+          "korean": "집에서 일하는 동안 짧은 메시지만 보고 오해한 적이 있어요. 직접 이야기하다 보면 글로는 몰랐던 뜻이 보이기도 해요.",
+          "japanese": "在宅勤務中に、短いメッセージだけを読んで誤解したことがあります。直接話していると、文字だけでは分からなかった意図が見えてくることもあります。",
+          "ratio": 0.3043
+        }
+      ],
+      "ai_pair_review": "Shared wording/topic only; nearest full texts do not express the same situation, question evidence and task. All three displayed KO/JA pairs separately reread by AI."
+    },
+    {
+      "key": "C41",
+      "korean": "이름표가 서로 바뀐 것 같아요. 명단과 이름을 하나씩 맞춰 보면 금방 찾을 수 있을 거예요.",
+      "japanese": "名札が入れ替わってしまったようです。名簿と名前を一つずつ照らし合わせれば、すぐに見つけられると思います。",
+      "nearest": [
+        {
+          "id": "14f7f5ce-e6cd-4272-8092-c9a06c608c60",
+          "korean": "방법을 조금씩 바꾸다 보면 답을 찾을 수 있어요.",
+          "japanese": "方法を少しずつ変えていると、答えが見つかることがあります。",
+          "ratio": 0.2909
+        },
+        {
+          "id": "46b7ae8c-bdac-4f60-bac8-f2d4e0f4bd9d",
+          "korean": "끝까지 해낼 수 있을 거예요.",
+          "japanese": "最後までやり遂げられるでしょう。",
+          "ratio": 0.2553
+        },
+        {
+          "id": "056ef613-4d7a-454c-89e6-68bb6409bbca",
+          "korean": "친구는 아마 집에 있을 거예요.",
+          "japanese": "友達はたぶん家にいるでしょう。",
+          "ratio": 0.25
+        }
+      ],
+      "ai_pair_review": "Shared wording/topic only; nearest full texts do not express the same situation, question evidence and task. All three displayed KO/JA pairs separately reread by AI."
+    },
+    {
+      "key": "C42",
+      "korean": "노트북 화면이 너무 어두워서 글씨가 안 보여요. 밝기를 조금 올려 보고 그래도 안 보이면 자리를 옮길게요.",
+      "japanese": "ノートパソコンの画面が暗すぎて文字が見えません。明るさを少し上げてみて、それでも見えなければ席を移ります。",
+      "nearest": [
+        {
+          "id": "d3a65aaa-deef-491f-951b-99b28779ed05",
+          "korean": "화면이 선명해서 작은 글씨도 잘 보여요.",
+          "japanese": "画面が鮮明なので、小さな文字もよく見えます。",
+          "ratio": 0.3051
+        },
+        {
+          "id": "5a0d6dba-a80b-47a8-985d-6ea9b1d6d53e",
+          "korean": "화면 밝기를 조금 조정해 주세요.",
+          "japanese": "画面の明るさを少し調整してください。",
+          "ratio": 0.2857
+        },
+        {
+          "id": "900b9313-4b57-4647-b520-07e159e9db8e",
+          "korean": "휴대폰 화면이 어두워요.",
+          "japanese": "携帯電話の画面が暗いです。",
+          "ratio": 0.2642
+        }
+      ],
+      "ai_pair_review": "Shared wording/topic only; nearest full texts do not express the same situation, question evidence and task. All three displayed KO/JA pairs separately reread by AI."
+    },
+    {
+      "key": "C43",
+      "korean": "준비한 접시가 모자라네요. 일회용 접시를 사는 대신 옆 사무실에서 빌려 볼까요?",
+      "japanese": "用意した皿が足りませんね。使い捨ての皿を買う代わりに、隣の事務所で借りてみませんか。",
+      "nearest": [
+        {
+          "id": "f0dd6ceb-0a18-4e16-9370-1a7b5bba90a7",
+          "korean": "사무실에서 점심을 먹어요.",
+          "japanese": "オフィスで昼食を食べます。",
+          "ratio": 0.2727
+        },
+        {
+          "id": "c8b4025b-4f84-49dc-8351-8a5baa2713e0",
+          "korean": "책을 읽다가 모르는 단어를 사전에서 찾았어요.",
+          "japanese": "本を読んでいて、知らない単語を辞書で調べました。",
+          "ratio": 0.2692
+        },
+        {
+          "id": "5752204c-6e25-449e-b417-ecdf2ca28d86",
+          "korean": "비가 많이 와서 오늘 산책은 어려울 것 같아요. 산책은 다음에 하고 오늘은 역 앞 카페에서 볼까요?",
+          "japanese": "雨がひどいので、今日の散歩は難しそうです。散歩はまた今度にして、今日は駅前のカフェで会いませんか。",
+          "ratio": 0.25
+        }
+      ],
+      "ai_pair_review": "Shared wording/topic only; nearest full texts do not express the same situation, question evidence and task. All three displayed KO/JA pairs separately reread by AI."
+    },
+    {
+      "key": "C44",
+      "korean": "잘못된 파일을 보냈어요. 바로 새 파일을 보내고 이전 것은 지워 달라고 부탁해야겠어요.",
+      "japanese": "間違ったファイルを送ってしまいました。すぐに新しいファイルを送り、前のものは消してもらうようお願いしないといけません。",
+      "nearest": [
+        {
+          "id": "ce185332-96f7-488b-ba6c-64b6929856e3",
+          "korean": "설명을 잘 못 들었어요. 다시 들어야겠어요.",
+          "japanese": "説明がよく聞き取れませんでした。もう一度聞かなくては。",
+          "ratio": 0.3333
+        },
+        {
+          "id": "69d006d7-eeaf-4e5d-8ef6-09a26ccc1fbc",
+          "korean": "형이 시험에 붙었다고 했어요. 저는 기뻐서 부모님께도 이 소식을 전해 달라고 부탁했어요.",
+          "japanese": "兄が試験に受かったと言っていました。うれしくて、両親にもこの知らせを伝えてほしいと兄に頼みました。",
+          "ratio": 0.3288
+        },
+        {
+          "id": "7f1265ea-cbbc-4fc5-9072-35791b585d84",
+          "korean": "사진 파일을 보냈어요.",
+          "japanese": "写真のファイルを送りました。",
+          "ratio": 0.3111
+        }
+      ],
+      "ai_pair_review": "Shared wording/topic only; nearest full texts do not express the same situation, question evidence and task. All three displayed KO/JA pairs separately reread by AI."
+    },
+    {
+      "key": "C45",
+      "korean": "책장 뒤로 카드가 떨어졌어요. 책장을 혼자 옮기는 대신 긴 자로 꺼내 보는 게 안전하겠어요.",
+      "japanese": "カードが本棚の後ろに落ちました。一人で本棚を動かす代わりに、長い定規で取り出してみるほうが安全そうです。",
+      "nearest": [
+        {
+          "id": "75c48373-584b-49b0-8310-37269de42256",
+          "korean": "무거운 짐을 혼자 옮기니 몹시 힘들어요.",
+          "japanese": "重い荷物を一人で運ぶのは、とても大変です。",
+          "ratio": 0.2642
+        },
+        {
+          "id": "4c3f697c-4cc0-4408-a9df-5b3ccd322720",
+          "korean": "집에 우유가 떨어졌어요.",
+          "japanese": "家の牛乳を切らしました。",
+          "ratio": 0.2553
+        },
+        {
+          "id": "12b7c3d5-5bea-47f7-a646-75f5acde0ca6",
+          "korean": "셔츠 단추가 떨어졌어요.",
+          "japanese": "シャツのボタンが取れました。",
+          "ratio": 0.2553
+        }
+      ],
+      "ai_pair_review": "Shared wording/topic only; nearest full texts do not express the same situation, question evidence and task. All three displayed KO/JA pairs separately reread by AI."
+    },
+    {
+      "key": "C46",
+      "korean": "신청 화면이 열리지 않아요. 인터넷 연결부터 확인하고 다시 해 볼게요.",
+      "japanese": "申し込み画面が開きません。まずインターネットの接続を確認してから、もう一度やってみます。",
+      "nearest": [
+        {
+          "id": "0e743171-f03f-4df3-b87b-08a21c4984d5",
+          "korean": "첨부 파일이 열리지 않아요.",
+          "japanese": "添付ファイルが開きません。",
+          "ratio": 0.35
+        },
+        {
+          "id": "33e08520-4d43-4d3d-93f4-e3330868d6b9",
+          "korean": "이 열차는 다음 역에 정차하지 않아요.",
+          "japanese": "この列車は次の駅には止まりません。",
+          "ratio": 0.2727
+        },
+        {
+          "id": "f77a3c75-5ced-438f-a9ea-6c8ba015afd9",
+          "korean": "휴대 전화가 인터넷에 연결되지 않아요.",
+          "japanese": "携帯電話がインターネットにつながりません。",
+          "ratio": 0.2222
+        }
+      ],
+      "ai_pair_review": "Shared wording/topic only; nearest full texts do not express the same situation, question evidence and task. All three displayed KO/JA pairs separately reread by AI."
+    },
+    {
+      "key": "C47",
+      "korean": "자료가 많아서 한 사람이 다 읽기 어렵겠어요. 부분을 나누어 읽은 뒤에 중요한 내용을 같이 정리하죠.",
+      "japanese": "資料が多いので、一人で全部読むのは難しそうです。分担して読んだ後で、大事な内容を一緒にまとめましょう。",
+      "nearest": [
+        {
+          "id": "6c156447-467c-4ad7-9b7b-ece637a8e463",
+          "korean": "자료를 찾는 사람이 많아요. 중요한 자료인가 봐요.",
+          "japanese": "資料を探している人が多いです。大切な資料のようです。",
+          "ratio": 0.3226
+        },
+        {
+          "id": "cf0d5e54-ea48-4a20-bdd4-5f389053c3d1",
+          "korean": "긴 회의가 어렵다면 삼십 분이라도 이야기하면 좋겠어요. 중요한 안건 하나만 먼저 정리할까요?",
+          "japanese": "長い会議が難しければ、三十分だけでも話せるとよいと思います。重要な議題を一つだけ先に整理しませんか。",
+          "ratio": 0.3
+        },
+        {
+          "id": "5139b6a0-493a-486b-97f4-8a0f0849cec7",
+          "korean": "자료가 많아서 정리하는 일이 여간 어렵지 않았어요.",
+          "japanese": "資料が多く、整理するのは非常に大変でした。",
+          "ratio": 0.2903
+        }
+      ],
+      "ai_pair_review": "Shared wording/topic only; nearest full texts do not express the same situation, question evidence and task. All three displayed KO/JA pairs separately reread by AI."
+    },
+    {
+      "key": "C48",
+      "korean": "의자가 흔들려서 앉기 불안해요. 다친 사람이 생기기 전에 다른 의자로 바꿔야겠어요.",
+      "japanese": "椅子がぐらついて座るのが不安です。けがをする人が出る前に、別の椅子に替えなければと思います。",
+      "nearest": [
+        {
+          "id": "27ae8080-1a33-4dde-a1fc-c1824ffec0b3",
+          "korean": "버스가 흔들려서 옆 사람의 발을 밟았어요.",
+          "japanese": "バスが揺れ、隣の人の足を踏んでしまいました。",
+          "ratio": 0.3846
+        },
+        {
+          "id": "ce185332-96f7-488b-ba6c-64b6929856e3",
+          "korean": "설명을 잘 못 들었어요. 다시 들어야겠어요.",
+          "japanese": "説明がよく聞き取れませんでした。もう一度聞かなくては。",
+          "ratio": 0.3019
+        },
+        {
+          "id": "b35f540e-acd5-488f-984e-792898c8e8f5",
+          "korean": "배가 흔들려서 몸의 균형을 잡기 어려웠어요.",
+          "japanese": "船が揺れて、体のバランスを取るのが大変でした。",
+          "ratio": 0.3019
+        }
+      ],
+      "ai_pair_review": "Shared wording/topic only; nearest full texts do not express the same situation, question evidence and task. All three displayed KO/JA pairs separately reread by AI."
+    },
+    {
+      "key": "C49",
+      "korean": "상자에 내용이 적혀 있지 않아서 찾는 데 오래 걸려요. 오늘 정리하는 김에 겉에 이름도 쓸게요.",
+      "japanese": "箱に中身が書いていないので、探すのに時間がかかります。今日整理するついでに、外側に名前も書いておきます。",
+      "nearest": [
+        {
+          "id": "5139b6a0-493a-486b-97f4-8a0f0849cec7",
+          "korean": "자료가 많아서 정리하는 일이 여간 어렵지 않았어요.",
+          "japanese": "資料が多く、整理するのは非常に大変でした。",
+          "ratio": 0.3051
+        },
+        {
+          "id": "10b0787d-f96e-4554-9aad-3cb23eceb53e",
+          "korean": "용량이 큰 파일은 전송하는 데 시간이 걸려요.",
+          "japanese": "容量の大きいファイルは、送信に時間がかかります。",
+          "ratio": 0.25
+        },
+        {
+          "id": "531c2913-6999-4743-b3fd-92ac59c42785",
+          "korean": "상자에 이름표를 붙이세요.",
+          "japanese": "箱に名札を貼ってください。",
+          "ratio": 0.2449
+        }
+      ],
+      "ai_pair_review": "Shared wording/topic only; nearest full texts do not express the same situation, question evidence and task. All three displayed KO/JA pairs separately reread by AI."
+    },
+    {
+      "key": "C50",
+      "korean": "비슷한 문의가 계속 들어오네요. 자주 묻는 질문을 모아서 안내문을 만들면 어떨까요?",
+      "japanese": "似た問い合わせが続いていますね。よくある質問をまとめて案内を作ったらどうでしょうか。",
+      "nearest": [
+        {
+          "id": "d1875cb8-68d3-457f-818d-bcdb2e784711",
+          "korean": "축제 소식을 널리 퍼뜨리려고 안내문을 만들었어요.",
+          "japanese": "祭りの知らせを広めようと、案内文を作りました。",
+          "ratio": 0.3214
+        },
+        {
+          "id": "20b9313d-90e9-4857-ae18-143baa70034b",
+          "korean": "예상하지 못한 질문을 받아서 난감했어요.",
+          "japanese": "予想していなかった質問を受け、困りました。",
+          "ratio": 0.3077
+        },
+        {
+          "id": "9db3a086-371c-4f1b-9492-62f282d74704",
+          "korean": "집에서 빵을 만들어요.",
+          "japanese": "家でパンを作ります。",
+          "ratio": 0.2727
+        }
+      ],
+      "ai_pair_review": "Shared wording/topic only; nearest full texts do not express the same situation, question evidence and task. All three displayed KO/JA pairs separately reread by AI."
+    },
+    {
+      "key": "C51",
+      "korean": "여기는 사람들이 자주 지나가네요. 중요한 이야기는 좀 더 조용한 곳에서 할까요?",
+      "japanese": "ここは人がよく通りますね。大事な話はもう少し静かな所でしましょうか。",
+      "nearest": [
+        {
+          "id": "6c156447-467c-4ad7-9b7b-ece637a8e463",
+          "korean": "자료를 찾는 사람이 많아요. 중요한 자료인가 봐요.",
+          "japanese": "資料を探している人が多いです。大切な資料のようです。",
+          "ratio": 0.3704
+        },
+        {
+          "id": "ccd4855c-a3f8-48d4-879b-9464e7671d1c",
+          "korean": "자세한 이야기는 차차 해요.",
+          "japanese": "詳しい話はおいおいしましょう。",
+          "ratio": 0.3182
+        },
+        {
+          "id": "442ee548-9c28-4bac-8e4f-ca829968eaea",
+          "korean": "통로를 좁히면 사람들이 지나가기 힘들어요.",
+          "japanese": "通路を狭くすると、人が通りにくくなります。",
+          "ratio": 0.3137
+        }
+      ],
+      "ai_pair_review": "Shared wording/topic only; nearest full texts do not express the same situation, question evidence and task. All three displayed KO/JA pairs separately reread by AI."
+    },
+    {
+      "key": "C52",
+      "korean": "설명은 잘 들었는데 마지막 부분을 놓쳤어요. 그 부분만 한 번 더 말씀해 주실래요?",
+      "japanese": "説明はよく聞けたのですが、最後の部分を聞き逃しました。その部分だけもう一度お話しいただけますか。",
+      "nearest": [
+        {
+          "id": "b3f9d1cd-3512-4311-96e3-1eacec798aad",
+          "korean": "이 부분을 한 번 더 설명해 주실래요?",
+          "japanese": "この部分を、もう一度説明していただけますか。",
+          "ratio": 0.4681
+        },
+        {
+          "id": "54d9f83a-917f-4f72-9369-dc7cdba1ffc0",
+          "korean": "다시 한번 말씀해 주세요.",
+          "japanese": "もう一度おっしゃってください。",
+          "ratio": 0.3256
+        },
+        {
+          "id": "06997315-cc81-4fa3-8017-3b3b737cb384",
+          "korean": "설명이 부족한 부분을 보완했어요.",
+          "japanese": "説明が足りない部分を補いました。",
+          "ratio": 0.2979
+        }
+      ],
+      "ai_pair_review": "Existing repeat-explanation request is short; new source restricts repetition to the missed final section and tests scope."
+    },
+    {
+      "key": "C53",
+      "korean": "이 방법도 괜찮지만 처음 쓰는 사람에게는 어려울 것 같아요. 설명에 그림을 하나 넣으면 어떨까요?",
+      "japanese": "この方法もよいですが、初めて使う人には難しそうです。説明に図を一つ入れたらどうでしょうか。",
+      "nearest": [
+        {
+          "id": "5752204c-6e25-449e-b417-ecdf2ca28d86",
+          "korean": "비가 많이 와서 오늘 산책은 어려울 것 같아요. 산책은 다음에 하고 오늘은 역 앞 카페에서 볼까요?",
+          "japanese": "雨がひどいので、今日の散歩は難しそうです。散歩はまた今度にして、今日は駅前のカフェで会いませんか。",
+          "ratio": 0.3291
+        },
+        {
+          "id": "aaf5bce8-39b1-4ede-ac5f-72872c98c574",
+          "korean": "입이 가벼운 사람에게는 비밀을 말하지 않아요.",
+          "japanese": "口の軽い人には、秘密を話しません。",
+          "ratio": 0.2712
+        },
+        {
+          "id": "316fa145-33a9-438d-8bf4-3e94d577b366",
+          "korean": "저에게는 사소해도 다른 사람에게는 중요할 수 있어요.",
+          "japanese": "私にはささいなことでも、ほかの人には大切かもしれません。",
+          "ratio": 0.2581
+        }
+      ],
+      "ai_pair_review": "Shared wording/topic only; nearest full texts do not express the same situation, question evidence and task. All three displayed KO/JA pairs separately reread by AI."
+    },
+    {
+      "key": "C54",
+      "korean": "오늘은 바로 결정하지 않고 의견부터 듣고 싶어요. 다른 생각이 있으면 편하게 말씀해 주세요.",
+      "japanese": "今日はすぐに決めず、まず意見を聞きたいです。別の考えがあれば気軽にお話しください。",
+      "nearest": [
+        {
+          "id": "f499dc1e-a6ae-40f5-a963-76438bdcd940",
+          "korean": "약속이 있으면 미리 말해 주세요.",
+          "japanese": "予定があれば前もって教えてください。",
+          "ratio": 0.3529
+        },
+        {
+          "id": "1701ca0e-7b2d-4a12-b728-c646f6ffaee5",
+          "korean": "차를 빌려 드리고 싶은데 내일은 제가 써야 해요. 모레는 괜찮으니까 날짜를 바꿀 수 있으면 말씀해 주세요.",
+          "japanese": "車をお貸ししたいのですが、明日は私が使わなければなりません。あさってなら大丈夫なので、日を変えられたら教えてください。",
+          "ratio": 0.321
+        },
+        {
+          "id": "3b99cea5-6565-4188-9108-7dbc1bf928b5",
+          "korean": "솔직하게 말해 주세요.",
+          "japanese": "正直に話してください。",
+          "ratio": 0.2979
+        }
+      ],
+      "ai_pair_review": "Shared wording/topic only; nearest full texts do not express the same situation, question evidence and task. All three displayed KO/JA pairs separately reread by AI."
+    },
+    {
+      "key": "C55",
+      "korean": "지금 바로 답하지 않으셔도 돼요. 내용을 천천히 읽어 보신 뒤에 알려 주세요.",
+      "japanese": "今すぐお返事いただかなくても大丈夫です。内容をゆっくりお読みになってからお知らせください。",
+      "nearest": [
+        {
+          "id": "212d1f78-c98d-4146-b96e-a90745e5bced",
+          "korean": "급하지 않으니까 천천히 하세요.",
+          "japanese": "急ぎではないのでゆっくりやってください。",
+          "ratio": 0.4091
+        },
+        {
+          "id": "4ebc9078-cb9b-4795-8042-5e9a778efc6b",
+          "korean": "계약 내용을 잘 읽어 보세요.",
+          "japanese": "契約内容をよく読んでみてください。",
+          "ratio": 0.381
+        },
+        {
+          "id": "c924c6d0-b8a0-418f-b49c-537e5be81135",
+          "korean": "뜨거운 물을 천천히 부어 주세요.",
+          "japanese": "熱いお湯をゆっくり注いでください。",
+          "ratio": 0.3636
+        }
+      ],
+      "ai_pair_review": "Shared wording/topic only; nearest full texts do not express the same situation, question evidence and task. All three displayed KO/JA pairs separately reread by AI."
+    },
+    {
+      "key": "C56",
+      "korean": "도와주셔서 일은 끝났어요. 다음에는 시작하기 전에 역할을 나누면 더 편할 것 같아요.",
+      "japanese": "手伝っていただいたおかげで作業は終わりました。次は始める前に役割を分けると、もっとやりやすいと思います。",
+      "nearest": [
+        {
+          "id": "5bfc1c2c-1037-4fb4-9c26-79df6a096850",
+          "korean": "일을 시작하기 전에 역할 분담을 했어요.",
+          "japanese": "仕事を始める前に役割分担をしました。",
+          "ratio": 0.4314
+        },
+        {
+          "id": "fb5200ff-891f-492a-a760-2773842f70dc",
+          "korean": "일을 시작하기 전에 전체 흐름을 파악해요.",
+          "japanese": "仕事を始める前に、全体の流れを把握します。",
+          "ratio": 0.3462
+        },
+        {
+          "id": "049bbeb2-79c3-4ceb-b0fd-d0a75b117742",
+          "korean": "일을 시작하기 전에 십 분만 눈을 붙이고 싶어요.",
+          "japanese": "仕事を始める前に、10分だけ眠りたいです。",
+          "ratio": 0.3333
+        }
+      ],
+      "ai_pair_review": "Existing role-allocation sentence records past allocation; new source thanks helper after completion and proposes allocation next time."
+    },
+    {
+      "key": "C57",
+      "korean": "그 제안을 반대하는 건 아니에요. 비용이 얼마나 드는지 먼저 알아보자는 거예요.",
+      "japanese": "その提案に反対しているわけではありません。費用がどのくらいかかるか、まず調べようということです。",
+      "nearest": [
+        {
+          "id": "c2a66dc7-204a-48f9-a92d-52a701c78dd1",
+          "korean": "비용이 얼마나 들어요?",
+          "japanese": "費用はいくらかかりますか。",
+          "ratio": 0.3333
+        },
+        {
+          "id": "fee5edae-13c9-405d-9e09-841c05452f24",
+          "korean": "제안이 실제로 실행되는지 지켜볼 거예요.",
+          "japanese": "提案が実際に実行されるか、見守るつもりです。",
+          "ratio": 0.32
+        },
+        {
+          "id": "398405a6-65d8-4e4c-8cc6-f22c2a0be13c",
+          "korean": "일부러 그런 건 아니에요.",
+          "japanese": "わざとそうしたわけではありません。",
+          "ratio": 0.2791
+        }
+      ],
+      "ai_pair_review": "Shared wording/topic only; nearest full texts do not express the same situation, question evidence and task. All three displayed KO/JA pairs separately reread by AI."
+    },
+    {
+      "key": "C58",
+      "korean": "자료를 전부 읽을 필요는 없어요. 표시한 부분만 확인해 주시면 돼요.",
+      "japanese": "資料を全部読む必要はありません。印を付けておいた部分だけご確認いただければ大丈夫です。",
+      "nearest": [
+        {
+          "id": "6bda9fe6-0ce5-434a-a38a-2e223ba2325b",
+          "korean": "시간이 남거든 이 부분도 확인해 주세요.",
+          "japanese": "時間が余ったら、この部分も確認してください。",
+          "ratio": 0.3636
+        },
+        {
+          "id": "a8564cc7-5c28-417c-96d5-6b198dc6ac20",
+          "korean": "그럴 필요는 없어요.",
+          "japanese": "そうする必要はありません。",
+          "ratio": 0.3333
+        },
+        {
+          "id": "6dcbbba6-0b09-4037-826d-345d7a35846b",
+          "korean": "남의 생활을 부러워할 필요는 없어요.",
+          "japanese": "人の暮らしをうらやむ必要はありません。",
+          "ratio": 0.3256
+        }
+      ],
+      "ai_pair_review": "Shared wording/topic only; nearest full texts do not express the same situation, question evidence and task. All three displayed KO/JA pairs separately reread by AI."
+    },
+    {
+      "key": "C59",
+      "korean": "제가 틀렸을지도 모르니까 함께 확인해 봐요. 누구의 잘못인지 따지려는 건 아니에요.",
+      "japanese": "私が間違っているかもしれないので、一緒に確認してみましょう。誰のせいか責めようとしているわけではありません。",
+      "nearest": [
+        {
+          "id": "74ee3987-2054-455b-9109-a41d97fdeaa9",
+          "korean": "준비가 마무리되면 함께 확인해 봐요.",
+          "japanese": "準備が仕上がったら、一緒に確認しましょう。",
+          "ratio": 0.32
+        },
+        {
+          "id": "c381b463-c22b-4cc9-a27e-8f00bd8488ef",
+          "korean": "지금은 누구를 도울 형편이 아니에요.",
+          "japanese": "今は誰かを助けられる状況ではありません。",
+          "ratio": 0.28
+        },
+        {
+          "id": "eabf81ea-ad02-4e4d-9cc3-b01876489972",
+          "korean": "눈에 보이는 성과가 없다고 노력이 사라지는 건 아니에요.",
+          "japanese": "目に見える成果がなくても、努力が消えるわけではありません。",
+          "ratio": 0.2759
+        }
+      ],
+      "ai_pair_review": "Shared wording/topic only; nearest full texts do not express the same situation, question evidence and task. All three displayed KO/JA pairs separately reread by AI."
+    },
+    {
+      "key": "C60",
+      "korean": "먼저 해 보신 방법을 알려 주실래요? 같은 방법을 다시 권하지 않으려고 여쭤보는 거예요.",
+      "japanese": "すでに試した方法を教えていただけますか。同じ方法をまた勧めないようにお尋ねしているんです。",
+      "nearest": [
+        {
+          "id": "87afe7d9-d441-4900-bc5a-b24a1316e0ee",
+          "korean": "사용 방법을 알려 주세요.",
+          "japanese": "使い方を教えてください。",
+          "ratio": 0.3043
+        },
+        {
+          "id": "0a75d193-6ed4-46aa-ab71-808bd41025de",
+          "korean": "반품 방법을 알려 주세요.",
+          "japanese": "返品の方法を教えてください。",
+          "ratio": 0.3043
+        },
+        {
+          "id": "c5d6705f-cd45-4ca7-92b9-b03261bb6f33",
+          "korean": "다른 사람에게만 의지하지 않으려고 해요.",
+          "japanese": "ほかの人にばかり頼らないようにしています。",
+          "ratio": 0.3019
+        }
+      ],
+      "ai_pair_review": "Shared wording/topic only; nearest full texts do not express the same situation, question evidence and task. All three displayed KO/JA pairs separately reread by AI."
+    }
+  ],
+  "near_pairs_reread": 180,
+  "independent_human_review": "NOT TESTED"
+}
