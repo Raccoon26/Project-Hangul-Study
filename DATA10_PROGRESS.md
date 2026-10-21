@@ -240,3 +240,8 @@ SQLiteListening bounded warm120조회/2,400행 median0.294ms/max12.188ms. Python
 ### 4.5 Git 전달
 
 일반 commit/push·main대상PR·필수 checks/mergeability 확인·정상merge 후 fetch/ff-only하여 main=origin/main 전체SHA와clean을 확인한다. Force Push/원본삭제/이력재작성0. 접근 가능한1,028blob과 현재파일 모두50/100MiB초과0·현재최대20,025,344bytes로 LFS는 불필요하다. main protection 조회403은 보호없음으로 해석하지 않으며 rulesets=[]/Actions workflows0은 CI PASS가 아니다. 최종 PR·merge SHA는 Git/PR과 최종 응답이 기준이다. 이번 마지막 Batch에서 종료하고 후속 단계는 자동 시작하지 않는다.
+
+
+### 4.6 실제 Commit/Push/PR 전달
+
+검증한 원본/Bundle/fixture·원고·검수/회귀/기록 commit `dd247c92119867cf3408b4e6f57005348cf62677`를 `codex/data10-4-listening-batch-c`로 정상 push했고 [PR #21](https://github.com/Raccoon26/Project-Hangul-Study/pull/21)을 생성했다. 원격 head와 local commit이 일치한다. PR 조회는 MERGEABLE/CLEAN·statusCheckRollup=[]이며 `gh pr checks --required`는 no checks reported(exit1)였다. CI PASS라는 뜻은 아니며 실제 검증은 portable391PASS/strict·byte재현/AI검수 범위다. 보호메타403을 보호없음으로 해석하거나 admin/force로 우회하지 않는다. 이 보충은 문서만 변경하고 검증된 Source/Bundle/테스트를 바꾸지 않는다. 보충commit push 후 최신 head를 다시 확인해 정상 merge하고, main fetch/ff-only·origin/main 전체SHA/clean을 대조한다. 최종 merge SHA·상태는 PR/Git과 최종 응답이 기준이며 자기 SHA를 위한 사후commit을 반복하지 않는다. 이 마지막 Batch에서 종료한다.
