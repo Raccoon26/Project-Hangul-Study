@@ -256,7 +256,8 @@ struct ListeningStudyView: View {
         if !audio.play(q.audio,speed:speed) { playback = nil }
     }
     private func submit(_ answer: String) {
-        guard !busy, !audio.isPlaying, session?.heard == true, session?.result == nil else { return }
+        guard !busy, !audio.isPlaying, error == nil, session?.heard == true, session?.result == nil,
+              !ProductionAnswer.normalize(answer).isEmpty, answer.count <= 500 else { return }
         let revision = session?.revision
         focused = false; Task { await change(.submit(answer), expectedRevision:revision) }
     }

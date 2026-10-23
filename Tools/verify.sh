@@ -25,5 +25,12 @@ xcodebuild -jobs "${XCODEBUILD_JOBS:-1}" -project HangulStudy.xcodeproj -scheme 
 # Also check device architecture; signing/distribution archive remains an owner release step.
 xcodebuild -jobs "${XCODEBUILD_JOBS:-1}" -project HangulStudy.xcodeproj -scheme HangulStudy \
   -configuration Release -destination 'generic/platform=iOS' CODE_SIGNING_ALLOWED=NO build
+# Debug's official demo IDs cannot expose an ads-disabled Release startup crash.
+# Exercise the actual Release app as well; the UI-only scheme cannot clear a
+# purchase cache or run the Simulator-only StoreKit transaction tests.
+xcodebuild -jobs "${XCODEBUILD_JOBS:-1}" -project HangulStudy.xcodeproj -scheme HangulStudy-DeviceUI \
+  -configuration Release -destination "$TEST_DESTINATION" CODE_SIGN_IDENTITY=- CODE_SIGNING_ALLOWED=YES \
+  -parallel-testing-enabled NO \
+  -only-testing:HangulStudyUITests/StudyJourneyTests/test11SearchSubmitDismissesKeyboardWithoutClearingResults test
 xcodebuild -jobs "${XCODEBUILD_JOBS:-1}" -project HangulStudy.xcodeproj -scheme HangulStudy \
   -configuration Debug -destination "$TEST_DESTINATION" CODE_SIGN_IDENTITY=- CODE_SIGNING_ALLOWED=YES -parallel-testing-enabled NO test

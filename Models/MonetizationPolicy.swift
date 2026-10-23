@@ -35,12 +35,16 @@ struct MonetizationConfiguration {
                     development: development)
     }
     var enabled: Bool {
+        #if HANGUL_ADS_DISABLED
+        return false
+        #else
         let app = appID.range(of: "^ca-app-pub-[0-9]{16}~[0-9]{10}$", options: .regularExpression) != nil
         let unit = interstitialID.range(of: "^ca-app-pub-[0-9]{16}/[0-9]{10}$", options: .regularExpression) != nil
         let testPublisher = "3940256099942544"
         if development { return app && unit && appID.contains(testPublisher) && interstitialID.contains(testPublisher) }
         return app && unit && !appID.contains(testPublisher) && !interstitialID.contains(testPublisher)
             && appID.split(separator:"~").first == interstitialID.split(separator:"/").first
+        #endif
     }
 }
 

@@ -3,3 +3,8 @@
 // No credentials, bank details or Google account secrets belong here.
 ADMOB_APP_ID =
 ADMOB_INTERSTITIAL_ID =
+// The SDK validates its App ID at load time, even without an ad request.
+// When enabling owner-provided production IDs, remove BOTH exclusions below
+// and pass Tools/check_monetization.py --require-ads before release.
+SWIFT_ACTIVE_COMPILATION_CONDITIONS = $(inherited) HANGUL_ADS_DISABLED
+EXCLUDED_SOURCE_FILE_NAMES = $(inherited) GoogleMobileAds* UserMessagingPlatform*

@@ -42,3 +42,10 @@ struct FixtureNotice: View {
             .fixedSize(horizontal: false, vertical: true)
     }
 }
+
+extension View {
+    /// Let system list links wrap and grow instead of keeping a single-line row.
+    func learningRow() -> some View {
+        font(.body).lineLimit(nil).fixedSize(horizontal:false,vertical:true)
+    }
+}

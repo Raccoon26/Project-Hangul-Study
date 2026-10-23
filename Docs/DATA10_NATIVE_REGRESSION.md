@@ -48,3 +48,40 @@
 NormalAudits22: 2 UI 실행/2 실패/skip0. Numeric row/긴 문구의 큰 글씨 배치 수정 후 NormalAudits25는 SPM artifact 누락으로 build 실패/실행0, 새 ignored Packages26에서 현재 재검사 중이다. 모든 접근성 이슈를 계속 실패로 기록한다. 최소 SwiftUI 재현도 유사한 실패가 있지만 제품 문제 전체를 SDK 탓으로 확정하지 않는다.
 
 Mac 공간이 약200MB까지 감소했다. 사용자에게 프로젝트 외 파일 정리를 요청했다. 작업의 중복 export만 원본 xcresult와 manifest를 남긴 뒤 정리했으며, 종료된 작업 소유 QA device는 학습 기록을 별도 SHA 일치 복사해 보존했다. 사용자 기기/기존 Production 삭제0. [실행 요약](DATA10_NATIVE_RUNS.json), [원시 로그 archive](DATA10_NATIVE_CHECKPOINT_LOGS.tar.gz). 최신 전체 검사 미완료·접근성 실패가 남아 있으므로 main 병합 금지다.
+
+
+## 실기기 재개와 Release 시작 오류
+
+기존 checkpoint `f46013cf3ea050a36368a0ddb65bf2171cdeb51b`를 일반 push하고 [Draft PR #24](https://github.com/Raccoon26/Project-Hangul-Study/pull/24)를 생성했다. main 미병합이다. fetch/auth/ADMIN/default main·원격 head를 재확인했고 Production/fixture114파일 SHA 불일치0이다. 사용자가 약6GB를 추가 확보해 디스크 부족은 복구되었으나 과거 실패/중단을 PASS로 바꾸지 않는다. NormalAudits26은 `No space left on device` 때문에 결과 봉인에 실패해 exit73·미완료이며 원시 로그를 보존한다. 최소 probe28/30의 Mach server/Runner 초기화 watchdog 실패는 본문 실행0인 환경 오류다. 이후 같은 작업 소유 Simulator에서 최신 Unit155/155 PASS(skip0, FinalUnits39)로 재실행을 확인했다. 실제 StoreKit 로컬 검증 거래가 있을 때 cache write 실패를 주입해도 verified/광고 차단·저장 오류 메시지가 유지되는 추가 assertion도 포함한다.
+
+iPhone13ProMax/iOS27.2가 연결되었고 사용자가 Xcode Accounts/Team·개발자 프로파일 신뢰를 설정했다. 유효 서명/개발 프로파일로 Release build·설치·launch 요청은 성공했지만, 실제 UI 검사를 통해 **P0 시작 직후 crash**를 재현했다. Google Mobile Ads SDK의 load-time 초기화가 빈 App ID에서 `GADInvalidInitializationException`을 던졌으며 기존 `configuration.enabled` runtime guard보다 먼저 실행됐다. 따라서 설치/launch 명령 exit0만으로 앱 정상 동작을 보고하면 안 된다.
+
+Production ID를 추측하거나 Release에 테스트 ID를 넣지 않았다. IDs가 없는 Release에서 `HANGUL_ADS_DISABLED`와 두 SDK의 build-phase 제외를 함께 적용해 SDK를 로드하지 않는 기존 무료 학습 경로를 제공했다. Debug 공식 테스트 광고·기존 구매 권한/빈도 제한/transaction·UserProgress/데이터는 보존한다. 비활성 빌드도 기존 빈도 이력을 유지한다. 향후 실제 소유 Production IDs를 설정할 때는 두 제외 설정을 함께 해제하고 `check_monetization.py --require-ads`·실제 SDK/동의 검증을 다시 수행해야 한다. 검사 도구는 source 설정의 불일치와 built executable의 dynamic/static SDK 잔류도 거부한다. 관련 Portable 새 회귀1개/현재419개 정의, focused9/9 PASS.
+
+수정 Release의 실제 실행 파일은 GoogleMobileAds/UMP dependency 및 SDK ObjC class가 없고 `--built-info` 검사 PASS다. 같은 iPhone의 PhysicalUISmoke43 **1/1 PASS(exit0)**: 학습 Home 진입·한국어 검색·키보드 닫힘·정확한 검색어 유지·사전 상세 열기를 실제 실행했다. 사용자 선택 서명 Team을 보존하도록 generator를 보완했고 ignored package cache의 Swift를 앱 소스로 수집하지 않도록 제외했다. 물리 기기에서는 Release UI-only scheme으로만 검사해 테스트용 Keychain 정리/StoreKit transaction 초기화를 실행하지 않는다. 인증서/Apple ID·기기 식별자를 포함하는 private 로그는 공개 archive/PR에 넣지 않는다.
+
+최신 Portable418/418 PASS(1582.460초) 이후 새 Release 회귀를 포함한 전체419 재실행, Simulator 전체169 XCTest 및 iPhone UI14 전체 검사가 진행 중이다. 첫 세 실기기 경로(첫 학습·종료/재개, 검색/즐겨찾기/설정 유지, 자모/받침/비음화 수료)는 PASS했으나 아직 전체 완료가 아니다. UI10/14 접근성·나머지 실사용 경로/실기기 음성 검청·오프라인/메모리·계정 외부 gate는 실제 후속 결과로만 갱신한다. 필수 로컬 실패가 남으면 PR을 ready/merge하지 않는다.
+
+
+## 최신 실기기 사용 확인·추가 회귀 (2026-10-23, 여전히 진행 중)
+
+사용자가 직접 확인한 항목: 한국어 TTS가 iPhone 스피커에서 정상 청취됨; 비행기 모드와 Wi-Fi OFF에서 듣기 학습 후 앱 완전 종료/재실행·이어하기/결과 유지 정상(네트워크 복구); 큰 글씨에서 읽기/스크롤/버튼 조작 정상(설정 복구). 정확한 최대 글자 크기나 모든 화면을 인증한 것은 아니다. VoiceOver는 사용자가 아직 확인하지 못했다고 답했으므로 NOT TESTED다.
+
+새 Release 시작 회귀를 포함한 전체 Portable52는 **419/419 PASS, failures/errors/skipped0, 935.882초, exit0**이다. Portable44의 fixture 파일 준비 오류1건은 수정 후 focused9/9와 이 전체 검사로 재검증했다. 최종 native46(iOS26)은 **169실행/166 PASS/3 FAIL/skip0/exit65**: UI04의 disabled transaction 버튼 조작, UI10/14 접근성 감사 실패였다. 실기기 전체 UI45는 **14실행/10 PASS/4 FAIL/skip0**: UI06/08 조작과 UI10/14 감사다. 이 실패를 전체 PASS로 덮어쓰지 않는다.
+
+UI06 실패 당시 실제 입력은 `걸어요　`였고 키보드 위 답안 버튼 대신 오래된 accessibility activation point가 Space를 눌렀다. UI08도 isHittable만으로는 가려진 사전 참조의 화면 내 위치를 보장하지 못했다. 테스트는 enabled 대기·현재 frame 중심·내비게이션/탭바/고정 제출 버튼/키보드 경계 안 가시성을 확인하도록 수정했다. 정답/판정/검증 assertion은 유지한다. 같은 실기기 PhysicalInputContext51 **2/2 PASS**로 걷다 세 활용의 직접 입력·초안 cold resume·채점/완료와 실제 Content29 레슨5문항·참조 사전·레슨 resume/완료를 재검증했다. 화면 제출 toolbar를 임시 추가한 실험은 원인이 앱 배치가 아니므로 원복했다.
+
+실기기 UI45의 나머지 통과 경로는 첫 실행/단계 선택·자모/받침/발음 변화·20어휘 회독/완료·문법/퀴즈/SRS·듣기12문항 네 유형·보통/느린 실제 TTS·받아쓰기·검색/즐겨찾기/설정 cold 유지·통계/유지학습/광고 제거 화면·긴 TTS 중 백그라운드 중단/재개다. 실제 구매나 Production 광고 수신은 실행하지 않았다.
+
+접근성 크기의 숫자 행은 같은 Text identity를 보존하는 AnyLayout으로 세로 배치하고 긴 메뉴 텍스트는 body/unlimited line/fixed vertical size, 화면 제목은 inline으로 보완했다. 그러나 PhysicalAccessibilityMetrics61 **3실행/1 PASS/2 FAIL/skip0**이며 UI10/14의 Dynamic Type/대비/잘림 자동 감사는 여전히 실패한다. 저장소 밖 최소 SwiftUI TabView/List도 유사한 실패를 재현하지만 전부 SDK 문제로 단정하지 않는다. 이슈 필터/skip/assertion 제거0, 후속 원인 분석 중이며 필수 실패가 있어 병합하지 않는다.
+
+같은 실기기 responsive launch+CPU+memory metric 3회 PASS: responsive first frame 1.071/0.904/1.029초, CPU 1.112/1.071/1.072초, peak physical memory 약30.6/30.9/30.7MB(십진). 측정 부하·범위가 다른 UI45의 launch-only 0.631/0.692/0.576초와 별도 기록한다. Instruments Leaks59 실제 iPhone 앱 attach31.255초의 대기 상태 추적에서 두 번의 녹색 검사와 빈 Leaks 상세를 확인했다. 이 구간 누수 보고0이며 장시간 학습/통화/배터리 수명 PASS로 확대하지 않는다. All Heap & Anonymous VM persistent10.76MiB/total11.43MiB는 trace 할당 지표이며 전체 앱 physical footprint와 동일하지 않다.
+
+현재 iOS17 최신 전체169 검사64를 추가 실행 중이다. StoreKit 로컬 테스트가 오래 대기해 stack sample을 보존하고 조사 중이며 미완료를 통과로 세지 않는다. 실제 기기 개인 식별자/Apple ID/프로파일/학습 DB/trace는 private 작업 경로에만 보존한다. VoiceOver 실제 발화·전화/이어폰 중단·장시간 배터리·실제 App Store/AdMob 계정 gate는 NOT TESTED/BLOCKED를 유지한다. DATA10-7 완료·main 병합 전이다.
+
+
+추가 보존 확인: 실기기 학습 DB의 읽기 전용 복사본67은 integrity_check=ok/FK 오류0/UserProgress10이다. 이전 복사본49 대비 조사한17개 학습 테이블의 기존 primary key 누락0이며 즐겨찾기1, Vocabulary SRS20/Grammar3/Listening18, 듣기 판정18개가 저장돼 있다. 실제 완주 듣기 세션12/12·레슨5/5 정답과 회독/문법 완료 JSON도 확인했다. 이 사적인 DB/식별자는 Git에 넣지 않고 집계만 기록한다. UI12는 반복 검사에서도 이미 들은 문항/판정을 정상 UI로 이어간 뒤 아직 듣지 않은 문항을 선택하도록 보완했으며 데이터 초기화를 추가하지 않았다.
+
+별도 최소 재현65는 iOS17의 TabView+ScrollView+VStack(앱 SDK/DB 없음)에서도 initial/end 두 자동 감사가 실패했다. List를 전면 교체하는 실험은 실패를 해결하지 못해 제품에 적용하지 않았다. Apple Accessibility Inspector의 실제 iPhone 대상 연결도 감사 대상을 열지 못했으며 VoiceOver 실제 발화 확인을 대신했다고 주장하지 않는다. 표준 body font인 화면 아래 요소의 reflow/가시성 영향은 계속 조사한다.
+
+현재 `Tools/verify.sh`의 최신 전체 실행68(419 portable → resolve → Debug/Release Simulator/기기 architecture → Release UI 시작 회귀 → Debug 전체169)이 진행 중이다. Release 시작 검사를 먼저 수행해 후속 Debug 감사 실패가 있어도 그 결과를 별도로 확보한다. 프로젝트 재생성은74 app Swift/16 unit source·모든 scheme/사용자 signing byte 동일을 확인했다. 새 검증 결과가 나올 때까지 IN_PROGRESS/Draft/main 미병합을 유지한다.

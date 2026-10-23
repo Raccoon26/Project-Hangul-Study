@@ -1,6 +1,6 @@
 {
   "status": "IN_PROGRESS_NOT_COMPLETE",
-  "recorded_at_utc": "2026-10-23T12:01:22.897444+00:00",
+  "recorded_at_utc": "2026-10-23T13:46:08.965132+00:00",
   "baseline": "59d3bc7636c2b22ce7a0e21899fa1deeb2bbfedb",
   "branch": "codex/data10-7-native-regression",
   "runs": [
@@ -975,6 +975,413 @@
       "expectedFailures": 0,
       "testFailures": [],
       "runtimeWarnings": []
+    },
+    {
+      "bundle": "FinalUnits39.xcresult",
+      "kind": "project",
+      "environment": "Simulator",
+      "startTime": 1792759493.875,
+      "finishTime": 1792759752.411,
+      "result": "Passed",
+      "totalTestCount": 155,
+      "passedTests": 155,
+      "failedTests": 0,
+      "skippedTests": 0,
+      "expectedFailures": 0,
+      "testFailures": [],
+      "runtimeWarnings": []
+    },
+    {
+      "bundle": "FinalNative46.xcresult",
+      "kind": "project",
+      "environment": "Simulator",
+      "startTime": 1792759914.905,
+      "finishTime": 1792761186.619,
+      "result": "Failed",
+      "totalTestCount": 169,
+      "passedTests": 166,
+      "failedTests": 3,
+      "skippedTests": 0,
+      "expectedFailures": 0,
+      "testFailures": [
+        {
+          "failureText": "XCTAssertTrue failed - Button unavailable: 覚えてる\nAttributes: Application, 0x10c948860, pid: 38479, label: '韓国語学習'\nElement subtree:\n →Application, 0x10c948860, pid: 38479, label: '韓国語学習'\n    Window (Main), 0x10c9e9940, {{0.0, 0.0}, {402.0, 874.0}}\n      Other, 0x10c94b800, {{0.0, 0.0}, {402.0, 874.0}}\n        Other, 0x10c94e020, {{0.0, 0.0}, {402.0, 874.0}}\n          Other, 0x10c94adb0, {{0.0, 0.0}, {402.0, 874.0}}\n            Other, 0x10c94cb00, {{0.0, 0.0}, {402.0, 874.0}}\n              Other, 0x10c94e140, {{0.0, 0.0}, {402.0, 874.0}}\n                Other, 0x10c94e260, {{0.0, 0.0}, {402.0, 874.0}}\n                  Other, 0x10c94e380, {{0.0, 0.0}, {402.0, 874.0}}\n                    Other, 0x10c94e4a0, {{0.0, 0.0}, {402.0, 874.0}}\n                      Other, 0x10c94e5c0, {{0.0, 0.0}, {402.0, 874.0}}\n                        Other, 0x10c94e6e0, {{0.0, 0.0}, {402.0, 874.0}}\n                          Other, 0x10c94e800, {{0.0, 0.0}, {402.0, 874.0}}\n                            NavigationBar, 0x10c94e920, {{0.0, 62.0}, {402.0, 54.0}}, identifier: '学ぶ'\n                              StaticText, 0x10c94ea40, {{185.0, 73.8}, {32.0, 20.3}}, label: '学ぶ'\n                            Other, 0x10c94eb60, {{0.0, 0.0}, {402.0, 874.0}}\n                              Other, 0x10c94ec80, {{0.0, 0.0}, {402.0, 874.0}}\n                                Other, 0x10c94eda0, {{0.0, 0.0}, {402.0, 874.0}}\n                                  Other, 0x10c94eec0, {{0.0, 0.0}, {402.0, 874.0}}\n                                    CollectionView, 0x10c94efe0, {{0.0, 0.0}, {402.0, 874.0}}\n                                      Other, 0x10c94f100, {{-16.0, -1632.0}, {434.0, 1923.7}}\n                                      Cell, 0x10c94f220, {{16.0, 151.0}, {370.0, 70.7}}\n                                        Other, 0x10c94f340, {{16.0, 151.0}, {370.0, 70.7}}\n                                          Other, 0x10c94f460, {{16.0, 151.0}, {370.0, 70.7}}\n                                        Other, 0x10c94f580, {{16.0, 151.0}, {370.0, 70.7}}\n                                          Other, 0x10c94f6a0, {{16.0, 151.0}, {370.0, 70.7}}\n                                            Other, 0x10c94f7c0, {{16.0, 151.0}, {370.0, 70.7}}\n                                              StaticText, 0x10c94f8e0, {{16.0, 151.0}, {370.0, 70.7}}, label: '韓国語'\n                                      Cell, 0x10c94fa00, {{16.0, 221.7}, {370.0, 52.3}}\n                                        Other, 0x10c94fb20, {{16.0, 221.7}, {370.0, 52.3}}\n                                          Other, 0x10c94fc40, {{16.0, 221.7}, {370.0, 52.3}}\n                                        Other, 0x10c94fd60, {{16.0, 221.7}, {370.0, 52.3}}\n                                          Other, 0x10c94fe80, {{16.0, 221.7}, {370.0, 52.3}}\n                                            Other, 0x10c94ffa0, {{16.0, 221.7}, {370.0, 52.3}}\n                                              StaticText, 0x10c9500c0, {{16.0, 221.7}, {370.0, 52.3}}, label: '少しずつ、長く学ぶ'\n                                      Other, 0x10c9501e0, {{32.0, 220.7}, {338.0, 1.0}}\n                                      Other, 0x10c950300, {{-16.0, 291.7}, {434.0, 132.0}}\n                                      Cell, 0x10c950420, {{16.0, 291.7}, {370.0, 40.3}}\n                                        Other, 0x10c950540, {{16.0, 291.7}, {370.0, 40.3}}\n                                        Other, 0x10c950660, {{16.0, 291.7}, {370.0, 40.3}}\n                                          Other, 0x10c950780, {{16.0, 291.7}, {370.0, 40.3}}\n                                            Other, 0x10c9508a0, {{16.0, 291.7}, {370.0, 40.3}}\n                                              StaticText, 0x10c9509c0, {{16.0, 291.7}, {370.0, 40.3}}, label: '続きから'\n                                      Cell, 0x10c950ae0, {{16.0, 332.0}, {370.0, 74.0}}\n                                        Other, 0x10c950c00, {{16.0, 332.0}, {370.0, 74.0}}\n                                          Other, 0x10c950d20, {{16.0, 332.0}, {370.0, 74.0}}\n                                        Other, 0x10c950e40, {{16.0, 332.0}, {370.0, 74.0}}\n                                          Other, 0x10c950f60, {{16.0, 332.0}, {370.0, 74.0}}\n                                            Other, 0x10c951080, {{16.0, 332.0}, {370.0, 74.0}}\n                                              Button, 0x10c9511a0, {{16.0, 332.0}, {370.0, 74.0}}, label: '単語の続き'\n                                      Other, 0x10c9512c0, {{-16.0, 423.3}, {434.0, 162.7}}\n                                      Cell, 0x10c9513e0, {{16.0, 423.3}, {370.0, 40.3}}\n                                        Other, 0x10c951500, {{16.0, 423.3}, {370.0, 40.3}}\n                                        Other, 0x10c951620, {{16.0, 423.3}, {370.0, 40.3}}\n                                          Other, 0x10c951740, {{16.0, 423.3}, {370.0, 40.3}}\n                                            Other, 0x10c951860, {{16.0, 423.3}, {370.0, 40.3}}\n                                              StaticText, 0x10c951980, {{16.0, 423.3}, {370.0, 40.3}}, label: '今日の復習'\n                                      Cell, 0x10c951aa0, {{16.0, 463.7}, {370.0, 52.3}}\n                                        Other, 0x10c951bc0, {{16.0, 463.7}, {370.0, 52.3}}\n                                          Other, 0x10c951ce0, {{16.0, 463.7}, {370.0, 52.3}}\n                                        Other, 0x10c951e00, {{16.0, 463.7}, {370.0, 52.3}}\n                                          Other, 0x10c951f20, {{16.0, 463.7}, {370.0, 52.3}}\n                                            Other, 0x10c952040, {{16.0, 463.7}, {370.0, 52.3}}\n                                              Button, 0x10c952160, {{16.0, 463.7}, {370.0, 52.3}}, label: '0項目 · 復習を確認'\n                                                StaticText, 0x10c952280, {{32.0, 479.7}, {137.3, 20.3}}, label: '0項目 · 復習を確認'\n                                                Image, 0x10c9523a0, {{360.7, 484.0}, {7.0, 12.0}}, identifier: 'chevron.forward'\n                                      Cell, 0x10c9524c0, {{16.0, 516.0}, {370.0, 52.3}}\n                                        Other, 0x10c9525e0, {{16.0, 516.0}, {370.0, 52.3}}\n                                          Other, 0x10c952700, {{16.0, 516.0}, {370.0, 52.3}}\n                                        Other, 0x10c952820, {{16.0, 516.0}, {370.0, 52.3}}\n                                          Other, 0x10c952940, {{16.0, 516.0}, {370.0, 52.3}}\n                                            Other, 0x10c952a60, {{16.0, 516.0}, {370.0, 52.3}}\n                                              StaticText, 0x10c952b80, {{16.0, 516.0}, {370.0, 52.3}}, label: '復習と新しい学習は、どちらからでも始められます。'\n                                      Other, 0x10c952ca0, {{32.0, 515.0}, {338.0, 1.0}}\n                                      Other, 0x10c952dc0, {{-16.0, 586.0}, {434.0, 2017.7}}\n                                      Cell, 0x10c952ee0, {{16.0, 586.0}, {370.0, 40.3}}\n                                        Other, 0x10c953000, {{16.0, 586.0}, {370.0, 40.3}}\n                                        Other, 0x10c953120, {{16.0, 586.0}, {370.0, 40.3}}\n                                          Other, 0x10c953240, {{16.0, 586.0}, {370.0, 40.3}}\n                                            Other, 0x10c953360, {{16.0, 586.0}, {370.0, 40.3}}\n                                              StaticText, 0x10c953480, {{16.0, 586.0}, {370.0, 40.3}}, label: '現在のコース'\n                                      Cell, 0x10c9535a0, {{16.0, 626.3}, {370.0, 52.3}}\n                                        Other, 0x10c9536c0, {{16.0, 626.3}, {370.0, 52.3}}\n                                          Other, 0x10c9537e0, {{16.0, 626.3}, {370.0, 52.3}}\n                                        Other, 0x10c953900, {{16.0, 626.3}, {370.0, 52.3}}\n                                          Other, 0x10c953a20, {{16.0, 626.3}, {370.0, 52.3}}\n                                            Other, 0x10c953b40, {{16.0, 626.3}, {370.0, 52.3}}\n                                              Button, 0x10c953c60, {{16.0, 626.3}, {370.0, 52.3}}, label: 'ハングル'\n                                                StaticText, 0x10c953d80, {{32.0, 642.3}, {59.0, 20.3}}, label: 'ハングル'\n                                                Image, 0x10c953ea0, {{360.7, 646.7}, {7.0, 12.0}}, identifier: 'chevron.forward'\n                                      Cell, 0x10c953fc0, {{16.0, 678.7}, {370.0, 52.3}}\n                                        Other, 0x10c9540e0, {{16.0, 678.7}, {370.0, 52.3}}\n                                          Other, 0x10c954200, {{16.0, 678.7}, {370.0, 52.3}}\n                                        Other, 0x10c954320, {{16.0, 678.7}, {370.0, 52.3}}\n                                          Other, 0x10c954440, {{16.0, 678.7}, {370.0, 52.3}}\n                                            Other, 0x10c954560, {{16.0, 678.7}, {370.0, 52.3}}\n                                              Button, 0x10c954680, {{16.0, 678.7}, {370.0, 52.3}}, label: '維持学習'\n                                                StaticText, 0x10c9547a0, {{32.0, 694.7}, {63.7, 20.3}}, label: '維持学習'\n                                                Image, 0x10c9548c0, {{360.7, 699.0}, {7.0, 12.0}}, identifier: 'chevron.forward'\n                                      Other, 0x10c9549e0, {{32.0, 677.7}, {338.0, 1.0}}\n                                      Other, 0x10c954b00, {{0.0, 726.2}, {402.0, 147.8}}\n                                        Image, 0x10c954c20, {{-120.0, 731.0}, {642.0, 286.0}}, identifier: 'AdditionalDimmingOverlay'\n                                        Other, 0x10c954d40, {{0.0, 726.2}, {402.0, 147.8}}\n                                          Other, 0x10c954e60, {{0.0, 726.2}, {402.0, 147.8}}\n                                        Other, 0x10c954f80, {{0.0, 726.2}, {402.0, 147.8}}\n                                          Other, 0x10c9550a0, {{0.0, 726.2}, {402.0, 147.8}}\n                                          Other, 0x10c9551c0, {{0.0, 726.2}, {402.0, 147.8}}\n                                      Cell, 0x10c9552e0, {{16.0, 731.0}, {370.0, 52.3}}\n                                        Other, 0x10c955400, {{16.0, 731.0}, {370.0, 52.3}}\n                                          Other, 0x10c955520, {{16.0, 731.0}, {370.0, 52.3}}\n                                        Other, 0x10c955640, {{16.0, 731.0}, {370.0, 52.3}}\n                                          Other, 0x10c955760, {{16.0, 731.0}, {370.0, 52.3}}\n                                            Other, 0x10c955880, {{16.0, 731.0}, {370.0, 52.3}}\n                                              Button, 0x10c9559a0, {{16.0, 731.0}, {370.0, 52.3}}, label: 'すべての学習段階'\n                                                StaticText, 0x10c955ac0, {{32.0, 747.0}, {127.3, 20.3}}, label: 'すべての学習段階'\n                                                Image, 0x10c955be0, {{360.7, 751.3}, {7.0, 12.0}}, identifier: 'chevron.forward'\n                                      Other, 0x10c955d00, {{32.0, 730.0}, {338.0, 1.0}}\n                                      Cell, 0x10c955e20, {{16.0, 783.3}, {370.0, 52.3}}\n                                        Other, 0x10c955f40, {{16.0, 783.3}, {370.0, 52.3}}\n                                          Other, 0x10c956060, {{16.0, 783.3}, {370.0, 52.3}}\n                                        Other, 0x10c956180, {{16.0, 783.3}, {370.0, 52.3}}\n                                          Other, 0x10c9562a0, {{16.0, 783.3}, {370.0, 52.3}}\n                                            Other, 0x10c9563c0, {{16.0, 783.3}, {370.0, 52.3}}\n                                              Button, 0x10c9564e0, {{16.0, 783.3}, {370.0, 52.3}}, label: '開始位置・レベル診断'\n                                                StaticText, 0x10c956600, {{32.0, 799.3}, {159.3, 20.3}}, label: '開始位置・レベル診断'\n                                                Image, 0x10c956720, {{360.7, 803.7}, {7.0, 12.0}}, identifier: 'chevron.forward'\n                                      Other, 0x10c956840, {{32.0, 782.3}, {338.0, 1.0}}\n                                      Other, 0x10c956960, {{369.0, 116.0}, {30.0, 675.0}}, label: '垂直スクロールバー, 2ページ', value: 0%\n                                        Other, 0x10c956a80, {{396.0, 119.0}, {3.0, 623.0}}\n                                      Other, 0x10c956ba0, {{369.0, 116.0}, {30.0, 675.0}}, label: '垂直スクロールバー, 2ページ', value: 0%\n                                        Other, 0x10c956cc0, {{396.0, 119.0}, {3.0, 623.0}}\n                            Other, 0x10c956de0, {{0.0, 0.0}, {402.0, 874.0}}\n                              Other, 0x10c956f00, {{0.0, 0.0}, {402.0, 874.0}}\n                Other, 0x10c957020, {{0.0, 791.0}, {402.0, 83.0}}\n                  Other, 0x10c957140, {{0.0, 0.0}, {402.0, 874.0}}\n                    TabBar, 0x10c957260, {{0.0, 791.0}, {402.0, 83.0}}, label: 'タブバー'\n                      Other, 0x10c957380, {{21.0, 791.0}, {360.0, 62.0}}\n                        Other, 0x10c9574a0, {{21.0, 791.0}, {98.0, 54.0}}\n                        Other, 0x10c9575c0, {{21.0, 791.0}, {360.0, 62.0}}\n                          Button, 0x10c9576e0, {{25.0, 795.0}, {98.0, 54.0}}, label: '学ぶ', Selected\n                            Image, 0x10c957800, {{58.0, 802.3}, {32.3, 25.0}}, identifier: 'book.fill', label: 'ブックマーク'\n                          Button, 0x10c957920, {{109.7, 795.0}, {98.0, 54.0}}, label: '調べる'\n                            Image, 0x10c957a40, {{144.7, 801.7}, {27.7, 26.7}}, identifier: 'magnifyingglass', label: '検索'\n                          Button, 0x10c957b60, {{194.3, 795.0}, {98.0, 54.0}}, label: '記録'\n                            Image, 0x10c957c80, {{226.3, 802.3}, {35.0, 25.3}}, identifier: 'chart.bar.fill', label: '棒グラフ'\n                          Button, 0x10c957da0, {{279.0, 795.0}, {98.0, 54.0}}, label: '設定'\n                            Image, 0x10c957ec0, {{314.0, 801.0}, {28.0, 28.0}}, identifier: 'gearshape.fill', label: 'gearshape.fill'\n                        Other, 0x10c957fe0, {{25.0, 795.0}, {98.0, 54.0}}\n                          Other, 0x10c958100, {{25.0, 795.0}, {98.0, 54.0}}\n                            Other, 0x10c958220, {{25.0, 795.0}, {98.0, 54.0}}\n                              Other, 0x10c958340, {{25.0, 795.0}, {98.0, 54.0}}\n                            Other, 0x10c958460, {{25.0, 795.0}, {98.0, 54.0}}\n                              Other, 0x10c958580, {{25.0, 795.0}, {98.0, 54.0}}\n                                Other, 0x10c9586a0, {{25.0, 795.0}, {98.0, 54.0}}\n                                  Other, 0x10c9587c0, {{25.0, 795.0}, {98.0, 54.0}}\n                                Other, 0x10c9588e0, {{25.0, 795.0}, {98.0, 54.0}}\n                              Other, 0x10c958a00, {{25.0, 795.0}, {98.0, 54.0}}\n                  Other, 0x10c958b20, {{0.0, 791.0}, {402.0, 83.0}}\n                    Other, 0x10c958c40, {{0.0, 791.0}, {402.0, 83.0}}\n                      Other, 0x10c958d60, {{0.0, 791.0}, {402.0, 83.0}}\n                        Other, 0x10c958e80, {{0.0, 791.0}, {402.0, 83.0}}\n                          Other, 0x10c958fa0, {{0.0, 791.0}, {402.0, 83.0}}\n                            Other, 0x10c9590c0, {{0.0, 791.0}, {402.0, 83.0}}\n                        Other, 0x10c9591e0, {{0.0, 791.0}, {402.0, 83.0}}\n                          Other, 0x10c959300, {{0.0, 791.0}, {402.0, 83.0}}\n      Other, 0x10c959420, {{0.0, 0.0}, {402.0, 874.0}}\n        Other, 0x10c959540, {{0.0, 0.0}, {402.0, 874.0}}\n          Other, 0x10c959660, {{0.0, 0.0}, {402.0, 874.0}}\n            Other, 0x10c959780, {{0.0, 0.0}, {402.0, 874.0}}\n              NavigationBar, 0x10c9598a0, {{0.0, 62.0}, {402.0, 54.0}}, identifier: '_TtGC7SwiftUI32NavigationStackHosting'\n                Other, 0x10c9599c0, {{20.0, 66.0}, {64.0, 36.0}}, label: '閉じる'\n                  Other, 0x10c959ae0, {{20.0, 66.0}, {64.0, 36.0}}\n                    Button, 0x10c959c00, {{20.0, 66.0}, {64.0, 36.0}}, label: '閉じる'\n              Other, 0x10c959d20, {{0.0, 0.0}, {402.0, 874.0}}\n                Other, 0x10c959e40, {{0.0, 0.0}, {402.0, 874.0}}\n                  Other, 0x10c959f60, {{0.0, 0.0}, {402.0, 874.0}}\n                    Other, 0x10c95a080, {{0.0, 0.0}, {402.0, 874.0}}\n                      Button, 0x10c95a1a0, {{12.0, 124.0}, {44.0, 44.0}}, identifier: 'xmark', label: '学習を閉じる。保存した位置から再開できます'\n                      StaticText, 0x10c95a2c0, {{68.0, 128.3}, {37.0, 18.0}}, label: '入門 1'\n                      StaticText, 0x10c95a3e0, {{68.0, 149.3}, {29.7, 14.3}}, label: '1周目'\n                      StaticText, 0x10c95a500, {{349.3, 138.8}, {40.7, 14.3}}, label: '17 / 20'\n                      ProgressIndicator, 0x10c95a620, {{24.0, 176.0}, {354.0, 4.0}}, label: 'この周の進み具合', value: 16 / 20語を確認済み\n                        ProgressIndicator, 0x10c95a740, {{24.0, 166.0}, {354.0, 24.0}}, value: 80%\n                      ScrollView, 0x10c95a860, {{0.0, 180.0}, {402.0, 694.0}}\n                        Other, 0x10c95a980, {{0.0, 180.0}, {402.0, 316.3}}\n                          StaticText, 0x10c95aaa0, {{149.0, 224.0}, {104.0, 71.7}}, label: '공원'\n                          StaticText, 0x10c95abc0, {{188.0, 307.7}, {26.0, 18.0}}, label: '名詞'\n                          Button, 0x10c95ace0, {{103.3, 337.7}, {111.7, 44.0}}, label: '単語を聞く。通常の速さ'\n                            Image, 0x10c95ae00, {{106.0, 352.7}, {18.7, 14.7}}, identifier: 'speaker.wave.2', label: '音量 - 大'\n                            StaticText, 0x10c95af20, {{103.3, 337.7}, {111.7, 44.0}}, label: '単語を聞く'\n                          Button, 0x10c95b040, {{235.0, 349.7}, {63.7, 20.3}}, label: '単語を聞く。ゆっくり'\n                          StaticText, 0x10c95b160, {{167.2, 393.7}, {67.7, 14.3}}, label: 'システム音声'\n                          StaticText, 0x10c95b280, {{53.5, 452.0}, {295.0, 20.3}}, label: '意味を思い出してから、確認しましょう。'\n                        Other, 0x10c95b3a0, {{369.0, 208.0}, {30.0, 541.7}}, label: '垂直スクロールバー, 1ページ', value: 0%\n                          Other, 0x10c95b4c0, {{396.0, 464.3}, {3.0, 282.3}}\n                        Other, 0x10c95b5e0, {{369.0, 208.0}, {30.0, 541.7}}, label: '垂直スクロールバー, 1ページ', value: 0%\n                          Other, 0x10c95b700, {{396.0, 464.3}, {3.0, 282.3}}\n                      Button, 0x10c95b820, {{16.0, 766.0}, {370.0, 58.0}}, label: '意味を見る'\n              Other, 0x10c95b940, {{0.0, 0.0}, {402.0, 874.0}}\n                Other, 0x10c95ba60, {{0.0, 0.0}, {402.0, 874.0}}\nPath to element:\n →Application, 0x10c948860, pid: 38479, label: '韓国語学習'\nQuery chain:\n →Find: Target Application 'com.example.HangulStudy'\n  Output: {\n    Application, 0x10c94d7a0, pid: 38479, label: '韓国語学習'\n  }\n",
+          "targetName": "HangulStudyUITests",
+          "testIdentifier": 159,
+          "testIdentifierString": "StudyJourneyTests/test04VocabularyRoundCompletionAndMidSessionResume()",
+          "testIdentifierURL": "test://com.apple.xcode/HangulStudy/HangulStudyUITests/StudyJourneyTests/test04VocabularyRoundCompletionAndMidSessionResume",
+          "testName": "test04VocabularyRoundCompletionAndMidSessionResume()"
+        },
+        {
+          "failureText": "Contrast failed",
+          "targetName": "HangulStudyUITests",
+          "testIdentifier": 165,
+          "testIdentifierString": "StudyJourneyTests/test10AccessibilityAuditHomeAndLearningEntry()",
+          "testIdentifierURL": "test://com.apple.xcode/HangulStudy/HangulStudyUITests/StudyJourneyTests/test10AccessibilityAuditHomeAndLearningEntry",
+          "testName": "test10AccessibilityAuditHomeAndLearningEntry()"
+        },
+        {
+          "failureText": "Dynamic Type font sizes are partially unsupported",
+          "targetName": "HangulStudyUITests",
+          "testIdentifier": 169,
+          "testIdentifierString": "StudyJourneyTests/test14AccessibilityAuditLookupRecordsAndSettings()",
+          "testIdentifierURL": "test://com.apple.xcode/HangulStudy/HangulStudyUITests/StudyJourneyTests/test14AccessibilityAuditLookupRecordsAndSettings",
+          "testName": "test14AccessibilityAuditLookupRecordsAndSettings()"
+        }
+      ],
+      "runtimeWarnings": [
+        {
+          "issueType": "Runtime Warning",
+          "message": "Invalid frame dimension (negative or non-finite)."
+        },
+        {
+          "issueType": "Runtime Warning",
+          "message": "Invalid frame dimension (negative or non-finite)."
+        }
+      ]
+    },
+    {
+      "bundle": "PhysicalUISmoke43.xcresult",
+      "kind": "project",
+      "environment": "physical iPhone Release UI only",
+      "startTime": 1792759843.213,
+      "finishTime": 1792759865.128,
+      "result": "Passed",
+      "totalTestCount": 1,
+      "passedTests": 1,
+      "failedTests": 0,
+      "skippedTests": 0,
+      "expectedFailures": 0,
+      "testFailures": [],
+      "runtimeWarnings": []
+    },
+    {
+      "bundle": "PhysicalFullUI45.xcresult",
+      "kind": "project",
+      "environment": "physical iPhone Release UI only",
+      "startTime": 1792759889.465,
+      "finishTime": 1792760759.783,
+      "result": "Failed",
+      "totalTestCount": 14,
+      "passedTests": 10,
+      "failedTests": 4,
+      "skippedTests": 0,
+      "expectedFailures": 0,
+      "testFailures": [
+        {
+          "failureText": "XCTAssertTrue failed",
+          "targetName": "HangulStudyUITests",
+          "testIdentifier": 6,
+          "testIdentifierString": "StudyJourneyTests/test06IrregularConjugationInputDraftColdResumeAndGrading()",
+          "testIdentifierURL": "test://com.apple.xcode/HangulStudy/HangulStudyUITests/StudyJourneyTests/test06IrregularConjugationInputDraftColdResumeAndGrading",
+          "testName": "test06IrregularConjugationInputDraftColdResumeAndGrading()"
+        },
+        {
+          "failureText": "XCTAssertTrue failed",
+          "targetName": "HangulStudyUITests",
+          "testIdentifier": 8,
+          "testIdentifierString": "StudyJourneyTests/test08Content29ListeningCourseFiveQuestionsContextAndResume()",
+          "testIdentifierURL": "test://com.apple.xcode/HangulStudy/HangulStudyUITests/StudyJourneyTests/test08Content29ListeningCourseFiveQuestionsContextAndResume",
+          "testName": "test08Content29ListeningCourseFiveQuestionsContextAndResume()"
+        },
+        {
+          "failureText": "Dynamic Type font sizes are partially unsupported",
+          "targetName": "HangulStudyUITests",
+          "testIdentifier": 10,
+          "testIdentifierString": "StudyJourneyTests/test10AccessibilityAuditHomeAndLearningEntry()",
+          "testIdentifierURL": "test://com.apple.xcode/HangulStudy/HangulStudyUITests/StudyJourneyTests/test10AccessibilityAuditHomeAndLearningEntry",
+          "testName": "test10AccessibilityAuditHomeAndLearningEntry()"
+        },
+        {
+          "failureText": "Dynamic Type font sizes are partially unsupported",
+          "targetName": "HangulStudyUITests",
+          "testIdentifier": 14,
+          "testIdentifierString": "StudyJourneyTests/test14AccessibilityAuditLookupRecordsAndSettings()",
+          "testIdentifierURL": "test://com.apple.xcode/HangulStudy/HangulStudyUITests/StudyJourneyTests/test14AccessibilityAuditLookupRecordsAndSettings",
+          "testName": "test14AccessibilityAuditLookupRecordsAndSettings()"
+        }
+      ],
+      "runtimeWarnings": [
+        {
+          "issueType": "Runtime Warning",
+          "message": "Invalid frame dimension (negative or non-finite)."
+        },
+        {
+          "issueType": "Runtime Warning",
+          "message": "Invalid frame dimension (negative or non-finite)."
+        },
+        {
+          "issueType": "Runtime Warning",
+          "message": "This method can lead to UI unresponsiveness if called on the main thread. Consider using the asynchronous activate/deactivate API instead for calls from the main thread."
+        },
+        {
+          "issueType": "Runtime Warning",
+          "message": "This method can lead to UI unresponsiveness if called on the main thread. Consider using the asynchronous activate/deactivate API instead for calls from the main thread."
+        },
+        {
+          "issueType": "Runtime Warning",
+          "message": "This method can lead to UI unresponsiveness if called on the main thread. Consider using the asynchronous activate/deactivate API instead for calls from the main thread."
+        }
+      ]
+    },
+    {
+      "bundle": "PhysicalInputContext51.xcresult",
+      "kind": "project",
+      "environment": "physical iPhone Release UI only",
+      "startTime": 1792760993.838,
+      "finishTime": 1792761319.048,
+      "result": "Passed",
+      "totalTestCount": 2,
+      "passedTests": 2,
+      "failedTests": 0,
+      "skippedTests": 0,
+      "expectedFailures": 0,
+      "testFailures": [],
+      "runtimeWarnings": [
+        {
+          "issueType": "Runtime Warning",
+          "message": "Invalid frame dimension (negative or non-finite)."
+        },
+        {
+          "issueType": "Runtime Warning",
+          "message": "This method can lead to UI unresponsiveness if called on the main thread. Consider using the asynchronous activate/deactivate API instead for calls from the main thread."
+        }
+      ]
+    },
+    {
+      "bundle": "PhysicalAudits55.xcresult",
+      "kind": "project",
+      "environment": "physical iPhone Release UI only",
+      "startTime": 1792761370.47,
+      "finishTime": 1792761507.449,
+      "result": "Failed",
+      "totalTestCount": 2,
+      "passedTests": 0,
+      "failedTests": 2,
+      "skippedTests": 0,
+      "expectedFailures": 0,
+      "testFailures": [
+        {
+          "failureText": "Dynamic Type font sizes are partially unsupported",
+          "targetName": "HangulStudyUITests",
+          "testIdentifier": 1,
+          "testIdentifierString": "StudyJourneyTests/test10AccessibilityAuditHomeAndLearningEntry()",
+          "testIdentifierURL": "test://com.apple.xcode/HangulStudy/HangulStudyUITests/StudyJourneyTests/test10AccessibilityAuditHomeAndLearningEntry",
+          "testName": "test10AccessibilityAuditHomeAndLearningEntry()"
+        },
+        {
+          "failureText": "Dynamic Type font sizes are partially unsupported",
+          "targetName": "HangulStudyUITests",
+          "testIdentifier": 2,
+          "testIdentifierString": "StudyJourneyTests/test14AccessibilityAuditLookupRecordsAndSettings()",
+          "testIdentifierURL": "test://com.apple.xcode/HangulStudy/HangulStudyUITests/StudyJourneyTests/test14AccessibilityAuditLookupRecordsAndSettings",
+          "testName": "test14AccessibilityAuditLookupRecordsAndSettings()"
+        }
+      ],
+      "runtimeWarnings": []
+    },
+    {
+      "bundle": "PhysicalAccessibilityMetrics61.xcresult",
+      "kind": "project",
+      "environment": "physical iPhone Release UI only",
+      "startTime": 1792762181.009,
+      "finishTime": 1792762364.874,
+      "result": "Failed",
+      "totalTestCount": 3,
+      "passedTests": 1,
+      "failedTests": 2,
+      "skippedTests": 0,
+      "expectedFailures": 0,
+      "testFailures": [
+        {
+          "failureText": "Dynamic Type font sizes are partially unsupported",
+          "targetName": "HangulStudyUITests",
+          "testIdentifier": 1,
+          "testIdentifierString": "StudyJourneyTests/test10AccessibilityAuditHomeAndLearningEntry()",
+          "testIdentifierURL": "test://com.apple.xcode/HangulStudy/HangulStudyUITests/StudyJourneyTests/test10AccessibilityAuditHomeAndLearningEntry",
+          "testName": "test10AccessibilityAuditHomeAndLearningEntry()"
+        },
+        {
+          "failureText": "Contrast failed",
+          "targetName": "HangulStudyUITests",
+          "testIdentifier": 3,
+          "testIdentifierString": "StudyJourneyTests/test14AccessibilityAuditLookupRecordsAndSettings()",
+          "testIdentifierURL": "test://com.apple.xcode/HangulStudy/HangulStudyUITests/StudyJourneyTests/test14AccessibilityAuditLookupRecordsAndSettings",
+          "testName": "test14AccessibilityAuditLookupRecordsAndSettings()"
+        }
+      ],
+      "runtimeWarnings": []
+    },
+    {
+      "bundle": "AuditProbe53.xcresult",
+      "kind": "minimal-reproducer",
+      "environment": "Simulator",
+      "startTime": 1792761236.932,
+      "finishTime": 1792761280.425,
+      "result": "Failed",
+      "totalTestCount": 2,
+      "passedTests": 1,
+      "failedTests": 1,
+      "skippedTests": 0,
+      "expectedFailures": 0,
+      "testFailures": [
+        {
+          "failureText": "Contrast failed",
+          "targetName": "AuditProbeUITests",
+          "testIdentifier": 2,
+          "testIdentifierString": "AuditTests/testStandardSwiftUIListAudit()",
+          "testIdentifierURL": "test://com.apple.xcode/AuditProbe/AuditProbeUITests/AuditTests/testStandardSwiftUIListAudit",
+          "testName": "testStandardSwiftUIListAudit()"
+        }
+      ],
+      "runtimeWarnings": []
+    },
+    {
+      "bundle": "AuditProbe57.xcresult",
+      "kind": "minimal-reproducer",
+      "environment": "Simulator",
+      "startTime": 1792761658.673,
+      "finishTime": 1792761719.505,
+      "result": "Failed",
+      "totalTestCount": 2,
+      "passedTests": 0,
+      "failedTests": 2,
+      "skippedTests": 0,
+      "expectedFailures": 0,
+      "testFailures": [
+        {
+          "failureText": "Contrast failed",
+          "targetName": "AuditProbeUITests",
+          "testIdentifier": 1,
+          "testIdentifierString": "AuditTests/testBoundedTabbedListAudit()",
+          "testIdentifierURL": "test://com.apple.xcode/AuditProbe/AuditProbeUITests/AuditTests/testBoundedTabbedListAudit",
+          "testName": "testBoundedTabbedListAudit()"
+        },
+        {
+          "failureText": "Contrast failed",
+          "targetName": "AuditProbeUITests",
+          "testIdentifier": 2,
+          "testIdentifierString": "AuditTests/testDefaultTabbedListAudit()",
+          "testIdentifierURL": "test://com.apple.xcode/AuditProbe/AuditProbeUITests/AuditTests/testDefaultTabbedListAudit",
+          "testName": "testDefaultTabbedListAudit()"
+        }
+      ],
+      "runtimeWarnings": []
+    },
+    {
+      "bundle": "AuditProbe60.xcresult",
+      "kind": "minimal-reproducer",
+      "environment": "Simulator",
+      "startTime": 1792761802.247,
+      "finishTime": 1792761856.737,
+      "result": "Failed",
+      "totalTestCount": 2,
+      "passedTests": 0,
+      "failedTests": 2,
+      "skippedTests": 0,
+      "expectedFailures": 0,
+      "testFailures": [
+        {
+          "failureText": "Contrast failed",
+          "targetName": "AuditProbeUITests",
+          "testIdentifier": 1,
+          "testIdentifierString": "AuditTests/testDefaultTabbedListAudit()",
+          "testIdentifierURL": "test://com.apple.xcode/AuditProbe/AuditProbeUITests/AuditTests/testDefaultTabbedListAudit",
+          "testName": "testDefaultTabbedListAudit()"
+        },
+        {
+          "failureText": "Contrast failed",
+          "targetName": "AuditProbeUITests",
+          "testIdentifier": 2,
+          "testIdentifierString": "AuditTests/testNoScrollEdgeEffectTabbedListAudit()",
+          "testIdentifierURL": "test://com.apple.xcode/AuditProbe/AuditProbeUITests/AuditTests/testNoScrollEdgeEffectTabbedListAudit",
+          "testName": "testNoScrollEdgeEffectTabbedListAudit()"
+        }
+      ],
+      "runtimeWarnings": []
+    },
+    {
+      "bundle": "NativeIOS17Full64.xcresult",
+      "kind": "project",
+      "environment": "Simulator",
+      "startTime": 1792762467.36,
+      "finishTime": 1792763064.134,
+      "result": "Failed",
+      "totalTestCount": 140,
+      "passedTests": 139,
+      "failedTests": 1,
+      "skippedTests": 0,
+      "expectedFailures": 0,
+      "testFailures": [
+        {
+          "failureText": "Testing was canceled",
+          "targetName": "HangulStudyTests",
+          "testIdentifier": 140,
+          "testIdentifierString": "StoreKitPurchaseTests/testLocalNonConsumablePurchaseColdEntitlementAndRestore()",
+          "testIdentifierURL": "test://com.apple.xcode/HangulStudy/HangulStudyTests/StoreKitPurchaseTests/testLocalNonConsumablePurchaseColdEntitlementAndRestore",
+          "testName": "testLocalNonConsumablePurchaseColdEntitlementAndRestore()"
+        }
+      ],
+      "runtimeWarnings": [],
+      "command_exit": 75,
+      "interrupted": true,
+      "reason": "StoreKit storefront notification loop; stack and local logs preserved; canceled without changing assertions"
+    },
+    {
+      "bundle": "IOS17Audits66.xcresult",
+      "kind": "project",
+      "environment": "iOS17 Simulator Debug",
+      "result": "Failed",
+      "totalTestCount": 2,
+      "passedTests": 0,
+      "failedTests": 2,
+      "skippedTests": 0,
+      "testFailures": [
+        {
+          "failureText": "Dynamic Type font sizes are partially unsupported",
+          "targetName": "HangulStudyUITests",
+          "testIdentifier": 1,
+          "testIdentifierString": "StudyJourneyTests/test10AccessibilityAuditHomeAndLearningEntry()",
+          "testIdentifierURL": "test://com.apple.xcode/HangulStudy/HangulStudyUITests/StudyJourneyTests/test10AccessibilityAuditHomeAndLearningEntry",
+          "testName": "test10AccessibilityAuditHomeAndLearningEntry()"
+        },
+        {
+          "failureText": "Contrast failed",
+          "targetName": "HangulStudyUITests",
+          "testIdentifier": 2,
+          "testIdentifierString": "StudyJourneyTests/test14AccessibilityAuditLookupRecordsAndSettings()",
+          "testIdentifierURL": "test://com.apple.xcode/HangulStudy/HangulStudyUITests/StudyJourneyTests/test14AccessibilityAuditLookupRecordsAndSettings",
+          "testName": "test14AccessibilityAuditLookupRecordsAndSettings()"
+        }
+      ]
+    },
+    {
+      "bundle": "AuditProbe65.xcresult",
+      "kind": "minimal-reproducer",
+      "environment": "iOS17 TabView ScrollView VStack; no app SDK/DB",
+      "result": "Failed",
+      "totalTestCount": 2,
+      "passedTests": 0,
+      "failedTests": 2,
+      "skippedTests": 0,
+      "testFailures": [
+        {
+          "failureText": "Contrast failed",
+          "targetName": "AuditProbeUITests",
+          "testIdentifier": 1,
+          "testIdentifierString": "AuditTests/testEndTabbedScrollAudit()",
+          "testIdentifierURL": "test://com.apple.xcode/AuditProbe/AuditProbeUITests/AuditTests/testEndTabbedScrollAudit",
+          "testName": "testEndTabbedScrollAudit()"
+        },
+        {
+          "failureText": "Contrast failed",
+          "targetName": "AuditProbeUITests",
+          "testIdentifier": 2,
+          "testIdentifierString": "AuditTests/testInitialTabbedScrollAudit()",
+          "testIdentifierURL": "test://com.apple.xcode/AuditProbe/AuditProbeUITests/AuditTests/testInitialTabbedScrollAudit",
+          "testName": "testInitialTabbedScrollAudit()"
+        }
+      ]
     }
   ],
   "pending": [
@@ -987,5 +1394,29 @@
     "Method counts, not assertions; repeated runs are not summed as unique coverage.",
     "0-test build failures are retained; all skip/expected-failure counts are explicit.",
     "Portable418 and native155 first-full PASS do not make the failed overall command PASS."
-  ]
+  ],
+  "portable_latest": {
+    "run": "FinalPortable52",
+    "executed": 419,
+    "passed": 419,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "seconds": 935.882,
+    "command_exit": 0
+  },
+  "human_device_checks": {
+    "korean_speaker_audio": "PASS user confirmed",
+    "airplane_wifi_off_learning_cold_resume_results": "PASS user confirmed; network restored",
+    "larger_text_read_scroll_buttons": "PASS user confirmed; setting restored; exact maximum size not asserted",
+    "voiceover": "NOT TESTED user has not checked"
+  },
+  "profiling": {
+    "scope": "physical Release home idle; Instruments attach 31.255 seconds",
+    "leaks_checks": 2,
+    "reported_leaks": 0,
+    "scope_limit": "Not a long learning session or battery lifetime certification",
+    "persistent_heap_and_anonymous_vm_mib": 10.76,
+    "total_allocated_heap_and_anonymous_vm_mib": 11.43
+  }
 }

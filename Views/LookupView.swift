@@ -2,7 +2,6 @@ import SwiftUI
 
 @MainActor
 struct LookupView: View {
-    @Environment(\.dynamicTypeSize) private var dynamicTypeSize
     @EnvironmentObject private var app: AppModel
     @StateObject private var model = LookupViewModel()
     @FocusState private var searchFocused: Bool
@@ -24,7 +23,7 @@ struct LookupView: View {
                     .scrollDismissesKeyboard(.interactively)
                     .task(id:model.term) { await model.search(services:services) }
             }
-        }.navigationTitle("調べる").navigationBarTitleDisplayMode(dynamicTypeSize.isAccessibilitySize ? .inline : .large)
+        }.navigationTitle("調べる").navigationBarTitleDisplayMode(.inline)
     }
     private func results(_ services: AppContainer) -> some View {
         List {
@@ -45,11 +44,11 @@ struct LookupView: View {
                 NavigationLink { SavedContentView(services:services) } label: { Text("保存した項目・苦手な項目").fixedSize(horizontal:false,vertical:true) }
             }
             if model.term.trimmingCharacters(in:.whitespacesAndNewlines).isEmpty {
-                Text("韓国語か日本語で、単語や文法を探せます。").foregroundStyle(.primary)
+                Text("韓国語か日本語で、単語や文法を探せます。").foregroundStyle(Color.primary)
                 NavigationLink("最近見た項目") { SavedContentView(services:services,initial:.recent) }
             } else {
                 if model.busy { ProgressView("検索中") }
-                if !model.busy && model.entries.isEmpty && model.error == nil { Text("見つかりませんでした。基本形や短い言葉でも検索できます。").foregroundStyle(.primary) }
+                if !model.busy && model.entries.isEmpty && model.error == nil { Text("見つかりませんでした。基本形や短い言葉でも検索できます。").foregroundStyle(Color.primary) }
                 ForEach(model.entries) { entry in
                     NavigationLink { LookupDetailView(services:services,reference:entry.reference) } label: { LookupRow(entry:entry) }
                 }
@@ -65,8 +64,8 @@ struct LookupRow: View {
     var body: some View {
         VStack(alignment:.leading,spacing:8) {
             Text(entry.title).font(.title2)
-            Text(entry.meaning).foregroundStyle(.primary)
-            Text(entry.subtitle + " · " + entry.level.japaneseName).font(.caption).foregroundStyle(.primary)
+            Text(entry.meaning).foregroundStyle(Color.primary)
+            Text(entry.subtitle + " · " + entry.level.japaneseName).font(.caption).foregroundStyle(Color.primary)
         }.padding(.vertical,8)
     }
 }
@@ -96,7 +95,7 @@ struct SavedContentView: View {
                 Picker("種類",selection:$kind) { Text("すべて").tag(""); ForEach(LookupKind.allCases,id:\.self) { Text($0.title).tag($0.rawValue) } }
             }.disabled(saving)
             if list == .difficult {
-                Text("過去30日以内に繰り返し難しかった復習項目です。最近の結果と復習段階を使い、以前の間違いだけで固定しません。").font(.footnote).foregroundStyle(.primary)
+                Text("過去30日以内に繰り返し難しかった復習項目です。最近の結果と復習段階を使い、以前の間違いだけで固定しません。").font(.footnote).foregroundStyle(Color.primary)
             }
             if !rows.isEmpty {
                 Section("選んで練習") {
@@ -105,17 +104,17 @@ struct SavedContentView: View {
                             Button("この一覧の" + type.title + "を練習 · 最大20項目") { start(type) }.frame(minHeight:44).disabled(saving || loading)
                         }
                     }
-                    Text("表示した項目から練習します。途中の自主練習があれば再開します。復習予定は変更しません。").font(.footnote).foregroundStyle(.primary)
+                    Text("表示した項目から練習します。途中の自主練習があれば再開します。復習予定は変更しません。").font(.footnote).foregroundStyle(Color.primary)
                 }
             }
             if loading { ProgressView() }
-            if rows.isEmpty && !loading && error == nil { Text("まだ項目はありません").foregroundStyle(.primary) }
+            if rows.isEmpty && !loading && error == nil { Text("まだ項目はありません").foregroundStyle(Color.primary) }
             ForEach(rows) { row in
                 if let entry = row.entry {
                     NavigationLink { LookupDetailView(services:services,reference:row.ref) } label: { LookupRow(entry:entry) }
                 } else {
                     VStack(alignment:.leading,spacing:8) {
-                        Text("この教材は現在利用できません").foregroundStyle(.primary)
+                        Text("この教材は現在利用できません").foregroundStyle(Color.primary)
                         if list == .favorites { Button("保存から外す") { remove(row.ref) }.disabled(saving).frame(minHeight:44) }
                     }
                 }

@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Deterministic .xcodeproj writer. No external dependencies; run after adding files."""
-import hashlib, json, plistlib
+import hashlib, json, plistlib, re
+import xml.etree.ElementTree as ET
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 objects={}
@@ -14,7 +15,7 @@ def encode(value,level=0):
     if isinstance(value,list): return '(\n'+''.join('\t'*(level+1)+encode(v,level+1)+',\n' for v in value)+'\t'*level+')'
     return json.dumps(str(value),ensure_ascii=False)
 
-app_files=sorted(p.relative_to(ROOT).as_posix() for p in ROOT.rglob('*.swift') if 'Tests' not in p.relative_to(ROOT).parts)
+app_files=sorted(p.relative_to(ROOT).as_posix() for p in ROOT.rglob('*.swift') if not {'Tests','.build','DerivedData'}.intersection(p.relative_to(ROOT).parts))
 test_files=sorted(p.relative_to(ROOT).as_posix() for p in (ROOT/'Tests').glob('*.swift'))
 ui_files=sorted(p.relative_to(ROOT).as_posix() for p in (ROOT/'Tests/UI').glob('*.swift'))
 resources=['Resources/PrivacyInfo.xcprivacy','Resources/user-schema-v1.sql','Resources/user-migration-v2.sql','Resources/user-migration-v3.sql','Resources/user-migration-v4.sql','Resources/user-migration-v5.sql','Resources/user-migration-v6.sql','Resources/user-migration-v7.sql','Resources/user-migration-v8.sql','Resources/user-migration-v9.sql','Resources/user-migration-v10.sql','Resources/ja.lproj/Localizable.strings']
@@ -64,13 +65,30 @@ script='set -eu\nsource_db="$SRCROOT/Resources/content.sqlite"\nmkdir -p "$TARGE
 copy_content=add('copy-content',isa='PBXShellScriptBuildPhase',buildActionMask=2147483647,files=[],inputPaths=['$(SRCROOT)/Resources/content.sqlite'],outputPaths=['$(TARGET_BUILD_DIR)/$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/content.sqlite'],name='Select content database',runOnlyForDeploymentPostprocessing=0,shellPath='/bin/sh',shellScript=script)
 common={'SDKROOT':'iphoneos','IPHONEOS_DEPLOYMENT_TARGET':'16.0','SWIFT_VERSION':'5.0','CLANG_ENABLE_MODULES':'YES','CLANG_ENABLE_OBJC_ARC':'YES','SWIFT_STRICT_CONCURRENCY':'complete','ENABLE_USER_SCRIPT_SANDBOXING':'YES'}
 app={'PRODUCT_NAME':'$(TARGET_NAME)','PRODUCT_BUNDLE_IDENTIFIER':'com.example.HangulStudy','GENERATE_INFOPLIST_FILE':'NO','INFOPLIST_FILE':'Resources/Info.plist','TARGETED_DEVICE_FAMILY':'1,2','CODE_SIGN_STYLE':'Automatic','CURRENT_PROJECT_VERSION':'1','MARKETING_VERSION':'0.1.0','OTHER_LDFLAGS':['$(inherited)','-lsqlite3'],'SWIFT_EMIT_LOC_STRINGS':'YES','LD_RUNPATH_SEARCH_PATHS':['$(inherited)','@executable_path/Frameworks']}
+# Preserve an owner-selected team across deterministic regeneration. A team ID
+# is configuration, never a certificate/private key or a claim of release access.
+existing_project=ROOT/'HangulStudy.xcodeproj/project.pbxproj'
+existing_project_text=existing_project.read_text() if existing_project.exists() else ''
+teams=set(re.findall(r'"?DEVELOPMENT_TEAM"?\s*=\s*"?([A-Z0-9]{10})',existing_project_text))
+if len(teams)>1: raise ValueError('Multiple signing teams: preserve per-target configuration before regenerating')
+if teams: app['DEVELOPMENT_TEAM']=next(iter(teams))
 test={'PRODUCT_NAME':'$(TARGET_NAME)','PRODUCT_BUNDLE_IDENTIFIER':'com.example.HangulStudyTests','GENERATE_INFOPLIST_FILE':'YES','TARGETED_DEVICE_FAMILY':'1,2','TEST_HOST':'$(BUILT_PRODUCTS_DIR)/HangulStudy.app/HangulStudy','BUNDLE_LOADER':'$(TEST_HOST)','LD_RUNPATH_SEARCH_PATHS':['$(inherited)','@executable_path/Frameworks','@loader_path/Frameworks'],'CODE_SIGN_STYLE':'Automatic','OTHER_LDFLAGS':['$(inherited)','-lsqlite3']}
 test['IPHONEOS_DEPLOYMENT_TARGET']='17.0'
 ui={'PRODUCT_NAME':'$(TARGET_NAME)','PRODUCT_BUNDLE_IDENTIFIER':'com.example.HangulStudyUITests','GENERATE_INFOPLIST_FILE':'YES','TARGETED_DEVICE_FAMILY':'1,2','TEST_TARGET_NAME':'HangulStudy','CODE_SIGN_STYLE':'Automatic','IPHONEOS_DEPLOYMENT_TARGET':'17.0','OTHER_LDFLAGS':['$(inherited)','-lsqlite3']}
+def preserved_signing(name,config):
+    # Both this writer and Xcode end each configuration object at two tabs.
+    block=re.search(r'"?'+ident(name+config)+r'"?\s*(?:/\*.*?\*/\s*)?=\s*\{(.*?)\n\t\t\};',existing_project_text,re.S)
+    if not block: return {}
+    result={}
+    for key in ['DEVELOPMENT_TEAM','CODE_SIGN_IDENTITY[sdk=macosx*]']:
+        value=re.search(r'"?'+re.escape(key)+r'"?\s*=\s*("(?:[^"\\]|\\.)*"|[^;\s]+)\s*;',block.group(1))
+        if value: result[key]=json.loads(value.group(1)) if value.group(1).startswith('"') else value.group(1)
+    return result
 def configs(name,settings):
     result=[]
     for config in ['Debug','Release']:
         opts=dict(settings)
+        opts.update(preserved_signing(name,config))
         if config=='Debug': opts.update(SWIFT_OPTIMIZATION_LEVEL='-Onone',SWIFT_ACTIVE_COMPILATION_CONDITIONS='$(inherited) DEBUG',ENABLE_TESTABILITY='YES',DEBUG_INFORMATION_FORMAT='dwarf')
         else: opts.update(SWIFT_OPTIMIZATION_LEVEL='-O',SWIFT_COMPILATION_MODE='wholemodule',DEBUG_INFORMATION_FORMAT='dwarf-with-dsym')
         extra={'baseConfigurationReference':refs['Config/'+config+'.xcconfig']} if name=='app' else {}
@@ -107,3 +125,14 @@ print(f'Generated project: {len(app_files)} app Swift files, {len(test_files)} t
 # Local purchase simulation is opt-in and never attached to the normal/archive scheme.
 local_scheme=(schemes/'HangulStudy.xcscheme').read_text().replace('</LaunchAction>', '<StoreKitConfigurationFileReference identifier="../../Config/RemoveAds.storekit"/></LaunchAction>')
 (schemes/'HangulStudy-StoreKit.xcscheme').write_text(local_scheme)
+
+# Physical-device UI checks must never run tests that clear the purchase cache.
+# Use the normal Release app/data namespace and only the UI automation bundle.
+device_scheme=ET.fromstring((schemes/'HangulStudy.xcscheme').read_text())
+device_test=device_scheme.find('TestAction'); device_test.set('buildConfiguration','Release')
+device_testables=device_test.find('Testables')
+for testable in list(device_testables):
+    if testable.find('BuildableReference').get('BlueprintName')!='HangulStudyUITests':
+        device_testables.remove(testable)
+ET.indent(device_scheme,space='  ')
+(schemes/'HangulStudy-DeviceUI.xcscheme').write_bytes(ET.tostring(device_scheme,encoding='utf-8',xml_declaration=True)+b'\n')

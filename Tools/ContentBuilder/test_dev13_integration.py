@@ -25,6 +25,25 @@ class Dev13IntegrationTests(unittest.TestCase):
   debug=(ROOT/'Config/Debug.xcconfig').read_text()
   values=dict(re.findall(r'^(ADMOB_\w+)\s*=([^\n]*)',debug,re.M))
   with self.assertRaises(ValueError):module.validate(values['ADMOB_APP_ID'].strip(),values['ADMOB_INTERSTITIAL_ID'].strip())
+ def test_ads_disabled_release_excludes_sdk_before_its_load_time_initializer(self):
+  import importlib.util
+  from unittest.mock import patch
+  spec=importlib.util.spec_from_file_location('monetization_startup_check',ROOT/'Tools/check_monetization.py')
+  module=importlib.util.module_from_spec(spec);spec.loader.exec_module(module)
+  release=(ROOT/'Config/Release.xcconfig').read_text()
+  self.assertTrue(module.validate_release_settings(release).startswith('disabled'))
+  for removed in ('HANGUL_ADS_DISABLED','GoogleMobileAds*','UserMessagingPlatform*'):
+   with self.subTest(removed=removed),self.assertRaises(ValueError):module.validate_release_settings(release.replace(removed,''))
+  with tempfile.TemporaryDirectory() as tmp:
+   info=Path(tmp)/'Info.plist';info.write_bytes(plistlib.dumps({'CFBundleExecutable':'App','GADApplicationIdentifier':'','AdMobInterstitialIdentifier':''}))
+   binary=Path(tmp)/'App';binary.write_bytes(b'local learning executable')
+   with patch.object(module.subprocess,'check_output',return_value='App:\n /usr/lib/libsqlite3.dylib\n'):
+    self.assertTrue(module.validate_built_app(info).startswith('disabled'))
+   for sdk in ('GoogleMobileAds','UserMessagingPlatform'):
+    with self.subTest(sdk=sdk),patch.object(module.subprocess,'check_output',return_value='App:\n @rpath/'+sdk+'.framework/'+sdk+'\n'),self.assertRaises(ValueError):module.validate_built_app(info)
+   for objc in (b'GADMobileAds\0',b'UMPConsentInformation\0'):
+    binary.write_bytes(objc)
+    with self.subTest(static_sdk=objc),patch.object(module.subprocess,'check_output',return_value='App:\n /usr/lib/libsqlite3.dylib\n'),self.assertRaises(ValueError):module.validate_built_app(info)
  def test_info_uses_configuration_and_manifest_bundled(self):
   info=plistlib.loads((ROOT/'Resources/Info.plist').read_bytes())
   self.assertEqual(info['GADApplicationIdentifier'],'$(ADMOB_APP_ID)')

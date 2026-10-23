@@ -19,6 +19,11 @@
 - Native는 ad-hoc signed Simulator, jobs1/parallel testing NO로 실제 Keychain을 검사한다. 실제 사용자 iPhone에서 테스트용 구매 cache 초기화 검사를 실행하지 않는다. 작업 소유 QA Simulator만 사용하고 사용자 Simulator/기록은 보호한다. 실기기·실제 광고/거래·독립 사람/TTS 검청 gate는 실행 근거 없이 PASS로 바꾸지 않는다.
 - 다운로드된 binary artifact Info.plist 유실과 Mac 디스크 부족이 반복됐다. resolve exit0만 믿지 말고 두 XCFramework의 Info.plist/고정13.11.0·3.1.0/실제 build를 확인한다. 원본/fixture·사용자 파일을 정리 대상으로 삼지 않는다. 현재 native 산출물은 /tmp/hangul-data10-7, 새 패키지 cache는 ignored .build/data10-7/Packages26이다.
 
+- 최신 재개 결과는 DATA10_PROGRESS §7.6/7.7이다. Portable52 419/419 PASS·Unit39 155/155 PASS, Simulator 전체46 166/169 PASS와 실기기 UI45 10/14 PASS의 실패를 보존한다. 입력/가시성 테스트 조작 수정 후 실기기 UI06/08 2/2 PASS지만 전체 PASS로 합산하지 않는다. UI10/14 자동 감사61/66 실패·iOS17 StoreKit 루프64 중단은 미해결 gate다. 모든 이슈를 실패로 기록하며 임의 필터/skip하지 않는다.
+- iPhone 연결/서명/신뢰와 실제 Release 학습 실행을 확인했다. 사람이 한국어 스피커 음성·비행기 모드/Wi-Fi OFF 학습/종료 후 재개·큰 글씨 조작을 확인했고 설정을 복구했다. VoiceOver는 아직 확인하지 못했다. 31초 idle Leaks의 누수 보고0·짧은 launch/CPU/memory를 장시간 배터리/통화/실제 구매 검증으로 확대하지 않는다.
+- 광고 ID 없는 Release가 SDK load-time 초기화로 crash하는 P0를 수정했다. HANGUL_ADS_DISABLED와 GoogleMobileAds*/UserMessagingPlatform* link 제외를 함께 유지한다. Production IDs를 실제 소유 값으로 설정할 때 두 설정을 함께 해제하고 check_monetization.py --require-ads 및 built-info·실제 SDK/동의 검사를 다시 수행한다. 테스트 IDs를 Release에 넣거나 runtime guard만으로 시작 안전을 주장하지 않는다.
+- 실제 사용자 iPhone은 HangulStudy-DeviceUI scheme의 Release UI-only 검사만 사용한다. 단위/StoreKit 테스트의 cache/transaction 초기화는 Simulator에서만 실행한다. 사용자 Team과 signing 설정을 generator가 보존하며 기기 식별자/Apple ID/학습 DB/private trace는 공개 Git/로그 archive에 넣지 않는다. 반복 UI 검사는 저장된 session을 정상 학습 UI로 이어가며 초기화하지 않는다.
+
 ## DATA-10-6 통합 현재 기준
 
 - 현재 Content29/Schema4/reader7/UserProgress10이다. DATA10 신규180원문/360문항은 그대로이며 기존 ID를 참조하는3코스/72레슨/6Unit·레슨당5문항을 추가했다. 신규 UUID81개·membership360·Grammar180/Vocabulary180 관계이며 수량에 신규 원문/문항으로 더하지 않는다. 기존103레슨/코스0~7·모든 learning_order와20문항 연습번호를 보존했다.

@@ -2,7 +2,8 @@ import XCTest
 import SQLite3
 
 /// Uses the real app, bundled Production database and persistent app container.
-/// Run on a dedicated Simulator. Never erases/replaces a user's database.
+/// Use a dedicated Simulator, or the opt-in Release UI-only device scheme.
+/// Never erases/replaces a user's database or clears their purchase cache.
 @MainActor
 final class StudyJourneyTests: XCTestCase {
     private let app = XCUIApplication()
@@ -26,14 +27,44 @@ final class StudyJourneyTests: XCTestCase {
         let predicate = NSPredicate(format:contains ? "label CONTAINS %@" : "label == %@",title)
         let target = app.buttons.matching(predicate).firstMatch
         XCTAssertTrue(reveal(target),"Button unavailable: "+title+"\n"+app.debugDescription,file:file,line:line)
-        if target.exists && target.isHittable { target.tap() }
+        if target.exists && target.isHittable {
+            let enabled = XCTNSPredicateExpectation(predicate:NSPredicate(format:"enabled == true"),object:target)
+            XCTAssertEqual(XCTWaiter.wait(for:[enabled],timeout:10),.completed,"Button must finish its transaction before accepting another action",file:file,line:line)
+            // SwiftUI can retain an old AX activation point after the keyboard
+            // moves a bottom inset. Tap the current, verified visible frame.
+            target.coordinate(withNormalizedOffset:CGVector(dx:0.5,dy:0.5)).tap()
+        }
     }
     private func reveal(_ target: XCUIElement) -> Bool {
         for _ in 0..<40 {
-            if target.exists && target.isHittable { return true }
+            if fullyVisible(target) { return true }
             scrollToward(target)
         }
-        return target.exists && target.isHittable
+        return fullyVisible(target)
+    }
+    private func fullyVisible(_ target: XCUIElement) -> Bool {
+        guard target.exists, target.isHittable else { return false }
+        let frame = target.frame
+        let top = app.navigationBars.firstMatch.exists ? app.navigationBars.firstMatch.frame.maxY : app.frame.minY
+        var bottom = app.frame.maxY
+        let sameLabel = NSPredicate(format:"label == %@",target.label)
+        let inScroll = app.scrollViews.buttons.matching(sameLabel).firstMatch.exists
+        let inList = app.collectionViews.buttons.matching(sameLabel).firstMatch.exists
+        let tabs = app.tabBars.firstMatch
+        // A covered root tab bar can remain in the AX tree of a full-screen
+        // session. It is not the viewport boundary of that session's buttons.
+        if inList && !inScroll && tabs.exists && tabs.isHittable && !tabs.frame.isEmpty { bottom = min(bottom,tabs.frame.minY) }
+        if inScroll {
+            for title in ["次へ","答える","意味を見る","覚える","覚えてる"] {
+                let sticky = app.buttons[title]
+                if sticky.exists && sticky.isHittable && !app.scrollViews.buttons[title].exists {
+                    bottom = min(bottom,sticky.frame.minY-8)
+                }
+            }
+        }
+        let keyboard = app.keyboards.firstMatch
+        if keyboard.exists { bottom = min(bottom,keyboard.frame.minY) }
+        return frame.minY >= top && frame.maxY <= bottom
     }
     private func scrollToward(_ target: XCUIElement, alignEnd: Bool = false) {
         // A full-screen swipe can jump past a short row at accessibility sizes.
@@ -365,20 +396,11 @@ final class StudyJourneyTests: XCTestCase {
     private func audit(last: XCUIElement) throws {
         let initial = XCTAttachment(screenshot:app.screenshot())
         initial.name = "Initial viewport before accessibility audit"; initial.lifetime = .keepAlways; add(initial)
-        // Align an actual final item, not an estimated scroll offset. This also
-        // prevents a blank overscroll viewport from being mistaken for an audit.
-        var aligned = false
-        for _ in 0..<60 {
-            let top = app.navigationBars.firstMatch.frame.maxY
-            let bottom = app.tabBars.firstMatch.frame.minY
-            if last.exists && (last.elementType != .button || last.isHittable) && last.frame.maxY <= bottom && last.frame.maxY > top+44 {
-                aligned = true; break
-            }
-            scrollToward(last,alignEnd:true)
-        }
-        XCTAssertTrue(aligned,"The actual final content must be visible before auditing\n"+app.debugDescription)
-        let measured = XCTAttachment(screenshot:app.screenshot())
-        measured.name = "Measured accessibility viewport"; measured.lifetime = .keepAlways; add(measured)
+        // Audit the stable initial viewport. A separate minimal SwiftUI List
+        // passes here but reports offscreen contrast/unsupported fonts if the
+        // audit starts at its end and then changes Dynamic Type internally.
+        // Keep every audit category and every issue; also verify the real end
+        // of this screen below instead of treating the audit as a scroll test.
         let previousFailurePolicy = continueAfterFailure
         continueAfterFailure = true
         defer { continueAfterFailure = previousFailurePolicy }
@@ -387,6 +409,23 @@ final class StudyJourneyTests: XCTestCase {
             details.name = "Unfiltered accessibility issue"; details.lifetime = .keepAlways; self.add(details)
             return false // Always report every issue as a failure.
         }
+        // Align an actual final item, not an estimated scroll offset. This also
+        // prevents a blank overscroll viewport from being mistaken for an audit.
+        var aligned = false
+        for _ in 0..<60 {
+            let top = app.navigationBars.firstMatch.frame.maxY
+            let tabs = app.tabBars.firstMatch
+            // A pushed screen can hide its tab bar. An absent/zero frame is not
+            // a viewport boundary at y=0; align against the real screen instead.
+            let bottom = tabs.exists && !tabs.frame.isEmpty ? tabs.frame.minY : app.frame.maxY
+            if last.exists && (last.elementType != .button || last.isHittable) && last.frame.maxY <= bottom && last.frame.maxY > top+44 {
+                aligned = true; break
+            }
+            scrollToward(last,alignEnd:true)
+        }
+        XCTAssertTrue(aligned,"The actual final content must be visible before auditing\n"+app.debugDescription)
+        let measured = XCTAttachment(screenshot:app.screenshot())
+        measured.name = "Final content visibility (separate from initial viewport audit)"; measured.lifetime = .keepAlways; add(measured)
     }
     func test10AccessibilityAuditHomeAndLearningEntry() throws {
         try audit(last:app.buttons["開始位置・レベル診断"])
@@ -407,10 +446,27 @@ final class StudyJourneyTests: XCTestCase {
         level("初中級"); tap("リスニング・書き取り")
         tap("初中級：日常・予定変更・移動・サービス・依頼")
         tap("内容を聞き取る 2 ·",contains:true)
-        let q = try XCTUnwrap(rows("SELECT q.id,e.korean FROM lesson_items m JOIN listening_items l ON l.id=m.content_id JOIN examples e ON e.id=l.source_example_id JOIN questions q ON q.listening_id=l.id WHERE m.lesson_id='1012e5a4-5112-4c0f-bc5c-26d677f0c454' ORDER BY m.ordinal LIMIT 1").first)
-        let id = try XCTUnwrap(q["id"]), korean = try XCTUnwrap(q["korean"])
-        let correct = try XCTUnwrap(rows("SELECT c.text FROM question_choices c JOIN questions q ON q.id=c.question_id WHERE q.id='\(id)' AND c.choice_id=json_extract(q.answer_json,'$.correct_choice_ids[0]')").first?["text"])
-        XCTAssertTrue(app.staticTexts["1 / 5"].waitForExistence(timeout:10))
+        let items = try rows("SELECT q.id,e.korean,c.text AS correct FROM lesson_items m JOIN listening_items l ON l.id=m.content_id JOIN examples e ON e.id=l.source_example_id JOIN questions q ON q.listening_id=l.id JOIN question_choices c ON c.question_id=q.id AND c.choice_id=json_extract(q.answer_json,'$.correct_choice_ids[0]') WHERE m.lesson_id='1012e5a4-5112-4c0f-bc5c-26d677f0c454' ORDER BY m.ordinal")
+        XCTAssertEqual(items.count,5)
+        var selected: [String:String]?
+        // A repeated device run must honor the saved session. Advance already
+        // heard/graded questions through the real UI rather than deleting data
+        // or assuming the first question is still unheard.
+        for _ in 0...items.count {
+            if app.buttons["もう一度練習"].waitForExistence(timeout:1) { tap("もう一度練習") }
+            let current = try XCTUnwrap(items.enumerated().first { app.staticTexts["\($0.offset+1) / 5"].exists })
+            let answer = try XCTUnwrap(current.element["correct"])
+            if app.staticTexts["✓ 正解"].exists { tap("次へ"); continue }
+            if app.buttons["もう一度"].exists {
+                tap("もう一度")
+                XCTAssertTrue(app.buttons[answer].waitForExistence(timeout:40)); tap(answer)
+                XCTAssertTrue(app.staticTexts["✓ 正解"].waitForExistence(timeout:10)); tap("次へ")
+                continue
+            }
+            selected = current.element; break
+        }
+        let q = try XCTUnwrap(selected,"An unheard question is required to verify interruption without premature answer disclosure")
+        let korean = try XCTUnwrap(q["korean"]), correct = try XCTUnwrap(q["correct"])
         tap("聞く")
         XCTAssertTrue(app.buttons["停止"].waitForExistence(timeout:5))
         XCUIDevice.shared.press(.home)
@@ -429,7 +485,7 @@ final class StudyJourneyTests: XCTestCase {
     }
     func test13ColdLaunchToResponsiveLearningHome() {
         let options = XCTMeasureOptions(); options.iterationCount = 3
-        measure(metrics:[XCTApplicationLaunchMetric(waitUntilResponsive:true)],options:options) {
+        measure(metrics:[XCTApplicationLaunchMetric(waitUntilResponsive:true),XCTMemoryMetric(application:app),XCTCPUMetric(application:app)],options:options) {
             app.terminate(); app.launch()
             XCTAssertTrue(app.tabBars.buttons["学ぶ"].waitForExistence(timeout:30))
             XCTAssertFalse(app.staticTexts["データを開けませんでした"].exists)
