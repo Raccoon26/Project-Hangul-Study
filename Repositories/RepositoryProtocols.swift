@@ -58,9 +58,11 @@ protocol ProgressRepository: Sendable {
     func deferUnavailableListening(ids: [ContentID], contentVersion: Int) async throws
     func beginListening(scope: String, questions: [ListeningQuestion], version: Int, review: Bool) async throws -> ListeningSession
     func updateListening(_ expected: ListeningSession, action: ListeningAction, now: Date) async throws -> ListeningSession
+    func saveListeningDraft(_ expected: ListeningSession, text: String, sequence: Int) async throws
     func activeProduction(scope: ContentID) async throws -> ProductionSession?
     func beginProduction(scope: ContentID, questions: [ProductionQuestion], version: Int) async throws -> ProductionSession
     func updateProduction(_ expected: ProductionSession, answer: String?) async throws -> ProductionSession
+    func saveProductionDraft(_ expected: ProductionSession, text: String, sequence: Int) async throws
     func grammarStatuses(ids: [ContentID]) async throws -> [GrammarLessonStatus]
     func beginGrammar(lesson: ContentID, ids: [ContentID], contentVersion: Int, restart: Bool) async throws -> GrammarSession
     func grammarSession(id: UUID) async throws -> GrammarSession

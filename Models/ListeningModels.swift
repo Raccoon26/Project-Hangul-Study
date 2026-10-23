@@ -53,6 +53,9 @@ struct ListeningSession: Codable, Sendable {
     var heard = false
     var result: InputJudgement?
     var answer: String?
+    // Optional fields preserve decoding of every deployed snapshot.
+    var draft: String? = nil
+    var draftSequence: Int? = nil
     var revision = 0
     var correct = 0
     var wrong = 0
@@ -75,13 +78,13 @@ struct ListeningSession: Codable, Sendable {
         case .submit(let value):
             guard heard, result == nil, !ProductionAnswer.normalize(value).isEmpty, value.count <= 500,
                   q.task == .dictation || q.choices.contains(where: { $0.id == value }) else { throw GrammarError.invalidState }
-            answer = value; result = q.judge(value)
+            answer = value; result = q.judge(value); draft = nil
             if retrying { if result == .correct { retrySuccess += 1 } }
             else if result == .correct { correct += 1 }
             else { wrong += 1; retry.append(position) }
         case .next:
             guard result != nil else { throw GrammarError.invalidState }
-            result = nil; answer = nil; heard = false
+            result = nil; answer = nil; draft = nil; heard = false
             if retrying { position = retry.isEmpty ? questions.count : retry.removeFirst() }
             else {
                 position += 1
@@ -97,6 +100,8 @@ struct ListeningSession: Codable, Sendable {
               (0...questions.count).contains(position), Set(retry).count == retry.count,
               retry.allSatisfy({ questions.indices.contains($0) }),
               (answer == nil) == (result == nil), result == nil || (heard && current != nil),
+              draft == nil || (current?.task == .dictation && result == nil && (draft?.count ?? 0) <= 500),
+              (draftSequence ?? 0) >= 0,
               !completed || (retry.isEmpty && result == nil), correct >= 0, wrong >= 0,
               correct + wrong <= questions.count, retrySuccess >= 0, retrySuccess <= wrong,
               playCount >= slowCount, slowCount >= 0 else { throw GrammarError.invalidState }

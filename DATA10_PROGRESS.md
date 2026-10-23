@@ -366,3 +366,58 @@ Curriculum 初中級→듣기/듣기 Catalog→단계별 목록에서 전용 코
 검증된 Source/Bundle·불변28fixture·코스/참조·runtime/회귀·기록 commit `638d46a256344bae543368c90d21dd0498dea864`를 `codex/data10-6-listening-integration`에 일반 push했고 [PR #23](https://github.com/Raccoon26/Project-Hangul-Study/pull/23)을 생성했다. ls-remote/PR head와 로컬SHA 일치, main 대상 MERGEABLE/CLEAN·statusCheckRollup=[] 확인. `gh pr checks --required`는 no checks reported(exit1)로 원격 CI PASS가 아니다. 실행 근거는 로컬418PASS·strict/전행/byte 재현·정적/SQL/AI검수이며 Native/사람 gate는 유지한다.
 
 이 인계 문서 보충은 검증된 코드/Source/Bundle/테스트를 바꾸지 않는다. 보충commit을 정상 push하고 최신head/checks/mergeability를 다시 확인한 후 기존 위임/정책에 따라 admin/force 우회 없는 정상 병합을 수행한다. 이후 fetch/ff-only로 main=origin/main 전체SHA/clean 및 배포 Source/Bundle hash를 확인한다. 최종 merge SHA와 상태는 Git/PR·최종 응답이 기준이며 자기SHA를 기록하려고 문서commit을 반복하지 않는다. DATA10-6에서 종료하고 다음 단계는 시작하지 않는다.
+
+## 7. DATA-10-7 — Mac Native Full Regression (진행 중, 완료 아님)
+
+### 7.1 시작과 보존
+
+2026-10-21 Mac 로컬에서 명시 요청에 따라 시작했다. 지정 origin `Raccoon26/Project-Hangul-Study`, 인증 Raccoon26/ADMIN/기본 main, fetch 후 main/origin/main `59d3bc7636c2b22ce7a0e21899fa1deeb2bbfedb`·ahead/behind0/0·미커밋0을 확인하고 ff-only 후 `codex/data10-7-native-regression`을 생성했다. 현재 Content29/Schema4/reader7/UserProgress10·Source/배포DB·Stable ID/114개 보호 경로의 시작 SHA를 외부 작업 디렉터리에 기록했다. 이번 코드 회귀 작업에서 Production 교체·콘텐츠 버전 증가는 하지 않는다.
+
+AGENTS/PROJECT_STATUS/CONTENT_GUIDE/DATA_PROGRESS/RELEASE_CHECKLIST/DATA08/09/10 원장과 DATA08/09 시스템 감사, DATA10 native findings·QA·통합 기록, DEV13/14의 Known Issues/부분 구현을 대조했다. 상위 신규 과정/전문 녹음/전체 자유작문/새 적응형 scheduler는 기존 범위 공백이며 이번 버그 수정으로 새로 구현한 것으로 주장하지 않는다. 기존 native 실패·실제 활용 오류·구매 cache·입력 초안 소실과 현재 모든 엔진의 실제 저장/복원을 우선 검증한다.
+
+Xcode27.1(27A9275), macOS27/arm64/8GiB. 공식 고정 GoogleMobileAds13.11.0/UMP3.1.0 resolve 성공. 실제 iPhone 연결0, 새 작업용 iOS26.0.1 iPhone17Pro Simulator를 생성했다(기존 기기 erase/삭제0). Mac 기본 Python3.11.6/SQLite3.44 STAT4는 그대로이며 별도 `setup_exact_writer.py`로3.53.1 writer를 준비했다. 현재29→임시출력 strict previous28 오류0/기존10경고·배포DB byte/SHA `228d5572391d4c56509f83c57415c9b76b69c82ce2e7e48ebea82af97630b4af` 일치를 확인했다.
+
+### 7.2 최초 native 재현과 수정 순환
+
+수정 전 실제 최신148 XCTest **실행148/통과142/실패6/skip0**, 정상 exit65·봉인 xcresult. 930 assertion 실패는 대부분 발음 테스트가 Vocabulary 코스를 고른 결과이며930개 앱 버그로 세지 않는다. 기존5메서드 실패와 DATA08 전체 듣기 수량의 과거 가정1개가 추가됐다. 초기 실행 로그/xcresult 요약을 최종 보고에 보존한다.
+
+1. 활용 P1: ㅚ/ㅙ medial index를 잘못 매핑해 되요/됬어요/되서·뵈요/뵜어요/뵈서를 생성했다. ㅚ→ㅙ·기존ㅙ 유지로 수정하고 기존 꿰다 과거 기대값의 ㅝ 오기를 ㅞ인 뀄어요로 교정했다. 한국어기초사전 되어(돼)·뵈어(봬)·꿰어(꿰)를 근거로 사용하며 전체 언어 검수로 확대하지 않는다. 현재85개 -되다 실제 사전 present/past/future와 전1,227 authored 입력문항을 확인하는 native 회귀를 추가했다.
+2. 구매 cache: Keychain OSStatus를 버리던 처리를 명시 결과(없음/저장된 verified/접근·해독 실패)로 구분했다. 접근 실패를 free로 판정하지 않고 광고를 차단한다. 검증 거래만 cache에 쓰며 실패를 일본어로 안내한다. 실제 Keychain insert/update/cold read/delete와 실패 상태 회귀를 추가했고 unsigned Simulator의 기존 cold cache 실패는 정상 ad-hoc 서명 비교로 원인을 확인한다. 아직 재검사 전이므로 구매 PASS로 표시하지 않는다.
+3. 오래된 테스트 cohort: DATA06의80 stable ID registry로 정확한 원배치를 확인하고 후속 DATA07도 validate한다. 발음 코스는 고유 ID로 조회한다. DATA08의1,821 고정 받아쓰기 검사를 유지하면서 전체 pagination은 현재 active DB ID 집합과 대조한다. 수량을 임의로 바꾸거나 데이터를 축소하지 않는다.
+
+현재 관련 native 재검사 및 portable 실행 중이다. UI 도구는 Simulator 이름/경로/bundle 연결 실패·Xcode 접근 timeout을 반환했다. 실제 XCUITest 화면 대체 검증을 준비하며 수동/기기 UI PASS로 꾸미지 않는다. 전체 Debug/Release/device architecture·전체 native/portable·핵심 E2E와 문서/PR/병합은 아직 완료하지 않았다. DATA10-8/11은 시작하지 않는다.
+
+
+### 7.3 2026-10-22 재개·UI 회귀 순환(아직 최종 완료 아님)
+
+fetch 후 기준 main SHA 불변, 기존 단계 변경을 보존하여 같은 브랜치를 이어간다. 첫 전체 `sh Tools/verify.sh`에서 portable418/418 PASS(984.232초)·SDK resolve/Debug Simulator/Release Simulator/unsigned Release 기기 아키텍처 Build PASS, native155/155 PASS·UI11 중7 PASS/4 FAIL(전체166 중162 PASS/4 FAIL/skip0, exit65)이다. 최종 전체 PASS로 표시하지 않는다.
+
+추가한 native7회귀는 활용85개/출제1,227개/ㅎ 사전 네 항목·실제 signed Keychain·cache fail closed·초안 cold/legacy/late-write/재시도·observer 해제를 검사한다. 미제출 초안 optional JSON을 추가했으며 schema/ID/Production114파일은 불변이다. 원래 엔진/Validator/일반 답안 정규화를 유지한다. DATA08 P1 관련 native 다섯 메서드도 전체 검사에 포함되어 PASS했다.
+
+실제 XCUITest로 회독20어휘→2회독/완료·Grammar→퀴즈→SRS·사전 활용/즐겨찾기/설정 재시작 보존·자모/받침/비음화 수료·Content29 듣기5문항/정답 후 참조/레슨 Resume를 확인했다. 잘못된 편집 조작/과거12문항에20개 가정/선택한 레슨보다 최신 활성 Resume/VoiceOver transcript label/뒤로가기 버튼 오선택 등 테스트 오류는 재현 화면과 actual DB에 맞춰 고쳤다. 메뉴의 `すべてを選択`은 Button이 아니라 MenuItem임을 실제 AX tree로 확인했다. assertion을 제거하거나 잘못 입력된 답을 정답 처리하지 않는다.
+
+새 UI12는 실제 긴 한국어 TTS 중 Home 버튼→백그라운드→복귀→중단된 재생의 답 공개 금지→정상 재재생/채점→판정 보존 PASS. 첫 responsive launch 관찰은 Debug Simulator 3회10.789/11.110/8.141초(평균10.013초)로 느렸으며 Mac/Simulator 부하와 앱 경로를 조사한다. 이를 실제 iPhone 성능/정상 속도 인증으로 표현하지 않는다. 홈 대비 감사 실패와 Dynamic Type 일부 대응 실패는 실제 화면 스타일을 수정하고 필터/무시 없는 감사를 반복한다. 작은 iPhone SE3·Dark·접근성 최대 글자 크기의 native/UI도 순차 검사 중이다.
+
+사용자는 현재 케이블이 없어 iPhone 연결 불가·내일부터 가능하다고 확인했다. 물리 기기/배터리/VoiceOver 발화/비행기모드/실제 거래·광고와 독립 사람 검수는 BLOCKED/NOT TESTED를 유지하며 자동 예약/다음 단계를 만들지 않는다. 상세 진행·실패 근거는 `Docs/DATA10_NATIVE_REGRESSION.md`, 시작 SHA 원장은 `Docs/DATA10_NATIVE_BASELINE.json`, 원시 로그/xcresult는 `/tmp/hangul-data10-7`이다. 최종 전체 검사와 PR/병합은 아직 남아 있다.
+
+### 7.4 2026-10-23 중단 지점 재개
+
+Git fetch/auth/권한을 다시 확인했고 main/origin/main은 `59d3bc7636c2b22ce7a0e21899fa1deeb2bbfedb`, ahead/behind0/0이다. 미커밋 변경은 이 단계에서 작성한 파일이며 같은 브랜치에서 보존한다. 보호 대상114파일 SHA 불일치0을 재확인했다. 아직 최종 완료·Commit/Push/PR/병합 전이다.
+
+다운로드된 SPM binary artifact의 Info.plist가 없어진 환경 실패로 SmallProduction18은 build 실패/테스트0이었다. 기존 생성 캐시는 외부 경로에 보존하고 새 `/tmp/hangul-data10-7/Packages20`에 동일 고정 AdMob13.11.0/UMP3.1.0을 resolve해 복구했다. 원본/Package.resolved/SDK 버전 변경0이다. `resolve-repair19`의 명령 exit0만으로 artifact 복구 PASS를 주장하지 않고, 실제6개 Info.plist와 후속 build/test를 확인했다.
+
+`SmallProduction21.xcresult`: 작은 SE3/iOS26.0.1·Dark·접근성 최대 글씨에서 UI06 **1/1 PASS(163.370초, skip0, 명령 exit0)**. 실제 걷다 현재/과거/조건3문항, 미제출 초안 종료/복원/편집/정답/완료까지 확인했다. 이전 테스트의 입력란 조기 선택과 UIKit 편집 메뉴 차이를 고쳤다. 일반 크기에서는 MenuItem, 접근성 최대에서는 Button으로 보일 수 있어 두 실제 요소 유형을 지원하며 입력 후 정확한 문자열 assertion을 유지한다. 앱의 임시 제출 진단 로그는 제거했다. UI setup/teardown은 비동기 MainActor에서 실행해 새 actor 경고를 제거했다. 키보드 전환의 invalid-frame runtime warning은 별도 조사 대상으로 남기며 크래시/수정 완료로 표시하지 않는다.
+
+일반 화면의 UI10/14 접근성 감사와 이후 최신 전체 검사를 계속한다. 현재 `xctrace list devices`에 실제 iPhone0이므로 물리 기기 gate는 계속 BLOCKED다. 사용자의 10월22일 케이블 미보유 답변은 당시 이력이며 오늘 연결 완료로 가정하지 않는다. DATA10-8/11은 시작하지 않는다.
+
+### 7.5 안전한 checkpoint — 미완료 검증 보존
+
+NormalAudits22는 UI10/14 **2실행/0 PASS/2 FAIL**, skip0/exit65다. 검색 화면 감사는 통과했지만 홈·학습 진입·통계·설정에 대비/Dynamic Type/텍스트 잘림 이슈가 남는다. 프레임이 스크롤/상단 바에 가려진 항목과 실제 큰 글씨 행 제약을 구분해 조사한다. 필터/skip0이며 아직 외부 도구 문제로 전부 확정하지 않았다. 저장소 밖 단순 SwiftUI 재현 앱 AuditProbe23/24도 비슷한 대비 실패가 났으며 제품 XCTest 수에는 합산하지 않는다. 원본 최소 재현은 `/tmp/hangul-data10-7/AuditProbe`다.
+
+통계/설정의 값 표시를 접근성 크기에서 세로 배치하고 긴 Text/재개 버튼이 세로로 늘어나도록 수정했다. NormalAudits25는 다시 SPM Info.plist 유실로 **build 실패/테스트0**이었다. ignored `.build/data10-7/Packages26`에서 같은 고정 SDK를 resolve해6개 Info.plist를 확인했고 NormalAudits26을 실행 중이다. 이 새 화면 수정은 아직 검증 완료로 표시하지 않는다. 핵심 입력 판정/콘텐츠/사용자 DB migration은 불변이다.
+
+Mac 여유 공간이 실제200MB 수준까지 감소했다. 작업에서 생성한 중복 attachment export17개(883,321,017bytes)만 정리했고 원본 봉인 xcresult와 manifest/로그는 보존했다. 이전 작업 소유 QA Simulator 두 개는 종료 상태에서 app support를 SHA 일치 복사해 보존한 뒤 정리했다. 사용자 소유 Simulator·개인 파일·Production/fixture는 삭제0이다. 사용자에게 프로젝트 외 개인 파일 정리로 여유 공간 확보를 요청했으며 답변 대기다. 공간과 SDK 유실의 인과를 확정하지 않는다.
+
+검색/통계/설정 관련 focused Portable33/33 PASS(0.725초, exit0), 보호114파일 SHA 불일치0, diff whitespace 오류0. 봉인 실행31개 요약은 `Docs/DATA10_NATIVE_RUNS.json`, 원시69로그와 Validator/중복 export 정리 근거는 `Docs/DATA10_NATIVE_CHECKPOINT_LOGS.tar.gz`에 저장했다. 반복 검사 수를 고유 테스트 수로 합산하지 않는다.
+
+이 checkpoint는 중단 시 수정과 실패 근거를 잃지 않기 위한 branch 보존이다. 최종 전체검사·물리기기·main 병합은 완료되지 않았다. 재개 순서: fetch/status 및 이 브랜치 확인 → 충분한 디스크 여유/SDK Info.plist 확인 → NormalAudits26 결과 확인/접근성 수정 반복 → 작업 소유 QA app 상태 보존 후 fresh install 전체 `Tools/verify.sh`(정상 서명·직렬·exact writer) → 모든 필수 검사 통과 후에만 PR ready/merge/main SHA 일치 확인. 실행 명령/xcresult는 `/tmp/hangul-data10-7`에 있다. 다음 DATA 단계는 시작하지 않는다.

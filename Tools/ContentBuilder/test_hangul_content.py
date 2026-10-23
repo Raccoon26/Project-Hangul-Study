@@ -62,7 +62,7 @@ class HangulContentTests(unittest.TestCase):
         generator=(ROOT/'Tools/generate_project.py').read_text()
         self.assertIn('source_db="$SRCROOT/Resources/content.sqlite"',generator)
         self.assertNotIn('source_db="$SRCROOT/Resources/content-fixture.sqlite"',generator)
-        self.assertIn("test_resource_files=['Resources/content-fixture.sqlite','Config/RemoveAds.storekit']",generator)
+        self.assertIn("test_resource_files=['Resources/content-fixture.sqlite','Config/RemoveAds.storekit','Content/data06-ids.json']",generator)
         self.assertNotIn('let allowFixture = true',(ROOT/'Services/AppContainer.swift').read_text())
     def test_hangul_referenced_by_lessons_and_confusions_present(self):
         self.assertEqual(self.db.execute('SELECT COUNT(*) FROM hangul h WHERE NOT EXISTS(SELECT 1 FROM lesson_items li WHERE li.content_id=h.id)').fetchone()[0],0)

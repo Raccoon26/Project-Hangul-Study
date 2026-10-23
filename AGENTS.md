@@ -11,6 +11,14 @@
 - force push, 파괴적 reset/clean, 이력 재작성, 기존 Production/fixture 삭제, 데이터 축소를 통한 전달 우회를 금지한다. Xcode/Simulator 유무는 환경별로 다시 확인한다. Cloud portable PASS를 Mac native PASS로 바꾸지 않으며 설치되지 않은 native/실기기 gate는 BLOCKED로 유지한다.
 - Python/SQLite 버전과 `PRAGMA compile_options`도 확인한다. DATA10-1 당시 배포24는 SQLite3.53.1의31테이블이다. Mac SQLite3.44.0의 ENABLE_STAT4 재구성은 같은31테이블의 행이 일치해도 추가 sqlite_stat4 때문에32테이블·SHA가 다르다(`Docs/DATA10_REBUILD_COMPARISON.json`). 이를 byte-exact PASS로 표시하거나 시스템 통계 테이블을 임의 삭제/검사 완화해 맞추지 않는다. 임시 재구성만 비교하고 Production을 보존하며, 실제 후속 배포 전 동일 writer 버전/compile profile의 재현 환경을 확인한다.
 
+## DATA-10-7 Mac 회귀 진행 기준 (2026-10-23, 완료 아님)
+
+- 같은 `codex/data10-7-native-regression` 브랜치를 재개한다. 기준 main은59d3bc7636c2b22ce7a0e21899fa1deeb2bbfedb, Content29/Schema4/reader7/UserProgress10·Production/fixture114파일 byte 불변이다. 최신 DATA10_PROGRESS §7/Docs/DATA10_NATIVE_REGRESSION을 읽고 중간 checkpoint를 완료로 해석하지 않는다.
+- 최초 전체 Portable418·Unit155 PASS와 UI11 중4실패를 구분한다. 현재 UI14개 정의, 접근성10/14 실패 및 최신 전체 재검증 대기다. 테스트 skip/필터로 우회하거나 main에 실패 상태를 병합하지 않는다. 작은 SE3/Dark/AXXXL의 실제 입력 초안 복원/편집/채점 UI06은1/1 PASS했다.
+- optional draft/draftSequence는 기존 JSON과 호환된다. 콘텐츠·UserProgress schema를 올리지 않는다. 늦은 입력을 현재 문항/turn·sequence로 거르고 판정/SRS/event와 분리한다. 활용은 ㅚ→ㅙ/ㅙ 유지 및 검수한 네 ㅎ형만 보완하며 일반 입력 판정을 완화하지 않는다. 구매 cache 접근 오류는 free로 취급하지 않는다.
+- Native는 ad-hoc signed Simulator, jobs1/parallel testing NO로 실제 Keychain을 검사한다. 실제 사용자 iPhone에서 테스트용 구매 cache 초기화 검사를 실행하지 않는다. 작업 소유 QA Simulator만 사용하고 사용자 Simulator/기록은 보호한다. 실기기·실제 광고/거래·독립 사람/TTS 검청 gate는 실행 근거 없이 PASS로 바꾸지 않는다.
+- 다운로드된 binary artifact Info.plist 유실과 Mac 디스크 부족이 반복됐다. resolve exit0만 믿지 말고 두 XCFramework의 Info.plist/고정13.11.0·3.1.0/실제 build를 확인한다. 원본/fixture·사용자 파일을 정리 대상으로 삼지 않는다. 현재 native 산출물은 /tmp/hangul-data10-7, 새 패키지 cache는 ignored .build/data10-7/Packages26이다.
+
 ## DATA-10-6 통합 현재 기준
 
 - 현재 Content29/Schema4/reader7/UserProgress10이다. DATA10 신규180원문/360문항은 그대로이며 기존 ID를 참조하는3코스/72레슨/6Unit·레슨당5문항을 추가했다. 신규 UUID81개·membership360·Grammar180/Vocabulary180 관계이며 수량에 신규 원문/문항으로 더하지 않는다. 기존103레슨/코스0~7·모든 learning_order와20문항 연습번호를 보존했다.

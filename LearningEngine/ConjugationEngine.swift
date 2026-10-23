@@ -50,8 +50,13 @@ enum ConjugationEngine {
             guard pt == 0 else { throw GrammarError.changedContent }
             return pp+syllable(pl,pv,8)+([0,8].contains(pv) ? "라" : "러")
         }
-        // ㅎ lexical exceptions require reviewed overrides; never guess their vowel.
-        if irregular == "h" { throw GrammarError.changedContent }
+        // Reviewed bases for the four published ㅎ adjectives. This is deliberately
+        // lexical: do not infer vowels for other ㅎ stems. Authored overrides win.
+        if irregular == "h" {
+            let reviewed = ["어떻":"어때", "빨갛":"빨개", "파랗":"파래", "노랗":"노래"]
+            guard let base = reviewed[stem] else { throw GrammarError.changedContent }
+            return base
+        }
         if stem.hasSuffix("하") { return String(stem.dropLast())+"해" }
         guard irregular == "none" else { throw GrammarError.changedContent }
         if t != 0 { return stem+([0,8].contains(v) ? "아" : "어") }
@@ -59,13 +64,16 @@ enum ConjugationEngine {
             let preceding = try? parts(p)
             return p+syllable(l,preceding.map { [0,8].contains($0.2) } == true ? 0 : 4,0)
         }
-        let contracted: [Int:Int] = [0:0,4:4,6:6,8:9,9:9,13:14,14:14,20:6,1:1,5:5,7:7,10:11,11:11,15:15]
+        // Hangul medial indices: ㅙ=10, ㅚ=11, ㅞ=15. 되어→돼,
+        // 뵈어→봬; an existing ㅙ/ㅞ must keep its vowel (꿰어→꿰).
+        let contracted: [Int:Int] = [0:0,4:4,6:6,8:9,9:9,13:14,14:14,20:6,1:1,5:5,7:7,10:10,11:10,15:15]
         if let target = contracted[v] { return p+syllable(l,target,0) }
         return stem+"어"
     }
     static func generate(lemma: String, partOfSpeech: String, irregular: String?, form: ConjugationForm, overrides: [String:String] = [:]) throws -> ConjugationResult {
         guard ["verb","adjective"].contains(partOfSpeech), lemma.hasSuffix("다"), lemma.count > 1,
-              let irregular = irregular, ["none","other","b","d","s","reu","h"].contains(irregular) else { throw GrammarError.changedContent }
+              let irregular = irregular, ["none","other","b","d","s","reu","h"].contains(irregular),
+              irregular != "h" || partOfSpeech == "adjective" else { throw GrammarError.changedContent }
         guard form != .wish || partOfSpeech == "verb" else { throw GrammarError.changedContent }
         let stem = String(lemma.dropLast())
         let (_,_,_,t) = try parts(stem)

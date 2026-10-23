@@ -1,3 +1,15 @@
+# DATA-10-7 / Mac Native 회귀·버그 수정 — 진행 중
+
+2026-10-23 재개. **완료 아님 / main 미병합 / Release B—Conditional**. Content29/Schema4/reader7/UserProgress10과 Production·fixture114파일 byte를 보존한다. 현재 브랜치 `codex/data10-7-native-regression`, 기준 main `59d3bc7636c2b22ce7a0e21899fa1deeb2bbfedb`.
+
+첫 전체 검사: Portable418/418 PASS, Debug·Release Simulator/unsigned Release 기기 아키텍처 Build PASS, Unit155/155 PASS, 당시 UI11 중7 PASS/4 FAIL(전체166 중162 PASS/4 FAIL, exit65). 이후 실제 자모/받침/비음화 수료, 사전/저장/설정, TTS 중단, 작은 화면 초안 복원/편집/채점을 추가 확인했다. 최신 UI는14개이며 **전체 최종 재실행 전**이다. 활용 생성·구매 cache fail closed·입력 초안 저장·오디오 observer 수명을 수정했고 관련 native7회귀는 통과했다.
+
+남은 항목: UI10/14 접근성 감사 실패, 큰 글씨 행 배치/안내문 수정의 재검증, 최신 전체 검사, 실제 iPhone/광고·구매·독립 사람 검수. 다운로드 SPM artifact Info.plist 유실이 반복됐고 디스크 여유 공간이 일시200MB로 줄어 환경 복구도 진행한다. 실패 검사/Validator를 제거·skip·완화하지 않는다. 필수 검증 실패 상태에서 main을 병합하지 않는다.
+
+상세 범위·실패·재개 기록은 [DATA10_PROGRESS §7](DATA10_PROGRESS.md), [Native 보고](Docs/DATA10_NATIVE_REGRESSION.md)를 따른다. 실제 iPhone 미연결과 Simulator 실행 결과를 구분한다. DATA10-8/11은 시작하지 않는다. 아래 내용은 이전 단계 당시 이력이다.
+
+---
+
 # DATA-10-6 / Listening·Dictation Production 통합 — Content29
 
 **Content29 / Schema4 / reader7 / UserProgress10.** DATA10 신규180원문/360문항을 기존 ID로 初中級3코스·72레슨·6Unit에 배치했다. 레슨당5문항, 내용이해 후 별도 기회에 받아쓰기 등으로 이어지며 기존20문항 연습번호·순서·active snapshot은 보존한다. 해답 후 원문 learning point와 기존 Grammar180참조(77고유)·Vocabulary180참조(130고유)를 사전에 연결했다. 전용 듣기 엔진·SRS·Home Resume를 재사용하고 일반 LessonStep 경로와 구분했다.

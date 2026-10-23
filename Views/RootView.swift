@@ -7,15 +7,15 @@ struct RootView: View {
         Group {
             if model.container != nil {
                 TabView {
-                    NavigationStack { LearnView() }
+                    NavigationStack { LearnView().tint(.indigo) }
                         .tabItem { Label("学ぶ", systemImage: "book") }
-                    NavigationStack { LookupView() }
+                    NavigationStack { LookupView().tint(.indigo) }
                         .tabItem { Label("調べる", systemImage: "magnifyingglass") }
-                    NavigationStack { RecordsView() }
+                    NavigationStack { RecordsView().tint(.indigo) }
                         .tabItem { Label("記録", systemImage: "chart.bar") }
-                    NavigationStack { SettingsView() }
+                    NavigationStack { SettingsView().tint(.indigo) }
                         .tabItem { Label("設定", systemImage: "gearshape") }
-                }
+                }.tint(.primary)
                 .alert("確認", isPresented: Binding(get: { model.errorMessage != nil }, set: { if !$0 { model.errorMessage = nil } })) {
                     Button("閉じる", role: .cancel) { model.errorMessage = nil }
                 } message: { Text(model.errorMessage ?? "") }

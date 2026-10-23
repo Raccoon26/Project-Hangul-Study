@@ -2,6 +2,7 @@ import SwiftUI
 
 @MainActor
 struct LearnView: View {
+    @Environment(\.dynamicTypeSize) private var dynamicTypeSize
     @EnvironmentObject private var model: AppModel
     @EnvironmentObject private var preferences: LearningPreferencesStore
     @State private var shortReview = false
@@ -16,40 +17,42 @@ struct LearnView: View {
         List {
             Section {
                 Text("한국어").font(.largeTitle).accessibilityLabel("韓国語")
-                Text("少しずつ、長く学ぶ").foregroundStyle(.secondary)
+                Text("少しずつ、長く学ぶ").foregroundStyle(.primary).fixedSize(horizontal:false,vertical:true)
             }
             if let services = model.container {
                 if loaded && profile == nil {
-                    Section("はじめに") {
+                    Section {
                         NavigationLink("学習の開始位置を選ぶ") { PlacementView(services:services) }
-                        Text("初めての方も、学習経験のある方も。短い確認で始められます。既存の学習記録はそのまま残ります。").font(.subheadline).foregroundStyle(.secondary)
-                    }
+                        Text("初めての方も、学習経験のある方も。短い確認で始められます。既存の学習記録はそのまま残ります。").font(.subheadline).foregroundStyle(.primary).fixedSize(horizontal:false,vertical:true)
+                    } header: { Text("はじめに").foregroundStyle(.primary).fixedSize(horizontal:false,vertical:true) }
                 }
-                Section("続きから") {
+                Section {
                     if let resume = resume {
-                        Button(resume.title) { launch = resume }.frame(minHeight:44)
+                        Button { launch = resume } label: {
+                            Text(resume.title).font(.body).fixedSize(horizontal:false,vertical:true).frame(minHeight:44)
+                        }
                     } else if due > 0 || model.reviews.hasActiveSession || model.grammarReviews.hasActiveSession || model.listeningReviewActive {
                         NavigationLink("今日の復習に進む") { CurriculumReviewView(services:services) }
                     } else {
                         NavigationLink("\((profile?.level ?? .hangul).japaneseName)を学ぶ") { CurriculumLevelView(services:services,level:profile?.level ?? .hangul) }
                     }
-                }
-                Section("今日の復習") {
+                } header: { Text("続きから").foregroundStyle(.primary).fixedSize(horizontal:false,vertical:true) }
+                Section {
                     if model.reviews.due > 0 || model.reviews.hasActiveSession {
                         Button(model.reviews.hasActiveSession ? "短く復習 · 保存した続きから" : "短く復習 · \(preferences.value.amount.count)語") { shortReview = true }.frame(minHeight:44)
                     }
                     NavigationLink("\(due)項目 · 復習を確認") { CurriculumReviewView(services:services) }
-                    Text("復習と新しい学習は、どちらからでも始められます。").font(.footnote).foregroundStyle(.secondary)
-                }
-                Section("現在のコース") {
+                    Text("復習と新しい学習は、どちらからでも始められます。").font(.footnote).foregroundStyle(.primary).fixedSize(horizontal:false,vertical:true)
+                } header: { Text("今日の復習").foregroundStyle(.primary).fixedSize(horizontal:false,vertical:true) }
+                Section {
                     NavigationLink((profile?.level ?? .hangul).japaneseName) { CurriculumLevelView(services:services,level:profile?.level ?? .hangul) }
                     NavigationLink("維持学習") { MaintenanceView(services:services) }
                     NavigationLink("すべての学習段階") { CurriculumView(services:services) }
                     NavigationLink("開始位置・レベル診断") { PlacementView(services:services) }
-                }
+                } header: { Text("現在のコース").foregroundStyle(.primary).fixedSize(horizontal:false,vertical:true) }
             }
             if let error = error { Text(error); Button("読み直す") { Task { await refresh() } } }
-        }.listStyle(.insetGrouped).navigationTitle("学ぶ")
+        }.listStyle(.insetGrouped).navigationTitle("学ぶ").navigationBarTitleDisplayMode(dynamicTypeSize.isAccessibilitySize ? .inline : .large)
             .task { await refresh() }
             .fullScreenCover(isPresented:$shortReview,onDismiss:{Task { await refresh() }}) {
                 if let services = model.container { ReviewSessionView(services:services,sessionLimit:preferences.value.amount.count) }

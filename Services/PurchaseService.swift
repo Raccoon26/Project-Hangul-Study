@@ -3,15 +3,36 @@ import StoreKit
 import Security
 import Combine
 
-struct VerifiedPurchaseCache: Codable {
+struct VerifiedPurchaseCache: Codable, Equatable {
     let productID: String
     let transactionID: UInt64
     let purchaseDate: Date
 }
 
+enum PurchaseCacheRead {
+    case missing, verified(VerifiedPurchaseCache), unavailable(OSStatus)
+    var value: VerifiedPurchaseCache? {
+        if case .verified(let value) = self { return value }; return nil
+    }
+    var initialState: AdEntitlementState {
+        switch self {
+        case .missing: return .checking
+        case .verified: return .offlineProtected
+        case .unavailable: return .verificationFailed
+        }
+    }
+}
+protocol PurchaseCacheStoring {
+    func load() -> PurchaseCacheRead
+    @discardableResult func write(_ value: VerifiedPurchaseCache?) -> OSStatus
+}
+extension PurchaseCacheStoring {
+    func read() -> VerifiedPurchaseCache? { load().value }
+}
+
 /// Device-only cache. Never used as proof of purchase, and never written for pending,
 /// cancelled or unverified results. StoreKit's locally verified transactions are authoritative.
-struct PurchaseCacheStore {
+struct PurchaseCacheStore: PurchaseCacheStoring {
     #if DEBUG
     private let service = "HangulStudy.purchase.debug.v1"
     #else
@@ -21,27 +42,33 @@ struct PurchaseCacheStore {
         [kSecClass as String:kSecClassGenericPassword, kSecAttrService as String:service,
          kSecAttrAccount as String:MonetizationConfiguration.productID]
     }
-    func read() -> VerifiedPurchaseCache? {
+    func load() -> PurchaseCacheRead {
         var lookup = query
         lookup[kSecReturnData as String] = true
         lookup[kSecMatchLimit as String] = kSecMatchLimitOne
         var result: CFTypeRef?
-        guard SecItemCopyMatching(lookup as CFDictionary, &result) == errSecSuccess,
-              let data = result as? Data,
+        let status = SecItemCopyMatching(lookup as CFDictionary, &result)
+        if status == errSecItemNotFound { return .missing }
+        guard status == errSecSuccess else { return .unavailable(status) }
+        guard let data = result as? Data,
               let value = try? JSONDecoder().decode(VerifiedPurchaseCache.self, from:data),
-              value.productID == MonetizationConfiguration.productID else { return nil }
-        return value
+              value.productID == MonetizationConfiguration.productID else { return .unavailable(errSecDecode) }
+        return .verified(value)
     }
-    func write(_ value: VerifiedPurchaseCache?) {
-        guard let value else { SecItemDelete(query as CFDictionary); return }
-        guard let data = try? JSONEncoder().encode(value) else { return }
+    @discardableResult func write(_ value: VerifiedPurchaseCache?) -> OSStatus {
+        guard let value else {
+            let status = SecItemDelete(query as CFDictionary)
+            return status == errSecItemNotFound ? errSecSuccess : status
+        }
+        guard let data = try? JSONEncoder().encode(value) else { return errSecParam }
         let attributes: [String:Any] = [kSecValueData as String:data,
             kSecAttrAccessible as String:kSecAttrAccessibleAfterFirstUnlockThisDeviceOnly]
         let status = SecItemUpdate(query as CFDictionary, attributes as CFDictionary)
         if status == errSecItemNotFound {
             var insert = query; attributes.forEach { insert[$0.key] = $0.value }
-            SecItemAdd(insert as CFDictionary, nil)
+            return SecItemAdd(insert as CFDictionary, nil)
         }
+        return status
     }
 }
 
@@ -52,12 +79,15 @@ final class PurchaseService: ObservableObject {
     @Published private(set) var busy = false
     @Published private(set) var loadingProduct = false
     @Published private(set) var message: String?
-    private let cache = PurchaseCacheStore()
+    private let cache: any PurchaseCacheStoring
+    private var cacheSaveFailed = false
     private var listener: Task<Void, Never>?
     private var refreshTask: Task<Void, Never>?
     private var generation = 0
     private var started = false
-    init() { state = PurchaseCacheStore().read() == nil ? .checking : .offlineProtected }
+    init(cache: any PurchaseCacheStoring = PurchaseCacheStore()) {
+        self.cache = cache; state = cache.load().initialState
+    }
     deinit { listener?.cancel(); refreshTask?.cancel() }
 
     func start() {
@@ -97,7 +127,7 @@ final class PurchaseService: ObservableObject {
         do {
             try await AppStore.sync()
             await refresh(authoritativeSync:true)
-            if state == .verified { message = "購入を復元しました。広告は表示されません。" }
+            if state == .verified && !cacheSaveFailed { message = "購入を復元しました。広告は表示されません。" }
             else if state == .free { message = "復元できる購入は見つかりませんでした。購入時のApple Accountをご確認ください。" }
         } catch { message = "購入を復元できませんでした。接続とApple Accountをご確認ください。以前確認した購入は保護されます。" }
     }
@@ -129,8 +159,15 @@ final class PurchaseService: ObservableObject {
             }
         }
         guard generation == scanGeneration else { return }
-        if authoritativeSync { cache.write(nil) }
-        state = cache.read() == nil ? .free : .offlineProtected
+        if authoritativeSync {
+            state = cache.write(nil) == errSecSuccess ? .free : .verificationFailed
+        } else {
+            switch cache.load() {
+            case .missing: state = .free
+            case .verified: state = .offlineProtected
+            case .unavailable: state = .verificationFailed
+            }
+        }
     }
     private func matches(_ transaction: Transaction) -> Bool {
         transaction.productID == MonetizationConfiguration.productID && transaction.productType == .nonConsumable
@@ -140,9 +177,10 @@ final class PurchaseService: ObservableObject {
         if transaction.revocationDate != nil || transaction.isUpgraded {
             cache.write(nil); state = state.applying(.verifiedRevoked, hasVerifiedCache:false)
         } else {
-            cache.write(VerifiedPurchaseCache(productID:transaction.productID,
-                transactionID:transaction.id, purchaseDate:transaction.purchaseDate))
+            cacheSaveFailed = cache.write(VerifiedPurchaseCache(productID:transaction.productID,
+                transactionID:transaction.id, purchaseDate:transaction.purchaseDate)) != errSecSuccess
             state = state.applying(.verifiedActive, hasVerifiedCache:true)
+            if cacheSaveFailed { message = "購入は確認できましたが、端末に保護用の記録を保存できませんでした。再起動後は購入状態を再確認します。学習はそのまま利用できます。" }
         }
     }
     private func receive(_ result: VerificationResult<Transaction>) async {
@@ -150,7 +188,7 @@ final class PurchaseService: ObservableObject {
         case .verified(let transaction):
             guard matches(transaction) else { return }
             apply(transaction)
-            if state == .verified { message = "広告を削除しました。ご購入ありがとうございます。" }
+            if state == .verified && !cacheSaveFailed { message = "広告を削除しました。ご購入ありがとうございます。" }
             await transaction.finish()
         case .unverified(let transaction, _):
             guard transaction.productID == MonetizationConfiguration.productID else { return }

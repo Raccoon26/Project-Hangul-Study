@@ -44,6 +44,7 @@ struct ProductionStudyView: View {
     @State private var grammar: GrammarCard?
     @State private var grammarNotice: String?
     @State private var input = ""
+    @State private var draftSequence = 0
     @State private var error: String?
     @State private var busy = false
     var body: some View {
@@ -119,7 +120,8 @@ struct ProductionStudyView: View {
                         if session?.current?.grammarID == id { grammarNotice = "関連する文法の説明を読み込めませんでした。保存済みの問題は続けられます。" }
                     }
                 }
-            }.onDisappear { audio.stop() }
+            }.onChange(of:input) { saveDraft($0) }
+            .onDisappear { saveDraft(input); audio.stop() }
             .onChange(of:scenePhase) { phase in
                 if phase != .active { audio.stop(); focused = false }
             }
@@ -136,7 +138,7 @@ struct ProductionStudyView: View {
         if let message = audio.message { Text(message).font(.footnote) }
     }
     private func submit() {
-        guard !busy, session?.result == nil else { return }
+        guard !busy, session?.result == nil, !ProductionAnswer.normalize(input).isEmpty, input.count <= 500 else { return }
         focused = false
         let answer = input, revision = session?.revision
         Task { await change(answer, expectedRevision:revision) }
@@ -150,8 +152,18 @@ struct ProductionStudyView: View {
                 let questions = try await services.content.productionQuestions(id:id)
                 session = try await services.progress.beginProduction(scope:id,questions:questions,version:services.metadata.contentVersion)
             }
-            input = session?.answer ?? ""
+            draftSequence = max(draftSequence,session?.draftSequence ?? 0)
+            input = session?.answer ?? session?.draft ?? ""
         } catch { self.error = LearningErrorMessage.message(for: error) }
+    }
+    private func saveDraft(_ value: String) {
+        guard let s = session, !s.studying, s.result == nil, value.count <= 500 else { return }
+        draftSequence += 1
+        let sequence = draftSequence
+        Task {
+            do { try await services.progress.saveProductionDraft(s,text:value,sequence:sequence) }
+            catch { self.error = LearningErrorMessage.message(for:error) }
+        }
     }
     private func change(_ answer: String?, expectedRevision: Int?) async {
         guard !busy, error == nil, let s = session, s.revision == expectedRevision else { return }; busy = true

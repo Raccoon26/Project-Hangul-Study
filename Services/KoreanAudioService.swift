@@ -89,6 +89,14 @@ final class KoreanAudioService: ObservableObject, LearningAudioPlaying {
     }
 }
 
+/// Immutable ownership of a thread-safe NotificationCenter removal token.
+/// Automatic field destruction avoids reaching into actor-isolated storage from deinit.
+private final class AudioNotificationObservation {
+    private let token: NSObjectProtocol
+    init(_ token: NSObjectProtocol) { self.token = token }
+    deinit { NotificationCenter.default.removeObserver(token) }
+}
+
 @MainActor
 final class SystemAudioBackend: NSObject, AudioPlaybackBackend, AVSpeechSynthesizerDelegate, AVAudioPlayerDelegate {
     private let synthesizer = AVSpeechSynthesizer()
@@ -96,7 +104,7 @@ final class SystemAudioBackend: NSObject, AudioPlaybackBackend, AVSpeechSynthesi
     private var activeSpeech: ObjectIdentifier?
     private var activePlayer: ObjectIdentifier?
     private var finished: (@MainActor (Bool) -> Void)?
-    private var observers: [NSObjectProtocol] = []
+    private var observers: [AudioNotificationObservation] = []
     private var sessionActive = false
     var hasKoreanVoice: Bool { koreanVoice != nil }
     private var koreanVoice: AVSpeechSynthesisVoice? {
@@ -105,18 +113,17 @@ final class SystemAudioBackend: NSObject, AudioPlaybackBackend, AVSpeechSynthesi
     }
     override init() {
         super.init(); synthesizer.delegate = self
-        observers.append(NotificationCenter.default.addObserver(forName: AVAudioSession.interruptionNotification, object: nil, queue: .main) { [weak self] notice in
+        observers.append(AudioNotificationObservation(NotificationCenter.default.addObserver(forName: AVAudioSession.interruptionNotification, object: nil, queue: .main) { [weak self] notice in
             guard let value = notice.userInfo?[AVAudioSessionInterruptionTypeKey] as? UInt,
                   value == AVAudioSession.InterruptionType.began.rawValue else { return }
             Task { @MainActor [weak self] in self?.interrupted() }
-        })
-        observers.append(NotificationCenter.default.addObserver(forName: AVAudioSession.routeChangeNotification, object: nil, queue: .main) { [weak self] notice in
+        }))
+        observers.append(AudioNotificationObservation(NotificationCenter.default.addObserver(forName: AVAudioSession.routeChangeNotification, object: nil, queue: .main) { [weak self] notice in
             guard let value = notice.userInfo?[AVAudioSessionRouteChangeReasonKey] as? UInt,
                   value == AVAudioSession.RouteChangeReason.oldDeviceUnavailable.rawValue else { return }
             Task { @MainActor [weak self] in self?.interrupted() }
-        })
+        }))
     }
-    deinit { for observer in observers { NotificationCenter.default.removeObserver(observer) } }
     private func activate() throws {
         let session = AVAudioSession.sharedInstance()
         try session.setCategory(.playback, mode: .spokenAudio, options: [.duckOthers])

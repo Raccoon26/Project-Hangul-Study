@@ -1,6 +1,7 @@
 import XCTest
 import StoreKitTest
 import StoreKit
+import Security
 @testable import HangulStudy
 
 /// Runs only on macOS/Xcode with an iOS 17+ test destination. No real payment.
@@ -13,7 +14,7 @@ final class StoreKitPurchaseTests: XCTestCase {
         store.resetToDefaultState()
         store.disableDialogs = true
         store.clearTransactions()
-        PurchaseCacheStore().write(nil)
+        XCTAssertEqual(PurchaseCacheStore().write(nil),errSecSuccess,"Keychain cleanup must succeed in the signed Simulator host")
         defer { store.clearTransactions(); PurchaseCacheStore().write(nil) }
         let service = PurchaseService()
         await service.refresh(authoritativeSync:true)
@@ -26,6 +27,9 @@ final class StoreKitPurchaseTests: XCTestCase {
         XCTAssertEqual(service.state,.verified)
         XCTAssertFalse(service.state.permitsAds)
         XCTAssertFalse(service.busy)
+        let saved = PurchaseCacheStore().load()
+        if case .unavailable(let status) = saved { XCTFail("Keychain read failed: OSStatus \(status)") }
+        XCTAssertNotNil(saved.value,"Verified purchase must survive a cold service instance")
         let cold = PurchaseService()
         XCTAssertEqual(cold.state,.offlineProtected)
         await cold.refresh()

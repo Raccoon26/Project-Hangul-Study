@@ -15,15 +15,15 @@ if [ -z "${TEST_DESTINATION:-}" ]; then
   printf '%s\n' 'Set TEST_DESTINATION to an installed iOS 17+ simulator (xcodebuild -showdestinations). Tests will not silently be skipped.' >&2
   exit 2
 fi
-xcodebuild -resolvePackageDependencies -project HangulStudy.xcodeproj -scheme HangulStudy
-xcodebuild -project HangulStudy.xcodeproj -scheme HangulStudy \
+xcodebuild -jobs "${XCODEBUILD_JOBS:-1}" -resolvePackageDependencies -project HangulStudy.xcodeproj -scheme HangulStudy
+xcodebuild -jobs "${XCODEBUILD_JOBS:-1}" -project HangulStudy.xcodeproj -scheme HangulStudy \
   -configuration Debug -sdk iphonesimulator -destination 'generic/platform=iOS Simulator' \
   CODE_SIGNING_ALLOWED=NO build
-xcodebuild -project HangulStudy.xcodeproj -scheme HangulStudy \
+xcodebuild -jobs "${XCODEBUILD_JOBS:-1}" -project HangulStudy.xcodeproj -scheme HangulStudy \
   -configuration Release -sdk iphonesimulator -destination 'generic/platform=iOS Simulator' \
   CODE_SIGNING_ALLOWED=NO build
 # Also check device architecture; signing/distribution archive remains an owner release step.
-xcodebuild -project HangulStudy.xcodeproj -scheme HangulStudy \
+xcodebuild -jobs "${XCODEBUILD_JOBS:-1}" -project HangulStudy.xcodeproj -scheme HangulStudy \
   -configuration Release -destination 'generic/platform=iOS' CODE_SIGNING_ALLOWED=NO build
-xcodebuild -project HangulStudy.xcodeproj -scheme HangulStudy \
-  -configuration Debug -destination "$TEST_DESTINATION" CODE_SIGNING_ALLOWED=NO test
+xcodebuild -jobs "${XCODEBUILD_JOBS:-1}" -project HangulStudy.xcodeproj -scheme HangulStudy \
+  -configuration Debug -destination "$TEST_DESTINATION" CODE_SIGN_IDENTITY=- CODE_SIGNING_ALLOWED=YES -parallel-testing-enabled NO test

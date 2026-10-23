@@ -146,6 +146,7 @@ struct ListeningStudyView: View {
     @FocusState private var focused: Bool
     @State private var session: ListeningSession?
     @State private var input = ""
+    @State private var draftSequence = 0
     @State private var busy = false
     @State private var error: String?
     @State private var empty = false
@@ -175,6 +176,7 @@ struct ListeningStudyView: View {
                                     .autocorrectionDisabled().textInputAutocapitalization(.never)
                                     .submitLabel(.done).onSubmit { submit(input) }
                                     .accessibilityLabel("聞こえた韓国語を入力")
+                                    .disabled(busy)
                                 Text("文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。単語の間の空白も確認してください。")
                                     .font(.footnote).foregroundStyle(.secondary)
                                 if input.count > 500 { Text("500文字以内で入力してください。") }
@@ -221,7 +223,8 @@ struct ListeningStudyView: View {
             .toolbar(.hidden,for:.tabBar).scrollDismissesKeyboard(.interactively)
             .toolbar { ToolbarItemGroup(placement:.keyboard) { Spacer(); Button("閉じる") { focused = false } } }
             .task { if session == nil { await open() } }
-            .onDisappear { playback = nil; audio.stop() }
+            .onChange(of:input) { saveDraft($0) }
+            .onDisappear { saveDraft(input); playback = nil; audio.stop() }
             .onChange(of:scenePhase) { if $0 != .active { playback = nil; audio.stop() } }
             .onChange(of:audio.completedPlaybackCount) { _ in
                 guard let play = playback, let s = session, s.current?.id == play.question, s.revision == play.revision else { return }
@@ -297,8 +300,18 @@ struct ListeningStudyView: View {
                 if questions.isEmpty { session = nil; empty = true; return }
                 session = try await services.progress.beginListening(scope:scope,questions:questions,version:services.metadata.contentVersion,review:level == nil)
             }
-            input = session?.answer ?? ""
+            draftSequence = max(draftSequence,session?.draftSequence ?? 0)
+            input = session?.answer ?? session?.draft ?? ""
         } catch { self.error = LearningErrorMessage.message(for: error) }
+    }
+    private func saveDraft(_ value: String) {
+        guard let s = session, s.current?.task == .dictation, s.result == nil, value.count <= 500 else { return }
+        draftSequence += 1
+        let sequence = draftSequence
+        Task {
+            do { try await services.progress.saveListeningDraft(s,text:value,sequence:sequence) }
+            catch { self.error = LearningErrorMessage.message(for:error) }
+        }
     }
     private func change(_ action: ListeningAction, expectedRevision: Int? = nil) async {
         guard !busy, error == nil, let s = session,
