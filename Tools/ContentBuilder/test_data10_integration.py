@@ -152,7 +152,12 @@ class Data10IntegrationTests(unittest.TestCase):
                 if a['task']=='dictation':
                     answer=json.loads(self.db.execute('SELECT answer_json FROM questions WHERE id=?',[a['question_id']]).fetchone()[0]);self.assertEqual(answer,dict(accepted=[self.e[r['example_id']]['korean']]));count+=1
         self.assertEqual(count,150)
-        self.assertEqual(subprocess.check_output(['git','show','d76f0b89c38c892005de68aef206229234d141c9:LearningEngine/ConjugationEngine.swift'],cwd=ROOT),(ROOT/'LearningEngine/ConjugationEngine.swift').read_bytes())
+        # Preserve the complete input/spacing/punctuation policy byte-for-byte.
+        # DATA10-7 separately fixes conjugation; that unrelated fix must not freeze
+        # the old erroneous vowel table merely because both enums share a file.
+        before=subprocess.check_output(['git','show','d76f0b89c38c892005de68aef206229234d141c9:LearningEngine/ConjugationEngine.swift'],cwd=ROOT)
+        after=(ROOT/'LearningEngine/ConjugationEngine.swift').read_bytes()
+        self.assertEqual(before.split(b'enum ProductionAnswer {',1)[1],after.split(b'enum ProductionAnswer {',1)[1])
 
     def test_strict_rejects_missing_id_unrevised_relation_and_dangling_reference(self):
         with tempfile.TemporaryDirectory()as d:
@@ -174,8 +179,18 @@ class Data10IntegrationTests(unittest.TestCase):
             for term in ('%',"' OR 1=1 --",'_'):self.assertEqual(self.db.execute(query('SQLiteLookup','WITH terms'),[term]*3+[0]).fetchall(),[])
             u=user(version=10);self.assertIsNotNone(u.execute(query('SQLiteStatistics','SELECT COUNT(CASE'),[0,200]).fetchone());self.assertEqual(u.execute(query('SQLiteStatistics','SELECT p.content_id FROM item_progress'),[0,20]).fetchall(),[]);u.close()
 
-    def test_ads_purchase_entitlement_and_user_migration_sources_are_unchanged(self):
+    def test_ads_purchase_identity_and_user_migrations_stay_independent(self):
         names=subprocess.check_output(['git','ls-tree','-r','--name-only','d76f0b89c38c892005de68aef206229234d141c9','--','Monetization','Services','Resources'],cwd=ROOT,text=True).splitlines()
         protected=[n for n in names if n.startswith('Monetization/')or any(k in n for k in ('StoreKit','Purchase','Entitlement','AdMob','user-schema','user-migration'))]
         self.assertTrue(protected)
-        for name in protected:self.assertEqual((ROOT/name).read_bytes(),subprocess.check_output(['git','show','d76f0b89c38c892005de68aef206229234d141c9:'+name],cwd=ROOT),name)
+        for name in protected:
+            before=subprocess.check_output(['git','show','d76f0b89c38c892005de68aef206229234d141c9:'+name],cwd=ROOT)
+            after=(ROOT/name).read_bytes()
+            if name=='Services/PurchaseService.swift':
+                # DATA10-7 handles real Keychain errors. Preserve purchase identity,
+                # device-only storage and StoreKit authority, not the faulty I/O.
+                for identity in (b'HangulStudy.purchase.debug.v1',b'HangulStudy.purchase.release.v1',b'kSecAttrAccessibleAfterFirstUnlockThisDeviceOnly',b'Transaction.currentEntitlements',b'Transaction.latest',b'Transaction.updates',b'transaction.productType == .nonConsumable',b'transaction.productID == MonetizationConfiguration.productID'):
+                    self.assertIn(identity,before);self.assertIn(identity,after)
+                for forbidden in (b'contentVersion',b'user_metadata',b'content.sqlite',b'UserDefaults'):
+                    self.assertNotIn(forbidden,after)
+            else:self.assertEqual(after,before,name)

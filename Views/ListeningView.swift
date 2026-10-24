@@ -146,6 +146,7 @@ struct ListeningStudyView: View {
     @FocusState private var focused: Bool
     @State private var session: ListeningSession?
     @State private var input = ""
+    @State private var draftSequence = 0
     @State private var busy = false
     @State private var error: String?
     @State private var empty = false
@@ -166,8 +167,8 @@ struct ListeningStudyView: View {
                     } else if let q = s.current {
                         Text(s.retrying ? "間違えた問題をもう一度" : "\(s.position+1) / \(s.questions.count)").font(.subheadline)
                         ProgressView(value:Double(s.position),total:Double(s.questions.count)).accessibilityLabel("問題の進み具合")
+                        Text(q.prompt).font(.title3).fixedSize(horizontal:false,vertical:true)
                         audioControls(q,s:s)
-                        Text(q.prompt).font(.title3)
                         if s.result == nil {
                             if q.task == .dictation {
                                 TextField("韓国語で入力",text:$input,axis:.vertical)
@@ -175,6 +176,7 @@ struct ListeningStudyView: View {
                                     .autocorrectionDisabled().textInputAutocapitalization(.never)
                                     .submitLabel(.done).onSubmit { submit(input) }
                                     .accessibilityLabel("聞こえた韓国語を入力")
+                                    .disabled(busy)
                                 Text("文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。単語の間の空白も確認してください。")
                                     .font(.footnote).foregroundStyle(.secondary)
                                 if input.count > 500 { Text("500文字以内で入力してください。") }
@@ -221,7 +223,8 @@ struct ListeningStudyView: View {
             .toolbar(.hidden,for:.tabBar).scrollDismissesKeyboard(.interactively)
             .toolbar { ToolbarItemGroup(placement:.keyboard) { Spacer(); Button("閉じる") { focused = false } } }
             .task { if session == nil { await open() } }
-            .onDisappear { playback = nil; audio.stop() }
+            .onChange(of:input) { saveDraft($0) }
+            .onDisappear { saveDraft(input); playback = nil; audio.stop() }
             .onChange(of:scenePhase) { if $0 != .active { playback = nil; audio.stop() } }
             .onChange(of:audio.completedPlaybackCount) { _ in
                 guard let play = playback, let s = session, s.current?.id == play.question, s.revision == play.revision else { return }
@@ -231,15 +234,17 @@ struct ListeningStudyView: View {
     }
     @ViewBuilder private func audioControls(_ q: ListeningQuestion,s: ListeningSession) -> some View {
         if audio.availability(for:q.audio) == .available {
-            VStack(spacing:16) {
+            VStack(spacing:12) {
                 Button { play(q,s:s,speed:.normal) } label: {
-                    Label(s.heard ? "もう一度" : "聞く",systemImage:"speaker.wave.2.fill").font(.title).frame(minWidth:120,minHeight:80)
-                }.buttonStyle(.bordered).disabled(busy)
-                HStack {
-                    Button("ゆっくり") { play(q,s:s,speed:.slow) }.frame(minHeight:44).disabled(busy)
-                    if audio.isPlaying { Button("停止") { playback = nil; audio.stop() }.frame(minHeight:44) }
+                    Label(s.heard ? "もう一度" : "聞く",systemImage:"speaker.wave.2.fill")
+                        .font(.headline).fixedSize(horizontal:false,vertical:true).frame(maxWidth:.infinity,minHeight:60)
+                }.buttonStyle(.borderedProminent).disabled(busy)
+                LearningAudioControlRow {
+                    Button { play(q,s:s,speed:.slow) } label: { Text("ゆっくり").fixedSize(horizontal:false,vertical:true).frame(maxWidth:.infinity,minHeight:44) }.disabled(busy)
+                    Button { playback = nil; audio.stop() } label: { Text("停止").frame(maxWidth:.infinity,minHeight:44) }.disabled(!audio.isPlaying)
                 }
-            }.frame(maxWidth:.infinity)
+                Text(q.audio.source == .systemTTS ? "システム音声" : "確認用の録音音声").font(.caption).foregroundStyle(.secondary)
+            }.frame(maxWidth:600)
         } else if let message = audio.availability(for:q.audio).message {
             Text(message)
             Text("音声が使える状態になってから再開してください。途中の記録は保存されています。").font(.footnote)
@@ -253,7 +258,8 @@ struct ListeningStudyView: View {
         if !audio.play(q.audio,speed:speed) { playback = nil }
     }
     private func submit(_ answer: String) {
-        guard !busy, !audio.isPlaying, session?.heard == true, session?.result == nil else { return }
+        guard !busy, !audio.isPlaying, error == nil, session?.heard == true, session?.result == nil,
+              !ProductionAnswer.normalize(answer).isEmpty, answer.count <= 500 else { return }
         let revision = session?.revision
         focused = false; Task { await change(.submit(answer), expectedRevision:revision) }
     }
@@ -297,8 +303,18 @@ struct ListeningStudyView: View {
                 if questions.isEmpty { session = nil; empty = true; return }
                 session = try await services.progress.beginListening(scope:scope,questions:questions,version:services.metadata.contentVersion,review:level == nil)
             }
-            input = session?.answer ?? ""
+            draftSequence = max(draftSequence,session?.draftSequence ?? 0)
+            input = session?.answer ?? session?.draft ?? ""
         } catch { self.error = LearningErrorMessage.message(for: error) }
+    }
+    private func saveDraft(_ value: String) {
+        guard let s = session, s.current?.task == .dictation, s.result == nil, value.count <= 500 else { return }
+        draftSequence += 1
+        let sequence = draftSequence
+        Task {
+            do { try await services.progress.saveListeningDraft(s,text:value,sequence:sequence) }
+            catch { self.error = LearningErrorMessage.message(for:error) }
+        }
     }
     private func change(_ action: ListeningAction, expectedRevision: Int? = nil) async {
         guard !busy, error == nil, let s = session,

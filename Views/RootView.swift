@@ -15,7 +15,7 @@ struct RootView: View {
                         .tabItem { Label("記録", systemImage: "chart.bar") }
                     NavigationStack { SettingsView() }
                         .tabItem { Label("設定", systemImage: "gearshape") }
-                }
+                }.tint(.indigo)
                 .alert("確認", isPresented: Binding(get: { model.errorMessage != nil }, set: { if !$0 { model.errorMessage = nil } })) {
                     Button("閉じる", role: .cancel) { model.errorMessage = nil }
                 } message: { Text(model.errorMessage ?? "") }
@@ -40,5 +40,27 @@ struct FixtureNotice: View {
         Label("開発用サンプルです。学習教材の完成版ではありません", systemImage: "info.circle")
             .font(.footnote).foregroundStyle(.secondary)
             .fixedSize(horizontal: false, vertical: true)
+    }
+}
+
+extension View {
+    /// Let system list links wrap and grow instead of keeping a single-line row.
+    func learningRow() -> some View {
+        font(.body).lineLimit(nil).fixedSize(horizontal:false,vertical:true)
+    }
+}
+
+/// Keep audio actions in the same positions when playback starts or stops.
+/// The vertical arrangement follows the learner's text size, not playback state.
+struct LearningAudioControlRow<Content: View>: View {
+    @Environment(\.dynamicTypeSize) private var typeSize
+    @ViewBuilder let content: () -> Content
+    var body: some View {
+        let layout = typeSize.isAccessibilitySize
+            ? AnyLayout(VStackLayout(alignment:.leading,spacing:8))
+            : AnyLayout(HStackLayout(alignment:.center,spacing:12))
+        layout { content() }
+            .font(.body).buttonStyle(.bordered).labelStyle(.titleAndIcon)
+            .frame(maxWidth:600,alignment:.leading)
     }
 }

@@ -977,7 +977,7 @@ vocabulary.irregular_typeを必ず確認します。ㅂなら全語を機械的�
 
 overridesは**その質問のlemma/targetに対する確認済み出力**をキー=上記form enum、値=韓国語として書きます。例：`{"present":"어때요","past":"어땠어요"}`。新しい表ではなく既存rubric JSON内の最小契約です。重複JSONキーは既存readerが拒否します。同じvocabulary UUID/formの複数質問に異なる例外値を書くとValidatorが拒否します。将来辞書の一括活用表示に使う場合は、lemma単位の例外カタログへ集約する必要があります。現段階で全語彙の例外DBが完成しているわけではありません。
 
-ㅎの아/어形、하다複合語の안位置、푸다などはoverrideなしに推測生成しません。wishはverbのみ。form/blankのacceptedにはengineが生成する標準出力を含める必要があり、repositoryでも不一致を拒否します。縮約しない自然な形を併記できる場合はacceptedに追加します。例外で全単語を埋めてルールを迂回しないでください。
+ㅎの아/어形は推測生成しません。DATA10-7では現行の形容詞4語(어떻다/빨갛다/파랗다/노랗다)の確認済み語幹だけをengineで扱い、辞書の現在・過去表示の欠落を補います。質問の明示overrideを優先し、未確認のㅎ語幹・하다複合語の안位置・푸다などは従来どおりoverrideが必要です。新規authoringのValidator/accepted契約は緩和しません。wishはverbのみ。form/blankのacceptedにはengineが生成する標準出力を含める必要があり、repositoryでも不一致を拒否します。縮約しない自然な形を併記できる場合はacceptedに追加します。例外で全単語を埋めてルールを迂回しないでください。
 
 ### 検証
 

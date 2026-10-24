@@ -144,6 +144,15 @@ final class ListeningTests: XCTestCase {
                 all += questions
             }
         }
+        // Pin the authored DATA06 cohort; later DATA07 batches remain available.
+        struct Registry: Decodable { let id: String }
+        let registryURL = try XCTUnwrap(Bundle(for:Self.self).url(forResource:"data06-ids",withExtension:"json"))
+        let ids = Set(try JSONDecoder().decode([Registry].self,from:Data(contentsOf:registryURL)).map(\.id))
+        XCTAssertEqual(ids.count,80)
+        let later = all.filter { !ids.contains($0.itemID.rawValue) }
+        for q in later { try q.validate() }
+        all = all.filter { ids.contains($0.itemID.rawValue) }
+        XCTAssertEqual(Set(all.map { $0.itemID.rawValue }),ids)
         XCTAssertEqual(all.count,80)
         for task in [ListeningTask.meaning,.korean,.dictation,.comprehension] {
             XCTAssertEqual(all.filter { $0.task == task }.count,20)
@@ -237,7 +246,10 @@ final class ListeningTests: XCTestCase {
             }
             after = try XCTUnwrap(batches.last).0
         }
-        XCTAssertEqual(ids.count,1943)
+        let db = try SQLiteConnection(url:XCTUnwrap(Bundle.main.url(forResource:"content",withExtension:"sqlite")),readOnly:true)
+        let expected = try db.query("SELECT l.id FROM listening_items l JOIN content_items i ON i.id=l.id JOIN content_items e ON e.id=l.source_example_id JOIN questions q ON q.listening_id=l.id JOIN content_items qi ON qi.id=q.id WHERE i.level='lower_intermediate' AND i.is_active=1 AND e.is_active=1 AND qi.is_active=1")
+            .map { ContentID(rawValue:try $0.text("id")) }
+        XCTAssertEqual(ids,Set(expected)) // All current pages, independently of future batches.
         XCTAssertEqual(newCount,1821)
     }
 

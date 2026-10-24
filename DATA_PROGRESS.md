@@ -1,3 +1,21 @@
+# DATA-10-7 / Mac Native 회귀·버그 수정 — 진행 중
+
+2026-10-24 최신 상태: **완료 아님 / Draft PR #24 / main 미병합 / Release B—Conditional**. 브랜치 `codex/data10-7-native-regression`, 기준 main `59d3bc7636c2b22ce7a0e21899fa1deeb2bbfedb`. Content29/Schema4/reader7/UserProgress10·Production/fixture114파일 byte와 기존 사용자 기록을 보존한다.
+
+Release의 광고 ID 없는 SDK load-time 시작 crash(P0)를 수정해 서명 설치·실제 학습을 확인했다. 활용 생성·구매 cache fail closed/저장 오류 안내·미제출 초안 cold resume·오디오 observer 수명도 수정했다. Production ID를 생성하지 않았으며 ID 미설정 Release는 SDK 자체를 제외한다. Debug 테스트 광고와 기존 구매/광고 빈도 이력은 보존한다. 오늘 실제 Dark Home Resume의 낮은 글자 대비도 semantic primary로 교정해 재검증 중이다.
+
+최신 전체 Portable68 **419/419 PASS(1994.290초, failures/errors/skipped0)**, resolve·Debug/Release Simulator·unsigned 기기 architecture build 및 실제 Release 시작 UI68 **1/1 PASS**. signed iPhone Release build/학습 PASS 이력이 있다. 깨어 있는 SE3/Dark 전체76은 **169실행/165 PASS/4 FAIL/skip0/exit65**, Unit155/155 PASS다. 실패는 UI07 편집 메뉴, UI08 작은 화면의 즉시 가시성 가정, UI10/14 자동 접근성 감사다. 조작 보완 후 focused78의 UI08은5문항·사전 참조·cold resume·완료 PASS; UI07의 작은 화면 키보드 닫기 흐름은 추가 보완했다. 모든 실패를 기록하며 필터/skip/assertion 제거0이다.
+
+현재 최신 대비/검사 보완으로 전체169 NativeSmallAwake80을 실행하고, 실제 iPhone 연결 재확인·사전 app support 읽기 전용 복사 후 signed Release UI-only 전체14 PhysicalReleaseFull81을 순차 대기시켰다. 자연스럽게 due가 지난 듣기7개 E2E75는 정답/판정 cold resume·SRS reviewCount0→1/stage0→1·미래 due7/7·기존 연습 snapshot2개 byte 불변 PASS다. 보존한 다른 QA Simulator의 자연 due 어휘1개도 의미 공개/재개/평가/일정 변경 E2E82로 추가 확인한다. 반복/임시 검사를 저장소 고유169개에 합산하지 않는다.
+
+실제 iPhone13ProMax/iOS27.2에서 첫 학습·한글/발음·어휘 회독·문법/SRS·활용 입력·듣기 네 유형/받아쓰기·레슨·검색/즐겨찾기/통계/유지학습·설정/초안/판정 재시작 보존·오디오 백그라운드 중단 경로를 확인했다. 사용자는 한국어 스피커 청취, 비행기 모드/Wi-Fi OFF 학습/종료 후 재개·결과 유지, 큰 글씨 읽기/스크롤/버튼을 확인했다. **VoiceOver는 사용자 명시대로 추후/NOT TESTED**다. 짧은 launch/CPU/memory metric 및31초 idle Leaks 관찰을 장시간 배터리 검사로 확대하지 않는다.
+
+남은 gate: UI10/14 자동 대비/Dynamic Type/잘림 실패, 최신 전체/실기기 회귀, iOS17 StoreKit 반복 알림 루프(139 PASS 후 취소1/exit75), 실제 VoiceOver·전화/이어폰/장시간 배터리·Production AdMob/App Store 계정·독립 사람 언어 검수. 키보드 invalid-frame 경고는 최소 SwiftUI probe79의 툴바 유무 비교3/3 기능 PASS에서 툴바 두 case에만 재현됐다. 앱 crash/채점 오류나 전부 SDK 문제로 확대하지 않는다. **필수 실패 상태에서 완료/PR ready/main 병합하지 않는다.**
+
+자세한 실행·실패·사람 확인 범위는 [DATA10_PROGRESS §7](DATA10_PROGRESS.md)·[Native 보고](Docs/DATA10_NATIVE_REGRESSION.md)·[실행 원장](Docs/DATA10_NATIVE_RUNS.json)을 따른다. DATA10-8/11은 시작하지 않는다. 아래 내용은 이전 단계 당시 이력이다.
+
+---
+
 # DATA-10-6 / Listening·Dictation Production 통합 — Content29
 
 **Content29 / Schema4 / reader7 / UserProgress10.** DATA10 신규180원문/360문항을 기존 ID로 初中級3코스·72레슨·6Unit에 배치했다. 레슨당5문항, 내용이해 후 별도 기회에 받아쓰기 등으로 이어지며 기존20문항 연습번호·순서·active snapshot은 보존한다. 해답 후 원문 learning point와 기존 Grammar180참조(77고유)·Vocabulary180참조(130고유)를 사전에 연결했다. 전용 듣기 엔진·SRS·Home Resume를 재사용하고 일반 LessonStep 경로와 구분했다.
@@ -283,3 +301,9 @@ DEV seed 문장/문법/발음은 DB 전체에 포함. 이전 상세기록은 `Do
 生活動作・家事・状態・調理、関係・気持ち、学校/仕事、旅行/サービス、抽象語・副詞を拡充。初中級はまだ導入層。医療/公共サービス/住居・契約/具体的な趣味、初中級文法・聴解・産出問題を今後補う。全部の語に独立した聴解問題があるわけではない。
 
 Validator0errors/既存10warnings、新規duplicate候補0。Python/SQLite232tests PASS。Swift89ファイル構文parse0errors、XCTest/Release build/実機音声は未実行。次の更新は現在Content14をpreviousとして保存しContent15以上にする。
+
+
+2026-10-24 추가 검증: NativeSmallAwake80 **169/167 PASS/2 FAIL/skip0**, Unit155·기능 UI12 PASS, 자동 접근성10/14 FAIL. 실제 자연 due 어휘1개 E2E82와 듣기7개75 PASS·기존 SRS/이력 보존; SE3/Dark/최대 글씨의 검색·설정02(84) 및 유지학습/구매 화면09(93) PASS; live font89 PASS. 최신 signed iPhone Release UI14(96)→전체169(91)→build/Release smoke92를 직렬 재검사 중이다. VoiceOver는 사용자 명시로 NOT TESTED, DATA10-7 완료/출시 승인/main 병합 전이다. 상세·실패 보존: DATA10_PROGRESS §7.10 / Docs/DATA10_NATIVE_RUNS.json.
+
+
+2026-10-24 사용자 제보 후: 검색 상세의 흰 배경/흰 글자 회귀를 실제 crop/pixel로 재현(101 FAIL/밝기차0.0)하고 TabView primary tint 상속을 제거했다.104의 새 UI15 1/1 PASS. 음성 조작 위치 고정/중단/정답 비공개 UI12(102) PASS,102의 검색 탭 미진입 실패는 별도 보존. 이어하기 중복 닫기 바도 보완했다. 최신 정의170(Unit155+UI15)의 전체 Simulator91·실기기 Release15(103)·build92 결과 대기로 여전히 미완료/Draft/main 미병합이다. 상세 DATA10_PROGRESS §7.11.

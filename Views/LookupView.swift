@@ -4,30 +4,58 @@ import SwiftUI
 struct LookupView: View {
     @EnvironmentObject private var app: AppModel
     @StateObject private var model = LookupViewModel()
+    @FocusState private var searchFocused: Bool
+    private var searchText: Binding<String> {
+        Binding(get:{ model.term },set:{ value in
+            // A multiline field wraps large text, but Return still submits the
+            // search just as the former single-line search bar did.
+            if value.rangeOfCharacter(from:.newlines) != nil {
+                model.term = value.components(separatedBy:.newlines).joined(separator:" ")
+                    .trimmingCharacters(in:.whitespacesAndNewlines)
+                searchFocused = false
+            } else { model.term = value }
+        })
+    }
     var body: some View {
         Group {
             if let services = app.container {
-                List {
-                    Section {
-                        NavigationLink("保存した項目・苦手な項目") { SavedContentView(services:services) }
-                    }
-                    if model.term.trimmingCharacters(in:.whitespacesAndNewlines).isEmpty {
-                        Text("韓国語か日本語で、単語や文法を探せます。").foregroundStyle(.secondary)
-                        NavigationLink("最近見た項目") { SavedContentView(services:services,initial:.recent) }
-                    } else {
-                        if model.busy { ProgressView("検索中") }
-                        if !model.busy && model.entries.isEmpty && model.error == nil { Text("見つかりませんでした。基本形や短い言葉でも検索できます。").foregroundStyle(.secondary) }
-                        ForEach(model.entries) { entry in
-                            NavigationLink { LookupDetailView(services:services,reference:entry.reference) } label: { LookupRow(entry:entry) }
-                        }
-                        if model.more { Button("さらに表示") { Task { await model.next(services:services) } }.disabled(model.busy).frame(minHeight:44) }
-                    }
-                    if let error = model.error { Text(error); Button("もう一度検索") { Task { await model.search(services:services) } } }
-                }.searchable(text:$model.term,prompt:"韓国語・日本語")
+                results(services)
                     .scrollDismissesKeyboard(.interactively)
                     .task(id:model.term) { await model.search(services:services) }
             }
-        }.navigationTitle("調べる")
+        }.navigationTitle("調べる").navigationBarTitleDisplayMode(.inline)
+    }
+    private func results(_ services: AppContainer) -> some View {
+        List {
+            Section {
+                // A growing field keeps search readable at every text size.
+                // Search and cancellation still use the shared query model.
+                TextField("検索",text:searchText,prompt:Text("検索").foregroundColor(.primary),axis:.vertical)
+                    .textFieldStyle(.roundedBorder).font(.body).focused($searchFocused)
+                    .textInputAutocapitalization(.never).autocorrectionDisabled()
+                    .submitLabel(.search).onSubmit { searchFocused = false }
+                    .accessibilityIdentifier("dictionary-search")
+                    .accessibilityLabel("韓国語・日本語で検索")
+                if !model.term.isEmpty {
+                    Button("検索語を消す") { model.term = "" }.tint(.primary)
+                }
+            }
+            Section {
+                NavigationLink { SavedContentView(services:services) } label: { Text("保存した項目・苦手な項目").fixedSize(horizontal:false,vertical:true) }
+            }
+            if model.term.trimmingCharacters(in:.whitespacesAndNewlines).isEmpty {
+                Text("韓国語か日本語で、単語や文法を探せます。").foregroundStyle(Color.primary)
+                NavigationLink("最近見た項目") { SavedContentView(services:services,initial:.recent) }
+            } else {
+                if model.busy { ProgressView("検索中") }
+                if !model.busy && model.entries.isEmpty && model.error == nil { Text("見つかりませんでした。基本形や短い言葉でも検索できます。").foregroundStyle(Color.primary) }
+                ForEach(model.entries) { entry in
+                    NavigationLink { LookupDetailView(services:services,reference:entry.reference) } label: { LookupRow(entry:entry) }
+                }
+                if model.more { Button("さらに表示") { Task { await model.next(services:services) } }.tint(.primary).disabled(model.busy).frame(minHeight:44) }
+            }
+            if let error = model.error { Text(error); Button("もう一度検索") { Task { await model.search(services:services) } }.tint(.primary) }
+        }
     }
 }
 @MainActor
@@ -36,8 +64,8 @@ struct LookupRow: View {
     var body: some View {
         VStack(alignment:.leading,spacing:8) {
             Text(entry.title).font(.title2)
-            Text(entry.meaning).foregroundStyle(.secondary)
-            Text(entry.subtitle + " · " + entry.level.japaneseName).font(.caption).foregroundStyle(.secondary)
+            Text(entry.meaning).foregroundStyle(Color.primary)
+            Text(entry.subtitle + " · " + entry.level.japaneseName).font(.caption).foregroundStyle(Color.primary)
         }.padding(.vertical,8)
     }
 }
@@ -67,7 +95,7 @@ struct SavedContentView: View {
                 Picker("種類",selection:$kind) { Text("すべて").tag(""); ForEach(LookupKind.allCases,id:\.self) { Text($0.title).tag($0.rawValue) } }
             }.disabled(saving)
             if list == .difficult {
-                Text("過去30日以内に繰り返し難しかった復習項目です。最近の結果と復習段階を使い、以前の間違いだけで固定しません。").font(.footnote).foregroundStyle(.secondary)
+                Text("過去30日以内に繰り返し難しかった復習項目です。最近の結果と復習段階を使い、以前の間違いだけで固定しません。").font(.footnote).foregroundStyle(Color.primary)
             }
             if !rows.isEmpty {
                 Section("選んで練習") {
@@ -76,17 +104,17 @@ struct SavedContentView: View {
                             Button("この一覧の" + type.title + "を練習 · 最大20項目") { start(type) }.frame(minHeight:44).disabled(saving || loading)
                         }
                     }
-                    Text("表示した項目から練習します。途中の自主練習があれば再開します。復習予定は変更しません。").font(.footnote).foregroundStyle(.secondary)
+                    Text("表示した項目から練習します。途中の自主練習があれば再開します。復習予定は変更しません。").font(.footnote).foregroundStyle(Color.primary)
                 }
             }
             if loading { ProgressView() }
-            if rows.isEmpty && !loading && error == nil { Text("まだ項目はありません").foregroundStyle(.secondary) }
+            if rows.isEmpty && !loading && error == nil { Text("まだ項目はありません").foregroundStyle(Color.primary) }
             ForEach(rows) { row in
                 if let entry = row.entry {
                     NavigationLink { LookupDetailView(services:services,reference:row.ref) } label: { LookupRow(entry:entry) }
                 } else {
                     VStack(alignment:.leading,spacing:8) {
-                        Text("この教材は現在利用できません").foregroundStyle(.secondary)
+                        Text("この教材は現在利用できません").foregroundStyle(Color.primary)
                         if list == .favorites { Button("保存から外す") { remove(row.ref) }.disabled(saving).frame(minHeight:44) }
                     }
                 }

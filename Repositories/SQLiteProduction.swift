@@ -40,6 +40,20 @@ extension SQLiteProgressRepository {
         let json = String(decoding:try JSONEncoder().encode(s),as:UTF8.self)
         try db.execute("INSERT INTO production_sessions(id,scope_id,state_json,completed) VALUES(?,?,?,?) ON CONFLICT(id) DO UPDATE SET state_json=excluded.state_json,completed=excluded.completed", [.text(s.id.uuidString),.text(s.scope.rawValue),.text(json),.integer(s.completed ? 1 : 0)])
     }
+    func saveProductionDraft(_ expected: ProductionSession, text: String, sequence: Int) async throws {
+        guard text.count <= 500, sequence > 0 else { throw GrammarError.invalidState }
+        try db.transaction {
+            guard let row = try db.query("SELECT state_json FROM production_sessions WHERE id=?",[.text(expected.id.uuidString)]).first else { throw GrammarError.invalidState }
+            var s = try JSONDecoder().decode(ProductionSession.self,from:Data(try row.text("state_json").utf8))
+            try s.validate()
+            guard expected.result == nil, !expected.studying, s.current != nil,
+                  s.current?.id == expected.current?.id, !s.studying,
+                  s.retrying == expected.retrying, s.result == nil,
+                  sequence > (s.draftSequence ?? 0) else { return }
+            s.draft = text.isEmpty ? nil : text; s.draftSequence = sequence; s.updatedAt = Date()
+            try s.validate(); try saveProduction(s)
+        }
+    }
     func updateProduction(_ expected: ProductionSession, answer: String?) async throws -> ProductionSession {
         try db.transaction {
             guard let row = try db.query("SELECT state_json FROM production_sessions WHERE id=?", [.text(expected.id.uuidString)]).first else { throw GrammarError.invalidState }
@@ -49,7 +63,7 @@ extension SQLiteProgressRepository {
             if let answer = answer {
                 guard !s.studying, s.result == nil, !ProductionAnswer.normalize(answer).isEmpty, answer.count <= 500 else { throw GrammarError.invalidState }
                 let result = ProductionAnswer.judge(answer,accepted:q.accepted,spacingWarning:q.spacingWarning)
-                s.answer = answer; s.result = result
+                s.answer = answer; s.result = result; s.draft = nil
                 if result != .correct && !s.retrying { s.retry.append(s.position) }
                 try recordInTransaction(StudyEvent(id:UUID(),contentID:q.vocabularyID,contentRevision:q.vocabularyRevision,contentVersion:s.contentVersion,occurredAt:Date(),timeZoneID:TimeZone.current.identifier,skill:(s.retrying ? "production_retry_" : "production_")+q.form.rawValue,outcome:result == .correct ? .correct : .incorrect,durationMilliseconds:0,sessionID:s.id))
                 // Existing vocabulary review can revisit this lemma; never reset an existing schedule.
@@ -58,7 +72,7 @@ extension SQLiteProgressRepository {
             } else if s.studying { s.studying = false }
             else {
                 guard s.result != nil else { throw GrammarError.invalidState }
-                s.result = nil; s.answer = nil
+                s.result = nil; s.answer = nil; s.draft = nil
                 if s.retrying { s.position = s.retry.isEmpty ? s.questions.count : s.retry.removeFirst() }
                 else {
                     s.position += 1

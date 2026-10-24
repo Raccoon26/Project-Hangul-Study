@@ -711,3 +711,10 @@ Importer 재구성의 source25테이블63,159행뿐 아니라 metadata/검색 in
 최종 검수 범위는 기존 assistant 전911/963/1,821/314 및 표본84의 hash·교정34어휘43필드 기록 재대조다. 사람 검수0,163문형의 선행Grammar/Level/Register 미해결,原DEV/DATA명세 전체 준수 확인불가. 이번 실행 범위에서 미해결로 재현된 P0/P1은0이나, 이전 P1 세 건의 상태는 코드수정/SQL PASS/native BLOCKED다. iOS P0/P1 부재를 보장하지 않는다. 初中級Grammar0·상위레벨/검증녹음0·H override/고정회독 대량퇴역 제한 등 공백을 유지한다. 실제 기기·구매·광고·사람 검수 gate를 해결하기 전 DATA09를 시작하지 않는다.
 
 `PROJECT_STATUS.md`, `DATA_PROGRESS.md`, `CONTENT_GUIDE.md`, `RELEASE_CHECKLIST.md`, `AGENTS.md`, README/Importer 안내를 최종 실제 상태·보존/재현 정책에 맞췄다. 기존 이력/초기 실패 로그는 보존한다. 전체 수량/해시/근거/재현 명령/버그/다음 공백은 [최종 보고](Docs/DATA08_CLOSEOUT.md), [구조/보존 점검](Docs/DATA08_CLOSEOUT.json), [이번 경로 감사](Docs/DATA08_CLOSEOUT_ROUTING.json)에 있다. Git 전달은 일반 commit/push와 PR을 사용하고 실제 최종 SHA/원격 반영은 Git/PR·최종 응답으로 확인한다. 이번 DATA08-8에서 종료한다.
+
+
+## DATA-10-7에서의 후속 Native 재검증 (2026-10-24, DATA10-7 미완료)
+
+위 DATA08 당시의 BLOCKED/코드 수정 이력은 보존한다. 이후 Mac Xcode27.1·실제 iOS26.0.1 Simulator의 NativeSmallAwake76 및 최신80 Unit155 전체에서 다음5개가 실제 PASS했다: `ReleaseAuditTests.testDATA08UnavailableVocabularyReviewContinuesWithoutLosingProgress`, `testDATA08UnavailableGrammarReviewContinuesWithoutLosingProgress`, `SRSTests.testDATA08DeferredReviewsPreserveSchedulesAndRetryAfterContentUpdate`, `ListeningTests.testDATA08AllDictationsAllowTerminalPunctuationOmissionOnly`, `testDATA08UnavailableListeningDueIsReleaseScopedAndPreservesSnapshots`. 따라서 비활성 복습 복구·받아쓰기 문말 부호·듣기 due 퇴역 prefix의 native 실행 대기는 이 실행 범위에서 해소했다. Source/Stable ID/원 SRS/snapshot·Production byte 변경0이며 일반 입력 판정은 완화하지 않았다.
+
+이5개 통과를 전체 DATA08/출시 승인으로 확대하지 않는다. Native76 전체는169/165 PASS/4 FAIL, UI07/08 조작 보완과 UI10/14 자동 감사·실기기/사람 gate는 별도다. 최신 실행/수정/잔여 조건은 [DATA10_PROGRESS §7](DATA10_PROGRESS.md)·[Native 보고](Docs/DATA10_NATIVE_REGRESSION.md)를 따른다. Release B—Conditional 유지.

@@ -1,6 +1,7 @@
 import Foundation
 import UIKit
 import Combine
+#if !HANGUL_ADS_DISABLED
 import GoogleMobileAds
 import UserMessagingPlatform
 
@@ -150,3 +151,34 @@ final class AdService: NSObject, ObservableObject, FullScreenContentDelegate {
         presenting = false; presentedAd = nil; discard()
     }
 }
+#else
+/// The ads-disabled build must not load the SDK: its load-time initializer can
+/// terminate the process before a runtime configuration guard can run.
+@MainActor
+final class AdService: ObservableObject {
+    @Published private(set) var privacyBusy = false
+    @Published private(set) var privacyMessage: String?
+    @Published private(set) var privacyRequired = false
+    let configuration: MonetizationConfiguration
+    private let defaults: UserDefaults
+    private static let frequencyKey = "monetization.frequency.v1"
+    private var frequency: AdFrequencyState
+
+    init(purchases: PurchaseService, configuration: MonetizationConfiguration = .current,
+         defaults: UserDefaults = .standard) {
+        self.configuration = configuration; self.defaults = defaults
+        frequency = defaults.data(forKey:Self.frequencyKey).flatMap {
+            try? JSONDecoder().decode(AdFrequencyState.self,from:$0)
+        } ?? AdFrequencyState()
+    }
+    func prepare() async {}
+    func updatePrivacyInformation() async {}
+    func showPrivacyOptions() async {}
+    func cancelPrivacyPresentation() {}
+    func completed(_ boundary: AdBoundary, stopAudio: () -> Void) {
+        // Retain the existing frequency history across future ads-enabled builds.
+        guard frequency.record(boundary), let data = try? JSONEncoder().encode(frequency) else { return }
+        defaults.set(data,forKey:Self.frequencyKey)
+    }
+}
+#endif

@@ -30,8 +30,25 @@ struct CurriculumResumeView: View {
                     if route.target == "grammar" { GrammarReviewView(services:services) }
                     else { ReviewSessionView(services:services) }
                 }
-            }.toolbar { ToolbarItem(placement:.navigationBarLeading) { Button("閉じる") { dismiss() } } }
+            }
+            // These sessions already provide an accessible close action in
+            // their own header. A second navigation bar displaced the card.
+            .toolbar(usesSessionHeader ? .hidden : .visible,for:.navigationBar)
+            .toolbar {
+                if !usesSessionHeader {
+                    ToolbarItem(placement:.navigationBarLeading) { Button("閉じる") { dismiss() } }
+                }
+            }
         }.task { await load() }
+    }
+    private var usesSessionHeader: Bool {
+        switch route.kind {
+        case "vocabulary": return set != nil
+        case "grammar": return lesson != nil
+        case "lesson": return course != nil
+        case "review": return true
+        default: return false
+        }
     }
     private var waiting: some View {
         VStack(spacing:20) {

@@ -497,6 +497,12 @@
 			"path" = "Tests/MonetizationTests.swift";
 			"sourceTree" = "SOURCE_ROOT";
 		};
+		"2BBA36E4DA43BBA7AC5819FC" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "Tests/NativeRegressionTests.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
 		"6DB48060A2D7C5C4A983B99A" = {
 			"isa" = "PBXFileReference";
 			"lastKnownFileType" = "sourcecode.swift";
@@ -537,6 +543,12 @@
 			"isa" = "PBXFileReference";
 			"lastKnownFileType" = "sourcecode.swift";
 			"path" = "Tests/VocabularyPassTests.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"2FC0BA922B6A60499716FF96" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "Tests/UI/StudyJourneyTests.swift";
 			"sourceTree" = "SOURCE_ROOT";
 		};
 		"392BDC3F55CEC1885F16285B" = {
@@ -624,6 +636,18 @@
 			"path" = "Config/RemoveAds.storekit";
 			"sourceTree" = "SOURCE_ROOT";
 		};
+		"09DBA11986BBD68B9A911AE4" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text";
+			"path" = "Content/data06-ids.json";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"D5A92362868242078BBE5CDA" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text";
+			"path" = "Resources/content.sqlite";
+			"sourceTree" = "SOURCE_ROOT";
+		};
 		"734399CC5ADF15F31FBB8FDF" = {
 			"isa" = "PBXFileReference";
 			"lastKnownFileType" = "text.xcconfig";
@@ -658,11 +682,19 @@
 			"sourceTree" = "BUILT_PRODUCTS_DIR";
 			"includeInIndex" = "0";
 		};
+		"93E46A602338E07A8524AEF6" = {
+			"isa" = "PBXFileReference";
+			"explicitFileType" = "wrapper.cfbundle";
+			"path" = "HangulStudyUITests.xctest";
+			"sourceTree" = "BUILT_PRODUCTS_DIR";
+			"includeInIndex" = "0";
+		};
 		"0A3E27B8CA818264D75C8D81" = {
 			"isa" = "PBXGroup";
 			"children" = (
 				"681C948D238C526E9E3424E0",
 				"F739566ED5280322FF98A798",
+				"93E46A602338E07A8524AEF6",
 			);
 			"name" = "Products";
 			"sourceTree" = "<group>";
@@ -798,6 +830,7 @@
 			"isa" = "PBXGroup";
 			"children" = (
 				"6E1113913D6888F18399A325",
+				"09DBA11986BBD68B9A911AE4",
 			);
 			"name" = "Content";
 			"sourceTree" = "<group>";
@@ -827,6 +860,7 @@
 				"3C7F712F99E18D4BC7396E22",
 				"BCECDCF66B4AD3FDEA6150BB",
 				"8F1F374CB6742917E214B948",
+				"D5A92362868242078BBE5CDA",
 			);
 			"name" = "Resources";
 			"sourceTree" = "<group>";
@@ -852,6 +886,7 @@
 				"E25C6418D41677AA996551DC",
 				"9D69421413CE51EAEAB48C47",
 				"A14BF684D0B4FA8E979A206C",
+				"2BBA36E4DA43BBA7AC5819FC",
 				"6DB48060A2D7C5C4A983B99A",
 				"6B6E29C60E2B74F43F162E2F",
 				"953F649183692CAB54255155",
@@ -859,6 +894,7 @@
 				"2A950DDC1C686834F679BD6D",
 				"FC4AB581912FA9A828C80189",
 				"1BEB4B7419F0E32A49F6F051",
+				"2FC0BA922B6A60499716FF96",
 			);
 			"name" = "Tests";
 			"sourceTree" = "<group>";
@@ -1402,6 +1438,10 @@
 			"isa" = "PBXBuildFile";
 			"fileRef" = "A14BF684D0B4FA8E979A206C";
 		};
+		"F295962EC6D8F67FC01CA16A" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "2BBA36E4DA43BBA7AC5819FC";
+		};
 		"3CF43CB9617565B64EBD334B" = {
 			"isa" = "PBXBuildFile";
 			"fileRef" = "6DB48060A2D7C5C4A983B99A";
@@ -1442,6 +1482,7 @@
 				"5CE24E40A3A37917E16536C0",
 				"7E7C5FBBCD8A66A7B5F9C507",
 				"BFE803686D30569699965288",
+				"F295962EC6D8F67FC01CA16A",
 				"3CF43CB9617565B64EBD334B",
 				"BE9DCF6566C5039AFBD06255",
 				"297C97B39D32ABB0C6B55571",
@@ -1460,16 +1501,52 @@
 			"isa" = "PBXBuildFile";
 			"fileRef" = "9014ECA260F4F85AB599A9EF";
 		};
+		"AD261EA7A58F8A6E7CE5CAE9" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "09DBA11986BBD68B9A911AE4";
+		};
 		"49E2E05524A330A9E8549FFA" = {
 			"isa" = "PBXResourcesBuildPhase";
 			"buildActionMask" = "2147483647";
 			"files" = (
 				"AF4D04FF95150B7C8809D823",
 				"D246589C15FBB42B37E766C7",
+				"AD261EA7A58F8A6E7CE5CAE9",
 			);
 			"runOnlyForDeploymentPostprocessing" = "0";
 		};
 		"14A35E772AA8A1A94CE396AD" = {
+			"isa" = "PBXFrameworksBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = (
+			);
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"F12E6EE54C94F742C51B1229" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "2FC0BA922B6A60499716FF96";
+		};
+		"646FE0C7B69641F452341993" = {
+			"isa" = "PBXSourcesBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = (
+				"F12E6EE54C94F742C51B1229",
+			);
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"B8BF7BC368875FB07E4640FD" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "D5A92362868242078BBE5CDA";
+		};
+		"AFCC289018C12951EDA02421" = {
+			"isa" = "PBXResourcesBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = (
+				"B8BF7BC368875FB07E4640FD",
+			);
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"3045E2FCB26FC54F8203B1BA" = {
 			"isa" = "PBXFrameworksBuildPhase";
 			"buildActionMask" = "2147483647";
 			"files" = (
@@ -1512,6 +1589,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				"DEVELOPMENT_TEAM" = "9MG7W2X4KA";
 				"SWIFT_OPTIMIZATION_LEVEL" = "-Onone";
 				"SWIFT_ACTIVE_COMPILATION_CONDITIONS" = "$(inherited) DEBUG";
 				"ENABLE_TESTABILITY" = "YES";
@@ -1540,6 +1618,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				"DEVELOPMENT_TEAM" = "9MG7W2X4KA";
 				"SWIFT_OPTIMIZATION_LEVEL" = "-O";
 				"SWIFT_COMPILATION_MODE" = "wholemodule";
 				"DEBUG_INFORMATION_FORMAT" = "dwarf-with-dsym";
@@ -1609,6 +1688,8 @@
 					"$(inherited)",
 					"-lsqlite3",
 				);
+				"IPHONEOS_DEPLOYMENT_TARGET" = "17.0";
+				"DEVELOPMENT_TEAM" = "9MG7W2X4KA";
 				"SWIFT_OPTIMIZATION_LEVEL" = "-Onone";
 				"SWIFT_ACTIVE_COMPILATION_CONDITIONS" = "$(inherited) DEBUG";
 				"ENABLE_TESTABILITY" = "YES";
@@ -1635,6 +1716,8 @@
 					"$(inherited)",
 					"-lsqlite3",
 				);
+				"IPHONEOS_DEPLOYMENT_TARGET" = "17.0";
+				"DEVELOPMENT_TEAM" = "9MG7W2X4KA";
 				"SWIFT_OPTIMIZATION_LEVEL" = "-O";
 				"SWIFT_COMPILATION_MODE" = "wholemodule";
 				"DEBUG_INFORMATION_FORMAT" = "dwarf-with-dsym";
@@ -1667,6 +1750,83 @@
 			"productName" = "HangulStudyTests";
 			"productReference" = "F739566ED5280322FF98A798";
 			"productType" = "com.apple.product-type.bundle.unit-test";
+		};
+		"8DA290C1E75835394B937A40" = {
+			"isa" = "PBXTargetDependency";
+			"target" = "C1E9827DB735CA9BAA54A540";
+			"targetProxy" = "1241936D4DD3AAD68FE7BFBD";
+		};
+		"156F725150A84FCB69393542" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"PRODUCT_NAME" = "$(TARGET_NAME)";
+				"PRODUCT_BUNDLE_IDENTIFIER" = "com.example.HangulStudyUITests";
+				"GENERATE_INFOPLIST_FILE" = "YES";
+				"TARGETED_DEVICE_FAMILY" = "1,2";
+				"TEST_TARGET_NAME" = "HangulStudy";
+				"CODE_SIGN_STYLE" = "Automatic";
+				"IPHONEOS_DEPLOYMENT_TARGET" = "17.0";
+				"OTHER_LDFLAGS" = (
+					"$(inherited)",
+					"-lsqlite3",
+				);
+				"DEVELOPMENT_TEAM" = "9MG7W2X4KA";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-Onone";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS" = "$(inherited) DEBUG";
+				"ENABLE_TESTABILITY" = "YES";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf";
+			};
+			"name" = "Debug";
+		};
+		"C23B5A69B2E27C3E5F160FC6" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"PRODUCT_NAME" = "$(TARGET_NAME)";
+				"PRODUCT_BUNDLE_IDENTIFIER" = "com.example.HangulStudyUITests";
+				"GENERATE_INFOPLIST_FILE" = "YES";
+				"TARGETED_DEVICE_FAMILY" = "1,2";
+				"TEST_TARGET_NAME" = "HangulStudy";
+				"CODE_SIGN_STYLE" = "Automatic";
+				"IPHONEOS_DEPLOYMENT_TARGET" = "17.0";
+				"OTHER_LDFLAGS" = (
+					"$(inherited)",
+					"-lsqlite3",
+				);
+				"DEVELOPMENT_TEAM" = "9MG7W2X4KA";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-O";
+				"SWIFT_COMPILATION_MODE" = "wholemodule";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf-with-dsym";
+			};
+			"name" = "Release";
+		};
+		"81502B970028BFAB237DCF17" = {
+			"isa" = "XCConfigurationList";
+			"buildConfigurations" = (
+				"156F725150A84FCB69393542",
+				"C23B5A69B2E27C3E5F160FC6",
+			);
+			"defaultConfigurationIsVisible" = "0";
+			"defaultConfigurationName" = "Release";
+		};
+		"4EA0BBFB4641B4E941FBF077" = {
+			"isa" = "PBXNativeTarget";
+			"buildConfigurationList" = "81502B970028BFAB237DCF17";
+			"buildPhases" = (
+				"646FE0C7B69641F452341993",
+				"3045E2FCB26FC54F8203B1BA",
+				"AFCC289018C12951EDA02421",
+			);
+			"buildRules" = (
+			);
+			"dependencies" = (
+				"8DA290C1E75835394B937A40",
+			);
+			"name" = "HangulStudyUITests";
+			"productName" = "HangulStudyUITests";
+			"productReference" = "93E46A602338E07A8524AEF6";
+			"productType" = "com.apple.product-type.bundle.ui-testing";
 		};
 		"73EBF6644258C120893E685D" = {
 			"isa" = "XCBuildConfiguration";
@@ -1728,6 +1888,10 @@
 						"CreatedOnToolsVersion" = "15.0";
 						"TestTargetID" = "C1E9827DB735CA9BAA54A540";
 					};
+					"4EA0BBFB4641B4E941FBF077" = {
+						"CreatedOnToolsVersion" = "27.1";
+						"TestTargetID" = "C1E9827DB735CA9BAA54A540";
+					};
 				};
 			};
 			"buildConfigurationList" = "F766491E72E39EE5D123B2AE";
@@ -1749,6 +1913,7 @@
 			"targets" = (
 				"C1E9827DB735CA9BAA54A540",
 				"9805CBD60EB4F66728D5D195",
+				"4EA0BBFB4641B4E941FBF077",
 			);
 		};
 	};

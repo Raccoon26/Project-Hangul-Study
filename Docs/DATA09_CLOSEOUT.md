@@ -106,3 +106,10 @@ sh Tools/verify.sh --portable
 ```
 
 기존 위임과 이번 명시 요청에 따라 정상 commit/push/PR/merge로 main에 전달한다. 최종 commit·PR·merge SHA/원격 동기화는 `DATA09_PROGRESS.md`의 Git 전달 기록, 해당 PR/Git과 최종 응답이 기준이다. 원격 CI가 없으면 로컬 PASS를 원격 실행 PASS로 바꾸지 않는다.
+
+
+## DATA-10-7 후속 Native 확인 (2026-10-24, 전체 완료 아님)
+
+DATA09 당시 Cloud/native BLOCKED 기록은 역사로 보존한다. 실제 Mac Xcode27.1·iOS26.0.1 Simulator NativeSmallAwake76 및 최신80 Unit155 전체에서 `GrammarLearningTests.testDATA09UnitsPrerequisitesNotesAndVocabularyAreReachable`, `testDATA09LowerIntermediateGrammarSRSAndVersionedColdResume`, `testDATA09All18LessonsQuizSRSAndResume`이 PASS했다. 실제18레슨/54문형의 출제·SRS·이전 버전/cold resume 경로를 실행한 결과이며 독립 사람 언어 검수는 아니다. DATA10-7에서는 되다/뵈다·검수한 네ㅎ형·구매 cache·입력 초안 등 runtime 수정도 별도 재검증하고 있다.
+
+Source/Production/기존 ID/revision/관계·UserProgress schema는 보존했다. 전체 Native76은169/165 PASS/4 FAIL이고 접근성 등 미완료 gate가 있어 DATA10-7/출시 승인을 선언하지 않는다. [DATA10_PROGRESS §7](../DATA10_PROGRESS.md)·[Native 보고](DATA10_NATIVE_REGRESSION.md)의 최신 결과와 Release B—Conditional을 따른다.

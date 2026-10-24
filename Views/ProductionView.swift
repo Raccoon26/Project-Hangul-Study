@@ -44,6 +44,7 @@ struct ProductionStudyView: View {
     @State private var grammar: GrammarCard?
     @State private var grammarNotice: String?
     @State private var input = ""
+    @State private var draftSequence = 0
     @State private var error: String?
     @State private var busy = false
     var body: some View {
@@ -119,7 +120,8 @@ struct ProductionStudyView: View {
                         if session?.current?.grammarID == id { grammarNotice = "関連する文法の説明を読み込めませんでした。保存済みの問題は続けられます。" }
                     }
                 }
-            }.onDisappear { audio.stop() }
+            }.onChange(of:input) { saveDraft($0) }
+            .onDisappear { saveDraft(input); audio.stop() }
             .onChange(of:scenePhase) { phase in
                 if phase != .active { audio.stop(); focused = false }
             }
@@ -127,16 +129,16 @@ struct ProductionStudyView: View {
     @ViewBuilder private func sound(_ text: String) -> some View {
         let request = LearningAudio(source:.systemTTS,usage:.wordSentence,text:text,asset:nil)
         if audio.availability(for:request) == .available {
-            HStack {
-                Button { audio.play(request,speed:.normal) } label: { Label("聞く",systemImage:"speaker.wave.2").frame(minHeight:44) }
-                Button("ゆっくり") { audio.play(request,speed:.slow) }.frame(minHeight:44)
-                if audio.isPlaying { Button("停止") { audio.stop() }.frame(minHeight:44) }
-            }.frame(minHeight:44)
+            LearningAudioControlRow {
+                Button { audio.play(request,speed:.normal) } label: { Label("聞く",systemImage:"speaker.wave.2").fixedSize(horizontal:false,vertical:true).frame(maxWidth:.infinity,minHeight:44) }
+                Button { audio.play(request,speed:.slow) } label: { Text("ゆっくり").fixedSize(horizontal:false,vertical:true).frame(maxWidth:.infinity,minHeight:44) }
+                Button { audio.stop() } label: { Text("停止").frame(maxWidth:.infinity,minHeight:44) }.disabled(!audio.isPlaying)
+            }
         } else if let message = audio.availability(for:request).message { Text(message).font(.footnote) }
         if let message = audio.message { Text(message).font(.footnote) }
     }
     private func submit() {
-        guard !busy, session?.result == nil else { return }
+        guard !busy, session?.result == nil, !ProductionAnswer.normalize(input).isEmpty, input.count <= 500 else { return }
         focused = false
         let answer = input, revision = session?.revision
         Task { await change(answer, expectedRevision:revision) }
@@ -150,8 +152,18 @@ struct ProductionStudyView: View {
                 let questions = try await services.content.productionQuestions(id:id)
                 session = try await services.progress.beginProduction(scope:id,questions:questions,version:services.metadata.contentVersion)
             }
-            input = session?.answer ?? ""
+            draftSequence = max(draftSequence,session?.draftSequence ?? 0)
+            input = session?.answer ?? session?.draft ?? ""
         } catch { self.error = LearningErrorMessage.message(for: error) }
+    }
+    private func saveDraft(_ value: String) {
+        guard let s = session, !s.studying, s.result == nil, value.count <= 500 else { return }
+        draftSequence += 1
+        let sequence = draftSequence
+        Task {
+            do { try await services.progress.saveProductionDraft(s,text:value,sequence:sequence) }
+            catch { self.error = LearningErrorMessage.message(for:error) }
+        }
     }
     private func change(_ answer: String?, expectedRevision: Int?) async {
         guard !busy, error == nil, let s = session, s.revision == expectedRevision else { return }; busy = true

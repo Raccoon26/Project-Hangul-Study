@@ -605,3 +605,10 @@ PROJECT_STATUS/CONTENT_GUIDE/DATA_PROGRESS/RELEASE_CHECKLIST/AGENTS/DATA09_PROGR
 ### 14.6 Git 전달 기록
 
 검증된 종료 commit `982bf000355478ec834c4be1a2a684ac5e6fb0bc`를 `data09-8/final-closeout`으로 정상 push했다. PR은 [#17](https://github.com/Raccoon26/Project-Hangul-Study/pull/17)이다. 등록된 원격 CI check는 없어 보존한 로컬365 PASS만 실행 근거로 삼는다. 이 전달 기록은 문서만 변경하며 검증한 코드·Source·DB는 불변이다. 사용자의 지시에 따라 정상 main 병합과 원격 동기화를 진행하며 최종 merge SHA·상태는 해당 PR/Git과 최종 응답에서 확인한다. Force push·이력 재작성0.
+
+
+## DATA-10-7 후속 Native 확인 (2026-10-24, 전체 완료 아님)
+
+DATA09 당시 Cloud/native BLOCKED 기록은 역사로 보존한다. 실제 Mac Xcode27.1·iOS26.0.1 Simulator NativeSmallAwake76 및 최신80 Unit155 전체에서 `GrammarLearningTests.testDATA09UnitsPrerequisitesNotesAndVocabularyAreReachable`, `testDATA09LowerIntermediateGrammarSRSAndVersionedColdResume`, `testDATA09All18LessonsQuizSRSAndResume`이 PASS했다. 실제18레슨/54문형의 출제·SRS·이전 버전/cold resume 경로를 실행한 결과이며 독립 사람 언어 검수는 아니다. DATA10-7에서는 되다/뵈다·검수한 네ㅎ형·구매 cache·입력 초안 등 runtime 수정도 별도 재검증하고 있다.
+
+Source/Production/기존 ID/revision/관계·UserProgress schema는 보존했다. 전체 Native76은169/165 PASS/4 FAIL이고 접근성 등 미완료 gate가 있어 DATA10-7/출시 승인을 선언하지 않는다. [DATA10_PROGRESS §7](DATA10_PROGRESS.md)·[Native 보고](Docs/DATA10_NATIVE_REGRESSION.md)의 최신 결과와 Release B—Conditional을 따른다.

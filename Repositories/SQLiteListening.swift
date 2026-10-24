@@ -125,6 +125,21 @@ extension SQLiteProgressRepository {
         let json = String(decoding:try JSONEncoder().encode(s),as:UTF8.self)
         try db.execute("INSERT INTO listening_sessions(id,scope,state_json,completed) VALUES(?,?,?,?) ON CONFLICT(id) DO UPDATE SET state_json=excluded.state_json,completed=excluded.completed",[.text(s.id.uuidString),.text(s.scope),.text(json),.integer(s.completed ? 1 : 0)])
     }
+    func saveListeningDraft(_ expected: ListeningSession, text: String, sequence: Int) async throws {
+        guard text.count <= 500, sequence > 0 else { throw GrammarError.invalidState }
+        try db.transaction {
+            guard let row = try db.query("SELECT state_json FROM listening_sessions WHERE id=?",[.text(expected.id.uuidString)]).first else { throw GrammarError.invalidState }
+            var s = try JSONDecoder().decode(ListeningSession.self,from:Data(try row.text("state_json").utf8))
+            try s.validate()
+            // Drafts do not grade, increment action revision or change SRS. Merge
+            // into the latest saved playback state; late edits cannot cross turns.
+            guard expected.result == nil, s.current?.id == expected.current?.id, s.current?.task == .dictation,
+                  s.retrying == expected.retrying, s.result == nil,
+                  sequence > (s.draftSequence ?? 0) else { return }
+            s.draft = text.isEmpty ? nil : text; s.draftSequence = sequence; s.updatedAt = Date()
+            try s.validate(); try saveListening(s)
+        }
+    }
     func updateListening(_ expected: ListeningSession, action: ListeningAction, now: Date) async throws -> ListeningSession {
         try db.transaction {
             guard let row = try db.query("SELECT state_json FROM listening_sessions WHERE id=?",[.text(expected.id.uuidString)]).first else { throw GrammarError.invalidState }

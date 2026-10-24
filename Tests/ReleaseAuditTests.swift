@@ -3,7 +3,9 @@ import XCTest
 
 final class ReleaseAuditTests: XCTestCase {
     func testConjugationOeContractsToWaeAndWaeStaysWae() throws {
-        for (lemma, present, past, reason) in [("되다","돼요","됐어요","돼서"),("뵈다","봬요","뵀어요","봬서"),("꿰다","꿰요","꿨어요","꿰서")] {
+        // 한국어기초사전: 되어(돼), 뵈어(봬), 꿰어(꿰).
+        // 꿰 + ㅆ is 뀄 (ㅞ), not 꿨 (ㅝ).
+        for (lemma, present, past, reason) in [("되다","돼요","됐어요","돼서"),("뵈다","봬요","뵀어요","봬서"),("꿰다","꿰요","뀄어요","꿰서")] {
             for (form, expected) in [(ConjugationForm.present,present),(.past,past),(.reason,reason)] {
                 XCTAssertEqual(try ConjugationEngine.generate(lemma:lemma,partOfSpeech:"verb",irregular:"none",form:form).form,expected)
             }

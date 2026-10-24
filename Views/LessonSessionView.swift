@@ -170,10 +170,7 @@ struct LessonSessionView: View {
         let availability = audio.availability(for: request)
         VStack(alignment: .leading, spacing: 8) {
             if availability == .available {
-                ViewThatFits(in: .horizontal) {
-                    HStack(spacing: 16) { audioButtons(request) }
-                    VStack(alignment: .leading, spacing: 8) { audioButtons(request) }
-                }
+                LearningAudioControlRow { audioButtons(request) }
                 Text(request.source == .systemTTS ? "システム音声" : "確認用の録音音声")
                     .font(.caption).foregroundStyle(.secondary)
                 if listening && model.currentResult == nil && model.heardStepID != model.step?.id {
@@ -189,13 +186,11 @@ struct LessonSessionView: View {
     }
     @ViewBuilder private func audioButtons(_ request: LearningAudio) -> some View {
         Button { audio.play(request, speed: .normal) } label: {
-            Label("聞く", systemImage: "speaker.wave.2").frame(minHeight: 44)
+            Label("聞く", systemImage: "speaker.wave.2").fixedSize(horizontal:false,vertical:true).frame(maxWidth:.infinity,minHeight:44)
         }.accessibilityLabel("通常の速さで聞く")
-        Button("ゆっくり") { audio.play(request, speed: .slow) }.frame(minHeight: 44)
+        Button { audio.play(request,speed:.slow) } label: { Text("ゆっくり").fixedSize(horizontal:false,vertical:true).frame(maxWidth:.infinity,minHeight:44) }
             .accessibilityLabel("少しゆっくり聞く")
-        if audio.isPlaying {
-            Button { audio.stop() } label: { Label("停止", systemImage: "stop.fill").frame(minHeight: 44) }
-        }
+        Button { audio.stop() } label: { Text("停止").frame(maxWidth:.infinity,minHeight:44) }.disabled(!audio.isPlaying)
     }
     private var completion: some View {
         VStack(alignment: .leading, spacing: 24) {

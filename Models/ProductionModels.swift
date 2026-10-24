@@ -26,6 +26,8 @@ struct ProductionSession: Codable, Sendable {
     var retrying = false
     var result: InputJudgement?
     var answer: String?
+    var draft: String? = nil
+    var draftSequence: Int? = nil
     var revision = 0
     var studying = true
     var current: ProductionQuestion? { questions.indices.contains(position) ? questions[position] : nil }
@@ -39,5 +41,7 @@ struct ProductionSession: Codable, Sendable {
               questions.allSatisfy({ $0.vocabularyID == scope && !$0.accepted.isEmpty && $0.accepted.allSatisfy({ !ProductionAnswer.normalize($0).isEmpty }) }),
               retry.allSatisfy({ questions.indices.contains($0) }),
               (result == nil) == (answer == nil) else { throw GrammarError.invalidState }
+        guard draft == nil || (!studying && result == nil && current != nil && (draft?.count ?? 0) <= 500),
+              (draftSequence ?? 0) >= 0 else { throw GrammarError.invalidState }
     }
 }
