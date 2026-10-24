@@ -488,3 +488,21 @@ ListeningInputSmall78은2 실행/1 PASS/1 FAIL/skip0/exit65: UI08의 실제 Cont
 자동 감사 스크린샷에서 Dark Home Resume 버튼이 어두운 카드 위 indigo 글자로 실제 대비 부족을 보였다. 해당 Text에 semantic primary 전경색을 적용했다. 다른 offscreen/스크롤 reflow의 대비·Dynamic Type·잘림 실패까지 해결했다고 주장하지 않는다. 이 제품 수정과 UI 보완을 포함해 전체169 NativeSmallAwake80을 다시 실행한다. iPhone13ProMax/iOS27.2의 무선 개발 연결도 다시 확인했고, 원본 app support의 읽기 전용 복사본을 보존한 뒤 signed Release UI-only 전체14 PhysicalReleaseFull81을 순차 대기시켰다. 실제 기기에서 Unit/StoreKit cache 초기화 검사는 실행하지 않는다.
 
 Production/fixture114 SHA 불일치0·현재 bundle31테이블/integrity ok/FK0을 재확인했다. VoiceOver는 사용자 명시대로 추후/NOT TESTED, 필수 실패가 남으면 완료/ready/main 병합하지 않는다.
+
+
+### 7.10 최신 전체 결과·최대 글씨·자연 due 어휘 (2026-10-24, 완료 아님)
+
+전체 NativeSmallAwake80은 **169 실행/167 PASS/2 FAIL/skip0/exit65**다. Unit155와 기능 UI12개는 모두 통과했으며 UI10/14의 필터 없는 자동 접근성 감사만 실패했다. 활용 직접 입력·초안 cold resume·정확한 교체/채점, 듣기 네 유형12문항·정상/느린 재생·받아쓰기·Content29 레슨5문항/참조·저장/재개를 실제 UI로 확인했다. actor trap/background publishing 경고는 없었으며 keyboard invalid-frame 경고2건은 남았다. 과거76/78 실패 기록과 별도로 보존한다.
+
+자연 예정일의 어휘 복습 VocabularyDue82는 **1/1 PASS(exit0)**다. 실제1카드의 답 공개 전 자기판정 불가→공개→프로세스 종료/재개 후 공개 유지→覚えた→1/1 완료→다시 실행 후 due 해소를 확인했다. 읽기 전용 DB 비교에서 SRS 키21개 보존, 대상1개 reviewCount0→1/stage0→1/미래 due·firstLearnedAt 유지, 다른20행 전체 동일, integrity ok/FK0이다. 시계/seed/reset/사용자 DB 직접 수정0이며 이 임시 E2E를 고유169개에 더하지 않는다. 기존 듣기7개 due E2E75도 별도 PASS다.
+
+작은 SE3/Dark/최대 접근성 글씨에서 SmallAX84는2/1 PASS/1 FAIL: 검색/사전/즐겨찾기/설정 cold 유지02는 통과했고,09는 화면 아래 lazy List 행을 스크롤 전에 찾는 검사 가정으로 실패했다. SmallAX90의09는 유지학습/복습까지 도달했으나 긴 구매 설명 아래 복원 버튼도 같은 가정으로 실패했다. 실제 스크롤·화면 제목·가시성 assertion으로 보완한 **SmallAX93의09는1/1 PASS(144.982초, exit0)**다. 실제 구매/복원 거래는 누르지 않았다. 두 과거 실패를 삭제/skip하거나 전체 통과로 합산하지 않는다.
+
+실제 Dark 캡처에서 낮은 대비였던 Home Resume·짧은 복습 및 검색/설정의 일반 텍스트 동작을 semantic primary로 보완하고 Resume는 줄 수 제한을 해제했다. DynamicFont89는 **1/1 PASS(exit0)**: 앱을 닫지 않고 시스템 글씨를 변경했을 때 Home 세 제목의 높이가40.5→83.5로 증가했고, 긴 Resume 전체 글자/통계/설정 도달을 확인했다.87의 offscreen 요소 즉시 조회 실패는 보존한다. HeaderProbe85의 세 기본/명시 font 모두 대비 실패·Dynamic Type 오류0, ViewportProbe88의 표준/geometry-clipped 모두 대비 실패였다. 최소 재현이므로 제품 헤더/화면 구조를 근거 없이 교체하지 않았다. 알 수 없는 자동 감사 이슈까지 SDK 문제로 단정하지 않으며 VoiceOver 실제 발화는 사용자 요청대로 NOT TESTED다.
+
+FocusedPortable86은33/33 PASS(0.639초, failures/errors/skipped0, exit0). 최신 전체 Portable68의419/419 PASS와 strict frozen28→29/31테이블 byte 재현·기존10경고/오류0, Production/fixture114 SHA 불일치0을 유지한다. 신규 Production/ID/Content/UserProgress 변경0이다.
+
+실기기 재시도81은 연결 상실로 destination을 찾지 못해 exit70/실행0이었으며 build/test PASS가 아니다. 사용자가 보류 후 다시 iPhone 준비를 알려 개발 연결을 확인했다. **최신 signed Release UI-only 전체14 PhysicalReleaseFull96 실행 중**이며 실제 사용자 기기에서 Unit/StoreKit 초기화 검사는 실행하지 않는다. 그 뒤 최신 전체169 NativeLatest91과 resolve/Debug/Release/기기 architecture/Release 시작 회귀92를 직렬 실행한다. 사적인 기기 로그/학습 DB는 공개하지 않는다. 필수 감사 실패/최신 전체 결과 대기로 Draft PR24·미병합·DATA10-7 IN_PROGRESS를 유지한다.
+
+
+저장공간 추가 조사(10월24일 저녁): iPhone OS가 현재27.2/build24B115로 갱신되어 Xcode DeviceSupport6.7GiB가 새로 생성됐으며, 이전 build24B5110a6.6GiB도 남아 있었다. 사용자의 불필요 산출물 정리 요청에 따라 현재 build와 분리된 이전 DeviceSupport 캐시7,041,413,659bytes·종료된 작업용 QA Simulator3개의 Library/Caches915,739,819bytes·자체 DerivedData 재생성 모듈/색인을 정리했다. 학습 app container·Keychain·사용자 Simulator·원본/fixture·xcresult는 보존했다. 실제 df 가용 약0.1GiB→8.0GiB로 회복했다. 최신91/92는 새 Xcode 실행 전 공간 부족 때문에 잠시 대기를 해제했으며 결과 bundle/실행0을 확인 후 같은 명령으로 다시 직렬 대기시켰다. 검사 실패나 skip으로 집계하지 않는다.96 실제 iPhone 검사는 계속 진행한다.

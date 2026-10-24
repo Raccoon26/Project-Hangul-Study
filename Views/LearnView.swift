@@ -28,7 +28,7 @@ struct LearnView: View {
                 Section {
                     if let resume = resume {
                         Button { launch = resume } label: {
-                            Text(resume.title).font(.body).foregroundStyle(Color.primary)
+                            Text(resume.title).font(.body).foregroundStyle(Color.primary).lineLimit(nil)
                                 .fixedSize(horizontal:false,vertical:true).frame(minHeight:44)
                         }
                     } else if due > 0 || model.reviews.hasActiveSession || model.grammarReviews.hasActiveSession || model.listeningReviewActive {
@@ -39,7 +39,11 @@ struct LearnView: View {
                 } header: { Text("続きから").foregroundStyle(Color.primary).fixedSize(horizontal:false,vertical:true) }
                 Section {
                     if model.reviews.due > 0 || model.reviews.hasActiveSession {
-                        Button(model.reviews.hasActiveSession ? "短く復習 · 保存した続きから" : "短く復習 · \(preferences.value.amount.count)語") { shortReview = true }.frame(minHeight:44)
+                        Button { shortReview = true } label: {
+                            Text(model.reviews.hasActiveSession ? "短く復習 · 保存した続きから" : "短く復習 · \(preferences.value.amount.count)語")
+                                .font(.body).foregroundStyle(Color.primary).lineLimit(nil)
+                                .fixedSize(horizontal:false,vertical:true).frame(minHeight:44)
+                        }
                     }
                     NavigationLink("\(due)項目 · 復習を確認") { CurriculumReviewView(services:services) }.learningRow()
                     Text("復習と新しい学習は、どちらからでも始められます。").font(.footnote).foregroundStyle(Color.primary).fixedSize(horizontal:false,vertical:true)
@@ -51,7 +55,7 @@ struct LearnView: View {
                     NavigationLink("開始位置・レベル診断") { PlacementView(services:services) }.learningRow()
                 } header: { Text("現在のコース").foregroundStyle(Color.primary).fixedSize(horizontal:false,vertical:true) }
             }
-            if let error = error { Text(error); Button("読み直す") { Task { await refresh() } } }
+            if let error = error { Text(error); Button("読み直す") { Task { await refresh() } }.tint(.primary) }
         }.listStyle(.insetGrouped).navigationTitle("学ぶ").navigationBarTitleDisplayMode(.inline)
             .task { await refresh() }
             .fullScreenCover(isPresented:$shortReview,onDismiss:{Task { await refresh() }}) {

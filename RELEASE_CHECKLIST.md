@@ -334,3 +334,6 @@ B—Conditional 유지. Batch A snapshot 승인을 App Store 출시 승인으로
 - [ ] 실제 iPhone 오프라인/TTS/IME/VoiceOver/중단/3~10분·기기 메모리·StoreKit/AdMob 및 독립 원어민/교사 검수.
 
 이번은 분석이므로 runtime/Production/테스트 assertion을 바꾸지 않는다. 실패를 삭제·skip·완화해 출시 gate를 통과시키지 않는다. **Release B—Conditional 유지.**
+
+
+2026-10-24 추가 검증: NativeSmallAwake80 **169/167 PASS/2 FAIL/skip0**, Unit155·기능 UI12 PASS, 자동 접근성10/14 FAIL. 실제 자연 due 어휘1개 E2E82와 듣기7개75 PASS·기존 SRS/이력 보존; SE3/Dark/최대 글씨의 검색·설정02(84) 및 유지학습/구매 화면09(93) PASS; live font89 PASS. 최신 signed iPhone Release UI14(96)→전체169(91)→build/Release smoke92를 직렬 재검사 중이다. VoiceOver는 사용자 명시로 NOT TESTED, DATA10-7 완료/출시 승인/main 병합 전이다. 상세·실패 보존: DATA10_PROGRESS §7.10 / Docs/DATA10_NATIVE_RUNS.json.

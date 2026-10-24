@@ -11,7 +11,7 @@ struct SettingsView: View {
             Section {
                 Picker("新しく始める復習の量",selection:Binding(get:{preferences.value.amount},set:{preferences.setAmount($0)})) {
                     ForEach(StudyAmount.allCases,id:\.rawValue) { Text($0.title).tag($0) }
-                }
+                }.tint(.primary)
                 Text("短い単語復習の目安です。途中で閉じても保存されます。始めている復習の内容は変更しません。").font(.footnote).foregroundStyle(Color.primary).fixedSize(horizontal:false,vertical:true)
             } header: { Text("短い復習").foregroundStyle(Color.primary).fixedSize(horizontal:false,vertical:true) }
             Section {
@@ -22,7 +22,7 @@ struct SettingsView: View {
                 Text("端末の時刻で通知します。復習の有無にかかわらず、学習のきっかけをお知らせします。").font(.footnote).foregroundStyle(Color.primary).fixedSize(horizontal:false,vertical:true)
                 if preferences.denied {
                     Text("通知はiPhoneの設定で許可できます。通知なしでもすべての学習を利用できます。").font(.footnote)
-                    Button("iPhoneの設定を開く") { if let url = URL(string:UIApplication.openSettingsURLString) { openURL(url) } }.frame(minHeight:44)
+                    Button("iPhoneの設定を開く") { if let url = URL(string:UIApplication.openSettingsURLString) { openURL(url) } }.tint(.primary).frame(minHeight:44)
                 }
                 if let message = preferences.message { Text(message).font(.footnote) }
             } header: { Text("学習のリマインダー").foregroundStyle(Color.primary).fixedSize(horizontal:false,vertical:true) }

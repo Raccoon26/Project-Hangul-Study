@@ -323,3 +323,6 @@ SQL 검증은 네트워크 없는 로컬 파일 읽기/저장으로 수행. 실�
 ## Next handoff
 
 현재 Content14를 previous fixture로 보존한 뒤 다음 콘텐츠는15 이상 사용. Schema는 데이터만 추가할 때 올리지 않는다. 원본/ID/사용자 기록을 재생성하지 말고, oldset membership과 SRS/favorite 보존 검사를 계속한다. 먼저 Mac native gate를 실행하고 retirement resume 정책을 보완한다.
+
+
+2026-10-24 추가 검증: NativeSmallAwake80 **169/167 PASS/2 FAIL/skip0**, Unit155·기능 UI12 PASS, 자동 접근성10/14 FAIL. 실제 자연 due 어휘1개 E2E82와 듣기7개75 PASS·기존 SRS/이력 보존; SE3/Dark/최대 글씨의 검색·설정02(84) 및 유지학습/구매 화면09(93) PASS; live font89 PASS. 최신 signed iPhone Release UI14(96)→전체169(91)→build/Release smoke92를 직렬 재검사 중이다. VoiceOver는 사용자 명시로 NOT TESTED, DATA10-7 완료/출시 승인/main 병합 전이다. 상세·실패 보존: DATA10_PROGRESS §7.10 / Docs/DATA10_NATIVE_RUNS.json.

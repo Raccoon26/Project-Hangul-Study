@@ -222,6 +222,8 @@ final class StudyJourneyTests: XCTestCase {
         XCTAssertTrue(app.tabBars.buttons["設定"].waitForExistence(timeout:30))
         app.tabBars.buttons["設定"].tap()
         XCTAssertTrue(app.buttons.matching(NSPredicate(format:"label CONTAINS %@","20語")).firstMatch.waitForExistence(timeout:10))
+        let settings = XCTAttachment(screenshot:app.screenshot())
+        settings.name = "Persisted review amount and readable settings"; settings.lifetime = .keepAlways; add(settings)
         app.terminate(); app.launch()
         XCTAssertTrue(app.tabBars.buttons["調べる"].waitForExistence(timeout:30)); app.tabBars.buttons["調べる"].tap()
         let colorSearch = searchInput
@@ -440,14 +442,27 @@ final class StudyJourneyTests: XCTestCase {
     func test09StatisticsMaintenanceAndFreeLearningSettings() throws {
         app.tabBars.buttons["記録"].tap()
         XCTAssertTrue(app.staticTexts.matching(NSPredicate(format:"label == %@","学習アクション")).firstMatch.waitForExistence(timeout:10))
+        let statistics = XCTAttachment(screenshot:app.screenshot())
+        statistics.name = "Readable real learning statistics"; statistics.lifetime = .keepAlways; add(statistics)
         tap("維持学習")
-        XCTAssertTrue(app.staticTexts.matching(NSPredicate(format:"label CONTAINS %@","今は追加の練習候補がありません")).firstMatch.waitForExistence(timeout:10))
+        XCTAssertTrue(app.navigationBars["維持学習"].waitForExistence(timeout:10))
+        let notice = app.staticTexts.matching(NSPredicate(format:"label CONTAINS %@","今は追加の練習候補がありません")).firstMatch
+        // At maximum text size this later List row is not materialized until
+        // the learner scrolls to it. Check the actual text after reaching it.
+        for _ in 0..<40 { if notice.exists { break }; app.swipeUp() }
+        XCTAssertTrue(notice.waitForExistence(timeout:10))
+        let scheduled = app.buttons["予定された復習をする"]
+        // The scheduled review entry precedes the notice, so return toward it.
+        for _ in 0..<40 { if scheduled.exists && scheduled.isHittable { break }; app.swipeDown() }
         tap("予定された復習をする")
         XCTAssertFalse(app.staticTexts["データを開けませんでした"].exists)
         app.terminate(); app.launch()
         XCTAssertTrue(app.tabBars.buttons["設定"].waitForExistence(timeout:30)); app.tabBars.buttons["設定"].tap()
         tap("広告を削除・購入を復元")
-        XCTAssertTrue(app.buttons["購入を復元"].waitForExistence(timeout:10))
+        XCTAssertTrue(app.navigationBars["広告を削除"].waitForExistence(timeout:10))
+        let restore = app.buttons["購入を復元"]
+        XCTAssertTrue(reveal(restore),"The restore action must remain reachable below the explanation at maximum text size")
+        XCTAssertTrue(restore.waitForExistence(timeout:10))
         XCTAssertFalse(app.staticTexts["読み込み中"].exists)
         // No real purchase/consent is performed. All learning above remains free.
     }

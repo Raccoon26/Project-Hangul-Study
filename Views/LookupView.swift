@@ -37,7 +37,7 @@ struct LookupView: View {
                     .accessibilityIdentifier("dictionary-search")
                     .accessibilityLabel("韓国語・日本語で検索")
                 if !model.term.isEmpty {
-                    Button("検索語を消す") { model.term = "" }
+                    Button("検索語を消す") { model.term = "" }.tint(.primary)
                 }
             }
             Section {
@@ -52,9 +52,9 @@ struct LookupView: View {
                 ForEach(model.entries) { entry in
                     NavigationLink { LookupDetailView(services:services,reference:entry.reference) } label: { LookupRow(entry:entry) }
                 }
-                if model.more { Button("さらに表示") { Task { await model.next(services:services) } }.disabled(model.busy).frame(minHeight:44) }
+                if model.more { Button("さらに表示") { Task { await model.next(services:services) } }.tint(.primary).disabled(model.busy).frame(minHeight:44) }
             }
-            if let error = model.error { Text(error); Button("もう一度検索") { Task { await model.search(services:services) } } }
+            if let error = model.error { Text(error); Button("もう一度検索") { Task { await model.search(services:services) } }.tint(.primary) }
         }
     }
 }

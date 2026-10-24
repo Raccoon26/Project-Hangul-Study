@@ -1,6 +1,6 @@
 {
   "status": "IN_PROGRESS_NOT_COMPLETE",
-  "recorded_at_utc": "2026-10-24T02:03:17.205710+00:00",
+  "recorded_at_utc": "2026-10-24T09:37:20.113402+00:00",
   "baseline": "59d3bc7636c2b22ce7a0e21899fa1deeb2bbfedb",
   "branch": "codex/data10-7-native-regression",
   "runs": [
@@ -1713,15 +1713,249 @@
           "message": "Invalid frame dimension (negative or non-finite)."
         }
       ]
+    },
+    {
+      "bundle": "NativeSmallAwake80.xcresult",
+      "kind": "project-full",
+      "startTime": 1792807349.992,
+      "finishTime": 1792809101.583,
+      "result": "Failed",
+      "totalTestCount": 169,
+      "passedTests": 167,
+      "failedTests": 2,
+      "skippedTests": 0,
+      "expectedFailures": 0,
+      "testFailures": [
+        {
+          "failureText": "Contrast failed",
+          "targetName": "HangulStudyUITests",
+          "testIdentifier": 165,
+          "testIdentifierString": "StudyJourneyTests/test10AccessibilityAuditHomeAndLearningEntry()",
+          "testIdentifierURL": "test://com.apple.xcode/HangulStudy/HangulStudyUITests/StudyJourneyTests/test10AccessibilityAuditHomeAndLearningEntry",
+          "testName": "test10AccessibilityAuditHomeAndLearningEntry()"
+        },
+        {
+          "failureText": "Dynamic Type font sizes are partially unsupported",
+          "targetName": "HangulStudyUITests",
+          "testIdentifier": 169,
+          "testIdentifierString": "StudyJourneyTests/test14AccessibilityAuditLookupRecordsAndSettings()",
+          "testIdentifierURL": "test://com.apple.xcode/HangulStudy/HangulStudyUITests/StudyJourneyTests/test14AccessibilityAuditLookupRecordsAndSettings",
+          "testName": "test14AccessibilityAuditLookupRecordsAndSettings()"
+        }
+      ],
+      "runtimeWarnings": [
+        {
+          "issueType": "Runtime Warning",
+          "message": "Invalid frame dimension (negative or non-finite)."
+        },
+        {
+          "issueType": "Runtime Warning",
+          "message": "Invalid frame dimension (negative or non-finite)."
+        }
+      ]
+    },
+    {
+      "bundle": "PhysicalReleaseFull81.xcresult",
+      "kind": "physical-external-destination-failure",
+      "startTime": 1792809123.299,
+      "finishTime": 1792809123.299,
+      "result": "unknown",
+      "totalTestCount": 0,
+      "passedTests": 0,
+      "failedTests": 0,
+      "skippedTests": 0,
+      "expectedFailures": 0,
+      "testFailures": [],
+      "runtimeWarnings": []
+    },
+    {
+      "bundle": "VocabularyDue82.xcresult",
+      "kind": "separate-real-vocabulary-due",
+      "startTime": 1792809190.285,
+      "finishTime": 1792809270.681,
+      "result": "Passed",
+      "totalTestCount": 1,
+      "passedTests": 1,
+      "failedTests": 0,
+      "skippedTests": 0,
+      "expectedFailures": 0,
+      "testFailures": [],
+      "runtimeWarnings": []
+    },
+    {
+      "bundle": "SmallAX84.xcresult",
+      "kind": "selected-small-maximum-font",
+      "startTime": 1792809462.368,
+      "finishTime": 1792809680.869,
+      "result": "Failed",
+      "totalTestCount": 2,
+      "passedTests": 1,
+      "failedTests": 1,
+      "skippedTests": 0,
+      "expectedFailures": 0,
+      "testFailures": [
+        {
+          "failureText": "XCTAssertTrue failed",
+          "targetName": "HangulStudyUITests",
+          "testIdentifier": 2,
+          "testIdentifierString": "StudyJourneyTests/test09StatisticsMaintenanceAndFreeLearningSettings()",
+          "testIdentifierURL": "test://com.apple.xcode/HangulStudy/HangulStudyUITests/StudyJourneyTests/test09StatisticsMaintenanceAndFreeLearningSettings",
+          "testName": "test09StatisticsMaintenanceAndFreeLearningSettings()"
+        }
+      ],
+      "runtimeWarnings": []
+    },
+    {
+      "bundle": "HeaderProbe85.xcresult",
+      "kind": "minimal-negative-diagnostic",
+      "startTime": 1792809274.235,
+      "finishTime": 1792809333.772,
+      "result": "Failed",
+      "totalTestCount": 3,
+      "passedTests": 0,
+      "failedTests": 3,
+      "skippedTests": 0,
+      "expectedFailures": 0,
+      "testFailures": [
+        {
+          "failureText": "Contrast failed",
+          "targetName": "AuditProbeUITests",
+          "testIdentifier": 1,
+          "testIdentifierString": "AuditTests/testCustomHeaderExplicitHeadline()",
+          "testIdentifierURL": "test://com.apple.xcode/AuditProbe/AuditProbeUITests/AuditTests/testCustomHeaderExplicitHeadline",
+          "testName": "testCustomHeaderExplicitHeadline()"
+        },
+        {
+          "failureText": "Contrast failed",
+          "targetName": "AuditProbeUITests",
+          "testIdentifier": 2,
+          "testIdentifierString": "AuditTests/testCustomHeaderInheritedFont()",
+          "testIdentifierURL": "test://com.apple.xcode/AuditProbe/AuditProbeUITests/AuditTests/testCustomHeaderInheritedFont",
+          "testName": "testCustomHeaderInheritedFont()"
+        },
+        {
+          "failureText": "Contrast failed",
+          "targetName": "AuditProbeUITests",
+          "testIdentifier": 3,
+          "testIdentifierString": "AuditTests/testNativeStringHeader()",
+          "testIdentifierURL": "test://com.apple.xcode/AuditProbe/AuditProbeUITests/AuditTests/testNativeStringHeader",
+          "testName": "testNativeStringHeader()"
+        }
+      ],
+      "runtimeWarnings": []
+    },
+    {
+      "bundle": "DynamicFont87.xcresult",
+      "kind": "diagnostic-offscreen-query-failure",
+      "startTime": 1792809686.256,
+      "finishTime": 1792809711.365,
+      "result": "Failed",
+      "totalTestCount": 1,
+      "passedTests": 0,
+      "failedTests": 1,
+      "skippedTests": 0,
+      "expectedFailures": 0,
+      "testFailures": [
+        {
+          "failureText": "XCTAssertTrue failed",
+          "targetName": "AuditProbeUITests",
+          "testIdentifier": 1,
+          "testIdentifierString": "ActualFontResponseTests/testActualHomeHeadersResumeAndValueRowsRespondToLiveMaximumType()",
+          "testIdentifierURL": "test://com.apple.xcode/AuditProbe/AuditProbeUITests/ActualFontResponseTests/testActualHomeHeadersResumeAndValueRowsRespondToLiveMaximumType",
+          "testName": "testActualHomeHeadersResumeAndValueRowsRespondToLiveMaximumType()"
+        }
+      ],
+      "runtimeWarnings": []
+    },
+    {
+      "bundle": "ViewportProbe88.xcresult",
+      "kind": "minimal-negative-diagnostic",
+      "startTime": 1792809718.714,
+      "finishTime": 1792809761.29,
+      "result": "Failed",
+      "totalTestCount": 2,
+      "passedTests": 0,
+      "failedTests": 2,
+      "skippedTests": 0,
+      "expectedFailures": 0,
+      "testFailures": [
+        {
+          "failureText": "Contrast failed",
+          "targetName": "AuditProbeUITests",
+          "testIdentifier": 1,
+          "testIdentifierString": "AuditTests/testClippedSafeViewport()",
+          "testIdentifierURL": "test://com.apple.xcode/AuditProbe/AuditProbeUITests/AuditTests/testClippedSafeViewport",
+          "testName": "testClippedSafeViewport()"
+        },
+        {
+          "failureText": "Contrast failed",
+          "targetName": "AuditProbeUITests",
+          "testIdentifier": 2,
+          "testIdentifierString": "AuditTests/testSystemScrollViewport()",
+          "testIdentifierURL": "test://com.apple.xcode/AuditProbe/AuditProbeUITests/AuditTests/testSystemScrollViewport",
+          "testName": "testSystemScrollViewport()"
+        }
+      ],
+      "runtimeWarnings": []
+    },
+    {
+      "bundle": "DynamicFont89.xcresult",
+      "kind": "separate-live-font-measurement",
+      "startTime": 1792809925.513,
+      "finishTime": 1792809969.383,
+      "result": "Passed",
+      "totalTestCount": 1,
+      "passedTests": 1,
+      "failedTests": 0,
+      "skippedTests": 0,
+      "expectedFailures": 0,
+      "testFailures": [],
+      "runtimeWarnings": []
+    },
+    {
+      "bundle": "SmallAX90.xcresult",
+      "kind": "selected-maximum-font-lazy-row-failure",
+      "startTime": 1792809980.912,
+      "finishTime": 1792810138.023,
+      "result": "Failed",
+      "totalTestCount": 1,
+      "passedTests": 0,
+      "failedTests": 1,
+      "skippedTests": 0,
+      "expectedFailures": 0,
+      "testFailures": [
+        {
+          "failureText": "XCTAssertTrue failed",
+          "targetName": "HangulStudyUITests",
+          "testIdentifier": 1,
+          "testIdentifierString": "StudyJourneyTests/test09StatisticsMaintenanceAndFreeLearningSettings()",
+          "testIdentifierURL": "test://com.apple.xcode/HangulStudy/HangulStudyUITests/StudyJourneyTests/test09StatisticsMaintenanceAndFreeLearningSettings",
+          "testName": "test09StatisticsMaintenanceAndFreeLearningSettings()"
+        }
+      ],
+      "runtimeWarnings": []
+    },
+    {
+      "bundle": "SmallAX93.xcresult",
+      "kind": "selected-maximum-font-regression",
+      "startTime": 1792810226.306,
+      "finishTime": 1792810381.623,
+      "result": "Passed",
+      "totalTestCount": 1,
+      "passedTests": 1,
+      "failedTests": 0,
+      "skippedTests": 0,
+      "expectedFailures": 0,
+      "testFailures": [],
+      "runtimeWarnings": []
     }
   ],
   "pending": [
-    "NativeSmallAwake80 full169 latest UI and Resume contrast fix",
-    "PhysicalReleaseFull81 Release UI-only after Simulator (device reconnected)",
-    "remaining unfiltered accessibility failures",
-    "VoiceOver deferred by user",
-    "production accounts and physical interruption/battery gates",
-    "main PR merge only after required checks pass"
+    "PhysicalReleaseFull96 signed Release UI-only latest: RUNNING; user reconnected phone",
+    "NativeLatest91 complete169 current source: queued behind physical96",
+    "Build92 latest resolve/Debug/Release/architecture/Release UI smoke: queued serially",
+    "VoiceOver actual use: user explicitly deferred; NOT TESTED",
+    "Automatic accessibility audit10/14 remain failures until actual passing run"
   ],
   "notes": [
     "Method counts, not assertions; repeated runs are not summed as unique coverage.",
@@ -1767,5 +2001,61 @@
     "integrity": "ok",
     "fk_errors": 0,
     "clock_or_database_seed_reset": false
-  }
+  },
+  "separate_vocabulary_due_e2e": {
+    "run": "VocabularyDue82",
+    "ui_passed": 1,
+    "reviewed_cards": 1,
+    "prior_srs_keys_preserved": 21,
+    "unchanged_other_srs_rows": 20,
+    "reviewCount_change": "0 to 1",
+    "stage_change": "0 to 1",
+    "future_due": true,
+    "firstLearnedAt_preserved": true,
+    "review_items": 1,
+    "completed_sessions": 1,
+    "cold_revealed_resume": "PASS",
+    "integrity": "ok",
+    "fk_errors": 0,
+    "clock_seed_reset_or_direct_user_database_write": false
+  },
+  "live_dynamic_font": {
+    "maximum": {
+      "今日の復習": 83.5,
+      "現在のコース": 83.5,
+      "続きから": 83.5
+    },
+    "normal": {
+      "今日の復習": 40.5,
+      "現在のコース": 40.5,
+      "続きから": 40.5
+    }
+  },
+  "cache_reclamation": [
+    {
+      "recorded_at_utc": "2026-10-24T09:35:54.764682+00:00",
+      "removed": "obsolete iOS27.2 build24B5110a Xcode DeviceSupport cache",
+      "current_phone_build_preserved": "24B115",
+      "bytes": 7041413659,
+      "reason": "user requested removing unnecessary verification files; different current phone OS confirmed",
+      "sources_learning_data_results_deleted": false
+    },
+    [
+      {
+        "qa_simulator": "03217BF0-4FD8-4CEA-AD6D-807A44C87B04",
+        "regenerable_cache_bytes": 398709282,
+        "app_containers_and_keychain_preserved": true
+      },
+      {
+        "qa_simulator": "3E475793-59E7-4D09-A203-D8314386D2FC",
+        "regenerable_cache_bytes": 397823239,
+        "app_containers_and_keychain_preserved": true
+      },
+      {
+        "qa_simulator": "EB46F587-0DF1-4733-9687-743556F7DA17",
+        "regenerable_cache_bytes": 119207298,
+        "app_containers_and_keychain_preserved": true
+      }
+    ]
+  ]
 }

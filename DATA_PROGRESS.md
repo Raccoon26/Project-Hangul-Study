@@ -301,3 +301,6 @@ DEV seed 문장/문법/발음은 DB 전체에 포함. 이전 상세기록은 `Do
 生活動作・家事・状態・調理、関係・気持ち、学校/仕事、旅行/サービス、抽象語・副詞を拡充。初中級はまだ導入層。医療/公共サービス/住居・契約/具体的な趣味、初中級文法・聴解・産出問題を今後補う。全部の語に独立した聴解問題があるわけではない。
 
 Validator0errors/既存10warnings、新規duplicate候補0。Python/SQLite232tests PASS。Swift89ファイル構文parse0errors、XCTest/Release build/実機音声は未実行。次の更新は現在Content14をpreviousとして保存しContent15以上にする。
+
+
+2026-10-24 추가 검증: NativeSmallAwake80 **169/167 PASS/2 FAIL/skip0**, Unit155·기능 UI12 PASS, 자동 접근성10/14 FAIL. 실제 자연 due 어휘1개 E2E82와 듣기7개75 PASS·기존 SRS/이력 보존; SE3/Dark/최대 글씨의 검색·설정02(84) 및 유지학습/구매 화면09(93) PASS; live font89 PASS. 최신 signed iPhone Release UI14(96)→전체169(91)→build/Release smoke92를 직렬 재검사 중이다. VoiceOver는 사용자 명시로 NOT TESTED, DATA10-7 완료/출시 승인/main 병합 전이다. 상세·실패 보존: DATA10_PROGRESS §7.10 / Docs/DATA10_NATIVE_RUNS.json.

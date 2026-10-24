@@ -28,6 +28,8 @@
 - SE3/Dark 전체76은169/165 PASS/4 FAIL/skip0, Unit155 PASS·actor trap0이다. UI08 스크롤 보완은 focused78 PASS, UI07은 키보드 닫기 보완 후 전체80으로 재실행한다. Dark Home Resume의 낮은 indigo 대비는 primary로 교정했다. 자동 감사10/14는 필터 없이 실패 상태를 유지한다. KeyboardProbe79 기능3/3 PASS에서 툴바 경고가 제품 없이 재현됐으며 무리하게 닫기 기능을 제거하지 않는다.
 - 자연 due 듣기7개 E2E75의 실제 판정/재개/완료·SRS 갱신·기존 snapshot2개 불변을 확인했다. 어휘 due1개 E2E82도 실제 UI로 검사하며 시계 조작/seed/reset/사용자 DB 쓰기 없이 진행한다. 임시 probe/반복 실행은 고유 XCTest169개에 합산하지 않는다. 현재 전체80→연결 확인한 iPhone Release UI-only81→보존 QA 어휘82를 직렬 실행한다. VoiceOver는 사용자가 추후/미확인 유지를 명시했다.
 
+- 최신 §7.10/원장은 전체80 169/167PASS/2감사FAIL·기능UI12PASS, 자연 due 어휘82 PASS(SRS21보존/다른20행불변), 최대글씨02(84)/09(93)·live font89 PASS다. 실패84/87/90 및 최소재현85/88도 보존한다. 사용자 iPhone 재연결 후 Release UI-only96→최신169(91)→build92를 직렬 재검사한다. VoiceOver 실제 사용은 추후/NOT TESTED; 감사 실패를 필터/skip하거나 완료·병합으로 바꾸지 않는다.
+
 ## DATA-10-6 통합 현재 기준
 
 - 현재 Content29/Schema4/reader7/UserProgress10이다. DATA10 신규180원문/360문항은 그대로이며 기존 ID를 참조하는3코스/72레슨/6Unit·레슨당5문항을 추가했다. 신규 UUID81개·membership360·Grammar180/Vocabulary180 관계이며 수량에 신규 원문/문항으로 더하지 않는다. 기존103레슨/코스0~7·모든 learning_order와20문항 연습번호를 보존했다.
