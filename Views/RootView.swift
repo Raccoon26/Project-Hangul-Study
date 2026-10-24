@@ -7,15 +7,15 @@ struct RootView: View {
         Group {
             if model.container != nil {
                 TabView {
-                    NavigationStack { LearnView().tint(.indigo) }
+                    NavigationStack { LearnView() }
                         .tabItem { Label("学ぶ", systemImage: "book") }
-                    NavigationStack { LookupView().tint(.indigo) }
+                    NavigationStack { LookupView() }
                         .tabItem { Label("調べる", systemImage: "magnifyingglass") }
-                    NavigationStack { RecordsView().tint(.indigo) }
+                    NavigationStack { RecordsView() }
                         .tabItem { Label("記録", systemImage: "chart.bar") }
-                    NavigationStack { SettingsView().tint(.indigo) }
+                    NavigationStack { SettingsView() }
                         .tabItem { Label("設定", systemImage: "gearshape") }
-                }.tint(.primary)
+                }.tint(.indigo)
                 .alert("確認", isPresented: Binding(get: { model.errorMessage != nil }, set: { if !$0 { model.errorMessage = nil } })) {
                     Button("閉じる", role: .cancel) { model.errorMessage = nil }
                 } message: { Text(model.errorMessage ?? "") }
@@ -47,5 +47,20 @@ extension View {
     /// Let system list links wrap and grow instead of keeping a single-line row.
     func learningRow() -> some View {
         font(.body).lineLimit(nil).fixedSize(horizontal:false,vertical:true)
+    }
+}
+
+/// Keep audio actions in the same positions when playback starts or stops.
+/// The vertical arrangement follows the learner's text size, not playback state.
+struct LearningAudioControlRow<Content: View>: View {
+    @Environment(\.dynamicTypeSize) private var typeSize
+    @ViewBuilder let content: () -> Content
+    var body: some View {
+        let layout = typeSize.isAccessibilitySize
+            ? AnyLayout(VStackLayout(alignment:.leading,spacing:8))
+            : AnyLayout(HStackLayout(alignment:.center,spacing:12))
+        layout { content() }
+            .font(.body).buttonStyle(.bordered).labelStyle(.titleAndIcon)
+            .frame(maxWidth:600,alignment:.leading)
     }
 }

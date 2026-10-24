@@ -167,8 +167,8 @@ struct ListeningStudyView: View {
                     } else if let q = s.current {
                         Text(s.retrying ? "間違えた問題をもう一度" : "\(s.position+1) / \(s.questions.count)").font(.subheadline)
                         ProgressView(value:Double(s.position),total:Double(s.questions.count)).accessibilityLabel("問題の進み具合")
+                        Text(q.prompt).font(.title3).fixedSize(horizontal:false,vertical:true)
                         audioControls(q,s:s)
-                        Text(q.prompt).font(.title3)
                         if s.result == nil {
                             if q.task == .dictation {
                                 TextField("韓国語で入力",text:$input,axis:.vertical)
@@ -234,15 +234,17 @@ struct ListeningStudyView: View {
     }
     @ViewBuilder private func audioControls(_ q: ListeningQuestion,s: ListeningSession) -> some View {
         if audio.availability(for:q.audio) == .available {
-            VStack(spacing:16) {
+            VStack(spacing:12) {
                 Button { play(q,s:s,speed:.normal) } label: {
-                    Label(s.heard ? "もう一度" : "聞く",systemImage:"speaker.wave.2.fill").font(.title).frame(minWidth:120,minHeight:80)
-                }.buttonStyle(.bordered).disabled(busy)
-                HStack {
-                    Button("ゆっくり") { play(q,s:s,speed:.slow) }.frame(minHeight:44).disabled(busy)
-                    if audio.isPlaying { Button("停止") { playback = nil; audio.stop() }.frame(minHeight:44) }
+                    Label(s.heard ? "もう一度" : "聞く",systemImage:"speaker.wave.2.fill")
+                        .font(.headline).fixedSize(horizontal:false,vertical:true).frame(maxWidth:.infinity,minHeight:60)
+                }.buttonStyle(.borderedProminent).disabled(busy)
+                LearningAudioControlRow {
+                    Button { play(q,s:s,speed:.slow) } label: { Text("ゆっくり").fixedSize(horizontal:false,vertical:true).frame(maxWidth:.infinity,minHeight:44) }.disabled(busy)
+                    Button { playback = nil; audio.stop() } label: { Text("停止").frame(maxWidth:.infinity,minHeight:44) }.disabled(!audio.isPlaying)
                 }
-            }.frame(maxWidth:.infinity)
+                Text(q.audio.source == .systemTTS ? "システム音声" : "確認用の録音音声").font(.caption).foregroundStyle(.secondary)
+            }.frame(maxWidth:600)
         } else if let message = audio.availability(for:q.audio).message {
             Text(message)
             Text("音声が使える状態になってから再開してください。途中の記録は保存されています。").font(.footnote)

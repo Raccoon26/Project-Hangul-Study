@@ -129,11 +129,11 @@ struct ProductionStudyView: View {
     @ViewBuilder private func sound(_ text: String) -> some View {
         let request = LearningAudio(source:.systemTTS,usage:.wordSentence,text:text,asset:nil)
         if audio.availability(for:request) == .available {
-            HStack {
-                Button { audio.play(request,speed:.normal) } label: { Label("聞く",systemImage:"speaker.wave.2").frame(minHeight:44) }
-                Button("ゆっくり") { audio.play(request,speed:.slow) }.frame(minHeight:44)
-                if audio.isPlaying { Button("停止") { audio.stop() }.frame(minHeight:44) }
-            }.frame(minHeight:44)
+            LearningAudioControlRow {
+                Button { audio.play(request,speed:.normal) } label: { Label("聞く",systemImage:"speaker.wave.2").fixedSize(horizontal:false,vertical:true).frame(maxWidth:.infinity,minHeight:44) }
+                Button { audio.play(request,speed:.slow) } label: { Text("ゆっくり").fixedSize(horizontal:false,vertical:true).frame(maxWidth:.infinity,minHeight:44) }
+                Button { audio.stop() } label: { Text("停止").frame(maxWidth:.infinity,minHeight:44) }.disabled(!audio.isPlaying)
+            }
         } else if let message = audio.availability(for:request).message { Text(message).font(.footnote) }
         if let message = audio.message { Text(message).font(.footnote) }
     }

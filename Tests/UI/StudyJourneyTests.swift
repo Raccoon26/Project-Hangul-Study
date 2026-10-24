@@ -1,4 +1,5 @@
 import XCTest
+import UIKit
 import SQLite3
 
 /// Uses the real app, bundled Production database and persistent app container.
@@ -250,6 +251,8 @@ final class StudyJourneyTests: XCTestCase {
                 tap("単語の続き")
                 XCTAssertTrue(app.staticTexts["5 / 20"].waitForExistence(timeout:10))
                 XCTAssertTrue(app.buttons["意味を見る"].exists)
+                XCTAssertTrue(app.buttons["学習を閉じる。保存した位置から再開できます"].exists)
+                XCTAssertFalse(app.navigationBars.buttons["閉じる"].exists,"A resumed card must not gain a second close bar above its own header")
             }
         }
         XCTAssertTrue(app.staticTexts["次は1語"].waitForExistence(timeout:10))
@@ -418,7 +421,7 @@ final class StudyJourneyTests: XCTestCase {
             XCTAssertTrue(app.staticTexts["韓国語の原文："+korean].exists)
             if index == 0 {
                 tap("ゆっくり")
-                let finished = XCTNSPredicateExpectation(predicate:NSPredicate(format:"exists == false"),object:app.buttons["停止"])
+                let finished = XCTNSPredicateExpectation(predicate:NSPredicate(format:"enabled == false"),object:app.buttons["停止"])
                 XCTAssertEqual(XCTWaiter.wait(for:[finished],timeout:40),.completed)
                 app.terminate(); app.launch()
                 XCTAssertTrue(app.tabBars.buttons["学ぶ"].waitForExistence(timeout:30)); tap("リスニングの続き")
@@ -505,6 +508,40 @@ final class StudyJourneyTests: XCTestCase {
         level("入門")
         try audit(last:app.staticTexts["curriculum-progress-note"])
     }
+    func test15PushedDictionaryActionHasVisibleText() throws {
+        let lookupTab = app.tabBars.buttons["調べる"]
+        XCTAssertTrue(lookupTab.waitForExistence(timeout:10))
+        lookupTab.coordinate(withNormalizedOffset:CGVector(dx:0.5,dy:0.5)).tap()
+        XCTAssertTrue(app.navigationBars["調べる"].waitForExistence(timeout:10))
+        let search = searchInput
+        XCTAssertTrue(search.waitForExistence(timeout:10)); search.tap(); search.typeText("걷다\n")
+        tap("걷다",contains:true)
+        let action = app.buttons["もう一度学ぶ"]
+        XCTAssertTrue(reveal(action)); XCTAssertTrue(action.isEnabled)
+        // Accessibility can expose a label even when white text is painted on
+        // a white prominent button. Check actual pixels inside the label area,
+        // excluding the rounded border and shadow, rather than its AX name.
+        let screenshot = action.screenshot()
+        let attachment = XCTAttachment(screenshot:screenshot)
+        attachment.name = "Dictionary action visible label"; attachment.lifetime = .keepAlways; add(attachment)
+        let image = try XCTUnwrap(screenshot.image.cgImage)
+        let width = image.width, height = image.height
+        var pixels = [UInt8](repeating:0,count:width*height*4)
+        let context = try XCTUnwrap(CGContext(data:&pixels,width:width,height:height,bitsPerComponent:8,bytesPerRow:width*4,space:CGColorSpaceCreateDeviceRGB(),bitmapInfo:CGImageAlphaInfo.premultipliedLast.rawValue | CGBitmapInfo.byteOrder32Big.rawValue))
+        context.draw(image,in:CGRect(x:0,y:0,width:width,height:height))
+        var luminance: [Double] = []
+        for y in (height*30/100)..<(height*70/100) {
+            for x in (width*20/100)..<(width*80/100) {
+                let offset = (y*width+x)*4
+                let rgb = (0..<3).map { Double(pixels[offset+$0])/255 }
+                luminance.append(0.2126*rgb[0]+0.7152*rgb[1]+0.0722*rgb[2])
+            }
+        }
+        luminance.sort()
+        XCTAssertGreaterThan(luminance.count,100)
+        let low = luminance[luminance.count/100], high = luminance[luminance.count*99/100]
+        XCTAssertGreaterThan(high-low,0.20,"The visible label must differ from the button fill; white-on-white is unreadable")
+    }
     func test11SearchSubmitDismissesKeyboardWithoutClearingResults() throws {
         app.tabBars.buttons["調べる"].tap()
         let search = searchInput
@@ -540,13 +577,23 @@ final class StudyJourneyTests: XCTestCase {
         }
         let q = try XCTUnwrap(selected,"An unheard question is required to verify interruption without premature answer disclosure")
         let korean = try XCTUnwrap(q["korean"]), correct = try XCTUnwrap(q["correct"])
+        let normalFrame = app.buttons["聞く"].frame, slowFrame = app.buttons["ゆっくり"].frame
+        XCTAssertTrue(app.buttons["停止"].exists)
+        XCTAssertFalse(app.buttons["停止"].isEnabled)
         tap("聞く")
         XCTAssertTrue(app.buttons["停止"].waitForExistence(timeout:5))
+        XCTAssertTrue(app.buttons["停止"].isEnabled)
+        XCTAssertEqual(app.buttons["聞く"].frame.minX,normalFrame.minX,accuracy:1)
+        XCTAssertEqual(app.buttons["聞く"].frame.minY,normalFrame.minY,accuracy:1)
+        XCTAssertEqual(app.buttons["ゆっくり"].frame.minX,slowFrame.minX,accuracy:1)
+        XCTAssertEqual(app.buttons["ゆっくり"].frame.minY,slowFrame.minY,accuracy:1)
         XCUIDevice.shared.press(.home)
         XCTAssertTrue(app.wait(for:.runningBackground,timeout:10))
         app.activate()
         XCTAssertTrue(app.buttons["聞く"].waitForExistence(timeout:10))
-        XCTAssertFalse(app.buttons["停止"].exists)
+        XCTAssertTrue(app.buttons["停止"].exists)
+        XCTAssertFalse(app.buttons["停止"].isEnabled)
+        XCTAssertEqual(app.buttons["ゆっくり"].frame.minY,slowFrame.minY,accuracy:1)
         XCTAssertFalse(app.buttons[correct].exists)
         XCTAssertFalse(app.staticTexts["韓国語の原文："+korean].exists)
         tap("聞く")

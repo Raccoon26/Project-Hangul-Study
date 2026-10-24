@@ -52,10 +52,7 @@ struct VocabularyCardContentView: View {
     }
     @ViewBuilder private func audioControls(_ request: LearningAudio, label: String) -> some View {
         if audio.availability(for: request) == .available {
-            ViewThatFits(in: .horizontal) {
-                HStack(spacing: 20) { audioButtons(request, label: label) }
-                VStack(alignment: .leading, spacing: 4) { audioButtons(request, label: label) }
-            }
+            LearningAudioControlRow { audioButtons(request, label:label) }
             Text(request.source == .systemTTS ? "システム音声" : "確認用の録音音声").font(.caption).foregroundStyle(.secondary)
         } else if let message = audio.availability(for: request).message {
             Text(message).font(.footnote).foregroundStyle(.secondary)
@@ -64,10 +61,10 @@ struct VocabularyCardContentView: View {
     }
     @ViewBuilder private func audioButtons(_ request: LearningAudio, label: String) -> some View {
         Button { audio.play(request, speed: .normal) } label: {
-            Label(label, systemImage: "speaker.wave.2").frame(minHeight: 44)
+            Label(label, systemImage: "speaker.wave.2").fixedSize(horizontal:false,vertical:true).frame(maxWidth:.infinity,minHeight:44)
         }.accessibilityLabel(label + "。通常の速さ")
-        Button("ゆっくり") { audio.play(request, speed: .slow) }.frame(minHeight: 44)
+        Button { audio.play(request,speed:.slow) } label: { Text("ゆっくり").fixedSize(horizontal:false,vertical:true).frame(maxWidth:.infinity,minHeight:44) }
             .accessibilityLabel(label + "。ゆっくり")
-        if audio.isPlaying { Button("停止") { audio.stop() }.frame(minHeight: 44) }
+        Button { audio.stop() } label: { Text("停止").frame(maxWidth:.infinity,minHeight:44) }.disabled(!audio.isPlaying)
     }
 }

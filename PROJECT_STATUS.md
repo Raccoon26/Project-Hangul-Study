@@ -326,3 +326,6 @@ SQL 검증은 네트워크 없는 로컬 파일 읽기/저장으로 수행. 실�
 
 
 2026-10-24 추가 검증: NativeSmallAwake80 **169/167 PASS/2 FAIL/skip0**, Unit155·기능 UI12 PASS, 자동 접근성10/14 FAIL. 실제 자연 due 어휘1개 E2E82와 듣기7개75 PASS·기존 SRS/이력 보존; SE3/Dark/최대 글씨의 검색·설정02(84) 및 유지학습/구매 화면09(93) PASS; live font89 PASS. 최신 signed iPhone Release UI14(96)→전체169(91)→build/Release smoke92를 직렬 재검사 중이다. VoiceOver는 사용자 명시로 NOT TESTED, DATA10-7 완료/출시 승인/main 병합 전이다. 상세·실패 보존: DATA10_PROGRESS §7.10 / Docs/DATA10_NATIVE_RUNS.json.
+
+
+2026-10-24 사용자 제보 후: 검색 상세의 흰 배경/흰 글자 회귀를 실제 crop/pixel로 재현(101 FAIL/밝기차0.0)하고 TabView primary tint 상속을 제거했다.104의 새 UI15 1/1 PASS. 음성 조작 위치 고정/중단/정답 비공개 UI12(102) PASS,102의 검색 탭 미진입 실패는 별도 보존. 이어하기 중복 닫기 바도 보완했다. 최신 정의170(Unit155+UI15)의 전체 Simulator91·실기기 Release15(103)·build92 결과 대기로 여전히 미완료/Draft/main 미병합이다. 상세 DATA10_PROGRESS §7.11.

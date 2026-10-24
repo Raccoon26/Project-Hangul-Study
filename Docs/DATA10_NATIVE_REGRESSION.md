@@ -139,3 +139,23 @@ FocusedPortable86은33/33 PASS(0.639초, failures/errors/skipped0, exit0). 최�
 
 
 저장공간 추가 조사(10월24일 저녁): iPhone OS가 현재27.2/build24B115로 갱신되어 Xcode DeviceSupport6.7GiB가 새로 생성됐으며, 이전 build24B5110a6.6GiB도 남아 있었다. 사용자의 불필요 산출물 정리 요청에 따라 현재 build와 분리된 이전 DeviceSupport 캐시7,041,413,659bytes·종료된 작업용 QA Simulator3개의 Library/Caches915,739,819bytes·자체 DerivedData 재생성 모듈/색인을 정리했다. 학습 app container·Keychain·사용자 Simulator·원본/fixture·xcresult는 보존했다. 실제 df 가용 약0.1GiB→8.0GiB로 회복했다. 최신91/92는 새 Xcode 실행 전 공간 부족 때문에 잠시 대기를 해제했으며 결과 bundle/실행0을 확인 후 같은 명령으로 다시 직렬 대기시켰다. 검사 실패나 skip으로 집계하지 않는다.96 실제 iPhone 검사는 계속 진행한다.
+
+
+### 7.11 사용자 실화면 제보·표시 회귀 수정 (2026-10-24 저녁, 재검증 중)
+
+사용자가 검색 쪽 흰 버튼의 글자 누락·음성 버튼 배치 이상·기본 디자인의 부족을 직접 제보했다. 기능 버튼의 AX 이름/탭 성공만으로 실제 표시 PASS를 판단했던 검증 공백이다. 이 브랜치의 이전 탭 대비 수정에서 TabView의 semantic primary tint가 push 목적지에 전파되어 Dark 화면의 prominent 버튼이 흰 배경/흰 글자가 됐다. 기본 탭 root 안에만 있던 indigo는 목적지까지 보호하지 못했다. 이 수정은 main에 아직 병합하지 않았다.
+
+새 UI15는 실제 검색→걷다 상세→「もう一度学ぶ」의 버튼 이미지를 검사한다. rounded border/shadow를 제외한 글자 영역의1/99 percentile 밝기 차이를 확인하며 AX label 존재만으로 통과시키지 않는다. 수정 전 DictionaryContrast101은1/1 FAIL/exit65, 실제 밝기 차이0.0(기준>0.20), 저장한 작은 crop에도 완전한 흰 버튼을 재현했다. color 검사 실패를 완화하지 않았다. 탭/목적지에 일관된 indigo를 적용하도록 primary tint 상속을 제거했다. 새 고유 정의는 Unit155+UI15=170이다.
+
+사용자에게 보인 실제 화면에는 이어하기 시 외부 닫기 바와 내부 닫기 헤더가 중복되어 있었다. 자체 헤더를 갖는 어휘/문법/문자 레슨/복습 resume에서 외부 바를 숨기되 로딩/오류 중 닫기는 유지하고, 어휘 cold resume에 단일 헤더 assertion을 추가했다. 기본 디자인은 기능 중심의 미완성 시각 디자인이며 전면 신규 디자인/새 기능을 이번에 승인된 것으로 확대하지 않는다.
+
+음성 조작은 재생 중에만 Stop을 생성하던 조건이 행 너비·ViewThatFits 선택을 바꿔 위치가 움직일 수 있었다. 보통/느리게/정지를 같은 자리에 유지하고, 정지는 미재생 시 명시적으로 비활성화한다. 접근성 큰 글씨는 재생 상태와 독립된 세로 AnyLayout을 사용한다. 듣기는 질문 지시문→재생→답 순으로 배치하고 실제 시스템 음성/검증 녹음 표기를 구분한다. 엔진·정답·heard/transaction/SRS·원문 비공개 정책은 유지했다.
+
+UILayout102는2 실행/1 PASS/1 FAIL/exit65: 실제 긴 TTS의 재생 전후 버튼 좌표 불변·정지 활성/비활성·background 중단·정답 미노출·재생 후 정답/저장은 UI12 PASS(126.360초). UI15는 검색 탭 표준 tap 이후 실제 검색 화면으로 이동하지 않아 pixel 검사에 도달하기 전에 실패했다. 화면 캡처는 Home이 남아 있음을 확인했다. 실제 tab frame 중심 탭과 목적지 제목 assertion을 보완한 DictionaryContrast104에서 pixel 검사를 다시 실행 중이며 기존 실패를 통과로 바꾸지 않는다.
+
+실기기 PhysicalReleaseFull96은 최신 Release build/설치 후 UI01~06(첫 실행·검색/설정·자모/받침/발음·회독·문법·활용/입력/재개)6개 PASS했다. 새 제보 수정이 우선이므로 이전 바이너리의07 실행 중 명시적으로 중단했다(exit75). xcresult는7실행/6 PASS/취소 오류1/skip0이며07 완료/08~14 실행을 주장하지 않는다. 최신 UI 수정 후 실제 iPhone Release 전체15(103)와 Simulator 전체170(91), Debug/Release/architecture/Release 시작 회귀92를 직렬 검증할 예정이다. 91/92는 불필요한 수정 전 전체 반복을 피하려고 Xcode 실행 전에 대기를 해제했으며 미실행이다.
+
+사용자 저장공간 선호는 AGENTS.md에 반영했다. 중복 diagnostic export155,205,726bytes를 추가 정리했고 원본 xcresult/필수 실패 근거는 보존했다. 전체 검사 반복/중복 export/불필요 진단 수집을 늘리지 않는다. 현재 증거·실패 이슈는 남기며 VoiceOver NOT TESTED·필수 자동 감사 FAIL·Draft/main 미병합·DATA10-7 미완료를 유지한다.
+
+
+후속 DictionaryContrast104는 **1/1 PASS(64.121초, exit0)**다. 실제 검색 상세의 흰 버튼을 indigo/가시적인 글자로 교정한 pixel 회귀가 통과했다. [수정 전 실제 버튼](DATA10_BUTTON_BEFORE.png) / [수정 후](DATA10_BUTTON_AFTER.png)는 각각4.5KB/12.6KB의 필요한 crop만 보존한다(이 문서가 Docs 안에서는 동일 폴더 파일을 참조한다). UI12의 위치 고정/정지/중단/정답 비공개126.360초 PASS와 구분하며102의 UI15 미진입 실패도 유지한다. 현재 동일 수정본의 signed iPhone Release 전체15 PhysicalLatest103을 실행 중이고 Simulator 전체170 NativeLatest91·빌드/Release smoke92를 직렬 대기시켰다. 이후 제품 수정이 없고 관련 검사가 끝나면 근거 없이 전체 검사를 반복하지 않는다.

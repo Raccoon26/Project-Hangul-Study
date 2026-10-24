@@ -1,6 +1,6 @@
 {
   "status": "IN_PROGRESS_NOT_COMPLETE",
-  "recorded_at_utc": "2026-10-24T09:37:20.113402+00:00",
+  "recorded_at_utc": "2026-10-24T10:03:29.198650+00:00",
   "baseline": "59d3bc7636c2b22ce7a0e21899fa1deeb2bbfedb",
   "branch": "codex/data10-7-native-regression",
   "runs": [
@@ -1948,14 +1948,84 @@
       "expectedFailures": 0,
       "testFailures": [],
       "runtimeWarnings": []
+    },
+    {
+      "bundle": "DictionaryContrast101.xcresult",
+      "kind": "new-visible-ink-regression-before-fix",
+      "startTime": 1792835273.989,
+      "finishTime": 1792835490.426,
+      "result": "Failed",
+      "totalTestCount": 1,
+      "passedTests": 0,
+      "failedTests": 1,
+      "skippedTests": 0,
+      "expectedFailures": 0,
+      "testFailures": [
+        {
+          "failureText": "XCTAssertGreaterThan failed: (\"0.0\") is not greater than (\"0.2\") - The visible label must differ from the button fill; white-on-white is unreadable",
+          "targetName": "HangulStudyUITests",
+          "testIdentifier": 1,
+          "testIdentifierString": "StudyJourneyTests/test15PushedDictionaryActionHasVisibleText()",
+          "testIdentifierURL": "test://com.apple.xcode/HangulStudy/HangulStudyUITests/StudyJourneyTests/test15PushedDictionaryActionHasVisibleText",
+          "testName": "test15PushedDictionaryActionHasVisibleText()"
+        }
+      ],
+      "runtimeWarnings": []
+    },
+    {
+      "bundle": "UILayout102.xcresult",
+      "kind": "selected-audio-layout-and-dictionary-after-initial-fix",
+      "startTime": 1792835507.419,
+      "finishTime": 1792835828.054,
+      "result": "Failed",
+      "totalTestCount": 2,
+      "passedTests": 1,
+      "failedTests": 1,
+      "skippedTests": 0,
+      "expectedFailures": 0,
+      "testFailures": [
+        {
+          "failureText": "XCTAssertTrue failed",
+          "targetName": "HangulStudyUITests",
+          "testIdentifier": 2,
+          "testIdentifierString": "StudyJourneyTests/test15PushedDictionaryActionHasVisibleText()",
+          "testIdentifierURL": "test://com.apple.xcode/HangulStudy/HangulStudyUITests/StudyJourneyTests/test15PushedDictionaryActionHasVisibleText",
+          "testName": "test15PushedDictionaryActionHasVisibleText()"
+        }
+      ],
+      "runtimeWarnings": []
+    },
+    {
+      "bundle": "PhysicalReleaseFull96.xcresult",
+      "kind": "physical-Release-user-bug-reprioritized-cancellation",
+      "totalTestCount": 7,
+      "passedTests": 6,
+      "failedTests": 1,
+      "skippedTests": 0,
+      "exit": 75,
+      "note": "UI01-06 passed, UI07 canceled to prioritize user-reported blank button and audio layout. UI08-14 unexecuted; no whole PASS claim."
+    },
+    {
+      "bundle": "DictionaryContrast104.xcresult",
+      "kind": "visible-ink-regression-after-tint-fix",
+      "startTime": 1792835921.948,
+      "finishTime": 1792836087.07,
+      "result": "Passed",
+      "totalTestCount": 1,
+      "passedTests": 1,
+      "failedTests": 0,
+      "skippedTests": 0,
+      "expectedFailures": 0,
+      "testFailures": [],
+      "runtimeWarnings": []
     }
   ],
   "pending": [
-    "PhysicalReleaseFull96 signed Release UI-only latest: RUNNING; user reconnected phone",
-    "NativeLatest91 complete169 current source: queued behind physical96",
-    "Build92 latest resolve/Debug/Release/architecture/Release UI smoke: queued serially",
-    "VoiceOver actual use: user explicitly deferred; NOT TESTED",
-    "Automatic accessibility audit10/14 remain failures until actual passing run"
+    "PhysicalLatest103 signed Release full15 RUNNING",
+    "NativeLatest91 Debug full170 queued serially",
+    "Build92 latest resolve/Debug/Release/architecture/Release UI smoke queued serially",
+    "VoiceOver user explicitly deferred: NOT TESTED",
+    "Automatic10/14 remain FAIL in prior full80; latest outcome pending"
   ],
   "notes": [
     "Method counts, not assertions; repeated runs are not summed as unique coverage.",
@@ -2057,5 +2127,10 @@
         "app_containers_and_keychain_preserved": true
       }
     ]
-  ]
+  ],
+  "current_unique_definitions": {
+    "unit": 155,
+    "ui": 15,
+    "total": 170
+  }
 }

@@ -11,6 +11,11 @@
 - force push, 파괴적 reset/clean, 이력 재작성, 기존 Production/fixture 삭제, 데이터 축소를 통한 전달 우회를 금지한다. Xcode/Simulator 유무는 환경별로 다시 확인한다. Cloud portable PASS를 Mac native PASS로 바꾸지 않으며 설치되지 않은 native/실기기 gate는 BLOCKED로 유지한다.
 - Python/SQLite 버전과 `PRAGMA compile_options`도 확인한다. DATA10-1 당시 배포24는 SQLite3.53.1의31테이블이다. Mac SQLite3.44.0의 ENABLE_STAT4 재구성은 같은31테이블의 행이 일치해도 추가 sqlite_stat4 때문에32테이블·SHA가 다르다(`Docs/DATA10_REBUILD_COMPARISON.json`). 이를 byte-exact PASS로 표시하거나 시스템 통계 테이블을 임의 삭제/검사 완화해 맞추지 않는다. 임시 재구성만 비교하고 Production을 보존하며, 실제 후속 배포 전 동일 writer 버전/compile profile의 재현 환경을 확인한다.
 
+## 검사 산출물·저장공간 최소화
+
+- 사용자 명시 선호: 꼭 필요한 자료 외에는 불필요하게 저장하지 않는다. 검사 결과는 명령/환경/실행 수/종료 상태·실패 원인·재현 가능한 작은 로그를 우선 보존한다. 중복 export·동일 자료의 여러 사본·불필요한 진단 수집을 만들지 않는다. 현재 원인 분석에 필요한 xcresult/캡처만 유지하고, 사용이 끝난 재생성 캐시는 정리한다. 전체 검사는 새 변경/실패/미해결 우려가 정당화할 때만 반복한다.
+- native 실행 전 여유 공간을 확인하고 단일 DerivedData/고정 package cache와 직렬 Xcode 실행을 사용한다. 이전 OS의 불필요 DeviceSupport·종료된 작업용 Simulator 캐시처럼 출처와 용도를 확인한 재생성 자료만 정리한다. 현재 실행에 필요한 SDK/서명·사용자 Simulator·학습 app container/Keychain·Source/Production/fixture/Git·필수 재현 근거는 보존한다. 검사 요약 없이 실패 근거를 삭제해 성공으로 만들지 않는다.
+
 ## DATA-10-7 Mac 회귀 진행 기준 (2026-10-24, 완료 아님)
 
 - 같은 `codex/data10-7-native-regression` 브랜치를 재개한다. 기준 main은59d3bc7636c2b22ce7a0e21899fa1deeb2bbfedb, Content29/Schema4/reader7/UserProgress10·Production/fixture114파일 byte 불변이다. 최신 DATA10_PROGRESS §7/Docs/DATA10_NATIVE_REGRESSION을 읽고 중간 checkpoint를 완료로 해석하지 않는다.
@@ -29,6 +34,8 @@
 - 자연 due 듣기7개 E2E75의 실제 판정/재개/완료·SRS 갱신·기존 snapshot2개 불변을 확인했다. 어휘 due1개 E2E82도 실제 UI로 검사하며 시계 조작/seed/reset/사용자 DB 쓰기 없이 진행한다. 임시 probe/반복 실행은 고유 XCTest169개에 합산하지 않는다. 현재 전체80→연결 확인한 iPhone Release UI-only81→보존 QA 어휘82를 직렬 실행한다. VoiceOver는 사용자가 추후/미확인 유지를 명시했다.
 
 - 최신 §7.10/원장은 전체80 169/167PASS/2감사FAIL·기능UI12PASS, 자연 due 어휘82 PASS(SRS21보존/다른20행불변), 최대글씨02(84)/09(93)·live font89 PASS다. 실패84/87/90 및 최소재현85/88도 보존한다. 사용자 iPhone 재연결 후 Release UI-only96→최신169(91)→build92를 직렬 재검사한다. VoiceOver 실제 사용은 추후/NOT TESTED; 감사 실패를 필터/skip하거나 완료·병합으로 바꾸지 않는다.
+
+- 사용자 검색 상세의 빈 흰 버튼 제보는 실제101 pixel차0.0 실패로 재현했다. TabView primary tint 상속 제거 후104 UI15 PASS, 음성 고정 배치/중단12(102) PASS다. 현재 고유 정의는170(Unit155/UI15); 실기기 Release 전체15(103)→Simulator170(91)→build92를 확인한다. 이전96은UI01~06 PASS 후 제보 수정 우선으로07중 취소(exit75),08~14 미실행이다. 기록·새 실패를 확인한 뒤에만 완료/병합 여부를 판단한다.
 
 ## DATA-10-6 통합 현재 기준
 
