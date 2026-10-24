@@ -28,7 +28,8 @@ struct LearnView: View {
                 Section {
                     if let resume = resume {
                         Button { launch = resume } label: {
-                            Text(resume.title).font(.body).fixedSize(horizontal:false,vertical:true).frame(minHeight:44)
+                            Text(resume.title).font(.body).foregroundStyle(Color.primary)
+                                .fixedSize(horizontal:false,vertical:true).frame(minHeight:44)
                         }
                     } else if due > 0 || model.reviews.hasActiveSession || model.grammarReviews.hasActiveSession || model.listeningReviewActive {
                         NavigationLink("今日の復習に進む") { CurriculumReviewView(services:services) }.learningRow()

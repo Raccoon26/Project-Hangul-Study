@@ -11,7 +11,7 @@
 - force push, 파괴적 reset/clean, 이력 재작성, 기존 Production/fixture 삭제, 데이터 축소를 통한 전달 우회를 금지한다. Xcode/Simulator 유무는 환경별로 다시 확인한다. Cloud portable PASS를 Mac native PASS로 바꾸지 않으며 설치되지 않은 native/실기기 gate는 BLOCKED로 유지한다.
 - Python/SQLite 버전과 `PRAGMA compile_options`도 확인한다. DATA10-1 당시 배포24는 SQLite3.53.1의31테이블이다. Mac SQLite3.44.0의 ENABLE_STAT4 재구성은 같은31테이블의 행이 일치해도 추가 sqlite_stat4 때문에32테이블·SHA가 다르다(`Docs/DATA10_REBUILD_COMPARISON.json`). 이를 byte-exact PASS로 표시하거나 시스템 통계 테이블을 임의 삭제/검사 완화해 맞추지 않는다. 임시 재구성만 비교하고 Production을 보존하며, 실제 후속 배포 전 동일 writer 버전/compile profile의 재현 환경을 확인한다.
 
-## DATA-10-7 Mac 회귀 진행 기준 (2026-10-23, 완료 아님)
+## DATA-10-7 Mac 회귀 진행 기준 (2026-10-24, 완료 아님)
 
 - 같은 `codex/data10-7-native-regression` 브랜치를 재개한다. 기준 main은59d3bc7636c2b22ce7a0e21899fa1deeb2bbfedb, Content29/Schema4/reader7/UserProgress10·Production/fixture114파일 byte 불변이다. 최신 DATA10_PROGRESS §7/Docs/DATA10_NATIVE_REGRESSION을 읽고 중간 checkpoint를 완료로 해석하지 않는다.
 - 최초 전체 Portable418·Unit155 PASS와 UI11 중4실패를 구분한다. 현재 UI14개 정의, 접근성10/14 실패 및 최신 전체 재검증 대기다. 테스트 skip/필터로 우회하거나 main에 실패 상태를 병합하지 않는다. 작은 SE3/Dark/AXXXL의 실제 입력 초안 복원/편집/채점 UI06은1/1 PASS했다.
@@ -23,6 +23,10 @@
 - iPhone 연결/서명/신뢰와 실제 Release 학습 실행을 확인했다. 사람이 한국어 스피커 음성·비행기 모드/Wi-Fi OFF 학습/종료 후 재개·큰 글씨 조작을 확인했고 설정을 복구했다. VoiceOver는 아직 확인하지 못했다. 31초 idle Leaks의 누수 보고0·짧은 launch/CPU/memory를 장시간 배터리/통화/실제 구매 검증으로 확대하지 않는다.
 - 광고 ID 없는 Release가 SDK load-time 초기화로 crash하는 P0를 수정했다. HANGUL_ADS_DISABLED와 GoogleMobileAds*/UserMessagingPlatform* link 제외를 함께 유지한다. Production IDs를 실제 소유 값으로 설정할 때 두 설정을 함께 해제하고 check_monetization.py --require-ads 및 built-info·실제 SDK/동의 검사를 다시 수행한다. 테스트 IDs를 Release에 넣거나 runtime guard만으로 시작 안전을 주장하지 않는다.
 - 실제 사용자 iPhone은 HangulStudy-DeviceUI scheme의 Release UI-only 검사만 사용한다. 단위/StoreKit 테스트의 cache/transaction 초기화는 Simulator에서만 실행한다. 사용자 Team과 signing 설정을 generator가 보존하며 기기 식별자/Apple ID/학습 DB/private trace는 공개 Git/로그 archive에 넣지 않는다. 반복 UI 검사는 저장된 session을 정상 학습 UI로 이어가며 초기화하지 않는다.
+
+- 10월24일 최신은 DATA10_PROGRESS §7.8/7.9다. verify68의 Portable419/419·resolve/Debug/Release/architecture·Release UI1/1 PASS와 native worker 오류/미실행을 구분한다. Mac 덮개 Sleep/DarkWake를 확인했으며 재검사는 열린 상태에서 명령 수명만 caffeinate -i로 보호한다. 영구 전원 설정을 바꾸거나 절전 탓으로 모든 실패를 확정하지 않는다.
+- SE3/Dark 전체76은169/165 PASS/4 FAIL/skip0, Unit155 PASS·actor trap0이다. UI08 스크롤 보완은 focused78 PASS, UI07은 키보드 닫기 보완 후 전체80으로 재실행한다. Dark Home Resume의 낮은 indigo 대비는 primary로 교정했다. 자동 감사10/14는 필터 없이 실패 상태를 유지한다. KeyboardProbe79 기능3/3 PASS에서 툴바 경고가 제품 없이 재현됐으며 무리하게 닫기 기능을 제거하지 않는다.
+- 자연 due 듣기7개 E2E75의 실제 판정/재개/완료·SRS 갱신·기존 snapshot2개 불변을 확인했다. 어휘 due1개 E2E82도 실제 UI로 검사하며 시계 조작/seed/reset/사용자 DB 쓰기 없이 진행한다. 임시 probe/반복 실행은 고유 XCTest169개에 합산하지 않는다. 현재 전체80→연결 확인한 iPhone Release UI-only81→보존 QA 어휘82를 직렬 실행한다. VoiceOver는 사용자가 추후/미확인 유지를 명시했다.
 
 ## DATA-10-6 통합 현재 기준
 

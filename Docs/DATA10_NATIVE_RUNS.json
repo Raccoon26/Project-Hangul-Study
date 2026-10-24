@@ -1,6 +1,6 @@
 {
   "status": "IN_PROGRESS_NOT_COMPLETE",
-  "recorded_at_utc": "2026-10-23T13:46:08.965132+00:00",
+  "recorded_at_utc": "2026-10-24T02:03:17.205710+00:00",
   "baseline": "59d3bc7636c2b22ce7a0e21899fa1deeb2bbfedb",
   "branch": "codex/data10-7-native-regression",
   "runs": [
@@ -1382,34 +1382,369 @@
           "testName": "testInitialTabbedScrollAudit()"
         }
       ]
+    },
+    {
+      "bundle": "FinalVerify68.xcresult",
+      "kind": "project",
+      "startTime": 1792767410.272,
+      "finishTime": 1792773650.235,
+      "result": "Failed",
+      "totalTestCount": 166,
+      "passedTests": 162,
+      "failedTests": 4,
+      "skippedTests": 0,
+      "expectedFailures": 0,
+      "testFailures": [
+        {
+          "failureText": "Timed out while preparing execution worker.",
+          "targetName": "HangulStudyUITests",
+          "testIdentifier": 166,
+          "testIdentifierString": "HangulStudyUITests-Runner (46977) encountered an error",
+          "testName": "HangulStudyUITests-Runner (46977) encountered an error"
+        },
+        {
+          "failureText": "XCTAssertTrue failed",
+          "targetName": "HangulStudyUITests",
+          "testIdentifier": 162,
+          "testIdentifierString": "StudyJourneyTests/test07ListeningFourTasksRealNormalSlowTTSAndDictationResume()",
+          "testIdentifierURL": "test://com.apple.xcode/HangulStudy/HangulStudyUITests/StudyJourneyTests/test07ListeningFourTasksRealNormalSlowTTSAndDictationResume",
+          "testName": "test07ListeningFourTasksRealNormalSlowTTSAndDictationResume()"
+        },
+        {
+          "failureText": "XCTAssertTrue failed",
+          "targetName": "HangulStudyUITests",
+          "testIdentifier": 163,
+          "testIdentifierString": "StudyJourneyTests/test08Content29ListeningCourseFiveQuestionsContextAndResume()",
+          "testIdentifierURL": "test://com.apple.xcode/HangulStudy/HangulStudyUITests/StudyJourneyTests/test08Content29ListeningCourseFiveQuestionsContextAndResume",
+          "testName": "test08Content29ListeningCourseFiveQuestionsContextAndResume()"
+        },
+        {
+          "failureText": "Contrast failed",
+          "targetName": "HangulStudyUITests",
+          "testIdentifier": 165,
+          "testIdentifierString": "StudyJourneyTests/test10AccessibilityAuditHomeAndLearningEntry()",
+          "testIdentifierURL": "test://com.apple.xcode/HangulStudy/HangulStudyUITests/StudyJourneyTests/test10AccessibilityAuditHomeAndLearningEntry",
+          "testName": "test10AccessibilityAuditHomeAndLearningEntry()"
+        }
+      ],
+      "runtimeWarnings": [
+        {
+          "issueType": "Runtime Warning",
+          "message": "Invalid frame dimension (negative or non-finite)."
+        },
+        {
+          "issueType": "Runtime Warning",
+          "message": "Publishing changes from background threads is not allowed; make sure to publish values from the main thread (via operators like receive(on:)) on model updates."
+        }
+      ],
+      "count_note": "Apple summary includes one execution-worker error. Actual methods: 165 executed, 162 passed, 3 failed; UI11-14 not executed. Native definitions remain169."
+    },
+    {
+      "bundle": "ReleaseSmoke68.xcresult",
+      "kind": "project",
+      "startTime": 1792767256.962,
+      "finishTime": 1792767400.228,
+      "result": "Passed",
+      "totalTestCount": 1,
+      "passedTests": 1,
+      "failedTests": 0,
+      "skippedTests": 0,
+      "expectedFailures": 0,
+      "testFailures": [],
+      "runtimeWarnings": []
+    },
+    {
+      "bundle": "ExistingDueReview72.xcresult",
+      "kind": "separate-E2E",
+      "startTime": 1792764827.075,
+      "finishTime": 1792765078.963,
+      "result": "Failed",
+      "totalTestCount": 1,
+      "passedTests": 0,
+      "failedTests": 1,
+      "skippedTests": 0,
+      "expectedFailures": 0,
+      "testFailures": [
+        {
+          "failureText": "XCTAssertTrue failed",
+          "targetName": "AuditProbeUITests",
+          "testIdentifier": 1,
+          "testIdentifierString": "ExistingDueReviewTests/testRealOverdueListeningReviewGradesResumesAndCompletes()",
+          "testIdentifierURL": "test://com.apple.xcode/AuditProbe/AuditProbeUITests/ExistingDueReviewTests/testRealOverdueListeningReviewGradesResumesAndCompletes",
+          "testName": "testRealOverdueListeningReviewGradesResumesAndCompletes()"
+        }
+      ],
+      "runtimeWarnings": []
+    },
+    {
+      "bundle": "ExistingDueReview73.xcresult",
+      "kind": "separate-E2E",
+      "startTime": 1792765270.107,
+      "finishTime": 1792765363.041,
+      "result": "Failed",
+      "totalTestCount": 1,
+      "passedTests": 0,
+      "failedTests": 1,
+      "skippedTests": 0,
+      "expectedFailures": 0,
+      "testFailures": [
+        {
+          "failureText": "XCTAssertTrue failed",
+          "targetName": "AuditProbeUITests",
+          "testIdentifier": 1,
+          "testIdentifierString": "ExistingDueReviewTests/testRealOverdueListeningReviewGradesResumesAndCompletes()",
+          "testIdentifierURL": "test://com.apple.xcode/AuditProbe/AuditProbeUITests/ExistingDueReviewTests/testRealOverdueListeningReviewGradesResumesAndCompletes",
+          "testName": "testRealOverdueListeningReviewGradesResumesAndCompletes()"
+        }
+      ],
+      "runtimeWarnings": []
+    },
+    {
+      "bundle": "ExistingDueReview74.xcresult",
+      "kind": "separate-E2E",
+      "startTime": 1792804723.043,
+      "finishTime": 1792804837.016,
+      "result": "Failed",
+      "totalTestCount": 1,
+      "passedTests": 0,
+      "failedTests": 1,
+      "skippedTests": 0,
+      "expectedFailures": 0,
+      "testFailures": [
+        {
+          "failureText": "XCTAssertTrue failed",
+          "targetName": "AuditProbeUITests",
+          "testIdentifier": 1,
+          "testIdentifierString": "ExistingDueReviewTests/testRealOverdueListeningReviewGradesResumesAndCompletes()",
+          "testIdentifierURL": "test://com.apple.xcode/AuditProbe/AuditProbeUITests/ExistingDueReviewTests/testRealOverdueListeningReviewGradesResumesAndCompletes",
+          "testName": "testRealOverdueListeningReviewGradesResumesAndCompletes()"
+        }
+      ],
+      "runtimeWarnings": []
+    },
+    {
+      "bundle": "ExistingDueReview75.xcresult",
+      "kind": "separate-E2E",
+      "startTime": 1792804910.039,
+      "finishTime": 1792805025.586,
+      "result": "Passed",
+      "totalTestCount": 1,
+      "passedTests": 1,
+      "failedTests": 0,
+      "skippedTests": 0,
+      "expectedFailures": 0,
+      "testFailures": [],
+      "runtimeWarnings": []
+    },
+    {
+      "bundle": "AuditProbe71.xcresult",
+      "kind": "minimal-reproducer",
+      "startTime": 1792764080.066,
+      "finishTime": 1792764196.987,
+      "result": "Failed",
+      "totalTestCount": 2,
+      "passedTests": 0,
+      "failedTests": 2,
+      "skippedTests": 0,
+      "expectedFailures": 0,
+      "testFailures": [
+        {
+          "failureText": "Contrast nearly passed",
+          "targetName": "AuditProbeUITests",
+          "testIdentifier": 1,
+          "testIdentifierString": "AuditTests/testConvenienceLinkAudit()",
+          "testIdentifierURL": "test://com.apple.xcode/AuditProbe/AuditProbeUITests/AuditTests/testConvenienceLinkAudit",
+          "testName": "testConvenienceLinkAudit()"
+        },
+        {
+          "failureText": "Contrast nearly passed",
+          "targetName": "AuditProbeUITests",
+          "testIdentifier": 2,
+          "testIdentifierString": "AuditTests/testExplicitTextLinkAudit()",
+          "testIdentifierURL": "test://com.apple.xcode/AuditProbe/AuditProbeUITests/AuditTests/testExplicitTextLinkAudit",
+          "testName": "testExplicitTextLinkAudit()"
+        }
+      ],
+      "runtimeWarnings": []
+    },
+    {
+      "bundle": "NativeSmallAwake76.xcresult",
+      "kind": "project-small-dark-actor-checks",
+      "command_exit": 65,
+      "startTime": 1792805129.97,
+      "finishTime": 1792806746.884,
+      "result": "Failed",
+      "totalTestCount": 169,
+      "passedTests": 165,
+      "failedTests": 4,
+      "skippedTests": 0,
+      "expectedFailures": 0,
+      "testFailures": [
+        {
+          "failureText": "XCTAssertTrue failed - Restored text must be selected before replacement\nAttributes: Application, 0x109bc0e50, pid: 50105, label: '韓国語学習'\nElement subtree:\n →Application, 0x109bc0e50, pid: 50105, label: '韓国語学習'\n    Window (Main), 0x109be38e0, {{0.0, 0.0}, {375.0, 667.0}}\n      Other, 0x109be4af0, {{0.0, 0.0}, {375.0, 667.0}}\n        Other, 0x109be4c10, {{0.0, 0.0}, {375.0, 667.0}}\n          Other, 0x109be49a0, {{0.0, 0.0}, {375.0, 667.0}}\n            Other, 0x109be3f20, {{0.0, 0.0}, {375.0, 667.0}}\n              Other, 0x109be4d30, {{0.0, 0.0}, {375.0, 667.0}}\n                Other, 0x109be4e50, {{0.0, 0.0}, {375.0, 667.0}}\n                  Other, 0x109be4f70, {{0.0, 0.0}, {375.0, 667.0}}\n                    Other, 0x109be5090, {{0.0, 0.0}, {375.0, 667.0}}\n                      Other, 0x109be51b0, {{0.0, 0.0}, {375.0, 667.0}}\n                        Other, 0x109be52d0, {{0.0, 0.0}, {375.0, 667.0}}\n                          Other, 0x109be53f0, {{0.0, 0.0}, {375.0, 667.0}}\n                            NavigationBar, 0x109be5510, {{0.0, 20.0}, {375.0, 54.0}}, identifier: '学ぶ'\n                              StaticText, 0x109be5630, {{171.5, 31.8}, {32.0, 20.5}}, label: '学ぶ'\n                            Other, 0x109be5750, {{0.0, 0.0}, {375.0, 667.0}}\n                              Other, 0x109be5870, {{0.0, 0.0}, {375.0, 667.0}}\n                                Other, 0x109be5990, {{0.0, 0.0}, {375.0, 667.0}}\n                                  Other, 0x109be5ab0, {{0.0, 0.0}, {375.0, 667.0}}\n                                    CollectionView, 0x109be5bd0, {{0.0, 0.0}, {375.0, 667.0}}\n                                      Other, 0x109be5cf0, {{-16.0, -1260.0}, {407.0, 1510.0}}\n                                      Cell, 0x109be5e10, {{16.0, 109.0}, {343.0, 71.0}}\n                                        Other, 0x109be5f30, {{16.0, 109.0}, {343.0, 71.0}}\n                                          Other, 0x109be6050, {{16.0, 109.0}, {343.0, 71.0}}\n                                        Other, 0x109be6170, {{16.0, 109.0}, {343.0, 71.0}}\n                                          Other, 0x109be6290, {{16.0, 109.0}, {343.0, 71.0}}\n                                            Other, 0x109be63b0, {{16.0, 109.0}, {343.0, 71.0}}\n                                              StaticText, 0x109be64d0, {{16.0, 109.0}, {343.0, 71.0}}, label: '韓国語'\n                                      Cell, 0x109be65f0, {{16.0, 180.0}, {343.0, 52.5}}\n                                        Other, 0x109be6710, {{16.0, 180.0}, {343.0, 52.5}}\n                                          Other, 0x109ed2c10, {{16.0, 180.0}, {343.0, 52.5}}\n                                        Other, 0x109ed6370, {{16.0, 180.0}, {343.0, 52.5}}\n                                          Other, 0x109ed6490, {{16.0, 180.0}, {343.0, 52.5}}\n                                            Other, 0x109ed65b0, {{16.0, 180.0}, {343.0, 52.5}}\n                                              StaticText, 0x109ed66d0, {{16.0, 180.0}, {343.0, 52.5}}, label: '少しずつ、長く学ぶ'\n                                      Other, 0x109ed67f0, {{32.0, 179.0}, {311.0, 1.0}}\n                                      Other, 0x109ed6910, {{-16.0, 250.0}, {407.0, 132.0}}\n                                      Cell, 0x109ed6a30, {{16.0, 250.0}, {343.0, 40.5}}\n                                        Other, 0x109ed6b50, {{16.0, 250.0}, {343.0, 40.5}}\n                                        Other, 0x109ed6c70, {{16.0, 250.0}, {343.0, 40.5}}\n                                          Other, 0x109ed6d90, {{16.0, 250.0}, {343.0, 40.5}}\n                                            Other, 0x109ed9880, {{16.0, 250.0}, {343.0, 40.5}}\n                                              StaticText, 0x109ed99a0, {{16.0, 250.0}, {343.0, 40.5}}, label: '続きから'\n                                      Cell, 0x109ed9ac0, {{16.0, 290.5}, {343.0, 74.0}}\n                                        Other, 0x109ed9be0, {{16.0, 290.5}, {343.0, 74.0}}\n                                          Other, 0x109ed9d00, {{16.0, 290.5}, {343.0, 74.0}}\n                                        Other, 0x109ed9e20, {{16.0, 290.5}, {343.0, 74.0}}\n                                          Other, 0x109ed9f40, {{16.0, 290.5}, {343.0, 74.0}}\n                                            Other, 0x109eda060, {{16.0, 290.5}, {343.0, 74.0}}\n                                              Button, 0x109eda180, {{16.0, 290.5}, {343.0, 74.0}}, label: 'リスニングの続き'\n                                      Other, 0x109eda2a0, {{-16.0, 382.0}, {407.0, 163.0}}\n                                      Cell, 0x109eda3c0, {{16.0, 382.0}, {343.0, 40.5}}\n                                        Other, 0x109eda4e0, {{16.0, 382.0}, {343.0, 40.5}}\n                                        Other, 0x109eda600, {{16.0, 382.0}, {343.0, 40.5}}\n                                          Other, 0x109eda720, {{16.0, 382.0}, {343.0, 40.5}}\n                                            Other, 0x109eda840, {{16.0, 382.0}, {343.0, 40.5}}\n                                              StaticText, 0x109eda960, {{16.0, 382.0}, {343.0, 40.5}}, label: '今日の復習'\n                                      Cell, 0x109edaa80, {{16.0, 422.5}, {343.0, 52.5}}\n                                        Other, 0x109edaba0, {{16.0, 422.5}, {343.0, 52.5}}\n                                          Other, 0x109edacc0, {{16.0, 422.5}, {343.0, 52.5}}\n                                        Other, 0x109edade0, {{16.0, 422.5}, {343.0, 52.5}}\n                                          Other, 0x109edaf00, {{16.0, 422.5}, {343.0, 52.5}}\n                                            Other, 0x109edb020, {{16.0, 422.5}, {343.0, 52.5}}\n                                              Button, 0x109edb140, {{16.0, 422.5}, {343.0, 52.5}}, label: '0項目 · 復習を確認'\n                                                StaticText, 0x109edb260, {{32.0, 438.5}, {137.5, 20.5}}, label: '0項目 · 復習を確認'\n                                                Image, 0x109edb380, {{333.5, 443.0}, {7.0, 12.0}}, identifier: 'chevron.forward'\n                                      Cell, 0x109edb4a0, {{16.0, 475.0}, {343.0, 52.5}}\n                                        Other, 0x109edb5c0, {{16.0, 475.0}, {343.0, 52.5}}\n                                          Other, 0x109edb6e0, {{16.0, 475.0}, {343.0, 52.5}}\n                                        Other, 0x109edb800, {{16.0, 475.0}, {343.0, 52.5}}\n                                          Other, 0x109edb920, {{16.0, 475.0}, {343.0, 52.5}}\n                                            Other, 0x109edba40, {{16.0, 475.0}, {343.0, 52.5}}\n                                              StaticText, 0x109edbb60, {{16.0, 475.0}, {343.0, 52.5}}, label: '復習と新しい学習は、どちらからでも始められます。'\n                                      Other, 0x109edbc80, {{32.0, 474.0}, {311.0, 1.0}}\n                                      Other, 0x109edbda0, {{0.0, 519.2}, {375.0, 147.8}}\n                                        Image, 0x109edbec0, {{-120.0, 524.0}, {615.0, 286.0}}, identifier: 'AdditionalDimmingOverlay'\n                                        Other, 0x109edbfe0, {{0.0, 519.2}, {375.0, 147.8}}\n                                          Other, 0x109edc100, {{0.0, 519.2}, {375.0, 147.8}}\n                                        Other, 0x109edc220, {{0.0, 519.2}, {375.0, 147.8}}\n                                          Other, 0x109edc340, {{0.0, 519.2}, {375.0, 147.8}}\n                                          Other, 0x109edc460, {{0.0, 519.2}, {375.0, 147.8}}\n                                      Other, 0x109edc580, {{-16.0, 545.0}, {407.0, 1604.5}}\n                                      Cell, 0x109edc6a0, {{16.0, 545.0}, {343.0, 40.5}}\n                                        Other, 0x109edc7c0, {{16.0, 545.0}, {343.0, 40.5}}\n                                        Other, 0x109edc8e0, {{16.0, 545.0}, {343.0, 40.5}}\n                                          Other, 0x109edca00, {{16.0, 545.0}, {343.0, 40.5}}\n                                            Other, 0x109edcb20, {{16.0, 545.0}, {343.0, 40.5}}\n                                              StaticText, 0x109edcc40, {{16.0, 545.0}, {343.0, 40.5}}, label: '現在のコース'\n                                      Cell, 0x109edcd60, {{16.0, 585.5}, {343.0, 52.5}}\n                                        Other, 0x109edce80, {{16.0, 585.5}, {343.0, 52.5}}\n                                          Other, 0x109edcfa0, {{16.0, 585.5}, {343.0, 52.5}}\n                                        Other, 0x109edd0c0, {{16.0, 585.5}, {343.0, 52.5}}\n                                          Other, 0x109edd1e0, {{16.0, 585.5}, {343.0, 52.5}}\n                                            Other, 0x109edd300, {{16.0, 585.5}, {343.0, 52.5}}\n                                              Button, 0x109edd420, {{16.0, 585.5}, {343.0, 52.5}}, label: 'ハングル'\n                                                StaticText, 0x109edd540, {{32.0, 601.5}, {59.0, 20.5}}, label: 'ハングル'\n                                                Image, 0x109edd660, {{333.5, 606.0}, {7.0, 12.0}}, identifier: 'chevron.forward'\n                                      Cell, 0x109edd780, {{16.0, 638.0}, {343.0, 52.5}}\n                                        Other, 0x109edd8a0, {{16.0, 638.0}, {343.0, 52.5}}\n                                          Other, 0x109edd9c0, {{16.0, 638.0}, {343.0, 52.5}}\n                                        Other, 0x109eddae0, {{16.0, 638.0}, {343.0, 52.5}}\n                                          Other, 0x109eddc00, {{16.0, 638.0}, {343.0, 52.5}}\n                                            Other, 0x109eddd20, {{16.0, 638.0}, {343.0, 52.5}}\n                                              Button, 0x109edde40, {{16.0, 638.0}, {343.0, 52.5}}, label: '維持学習'\n                                                StaticText, 0x109eddf60, {{32.0, 654.0}, {64.0, 20.5}}, label: '維持学習'\n                                                Image, 0x109ede080, {{333.5, 658.5}, {7.0, 12.0}}, identifier: 'chevron.forward'\n                                      Other, 0x109ede1a0, {{32.0, 637.0}, {311.0, 1.0}}\n                                      Other, 0x109ede2c0, {{342.0, 74.0}, {30.0, 285.0}}, label: '垂直スクロールバー, 3ページ', value: 0%\n                                        Other, 0x109ede3e0, {{369.0, 77.0}, {3.0, 165.5}}\n                                      Other, 0x109ede500, {{342.0, 74.0}, {30.0, 285.0}}, label: '垂直スクロールバー, 3ページ', value: 0%\n                                        Other, 0x109ede620, {{369.0, 77.0}, {3.0, 165.5}}\n                            Other, 0x109ede740, {{0.0, 0.0}, {375.0, 667.0}}\n                              Other, 0x109ede860, {{0.0, 0.0}, {375.0, 667.0}}\n                Other, 0x109ede980, {{0.0, 584.0}, {375.0, 83.0}}\n                  Other, 0x109edeaa0, {{0.0, 0.0}, {375.0, 667.0}}\n                    TabBar, 0x109edebc0, {{0.0, 584.0}, {375.0, 83.0}}, label: 'タブバー'\n                      Other, 0x109edece0, {{21.0, 584.0}, {333.0, 62.0}}\n                        Other, 0x109edee00, {{21.0, 584.0}, {94.0, 54.0}}\n                        Other, 0x109edef20, {{21.0, 584.0}, {333.0, 62.0}}\n                          Button, 0x109edf040, {{25.0, 588.0}, {94.0, 54.0}}, identifier: 'book', label: '学ぶ', Selected\n                            Image, 0x109edf160, {{56.0, 595.5}, {32.5, 25.0}}, identifier: 'book.fill', label: 'ブックマーク'\n                          Button, 0x109edf280, {{102.0, 588.0}, {94.0, 54.0}}, identifier: 'magnifyingglass', label: '調べる'\n                            Image, 0x109edf3a0, {{135.0, 595.0}, {27.5, 26.5}}, identifier: 'magnifyingglass', label: '検索'\n                          Button, 0x109edf4c0, {{179.0, 588.0}, {94.0, 54.0}}, identifier: 'chart.bar', label: '記録'\n                            Image, 0x109edf5e0, {{209.0, 595.0}, {35.0, 25.5}}, identifier: 'chart.bar.fill', label: '棒グラフ'\n                          Button, 0x109edf700, {{256.0, 588.0}, {94.0, 54.0}}, identifier: 'gearshape', label: '設定'\n                            Image, 0x109edf820, {{289.0, 594.0}, {28.0, 28.0}}, identifier: 'gearshape.fill', label: 'gearshape.fill'\n                        Other, 0x109edf940, {{25.0, 588.0}, {94.0, 54.0}}\n                          Other, 0x109edfa60, {{25.0, 588.0}, {94.0, 54.0}}\n                            Other, 0x109edfb80, {{25.0, 588.0}, {94.0, 54.0}}\n                              Other, 0x109edfca0, {{25.0, 588.0}, {94.0, 54.0}}\n                            Other, 0x109edfdc0, {{25.0, 588.0}, {94.0, 54.0}}\n                              Other, 0x109edfee0, {{25.0, 588.0}, {94.0, 54.0}}\n                                Other, 0x109ee0000, {{25.0, 588.0}, {94.0, 54.0}}\n                                  Other, 0x109ee0120, {{25.0, 588.0}, {94.0, 54.0}}\n                                Other, 0x109ee0240, {{25.0, 588.0}, {94.0, 54.0}}\n                              Other, 0x109ee0360, {{25.0, 588.0}, {94.0, 54.0}}\n                  Other, 0x109ee0480, {{0.0, 584.0}, {375.0, 83.0}}\n                    Other, 0x109ee05a0, {{0.0, 584.0}, {375.0, 83.0}}\n                      Other, 0x109ee06c0, {{0.0, 584.0}, {375.0, 83.0}}\n                        Other, 0x109ee07e0, {{0.0, 584.0}, {375.0, 83.0}}\n                          Other, 0x109ee0900, {{0.0, 584.0}, {375.0, 83.0}}\n                            Other, 0x109ee0a20, {{0.0, 584.0}, {375.0, 83.0}}\n                        Other, 0x109ee0b40, {{0.0, 584.0}, {375.0, 83.0}}\n                          Other, 0x109ee0c60, {{0.0, 584.0}, {375.0, 83.0}}\n      Other, 0x109ee0d80, {{0.0, 0.0}, {375.0, 667.0}}\n        Other, 0x109ee0ea0, {{0.0, 0.0}, {375.0, 667.0}}\n          Other, 0x109ee0fc0, {{0.0, 0.0}, {375.0, 667.0}}\n            Other, 0x109ee10e0, {{0.0, 0.0}, {375.0, 667.0}}\n              NavigationBar, 0x109ee1200, {{0.0, 20.0}, {375.0, 54.0}}, identifier: '入門'\n                Other, 0x109ee1320, {{20.0, 24.0}, {64.0, 36.0}}, label: '閉じる'\n                  Other, 0x109ee1440, {{20.0, 24.0}, {64.0, 36.0}}\n                    Button, 0x109ee1560, {{20.0, 24.0}, {64.0, 36.0}}, label: '閉じる'\n                StaticText, 0x109ee1680, {{172.8, 31.8}, {29.5, 20.5}}, label: '入門'\n              Other, 0x109ee17a0, {{0.0, 0.0}, {375.0, 667.0}}\n                Other, 0x109ee18c0, {{0.0, 0.0}, {375.0, 667.0}}\n                  Other, 0x109ee19e0, {{0.0, 0.0}, {375.0, 667.0}}\n                    Other, 0x109ee1b00, {{0.0, 0.0}, {375.0, 667.0}}\n                      ScrollView, 0x109ee1c20, {{0.0, 0.0}, {375.0, 667.0}}\n                        Other, 0x109ee1d40, {{0.0, -79.5}, {375.0, 478.0}}\n                          StaticText, 0x109ee1e60, {{24.0, -55.5}, {36.5, 18.0}}, label: '7 / 12'\n                          ProgressIndicator, 0x109ee1f80, {{24.0, -13.5}, {327.0, 4.0}}, label: '問題の進み具合', value: 50%\n                            ProgressIndicator, 0x109ee20a0, {{24.0, -23.5}, {327.0, 24.0}}, value: 50%\n                          Button, 0x109ee21c0, {{115.5, 14.5}, {144.0, 94.0}}, label: '聞く'\n                            Image, 0x109ee22e0, {{142.0, 48.5}, {31.0, 24.5}}, identifier: 'speaker.wave.2.fill', label: '音量 - 大'\n                            StaticText, 0x109ee2400, {{115.5, 14.5}, {144.0, 94.0}}, label: '聞く'\n                          Button, 0x109ee2520, {{155.5, 136.5}, {64.0, 20.5}}, label: 'ゆっくり'\n                          StaticText, 0x109ee2640, {{24.0, 192.5}, {294.0, 24.0}}, label: '聞こえた韓国語を入力してください。'\n                          TextField, 0x109ee2760, {{30.0, 244.5}, {315.0, 28.0}}, label: '聞こえた韓国語を入力', value: 조금 , Keyboard Focused\n                            Other, 0x109ee2880, {{30.0, 255.5}, {315.0, 14.0}}, label: '水平スクロールバー, 1ページ', value: 0%\n                              Other, 0x109ee29a0, {{33.0, 266.5}, {309.0, 3.0}}\n                          StaticText, 0x109ee2ac0, {{24.0, 300.5}, {305.0, 34.0}}, label: '文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。単語の間の空白も確認してください。'\n                          StaticText, 0x109ee2be0, {{24.0, 358.5}, {201.0, 16.0}}, label: 'まず音声を最後まで聞いてください。'\n                        Other, 0x109ee2d00, {{0.0, 0.0}, {375.0, 128.8}}\n                        Other, 0x109ee2e20, {{0.0, 0.0}, {375.0, 128.8}}\n                          Image, 0x109ee2f40, {{-120.0, -124.0}, {615.0, 248.0}}, identifier: 'AdditionalDimmingOverlay'\n                          Other, 0x109ee3060, {{0.0, 0.0}, {375.0, 64.0}}\n                          Other, 0x109ee3180, {{0.0, 0.0}, {375.0, 128.8}}\n                            Other, 0x109ee32a0, {{0.0, 0.0}, {375.0, 128.8}}\n                          Other, 0x109ee33c0, {{0.0, 0.0}, {375.0, 128.8}}\n                            Other, 0x109ee34e0, {{0.0, 0.0}, {375.0, 128.8}}\n                          Other, 0x109ee3600, {{0.0, 0.0}, {375.0, 128.8}}\n                            Other, 0x109ee3720, {{0.0, 0.0}, {375.0, 128.8}}\n                            Other, 0x109ee3840, {{0.0, 0.0}, {375.0, 128.8}}\n                        Other, 0x109ee3960, {{342.0, 74.0}, {30.0, 194.5}}, label: '垂直スクロールバー, 3ページ', value: 54%\n                          Other, 0x109ee3a80, {{369.0, 107.5}, {3.0, 132.5}}\n                        Other, 0x109ee3ba0, {{342.0, 74.0}, {30.0, 194.5}}, label: '垂直スクロールバー, 3ページ', value: 54%\n                          Other, 0x109ee3cc0, {{369.0, 107.5}, {3.0, 132.5}}\n                      Button, 0x109ee3de0, {{143.5, 292.5}, {88.0, 50.5}}, label: '答える', Disabled\n              Other, 0x109ee3f00, {{0.0, 0.0}, {375.0, 667.0}}\n                Other, 0x109ee4020, {{0.0, 0.0}, {375.0, 667.0}}\n    Window, 0x109ee4140, {{0.0, 0.0}, {375.0, 667.0}}\n      Other, 0x109ee4260, {{0.0, 0.0}, {375.0, 667.0}}\n        Other, 0x109ee4380, {{0.0, 0.0}, {375.0, 667.0}}\n        Other, 0x109ee44a0, {{0.0, 359.0}, {375.0, 308.0}}\n          Other, 0x109ee45c0, {{0.0, 359.0}, {375.0, 48.0}}\n            Other, 0x109ee46e0, {{0.0, 359.0}, {375.0, 48.0}}\n              Other, 0x109ee4800, {{0.0, 359.0}, {375.0, 48.0}}\n                Toolbar, 0x109ee4920, {{0.0, 359.0}, {375.0, 48.0}}, identifier: 'Toolbar', label: 'ツールバー'\n                  Other, 0x109ee4a40, {{0.0, 359.0}, {375.0, 48.0}}\n                    Other, 0x109ee4b60, {{16.0, 359.0}, {343.0, 48.0}}\n                      Other, 0x109ee4c80, {{16.0, 359.0}, {343.0, 48.0}}\n                        Other, 0x109ee4da0, {{16.0, 359.0}, {0.0, 0.0}}\n                          Other, 0x109ee4ec0, {{287.0, 359.0}, {72.0, 48.0}}\n                            Other, 0x109ee4fe0, {{287.0, 359.0}, {72.0, 48.0}}\n                              Other, 0x109ee5100, {{292.0, 365.0}, {62.0, 36.0}}\n                                Other, 0x109ee5220, {{292.0, 365.0}, {62.0, 36.0}}\n                                  Other, 0x109ee5340, {{292.0, 365.0}, {62.0, 36.0}}, label: '閉じる'\n                                    Other, 0x109ee5460, {{292.0, 365.0}, {62.0, 36.0}}\n                                      Button, 0x109ee5580, {{292.0, 365.0}, {62.0, 36.0}}, label: '閉じる'\n          Other, 0x109ee56a0, {{4.5, 407.0}, {366.0, 260.0}}, identifier: 'inputView'\n    Window, 0x109ee57c0, {{0.0, 0.0}, {375.0, 667.0}}\n      Other, 0x109ee58e0, {{0.0, 0.0}, {375.0, 667.0}}\n        Other, 0x109ee5a00, {{0.0, 407.0}, {375.0, 260.0}}\n          Other, 0x109ee5b20, {{0.0, 407.0}, {375.0, 260.0}}\n            Other, 0x109ee5c40, {{0.0, 407.0}, {375.0, 260.0}}\n              Other, 0x109ee5d60, {{0.0, 407.0}, {375.0, 260.0}}\n                Other, 0x109ee5e80, {{0.0, 407.0}, {375.0, 260.0}}\n                  Other, 0x109ee5fa0, {{0.0, 407.0}, {375.0, 260.0}}\n                    Other, 0x109ee60c0, {{0.0, 407.0}, {375.0, 260.0}}\n                      Other, 0x109ee61e0, {{0.0, 407.0}, {375.0, 260.0}}\n                        Other, 0x109ee6300, {{0.0, 407.0}, {375.0, 260.0}}\n                      Other, 0x109ee6420, {{0.0, 407.0}, {375.0, 260.0}}\n          Other, 0x109ee6540, {{4.5, 407.0}, {366.0, 44.0}}, identifier: 'SystemInputAssistantView'\n            Other, 0x109ee6660, {{4.5, 407.0}, {366.0, 44.0}}\n              Other, 0x109ee6780, {{4.5, 407.0}, {366.0, 44.0}}, identifier: 'CenterPageView'\n                Other, 0x109ee68a0, {{4.5, -193.0}, {366.0, 1244.0}}\n                  ScrollView, 0x109ee69c0, {{4.5, 407.0}, {366.0, 44.0}}\n                Other, 0x109ee6ae0, {{4.5, 407.0}, {366.0, 44.0}}\n                  Other, 0x109ee6c00, {{4.5, 407.0}, {366.0, 44.0}}, label: '予測変換タイプ入力'\n                    Other, 0x109ee6d20, {{4.5, 407.0}, {366.0, 44.0}}\n                      Other, 0x109ee6e40, {{4.5, 407.0}, {366.0, 44.0}}\n                        Other, 0x109ee6f60, {{4.5, 407.0}, {122.0, 44.0}}\n                        Other, 0x109ee7080, {{126.5, 407.0}, {122.0, 44.0}}\n                        Other, 0x109ee71a0, {{248.5, 407.0}, {122.0, 44.0}}\n          Other, 0x109ee72c0, {{4.5, 451.0}, {366.0, 216.0}}\n            Keyboard, 0x109ee73e0, {{4.5, 451.0}, {366.0, 216.0}}\n              Other, 0x109ee7500, {{4.5, 451.0}, {366.0, 216.0}}\n                Other, 0x109ee7620, {{4.5, 451.0}, {366.0, 216.0}}, identifier: 'UIKeyboardLayoutStar Preview'\n                  Key, 0x109ee7740, {{4.5, 451.0}, {0.0, 0.0}}, label: 'Padding-Left'\n                  Key, 0x109ee7860, {{6.5, 458.0}, {36.5, 54.0}}, label: 'ㅂ'\n                  Key, 0x109ee7980, {{43.0, 458.0}, {36.5, 54.0}}, label: 'ㅈ'\n                  Key, 0x109ee7aa0, {{79.5, 458.0}, {36.0, 54.0}}, label: 'ㄷ'\n                  Key, 0x109ee7bc0, {{115.5, 458.0}, {36.5, 54.0}}, label: 'ㄱ'\n                  Key, 0x109ee7ce0, {{152.0, 458.0}, {36.5, 54.0}}, label: 'ㅅ'\n                  Key, 0x109ee7e00, {{188.5, 458.0}, {36.5, 54.0}}, label: 'ㅛ'\n                  Key, 0x109ee7f20, {{225.0, 458.0}, {36.5, 54.0}}, label: 'ㅕ'\n                  Key, 0x109ee8040, {{261.5, 458.0}, {36.0, 54.0}}, label: 'ㅑ'\n                  Key, 0x109ee8160, {{297.5, 458.0}, {36.5, 54.0}}, label: 'ㅐ'\n                  Key, 0x109ee8280, {{334.0, 458.0}, {36.5, 54.0}}, label: 'ㅔ'\n                  Key, 0x109ee83a0, {{4.5, 451.0}, {0.0, 0.0}}, label: 'Padding-Right'\n                  Key, 0x109ee84c0, {{4.5, 451.0}, {0.0, 0.0}}, label: 'Padding-Left'\n                  Key, 0x109ee85e0, {{24.5, 512.0}, {36.5, 54.0}}, label: 'ㅁ'\n                  Key, 0x109ee8700, {{61.0, 512.0}, {36.5, 54.0}}, label: 'ㄴ'\n                  Key, 0x109ee8820, {{97.5, 512.0}, {36.5, 54.0}}, label: 'ㅇ'\n                  Key, 0x109ee8940, {{134.0, 512.0}, {36.5, 54.0}}, label: 'ㄹ'\n                  Key, 0x109ee8a60, {{170.5, 512.0}, {36.0, 54.0}}, label: 'ㅎ'\n                  Key, 0x109ee8b80, {{206.5, 512.0}, {36.5, 54.0}}, label: 'ㅗ'\n                  Key, 0x109ee8ca0, {{243.0, 512.0}, {36.5, 54.0}}, label: 'ㅓ'\n                  Key, 0x109ee8dc0, {{279.5, 512.0}, {36.5, 54.0}}, label: 'ㅏ'\n                  Key, 0x109ee8ee0, {{316.0, 512.0}, {36.5, 54.0}}, label: 'ㅣ'\n                  Key, 0x109ee9000, {{4.5, 451.0}, {0.0, 0.0}}, label: 'Padding-Right'\n                  Button, 0x109ee9120, {{6.5, 566.0}, {47.5, 54.0}}, identifier: 'shift', label: 'shift'\n                  Key, 0x109ee9240, {{4.5, 451.0}, {0.0, 0.0}}, label: 'Padding-Left'\n                  Key, 0x109ee9360, {{61.0, 566.0}, {36.5, 54.0}}, label: 'ㅋ'\n                  Key, 0x109ee9480, {{97.5, 566.0}, {36.5, 54.0}}, label: 'ㅌ'\n                  Key, 0x109ee96f0, {{134.0, 566.0}, {36.5, 54.0}}, label: 'ㅊ'\n                  Key, 0x109ee9810, {{170.5, 566.0}, {36.0, 54.0}}, label: 'ㅍ'\n                  Key, 0x109ee9930, {{206.5, 566.0}, {36.5, 54.0}}, label: 'ㅠ'\n                  Key, 0x109ee9a50, {{243.0, 566.0}, {36.5, 54.0}}, label: 'ㅜ'\n                  Key, 0x109ee9b70, {{279.5, 566.0}, {36.5, 54.0}}, label: 'ㅡ'\n                  Key, 0x109ee9c90, {{4.5, 451.0}, {0.0, 0.0}}, label: 'Padding-Right'\n                  Key, 0x109ee9db0, {{323.0, 566.0}, {47.5, 54.0}}, identifier: 'delete', label: '삭제'\n                  Key, 0x109ee9ed0, {{6.5, 620.0}, {45.5, 54.0}}, identifier: 'more', label: '숫자'\n                  Button, 0x109ee9ff0, {{52.0, 620.0}, {45.5, 54.0}}, identifier: 'emoji', label: '次のキーボード', value: English (US)\n                  Button, 0x109eea110, {{97.5, 620.0}, {36.5, 54.0}}, identifier: 'dictation', label: '받아쓰기'\n                  Key, 0x109eea230, {{134.0, 620.0}, {145.5, 54.0}}, identifier: 'space', label: ' '\n                  Button, 0x109eea350, {{279.5, 620.0}, {91.0, 54.0}}, identifier: 'Done', label: '완료'\nPath to element:\n →Application, 0x109bc0e50, pid: 50105, label: '韓国語学習'\nQuery chain:\n →Find: Target Application 'com.example.HangulStudy'\n  Output: {\n    Application, 0x105d0dba0, pid: 50105, label: '韓国語学習'\n  }\n",
+          "targetName": "HangulStudyUITests",
+          "testIdentifier": 162,
+          "testIdentifierString": "StudyJourneyTests/test07ListeningFourTasksRealNormalSlowTTSAndDictationResume()",
+          "testIdentifierURL": "test://com.apple.xcode/HangulStudy/HangulStudyUITests/StudyJourneyTests/test07ListeningFourTasksRealNormalSlowTTSAndDictationResume",
+          "testName": "test07ListeningFourTasksRealNormalSlowTTSAndDictationResume()"
+        },
+        {
+          "failureText": "XCTAssertTrue failed",
+          "targetName": "HangulStudyUITests",
+          "testIdentifier": 163,
+          "testIdentifierString": "StudyJourneyTests/test08Content29ListeningCourseFiveQuestionsContextAndResume()",
+          "testIdentifierURL": "test://com.apple.xcode/HangulStudy/HangulStudyUITests/StudyJourneyTests/test08Content29ListeningCourseFiveQuestionsContextAndResume",
+          "testName": "test08Content29ListeningCourseFiveQuestionsContextAndResume()"
+        },
+        {
+          "failureText": "Contrast nearly passed",
+          "targetName": "HangulStudyUITests",
+          "testIdentifier": 165,
+          "testIdentifierString": "StudyJourneyTests/test10AccessibilityAuditHomeAndLearningEntry()",
+          "testIdentifierURL": "test://com.apple.xcode/HangulStudy/HangulStudyUITests/StudyJourneyTests/test10AccessibilityAuditHomeAndLearningEntry",
+          "testName": "test10AccessibilityAuditHomeAndLearningEntry()"
+        },
+        {
+          "failureText": "Dynamic Type font sizes are partially unsupported",
+          "targetName": "HangulStudyUITests",
+          "testIdentifier": 169,
+          "testIdentifierString": "StudyJourneyTests/test14AccessibilityAuditLookupRecordsAndSettings()",
+          "testIdentifierURL": "test://com.apple.xcode/HangulStudy/HangulStudyUITests/StudyJourneyTests/test14AccessibilityAuditLookupRecordsAndSettings",
+          "testName": "test14AccessibilityAuditLookupRecordsAndSettings()"
+        }
+      ],
+      "runtimeWarnings": [
+        {
+          "issueType": "Runtime Warning",
+          "message": "Invalid frame dimension (negative or non-finite)."
+        },
+        {
+          "issueType": "Runtime Warning",
+          "message": "Invalid frame dimension (negative or non-finite)."
+        }
+      ]
+    },
+    {
+      "bundle": "KeyboardProbe77.xcresult",
+      "kind": "minimal-keyboard-reproducer",
+      "command_exit": 65,
+      "startTime": 1792806759.133,
+      "finishTime": 1792806827.961,
+      "result": "Failed",
+      "totalTestCount": 2,
+      "passedTests": 0,
+      "failedTests": 2,
+      "skippedTests": 0,
+      "expectedFailures": 0,
+      "testFailures": [
+        {
+          "failureText": "Failed to get matching snapshot: No matches found for Elements matching predicate '\"韓国語で入力\" IN identifiers' from input {(\n    TextField, value: 걸어요, Keyboard Focused\n)}\nPossibly caused by runtime issues:\nAutomation type mismatch: computed TextField from legacy attributes vs TextView from modern attribute. Input attributes and values: {\n    \"XC_kAXXCAttributeAutomationType\" = 52;\n    \"XC_kAXXCAttributeElementBaseType\" = UITextView;\n    \"XC_kAXXCAttributeElementType\" = \"SwiftUI.VerticalTextView\";\n    \"XC_kAXXCAttributeTraits\" = 146031247360;\n}\nSee test report attachments for more detail.",
+          "targetName": "AuditProbeUITests",
+          "testIdentifier": 1,
+          "testIdentifierString": "AuditTests/testMultilineWithKeyboardToolbar()",
+          "testIdentifierURL": "test://com.apple.xcode/AuditProbe/AuditProbeUITests/AuditTests/testMultilineWithKeyboardToolbar",
+          "testName": "testMultilineWithKeyboardToolbar()"
+        },
+        {
+          "failureText": "Failed to get matching snapshot: No matches found for Elements matching predicate '\"韓国語で入力\" IN identifiers' from input {(\n    TextField, value: 걸어요, Keyboard Focused\n)}\nPossibly caused by runtime issues:\nAutomation type mismatch: computed TextField from legacy attributes vs TextView from modern attribute. Input attributes and values: {\n    \"XC_kAXXCAttributeAutomationType\" = 52;\n    \"XC_kAXXCAttributeElementBaseType\" = UITextView;\n    \"XC_kAXXCAttributeElementType\" = \"SwiftUI.VerticalTextView\";\n    \"XC_kAXXCAttributeTraits\" = 146031247360;\n}\nSee test report attachments for more detail.",
+          "targetName": "AuditProbeUITests",
+          "testIdentifier": 2,
+          "testIdentifierString": "AuditTests/testPlainMultilineKeyboard()",
+          "testIdentifierURL": "test://com.apple.xcode/AuditProbe/AuditProbeUITests/AuditTests/testPlainMultilineKeyboard",
+          "testName": "testPlainMultilineKeyboard()"
+        }
+      ],
+      "runtimeWarnings": [
+        {
+          "issueType": "Runtime Warning",
+          "message": "Invalid frame dimension (negative or non-finite)."
+        }
+      ]
+    },
+    {
+      "bundle": "ListeningInputSmall78.xcresult",
+      "kind": "project-focused-small-dark",
+      "command_exit": 65,
+      "startTime": 1792806833.874,
+      "finishTime": 1792807243.55,
+      "result": "Failed",
+      "totalTestCount": 2,
+      "passedTests": 1,
+      "failedTests": 1,
+      "skippedTests": 0,
+      "expectedFailures": 0,
+      "testFailures": [
+        {
+          "failureText": "XCTAssertTrue failed - Button unavailable: 聞く\nAttributes: Application, 0x116a954d0, pid: 50718, label: '韓国語学習'\nElement subtree:\n →Application, 0x116a954d0, pid: 50718, label: '韓国語学習'\n    Window (Main), 0x116a979e0, {{0.0, 0.0}, {375.0, 667.0}}\n      Other, 0x116a8c190, {{0.0, 0.0}, {375.0, 667.0}}\n        Other, 0x116a96d40, {{0.0, 0.0}, {375.0, 667.0}}\n          Other, 0x116a75e30, {{0.0, 0.0}, {375.0, 667.0}}\n            Other, 0x116a96750, {{0.0, 0.0}, {375.0, 667.0}}\n              Other, 0x116a990b0, {{0.0, 0.0}, {375.0, 667.0}}\n                Other, 0x116a8f630, {{0.0, 0.0}, {375.0, 667.0}}\n                  Other, 0x116a9b2a0, {{0.0, 0.0}, {375.0, 667.0}}\n                    Other, 0x116a9b3c0, {{0.0, 0.0}, {375.0, 667.0}}\n                      Other, 0x116a9b4e0, {{0.0, 0.0}, {375.0, 667.0}}\n                        Other, 0x116a9b600, {{0.0, 0.0}, {375.0, 667.0}}\n                          Other, 0x116a9b720, {{0.0, 0.0}, {375.0, 667.0}}\n                            NavigationBar, 0x116a9b840, {{0.0, 20.0}, {375.0, 54.0}}, identifier: '入門'\n                              Button, 0x116a9b960, {{16.0, 20.0}, {44.0, 44.0}}, identifier: 'BackButton', label: '入門リスニング'\n                              StaticText, 0x116a9ba80, {{172.8, 31.8}, {29.5, 20.5}}, label: '入門'\n                            Other, 0x116a9bba0, {{0.0, 0.0}, {375.0, 667.0}}\n                              Other, 0x116a9bcc0, {{0.0, 0.0}, {375.0, 667.0}}\n                                Other, 0x116a9bde0, {{0.0, 0.0}, {375.0, 667.0}}\n                                  Other, 0x116a9bf00, {{0.0, 0.0}, {375.0, 667.0}}\n                                    ScrollView, 0x116a9c020, {{0.0, 0.0}, {375.0, 667.0}}\n                                      Other, 0x116a9c140, {{0.0, -79.5}, {375.0, 478.0}}\n                                        StaticText, 0x116a9c260, {{24.0, -55.5}, {36.5, 18.0}}, label: '7 / 12'\n                                        ProgressIndicator, 0x116a9c380, {{24.0, -13.5}, {327.0, 4.0}}, label: '問題の進み具合', value: 50%\n                                          ProgressIndicator, 0x116a9c4a0, {{24.0, -23.5}, {327.0, 24.0}}, value: 50%\n                                        Button, 0x116a9c5c0, {{115.5, 14.5}, {144.0, 94.0}}, label: '聞く'\n                                          Image, 0x116a9c6e0, {{142.0, 48.5}, {31.0, 24.5}}, identifier: 'speaker.wave.2.fill', label: '音量 - 大'\n                                          StaticText, 0x116a9c800, {{115.5, 14.5}, {144.0, 94.0}}, label: '聞く'\n                                        Button, 0x116a9c920, {{155.5, 136.5}, {64.0, 20.5}}, label: 'ゆっくり'\n                                        StaticText, 0x116a9ca40, {{24.0, 192.5}, {294.0, 24.0}}, label: '聞こえた韓国語を入力してください。'\n                                        TextField, 0x116a9cb60, {{30.0, 244.5}, {315.0, 28.0}}, label: '聞こえた韓国語を入力', value: 조금 기다려 주세요., Keyboard Focused\n                                          Other, 0x116a9cc80, {{30.0, 255.5}, {315.0, 14.0}}, label: '水平スクロールバー, 1ページ', value: 0%\n                                            Other, 0x116a9cda0, {{33.0, 266.5}, {309.0, 3.0}}\n                                        StaticText, 0x116a9cec0, {{24.0, 300.5}, {305.0, 34.0}}, label: '文中の句読点は入力してください。文末の「.」「!」「?」は省略できます。単語の間の空白も確認してください。'\n                                        StaticText, 0x116a9cfe0, {{24.0, 358.5}, {201.0, 16.0}}, label: 'まず音声を最後まで聞いてください。'\n                                      Other, 0x116a9d100, {{0.0, 0.0}, {375.0, 128.8}}\n                                      Other, 0x116a9d220, {{0.0, 0.0}, {375.0, 128.8}}\n                                        Image, 0x116a9d340, {{-120.0, -124.0}, {615.0, 248.0}}, identifier: 'AdditionalDimmingOverlay'\n                                        Other, 0x116a9d460, {{0.0, 0.0}, {375.0, 64.0}}\n                                        Other, 0x116a9d580, {{0.0, 0.0}, {375.0, 128.8}}\n                                          Other, 0x116a9d6a0, {{0.0, 0.0}, {375.0, 128.8}}\n                                        Other, 0x116a9d7c0, {{0.0, 0.0}, {375.0, 128.8}}\n                                          Other, 0x116a9d8e0, {{0.0, 0.0}, {375.0, 128.8}}\n                                        Other, 0x116a9da00, {{0.0, 0.0}, {375.0, 128.8}}\n                                          Other, 0x116a9db20, {{0.0, 0.0}, {375.0, 128.8}}\n                                          Other, 0x116a9dc40, {{0.0, 0.0}, {375.0, 128.8}}\n                                      Other, 0x116a9dd60, {{342.0, 74.0}, {30.0, 194.5}}, label: '垂直スクロールバー, 3ページ', value: 54%\n                                        Other, 0x116a9de80, {{369.0, 107.5}, {3.0, 132.5}}\n                                      Other, 0x116a9dfa0, {{342.0, 74.0}, {30.0, 194.5}}, label: '垂直スクロールバー, 3ページ', value: 54%\n                                        Other, 0x116b3da20, {{369.0, 107.5}, {3.0, 132.5}}\n                                    Button, 0x116b3b560, {{143.5, 292.5}, {88.0, 50.5}}, label: '答える', Disabled\n                            Other, 0x116b3d3d0, {{0.0, 0.0}, {375.0, 667.0}}\n                              Other, 0x116b3f180, {{0.0, 0.0}, {375.0, 667.0}}\n                Other, 0x116b3f2a0, {{0.0, 584.0}, {375.0, 83.0}}\n                  Other, 0x116b3f3c0, {{0.0, 0.0}, {375.0, 667.0}}\n                  Other, 0x116b3f4e0, {{0.0, 584.0}, {375.0, 83.0}}\n    Window, 0x116b3f600, {{0.0, 0.0}, {375.0, 667.0}}\n      Other, 0x116b3f720, {{0.0, 0.0}, {375.0, 667.0}}\n        Other, 0x116b3f840, {{0.0, 0.0}, {375.0, 667.0}}\n        Other, 0x116b3f960, {{0.0, 359.0}, {375.0, 308.0}}\n          Other, 0x116b3fa80, {{0.0, 359.0}, {375.0, 48.0}}\n            Other, 0x116b3fba0, {{0.0, 359.0}, {375.0, 48.0}}\n              Other, 0x116b3fcc0, {{0.0, 359.0}, {375.0, 48.0}}\n                Toolbar, 0x116b3fde0, {{0.0, 359.0}, {375.0, 48.0}}, identifier: 'Toolbar', label: 'ツールバー'\n                  Other, 0x116b3ff00, {{0.0, 359.0}, {375.0, 48.0}}\n                    Other, 0x116b40020, {{16.0, 359.0}, {343.0, 48.0}}\n                      Other, 0x116b40140, {{16.0, 359.0}, {343.0, 48.0}}\n                        Other, 0x116b40260, {{16.0, 359.0}, {0.0, 0.0}}\n                          Other, 0x116b40380, {{287.0, 359.0}, {72.0, 48.0}}\n                            Other, 0x116b404a0, {{287.0, 359.0}, {72.0, 48.0}}\n                              Other, 0x116b405c0, {{292.0, 365.0}, {62.0, 36.0}}\n                                Other, 0x116b406e0, {{292.0, 365.0}, {62.0, 36.0}}\n                                  Other, 0x116b40800, {{292.0, 365.0}, {62.0, 36.0}}, label: '閉じる'\n                                    Other, 0x116b40920, {{292.0, 365.0}, {62.0, 36.0}}\n                                      Button, 0x116b40a40, {{292.0, 365.0}, {62.0, 36.0}}, label: '閉じる'\n          Other, 0x116b40b60, {{4.5, 407.0}, {366.0, 260.0}}, identifier: 'inputView'\n    Window, 0x116b40c80, {{0.0, 0.0}, {375.0, 667.0}}\n      Other, 0x116b40da0, {{0.0, 0.0}, {375.0, 667.0}}\n        Other, 0x116b40ec0, {{0.0, 359.0}, {375.0, 308.0}}\n          Other, 0x116b40fe0, {{0.0, 359.0}, {375.0, 48.0}}\n          Other, 0x116b41100, {{0.0, 407.0}, {375.0, 260.0}}\n            Other, 0x116b41220, {{0.0, 407.0}, {375.0, 260.0}}\n              Other, 0x116b41340, {{0.0, 407.0}, {375.0, 260.0}}\n                Other, 0x116b41460, {{0.0, 407.0}, {375.0, 260.0}}\n                  Other, 0x116b41580, {{0.0, 407.0}, {375.0, 260.0}}\n                    Other, 0x116b416a0, {{0.0, 407.0}, {375.0, 260.0}}\n                      Other, 0x116b417c0, {{0.0, 407.0}, {375.0, 260.0}}\n                        Other, 0x116b418e0, {{0.0, 407.0}, {375.0, 260.0}}\n                      Other, 0x116b41a00, {{0.0, 407.0}, {375.0, 260.0}}\n          Other, 0x116b41b20, {{4.5, 407.0}, {366.0, 44.0}}, identifier: 'SystemInputAssistantView'\n            Other, 0x116b41c40, {{4.5, 407.0}, {366.0, 44.0}}\n              Other, 0x116b41d60, {{4.5, 407.0}, {366.0, 44.0}}, identifier: 'CenterPageView'\n                Other, 0x116b41e80, {{4.5, -193.0}, {366.0, 1244.0}}\n                  ScrollView, 0x116b41fa0, {{4.5, 407.0}, {366.0, 44.0}}\n                Other, 0x116b420c0, {{4.5, 407.0}, {366.0, 44.0}}\n                  Other, 0x116b421e0, {{4.5, 407.0}, {366.0, 44.0}}, label: '予測変換タイプ入力'\n                    Other, 0x116b42300, {{4.5, 407.0}, {366.0, 44.0}}\n                      Other, 0x116b42420, {{4.5, 407.0}, {366.0, 44.0}}\n                        Other, 0x116b42540, {{4.5, 407.0}, {122.0, 44.0}}\n                        Other, 0x116b42660, {{126.5, 407.0}, {122.0, 44.0}}\n                        Other, 0x116b42780, {{248.5, 407.0}, {122.0, 44.0}}\n          Other, 0x116b428a0, {{4.5, 451.0}, {366.0, 216.0}}\n            Keyboard, 0x116b429c0, {{4.5, 451.0}, {366.0, 216.0}}\n              Other, 0x116b42ae0, {{4.5, 451.0}, {366.0, 216.0}}\n                Other, 0x116b42c00, {{4.5, 451.0}, {366.0, 216.0}}, identifier: 'UIKeyboardLayoutStar Preview'\n                  Key, 0x116b42d20, {{4.5, 451.0}, {0.0, 0.0}}, label: 'Padding-Left'\n                  Key, 0x116b42e40, {{6.5, 458.0}, {36.5, 54.0}}, label: 'ㅂ'\n                  Key, 0x116b42f60, {{43.0, 458.0}, {36.5, 54.0}}, label: 'ㅈ'\n                  Key, 0x116b43080, {{79.5, 458.0}, {36.0, 54.0}}, label: 'ㄷ'\n                  Key, 0x116b431a0, {{115.5, 458.0}, {36.5, 54.0}}, label: 'ㄱ'\n                  Key, 0x116b432c0, {{152.0, 458.0}, {36.5, 54.0}}, label: 'ㅅ'\n                  Key, 0x116b433e0, {{188.5, 458.0}, {36.5, 54.0}}, label: 'ㅛ'\n                  Key, 0x116b43500, {{225.0, 458.0}, {36.5, 54.0}}, label: 'ㅕ'\n                  Key, 0x116b43620, {{261.5, 458.0}, {36.0, 54.0}}, label: 'ㅑ'\n                  Key, 0x116b43740, {{297.5, 458.0}, {36.5, 54.0}}, label: 'ㅐ'\n                  Key, 0x116b43860, {{334.0, 458.0}, {36.5, 54.0}}, label: 'ㅔ'\n                  Key, 0x116b43980, {{4.5, 451.0}, {0.0, 0.0}}, label: 'Padding-Right'\n                  Key, 0x116b43aa0, {{4.5, 451.0}, {0.0, 0.0}}, label: 'Padding-Left'\n                  Key, 0x116b43bc0, {{24.5, 512.0}, {36.5, 54.0}}, label: 'ㅁ'\n                  Key, 0x116b43ce0, {{61.0, 512.0}, {36.5, 54.0}}, label: 'ㄴ'\n                  Key, 0x116b43e00, {{97.5, 512.0}, {36.5, 54.0}}, label: 'ㅇ'\n                  Key, 0x116b43f20, {{134.0, 512.0}, {36.5, 54.0}}, label: 'ㄹ'\n                  Key, 0x116b44040, {{170.5, 512.0}, {36.0, 54.0}}, label: 'ㅎ'\n                  Key, 0x116b44160, {{206.5, 512.0}, {36.5, 54.0}}, label: 'ㅗ'\n                  Key, 0x116b44280, {{243.0, 512.0}, {36.5, 54.0}}, label: 'ㅓ'\n                  Key, 0x116b443a0, {{279.5, 512.0}, {36.5, 54.0}}, label: 'ㅏ'\n                  Key, 0x116b444c0, {{316.0, 512.0}, {36.5, 54.0}}, label: 'ㅣ'\n                  Key, 0x116b445e0, {{4.5, 451.0}, {0.0, 0.0}}, label: 'Padding-Right'\n                  Button, 0x116b44700, {{6.5, 566.0}, {47.5, 54.0}}, identifier: 'shift', label: 'shift'\n                  Key, 0x116b44820, {{4.5, 451.0}, {0.0, 0.0}}, label: 'Padding-Left'\n                  Key, 0x116b44940, {{61.0, 566.0}, {36.5, 54.0}}, label: 'ㅋ'\n                  Key, 0x116b44a60, {{97.5, 566.0}, {36.5, 54.0}}, label: 'ㅌ'\n                  Key, 0x116b44cd0, {{134.0, 566.0}, {36.5, 54.0}}, label: 'ㅊ'\n                  Key, 0x116b44df0, {{170.5, 566.0}, {36.0, 54.0}}, label: 'ㅍ'\n                  Key, 0x116b44f10, {{206.5, 566.0}, {36.5, 54.0}}, label: 'ㅠ'\n                  Key, 0x116b45030, {{243.0, 566.0}, {36.5, 54.0}}, label: 'ㅜ'\n                  Key, 0x116b45150, {{279.5, 566.0}, {36.5, 54.0}}, label: 'ㅡ'\n                  Key, 0x116b45270, {{4.5, 451.0}, {0.0, 0.0}}, label: 'Padding-Right'\n                  Key, 0x116b45390, {{323.0, 566.0}, {47.5, 54.0}}, identifier: 'delete', label: '삭제'\n                  Key, 0x116b454b0, {{6.5, 620.0}, {45.5, 54.0}}, identifier: 'more', label: '숫자'\n                  Button, 0x116b455d0, {{52.0, 620.0}, {45.5, 54.0}}, identifier: 'emoji', label: '次のキーボード', value: English (US)\n                  Button, 0x116b456f0, {{97.5, 620.0}, {36.5, 54.0}}, identifier: 'dictation', label: '받아쓰기'\n                  Key, 0x116b45810, {{134.0, 620.0}, {145.5, 54.0}}, identifier: 'space', label: ' '\n                  Button, 0x116b45930, {{279.5, 620.0}, {91.0, 54.0}}, identifier: 'Done', label: '완료'\nPath to element:\n →Application, 0x116a954d0, pid: 50718, label: '韓国語学習'\nQuery chain:\n →Find: Target Application 'com.example.HangulStudy'\n  Output: {\n    Application, 0x116b47590, pid: 50718, label: '韓国語学習'\n  }\n",
+          "targetName": "HangulStudyUITests",
+          "testIdentifier": 1,
+          "testIdentifierString": "StudyJourneyTests/test07ListeningFourTasksRealNormalSlowTTSAndDictationResume()",
+          "testIdentifierURL": "test://com.apple.xcode/HangulStudy/HangulStudyUITests/StudyJourneyTests/test07ListeningFourTasksRealNormalSlowTTSAndDictationResume",
+          "testName": "test07ListeningFourTasksRealNormalSlowTTSAndDictationResume()"
+        }
+      ],
+      "runtimeWarnings": [
+        {
+          "issueType": "Runtime Warning",
+          "message": "Invalid frame dimension (negative or non-finite)."
+        }
+      ]
+    },
+    {
+      "bundle": "KeyboardProbe79.xcresult",
+      "kind": "minimal-keyboard-reproducer",
+      "command_exit": 0,
+      "startTime": 1792807253.334,
+      "finishTime": 1792807312.759,
+      "result": "Passed",
+      "totalTestCount": 3,
+      "passedTests": 3,
+      "failedTests": 0,
+      "skippedTests": 0,
+      "expectedFailures": 0,
+      "testFailures": [],
+      "runtimeWarnings": [
+        {
+          "issueType": "Runtime Warning",
+          "message": "Invalid frame dimension (negative or non-finite)."
+        },
+        {
+          "issueType": "Runtime Warning",
+          "message": "Invalid frame dimension (negative or non-finite)."
+        }
+      ]
     }
   ],
   "pending": [
-    "NormalAudits26",
-    "latest full verify including all 14 UI tests",
-    "physical iPhone",
-    "main PR merge"
+    "NativeSmallAwake80 full169 latest UI and Resume contrast fix",
+    "PhysicalReleaseFull81 Release UI-only after Simulator (device reconnected)",
+    "remaining unfiltered accessibility failures",
+    "VoiceOver deferred by user",
+    "production accounts and physical interruption/battery gates",
+    "main PR merge only after required checks pass"
   ],
   "notes": [
     "Method counts, not assertions; repeated runs are not summed as unique coverage.",
     "0-test build failures are retained; all skip/expected-failure counts are explicit.",
-    "Portable418 and native155 first-full PASS do not make the failed overall command PASS."
+    "Portable418 and native155 first-full PASS do not make the failed overall command PASS.",
+    "NativeSmallAwake76 executed all 169 methods: 165 passed, 4 failed, skipped 0, exit 65. All 155 unit methods passed; actor checks enabled, no actor trap or background-publishing warning observed; two keyboard frame warnings remain. Its exact UI source snapshot is retained separately because harness edits were prepared after compilation."
   ],
   "portable_latest": {
-    "run": "FinalPortable52",
+    "run": "FullVerify68",
     "executed": 419,
     "passed": 419,
     "failures": 0,
     "errors": 0,
     "skipped": 0,
-    "seconds": 935.882,
-    "command_exit": 0
+    "seconds": 1994.29,
+    "command_exit_portable": 0,
+    "entire_verify_exit": 65
   },
   "human_device_checks": {
     "korean_speaker_audio": "PASS user confirmed",
     "airplane_wifi_off_learning_cold_resume_results": "PASS user confirmed; network restored",
     "larger_text_read_scroll_buttons": "PASS user confirmed; setting restored; exact maximum size not asserted",
-    "voiceover": "NOT TESTED user has not checked"
+    "voiceover": "NOT TESTED user explicitly deferred on 2026-10-24"
   },
   "profiling": {
     "scope": "physical Release home idle; Instruments attach 31.255 seconds",
@@ -1418,5 +1753,19 @@
     "scope_limit": "Not a long learning session or battery lifetime certification",
     "persistent_heap_and_anonymous_vm_mib": 10.76,
     "total_allocated_heap_and_anonymous_vm_mib": 11.43
+  },
+  "separate_existing_due_e2e": {
+    "run": "ExistingDueReview75",
+    "review_questions": 7,
+    "correct": 7,
+    "cold_resume": "PASS",
+    "prior_srs_keys_preserved": 7,
+    "future_due": 7,
+    "review_count_increment_each": 1,
+    "stage_change_each": "0 to 1",
+    "prior_practice_snapshots_byte_unchanged": 2,
+    "integrity": "ok",
+    "fk_errors": 0,
+    "clock_or_database_seed_reset": false
   }
 }

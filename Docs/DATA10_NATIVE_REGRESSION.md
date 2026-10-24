@@ -1,6 +1,6 @@
 # DATA-10-7 Mac Native Full Regression
 
-2026-10-23 JST 재개. 상태: **진행 중, 최종 전체 검사 대기**. 이 문서는 실행 근거와 남은 gate를 구분하며 DATA10-8/11을 시작하지 않는다.
+2026-10-24 JST 재개. 상태: **진행 중, NativeSmallAwake80 전체169·PhysicalReleaseFull81 순차 검증 중 / Draft PR24 / main 미병합**. 이 문서는 실행 근거와 남은 gate를 구분하며 DATA10-8/11을 시작하지 않는다.
 
 ## 환경·보존
 
@@ -14,12 +14,14 @@
 
 | 문제 | 원인·수정 | 회귀 근거 |
 | --- | --- | --- |
+| P0 Release 시작 crash | 빈 광고 ID에도 SDK load-time 초기화가 먼저 실행. IDs 없는 Release에서 compiler flag+두 SDK link 제외를 함께 적용하고 설정/built executable 검사를 추가 | 같은 iPhone Release UI43/45 및 Release Simulator 시작 UI68 PASS. 실제 Production ID/거래를 생성하지 않음 |
 | P1 되다/뵈다 생성 오류 | Hangul medial index ㅚ→ㅚ 및 ㅙ→ㅚ 오매핑을 ㅚ→ㅙ/ㅙ 유지로 교정. 꿰다의 ㅞ는 그대로 보존 | 기존 ReleaseAudit + 새 NativeRegression의 85개 published -되다 ×3 Dictionary/engine 및 전체1,227 입력 rubric 조회 |
 | P2 ㅎ형 사전 현재/과거 누락 | published 어떻다/빨갛다/파랗다/노랗다 네 lexical base만 검수하여 지원. authored override 우선, 미검수 ㅎ형은 기존 안전 오류 유지 | 네 항목 현재/과거/미래 실제 Dictionary 조회 및 unknown/override 검사 |
 | P1 구매 cache 실패를 미구매로 취급 | Keychain missing과 OSStatus/decode failure 분리. 오류 시 광고 fail closed, verified StoreKit 권한 유지, 저장 실패 메시지 | 실제 signed Keychain CRUD/cold read/delete + 로컬 StoreKit 구매/복원 + 실패 주입. unsigned -34018은 진단 기록이며 성공으로 계산하지 않음 |
 | P2 받아쓰기·활용 미제출 초안 유실 | optional draft/sequence, 매 입력의 actor transaction 저장, 같은 문항·turn/단조 sequence로 늦은 응답 방지. 판정/SRS/event 생성과 분리 | cold repository/legacy JSON/retry/late writes/no grade·event·SRS + 실제 UI 종료/재개/채점 |
 | 오디오 observer Swift6 수명 경고 | immutable observer ownership wrapper가 deinit에서 token 해제. actor deinit에서 non-Sendable 배열 접근 제거 | backend weak release 검사 + 기존 중복 재생/중단/late callback 회귀 |
 | P2 학습 진입이 긴 레슨 목록 아래 묻힘 | 기존 학습 모듈 Section을 코스 목록 앞에 배치, 기존 학습순서/ID 불변 | 初中級 듣기 진입 hittable/Content29 실제5문항 수료·Resume·사전 연결 |
+| P2 검색 Return이 줄바꿈·키보드 유지로 이어짐 | 검색에만 newline→space/trim 및 focus 해제를 적용. 일반 입력/Dictation 정규화 불변 | 실제 iPhone 검색·즐겨찾기·설정 cold 유지 및 Release 시작 UI68 PASS |
 | P2 홈 안내문 대비 부족 | 기본 안내문의 secondary style 대비 실패를 primary로 교정 | 필터/무시 없는 `performAccessibilityAudit()` 재실행 중 |
 | 오래된 native cohort/기대값 실패 | DATA06 원래80개를 고정 registry로 검사하고 후속 문항은 별도 검증. DATA08 원래1,821개와 현재 전체 pagination을 구분. 발음 테스트는 원래 course UUID로 고정. 꿰다 past의 잘못된 기대값을 규범에 맞게 뀄어요로 교정 | 기존 테스트 삭제·skip·assertion 비활성화0. native 전체 재실행 |
 
@@ -85,3 +87,37 @@ UI06 실패 당시 실제 입력은 `걸어요　`였고 키보드 위 답안 �
 별도 최소 재현65는 iOS17의 TabView+ScrollView+VStack(앱 SDK/DB 없음)에서도 initial/end 두 자동 감사가 실패했다. List를 전면 교체하는 실험은 실패를 해결하지 못해 제품에 적용하지 않았다. Apple Accessibility Inspector의 실제 iPhone 대상 연결도 감사 대상을 열지 못했으며 VoiceOver 실제 발화 확인을 대신했다고 주장하지 않는다. 표준 body font인 화면 아래 요소의 reflow/가시성 영향은 계속 조사한다.
 
 현재 `Tools/verify.sh`의 최신 전체 실행68(419 portable → resolve → Debug/Release Simulator/기기 architecture → Release UI 시작 회귀 → Debug 전체169)이 진행 중이다. Release 시작 검사를 먼저 수행해 후속 Debug 감사 실패가 있어도 그 결과를 별도로 확보한다. 프로젝트 재생성은74 app Swift/16 unit source·모든 scheme/사용자 signing byte 동일을 확인했다. 새 검증 결과가 나올 때까지 IN_PROGRESS/Draft/main 미병합을 유지한다.
+
+
+### 7.8 2026-10-24 중단 후 재개·실제 SRS 복습 확인 (진행 중)
+
+같은 브랜치의 일반 push checkpoint `03b224a2b301fc3fdcdcb9477ba15a0f2d4eba07`와 Draft PR24를 이어간다. fetch/auth ADMIN/default main·origin을 재확인했다. main/origin/main59d3bc7… 불변, ahead/behind2/0, Production/fixture114 SHA 불일치0이다. 새 미커밋 수정은 UI 검사 조작 보완이며 앱/데이터 원본을 바꾸지 않는다. 사용자는 VoiceOver를 추후 확인/미확인 유지로 다시 명시했다. 현재 실제 iPhone 연결은 해제되어 있으며 어제의 서명 Release 학습·음성/오프라인/큰 글씨 확인을 오늘 새 실기기 실행으로 바꾸지 않는다.
+
+중단 중 끝난 `Tools/verify.sh` 실행68: Portable419/419 PASS(1994.290초, failures/errors/skipped0), resolve·Debug/Release Simulator·unsigned Release 기기 architecture build PASS, 실제 Release UI 시작 회귀68 1/1 PASS. native Unit155/155 PASS(11.592초), UI01~10 중7 PASS/3 FAIL이고 UI11~14는 worker 준비 timeout 때문에 실행하지 못했다. xcresult 요약은 worker 오류1을 포함해166/162 PASS/4 FAIL/skip0이며, 실제 테스트 메서드는165/162 PASS/3 FAIL 및 별도 worker 오류1이다. 최신169 전체 통과로 주장하지 않는다. UI07/08은 재생 완료 대기,10은 대비/잘림·screenshot timeout, runtime에는 keyboard invalid frame 및 background publishing 경고가 있었다.
+
+Mac 전원 로그는10월23일23:23 Clamshell Sleep과 이후 반복 Sleep/DarkWake,10월24일10:13의 사용자 wake를 기록했다. 검사 중 sleep과 긴 대기/worker 오류를 연관 가능성으로 조사하되 모든 실패를 절전 탓으로 확정하지 않는다. 오늘 재검사는 덮개 열린 상태에서 명령 수명에만 caffeinate -i를 적용하며 영구 시스템 설정을 바꾸지 않는다.
+
+기존 작업용 QA Simulator에 자연스럽게 예정일이 지난 듣기7개가 있어 실제 복습 E2E를 추가했다. 첫 임시 검사72는 coordinate 탭이 Home 복습으로 이동하지 못했고 일반 탭의73은 정상 이동했으나 SRS UUID 정렬을 화면 snapshot 순서로 가정해 실패했다. 기존 엔진은 learning_order로 snapshot을 만들며 저장 순서는 그대로 보존한다.74는 이전에 들은 문항을 재생할 때 선택지가 이미 존재하더라도 재생 중 비활성인 정상 상태를 기다리지 못한 검사 실패였다. 실제 snapshot의 순서·heard 상태를 대조하고 활성화 대기를 추가했으며 판정·SRS·엔진 정렬은 변경하지 않았다. 제품 UI 검사도 키보드가 있을 때만 현재 frame 중심을 탭하고, 일반 내비게이션은 표준 탭을 유지한다. 선택지의 존재/활성화·정답·원문 노출 assertion을 유지한다.
+
+ExistingDueReview75 **1/1 PASS(exit0)**: 실제7개 복습 재생/정답·첫 판정 cold resume·7/7 완료. DB에서 기존 SRS 키7개 보존, 각각 reviewCount0→1/stage0→1·미래 due7/7, firstLearnedAt 유지, 기존 연습 snapshot2개 byte 동일, integrity_check ok/FK0을 확인했다. 시계 변경·seed/reset·사용자 DB 직접 쓰기0이며 읽기 전용 조사와 UI 학습만 수행했다. 원본 QA app support는 사전 SHA 동일 복사본을 보존했다. 이 별도 임시 E2E는 저장소169개 XCTest에 중복 합산하지 않는다.
+
+현재 새 작업용 iPhone SE3/iOS26.0.1·Dark에서 **전체169 NativeSmallAwake76**을 실행한다. Swift actor data-race runtime check도 켜서 background publishing 경고의 앱 actor 위반 여부를 조사한다. 기존 사용자/QA Simulator 데이터는 삭제하지 않았다. 필수 실패/미실행이 해소되기 전 완료/ready/main 병합 금지, DATA10-8/11 미착수다.
+
+## 접근성 검사 해석 기준
+
+Apple 문서의 [감사 범위](https://developer.apple.com/documentation/accessibility/performing-accessibility-audits-for-your-app)와 [WWDC23 자동 감사](https://developer.apple.com/videos/play/wwdc2023/10035/)를 대조했다. 자동 감사는 현재 화면에 한정되며 모든 접근성 사용성을 보장하지 않는다. 현재 UI10/14는 필터 없이 초기 viewport의 전 category를 검사하고, 실제 마지막 항목의 스크롤/가시성은 별도로 검증한다. 화면 아래 모든 영역을 자동 감사한 것으로 확대하지 않는다. 최소 재현의 유사 실패만으로 제품 실패를 무시하지 않으며, 실제 VoiceOver는 사용자가 추후 확인하기로 해 NOT TESTED를 유지한다.
+
+
+### 7.9 깨어 있는 상태의 전체 재검사·작은 화면 조작 분리 (2026-10-24)
+
+NativeSmallAwake76은 전체169 실행/165 PASS/4 FAIL/skip0/exit65다. Unit155/155 PASS(18.195초), UI10/14 자동 감사와 UI07 편집 메뉴·UI08 작은 화면의 즉시 isHittable 가정이 실패했다. actor runtime check에서 trap은 없었고 background publishing 경고는 재현되지 않았다. 키보드 표시 시 invalid-frame warning2건은 남는다. 실제 컴파일한 UI source snapshot을 별도 보존했으며 이후 보완한 검사로 과거 결과를 덮어쓰지 않는다.
+
+UI07은 초안 복원 자체가 성공했지만 넓은 입력란의 빈 중앙을 길게 눌러 전체 선택 메뉴를 열지 못했다. 실제 텍스트의 앞쪽 좌표 재시도와 전체 삭제/최종 입력 문자열 assertion을 추가했다. 중단된 이전 QA 세션도 나머지 문항을 정상 학습으로 완료한 뒤 새12문항 검사를 시작하며 reset/seed/DB 쓰기로 우회하지 않는다. UI08은 버튼이 존재하나 SE3에서 화면 아래에 있어, 실제 스크롤로 도달한 뒤 hittable을 검사한다.
+
+ListeningInputSmall78은2 실행/1 PASS/1 FAIL/skip0/exit65: UI08의 실제 Content29 5문항·정답 후 원문/사전·cold resume·완료 PASS. UI07은 텍스트 교체 이후 키보드가 열린 상태에서 위 재생 버튼을 스크롤하려다 실패했다. 화면 기록에서 키보드 툴바의 닫기 동작을 확인했고, 해당 받아쓰기 경로만 실제 닫기 버튼을 누른 뒤 재생하도록 보완했다. 활용 입력의 키보드 위 제출 검사와 채점/저장 assertion은 유지한다.
+
+앱/DB/광고 SDK가 없는 KeyboardProbe77도 동일 프레임 경고를 냈으나 placeholder selector가 입력 후 바뀌어 두 테스트는 실패했다. 고정 field identifier로 비교한 KeyboardProbe79는3/3 PASS(exit0): 툴바 없음·Spacer 없는 툴바·Spacer 있는 툴바 모두 정확한 입력/제출을 통과했다. 경고는 두 툴바 case에만 재현됐다. 임의로 필수 키보드 닫기를 제거하거나 프레임 경고를 앱 crash/판정 실패로 집계하지 않는다. 이 임시 probe는 저장소169개에 합산하지 않는다.
+
+자동 감사 스크린샷에서 Dark Home Resume 버튼이 어두운 카드 위 indigo 글자로 실제 대비 부족을 보였다. 해당 Text에 semantic primary 전경색을 적용했다. 다른 offscreen/스크롤 reflow의 대비·Dynamic Type·잘림 실패까지 해결했다고 주장하지 않는다. 이 제품 수정과 UI 보완을 포함해 전체169 NativeSmallAwake80을 다시 실행한다. iPhone13ProMax/iOS27.2의 무선 개발 연결도 다시 확인했고, 원본 app support의 읽기 전용 복사본을 보존한 뒤 signed Release UI-only 전체14 PhysicalReleaseFull81을 순차 대기시켰다. 실제 기기에서 Unit/StoreKit cache 초기화 검사는 실행하지 않는다.
+
+Production/fixture114 SHA 불일치0·현재 bundle31테이블/integrity ok/FK0을 재확인했다. VoiceOver는 사용자 명시대로 추후/NOT TESTED, 필수 실패가 남으면 완료/ready/main 병합하지 않는다.

@@ -30,9 +30,12 @@ final class StudyJourneyTests: XCTestCase {
         if target.exists && target.isHittable {
             let enabled = XCTNSPredicateExpectation(predicate:NSPredicate(format:"enabled == true"),object:target)
             XCTAssertEqual(XCTWaiter.wait(for:[enabled],timeout:10),.completed,"Button must finish its transaction before accepting another action",file:file,line:line)
-            // SwiftUI can retain an old AX activation point after the keyboard
-            // moves a bottom inset. Tap the current, verified visible frame.
-            target.coordinate(withNormalizedOffset:CGVector(dx:0.5,dy:0.5)).tap()
+            // A keyboard can leave SwiftUI's activation point at its previous
+            // location. Use the verified current frame in that case; ordinary
+            // navigation keeps XCTest's standard hit-point handling.
+            if app.keyboards.firstMatch.exists {
+                target.coordinate(withNormalizedOffset:CGVector(dx:0.5,dy:0.5)).tap()
+            } else { target.tap() }
         }
     }
     private func reveal(_ target: XCUIElement) -> Bool {
@@ -118,18 +121,39 @@ final class StudyJourneyTests: XCTestCase {
             let selectAll = app.descendants(matching:.any).matching(NSPredicate(
                 format:"label IN %@ AND (elementType == %d OR elementType == %d)",
                 ["すべてを選択","Select All","모두 선택"],XCUIElement.ElementType.menuItem.rawValue,XCUIElement.ElementType.button.rawValue)).firstMatch
-            for _ in 0..<5 {
-                if selectAll.waitForExistence(timeout:1) { break }
-                // At accessibility sizes UIKit puts Select All on the next page.
-                let next = app.buttons.matching(NSPredicate(format:"label IN %@",["進む","Next","다음"])).firstMatch
-                if next.exists { next.tap() } else { break }
+            func revealSelectAll() -> Bool {
+                for _ in 0..<5 {
+                    if selectAll.waitForExistence(timeout:1) { return true }
+                    // At accessibility sizes UIKit puts Select All on the next page.
+                    let next = app.buttons.matching(NSPredicate(format:"label IN %@",["進む","Next","다음"])).firstMatch
+                    if next.exists { next.tap() } else { break }
+                }
+                return selectAll.exists
+            }
+            if !revealSelectAll() {
+                // A short restored answer can occupy only the leading edge of
+                // a wide field. Holding its empty center may show no edit menu.
+                // Retry on the actual text instead of assuming a caret position.
+                let text = field.coordinate(withNormalizedOffset:CGVector(dx:0.03,dy:0.5))
+                text.tap(); text.press(forDuration:1.2)
+                XCTAssertTrue(revealSelectAll(),"The actual restored text must expose Select All\n"+app.debugDescription)
             }
             XCTAssertTrue(selectAll.exists,"Restored text must be selected before replacement\n"+app.debugDescription)
             selectAll.tap()
             field.typeText(XCUIKeyboardKey.delete.rawValue)
+            let cleared = field.value as? String ?? ""
+            XCTAssertTrue(cleared.isEmpty || cleared == field.placeholderValue,"Select All must clear the entire previous answer")
         }
         field.typeText(value)
         XCTAssertEqual(field.value as? String,value,"The UI must receive exactly the intended test answer")
+    }
+    private func closeAnswerKeyboard() {
+        guard app.keyboards.firstMatch.exists else { return }
+        let close = app.toolbars.buttons["閉じる"].firstMatch
+        XCTAssertTrue(close.waitForExistence(timeout:10),"The input keyboard must provide its visible close action")
+        close.coordinate(withNormalizedOffset:CGVector(dx:0.5,dy:0.5)).tap()
+        let hidden = XCTNSPredicateExpectation(predicate:NSPredicate(format:"exists == false"),object:app.keyboards.firstMatch)
+        XCTAssertEqual(XCTWaiter.wait(for:[hidden],timeout:10),.completed)
     }
     private func answerText(_ row: [String:String]) throws -> String {
         let data = Data(try XCTUnwrap(row["answer_json"]).utf8)
@@ -300,6 +324,34 @@ final class StudyJourneyTests: XCTestCase {
         let questions = try rows("SELECT q.*,e.korean,e.japanese,json_extract(q.rubric_json,'$.listening_task') AS task FROM listening_items l JOIN content_items i ON i.id=l.id JOIN examples e ON e.id=l.source_example_id JOIN questions q ON q.listening_id=l.id WHERE i.level='intro' AND l.learning_order/20=0 ORDER BY l.learning_order,l.id")
         XCTAssertEqual(questions.count,12)
         XCTAssertEqual(Set(questions.compactMap { $0["task"] }),Set(["meaning","korean","dictation","comprehension"]))
+        // Preserve an interrupted previous QA run. Finish its remaining real
+        // questions before starting the full twelve-question regression below.
+        let savedIndex = questions.indices.first { app.staticTexts["\($0+1) / \(questions.count)"].exists } ?? 0
+        if savedIndex > 0 || app.staticTexts["✓ 正解"].exists {
+            for index in savedIndex..<questions.count {
+                let q = questions[index]
+                XCTAssertTrue(app.staticTexts["\(index+1) / \(questions.count)"].waitForExistence(timeout:10))
+                if !app.staticTexts["✓ 正解"].exists {
+                    if q["task"] == "dictation" {
+                        replaceInput(try answerText(q)); closeAnswerKeyboard()
+                        tap(app.buttons["聞く"].exists ? "聞く" : "もう一度")
+                        let ready = XCTNSPredicateExpectation(predicate:NSPredicate(format:"enabled == true"),object:app.buttons["答える"])
+                        XCTAssertEqual(XCTWaiter.wait(for:[ready],timeout:40),.completed); tap("答える")
+                    } else {
+                        let id = try XCTUnwrap(q["id"])
+                        let correct = try XCTUnwrap(rows("SELECT c.text FROM question_choices c JOIN questions q ON q.id=c.question_id WHERE q.id='\(id)' AND c.choice_id=json_extract(q.answer_json,'$.correct_choice_ids[0]')").first?["text"])
+                        tap(app.buttons["聞く"].exists ? "聞く" : "もう一度")
+                        XCTAssertTrue(app.buttons[correct].waitForExistence(timeout:40))
+                        let ready = XCTNSPredicateExpectation(predicate:NSPredicate(format:"enabled == true"),object:app.buttons[correct])
+                        XCTAssertEqual(XCTWaiter.wait(for:[ready],timeout:40),.completed); tap(correct)
+                    }
+                    XCTAssertTrue(app.staticTexts["✓ 正解"].waitForExistence(timeout:10))
+                }
+                tap("次へ")
+            }
+            XCTAssertTrue(app.staticTexts["練習完了"].waitForExistence(timeout:10))
+            tap("もう一度練習")
+        }
         var resumedDraft = false
         for (index,q) in questions.enumerated() {
             let korean = try XCTUnwrap(q["korean"])
@@ -315,7 +367,7 @@ final class StudyJourneyTests: XCTestCase {
             if q["task"] == "dictation" {
                 var answer = try answerText(q)
                 while let last = answer.last, ".!?".contains(last) { answer.removeLast() }
-                replaceInput(answer)
+                replaceInput(answer); closeAnswerKeyboard()
                 tap(index == 1 ? "ゆっくり" : "聞く")
                 let ready = XCTNSPredicateExpectation(predicate:NSPredicate(format:"enabled == true"),object:app.buttons["答える"])
                 XCTAssertEqual(XCTWaiter.wait(for:[ready],timeout:30),.completed)
@@ -325,7 +377,9 @@ final class StudyJourneyTests: XCTestCase {
                 let correct = try XCTUnwrap(rows("SELECT c.text FROM question_choices c JOIN questions q ON q.id=c.question_id WHERE q.id='\(id)' AND c.choice_id=json_extract(q.answer_json,'$.correct_choice_ids[0]')").first?["text"])
                 XCTAssertFalse(app.buttons[correct].exists,"Choices must be absent before successful playback")
                 tap(index == 1 ? "ゆっくり" : "聞く")
-                XCTAssertTrue(app.buttons[correct].waitForExistence(timeout:30)); tap(correct)
+                XCTAssertTrue(app.buttons[correct].waitForExistence(timeout:30))
+                let ready = XCTNSPredicateExpectation(predicate:NSPredicate(format:"enabled == true"),object:app.buttons[correct])
+                XCTAssertEqual(XCTWaiter.wait(for:[ready],timeout:40),.completed); tap(correct)
             }
             XCTAssertTrue(app.staticTexts["✓ 正解"].waitForExistence(timeout:10))
             XCTAssertTrue(app.staticTexts["韓国語の原文："+korean].exists)
@@ -339,7 +393,9 @@ final class StudyJourneyTests: XCTestCase {
         let course = "初中級：日常・予定変更・移動・サービス・依頼"
         level("初中級")
         let listening = app.buttons["リスニング・書き取り"]
-        XCTAssertTrue(listening.waitForExistence(timeout:10)); XCTAssertTrue(listening.isHittable)
+        XCTAssertTrue(listening.waitForExistence(timeout:10))
+        XCTAssertTrue(reveal(listening),"Listening entry must be reachable by scrolling on a small screen")
+        XCTAssertTrue(listening.isHittable)
         tap("リスニング・書き取り"); tap(course)
         tap("内容を聞き取る 1 ·",contains:true)
         if app.buttons["もう一度練習"].waitForExistence(timeout:1) { tap("もう一度練習") }
@@ -352,7 +408,9 @@ final class StudyJourneyTests: XCTestCase {
             if !app.staticTexts["✓ 正解"].exists {
                 XCTAssertFalse(app.buttons[correct].exists); XCTAssertFalse(app.staticTexts["韓国語の原文："+korean].exists)
                 tap("聞く")
-                XCTAssertTrue(app.buttons[correct].waitForExistence(timeout:40)); tap(correct)
+                XCTAssertTrue(app.buttons[correct].waitForExistence(timeout:40))
+                let ready = XCTNSPredicateExpectation(predicate:NSPredicate(format:"enabled == true"),object:app.buttons[correct])
+                XCTAssertEqual(XCTWaiter.wait(for:[ready],timeout:40),.completed); tap(correct)
             }
             XCTAssertTrue(app.staticTexts["✓ 正解"].waitForExistence(timeout:10))
             XCTAssertTrue(app.staticTexts["韓国語の原文："+korean].exists)
@@ -477,7 +535,9 @@ final class StudyJourneyTests: XCTestCase {
         XCTAssertFalse(app.buttons[correct].exists)
         XCTAssertFalse(app.staticTexts["韓国語の原文："+korean].exists)
         tap("聞く")
-        XCTAssertTrue(app.buttons[correct].waitForExistence(timeout:40)); tap(correct)
+        XCTAssertTrue(app.buttons[correct].waitForExistence(timeout:40))
+        let ready = XCTNSPredicateExpectation(predicate:NSPredicate(format:"enabled == true"),object:app.buttons[correct])
+        XCTAssertEqual(XCTWaiter.wait(for:[ready],timeout:40),.completed); tap(correct)
         XCTAssertTrue(app.staticTexts["✓ 正解"].waitForExistence(timeout:10))
         XCUIDevice.shared.press(.home); app.activate()
         XCTAssertTrue(app.staticTexts["✓ 正解"].waitForExistence(timeout:10))
